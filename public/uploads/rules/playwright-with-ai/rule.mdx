@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T02:03:02.271Z
+lastUpdated: 2026-05-06T04:13:15.870Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -62,6 +62,10 @@ There are a variety of ways that you can give your AI Agent access to Playwright
 
 For most day-to-day test authoring, building, and usage, the Playwright CLI driven by your AI Agent is faster and cheaper than using the MCP to drive. In many cases, using the CLI with a coding agent uses approximately **4x fewer tokens** compared to a run with the same prompt to an agent using the MCP.
 
+### Using Playwright CLI with Codegen (Optional)
+
+`codegen` is a very useful command that allows for you to record your browser interactions, allowing Playwright to generate the code for the user interactions which you can see in the Playwright Inspector window. Once finishing recording your test, you can stop the recording and press the **copy** button to copy your generated test into your editor of choice. From there, you can then pass that output to your AI Agent as a source material for the AI refactoring.
+
 ### Playwright MCP server
 
 The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree **(i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
@@ -78,6 +82,14 @@ Playwright MCP is best for interactive sessions where the agent needs to explore
   figure=""
   style="warning"
 />
+
+### Playwright Test Agents (Planner, Generator, Healer)
+
+Playwright now comes with three Playwright Test Agents immediately out of the box that wrap around the entire test lifecycle.
+
+* 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
+* 🎭 **Generator **- used to take the Markdown test plan and produce executible Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
+* 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
 
 ## Playwright CLI plus codegen (Recommended)
 
@@ -123,60 +135,10 @@ test('checkout flow', async ({ page }) => {
 
 **Figure: Good example - Role-based locators captured from the live DOM, no arbitrary waits, web-first assertions**
 
-## Playwright MCP server
-
-The [Playwright MCP](https://github.com/microsoft/playwright-mcp) exposes the browser to your agent through the Model Context Protocol. Instead of screenshots, it sends the page's **accessibility tree** (ARIA roles, labels, states) which is deterministic, LLM-friendly, and avoids the cost of vision models.
-
-Install it once, use it everywhere:
-
-```bash
-# Claude Code
-claude mcp add playwright npx @playwright/mcp@latest
-```
-
-```json
-// VS Code, Cursor, Claude Desktop - mcpServers config
-{
-  "mcpServers": {
-    "playwright": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest"]
-    }
-  }
-}
-```
-
-**Best for:** interactive sessions where the agent needs to explore an app, click around, and reason about page state across multiple turns - for example debugging a bug report by reproducing it in the browser.
-
-<boxEmbed
-  body={<>
-    Playwright MCP is **not a security boundary**. It can navigate to any URL the agent asks for and submit any form. Run it with `--isolated` for ephemeral profiles, scope it to safe origins, and never point it at production with real credentials.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-## Playwright Test Agents (Planner, Generator, Healer)
-
-Playwright now ships a set of [official AI agents](https://playwright.dev/docs/test-agents) that wrap the whole test lifecycle. Generate them with one command:
-
-```bash
-npx playwright init-agents --loop=claude
-```
-
-* 🎭 **Planner** - Explores the app and produces a Markdown test plan
-* 🎭 **Generator** - Converts the plan into runnable Playwright Test files, verifying selectors live
-* 🎭 **Healer** - Runs the suite, inspects failures in the browser, and proposes patches
-
-**Best for:** teams that want a structured, repeatable agentic loop for test generation rather than ad-hoc prompting. Works with Claude Code, GitHub Copilot, and Cursor (via the `--loop` flag).
-
 ## Best practices
 
 * **Prefer the accessibility tree** - Whether via MCP or codegen, role-based locators (`getByRole`, `getByLabel`) are roughly **10x more stable** than CSS selectors against agent-generated UI churn
 * **Record then refine** - Capture the flow with codegen first, then ask the agent to refactor. Don't ask the agent to imagine the DOM
-* **Reserve agents for the hard parts** - Keep stable, high-confidence specs as static Playwright tests. Use the agent loop for flaky tests, new features, and high-churn areas
-* **Run the test before declaring success** - The agent should execute `npx playwright test` and read the output, not just write code that "looks right"
 * **Combine with the [Page Object Model](/playwright-page-object-model)** - Agent-generated tests are still tests; structure them so a UI change touches one file, not fifty
 
 ## Further reading
