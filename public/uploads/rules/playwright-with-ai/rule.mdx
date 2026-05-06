@@ -22,24 +22,45 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-05T07:40:20.433Z
+lastUpdated: 2026-05-06T01:28:10.894Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-[Playwright](https://playwright.dev/) is Microsoft's end-to-end browser automation framework. On its own it is a powerful test runner, but paired with an AI coding agent it becomes much more - the agent can write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and automate repetitive web tasks.
+Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real use flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
-There are several ways to give your AI agent access to Playwright, and each one is suited to a different job. Picking the right one keeps your tests reliable and your token bill predictable.
+There are a number of ways to give your AI Agent access to Playwright, whether than be through the MCP, CLI, or otherwise, with each one being best suited for a different job. The decision comes in figuring out and understanding which one to pick.
 
 <endIntro />
 
 ## Why pair Playwright with an AI agent?
 
-Without a browser, an agent has to *guess* what the UI looks like. It writes selectors blindly, can't see the result of its own changes, and ships tests that break the moment they run. Giving the agent Playwright closes that loop:
+Without access to a browser, agents have to guess and assume what the UI looks like. This means that it writes selectors blindly, and can't see the results of its own changes. In turn, it can ship tests that break the moment they're run and build features that look completely wrong without a second thought.
 
-* **UI testing** - Generate end-to-end tests by exploring the real app and self-heal them when selectors drift
-* **Frontend development** - Let the agent open the page it just built, click through it, and verify the change actually works before claiming it is done
-* **Automation and scraping** - Drive multi-step web workflows (form fills, data extraction, scheduled checks) using structured accessibility data instead of brittle screenshots
+By giving the agent Playwright, we can close this loop and set up a sort of iterative inner loop for the agent to check its own changes, allowing for:
+
+* **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development
+* **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made actually work as intended before claiming that it is done, reducing the number of iterative cycles required
+* **Automation and scraping** - have agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data instead of brittle screenshots that break with the slightest UI change
+
+## How can you pair Playwright with an AI agent?
+
+There are a variety of ways that you can give your AI Agent access to Playwright, however, there are a few ways that are built and optimised specifically for AI Agents and those are what perform the best in terms of integration with AI Agents.
+
+### Playwright CLI (Recommended)
+
+<boxEmbed
+  body={<>
+    Although the CLI is more efficient than the MCP, it requires a coding agent and is more designed for coding, testing and is best for those already using agents such as Claude Code, GitHub Copilot, etc.
+    
+    On the other hand, if your workflow involves creating an agentic loop that is performing specific tasks for your scenarios, MCP is still the superior option for that.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+For most day-to-day test authoring, building, and usage, the Playwright CLI driven by your AI Agent is faster and cheaper than using the MCP to drive.
 
 ## Playwright CLI plus codegen (Recommended)
 
