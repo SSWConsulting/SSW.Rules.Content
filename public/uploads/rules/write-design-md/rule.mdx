@@ -8,7 +8,7 @@ guid: 91b677bd-b2ac-404e-ad84-85d8c25bcef3
 created: 2026-05-07T14:40:45.624Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-05-07T14:55:52.212Z
+lastUpdated: 2026-05-07T14:58:17.869Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -27,7 +27,7 @@ Similar to a `SKILL.md`, `SOUL.md` or an `AGENTS.md` file, the `DESIGN.md` file 
 
  
 
-## Why a `DESIGN.md` matters
+## Why does a `DESIGN.md` matter?
 
 When there is either too little context; or too specific instructions when creating new UI/UX elements, AI agents often end up with too much flexibility which will lead to differing results over a site. This creates "[design debt](/rules/design-debt)”. 
 
@@ -42,4 +42,25 @@ Each decision might be fine on its own, but over time they create inconsistency.
 
 A `DESIGN.md` helps stop this by making your UI rules explicit.
 
-## What should be in a `DESIGN.md`
+## What should be in a `DESIGN.md` file?
+
+## How do you use a `DESIGN.md` file?
+
+Put the product’s design rules in DESIGN.md, then make each agent’s instruction file point back to it. This gives Claude, Codex, Copilot, Cursor, and other agents the same design context before they touch the UI.
+
+An example of this for `CLAUDE.md` file: 
+
+```
+# Claude instructions
+
+Before making UI changes, read `DESIGN.md`.
+
+Use `DESIGN.md` as the design source of truth for:
+- Layout
+- Spacing
+- Typography
+- Components
+- Colour usage
+
+Do not introduce new visual patterns if an existing component or token can be reused.
+```
