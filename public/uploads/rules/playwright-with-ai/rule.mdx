@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T01:36:22.283Z
+lastUpdated: 2026-05-07T01:40:28.953Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -99,15 +99,28 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 * **Stateful tasks:** The agent needs to explore an app across multiple turns (e.g. clicking around to figure out how to reproduce a reported bug)
 * You're building an **agentic workflow** where the same browser session carries context between steps (e.g. "log in, add three items to cart, check out, verify the receipt email")
 
-\*\*Trade off: \*\*higher token usage, because the page snapshot is part of the chat context every turn.
+**Trade off:** higher token usage, because the page snapshot is part of the chat context every turn.
 
-#### Docs and Setup
-
-Docs: [https://playwright.dev/mcp/introduction](https://playwright.dev/mcp/introduction)
-
-```
-AI Prompt: add playwright mcp to claude
-```
+<boxEmbed
+  body={<>
+    **Docs: **[**https://playwright.dev/mcp/introduction**](https://playwright.dev/mcp/introduction)
+    
+    **Quick Setup via CLI:**
+    
+    ```bash
+    claude mcp add playwright npx '@playwright/mcp@latest'
+    ```
+    
+    **Verify in Claude Code:**
+    
+    ```
+    /mcp command to see "connected"
+    ```
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 <boxEmbed
   body={<>
