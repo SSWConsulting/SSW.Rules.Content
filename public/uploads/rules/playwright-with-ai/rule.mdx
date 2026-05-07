@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T04:38:03.496Z
+lastUpdated: 2026-05-07T04:55:09.580Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -49,35 +49,28 @@ By giving the agent access to Playwright, we can close this loop and set up an i
 
 There are a variety of ways that you can give your AI Agent access to Playwright, however, there are a few ways that are built and optimised specifically for AI Agents and those are what perform the best in terms of integration with AI Agents.
 
-### 1. Playwright CLI (Recommended)
-
-The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses approximately **4× fewer tokens** than running it through the MCP.
-
-#### Why it's token efficient?
-
-* **Results written to disk:** the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context (instead of a full page snapshot every turn)
-* **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
-
-#### Best for
-
-* **Stateless tasks:** write a test, run a test, debug a failing test, walk a codebase
-* Example: `“Go to 5 tina.io pages and check if everything is working”`
-
 <boxEmbed
   body={<>
-    **Docs:** [https://playwright.dev/agent-cli/introduction](https://playwright.dev/agent-cli/introduction)
-    
-    **Quick Setup with Terminal:**
-    
-    ```bash
-    npm install -g @playwright/cli@latest
-    playwright-cli install --skills
-    ```
+    For more detailed information on the specific commands to use, checkout the [Playwright Documentation](https://playwright.dev/docs/intro)
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
+
+### 1. Playwright CLI
+
+The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses fewer token than running it through the MCP.
+
+#### Why is it token efficient?
+
+* **Results written to disk:** the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context - unlike the MCP, which loads a full page snapshot every turn
+* **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
+
+#### Best for
+
+* **Stateless tasks:** tasks such as writing a test, running a test, or debugging a failing test
+* Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading heirarchy, SEO, and accessibility”`
 
 ### 2. Playwright MCP server
 
@@ -89,27 +82,6 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 * You're building an **agentic workflow** where the same browser session carries context between steps (e.g. "log in, add three items to cart, check out, verify the receipt email")
 
 **Trade off:** higher token usage, because the page snapshot is part of the chat context every turn.
-
-<boxEmbed
-  body={<>
-    **Docs: **[https://playwright.dev/mcp/introduction](https://playwright.dev/mcp/introduction)
-    
-    **Quick Setup with Terminal:**
-    
-    ```bash
-    claude mcp add playwright npx '@playwright/mcp@latest'
-    ```
-    
-    **Verify in Claude Code:**
-    
-    ```
-    /mcp command to see "connected"
-    ```
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
 
 <boxEmbed
   body={<>
@@ -132,23 +104,6 @@ There's a 3rd way to use Playwright with AI that's easy to miss on the docs site
 
 <boxEmbed
   body={<>
-    **Docs:** [https://playwright.dev/docs/test-agents](https://playwright.dev/docs/test-agents)
-    
-    **Quick Setup with Terminal:**
-    
-    ```
-    npx playwright init-agents --loop=claude
-    ```
-    
-    **Video walkthrough:** **[Playwright v1.56: From MCP to Playwright Agents (6 min)](https://www.youtube.com/watch?v=_AifxZGxwuk)**
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-<boxEmbed
-  body={<>
     CLI, MCP, and Test Agents are not mutually exclusive, the strongest workflow combines them:
     
     * **CLI:** stateless tasks
@@ -161,8 +116,6 @@ There's a 3rd way to use Playwright with AI that's easy to miss on the docs site
   figure=""
   style="info"
 />
-
-***
 
 ## Using Playwright for AI-assisted Frontend development
 
