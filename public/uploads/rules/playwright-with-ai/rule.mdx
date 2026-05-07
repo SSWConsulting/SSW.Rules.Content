@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T02:27:09.718Z
+lastUpdated: 2026-05-07T02:55:27.899Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -67,7 +67,7 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest** optio
   body={<>
     **Docs:** [https://playwright.dev/agent-cli/introduction](https://playwright.dev/agent-cli/introduction)
     
-    **Quick Setup:**
+    **Quick Setup with Terminal:**
     
     ```bash
     npm install -g @playwright/cli@latest
@@ -79,9 +79,7 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest** optio
   style="tips"
 />
 
-
 ### 2. Playwright MCP server
-
 
 The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
 
@@ -94,9 +92,9 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 <boxEmbed
   body={<>
-    **Docs: **[**https://playwright.dev/mcp/introduction**](https://playwright.dev/mcp/introduction)
+    \*\*Docs: \*\***[https://playwright.dev/mcp/introduction](https://playwright.dev/mcp/introduction)**
     
-    **Quick Setup via CLI:**
+    **Quick Setup with Terminal:**
     
     ```bash
     claude mcp add playwright npx '@playwright/mcp@latest'
@@ -124,10 +122,9 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
   style="warning"
 />
 
-
 ### 3. Playwright Test Agents (Planner, Generator, Healer)
 
-There's a 3rd way to use Playwright with AI that's easy to miss on the docs site. Playwright ships with 3 out of the box specialized agents that wrap the entire test lifecycle:    
+There's a 3rd way to use Playwright with AI that's easy to miss on the docs site. Playwright ships with 3 out of the box specialized agents that wrap the entire test lifecycle:
 
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
 * 🎭 **Generator** - used to take the Markdown test plan and produce executable Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
@@ -137,13 +134,13 @@ There's a 3rd way to use Playwright with AI that's easy to miss on the docs site
   body={<>
     **Docs:** [https://playwright.dev/docs/test-agents](https://playwright.dev/docs/test-agents)
     
-    **Quick Setup via Terminal:**
+    **Quick Setup with Terminal:**
     
     ```
     npx playwright init-agents --loop=claude
     ```
     
-    **Video walkthrough: **[**Playwright v1.56: From MCP to Playwright Agents (6 min)**](https://www.youtube.com/watch?v=_AifxZGxwuk)** **
+    **Video walkthrough:** **[Playwright v1.56: From MCP to Playwright Agents (6 min)](https://www.youtube.com/watch?v=_AifxZGxwuk)**
   </>}
   figurePrefix="none"
   figure=""
@@ -154,13 +151,9 @@ There's a 3rd way to use Playwright with AI that's easy to miss on the docs site
   body={<>
     CLI, MCP, and Test Agents are not mutually exclusive, the strongest workflow combines them:
     
-    
-    
-    *   **CLI:** stateless scripted automation (CI runs, scheduled tests)
-    *   **MCP: **live exploratory work where the agent needs a stateful browser session
-    *   **Test Agents: **specialised lifecycle: plan → generate → heal
-    
-    
+    * **CLI:** stateless tasks
+    * **MCP:** live exploratory work where the agent needs a stateful browser session
+    * **Test Agents:** specialised lifecycle: plan → generate → heal
     
     Mixing them gives the right tool for each job, lower token cost on tasks that don't need a live browser, and a faster feedback loop overall.
   </>}
