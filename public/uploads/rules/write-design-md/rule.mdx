@@ -1,17 +1,45 @@
 ---
 title: Do you write a DESIGN.md
 uri: write-design-md
+authors:
+  - title: Joshua Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
 guid: 91b677bd-b2ac-404e-ad84-85d8c25bcef3
 created: 2026-05-07T14:40:45.624Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-05-07T14:40:58.606Z
+lastUpdated: 2026-05-07T14:55:52.212Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Intro
+AI tools are powerful, but they need context. Without clear design rules, they can generate UI that looks good in isolation but does not match your product.
+
+A `DESIGN.md` file gives AI tools a shared <mark style="background-color: #FEF08A">source of truth</mark> for how the UI of your site should look and feel. It documents the small decisions that often live only in people’s heads: spacing, typography, button styles, card patterns, colours, tone of voice, responsive behaviour, and interaction states.
 
 <endIntro />
 
-Body
+## What is a `DESIGN.md` file?
+
+In a production environment, Google was the [first to pioneer and open-source](https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-design-md/) the `DESIGN.md` file convention with [Google Stitch](https://stitch.withgoogle.com/). 
+
+Similar to a `SKILL.md`, `SOUL.md` or an `AGENTS.md` file, the `DESIGN.md` file acts as a single source of truth for the brand identity of your project. It is to act as the foundation for design decisions made when creating new content for a site. 
+
+ 
+
+## Why a `DESIGN.md` matters
+
+When there is either too little context; or too specific instructions when creating new UI/UX elements, AI agents often end up with too much flexibility which will lead to differing results over a site. This creates "[design debt](/rules/design-debt)”. 
+
+Design debt often starts when developers (or agents) make reasonable one-off decisions:
+
+* “This card needs a bit more padding”
+* “This button should be slightly smaller”
+* “This heading feels too bold”
+* “This empty state just needs some quick copy”
+
+Each decision might be fine on its own, but over time they create inconsistency. [Do you use AI to reduce design debt?](/rules/reduce-design-debt-with-ai)
+
+A `DESIGN.md` helps stop this by making your UI rules explicit.
+
+## What should be in a `DESIGN.md`
