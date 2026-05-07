@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T01:55:33.606Z
+lastUpdated: 2026-05-07T02:21:24.011Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -124,11 +124,28 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 ### Playwright Test Agents (Planner, Generator, Healer)
 
-Playwright now comes with 3 Playwright Test Agents immediately out of the box that wrap around the entire test lifecycle.
+There's a 3rd way to use Playwright with AI that's easy to miss on the docs site. Playwright ships with 3 out of the box specialized agents that wrap the entire test lifecycle:    
 
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
 * 🎭 **Generator** - used to take the Markdown test plan and produce executable Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
 * 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
+
+<boxEmbed
+  body={<>
+    **Docs:** [https://playwright.dev/docs/test-agents](https://playwright.dev/docs/test-agents)
+    
+    **Quick Setup via Terminal:**
+    
+    ```
+    npx playwright init-agents --loop=claude
+    ```
+    
+    **Video walkthrough: **[**Playwright v1.56: From MCP to Playwright Agents (6 min)**](https://www.youtube.com/watch?v=_AifxZGxwuk)** **
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 ***
 
