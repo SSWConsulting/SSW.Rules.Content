@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T02:21:24.011Z
+lastUpdated: 2026-05-07T02:24:53.378Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -147,7 +147,24 @@ There's a 3rd way to use Playwright with AI that's easy to miss on the docs site
   style="tips"
 />
 
-***
+<boxEmbed
+  body={<>
+    CLI, MCP, and Test Agents are not mutually exclusive, the strongest workflow combines them:
+    
+    
+    
+    *   **CLI:** stateless scripted automation (CI runs, scheduled tests)
+    *   **MCP: **live exploratory work where the agent needs a stateful browser session
+    *   **Test Agents: **specialised lifecycle: plan → generate → heal
+    
+    
+    
+    Mixing them gives the right tool for each job, lower token cost on tasks that don't need a live browser, and a faster feedback loop overall.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
 
 ## Using Playwright for AI-assisted development
 
