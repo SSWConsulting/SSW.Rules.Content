@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T01:30:57.213Z
+lastUpdated: 2026-05-07T01:31:37.556Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -62,11 +62,11 @@ There are a variety of ways that you can give your AI Agent access to Playwright
   style="info"
 />
 
-The Playwright CLI driven by your AI agent is the \*\*fastest and cheapest \*\*option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses approximately **4× fewer tokens** than running it through the MCP.
+The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses approximately **4× fewer tokens** than running it through the MCP.
 
 #### Why it's token efficient?
 
-* \*\*Results written to disk: \*\*the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context (instead of a full page snapshot every turn)
+* **Results written to disk:** the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context (instead of a full page snapshot every turn)
 * **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
 
 #### Best for
@@ -96,7 +96,7 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 #### Best for
 
-* \*\*Stateful tasks: \*\*The agent needs to explore an app across multiple turns (e.g. clicking around to figure out how to reproduce a reported bug)
+* **Stateful tasks:** The agent needs to explore an app across multiple turns (e.g. clicking around to figure out how to reproduce a reported bug)
 * You're building an **agentic workflow** where the same browser session carries context between steps (e.g. "log in, add three items to cart, check out, verify the receipt email")
 
 \*\*Trade off: \*\*higher token usage, because the page snapshot is part of the chat context every turn.
