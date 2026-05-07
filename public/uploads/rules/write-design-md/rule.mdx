@@ -18,10 +18,11 @@ related:
   - rule: public/uploads/rules/design-debt/rule.mdx
   - {}
 guid: 91b677bd-b2ac-404e-ad84-85d8c25bcef3
+seoDescription: A DESIGN.md file gives AI tools a shared source of truth for how the UI of your site should look and feel.
 created: 2026-05-07T14:40:45.624Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-05-07T15:20:07.101Z
+lastUpdated: 2026-05-07T15:25:35.791Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -36,13 +37,11 @@ A `DESIGN.md` file gives AI tools a shared <mark style="background-color: #FEF08
 
 [Google Stitch](https://stitch.withgoogle.com/) helped popularise the DESIGN.md convention and has open-sourced a format specification for describing visual identity to AI coding agents.
 
-Similar to a `SKILL.md`, `SOUL.md` or an `AGENTS.md` file, the `DESIGN.md` file acts as a single source of truth for the brand identity of your project. It is to act as the foundation for design decisions made when creating new content for a site. 
-
- 
+Similar to a `SKILL.md`, `SOUL.md` or an `AGENTS.md` file, the `DESIGN.md` file acts as a single source of truth for the brand identity of your project. It is to act as the foundation for design decisions made when creating new content for a site.
 
 ## Why does a `DESIGN.md` matter?
 
-When there is either too little context; or too specific instructions when creating new UI/UX elements, AI agents often end up with too much flexibility which will lead to differing results over a site. This creates "[design debt](/rules/design-debt)”. 
+When there is either too little context; or too specific instructions when creating new UI/UX elements, AI agents often end up with too much flexibility which will lead to differing results over a site. This creates "[design debt](/rules/design-debt)”.
 
 Design debt often starts when developers (or agents) make reasonable one-off decisions:
 
@@ -62,7 +61,7 @@ A good DESIGN.md should include:
 * **Brand identity** - What the product should feel like
 * **Product voice** - How the UI copy should sound
 * **Design principles** - The rules that guide decisions (e.g. consistency over novelty, reuse components, avoid one-off styling)
-* **Spacing rules **- Your spacing scale, common gaps, card padding, section spacing, and form spacing.
+* \*\*Spacing rules \*\*- Your spacing scale, common gaps, card padding, section spacing, and form spacing.
 * **Typography hierarchy** - Rules for page titles, headings, body text, labels, helper text, and metadata
 * **Colour usage** - When to use primary, secondary, muted, destructive, success, warning, and background colours.
 * **Component patterns** - How buttons, cards, forms, modals, tables, navs, and alerts should look and behave
@@ -78,7 +77,7 @@ The goal is to add the necessary context; but not bloat the file.
 
 Put the product’s design rules in DESIGN.md, then make each agent’s instruction file point back to it. This gives Claude, Codex, Copilot, Cursor, and other agents the same design context before they touch the UI.
 
-An example of this for `CLAUDE.md` file: 
+An example of this for `CLAUDE.md` file:
 
 ```
 # Claude instructions
@@ -97,7 +96,7 @@ Do not introduce new visual patterns if an existing component or token can be re
 
 ## How do you create a `DESIGN.md` file?
 
-Creating a `DESIGN.md` file can be done either manually; or with AI assistance (recommended). 
+Creating a `DESIGN.md` file can be done either manually; or with AI assistance (recommended).
 
 You can work with any agent to create one, however you may get better results with tools designed to craft them:
 
@@ -107,7 +106,7 @@ You can work with any agent to create one, however you may get better results wi
 
 ## Going beyond code
 
-As AI tools become part of more workflows, your `DESIGN.md` should not only help with frontend code. It can also help keep your brand consistent across anything AI generates, such as: 
+As AI tools become part of more workflows, your `DESIGN.md` should not only help with frontend code. It can also help keep your brand consistent across anything AI generates, such as:
 
 * Presentations - Give tools like Claude Cowork your brand rules before creating slides
 * Images - Give ChatGPT image generation your colours, tone, and visual style before creating assets
