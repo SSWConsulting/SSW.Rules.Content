@@ -1,24 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
-created: 2014-12-22 12:28:11+00:00
-guid: 7b56ba87-23be-47a8-a534-f86990c45d44
-redirects:
-- do-you-not-have-height-width-in-an-img-tag
-seoDescription: Avoid specifying height and width attributes in your image tags to
-  maintain responsiveness and prevent images from being stretched or distorted.
+type: rule
 title: Do you avoid having height/width in an image tag?
+uri: avoid-height-width-in-img-tag
 categories:
   - category: categories/websites-and-cms/rules-to-better-websites-graphics.mdx
-type: rule
-uri: avoid-height-width-in-img-tag
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+redirects:
+  - do-you-not-have-height-width-in-an-img-tag
+guid: 7b56ba87-23be-47a8-a534-f86990c45d44
+seoDescription: Avoid specifying height and width attributes in your image tags to maintain responsiveness and prevent images from being stretched or distorted.
+created: 2014-12-22T12:28:11.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-09T00:45:17.666Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+archivedreason: null
 ---
 
-Specifying the width and height properties for an **&lt;img&gt;** tag of HTML can sometimes turn out to be more trouble than it's worth, particularly if the image is later updated with different dimensions. If the height / width ratio doesn't match that of original image, the image might be stretched.
+Specifying the width and height properties for an **\<img>** tag of HTML can sometimes turn out to be more trouble than it's worth, particularly if the image is later updated with different dimensions. If the height / width ratio doesn't match that of original image, the image might be stretched.
 
 Adding fixed widths to your images may also disrupt the responsiveness of your content.
 
@@ -35,25 +39,10 @@ In other words, you should not have the image dimensions specified in HTML unles
 />
 ```
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Stretched image caused by inline height/width ratio that doesn't match"
-  src="/uploads/rules/avoid-height-width-in-img-tag/streched-image.jpg"
-/>
-
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="bad" figure="Stretched image caused by inline height/width ratio that doesn't match" src="/uploads/rules/avoid-height-width-in-img-tag/streched-image.jpg" />
 
 ```html
 <img src="images/codeauditor-logo.png" alt="Code Auditor logo" />
 ```
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Avoiding inline height/width ratio keeps the image as original"
-  src="/uploads/rules/avoid-height-width-in-img-tag/non-streched-image.jpg"
-/>
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="good" figure="Avoiding inline height/width ratio keeps the image as original" src="/uploads/rules/avoid-height-width-in-img-tag/non-streched-image.jpg" />
