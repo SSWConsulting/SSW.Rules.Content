@@ -1,21 +1,26 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
-created: 2015-10-13 00:44:07+00:00
-guid: 3795e298-c889-49e5-b9b1-58dac3d8eaae
-redirects:
-- do-you-exclude-width-and-height-properties-from-image-references-in-content
-seoDescription: Avoid using width and height attributes in image tags to optimize
-  content delivery and improve SEO performance.
+type: rule
 title: Do you avoid having width and height properties in image tags?
+uri: exclude-width-and-height-properties-from-images
 categories:
   - category: categories/websites-and-cms/rules-to-better-websites-graphics.mdx
-type: rule
-uri: exclude-width-and-height-properties-from-images
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+redirects:
+  - do-you-exclude-width-and-height-properties-from-image-references-in-content
+guid: 3795e298-c889-49e5-b9b1-58dac3d8eaae
+seoDescription: Avoid using width and height attributes in image tags to optimize content delivery and improve SEO performance.
+created: 2015-10-13T00:44:07.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-09T00:39:48.932Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: true
+archivedreason: Duplicate of [https://www.ssw.com.au/rules/avoid-height-width-in-img-tag](/rules/avoid-height-width-in-img-tag)
 ---
 
 Specifying the width and height properties for images on your web pages can sometimes turn out to be more trouble than it's worth, particularly if the image is updated with different dimensions. Adding fixed widths to your images also disrupt your content on any responsive websites.
@@ -27,9 +32,11 @@ In other words, you **should not** have the image dimensions specified in HTML u
 ```html
 <img src="image.png" width="93" height="25">
 ```
-**❌ Figure: Bad example - Including the width and height properties for content images**  
+
+**❌ Figure: Bad example - Including the width and height properties for content images**
 
 ```html
 <img src="image.png">
 ```
+
 **✅ Figure: Good example - Exclude width and height properties for content images**
