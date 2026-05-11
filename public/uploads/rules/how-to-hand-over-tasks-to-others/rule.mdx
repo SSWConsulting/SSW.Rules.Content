@@ -125,14 +125,14 @@ If you are handing over an employee responsibility using an intranet, you should
 <emailEmbed
   from=""
   to="Mary"
-  cc="{{ MANAGER }}"
+  cc="&#123;&#123; MANAGER &#125;&#125;"
   bcc=""
   subject="SSW.Admin - Scheduling .NET User Groups handover"
   shouldDisplayBody={true}
   body={<>
     ## Hi Mary
     
-    As per our conversation, this responsibility is now yours: {{ LINK TO INTRANET }}
+    As per our conversation, this responsibility is now yours: &#123;&#123; LINK TO INTRANET &#125;&#125;
     
     As discussed, you'll need to:
     
@@ -142,7 +142,7 @@ If you are handing over an employee responsibility using an intranet, you should
     Regards,\
     Andy
     
-    \<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)>
+    &lt;As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)&gt;
   </>}
   figurePrefix="good"
   figure="Clear reassignment from Andy to Mary"
