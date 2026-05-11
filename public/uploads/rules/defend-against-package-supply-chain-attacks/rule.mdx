@@ -12,7 +12,7 @@ related:
   - rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
   - rule: public/uploads/rules/npm-packages-version-symbols/rule.mdx
   - rule: public/uploads/rules/package-audit-log/rule.mdx
-  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/store-github-secrets-in-keyvault/rule.mdx
   - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
 guid: fa92be5f-9220-4988-bcc2-427c2ee494c2
 seoDescription: Learn how to reduce package supply chain risk with lockfiles, safer installs, dependency reviews, malware scanning, and clear incident response.
@@ -70,7 +70,7 @@ Install scripts such as `postinstall` can run before anyone opens the package. T
     ```
   </>}
   figurePrefix="bad"
-  figure="Bad example - Installing fresh dependencies without reviewing what changed"
+  figure="Installing fresh dependencies without reviewing what changed"
 />
 
 <boxEmbed
@@ -82,7 +82,7 @@ Install scripts such as `postinstall` can run before anyone opens the package. T
     ```
   </>}
   figurePrefix="good"
-  figure="Good example - Reproducing the locked dependency tree and checking known vulnerabilities"
+  figure="Reproducing the locked dependency tree and checking known vulnerabilities"
 />
 
 For sensitive environments, consider blocking install scripts by default and allowing them only when needed:
@@ -154,7 +154,7 @@ Assume dependency installation can execute code. Build agents should have the mi
 * Run installs in containers or isolated runners where practical
 * Cache dependencies by lockfile hash, not by loose package ranges
 
-Learn more on [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines).
+Learn more on [Do you store your GitHub secrets in Azure KeyVault?](/store-github-secrets-in-keyvault).
 
 ## Know what to do when a package is compromised
 
@@ -167,4 +167,6 @@ If a malicious package may have run, treat the machine as compromised. Removing 
 5. Pin or downgrade the package to a known-safe version
 6. Record the decision in the package history
 
-Learn more on [Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions). Record package-specific decisions using [Do you keep a package audit log?](/package-audit-log).
+Learn more on [Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions).
+
+Record package-specific decisions using [Do you keep a package audit log?](/package-audit-log).
