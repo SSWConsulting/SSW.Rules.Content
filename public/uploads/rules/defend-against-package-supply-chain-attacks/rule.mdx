@@ -46,9 +46,29 @@ Most malicious package releases are found quickly, but only after early adopters
 
 Use a 2-week minimum release age by default. Install newer versions only when the team explicitly needs them and has reviewed the package, release notes, ownership, and lockfile changes.
 
-```yaml
-minimumReleaseAge: 20160
-```
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```yaml
+    # pnpm-workspace.yaml
+    minimumReleaseAge: 0
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Allowing brand-new package versions into builds immediately"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```yaml
+    # pnpm-workspace.yaml
+    minimumReleaseAge: 20160
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Waiting 2 weeks before allowing newly released package versions"
+/>
 
 `minimumReleaseAge` is configured in `pnpm-workspace.yaml` and is measured in minutes. If a package truly needs to bypass the window, document why and use the smallest package-name exception possible:
 
@@ -153,6 +173,29 @@ Assume dependency installation can execute code. Build agents should have the mi
 * Keep production secrets out of pull request builds
 * Run installs in containers or isolated runners where practical
 * Cache dependencies by lockfile hash, not by loose package ranges
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```yaml
+    permissions: write-all
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Giving every workflow broad write access"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```yaml
+    permissions:
+      contents: read
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Starting with read-only access and adding only the permissions the workflow needs"
+/>
 
 Learn more on [Do you store your GitHub secrets in Azure KeyVault?](/store-github-secrets-in-keyvault).
 
