@@ -1,0 +1,170 @@
+---
+type: rule
+title: Do you defend against package supply chain attacks?
+uri: defend-against-package-supply-chain-attacks
+authors:
+  - title: Ivan Gaiduk
+    url: https://www.ssw.com.au/people/ivan-gaiduk
+related:
+  - rule: public/uploads/rules/best-package-manager-for-node/rule.mdx
+  - rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
+  - rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
+  - rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
+  - rule: public/uploads/rules/npm-packages-version-symbols/rule.mdx
+  - rule: public/uploads/rules/package-audit-log/rule.mdx
+  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
+guid: fa92be5f-9220-4988-bcc2-427c2ee494c2
+seoDescription: Learn how to reduce package supply chain risk with lockfiles, safer installs, dependency reviews, malware scanning, and clear incident response.
+categories:
+  - category: categories/software-engineering/rules-to-better-code.mdx
+created: 2026-05-11T00:00:00.000Z
+---
+
+Package managers make development faster, but they also let other people's code run on developer machines, build agents, and production images. A trusted package can become dangerous if a maintainer account is compromised, a malicious dependency is added, or install scripts run unexpected code.
+
+The 2026 Axios npm compromise showed the risk clearly. A popular package briefly shipped malicious versions that added a fake dependency. The dependency ran during installation and downloaded malware, even though the normal application code did not need to import it.
+
+For Node.js projects, prefer pnpm because it is fast, strict, and avoids some common dependency surprises. Learn more on [Do you know the best package manager for Node?](/best-package-manager-for-node).
+
+<endIntro />
+
+## Prefer repeatable installs
+
+Lockfiles are the first line of defence. They make installs predictable and stop a fresh install from silently resolving to a newly published malicious version.
+
+* Commit lockfiles such as `pnpm-lock.yaml`, `package-lock.json`, `yarn.lock`, or `packages.lock.json`
+* Use `pnpm install --frozen-lockfile` in CI instead of updating the lockfile during install
+* Do not delete and regenerate lockfiles casually
+* Review lockfile changes in pull requests, especially new transitive dependencies
+
+Learn more on [Do you properly maintain your dependencies?](/maintain-dependencies-correctly).
+
+## Avoid brand-new package versions
+
+Most malicious package releases are found quickly, but only after early adopters have already installed them. A short cooling-off window gives the community, registry maintainers, scanners, and security teams time to spot bad releases before they reach your builds.
+
+Use a 2-week minimum release age by default. Install newer versions only when the team explicitly needs them and has reviewed the package, release notes, ownership, and lockfile changes.
+
+```yaml
+minimumReleaseAge: 20160
+```
+
+`minimumReleaseAge` is configured in `pnpm-workspace.yaml` and is measured in minutes. If a package truly needs to bypass the window, document why and use the smallest package-name exception possible:
+
+```yaml
+minimumReleaseAge: 20160
+minimumReleaseAgeExclude:
+  - "@myorg/internal-package"
+```
+
+## Treat install scripts as code execution
+
+Install scripts such as `postinstall` can run before anyone opens the package. That makes them useful for attackers.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```bash
+    pnpm install --no-frozen-lockfile
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Installing fresh dependencies without reviewing what changed"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```bash
+    pnpm install --frozen-lockfile
+    pnpm audit
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - Reproducing the locked dependency tree and checking known vulnerabilities"
+/>
+
+For sensitive environments, consider blocking install scripts by default and allowing them only when needed:
+
+```bash
+pnpm install --frozen-lockfile --ignore-scripts
+```
+
+This can break packages that legitimately compile native modules or download binaries, so use it where the team can test the impact.
+
+With pnpm, approve dependency build scripts deliberately instead of allowing every package to run install-time code by default. Commit the approved list so changes are reviewed in pull requests:
+
+```yaml
+onlyBuiltDependencies:
+  - "@swc/core"
+  - esbuild
+  - sharp
+```
+
+This allows only those packages to run build scripts during installation. Treat the approval list like code: review it in pull requests and remove approvals that are no longer needed.
+
+Use `pnpm approve-builds` when you want pnpm to guide you through updating this config.
+
+## Scan for malware, not just known CVEs
+
+`npm audit` and Dependabot are useful, but they mostly focus on known vulnerabilities. Supply chain attacks often involve new packages that have no CVE yet.
+
+Add tools that look for suspicious package behaviour, such as:
+
+* Unexpected install scripts
+* Newly created packages
+* Typosquatting
+* Obfuscated code
+* Network calls during installation
+
+Tools such as [Socket](https://socket.dev/), [Snyk](https://snyk.io/), [Sonatype](https://www.sonatype.com/), and [GitHub Advanced Security](https://github.com/security/advanced-security) can help depending on your stack and budget.
+
+Learn more on [Do you monitor your application for vulnerabilities?](/monitor-packages-for-vulnerabilities).
+
+## Prefer packages with provenance
+
+Package provenance is a receipt for how a package was built. It can show the source repository, build workflow, and publishing process behind a package version.
+
+Provenance does not prove the code is safe, but it helps answer an important question: "Did this package really come from the project it claims to come from?"
+
+For important dependencies, prefer packages that publish provenance or clear build information. Be more cautious when a critical package has no visible link between the source code and the published package.
+
+## Be careful with automatic updates
+
+Automatic dependency PRs are good, but automatic merging is risky for high-impact packages. A malicious package can pass normal unit tests while stealing secrets from the machine running the install.
+
+For important applications:
+
+* Require a human review for dependency updates
+* Group low-risk updates, but review high-impact packages separately
+* Check release notes and package ownership changes
+* Avoid wildcard versions in production
+* Pin critical packages when an incident is active
+
+Learn more on [Do you know what the different symbols mean for npm version?](/npm-packages-version-symbols).
+
+## Protect your build environment
+
+Assume dependency installation can execute code. Build agents should have the minimum access needed to build and test.
+
+* Use short-lived credentials
+* Avoid broad cloud permissions on build agents
+* Keep production secrets out of pull request builds
+* Run installs in containers or isolated runners where practical
+* Cache dependencies by lockfile hash, not by loose package ranges
+
+Learn more on [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines).
+
+## Know what to do when a package is compromised
+
+If a malicious package may have run, treat the machine as compromised. Removing the package is not enough.
+
+1. Stop the affected builds and deployments
+2. Identify machines, build agents, and images that installed the bad version
+3. Rotate exposed secrets, tokens, signing certificates, and cloud keys
+4. Rebuild affected environments from a clean base
+5. Pin or downgrade the package to a known-safe version
+6. Record the decision in the package history
+
+Learn more on [Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions). Record package-specific decisions using [Do you keep a package audit log?](/package-audit-log).
