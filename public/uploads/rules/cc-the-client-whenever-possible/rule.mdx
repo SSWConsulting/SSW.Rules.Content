@@ -31,35 +31,13 @@ CC the client from the beginning (unless it’s obvious internal communication).
 
 <endIntro />
 
-## The default - CC the client
-
-When in doubt, CC the client. Transparency builds trust, avoids surprises, and gives the client a chance to flag anything that's wrong before it becomes a problem.
-
-<emailEmbed
-  from=""
-  to="Dave"
-  cc="Bob Northwind"
-  bcc=""
-  subject="Northwind - Introducing Dave for the API integration work"
-  shouldDisplayBody={true}
-  body={<>
-    ## Hi Dave
-    
-    I'd like to introduce you to Bob from Northwind. Bob, Dave is our integration specialist and will be picking up the API work we discussed last week.
-    
-    Dave, could you reach out to Bob to organise a kick-off call?
-  </>}
-  figurePrefix="good"
-  figure="Good example - Client is CC'd on an introduction so they can see who is doing what"
-/>
-
 ## When you should **not** CC the client
 
-There are 2 main exceptions.
+Default to CC'ing the client on anything that touches their work. The 2 cases where you shouldn't:
 
-### 1. Internal business, HR, or anything not directly to do with the client
+### 1. Internal business or HR
 
-If the email is about internal SSW matters - HR, internal resourcing, technical decisions that don't affect deliverables, admin, or finance - leave the client off. They don't need to see it, and including them adds noise.
+Anything not directly to do with the client's work - HR, leave, internal resourcing, finance, admin, or internal technical decisions that don't affect what gets delivered - should stay internal.
 
 <emailEmbed
   from=""
@@ -74,7 +52,7 @@ If the email is about internal SSW matters - HR, internal resourcing, technical 
     Just letting you know I've put in a leave request for next Friday. Can you cover the stand-up?
   </>}
   figurePrefix="bad"
-  figure="Bad example - Internal HR/admin matter, but the client is CC'd unnecessarily"
+  figure="Bad example - Internal HR matter, but the client is CC'd unnecessarily"
 />
 
 <emailEmbed
@@ -90,23 +68,17 @@ If the email is about internal SSW matters - HR, internal resourcing, technical 
     Just letting you know I've put in a leave request for next Friday. Can you cover the stand-up?
   </>}
   figurePrefix="good"
-  figure="Good example - Same email, but kept internal"
+  figure="Good example - Same email, kept internal"
 />
 
 ### 2. Bookings - use your judgement
 
-Bookings are the tricky case. There is **no hard and fast rule** - it comes down to judgement.
+Bookings are the one case that needs judgement. You usually want the client to know who is booked for them, so CC them by default.
 
-On one hand, you want the client to know who is booked for them and when. On the other hand:
+The exception is clients with **multiple people being booked**. CC'ing them on every booking email can flood their inbox and clutter their calendar of bookings for the day - which is noise, not value.
 
-* When a client has multiple people being booked at SSW, CC'ing them on every booking email fills up their inbox and calendar of bookings for the day
-* Several clients have specifically told us they don't want that
-
-A good way to decide:
-
-* **Single or occasional booking** - CC the client so they know who is coming
-* **Client with many ongoing bookings** - skip the CC, especially if they've told you they don't want them
-* **Not sure?** - ask the client once how they'd like to be kept informed, then stick to that
+* **Single or occasional booking** - CC the client
+* **Client has multiple SSW people booked across the day or week** - lean toward leaving them off the routine booking emails
 
 <emailEmbed
   from=""
@@ -120,8 +92,8 @@ A good way to decide:
     
     You are booked for the Northwind project next Wednesday to help Bob review the latest deployment.
   </>}
-  figurePrefix="ok"
-  figure="OK example - One-off booking, so the client is CC'd. Fine for clients who don't get many bookings"
+  figurePrefix="good"
+  figure="Good example - Single booking, so the client is CC'd"
 />
 
 <emailEmbed
@@ -137,16 +109,7 @@ A good way to decide:
     You are booked for the Northwind project next Wednesday to help Bob review the latest deployment.
   </>}
   figurePrefix="good"
-  figure="Good example - Same booking, but the client has previously asked not to be CC'd on bookings, so they are left off"
-/>
-
-<boxEmbed
-  style="info"
-  body={<>
-    **Note:** If a client tells you they don't want to be CC'd on bookings, write it down (e.g., in their CRM record or your team's client notes) so the rest of the team knows too.
-  </>}
-  figurePrefix="none"
-  figure=""
+  figure="Good example - Northwind has 4 SSW people booked this week, so the client is left off the routine booking email to avoid cluttering their calendar"
 />
 
 <boxEmbed
