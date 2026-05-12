@@ -90,6 +90,58 @@ If you created a video, you should conduct a ["Test Please" for videos](/test-pl
 
 If you are doing anything else (e.g. creating a new blog post, updating a Word document, or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere. You can do that via a PBI (ideally) or email (if there is no backlog).
 
+## Replying to a "Test Please"
+
+The reply is the official sign-off that lets the developer deploy. There are 3 possible outcomes:
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+### Hi Brady
+
+**✅ Test Passed**
+
+No critical bugs found - you are ready to deploy {{ PRODUCT }} {{ VERSION }} to production.
+
+Tested:
+
+* {{ FEATURE }}
+* {{ FEATURE }}
+
+Regards,\
+{{ Client }}
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - A clean pass gives the developer the green light to deploy"
+/>
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+### Hi Brady
+
+**⚠️ Test Passed with changes**
+
+Once these bugs are fixed we are ready to go live.
+
+PBIs:
+
+* {{ GITHUB ISSUE LINK }}
+* {{ GITHUB ISSUE LINK }}
+
+Regards,\
+{{ Client }}
+
+  </>}
+  figurePrefix="ok"
+  figure="OK example - A conditional pass - small bugs are tracked as PBIs and must be fixed before deploy"
+/>
+
 
 <boxEmbed
   style="greybox"
@@ -105,7 +157,7 @@ If you are doing anything else (e.g. creating a new blog post, updating a Word d
 
   </>}
   figurePrefix="good"
-  figure="Sometimes it's good to soften the blow with some humour when you have to fail a &quot;test please&quot; email"
+  figure="Good example - Sometimes it's good to soften the blow with some humour when you have to fail a &quot;test please&quot; email"
 />
 
 
