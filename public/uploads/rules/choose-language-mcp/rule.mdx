@@ -1,19 +1,22 @@
 ---
 type: rule
 title: Do you choose the right language for your MCP implementation?
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
-seoDescription: Choosing the correct language for your MCP server can be a hassle.
-  Here are our tips for choosing the right one for your project on industry
-  experience
 uri: choose-language-mcp
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 authors:
   - title: Caleb Williams
-    url: https://www.ssw.com.au/people/caleb-williams
+    url: 'https://www.ssw.com.au/people/caleb-williams'
 guid: bd3708fd-2bb4-49a3-842f-49004a5373d9
-created: 2025-11-06T14:27:47+11:00
-
+seoDescription: Choosing the correct language for your MCP server can be a hassle. Here are our tips for choosing the right one for your project on industry experience
+created: 2025-11-06T03:27:47.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-12T22:41:32.591Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
+
 Choosing the right language for your Model Context Protocol (MCP) project can feel like riding the highway to decision fatigue. You’re inundated with options, but the onus is on you to pick one that truly suits your needs.
 In this rule, we’ll discuss how to choose the right language for your MCP clients and servers, saving you unnecessary pain down the line.
 
@@ -38,23 +41,23 @@ Official SDKs currently exist for the following languages:
 * [Rust](https://github.com/modelcontextprotocol/rust-sdk)
 * [Swift](https://github.com/modelcontextprotocol/swift-sdk)
 
-## The Right Language for Creating MCP Clients
+## The right language for creating MCP clients
 
 When choosing a language for your MCP Client, you should prioritise SDK stability and ecosystem support. The MCP community has official SDKs for multiple languages, and these libraries can be used to create both clients and servers.
 
-### Recommended Language: Python
+### Recommended language: Python
 
 At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP clients. The official SDK is mature, easy to work with, and has strong community support making it an excellent option for most MCP integrations.
 
 We strongly recommend using [FastMCP](https://gofastmcp.com/getting-started/welcome) for this.
 
-### Other Options
+### Other options
 
 We generally recommend .NET for building APIs and enterprise-grade applications. However, in our experience, the official C# MCP library is still evolving, and the developer experience isn’t yet on par with Python.
 
-## The Right Language for Creating MCP servers
+## The right language for creating MCP servers
 
-In our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. Because the client and server operate independently, you’re free to choose different languages for your server. The considerations for choosing a language for your MCP server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
+In our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. Because the client and server operate independently, you’re **free to choose** different languages for your server. The considerations for choosing a language for your MCP server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
 
 * Integration with your existing systems
 * Performance requirements
