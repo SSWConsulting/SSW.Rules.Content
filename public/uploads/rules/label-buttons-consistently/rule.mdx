@@ -1,38 +1,37 @@
 ---
-archivedreason: null
-authors:
-- title: Toby Churches
-  url: https://github.com/TobyChurches
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
-created: 2023-02-01 03:43:00+00:00
-guid: f365576c-a2cd-4710-8e79-7bd5901d55e5
-related:
-- rule: public/uploads/rules/user-authentication-terms/rule.mdx
-seoDescription: Labeling web-based form buttons consistently ensures a seamless user
-  experience by minimizing confusion and learning curves.
-title: Do you know how to label web-based form buttons consistently?
+type: rule
+title: Do you label web form buttons consistently?
+uri: label-buttons-consistently
 categories:
   - category: categories/design/rules-to-better-interfaces-forms.mdx
-type: rule
-uri: label-buttons-consistently
+authors:
+  - title: Toby Churches
+    url: 'https://github.com/TobyChurches'
+  - title: Piers Sinclair
+    url: 'https://www.ssw.com.au/people/piers-sinclair'
+related:
+  - rule: public/uploads/rules/user-authentication-terms/rule.mdx
+  - rule: public/uploads/rules/destructive-button-ui-ux/rule.mdx
+redirects:
+  - do-you-know-the-difference-between-close-and-cancel
+  - do-you-know-to-use-save-save-and-close-on-a-webpage
+  - do-you-name-all-your-ok-buttons-to-be-an-action-eg-save-open-etc
+guid: f365576c-a2cd-4710-8e79-7bd5901d55e5
+seoDescription: Labeling web-based form buttons consistently ensures a seamless user experience by minimizing confusion and learning curves.
+created: 2023-02-01T03:43:00.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-11T23:06:10.009Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+archivedreason: null
 ---
 
-Consistency is a key factor of software development, designing applications that minimise the learning curve through consistent use of componentry and functionality. If buttons with similar functionality are named inconsistently across a web application, it can cause a confusing experience for its users. For example, the buttons used to close a form should be named consistently across your application.
-
-Additionally, buttons should have clear names so the user knows what to expect. For example, it is unclear if a button named **Close** will save (or not save) when closing, so **Cancel** would be clearer. A **Save** button alone is not explicit about the following action for the form (It could close or remain open).
+Consistency helps reduce the learning curve in web applications. When buttons with similar actions are labelled differently across forms, users can become confused about what each action will do.
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Unclear labels on the buttons"
-  src="/uploads/rules/label-buttons-consistently/BadButtonLabels.png"
-/>
-
+For example, **Close** can be unclear because users may not know whether their changes will be saved. **Cancel** is clearer when the form closes without saving. **Save** can also be ambiguous if it is unclear whether the form will stay open or close after saving.
 
 We recommend the web standards of:
 
@@ -40,11 +39,13 @@ We recommend the web standards of:
 * **Save and Close** - Close the form and save any changed data
 * **Cancel** - Close the form without saving
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="This form uses the standard button naming standards (and has the Default buttons set!)"
-  src="/uploads/rules/label-buttons-consistently/GoodFormButtonLabel.png"
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="good" figure="This form uses the standard button naming standards (and has the Default buttons set!)" src="/uploads/rules/label-buttons-consistently/GoodFormButtonLabel.png" />
+
+<boxEmbed
+  body={<>
+    Avoid vague labels like **OK** when a clearer verb is available. Button labels should describe the action and the result, so users know exactly what to expect.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
 />
