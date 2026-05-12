@@ -20,7 +20,7 @@ seoDescription: CC the client from the beginning to ensure transparency and accu
 created: 2020-09-01T17:07:23.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-05-12T06:21:52.468Z
+lastUpdated: 2026-05-12T06:32:24.890Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
@@ -47,15 +47,17 @@ This refers to anything that is not directly to do with the client's work - thin
   to="Dave"
   cc="Bob Northwind"
   bcc=""
-  subject="Leave request for next Friday"
+  subject="Covering for Friday"
   shouldDisplayBody={true}
   body={<>
-    ## Hi Dave
+    ## Hi Dave,
     
-    Just letting you know I've put in a leave request for next Friday. Can you cover the stand-up?
+    I am not booked in to be working for Northwind on Friday, so I will be working on internal projects. Just letting you know that I've put in a leave request for this Friday.
+    
+    1. Can you please cover running the daily scrum meeting.
   </>}
   figurePrefix="bad"
-  figure="Bad example - Internal HR matter, but the client is CC'd unnecessarily"
+  figure="Internal HR matter, but the client is CC'd even though it's unrelated to the client's project work"
 />
 
 <emailEmbed
@@ -63,15 +65,17 @@ This refers to anything that is not directly to do with the client's work - thin
   to="Dave"
   cc=""
   bcc=""
-  subject="Leave request for next Friday"
+  subject="Covering for Friday"
   shouldDisplayBody={true}
   body={<>
     ## Hi Dave
     
-    Just letting you know I've put in a leave request for next Friday. Can you cover the stand-up?
+    Just letting you know that I've put in a leave request for this Friday.
+    
+    1. Can you please cover running the daily scrum meeting
   </>}
   figurePrefix="good"
-  figure="Good example - Same email, kept internal"
+  figure="The same email, keep internal"
 />
 
 ### Bookings
@@ -102,7 +106,7 @@ However, there are exceptions to these rules, for example, clients with **multip
   body={<>
     ## Hi Dave
     
-    You have been booked for Northwind for 2 days on &#123;&#123; DD/MM/YYYY &#125;&#125; for a Spec Review.
+    You have been booked for Northwind for 2 days on {{ DD/MM/YYYY }} for a Spec Review.
   </>}
   figurePrefix="good"
   figure="Short term booking, so the client is CC'd"
@@ -118,17 +122,8 @@ However, there are exceptions to these rules, for example, clients with **multip
   body={<>
     ## Hi Dave
     
-    You are booked for the Northwind project next Wednesday to help Bob review the latest deployment.
+    You are booked in with {{ DEVELOPER 1 }}, {{ DEVELOPER 2}}, … for Northwind to work on this project from {{ DD/MM/YYYY }} to {{ DD/MM/YYYY }}.
   </>}
   figurePrefix="good"
-  figure="Good example - Northwind has 4 SSW people booked this week, so the client is left off the routine booking email to avoid cluttering their calendar"
-/>
-
-<boxEmbed
-  style="tips"
-  body={<>
-    **Tip:** When in doubt, ask yourself: *"Does the client need to know about or act on this email?"* If yes, CC them. If no, leave them off.
-  </>}
-  figurePrefix="none"
-  figure=""
+  figure="Northwind has multiple SSW people booked for an extended period of time, so the client is left off the routine booking email to avoid cluttering their calendar"
 />
