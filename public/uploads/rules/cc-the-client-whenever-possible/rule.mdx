@@ -20,7 +20,7 @@ seoDescription: CC the client from the beginning to ensure transparency and accu
 created: 2020-09-01T17:07:23.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-05-12T06:35:21.909Z
+lastUpdated: 2026-05-12T06:40:33.353Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
@@ -40,7 +40,7 @@ By default, you should always CC the client on any communication that involves t
 
 <boxEmbed
   body={<>
-    Clients can have their own preferences on the level of communication they want to receive, and those preferences take priority over static rules.
+    Clients can have their own preferences on the level of communication they want to receive, and those preferences always take priority over static rules
   </>}
   figurePrefix="none"
   figure=""
@@ -87,7 +87,7 @@ This refers to anything that is not directly to do with the client's work - thin
   figure="The same email, keep internal"
 />
 
-### Bookings
+### Emails for client bookings
 
 <boxEmbed
   body={<>
@@ -115,7 +115,7 @@ However, there are exceptions to these rules, for example, clients with **multip
   body={<>
     ## Hi Dave
     
-    You have been booked for Northwind for 2 days on &#123;&#123; DD/MM/YYYY &#125;&#125; for a Spec Review.
+    You have been booked for Northwind for 2 days on {{ DD/MM/YYYY }} for a Spec Review.
   </>}
   figurePrefix="good"
   figure="Short term booking, so the client is CC'd"
@@ -131,7 +131,7 @@ However, there are exceptions to these rules, for example, clients with **multip
   body={<>
     ## Hi Dave
     
-    You are booked in with &#123;&#123; DEVELOPER 1 &#125;&#125;, &#123;&#123; DEVELOPER 2&#125;&#125;, … for Northwind to work on this project from &#123;&#123; DD/MM/YYYY &#125;&#125; to &#123;&#123; DD/MM/YYYY &#125;&#125;.
+    You are booked in with {{ DEVELOPER 1 }}, {{ DEVELOPER 2}}, … for Northwind to work on this project from {{ DD/MM/YYYY }} to {{ DD/MM/YYYY }}.
   </>}
   figurePrefix="good"
   figure="Northwind has multiple SSW people booked for an extended period of time, so the client is left off the routine booking email to avoid cluttering their calendar"
