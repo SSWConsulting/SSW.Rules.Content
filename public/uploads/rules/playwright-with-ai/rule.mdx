@@ -117,7 +117,7 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
   </>}
   figurePrefix="none"
   figure=""
-  style="tips"
+  style="info"
 />
 
 Playwright ships with 3 out of the box agents that help wrap the test lifecycle. This is the recommended way of using Playwright with agents, they are:
@@ -130,15 +130,15 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
 
 * **Complete end-to-end testing loop:** As frontend tests are notoriously brittle and sensitive to change, the testing loop of plan —> generate —> heal, reduces the repetition and pain of having to fix frontend tests as they become outdated or broken.
 
-\*\*Trade off: \*\*as the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
+**Trade off:** As the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
 
 <boxEmbed
   body={<>
     CLI, MCP, and Test Agents are not mutually exclusive, the strongest workflow combines them:
     
-    * **CLI:** stateless tasks
-    * **MCP:** live exploratory work where the agent needs a stateful browser session
-    * **Test Agents:** specialised lifecycle: plan → generate → heal
+    * **CLI:** Stateless tasks
+    * **MCP:** Live exploratory work where the agent needs a stateful browser session
+    * **Test Agents:** Specialised lifecycle: plan → generate → heal
     
     Mixing them gives the right tool for each job, lower token cost on tasks that don't need a live browser, and a faster feedback loop overall.
   </>}
