@@ -24,7 +24,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-13T07:15:49.671Z
+lastUpdated: 2026-05-13T07:43:59.342Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -113,7 +113,7 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 <boxEmbed
   body={<>
-    These Playwright Test Agents are custom agents, and you can call them via the CLI definition of your AI of choice (e.g. using `@ &#123;&#123; AGENT NAME &#125;&#125;` when working with Claude)
+    These Playwright Test Agents are custom agents, and you can call them via the CLI definition of your AI of choice (e.g. using `@ {{ AGENT NAME }}` when working with Claude)
   </>}
   figurePrefix="none"
   figure=""
@@ -130,7 +130,7 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
 
 * **Complete end-to-end testing loop:** As frontend tests are notoriously brittle and sensitive to change, the testing loop of plan —> generate —> heal, reduces the repetition and pain of having to fix frontend tests as they become outdated or broken.
 
-**Trade off: **as the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
+\*\*Trade off: \*\*as the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
 
 <boxEmbed
   body={<>
