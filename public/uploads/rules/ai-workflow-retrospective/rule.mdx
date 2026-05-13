@@ -1,7 +1,20 @@
 ---
+type: rule
 title: Do you reflect on your AI workflow?
 uri: ai-workflow-retrospective
+seoDescription: Learn how to run a regular retrospective on your AI coding workflow using Claude Code's /insights, Cursor analytics, and GitHub Copilot dashboards to spot friction and codify good habits.
 guid: 393d561a-f244-4331-8260-6c739da923b4
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: https://www.ssw.com.au/people/michael-qiu
+related:
+  - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+  - rule: public/uploads/rules/ai-cli-tools/rule.mdx
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+  - rule: public/uploads/rules/do-a-retrospective/rule.mdx
 created: 2026-05-13T05:27:27.319Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -10,8 +23,91 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+Most developers now use AI coding tools every day, but very few look back at *how* they are actually using them. Bad habits compound silently. The same friction points keep slowing you down. The repeated instructions you type into every session are a signal that your `AGENTS.md` is missing context.
+
+Just like a [sprint retrospective](/do-a-retrospective) for your team, your personal AI workflow deserves a regular review.
 
 <endIntro />
 
-Body
+## Why bother?
+
+Your AI tool sees patterns in your behaviour that you cannot see yourself:
+
+* The five-line prompt you keep retyping that should be a [skill](/ai-agents-with-skills) or a chat mode
+* The tool you reach for that consistently produces worse results than its alternative
+* The same correction you give every session ("don't use em dashes", "stop adding comments") that should live in [`AGENTS.md`](/write-agents-md)
+* The languages and project areas where you spend the most time vs. where you *think* you do
+
+Without a retrospective, this feedback never reaches you. You just feel vaguely slower than you should be.
+
+## How to run an AI workflow retrospective
+
+### Claude Code: `/insights`
+
+Claude Code ships with a built-in command that does most of the work for you. Run `/insights` in any session and it analyses your last 30 days of conversations, then opens an interactive HTML report saved locally to `~/.claude/usage-data/report.html`.
+
+The report includes:
+
+* **Statistics dashboard** - session counts, files modified, lines added/removed, tool usage breakdown
+* **Project breakdown** - which codebases you spent the most time in
+* **Friction analysis** - recurring errors, failed commands, retried prompts
+* **Auto-generated CLAUDE.md suggestions** - patterns it spotted that you may want to codify
+* **Time-of-day chart** - when you actually do your AI work
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Privacy:** `/insights` runs entirely on your machine. Your source code is never uploaded. The analysis looks at session metadata in `~/.claude/`, not your repos.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Cursor: Team Analytics dashboard
+
+Cursor's [Analytics dashboard](https://cursor.com/docs/account/teams/analytics) (Teams and Enterprise plans) gives admins per-user and aggregate metrics: AI share of committed code, agent edit acceptance rate, tab completions, and adoption trends. Data can be exported via API for deeper analysis.
+
+### GitHub Copilot: `/context` and the org dashboard
+
+Use `/context` in a Copilot chat to inspect the token usage of your current conversation. For team-level visibility, GitHub Copilot's organization admin dashboard shows seat adoption, suggestions accepted, and chat usage broken down by user.
+
+### Other tools
+
+For Gemini CLI, Codex CLI, and OpenCode, there is no built-in personal retrospective command yet. Third-party trackers like [ccusage](https://ccusage.com/) or [caut](https://github.com/Dicklesworthstone/coding_agent_usage_tracker) can fill the cost-tracking gap, but you will need to do the workflow reflection yourself by skimming session history.
+
+## What to do with the findings
+
+A report you do not act on is wasted. After each retrospective, do at least one of:
+
+✅ **Codify a repeated instruction** - move it from your prompts into [`AGENTS.md`](/write-agents-md) (and let it [flow to other tools via symlinks](/symlink-agents-to-claude))
+
+✅ **Turn a repeated workflow into a skill or chat mode** - if you keep doing the same multi-step task, package it (see [GitHub Copilot Chat Modes](/github-copilot-chat-modes))
+
+✅ **Drop or swap a tool** - if your data shows one tool consistently underperforms for a task, switch it for that task
+
+✅ **Tighten your context** - if friction analysis shows repeated failed reads or wrong-file edits, your `AGENTS.md` is probably missing project structure hints
+
+## Cadence
+
+Monthly is the sweet spot. Weekly is too noisy (not enough sessions to spot patterns); quarterly is too late (bad habits have already calcified).
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Add the retrospective to your calendar on the same day you do your sprint retrospective. Two retros, one ritual.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## A word of caution
+
+The auto-generated suggestions are pattern-matched from repetition, not judgement. They can codify a bad habit as easily as a good one. Treat them as a draft, not gospel:
+
+❌ **Don't auto-apply** - read each suggestion and ask whether it would help future-you
+
+❌ **Don't trust the work-style classification blindly** - it can mislabel exploratory work or abandoned threads as a "specialty"
+
+❌ **Don't skip the manual review** - the most valuable insight often comes from skimming your own friction list, not from the auto-generated rules
+
+The goal is not to optimise for the metrics. The goal is to notice the bottlenecks you have stopped noticing.
