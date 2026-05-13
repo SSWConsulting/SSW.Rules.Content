@@ -24,7 +24,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-07T07:28:40.510Z
+lastUpdated: 2026-05-13T07:15:49.671Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -111,11 +111,26 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 ### 3. Playwright Test Agents (Planner, Generator, Healer)
 
+<boxEmbed
+  body={<>
+    These Playwright Test Agents are custom agents, and you can call them via the CLI definition of your AI of choice (e.g. using `@ {{ AGENT NAME }}` when working with Claude)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
 Playwright ships with 3 out of the box agents that help wrap the test lifecycle. This is the recommended way of using Playwright with agents, they are:
 
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
 * 🎭 **Generator** - used to take the Markdown test plan and produce executable Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
 * 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
+
+#### Best for
+
+* **Complete end-to-end testing loop:** As frontend tests are notoriously brittle and sensitive to change, the testing loop of plan —> generate —> heal, reduces the repetition and pain of having to fix frontend tests as they become outdated or broken.
+
+**Trade off: **as the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
 
 <boxEmbed
   body={<>
