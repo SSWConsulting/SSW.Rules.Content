@@ -18,7 +18,7 @@ seoDescription: 'Learn how Claude Code''s /insights command analyses your last 3
 created: 2026-05-13T05:27:27.319Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-14T02:50:43.577Z
+lastUpdated: 2026-05-14T02:54:07.670Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -40,12 +40,12 @@ Like many things in life, reflecting upon your own behaviour without bias is har
 
 ## What does /insights actually do?
 
-By running `/insights`, Claude Code analyses your last 30 days of conversations, then opens an interactive HTML report saved locally to `~/.claude/usage-data/report.html`. The report analyses your 
+After running `/insights`, Claude Code analyzes your past 30 days of conversations with it. It then analyses and generates an interactive HTML report, saved locally to `~/.claude/usage-data/report`. The report analyses the types and number of interactions that you have with Claude Code, the issues that you run into, projects you've been working on, and recommends potential areas of improvement.
 
 <boxEmbed
   style="info"
   body={<>
-    **Privacy:** `/insights` only reads session metadata stored under `~/.claude/`. It never touches the files in your repositories.
+    **Privacy: **Concerns around the privacy of all the conversation data from Claude Code conversations are valid, however, `/insights` only reads session metadata stored under `~/.claude/`. It never touches the files in your repositories.
   </>}
   figurePrefix="none"
   figure=""
