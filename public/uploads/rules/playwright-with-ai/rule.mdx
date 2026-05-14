@@ -26,14 +26,14 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-14T08:03:58.402Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-05-14T12:44:09.007Z
+lastUpdatedBy: Andrew Waltos
+lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
 
 Playwright is Microsoft's end-to-end browser automation framework. It used to be about writing frontend tests. These days, it's so much more. By pairing your AI Agent with Playwright, you can give the Agent the ability to write tests, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
-Checkout the 3 best ways of using Playwright with AI below!
+Check out the 3 best ways of using Playwright with AI below!
 
 <endIntro />
 
@@ -84,7 +84,7 @@ There are a variety of ways that you can give your AI Agent access to Playwright
 
 ### 1. Playwright MCP server
 
-The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
+The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it from there, it sends the page's **accessibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
 
 #### Best for
 
@@ -106,7 +106,7 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
 
 ### 2. Playwright CLI
 
-The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses fewer token than running it through the MCP.
+The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses fewer tokens than running it through the MCP.
 
 #### Why is it token efficient?
 
@@ -116,7 +116,7 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest** optio
 #### Best for
 
 * **Stateless tasks:** tasks such as writing a test, running a test, or debugging a failing test
-* Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading heirarchy, SEO, and accessibility”`
+* Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading hierarchy, SEO, and accessibility”`
 
 ### 3. Playwright Test Agents (Planner, Generator, Healer)
 
@@ -133,7 +133,7 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
 
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
 * 🎭 **Generator** - used to take the Markdown test plan and produce executable Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
-* 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
+* 🎭 **Healer** - automatically heals the tests created by the Generator agent that fail, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
 
 #### Best for
 
@@ -156,11 +156,4 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
   style="info"
 />
 
-<imageEmbed
-  alt="Venn diagram comparing the tools provided by Playwright MCP and Playwright Test MCP, with shared browser automation tools in the overlap"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Playwright MCP and Playwright Test MCP share the core browser_* tools, but each adds its own specialised capabilities - one for broad browser control, the other for test-runner awareness"
-  src="/uploads/rules/playwright-with-ai/playwright-mcp-test-mcp-venn.png"
-/>
+<imageEmbed alt="Venn diagram comparing the tools provided by Playwright MCP and Playwright Test MCP, with shared browser automation tools in the overlap" size="large" showBorder={false} figurePrefix="none" figure="Playwright MCP and Playwright Test MCP share the core browser_* tools, but each adds its own specialised capabilities - one for broad browser control, the other for test-runner awareness" src="/uploads/rules/playwright-with-ai/playwright-mcp-test-mcp-venn.png" />
