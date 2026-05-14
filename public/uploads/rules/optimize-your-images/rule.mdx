@@ -38,7 +38,7 @@ Some tips and techniques to keep in mind as you work on optimizing your images:
 * **Don't be afraid to dial down the "quality" settings** if the results are very good and byte savings are significant
 * **Remove unnecessary image metadata** like geo information, camera information, and so on
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Optimizilla reduced the image in 31%" src="/uploads/rules/optimize-your-images/optimizeexample.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Optimizilla reduced the image in 31%" src="/uploads/rules/optimize-your-images/optimizeexample.png" />
 
 ***
 
@@ -46,18 +46,18 @@ Some tips and techniques to keep in mind as you work on optimizing your images:
 
 If your website is running on WordPress you should install and activate the plugin [WP Smush](https://wordpress.org/plugins/wp-smushit). It scans every image you upload – or have already added to your site – cuts all the unnecessary data and scales it for you before adding it to your media library.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="WP Smush plugin saved 9.4MB from one website" src="/uploads/rules/optimize-your-images/wp-smush.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="WP Smush plugin saved 9.4MB from one website" src="/uploads/rules/optimize-your-images/wp-smush.jpg" />
 
 ***
 
-### Modern Alternative: Use Next.js for Automatic Optimization
+### Modern alternative: Use Next.js for automatic optimization
 
 If you are building your site with a modern framework like Next.js, you can eliminate manual image optimization from your workflow entirely. By using the built-in \<Image /> component, the framework handles the heavy lifting automatically:
 
-•	On-Demand Compression: Next.js resizes and compresses images on the fly. You can upload a high-resolution "master" image to your CMS, and the framework will serve a perfectly sized, compressed version to the end user.
+* **On-Demand Compression** - Next.js resizes and compresses images on the fly. You can upload a high-resolution "master" image to your CMS, and the framework will serve a perfectly sized, compressed version to the end user
 
-•	Modern Formats (WebP/AVIF): It automatically detects if a user's browser supports next-gen formats like WebP or AVIF and serves those instead of older, heavier JPEGs or PNGs.
+* **Modern Formats (WebP/AVIF)** - It automatically detects if a user's browser supports next-gen formats like WebP or AVIF and serves those instead of older, heavier JPEGs or PNGs
 
 Your content editors can simply upload high-quality images to a Headless CMS (e.g. [TinaCMS](https://tina.io)) without worrying about "running an optimizer". The developer configures the rules once, and the framework ensures every visitor gets an optimized experience.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Multiple alterations of the source image are created when uploading via TinaCMS to ensure optimal performance." src="/uploads/__staging/tina/public/uploads/rules/optimize-your-images/rule/__file/rules/optimize-your-images/next-image-optimization.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Multiple alterations of the source image are created when uploading via TinaCMS to ensure optimal performance." src="/uploads/__staging/tina/public/uploads/rules/optimize-your-images/rule/__file/rules/optimize-your-images/next-image-optimization.jpg" />
