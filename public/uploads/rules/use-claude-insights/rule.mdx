@@ -14,24 +14,33 @@ related:
   - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
   - rule: public/uploads/rules/do-a-retrospective/rule.mdx
 guid: 393d561a-f244-4331-8260-6c739da923b4
-seoDescription: "Learn how Claude Code's /insights command analyses your last 30 days of AI sessions and generates a personalised report covering project areas, tool usage, friction points, and suggested CLAUDE.md rules."
+seoDescription: 'Learn how Claude Code''s /insights command analyses your last 30 days of AI sessions and generates a personalised report covering project areas, tool usage, friction points, and suggested CLAUDE.md rules.'
 created: 2026-05-13T05:27:27.319Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-14T00:00:00.000Z
+lastUpdated: 2026-05-14T02:50:43.577Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-As AI continues to improve, more developers are weaving AI coding tools into their day-to-day workflow. However, only a few ever look back on **how** they are actually using their agents, and ways to improve that. Bad habits can compound, and the same friction points can continue hindering your development process without you noticing.
+As AI continues to improve, developers are increasingly integrating AI tools into their everyday workflows. However, very few people reflect upon **how** they are actually using their agents. As a result, bad habits can compound, and the same few friction points can continue hindering your development process without you noticing.
 
-Reflecting on your own behaviour without bias is hard. This is where Claude Code's `/insights` command comes in - it reads your recent session history and turns it into a personalised report of how you actually work with your agent, where you get stuck, and what you could do differently.
+Like many things in life, reflecting upon your own behaviour without bias is hard. This is where Claude Code's `/insights` command comes in - it reads your recent session history and turns it into a personalised report of how you actually work with your agent, where you get stuck, and suggestions on how you could improve.
 
 <endIntro />
 
-## What `/insights` does
+<boxEmbed
+  body={<>
+    Although yes, `/insights` is a Claude Code exclusive command, the same principles apply, and you can achieve the same or similar results through custom Skills which can be made from feeding your AI Agent of choice this rule. For more on custom Skills, checkout our rule on [Do you use skills to standardize your AI workflows?](https://www.ssw.com.au/rules/ai-agents-with-skills)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
-Run `/insights` in any Claude Code session and it analyses your last 30 days of conversations, then opens an interactive HTML report saved locally to `~/.claude/usage-data/report.html`. The whole analysis runs on your machine - your source code is never uploaded.
+## What does /insights actually do?
+
+By running `/insights`, Claude Code analyses your last 30 days of conversations, then opens an interactive HTML report saved locally to `~/.claude/usage-data/report.html`. The report analyses your 
 
 <boxEmbed
   style="info"
