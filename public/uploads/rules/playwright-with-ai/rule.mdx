@@ -24,12 +24,12 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-14T06:24:10.174Z
+lastUpdated: 2026-05-14T06:25:44.114Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-&#123;&#123; TODO: Be clearer about the problem this rule is trying to solve - Playwright tests are great, writing and fixing them manually not so much &#125;&#125;
+{{ TODO: Be clearer about the problem this rule is trying to solve - Playwright tests are great, writing and fixing them manually not so much }}
 
 Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
@@ -41,11 +41,11 @@ There are a number of ways to give your AI Agent access to Playwright, whether t
 
 ## Why pair Playwright with an AI agent?
 
-&#123;&#123; TODO: Needs work -  &#125;&#125; Without access to a browser, agents have to guess and assume what the UI looks like.
+{{ TODO: Needs work -  }} Without access to a browser, agents have to guess and assume what the UI looks like.
 
 * It writes tests blindly
 * It can't see the result of code changes and how they render on screen
-* &#123;&#123; ETC. Other bad points &#125;&#125;
+* {{ ETC. Other bad points }}
 
 In turn, AI can ship tests that break the moment they're run as well as building features that look or behave incorrectly.
 
@@ -117,19 +117,6 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest** optio
 
 * **Stateless tasks:** tasks such as writing a test, running a test, or debugging a failing test
 * Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading heirarchy, SEO, and accessibility”`
-
- higher token usage, because the page snapshot is part of the chat context every turn.
-
-<boxEmbed
-  body={<>
-    Playwright MCP is **NOT** a security boundary. By default, it can navigate to any URL that the agent asks for, and submit any form.
-    
-    You should **always** scope it to **safe origins**, and never point it at production with real credentials.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
 
 ### 3. Playwright Test Agents (Planner, Generator, Healer)
 
