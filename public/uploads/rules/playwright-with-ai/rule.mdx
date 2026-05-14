@@ -24,12 +24,12 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-14T06:25:44.114Z
+lastUpdated: 2026-05-14T06:27:58.765Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-&#123;&#123; TODO: Be clearer about the problem this rule is trying to solve - Playwright tests are great, writing and fixing them manually not so much &#125;&#125;
+{{ TODO: Be clearer about the problem this rule is trying to solve - Playwright tests are great, writing and fixing them manually not so much }}
 
 Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
@@ -41,11 +41,11 @@ There are a number of ways to give your AI Agent access to Playwright, whether t
 
 ## Why pair Playwright with an AI agent?
 
-&#123;&#123; TODO: Needs work -  &#125;&#125; Without access to a browser, agents have to guess and assume what the UI looks like.
+{{ TODO: Needs work -  }} Without access to a browser, agents have to guess and assume what the UI looks like.
 
 * It writes tests blindly
 * It can't see the result of code changes and how they render on screen
-* &#123;&#123; ETC. Other bad points &#125;&#125;
+* {{ ETC. Other bad points }}
 
 In turn, AI can ship tests that break the moment they're run as well as building features that look or behave incorrectly.
 
@@ -134,6 +134,15 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
 * 🎭 **Generator** - used to take the Markdown test plan and produce executable Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
 * 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
+
+<boxEmbed
+  body={<>
+    Historically, frontend tests are often the most brittle and high maintenance tests a project has. The Playwright Healer agent is a godsend for developers in keeping on top of their frontend test maintenance. No more excuses for broken tests! 😜
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 #### Best for
 
