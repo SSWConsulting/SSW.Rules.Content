@@ -41,6 +41,7 @@ mcp-scripts:
 
 permissions: read-all
 
+
 network:
   allowed:
     - defaults
@@ -62,9 +63,10 @@ tools:
   github:
     lockdown: false
     toolsets: [issues, repos, search, labels, pull_requests]
-    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
+    github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 post-steps:
+
   - name: Check if work was done
     id: noop-check
     if: always()
@@ -107,54 +109,18 @@ post-steps:
 
   - name: Ensure skipped files artifact is readable
     if: always() && steps.noop-check.outputs.did_work == 'true'
-    run: chmod a+r /tmp/gh-aw/skipped_files.txt 2>/dev/null || true
+    run: chmod a+r /tmp/gh-aw/skipped_files.txt /tmp/gh-aw/label_name.txt 2>/dev/null || true
 
   - name: Upload Agent Artifacts
     if: always() && steps.noop-check.outputs.did_work == 'true'
     uses: actions/upload-artifact@v7
     with:
       name: ${{ github.run_id }}
-      path: /tmp/gh-aw/skipped_files.txt
+      path: |
+        /tmp/gh-aw/skipped_files.txt
+        /tmp/gh-aw/label_name.txt
       if-no-files-found: error
       retention-days: 7
-
-  - name: Trigger Agent 2b (PR Creator)
-    if: success() && steps.noop-check.outputs.did_work == 'true'
-    env:
-      GH_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
-      INPUT_JUDGE_RUN_ID: ${{ github.run_id }}
-    run: |
-      set -euo pipefail
-
-      # Read the label written by the agent
-      LABEL_NAME=""
-      if [ -f /tmp/gh-aw/label_name.txt ]; then
-        LABEL_NAME=$(cat /tmp/gh-aw/label_name.txt | tr -d '[:space:]')
-      fi
-      if [ -z "$LABEL_NAME" ]; then
-        echo "::error::Agent did not write a label to /tmp/gh-aw/label_name.txt — cannot trigger Agent 2b."
-        exit 1
-      fi
-
-      git fetch origin main --depth 1
-      # Snapshot path convention (Agent 1): .github/ContentHawk/TODO/YYYY-MM-DD_Snapshot_<label>.md
-      _matches=()
-      while IFS= read -r _path; do
-        case "$_path" in
-          .github/ContentHawk/TODO/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]_Snapshot_${LABEL_NAME}.md)
-            _matches+=("$_path") ;;
-        esac
-      done < <(git ls-tree -r origin/main --name-only | grep '^\.github/ContentHawk/TODO/' || true)
-      SNAPSHOT_PATH=$(printf '%s\n' "${_matches[@]:-}" | sort -r | head -1)
-      if [ -z "$SNAPSHOT_PATH" ]; then
-        echo "::error::No snapshot on main matching <date>_Snapshot_${LABEL_NAME}.md under .github/ContentHawk/TODO/"
-        exit 1
-      fi
-      echo "Resolved snapshot: $SNAPSHOT_PATH"
-      gh workflow run content-judge-pr.lock.yml \
-        -f snapshot_path="$SNAPSHOT_PATH" \
-        -f label_name="$LABEL_NAME" \
-        -f judge_run_id="$INPUT_JUDGE_RUN_ID"
 ---
 
 ## Important context
