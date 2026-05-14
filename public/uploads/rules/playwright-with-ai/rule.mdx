@@ -14,6 +14,8 @@ authors:
     url: 'https://www.ssw.com.au/people/daniel-mackay'
   - title: Brady Stroud
     url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Luke Cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
 related:
   - rule: public/uploads/rules/automated-ui-testing/rule.mdx
   - rule: public/uploads/rules/playwright-page-object-model/rule.mdx
@@ -24,32 +26,39 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-13T07:58:49.423Z
-lastUpdatedBy: Hark
-lastUpdatedByEmail: harksingh@ssw.com.au
+lastUpdated: 2026-05-14T08:03:58.402Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
+Playwright is Microsoft's end-to-end browser automation framework. It used to be about writing frontend tests. These days, it's so much more. By pairing your AI Agent with Playwright, you can give the Agent the ability to write tests, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
-There are a number of ways to give your AI Agent access to Playwright, whether than be through the MCP, CLI, or otherwise, with each one being best suited for a different job. The decision comes in figuring out and understanding which one to pick.
+Checkout the 3 best ways of using Playwright with AI below!
 
 <endIntro />
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=F5Sv0mpN3-o" description="Video: Playwright MCP vs. CLI: Stop Wasting Your AI Context! | Hark Singh | SSW Rules (6 min)" />
+<youtubeEmbed url="https://www.youtube.com/watch?v=EUhQ1J-69KY" description="Video: 3 Ways to Supercharge Playwright with AI Agents | Hark Singh | SSW Rules (18 min)" />
 
-## Why pair Playwright with an AI agent?
+## Why pair Playwright with an AI Agent?
 
-Without access to a browser, agents have to guess and assume what the UI looks like. This means that it writes selectors blindly, and can't see the results of its own changes. In turn, it can ship tests that break the moment they're run and build features that look completely wrong without a second thought.
+Without access to a browser, Agents have to guess and assume what the UI looks like.
 
-By giving the agent access to Playwright, we can close this loop and set up an iterative inner loop for the agent to check its own changes, allowing for:
+* It writes tests blindly
+* It can't see the result of code changes and how they render on screen
+* It can't understand why certain frontend tests fail or pass
+
+In turn, AI can ship tests that break the moment they're run as well as building features that look or behave incorrectly.
+
+By giving the agent access to Playwright, we can bridge this gap, giving your agent the power to build, run, and examine its own changes. This allows for:
 
 * **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development
-* **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made actually work as intended before claiming that it is done, reducing the number of iterative cycles required
+* **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made work as intended before claiming that it is done
 * **Automation and scraping** - have agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data instead of brittle screenshots that break with the slightest UI change
+* **Easy handling of popups and modals** - it allows your agent to see and interact with popups within the context of your own application and frontend tests
 
-### Using Playwright for AI-assisted Frontend development
+### Development - Using Playwright for AI-assisted frontend dev
 
-Most Playwright + AI content focuses on testing, but the more interesting day-to-day use case is the **inner development loop**. Without a browser, the agent's "is it done?" check is just "the file compiles." With Playwright (typically via the MCP), the agent can open the page it just changed, click through it, and verify the behaviour the same way a human dev would refresh the browser.
+Most Playwright + AI content focuses on testing, but the more interesting day-to-day use case is the **inner development loop**. Without a browser, the agent's "is it done?" check is just "it compiles." With Playwright (typically via the MCP), the agent can open the page it just changed, click through it, and verify the behaviour the same way a human dev would refresh the browser.
 
 This unlocks a few high-value workflows:
 
@@ -60,7 +69,7 @@ This unlocks a few high-value workflows:
 * **Component playground verification** - Agent navigates Storybook, Histoire, or your component sandbox after a change and confirms each variant still renders correctly
 * **Network interception during dev** - Agent uses Playwright's route mocking to test edge cases (slow API, 500 errors, empty states) without needing to touch the real backend
 
-## How can you pair Playwright with an AI agent?
+## How can you pair Playwright with an AI Agent?
 
 There are a variety of ways that you can give your AI Agent access to Playwright, however, there are a few ways that are built and optimised specifically for AI Agents and those are what perform the best in terms of integration with AI Agents.
 
@@ -73,21 +82,7 @@ There are a variety of ways that you can give your AI Agent access to Playwright
   style="tips"
 />
 
-### 1. Playwright CLI
-
-The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses fewer token than running it through the MCP.
-
-#### Why is it token efficient?
-
-* **Results written to disk:** the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context - unlike the MCP, which loads a full page snapshot every turn
-* **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
-
-#### Best for
-
-* **Stateless tasks:** tasks such as writing a test, running a test, or debugging a failing test
-* Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading heirarchy, SEO, and accessibility”`
-
-### 2. Playwright MCP server
+### 1. Playwright MCP server
 
 The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
 
@@ -108,6 +103,20 @@ The Playwright MCP works by exposing your browser to your AI Agent via the [Mode
   figure=""
   style="warning"
 />
+
+### 2. Playwright CLI
+
+The Playwright CLI driven by your AI agent is the **fastest and cheapest** option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses fewer token than running it through the MCP.
+
+#### Why is it token efficient?
+
+* **Results written to disk:** the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context - unlike the MCP, which loads a full page snapshot every turn
+* **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
+
+#### Best for
+
+* **Stateless tasks:** tasks such as writing a test, running a test, or debugging a failing test
+* Example: `“I've just deployed some SEO improvements. Go to 5 random tina.io pages and check the heading heirarchy, SEO, and accessibility”`
 
 ### 3. Playwright Test Agents (Planner, Generator, Healer)
 
@@ -130,7 +139,7 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
 
 * **Complete end-to-end testing loop:** As frontend tests are notoriously brittle and sensitive to change, the testing loop of plan —> generate —> heal, reduces the repetition and pain of having to fix frontend tests as they become outdated or broken.
 
-**Trade off:** As the Test Agents are ran with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
+**Trade off:** As the Test Agents are run with a specialised `test-mcp`, they are not suitable for general Playwright use cases such as automation or exploration.
 
 <boxEmbed
   body={<>
@@ -145,4 +154,13 @@ Playwright ships with 3 out of the box agents that help wrap the test lifecycle.
   figurePrefix="none"
   figure=""
   style="info"
+/>
+
+<imageEmbed
+  alt="Venn diagram comparing the tools provided by Playwright MCP and Playwright Test MCP, with shared browser automation tools in the overlap"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Playwright MCP and Playwright Test MCP share the core browser_* tools, but each adds its own specialised capabilities - one for broad browser control, the other for test-runner awareness"
+  src="/uploads/rules/playwright-with-ai/playwright-mcp-test-mcp-venn.png"
 />
