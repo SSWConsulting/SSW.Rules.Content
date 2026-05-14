@@ -5,13 +5,254 @@ guid: fdd182cf-cf30-4b2f-99fc-79bdb8e16d83
 created: 2026-05-14T05:12:28.861Z
 createdBy: micaelablank@ssw.com.au
 createdByEmail: MicaelaBlank@ssw.com.au
-lastUpdated: 2026-05-14T05:16:16.694Z
+lastUpdated: 2026-05-14T06:36:48.870Z
 lastUpdatedBy: micaelablank@ssw.com.au
 lastUpdatedByEmail: MicaelaBlank@ssw.com.au
 ---
 
-Intro
+Users can quickly become lost when navigation patterns are unclear or used inconsistently. Using the wrong navigation component can create confusion, make workflows harder to complete, and reduce usability.
 
 <endIntro />
 
-Body
+Different navigation components solve different problems. Choose the component that best matches the user's goal and the structure of the experience.
+
+## Use breadcrumbs for hierarchy
+
+Breadcrumbs help users understand where they are within a site's hierarchy and allow them to navigate upward easily.
+
+Use breadcrumbs when:
+
+* The site has multiple navigation levels
+* Users may land on deep pages
+* Parent-child relationships are important
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Breadcrumbs clearly communicate the page hierarchy" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/Screenshot 2026-05-14 at 4.29.29 pm.png" />
+
+\:: greybox
+
+Home > Products > Laptops > Surface Laptop
+
+\:::
+
+\::: good  
+
+Figure: Good Example - Breadcrumbs clearly communicate the page hierarchy
+
+\:::
+
+Good breadcrumbs should:
+
+* Reflect the site hierarchy, not browsing history
+* Make parent pages clickable
+* Keep the current page non-clickable
+* Be concise and easy to scan
+* Appear consistently across the site
+
+Avoid overly deep or cluttered breadcrumbs.
+
+\::: greybox
+
+Home > Department > Division > Team > Subteam > Region > Product Line > Initiative > Document
+
+\:::
+
+\::: bad  
+
+Figure: Bad Example - Excessive hierarchy creates clutter and reduces usability
+
+\:::
+
+## Related UI patterns
+
+Breadcrumbs are one of several navigation and orientation patterns. In some cases, another UI component may provide a better user experience.
+
+### Side navigation
+
+Side navigation is useful for applications or documentation sites with deep, multi-level structures.
+
+Use side navigation when users need to:
+
+\- Browse sibling pages
+
+\- See the overall structure
+
+\- Jump between sections frequently
+
+Breadcrumbs and side navigation often work well together.
+
+\::: greybox
+
+Docs
+
+├── Getting Started
+
+├── Authentication
+
+├── API Reference
+
+└── Deployment
+
+\:::
+
+\::: good  
+
+Figure: Good Example - Side navigation helps users explore complex content structures
+
+\:::
+
+### Tabs
+
+Tabs are better for switching between related views at the same hierarchy level.
+
+Use tabs when:
+
+\- Content sections are closely related
+
+\- Users frequently switch between views
+
+\- Navigation is not hierarchical
+
+Avoid using breadcrumbs for peer-level navigation.
+
+\::: greybox
+
+\[Overview] \[Specifications] \[Reviews] \[Support]
+
+\:::
+
+\::: good  
+
+Figure: Good Example - Tabs are ideal for navigating between related sections
+
+\:::
+
+### Pagination
+
+Pagination is designed for moving sequentially through content collections.
+
+Use pagination for:
+
+\- Search results
+
+\- Blog archives
+
+\- Product listings
+
+Breadcrumbs should not be used to represent sequence or page order.
+
+\::: greybox
+
+← Previous  1 2 3 4 5  Next →
+
+\:::
+
+\::: good  
+
+Figure: Good Example - Pagination supports sequential navigation
+
+\:::
+
+###
+
+### Progress indicators / steppers
+
+Progress indicators are designed for linear workflows where users complete a sequence of steps.
+
+Use progress indicators for:
+
+\- Checkout flows
+
+\- Onboarding
+
+\- Registration forms
+
+\- Setup wizards
+
+A good progress indicator should clearly show:
+
+\- The current step
+
+\- Completed steps
+
+\- Remaining steps
+
+\::: greybox
+
+Cart → Shipping → Payment → Confirmation
+
+\:::
+
+\::: good  
+
+Figure: Good Example - A stepper clearly communicates workflow progress
+
+\:::
+
+Avoid using breadcrumbs for workflows.
+
+\::: greybox
+
+Home > Checkout > Payment > Confirmation
+
+\:::
+
+\::: bad  
+
+Figure: Bad Example - Breadcrumbs incorrectly imply a navigational hierarchy instead of a step-by-step process
+
+\:::
+
+###
+
+### Back buttons
+
+Back buttons help users return to the previous screen, regardless of hierarchy.
+
+Unlike breadcrumbs:
+
+\- Back buttons represent navigation history
+
+\- Breadcrumbs represent site structure
+
+Both can coexist, but they serve different purposes.
+
+### Search
+
+Search is often more effective than breadcrumbs for large content-heavy systems.
+
+Use strong search functionality when users are likely to:
+
+\- Know what they are looking for
+
+\- Navigate directly to content
+
+\- Skip hierarchical browsing
+
+Breadcrumbs should complement search, not replace it.
+
+## Make navigation accessible
+
+All navigation components should follow accessibility best practices.
+
+Ensure that:
+
+\- Navigation is keyboard accessible
+
+\- Semantic HTML is used
+
+\- Current location or state is clearly indicated
+
+\- Color contrast meets accessibility standards
+
+Example breadcrumb markup:
+
+```html
+<nav aria-label="breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/products">Products</a></li>
+    <li aria-current="page">Surface Laptop</li>
+  </ol>
+</nav>
+
+```
