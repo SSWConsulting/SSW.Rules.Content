@@ -34,8 +34,6 @@ Once they have been merged, you can [see them being built and deployed](https://
 * A rule can belong to multiple categories
 * Category pages link to rules via frontmatter data
 
-
-
 ## The SSW Rules engine 🚗
 
 This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
