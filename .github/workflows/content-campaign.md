@@ -18,13 +18,13 @@ on:
   workflow_dispatch:
     inputs:
       search_scope:
-        description: "Which content files to scan and how to filter them (e.g. '.NET rules under content/rules that are not archived', 'all public pages in content folder')."
+        description: "Which content files to scan and how to filter them (e.g. 'all blog files')."
         required: true
       processing_priority:
         description: "How to sort the file list for processing order (e.g. 'first sort by created date ascending, then by lastUpdated descending')."
         required: true
       intent:
-        description: "What Agent 2 should look for and act on (e.g. 'archive all legacy rules and populate archive reason including modern rule reference')."
+        description: "What Agent 2 should look for and act on (e.g. 'archive all outdated blog posts on the topic of AI')."
         required: true
       issue_preferences:
         description: "Preferences for how Agent 2 creates issues (e.g. 'use template .github/ISSUE_TEMPLATE/content-review.md, max 20 issues per run')."
@@ -33,8 +33,48 @@ on:
         description: "Preferences for how Agent 3 creates PRs (e.g. 'use template .github/PULL_REQUEST_TEMPLATE/content-fix.md, bundle up to 5 related issues per PR')."
         required: true
       label_name:
-        description: "GitHub label slug to tie the pipeline together (e.g. 'archive-legacy-rules'). Agent 2 applies it to issues, Agent 3 queries by it."
+        description: "GitHub label slug to tie the pipeline together (e.g. 'archive-outdated-blog-posts'). Agent 2 applies it to issues, Agent 3 queries by it."
         required: true
+  permissions:
+    issues: write
+  steps:
+    - name: Guard — label must not already exist
+      uses: actions/github-script@v7
+      with:
+        script: |
+          try {
+            await github.rest.issues.getLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: '${{ inputs.label_name }}'
+            });
+            core.setFailed(
+              `Label '${{ inputs.label_name }}' already exists in this repository. ` +
+              `Choose a different label_name or delete the existing label first.`
+            );
+          } catch (error) {
+            if (error.status === 404) {
+              core.info(`Label '${{ inputs.label_name }}' does not exist yet. Proceeding.`);
+            } else {
+              core.setFailed(`Failed to check label: ${error.message}`);
+            }
+          }
+    - name: Create intent label
+      uses: actions/github-script@v7
+      env:
+        LABEL_NAME: ${{ inputs.label_name }}
+        LABEL_DESCRIPTION: ${{ inputs.intent }}
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const name = process.env.LABEL_NAME;
+          await github.rest.issues.createLabel({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            name,
+            color: 'D93F0B',
+          });
+          core.info(`Created label '${name}'`);
 
 engine:
   id: copilot
@@ -65,48 +105,11 @@ safe-outputs:
     labels: ["${{ inputs.label_name }}"]
     max: 1
 
-steps:
-  - name: Guard — label must not already exist
-    uses: actions/github-script@v7
-    with:
-      script: |
-        try {
-          await github.rest.issues.getLabel({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            name: '${{ inputs.label_name }}'
-          });
-          core.setFailed(
-            `Label '${{ inputs.label_name }}' already exists in this repository. ` +
-            `Choose a different label_name or delete the existing label first.`
-          );
-        } catch (error) {
-          if (error.status === 404) {
-            core.info(`Label '${{ inputs.label_name }}' does not exist yet. Proceeding.`);
-          } else {
-            core.setFailed(`Failed to check label: ${error.message}`);
-          }
-        }
-  - name: Create intent label
-    uses: actions/github-script@v7
-    env:
-      LABEL_NAME: ${{ inputs.label_name }}
-      LABEL_DESCRIPTION: ${{ inputs.intent }}
-    with:
-      github-token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
-      script: |
-        const name = process.env.LABEL_NAME;
-        await github.rest.issues.createLabel({
-          owner: context.repo.owner,
-          repo: context.repo.repo,
-          name,
-          color: 'D93F0B',
-        });
-        core.info(`Created label '${name}'`);
+
 tools:
   github:
     toolsets: [default]
-    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
+    github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 post-steps:
   - name: Workflow Summary

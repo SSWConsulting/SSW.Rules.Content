@@ -53,7 +53,7 @@ tools:
   github:
     lockdown: false
     toolsets: [issues, search, labels, pull_requests]
-    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
+    github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 post-steps:
   - name: Workflow Summary

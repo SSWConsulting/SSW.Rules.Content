@@ -12,7 +12,8 @@ description: >
 name: Content Fixer (Agent 3a)
 
 on:
-
+  permissions:
+    contents: read
   schedule:
     - cron: "0 0 * * */7"
   skip-if-no-match: 'is:issue is:open in:body "gh-aw-workflow-id: content-judge"'
@@ -22,7 +23,7 @@ on:
       id: snapshot_check
       uses: actions/github-script@v7
       with:
-        github-token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           let files = [];
           try {
@@ -90,7 +91,7 @@ tools:
   github:
     lockdown: false
     toolsets: [issues, repos, pull_requests, search, labels]
-    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
+    github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 post-steps:
   - name: Workflow Summary
@@ -130,11 +131,10 @@ The snapshot file is **self-contained** — it stores every configuration value 
 
 ## How this workflow is triggered
 
-This workflow runs on a **cron schedule** (every 6 hours) and can also be triggered manually via `workflow_dispatch`. It does **not** accept any inputs — instead, it discovers the next snapshot to process from the TODO folder automatically.
+This workflow runs on a **cron schedule** (every 7 days) and can also be triggered manually via `workflow_dispatch`. It does **not** accept any inputs — instead, it discovers the next snapshot to process from the TODO folder automatically.
 
----
 
-Do **not** create any PRs. End the workflow here.
+Use the `list_snapshots` MCP script to list snapshot files in the TODO folder, sorted oldest-first.
 
 If files are found, **choose `snapshot_path`** — use the **first line** of the result (the oldest snapshot, i.e. the one that has been waiting longest). Read the full content of that file from `main`.
 
