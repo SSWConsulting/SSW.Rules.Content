@@ -54,9 +54,6 @@ Another example could be when the `Order`'s `Status` changes from `OrderStatus.R
 
 Domain Events should not depend on external dependencies or external systems, adhering to the principles of the Domain Layer.
 
-When publishing a domain event, the entire Entity or Aggregate can be included since the event's scope is confined to the current bounded context.
-
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -68,6 +65,58 @@ When publishing a domain event, the entire Entity or Aggregate can be included s
 
 
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
+
+## Event payloads — keep them serializable
+
+A domain event's scope is confined to the current bounded context, but the event payload should still contain **only primitive data and IDs** — never the aggregate or entity instance itself.
+
+This matters because domain events frequently need to:
+
+* Be persisted via the [Transactional Outbox Pattern](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos) so they can be processed reliably and asynchronously
+* Be replayed for event sourcing or audit reconstruction
+* Be promoted to Integration Events when other modules or systems need to react
+
+All three require JSON serialization, and aggregate roots are not built for it. They typically have factory methods (no parameterless constructor), private setters (`init` / `private set`), and complex object graphs with EF Core navigation properties.
+
+```csharp
+// Passes the aggregate root by reference
+public record FundCreatedEvent(Fund Fund) : IDomainEvent;
+
+fund.AddDomainEvent(new FundCreatedEvent(fund));
+```
+
+**❌ Figure: Bad example - Events that hold aggregates fail to serialize with `System.NotSupportedException: Deserialization of types without a parameterless constructor... is not supported`**
+
+```csharp
+// Flat, primitive payload
+public record FundCreatedEvent(
+    Guid FundId,
+    string Name,
+    Guid ClientId,
+    int FundProvider,            // enum stored as int
+    DateOnly DateFundEstablished
+) : IDomainEvent;
+
+fund.AddDomainEvent(new FundCreatedEvent(
+    fund.Id,
+    fund.Name,
+    fund.ClientId,
+    (int)fund.FundProvider,
+    fund.DateFundEstablished));
+```
+
+**✅ Figure: Good example - Events as flat data carry IDs, primitives, enums-as-int, and flattened value object fields**
+
+### Guidelines for event payload design
+
+* **Include**: primitives (`Guid`, `string`, `int`, `DateTime`, `DateOnly`), IDs referencing other aggregates, flattened value object fields
+* **Exclude**: aggregate root or entity instances, EF Core navigation properties, value object instances, domain services
+* **Enums**: store as `int` for consistent serialization across serializers and to survive enum renames
+* **Value objects**: flatten to their primitive components — e.g. `Money` becomes `decimal Amount, string Currency`
+
+### Why not just pass the entity?
+
+In-process handlers running in the same transaction can read the live aggregate, so passing it by reference appears to work. The problem surfaces the first time you add an outbox, an audit log, or bridge a domain event to an integration event — at that point every existing event needs refactoring. Treating events as flat data from day one avoids the rewrite.
 
 ## What are Integration Events
 
