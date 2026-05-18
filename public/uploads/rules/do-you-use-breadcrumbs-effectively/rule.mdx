@@ -1,30 +1,33 @@
 ---
 title: Do you use breadcrumbs effectively?
 uri: do-you-use-breadcrumbs-effectively
+authors:
+  - title: Micaela Blank
+    url: 'https://www.ssw.com.au/people/micaela-blank'
 guid: fdd182cf-cf30-4b2f-99fc-79bdb8e16d83
 created: 2026-05-14T05:12:28.861Z
 createdBy: micaelablank@ssw.com.au
 createdByEmail: MicaelaBlank@ssw.com.au
-lastUpdated: 2026-05-18T01:55:42.725Z
+lastUpdated: 2026-05-18T03:05:42.469Z
 lastUpdatedBy: micaelablank@ssw.com.au
 lastUpdatedByEmail: MicaelaBlank@ssw.com.au
 ---
 
 Users can quickly become lost when navigation patterns are unclear or used inconsistently. Using the wrong navigation component can create confusion, make workflows harder to complete, and reduce usability.
 
-<endIntro />
-
 Different navigation components solve different problems. Choose the component that best matches the user's goal and the structure of the experience.
+
+<endIntro />
 
 ## Use breadcrumbs for hierarchy
 
-Breadcrumbs help users understand where they are within a site's hierarchy and allow them to navigate upward easily.
+Breadcrumbs help users understand where they are within a site's hierarchy and navigate upward easily. Use them when the site has multiple navigation levels, users may land on deep pages, or parent–child relationships are important.
 
-Use breadcrumbs when:
+Keep trails to 5 labels maximum. Always start with "Home" (or the root page) and end with the current page title as plain, unlinked text. Make sure the trail reflects the site's actual information architecture, not invented or browsing-history-based categories. If your breadcrumbs regularly exceed 5 levels, it's a signal to simplify the site's navigation structure.
 
-* The site has multiple navigation levels
-* Users may land on deep pages
-* Parent-child relationships are important
+Individual labels should truncate after \~80 characters. Separate items with a universally understood character like `/` or `>` with consistent spacing.
+
+
 
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Excessive hierarchy creates clutter and reduces usability" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs_bad_example.png" />
