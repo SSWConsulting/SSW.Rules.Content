@@ -1,19 +1,24 @@
 ---
-authors:
-- title: Brook Jeynes
-  url: https://www.ssw.com.au/people/brook-jeynes
-created: 2026-04-17T11:30:39+10:00
-guid: 3ca27ddf-9bfa-4353-b1e5-5d521af86ea9
-related:
-- rule: public/uploads/rules/maui-cross-platform/rule.mdx
-- rule: public/uploads/rules/react-native-platform-specific-code/rule.mdx
-- rule: public/uploads/rules/react-native-test-on-real-devices/rule.mdx
-seoDescription: Choose Expo by default for React Native unless you have a concrete reason to go bare, such as custom native requirements or unsupported integrations.
+type: rule
 title: React Native - Do you choose Expo or bare React Native for the right reasons?
+uri: react-native-expo-vs-bare
 categories:
   - category: categories/software-engineering/rules-to-better-apps-mobile.mdx
-type: rule
-uri: react-native-expo-vs-bare
+authors:
+  - title: Brook Jeynes
+    url: 'https://www.ssw.com.au/people/brook-jeynes'
+related:
+  - rule: public/uploads/rules/maui-cross-platform/rule.mdx
+  - rule: public/uploads/rules/react-native-platform-specific-code/rule.mdx
+  - rule: public/uploads/rules/react-native-test-on-real-devices/rule.mdx
+guid: 3ca27ddf-9bfa-4353-b1e5-5d521af86ea9
+seoDescription: 'Choose Expo by default for React Native unless you have a concrete reason to go bare, such as custom native requirements or unsupported integrations.'
+created: 2026-04-17T01:30:39.000Z
+createdBy: Chloe Lin
+createdByEmail: chloelin@ssw.com.au
+lastUpdated: 2026-05-18T08:22:45.121Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
 Choosing between bare React Native and Expo is a bit like choosing between
@@ -36,7 +41,7 @@ Start with Expo unless you have a concrete reason not to.
     Choose bare React Native on day one because it feels more "serious" or because you might need native customisation later. A few months in, the team is re-implementing tooling, upgrade paths, configuration, and app workflows that Expo already solves.
   </>}
   figurePrefix="bad"
-  figure="Bad example - Starting bare React Native without a real need"
+  figure="Starting bare React Native without a real need"
 />
 
 <boxEmbed
@@ -45,7 +50,7 @@ Start with Expo unless you have a concrete reason not to.
     Start with Expo, move quickly with the standard tooling, and only drop down to lower-level native work when the app has a real requirement that Expo does not cover cleanly.
   </>}
   figurePrefix="good"
-  figure="Good example - Use Expo by default and go lower-level only when required"
+  figure="Use Expo by default and go lower-level only when required"
 />
 
 Expo is not a toy layer on top of React Native. It is the recommended framework
