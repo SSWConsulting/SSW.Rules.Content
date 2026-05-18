@@ -8,7 +8,7 @@ guid: fdd182cf-cf30-4b2f-99fc-79bdb8e16d83
 created: 2026-05-14T05:12:28.861Z
 createdBy: micaelablank@ssw.com.au
 createdByEmail: MicaelaBlank@ssw.com.au
-lastUpdated: 2026-05-18T03:37:41.029Z
+lastUpdated: 2026-05-18T07:48:49.115Z
 lastUpdatedBy: micaelablank@ssw.com.au
 lastUpdatedByEmail: MicaelaBlank@ssw.com.au
 ---
@@ -38,177 +38,13 @@ Individual labels should truncate after \~80 characters. Separate items with a u
 
 When trails exceed 4 items, collapse the middle links behind an ellipsis (...) rather than letting the trail wrap onto multiple lines. Always keep "Home" and the immediate parent visible. On mobile, also consider showing only the immediate parent to avoid wrapping entirely.
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Collapsed intermediate levels keep the trail readable while preserving context" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs_expanded_bad.png" />
 
 <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
 
-## Related UI patterns
+For further reading, see the [Nielsen Norman Group's breadcrumb design guidelines ](https://www.nngroup.com/articles/breadcrumbs/)and the [Pencil & Paper breadcrumbs UX guide](https://www.pencilandpaper.io/articles/breadcrumbs-ux).
 
-Breadcrumbs are one of several navigation and orientation patterns. In some cases, another UI component may provide a better user experience.
-
-### Side navigation
-
-Side navigation is useful for applications or documentation sites with deep, multi-level structures.
-
-Use side navigation when users need to:
-
-\- Browse sibling pages
-
-\- See the overall structure
-
-\- Jump between sections frequently
-
-Breadcrumbs and side navigation often work well together.
-
-\::: greybox
-
-Docs
-
-├── Getting Started
-
-├── Authentication
-
-├── API Reference
-
-└── Deployment
-
-\:::
-
-\::: good  
-
-Figure: Good Example - Side navigation helps users explore complex content structures
-
-\:::
-
-### Tabs
-
-Tabs are better for switching between related views at the same hierarchy level.
-
-Use tabs when:
-
-\- Content sections are closely related
-
-\- Users frequently switch between views
-
-\- Navigation is not hierarchical
-
-Avoid using breadcrumbs for peer-level navigation.
-
-\::: greybox
-
-\[Overview] \[Specifications] \[Reviews] \[Support]
-
-\:::
-
-\::: good  
-
-Figure: Good Example - Tabs are ideal for navigating between related sections
-
-\:::
-
-### Pagination
-
-Pagination is designed for moving sequentially through content collections.
-
-Use pagination for:
-
-\- Search results
-
-\- Blog archives
-
-\- Product listings
-
-Breadcrumbs should not be used to represent sequence or page order.
-
-\::: greybox
-
-← Previous  1 2 3 4 5  Next →
-
-\:::
-
-\::: good  
-
-Figure: Good Example - Pagination supports sequential navigation
-
-\:::
-
-###
-
-### Progress indicators / steppers
-
-Progress indicators are designed for linear workflows where users complete a sequence of steps.
-
-Use progress indicators for:
-
-\- Checkout flows
-
-\- Onboarding
-
-\- Registration forms
-
-\- Setup wizards
-
-A good progress indicator should clearly show:
-
-\- The current step
-
-\- Completed steps
-
-\- Remaining steps
-
-\::: greybox
-
-Cart → Shipping → Payment → Confirmation
-
-\:::
-
-\::: good  
-
-Figure: Good Example - A stepper clearly communicates workflow progress
-
-\:::
-
-Avoid using breadcrumbs for workflows.
-
-\::: greybox
-
-Home > Checkout > Payment > Confirmation
-
-\:::
-
-\::: bad  
-
-Figure: Bad Example - Breadcrumbs incorrectly imply a navigational hierarchy instead of a step-by-step process
-
-\:::
-
-###
-
-### Back buttons
-
-Back buttons help users return to the previous screen, regardless of hierarchy.
-
-Unlike breadcrumbs:
-
-\- Back buttons represent navigation history
-
-\- Breadcrumbs represent site structure
-
-Both can coexist, but they serve different purposes.
-
-### Search
-
-Search is often more effective than breadcrumbs for large content-heavy systems.
-
-Use strong search functionality when users are likely to:
-
-\- Know what they are looking for
-
-\- Navigate directly to content
-
-\- Skip hierarchical browsing
-
-Breadcrumbs should complement search, not replace it.
+##
 
 ## Make navigation accessible
 
@@ -216,13 +52,10 @@ All navigation components should follow accessibility best practices.
 
 Ensure that:
 
-\- Navigation is keyboard accessible
-
-\- Semantic HTML is used
-
-\- Current location or state is clearly indicated
-
-\- Color contrast meets accessibility standards
+* Navigation is keyboard accessible
+* Semantic HTML is used
+* Current location or state is clearly indicated
+* Color contrast meets accessibility standards
 
 Example breadcrumb markup:
 
