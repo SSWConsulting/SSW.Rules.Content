@@ -8,7 +8,7 @@ guid: fdd182cf-cf30-4b2f-99fc-79bdb8e16d83
 created: 2026-05-14T05:12:28.861Z
 createdBy: micaelablank@ssw.com.au
 createdByEmail: MicaelaBlank@ssw.com.au
-lastUpdated: 2026-05-18T03:15:01.786Z
+lastUpdated: 2026-05-18T03:37:41.029Z
 lastUpdatedBy: micaelablank@ssw.com.au
 lastUpdatedByEmail: MicaelaBlank@ssw.com.au
 ---
@@ -30,31 +30,17 @@ Individual labels should truncate after \~80 characters. Separate items with a u
 
 
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="9 labels is too many, difficult to scan and suggests an overly complex site structure" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs_bad_example.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="9 labels is too many, difficult to scan and suggests an overly complex site structure" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs_example_bad.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="4 labels, clear hierarchy, current page is unlinked" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs-good-example.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="4 labels, clear hierarchy, current page is unlinked" src="/uploads/__staging/tina/public/uploads/rules/do-your-wizards-include-a-wizard-breadcrumb/rule/__file/rules/do-you-use-breadcrumbs-effectively/breadcrumbs_example_good.png" />
 
-Good breadcrumbs should:
+## Handle breadcrumb overflow gracefully
 
-* Reflect the site hierarchy, not browsing history
-* Make parent pages clickable
-* Keep the current page non-clickable
-* Be concise and easy to scan
-* Appear consistently across the site
+When trails exceed 4 items, collapse the middle links behind an ellipsis (...) rather than letting the trail wrap onto multiple lines. Always keep "Home" and the immediate parent visible. On mobile, also consider showing only the immediate parent to avoid wrapping entirely.
 
-Avoid overly deep or cluttered breadcrumbs.
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
 
-\::: greybox
-
-Home > Department > Division > Team > Subteam > Region > Product Line > Initiative > Document
-
-\:::
-
-\::: bad  
-
-Figure: Bad Example - Excessive hierarchy creates clutter and reduces usability
-
-\:::
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
 
 ## Related UI patterns
 
