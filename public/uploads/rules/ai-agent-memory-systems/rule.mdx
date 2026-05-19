@@ -83,6 +83,55 @@ Why it wins for project-scoped context — coding standards, build commands, dom
 
 The ceiling is real (token cost grows linearly with the file, no semantic retrieval, no per-user state), but most teams hit the ceiling much later than they think. Newer setups layer `@import` directives so a top-level file pulls in scoped fragments.
 
+### Claude Code's built-in auto memory (⭐️ recommended baseline for Claude users)
+ 
+Auto memory is a **separate system** that lives alongside `CLAUDE.md`. Claude accumulates its own notes across sessions — build commands it discovered, debugging insights, code style preferences it picked up from your corrections — and stores them in a dedicated memory directory, not in your repo.
+ 
+```text
+~/.claude/projects/<project>/memory/
+├── MEMORY.md          # concise index — loaded into every session (first 200 lines / 25KB)
+├── debugging.md       # detailed notes — loaded on demand when Claude needs them
+├── api-conventions.md
+└── ...
+```
+ 
+Two important properties: `MEMORY.md` is a concise index that gets injected automatically; the topic files (`debugging.md` etc.) are **not** loaded at startup — Claude reads them on demand using its standard file tools. That keeps the always-on cost flat even as the memory grows.
+ 
+How it relates to CLAUDE.md:
+ 
+|                       | CLAUDE.md files                  | Auto memory                              |
+| --------------------- | -------------------------------- | ---------------------------------------- |
+| **Who writes it**     | You                              | Claude                                   |
+| **What it contains**  | Instructions and rules           | Learnings and patterns it discovered     |
+| **Scope**             | Project, user, or org            | Per-repository, shared across worktrees  |
+| **Loaded into**       | Every session (in full)          | Every session (first 200 lines of `MEMORY.md`) |
+| **Use it for**        | Coding standards, workflows, architecture | Build commands, debugging insights, preferences |
+ 
+Practical notes that matter:
+ 
+* Requires Claude Code **v2.1.59 or later**. Check with `claude --version`.
+* **On by default.** Toggle via `/memory` in a session, or `"autoMemoryEnabled": false` in settings, or `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`.
+* **Machine-local.** Files are not shared across machines or cloud environments. All worktrees of the same repo share one memory directory.
+* When you say `"remember X"` Claude writes to auto memory. When you say `"add this to CLAUDE.md"` it edits CLAUDE.md instead. Different words → different store.
+* Run `/memory` any time to browse, audit, or edit what's been saved. Everything is plain markdown.
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Auto memory is automatic but **not deterministic**. Claude decides what's worth remembering based on whether it'd be useful in future conversations — sometimes it nails it, sometimes it misses an obvious decision. Audit periodically with `/memory`. For anything you cannot afford for Claude to forget, write it into `CLAUDE.md` yourself.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+ 
+<boxEmbed
+  body={<>
+    The cleanest stack is **both at once**: `CLAUDE.md` for the things you know up-front and want enforced every session (build commands, do/don't rules, architecture), and auto memory for the things Claude figures out along the way (which test command actually works, the specific gotcha in the auth flow, your code-style nudges). They're complementary, not competing.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
 ### Mem0
 
 [Mem0](https://mem0.ai) sits on top of a vector store with an LLM-extraction layer. It pulls memorable facts from raw conversation, deduplicates against existing memories, and decides whether each new fact is an update or a new entry. Easiest to plug in. Best for **per-user personalisation** in chatbots and assistants — different problem from engineering conventions.
@@ -97,39 +146,24 @@ The ceiling is real (token cost grows linearly with the file, no semantic retrie
 
 ### Beads (⭐️ recommended for engineering work)
 
-[Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a distributed graph issue tracker for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). It doesn't sit cleanly in any of the patterns above. The primary unit isn't a "memory," it's an **issue with typed dependencies** (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`). Free-form project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
-
-```bash
-# Install once (system-wide)
-brew install beads
-
-# Init per project
-cd ~/code/my-app
-bd init
-bd setup claude              # installs Claude Code hooks + AGENTS.md
-
-# Agent uses these automatically
-bd prime                     # session start: pull pinned memory + ready tasks
-bd remember "Decision: ..."  # pin a decision
-bd ready                     # what's unblocked
-bd update bd-a1b2 --claim    # atomically claim a task
-```
+[Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a distributed graph issue tracker for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). The primary unit isn't a "memory," it's an **issue with typed dependencies** (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`). Free-form project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
 
 Best for **engineering work with real dependencies** and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points — roughly 60–80% reliable depending on model and session length — and `bd prime` makes retrieval rock-solid for everything that did get saved.
 
 ### Comparison
-
-|                                | CLAUDE.md / AGENTS.md (⭐️) | Beads (⭐️) | Claude auto-memory (⭐️) | Mem0 | Zep / Graphiti | Letta |
+ 
+|                                | CLAUDE.md / AGENTS.md (⭐️) | Beads (⭐️) | Claude auto memory (⭐️) | Mem0 | Zep / Graphiti | Letta |
 | ------------------------------ | -------------------------- | ---------- | ----------------------- | ---- | -------------- | ----- |
 | Zero infra                     | ✅                          | ✅          | ✅                       | ❌    | ❌              | ❌     |
-| Git-trackable / human-editable | ✅                          | ✅          | ✅                       | ❌    | ❌              | ❌     |
-| Deterministic retrieval        | ✅                          | ✅          | ✅                       | ❌    | ❌              | ❌     |
+| Git-trackable, shared with the team | ✅                          | ✅          | ❌ (machine-local at `~/.claude/projects/`) | ❌    | ❌              | ❌     |
+| Human-editable / auditable     | ✅                          | ✅          | ✅ (plain markdown, via `/memory`) | ❌    | ❌              | ❌     |
+| Deterministic retrieval        | ✅                          | ✅          | ⚠️ (`MEMORY.md` index only; topic files load on demand) | ❌    | ❌              | ❌     |
 | Semantic / fuzzy retrieval     | ❌                          | ❌          | ❌                       | ✅    | ✅              | ✅     |
 | Temporal ("as of date X")      | ❌                          | ❌          | ❌                       | ❌    | ✅              | ❌     |
 | Per-user state                 | ❌                          | ❌          | ❌                       | ✅    | ✅              | ✅     |
 | Long-horizon autonomy          | ❌                          | ✅          | ❌                       | ❌    | ❌              | ✅     |
 | Typed task dependencies        | ❌                          | ✅          | ❌                       | ❌    | ❌              | ❌     |
-| Save step is automatic         | ❌                          | ⚠️         | ✅                       | ✅    | ✅              | ✅     |
+| Save step is automatic         | ❌                          | ⚠️ (can nudge with `remember this`)        | ✅                       | ✅    | ✅              | ✅     |
 | Cost                           | Free                       | Free       | Free                    | $    | $$             | $$    |
 
 ## How do you actually pick?
