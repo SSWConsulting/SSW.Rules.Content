@@ -19,7 +19,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-19T02:11:00.119Z
+lastUpdated: 2026-05-19T05:36:39.422Z
 lastUpdatedBy: Sylvia Huang
 lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
@@ -60,7 +60,7 @@ Almost every product on the market is a mix of these.
 
 ## How do you give your AI Agent memory?
 
-There are dozens of options, but six come up in production conversations. Here are the ones that matter.
+There are dozens of options. Here are the ones that matter.
 
 ### CLAUDE.md / AGENTS.md (⭐️ recommended for project context)
 
@@ -83,18 +83,17 @@ Why it wins for project-scoped context — coding standards, build commands, dom
 
 The ceiling is real (token cost grows linearly with the file, no semantic retrieval, no per-user state), but most teams hit the ceiling much later than they think. Newer setups layer `@import` directives so a top-level file pulls in scoped fragments.
 
-### Claude Code's built-in auto-memory (⭐️ recommended baseline)
+### Mem0
 
-Claude Code edits `CLAUDE.md` for you in the background as you work. Zero setup. The save step is automatic-ish; curation quality varies, and the file slowly bloats over time, but the bar isn't "perfect" — it's "better than nothing without any setup."
+[Mem0](https://mem0.ai) sits on top of a vector store with an LLM-extraction layer. It pulls memorable facts from raw conversation, deduplicates against existing memories, and decides whether each new fact is an update or a new entry. Easiest to plug in. Best for **per-user personalisation** in chatbots and assistants — different problem from engineering conventions.
 
-<boxEmbed
-  style="info"
-  body={<>
-    **Note:** Auto-memory is automatic but **not deterministic**. It captures what it thinks is important — sometimes it nails it, sometimes it misses an obvious decision. Treat it as a starting point, not a system of record.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+### Zep / Graphiti
+
+[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a temporal knowledge graph. Relationships have validity windows, so it can answer queries like "what was the policy as of last March" — which vector search just can't. Trade-off: slower writes, more setup, more complex mental model.
+
+### Letta (formerly MemGPT)
+
+[Letta](https://www.letta.com) uses an OS-style paging model — "core memory" always in context, "archival memory" sitting in a vector store the agent queries with `archival_memory_search` and `core_memory_replace`. The agent is in charge of its own memory. Best for **long-horizon autonomous agents** that run for days; the cost is committing to Letta as your harness instead of Claude Code.
 
 ### Beads (⭐️ recommended for engineering work)
 
@@ -117,29 +116,6 @@ bd update bd-a1b2 --claim    # atomically claim a task
 ```
 
 Best for **engineering work with real dependencies** and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points — roughly 60–80% reliable depending on model and session length — and `bd prime` makes retrieval rock-solid for everything that did get saved.
-
-<boxEmbed
-  body={<>
-    Beads is **not** a team tracker. Don't confuse it with Jira. It's an *agent* tracker. Running it in parallel with your team's existing tracker creates two sources of truth, which is worse than the problem it solves.
-    
-    Also: v1.0.4 was tagged days ago. For client work where Jira already exists and is paid for, it's a hard sell.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-### Mem0
-
-[Mem0](https://mem0.ai) sits on top of a vector store with an LLM-extraction layer. It pulls memorable facts from raw conversation, deduplicates against existing memories, and decides whether each new fact is an update or a new entry. Easiest to plug in. Best for **per-user personalisation** in chatbots and assistants — different problem from engineering conventions.
-
-### Zep / Graphiti
-
-[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a temporal knowledge graph. Relationships have validity windows, so it can answer queries like "what was the policy as of last March" — which vector search just can't. Trade-off: slower writes, more setup, more complex mental model.
-
-### Letta (formerly MemGPT)
-
-[Letta](https://www.letta.com) uses an OS-style paging model — "core memory" always in context, "archival memory" sitting in a vector store the agent queries with `archival_memory_search` and `core_memory_replace`. The agent is in charge of its own memory. Best for **long-horizon autonomous agents** that run for days; the cost is committing to Letta as your harness instead of Claude Code.
 
 ### Comparison
 
@@ -183,13 +159,13 @@ What people actually want when they ask for "agent memory" is a teammate: *I tel
 
 Different systems fail at different halves:
 
-|                       | Save step                                    | Recall step                              |
-| --------------------- | -------------------------------------------- | ---------------------------------------- |
-| Plain CLAUDE.md       | Manual ("save this") — 100% reliable if you remember to say it | Deterministic — always in context |
-| Claude auto-memory    | Automatic-ish — quality varies               | Deterministic — always in context        |
-| Beads (with hooks)    | ~60–80% automatic via hooks                  | Deterministic — `bd prime` injects it    |
-| Mem0                  | LLM-extracted, fuzzy                         | Vector similarity — sometimes misses     |
-| Letta                 | Agent-managed, closest to automatic          | Agent-prompted — works if it remembers to search |
+|                    | Save step                                                      | Recall step                                      |
+| ------------------ | -------------------------------------------------------------- | ------------------------------------------------ |
+| Plain CLAUDE.md    | Manual ("save this") — 100% reliable if you remember to say it | Deterministic — always in context                |
+| Claude auto-memory | Automatic-ish — quality varies                                 | Deterministic — always in context                |
+| Beads (with hooks) | \~60–80% automatic via hooks                                   | Deterministic — `bd prime` injects it            |
+| Mem0               | LLM-extracted, fuzzy                                           | Vector similarity — sometimes misses             |
+| Letta              | Agent-managed, closest to automatic                            | Agent-prompted — works if it remembers to search |
 
 <boxEmbed
   style="info"
@@ -211,14 +187,13 @@ The realistic stack today, ranked by effort:
 
 If you're trying to give your AI Agent memory:
 
-* Separate the **cognitive types** (working / episodic / semantic / procedural) from the **architectural patterns** (markdown / vector / graph / paging / hybrid). They're different axes.
 * Start with `CLAUDE.md` / `AGENTS.md`. Add Beads when you need typed task dependencies and pinned conventions. Add Mem0 when you have many users with state. Add Zep when "as of date X" is a real query.
 * Pick the system that matches the **shape of the problem**, not the one with the best benchmark on LoCoMo.
 * The "human teammate" gap is real but small — it's the *save* step, not the *recall* step, and one "remember this" nudge a day closes it.
 
 Memory isn't one problem. Pick per problem.
 
----
+***
 
 ### Learn more
 
@@ -231,4 +206,3 @@ Memory isn't one problem. Pick per problem.
 * [Zep / Graphiti](https://www.getzep.com) - Temporal knowledge graphs for agents
 * [AGENTS.md spec](https://agents.md) - The cross-tool agent instruction file standard
 * [CoALA framework](https://arxiv.org/abs/2309.02427) - Cognitive Architectures for Language Agents (Princeton, 2023)
-
