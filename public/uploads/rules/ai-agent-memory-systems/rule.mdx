@@ -6,6 +6,8 @@ categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 authors:
+  - title: Luke Cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
   - title: Tino Liu
     url: 'https://www.ssw.com.au/people/tino-liu'
   - title: Sylvia Huang
@@ -19,7 +21,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-19T05:36:39.422Z
+lastUpdated: 2026-05-19T07:45:10.885Z
 lastUpdatedBy: Sylvia Huang
 lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
@@ -50,11 +52,11 @@ The cognitive types come from the CoALA framework (Princeton, 2023):
 
 The architectural patterns are the *how*:
 
-* **Markdown files** - a `.md` file gets dumped into the system prompt at session start. No retrieval. No vectors. Human-readable, git-versioned, deterministic.
-* **Vector store** - embed every memory, embed the query, pull top-k closest. Scales well, fuzzy on contradictions and time.
+* **Markdown files** - a `.md` file gets dumped into the system prompt at session start. Human-readable, git-versioned, deterministic.
+* **Vector store** - embed every memory, pull top-k closest, scale well, fuzzy on contradictions and time.
 * **Knowledge graph** - typed nodes and edges (`Gordon WORKS_AT SSW`). Some add validity windows for "what was true on date X" queries.
-* **Agent-managed paging** (MemGPT/Letta) - the agent itself decides what to page in/out using explicit tool calls. OS-style core + archival memory.
-* **Hybrid extraction layers** (Mem0) - an LLM extracts memorable facts from raw conversation, deduplicates, and stores in a mix of vector + structured stores.
+* **Agent-managed paging** - the agent itself decides what to page in/out using explicit tool calls. OS-style core + archival memory.
+* **Hybrid extraction layers **- an LLM extracts memorable facts from raw conversation, deduplicates, and stores in a mix of vector + structured stores.
 
 Almost every product on the market is a mix of these.
 
@@ -64,14 +66,14 @@ There are dozens of options. Here are the ones that matter.
 
 ### CLAUDE.md / AGENTS.md (⭐️ recommended for project context)
 
-A plain `.md` file at the repo root, loaded into the system prompt at session start. That's the whole architecture. Claude Code uses `CLAUDE.md`, the cross-tool standard is `AGENTS.md`, Cursor uses `.cursorrules`, GitHub Copilot uses `.github/copilot-instructions.md`.
+A plain `.md` file at the repo root, loaded into the system prompt at session start. That's the whole architecture. 
 
 ```text
 my-project/
-├── CLAUDE.md                # loaded by Claude Code
-├── AGENTS.md                # loaded by everything else
-├── .cursorrules             # Cursor
-└── .claude/agents/MEMORY.md # per-subagent memory
+├── CLAUDE.md                          # loaded by Claude Code
+├── AGENTS.md                          # loaded by everything else
+├── .cursorrules                       # used by Cursor
+└── .github/copilot-instructions.md    # used by GitHub Copilot
 ```
 
 Why it wins for project-scoped context — coding standards, build commands, domain language, conventions:
@@ -83,10 +85,10 @@ Why it wins for project-scoped context — coding standards, build commands, dom
 
 The ceiling is real (token cost grows linearly with the file, no semantic retrieval, no per-user state), but most teams hit the ceiling much later than they think. Newer setups layer `@import` directives so a top-level file pulls in scoped fragments.
 
-### Claude Code's built-in auto memory (⭐️ recommended baseline for Claude users)
- 
+### Claude Code's auto memory (⭐️ recommended baseline for Claude)
+
 Auto memory is a **separate system** that lives alongside `CLAUDE.md`. Claude accumulates its own notes across sessions — build commands it discovered, debugging insights, code style preferences it picked up from your corrections — and stores them in a dedicated memory directory, not in your repo.
- 
+
 ```text
 ~/.claude/projects/<project>/memory/
 ├── MEMORY.md          # concise index — loaded into every session (first 200 lines / 25KB)
@@ -94,22 +96,19 @@ Auto memory is a **separate system** that lives alongside `CLAUDE.md`. Claude ac
 ├── api-conventions.md
 └── ...
 ```
- 
-Two important properties: `MEMORY.md` is a concise index that gets injected automatically; the topic files (`debugging.md` etc.) are **not** loaded at startup — Claude reads them on demand using its standard file tools. That keeps the always-on cost flat even as the memory grows.
- 
+
 How it relates to CLAUDE.md:
- 
-|                       | CLAUDE.md files                  | Auto memory                              |
-| --------------------- | -------------------------------- | ---------------------------------------- |
-| **Who writes it**     | You                              | Claude                                   |
-| **What it contains**  | Instructions and rules           | Learnings and patterns it discovered     |
-| **Scope**             | Project, user, or org            | Per-repository, shared across worktrees  |
-| **Loaded into**       | Every session (in full)          | Every session (first 200 lines of `MEMORY.md`) |
-| **Use it for**        | Coding standards, workflows, architecture | Build commands, debugging insights, preferences |
- 
+
+|                      | CLAUDE.md files                           | Auto memory                                     |
+| -------------------- | ----------------------------------------- | ----------------------------------------------- |
+| **Who writes it**    | You                                       | Claude                                          |
+| **What it contains** | Instructions and rules                    | Learnings and patterns it discovered            |
+| **Scope**            | Project, user, or org                     | Per-repository, shared across worktrees         |
+| **Loaded into**      | Every session (in full)                   | Every session (first 200 lines of `MEMORY.md`)  |
+| **Use it for**       | Coding standards, workflows, architecture | Build commands, debugging insights, preferences |
+
 Practical notes that matter:
- 
-* Requires Claude Code **v2.1.59 or later**. Check with `claude --version`.
+
 * **On by default.** Toggle via `/memory` in a session, or `"autoMemoryEnabled": false` in settings, or `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`.
 * **Machine-local.** Files are not shared across machines or cloud environments. All worktrees of the same repo share one memory directory.
 * When you say `"remember X"` Claude writes to auto memory. When you say `"add this to CLAUDE.md"` it edits CLAUDE.md instead. Different words → different store.
@@ -123,7 +122,7 @@ Practical notes that matter:
   figurePrefix="none"
   figure=""
 />
- 
+
 <boxEmbed
   body={<>
     The cleanest stack is **both at once**: `CLAUDE.md` for the things you know up-front and want enforced every session (build commands, do/don't rules, architecture), and auto memory for the things Claude figures out along the way (which test command actually works, the specific gotcha in the auth flow, your code-style nudges). They're complementary, not competing.
@@ -139,7 +138,7 @@ Practical notes that matter:
 
 ### Zep / Graphiti
 
-[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a temporal knowledge graph. Relationships have validity windows, so it can answer queries like "what was the policy as of last March" — which vector search just can't. Trade-off: slower writes, more setup, more complex mental model.
+[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a **temporal knowledge graph**. Relationships have validity windows, so it can answer queries like "what was the policy as of last March" — which vector search just can't. Trade-off: slower writes, more setup, more complex mental model.
 
 ### Letta (formerly MemGPT)
 
@@ -152,20 +151,20 @@ Practical notes that matter:
 Best for **engineering work with real dependencies** and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points — roughly 60–80% reliable depending on model and session length — and `bd prime` makes retrieval rock-solid for everything that did get saved.
 
 ### Comparison
- 
-|                                | CLAUDE.md / AGENTS.md (⭐️) | Beads (⭐️) | Claude auto memory (⭐️) | Mem0 | Zep / Graphiti | Letta |
-| ------------------------------ | -------------------------- | ---------- | ----------------------- | ---- | -------------- | ----- |
-| Zero infra                     | ✅                          | ✅          | ✅                       | ❌    | ❌              | ❌     |
-| Git-trackable, shared with the team | ✅                          | ✅          | ❌ (machine-local at `~/.claude/projects/`) | ❌    | ❌              | ❌     |
-| Human-editable / auditable     | ✅                          | ✅          | ✅ (plain markdown, via `/memory`) | ❌    | ❌              | ❌     |
-| Deterministic retrieval        | ✅                          | ✅          | ⚠️ (`MEMORY.md` index only; topic files load on demand) | ❌    | ❌              | ❌     |
-| Semantic / fuzzy retrieval     | ❌                          | ❌          | ❌                       | ✅    | ✅              | ✅     |
-| Temporal ("as of date X")      | ❌                          | ❌          | ❌                       | ❌    | ✅              | ❌     |
-| Per-user state                 | ❌                          | ❌          | ❌                       | ✅    | ✅              | ✅     |
-| Long-horizon autonomy          | ❌                          | ✅          | ❌                       | ❌    | ❌              | ✅     |
-| Typed task dependencies        | ❌                          | ✅          | ❌                       | ❌    | ❌              | ❌     |
-| Save step is automatic         | ❌                          | ⚠️ (can nudge with `remember this`)        | ✅                       | ✅    | ✅              | ✅     |
-| Cost                           | Free                       | Free       | Free                    | $    | $$             | $$    |
+
+|                                     | CLAUDE.md / AGENTS.md (⭐️) | Beads (⭐️)                          | Claude auto memory (⭐️)                                 | Mem0 | Zep / Graphiti | Letta |
+| ----------------------------------- | -------------------------- | ----------------------------------- | ------------------------------------------------------- | ---- | -------------- | ----- |
+| Zero infra                          | ✅                          | ✅                                   | ✅                                                       | ❌    | ❌              | ❌     |
+| Git-trackable, shared with the team | ✅                          | ✅                                   | ❌ (machine-local at `~/.claude/projects/`)              | ❌    | ❌              | ❌     |
+| Human-editable / auditable          | ✅                          | ✅                                   | ✅ (plain markdown, via `/memory`)                       | ❌    | ❌              | ❌     |
+| Deterministic retrieval             | ✅                          | ✅                                   | ⚠️ (`MEMORY.md` index only; topic files load on demand) | ❌    | ❌              | ❌     |
+| Semantic / fuzzy retrieval          | ❌                          | ❌                                   | ❌                                                       | ✅    | ✅              | ✅     |
+| Temporal ("as of date X")           | ❌                          | ❌                                   | ❌                                                       | ❌    | ✅              | ❌     |
+| Per-user state                      | ❌                          | ❌                                   | ❌                                                       | ✅    | ✅              | ✅     |
+| Long-horizon autonomy               | ❌                          | ✅                                   | ❌                                                       | ❌    | ❌              | ✅     |
+| Typed task dependencies             | ❌                          | ✅                                   | ❌                                                       | ❌    | ❌              | ❌     |
+| Save step is automatic              | ❌                          | ⚠️ (can nudge with `remember this`) | ✅                                                       | ✅    | ✅              | ✅     |
+| Cost                                | Free                       | Free                                | Free                                                    | $    | $$             | $$    |
 
 ## How do you actually pick?
 
@@ -213,20 +212,10 @@ Different systems fail at different halves:
 
 The realistic stack today, ranked by effort:
 
-1. **Try Claude Code's auto-memory first.** Zero setup. If it remembers enough of the right things, you're done.
+1. **Start with `CLAUDE.md` / `AGENTS.md`. **Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
 2. **Layer Beads once auto-memory hits its limits.** Hooks for the save step, `bd prime` for retrieval. This is probably where you land for engineering work.
 3. **Add Mem0 only if you also need per-user state.** Different problem from engineering conventions.
 4. **Letta if you're willing to change agent runtimes.** Most "automatic" of the bunch but means leaving Claude Code.
-
-## Summary
-
-If you're trying to give your AI Agent memory:
-
-* Start with `CLAUDE.md` / `AGENTS.md`. Add Beads when you need typed task dependencies and pinned conventions. Add Mem0 when you have many users with state. Add Zep when "as of date X" is a real query.
-* Pick the system that matches the **shape of the problem**, not the one with the best benchmark on LoCoMo.
-* The "human teammate" gap is real but small — it's the *save* step, not the *recall* step, and one "remember this" nudge a day closes it.
-
-Memory isn't one problem. Pick per problem.
 
 ***
 
