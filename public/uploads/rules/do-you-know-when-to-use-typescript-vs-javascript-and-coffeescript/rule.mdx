@@ -1,53 +1,39 @@
 ---
-archivedreason: null
-authors:
-- title: Eric Phan
-  url: https://www.ssw.com.au/people/eric-phan
-created: 2013-08-27 17:14:42+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: f22bd76c-6173-45ab-ae3c-3bc0eabb06ff
-isArchived: false
-lastUpdated: 2015-08-24 02:02:53+00:00
-lastUpdatedBy: William Yin
-lastUpdatedByEmail: WilliamYin@ssw.com.au
-redirects:
-- do-you-know-when-to-use-typescript-(vs-javascript-and-coffeescript)
-seoDescription: Microsoft's TypeScript compiles into JavaScript, ideal for reusable
-  client-side libraries, while JavaScript suits page-specific scripts and CoffeeScript's
-  syntax differs too much from JavaScript.
+type: rule
 title: Do you know when to use TypeScript (vs JavaScript and CoffeeScript)?
+uri: do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript
 categories:
   - category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
-type: rule
-uri: do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript
+authors:
+  - title: Eric Phan
+    url: 'https://www.ssw.com.au/people/eric-phan'
+redirects:
+  - do-you-know-when-to-use-typescript-(vs-javascript-and-coffeescript)
+guid: f22bd76c-6173-45ab-ae3c-3bc0eabb06ff
+seoDescription: 'Microsoft''s TypeScript compiles into JavaScript, ideal for reusable client-side libraries, while JavaScript suits page-specific scripts and CoffeeScript''s syntax differs too much from JavaScript.'
+created: 2013-08-27T17:14:42.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-19T23:46:19.131Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-TypeScript is the new flagship language from Microsoft that compiles into JavasScript.
+TTypeScript is JavaScript with optional static types. It was released by Microsoft in 2012 and has grown heavily in popularity, becoming the most-used language on GitHub in 2025. TypeScript is now the default choice for many modern JavaScript codebases because it catches errors earlier, improves editor autocomplete, makes refactoring safer, and documents data shapes through types.
 
-- Use JavaScript if you’re writing page specific script
-- Use jQuery to improve cross-browser support
-- Use TypeScript if you’re writing re-usable client side library
+So what are the [benefits of TypeScript](/rules/use-typescript)?
 
-Don't use CoffeeScript (language is too different from JavaSript)
+[CoffeeScript](https://coffeescript.org/#introduction) is a lightweight programming language that also compiles into JavaScript. It was designed to provide a more concise and readable syntax, however, modern JavaScript has adopted many of the features that made CoffeeScript attractive, so CoffeeScript is rarely a good choice for new projects.
+
+* Use JavaScript for small scripts 
+* Use TypeScript for most modern front-end apps, reusable components, shared libraries and repositories that will grow
+* Avoid jQuery unless maintaining legacy code or using an existing plugin
+* Avoid CoffeeScript for new projects
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices"
-  src="/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/typescript-good.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices" src="/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/typescript-good.jpg" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="CoffeeScript syntax is very different from JavaScript so it takes longer to learn"
-  src="/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/typescript-bad.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="CoffeeScript syntax is very different from JavaScript so it takes longer to learn" src="/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/typescript-bad.jpg" />
