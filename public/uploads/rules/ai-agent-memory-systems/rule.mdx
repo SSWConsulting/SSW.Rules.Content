@@ -21,14 +21,16 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-19T08:09:55.991Z
-lastUpdatedBy: Tino Liu
-lastUpdatedByEmail: TinoLiu@ssw.com.au
+lastUpdated: 2026-05-20T01:48:41.455Z
+lastUpdatedBy: Sylvia Huang
+lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
 
 An LLM is stateless. Every call is a fresh start. Anything you want the model to "know" past the current turn has to be put back into the prompt somehow. That's it. "AI Agent memory" is just different answers to one question: **what do we store, where do we put it, and how do we get it back into the context window at the right moment?** The problem is, the "memory" word covers at least three different problems — project context, per-user personalisation, and long-running autonomy — and picking the wrong tool wastes weeks.
 
 <endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=Phg3tXrKkko" description="Video:  The 4 Types of Agent Memory Every AI Builder Must Know in 2026" />
 
 ## What kinds of memory are there?
 
@@ -37,8 +39,8 @@ People conflate two separate questions when they talk about agent memory: **the 
 The cognitive types come from the CoALA framework (Princeton, 2023):
 
 * **Working / in-context** — the current conversation window. RAM. Close the session and it's gone.
-* **Episodic** — what happened before. “The user asked about a certain bug fix from a month ago.”
-* **Semantic** — generalised facts. "Tino prefers soccer,  not football."
+* **Episodic** — what happened before. "The user asked about Resend in March."
+* **Semantic** — generalised facts. "Gordon prefers self-hosted tooling."
 * **Procedural** — how to do things. Workflows, learned routines, the agent's "muscle memory."
 
 <boxEmbed
@@ -54,7 +56,7 @@ The architectural patterns are the *how*:
 
 * **Markdown files** - a `.md` file gets dumped into the system prompt at session start. Human-readable, git-versioned, deterministic.
 * **Vector store** - embed every memory, pull top-k closest, scale well, fuzzy on contradictions and time.
-* **Knowledge graph** - typed nodes and edges (`Sylvia WORKS_AT SSW`). Some add validity windows for "what was true on date X" queries.
+* **Knowledge graph** - typed nodes and edges (`Gordon WORKS_AT SSW`). Some add validity windows for "what was true on date X" queries.
 * **Agent-managed paging** - the agent itself decides what to page in/out using explicit tool calls. OS-style core + archival memory.
 * **Hybrid extraction layers **- an LLM extracts memorable facts from raw conversation, deduplicates, and stores in a mix of vector + structured stores.
 
@@ -66,7 +68,7 @@ There are dozens of options. Here are the ones that matter.
 
 ### CLAUDE.md / AGENTS.md (⭐️ recommended for project context)
 
-A plain `.md` file at the repo root, loaded into the system prompt at session start. That's the whole architecture.
+A plain `.md` file at the repo root, loaded into the system prompt at session start. That's the whole architecture. 
 
 ```text
 my-project/
@@ -212,7 +214,7 @@ Different systems fail at different halves:
 
 The realistic stack today, ranked by effort:
 
-1. \*\*Start with `CLAUDE.md` / `AGENTS.md`. \*\*Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
+1. **Start with `CLAUDE.md` / `AGENTS.md`. **Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
 2. **Layer Beads once auto-memory hits its limits.** Hooks for the save step, `bd prime` for retrieval. This is probably where you land for engineering work.
 3. **Add Mem0 only if you also need per-user state.** Different problem from engineering conventions.
 4. **Letta if you're willing to change agent runtimes.** Most "automatic" of the bunch but means leaving Claude Code.
