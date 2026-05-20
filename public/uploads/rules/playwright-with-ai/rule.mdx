@@ -26,7 +26,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-20T05:37:12.057Z
+lastUpdated: 2026-05-20T05:43:33.880Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 ---
@@ -51,18 +51,9 @@ In turn, AI can ship tests that break the moment they're run as well as building
 
 By giving the agent access to Playwright, we can bridge this gap, giving your agent the power to build, run, and examine its own changes. This allows for:
 
-* **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development. 
-
-<boxEmbed
-  body={<>
-    Read more: **[Do you do automated UI testing?](https://www.ssw.com.au/rules/automated-ui-testing)**
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
-/>
-
+* **[Automated UI testing](https://www.ssw.com.au/rules/automated-ui-testing)** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development. 
 * **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made work as intended before claiming that it is done
+* **Reproduce reported bugs** - when a bug ticket comes in, the agent can use Playwright to follow the reported steps, inspect the app state, and confirm the bug in a real browser. If the steps are incomplete, it can explore the flow to find a reliable reproduction path before proposing a fix
 * **Automation and scraping** - have agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data instead of brittle screenshots that break with the slightest UI change
 * **Easy handling of popups and modals** - it allows your agent to see and interact with popups within the context of your own application and frontend tests
 
@@ -73,7 +64,6 @@ Most Playwright + AI content focuses on testing, but the more interesting day-to
 This unlocks a few high-value workflows:
 
 * **Verify frontend changes inline** - After editing a component, the agent navigates to the page, captures an accessibility snapshot, and confirms the change actually rendered. Stops the "looks good to me, ship it" failure mode where the code compiles but the UI is broken
-* **Reproduce reported bugs** - When a bug ticket comes in, the agent walks through the reproduction steps in the browser, captures the broken state, then proposes a fix. Faster than the human pasting screenshots back and forth
 * **Explore before editing** - Before changing a flow the agent doesn't know, it navigates the app to understand the current behaviour (e.g. *"click through the checkout so you know what state I'm starting from"*). Reduces blind edits to code the agent has never seen run
 * **Deep-link inner loops** - For changes buried behind login and several clicks, the agent automates the navigation each iteration, instead of asking the human to manually click through after every save
 * **Component playground verification** - Agent navigates Storybook, Histoire, or your component sandbox after a change and confirms each variant still renders correctly
