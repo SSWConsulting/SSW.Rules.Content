@@ -150,11 +150,21 @@ Setup checklist:
   style="tips"
 />
 
-### Step 3: Add Beads when repo instructions aren't enough (⭐️ recommended for long projects)
+### Step 3: Add Beads when work needs a task graph (⭐️ recommended for long projects)
 
-When the project is big — months of work, lots of typed dependencies between tasks, conventions worth pinning that the agent keeps re-deriving wrong — Step 1 and Step 2 start to creak. The CLAUDE.md grows past 200 lines. Auto memory captures the *what* but not the *why we decided it*. The agent gets lost across sessions on a long feature.
+Steps 1 and 2 help the agent remember **context**. Beads helps the agent remember **work**.
 
-This is what [Beads](https://github.com/gastownhall/beads) is for. It's a distributed graph issue tracker for coding agents — backed by [Dolt](https://github.com/dolthub/dolt), written by Steve Yegge in October 2025 — that gives the agent a structured task graph plus a `bd remember` store for pinned decisions. The agent calls `bd prime` at session start and gets the pinned context plus ready (unblocked) tasks back deterministically.
+When a feature spans multiple sessions, markdown plans start to decay. The agent creates `phase-3-plan.md`, then a nested `phase-1-of-phase-3-plan.md`, then forgets which level of the plan it is in after compaction. You end up with lots of partially true plans and no reliable answer to *"what is ready to do next?"*
+
+This is what [Beads](https://github.com/gastownhall/beads) is for. It is a distributed graph issue tracker for coding agents, powered by [Dolt](https://github.com/dolthub/dolt). It gives agents a dependency-aware issue graph, JSON-friendly commands, ready-work detection, claiming, audit history, and a small project memory mechanism via `bd remember`.
+
+Use Beads for:
+
+* **Long-horizon planning:** break a big feature into issues instead of nested markdown plans
+* **Dependency tracking:** ask `bd ready` for unblocked work instead of rereading prose
+* **Discovered work:** when the agent finds a bug mid-task, it files an issue instead of losing it
+* **Session handoff:** a fresh agent can run `bd prime` and recover the current workflow context
+* **Multi-agent coordination:** agents can claim different ready issues without duplicating work
 
 ```bash
 # Install once (system-wide)
@@ -162,13 +172,14 @@ brew install beads
 
 # In your project
 bd init
-bd setup claude              # installs Claude Code hooks + AGENTS.md
+bd setup codex               # Codex CLI - creates/updates AGENTS.md
+bd setup claude              # Claude Code - installs hooks/settings
 
-# After that, the agent uses these automatically
-bd prime                     # session start: pull pinned memory + ready tasks
-bd remember "Decision: ..."  # pin a decision
-bd ready                     # what's unblocked
+# Core agent workflow
+bd prime                     # print workflow context and persistent memories
+bd ready                     # list unblocked work
 bd update bd-a1b2 --claim    # claim a task
+bd remember "Decision: ..."  # store project memory for future bd prime output
 ```
 
 You'll know it's time when:
