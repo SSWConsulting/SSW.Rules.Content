@@ -21,12 +21,14 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-20T07:01:58.430Z
+lastUpdated: 2026-05-20T07:22:28.169Z
 lastUpdatedBy: Sylvia Huang
 lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
 
-An LLM is stateless. Every call is a fresh start. Anything you want the model to "know" past the current turn has to be put back into the prompt somehow. That's it. "AI Agent memory" is just different answers to one question: **what do we store, where do we put it, and how do we get it back into the context window at the right moment?** The problem is, the "memory" word covers at least three different problems — project context, per-user personalisation, and long-running autonomy — and picking the wrong tool wastes weeks.
+An LLM is fundamentally stateless. Every interaction starts from scratch. What feels like a continuous conversation is really just a growing context window being passed back into the model on every turn. As that window expands, token costs rise, latency increases, and performance often degrades.
+
+“Agentic memory” is really a set of answers to one core question: **what information should we store, where should we store it, and how do we retrieve it at the right moment to rehydrate the context window?**
 
 <endIntro />
 
