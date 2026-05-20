@@ -21,12 +21,12 @@ seoDescription: |
 created: 2026-05-18T09:29:03.000Z
 createdBy: Tino Liu
 createdByEmail: justinoliu.work@gmail.com
-lastUpdated: 2026-05-18T09:29:03.000Z
+lastUpdated: 2026-05-20T07:06:23.670Z
 lastUpdatedBy: Tino Liu
-lastUpdatedByEmail: justinoliu.work@gmail.com
+lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
 
-You finish a Claude Code session at 5pm on Tuesday. It knows what your coding preferences are, the test command, and the auth module quirk you corrected twice. 
+You finish a Claude Code session at 5pm on Tuesday. It knows what your coding preferences are, the test command, and the auth module quirk you corrected twice.
 
 You start a new session Wednesday morning and it tries the wrong command again.
 
@@ -40,7 +40,7 @@ You start a new session Wednesday morning and it tries the wrong command again.
 
 LLMs are stateless. Every model call starts fresh unless the tool around it supplies previous context. A coding agent only "remembers" because something reloads useful text or structured state into the context window.
 
-"STOP CALLING IT FRENCH FRIES! IT'S CHIIIIIIIPS!"
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/v2-ai-agent-memory-systems/memory_comic.png" />
 
 The everyday symptoms:
 
@@ -51,11 +51,11 @@ The everyday symptoms:
 
 For example:
 
-| Scenario | Stateless coding agent | Coding agent with memory |
-| --- | --- | --- |
-| New session in an existing repo | Tries `npm test`, even though the repo uses `pnpm test:unit` | Reads the test command from `CLAUDE.md` / `AGENTS.md` |
-| Reopening a bug from last week | Repeats the same failed debugging path | Sees the saved note about the actual auth-token expiry issue |
-| Continuing a feature after lunch | Needs you to restate the plan and the files already changed | Loads the current task, decisions, and blocked/unblocked work |
+| Scenario                         | Stateless coding agent                                       | Coding agent with memory                                      |
+| -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| New session in an existing repo  | Tries `npm test`, even though the repo uses `pnpm test:unit` | Reads the test command from `CLAUDE.md` / `AGENTS.md`         |
+| Reopening a bug from last week   | Repeats the same failed debugging path                       | Sees the saved note about the actual auth-token expiry issue  |
+| Continuing a feature after lunch | Needs you to restate the plan and the files already changed  | Loads the current task, decisions, and blocked/unblocked work |
 
 You don't need a vector database or a knowledge graph to fix this for normal client engineering. You need three things, in order.
 
@@ -79,7 +79,7 @@ your-project/
 A few things that catch devs out:
 
 * **Claude Code reads `CLAUDE.md`, NOT `AGENTS.md`.** If your client repo already uses `AGENTS.md` (because they use Codex / Factory / mixed tools), the canonical pattern is a one-line `CLAUDE.md` containing `@AGENTS.md`. Both tools then read the same source of truth.
-* **Keep it under ~200 lines.** Longer files consume context and reduce adherence. If it's growing, move topic-specific rules into `.claude/rules/*.md` with `paths:` frontmatter so they only load when matching files are touched.
+* **Keep it under \~200 lines.** Longer files consume context and reduce adherence. If it's growing, move topic-specific rules into `.claude/rules/*.md` with `paths:` frontmatter so they only load when matching files are touched.
 * **Be specific.** *"Use 2-space indentation"* and *"Run `npm test` before committing"* work. *"Format code nicely"* and *"Test your changes"* don't.
 * **Run `/init` once** in any new client repo. Claude analyses the codebase and drafts a starter `CLAUDE.md` from it.
 
@@ -117,13 +117,13 @@ For Codex, this is **Codex Memories**:
 └── rollout_summaries/  # per-session summaries
 ```
 
-| | Repo instructions (you write) | Tool-local memory (tool writes) |
-| --- | --- | --- |
-| Examples | `CLAUDE.md`, `AGENTS.md` | Claude Code auto memory, Codex Memories |
-| What it contains | Instructions and rules | Learnings, preferences, gotchas, previous-session context |
-| Lives in | Your repo (shared with the team via git) | Your machine (`~/.claude/` or `~/.codex/`) |
-| Loaded into | Every session, depending on the tool | Future sessions, depending on tool settings |
-| Best for | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
+|                  | Repo instructions (you write)                  | Tool-local memory (tool writes)                                             |
+| ---------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
+| Examples         | `CLAUDE.md`, `AGENTS.md`                       | Claude Code auto memory, Codex Memories                                     |
+| What it contains | Instructions and rules                         | Learnings, preferences, gotchas, previous-session context                   |
+| Lives in         | Your repo (shared with the team via git)       | Your machine (`~/.claude/` or `~/.codex/`)                                  |
+| Loaded into      | Every session, depending on the tool           | Future sessions, depending on tool settings                                 |
+| Best for         | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
 
 Setup checklist:
 
@@ -220,7 +220,7 @@ If you're an SSW dev using coding agents on client work:
 
 Memory isn't one problem. For SSW client work, the common problem is simple: make the useful repo context durable, then reload it at the start of the next coding session.
 
----
+***
 
 ### Learn more
 
