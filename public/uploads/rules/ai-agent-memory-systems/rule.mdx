@@ -191,48 +191,24 @@ You'll know it's time when:
 * You're losing work because the agent ignores "unrelated" problems it discovered mid-task
 * The project has nested workstreams the agent gets lost in across compactions
 
-## What you don't need (yet)
+## Honorable mentions
 
-If you've been reading agent-memory blog posts, you'll have seen Mem0, Zep, Letta, MemoryGraph, Cognee, LangMem and friends. They're all useful for the right problem, but they usually solve a different problem from "help my coding agent remember this repo":
+You probably have came across Mem0, Zep, Letta, MemoryGraph, Cognee, and LangMem. These are not bad tools. They are usually aimed at a different memory problem from "help my coding agent remember this repo":
 
-* **Mem0** — hosted vector store with LLM-extracted memories. Built for **chatbot / assistant products with many end-users** who each have their own state. Not for engineering conventions.
-* **Zep / Graphiti** — temporal knowledge graphs that answer *"what was true on date X."* Reach for it if you're building a product where time-travel queries are a real requirement.
-* **Letta (formerly MemGPT)** — OS-style agent-managed memory for **autonomous agents that run for days unattended**. Means leaving Claude Code as your harness, which is a big trade.
-* **MemoryGraph** — a graph-based MCP memory server. Interesting as a Claude Code MCP add-on if you really want relationship tracking, but `CLAUDE.md` + auto memory + Beads handles the same job for SSW work without standing up an MCP server.
-* **LangMem / Cognee** — relevant if you're already on LangChain / LangGraph, or ingesting large unstructured document sets. Neither describes client engineering work.
+* **Mem0** — useful for **assistant products with many end-users**, where each user needs their own extracted preferences, facts, and long-term state.
+* **Zep / Graphiti** — useful for **temporal knowledge graphs**, especially when you need to ask *"what was true on date X?"* or reason over relationships that change over time.
+* **Letta (formerly MemGPT)** — useful for **long-running autonomous agents** that manage their own memory over days or weeks, rather than a developer-controlled coding session.
+* **MemoryGraph** — useful when you want a **graph-based MCP memory server** for explicit relationship tracking across entities, decisions, and notes.
+* **LangMem / Cognee** — useful when you're already building on **LangChain / LangGraph** or ingesting large unstructured document sets that need retrieval and memory workflows.
 
 <boxEmbed
   body={<>
-    **Rule of thumb:** if you're building a *product* with end-users, you may need one of these. If you're shipping *code* for a client, you almost certainly don't. The 3-step stack above covers most SSW work. Reach for heavier memory infrastructure only when you have a specific shape of question — usually *"remember this end-user across sessions"* or *"what was true at time X"* — that the simple approach can't answer.
+    **Rule of thumb:** pick the memory system that matches the shape of the thing being remembered. Repo conventions, developer preferences, and agent work items fit the 3-step stack above. End-user state, temporal facts, autonomous agents, graph relationships, and document-scale retrieval may justify a dedicated memory product.
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
-
-## What about the "human teammate" gap?
-
-What we actually want is a teammate: *I tell them once, from then on they remember it.* No system on the market delivers that end-to-end yet. The honest reframing is that the problem splits in two:
-
-* **The save step** — does the agent capture what was decided?
-* **The recall step** — does the right memory show up at the right moment?
-
-Humans fail at the recall step: they decided once, but cannot always pull it up when it matters. Coding agents fail at the save step: they saw the decision, but did not necessarily write it somewhere durable. The practical fix is boring and useful — when something matters, tell the tool where to save it.
-
-The 3-step stack above closes most of that gap for client engineering work.
-
-## Summary
-
-If you're an SSW dev using coding agents on client work:
-
-* **Step 1:** Write repo instructions: `CLAUDE.md`, `AGENTS.md`, or both. Keep them under 200 lines.
-* **Step 2:** Turn on Claude Code's auto memory (`/memory`). Audit it every couple of weeks.
-* **Step 3:** Add Beads when the project gets big enough that Step 1 and Step 2 stop being enough.
-* **Don't** reach for Mem0, Zep, Letta, MemoryGraph, etc. unless you're building an agent *product*, not shipping client code.
-
-Memory isn't one problem. For SSW client work, the common problem is simple: make the useful repo context durable, then reload it at the start of the next coding session.
-
-***
 
 ### Learn more
 
