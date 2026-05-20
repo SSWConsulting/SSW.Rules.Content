@@ -24,7 +24,7 @@ seoDescription: Discover the best practices for implementing automated UI testin
 created: 2021-10-15T06:12:32.419Z
 createdBy: Luke Parker
 createdByEmail: 10430890+Hona@users.noreply.github.com
-lastUpdated: 2026-05-20T07:35:37.243Z
+lastUpdated: 2026-05-20T23:55:21.048Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
@@ -130,10 +130,12 @@ Watch [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) and Andreas Len
 
 ### Caution
 
-It's important not to rely too heavily on automated UI tests.
+Automated UI testing is powerful, but it should still be done with planning.
 
-Due to their broad scope, they are slow to run and prone to high maintenance (since they will often need to be updated when the UI is changed). Other levels of automated tests should be considered first (see [What are the different types of test you can have?](/the-different-types-of-test)) and only add automated UI tests for important workflows in the product.
+Modern tools like Playwright and AI Agents have reduced the maintenance pain by helping teams write, debug, and fix tests.
 
-The use of "record & playback"/Low Code/No Code approaches to creating automated UI tests is fraught with danger. These approaches demo very well and can appear to give quick wins, but they generate code that is generally sub-optimal and may be hard to maintain. Building reliable and maintainable automated UI tests requires coding skills and forethought in terms of what really makes sense to automate at this high level.
+However, UI tests are still slower to run because they interact with the browser and test broader user workflows. 
+
+Use them for important workflows.
 
 See [Do you remember to use automated UI testing sparingly?](/automated-ui-testing-sparingly/)
