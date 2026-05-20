@@ -26,7 +26,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-20T05:43:33.880Z
+lastUpdated: 2026-05-20T05:55:21.869Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 ---
@@ -51,7 +51,7 @@ In turn, AI can ship tests that break the moment they're run as well as building
 
 By giving the agent access to Playwright, we can bridge this gap, giving your agent the power to build, run, and examine its own changes. This allows for:
 
-* **[Automated UI testing](https://www.ssw.com.au/rules/automated-ui-testing)** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development. 
+* **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development. *See also: **[Do you do automated UI testing?](https://www.ssw.com.au/rules/automated-ui-testing)***
 * **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made work as intended before claiming that it is done
 * **Reproduce reported bugs** - when a bug ticket comes in, the agent can use Playwright to follow the reported steps, inspect the app state, and confirm the bug in a real browser. If the steps are incomplete, it can explore the flow to find a reliable reproduction path before proposing a fix
 * **Automation and scraping** - have agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data instead of brittle screenshots that break with the slightest UI change
@@ -68,6 +68,7 @@ This unlocks a few high-value workflows:
 * **Deep-link inner loops** - For changes buried behind login and several clicks, the agent automates the navigation each iteration, instead of asking the human to manually click through after every save
 * **Component playground verification** - Agent navigates Storybook, Histoire, or your component sandbox after a change and confirms each variant still renders correctly
 * **Network interception during dev** - Agent uses Playwright's route mocking to test edge cases (slow API, 500 errors, empty states) without needing to touch the real backend
+* **Check acceptance criteria** - For PBIs with UI changes, the agent can use Playwright to verify the user flow against the Acceptance Criteria before merging. *See also: **[Do you write Acceptance Tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)***
 
 ## How can you pair Playwright with an AI Agent?
 
