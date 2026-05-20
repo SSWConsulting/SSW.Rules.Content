@@ -15,8 +15,8 @@ authors:
     url: 'https://www.ssw.com.au/people/hark-singh'
 related:
   - rule: public/uploads/rules/the-different-types-of-test/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
   - rule: public/uploads/rules/bdd/rule.mdx
-  - {}
 redirects:
   - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
@@ -24,7 +24,7 @@ seoDescription: Discover the best practices for implementing automated UI testin
 created: 2021-10-15T06:12:32.419Z
 createdBy: Luke Parker
 createdByEmail: 10430890+Hona@users.noreply.github.com
-lastUpdated: 2026-05-20T06:31:46.883Z
+lastUpdated: 2026-05-20T06:39:34.065Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
@@ -42,11 +42,24 @@ Lower level automated tests (e.g. unit tests) are small in scope and are unlikel
 
 ### Tooling
 
-There are numerous tools available for facilitating automated UI testing through the browser. These include tools like [Telerik Test Studio](https://www.telerik.com/teststudio/), [Cypress](https://www.cypress.io/), or [Puppeteer](https://pptr.dev/), to name a few.
+There are numerous tools available for facilitating automated UI testing through the browser:
 
-[Selenium](https://www.selenium.dev/) was the gold standard in this area for many years, but Microsoft's [Playwright](https://playwright.dev/) is now recommended.
+* [Playwright](https://playwright.dev/)  (✅ recommended)
+* [Selenium](https://www.selenium.dev/) (was the gold standard)
+* Several others: [Telerik Test Studio](https://www.telerik.com/teststudio/), [Cypress](https://www.cypress.io/), or [Puppeteer](https://pptr.dev/), to name a few.
 
 #### Playwright
+
+<boxEmbed
+  body={<>
+    With the latest AI tooling, Playwright can now be connected via **MCP**, **CLI**, and **specialized test agents** to help write better UI Tests.
+    
+    Read more: [Do you know how to use Playwright with your AI Agents?](https://www.ssw.com.au/rules/playwright-with-ai)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 Playwright allows you to write tests in many popular languages including .NET, Java, Python and JavaScript/TypeScript.
 
