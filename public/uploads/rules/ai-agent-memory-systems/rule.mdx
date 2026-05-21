@@ -25,7 +25,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T07:35:47.397Z
+lastUpdated: 2026-05-21T12:53:52.018Z
 lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
@@ -38,7 +38,7 @@ Wednesday morning, you start a new session. It tries the wrong test command agai
 
 Agentic memory aims to solve that continuity problem.
 
-Every memory system out there is really an answer to two questions:
+Every memory system out there is really an answer to 2 questions:
 
 1. **What are you storing?** (the cognitive types)
 2. **How are you storing it?** (the architectural patterns)
@@ -49,12 +49,35 @@ Every memory system out there is really an answer to two questions:
 
 ## What you're storing: the cognitive types
 
-This taxonomy comes from cognitive science by way of the CoALA framework (Princeton, 2023). It's borrowed terminology rather than a strict technical spec, but most memory systems map to these four buckets in some way.
+This taxonomy comes from cognitive science by way of the CoALA framework (Princeton, 2023). It's borrowed terminology rather than a strict technical spec, but most memory systems map to these 4 buckets in some way.
 
-* **Working / in-context** - the current conversation window. RAM. Everything visible to the model right now. Close the session and it's gone. *Scope: single turn or session.*
-* **Episodic** - what happened before. "The user asked about Resend in March." "The build broke last Tuesday when we tried X." Tied to time and context. *Scope: past interactions.*
-* **Semantic** - generalised facts. "Bob Northwind prefers self-hosted tooling." "Our test runner is vitest." Detached from when it was learned. *Scope: stable knowledge.*
-* **Procedural** - how to do things. Workflows, learned skills, the agent's own operating instructions. The agent's "muscle memory." *Scope: rules and routines.*
+**Working / in-context**
+
+The current conversation window. RAM. Everything visible to the model right now. Close the session and it's gone.
+
+*Scope: single turn or session.*
+
+**Episodic**
+
+What happened before. Tied to time and context.
+
+[#1](#1) E.g. "The user asked about Resend in March."
+
+[#2](#2) E.g. "The build broke last Tuesday when we tried X."
+
+*Scope: past interactions.*
+
+**Semantic**
+
+Generalised facts. "Bob Northwind prefers self-hosted tooling." "Our test runner is vitest." Detached from when it was learned.
+
+*Scope: stable knowledge.*
+
+**Procedural**
+
+How to do things. Workflows, learned skills, the agent's own operating instructions. The agent's "muscle memory."
+
+*Scope: rules and routines.*
 
 <boxEmbed
   body={<>
@@ -135,7 +158,7 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 
 Each remembered fact gets embedded into a vector — a numeric fingerprint of its meaning. When you send a query, that message gets embedded too, and the system pulls the top-k closest vectors back into context. Those chunks go into the prompt.
 
-This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing the exact wording. The downside: it has no concept of time, contradiction, or updates. Tell the agent your favourite colour twice and you'll have two competing memories. It might surface the wrong one.
+This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing the exact wording. The downside: it has no concept of time, contradiction, or updates. Tell the agent your favourite colour twice and you'll have 2 competing memories. It might surface the wrong one.
 
 Products that use this pattern:
 
