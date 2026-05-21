@@ -21,7 +21,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T06:05:29.220Z
+lastUpdated: 2026-05-21T06:15:11.130Z
 lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
@@ -65,7 +65,7 @@ This taxonomy comes from cognitive science by way of the CoALA framework (Prince
 
 Five patterns you'll see in practice. Most products are a mix of these.
 
-### a. Markdown files (the simple one)
+### Markdown files (the simple one)
 
 #### AGENTS.md/CLAUDE.md
 
@@ -127,7 +127,7 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
   style="tips"
 />
 
-### b. Vector stores (semantic similarity)
+### Vector stores (semantic similarity)
 
 Every piece of remembered information gets embedded into a vector. At query time, the user's message is embedded too, and the system pulls the top-k closest vectors back into context. The retrieved chunks become part of the prompt.
 
@@ -140,7 +140,7 @@ Products that use this pattern:
 
 Vector stores are more often the *backing store* inside something higher-level (like Mem0) than a memory system you use on its own.
 
-### c. Knowledge graphs (entities and relationships)
+### Knowledge graphs (entities and relationships)
 
 Facts get stored as typed nodes and edges. "Gordon" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Brisbane". Some systems layer time on top so relationships have validity windows: "Gordon worked at Derivco from X to Y, currently at SSW from Y to now."
 
@@ -160,7 +160,7 @@ Products that use this pattern:
 
 Good fit for engineering work with real dependencies and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points, which is roughly 60–80% reliable depending on the model and the session length. `bd prime` then makes retrieval rock-solid for everything that did get saved.
 
-### d. Agent-managed paging (the MemGPT model)
+### Agent-managed paging (the MemGPT model)
 
 This is the only pattern where the agent is in charge of its own memory rather than memory being managed for it. There's "core memory" always visible in the context window (like RAM) and "archival memory" sitting in a vector store the agent queries with explicit tool calls. The agent itself decides what to page in and out.
 
@@ -170,7 +170,7 @@ The upside is long-horizon autonomy: agents that run for days. The cost is compl
 
 [Letta](https://www.letta.com) is the canonical implementation. The agent queries archival memory with `archival_memory_search` and rewrites core memory with `core_memory_replace`. Best fit for long-horizon autonomous agents that run for days. The cost is committing to Letta as your harness instead of Claude Code.
 
-### e. Hybrid extraction layers
+### Hybrid extraction layers
 
 These sit on top of one or more of the patterns above. They use an LLM to pull memorable facts from raw conversation, dedupe them against what's already stored, and decide whether each new fact is an update or a new entry. The backing store is usually a mix of vector and structured. Closer to a "memory ops" layer than a storage backend.
 
