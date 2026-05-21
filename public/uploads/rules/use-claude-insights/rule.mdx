@@ -10,8 +10,100 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+AI Agents have become a daily driver for most developers, but very few people stop to ask **how** they are actually using them. Bad habits compound silently - you reach for the same broken prompt every morning, re-explain the same three project gotchas to every fresh session, and lose an hour debugging because the agent kept claiming "done" when nothing had been tested.
+
+`/insights` is Claude Code's built-in reflection tool. It reads the last 30 days of your session history and turns it into a personalised report on how you actually work with your agent, where you get stuck, and what to change.
 
 <endIntro />
 
-Body
+## What does `/insights` do?
+
+Run `/insights` in any Claude Code session and it analyses the last 30 days of conversations stored under `~/.claude/`. The output is an interactive HTML report saved to `~/.claude/usage-data/report` - a static file you can open in any browser.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Privacy** - `/insights` only reads the session metadata under `~/.claude/`. It never touches the files in your repositories.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What's in the report?
+
+The report walks from a high-level summary down to copy-paste suggestions. The most useful sections are:
+
+* **At a Glance** - A four-paragraph executive summary covering what's working, what's hindering you, quick wins, and bigger experiments worth trying
+* **How You Use Claude Code** - A narrative on your delegation, correction, and verification style, ending with a "Key pattern" callout naming your dominant working style in one sentence
+* **Where Things Go Wrong** - Friction categories with concrete examples pulled from your actual sessions, each one naming the underlying issue and the exact times it bit you
+* **Existing CC Features to Try** - The most actionable section: ready-to-paste `CLAUDE.md` additions plus tailored recommendations for Skills, Hooks, or MCP servers
+* **On the Horizon** - Ambitious proposals to turn workflows you already run into autonomous, self-verifying versions, each with a copy-paste prompt to start building
+
+## Why bother running it?
+
+Reflecting on your own behaviour without bias is hard. Reading 30 days of your own transcripts manually is harder. `/insights` does the pattern-matching for you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Without `/insights`** - You "feel" your AI workflow is slow but cannot point to why. You keep retyping the same three-step prompt because it never occurred to you it could be a Skill. You assume the agent's "done" messages are correct because checking each one is annoying.
+  </>}
+  figurePrefix="bad"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **With `/insights`** - The report names that three-step prompt as your most-repeated workflow and suggests turning it into a Skill. Your friction list flags premature "done" claims as the top recurring issue. You ship two `CLAUDE.md` additions in the next 10 minutes.
+  </>}
+  figurePrefix="good"
+  figure=""
+/>
+
+## What should you do with the findings?
+
+A report you do not act on is wasted. After every run, do at least one of:
+
+* **Codify a repeated correction** - Move it from your prompts into [`AGENTS.md`](/write-agents-md) so it flows to every tool that reads it. The "Suggested CLAUDE.md additions" section gives you a head start
+* **Turn a repeated workflow into a Skill** - If the same multi-step task keeps appearing in your "What You Wanted" chart, it belongs in a Skill (or a [GitHub Copilot Chat Mode](/github-copilot-chat-modes)) - not in a prompt you retype
+* **Add a verification step** - If the friction analysis flags premature "done" claims, a Hook that runs `git status` or a smoke test after edits will catch them automatically
+* **Anchor context earlier** - If Claude repeatedly misses information you supplied, the report is telling you to put that context in `CLAUDE.md` or a Skill, not in mid-session prompts
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** The suggestions are pattern-matched from repetition, not judgement. They can codify a bad habit as easily as a good one. Treat them as drafts. Read each one and ask whether it would actually help future-you.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What about other AI tools?
+
+`/insights` is a Claude Code exclusive command. There is no equivalent in Cursor, GitHub Copilot, Gemini CLI, or Codex CLI today. The underlying idea - "analyse my recent sessions and tell me how to use this tool better" - is something you can replicate yourself with a custom Skill or prompt that walks your tool's session logs and surfaces the same patterns. See [Do you use Skills to standardize your AI workflows?](/ai-agents-with-skills) for the Skill pattern.
+
+The output will not be as polished as Claude's interactive HTML report, but the reflection step is what matters, not the chart styling.
+
+## When should you run it?
+
+Monthly is the sweet spot. Weekly is too noisy - there are not enough sessions for patterns to emerge. Quarterly is too late - bad habits have already calcified.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Pin `/insights` to the same day as your sprint retrospective. Two retros, one ritual.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you write an AGENTS.md to brief your AI Agent?](/write-agents-md)
+* [SSW: Do you use Skills to standardize your AI workflows?](/ai-agents-with-skills)
+* [SSW: Do you monitor your AI cost and usage?](/monitor-ai-cost-and-usage)
+* [SSW: Do you do a retrospective?](/do-a-retrospective)
+* [Anthropic Docs - Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Official Claude Code documentation, including built-in slash commands
