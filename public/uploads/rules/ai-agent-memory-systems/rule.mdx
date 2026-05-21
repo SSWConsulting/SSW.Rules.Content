@@ -21,7 +21,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T06:17:02.228Z
+lastUpdated: 2026-05-21T06:25:41.074Z
 lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
@@ -73,7 +73,7 @@ A plain markdown file at the repo root. This is where you put things every codin
 
 Read more about this at  [Do you write an AGENTS.md?](https://www.ssw.com.au/rules/write-agents-md)
 
-#### AI Tool's Memory (⭐️ recommended baseline)
+#### AI Tool's Memory
 
 Repo instructions are the shared source of truth. Tool-local memory is the private notebook your coding agent keeps as you work. It isn't the same as editing `CLAUDE.md` or `AGENTS.md`, and it isn't the chat transcript either.
 
@@ -142,7 +142,7 @@ Vector stores are more often the *backing store* inside something higher-level (
 
 ### Knowledge graphs (entities and relationships)
 
-Facts get stored as typed nodes and edges. "Gordon" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Brisbane". Some systems layer time on top so relationships have validity windows: "Gordon worked at Derivco from X to Y, currently at SSW from Y to now."
+Facts get stored as typed nodes and edges. "Bob Northwind" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Brisbane". Some systems layer time on top so relationships have validity windows: "Bob worked at Sydney from X to Y, currently at SSW from Y to now."
 
 Graphs handle queries that vector search struggles with. "Who did I work with on the stub.sh project?" needs traversal, not similarity. The trade-off is ingest cost. Building the graph requires extra LLM calls to extract entities and figure out where they fit, which is slower and more expensive per write.
 
@@ -154,7 +154,7 @@ Products that use this pattern:
 
 [Cognee](https://www.cognee.ai) is in the same space, a more recent open-source competitor.
 
-#### Beads (⭐️ recommended for engineering work)
+#### ⭐️ Beads
 
 [Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a different flavour of graph: a distributed graph *issue tracker* for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). The primary unit is an issue with typed dependencies (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`). Free-form project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
 
@@ -180,7 +180,7 @@ These sit on top of one or more of the patterns above. They use an LLM to pull m
 
 ## How do you actually pick?
 
-* Start with `CLAUDE.md` or `AGENTS.md`. Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
+* Start with `CLAUDE.md` or `AGENTS.md`. Turn on memory if you're using Claude Code or Codex. If it remembers enough of the right things, you're done.
 * Layer Beads once auto-memory hits its limits. Hooks handle the save step, `bd prime` handles retrieval. This is probably where you land for engineering work.
 * Add Mem0 only if you also need per-user state. That's a different problem from engineering conventions.
 * Add Zep, Graphiti, or Cognee if your agents need temporal reasoning. "What was true last Tuesday" only works with validity windows.
