@@ -129,16 +129,16 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 
 ### Vector stores (semantic similarity)
 
-Every piece of remembered information gets embedded into a vector. At query time, the user's message is embedded too, and the system pulls the top-k closest vectors back into context. The retrieved chunks become part of the prompt.
+Each remembered fact gets embedded into a vector — a numeric fingerprint of its meaning. When you send a query, that message gets embedded too, and the system pulls the top-k closest vectors back into context. Those chunks go into the prompt.
 
-This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing exact wording. The downside is it has no concept of time, contradiction, or update. Tell the agent your favourite colour twice and you've got two memories about it, and the agent might surface the wrong one.
+This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing the exact wording. The downside: it has no concept of time, contradiction, or updates. Tell the agent your favourite colour twice and you'll have two competing memories. It might surface the wrong one.
 
 Products that use this pattern:
 
-* [Pinecone](https://www.pinecone.io), [Chroma](https://www.trychroma.com), [Weaviate](https://weaviate.io), [Qdrant](https://qdrant.tech). Vector DBs you wire up yourself.
+* [Pinecone](https://www.pinecone.io), [Chroma](https://www.trychroma.com), [Weaviate](https://weaviate.io), [Qdrant](https://qdrant.tech). Raw vector DBs you wire up yourself. Good if you want full control over how things get chunked and retrieved, or if you're mostly storing static reference material like docs, transcripts, or knowledge bases. That's closer to classic RAG than to "memory."
 * [LangMem](https://github.com/langchain-ai/langmem). LangChain's wrapper on top of a vector store. Easiest path if you're already on LangChain or LangGraph.
 
-Vector stores are more often the *backing store* inside something higher-level (like Mem0) than a memory system you use on its own.
+You don't usually reach for a vector store directly when you want agent memory. It's almost always the *backing store* inside something higher-level like Mem0, Zep, or Letta, which deal with dedupe and updates for you. Only wire one up yourself if you've got a real reason to own that layer.
 
 ### Knowledge graphs (entities and relationships)
 
