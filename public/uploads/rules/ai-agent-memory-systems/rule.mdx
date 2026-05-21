@@ -21,12 +21,12 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T02:51:16.203Z
+lastUpdated: 2026-05-21T05:50:27.567Z
 lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
 
-You finish a Claude Code session at 5pm on Tuesday. It knows what your coding preferences are, the test command, and the auth module quirk you corrected twice. 
+You finish a Claude Code session at 5pm on Tuesday. It knows what your coding preferences are, the test command, and the auth module quirk you corrected twice.
 
 You start a new session Wednesday morning and it tries the wrong command again. **Coding agents forgetting useful project context between sessions.**
 
@@ -63,24 +63,11 @@ Five real patterns. Almost every product on the market is a mix of these.
 
 ### a. Markdown files (the simple one)
 
-A plain `.md` file gets loaded into the system prompt at session start. That's the whole architecture. Same idea, different filenames depending on the tool:
+#### AGENTS.md/CLAUDE.md
 
-* `CLAUDE.md` — loaded by Claude Code
-* `AGENTS.md` — the cross-tool standard
-* `.cursorrules` — used by Cursor
-* `.github/copilot-instructions.md` — used by GitHub Copilot
+A plain markdown file at the repo root. This is where you put things every coding agent should know on day one.
 
-```text
-my-project/
-├── CLAUDE.md                          # loaded by Claude Code
-├── AGENTS.md                          # loaded by everything else
-├── .cursorrules                       # used by Cursor
-└── .github/copilot-instructions.md    # used by GitHub Copilot
-```
-
-It's not sophisticated. No vector search, no graph, no temporal reasoning. The file just gets dumped into context every time. That's also the strength: the memory is a human-readable artifact you can commit to git, review in a PR, diff over time, and edit by hand without running a service.
-
-For project-scoped context (coding standards, build commands, domain language, conventions) this beats everything else. It's deterministic, version-controlled, free, and every agent harness honours it. There's a ceiling, of course. Token cost scales with the file, there's no semantic retrieval, no per-user state. But most teams hit that ceiling far later than they expect. Newer setups push it back further with `@import` directives, so a top-level file pulls in scoped fragments.
+Read more about this at  [Do you write an AGENTS.md?](https://www.ssw.com.au/rules/write-agents-md)
 
 #### AI Tool's AI Memory (⭐️ recommended baseline)
 
@@ -88,7 +75,7 @@ Repo instructions are the shared source of truth. Tool-local memory is the priva
 
 Use it for learnings the tool discovers during real work: the command that actually passes, the debugging insight from yesterday, the style nudge you've repeated twice, or the local gotcha that is useful to you but not worth committing to the repo.
 
-For Claude Code, this is **auto memory**:
+For Claude Code, this is **[Auto Memory](https://code.claude.com/docs/en/memory)**:
 
 ```text
 ~/.claude/projects/<project>/memory/
@@ -97,7 +84,7 @@ For Claude Code, this is **auto memory**:
 └── api-conventions.md
 ```
 
-For Codex, this is **Codex Memories**:
+For Codex, this is **[Codex Memories](https://developers.openai.com/codex/memories)**:
 
 ```text
 ~/.codex/memories/
@@ -107,20 +94,14 @@ For Codex, this is **Codex Memories**:
 └── rollout_summaries/  # per-session summaries
 ```
 
-| | Repo instructions (you write) | Tool-local memory (tool writes) |
-| --- | --- | --- |
-| Examples | `CLAUDE.md`, `AGENTS.md` | Claude Code auto memory, Codex Memories |
-| What it contains | Instructions and rules | Learnings, preferences, gotchas, previous-session context |
-| Lives in | Your repo (shared with the team via git) | Your machine (`~/.claude/` or `~/.codex/`) |
-| Loaded into | Every session, depending on the tool | Future sessions, depending on tool settings |
-| Best for | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
+|                  | Repo instructions (you write)                  | Tool-local memory (tool writes)                                             |
+| ---------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
+| Examples         | `CLAUDE.md`, `AGENTS.md`                       | Claude Code auto memory, Codex Memories                                     |
+| What it contains | Instructions and rules                         | Learnings, preferences, gotchas, previous-session context                   |
+| Lives in         | Your repo (shared with the team via git)       | Your machine (`~/.claude/` or `~/.codex/`)                                  |
+| Loaded into      | Every session, depending on the tool           | Future sessions, depending on tool settings                                 |
+| Best for         | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
 
-Setup checklist:
-
-* **Use a current Claude Code version.** Check with `claude --version`.
-* **Use a current Codex version.** Check with `codex --version`.
-* **For Claude Code, auto memory is on by default.** Toggle via `/memory` in a session, or `"autoMemoryEnabled": false` in settings, or `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`.
-* **For Codex, check whether Memories are enabled.** Run `codex features list` and look for `memories`. In config-based installs, memory settings live under `~/.codex/config.toml`.
 * **Different words → different store.** Saying *"remember X"* writes to tool-local memory. Saying *"add this to CLAUDE.md"* or *"add this to AGENTS.md"* edits repo instructions instead.
 * Audit tool-local memory occasionally. It is machine-local context, so it can drift or capture something you would rather move into repo instructions.
 
