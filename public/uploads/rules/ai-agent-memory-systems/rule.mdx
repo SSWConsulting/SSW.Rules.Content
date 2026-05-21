@@ -26,11 +26,11 @@ lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
 
-You finish a Claude Code session at 5pm on Tuesday. It knows what your coding preferences are, the test command, and the auth module quirk you corrected twice.
+You finish a Claude Code session at 5pm on Tuesday. It knows your coding preferences, the test command, and the auth-module quirk you corrected twice.
 
-You start a new session Wednesday morning and it tries the wrong command again. **Coding agents forgetting useful project context between sessions.**
+Wednesday morning, you start a new session. It tries the wrong test command again. That's the problem in a sentence: **coding agents forget useful project context between sessions.**
 
-"Agentic memory" is the umbrella term for solving that. Every memory system on the market is really an answer to two questions:
+"Agentic memory" is the umbrella term for solving that. Every memory system out there is really an answer to two questions:
 
 1. **What are you storing?** (the cognitive types)
 2. **How are you storing it?** (the architectural patterns)
@@ -41,7 +41,7 @@ You start a new session Wednesday morning and it tries the wrong command again. 
 
 ## What you're storing: the cognitive types
 
-This taxonomy comes from cognitive science by way of the CoALA framework (Princeton, 2023). It's borrowed terminology, not a strict technical spec, but every serious memory system maps to these four buckets in some way.
+This taxonomy comes from cognitive science by way of the CoALA framework (Princeton, 2023). It's borrowed terminology rather than a strict technical spec, but most memory systems map to these four buckets in some way.
 
 * **Working / in-context** — the current conversation window. RAM. Everything visible to the model right now. Close the session and it's gone. *Scope: single turn or session.*
 * **Episodic** — what happened before. "The user asked about Resend in March." "The build broke last Tuesday when we tried X." Tied to time and context. *Scope: past interactions.*
@@ -59,7 +59,7 @@ This taxonomy comes from cognitive science by way of the CoALA framework (Prince
 
 ## How it's stored: the architectural patterns
 
-Five real patterns. Almost every product on the market is a mix of these.
+Five patterns you'll see in practice. Most products are a mix of these.
 
 ### a. Markdown files (the simple one)
 
@@ -71,11 +71,11 @@ Read more about this at  [Do you write an AGENTS.md?](https://www.ssw.com.au/rul
 
 #### AI Tool's AI Memory (⭐️ recommended baseline)
 
-Repo instructions are the shared source of truth. Tool-local memory is the private notebook your coding agent keeps as you work. It is **not** the same thing as editing `CLAUDE.md` / `AGENTS.md`, and it is **not** just the current chat transcript.
+Repo instructions are the shared source of truth. Tool-local memory is the private notebook your coding agent keeps as you work. It isn't the same as editing `CLAUDE.md` or `AGENTS.md`, and it isn't the chat transcript either.
 
-Use it for learnings the tool discovers during real work: the command that actually passes, the debugging insight from yesterday, the style nudge you've repeated twice, or the local gotcha that is useful to you but not worth committing to the repo.
+Use it for what the tool picks up during real work: the command that actually passes, the debugging insight from yesterday, the style nudge you've already repeated twice, or the local gotcha that's useful to you but not worth committing to the repo.
 
-For Claude Code, this is **[Auto Memory](https://code.claude.com/docs/en/memory)**:
+For Claude Code, this is [Auto Memory](https://code.claude.com/docs/en/memory):
 
 ```text
 ~/.claude/projects/<project>/memory/
@@ -84,7 +84,7 @@ For Claude Code, this is **[Auto Memory](https://code.claude.com/docs/en/memory)
 └── api-conventions.md
 ```
 
-For Codex, this is **[Codex Memories](https://developers.openai.com/codex/memories)**:
+For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories):
 
 ```text
 ~/.codex/memories/
@@ -102,13 +102,13 @@ For Codex, this is **[Codex Memories](https://developers.openai.com/codex/memori
 | Loaded into      | Every session, depending on the tool           | Future sessions, depending on tool settings                                 |
 | Best for         | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
 
-* **Different words → different store.** Saying *"remember X"* writes to tool-local memory. Saying *"add this to CLAUDE.md"* or *"add this to AGENTS.md"* edits repo instructions instead.
-* Audit tool-local memory occasionally. It is machine-local context, so it can drift or capture something you would rather move into repo instructions.
+* Different words, different store. Say "remember X" and the tool writes to tool-local memory. Say "add this to CLAUDE.md" (or AGENTS.md) and it edits repo instructions instead.
+* Audit tool-local memory now and then. It's machine-local, so it can drift, or capture something you'd rather move into repo instructions.
 
 <boxEmbed
   style="info"
   body={<>
-    **Note:** Tool-local memory is useful but **not deterministic** — the tool decides what is worth remembering, and different versions behave differently. For anything you cannot afford the agent to forget, write it into `CLAUDE.md` or `AGENTS.md` yourself.
+    Note: tool-local memory is useful, but it isn't deterministic. The tool decides what's worth remembering, and different versions behave differently. For anything you can't afford the agent to forget, put it in `CLAUDE.md` or `AGENTS.md` yourself.
   </>}
   figurePrefix="none"
   figure=""
@@ -116,7 +116,7 @@ For Codex, this is **[Codex Memories](https://developers.openai.com/codex/memori
 
 <boxEmbed
   body={<>
-    The cleanest stack is **both at once**: repo instructions for things you know up-front and want enforced every session (build commands, do/don't rules, architecture), and tool-local memory for things the agent figures out along the way (the test command that actually works, the gotcha in the auth flow, your code-style nudges). They're complementary, not competing.
+    Best setup is to run both. Use repo instructions for what you already know and want enforced every session (build commands, do/don't rules, architecture). Let tool-local memory pick up what the agent figures out along the way: the test command that actually works, the gotcha in the auth flow, your code-style nudges. They complement each other.
   </>}
   figurePrefix="none"
   figure=""
@@ -127,12 +127,12 @@ For Codex, this is **[Codex Memories](https://developers.openai.com/codex/memori
 
 Every piece of remembered information gets embedded into a vector. At query time, the user's message is embedded too, and the system pulls the top-k closest vectors back into context. The retrieved chunks become part of the prompt.
 
-This is what most people picture when they hear "RAG-style memory." It scales to millions of items, handles fuzzy matching, and works regardless of exact wording. The downside is that it has no concept of time, contradiction, or update. Tell the agent your favourite colour twice and you've got two memories about it, and the agent might surface the wrong one.
+This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing exact wording. The downside is it has no concept of time, contradiction, or update. Tell the agent your favourite colour twice and you've got two memories about it, and the agent might surface the wrong one.
 
 Products that use this pattern:
 
-* **[Pinecone](https://www.pinecone.io)**, **[Chroma](https://www.trychroma.com)**, **[Weaviate](https://weaviate.io)**, **[Qdrant](https://qdrant.tech)** — vector DBs you wire up yourself.
-* **[LangMem](https://github.com/langchain-ai/langmem)** — LangChain's wrapper on top of a vector store, easiest path if you're already on LangChain or LangGraph.
+* [Pinecone](https://www.pinecone.io), [Chroma](https://www.trychroma.com), [Weaviate](https://weaviate.io), [Qdrant](https://qdrant.tech). Vector DBs you wire up yourself.
+* [LangMem](https://github.com/langchain-ai/langmem). LangChain's wrapper on top of a vector store. Easiest path if you're already on LangChain or LangGraph.
 
 Vector stores are more often the *backing store* inside something higher-level (like Mem0) than a memory system you use on its own.
 
@@ -168,7 +168,7 @@ The upside is long-horizon autonomy: agents that run for days. The cost is compl
 
 ### e. Hybrid extraction layers
 
-These sit on top of one or more of the patterns above. They use an LLM to pull memorable facts from raw conversation, deduplicate against existing memories, decide whether each new fact is an update or a new entry, and store the result in a mix of vector and structured stores. Closer to a "memory ops" layer than a storage backend.
+These sit on top of one or more of the patterns above. They use an LLM to pull memorable facts from raw conversation, dedupe them against what's already stored, and decide whether each new fact is an update or a new entry. The backing store is usually a mix of vector and structured. Closer to a "memory ops" layer than a storage backend.
 
 #### Mem0
 
