@@ -12,6 +12,10 @@ authors:
     url: 'https://www.ssw.com.au/people/tino-liu'
   - title: Sylvia Huang
     url: 'https://www.ssw.com.au/people/sylvia-huang'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Bob Northwind
+    url: 'https://www.ssw.com.au/people/bob-northwind'
 related:
   - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
@@ -21,7 +25,7 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T06:45:34.142Z
+lastUpdated: 2026-05-21T07:32:02.085Z
 lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
@@ -98,16 +102,16 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 └── rollout_summaries/  # per-session summaries
 ```
 
-&nbsp; 
+ 
 
-|                  | Repo instructions (you write)                                | Tool-local memory (tool writes)                                             |
-| ---------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| Examples         | `CLAUDE.md`, `AGENTS.md`                                     | Claude Code auto memory, Codex Memories                                     |
-| What it contains | Instructions and rules                                       | Learnings, preferences, gotchas, previous-session context                   |
-| Lives in         | Your repo (shared with the team via git)                     | Your machine (`~/.claude/` or `~/.codex/`)                                  |
-| Loaded into      | Every session, depending on the tool                         | Future sessions, depending on tool settings                                 |
-| How to write     | Edit the file directly, or say "add this to CLAUDE.md"       | The tool writes it automatically, or when you say "remember X"              |
-| Best for         | Coding standards, build commands, architecture               | Debugging insights, preferences the tool discovered, local workflow gotchas |
+|                  | Repo instructions (you write)                          | Tool-local memory (tool writes)                                             |
+| ---------------- | ------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Examples         | `CLAUDE.md`, `AGENTS.md`                               | Claude Code auto memory, Codex Memories                                     |
+| What it contains | Instructions and rules                                 | Learnings, preferences, gotchas, previous-session context                   |
+| Lives in         | Your repo (shared with the team via git)               | Your machine (`~/.claude/` or `~/.codex/`)                                  |
+| Loaded into      | Every session, depending on the tool                   | Future sessions, depending on tool settings                                 |
+| How to write     | Edit the file directly, or say "add this to CLAUDE.md" | The tool writes it automatically, or when you say "remember X"              |
+| Best for         | Coding standards, build commands, architecture         | Debugging insights, preferences the tool discovered, local workflow gotchas |
 
 <boxEmbed
   style="info"
