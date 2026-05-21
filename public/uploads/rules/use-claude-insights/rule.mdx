@@ -4,11 +4,16 @@ uri: use-claude-insights
 authors:
   - title: Michael Qiu
     url: 'https://www.ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/do-a-retrospective/rule.mdx
+  - {}
 guid: 9ec90feb-e31c-482f-8638-a69e26933ecb
 created: 2026-05-21T04:23:27.317Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-21T05:15:53.252Z
+lastUpdated: 2026-05-21T05:29:29.594Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -90,23 +95,17 @@ For more on skills, checkout our rule on [Do you use Skills to standardize your 
 
 ## How often should you run it?
 
-Although there is no limit on how often you run it, typically, monthly is the sweet spot. Weekly is too noisy - there are not enough sessions for patterns to emerge. Quarterly is too late - bad habits have already calcified.
+Although there is no limit on how often you run it, typically, monthly is the sweet spot. Since `/insights` analyzes the last 30 days of conversations, running it weekly is often too noisy and can't reveal real change in behaviour, as there are not enough sessions for real pattern changes to emerge. Whilst quarterly is too long apart, and bad habits have already solidified and done its damage.
 
 <boxEmbed
   style="tips"
   body={<>
-    **Tip:** Pin `/insights` to the same day as your sprint retrospective. Two retros, one ritual.
+    **Tip:** You can pin `/insights` to the same day as your sprint retrospective every month, for example, right before the first Sprint Review of every month.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-***
-
 ### Learn more
 
-* [SSW: Do you write an AGENTS.md to brief your AI Agent?](/write-agents-md)
-* [SSW: Do you use Skills to standardize your AI workflows?](/ai-agents-with-skills)
-* [SSW: Do you monitor your AI cost and usage?](/monitor-ai-cost-and-usage)
-* [SSW: Do you do a retrospective?](/do-a-retrospective)
 * [Anthropic Docs - Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Official Claude Code documentation, including built-in slash commands
