@@ -26,9 +26,9 @@ lastUpdatedBy: Tino Liu
 lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
 
-An LLM is fundamentally stateless. Every interaction starts from scratch. What feels like a continuous conversation is really just a growing context window being passed back into the model on every turn. As that window expands, token costs rise, latency increases, and performance often degrades.
+LLMs don't remember anything between turns. Every chat starts cold. What feels like an ongoing conversation is really one ever-growing context window getting re-sent to the model each time you hit enter. And the bigger that window gets, the more you pay for it, and the more the model starts to lose the plot.
 
-“Agentic memory” is really a set of answers to one core question: **what information should we store, where should we store it, and how do we retrieve it at the right moment to rehydrate the context window?**
+"Agentic memory" boils down to one question: what should we store, where, and how do we pull it back when we need it?
 
 <endIntro />
 
@@ -45,7 +45,7 @@ The cognitive types come from the CoALA framework (Princeton, 2023):
 
 <boxEmbed
   body={<>
-    Most production agents only really need two: **working memory** (handled by the LLM provider) plus some flavour of **long-term memory** that blends the other three. Treating them as separate stores is usually over-engineering until you have a concrete reason.
+    Most production agents only really need two: working memory (handled by the LLM provider) plus some kind of long-term memory that blends the other three. Splitting them into separate stores is usually over-engineering until you have a concrete reason.
   </>}
   figurePrefix="none"
   figure=""
@@ -70,18 +70,18 @@ my-project/
 └── .github/copilot-instructions.md    # used by GitHub Copilot
 ```
 
-Why it wins for project-scoped context — coding standards, build commands, domain language, conventions:
+Why it works for project context (coding standards, build commands, domain language, conventions):
 
-* **Deterministic** - the memory is always in context. No retrieval failure mode.
-* **Version-controlled** - commit it to git, review it in a PR, diff it over time.
-* **Human-editable** - no service to run, no embedding to recompute.
-* **Free and cross-tool** - every agent harness honours it.
+* Deterministic. The memory is always in context, so there's no retrieval failure mode.
+* Version-controlled. Commit it to git, review it in a PR, diff it over time.
+* Human-editable. No service to run, nothing to re-embed.
+* Free and cross-tool. Every agent harness honours it.
 
-The ceiling is real (token cost grows linearly with the file, no semantic retrieval, no per-user state), but most teams hit the ceiling much later than they think. Newer setups layer `@import` directives so a top-level file pulls in scoped fragments.
+There's a ceiling, of course. Token cost scales with the file, there's no semantic retrieval, no per-user state. But most teams hit that ceiling far later than they expect. Newer setups push it back further with `@import` directives, so a top-level file pulls in scoped fragments.
 
 ### Claude Code's auto memory (⭐️ recommended baseline for Claude)
 
-Auto memory is a **separate system** that lives alongside `CLAUDE.md`. Claude accumulates its own notes across sessions — build commands it discovered, debugging insights, code style preferences it picked up from your corrections — and stores them in a dedicated memory directory, not in your repo.
+Auto memory is a separate system that lives alongside `CLAUDE.md`. Claude takes its own notes across sessions (build commands it discovered, debugging insights, code style preferences it picked up from your corrections) and stores them in a dedicated memory directory, not in your repo.
 
 ```text
 ~/.claude/projects/<project>/memory/
@@ -101,17 +101,17 @@ How it relates to CLAUDE.md:
 | **Loaded into**      | Every session (in full)                   | Every session (first 200 lines of `MEMORY.md`)  |
 | **Use it for**       | Coding standards, workflows, architecture | Build commands, debugging insights, preferences |
 
-Practical notes that matter:
+A few things worth knowing:
 
-* **On by default.** Toggle via `/memory` in a session, or `"autoMemoryEnabled": false` in settings, or `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`.
-* **Machine-local.** Files are not shared across machines or cloud environments. All worktrees of the same repo share one memory directory.
-* When you say `"remember X"` Claude writes to auto memory. When you say `"add this to CLAUDE.md"` it edits CLAUDE.md instead. Different words → different store.
-* Run `/memory` any time to browse, audit, or edit what's been saved. Everything is plain markdown.
+* It's on by default. You can toggle it with `/memory` in a session, set `"autoMemoryEnabled": false`, or use `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`.
+* The files are machine-local. They don't sync across machines or cloud environments, though all worktrees of the same repo share one memory directory.
+* Say `"remember X"` and Claude writes to auto memory. Say `"add this to CLAUDE.md"` and it edits CLAUDE.md instead. Different words, different store.
+* Run `/memory` any time to browse or edit what's saved. It's all plain markdown.
 
 <boxEmbed
   style="info"
   body={<>
-    **Note:** Auto memory is automatic but **not deterministic**. Claude decides what's worth remembering based on whether it'd be useful in future conversations — sometimes it nails it, sometimes it misses an obvious decision. Audit periodically with `/memory`. For anything you cannot afford for Claude to forget, write it into `CLAUDE.md` yourself.
+    Note: auto memory is automatic, but it isn't deterministic. Claude decides what's worth remembering based on whether it'd help in future conversations. Sometimes it nails the call, sometimes it misses something obvious. Audit periodically with `/memory`. If there's anything you can't afford for Claude to forget, put it in `CLAUDE.md` yourself.
   </>}
   figurePrefix="none"
   figure=""
@@ -119,7 +119,7 @@ Practical notes that matter:
 
 <boxEmbed
   body={<>
-    The cleanest stack is **both at once**: `CLAUDE.md` for the things you know up-front and want enforced every session (build commands, do/don't rules, architecture), and auto memory for the things Claude figures out along the way (which test command actually works, the specific gotcha in the auth flow, your code-style nudges). They're complementary, not competing.
+    The best setup is to run both. Use `CLAUDE.md` for what you already know and want enforced every session: build commands, do/don't rules, architecture. Let auto memory pick up what Claude figures out along the way: which test command actually works, the gotcha in the auth flow, your code-style nudges. They complement each other.
   </>}
   figurePrefix="none"
   figure=""
@@ -128,34 +128,34 @@ Practical notes that matter:
 
 ### Mem0
 
-[Mem0](https://mem0.ai) sits on top of a vector store with an LLM-extraction layer. It pulls memorable facts from raw conversation, deduplicates against existing memories, and decides whether each new fact is an update or a new entry. Easiest to plug in. Best for **per-user personalisation** in chatbots and assistants — different problem from engineering conventions.
+[Mem0](https://mem0.ai) sits on top of a vector store with an LLM-extraction layer. It pulls facts from raw conversation, deduplicates against what's already there, and decides if each new fact is an update or a new entry. Easiest one to plug in. It's aimed at per-user personalisation in chatbots and assistants, which is a different problem from engineering conventions.
 
 ### Zep / Graphiti
 
-[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a **temporal knowledge graph**. Relationships have validity windows, so it can answer queries like "what was the policy as of last March" — which vector search just can't. Trade-off: slower writes, more setup, more complex mental model.
+[Zep](https://www.getzep.com) (and its open-source core, [Graphiti](https://github.com/getzep/graphiti)) is a temporal knowledge graph. Relationships have validity windows, so it can answer queries like "what was the policy as of last March," which vector search just can't. The trade-off is slower writes, more setup, and a more complex mental model.
 
 ### Letta (formerly MemGPT)
 
-[Letta](https://www.letta.com) uses an OS-style paging model — "core memory" always in context, "archival memory" sitting in a vector store the agent queries with `archival_memory_search` and `core_memory_replace`. The agent is in charge of its own memory. Best for **long-horizon autonomous agents** that run for days; the cost is committing to Letta as your harness instead of Claude Code.
+[Letta](https://www.letta.com) uses an OS-style paging model. "Core memory" sits in context, and "archival memory" lives in a vector store the agent queries with `archival_memory_search` and `core_memory_replace`. The agent manages its own memory. Best fit for long-horizon autonomous agents that run for days. The cost is committing to Letta as your harness instead of Claude Code.
 
 ### Beads (⭐️ recommended for engineering work)
 
-[Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a distributed graph issue tracker for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). The primary unit isn't a "memory," it's an **issue with typed dependencies** (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`). Free-form project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
+[Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a distributed graph issue tracker for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). The primary unit is an issue with typed dependencies (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`), rather than a free-form memory blob. Project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
 
-Best for **engineering work with real dependencies** and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points — roughly 60–80% reliable depending on model and session length — and `bd prime` makes retrieval rock-solid for everything that did get saved.
+Good fit for engineering work with real dependencies and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points, which is roughly 60–80% reliable depending on the model and the session length. `bd prime` then makes retrieval rock-solid for everything that did get saved.
 
 ## How do you actually pick?
 
-* **Start with `CLAUDE.md` / `AGENTS.md`.** Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
-* **Layer Beads once auto-memory hits its limits.** Hooks for the save step, `bd prime` for retrieval. This is probably where you land for engineering work.
-* **Add Mem0 only if you also need per-user state.** Different problem from engineering conventions.
-* **Add Zeop or Graphiti if agents need temporal reasoning.** "What was true last Tuesday" only works with validity windows.
-* **Letta if you're willing to change agent runtimes.** Most "automatic" of the bunch but means leaving Claude Code.
-* **Already on LangChain / LangGraph** — LangMem. The integration tax for anything else is high.
+* Start with `CLAUDE.md` or `AGENTS.md`. Turn on auto-memory if you're using Claude Code. If it remembers enough of the right things, you're done.
+* Layer Beads once auto-memory hits its limits. Hooks handle the save step, `bd prime` handles retrieval. This is probably where you land for engineering work.
+* Add Mem0 only if you also need per-user state. That's a different problem from engineering conventions.
+* Add Zep or Graphiti if your agents need temporal reasoning. "What was true last Tuesday" only works with validity windows.
+* Try Letta if you're willing to change agent runtimes. It's the most "automatic" of the bunch, but it means leaving Claude Code.
+* Already on LangChain or LangGraph? Use LangMem. The integration tax for anything else is high.
 
 <boxEmbed
   body={<>
-    **Most teams over-build this.** A repo-level markdown file plus the LLM's own context window covers 80% of real use cases. Reach for a real memory store when you have a specific shape of question the simple approach can't answer — usually *"remember this user across sessions"* or *"what was true at time X"* — not because the architecture diagram looked cool.
+    Most teams over-build this. A repo-level markdown file plus the LLM's own context window covers 80% of real use cases. Reach for a real memory store when you've got a specific question the simple approach can't answer, usually "remember this user across sessions" or "what was true at time X." Not because the architecture diagram looked cool.
   </>}
   figurePrefix="none"
   figure=""
