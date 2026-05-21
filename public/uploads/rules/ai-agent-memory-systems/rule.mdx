@@ -21,63 +21,71 @@ related:
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
 guid: dcefe862-8940-48bb-95fe-1b7991db6dce
-seoDescription: 'Learn the cognitive types and architectural patterns behind AI Agent memory — from CLAUDE.md and Claude Code''s auto-memory to Beads, Mem0, Zep, and Letta — and how to pick the right system for your use case.'
+seoDescription: 'Learn the cognitive types and architectural patterns behind AI Agent memory - from CLAUDE.md and Claude Code''s auto-memory to Beads, Mem0, Zep, and Letta - and how to pick the right system for your use case.'
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T12:53:52.018Z
-lastUpdatedBy: Tino Liu
-lastUpdatedByEmail: TinoLiu@ssw.com.au
+lastUpdated: 2026-05-21T21:31:44.427Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 You finish a Claude Code session at 5pm on Tuesday. It knows your coding preferences, the test command, and the auth-module quirk you corrected twice.
 
 Wednesday morning, you start a new session. It tries the wrong test command again.
 
+<endIntro />
+
 <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="AI agents forgetting things and hallucinates" src="/uploads/rules/ai-agent-memory-systems/memory_comic.png" />
 
 Agentic memory aims to solve that continuity problem.
 
-Every memory system out there is really an answer to 2 questions:
+Every memory system out there is really an answer to two questions:
 
 1. **What are you storing?** (the cognitive types)
 2. **How are you storing it?** (the architectural patterns)
-
-<endIntro />
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=2pjw4i29IWE" description="Video: What is Agentic Memory? (7 min)" />
 
 ## What you're storing: the cognitive types
 
-This taxonomy comes from cognitive science by way of the CoALA framework (Princeton, 2023). It's borrowed terminology rather than a strict technical spec, but most memory systems map to these 4 buckets in some way.
+This taxonomy comes from cognitive science by way of the [CoALA framework](https://collaborate.princeton.edu/en/publications/cognitive-architectures-for-language-agents/) (Princeton, 2023). It's borrowed terminology rather than a strict technical spec, but most memory systems map to these four buckets in some way.
 
-**Working / in-context**
+### Working / in-context
 
 The current conversation window. RAM. Everything visible to the model right now. Close the session and it's gone.
 
-*Scope: single turn or session.*
+**Scope:** single turn or session.
 
-**Episodic**
+### Episodic
 
 What happened before. Tied to time and context.
 
-[#1](#1) E.g. "The user asked about Resend in March."
+Examples: 
 
-[#2](#2) E.g. "The build broke last Tuesday when we tried X."
+> "The user asked about Resend in March."
 
-*Scope: past interactions.*
+> "The build broke last Tuesday when we tried X."
 
-**Semantic**
+**Scope:** past interactions.
 
-Generalised facts. "Bob Northwind prefers self-hosted tooling." "Our test runner is vitest." Detached from when it was learned.
+### Semantic
 
-*Scope: stable knowledge.*
+Generalized facts. Detached from when it was learned.
 
-**Procedural**
+Examples:
 
-How to do things. Workflows, learned skills, the agent's own operating instructions. The agent's "muscle memory."
+> "Bob Northwind prefers self-hosted tooling" 
 
-*Scope: rules and routines.*
+> "Our test runner is vitest."
+
+**Scope:** stable knowledge.
+
+### Procedural
+
+How to do things. Workflows, learned skills, the agent's own operating instructions. The agent's "muscle memory".
+
+**Scope:** rules and routines.
 
 <boxEmbed
   body={<>
@@ -87,6 +95,8 @@ How to do things. Workflows, learned skills, the agent's own operating instructi
   figure=""
   style="tips"
 />
+
+***
 
 ## How it's stored: the architectural patterns
 
@@ -98,7 +108,7 @@ Five patterns you'll see in practice. Most products are a mix of these.
 
 A plain markdown file at the repo root. This is where you put things every coding agent should know on day one.
 
-Read more about this at  [Do you write an AGENTS.md?](https://www.ssw.com.au/rules/write-agents-md)
+Read more about this at [Do you write an AGENTS.md?](https://www.ssw.com.au/rules/write-agents-md)
 
 #### AI Tool's Memory
 
@@ -125,7 +135,7 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 └── rollout_summaries/  # per-session summaries
 ```
 
- 
+#### Repo instructions vs tool-local memory 
 
 |                  | Repo instructions (you write)                          | Tool-local memory (tool writes)                                             |
 | ---------------- | ------------------------------------------------------ | --------------------------------------------------------------------------- |
@@ -139,7 +149,7 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 <boxEmbed
   style="info"
   body={<>
-    Note: tool-local memory is handy, but don't trust it blindly. The tool picks what to remember and sometimes gets that call wrong. Check it once in a while. Clear out anything stale, promote important entries into `CLAUDE.md` / `AGENTS.md`, and if you absolutely need the agent to remember something, just put it in repo instructions yourself.
+    **Note:** Tool-local memory is handy, but don't trust it blindly. The tool picks what to remember and sometimes gets that call wrong. Check it once in a while. Clear out anything stale, promote important entries into `CLAUDE.md` / `AGENTS.md`, and if you absolutely need the agent to remember something, just put it in repo instructions yourself.
   </>}
   figurePrefix="none"
   figure=""
@@ -158,18 +168,27 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 
 Each remembered fact gets embedded into a vector — a numeric fingerprint of its meaning. When you send a query, that message gets embedded too, and the system pulls the top-k closest vectors back into context. Those chunks go into the prompt.
 
-This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing the exact wording. The downside: it has no concept of time, contradiction, or updates. Tell the agent your favourite colour twice and you'll have 2 competing memories. It might surface the wrong one.
+This is what most people picture when they hear "RAG-style memory." It scales to millions of items and handles fuzzy matches without needing the exact wording. The downside: it has no concept of time, contradiction, or updates. Tell the agent your favourite colour twice and you'll have two competing memories. It might surface the wrong one.
 
 Products that use this pattern:
 
-* [Pinecone](https://www.pinecone.io), [Chroma](https://www.trychroma.com), [Weaviate](https://weaviate.io), [Qdrant](https://qdrant.tech). Raw vector DBs you wire up yourself. Good if you want full control over how things get chunked and retrieved, or if you're mostly storing static reference material like docs, transcripts, or knowledge bases. That's closer to classic RAG than to "memory."
-* [LangMem](https://github.com/langchain-ai/langmem). LangChain's wrapper on top of a vector store. Easiest path if you're already on LangChain or LangGraph.
+#### [Pinecone](https://www.pinecone.io), [Chroma](https://www.trychroma.com), [Weaviate](https://weaviate.io), [Qdrant](https://qdrant.tech)
+
+Raw vector DBs you wire up yourself. Good if you want full control over how things get chunked and retrieved, or if you're mostly storing static reference material like docs, transcripts, or knowledge bases. That's closer to classic RAG than to "memory."
+
+#### [LangMem](https://github.com/langchain-ai/langmem) 
+
+LangChain's wrapper on top of a vector store. Easiest path if you're already on LangChain or LangGraph.
 
 You don't usually reach for a vector store directly when you want agent memory. It's almost always the *backing store* inside something higher-level like Mem0, Zep, or Letta, which deal with dedupe and updates for you. Only wire one up yourself if you've got a real reason to own that layer.
 
 ### Knowledge graphs (entities and relationships)
 
-Facts get stored as typed nodes and edges. "Bob Northwind" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Sydney". Some systems layer time on top so relationships have validity windows: "Bob worked at TinaCMS from X to Y, currently at SSW from Y to now."
+Facts get stored as typed nodes and edges. 
+
+"Bob Northwind" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Sydney". 
+
+Some systems layer time on top so relationships have validity windows: "Bob worked at TinaCMS from X to Y, currently at SSW from Y to now."
 
 Graphs handle queries that vector search struggles with. "Who did I work with on the stub.sh project?" needs traversal, not similarity. The trade-off is ingest cost. Building the graph requires extra LLM calls to extract entities and figure out where they fit, which is slower and more expensive per write.
 
@@ -204,6 +223,8 @@ These sit on top of one or more of the patterns above. They use an LLM to pull m
 #### Mem0
 
 [Mem0](https://mem0.ai) is the most popular product in this category. Easiest one to plug in. It's aimed at per-user personalisations in chatbots and assistants, which is a different problem from engineering conventions.
+
+***
 
 ## How do you actually pick?
 
