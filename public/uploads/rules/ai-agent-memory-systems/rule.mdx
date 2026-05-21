@@ -112,7 +112,7 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 <boxEmbed
   style="info"
   body={<>
-    Note: tool-local memory is useful, but it isn't deterministic. The tool decides what's worth remembering, and different versions behave differently. Audit it now and then — it's machine-local context, so it can drift or capture something you'd rather move into repo instructions. For anything you can't afford the agent to forget, put it in `CLAUDE.md` or `AGENTS.md` yourself.
+    Note: tool-local memory is handy, but don't trust it blindly. The tool picks what to remember and sometimes gets that call wrong. Check it once in a while. Clear out anything stale, promote important entries into `CLAUDE.md` / `AGENTS.md`, and if you absolutely need the agent to remember something, just put it in repo instructions yourself.
   </>}
   figurePrefix="none"
   figure=""
