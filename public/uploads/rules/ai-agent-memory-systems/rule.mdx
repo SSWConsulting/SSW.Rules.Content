@@ -21,9 +21,9 @@ seoDescription: 'Learn the cognitive types and architectural patterns behind AI 
 created: 2026-05-19T01:54:56.660Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-05-21T06:30:21.792Z
-lastUpdatedBy: Sylvia Huang
-lastUpdatedByEmail: sylviahuang@ssw.com.au
+lastUpdated: 2026-05-21T06:39:04.774Z
+lastUpdatedBy: Tino Liu
+lastUpdatedByEmail: TinoLiu@ssw.com.au
 ---
 
 You finish a Claude Code session at 5pm on Tuesday. It knows your coding preferences, the test command, and the auth-module quirk you corrected twice.
@@ -172,11 +172,11 @@ The upside is long-horizon autonomy: agents that run for days. The cost is compl
 
 ### Hybrid extraction layers
 
-These sit on top of one or more of the patterns above. They use an LLM to pull memorable facts from raw conversation, dedupe them against what's already stored, and decide whether each new fact is an update or a new entry. The backing store is usually a mix of vector and structured. Closer to a "memory ops" layer than a storage backend.
+These sit on top of one or more of the patterns above. They use an LLM to pull memorable facts from raw conversation, dedupe them against what's already stored, and decide whether each new fact is an update or a new entry. The backing store is usually a mix of vector and structured storage. It's a memory extraction and management layer, not a storage backend.
 
 #### Mem0
 
-[Mem0](https://mem0.ai) is the most popular product in this category. Easiest one to plug in. It's aimed at per-user personalisation in chatbots and assistants, which is a different problem from engineering conventions.
+[Mem0](https://mem0.ai) is the most popular product in this category. Easiest one to plug in. It's aimed at per-user personalisations in chatbots and assistants, which is a different problem from engineering conventions.
 
 ## How do you actually pick?
 
