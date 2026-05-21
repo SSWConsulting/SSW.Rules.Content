@@ -100,21 +100,19 @@ For Codex, this is [Codex Memories](https://developers.openai.com/codex/memories
 
 <br />
 
-|                  | Repo instructions (you write)                  | Tool-local memory (tool writes)                                             |
-| ---------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
-| Examples         | `CLAUDE.md`, `AGENTS.md`                       | Claude Code auto memory, Codex Memories                                     |
-| What it contains | Instructions and rules                         | Learnings, preferences, gotchas, previous-session context                   |
-| Lives in         | Your repo (shared with the team via git)       | Your machine (`~/.claude/` or `~/.codex/`)                                  |
-| Loaded into      | Every session, depending on the tool           | Future sessions, depending on tool settings                                 |
-| Best for         | Coding standards, build commands, architecture | Debugging insights, preferences the tool discovered, local workflow gotchas |
-
-* Different words, different store. Say "remember X" and the tool writes to tool-local memory. Say "add this to CLAUDE.md" (or AGENTS.md) and it edits repo instructions instead.
-* Audit tool-local memory now and then. It's machine-local, so it can drift, or capture something you'd rather move into repo instructions.
+|                  | Repo instructions (you write)                                | Tool-local memory (tool writes)                                             |
+| ---------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Examples         | `CLAUDE.md`, `AGENTS.md`                                     | Claude Code auto memory, Codex Memories                                     |
+| What it contains | Instructions and rules                                       | Learnings, preferences, gotchas, previous-session context                   |
+| Lives in         | Your repo (shared with the team via git)                     | Your machine (`~/.claude/` or `~/.codex/`)                                  |
+| Loaded into      | Every session, depending on the tool                         | Future sessions, depending on tool settings                                 |
+| How to write     | Edit the file directly, or say "add this to CLAUDE.md"       | The tool writes it automatically, or when you say "remember X"              |
+| Best for         | Coding standards, build commands, architecture               | Debugging insights, preferences the tool discovered, local workflow gotchas |
 
 <boxEmbed
   style="info"
   body={<>
-    Note: tool-local memory is useful, but it isn't deterministic. The tool decides what's worth remembering, and different versions behave differently. For anything you can't afford the agent to forget, put it in `CLAUDE.md` or `AGENTS.md` yourself.
+    Note: tool-local memory is useful, but it isn't deterministic. The tool decides what's worth remembering, and different versions behave differently. Audit it now and then — it's machine-local context, so it can drift or capture something you'd rather move into repo instructions. For anything you can't afford the agent to forget, put it in `CLAUDE.md` or `AGENTS.md` yourself.
   </>}
   figurePrefix="none"
   figure=""
