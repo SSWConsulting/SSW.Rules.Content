@@ -22,18 +22,57 @@ on:
       judge_run_id:
         description: "The workflow run ID of the Agent 2a (Judge) run that created the issues. Used to filter issues to this specific run."
         required: true
+  workflow_run:
+    workflows: ["Content Judge (Agent 2a)"]
+    types: [completed]
+    branches:
+      - main
 
-steps: 
+steps:
+  - name: Resolve run context
+    id: resolve-context
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      JUDGE_RUN_ID: ${{ github.event.workflow_run.id || inputs.judge_run_id }}
+    run: |
+      set -euo pipefail
+      mkdir -p /tmp/gh-aw
+
+      gh run download "$JUDGE_RUN_ID" -n "$JUDGE_RUN_ID" -D /tmp/gh-aw || {
+        echo "No artifact for run $JUDGE_RUN_ID — Agent 2a was a noop, skipping."
+        exit 1
+      }
+
+      LABEL_NAME=$(cat /tmp/gh-aw/label_name.txt 2>/dev/null | tr -d '[:space:]')
+      if [ -z "$LABEL_NAME" ]; then
+        echo "::error::label_name.txt is empty in artifact — cannot proceed."
+        exit 1
+      fi
+
+      SNAPSHOT_PATH=$(ls .github/ContentHawk/TODO/*_Snapshot_${LABEL_NAME}.md 2>/dev/null | sort -r | head -1)
+
+      if [ -z "$SNAPSHOT_PATH" ]; then
+        echo "::error::No snapshot found for label $LABEL_NAME"
+        exit 1
+      fi
+
+      echo "label_name=$LABEL_NAME" >> "$GITHUB_OUTPUT"
+      echo "judge_run_id=$JUDGE_RUN_ID" >> "$GITHUB_OUTPUT"
+      echo "snapshot_path=$SNAPSHOT_PATH" >> "$GITHUB_OUTPUT"
+
+      cat > /tmp/gh-aw/run_context.env << EOF
+      export JUDGE_RUN_ID="$JUDGE_RUN_ID"
+      export LABEL_NAME="$LABEL_NAME"
+      export SNAPSHOT_PATH="$SNAPSHOT_PATH"
+      EOF
+
+      echo "Resolved: JUDGE_RUN_ID=$JUDGE_RUN_ID LABEL_NAME=$LABEL_NAME SNAPSHOT_PATH=$SNAPSHOT_PATH"
+
   - name: Guard — no open Content Judge PR for this label
     uses: ./.github/actions/guard-open-pr
     with:
-      label_name: ${{ inputs.label_name }}
+      label_name: ${{ steps.resolve-context.outputs.label_name }}
       workflow_id: content-judge-pr
-  - name: Download skipped file list
-    run: gh run download $JUDGE_RUN_ID -n $JUDGE_RUN_ID -D /tmp/gh-aw
-    env:
-      JUDGE_RUN_ID: ${{ inputs.judge_run_id }}
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 engine:
   id: copilot
@@ -42,14 +81,13 @@ engine:
 permissions: read-all
 
 concurrency:
-  group: "contenthawk-judge-pr-${{ inputs.label_name }}"
+  group: "contenthawk-judge-pr-${{ inputs.label_name || github.event.workflow_run.id }}"
   cancel-in-progress: true
 
 safe-outputs:
   report-failure-as-issue: false
   create-pull-request:
     title-prefix: "[Content Judge] "
-    labels: ["${{ inputs.label_name }}"]
     protected-files: allowed
     allowed-files:
       - .github/ContentHawk/TODO/*.md
@@ -60,26 +98,27 @@ tools:
   github:
     lockdown: false
     toolsets: [issues, repos, pull_requests, search, labels]
-    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
+    github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 post-steps:
   - name: Workflow Summary
     if: always()
     env:
-      INPUT_SNAPSHOT_PATH: ${{ inputs.snapshot_path }}
-      INPUT_LABEL_NAME: ${{ inputs.label_name }}
-      INPUT_JUDGE_RUN_ID: ${{ inputs.judge_run_id }}
+      RESOLVED_SNAPSHOT_PATH: ${{ steps.resolve-context.outputs.snapshot_path }}
+      RESOLVED_LABEL_NAME: ${{ steps.resolve-context.outputs.label_name }}
+      RESOLVED_JUDGE_RUN_ID: ${{ steps.resolve-context.outputs.judge_run_id }}
     run: |
       echo "## ContentHawk — Agent 2b (PR Creator)" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
 
-      echo "### Inputs" >> "$GITHUB_STEP_SUMMARY"
+      echo "### Run Context" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
       echo "| Field            | Value |" >> "$GITHUB_STEP_SUMMARY"
       echo "|------------------|-------|" >> "$GITHUB_STEP_SUMMARY"
-      echo "| Snapshot Path    | $INPUT_SNAPSHOT_PATH |" >> "$GITHUB_STEP_SUMMARY"
-      echo "| Label            | \`$INPUT_LABEL_NAME\` |" >> "$GITHUB_STEP_SUMMARY"
-      echo "| Judge Run ID     | $INPUT_JUDGE_RUN_ID |" >> "$GITHUB_STEP_SUMMARY"
+      echo "| Trigger          | \`${{ github.event_name }}\` |" >> "$GITHUB_STEP_SUMMARY"
+      echo "| Snapshot Path    | ${RESOLVED_SNAPSHOT_PATH:-<not resolved>} |" >> "$GITHUB_STEP_SUMMARY"
+      echo "| Label            | \`${RESOLVED_LABEL_NAME:-<not resolved>}\` |" >> "$GITHUB_STEP_SUMMARY"
+      echo "| Judge Run ID     | ${RESOLVED_JUDGE_RUN_ID:-<not resolved>} |" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
 
       echo "### Agent Output" >> "$GITHUB_STEP_SUMMARY"
@@ -99,7 +138,7 @@ post-steps:
 This workflow is **Agent 2b (PR Creator)** in a multi-agent pipeline called **ContentHawk**:
 
 - **Agent 1 (Detective)**: Catalogs content files, creates a snapshot tracking file on a branch, and opens a PR. That PR is reviewed and merged into `main` before Agent 2a runs.
-- **Agent 2a (Judge)**: Reads the merged snapshot, judges each pending file against the intent, and opens issues for files that need fixing. Triggers this workflow via a post-step when it completes.
+- **Agent 2a (Judge)**: Reads the merged snapshot, judges each pending file against the intent, and opens issues for files that need fixing. Completes successfully, which automatically triggers this workflow via `workflow_run`.
 - **Agent 2b (this workflow)**: Reads the issues created by Agent 2a, matches them to the snapshot's Files to Review table, updates the snapshot with issue numbers and checked dates, and opens a PR.
 - **Agent 3 (Fixer)**: Reads issues with the intent label and raises PRs to resolve them.
 
@@ -107,9 +146,22 @@ The snapshot file is **self-contained** — it stores every configuration value 
 
 ---
 
+### Step 0 — Load run context
+
+Source the run context file written by the pre-step:
+
+```bash
+source /tmp/gh-aw/run_context.env
+```
+
+This provides three variables used throughout all steps below:
+- `$SNAPSHOT_PATH` — repo-relative path to the snapshot file on `main`
+- `$LABEL_NAME` — the label slug tying this pipeline run together
+- `$JUDGE_RUN_ID` — the Agent 2a run ID whose issues this workflow will process
+
 ### Step 1 — Read and parse the snapshot
 
-Read the full content of the file at `${{ inputs.snapshot_path }}` from the `main` branch.
+Read the full content of the file at `$SNAPSHOT_PATH` from the `main` branch.
 
 #### 1a. Parse the Agent Configuration table
 
@@ -118,9 +170,9 @@ Extract the following fields from the `## Agent Configuration` table:
 - **Intent** — what the judge was looking for in each file
 - **Label** — the label slug stored in the snapshot
 
-**Validation**: Assert that the `Label` value extracted from the snapshot matches `${{ inputs.label_name }}` exactly (ignoring surrounding backticks). If they do not match, **stop immediately** with an error:
+**Validation**: Assert that the `Label` value extracted from the snapshot matches `$LABEL_NAME` exactly (ignoring surrounding backticks). If they do not match, **stop immediately** with an error:
 
-> Snapshot label '<snapshot_label>' does not match the input label '${{ inputs.label_name }}'. Aborting.
+> Snapshot label '<snapshot_label>' does not match the resolved label '$LABEL_NAME'. Aborting.
 
 #### 1b. Parse the Files to Review table
 
@@ -137,7 +189,7 @@ If `pending_rows` is empty (all rows already have a non-pending CheckResult), **
 Search GitHub for all issues created by Agent 2a during the judge run. Use the hidden `gh-aw-workflow-id` marker that the gh-aw runtime automatically embeds in the body of every issue created by Agent 2a:
 
 ```
-repo:${{ github.repository }} is:issue is:open "contenthawk-run-id: ${{ inputs.judge_run_id }}" in:body
+repo:${{ github.repository }} is:issue is:open "contenthawk-run-id: $JUDGE_RUN_ID" in:body
 ```
 
 For each issue returned:
@@ -149,7 +201,7 @@ Build a `matched_issues` list from all successful matches. If an issue cannot be
 
 If no issues are found at all, log a message:
 
-> No issues found for judge run ${{ inputs.judge_run_id }}. The judge may have skipped all files.
+> No issues found for judge run $JUDGE_RUN_ID. The judge may have skipped all files.
 
 Continue to Step 3 — the snapshot still needs to be committed even if no issues were created (rows remain `pending`).
 
@@ -187,20 +239,20 @@ The `## Agent Configuration` table must be preserved entirely unchanged.
 Create a new branch from `main` named:
 
 ```
-ContentHawk/judge/${{ inputs.label_name }}${{ github.run_id }}
+ContentHawk/judge/$LABEL_NAME-${{ github.run_id }}
 ```
 
 Commit the updated snapshot file from Step 3 to this branch. The commit message must be:
 
 ```
-content-hawk[judge]: update snapshot for ${{ inputs.label_name }}
+content-hawk[judge]: update snapshot for $LABEL_NAME
 ```
 
 Then open a pull request using the `create-pull-request` safe-output tool:
 
-**Title**: `[Content Judge] ${{ inputs.label_name }} — <N> issues matched, <P> still pending`
+**Title**: `$LABEL_NAME — <N> issues matched, <P> still pending`
 
-> Note: the `title-prefix` safe-output setting will prepend `[Content Judge] ` automatically — so only pass `${{ inputs.label_name }} — <N> issues matched, <P> still pending` as the title value.
+> Note: the `title-prefix` safe-output setting will prepend `[Content Judge] ` automatically — so only pass `$LABEL_NAME — <N> issues matched, <P> still pending` as the title value.
 
 **Base branch**: `main`
 
@@ -219,15 +271,15 @@ Then open a pull request using the `create-pull-request` safe-output tool:
 
 ### Label
 
-`${{ inputs.label_name }}`
+`$LABEL_NAME`
 
 ### Judge Run
 
-[Agent 2a Run #${{ inputs.judge_run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ inputs.judge_run_id }})
+[Agent 2a Run #$JUDGE_RUN_ID](${{ github.server_url }}/${{ github.repository }}/actions/runs/$JUDGE_RUN_ID)
 
 ### Snapshot file
 
-`${{ inputs.snapshot_path }}`
+`$SNAPSHOT_PATH`
 
 ### Issues matched
 
@@ -244,4 +296,4 @@ If `matched_issues` is empty, write: _No issues were matched this run._>
 ---
 ```
 
-After the PR is created, apply the label `${{ inputs.label_name }}` to the PR using the `add-labels` tool.
+After the PR is created, apply the label `$LABEL_NAME` to the PR using the `add-labels` tool.

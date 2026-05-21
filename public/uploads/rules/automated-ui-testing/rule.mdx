@@ -1,31 +1,33 @@
 ---
-authors:
-- title: Matt Goldman
-  url: https://www.ssw.com.au/people/matt-goldman
-- title: Jake Bayliss
-  url: https://www.ssw.com.au/people/jake-bayliss
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
-created: 2021-10-15 06:12:32.419000+00:00
-createdBy: Luke Parker
-createdByEmail: 10430890+Hona@users.noreply.github.com
-guid: ca225c48-cf34-42c0-b125-3155dfef3398
-isArchived: false
-lastUpdated: 2021-10-15 06:12:32.419000+00:00
-lastUpdatedBy: Luke Parker
-lastUpdatedByEmail: 10430890+Hona@users.noreply.github.com
-redirects:
-- microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
-related:
-- rule: public/uploads/rules/the-different-types-of-test/rule.mdx
-- rule: public/uploads/rules/bdd/rule.mdx
-seoDescription: Discover the best practices for implementing automated UI testing
-  with tools like Playwright and learn when to use it effectively in your test strategy.
+type: rule
 title: Do you do automated UI testing?
+uri: automated-ui-testing
 categories:
   - category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.mdx
-type: rule
-uri: automated-ui-testing
+authors:
+  - title: Matt Goldman
+    url: 'https://www.ssw.com.au/people/matt-goldman'
+  - title: Jake Bayliss
+    url: 'https://www.ssw.com.au/people/jake-bayliss'
+  - title: Piers Sinclair
+    url: 'https://www.ssw.com.au/people/piers-sinclair'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
+related:
+  - rule: public/uploads/rules/the-different-types-of-test/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+  - rule: public/uploads/rules/bdd/rule.mdx
+redirects:
+  - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
+guid: ca225c48-cf34-42c0-b125-3155dfef3398
+seoDescription: Discover the best practices for implementing automated UI testing with tools like Playwright and learn when to use it effectively in your test strategy.
+created: 2021-10-15T06:12:32.419Z
+createdBy: Luke Parker
+createdByEmail: 10430890+Hona@users.noreply.github.com
+lastUpdated: 2026-05-20T23:55:21.048Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
+isArchived: false
 ---
 
 Automated UI testing is a valuable component of a test strategy, to check interacting with the software in a similar way to end users.
@@ -40,11 +42,24 @@ Lower level automated tests (e.g. unit tests) are small in scope and are unlikel
 
 ### Tooling
 
-There are numerous tools available for facilitating automated UI testing through the browser. These include tools like [Telerik Test Studio](https://www.telerik.com/teststudio/), [Cypress](https://www.cypress.io/), or [Puppeteer](https://pptr.dev/), to name a few.
+There are numerous tools available for facilitating automated UI testing through the browser:
 
-[Selenium](https://www.selenium.dev/) was the gold standard in this area for many years, but Microsoft's [Playwright](https://playwright.dev/) is now recommended.
+* [Playwright](https://playwright.dev/)  (✅ recommended)
+* [Selenium](https://www.selenium.dev/) (was the gold standard)
+* Several others: [Telerik Test Studio](https://www.telerik.com/teststudio/), [Cypress](https://www.cypress.io/), or [Puppeteer](https://pptr.dev/), to name a few.
 
 #### Playwright
+
+<boxEmbed
+  body={<>
+    With the latest AI tooling, AI Agents can use **Playwright MCP**, **Playwright CLI**, and **specialized Test Agents** to help write better UI tests.
+    
+    Read more: [Do you know how to use Playwright with your AI Agents?](https://www.ssw.com.au/rules/playwright-with-ai)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 Playwright allows you to write tests in many popular languages including .NET, Java, Python and JavaScript/TypeScript.
 
@@ -83,7 +98,8 @@ windows.forEach(async handle => {
 //Wait for the new tab to finish loading content
 await driver.wait(until.titleIs('Selenium documentation'), 10000);
 ```
-**❌ Figure: Bad example - Selenium only lets you have one window focused at a time meaning you can't do parallel testing easily**  
+
+**❌ Figure: Bad example - Selenium only lets you have one window focused at a time meaning you can't do parallel testing easily**
 
 ```JavaScript
 const { chromium } = require('playwright');
@@ -97,7 +113,8 @@ const adminContext = await browser.newContext();
 
 // Create pages and interact with contexts independently
 ```
-**✅ Figure: Good example - Playwright makes it easy to spin up independent browser contexts for parallel testing**  
+
+**✅ Figure: Good example - Playwright makes it easy to spin up independent browser contexts for parallel testing**
 
 #### Playwright codegen
 
@@ -109,16 +126,16 @@ Playwright offers a [cool feature](https://playwright.dev/docs/cli/#generate-cod
 
 Watch [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) and Andreas Lengkeek from SSW demonstrate the use of Playwright to create a simple UI test in this YouTube video:
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=2hibiFfuPao" description={""} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=2hibiFfuPao" description="" />
 
 ### Caution
 
-It's important not to rely too heavily on automated UI tests.
+Automated UI testing is powerful, but it should still be done with planning.
 
-Due to their broad scope, they are slow to run and prone to high maintenance (since they will often need to be updated when the UI is changed). Other levels of automated tests should be considered first (see [What are the different types of test you can have?](/the-different-types-of-test)) and only add automated UI tests for important workflows in the product.
+Modern tools like Playwright and AI Agents have reduced the maintenance pain by helping teams write, debug, and fix tests.
 
-The use of "record & playback"/Low Code/No Code approaches to creating automated UI tests is fraught with danger. These approaches demo very well and can appear to give quick wins, but they generate code that is generally sub-optimal and may be hard to maintain. Building reliable and maintainable automated UI tests requires coding skills and forethought in terms of what really makes sense to automate at this high level.
+However, UI tests are still slower to run because they interact with the browser and test broader user workflows. 
+
+Use them for important workflows.
 
 See [Do you remember to use automated UI testing sparingly?](/automated-ui-testing-sparingly/)
