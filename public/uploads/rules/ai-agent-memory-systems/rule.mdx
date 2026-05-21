@@ -142,7 +142,7 @@ You don't usually reach for a vector store directly when you want agent memory. 
 
 ### Knowledge graphs (entities and relationships)
 
-Facts get stored as typed nodes and edges. "Bob Northwind" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Brisbane". Some systems layer time on top so relationships have validity windows: "Bob worked at Sydney from X to Y, currently at SSW from Y to now."
+Facts get stored as typed nodes and edges. "Bob Northwind" →`WORKS_AT`→ "SSW". "SSW" →`BASED_IN`→ "Sydney". Some systems layer time on top so relationships have validity windows: "Bob worked at TinaCMS from X to Y, currently at SSW from Y to now."
 
 Graphs handle queries that vector search struggles with. "Who did I work with on the stub.sh project?" needs traversal, not similarity. The trade-off is ingest cost. Building the graph requires extra LLM calls to extract entities and figure out where they fit, which is slower and more expensive per write.
 
