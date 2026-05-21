@@ -158,7 +158,7 @@ Products that use this pattern:
 
 [Beads](https://github.com/gastownhall/beads) (Steve Yegge, October 2025) is a different flavour of graph: a distributed graph *issue tracker* for coding agents, backed by [Dolt](https://github.com/dolthub/dolt). The primary unit is an issue with typed dependencies (`blocks`, `related`, `parent-child`, `supersedes`, `duplicates`). Free-form project knowledge is stored via `bd remember "insight"` and re-injected by `bd prime` at session start.
 
-Good fit for engineering work with real dependencies and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points, which is roughly 60–80% reliable depending on the model and the session length. `bd prime` then makes retrieval rock-solid for everything that did get saved.
+Good fit for engineering work with real dependencies and conventions worth pinning ("we resolve recipe alternates depth-first," "throughput rounds half-to-even at 6 decimals"). The hooks make `bd remember` fire automatically at decision points. `bd prime` then makes retrieval rock-solid for everything that did get saved.
 
 ### Agent-managed paging (the MemGPT model)
 
