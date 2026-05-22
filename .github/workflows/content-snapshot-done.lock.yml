@@ -68,7 +68,7 @@ run-name: "Content Snapshot Cleanup (Agent 3b)"
 jobs:
   activation:
     needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true'
+    if: needs.pre_activation.outputs.activated == 'true' && (github.event_name != 'issues' || needs.pre_activation.outputs.is_contenthawk_judge_issue == 'true')
     runs-on: ubuntu-slim
     permissions:
       actions: read
@@ -345,12 +345,6 @@ jobs:
         run: bash "${RUNNER_TEMP}/gh-aw/actions/configure_gh_for_ghe.sh"
         env:
           GH_TOKEN: ${{ github.token }}
-      - env:
-          BODY: ${{ github.event.issue.body }}
-        if: github.event_name == 'issues'
-        name: Guard — only ContentHawk judge issues
-        run: "if echo \"$BODY\" | grep -qF \"gh-aw-workflow-id: content-judge\"; then\n  echo \"ContentHawk judge issue detected. Proceeding.\"\nelse\n  echo \"Not a ContentHawk judge issue. Exiting.\"\n  exit 1\nfi\n"
-
       - name: Configure Git credentials
         env:
           REPO_NAME: ${{ github.repository }}
@@ -1135,6 +1129,7 @@ jobs:
     runs-on: ubuntu-slim
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
+      is_contenthawk_judge_issue: ${{ steps.issue_guard.outputs.is_contenthawk_judge_issue }}
       matched_command: ''
       setup-trace-id: ${{ steps.setup.outputs.trace-id }}
     steps:
@@ -1156,6 +1151,12 @@ jobs:
             setupGlobals(core, github, context, exec, io, getOctokit);
             const { main } = require('${{ runner.temp }}/gh-aw/actions/check_membership.cjs');
             await main();
+      - env:
+          BODY: ${{ github.event.issue.body }}
+        if: github.event_name == 'issues'
+        name: Guard — only ContentHawk judge issues
+        id: issue_guard
+        run: "if echo \"$BODY\" | grep -qF \"gh-aw-workflow-id: content-judge\"; then\n  echo \"ContentHawk judge issue detected. Proceeding.\"\n  echo \"is_contenthawk_judge_issue=true\" >> \"$GITHUB_OUTPUT\"\nelse\n  echo \"Not a ContentHawk judge issue. Skipping workflow.\"\n  echo \"is_contenthawk_judge_issue=false\" >> \"$GITHUB_OUTPUT\"\nfi\n"
 
   safe_outputs:
     needs:
@@ -1272,4 +1273,3 @@ jobs:
             /tmp/gh-aw/safe-output-items.jsonl
             /tmp/gh-aw/temporary-id-map.json
           if-no-files-found: ignore
-
