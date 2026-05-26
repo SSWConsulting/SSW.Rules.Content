@@ -1,0 +1,79 @@
+---
+type: rule
+title: Do you show users what code is running in production?
+uri: show-deployed-commit
+categories:
+  - category: categories/software-engineering/rules-to-better-version-management.mdx
+  - category: categories/project-delivery/rules-to-better-continuous-deployment.mdx
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+guid: ca8d77a0-b74c-486a-8af0-5e0e0c711fcb
+seoDescription: Use commit hashes for continuously deployed websites so changes are easy to trace, and save version numbers for installable apps.
+created: 2026-05-26T21:00:00.000Z
+---
+
+When a website is continuously deployed, it should be easy to see exactly what code is running in production. Showing the **latest deployed commit** gives everyone a clear reference point when checking changes, reporting issues, or investigating bugs.
+
+This makes it easier to confirm what is live, trace problems back to a specific change, and understand whether a fix has already been deployed.
+
+For downloadable products, such as mobile apps and desktop apps, show a **version number** instead so users and support teams can identify which installed release they are using.
+
+<endIntro />
+
+## Use commit hashes for websites
+
+Websites are often continuously deployed, so a traditional version number can quickly become meaningless.
+
+Instead, show the latest deployed commit hash.
+
+This helps the team identify exactly what code is running in production, find the developer or PR connected to a change, investigate bugs faster, confirm whether a deployment has reached production, and roll back or compare changes more easily.
+
+### Make the commit easy to find
+
+A common pattern is to show the commit hash in the footer with a link to the commit in GitHub or Azure DevOps.
+
+When something breaks, the team can quickly check what changed and who worked on it.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** If the repository is private, the commit link may not be available to everyone. That is OK. The hash is still useful for developers with access.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Version 2.4
+  </>}
+  figurePrefix="bad"
+  figure="This looks tidy, but it does not clearly identify the deployed code on a continuously deployed website"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Last deployed commit: a1b2c3d
+  </>}
+  figurePrefix="good"
+  figure="The team can trace the exact code running in production"
+/>
+
+## Use version numbers for installable apps
+
+Version numbers are useful when users need to download, install, or update software.
+
+This includes mobile apps, desktop apps, browser extensions, APIs, and packages with breaking changes.
+
+For these products, a version number helps users, support teams, and developers know which release they are using.
