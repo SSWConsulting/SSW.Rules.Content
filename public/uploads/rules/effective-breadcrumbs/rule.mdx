@@ -1,0 +1,72 @@
+---
+title: Do you use breadcrumbs effectively?
+uri: effective-breadcrumbs
+categories:
+  - category: categories/design/rules-to-better-websites-navigation.mdx
+authors:
+  - title: Micaela Blank
+    url: 'https://www.ssw.com.au/people/micaela-blank'
+related:
+  - rule: public/uploads/rules/do-you-add-breadcrumb-to-every-page/rule.mdx
+  - rule: public/uploads/rules/simplify-breadcrumbs/rule.mdx
+guid: fdd182cf-cf30-4b2f-99fc-79bdb8e16d83
+seoDescription: 'Learn the best practices for using breadcrumbs to improve website navigation, usability, accessibility, and SEO.'
+created: 2026-05-14T05:12:28.861Z
+createdBy: micaelablank@ssw.com.au
+createdByEmail: MicaelaBlank@ssw.com.au
+lastUpdated: 2026-05-27T07:02:13.075Z
+lastUpdatedBy: micaelablank@ssw.com.au
+lastUpdatedByEmail: MicaelaBlank@ssw.com.au
+---
+
+Users can quickly become lost when navigation patterns are unclear or used inconsistently. Using the wrong navigation component can create confusion, make workflows harder to complete, and reduce usability.
+
+Different navigation components solve different problems. Choose the component that best matches the user's goal and the structure of the experience.
+
+<endIntro />
+
+## Use breadcrumbs for hierarchy
+
+Breadcrumbs help users understand where they are within a site's hierarchy and navigate upward easily. Use them when the site has multiple navigation levels, users may land on deep pages, or parent–child relationships are important.
+
+Keep trails to 5 labels maximum. Always start with "Home" (or the root page) and end with the current page title as plain, unlinked text. Make sure the trail reflects the site's actual information architecture, not invented or browsing-history-based categories. If your breadcrumbs regularly exceed 5 levels, it's a signal to simplify the site's navigation structure.
+
+Individual labels should truncate after \~80 characters. Separate items with a universally understood character like `/` or `>` with consistent spacing.
+
+<imageEmbed alt="Screenshot of breadcrumb navigation with 9 labels" size="large" showBorder={true} figurePrefix="bad" figure="9 labels is too many, difficult to scan and suggests an overly complex site structure" src="/uploads/rules/effective-breadcrumbs/breadcrumbs_example_bad.png" />
+
+<imageEmbed alt="Screenshot of breadcrumb navigation with 4 labels" size="large" showBorder={true} figurePrefix="good" figure="4 labels, clear hierarchy, current page is unlinked" src="/uploads/rules/effective-breadcrumbs/breadcrumbs_example_good.png" />
+
+## Handle breadcrumb overflow gracefully
+
+When trails exceed 4 items, collapse the middle links behind an ellipsis (...) rather than letting the trail wrap onto multiple lines. Always keep "Home" and the immediate parent visible. On mobile, also consider showing only the immediate parent to avoid wrapping entirely.
+
+<imageEmbed alt="Screenshot of multi-line breadcrumb navigation" size="large" showBorder={true} figurePrefix="bad" figure="Multi-line breadcrumbs are difficult to scan and create visual clutter" src="/uploads/rules/effective-breadcrumbs/breadcrumbs_expanded_bad.png" />
+
+<imageEmbed alt="Screenshot of breadcrumb navigation with collapsed intermediate levels" size="large" showBorder={true} figurePrefix="good" figure="Collapsed intermediate levels keep the trail readable while preserving context" src="/uploads/rules/effective-breadcrumbs/breadcrumbs_expanded_good.png" />
+
+For further reading, see the [Nielsen Norman Group's breadcrumb design guidelines](https://www.nngroup.com/articles/breadcrumbs/) and the [Pencil & Paper breadcrumbs UX guide](https://www.pencilandpaper.io/articles/breadcrumbs-ux).
+
+## Make navigation accessible
+
+All navigation components should follow accessibility best practices.
+
+Ensure that:
+
+* Navigation is keyboard accessible
+* Semantic HTML is used
+* Current location or state is clearly indicated
+* Color contrast meets accessibility standards
+
+Example breadcrumb markup:
+
+```html
+<nav aria-label="breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/products">Products</a></li>
+    <li aria-current="page">Surface Laptop</li>
+  </ol>
+</nav>
+
+```
