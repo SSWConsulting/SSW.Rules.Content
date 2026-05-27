@@ -8,13 +8,33 @@ description: >
   DONE/ via the commit-files safe-output.
 
 on:
+  permissions:
+    contents: read
   issues:
     types: [closed]
   push:
     branches: [main]
     paths:
       - .github/ContentHawk/TODO/*.md
+  steps:
+    - name: Guard — only ContentHawk judge issues
+      id: issue_guard
+      if: github.event_name == 'issues'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const body = context.payload.issue?.body ?? '';
+          const isJudgeIssue = body.includes('gh-aw-workflow-id: content-judge');
+          console.log(isJudgeIssue ? 'ContentHawk judge issue detected. Proceeding.' : 'Not a ContentHawk judge issue. Skipping workflow.');
+          core.setOutput('is_contenthawk_judge_issue', String(isJudgeIssue));
 name: Content Snapshot Cleanup (Agent 3b)
+
+jobs:
+  pre-activation:
+    outputs:
+      is_contenthawk_judge_issue: ${{ steps.issue_guard.outputs.is_contenthawk_judge_issue }}
+
+if: github.event_name == 'push' || needs.pre_activation.outputs.is_contenthawk_judge_issue == 'true'
 
 engine:
   id: copilot
@@ -35,19 +55,6 @@ safe-outputs:
     allowed-files:
       - .github/ContentHawk/TODO/*.md
       - .github/ContentHawk/DONE/*.md
-
-steps:
-  - name: Guard — only ContentHawk judge issues
-    if: github.event_name == 'issues'
-    env:
-      BODY: ${{ github.event.issue.body }}
-    run: |
-      if echo "$BODY" | grep -qF "gh-aw-workflow-id: content-judge"; then
-        echo "ContentHawk judge issue detected. Proceeding."
-      else
-        echo "Not a ContentHawk judge issue. Exiting."
-        exit 1
-      fi
 
 tools:
   github:
