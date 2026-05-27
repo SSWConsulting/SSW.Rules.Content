@@ -31,7 +31,7 @@ jobs:
 
       - name: Post comment on PR
         if: steps.download.outcome == 'success'
-        uses: actions/github-script@v9
+        uses: actions/github-script@v9.0.0
         with:
           script: |
             const fs = require('fs');
