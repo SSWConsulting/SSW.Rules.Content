@@ -1,5 +1,5 @@
-# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"8d0c1322b05ded0681369f7adf1d0bd1f23a7c9ada9a8b8cf188a14704aedc32","compiler_version":"v0.68.3","strict":true,"agent_id":"copilot","agent_model":"gpt-5-mini"}
-# gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","GH_AW_CI_TRIGGER_TOKEN","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"de0fac2e4500dabe0009e67214ff5f5447ce83dd","version":"v6.0.2"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"373c709c69115d41ff229c7e5df9f8788daa9553","version":"v9"},{"repo":"actions/upload-artifact","sha":"043fb46d1a93c77aae656e7c1c64a875d1fc6a0a","version":"v7.0.1"},{"repo":"github/gh-aw-actions/setup","sha":"ba90f2186d7ad780ec640f364005fa24e797b360","version":"v0.68.3"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.25.20"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.2.19"},{"image":"ghcr.io/github/github-mcp-server:v0.32.0"},{"image":"node:lts-alpine"}]}
+# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"c22f0c8d1517af0d00abf3f6ce585354c10b512e55045ca25758d39af6bc8d95","compiler_version":"v0.68.3","strict":true,"agent_id":"copilot","agent_model":"gpt-5-mini"}
+# gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","GH_AW_CI_TRIGGER_TOKEN","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"de0fac2e4500dabe0009e67214ff5f5447ce83dd","version":"v6.0.2"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"373c709c69115d41ff229c7e5df9f8788daa9553","version":"v9"},{"repo":"actions/github-script","sha":"f28e40c7f34bde8b3046d885e986cb6290c5673b","version":"v7"},{"repo":"actions/upload-artifact","sha":"043fb46d1a93c77aae656e7c1c64a875d1fc6a0a","version":"v7.0.1"},{"repo":"github/gh-aw-actions/setup","sha":"ba90f2186d7ad780ec640f364005fa24e797b360","version":"v0.68.3"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.25.20"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.2.19"},{"image":"ghcr.io/github/github-mcp-server:v0.32.0"},{"image":"node:lts-alpine"}]}
 #    ___                   _   _      
 #   / _ \                 | | (_)     
 #  | |_| | __ _  ___ _ __ | |_ _  ___ 
@@ -35,6 +35,7 @@
 #   - actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 #   - actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
 #   - actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553 # v9
+#   - actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
 #   - actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
 #   - github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360 # v0.68.3
 #
@@ -51,11 +52,24 @@ name: "Content Snapshot Cleanup (Agent 3b)"
   issues:
     types:
     - closed
+  # permissions: # Permissions applied to pre-activation job
+    # contents: read
   push:
     branches:
     - main
     paths:
     - .github/ContentHawk/TODO/*.md
+  # steps: # Steps injected into pre-activation job
+  # - id: issue_guard
+    # if: github.event_name == 'issues'
+    # name: Guard — only ContentHawk judge issues
+    # uses: actions/github-script@v7
+    # with:
+      # script: |
+        # const body = context.payload.issue?.body ?? '';
+        # const isJudgeIssue = body.includes('gh-aw-workflow-id: content-judge');
+        # console.log(isJudgeIssue ? 'ContentHawk judge issue detected. Proceeding.' : 'Not a ContentHawk judge issue. Skipping workflow.');
+        # core.setOutput('is_contenthawk_judge_issue', String(isJudgeIssue));
 
 permissions: {}
 
@@ -68,7 +82,8 @@ run-name: "Content Snapshot Cleanup (Agent 3b)"
 jobs:
   activation:
     needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true'
+    if: >
+      needs.pre_activation.outputs.activated == 'true' && (github.event_name == 'push' || needs.pre_activation.outputs.is_contenthawk_judge_issue == 'true')
     runs-on: ubuntu-slim
     permissions:
       actions: read
@@ -179,19 +194,19 @@ jobs:
         run: |
           bash "${RUNNER_TEMP}/gh-aw/actions/create_prompt_first.sh"
           {
-          cat << 'GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF'
+          cat << 'GH_AW_PROMPT_bc7e5f7e62b22a28_EOF'
           <system>
-          GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF
+          GH_AW_PROMPT_bc7e5f7e62b22a28_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/xpia.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/temp_folder_prompt.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/markdown.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_prompt.md"
-          cat << 'GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF'
+          cat << 'GH_AW_PROMPT_bc7e5f7e62b22a28_EOF'
           <safe-output-tools>
           Tools: create_pull_request, missing_tool, missing_data, noop
-          GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF
+          GH_AW_PROMPT_bc7e5f7e62b22a28_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_create_pull_request.md"
-          cat << 'GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF'
+          cat << 'GH_AW_PROMPT_bc7e5f7e62b22a28_EOF'
           </safe-output-tools>
           <github-context>
           The following GitHub context information is available for this workflow:
@@ -221,12 +236,12 @@ jobs:
           {{/if}}
           </github-context>
           
-          GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF
+          GH_AW_PROMPT_bc7e5f7e62b22a28_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/github_mcp_tools_with_safeoutputs_prompt.md"
-          cat << 'GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF'
+          cat << 'GH_AW_PROMPT_bc7e5f7e62b22a28_EOF'
           </system>
           {{#runtime-import .github/workflows/content-snapshot-done.md}}
-          GH_AW_PROMPT_fbdabdfe2d0f6bcc_EOF
+          GH_AW_PROMPT_bc7e5f7e62b22a28_EOF
           } > "$GH_AW_PROMPT"
       - name: Interpolate variables and render templates
         uses: actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553 # v9
@@ -345,12 +360,6 @@ jobs:
         run: bash "${RUNNER_TEMP}/gh-aw/actions/configure_gh_for_ghe.sh"
         env:
           GH_TOKEN: ${{ github.token }}
-      - env:
-          BODY: ${{ github.event.issue.body }}
-        if: github.event_name == 'issues'
-        name: Guard — only ContentHawk judge issues
-        run: "if echo \"$BODY\" | grep -qF \"gh-aw-workflow-id: content-judge\"; then\n  echo \"ContentHawk judge issue detected. Proceeding.\"\nelse\n  echo \"Not a ContentHawk judge issue. Exiting.\"\n  exit 1\nfi\n"
-
       - name: Configure Git credentials
         env:
           REPO_NAME: ${{ github.repository }}
@@ -401,9 +410,9 @@ jobs:
           mkdir -p "${RUNNER_TEMP}/gh-aw/safeoutputs"
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
-          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_86a29ab70cf1724e_EOF'
+          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_0fe1e830cc1ea2cb_EOF'
           {"create_pull_request":{"allowed_files":[".github/ContentHawk/TODO/*.md",".github/ContentHawk/DONE/*.md"],"max":1,"max_patch_size":1024,"protected_files":["package.json","bun.lockb","bunfig.toml","deno.json","deno.jsonc","deno.lock","global.json","NuGet.Config","Directory.Packages.props","mix.exs","mix.lock","go.mod","go.sum","stack.yaml","stack.yaml.lock","pom.xml","build.gradle","build.gradle.kts","settings.gradle","settings.gradle.kts","gradle.properties","package-lock.json","yarn.lock","pnpm-lock.yaml","npm-shrinkwrap.json","requirements.txt","Pipfile","Pipfile.lock","pyproject.toml","setup.py","setup.cfg","Gemfile","Gemfile.lock","uv.lock","CODEOWNERS"],"protected_files_policy":"allowed","protected_path_prefixes":[".github/",".agents/"],"title_prefix":"[Content Snapshot Done] "},"create_report_incomplete_issue":{},"missing_data":{},"missing_tool":{},"noop":{"max":1,"report-as-issue":"true"},"report_incomplete":{}}
-          GH_AW_SAFE_OUTPUTS_CONFIG_86a29ab70cf1724e_EOF
+          GH_AW_SAFE_OUTPUTS_CONFIG_0fe1e830cc1ea2cb_EOF
       - name: Write Safe Outputs Tools
         env:
           GH_AW_TOOLS_META_JSON: |
@@ -601,7 +610,7 @@ jobs:
           export MCP_GATEWAY_DOCKER_COMMAND='docker run -i --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -e MCP_GATEWAY_PORT -e MCP_GATEWAY_DOMAIN -e MCP_GATEWAY_API_KEY -e MCP_GATEWAY_PAYLOAD_DIR -e MCP_GATEWAY_PAYLOAD_SIZE_THRESHOLD -e DEBUG -e MCP_GATEWAY_LOG_DIR -e GH_AW_MCP_LOG_DIR -e GH_AW_SAFE_OUTPUTS -e GH_AW_SAFE_OUTPUTS_CONFIG_PATH -e GH_AW_SAFE_OUTPUTS_TOOLS_PATH -e GH_AW_ASSETS_BRANCH -e GH_AW_ASSETS_MAX_SIZE_KB -e GH_AW_ASSETS_ALLOWED_EXTS -e DEFAULT_BRANCH -e GITHUB_MCP_SERVER_TOKEN -e GITHUB_MCP_GUARD_MIN_INTEGRITY -e GITHUB_MCP_GUARD_REPOS -e GITHUB_REPOSITORY -e GITHUB_SERVER_URL -e GITHUB_SHA -e GITHUB_WORKSPACE -e GITHUB_TOKEN -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RUN_ATTEMPT -e GITHUB_JOB -e GITHUB_ACTION -e GITHUB_EVENT_NAME -e GITHUB_EVENT_PATH -e GITHUB_ACTOR -e GITHUB_ACTOR_ID -e GITHUB_TRIGGERING_ACTOR -e GITHUB_WORKFLOW -e GITHUB_WORKFLOW_REF -e GITHUB_WORKFLOW_SHA -e GITHUB_REF -e GITHUB_REF_NAME -e GITHUB_REF_TYPE -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GH_AW_SAFE_OUTPUTS_PORT -e GH_AW_SAFE_OUTPUTS_API_KEY -v /tmp/gh-aw/mcp-payloads:/tmp/gh-aw/mcp-payloads:rw -v /opt:/opt:ro -v /tmp:/tmp:rw -v '"${GITHUB_WORKSPACE}"':'"${GITHUB_WORKSPACE}"':rw ghcr.io/github/gh-aw-mcpg:v0.2.19'
           
           mkdir -p /home/runner/.copilot
-          cat << GH_AW_MCP_CONFIG_3b2112555a6228ee_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
+          cat << GH_AW_MCP_CONFIG_c07a20959a80cc57_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
           {
             "mcpServers": {
               "github": {
@@ -642,7 +651,7 @@ jobs:
               "payloadDir": "${MCP_GATEWAY_PAYLOAD_DIR}"
             }
           }
-          GH_AW_MCP_CONFIG_3b2112555a6228ee_EOF
+          GH_AW_MCP_CONFIG_c07a20959a80cc57_EOF
       - name: Download activation artifact
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
@@ -1133,8 +1142,12 @@ jobs:
 
   pre_activation:
     runs-on: ubuntu-slim
+    permissions:
+      contents: read
     outputs:
       activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
+      is_contenthawk_judge_issue: ${{ steps.issue_guard.outputs.is_contenthawk_judge_issue }}
+      issue_guard_result: ${{ steps.issue_guard.outcome }}
       matched_command: ''
       setup-trace-id: ${{ steps.setup.outputs.trace-id }}
     steps:
@@ -1156,6 +1169,16 @@ jobs:
             setupGlobals(core, github, context, exec, io, getOctokit);
             const { main } = require('${{ runner.temp }}/gh-aw/actions/check_membership.cjs');
             await main();
+      - name: Guard — only ContentHawk judge issues
+        id: issue_guard
+        if: github.event_name == 'issues'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        with:
+          script: |
+            const body = context.payload.issue?.body ?? '';
+            const isJudgeIssue = body.includes('gh-aw-workflow-id: content-judge');
+            console.log(isJudgeIssue ? 'ContentHawk judge issue detected. Proceeding.' : 'Not a ContentHawk judge issue. Skipping workflow.');
+            core.setOutput('is_contenthawk_judge_issue', String(isJudgeIssue));
 
   safe_outputs:
     needs:
