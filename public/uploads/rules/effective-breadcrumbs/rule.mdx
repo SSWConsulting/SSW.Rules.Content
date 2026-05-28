@@ -14,7 +14,7 @@ seoDescription: 'Learn the best practices for using breadcrumbs to improve websi
 created: 2026-05-14T05:12:28.861Z
 createdBy: micaelablank@ssw.com.au
 createdByEmail: MicaelaBlank@ssw.com.au
-lastUpdated: 2026-05-28T00:48:26.818Z
+lastUpdated: 2026-05-28T07:22:14.630Z
 lastUpdatedBy: micaelablank@ssw.com.au
 lastUpdatedByEmail: MicaelaBlank@ssw.com.au
 ---
@@ -39,9 +39,9 @@ Use them when the site has:
 
 Breadcrumbs should be short, predictable, and based on the actual structure of the site so users can understand where they are and move back up the hierarchy easily.
 
-* Keep trails to 5 labels maximum. 
-* Always start with "Home" (or the root page) and end with the current page title as plain, unlinked text. 
-* Make sure the trail reflects the site's actual information architecture, not invented or browsing-history-based categories. 
+* Keep trails to 5 labels maximum.
+* Always start with "Home" (or the root page) and end with the current page title as plain, unlinked text.
+* Make sure the trail reflects the site's actual information architecture, not invented or browsing-history-based categories.
 * If your breadcrumbs regularly exceed 5 levels, it's a signal to simplify the site's navigation structure.
 * Individual labels should truncate after \~80 characters. Separate items with a universally understood character like `/` or `>` with consistent spacing.
 
@@ -59,7 +59,29 @@ When trails exceed 4 items, collapse the middle links behind an ellipsis (...) r
 
 For further reading, see the [Nielsen Norman Group's breadcrumb design guidelines](https://www.nngroup.com/articles/breadcrumbs/) and the [Pencil & Paper breadcrumbs UX guide](https://www.pencilandpaper.io/articles/breadcrumbs-ux).
 
-## Make navigation accessible
+## Breadcrumbs on mobile
+
+Mobile screens have limited space, so breadcrumb trails can quickly become cluttered and reduce usability. Long or multi-line breadcrumbs push important content below the fold and make the hierarchy harder to scan.
+
+Keep mobile breadcrumbs short and touch-friendly.
+
+### Mobile breadcrumb guidelines&#xA;
+
+* Never allow breadcrumbs to wrap onto multiple lines
+* Avoid tiny or tightly packed links - touch targets should remain easy to tap
+* Prefer showing only the immediate parent category on mobile
+* Keep the full breadcrumb trail on desktop where space allows
+* Ensure breadcrumbs do not push important content (like page titles) below the fold
+
+
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="bad" figure="Many items on mobile takes up too much screen realestate" src="/uploads/rules/effective-breadcrumbs/breadcrumbs_example_mobile_bad.png" />
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
+
+
+
+Make navigation accessible
+--------------------------
 
 All navigation components should follow accessibility best practices.
 
