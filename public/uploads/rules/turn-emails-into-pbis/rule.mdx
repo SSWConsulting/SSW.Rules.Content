@@ -36,13 +36,14 @@ seoDescription: Convert emails into Product Backlog Items (PBIs) before starting
 title: Do you turn an email into a PBI before starting work?
 categories:
   - category: categories/project-delivery/rules-to-better-scrum-using-azure-devops.mdx
+  - category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
 type: rule
 uri: turn-emails-into-pbis
 ---
 
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untenable by splitting off into multiple different threads and becoming buried among other emails.
 
-That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender.
+That's why when a feedback email is received, it is important to turn it into a Product Backlog Item (PBI) and communicate that back to the sender. In GitHub, PBIs are typically tracked as Issues.
 
 If someone often sends email tasks rather than creating PBIs, kindly suggest they create PBIs directly to save time and keep workflows organized.
 
@@ -63,6 +64,7 @@ You should use your judgement to decide if the email needs to become a PBI. For 
 * Does the email contain 1 or more actionable tasks? If not, **do not** turn into an PBI
 * Does the feedback contain confidential information that should not be on the backlog? If so, **do not** turn into an PBI
 * Will the task take less than 15 minutes to complete? If so, **do not** turn into an PBI and follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately
+  * If you still create a PR for it, as a best practice include the email subject, mention the people involved, and copy the email content/tasks into the PR description
 * Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)?  If so, **do not** turn into an PBI. Urgent emails should be done immediately unless they are clearly not an emergency
 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
@@ -71,7 +73,7 @@ Use the following flow chart to determine if an urgent email should be turned in
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="none"
   figure="Should the email be turned into a PBI?"
   src="/uploads/rules/turn-emails-into-pbis/urgent-flowchart.png"
@@ -157,7 +159,7 @@ When there is a new update in emails do the following ASAP:
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="bad"
   figure="Don't work from your email inbox!"
   src="/uploads/rules/turn-emails-into-pbis/email-example.png"
@@ -167,7 +169,7 @@ When there is a new update in emails do the following ASAP:
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="good"
   figure="Put it in a PBI!"
   src="/uploads/rules/turn-emails-into-pbis/pbi-example.png"
