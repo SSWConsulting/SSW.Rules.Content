@@ -16,13 +16,13 @@
 
 | Path        | CategoryList   | Created    | LastUpdated   | CheckedDate | CheckResult |
 |-------------|----------------|------------|---------------|-------------|-------------|
-| public/uploads/rules/do-you-avoid-relying-on-javascript-for-crucial-actions/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-24 | 2015-08-24 | 2026-04-24 | pending |
-| public/uploads/rules/do-you-always-use-semicolons-on-your-js-file/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-27 | 2015-08-24 | 2026-04-24 | pending |
-| public/uploads/rules/do-you-avoid-making-changes-to-individual-css-styles-using-jquery/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-26 | 2015-08-24 | 2026-04-24 | pending |
+| public/uploads/rules/do-you-avoid-relying-on-javascript-for-crucial-actions/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-24 | 2015-08-24 | 2026-05-28 | Issue #12790 |
+| public/uploads/rules/do-you-always-use-semicolons-on-your-js-file/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-27 | 2015-08-24 | 2026-05-28 | Issue #12791 |
+| public/uploads/rules/do-you-avoid-making-changes-to-individual-css-styles-using-jquery/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-26 | 2015-08-24 | 2026-05-28 | Issue #12792 |
 | public/uploads/rules/do-you-comment-your-javascript-code/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-27 | 2015-08-24 | 2026-04-24 | Issue pending |
-| public/uploads/rules/do-you-know-not-to-use-the-eval-function/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-26 | 2015-08-24 | 2026-04-24 | pending |
-| public/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2013-08-27 | 2015-08-24 | - | pending |
-| public/uploads/rules/do-you-use-bundling-and-or-amd/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2015-06-16 | 2015-09-10 | - | pending |
+| public/uploads/rules/do-you-know-not-to-use-the-eval-function/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2012-07-26 | 2015-08-24 | 2026-05-28 | Issue #12793 |
+| public/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2013-08-27 | 2015-08-24 | 2026-05-28 | skipped |
+| public/uploads/rules/do-you-use-bundling-and-or-amd/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2015-06-16 | 2015-09-10 | 2026-05-28 | Issue #12794 |
 | public/uploads/rules/do-you-use-the-ready-function/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2013-04-29 | 2015-09-10 | - | pending |
 | public/uploads/rules/dont-open-popup-windows-use-a-javascript-modal-instead/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx | 2016-11-17 | 2016-11-17 | - | pending |
 | public/uploads/rules/use-jquery-instead-of-javascript/rule.mdx | categories/software-engineering/rules-to-better-javascript-and-jquery.mdx,categories/software-engineering/rules-to-better-websites-development.mdx | 2016-11-17 | 2016-11-17 | - | pending |
