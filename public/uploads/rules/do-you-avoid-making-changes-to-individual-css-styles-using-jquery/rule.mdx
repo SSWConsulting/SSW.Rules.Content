@@ -8,7 +8,7 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 2adca90a-3482-44f5-a3d4-06391521cf0a
 isArchived: false
-lastUpdated: 2015-08-24 01:08:15+00:00
+lastUpdated: 2026-05-28 04:50:00+00:00
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
@@ -21,10 +21,110 @@ type: rule
 uri: do-you-avoid-making-changes-to-individual-css-styles-using-jquery
 ---
 
-We all know that jQuery is very powerful and can do a lot of stuff, including style changes. However, this practice is bad.
+We all know that jQuery is very powerful and can do a lot of stuff, including style changes. However, mixing style logic into your JavaScript is a bad practice — it creates tight coupling between your JavaScript and visual presentation, making maintenance harder.
 
 <endIntro />
 
-Instead of changing the appearance of elements with jQuery, you should use CSS classes. This way you can keep all your CSS in your CSS files, specify different appearances for different classes.
+Instead of changing the appearance of elements directly, you should use **CSS classes**. This keeps all your styles in CSS files and makes it easy to specify different appearances for different states.
 
-It's OK to use jQuery to add or remove classes and apply your CSS. For this we can use .addClass() and .removeClass() methods.
+It's OK to use jQuery to add or remove classes. For this, use the `.addClass()` and `.removeClass()` methods:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+```javascript
+// Bad example – directly manipulating inline styles with jQuery
+$('#myElement').css('color', 'red');
+$('#myElement').css({ 'font-size': '14px', 'background-color': '#fff' });
+```
+
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – inline style changes tightly couple JS and CSS"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+```javascript
+// Good example – toggling CSS classes with jQuery
+$('#myElement').addClass('is-error');
+$('#myElement').removeClass('is-loading');
+```
+
+```css
+/* CSS file – styles are defined once and reused */
+.is-error { color: red; }
+.is-loading { opacity: 0.5; }
+```
+
+  </>}
+  figurePrefix="good"
+  figure="Good example – CSS classes keep styles in CSS files"
+/>
+
+## Modern Alternatives
+
+In modern JavaScript applications, jQuery's `.addClass()` / `.removeClass()` pattern translates to equivalent native and framework-specific approaches:
+
+### Vanilla JavaScript (no jQuery needed)
+
+```javascript
+// Native classList API – no jQuery required
+document.getElementById('myElement').classList.add('is-error');
+document.getElementById('myElement').classList.toggle('is-active');
+```
+
+### React
+
+In React, manage dynamic styling by toggling class names based on component state:
+
+```jsx
+// React – conditional class names
+function Button({ isLoading }) {
+  return (
+    <button className={isLoading ? 'btn btn--loading' : 'btn'}>
+      Submit
+    </button>
+  );
+}
+```
+
+For more complex scenarios, use a library like [clsx](https://github.com/lukeed/clsx) or [classnames](https://github.com/JedWatson/classnames).
+
+### Tailwind CSS
+
+With utility-first frameworks like [Tailwind CSS](https://tailwindcss.com/), toggle utilities rather than writing custom CSS:
+
+```jsx
+// React + Tailwind – toggle utility classes
+<button className={`px-4 py-2 ${isLoading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'}`}>
+  Submit
+</button>
+```
+
+### CSS-in-JS (styled-components / Emotion)
+
+Component frameworks commonly use CSS-in-JS for scoped styles. Avoid inline `style` props just as you would avoid `.css()` in jQuery:
+
+```jsx
+// styled-components – styles defined with the component, not inline
+import styled from 'styled-components';
+
+const Button = styled.button`
+  background: ${props => props.primary ? 'blue' : 'white'};
+  color: ${props => props.primary ? 'white' : 'blue'};
+`;
+```
+
+## Accessibility Considerations
+
+When toggling visual states, also update ARIA attributes to keep assistive technologies in sync:
+
+```javascript
+const el = document.getElementById('myMenu');
+el.classList.toggle('is-open');
+el.setAttribute('aria-expanded', el.classList.contains('is-open'));
+```

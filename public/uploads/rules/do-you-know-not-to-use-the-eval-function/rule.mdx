@@ -8,7 +8,7 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 68d543a0-b55d-4d09-a3e0-107664a9e3cc
 isArchived: false
-lastUpdated: 2015-08-24 01:08:15+00:00
+lastUpdated: 2026-05-28 04:50:00+00:00
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects:
@@ -22,18 +22,86 @@ type: rule
 uri: do-you-know-not-to-use-the-eval-function
 ---
 
-The Javascript command "eval" evaluates the content of a text string and then runs it as Javascript code. It's common to see it around, however "eval" is one of the most inefficient constructs that JavaScript has. There are always more efficient ways to code and get a direct reference.
+The JavaScript `eval()` function evaluates the content of a text string and executes it as JavaScript code. While it appears convenient, it is one of the most dangerous and inefficient constructs in JavaScript and should be avoided.
 
 <endIntro />
 
-Most of people that use "eval" want part of a variable name to be variable.
+Most uses of `eval` want part of a variable name to be dynamic. Once you realise that all global variables are held in the `window` object, you can reference them directly without `eval`.
 
-Once you realize that all global variables are held in the window array it becomes rather obvious that you can refer to that same field name without needing to use "eval" by referring to it.
+<boxEmbed
+  style="greybox"
+  body={<>
 
-eval('somevar' + num)
+```javascript
+eval('somevar' + num);
+```
 
-Figure: Bad example - The developer creates the variable name by concatenating the constant and variable parts together
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – using eval to construct a variable name"
+/>
 
-window['somevar' + num]
+<boxEmbed
+  style="greybox"
+  body={<>
 
-Figure: Good example - Referencing the same field is as simple to code and more efficient than using "eval"
+```javascript
+window['somevar' + num];
+```
+
+  </>}
+  figurePrefix="good"
+  figure="Good example – referencing the same field without eval"
+/>
+
+## Security Risks (XSS)
+
+`eval()` is a major **security vulnerability**. Any string passed to `eval` is executed with the full privileges of the calling script. If user-controlled data reaches `eval`, an attacker can execute arbitrary JavaScript — a classic **Cross-Site Scripting (XSS)** attack vector.
+
+**Never pass user input or untrusted data to `eval()`.**
+
+## Performance
+
+`eval` prevents JavaScript engines from optimising the evaluated code. Modern JIT compilers cannot inline or optimise code paths that call `eval`, resulting in significantly slower execution.
+
+## Safer Alternatives
+
+| Instead of... | Use... |
+|---|---|
+| `eval('{"key":"value"}')` | `JSON.parse('{"key":"value"}')` |
+| `eval('window.' + varName)` | `window[varName]` |
+| Dynamic function creation | Refactor to a lookup table or strategy pattern |
+
+```javascript
+// Bad – eval to parse JSON
+const data = eval('(' + jsonString + ')');
+
+// Good – use JSON.parse
+const data = JSON.parse(jsonString);
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+```javascript
+// Bad – Function constructor is equally dangerous
+const fn = new Function('return ' + userInput);
+
+// Good – avoid dynamic code construction entirely
+```
+
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – Function constructor is as risky as eval"
+/>
+
+## Content Security Policy (CSP)
+
+A strong [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) can help mitigate eval-based attacks. Set `script-src` without `'unsafe-eval'` to block `eval()` at the browser level:
+
+```http
+Content-Security-Policy: script-src 'self'
+```
+
+This prevents `eval()` from executing even if an attacker injects a malicious string.

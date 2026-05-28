@@ -8,7 +8,7 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: f93855fc-baa6-4e3a-9e97-3c466d614e98
 isArchived: false
-lastUpdated: 2015-08-24 01:08:16+00:00
+lastUpdated: 2026-05-28 04:50:00+00:00
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
@@ -24,19 +24,52 @@ uri: do-you-avoid-relying-on-javascript-for-crucial-actions
 
 Don't assume JavaScript is always enabled.
 
-JavaScript should be used to enhance the overall user experience and not as a dependency.
+JavaScript should be used to **progressively enhance** the user experience — not as a hard dependency for core functionality.
 
 <endIntro />
 
-JavaScript is very useful for improving user-interaction, along with reducing the number of requests made on the server; but it can be disabled - an estimated 2% of web users do not have JavaScript enabled
+JavaScript is very useful for improving user-interaction and reducing server requests, but it can be disabled or fail to load. Historically an estimated 2% of web users did not have JavaScript enabled; today, more relevant concerns include slow networks, corporate proxies, browser extensions, and partial failures in Single Page Applications (SPAs).
 
-Depending on your audience you may choose to disregard this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as **validation** or **business-logic** purposes. Do a server-side validation instead.
+Depending on your audience you may choose to adapt this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as **validation** or **business-logic** purposes. Always do server-side validation as the authoritative check.
 
+## Progressive Enhancement
+
+Build a functional baseline using HTML and server-side logic, then layer JavaScript on top to enhance the experience. This means:
+
+- Forms should submit and validate without JavaScript (server-side validation is mandatory)
+- Navigation should work without client-side routing
+- Critical content should be rendered server-side (SSR) or statically, not only via client-side JS
+
+## Single Page Applications (SPAs)
+
+Modern SPAs (React, Angular, Vue) rely heavily on JavaScript. To handle this:
+
+- Use **Server-Side Rendering (SSR)** or **Static Site Generation (SSG)** for initial page loads (e.g. Next.js, Nuxt, Angular Universal)
+- Implement **API-first validation** — always validate on the server even when the client also validates
+- Add a `<noscript>` fallback to inform users when JavaScript is required
+
+```html
+<noscript>
+  <p>This application requires JavaScript. Please enable it to continue.</p>
+</noscript>
+```
+
+**Figure: Good example – `<noscript>` fallback for SPA users without JavaScript**
+
+## Accessibility Considerations
+
+When JavaScript controls interactive elements (modals, accordions, dynamic content), ensure:
+
+- **Focus management**: Move focus to the opened modal/dialog; return it when closed
+- **ARIA attributes**: Use `aria-expanded`, `aria-haspopup`, `aria-modal`, and `role` attributes appropriately
+- **Keyboard support**: All interactions must be operable via keyboard (Tab, Enter, Escape)
+
+See [WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/) for detailed patterns.
 
 <boxEmbed
   style="greybox"
   body={<>
-    
+
 **Note:** This rule can be applied to any other third-party technology, such as Flash or Java. If it's not built into every web browser/device or if it can be disabled, then make sure the page is still accessible and usable without it.
 
   </>}

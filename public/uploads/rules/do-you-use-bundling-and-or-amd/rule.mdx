@@ -10,7 +10,7 @@ createdBy: Brendan Richards
 createdByEmail: BrendanRichards@ssw.com.au
 guid: b51f62d0-83ea-4c94-b565-8e51552e846f
 isArchived: false
-lastUpdated: 2015-09-10 23:22:07+00:00
+lastUpdated: 2026-05-28 04:50:00+00:00
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
@@ -26,22 +26,76 @@ type: rule
 uri: do-you-use-bundling-and-or-amd
 ---
 
-Minification and AMD are techniques to improve javascript performance. They can both can be used with vanilla JavaScript and with Typescript
+Bundling and minification are essential techniques to improve JavaScript performance. They reduce the number of HTTP requests and the size of files delivered to the browser.
+
+Modern JavaScript development has moved well beyond AMD and Gulp/Grunt — the ecosystem is now dominated by **ES Modules (ESM)** and next-generation bundlers.
 
 <endIntro />
 
-### AMD and RequireJs
+## ES Modules (ESM) — The Modern Standard
 
-AMD is a client-side technology that allows you to break you Js code into small inter-dependent modules. The modules (and thier dependencies) required to render a particular page are determined at runtime and subsequently downloaded by Javascript. RequireJs is a popular AMD implementation.
-**✅ Pro: Only the js modules you need are downloaded**  
-**❌ Con: Each module is downloaded in a separate http request**  
+**ES Modules** (`import`/`export`) are natively supported in all modern browsers and Node.js. For new projects, always prefer ESM over CommonJS (`require`) or AMD:
 
-### Bundling and Minification
+```javascript
+// ESM – the modern standard
+import { formatDate } from './utils.js';
+export function greet(name) { return `Hello, ${name}`; }
+```
 
-This is a server side technique that combines and optimises client side files into single, optimised downloads.
+## Modern Bundlers
 
-ASP.Net contains excellent server-side bundling support as outlined here: [http://www.asp.net/mvc/overview/performance/bundling-and-minification](http://www.asp.net/mvc/overview/performance/bundling-and-minification)
+| Bundler | Best for | Key feature |
+|---|---|---|
+| **[Vite](https://vitejs.dev/)** | React, Vue, Svelte, vanilla | Lightning-fast dev server (native ESM), Rollup for production |
+| **[Webpack](https://webpack.js.org/)** | Large enterprise apps | Highly configurable, huge ecosystem |
+| **[Rollup](https://rollupjs.org/)** | Libraries and packages | Excellent tree-shaking, clean ESM output |
+| **[Parcel](https://parceljs.org/)** | Zero-config projects | No config needed, good defaults |
+| **[esbuild](https://esbuild.github.io/)** | Speed-critical builds | Extremely fast, often used inside other tools |
 
-ASP.Net vnext & VS 2015 also provides support for using task runners like Gulp or Grunt for bundling and minification.
-**✅ Pro: Fewer Http requests and smaller files**  
-**❌ Con: All client side modules are included in a single download**
+**Recommendation for new projects:** Start with **Vite**. It provides an instant dev server via native ESM and uses Rollup for optimised production builds.
+
+## Tree-Shaking
+
+Tree-shaking statically analyses your imports and removes unused code from the final bundle. This is only possible with ESM — it does not work with CommonJS.
+
+```javascript
+// Only `formatDate` is included in the bundle — `formatCurrency` is tree-shaken out
+import { formatDate } from './utils.js';
+```
+
+Ensure your packages are ESM-first (check `"type": "module"` in `package.json` or `"exports"` field in library packages).
+
+## Code Splitting
+
+Modern bundlers support **code splitting** — dividing your app into smaller chunks that are loaded on demand. This reduces initial load time significantly for large applications.
+
+```javascript
+// Dynamic import – the chunk is only loaded when needed
+const { HeavyComponent } = await import('./HeavyComponent.js');
+```
+
+Frameworks like React (with `React.lazy`), Next.js, and Angular handle code splitting automatically.
+
+## Source Maps
+
+Always enable **source maps** in development so browser DevTools display your original source code rather than minified output:
+
+```javascript
+// vite.config.js
+export default {
+  build: {
+    sourcemap: true
+  }
+};
+```
+
+## Legacy: AMD and RequireJS
+
+AMD (Asynchronous Module Definition) and [RequireJS](https://requirejs.org/) were popular before native ES Modules existed. **For new projects, do not use AMD.** Migrate existing AMD code to ESM.
+
+**✅ Pro: Only the modules you need are downloaded**
+**❌ Con: Each module requires a separate HTTP request (superseded by HTTP/2 multiplexing and bundlers)**
+
+## Legacy: ASP.NET Bundling
+
+ASP.NET's built-in bundling (`System.Web.Optimization`) and Gulp/Grunt task runners are legacy approaches. Modern .NET projects with React/Angular/Vue frontends should use Vite or Webpack for asset bundling, independent of the server stack.

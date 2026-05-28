@@ -8,7 +8,7 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: ff37d2f9-2e58-4dc6-aed8-e0ea65bfe544
 isArchived: false
-lastUpdated: 2015-08-24 01:08:16+00:00
+lastUpdated: 2026-05-28 04:50:00+00:00
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
@@ -21,8 +21,52 @@ type: rule
 uri: do-you-always-use-semicolons-on-your-js-file
 ---
 
-For most of the cases, it quite rare to have problems when omitting semicolons, but there are a few scenarios where they are required to prevent syntax errors or resolve code ambiguities.
+For most cases, it is quite rare to have problems when omitting semicolons, but there are a few scenarios where they are required to prevent syntax errors or resolve code ambiguities.
 
 <endIntro />
 
-To save yourself time and troubles, it's highly recommended that you just place them all the time. More than avoiding you to have some headaches, your code will also look a lot more consistent.
+To save yourself time and trouble, it's highly recommended that you place semicolons consistently. Beyond avoiding headaches, consistent semicolon usage makes your code more readable and predictable.
+
+## Modern Tooling: ESLint and Prettier
+
+In modern JavaScript and TypeScript projects, semicolons are typically enforced automatically by linting and formatting tools rather than manually. Use these tools to standardise semicolon usage across your team:
+
+- **[ESLint](https://eslint.org/)** — enforces code quality and style rules, including the [`semi` rule](https://eslint.org/docs/latest/rules/semi)
+- **[Prettier](https://prettier.io/)** — opinionated code formatter that handles semicolons (and many other formatting concerns) automatically
+
+```json
+// .eslintrc.json – enforce semicolons with ESLint
+{
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+```json
+// .prettierrc – Prettier uses semicolons by default (semi: true)
+{
+  "semi": true
+}
+```
+
+  </>}
+  figurePrefix="good"
+  figure="Good example – Prettier configured to enforce semicolons"
+/>
+
+## Style Guides
+
+Popular JavaScript style guides have different semicolon stances — pick one and enforce it consistently:
+
+- **[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)** — requires semicolons
+- **[Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)** — requires semicolons
+- **[StandardJS](https://standardjs.com/)** — omits semicolons (relies on ASI)
+
+## Modern JavaScript Features
+
+With ES Modules (`import`/`export`) and modern transpilation pipelines (Babel, TypeScript), semicolons remain valid and recommended. Tooling like Prettier eliminates the debate by enforcing a consistent choice across the entire codebase automatically.
