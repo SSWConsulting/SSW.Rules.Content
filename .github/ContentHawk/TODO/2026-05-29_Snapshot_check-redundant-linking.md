@@ -16,4 +16,4 @@
 
 | Path        | CategoryList   | Created    | LastUpdated   | CheckedDate | CheckResult |
 |-------------|----------------|------------|---------------|-------------|-------------|
-| public/uploads/rules/avoid-redundant-links/rule.mdx | categories/design/rules-to-better-websites-navigation.mdx | 2015-02-16  | - | -           | pending     |
+| public/uploads/rules/avoid-redundant-links/rule.mdx | categories/design/rules-to-better-websites-navigation.mdx | 2015-02-16  | - | 2026-05-29  | Issue #12813 |
