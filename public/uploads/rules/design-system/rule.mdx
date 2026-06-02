@@ -1,25 +1,29 @@
 ---
-authors:
-- title: Betty Bondoc
-  url: https://www.ssw.com.au/people/betty-bondoc
-- title: Jayden Alchin
-  url: https://www.ssw.com.au/people/jayden-alchin
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
-created: 2025-05-14 15:18:00+00:00
-guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
-related:
-- rule: public/uploads/rules/design-debt/rule.mdx
-- rule: public/uploads/rules/software-for-ux-design/rule.mdx
-- rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
-seoDescription: Tame visual inconsistencies and streamline team collaboration by building
-  a design system that aligns your product, design, and engineering teams.
 tips: ''
+type: rule
 title: Do you have a design system?
+uri: design-system
 categories:
   - category: categories/design/rules-to-better-designers.mdx
-type: rule
-uri: design-system
+authors:
+  - title: Betty Bondoc
+    url: 'https://www.ssw.com.au/people/betty-bondoc'
+  - title: Jayden Alchin
+    url: 'https://www.ssw.com.au/people/jayden-alchin'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/design-debt/rule.mdx
+  - rule: public/uploads/rules/software-for-ux-design/rule.mdx
+  - rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
+guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
+seoDescription: 'Tame visual inconsistencies and streamline team collaboration by building a design system that aligns your product, design, and engineering teams.'
+created: 2025-05-14T15:18:00.000Z
+createdBy: AlexBlum-SSW
+createdByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-06-02T04:26:23.352Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
 ---
 
 When every button looks a little different, spacing feels off, and handoffs between designer and dev are painful, you know something's wrong.
@@ -28,9 +32,7 @@ When every button looks a little different, spacing feels off, and handoffs betw
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/embed/YLo6g58vUm0" description={"Video: Welcome to Design Systems – Lesson 1: Introduction to Design Systems (15 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/embed/iqUyLDrEFDM?si=YYiBGCXxVc1DWR1Y" description="Video: Stop Rebuilding UI: The Real Power of Design Systems Explained (3 min)" />
 
 ## Key components
 
@@ -41,7 +43,6 @@ A solid design system should include:
 * **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
 * **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -51,12 +52,11 @@ A solid design system should include:
   figure=""
 />
 
-
 ## Why it works
 
 * **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency.
   * Changes are made in one place which scales across projects
-  *The design system can span across multiple projects, it is up to the implementer to decide
+    \*The design system can span across multiple projects, it is up to the implementer to decide
 * **Faster build time** – Shared components and patterns boost delivery speed
 * **Accessibility guidelines** – Standards like contrast, keyboard navigation, and screen-reader support come by default
 
@@ -86,7 +86,6 @@ A solid design system should include:
 
 Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product.
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -96,27 +95,25 @@ Design systems don’t need to be fully built from day one. There are different 
   figure=""
 />
 
-
 Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next:
 
-| Stage | Description |
-|-------|-------------|
-| **1. Design Library** | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs. |
-| **2. Documented System** | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates). |
+| Stage                       | Description                                                                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Design Library**       | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
+| **2. Documented System**    | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
 | **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
-| **4. Coded Components** | Components exist in code (e.g. Storybook) and match the Design Library. |
-| **5. Scalable Ecosystem** | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal. |
+| **4. Coded Components**     | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
+| **5. Scalable Ecosystem**   | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal.       |
 
 ## Start small in 7 steps
 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
 3. **Build your first components** – Focus on core UI elements (i.e. header, footer, buttons, input fields)
-4. **Integrate tokens** – Start with simple design tokens in your design tool, then explore code integration tools like [Style Dictionary(https://styledictionary.com/) as your system matures
+4. **Integrate tokens** – Start with simple design tokens in your design tool, then explore code integration tools like \[Style Dictionary([https://styledictionary.com/](https://styledictionary.com/)) as your system matures
 5. **Document as you go** – Add usage rules, visual examples, and versioning
 6. **Share internally** – Use demos and changelogs to get buy-in
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
-
 
 <boxEmbed
   style="greybox"
@@ -125,4 +122,15 @@ Since “design system” is often used loosely, this table helps clarify where 
   </>}
   figurePrefix="none"
   figure=""
+/>
+
+<boxEmbed
+  body={<>
+    ### Learn more:
+    
+    <youtubeEmbed url="https://www.youtube.com/embed/YLo6g58vUm0?si=-5WJ7bSECzuabuUB" description="Video: Welcome to design systems - Lesson 1 : Introduction to design systems (15 min)" />
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
 />
