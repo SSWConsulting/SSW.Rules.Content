@@ -1,0 +1,117 @@
+---
+title: Do you use /insights with Claude Code?
+uri: use-claude-insights
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://www.ssw.com.au/people/michael-qiu'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/do-a-retrospective/rule.mdx
+guid: 9ec90feb-e31c-482f-8638-a69e26933ecb
+seoDescription: 'Learn how to use Claude Code''s /insights command to reflect on your AI workflow, spot friction patterns, and generate actionable CLAUDE.md, Skills, and Hooks suggestions.'
+created: 2026-05-21T04:23:27.317Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-05-22T01:12:39.920Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+---
+
+AI Agents have become a daily driver for most developers, but very few people stop and reflect on **how** they are actually using them. Bad habits compound silently. Soon you're reaching for the same broken prompt every morning, re-explaining the same three project gotchas to every fresh session, and losing an hour debugging because the agent claimed to be "done" without testing anything.
+
+`/insights` is Claude Code's built-in reflection tool. It reads the last 30 days of your conversation history and turns it into a personalized report on how you actually work with your agent, where you get stuck, and what to you can change.
+
+<endIntro />
+
+## What does `/insights` do?
+
+By running `/insights` in any Claude Code session, Claude analyses the last 30 days of conversations stored under `~/.claude/`. The output from this is an interactive HTML report saved to `~/.claude/usage-data/report` - a static file you can open in any browser.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Privacy** - `/insights` only reads the session metadata under `~/.claude/`. It never touches the files in your repositories.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What's in the report?
+
+The report walks from a high-level summary down to copy-paste suggestions, and typically, you'll find the most valuable sections are:
+
+* **At a Glance** - A four-paragraph executive summary covering what's working, what's hindering you, quick wins, and bigger experiments worth trying
+* **How You Use Claude Code** - A narrative on your delegation, correction, and verification style, ending with a "Key pattern" callout naming your dominant working style in one sentence
+* **Where Things Go Wrong** - Friction categories with concrete examples pulled from your actual sessions, each one naming the underlying issue and the exact times it bit you
+* **Existing CC Features to Try** - The most actionable section: ready-to-paste `CLAUDE.md` additions plus tailored recommendations for Skills, Hooks, or MCP servers
+* **On the Horizon** - Ambitious proposals to turn workflows you already run into autonomous, self-verifying versions, each with a copy-paste prompt to start building
+
+## Why should you bother running it?
+
+Like many things, reflecting on your own behaviour without bias is hard, and looking through 30 days of your own conversations manually is to find patterns is even harder. `/insights` takes over this reflection process and does the pattern-matching for you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Without `/insights`** - You "feel" your AI workflow is slow but cannot point to the exact reason why. You keep retyping the same three-step prompt because it never occurred to you it could be a Skill. You assume the agent's "done" messages are correct because checking each one is annoying.
+  </>}
+  figurePrefix="bad"
+  figure="Using Claude Code with /insights nor reflecting on your own Agent usage"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **With `/insights`** - The report names that three-step prompt as your most-repeated workflow and suggests turning it into a Skill. Your friction list flags premature "done" claims as the top recurring issue. You ship two `CLAUDE.md` additions in the next 10 minutes.
+  </>}
+  figurePrefix="good"
+  figure="Using Claude Code with /insights to identify the problematic patterns on your own behavior and actioning productive changes"
+/>
+
+## What should you do with the findings?
+
+Having the report and reading through it is great, but a report with feedback that you don't action is wasted. After every run, you should always try to do one of the following:
+
+* **Codify a repeated correction** - Move it from your prompts into `AGENTS.md` so it flows to every tool that reads it. The "Suggested CLAUDE.md additions" section gives you a head start
+* **Turn a repeated workflow into a Skill** - If the same multi-step task keeps appearing in your "What You Wanted" chart, it belongs in a Skill - not in a prompt you retype
+* **Add a verification step** - If the friction analysis flags premature "done" claims, a Hook that runs `git status` or a smoke test after edits will catch them automatically
+* **Anchor context earlier** - If Claude repeatedly misses information you supplied, the report is telling you to put that context in `CLAUDE.md` or a Skill, not in mid-session prompts
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** The suggestions are pattern-matched from repetition, not judgement. They can codify a bad habit as easily as a good one. Treat them as drafts. Read each one and ask yourself whether it would actually help future-you before actioning them.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What about other AI tools?
+
+`/insights` is a Claude Code exclusive command. There is no equivalent in Cursor, GitHub Copilot, Gemini CLI, or Codex CLI today. The underlying idea of "analyse my recent sessions and tell me how to use this tool better", however, is something you can replicate yourself with a custom Skill or prompt that walks your tool's session logs and surfaces the same patterns.
+
+For more on skills, checkout our rule on [Do you use Skills to standardize your AI workflows?](/ai-agents-with-skills) Although the output will not be as polished as Claude's interactive HTML report, the reflection step is what matters, not the chart styling.
+
+## How often should you run it?
+
+Although there is no limit on how often you run it, typically, monthly is the sweet spot. Since `/insights` analyzes the last 30 days of conversations, running it weekly is often too noisy and can't reveal real change in behaviour, as there are not enough sessions for real pattern changes to emerge. Whilst quarterly is too long apart, and bad habits have already solidified and done its damage.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** You can pin `/insights` to the same day as your sprint retrospective every month, for example, right before the first Sprint Review of every month.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Learn more
+
+* [Anthropic Docs - Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Official Claude Code documentation, including built-in slash commands

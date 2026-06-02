@@ -28,7 +28,7 @@ function readFrontmatter(filePath) {
   return parseFrontmatter(raw);
 }
 
-function getRulePathFromFile(filePath) {
+function normalizePath(filePath) {
   return filePath
     .replace(/\\/g, "/")
     .replace(/^\.\.\/\.\.\//, "")
@@ -172,7 +172,7 @@ function removeRuleFromCategoryFile(categoryPath, rulePath) {
     const m = /^\s*-\s+rule:\s*(.+?)\s*$/.exec(line);
     if (!m) continue;
 
-    const entryRule = getRulePathFromFile(m[1]);
+    const entryRule = normalizePath(m[1]);
     if (entryRule === rulePath) {
       lines.splice(i, 1);
       i--; // adjust index after removal
@@ -184,10 +184,49 @@ function removeRuleFromCategoryFile(categoryPath, rulePath) {
   return changed;
 }
 
+function getChangedCategoryFiles(changedFiles) {
+  return changedFiles
+    .filter(
+      (f) =>
+        f.startsWith("categories/") &&
+        f.endsWith(".mdx") &&
+        fs.existsSync(path.resolve(repoRoot, f))
+    )
+    .map((f) => normalizePath(f));
+}
+
+function removeMissingRuleReferencesFromCategoryFile(categoryPath) {
+  const categoryFrontmatter = readFrontmatter(categoryPath);
+  if (!categoryFrontmatter) {
+    return {
+      error: `Category file '${categoryPath}' could not be parsed.`,
+      removedRulePaths: [],
+    };
+  }
+
+  const indexEntries = getIndexFromCategory(categoryFrontmatter);
+  const removedRulePaths = [];
+
+  for (const entry of indexEntries) {
+    const rulePath = normalizePath(entry);
+    const ruleFullPath = path.resolve(repoRoot, rulePath);
+
+    if (!fs.existsSync(ruleFullPath)) {
+      const didRemove = removeRuleFromCategoryFile(categoryPath, rulePath);
+      if (didRemove) removedRulePaths.push(rulePath);
+    }
+  }
+
+  return { removedRulePaths };
+}
 
 function fixCategorySync(changedFiles) {
   const errors = [];
   const fixed = [];
+
+  // Only validate category files that were changed in the PR, plus any category
+  // files modified by this script during the run.
+  const categoryFilesToValidate = new Set(getChangedCategoryFiles(changedFiles));
 
   const ruleFiles = changedFiles.filter(
     (f) =>
@@ -205,7 +244,7 @@ function fixCategorySync(changedFiles) {
     const categories = getCategoriesFromRule(ruleFrontmatter);
     if (categories.length === 0) continue;
 
-    const rulePath = getRulePathFromFile(ruleFile);
+    const rulePath = normalizePath(ruleFile);
 
     for (const categoryPath of categories) {
       const categoryFullPath = path.resolve(repoRoot, categoryPath);
@@ -227,13 +266,14 @@ function fixCategorySync(changedFiles) {
 
       const indexEntries = getIndexFromCategory(categoryFrontmatter);
       const isRuleInIndex = indexEntries.some(
-        (entry) => getRulePathFromFile(entry) === rulePath
+        (entry) => normalizePath(entry) === rulePath
       );
 
       if (!isRuleInIndex) {
         try {
           appendRuleToCategoryFile(categoryPath, rulePath);
           fixed.push({ action: "added", rulePath, categoryPath });
+          categoryFilesToValidate.add(normalizePath(categoryPath));
         } catch (e) {
           errors.push(String(e.message || e));
         }
@@ -243,11 +283,11 @@ function fixCategorySync(changedFiles) {
     // Remove stale index entries:
     // If any category index references this rule but the rule no longer lists that category, remove it.
     const desiredCategorySet = new Set(
-      categories.map((c) => getRulePathFromFile(c))
+      categories.map((c) => normalizePath(c))
     );
 
     for (const catFile of allCategoryFiles) {
-      const normalizedCat = getRulePathFromFile(catFile);
+      const normalizedCat = normalizePath(catFile);
 
       // Only remove from categories that are NOT currently referenced by the rule
       if (desiredCategorySet.has(normalizedCat)) continue;
@@ -257,19 +297,38 @@ function fixCategorySync(changedFiles) {
 
       const indexEntries = getIndexFromCategory(catFrontmatter);
       const hasRule = indexEntries.some(
-        (entry) => getRulePathFromFile(entry) === rulePath
+        (entry) => normalizePath(entry) === rulePath
       );
 
       if (hasRule) {
         try {
           const didRemove = removeRuleFromCategoryFile(catFile, rulePath);
-          if (didRemove) fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+          if (didRemove) {
+            fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+            categoryFilesToValidate.add(catFile);
+          }
         } catch (e) {
           errors.push(String(e.message || e));
         }
       }
     }
+  }
 
+  // Remove missing rule references from relevant category files.
+  for (const categoryPath of categoryFilesToValidate) {
+    if (!fs.existsSync(path.resolve(repoRoot, categoryPath))) continue;
+
+    const { error, removedRulePaths } =
+      removeMissingRuleReferencesFromCategoryFile(categoryPath);
+
+    if (error) {
+      errors.push(error);
+      continue;
+    }
+
+    for (const rulePath of removedRulePaths) {
+      fixed.push({ action: "removed_missing", rulePath, categoryPath });
+    }
   }
 
   return { errors, fixed };
@@ -296,7 +355,11 @@ function main() {
   if (fixed.length > 0) {
     console.log("Auto-fixed category index entries:");
     for (const { action, rulePath, categoryPath } of fixed) {
-      if (action === "removed") {
+      if (action === "removed_missing") {
+        console.log(
+          `  - Removed missing '${rulePath}' from '${categoryPath}'`
+        );
+      } else if (action === "removed") {
         console.log(`  - Removed '${rulePath}' from '${categoryPath}'`);
       } else {
         // default to "added"

@@ -1,0 +1,189 @@
+---
+type: rule
+title: Do you meet text styling requirements for accessibility?
+uri: accessible-text
+categories:
+  - category: categories/design/rules-to-better-accessibility.mdx
+authors:
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum/'
+  - title: Griffen Edge
+    url: 'https://www.ssw.com.au/people/griffen-edge'
+related:
+  - rule: public/uploads/rules/wcag-compliance/rule.mdx
+redirects: []
+guid: 4c69f511-d6b3-490e-8a2f-1e545c1afac0
+seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 Visual Presentation guidelines, including line length, spacing, alignment, and text resizing.'
+created: 2026-03-16T00:00:00.000Z
+createdBy: AlexBlum-SSW
+createdByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-03-16T06:45:36.743Z
+lastUpdatedBy: Griffen Edge
+lastUpdatedByEmail: GriffenEdge@ssw.com.au
+archivedreason: null
+---
+
+Poorly formatted text can make otherwise great content difficult to read. Long lines, tight spacing, and justified text often create barriers for people with cognitive disabilities, dyslexia, or low vision. Even users without disabilities may struggle with dense blocks of text that are visually hard to scan.
+
+Following the **[WCAG 2.1 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)** recommendations ensures that text remains readable and adaptable to user preferences.
+
+<endIntro />
+
+## 1. Limit line length
+
+Long lines of text make it harder for readers to track where the next line begins. This is particularly challenging for users with dyslexia or cognitive impairments.
+
+WCAG recommends:
+
+* **Maximum 80 characters per line**
+* **Maximum 40 characters for CJK languages (Chinese, Japanese, Korean)**
+
+<imageEmbed alt="A bad example of line length and justification" size="large" showBorder={true} figurePrefix="bad" figure="An article with full-width line length (~139 characters)" src="/uploads/rules/accessible-text/line-length_bad.png" />
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="The same article with a line length of 80 characters " src="/uploads/rules/accessible-text/line-length_good.png" />
+
+### How does this look in code?
+
+A common way to implement this is by setting the `max-width` of text containers.
+
+```css
+/* The div width is set in ch in the stylesheet: */
+
+#main_content {
+  max-width: 80ch;
+}
+
+
+/* And the text block would be placed inside the div in the content. */
+
+<div id="main_content"> 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing ...</p>
+</div>
+```
+
+**Figure: ✅ Good example - Limiting line length improves readability and reduces eye strain**
+
+***
+
+## 2. Avoid justified text
+
+Fully justified text aligns content on both the left and right edges, which can create **irregular spacing between words**. This uneven spacing makes reading more difficult, especially for users with dyslexia.
+
+<imageEmbed alt="A bad example of text justification" size="medium" showBorder={true} figurePrefix="bad" figure="Blog content with justified text creates irregular spacing between words" src="/uploads/rules/accessible-text/text-justification_bad.png" />
+
+<imageEmbed alt="A good example of text justification" size="medium" showBorder={true} figurePrefix="good" figure="The same content with left-aligned text keeps spacing predicatable" src="/uploads/rules/accessible-text/text-justification_good.png" />
+
+### How does this look in code?
+
+Align blocks of text either left or right by setting the CSS `text-align` property.
+
+```css
+/* In the style sheet, define the class: */
+
+p.left {
+  text-align: left;
+}
+
+
+/* In the content call up the class. */
+
+<p class="left"> Lorem ipsum dolor sit …</p>
+```
+
+**Figure: ✅ Good example - Left-aligned text provides consistent spacing between words**
+
+***
+
+## 3. Provide sufficient line and paragraph spacing
+
+Crowded text blocks are harder to read. Increasing spacing between lines and paragraphs improves readability and helps users track their place in the text.
+
+WCAG recommends:
+
+* **Line spacing at least 1.5× within paragraphs**
+* **Paragraph spacing at least 1.5× the line spacing**
+
+<imageEmbed alt="A bad example of line height" size="medium" showBorder={true} figurePrefix="bad" figure="Don't use standard line height" src="/uploads/rules/accessible-text/line-height_bad.png" />
+
+<imageEmbed alt="A good example of line height" size="medium" showBorder={true} figurePrefix="good" figure="Set line height at approximately 150% of font size" src="/uploads/rules/accessible-text/line-height_good.png" />
+
+### How does this look in code?
+
+Help users track lines of text more easily by setting the `line-height` between 1.5 to 2.
+
+```css
+/* In the style sheet set the characteristics of the element. */
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1.5lh;
+}
+
+/* In the content the paragraphs will now have increased line spacing 
+   and clear spacing between paragraphs throughout the document. */
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
+```
+
+**Figure: ✅ Good example - Adequate spacing improves readability and content scanning**
+
+***
+
+## 4. Allow text resizing up to 200%
+
+Users should be able to increase text size up to 200% without assistive technology and without losing content or functionality.
+
+When text is enlarged:
+
+* Content should not overlap
+* Layout should not break
+* Users should not need to scroll horizontally to read a line of text in a full-screen window
+
+<imageEmbed alt="A bad example of text resizing" size="medium" showBorder={true} figurePrefix="bad" figure="When text is resized to 200%, the layout breaks and users must scroll horizontally to read the content" src="/uploads/rules/accessible-text/text-resize_bad.png" />
+
+<imageEmbed alt="A good example of text resizing" size="medium" showBorder={true} figurePrefix="good" figure="Text can be resized up to 200% without breaking the layout or requiring horizontal scrolling" src="/uploads/rules/accessible-text/text-resize_good.png" />
+
+### How does this look in code?
+
+A responsive layout allows text to scale to 200% while keeping content readable and fully accessible.
+
+```css
+/* Font size uses relative units so text can scale when users zoom */
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Limit the width of text containers to prevent long line lengths
+   and add padding so content has breathing room at larger zoom levels */
+
+.text-container {
+  max-width: 80ch;
+  padding: 1rem;
+}
+```
+
+**Figure: ✅ Good example - Using relative units allows text to scale properly when users zoom**
+
+***
+
+## So why does this matter?
+
+Improving text presentation benefits many users, including:
+
+* People with **dyslexia**
+* Users with **cognitive disabilities**
+* People with **low vision**
+* Anyone reading large amounts of text
+
+Better visual presentation also improves usability for everyone by making content easier to scan and digest.
+
+### References
+
+* [WCAG 2.1 – Understanding Success Criterion 1.4.8 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)

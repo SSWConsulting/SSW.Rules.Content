@@ -1,0 +1,61 @@
+---
+authors:
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+created: 2026-04-17T09:48:01+10:00
+guid: c0b71d44-b9d4-48b7-8785-de4338ff8380
+related:
+- rule: public/uploads/rules/workflow-naming-scheme/rule.mdx
+- rule: public/uploads/rules/have-a-continuous-build-server/rule.mdx
+seoDescription: Test GitHub Actions workflows locally with act to speed up feedback, reduce unnecessary hosted runner usage, and catch workflow issues earlier.
+title: GitHub Actions - Do you test workflows locally with act?
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+type: rule
+uri: test-github-actions-workflows-locally-with-act
+---
+
+Pushing small GitHub Actions changes just to see whether a workflow works is
+slow, noisy, and burns hosted runner minutes unnecessarily.
+
+[`act`](https://github.com/nektos/act) solves a lot of that pain by running
+your GitHub Action workflows locally. It shortens the feedback loop when you
+are iterating on workflow logic, shell steps, environment variables, or basic
+job wiring.
+
+<endIntro />
+
+<imageEmbed
+  alt="GitHub Actions run history showing several small failed workflow iterations"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Bad example - Using hosted runners as your first feedback loop"
+  src="/uploads/rules/test-github-actions-workflows-locally-with-act/github-actions-small-failed-iterations.png"
+/>
+
+<imageEmbed
+  alt="Local terminal run of act validating the workflow before pushing"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Use act to tighten the workflow feedback loop"
+  src="/uploads/rules/test-github-actions-workflows-locally-with-act/act-local-run.png"
+/>
+
+## Why `act` is useful
+
+- **Faster iteration** - Catch broken paths, missing environment variables, and
+  shell mistakes without waiting on GitHub
+- **Cheaper experimentation** - Avoid burning hosted runner minutes for every
+  small workflow tweak
+- **Less noisy history** - Reduce the stream of tiny "fix workflow" commits
+  made purely to test YAML changes
+
+`act` gets you closer to your final workflow much earlier, but it is still not
+identical to running on GitHub's hosted runners. Some workflows behave
+differently depending on the runner image, available tools, service containers,
+or platform-specific behaviour.
+
+That means `act` should improve your inner loop, not replace your real CI run.
+You can read more about act via the [`act` documentation](https://nektosact.com/).

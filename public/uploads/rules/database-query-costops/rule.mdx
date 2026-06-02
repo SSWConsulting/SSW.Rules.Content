@@ -1,0 +1,208 @@
+---
+title: Multiple Databases - Do you know how to optimize database $ costs by query?
+uri: database-query-costops
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+  - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Andrew Waltos
+    url: 'https://www.ssw.com.au/people/andrew-waltos'
+related:
+  - rule: public/uploads/rules/reduce-azure-costs/rule.mdx
+  - rule: public/uploads/rules/azure-budgets/rule.mdx
+  - rule: public/uploads/rules/sqlperf-verify-indexes-used/rule.mdx
+  - rule: public/uploads/rules/identify-sql-performance-azure/rule.mdx
+guid: d8a93e67-210e-45aa-819e-b551aa345b8c
+seoDescription: |
+  Learn how to optimize Azure SQL and SQL Server costs by identifying expensive queries, prioritizing high-ROI fixes, and using FinOps tools to calculate potential savings.
+created: 2026-03-04T12:53:10.672Z
+createdBy: Andrew Waltos
+createdByEmail: AndrewWaltos@ssw.com.au
+lastUpdated: 2026-04-16T21:18:18.598Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+---
+
+You open your Azure bill and see a large monthly spend on Azure SQL or SQL Server, but no clear explanation of **why**. There are dozens (or hundreds) of databases, and you’re unsure which application, query, or piece of code is driving the cost. Without visibility at the query level, optimization becomes guesswork
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=k7O_rv-G9b8" description="Do you know how to optimize database costs by query? | Adam Cogan | SSW Rules (4 min)" />
+
+## Get visibility into query-level costs
+
+When managing cloud databases, especially in Azure, cost is directly tied to resource consumption:
+
+* CPU time
+* IO usage
+* Execution frequency
+* Query duration
+
+Instead of only looking at server-level metrics, use a FinOps-focused tool that shows:
+
+* Cost per database
+* Cost per query/statement
+* Top 10 most expensive statements
+* Percentage of total spend by query
+
+Tools like [Fortified’s WISdom](https://fortified.com/fortified-wisdom/) allow you to drill into query-level spending and identify which SQL statements are responsible for the biggest share of your bill.
+
+<boxEmbed
+  body={<>
+    The top 10 statements might represent 30% or more of total database cost. That’s where you start.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Step 1: Focus on “best bang for buck” queries
+
+Not every expensive query should be optimized first. Prioritize based on:
+
+* High hourly cost (e.g., $4/hour for a single query)
+* High CPU consumption
+* High execution count
+* High percentage of total environment cost
+
+Click into the query details and inspect:
+
+* The SQL statement being executed
+* The application sending it
+* Execution metrics (CPU, reads, duration)
+
+Once identified, locate the source in your codebase and assess optimization options.
+
+### Step 2: Optimize the query
+
+Common optimizations include:
+
+* Adding the correct index
+* Rewriting inefficient joins
+* Reducing unnecessary columns
+* Analyze execution plans
+* Eliminating redundant executions
+
+A single well-placed index can dramatically reduce CPU and execution time.
+
+It’s not uncommon to achieve performance improvements of 80–90% for poorly optimized queries.
+
+<boxEmbed
+  body={<>
+    Check out our [Rules to better SQL Databases - Performance](https://www.ssw.com.au/rules/rules-to-better-sql-databases-performance)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Step 3: Calculate and communicate ROI
+
+The most powerful part of query-level cost analysis is demonstrating **real financial impact**.
+
+Use ROI planning features in FinOps tools to:
+
+1. Estimate expected performance improvements
+2. Model reduced CPU or execution counts
+3. Calculate projected savings
+
+For example:
+
+* Performance gain: 89%
+* Estimated savings: $500/year from a single query change
+
+Now you can clearly communicate value:
+
+> “If I spend time adding this index and optimizing this query, we can save $500 per year.”
+
+This turns performance tuning into measurable business value, not just technical improvement.
+
+### Step 4: Include query cost review in your process
+
+To consistently control database costs:
+
+* Review top costly queries monthly
+* Include query cost analysis in performance testing
+* Track cost impact after deployments
+* Align DB optimization with FinOps practices
+
+Database optimization is no longer just about speed, it’s about **cloud cost efficiency**.
+
+## Tools to help optimize database costs by query
+
+### WISdom by Fortified (⭐️ recommended)
+
+[WISdom](https://fortified.com/fortified-wisdom/) is a FinOps platform purpose-built for database cost optimization. It gives you query-level cost visibility across your SQL Server and Azure SQL environments, linking individual queries directly to dollar amounts.
+
+Key features:
+
+* **Cost per query** - See exactly how much each SQL statement costs in real-time
+* **Top cost-driving statements** - Identify the queries responsible for the biggest share of your bill
+* **ROI planning** - Model expected savings before committing to optimization work
+* **Total Cost of Code analysis** - Link queries back to the application code driving them
+* **Pre-production cost detection** - Identify expensive code before it hits production
+
+### Azure Query Performance Insight
+
+[Azure Query Performance Insight](https://learn.microsoft.com/en-us/azure/azure-sql/database/query-performance-insight-use) is a free, built-in tool in the Azure Portal for Azure SQL Database. It visualizes your top resource-consuming queries using data from Query Store, which is enabled by default on all Azure SQL databases.
+
+Key features:
+
+* **Top resource-consuming queries** - Identify the queries using the most CPU, with the longest duration, or the highest execution count
+* **DTU consumption breakdown** - See how individual queries contribute to your overall DTU usage
+* **Historical analysis** - View query performance trends over the past 24 hours, week, or month
+* **Performance recommendations** - Get automatic tuning suggestions from Azure Database Advisor
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Query Performance Insight is free and already available in your Azure Portal. It shows resource consumption but does not translate that into dollar amounts - you will need to calculate the cost impact yourself.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Datadog Database Monitoring
+
+[Datadog Database Monitoring](https://www.datadoghq.com/product/database-monitoring/) provides dedicated database-level observability with query-level metrics, explain plans, and cost analysis. It supports SQL Server, Azure SQL, PostgreSQL, MySQL, and more.
+
+Key features:
+
+* **Query metrics and samples** - View historical performance for normalized queries, filter by infrastructure tags, and get alerted on anomalies
+* **Explain plan cost analysis** - Automatically collects explain plans and lets you sort queries by execution cost to find expensive operations
+* **Query cost comparison** - Filter, sort, and compare explain plan costs across multiple queries to identify the most expensive ones
+* **Stored procedure insights** - View which stored procedures contribute the most to database load and drill into their component queries
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Datadog's "cost" refers to query execution cost from explain plans (CPU, IO, reads), not dollar amounts. It helps you find the most resource-heavy queries, but does not map directly to your cloud bill like WISdom does.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Comparison
+
+|                               | WISdom (⭐️ recommended) | Azure Query Performance Insight | Datadog DBM |
+| ----------------------------- | ----------------------- | ------------------------------- | ----------- |
+| Cost per query ($)            | ✅                       | ❌                               | ❌           |
+| ROI planning                  | ✅                       | ❌                               | ❌           |
+| Query performance monitoring  | ✅                       | ✅                               | ✅           |
+| Explain plan cost analysis    | ❌                       | ❌                               | ✅           |
+| Native Azure integration      | ❌                       | ✅                               | ❌           |
+| Pre-production cost detection | ✅                       | ❌                               | ❌           |
+| Cost                          | $                       | Included in Azure SQL           | $$          |
+
+## Summary
+
+If you’re running Azure SQL or SQL Server in the cloud and your costs are growing:
+
+* Drill down to the **query level**
+* Identify the **top cost-driving statements**
+* Optimize the highest ROI candidates
+* Quantify and report savings
+
+When you optimize by query you gain control over both performance and spend.

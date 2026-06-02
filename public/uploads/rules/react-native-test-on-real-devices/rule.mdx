@@ -1,0 +1,62 @@
+---
+authors:
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+created: 2026-04-17T11:21:53+10:00
+guid: 012315b6-0cf3-444e-8dcf-e20b4cc8762f
+related:
+- rule: public/uploads/rules/dev-mobile-device-policy/rule.mdx
+- rule: public/uploads/rules/react-native-platform-specific-code/rule.mdx
+seoDescription: Test React Native apps on real devices as well as simulators to catch layout, keyboard, permission, performance, and platform-specific issues before release.
+title: React Native - Do you test on real devices as well as simulators?
+categories:
+  - category: categories/software-engineering/rules-to-better-apps-mobile.mdx
+type: rule
+uri: react-native-test-on-real-devices
+---
+
+React Native makes it easy to move quickly in a simulator or emulator. That is
+great for day-to-day development, but it is also how teams end up shipping bugs
+that only appear on real hardware.
+
+Touch handling, keyboard behaviour, safe areas, permissions, notifications, and
+performance often feel "close enough" in a simulator right up until they are
+not.
+
+<endIntro />
+
+Use simulators and emulators for fast iteration, then confirm important flows
+on real devices before you call the work done.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The login screen looks fine in the simulator. On a real device, the keyboard covers the submit button and the push permission flow behaves differently.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Stopping at simulator testing"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Use the simulator to build the screen quickly. Then test the same login flow on a real iPhone and Android device, including keyboard behaviour, permissions, and perceived performance.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Use simulators for speed and real devices for confidence"
+/>
+
+Real devices are especially important when testing:
+
+* camera, microphone, biometrics, or file access
+* deep links and push notifications
+* keyboard avoidance and safe-area layout
+* gestures, scrolling, and animations
+* slower devices or older OS versions
+
+If you support both iOS and Android, test on both. If you support older OS
+versions or a wider device range, check the flows that are most likely to break
+there too.
+
+If your team does not already have access to physical devices, see [Do you have
+a device policy for your mobile dev teams?](/dev-mobile-device-policy)

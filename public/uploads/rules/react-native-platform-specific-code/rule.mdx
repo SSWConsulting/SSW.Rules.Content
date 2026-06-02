@@ -1,0 +1,130 @@
+---
+authors:
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+created: 2026-04-17T11:14:11+10:00
+guid: 4d3a8cd5-0e60-4bcd-8941-0eacd4ef30d6
+related:
+- rule: public/uploads/rules/maui-cross-platform/rule.mdx
+seoDescription: Organize React Native platform-specific code cleanly by keeping small differences inline, larger ones in platform-specific files, and gating newer APIs by OS version when required.
+title: React Native - Do you organize platform-specific code correctly?
+categories:
+  - category: categories/software-engineering/rules-to-better-apps-mobile.mdx
+type: rule
+uri: react-native-platform-specific-code
+---
+
+One of the easiest ways to make a React Native codebase messy is to scatter
+`Platform.OS === ...` checks through every component. It starts small, then
+turns into components full of branching for iOS, Android, and older OS
+versions.
+
+Keep most of your code shared and only branch where the platform or OS version
+genuinely requires it.
+
+<endIntro />
+
+```tsx
+import {Platform, Text, View} from 'react-native';
+
+export function ProfileCard() {
+  return (
+    <View
+      style={{
+        paddingTop: Platform.OS === 'ios' ? 16 : 12,
+        paddingBottom: Platform.OS === 'ios' ? 20 : 16,
+        borderRadius: Platform.OS === 'ios' ? 14 : 6,
+      }}>
+      <Text>
+        {Platform.OS === 'ios'
+          ? 'Open Settings'
+          : 'Open preferences'}
+      </Text>
+    </View>
+  );
+}
+```
+
+**❌ Figure: Bad example - Platform differences scattered through the component**
+
+For small differences, use [`Platform.select()` or
+`Platform.OS`](https://reactnative.dev/docs/platform) close to the code it
+affects.
+
+```tsx
+import {Platform, StyleSheet, Text, View} from 'react-native';
+
+const styles = StyleSheet.create({
+  card: {
+    paddingTop: Platform.select({ios: 16, android: 12, default: 12}),
+    paddingBottom: Platform.select({ios: 20, android: 16, default: 16}),
+    borderRadius: Platform.select({ios: 14, android: 6, default: 6}),
+  },
+});
+
+export function ProfileCard() {
+  const settingsLabel = Platform.OS === 'ios' ? 'Open Settings' : 'Open preferences';
+
+  return (
+    <View style={styles.card}>
+      <Text>{settingsLabel}</Text>
+    </View>
+  );
+}
+```
+
+**✅ Figure: Good example - Small platform differences kept local and readable**
+
+When the platform-specific code becomes larger, split it into
+[platform-specific
+files](https://reactnative.dev/docs/platform-specific-code#platform-specific-extensions)
+instead of adding more conditionals.
+
+```tsx
+// BigButton.ios.tsx
+export function BigButton() {
+  return <IOSButton style="filled" />;
+}
+
+// BigButton.android.tsx
+export function BigButton() {
+  return <AndroidButton variant="contained" />;
+}
+
+// usage
+import {BigButton} from './BigButton';
+```
+
+**✅ Figure: Good example - Larger platform differences split into platform-specific files**
+
+If the branching starts to dominate the component, that is usually the signal
+to move the difference into a helper, wrapper, or platform-specific file.
+
+## OS Version Gating
+
+OS version gating belongs in the same bucket. If an API or behaviour only
+exists on newer iOS or Android versions, keep that check isolated as well
+using [`Platform.Version`](https://reactnative.dev/docs/platform#version).
+
+```tsx
+import {Platform} from 'react-native';
+
+const supportsNewBehavior =
+  Platform.OS === 'ios'
+    ? Number(Platform.Version) >= 17
+    : Platform.OS === 'android'
+      ? Platform.Version >= 34
+      : false;
+
+if (supportsNewBehavior) {
+  enableNewBehavior();
+}
+```
+
+**✅ Figure: Good example - Gate newer APIs in one place instead of scattering version checks**
+
+This is especially useful when dealing with deprecated APIs, newer platform
+features, or behaviour changes between OS releases.
+
+For more details, see the React Native docs on [platform-specific
+code](https://reactnative.dev/docs/platform-specific-code).

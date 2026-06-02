@@ -53,7 +53,22 @@ Anecdotally, developers have noticed that CLI tools often produce higher-quality
 
 ## Popular AI CLI tools
 
-### 1. GitHub Copilot CLI
+### 1. ⭐ Claude Code (Recommended)
+
+Claude Code is a fan favourite at SSW.
+
+**✅ Pros:**
+
+* **⭐️ Custom agents** - Claude Code's custom agents are the most configurable we've used. While they provide all the functionality of other offerings (e.g. personas, allowed tools/paths, etc.), Claude's custom agents also provide dedicated pre and post-use hooks. This is excellent to help with deterministic tool execution, allowing you to guarantee that certain scripts or commands will be run before and after the agent
+* ✅ Integration - Claude has some interesting integrations that aren't available with other tools OOTB, such as Slack integration
+
+**❌ Cons:**
+
+* **Flexibility** - Similar to GitHub Copilot, Claude Code locks you in to one provider (but there are ways around this, like [https://claudish.com/](https://claudish.com/))
+
+**Learn more:** [Claude Code Docs](https://code.claude.com/docs/en/overview)
+
+### 2. GitHub Copilot CLI
 
 GitHub's official command-line tool for AI-assisted development. Unsurprisingly, Copilot CLI provides first-class integration with GitHub.
 
@@ -82,7 +97,7 @@ GitHub's official command-line tool for AI-assisted development. Unsurprisingly,
   style="tips"
 />
 
-### 2. OpenCode
+### 3. OpenCode
 
 OpenCode is an **open-source** agent that gives you the most options when it comes to models, providers, and extensibility. While it does provide some free models
 OOTB, you are expected to BYO model subscription.
@@ -100,21 +115,6 @@ OOTB, you are expected to BYO model subscription.
 * **Integration** - Being an independent open-source agent, OOTB integration may not be as robust (or available as quickly) as proprietary tools like Copilot CLI.
 
 **Learn more:** [OpenCode GitHub Repository](https://github.com/anomalyco/opencode)
-
-### 3. Claude Code (via Anthropic CLI)
-
-Claude Code is another fan favourite at SSW.
-
-**✅ Pros:**
-
-* **⭐️ Custom agents** - Claude Code's custom agents are the most configurable we've used. While they provide all the functionality of other offerings (e.g. personas, allowed tools/paths, etc.), Claude's custom agents also provide dedicated pre and post-use hooks. This is excellent to help with deterministic tool execution, allowing you to guarantee that certain scripts or commands will be run before and after the agent
-* ✅ Integration - Claude has some interesting integrations that aren't available with other tools OOTB, such as Slack integration
-
-**❌ Cons:**
-
-* **Flexibility** - Similar to GitHub Copilot, Claude Code locks you in to one provider (but there are ways around this, like [https://claudish.com/](https://claudish.com/))
-
-**Learn more:** [Claude Code Docs](https://code.claude.com/docs/en/overview)
 
 ### 4. Other notable tools
 

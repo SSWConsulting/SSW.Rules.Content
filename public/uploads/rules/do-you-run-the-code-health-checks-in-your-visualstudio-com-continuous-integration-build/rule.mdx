@@ -54,7 +54,7 @@ The resulting build should look like this:
 />
 
 
-==Ensure utilisation of TeamBuild2015 or higher. (No support for XAML builds)==
+<mark style="background-color: #FEF08A">Ensure utilisation of TeamBuild2015 or higher. (No support for XAML builds)</mark>
 Edit the build definition on &lt;CompanyName&gt;.visualstudio.com, and add the following build tasks.
 If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 
@@ -105,7 +105,7 @@ TsLint
  **Arguments:** --force &lt;Solution Directory&gt;/\*\*/\*.ts{,x}
 ```
 
-If your build is being hosted, then the config file must be reloaded every time. ==If your build is running on premises==, the config file will attempt to load over the existing one and break the build.
+If your build is being hosted, then the config file must be reloaded every time. <mark style="background-color: #FEF08A">If your build is running on premises</mark>, the config file will attempt to load over the existing one and break the build.
 
 If this is the case, just add a step to delete your config file after the scan is complete.
 

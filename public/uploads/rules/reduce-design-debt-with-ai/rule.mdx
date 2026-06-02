@@ -1,0 +1,124 @@
+---
+title: 'Do you use AI to reduce design debt? '
+uri: reduce-design-debt-with-ai
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: 'Jeoffrey Fischer '
+    url: 'https://www.ssw.com.au/people/jeoffrey-fischer/'
+related:
+  - rule: public/uploads/rules/design-debt/rule.mdx
+  - rule: public/uploads/rules/ai-with-design-system/rule.mdx
+  - rule: public/uploads/rules/do-you-know-the-common-design-principles-part-1/rule.mdx
+  - rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
+  - rule: public/uploads/rules/software-for-ux-design/rule.mdx
+  - rule: public/uploads/rules/ai-for-ux/rule.mdx
+guid: f405266e-0485-4abc-ada7-096f96f94f68
+seoDescription: 'Using AI in design and development can look very different depending on which tools you use. Some tools are better suited for prototypes, where others can be better for building entire new sites based off of an existing design system.'
+created: 2026-05-07T11:32:12.183Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-05-11T05:30:20.272Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+---
+
+AI design tools have made it extremely fast to generate new user interfaces, but most teams are now facing a different problem: they are accumulating design debt faster than they can notice or fix it.
+
+Design debt builds up when small inconsistencies are shipped over time: uneven spacing, mismatched buttons, weak text hierarchy, misaligned icons, inconsistent component states, and awkward responsive layouts.
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=Ln11hm7jieM" description="Video: Impeccable Makes Claude Build Sites That Don't Look Like AI (7 min)" />
+
+## The problem with design debt
+
+Design debt is easy to miss because it usually does not break the app.
+
+A button that is 2px too tall still works. A card with slightly different padding still renders. A heading with the wrong font weight still displays. But when these small inconsistencies stack up across a product, the UI starts to feel messy and unprofessional.
+
+Developers are often focused on functionality, performance, and correctness. That is important, but visible UI changes also need a polish pass before they are shipped.
+
+## ⚠️ The danger of AI design slop
+
+Most AI design workflows are focused on creation.
+
+You ask the tool to generate a homepage, dashboard, landing page, or component, and it gives you a strong first pass. This is useful, but it does **not** solve the whole problem.
+
+It can look impressive at a glance and still have design debt hiding in the details:
+
+* Your new page doesn't match the product/brand identity
+* Spacing between components is inconsistent
+* Tablet and mobile views feel cramped
+
+This is where teams need to shift their thinking:
+
+> AI should not only be used to create new UI. It should also be used to review, refine, and maintain existing UI.
+
+## Using AI as a Junior Designer in your pocket
+
+Using AI in design and development can look very different depending on which tools you use. Some tools are better suited for [prototypes](/rules/ai-for-prototype-development), where others can be better for building [entire new sites ](/rules/ai-with-design-system)based off of an existing design system.
+
+When it comes to reducing design debt, the goal is different. You are not asking AI to invent a new design direction. You are asking it to act like a second set of design eyes on the UI you already have.
+
+### [Impeccable](https://impeccable.style)
+
+Impeccable is great for reviewing implemented UI and finding small polish issues like spacing, alignment, hierarchy, inconsistent components and interaction states.
+
+It is accessible as a skill that can be consumed by most providers and through most harnessed.
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="The components of UI/UX" src="/uploads/rules/reduce-design-debt-with-ai/steps-of-ui-ux.png" />
+
+With over 20 commands, Impeccable aims to serve at all stages of design:
+
+* **Create** - Build something new with context
+* **Evaluate** - Review what you already have
+* **Refine** - Improve one dimension at a time (i.e. layout, colors, typeset)
+* **Simplify** - Strip complexity
+* **Harden** - Make production ready, performance, polish
+* **System** - Setup and tooling, design system work, extraction, organization
+
+Impeccable also ships a [live mode](https://impeccable.style/live-mode/), letting users pick any element in the browser. Drop a comment or a stroke and in return get three production-quality variants swap in via your framework's HMR. Accept the one you want and it writes back to source.
+
+### [Figma AI](https://www.figma.com/ai/)
+
+Useful earlier in the design process for checking consistency across components, typography, spacing and states inside Figma files before design reaches development.
+
+Best used when:
+
+* You are reviewing Figma files before build
+* Components have drifted from the design system
+* A flow has inconsistencies between screens
+
+### [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs)
+
+Best suited for creating new concepts, prototypes, product flows, mockups, slides, or big-picture design directions quickly. Anthropic describes it as a tool for creating designs and interactive prototypes through conversation, with use cases such as product wireframes, mockups, design explorations, and realistic prototypes.
+
+Claude design is able to work with users to create a design system. It also has the capability to ingest a design system directly from Figma or from a codebase in order to reduce design debt.
+
+Best used when:
+
+* You need to explore multiple design directions quickly
+* You want a first-pass homepage, landing page, or flow
+* You are trying to communicate a product idea visually
+* You want a prototype before implementation
+* You need to turn rough product thinking into something shareable
+
+## Scenarios
+
+We have all these awesome tools, but in what cases should we pick them?
+
+|                                                      | Impeccable  | Figma AI    | Claude Design |
+| ---------------------------------------------------- | ----------- | ----------- | ------------- |
+| Reviewing already built UI                           | 🥇 **Best** | Good        | Limited       |
+| Build a working prototype for your homepage          | Good        | Limited     | 🥇 **Best**   |
+| Review a design system that has evolved over time    | Good        | 🥇 **Best** | N/A           |
+| Generate a new user flow for a cool new feature      | Limited     | Good        | 🥇 **Best**   |
+| Create a `DESIGN.md` spec for your project           | 🥇 **Best** | Good        | N/A           |
+| Check if implemented UI matches the design system    | 🥇 **Best** | Limited     | Limited       |
+| Apply polish or refinements directly in the codebase | 🥇 **Best** | N/A         | Limited       |

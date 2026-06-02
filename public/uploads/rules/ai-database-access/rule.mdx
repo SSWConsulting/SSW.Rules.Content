@@ -1,0 +1,151 @@
+---
+type: rule
+title: Do you give your AI agents access to your database?
+uri: ai-database-access
+guid: 4b7bceda-3220-4dc8-a6c4-dbfded15c790
+seoDescription: Giving AI coding assistants safe access to your local database lets them investigate bugs, verify data, and write accurate queries — instead of guessing at schemas and asking you to paste results.
+created: 2026-04-23T00:00:00.000Z
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
+  - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+---
+
+When an AI agent is helping you debug a feature, the most valuable question is usually *"what does the data actually look like?"* — and the answer lives in your database. Without access to it, the agent has to guess at schema, hallucinate column names, or keep asking you to paste in query results.
+
+Give your AI agent safe access to your database and the debugging experience transforms. Instead of guessing, it runs a discovery query, checks a row count, inspects a specific record, and forms a real hypothesis — the same way a senior developer would.
+
+<endIntro />
+
+## Why it matters
+
+An AI agent investigating a bug without DB access is like someone debugging over the phone — they can describe what they *think* is happening, but they can't look. With direct DB access, the agent can:
+
+* **Confirm the schema** - use real table and column names instead of guessing
+* **Verify data state** - "is the row actually missing, or is my filter wrong?"
+* **Write accurate queries** - generated SQL matches your real schema, not a hallucinated one
+* **Find root causes faster** - spot null columns, orphaned rows, wrong foreign keys
+* **Generate realistic test data** - modelled on records that actually exist
+
+<boxEmbed
+  body={<>
+    **User:** The orders page is blank for customer ALFKI. Can you check what's going on?
+
+    **Agent:** I can't see your database, but possibilities are:
+    1. The `CustomerId` is wrong
+    2. The Order rows are soft-deleted
+    3. Permissions are blocking the read
+
+    Can you run `SELECT * FROM Orders WHERE CustomerId = 'ALFKI'` and paste the result?
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The agent can't investigate on its own; you ferry data back and forth"
+/>
+
+<boxEmbed
+  body={<>
+    **User:** The orders page is blank for customer ALFKI. Can you check what's going on?
+
+    **Agent:** *(queries `Sales.Orders` directly)*
+
+    Found it — 6 orders exist for ALFKI but all have `IsDeleted = 1`. The page filter correctly excludes soft-deleted rows, but the archive view should include them. Investigating `OrdersController` now.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent queries the DB directly, diagnoses, and moves to the fix"
+/>
+
+## Safety first
+
+Obviously, don't give the AI access to a production database.
+
+## Two ways to wire it up
+
+### 1. MCP server (quick, vendor-provided)
+
+A Model Context Protocol server exposes a curated set of DB tools (`query`, `list-tables`, `describe-table`) that the agent can call directly. Good for standard databases where you want minimal setup.
+
+Examples:
+
+* [Microsoft MSSQL MCP](https://github.com/microsoft/mssql-mcp)
+* [Postgres MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)
+* [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite)
+
+See [Do you give your AI agents context with MCP servers and skills?](/mcp-servers-for-context).
+
+### 2. CLI + A skill file (project-specific, high context)
+
+The AI development tool will probably attempt to do this anyway. A skill file guides it with project-specific context and saves it getting caught on the gotchas.
+
+For a real project with multiple databases, Aspire, containerized SQL, or non-standard conventions, a skill file usually beats a generic MCP server. A skill teaches the agent **how to connect, which database owns which module, and which queries to start with** — context a vanilla MCP server doesn't know.
+
+<boxEmbed
+  body={<>
+    Example skill for a multi-database Northwind project (`.claude/skills/northwind-db-query/SKILL.md`):
+
+    ```markdown
+    ---
+    name: northwind-db-query
+    description: Connect to the local Northwind SQL Server, identify the correct
+      database and schema for a module, and run ad hoc SQL queries safely.
+    ---
+
+    ## Northwind Local Database Layout
+    - SQL Server runs in Docker on localhost:1433
+    - Main databases: Sales, Customers, Inventory, Identity
+    - Orders.*     → Sales
+    - Invoicing.*  → Sales
+    - Customers.*  → Customers
+    - Products.*   → Inventory
+
+    ## Safety Rules
+    - Default to read-only queries
+    - Do not modify data unless the user explicitly asks
+    - Never run destructive SQL on shared or production environments
+
+    ## Discovery queries
+    List databases → list tables → inspect columns → row counts
+
+    ## Known Pitfalls
+    - Host sqlcmd breaks on `!` in passwords — pipe queries instead of -Q
+    - SmartEnum columns store GUIDs, not ints — check *Enum.cs files
+    - Schemas match module names (Orders.Order, not dbo.Orders)
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - A skill teaches the agent your DB layout, connection details, safety rules, and starter queries"
+  style="greybox"
+/>
+
+A good DB skill should cover:
+
+* **How to connect** - host, port, container name, whether to use `docker exec` or host `sqlcmd`
+* **Where the data lives** - which database owns which module or schema
+* **Known pitfalls** - shell escaping, enum encoding, schema naming conventions
+* **Safety rules** - read-only default, no prod, no destructive ops
+
+See [Do you use skills to standardize your AI workflows?](/ai-agents-with-skills) for more on writing skills.
+
+## When to use each
+
+* **Simple single-database project** → MCP server
+* **Local Docker / Aspire environment with many DBs** → skill file
+* **Team-wide consistency needed** → commit the skill to the repo
+* **Personal helpers across projects** → personal MCP server or `~/.claude/skills/`
+* **Investigating production (rare!)** → read-only MCP with audited connection string + explicit approval
+
+Nothing stops you from combining both — an MCP server for the raw connection plus a skill that layers project-specific knowledge on top.
+
+<boxEmbed
+  body={<>
+    **Tip:** Once the agent has DB access, ask it to start every investigation with a discovery query — row counts and a sample row — before forming any hypothesis. It prevents confident-sounding answers based on a hallucinated schema.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>

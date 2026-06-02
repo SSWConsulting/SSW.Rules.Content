@@ -1,20 +1,22 @@
 ---
-seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
 type: rule
 title: Do you use Managed Identities in your Azure projects?
+uri: use-managed-identity-in-azure
 categories:
   - category: categories/software-engineering/rules-to-better-azure.mdx
-uri: use-managed-identity-in-azure
 authors:
   - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh
-created: 2025-11-27T05:54:17.000Z
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/system-assigned-vs-user-assigned-managed-identities/rule.mdx
 guid: 9a4f3b2d-8c3e-4f6f-9a5b-2d7b6c4e1f90
-lastUpdated: 2025-11-30T22:14:01.000Z
-lastUpdatedBy: Ben Neoh [SSW]
-lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
-createdBy: Ben Neoh [SSW]
+seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
+created: 2025-11-27T05:54:17.000Z
+createdBy: 'Ben Neoh [SSW]'
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
+lastUpdated: 2026-04-08T01:15:45.714Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
 ---
 
@@ -22,34 +24,84 @@ Teams often unknowingly create security risks by storing secrets in configuratio
 
 <endIntro />
 
+## How to use Managed Identity in your project
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=aZyKhiHgiGg" description="Video: Azure Managed Identities | Ben Neoh | SSW Rules (5 min)" />
+
+***
+
 ## What is a Managed Identity?
 
 A **Managed Identity** is an identity that Azure creates and manages for your resource so it can authenticate securely **without storing any credentials**.
 
 Azure automatically handles:
 
-* password and secret rotation
-* identity lifecycle
-* secure authentication to Azure services
+* Password and secret rotation
+* Identity lifecycle
+* Secure authentication to Azure services
 
 This means **no more stored secrets**, ever.
 
----
+📚 Learn more  -  [Microsoft official documentation](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)
+
+***
 
 ## Why Managed Identity is always better
 
 Using secrets (even when placed in Key Vault as static keys) creates manual work and security gaps. Managed Identity removes that entire problem space.
 
-Benefits include:
+### ✅ Benefits
 
-* ✅ Eliminates all secrets and keys
-* ✅ More secure – nothing to leak
-* ✅ Supported by all Azure SDKs
-* ✅ Automatically rotates
-* ✅ Free
+* Eliminates all secrets and keys
+* More secure – nothing to leak
+* Integrates with Azure RBAC
+* Supported by all Azure SDKs
+* Automatically rotates
+* Free
 
----
+***
 
-## How to use Managed Identity in your project
+## RBAC – fine-grained, auditable access control
 
-🎥 **Video coming soon:** *How to use Managed Identity in your Azure project*
+Managed Identities work hand-in-hand with **Azure Role-Based Access Control (RBAC)**. Instead of sharing a connection string or secret, you assign a specific role to the identity on the target resource (e.g. `Key Vault Secrets User`, `Storage Blob Data Reader`).
+
+This means:
+
+* **Least privilege** – each identity gets only the permissions it needs
+* **Auditability** – access grants are visible in Azure IAM, not buried in config files or DevOps variables
+* **Easy revocation** – remove a role assignment and access is gone instantly, no key rotation needed
+
+***
+
+## System-assigned vs user-assigned Managed Identity
+
+Use **system-assigned** identities for **simple 1:1 scenarios**, where one Azure resource has its own identity. Use **user-assigned** identities when the same identity needs to be shared, reused, or managed **separately across multiple resources**.
+
+More details: [Do you know when to use system-assigned vs user-assigned managed identities?](https://www.ssw.com.au/rules/system-assigned-vs-user-assigned-managed-identities)
+
+***
+
+## Code example – Connect to Azure App Configuration using Managed Identity
+
+Example from the video:
+
+```csharp
+var appConfigEndpoint =
+    builder.Configuration["AppConfig:Endpoint"]
+    ?? throw new InvalidOperationException("App Configuration endpoint not set");
+
+var clientId =
+    builder.Configuration["ManagedIdentity:ClientId"]
+    ?? throw new InvalidOperationException("Managed Identity client ID not set");
+
+builder.Configuration.AddAzureAppConfiguration(options =>
+{
+    options.Connect(
+        new Uri(appConfigEndpoint),
+        new DefaultAzureCredential(
+            new DefaultAzureCredentialOptions
+            {
+                ManagedIdentityClientId = clientId
+            }));
+});
+```

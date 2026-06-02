@@ -1,29 +1,138 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://www.ssw.com.au/people/ulysses-maclaren
-created: 2020-09-01 17:07:23+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 1f56ce6c-519f-42ea-ac12-e60ecd2ab1bf
-isArchived: false
-lastUpdated: 2020-09-01 17:10:43+00:00
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects:
-- do-you-cc-the-client-whenever-possible
-seoDescription: CC the client from the beginning to ensure transparency and accuracy
-  in communication.
+type: rule
 title: Do you CC the client whenever possible?
+uri: cc-the-client-whenever-possible
 categories:
   - category: categories/client-engagement/rules-to-better-software-consultants-dealing-with-clients.mdx
-type: rule
-uri: cc-the-client-whenever-possible
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Ulysses Maclaren
+    url: 'https://www.ssw.com.au/people/ulysses-maclaren'
+  - title: Michael Qiu
+    url: 'https://www.ssw.com.au/people/michael-qiu'
+  - title: Michael Smedly
+    url: 'https://www.ssw.com.au/people/michael-smedley'
+redirects:
+  - do-you-cc-the-client-whenever-possible
+guid: 1f56ce6c-519f-42ea-ac12-e60ecd2ab1bf
+seoDescription: CC the client from the beginning to ensure transparency and accuracy in communication.
+created: 2020-09-01T17:07:23.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-12T06:40:33.353Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 CC the client from the beginning (unless it’s obvious internal communication). This allows the client to see progress towards speaking with the right person and also gives them an opportunity to correct any details we might have got wrong.
 
 <endIntro />
+
+## When you should and should not CC the client
+
+By default, you should always CC the client on any communication that involves things which touches their work. However, there are exceptions to the rule, and situations where you should not CC the client. The two primary cases to take into consideration are:
+
+1. Communication regarding internal business or related to HR
+2. Bookings - this involves a judgement call/discussion with the specific client
+
+<boxEmbed
+  body={<>
+    Clients can have their own preferences on the level of communication they want to receive, and those preferences always take priority over static rules
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+### Internal business or HR related communication
+
+This refers to anything that is not directly to do with the client's work - things such as HR, leave, internal resourcing, finance, admin, or internal technical decisions that don't affect what gets delivered.
+
+<emailEmbed
+  from=""
+  to="Dave"
+  cc="Bob Northwind"
+  bcc=""
+  subject="Covering for Friday"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave,
+    
+    I am not booked in to be working for Northwind on Friday, so I will be working on internal projects. Just letting you know that I've put in a leave request for this Friday.
+    
+    1. Can you please cover running the daily scrum meeting.
+  </>}
+  figurePrefix="bad"
+  figure="Internal HR matter, but the client is CC'd even though it's unrelated to the client's project work"
+/>
+
+<emailEmbed
+  from=""
+  to="Dave"
+  cc=""
+  bcc=""
+  subject="Covering for Friday"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
+    
+    Just letting you know that I've put in a leave request for this Friday.
+    
+    1. Can you please cover running the daily scrum meeting
+  </>}
+  figurePrefix="good"
+  figure="The same email, keep internal"
+/>
+
+### Emails for client bookings
+
+<boxEmbed
+  body={<>
+    Although knowing when to make judgement calls is good, when it doubt and uncertain, it's always best to have a quick discussion with the client and ask them for their preferences - some clients want every single booking visible, whilst others just want the project done.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+Bookings are the one case that needs some judgement calls to be made or a discussion with the particular client. Usually, you want the client to know who is booked for them on a particular project, so you want to CC them by default in any bookings made.
+
+However, there are exceptions to these rules, for example, clients with **multiple people being booked**. CC'ing them on every booking email can flood their inbox and clutter their calendar of bookings for the day. Typically, a safe assumption to make is that on:
+
+* **Singular or occasional bookings** - CC the client
+* **Situations where a client has multiple SSW people booked across the day or week** - lean toward leaving them off the routine booking emails
+
+<emailEmbed
+  from=""
+  to="Dave"
+  cc="Bob Northwind"
+  bcc=""
+  subject="Northwind - Booking confirmation for next Wednesday"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
+    
+    You have been booked for Northwind for 2 days on &#123;&#123; DD/MM/YYYY &#125;&#125; for a Spec Review.
+  </>}
+  figurePrefix="good"
+  figure="Short term booking, so the client is CC'd"
+/>
+
+<emailEmbed
+  from=""
+  to="Dave"
+  cc=""
+  bcc=""
+  subject="Northwind - Booking confirmation for next Wednesday"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
+    
+    You are booked in with &#123;&#123; DEVELOPER 1 &#125;&#125;, &#123;&#123; DEVELOPER 2&#125;&#125;, … for Northwind to work on this project from &#123;&#123; DD/MM/YYYY &#125;&#125; to &#123;&#123; DD/MM/YYYY &#125;&#125;.
+  </>}
+  figurePrefix="good"
+  figure="Northwind has multiple SSW people booked for an extended period of time, so the client is left off the routine booking email to avoid cluttering their calendar"
+/>

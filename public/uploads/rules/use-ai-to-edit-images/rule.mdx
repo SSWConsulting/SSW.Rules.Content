@@ -16,15 +16,12 @@ related:
   - rule: public/uploads/rules/the-best-ai-image-generators/rule.mdx
   - rule: public/uploads/rules/when-to-use-ai-generated-images/rule.mdx
 guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
-seoDescription: >-
-  Learn when and how to use AI to edit images—what it’s good for, common
-  pitfalls, ethical labeling, and battle-tested prompt patterns that preserve
-  identity and make precise, localized changes
+seoDescription: 'Learn when and how to use AI to edit images—what it’s good for, common pitfalls, ethical labeling, and battle-tested prompt patterns that preserve identity and make precise, localized changes'
 created: 2025-09-04T04:35:12.000Z
 createdBy: Louis Roa
 createdByEmail: 149936952+louisroa8189@users.noreply.github.com
-lastUpdated: 2026-01-02T05:15:46.405Z
-lastUpdatedBy: 'Alex Blum [SSW]'
+lastUpdated: 2026-03-17T06:09:59.452Z
+lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
 ---
@@ -59,11 +56,11 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="bad" figure="Text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. The Terminator only has 3 fingers..." src="/uploads/rules/use-ai-to-edit-images/comewith-me-messed-up.png" />
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="bad" figure="Text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. The Terminator has 6 fingers..." src="/uploads/rules/use-ai-to-edit-images/tti-example_bad.png" />
 
 ## Editing-first image models (what’s changed)
 
-Editing-first models such as **[Nano Banana Pro](https://gemini.google/overview/image-generation/), [FLUX.1 Kontext](https://bfl.ai/models/flux-kontext) and [GPT Image 1.5](https://openai.com/index/new-chatgpt-images-is-here/)** let you take an existing image and make specific changes using simple, plain-language instructions. They keep the main subject and overall scene intact, follow instructions closely, and allow you to refine changes step by step without reducing image quality. 
+Editing-first models such as **[Nano Banana Pro](https://gemini.google/overview/image-generation/), [FLUX.1 Kontext](https://bfl.ai/models/flux-kontext) and [GPT Image 1.5](https://openai.com/index/new-chatgpt-images-is-here/)** let you take an existing image and make specific changes using simple, plain-language instructions. They keep the main subject and overall scene intact, follow instructions closely, and allow you to refine changes step by step without reducing image quality.
 
 In practice, this feels similar to using Photoshop, but by describing what you want in words instead of using tools.
 
@@ -79,7 +76,7 @@ In practice, this feels similar to using Photoshop, but by describing what you w
 
 ## Nano Banana Pro (Google)
 
-[Nano Banana Pro](https://gemini.google/overview/image-generation/) is Google’s high-end image model built on Gemini Pro, with a strong focus on **realism**, **sharpness**, and **precision**. It excels at editing real photos, rendering clean and accurate text inside images, and producing **visually** **consistent** results. 
+[Nano Banana Pro](https://gemini.google/overview/image-generation/) is Google’s high-end image model built on Gemini Pro, with a strong focus on **realism**, **sharpness**, and **precision**. It excels at editing real photos, rendering clean and accurate text inside images, and producing **visually** **consistent** results.
 
 Based on user feedback, it's more trusted for serious visual work, describing it as polished and reliable rather than fast or playful. It supports higher-resolution outputs and feels designed for situations where the image needs to look finished, not exploratory.
 
@@ -93,13 +90,13 @@ Based on user feedback, it's more trusted for serious visual work, describing it
 * Print-ready, high-resolution output
 * Final, client-ready visuals
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="You can even ask it to change the perspective of an image" src="/uploads/rules/use-ai-to-edit-images/gzsnzhtwoaapceg.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="You can even ask it to change the perspective of an image" src="/uploads/rules/use-ai-to-edit-images/nbp-example_good.png" />
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="You can isolate a character from an image as seen in this example from Google" src="/uploads/rules/use-ai-to-edit-images/gzwtouzbyaamxak.jpg" />
 
 ## GPT Image 1.5 (OpenAI)
 
-[GPT Image 1.5](https://openai.com/index/new-chatgpt-images-is-here/) is OpenAI’s latest image generation and editing model, built directly into ChatGPT and available via API. It prioritises **speed**, **lower cost**, and strong **instruction following**, making it well suited to **iteration-heavy** workflows. It works like a chat-based design assistant that remembers previous instructions, supports targeted edits, and handles text in images more reliably than older OpenAI models. 
+[GPT Image 1.5](https://openai.com/index/new-chatgpt-images-is-here/) is OpenAI’s latest image generation and editing model, built directly into ChatGPT and available via API. It prioritises **speed**, **lower cost**, and strong **instruction following**, making it well suited to **iteration-heavy** workflows. It works like a chat-based design assistant that remembers previous instructions, supports targeted edits, and handles text in images more reliably than older OpenAI models.
 
 User feedback frames it as a major upgrade that’s fast and flexible for creative work, concepts, and experimentation, though still less consistent than Nano Banana Pro for high-realism photo edits.
 

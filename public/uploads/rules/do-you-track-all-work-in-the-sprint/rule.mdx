@@ -1,0 +1,93 @@
+---
+type: rule
+title: Do you track all work in the sprint?
+uri: do-you-track-all-work-in-the-sprint
+categories:
+  - category: categories/project-delivery/rules-to-better-scrum.mdx
+  - category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
+authors:
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Anton Polkanov
+    url: 'https://ssw.com.au/people/anton-polkanov'
+related:
+  - {}
+guid: e368d6ca-e05f-4b28-bfcf-f7b5f1198698
+seoDescription: Consultants should track all sprint work against PBIs or housekeeping tasks so clients have full visibility over what they are paying for.
+created: 2026-03-06T05:36:55.566Z
+createdBy: Daniel Mackay
+createdByEmail: DanielMackay@ssw.com.au
+lastUpdated: 2026-03-06T06:29:34.236Z
+lastUpdatedBy: Daniel Mackay
+lastUpdatedByEmail: DanielMackay@ssw.com.au
+---
+
+As a consultant, transparency with the client is essential — they are paying for the work and need full visibility over what is being delivered. The Scrum Board is the source of truth for sprint work, but it only serves that purpose if **everything** is tracked there.
+
+<endIntro />
+
+The client approves work in two ways:
+
+* **Sprint Planning** — PBIs are selected from the backlog and committed to for the sprint
+* **Mid-sprint approval** — the client explicitly approves additional work after the sprint has started
+
+Any work done outside of these approvals is work the client hasn't signed off on, which can erode trust and cause billing disputes.
+
+## The three categories of sprint work
+
+All work during a sprint should fall into one of these categories:
+
+**1. Work attached to a PBI**
+The most common case. A PR implements a Product Backlog Item and is linked directly to it.
+
+**2. Work attached to a sub-task of a PBI**
+Large PBIs are often broken into smaller tasks. Work should link to the sub-task, which in turn traces back to the parent PBI.
+
+**3. Housekeeping chores**
+Small maintenance tasks that arise during the sprint, such as:
+
+* Fixing a broken build
+* Updating a package
+* Small tweaks to `AGENTS.md` or other configuration files
+
+These are typically small enough that they don't need an estimate or prior approval. In GitHub, they can be managed solely via a PR linked directly to the Scrum Board, giving the client visibility without the overhead of creating a PBI.
+
+## Good and bad examples
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A developer fixes a broken CI pipeline and updates two NuGet packages. They open PRs from their local branch with no connection to the Scrum Board. The work is invisible to the client.
+  </>}
+  figurePrefix="bad"
+  figure="Housekeeping PRs with no board visibility"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A developer fixes a broken CI pipeline and updates two NuGet packages. They open PRs and link them directly to the Scrum Board. No PBI or estimate is needed — the client can see the housekeeping work being done.
+  </>}
+  figurePrefix="good"
+  figure="Housekeeping PRs linked to the Scrum Board — visible to the client without a dedicated PBI"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A developer builds a new feature over two days. They open a PR but don't link it to the relevant PBI. The PBI stays "In Progress" on the board while the actual implementation is hidden in an unlinked PR.
+  </>}
+  figurePrefix="bad"
+  figure="Feature work completed via an unlinked PR — PBI progress not reflected on the board"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A developer implements a feature. Their branch is created from the PBI in GitHub, the PR is linked to the PBI, and when the PR is merged the PBI automatically moves to "Done". The client sees real-time progress on the Scrum Board.
+  </>}
+  figurePrefix="good"
+  figure="Feature work linked to its PBI — board reflects actual sprint progress"
+/>
+
+See [Do you link commits, branches, and PRs to a PBI?](/do-you-link-your-commits-to-a-pbi) for the mechanics of how to link work items in GitHub and Azure DevOps.

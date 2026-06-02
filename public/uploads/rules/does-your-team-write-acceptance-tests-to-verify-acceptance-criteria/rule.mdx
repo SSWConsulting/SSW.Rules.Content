@@ -1,26 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Stephensen
-  url: https://www.ssw.com.au/people/adam-stephensen
-created: 2012-11-08 19:01:49+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: e8e0f82e-bee8-42a5-a880-729986e56ecd
-isArchived: false
-lastUpdated: 2021-03-16 22:10:41.488000+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-redirects: []
-related:
-- rule: public/uploads/rules/acceptance-criteria/rule.mdx
-seoDescription: Write acceptance tests to verify acceptance criteria and ensure user
-  stories meet requirements.
+type: rule
 title: Do you write Acceptance Tests to verify Acceptance Criteria?
+uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 categories:
   - category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.mdx
-type: rule
-uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
+authors:
+  - title: Adam Stephensen
+    url: 'https://www.ssw.com.au/people/adam-stephensen'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
+related:
+  - rule: public/uploads/rules/acceptance-criteria/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+redirects: []
+guid: e8e0f82e-bee8-42a5-a880-729986e56ecd
+seoDescription: Write acceptance tests to verify acceptance criteria and ensure user stories meet requirements.
+created: 2012-11-08T19:01:49.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-20T07:12:49.167Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
+isArchived: false
+archivedreason: null
 ---
 
 **Acceptance Tests** check that the Acceptance Criteria on a User Story are met.
@@ -30,6 +32,17 @@ Test cases that define these acceptance tests should be written during story dev
 A combination of human and automated tests is likely to be required to complete the acceptance tests for a User Story.
 
 <endIntro />
+
+<boxEmbed
+  body={<>
+    AI + Playwright MCP can help run acceptance tests by acting like a real user, exploring the user flow, and comparing the behaviour against the Acceptance Criteria.
+    
+    Read more: [Do you know how to use Playwright with your AI Agents?](https://www.ssw.com.au/rules/playwright-with-ai)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 Suppose we have a user story to implement searching on customers with the following acceptance criteria on the User Story:
 
@@ -42,51 +55,16 @@ Suppose we have a user story to implement searching on customers with the follow
 
 The PBI for this User Story in Azure DevOps would look like this, with the Acceptance Criteria clearly defined and the Acceptance Test cases linked to the PBI:
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Acceptance test cases on a PBI (in Azure DevOps)"
-  src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests.jpg"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Acceptance test cases on a PBI (in Azure DevOps)" src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests.jpg" />
 
 **Note:** The acceptance test cases need to be linked to the PBI with the link type **Tested By**.
 
 The Acceptance Test cases can be seen in Azure Test Plans for the appropriate Sprint:
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="The tester sees the acceptance test cases in Azure Test Plans"
-  src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-test-plan.jpg"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="The tester sees the acceptance test cases in Azure Test Plans" src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-test-plan.jpg" />
 
 The tester then runs each Acceptance Test case:
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Open the Test Runner using the &#x22;Run&#x22; menu item from test case(s)" src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-run.jpg" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure='Open the Test Runner using the "Run" menu item from test case(s)'
-  src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-run.jpg"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)"
-  src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-run-steps.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)" src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-run-steps.jpg" />

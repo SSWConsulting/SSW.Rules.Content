@@ -85,6 +85,8 @@ This reduces the context pollution inside of the main conversation window, with 
     **Use Case:** You have a workflow which has 5 independent steps. Sub-agents allow for independent tasks to be parallelized in order to complete the task faster.
     
     Spawning parallel workers will be more efficient than an individual worker.
+    
+    **Example:** During a large refactor, one subagent scans backend APIs, another reviews frontend components, and a third checks tests. Each works independently and returns summaries to the main agent for consolidation.
   </>}
   figurePrefix="none"
   figure=""

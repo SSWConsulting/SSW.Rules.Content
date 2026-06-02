@@ -3,6 +3,8 @@ name: Check-Category-Sync
 on:
   pull_request:
     branches: [ main ]
+    paths-ignore:
+      - ".github/**"
 
   workflow_dispatch:
 
@@ -51,4 +53,35 @@ jobs:
           else
             git commit -m "XS ◾ Auto-update category index list to include new rule"
             git push
+          fi
+
+      # Step 6: For fork PRs, save PR number + affected files as an artifact so the
+      # companion workflow_run workflow can post a comment with a write token safely.
+      - name: Upload category sync artifact for fork PR
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        run: |
+          diff=$(git diff --name-only categories/)
+          if [ -z "$diff" ]; then
+            echo "No category sync changes needed."
+            exit 0
+          fi
+          mkdir -p /tmp/category-sync-artifact
+          echo "${{ github.event.pull_request.number }}" > /tmp/category-sync-artifact/pr-number.txt
+          echo "$diff" > /tmp/category-sync-artifact/files.txt
+
+      - name: Upload artifact
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: category-sync-needed
+          path: /tmp/category-sync-artifact/
+          retention-days: 1
+          if-no-files-found: ignore
+
+      - name: Fail if category sync needed on fork PR
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        run: |
+          if [ -f /tmp/category-sync-artifact/files.txt ]; then
+            echo "Category sync required. See the PR comment posted by the companion workflow."
+            exit 1
           fi
