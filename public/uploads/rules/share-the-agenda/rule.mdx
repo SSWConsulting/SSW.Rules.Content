@@ -1,76 +1,86 @@
 ---
-archivedreason: null
-authors:
-- title: Ulysses Maclaren
-  url: https://www.ssw.com.au/people/ulysses-maclaren
-created: 2021-07-29 17:52:55.541000+00:00
-createdBy: Tiago Araújo [SSW]
-createdByEmail: tiagov8@gmail.com
-guid: 37a80c11-43e4-4065-9ec3-1c3604b2640a
-isArchived: false
-lastUpdated: 2021-07-29 17:59:10.843000+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-seoDescription: Before scheduling Scrum meetings, create a meeting agenda and share
-  it with attendees to ensure everyone stays on track.
-title: Before - Do you share the agenda?
+type: rule
+title: Do you create and share an agenda before each meeting?
+uri: share-the-agenda
 categories:
   - category: categories/communication/rules-to-better-meetings.mdx
-type: rule
-uri: share-the-agenda
+authors:
+  - title: Ulysses Maclaren
+    url: 'https://www.ssw.com.au/people/ulysses-maclaren'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/great-meetings/rule.mdx
+  - rule: public/uploads/rules/stick-to-the-agenda-and-complete-the-meetings-goal/rule.mdx
+  - rule: public/uploads/rules/make-sure-the-meeting-needs-to-exist/rule.mdx
+guid: 37a80c11-43e4-4065-9ec3-1c3604b2640a
+seoDescription: 'Before scheduling Scrum meetings, create a meeting agenda and share it with attendees to ensure everyone stays on track.'
+created: 2021-07-29T17:52:55.541Z
+createdBy: 'Tiago Araújo [SSW]'
+createdByEmail: tiagov8@gmail.com
+lastUpdated: 2026-06-04T22:47:08.361Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose or agenda. Calls or video meetings, without any clear agenda or purpose, are where your joy and energy go to die.
+Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose. Calls or video meetings, without any clear agenda or purpose, are where your joy and energy go to die.
 
-Here’s how to ensure your meetings are effective and worthwhile. Before a meeting, to give it the best chance of success, you should make sure you have done the following:
+To make your meetings effective, **create an agenda** beforehand so attendees can prepare, stay on track, and know whether each item is for information, discussion, or decision.
 
 <endIntro />
 
-- Create a meeting agenda prior to the meeting
+## What makes a good agenda?
 
-  - Give each attendee a copy (usually in the appointment)
-  - If the discussion strays from the topic, everyone should use the agenda to help keep it on track
-  - Possibly [mark items on the agenda as “For information,” “For discussion,” or “For decision”](/stick-to-the-agenda-and-complete-the-meetings-goal)
-  - Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now
+* **Create it before** sending the meeting appointment
+* **Make it focused**. A good agenda should make it clear [why the meeting exists](https://www.ssw.com.au/rules/make-sure-the-meeting-needs-to-exist) and what needs to be covered
+* **Include the agenda in the calendar appointment** so every attendee has a copy before the meeting
+* **Include any documents or links** attendees need to review in advance. For example, if feedback is needed on a large document, give people the link to the document with a warning that their feedback on the document will be taken ahead of time
+* **Mark agenda items** as "For information", "For discussion", or “For decision” where helpful. This helps everyone [stick to the meeting's goal](https://www.ssw.com.au/rules/stick-to-the-agenda-and-complete-the-meetings-goal)
+* **Avoid adding unnecessary items**
 
-- Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
-- The meeting starts the minute the invite is sent, not when it physically starts
-  That means read the agenda and prepare. For example if feedback is needed on a large document, give people the link to the document + give advanced warning that their feedback on the document will be taken ahead of time
-- Make sure all the presentation setup is working
-  E.g. Have '[AV Setup meetings](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)'.
-- For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
+<boxEmbed
+  body={<>
+    **Tip:** Treat the meeting as starting when the invite is sent, not when the call begins.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 <emailEmbed
   from=""
-  to=""
+  to="Bob Northwind"
   cc=""
   bcc=""
-  subject="&#123;&#123; PROJECT NAME &#125;&#125; – Sprint Review, Retro and Planning"
+  subject="Northwind – New Software Development Project"
   shouldDisplayBody={true}
   body={<>
-    ## Hi Team 👋
-
-This is a calendar appointment to hold the following 3 Scrum meetings:
-
-**Sprint Review Meeting**
-We will go through the user stories that have been completed and demonstrate them.
-See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at-a-sprint-review-meeting)
-
-**Sprint Retrospective Meeting**
-Sprint closed and new Sprint starts.
-We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.
-See rule [What happens at a Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)?
-
-**Sprint Planning Meeting**
-We go through the backlog (aka to-do list), get more information, estimate and then prioritize.
-We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.
-See the rule [What happens at a Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)?
-
-Regards,
-&#123;&#123; SCRUM MASTER &#125;&#125;
-
-&lt;This email is as per [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings)&gt;
+    ## Hi Bob,
+    
+    Here is the agenda for our appointment:
+    
+    1. Understand the project goals
+    2. Review the current software needs
+    3. Discuss technical requirements and possible solutions
+    4. Identify timelines, priorities, and next steps
   </>}
   figurePrefix="good"
-  figure="Appointment template for Scrum meetings"
+  figure="A clear agenda helps everyone arrive prepared, stay focused, and leave with agreed next steps"
 />
+
+<boxEmbed
+  body={<>
+    See a more complex agenda example on [Do you schedule the 3 Scrum meetings?](https://www.ssw.com.au/rules/meeting-do-you-know-what-to-prepare-for-each-meeting)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## Use the agenda during the meeting
+
+Once the agenda is set and everyone knows what to expect, use it during the meeting to **keep the discussion on track**. If the conversation starts to drift, bring it back to the agreed topics so the meeting stays focused, respects everyone’s time, and ends with clear outcomes.
