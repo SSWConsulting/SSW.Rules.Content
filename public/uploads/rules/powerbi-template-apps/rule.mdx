@@ -16,7 +16,7 @@ seoDescription: Power BI template apps simplify data sharing and collaboration b
 created: 2024-02-22T13:42:55.753Z
 createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: sandhukirat23@gmail.com
-lastUpdated: 2026-06-05T07:38:01.401Z
+lastUpdated: 2026-06-05T08:01:12.246Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 archivedreason: null
@@ -49,8 +49,9 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 * Power BI Pro license
 * Power BI Desktop (Windows only)
   * Mac users - either borrow Windows machine, or run Windows VM on **[VMware Fusion](https://www.youtube.com/watch?v=LWXO4DhQRL0)** (free - recommended ⭐) or Parallels
-* Sample database with dummy data with **Read** access
-  * Keep it small - rule of thumb: **.pbix** under \~10 MB
+* Cloud Hosted sample database with dummy data and **read** access
+  * Keep it small
+* Power BI report (.pbix) file to connect sample data with
 
 #### Step 1: Create the Workspace
 
@@ -76,6 +77,18 @@ In [app.powerbi.com](https://app.powerbi.com):
   figurePrefix="none"
   figure=""
 />
+
+#### Step 2: Prepare the Report with Sample Data 
+
+On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (Windows only):
+
+1. Open your `.pbix` file
+2. Home | Transform Data. This will open up a new window
+3. New Window Opened | Home | Manage Parameters 
+   (Here you can add new parameters, setup their default value or edit existing parameter names and value)
+4. You would need your SQL Server URL and Database Name and default them to your sample database
+
+dffdf
 
 1. **Add Reports in Workspace**
    Add reports in your workspace as you normally would by creating or uploading reports.
