@@ -5,13 +5,16 @@ title: Do you have a design system?
 uri: design-system
 categories:
   - category: categories/design/rules-to-better-designers.mdx
+  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
 authors:
-  - title: Betty Bondoc
-    url: 'https://www.ssw.com.au/people/betty-bondoc'
   - title: Jayden Alchin
     url: 'https://www.ssw.com.au/people/jayden-alchin'
   - title: Tiago Araujo
     url: 'https://www.ssw.com.au/people/tiago-araujo'
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum'
+  - title: Betty Bondoc
+    url: 'https://www.ssw.com.au/people/betty-bondoc'
 related:
   - rule: public/uploads/rules/design-debt/rule.mdx
   - rule: public/uploads/rules/software-for-ux-design/rule.mdx
@@ -21,9 +24,9 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-10T12:31:26.381Z
-lastUpdatedBy: Jeoffrey Fischer
-lastUpdatedByEmail: JeoffreyFischer@ssw.com.au
+lastUpdated: 2026-06-10T22:05:14.260Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 When every button looks a little different, spacing feels off, and handoffs between designer and dev are painful, you know something's wrong.
@@ -54,9 +57,7 @@ A solid design system should include:
 
 ## Why it works
 
-* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency.
-  * Changes are made in one place which scales across projects
-    \*The design system can span across multiple projects, it is up to the implementer to decide
+* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place and can scale across multiple projects. The implementer decides which projects should adopt them
 * **Faster build time** – Shared components and patterns boost delivery speed
 * **Accessibility guidelines** – Standards like contrast, keyboard navigation, and screen-reader support come by default
 
@@ -69,20 +70,14 @@ A solid design system should include:
 
 ## Real-world examples
 
-* **[Atlassian Design System](https://atlassian.design/)**  \
-  Includes tokens, patterns, tone of voice, and code.
-* **[Google Material Design](https://m3.material.io/)**  \
-  Theming, deep docs, and ready-to-use code.
-* **[IBM Carbon](https://carbondesignsystem.com/)**  \
-  Enterprise-level, open source, and WCAG-compliant.
-* **[Shadcn](https://ui.shadcn.com/)**  \
-  Headless components + Tailwind, great for custom styling and modern UIs.
-* **[Shopify Polaris](https://polaris.shopify.com/)**  \
-  Design, content, and accessibility all-in-one.
-* **[Wise Design](https://wise.design/design-at-wise/get-started)**  \
-  Multi-brand theming, shared tokens, and flexible components.
+* **[Atlassian Design System](https://atlassian.design/)** - Includes tokens, patterns, tone of voice, and code
+* **[Google Material Design](https://m3.material.io/)** - Theming, deep docs, and ready-to-use code
+* **[IBM Carbon](https://carbondesignsystem.com/)** - Enterprise-level, open source, and WCAG-compliant
+* **[Shadcn](https://ui.shadcn.com/)** - Headless components + Tailwind, great for custom styling and modern UIs
+* **[Shopify Polaris](https://polaris.shopify.com/)** - Design, content, and accessibility all-in-one
+* **[Wise Design](https://wise.design/design-at-wise/get-started)** - Multi-brand theming, shared tokens, and flexible components
 
-## Design System maturity: From Library to Ecosystem
+## Design system maturity: From ‘Library’ to 'Ecosystem'
 
 Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product.
 
@@ -116,7 +111,7 @@ Since “design system” is often used loosely, this table helps clarify where 
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
 
 <boxEmbed
-  style="greybox"
+  style="tips"
   body={<>
     **Quick-start tip:** Kick off with a shared library (e.g. Figma, Sketch, Adobe XD) and key components to provide value, then expand.
   </>}
@@ -124,13 +119,8 @@ Since “design system” is often used loosely, this table helps clarify where 
   figure=""
 />
 
-<boxEmbed
-  body={<>
-    ### Learn more:
-    
-    <youtubeEmbed url="https://www.youtube.com/embed/YLo6g58vUm0?si=-5WJ7bSECzuabuUB" description="Video: Welcome to design systems - Lesson 1 : Introduction to design systems (15 min)" />
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="greybox"
-/>
+***
+
+## Learn more
+
+<youtubeEmbed url="https://www.youtube.com/embed/YLo6g58vUm0?si=-5WJ7bSECzuabuUB" description="Video: Welcome to design systems - Lesson 1 : Introduction to design systems (15 min)" />
