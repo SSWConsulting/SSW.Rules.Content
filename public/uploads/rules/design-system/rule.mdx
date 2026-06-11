@@ -24,7 +24,7 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-11T05:12:44.797Z
+lastUpdated: 2026-06-11T05:40:33.337Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -58,15 +58,17 @@ A design system is the shared source your team designs and builds from. Usually 
 * **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
 * **Governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
-People use "design system" to mean anything from a single Figma file to a full coded platform, so it helps to know which one you actually have:
+## It helps to know which one you have
 
-| Stage                       | Description                                                                                                                                    |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Design Library**       | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
-| **2. Documented System**    | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
-| **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
-| **4. Coded Components**     | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
-| **5. Scalable Ecosystem**   | Formal governance, versioning, a contribution model, changelogs, and multi-product usage. Often has its own site or portal.                    |
+People use "design system" to mean anything from a single design file to a full coded platform, so it helps to know which one you actually have:
+
+| Stage                                     | Description                                                                                                                                    |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Design Library**                     | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
+| **2. Documented System (e.g. SSW Rules)** | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
+| **3. Design–Dev Alignment**               | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
+| **4. Coded Components**                   | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
+| **5. Scalable Ecosystem**                 | Formal governance, versioning, a contribution model, changelogs, and multi-product usage. Often has its own site or portal.                    |
 
 <boxEmbed
   body={<>
@@ -77,11 +79,15 @@ People use "design system" to mean anything from a single Figma file to a full c
   style="tips"
 />
 
-## Why it works
+## Where AI raises the stakes - and where coded components matter most
 
-* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place and can scale across multiple projects. The implementer decides which projects should adopt them
-* **Faster build time** – Shared components and patterns boost delivery speed
-* **Accessibility guidelines** – Standards like contrast, keyboard navigation, and screen-reader support come by default
+Agentic workflows empower developers to cover more ground, producing a great volume of work at record speed. So without a system developers can actually build from, they will inevitably choose to build the UI from scratch, now that they're enabled to with the power of AI. It's now easier than ever to make a mess of things 10x faster. A coded design system changes what the agent has to work with. Instead of inventing components, it assembles the ones you have already designed, reviewed, and tested. We build ours in Storybook, which an agent can read through MCP (the protocol that lets it pull your real components into context). The agent still moves quickly. It just stays inside the boundaries you have already set. Building in code gives you a safety net for the same reason. Visual diffs run on every pull request, so a change that quietly shifts an unrelated component gets flagged before it merges, and you can run an accessibility audit across the whole library at once.
+
+## How to set up a design system
+
+You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there. 
+
+Start small in 7 steps:
 
 ## Real-world examples
 
