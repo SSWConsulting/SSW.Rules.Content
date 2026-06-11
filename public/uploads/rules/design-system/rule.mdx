@@ -24,7 +24,7 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-11T06:23:23.541Z
+lastUpdated: 2026-06-11T06:41:21.880Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -79,42 +79,39 @@ You usually feel the absence before you can name it. Common signs:
   style="tips"
 />
 
+## Real-world examples
+
+* ****[**SSW Design System**](https://design.ssw.com.au/) - Tokens, coded components, and usage rules built to design and build from
+* **[Atlassian Design System](https://atlassian.design/)** - Tokens, patterns, tone of voice, and code
+* **[Google Material Design](https://m3.material.io/)** - Theming, deep docs, and ready-to-use code
+* **[IBM Carbon](https://carbondesignsystem.com/)** - Enterprise-level, open source, and WCAG-compliant
+* **[Shadcn](https://ui.shadcn.com/)** - Headless components + Tailwind, great for custom styling and modern UIs
+* **[Shopify Polaris](https://polaris.shopify.com/)** - Design, content, and accessibility all in one
+* **[Wise Design](https://wise.design/design-at-wise/get-started)** - Multi-brand theming, shared tokens, and flexible components
+
 ## Why AI raises the stakes
 
 Agentic workflows let developers cover more ground at record speed. That cuts both ways. Without a system they can build from, developers (and their agents) will build UI from scratch, which makes it easier than ever to make a mess 10x faster.
 
 A coded design system changes what the agent has to work with. Instead of inventing components, it assembles ones you have already designed, reviewed, and tested. 
 
-<boxEmbed
-  body={<>
-    **Tip: **We built ours in Storybook, which our agents read through MCP. This is what pulls our real components into context. Check out our Design System: [https://design.ssw.com.au/](https://design.ssw.com.au/)
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-We build ours in Storybook, which an agent reads through MCP, the protocol that pulls your real components into context. The agent still moves fast. It just stays inside the boundaries you have already set.
+We built ours in Storybook [**https://design.ssw.com.au**](https://design.ssw.com.au/) which our agents read through MCP. This is what pulls our real components into context.
 
 ## How to set up a design system 
 
-You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there. A sensible order:
-
-Remember, you can start small - eventually you will cross the threshold from documentation into infrastructure. 
-
-Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
+You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there.
 
 1. **Audit what you have** - Look for visual and structural inconsistencies
-2. **Choose a direction **- Build a bespoke design system from the ground up - or use an open-source one and tweak it to match your brand.
-3. **Define your tokens **- Start with the colour, spacing, and type values unique to your brand. 
-4. **Build your first components** - Focus on core UI elements (i.e. header, footer, buttons, input fields)
-5. **Get the tokens into code** - Tools like [Style Dictionary](https://styledictionary.com/) can help push your tokens into code.
-6. **Move the components into code too** - Somewhere both developers and agents can pull from, like [Storybook](https://storybook.js.org/).
-7. **Document as you go** - Usage notes, examples, and versioning.
-8. **Set up ownership and checks** - Decide who maintains it, then add visual regression and accessibility audits so it stays honest.
+2. **Choose a direction **- Build a bespoke system from the ground up, or adopt an open-source one and tweak it to match your brand
+3. **Define your tokens **- Start with the color, spacing, and type values unique to your brand
+4. **Build your first components** - Focus on core UI elements: header, footer, buttons, input fields
+5. **Get the tokens into code** - Tools like **[Style Dictionary](https://styledictionary.com/)** can push your tokens into code
+6. **Move the components into code too** - Somewhere both developers and agents can pull from, like **[Storybook](https://storybook.js.org/)**
+7. **Document as you go** - Usage notes, examples, and versioning
+8. **Set up ownership and checks** - Decide who maintains it, then add visual regression and accessibility audits so it stays honest
 
 <boxEmbed
-  style="tips"
+  style="info"
   body={<>
     **Tip: **Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
   </>}
