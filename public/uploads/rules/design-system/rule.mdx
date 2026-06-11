@@ -24,7 +24,7 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-11T05:40:33.337Z
+lastUpdated: 2026-06-11T06:07:19.720Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -53,22 +53,22 @@ You usually feel the absence of a design system before you can name it. A few si
 
 A design system is the shared source your team designs and builds from. Usually containing the following:
 
-* **Tokens** – Small, reusable decisions underneath everything: colour, spacing, fonts, corner radius. Define them once and every component inherits them.
-* **Component library** – Buttons, inputs, modals, and patterns themselves, with the variants and the rules for using them. The version that actually pays off lives in code, not only in a design file.
-* **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
-* **Governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
+* **Tokens** - Small, reusable decisions underneath everything: colour, spacing, fonts, corner radius. Define them once and every component inherits them.
+* **Component library** - Buttons, inputs, modals, and patterns themselves, with the variants and the rules for using them. The version that actually pays off lives in code, not only in a design file.
+* **Documentation** - Guidelines for component usage, dos and don’ts, examples and demos
+* **Governance** - Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
-## It helps to know which one you have
+## Levels of design systems
 
 People use "design system" to mean anything from a single design file to a full coded platform, so it helps to know which one you actually have:
 
-| Stage                                     | Description                                                                                                                                    |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Design Library**                     | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
-| **2. Documented System (e.g. SSW Rules)** | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
-| **3. Design–Dev Alignment**               | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
-| **4. Coded Components**                   | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
-| **5. Scalable Ecosystem**                 | Formal governance, versioning, a contribution model, changelogs, and multi-product usage. Often has its own site or portal.                    |
+| Stage                                     | Description                                                                                                                                     |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Design Library**                     | A design file (e.g. Figma) with consistent styles and reusable components like buttons and inputs.                                              |
+| **2. Documented System (e.g. SSW Rules)** | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).               |
+| **3. Design–Dev Alignment**               | Design tokens are mapped to code, creating a shared language between design and engineering for colour, spacing, and other foundational styles. |
+| **4. Coded Components**                   | Components exist in code (e.g. Storybook) and match the Design Library.                                                                         |
+| **5. Scalable Ecosystem**                 | Formal governance, versioning, a contribution model, changelogs, and multi-product usage. Often has its own site or portal.                     |
 
 <boxEmbed
   body={<>
@@ -83,48 +83,27 @@ People use "design system" to mean anything from a single design file to a full 
 
 Agentic workflows empower developers to cover more ground, producing a great volume of work at record speed. So without a system developers can actually build from, they will inevitably choose to build the UI from scratch, now that they're enabled to with the power of AI. It's now easier than ever to make a mess of things 10x faster. A coded design system changes what the agent has to work with. Instead of inventing components, it assembles the ones you have already designed, reviewed, and tested. We build ours in Storybook, which an agent can read through MCP (the protocol that lets it pull your real components into context). The agent still moves quickly. It just stays inside the boundaries you have already set. Building in code gives you a safety net for the same reason. Visual diffs run on every pull request, so a change that quietly shifts an unrelated component gets flagged before it merges, and you can run an accessibility audit across the whole library at once.
 
-## How to set up a design system
+## How to set up a design system 
 
-You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there. 
+You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there. A sensible order:
 
-Start small in 7 steps:
+Remember, you can start small - eventually you will cross the threshold from documentation into infrastructure. 
 
-## Real-world examples
+Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
 
-* **[Atlassian Design System](https://atlassian.design/)** - Includes tokens, patterns, tone of voice, and code
-* **[Google Material Design](https://m3.material.io/)** - Theming, deep docs, and ready-to-use code
-* **[IBM Carbon](https://carbondesignsystem.com/)** - Enterprise-level, open source, and WCAG-compliant
-* **[Shadcn](https://ui.shadcn.com/)** - Headless components + Tailwind, great for custom styling and modern UIs
-* **[Shopify Polaris](https://polaris.shopify.com/)** - Design, content, and accessibility all-in-one
-* **[Wise Design](https://wise.design/design-at-wise/get-started)** - Multi-brand theming, shared tokens, and flexible components
-
-## Design system maturity: From ‘Library’ to 'Ecosystem'
-
-Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product.
-
-<boxEmbed
-  style="info"
-  body={<>
-    Most teams don't start with a full design system - they start small with just a few shared components and evolve over time.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next\:Start small in 7 steps
-
-1. **Audit your UI** – Look for visual and structural inconsistencies
-2. **Define tokens** – Start with color, spacing, and typography
-3. **Build your first components** – Focus on core UI elements (i.e. header, footer, buttons, input fields)
-4. **Integrate tokens** – Start with simple design tokens in your design tool, then explore code integration tools like [Style Dictionary](https://styledictionary.com/) as your system matures
-5. **Document as you go** – Add usage rules, visual examples, and versioning
-6. **Share internally** – Use demos and changelogs to get buy-in
-7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
+1. **Audit what you have** - Look for visual and structural inconsistencies
+2. **Choose a direction **- Build a bespoke design system from the ground up - or use an open-source one and tweak it to match your brand.
+3. **Define your tokens **- Start with the colour, spacing, and type values unique to your brand. 
+4. **Build your first components** - Focus on core UI elements (i.e. header, footer, buttons, input fields)
+5. **Get the tokens into code** - Tools like [Style Dictionary](https://styledictionary.com/) can help push your tokens into code.
+6. **Move the components into code too** - Somewhere both developers and agents can pull from, like [Storybook](https://storybook.js.org/).
+7. **Document as you go** - Usage notes, examples, and versioning.
+8. **Set up ownership and checks** - Decide who maintains it, then add visual regression and accessibility audits so it stays honest.
 
 <boxEmbed
   style="tips"
   body={<>
-    **Quick-start tip:** Kick off with a shared library (e.g. Figma, Sketch, Adobe XD) and key components to provide value, then expand.
+    **Tip: **Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
   </>}
   figurePrefix="none"
   figure=""
