@@ -24,14 +24,14 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-11T07:04:53.079Z
+lastUpdated: 2026-06-11T07:58:06.692Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
 
-When every screen looks a little different and design→dev handoffs turn into nitpicking sessions, you are missing a design system.
+When every screen looks a little different and design → dev handoffs turn into nitpicking sessions, you are missing a design system.
 
-**A design system bridges the gap **between design and engineering, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.
+**A design system bridges the gap** between design and engineering, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.
 
 The stakes are higher now that AI agents write UI too. A coded design system decides whether an agent assembles your real components or invents new ones every time.
 
@@ -58,7 +58,7 @@ You usually feel the pain before you can name it. Common signs:
 | **Documentation**     | Usage guidelines, dos and don'ts, examples, and live demos.                                                                             |
 | **Governance**        | Clear ownership, a contribution process, handoff tools, and semantic versioning to manage updates.                                      |
 
-## The five levels
+## The 5 levels
 
 "Design system" means different things to different people, from a single design file to a full coded platform. Knowing your level tells you what to build next.
 
@@ -72,7 +72,7 @@ You usually feel the pain before you can name it. Common signs:
 
 <boxEmbed
   body={<>
-    **Tip: **The jump that matters most is from a **design file → coded components**. Until your components exist in code, the system stays a reference rather than something you build from.
+    **Tip:** The jump that matters most is from a **design file → coded components**. Until your components exist in code, the system stays a reference rather than something you build from.
   </>}
   figurePrefix="none"
   figure=""
@@ -83,7 +83,7 @@ You usually feel the pain before you can name it. Common signs:
 
 These are all great examples of level 5 design systems:
 
-* ****[**SSW Design System**](https://design.ssw.com.au/) - Tokens, coded components, and usage rules built to design and build from
+* [**SSW Design System**](https://design.ssw.com.au/) - Tokens, coded components, and usage rules built to design and build from
 * **[Atlassian Design System](https://atlassian.design/)** - Tokens, patterns, tone of voice, and code
 * **[Google Material Design](https://m3.material.io/)** - Theming, deep docs, and ready-to-use code
 * **[IBM Carbon](https://carbondesignsystem.com/)** - Enterprise-level, open source, and WCAG-compliant
@@ -95,17 +95,17 @@ These are all great examples of level 5 design systems:
 
 Agentic workflows let developers cover more ground at record speed. Without a system they can build from, developers (and their agents) will build UI from scratch, which makes it easier than ever to make a mess 10x faster.
 
-A coded design system changes what the agent has to work with. Instead of inventing components, it assembles ones you have already designed, reviewed, and tested. 
+A coded design system changes what the agent has to work with. Instead of inventing components, it assembles ones you have already designed, reviewed, and tested.
 
-We built ours in Storybook [**https://design.ssw.com.au**](https://design.ssw.com.au/) which our agents read through MCP. This is what pulls our real components into context.
+We built ours in Storybook **[https://design.ssw.com.au](https://design.ssw.com.au/)** which our agents read through MCP. This is what pulls our real components into context.
 
-## How to set up a design system 
+## How to set up a design system
 
 You do not need the whole thing on day one. Most teams start with a handful of shared components and grow from there.
 
 1. **Audit what you have** - Look for visual and structural inconsistencies
-2. **Choose a direction **- Build a bespoke system from the ground up, or adopt an open-source one and tweak it to match your brand
-3. **Define your tokens **- Start with the color, spacing, and type values unique to your brand
+2. **Choose a direction** - Build a bespoke system from the ground up, or adopt an open-source one and tweak it to match your brand
+3. **Define your tokens** - Start with the color, spacing, and type values unique to your brand
 4. **Build your first components** - Focus on core UI elements: header, footer, buttons, input fields
 5. **Get the tokens into code** - Tools like [Style Dictionary](https://styledictionary.com/) can push your tokens into code
 6. **Move the components into code too** - Somewhere both developers and agents can pull from, like [Storybook](https://storybook.js.org/)
@@ -115,7 +115,7 @@ You do not need the whole thing on day one. Most teams start with a handful of s
 <boxEmbed
   style="info"
   body={<>
-    **Tip: **Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
+    **Tip:** Start small enough to ship something useful quickly, then expand. A shared library with a few solid components already saves time. The coded layer is where it starts paying off, for your developers and your AI agents alike.
   </>}
   figurePrefix="none"
   figure=""
