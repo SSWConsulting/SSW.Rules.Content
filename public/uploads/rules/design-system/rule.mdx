@@ -24,7 +24,7 @@ seoDescription: 'Tame visual inconsistencies and streamline team collaboration b
 created: 2025-05-14T15:18:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-11T05:06:01.925Z
+lastUpdated: 2026-06-11T05:09:30.107Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -58,14 +58,15 @@ A design system is the shared source your team designs and builds from. Usually 
 * **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
 * **Governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
-<boxEmbed
-  body={<>
-    **Tip: **People use "design system" to mean anything from a single Figma file to a full coded platform, so it helps to know which one you actually have.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
+People use "design system" to mean anything from a single Figma file to a full coded platform, so it helps to know which one you actually have:
+
+| Stage                       | Description                                                                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Design Library**       | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
+| **2. Documented System**    | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
+| **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
+| **4. Coded Components**     | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
+| **5. Scalable Ecosystem**   | Formal governance, versioning, a contribution model, changelogs, and multi-product usage. Often has its own site or portal.                    |
 
 ## Why it works
 
@@ -95,17 +96,7 @@ Design systems don’t need to be fully built from day one. There are different 
   figure=""
 />
 
-Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next:
-
-| Stage                       | Description                                                                                                                                    |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Design Library**       | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs.                           |
-| **2. Documented System**    | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates).              |
-| **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
-| **4. Coded Components**     | Components exist in code (e.g. Storybook) and match the Design Library.                                                                        |
-| **5. Scalable Ecosystem**   | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal.       |
-
-## Start small in 7 steps
+Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next\:Start small in 7 steps
 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
