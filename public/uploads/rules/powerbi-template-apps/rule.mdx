@@ -84,14 +84,22 @@ On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
 
 1. Open your `.pbix` file
 2. Home | Transform Data. This will open up a new window
+
+    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data.png" />
 3. New Window Opened | Home | Manage Parameters
    (Here you can add new parameters, setup their default value or edit existing parameter names and value)
+   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/powerbi-manage-parameters.png" />
 4. You would need your SQL Server and Database Name and default them to your sample database details
+    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/powerbi-manage-parameters-popup.png" />
    * Back in the Transform Data window you will have new parameters. You can see them in the left pane 
 5. Next you need to setup the source of each query to the these parameters. Select Query from left pane | Select Applied Steps from right pane | Select Source | Update the fx input box to parameters name (not "hardcoded strings") eg. from `Sql.Database("sql-server.net", “demo-db”)` to `Sql.Database(Server, Database)` in the right pane, and then you need to make sure every query that has source in the applied steps has paramerter names not the hardcoded string values
+
+    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data-parameters.png" />
 6. Close and Apply. It will refresh the whole report
 7. Once done, You need to publish the .pbix to the template app workspace. Home Tab | Click Publish | Select your Template App workspace, (you need to sign in with the same account of where the workspace is created) | hit publish, if you arleady has a report in that template workspace, it will warn you that it's going to override, do you want to continue, press yes, then it will upload the report for you
-8. You can refresh the template app workspace on app.powerbi.com and report will be visible![](/uploads/rules/powerbi-template-apps/powerbi-transform-data-parameters.png)
+
+    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/publish-report-to-workspace" />
+8. You can refresh the template app workspace on app.powerbi.com and report will be visible
 
 #### Step 3: Create and Configure the Template App
 
@@ -102,8 +110,9 @@ On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
 3. In the Navigation pane, it will automatically select the report to be included in the app
    ![](/uploads/rules/powerbi-template-apps/create-app-select-reports.png)
 4. In the Parameters pane, it will show the parameter you have setup in the desktop app. Click required and then you  need to fill in the same value you filled in the desktop app and also example for user input (e.g. Server: `sql-demo-database.windows.net` and Example for user: `sql-xxx.database.windows.net`)
-5. In the auth section, it will be auto selected to SQL server and slect the authenication method to basic, 
-6. then in Access tab, you can acdd acces to other users in your org for testing or select the entire org 
+    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/create-app-database-parameters.png" />
+5. In the auth section, it will be auto selected to SQL server and select the authenctication method to basic, 
+6. then in Access tab, you can add acces to other users in your org for testing or select the entire org 
 7. Once everything is filled out, click Save changes and then Create App
 8. It will take a moment and then will give you the link to test internally in your org
 9. Once everything is filled out, click the "Create app" button
@@ -139,28 +148,8 @@ On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
 1. After you tested internally, you can promote it to pre-production in release amangemnt on power bi workspace
 2. once done, it will give you the link, copy the link, login to partner center and create new offer, 
 
-### Configure a Database for Template Apps
 
-#### Set Up Database Parameters in Power BI
 
-1. In Power BI go to **Home | Transform Data**. This will open up a new window
-
-![](/uploads/rules/powerbi-template-apps/powerbi-transform-data.png)
-
-1. Add a new parameter by going to **Home | Manage Parameters | New Parameters**
-
-![](/uploads/rules/powerbi-template-apps/powerbi-manage-parameters.png)
-
-1. Fill out the pop-up box for a new parameter and press "OK"
-   E.g. For a database you might need a parameter for Server and a parameter for Database
-
-![](/uploads/rules/powerbi-template-apps/powerbi-manage-parameters-popup.png)
-
-1.
-
-![](/uploads/rules/powerbi-template-apps/powerbi-transform-data-parameters.png)
-
-![](/uploads/rules/powerbi-template-apps/create-app-database-parameters.png)
 
 #### User Setup for Installed Apps
 
