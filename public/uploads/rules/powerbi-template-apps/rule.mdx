@@ -16,9 +16,9 @@ seoDescription: Power BI template apps simplify data sharing and collaboration b
 created: 2024-02-22T13:42:55.753Z
 createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: harksingh@ssw.com.au
-lastUpdated: 2026-06-12T02:21:49.321Z
+lastUpdated: 2026-06-12T04:36:46.852Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: harksingh@ssw.com.au
+lastUpdatedByEmail: sandhukirat23@gmail.com
 archivedreason: null
 ---
 
@@ -88,7 +88,6 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
    <imageEmbed alt="Power BI transform data image here" size="large" showBorder={false} figurePrefix="none" figure="Power BI Desktop app" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data.png" />
 3. In the new window: Home | Manage Parameters
    * Here you can add new parameters, set their default values, or edit existing parameter names and values
-
    <imageEmbed alt="Power BI manage parameters window image here" size="large" showBorder={false} figurePrefix="none" figure="New window showing the queries, parameters and source settings" src="/uploads/rules/powerbi-template-apps/powerbi-manage-parameters.png" />
 4. Create parameters for your **SQL Server** and **Database Name**, and default them to your sample database's details
 
@@ -99,7 +98,6 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
    * Under **Applied Steps** (right pane), select **Source**
    * In the formula (fx) bar, replace the hardcoded values with your parameter names - e.g. change `Sql.Database("sql-server.net", “demo-db”)` to `Sql.Database(Server, Database)`
    * Repeat for **every** query whose Source step still uses hardcoded strings
-
    <imageEmbed alt="Power BI transform data parameters image here" size="large" showBorder={false} figurePrefix="none" figure="Left pane showing Queries, right pane showing Source and middle function input box for parameters" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data-parameters.png" />
 6. Click **Close & Apply** - the whole report will refresh
 7. Publish the `.pbix` to your template app workspace:
@@ -107,11 +105,11 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
    * Sign in with the same account that owns the workspace
    * Select your template app workspace and click Publish
    * If a report already exists there, confirm the overwrite when prompted — the report then uploads
-
    <imageEmbed alt="Publish report to workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Select your template app workspace to publish your report" src="/uploads/rules/powerbi-template-apps/publish-report-to-workspace.png" />
 8. Refresh the workspace in app.powerbi.com - your report will appear
 
 #### Step 3: Create and Configure the Template App
+
 Back in [app.powerbi.com](https://app.powerbi.com):
 
 1. In the workspace, click **Create app**
@@ -124,7 +122,6 @@ Back in [app.powerbi.com](https://app.powerbi.com):
    * Tick **Required**
    * Enter the same value you used in Desktop
    * Add an example to guide users - e.g. Server value `sql-demo-database.windows.net`, example for user `sql-xxx.database.windows.net`
-
    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/create-app-database-parameters.png" />
 5. In the **Authentication** section, the source defaults to SQL Server - set the authentication method to **Basic**
 6. In the **Access** tab, grant access to other users in your org for testing, or select the entire organisation
@@ -163,13 +160,13 @@ Back in [app.powerbi.com](https://app.powerbi.com):
 3. Fill in the required details
 4. In the **Technical Configuration** section, paste the pre-production link from Release Management
 
-   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/partner-center-technical-configuration.png" />
-5. Click **Save changes**, then **Publish**
+   <imageEmbed alt="Partner center technical configuration image here" size="large" showBorder={false} figurePrefix="none" figure="Microsoft Partner Center | <your template app offer> | Technical configuration" src="/uploads/rules/powerbi-template-apps/partner-center-technical-configuration.png" />
+5. Click **Save draft**, then **Review and publish**
 
 <boxEmbed
   body={<>
     Once publishing starts, it takes a couple of hours to generate the preview link. After you go live to production, allow another 5–6 hours for the offer to be published and for AppSource to pick up and verify your template app.
-
+    
     Once verified, users can install your template app from the marketplace and connect it to their own data.
   </>}
   figurePrefix="none"
@@ -177,7 +174,7 @@ Back in [app.powerbi.com](https://app.powerbi.com):
   style="tips"
 />
 
-<imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/published-offer-on-marketplace.png" />
+<imageEmbed alt="Published offer on marketplace image here" size="large" showBorder={false} figurePrefix="none" figure="Published template app on Microsoft Marketplace" src="/uploads/rules/powerbi-template-apps/published-offer-on-marketplace.png" />
 
 #### User Setup for Installed Apps
 
