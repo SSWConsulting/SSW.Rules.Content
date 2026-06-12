@@ -15,56 +15,56 @@ guid: a3b2c4d5-ff81-40b5-b3df-88a4f584b2c3
 seoDescription: Power BI template apps simplify data sharing and collaboration by allowing external users to access and interact with reports and dashboards.
 created: 2024-02-22T13:42:55.753Z
 createdBy: 'Harkirat Singh [SSW]'
-createdByEmail: sandhukirat23@gmail.com
+createdByEmail: harksingh@ssw.com.au
 lastUpdated: 2026-06-12T02:21:49.321Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: sandhukirat23@gmail.com
+lastUpdatedByEmail: harksingh@ssw.com.au
 archivedreason: null
 ---
 
-Creating Power BI Template Apps is an efficient way to manage and distribute Power BI reports and dashboards with other external users.
+Power BI Template Apps are an efficient way to package, distribute, and maintain Power BI reports and dashboards for external users.
 
-Once the Template App is created it will live in the [Power BI Apps](https://app.powerbi.com/groups/me/getapps/apps) marketplace. Users have the ability to use the template app with their own data or use the default data provided.
+Once published, a Template App lives in the [Power BI Apps](https://app.powerbi.com/groups/me/getapps/apps) marketplace, where users can install it and either explore it with the default sample data or connect it to their own data.
 
 <endIntro />
 
 ### ✅ Pros
 
-* **Ease of Distribution:** Template apps provide an easy way to distribute Power BI content to external users. Once published to the Power BI service, these apps can be shared widely without needing to individually manage access permissions
-* **Ease of Maintainance:** Template apps simplify the process of updating and maintaining the Power BI content with their Release Management
-* **Data Source Flexibility:** Users can easily integrate their own data
-* **Trial with Sample Data:** Testing the app with sample data allows users to easily explore and understand features before using their own data. As an added bonus this is also great for demos
+* **Ease of distribution:** Once published to the Power BI service, a template app can be shared widely without having to manage access permissions for each user individually
+* **Ease of maintenance:** Built-in Release Management makes it simple to update and maintain your Power BI content over time
+* **Data source flexibility:** Users can connect their own data with minimal effort
+* **Trial with sample data:** Shipping with sample data lets users explore the features before connecting their own — and it's great for demos
 
 ### ❌ Cons
 
-* **Dependency on Power BI Environment:** External users need to have access to Power BI (Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
-* **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
-* **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
-* **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
+* **Dependency on Power BI:** External users need access to Power BI (a Pro or Premium license), which can limit accessibility for some. Creating template apps also requires a Power BI Pro license
+* **Initial setup complexity:** Configuring a template app for external sharing takes more upfront effort
+* **Limited customization for end users:** End users can filter and slice the data, but they can't modify the reports beyond that
+* **Performance considerations:** Large datasets or complex visuals can slow loading times for end users
 
 ### Creating Power BI Template Apps
 
-#### Prerequisite
+#### Prerequisites
 
 * Power BI Pro license
 * Power BI Desktop (Windows only)
-  * Mac users - either borrow Windows machine, or run Windows VM on **[VMware Fusion](https://www.youtube.com/watch?v=LWXO4DhQRL0)** (free - recommended ⭐) or Parallels
-* Cloud Hosted sample database with dummy data and **read** access
+  * Mac users - either borrow a Windows machine, or run a Windows VM on **[VMware Fusion](https://www.youtube.com/watch?v=LWXO4DhQRL0)** (free - recommended ⭐) or Parallels
+* A cloud-hosted sample database with dummy data and **read** access
   * Keep it small
-* Power BI report (.pbix) file to connect sample data with
+* A Power BI report (.pbix) file to connect to the sample data
 
 #### Step 1: Create the Workspace
 
 In [app.powerbi.com](https://app.powerbi.com):
 
 1. All workspaces (left side panel) | New workspace
-2. Set Name & Description
+2. Set a Name and Description
 
    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/create-workspace.png" />
-3. Advanced section | Workspace type | Power BI Pro
+3. Advanced section | Workspace type | **Power BI Pro**
 
    <imageEmbed alt="workspace type " size="large" showBorder={false} figurePrefix="none" figure="Select Workspace type options" src="/uploads/rules/powerbi-template-apps/workspace-type.png" />
-4. Advanced section | Template apps | Tick off **“Develop template apps”**
+4. Advanced section | Template apps | tick **“Develop template apps”**
 
    <imageEmbed alt="develope template apps image" size="large" showBorder={false} figurePrefix="none" figure="Develop template apps option must be checked" src="/uploads/rules/powerbi-template-apps/develop-template-apps.png" />
 5. Click Apply
@@ -80,58 +80,68 @@ In [app.powerbi.com](https://app.powerbi.com):
 
 #### Step 2: Prepare the Report with Sample Data
 
-On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (Windows only):
+In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (Windows only):
 
 1. Open your `.pbix` file
-2. Home | Transform Data. This will open up a new window
+2. Home | Transform Data - this opens a new window
 
    <imageEmbed alt="Power BI transform data image here" size="large" showBorder={false} figurePrefix="none" figure="Power BI Desktop app" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data.png" />
-3. New Window Opened | Home | Manage Parameters
-   (Here you can add new parameters, setup their default value or edit existing parameter names and value)
+3. In the new window: Home | Manage Parameters
+   * Here you can add new parameters, set their default values, or edit existing parameter names and values
 
    <imageEmbed alt="Power BI manage parameters window image here" size="large" showBorder={false} figurePrefix="none" figure="New window showing the queries, parameters and source settings" src="/uploads/rules/powerbi-template-apps/powerbi-manage-parameters.png" />
-4. You would need your SQL Server and Database Name and default them to your sample database details
+4. Create parameters for your **SQL Server** and **Database Name**, and default them to your sample database's details
 
    <imageEmbed alt="Power BI manage parameters popup imager here" size="large" showBorder={false} figurePrefix="none" figure="Edit / create parameters for your report" src="/uploads/rules/powerbi-template-apps/powerbi-manage-parameters-popup.png" />
-   * Back in the Transform Data window you will have new parameters. You can see them in the left pane
-5. Next you need to setup the source of each query to the these parameters. Select Query from left pane | Select Applied Steps from right pane | Select Source | Update the fx input box to parameters name (not "hardcoded strings") eg. from `Sql.Database("sql-server.net", “demo-db”)` to `Sql.Database(Server, Database)` in the right pane, and then you need to make sure every query that has source in the applied steps has paramerter names not the hardcoded string values
+   * Back in the Transform Data window, the new parameters appear in the left pane
+5. Point each query's source at these parameters:
+   * Select a query in the left pane
+   * Under **Applied Steps** (right pane), select **Source**
+   * In the formula (fx) bar, replace the hardcoded values with your parameter names - e.g. change `Sql.Database("sql-server.net", “demo-db”)` to `Sql.Database(Server, Database)`
+   * Repeat for **every** query whose Source step still uses hardcoded strings
 
    <imageEmbed alt="Power BI transform data parameters image here" size="large" showBorder={false} figurePrefix="none" figure="Left pane showing Queries, right pane showing Source and middle function input box for parameters" src="/uploads/rules/powerbi-template-apps/powerbi-transform-data-parameters.png" />
-6. Close and Apply. It will refresh the whole report
-7. Once done, You need to publish the .pbix to the template app workspace. Home Tab | Click Publish | Select your Template App workspace, (you need to sign in with the same account of where the workspace is created) | hit publish, if you arleady has a report in that template workspace, it will warn you that it's going to override, do you want to continue, press yes, then it will upload the report for you
+6. Click **Close & Apply** - the whole report will refresh
+7. Publish the `.pbix` to your template app workspace:
+   * Home tab | **Publish**
+   * Sign in with the same account that owns the workspace
+   * Select your template app workspace and click Publish
+   * If a report already exists there, confirm the overwrite when prompted — the report then uploads
 
    <imageEmbed alt="Publish report to workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Select your template app workspace to publish your report" src="/uploads/rules/powerbi-template-apps/publish-report-to-workspace.png" />
-8. You can refresh the template app workspace on app.powerbi.com and report will be visible
+8. Refresh the workspace in app.powerbi.com - your report will appear
 
 #### Step 3: Create and Configure the Template App
+Back in [app.powerbi.com](https://app.powerbi.com):
 
-1. Within the workspace, create your app by clicking "Create App"
+1. In the workspace, click **Create app**
    ![](/uploads/rules/powerbi-template-apps/create-app.png)
-2. This will open up a form, fill out all the fields
+2. Fill out every field in the form
    ![](/uploads/rules/powerbi-template-apps/create-app-form.png)
-3. In the Navigation pane, it will automatically select the report to be included in the app
+3. On the **Navigation** pane, your report is selected automatically for inclusion in the app
    ![](/uploads/rules/powerbi-template-apps/create-app-select-reports.png)
-4. In the Parameters pane, it will show the parameter you have setup in the desktop app. Click required and then you  need to fill in the same value you filled in the desktop app and also example for user input (e.g. Server: `sql-demo-database.windows.net` and Example for user: `sql-xxx.database.windows.net`)
+4. On the **Parameters** pane, you'll see the parameters you set up in Power BI Desktop. For each one:
+   * Tick **Required**
+   * Enter the same value you used in Desktop
+   * Add an example to guide users - e.g. Server value `sql-demo-database.windows.net`, example for user `sql-xxx.database.windows.net`
 
    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/create-app-database-parameters.png" />
-5. In the auth section, it will be auto selected to SQL server and select the authenctication method to basic,
-6. then in Access tab, you can add acces to other users in your org for testing or select the entire org
-7. Once everything is filled out, click Save changes and then Create App
-8. It will take a moment and then will give you the link to test internally in your org
-9. Once everything is filled out, click the "Create app" button
+5. In the **Authentication** section, the source defaults to SQL Server - set the authentication method to **Basic**
+6. In the **Access** tab, grant access to other users in your org for testing, or select the entire organisation
+7. Click **Save changes**, then click **Create app**
    ![](/uploads/rules/powerbi-template-apps/create-app-button.png)
-10. **Manage the App**
-    Manage your app in the "Release Management" pane. Here you can:
-    * Update the app once you have new changes in the report by clicking "Create App"
-    * Share the app to specific people to test it out by clicking "Get Link"
-    * Publish the app by clicking "Promote app"
+8. After a moment, Power BI gives you a link to test the app internally within your org
+9. **Manage the app** in the **Release Management** pane, where you can:
+   * **Update** the app with new report changes by clicking **Create app**
+   * **Share** the app with specific people for testing by clicking **Get link**
+   * **Publish** the app by clicking **Promote app**
 
-      ![](/uploads/rules/powerbi-template-apps/release-management.png)
+     ![](/uploads/rules/powerbi-template-apps/release-management.png)
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Note:** Users need to be granted access before they can use the link. This can be done in "Manage Access".
+    **Note:** Users must be granted access before they can use the link. Do this in "Manage Access".
   </>}
   figurePrefix="none"
   figure=""
@@ -140,26 +150,27 @@ On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
 <boxEmbed
   style="greybox"
   body={<>
-    **Note:** The reports in the app will be read-only.
+    **Note:** Reports in the app are read-only.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-#### Step 4: Publishing to Partner center
+#### Step 4: Publishing to Partner Center
 
-1. After you tested internally, you can promote it to pre-production in release management on Power BI workspace
-2. once done, it will give you the link, copy the link, login to partner center and either create new offer or go to exisint offer, 
-3. Fill up the necessary details
-4. in the Techincal Configuration section, paste the pre-production link you got from release management
-    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules//powerbi-template-apps/partner-center-technical-configuration.png" />
-5. Click save changes and hit publish
+1. After internal testing, promote the app to **pre-production** in Release Management
+2. Copy the pre-production link it generates, then log in to Partner Center and either create a new offer or open an existing one
+3. Fill in the required details
+4. In the **Technical Configuration** section, paste the pre-production link from Release Management
+
+   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/partner-center-technical-configuration.png" />
+5. Click **Save changes**, then **Publish**
 
 <boxEmbed
   body={<>
-    Once the publishing process starts, it will take couple of hours to generate the preview link and then you can go live to prod and take around another 5-6 hours before the offer is published and app source has picked up your template app and verified it
-    
-    once done users can use the marketplae to install your template app and connect to their data
+    Once publishing starts, it takes a couple of hours to generate the preview link. After you go live to production, allow another 5–6 hours for the offer to be published and for AppSource to pick up and verify your template app.
+
+    Once verified, users can install your template app from the marketplace and connect it to their own data.
   </>}
   figurePrefix="none"
   figure=""
@@ -170,19 +181,18 @@ On [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
 
 #### User Setup for Installed Apps
 
-When users install and open the app they can browse the app with the dummy data from the default connection.
-The user will have the option to connect their data by following the following steps:
+When users install and open the app, it opens with the default sample data. To connect their own data:
 
-1. Select "Connect your data" in the message at the top of the page
+1. Select **Connect your data** in the banner at the top of the page
 
-    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data.png" />
-2. Enter details for the "Server" and "Database" parameters in the pop-up
+   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data.png" />
+2. Enter the **Server** and **Database** parameter values in the pop-up
 
-    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data-enter-details.png" />
+   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data-enter-details.png" />
 3. Authenticate to the database
 
-    <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data-authenticate.png" />
-4. Once authenticated, users can start exploring the app with their own data 🚀
+   <imageEmbed alt="create workspace image here" size="large" showBorder={false} figurePrefix="none" figure="Create workspace wizard with Name and Description input fields" src="/uploads/rules/powerbi-template-apps/app-connect-data-authenticate.png" />
+4. Once authenticated, users can explore the app with their own data 🚀
 
 ***
 
