@@ -18,7 +18,7 @@ authors:
     url: 'https://www.ssw.com.au/people/tiago-araujo'
 related:
   - rule: public/uploads/rules/no-hello/rule.mdx
-  - rule: public/uploads/rules/follow-up-effectively/rule.mdx
+  - rule: public/uploads/rules/checked-by-xxx/rule.mdx
   - rule: public/uploads/rules/appointments-throw-it-in-their-calendar/rule.mdx
   - rule: public/uploads/rules/as-per-our-conversation-emails/rule.mdx
   - rule: public/uploads/rules/when-to-email-chat-call-or-meet/rule.mdx
@@ -33,9 +33,9 @@ seoDescription: 'Do you warn someone before calling them? A warm call can be a g
 created: 2015-10-05T05:50:19.000Z
 createdBy: Gilles Pothieu
 createdByEmail: gillespothieu.pro@gmail.com
-lastUpdated: 2026-04-13T17:11:06.697Z
-lastUpdatedBy: Gilles Pothieu
-lastUpdatedByEmail: gillespothieu.pro@gmail.com
+lastUpdated: 2026-06-15T23:56:50.854Z
+lastUpdatedBy: Gert Marx
+lastUpdatedByEmail: Gert@ssw.com.au
 archivedreason: null
 ---
 
@@ -109,7 +109,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute. See the PBI/Issue:
     
-    **&#123;&#123; URL &#125;&#125;**
+    **{{ URL }}**
   </>}
   figurePrefix="good"
   figure="Includes PBI/Issue link for reference and doesn't leave anyone waiting"
@@ -122,7 +122,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute about this email thread:
     
-    **&#123;&#123; EMAIL SUBJECT &#125;&#125;**
+    **{{ EMAIL SUBJECT }}**
   </>}
   figurePrefix="good"
   figure="Includes email subject for reference"
@@ -199,8 +199,8 @@ If you still couldn't get hold of the person, and a decision needs to be made (a
 <boxEmbed
   style="greybox"
   body={<>
-    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with &#123;&#123; THE RECOMMENDATION &#125;&#125; tomorrow.
-    (checked by &#123;&#123; APPROVER &#125;&#125;).
+    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+    (checked by {{ APPROVER }}).
     
     Please get back to me if you prefer another way."
   </>}
