@@ -20,7 +20,7 @@ seoDescription: Unplanned outage process for SysAdmins to ensure minimal disrupt
 created: 2021-01-07T13:16:31.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-16T02:46:34.238Z
+lastUpdated: 2026-06-16T02:59:34.914Z
 lastUpdatedBy: Rob Thomlinson
 lastUpdatedByEmail: RobThomlinson@ssw.com.au
 isArchived: false
@@ -89,7 +89,7 @@ If from the previous discussion you have determined that an email needs to be se
   to=""
   cc=""
   bcc="SSWAll"
-  subject="Outage Notice - &#123;&#123;Outage info&#125;&#125; - &#123;&#123;Date&#125;&#125;"
+  subject="Outage Notice - {{Outage info}} - {{Date}}"
   shouldDisplayBody={true}
   body={<>
     ## Hi All
@@ -102,7 +102,7 @@ If from the previous discussion you have determined that an email needs to be se
     
     We are working on restoring these services and will keep you updated.
     
-    Note: &lt;This is as per rule Outage – [Do you have an unplanned outage process?](https://www.ssw.com.au/rules/unplanned-outage-process)&gt;
+    Note: \<This is as per rule Outage – [Do you have an unplanned outage process?](https://www.ssw.com.au/rules/unplanned-outage-process)>
     
     Thank you,
     SysAdmins
@@ -118,7 +118,7 @@ A separate email needs to be sent to SysAdmins outlining what was discussed on t
   to="SysAdmins"
   cc=""
   bcc=""
-  subject="SysAdmins - Outage Notice - &#123;&#123;Outage info&#125;&#125; - &#123;&#123;Date&#125;&#125;"
+  subject="SysAdmins - Outage Notice - {{Outage info}} - {{Date}}"
   shouldDisplayBody={true}
   body={<>
     ## Hi Team
@@ -160,4 +160,47 @@ If you have completed your tasks but the issue has not resolved, please try to m
 
 ### Next steps resolved the issue
 
-If your actions have resolved the issue, please notify ALL of the services being restored and update your 'To Myself' email.
+If your actions have resolved the issue update your 'To Myself' email. Perform a root cause analysis and reply to the original outage notice email of the services being restored.
+
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc="SSWAll"
+  subject="Re: Outage Notice - {{Outage info}} - {{Date}}"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi All,
+    
+    Please find below the details regarding the recent {{outage and affected service}}
+    
+    ##### Summary:
+    
+    {{High level summary of the outage}}
+    
+    ##### Incident Timeline:
+    
+    07:10 - xxx
+    
+    07:14 - yyy
+    
+    07:40 - zzz
+    
+    ##### Root Cause:
+    
+    {{Detailed explanation of the outage}}
+    
+    ##### Next Steps:
+    
+    To ensure this doesn't happen again we are implementing the following fixes.
+    {{Link to Ticket}}
+    
+    1. xxx
+    2. yyy
+    3. zzz
+    
+    Thank you, SysAdmin
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
