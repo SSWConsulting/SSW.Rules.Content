@@ -20,7 +20,7 @@ seoDescription: Unplanned outage process for SysAdmins to ensure minimal disrupt
 created: 2021-01-07T13:16:31.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-16T02:40:29.769Z
+lastUpdated: 2026-06-16T02:42:54.663Z
 lastUpdatedBy: Rob Thomlinson
 lastUpdatedByEmail: RobThomlinson@ssw.com.au
 isArchived: false
@@ -89,7 +89,7 @@ If from the previous discussion you have determined that an email needs to be se
   to=""
   cc=""
   bcc="SSWAll"
-  subject="SysAdmins – Outage Notice"
+  subject="Outage Notice - {{Outage info}} - {{Date}}"
   shouldDisplayBody={true}
   body={<>
     ## Hi All
@@ -102,7 +102,7 @@ If from the previous discussion you have determined that an email needs to be se
     
     We are working on restoring these services and will keep you updated.
     
-    Note: &lt;This is as per rule Outage – [Do you have an unplanned outage process?](https://www.ssw.com.au/rules/unplanned-outage-process)&gt;
+    Note: \<This is as per rule Outage – [Do you have an unplanned outage process?](https://www.ssw.com.au/rules/unplanned-outage-process)>
     
     Thank you,
     SysAdmins
