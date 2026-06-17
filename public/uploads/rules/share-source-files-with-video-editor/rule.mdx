@@ -1,25 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Jeoffrey Fischer
-  url: https://www.ssw.com.au/people/jeoffrey-fischer/
-- title: Chloe Lin
-  url: https://www.ssw.com.au/people/chloe-lin/
-created: 2025-07-17 01:26:35+00:00
-guid: c911f276-7295-4fea-b16a-8970758303a4
-redirects: []
-related:
-- rule: public/uploads/rules/done-video/rule.mdx
-- rule: public/uploads/rules/post-production-do-you-know-how-to-structure-your-files/rule.mdx
-- rule: public/uploads/rules/production-do-you-know-how-to-start-recording-with-camtasia/rule.mdx
-seoDescription: To allow proper video edits, always provide the original project files
-  and media. Exported videos are flattened, making changes to audio, timing, or transitions
-  difficult and often requiring rework.
+type: rule
 title: Video data - Do you share source files with your video editor?
+uri: share-source-files-with-video-editor
 categories:
   - category: categories/marketing-and-video/rules-to-better-video-post-production.mdx
-type: rule
-uri: share-source-files-with-video-editor
+authors:
+  - title: Jeoffrey Fischer
+    url: 'https://www.ssw.com.au/people/jeoffrey-fischer/'
+  - title: Chloe Lin
+    url: 'https://www.ssw.com.au/people/chloe-lin/'
+related:
+  - rule: public/uploads/rules/done-video/rule.mdx
+  - rule: public/uploads/rules/post-production-do-you-know-how-to-structure-your-files/rule.mdx
+  - rule: public/uploads/rules/production-do-you-know-how-to-start-recording-with-camtasia/rule.mdx
+redirects: []
+guid: c911f276-7295-4fea-b16a-8970758303a4
+seoDescription: 'To allow proper video edits, always provide the original project files and media. Exported videos are flattened, making changes to audio, timing, or transitions difficult and often requiring rework.'
+created: 2025-07-17T01:26:35.000Z
+createdBy: Isaac Lombard
+createdByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-06-17T06:07:43.658Z
+lastUpdatedBy: Isaac Lombard
+lastUpdatedByEmail: isaaclombard@ssw.com.au
+archivedreason: null
 ---
 
 When you ask for changes to a video, it's tempting to just send the exported video and assume the editor can make quick fixes. However, without the original project files and media, the editor is stuck with a "flattened" version and can't properly tweak audio, video timing, or transitions without redoing work or risking quality loss.
@@ -31,33 +34,21 @@ All editing tools have their own way of saving source files. Some editing tools 
 * **Clipchamp** exports two distinct .mp4 files - one for the screen recording and another one for the webcam footage
 * Other tools, like **Camtasia**, use specific source files: The .trec file contains the recorded media assets (like screen recording, webcam, mic audio, and system audio), and the .tscproj file (optional) contains the project edits, timeline layout, and references to media files (including .trec files) that references all the media assets
 
+<boxEmbed
+  body={<>
+    If you have made edits, and want to share the edited file with a TV team member – you should provide them with the cut timings and the raw footage.
+    
+    In most cases, it's better to pass the file over before edits are made to avoid double handling.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
 Sharing these complete project files or all related media ensures your editor can work efficiently and maintain professional quality.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Only the exported video file (.mp4) is shared"
-  src="/uploads/rules/share-source-files-with-video-editor/bad-example-one-video-file.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Only the exported video file (.mp4) is shared" src="/uploads/rules/share-source-files-with-video-editor/bad-example-one-video-file.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Clipchamp - The 2 video files are shared" src="/uploads/rules/share-source-files-with-video-editor/good-example-two-video-files.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Clipchamp - The 2 video files are shared"
-  src="/uploads/rules/share-source-files-with-video-editor/good-example-two-video-files.png"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Camtasia - The source file and project file are shared"
-  src="/uploads/rules/share-source-files-with-video-editor/good-example-source-file.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Camtasia - The source file and project file are shared" src="/uploads/rules/share-source-files-with-video-editor/good-example-source-file.png" />
