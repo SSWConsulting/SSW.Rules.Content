@@ -1,0 +1,68 @@
+---
+type: rule
+title: Do you avoid editing an already-exported video?
+uri: avoid-editing-exported-videos
+seoDescription: Editing a finished, exported video re-compresses it and degrades quality. Go back to the original project and source files, or hand the edit to your video team.
+guid: 634fb18b-3471-4d1c-9e0a-8c7d7d006be9
+created: 2026-06-17T00:00:00.000Z
+authors:
+  - title: Isaac Lombard
+    url: https://www.ssw.com.au/people/isaac-lombard
+related:
+  - rule: public/uploads/rules/share-source-files-with-video-editor/rule.mdx
+  - rule: public/uploads/rules/post-production-high-quality/rule.mdx
+  - rule: public/uploads/rules/the-editors-aim-is-to-be-a-coach-not-just-a-video-editor/rule.mdx
+  - rule: public/uploads/rules/done-video/rule.mdx
+categories:
+  - category: categories/marketing-and-video/rules-to-better-video-post-production.mdx
+  - category: categories/marketing-and-video/rules-to-better-video-recording.mdx
+---
+
+An exported video is a flattened, compressed file. Once it's rendered out, the timeline, the layers, and the original quality are gone - all that's left is a baked copy. So when a small change comes in (a trim, a new title, a re-cut), it's tempting to just open that finished file, make the edit, and export it again.
+
+The problem is that every export compresses the video on top of compression that's already there. Do that a couple of times and the picture goes soft, the audio gets muddy, and you ship something noticeably worse than the original - often without anyone noticing until it's flagged later.
+
+<endIntro />
+
+## Why re-exporting hurts
+
+Video codecs like H.264 are lossy - they throw away detail to keep file sizes small. That's fine the first time, because you're exporting from high-quality footage. But a finished export is a poor source: re-editing and re-exporting it means compressing an image that was already compressed, and the loss stacks up with each pass. It's the same reason a photocopy of a photocopy looks rough.
+
+The trap is that consumer tools make this easy. You can drag a finished `.mp4` into iMovie, chop out a few seconds, and export - and on your own screen the result looks fine. But you've just done another lossy pass without the export settings a video editor would normally use to protect quality. The hack ships, nobody notices straight away, and weeks later it gets picked up as a low-quality video that has to be redone properly anyway.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A change comes in for a finished video, so you open the exported .mp4 in iMovie, trim it, and export again. The video is re-compressed and ships softer than the original.
+  </>}
+  figurePrefix="bad"
+  figure="Editing the flattened export and re-compressing it"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A change comes in for a finished video, so you open the original project file and source media, make the change, and export once. The quality stays intact.
+  </>}
+  figurePrefix="good"
+  figure="Going back to the source files for the edit"
+/>
+
+## Go back to the source
+
+When a change is needed, go back to the project file (e.g. `.prproj`, `.fcpxml`, `.tscproj`, or your Clipchamp project) and the original media, make the edit there, and export once. The source files hold the full-quality footage and your edit history, so the change costs you nothing in quality.
+
+If you don't have the source files, get them from whoever recorded or edited the video - don't work around their absence by editing the export. See [Do you share source files with your video editor?](/share-source-files-with-video-editor)
+
+## When to hand it to the video team
+
+Doing a quick, self-contained change yourself is fine when you made the video and still have the project for it. Hand it to the video team when:
+
+* You don't have the source files
+* The video is public or client-facing
+* The change is more than a quick trim - re-cuts, titles, colour, or audio fixes
+* You'd be reaching for a consumer tool and a "good enough" export to get it done
+
+They have the source footage, the right tools, and the export settings to keep it sharp. A few minutes of their time beats shipping a soft video that gets redone later.
+
+For the export settings that keep quality high in the first place, see [Do you export your videos in high quality?](/post-production-high-quality)
