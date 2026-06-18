@@ -30,21 +30,29 @@ If your content is not optimized for generative engines like ChatGPT, Gemini, an
 
 ## AI visibility
 
-Generative engines prefer entities over pages. Without structured data, your brand is treated as just another webpage instead of a recognisable, authoritative source.
+Generative engines prefer entities over pages. Without structured data, your brand is treated as just another webpage instead of a recognizable, authoritative source.
 
-When a website lacks structured data and relies only on unstructured HTML, it makes it harder for search engines and AI tools to understand the business, verify its identity, and assess its authority.
+Large Language Models are designed specifically to parse unstructured and semi-structured text. They do not need hand-holding from hidden backend code the way primitive web crawlers did a decade ago. If you want to optimize for Answer Engines, your focus needs to be on what the AI actually "reads":  
 
-By implementing schema such as Organization, FAQPage, and LocalBusiness, the site gives generative engines a clearer roadmap. This technical clarity helps AI tools categorize the business accurately and present it more confidently as a trusted source to users.
+* **Visible HTML structure** -  Forget hidden JSON-LD. Use clear `<h2>` and `<h3>` tags, followed by concise standard `<p>` tags. AI agents parse the visible DOM structure
+* **Information density** - AI search operates on Retrieval-Augmented Generation (RAG). It is looking for precise, factual, and extractable information to satisfy a user's prompt. Eliminate the marketing fluff and get straight to the point
+* **Natural language** - Write answers exactly how a human would explain them to another human
+
+### Why AI engines care about entities
+
+AI search engines like Perplexity, ChatGPT, and Google AI Overviews do not just scrape text; they rely heavily on Knowledge Graphs. Before an AI decides to cite your website, it has to resolve who you are and whether you are trustworthy (the AI equivalent of E-E-A-T: **Experience**, **Expertize**, **Authoritativeness**, **Trustworthiness**).
+
+Entity schema is not a magic hack that will double your traffic overnight. It is fundamental digital plumbing. You do it once to ensure the AI knows exactly who you are, what you do, and why you are credible.
 
 ### Best practices
 
-* Use Schema Markup to define your brand as an entity
-* Implement relevant schemas such as FAQ, How-To, and Local Business
 * Keep structured data accurate, consistent, and up to date
 
 ## AI-Readable content formatting
 
-Generative engines summarise and synthesise information. Content that is poorly structured or overly verbose is harder for large language models to interpret accurately.
+When a website lacks structured data and relies only on unstructured HTML, it makes it harder for search engines and AI tools to understand the business, verify its identity, and assess its authority.
+
+Generative engines summarize and synthesize information. Content that is poorly structured or overly verbose is harder for large language models to interpret accurately.
 
 ### Best practices
 
