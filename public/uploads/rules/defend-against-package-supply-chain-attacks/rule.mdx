@@ -2,9 +2,11 @@
 type: rule
 title: Do you defend against package supply chain attacks?
 uri: defend-against-package-supply-chain-attacks
+categories:
+  - category: categories/software-engineering/rules-to-better-code.mdx
 authors:
   - title: Ivan Gaiduk
-    url: https://www.ssw.com.au/people/ivan-gaiduk
+    url: 'https://www.ssw.com.au/people/ivan-gaiduk'
 related:
   - rule: public/uploads/rules/best-package-manager-for-node/rule.mdx
   - rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
@@ -15,19 +17,31 @@ related:
   - rule: public/uploads/rules/store-github-secrets-in-keyvault/rule.mdx
   - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
 guid: fa92be5f-9220-4988-bcc2-427c2ee494c2
-seoDescription: Learn how to reduce package supply chain risk with lockfiles, safer installs, dependency reviews, malware scanning, and clear incident response.
-categories:
-  - category: categories/software-engineering/rules-to-better-code.mdx
+seoDescription: 'Learn how to reduce package supply chain risk with lockfiles, safer installs, dependency reviews, malware scanning, and clear incident response.'
 created: 2026-05-11T00:00:00.000Z
+createdBy: Ivan Gaiduk
+createdByEmail: IvanGaiduk@ssw.com.au
+lastUpdated: 2026-06-18T21:30:59.110Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 Package managers make development faster, but they also let other people's code run on developer machines, build agents, and production images. A trusted package can become dangerous if a maintainer account is compromised, a malicious dependency is added, or install scripts run unexpected code.
 
 The 2026 Axios npm compromise showed the risk clearly. A popular package briefly shipped malicious versions that added a fake dependency. The dependency ran during installation and downloaded malware, even though the normal application code did not need to import it.
 
-For Node.js projects, prefer pnpm because it is fast, strict, and avoids some common dependency surprises. Learn more on [Do you know the best package manager for Node?](/best-package-manager-for-node).
-
 <endIntro />
+
+<boxEmbed
+  body={<>
+    For Node.js projects, prefer pnpm because it is fast, strict, and avoids some common dependency surprises.
+    
+    Learn more on [Do you know the best package manager for Node?](/best-package-manager-for-node)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
 
 ## Prefer repeatable installs
 
@@ -140,13 +154,13 @@ Add tools that look for suspicious package behaviour, such as:
 
 Tools such as [Socket](https://socket.dev/), [Snyk](https://snyk.io/), [Sonatype](https://www.sonatype.com/), and [GitHub Advanced Security](https://github.com/security/advanced-security) can help depending on your stack and budget.
 
-Learn more on [Do you monitor your application for vulnerabilities?](/monitor-packages-for-vulnerabilities).
+Learn more on [Do you monitor your application for vulnerabilities?](/monitor-packages-for-vulnerabilities)
 
 ## Prefer packages with provenance
 
 Package provenance is a receipt for how a package was built. It can show the source repository, build workflow, and publishing process behind a package version.
 
-Provenance does not prove the code is safe, but it helps answer an important question: "Did this package really come from the project it claims to come from?"
+Provenance does not prove the code is safe, but it helps answer an important question: *"Did this package really come from the project it claims to come from?"*
 
 For important dependencies, prefer packages that publish provenance or clear build information. Be more cautious when a critical package has no visible link between the source code and the published package.
 
@@ -162,7 +176,7 @@ For important applications:
 * Avoid wildcard versions in production
 * Pin critical packages when an incident is active
 
-Learn more on [Do you know what the different symbols mean for npm version?](/npm-packages-version-symbols).
+Learn more on [Do you know what the different symbols mean for npm version?](/npm-packages-version-symbols)
 
 ## Protect your build environment
 
@@ -197,7 +211,7 @@ Assume dependency installation can execute code. Build agents should have the mi
   figure="Starting with read-only access and adding only the permissions the workflow needs"
 />
 
-Learn more on [Do you store your GitHub secrets in Azure KeyVault?](/store-github-secrets-in-keyvault).
+Learn more on [Do you store your GitHub secrets in Azure KeyVault?](/store-github-secrets-in-keyvault)
 
 ## Know what to do when a package is compromised
 
@@ -210,6 +224,6 @@ If a malicious package may have run, treat the machine as compromised. Removing 
 5. Pin or downgrade the package to a known-safe version
 6. Record the decision in the package history
 
-Learn more on [Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions).
+Learn more on [Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions)
 
-Record package-specific decisions using [Do you keep a package audit log?](/package-audit-log).
+Record package-specific decisions using [Do you keep a package audit log?](/package-audit-log)
