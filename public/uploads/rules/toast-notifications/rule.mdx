@@ -117,54 +117,27 @@ There is no universal convention. Different products optimize for different layo
 
 The important takeaway is consistency, not imitation. At SSW, the default is **bottom center** because it gives a stronger cross-platform baseline and avoids the primary OS notification zones on both platforms (macOS top right, Windows bottom right).
 
+## Toast text content structure
 
+Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
 
-## Recommendations
+Use these text structure components:
 
-### ✅ Choose bottom center
+* **Message / Body (Mandatory):** A concise, usually single-sentence message that explains the outcome, such as success, failure, or a status update
+* **Headline / Title (Optional):** A brief summary like "Success" or "Error" shown before the message when extra emphasis is helpful
+* **Action Label (Optional):** Short button text like "Undo" or "Retry" for a directly related next step
 
-* Aligns with Material Design and modern cross-platform UX
-* Works consistently on desktop and mobile
-* Avoids macOS top-right and Windows bottom-right OS notification zones
-* Common in products like Figma and X
-* SSW standard for new web applications
+Keep all toast text in sentence case, and keep titles concise and to the point.
 
-### 👍 Bottom right is a strong alternative
+### Toast message examples
 
-* Common in enterprise SaaS apps
-* Familiar to many desktop-first users
-* Strong fit when your layout keeps key actions away from the lower-right corner
-* Validate carefully on Windows, where OS notifications can appear in the same corner
+| Scenario | ❌ Bad | ✅ Good | Why |
+|---|---|---|---|
+| Error message | "Something went wrong." | "Could not save changes." | The good example explains what failed. |
+| Success message | "Done." | "File uploaded." | The good example confirms the specific action. |
+| Action label | "Click here" | "Retry" | The good example is short and action-oriented. |
 
-### ⚠️ Use caution with top right
-
-macOS Notification Center sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone can create two compounding problems:
-
-* OS-level notifications can physically overlap and hide in-app toasts
-* Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
-
-Only use top-right placement when platform constraints and user testing clearly justify it.
+**Reference:** [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
 
 ***
 
-## Accessibility requirements
-
-Toast placement is not just visual. It is semantic. Implementation must also satisfy WCAG 2.2 requirements.
-
-Follow WCAG guidance:
-
-* Use `role="status"` for success and informational toasts
-  * Polite ARIA live region
-  * Screen readers announce after the current task
-* Use `role="alert"` for errors
-  * Assertive
-  * Screen readers interrupt immediately
-* For auto-dismissing toasts, use a practical minimum such as 4–6 seconds for short, non-critical messages. If the toast contains important information or an action, provide a way to pause, extend, dismiss manually, or access the information elsewhere. ([WCAG 2.2 - Success Criterion 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html))
-* Never auto-dismiss error toasts
-* Do not cover primary CTAs or form fields
-
-***
-
-If you are building a modern SaaS or enterprise web application, default to **bottom center**.
-
-Small details build trust. Predictability reduces friction.
