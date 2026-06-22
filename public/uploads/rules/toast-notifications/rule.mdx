@@ -15,7 +15,7 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-22T23:25:21.924Z
+lastUpdated: 2026-06-22T23:27:48.526Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -38,13 +38,13 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 
 | Situation                                | Toast? | Better pattern                              |
 | ---------------------------------------- | ------ | ------------------------------------------- |
-| "Copied" or "Saved" lightweight feedback | ✅ YES  | Toast/snackbar                              |
-| Message with Undo                        | ✅ YES  | Toast/snackbar. Keep it visible long enough |
-| Simple success that is obvious from UI   | ❌ NO   | No toast needed                             |
-| Form validation error                    | ❌ NO   | Inline error near the field                 |
-| Page-level error                         | ❌ NO   | Banner/alert                                |
-| Destructive or blocking issue            | ❌ NO   | Dialog                                      |
-| Long-running task completed              | ❌ NO   | Persistent banner or notification center    |
+| "Copied" or "Saved" lightweight feedback | ✅ Yes  | Toast/snackbar                              |
+| Message with Undo                        | ✅ Yes  | Toast/snackbar. Keep it visible long enough |
+| Simple success that is obvious from UI   | ❌ No   | No toast needed                             |
+| Form validation error                    | ❌ No   | Inline error near the field                 |
+| Page-level error                         | ❌ No   | Banner/alert                                |
+| Destructive or blocking issue            | ❌ No   | Dialog                                      |
+| Long-running task completed              | ❌ No   | Persistent banner or notification center    |
 
 ### Examples
 
@@ -52,7 +52,7 @@ Use a toast when the message is helpful but not critical. If the user needs the 
   body={<>
     A user submits a form with missing required fields and sees a toast saying:
     
-    Some fields are missing
+    **Some fields are missing.**
   </>}
   figurePrefix="bad"
   figure="This should be shown inline, next to the fields that need attention"
@@ -61,8 +61,10 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 
 <boxEmbed
   body={<>
-    A user clicks **Copy link** and sees a short toast saying:
-    Link copied
+    A user clicks “Copy link” button and sees a short toast saying:
+    
+    
+    **Link copied**
   </>}
   figurePrefix="good"
   figure="A toast is appropriate for lightweight feedback that confirms a completed action"
