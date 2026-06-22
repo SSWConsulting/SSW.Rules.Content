@@ -30,31 +30,23 @@ For many modern web applications, **bottom center** is a strong default because 
 
 <endIntro />
 
+## Should your message be a toast?
+
+Before deciding where the toast should appear, first decide whether a toast is the right pattern.
+
+Use a toast when the message is helpful but not critical. If the user needs the information to continue, use a persistent pattern such as an inline message, banner, or dialog.
+
+| Situation                                | Toast? | Better pattern                              |
+| ---------------------------------------- | ------ | ------------------------------------------- |
+| "Copied" or "Saved" lightweight feedback | ✅ YES  | Toast/snackbar                              |
+| Message with Undo                        | ✅ YES  | Toast/snackbar. Keep it visible long enough |
+| Simple success that is obvious from UI   | ❌ NO   | No toast needed                             |
+| Form validation error                    | ❌ NO   | Inline error near the field                 |
+| Page-level error                         | ❌ NO   | Banner/alert                                |
+| Destructive or blocking issue            | ❌ NO   | Dialog                                      |
+| Long-running task completed              | ❌ NO   | Persistent banner or notification center    |
 
 
-### Examples
-
-<boxEmbed
-  body={<>
-    A user submits a form with missing required fields and sees a toast saying:
-    
-    > Some fields are missing
-  </>}
-  figurePrefix="bad"
-  figure="This should be shown inline, next to the fields that need attention"
-  style="greybox"
-/>
-
-<boxEmbed
-  body={<>
-    A user clicks **Copy link** and sees a short toast saying:
-    
-    > Link copied
-  </>}
-  figurePrefix="good"
-  figure="A toast is appropriate for lightweight feedback that confirms a completed action"
-  style="greybox"
-/>
 
 ## Where should toast notifications appear?
 
