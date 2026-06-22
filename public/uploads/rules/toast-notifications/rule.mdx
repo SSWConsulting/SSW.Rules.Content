@@ -46,7 +46,27 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 | Destructive or blocking issue            | ❌ NO   | Dialog                                      |
 | Long-running task completed              | ❌ NO   | Persistent banner or notification center    |
 
+### Examples
 
+<boxEmbed
+  body={<>
+    A user submits a form with missing required fields and sees a toast saying:
+    Some fields are missing
+  </>}
+  figurePrefix="bad"
+  figure="This should be shown inline, next to the fields that need attention"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    A user clicks **Copy link** and sees a short toast saying:
+    Link copied
+  </>}
+  figurePrefix="good"
+  figure="A toast is appropriate for lightweight feedback that confirms a completed action"
+  style="greybox"
+/>
 
 ## Where should toast notifications appear?
 
