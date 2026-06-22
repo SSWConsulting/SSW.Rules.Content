@@ -118,6 +118,34 @@ There is no universal convention. Different products optimize for different layo
 
 The important takeaway is consistency, not imitation. At SSW, the default is **bottom center** because it gives a stronger cross-platform baseline and avoids the primary OS notification zones on both platforms (macOS top right, Windows bottom right).
 
+### Recommendations
+
+#### ✅ Choose bottom center
+
+* Aligns with Material Design and modern cross-platform UX
+* Works consistently on desktop and mobile
+* Avoids macOS top-right and Windows bottom-right OS notification zones
+* Common in products like Figma and X
+* SSW standard for new web applications
+
+#### 👍 Bottom right is a strong alternative
+
+* Common in enterprise SaaS apps
+* Familiar to many desktop-first users
+* Strong fit when your layout keeps key actions away from the lower-right corner
+* Validate carefully on Windows, where OS notifications can appear in the same corner
+
+#### ⚠️ Use caution with top right
+
+macOS Notification Center sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone can create two compounding problems:
+
+* OS-level notifications can physically overlap and hide in-app toasts
+* Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
+
+Only use top-right placement when platform constraints and user testing clearly justify it.
+
+*** 
+
 ## Toast text content structure
 
 Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
@@ -138,35 +166,16 @@ Keep all toast text in sentence case, and keep titles concise and to the point.
 | Success message | "Done."                 | "File uploaded."          | The good example confirms the specific action. |
 | Action label    | "Click here"            | "Retry"                   | The good example is short and action-oriented. |
 
-**Reference:** [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
+## Toast style examples
 
-***
+Toast notifications should be easy to scan, visually calm, and clearly tied to the message type. Avoid making every toast look urgent.
 
-## Recommendations
+Use icons to help users understand the message faster, but do not rely on icons alone. Pair them with clear text. See the rule [Do you use icons to reinforce meaning?](https://www.ssw.com.au/rules/use-icons-to-reinforce-meaning).
 
-### ✅ Choose bottom center
+Toast styling should match the message severity. A toast should be noticeable enough to confirm what happened, but not so loud that it distracts from the user’s task.
 
-* Aligns with Material Design and modern cross-platform UX
-* Works consistently on desktop and mobile
-* Avoids macOS top-right and Windows bottom-right OS notification zones
-* Common in products like Figma and X
-* SSW standard for new web applications
+For more information, see [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/).
 
-### 👍 Bottom right is a strong alternative
-
-* Common in enterprise SaaS apps
-* Familiar to many desktop-first users
-* Strong fit when your layout keeps key actions away from the lower-right corner
-* Validate carefully on Windows, where OS notifications can appear in the same corner
-
-### ⚠️ Use caution with top right
-
-macOS Notification Center sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone can create two compounding problems:
-
-* OS-level notifications can physically overlap and hide in-app toasts
-* Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
-
-Only use top-right placement when platform constraints and user testing clearly justify it.
 
 ***
 
