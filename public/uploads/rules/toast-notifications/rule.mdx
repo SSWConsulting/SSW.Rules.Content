@@ -15,7 +15,7 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-22T23:04:52.945Z
+lastUpdated: 2026-06-22T23:25:21.924Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -51,7 +51,9 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 <boxEmbed
   body={<>
     A user submits a form with missing required fields and sees a toast saying:
-    Some fields are missing
+    
+    
+    > Some fields are missing
   </>}
   figurePrefix="bad"
   figure="This should be shown inline, next to the fields that need attention"
@@ -72,14 +74,14 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 
 ### Comparing toast notification positions
 
-| Position | ✅ Pros | ❌ Cons |
-|---|---|---|
-| Top Left | Highly visible; matches the starting point for left-to-right reading patterns | Can interrupt content scanning; may conflict with the logo, navigation, or breadcrumbs |
-| Top Center | Very visible; useful for urgent, app-level messages | Can block headings, hero content, and important page context; often too disruptive for non-critical feedback |
-| Top Right | Visible without usually blocking primary content; familiar in many web applications | Can conflict with macOS system notifications; may create ambiguity in desktop web apps |
-| Bottom Left | Less likely to block primary content; familiar from some Google-style snackbar patterns | Can feel disconnected from primary actions, especially when CTAs are on the right |
-| Bottom Right | Peripheral but noticeable; common in enterprise and desktop-style web apps | Can conflict with Windows system notifications, which also appear in the bottom-right corner |
-| **Bottom Center ⭐️** | Balanced and symmetrical; recommended by Material Design for snackbars; works well across desktop and mobile layouts | Can overlap bottom navigation, cookie banners, floating action buttons, or mobile safe areas |
+| Position             | ✅ Pros                                                                                                               | ❌ Cons                                                                                                       |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Top Left             | Highly visible; matches the starting point for left-to-right reading patterns                                        | Can interrupt content scanning; may conflict with the logo, navigation, or breadcrumbs                       |
+| Top Center           | Very visible; useful for urgent, app-level messages                                                                  | Can block headings, hero content, and important page context; often too disruptive for non-critical feedback |
+| Top Right            | Visible without usually blocking primary content; familiar in many web applications                                  | Can conflict with macOS system notifications; may create ambiguity in desktop web apps                       |
+| Bottom Left          | Less likely to block primary content; familiar from some Google-style snackbar patterns                              | Can feel disconnected from primary actions, especially when CTAs are on the right                            |
+| Bottom Right         | Peripheral but noticeable; common in enterprise and desktop-style web apps                                           | Can conflict with Windows system notifications, which also appear in the bottom-right corner                 |
+| **Bottom Center ⭐️** | Balanced and symmetrical; recommended by Material Design for snackbars; works well across desktop and mobile layouts | Can overlap bottom navigation, cookie banners, floating action buttons, or mobile safe areas                 |
 
 ### Toast position examples from common products
 
@@ -129,11 +131,11 @@ Keep all toast text in sentence case, and keep titles concise and to the point.
 
 ### Toast message examples
 
-| Scenario | ❌ Bad | ✅ Good | Why |
-|---|---|---|---|
-| Error message | "Something went wrong." | "Could not save changes." | The good example explains what failed. |
-| Success message | "Done." | "File uploaded." | The good example confirms the specific action. |
-| Action label | "Click here" | "Retry" | The good example is short and action-oriented. |
+| Scenario        | ❌ Bad                   | ✅ Good                    | Why                                            |
+| --------------- | ----------------------- | ------------------------- | ---------------------------------------------- |
+| Error message   | "Something went wrong." | "Could not save changes." | The good example explains what failed.         |
+| Success message | "Done."                 | "File uploaded."          | The good example confirms the specific action. |
+| Action label    | "Click here"            | "Retry"                   | The good example is short and action-oriented. |
 
 **Reference:** [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
 
