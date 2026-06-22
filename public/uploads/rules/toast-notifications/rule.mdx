@@ -72,16 +72,16 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 
 ## Where should toast notifications appear?
 
-### Analysis of all six positions for a toast
+### Comparing toast notification positions
 
-| Position             | ✅ Pros                                                                                                           | ❌ Cons                                                                                                                                                               |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Top Left             | Highly visible; matches Western reading start point                                                              | Interrupts primary content scan (F-pattern); conflicts with navigation and logo area                                                                                 |
-| Top Center           | Very high visibility; matches iOS notification position; ideal for mobile-first apps                             | Blocks main heading and hero content; too disruptive for non-critical messages                                                                                       |
-| Top Right            | Visible without blocking primary content; common in older Bootstrap examples; familiar from Windows 7–10 era     | Can conflict with macOS system notifications;  may create ambiguity, especially in desktop web apps. Use it only when the product layout and user testing support it |
-| Bottom Left          | No OS conflict on any platform; familiar from Google products; does not interrupt reading                        | Opposite corner to most primary CTAs; slightly less prominent than bottom right in RTL layouts                                                                       |
-| Bottom Right         | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Conflicts with Windows OS notifications, which also appear in the bottom-right corner                                                                                |
-| **Bottom Center ⭐️** | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict           | Can overlap bottom navigation bars or floating action buttons on mobile                                                                                              |
+| Position | ✅ Pros | ❌ Cons |
+|---|---|---|
+| Top Left | Highly visible; matches the starting point for left-to-right reading patterns | Can interrupt content scanning; may conflict with the logo, navigation, or breadcrumbs |
+| Top Center | Very visible; useful for urgent, app-level messages | Can block headings, hero content, and important page context; often too disruptive for non-critical feedback |
+| Top Right | Visible without usually blocking primary content; familiar in many web applications | Can conflict with macOS system notifications; may create ambiguity in desktop web apps |
+| Bottom Left | Less likely to block primary content; familiar from some Google-style snackbar patterns | Can feel disconnected from primary actions, especially when CTAs are on the right |
+| Bottom Right | Peripheral but noticeable; common in enterprise and desktop-style web apps | Can conflict with Windows system notifications, which also appear in the bottom-right corner |
+| **Bottom Center ⭐️** | Balanced and symmetrical; recommended by Material Design for snackbars; works well across desktop and mobile layouts | Can overlap bottom navigation, cookie banners, floating action buttons, or mobile safe areas |
 
 ### Toast position examples from common products
 
