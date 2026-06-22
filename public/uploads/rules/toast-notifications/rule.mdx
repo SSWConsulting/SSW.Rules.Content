@@ -15,7 +15,7 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-22T22:58:24.756Z
+lastUpdated: 2026-06-22T23:04:52.945Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -70,7 +70,9 @@ Use a toast when the message is helpful but not critical. If the user needs the 
   style="greybox"
 />
 
-## Analysis of all six positions
+## Where should toast notifications appear?
+
+### Analysis of all six positions for a toast
 
 | Position             | ✅ Pros                                                                                                           | ❌ Cons                                                                                                                                                               |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +83,7 @@ Use a toast when the message is helpful but not critical. If the user needs the 
 | Bottom Right         | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Conflicts with Windows OS notifications, which also appear in the bottom-right corner                                                                                |
 | **Bottom Center ⭐️** | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict           | Can overlap bottom navigation bars or floating action buttons on mobile                                                                                              |
 
-## Examples from common products
+### Toast position examples from common products
 
 There is no universal convention. Different products optimize for different layouts, platforms, and interaction patterns.
 
@@ -115,6 +117,24 @@ There is no universal convention. Different products optimize for different layo
 
 The important takeaway is consistency, not imitation. At SSW, the default is **bottom center** because it gives a stronger cross-platform baseline and avoids the primary OS notification zones on both platforms (macOS top right, Windows bottom right).
 
+## Toast text content structure
+
+Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
+
+Use these text structure components:
+
+* **Message / Body (Mandatory):** A concise, usually single-sentence message that explains the outcome, such as success, failure, or a status update
+* **Headline / Title (Optional):** A brief summary like "Success" or "Error" shown before the message when extra emphasis is helpful
+* **Action Label (Optional):** Short button text like "Undo" or "Retry" for a directly related next step
+
+Keep all toast text in sentence case, and keep titles concise and to the point.
+
+### Toast message examples
+
+Reference: [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
+
+***
+
 ## Recommendations
 
 ### ✅ Choose bottom center
@@ -141,6 +161,8 @@ macOS Notification Center sits in the top-right corner of every Mac screen. Plac
 
 Only use top-right placement when platform constraints and user testing clearly justify it.
 
+***
+
 ## Accessibility requirements
 
 Toast placement is not just visual. It is semantic. Implementation must also satisfy WCAG 2.2 requirements.
@@ -156,27 +178,6 @@ Follow WCAG guidance:
 * For auto-dismissing toasts, use a practical minimum such as 4–6 seconds for short, non-critical messages. If the toast contains important information or an action, provide a way to pause, extend, dismiss manually, or access the information elsewhere. ([WCAG 2.2 - Success Criterion 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html))
 * Never auto-dismiss error toasts
 * Do not cover primary CTAs or form fields
-
-## Text content structure
-
-Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
-
-Use these text structure components:
-
-* **Message / Body (Mandatory):** A concise, usually single-sentence message that explains the outcome, such as success, failure, or a status update.
-* **Headline / Title (Optional):** A brief summary like "Success" or "Error" shown before the message when extra emphasis is helpful.
-* **Action Label (Optional):** Short button text like "Undo" or "Retry" for a directly related next step.
-
-Keep all toast text in sentence case, and keep titles concise and to the point.
-
-Examples:
-
-* ❌ Bad message: “Something went wrong.”
-* ✅ Good message: "File uploaded."
-* ✅ Good title + message: "Error. Could not save changes."
-* ✅ Good action label: "Retry"
-
-Reference: [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
 
 ***
 
