@@ -32,6 +32,77 @@ For many modern web applications, **bottom center** is a strong default because 
 
 
 
+### Examples
+
+<boxEmbed
+  body={<>
+    A user submits a form with missing required fields and sees a toast saying:
+    
+    > Some fields are missing
+  </>}
+  figurePrefix="bad"
+  figure="This should be shown inline, next to the fields that need attention"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    A user clicks **Copy link** and sees a short toast saying:
+    
+    > Link copied
+  </>}
+  figurePrefix="good"
+  figure="A toast is appropriate for lightweight feedback that confirms a completed action"
+  style="greybox"
+/>
+
+## Where should toast notifications appear?
+
+### Comparing toast notification positions
+
+| Position | ✅ Pros | ❌ Cons |
+|---|---|---|
+| Top Left | Highly visible; matches the starting point for left-to-right reading patterns | Can interrupt content scanning; may conflict with the logo, navigation, or breadcrumbs |
+| Top Center | Very visible; useful for urgent, app-level messages | Can block headings, hero content, and important page context; often too disruptive for non-critical feedback |
+| Top Right | Visible without usually blocking primary content; familiar in many web applications | Can conflict with macOS system notifications; may create ambiguity in desktop web apps |
+| Bottom Left | Less likely to block primary content; familiar from some Google-style snackbar patterns | Can feel disconnected from primary actions, especially when CTAs are on the right |
+| Bottom Right | Peripheral but noticeable; common in enterprise and desktop-style web apps | Can conflict with Windows system notifications, which also appear in the bottom-right corner |
+| **Bottom Center ⭐️** | Balanced and symmetrical; recommended by Material Design for snackbars; works well across desktop and mobile layouts | Can overlap bottom navigation, cookie banners, floating action buttons, or mobile safe areas |
+
+### Toast position examples from common products
+
+There is no universal convention. Different products optimize for different layouts, platforms, and interaction patterns.
+
+<boxEmbed
+  body={<>
+    **Warning:** These examples are illustrative only. Product UI changes over time, so design-system guidance and user testing should carry more weight.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+| Product     | Toast position    | Notification examples           |
+| ----------- | ----------------- | ------------------------------- |
+| GitHub      | **Bottom center** | Copied!                         |
+| Figma       | **Bottom center** | Link copied, autosave           |
+| Twitter / X | **Bottom center** | Tweet sent, Copied link         |
+| Gmail       | Bottom left       | Message sent. Undo              |
+| YouTube     | Bottom left       | Added to playlist               |
+| Notion      | Bottom right      | Link copied, save confirmations |
+| Slack (web) | Bottom right      | Connection status, message sent |
+
+<boxEmbed
+  body={<>
+    **Note:** GitHub's design system guidance has shifted. Primer now recommends avoiding toasts and using more accessible notification patterns where possible. See [GitHub Primer - Accessible notifications and messages: Toasts](https://primer.style/accessibility/patterns/accessible-notifications-and-messages/#toasts).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+The important takeaway is consistency, not imitation. At SSW, the default is **bottom center** because it gives a stronger cross-platform baseline and avoids the primary OS notification zones on both platforms (macOS top right, Windows bottom right).
+
 ## Toast text content structure
 
 Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
