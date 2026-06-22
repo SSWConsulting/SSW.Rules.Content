@@ -15,16 +15,16 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-06-22T22:48:03.348Z
+lastUpdated: 2026-06-22T22:58:24.756Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
-A toast notification is small. Its impact is not.
+A toast notification is small, but its impact is not.
 
-Poor placement creates confusion. Good placement feels invisible and intentional.
+Poor placement creates confusion. Poor pattern choice creates even more. Some messages belong in a toast, but others need an inline error, banner, dialog, or notification center.
 
-If users hesitate for even a second wondering “Was that my system or the app?”, you have introduced friction.
+If users hesitate for even a second wondering, “Was that my system or the app?”, you have introduced friction.
 
 For many modern web applications, **bottom center** is a strong default because it is visible, balanced, and avoids common desktop OS notification zones.
 
@@ -34,35 +34,40 @@ For many modern web applications, **bottom center** is a strong default because 
 
 Before deciding where the toast should appear, first decide whether a toast is the right pattern.
 
-Toasts are best for lightweight, temporary feedback. They should not be used for messages the user must read, errors that require action, or information that needs to stay visible.
+Use a toast when the message is helpful but not critical. If the user needs the information to continue, use a persistent pattern such as an inline message, banner, or dialog.
 
-| Situation                                | Toast? | Better pattern                                  |
-| ---------------------------------------- | ------ | ----------------------------------------------- |
-| “Copied” or “Saved” lightweight feedback | ✅ YES  | Toast/snackbar                                  |
-| Message with Undo                        | ✅ YES  | Toast/snackbar, but keep it visible long enough |
-| Simple success that is obvious from UI   | ❌ NO   | No toast needed                                 |
-| Form validation error                    | ❌ NO   | Inline error near the field                     |
-| Page-level error                         | ❌ NO   | Banner/alert                                    |
-| Destructive or blocking issue            | ❌ NO   | Dialog                                          |
-| Long-running task completed              | ❌ NO   | Persistent banner or notification center        |
+| Situation                                | Toast? | Better pattern                              |
+| ---------------------------------------- | ------ | ------------------------------------------- |
+| “Copied” or “Saved” lightweight feedback | ✅ YES  | Toast/snackbar                              |
+| Message with Undo                        | ✅ YES  | Toast/snackbar. Keep it visible long enough |
+| Simple success that is obvious from UI   | ❌ NO   | No toast needed                             |
+| Form validation error                    | ❌ NO   | Inline error near the field                 |
+| Page-level error                         | ❌ NO   | Banner/alert                                |
+| Destructive or blocking issue            | ❌ NO   | Dialog                                      |
+| Long-running task completed              | ❌ NO   | Persistent banner or notification center    |
 
-A user clicks **Copy link** and sees a short toast saying:
-> Link copied
-✅ **Good example**  
-
- 
-A user submits a form with missing required fields and sees a toast saying:
-> Some fields are missing
-
-❌ **Bad example - This should be shown inline, next to the fields that need attention** 
+### Examples
 
 <boxEmbed
   body={<>
-    **Note:** Only use a toast when the message is helpful but not critical. If the user needs the information to continue, use a persistent pattern such as an inline message, banner, or dialog.
+    A user submits a form with missing required fields and sees a toast saying:
+    
+    > Some fields are missing
   </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
+  figurePrefix="bad"
+  figure="This should be shown inline, next to the fields that need attention"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    A user clicks **Copy link** and sees a short toast saying:
+    
+    > Link copied
+  </>}
+  figurePrefix="good"
+  figure="A toast is appropriate for lightweight feedback that confirms a completed action"
+  style="greybox"
 />
 
 ## Analysis of all six positions
