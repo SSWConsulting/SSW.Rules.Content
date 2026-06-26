@@ -2,7 +2,6 @@
 type: rule
 title: Do you link directly to the message when chasing an action in Teams?
 uri: link-to-messages
-seoDescription: When you chase someone for an action in Teams, link straight to the message so they are one click from where they need to act.
 categories:
   - category: categories/communication/rules-to-better-microsoft-teams.mdx
 authors:
@@ -13,10 +12,11 @@ authors:
 related:
   - rule: public/uploads/rules/refer-to-email-subject/rule.mdx
 guid: 502965d9-d7ed-482c-941e-c4bafac56949
+seoDescription: 'When you chase someone for an action in Teams, link straight to the message so they are one click from where they need to act.'
 created: 2026-06-26T03:21:06.374Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-26T03:37:15.824Z
+lastUpdated: 2026-06-26T04:03:19.259Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -29,33 +29,47 @@ In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, a
 
 <boxEmbed
   body={<>
-    **Tip:** Pair it with a clear `RE: &#123;&#123;Email Subject&#125;&#125;` line for context, and a numbered ask so the action is obvious. See: [Do you include the subject of an email you are referring to?](https://www.ssw.com.au/rules/refer-to-email-subject)
+    **Tip:** Pair it with a clear `RE: Email Subject` line for context, and a numbered ask so the action is obvious. See: [Do you include the subject of an email you are referring to?](https://www.ssw.com.au/rules/refer-to-email-subject)
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
 
-## Examples
-
-<boxEmbed
-  style="greybox"
+<emailEmbed
+  from="Alex Blum"
+  to="Adam Cogan"
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
   body={<>
-    Hey team, can everyone jump into the channel and vote on the Tina options when you get a chance?
+    ## Hi Adam,
+    
+    Can you check the channel and vote on the options when you get a chance?
   </>}
   figurePrefix="bad"
-  figure="Bad example - No context and no link, so the reader has to scroll the channel to find the right message"
+  figure="No context and no link, so the reader has to find the channel and scroll to the relevant message"
 />
 
-<boxEmbed
-  style="greybox"
+<emailEmbed
+  from="Alex Blum"
+  to="Adam Cogan"
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
   body={<>
-    Hey Adam, quick one<br /><br />
-    RE: LinkedIn - Tina skills legacy<br /><br />
-    1. Please see chat and make your vote: <u>Alex Blum [SSW]: Everyone Please vote on the following options:</u> (linked directly to the message)
+    ## Hi Adam,
+    
+    RE: LinkedIn - Tina skills legacy
+    
+    1\. Please see chat and make your vote:
+    
+    {{INSERT LINK TO MESSAGE}}
   </>}
   figurePrefix="good"
-  figure="Good example - Clear context, a numbered ask, and a direct link to the exact message that needs the vote"
+  figure="Clear context, a numbered ask, and a direct link to the exact message that needs attention"
 />
 
 ## Why this works
