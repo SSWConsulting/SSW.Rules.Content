@@ -16,7 +16,7 @@ seoDescription: 'When you chase someone for an action in Teams, link straight to
 created: 2026-06-26T03:21:06.374Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-06-26T04:04:33.647Z
+lastUpdated: 2026-06-26T04:29:00.618Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 ---
@@ -26,6 +26,8 @@ When you need someone to act on something buried in a busy chat or channel, don'
 <endIntro />
 
 In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, and choose **Copy link**. Paste that link into a short, direct follow-up.
+
+<imageEmbed alt="Demonstration of creating a direct link to a message in Teams" size="medium" showBorder={true} figurePrefix="none" figure="Creating a direct link to a message in Teams" src="/uploads/rules/link-to-messages/Screenshot-2026-06-26-at-2.26.02-pm.png" />
 
 <boxEmbed
   body={<>
@@ -45,8 +47,8 @@ In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, a
   shouldDisplayBody={true}
   body={<>
     ## Hi Adam,
-
-Can you check the channel and vote on the options when you get a chance?
+    
+    Can you check \[CHAT] and \[ACTION] when you get a chance?
   </>}
   figurePrefix="bad"
   figure="No context and no link, so the reader has to find the channel and scroll to the relevant message"
@@ -61,12 +63,12 @@ Can you check the channel and vote on the options when you get a chance?
   shouldDisplayBody={true}
   body={<>
     ## Hi Adam,
-
-RE: LinkedIn - Tina skills legacy
-
-1\. Please see chat and make your vote:
-
-[INSERT LINK TO MESSAGE]
+    
+    RE: \[EMAIL SUBJECT]
+    
+    1\. Please see chat and \[ACTION]:
+    
+    \[INSERT LINK TO MESSAGE]
   </>}
   figurePrefix="good"
   figure="Clear context, a numbered ask, and a direct link to the exact message that needs attention"
