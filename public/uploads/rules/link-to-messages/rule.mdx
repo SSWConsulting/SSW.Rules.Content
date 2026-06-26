@@ -1,6 +1,8 @@
 ---
+type: rule
 title: Do you link directly to the message when chasing an action in Teams?
 uri: link-to-messages
+seoDescription: When you chase someone for an action in Teams, link straight to the message so they are one click from where they need to act.
 categories:
   - category: categories/communication/rules-to-better-microsoft-teams.mdx
 authors:
@@ -23,7 +25,7 @@ When you need someone to act on something buried in a busy chat or channel, don'
 
 <endIntro />
 
-In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, and choose **Copy link**. Paste that link into a short, direct follow-up. 
+In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, and choose **Copy link**. Paste that link into a short, direct follow-up.
 
 <boxEmbed
   body={<>
@@ -35,3 +37,30 @@ In Microsoft Teams, hover over the message, click the **Meatball menu (...)**, a
 />
 
 ## Examples
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Hey team, can everyone jump into the channel and vote on the Tina options when you get a chance?
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - No context and no link, so the reader has to scroll the channel to find the right message"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Hey Adam, quick one<br /><br />
+    RE: LinkedIn - Tina skills legacy<br /><br />
+    1. Please see chat and make your vote: <u>Alex Blum [SSW]: Everyone Please vote on the following options:</u> (linked directly to the message)
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear context, a numbered ask, and a direct link to the exact message that needs the vote"
+/>
+
+## Why this works
+
+* The reader does not waste time scrolling a channel to find what you mean
+* The `RE:` line gives instant context, so they know what it relates to before opening anything
+* The numbered ask makes the required action unambiguous
+* A permalink survives even when the channel keeps moving, so the message is still findable later
