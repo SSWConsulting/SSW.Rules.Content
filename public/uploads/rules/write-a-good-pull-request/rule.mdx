@@ -35,19 +35,48 @@ seoDescription: Discover tips on writing effective Pull Requests with clear titl
 created: 2020-07-17T01:21:08.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-14T00:29:51.264Z
+lastUpdated: 2026-06-30T02:13:18.616Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 archivedreason: null
 ---
 
-As a software developer, you are going to create Pull Requests (PRs) that you want to be easy for others to review and approve. The quality of a Pull Request can vary - from cryptic to well-written.
+As a software developer, you are going to create Pull Requests (PRs) that you want to be easy for others to review and approve. The quality of a Pull Request can vary from cryptic to well-written.
 
 Including a little bit of context helps your reviewer understand changes quickly so they can review your PR faster and give better suggestions.
 
-There are 2 essential things you should have when writing a Pull Request:
-
 <endIntro />
+
+## Most PRs benefit from a PBI
+
+A PBI is useful when the PR represents planned work, a feature, a bug fix, client work, or anything that needs business context, acceptance criteria, or traceability.
+
+But for small or obvious changes, a PBI can be unnecessary red tape, for example:
+
+* Fixing a typo
+* Updating a broken link
+* Minor formatting/content cleanup
+* Small refactor with no functional change
+* Dependency/config cleanup where the PR explains the reason clearly
+
+PRs should be linked to a PBI when the change needs business context, acceptance criteria, prioritization, or future traceability. For small, obvious, or low-risk changes, a clear PR title and description may be enough.
+
+<boxEmbed
+  body={<>
+    ### Use YakShaver to make PBIs and PRs easier to review
+    
+    You can save time by not writing PBIs manually. Simply record your screen and voice with [YakShaver](https://yakshaver.ai/), then let AI turn your walkthrough into a clear PBI.
+    
+    YakShaver gives reviewers the context, intent, and key points they need to understand the change faster.
+    
+    Link your PR to the PBI so all the details, decisions, and background are easy to access during review.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="yakshaver"
+/>
+
+There are 2 essential things you should have in a great Pull Request:
 
 ## 1. Concise and self-explanatory **title**
 
@@ -89,17 +118,6 @@ The Pull Request description is a medium for the developer to tell the reviewers
 
 Good **PR descriptions** provide context to help others quickly understand the problem, solution, and rationale. This minimizes confusion, accelerates reviews, and improves overall code quality.
 
-<boxEmbed
-  style="tips"
-  body={<>
-    **Tip:** For rare straight-forward changes, the self-explanatory title might be enough. You should still make sure there is enough details so the reviewer knows what initiated the changes.
-    
-    E.g.: “Fixed broken LinkedIn link caught by CodeAuditor on footer”
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
 Examples of sentences to have in a good PR description:
 
 > "Relates to **#&#123;&#123; ISSUE NUMBER or URL &#125;&#125;**" (⚠️ see [avoid linking to Issues you do **not** want to close](/avoid-auto-closing-issues/))
@@ -121,6 +139,21 @@ If you noticed that a change needed to be made and had no specific task/issue, u
 If there is an area you are uncertain about, add:
 
 > "I'm looking for feedback on this code"
+
+<boxEmbed
+  body={<>
+    ### Use YakShaver to make PBIs and PRs easier to review
+    
+    You can save time by not writing PBIs manually. Simply record your screen and voice with [YakShaver](https://yakshaver.ai/), then let AI turn your walkthrough into a clear PBI.
+    
+    YakShaver gives reviewers the context, intent, and key points they need to understand the change faster.
+    
+    Link your PR to the PBI so all the details, decisions, and background are easy to access during review.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="yakshaver"
+/>
 
 If the PR is closing an email task after merged, remember to refer back to it:
 
@@ -178,7 +211,18 @@ If the PR is closing an email task after merged, remember to refer back to it:
   figure=""
 />
 
-### How to approach making a Pull Request
+<boxEmbed
+  style="info"
+  body={<>
+    **Exception:** For **rare** straight-forward changes, the self-explanatory title might be enough. You should still make sure there is enough details so the reviewer knows what initiated the changes.
+    
+    E.g.: “Fixed broken LinkedIn link caught by CodeAuditor on footer”
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+***
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=d8yGY6KsYys&t=29s" description="Video: 5 Tips For Better Pull Requests (11 min)" />
 
