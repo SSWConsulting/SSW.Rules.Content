@@ -106,7 +106,7 @@ You don't need to hand-write these tags. Modern frameworks generate them for you
 
 * **Next.js** - use the [Metadata API](https://nextjs.org/docs/app/getting-started/metadata-and-og-images) (`metadata` / `generateMetadata`) for the tags, and the [`opengraph-image`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image) file convention to render an image per route
 * **Dynamic images** - libraries like [`@vercel/og`](https://vercel.com/docs/og-image-generation) (built on [Satori](https://github.com/vercel/satori)) turn JSX/HTML into a 1200 × 630 image at request time
-* **A CMS** - most (e.g. Tina CMS) expose title/description/image fields that feed the OG tags automatically
+* **A CMS** - a headless CMS like [Tina CMS](https://tina.io/) gives you title/description/image fields to author the content, but you still wire those into your framework's metadata layer (e.g. Next.js `generateMetadata`). Plugin-based platforms can do it for you - the WordPress [Yoast SEO](https://yoast.com/wordpress/plugins/seo/) plugin outputs OG tags out of the box
 
 This keeps every page's preview on-brand without anyone remembering to set tags by hand.
 
