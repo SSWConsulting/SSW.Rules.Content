@@ -15,8 +15,12 @@ lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-use-open-graph-to-control-how-your-links-are-shared
-seoDescription: Microsoft Azure | SSW Consulting - Sydney, Brisbane, Melbourne - Control
-  how your links are shared with Open Graph protocol.
+related:
+- rule: public/uploads/rules/html-meta-tags/rule.mdx
+- rule: public/uploads/rules/image-standard-sizes-on-social-media/rule.mdx
+- rule: public/uploads/rules/add-a-featured-image-to-your-blog-post/rule.mdx
+seoDescription: Control how your links look when shared on social media using the
+  Open Graph protocol - the right meta tags, image size, and tools to preview them.
 title: Do you use Open Graph to control how your links are shared?
 categories:
   - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
@@ -24,20 +28,12 @@ type: rule
 uri: use-open-graph
 ---
 
-Open Graph is a metadata tag that allows you to control what content shows up when a page is shared on social media networks.
+Open Graph (OG) is a set of metadata tags that let you control what shows up when a page is shared on social media - the title, description, and preview image. Without them, platforms guess, and the result is usually an ugly, link-only preview that no one clicks.
 
 <endIntro />
 
-It should be placed on the &lt;head&gt; section of your page. The most used properties are:
-
-```xml
-<meta property="og:title" content="Your Custom Title" />
-<meta property="og:description" content="Your custom description of the page." />
-<meta property="og:image" content="https://www.YourCustomImage.jpg"/>
-```
-
 <imageEmbed
-  alt="Image"
+  alt="A shared link with no preview image and a guessed title"
   size="large"
   showBorder={false}
   figurePrefix="bad"
@@ -45,9 +41,8 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
   src="/uploads/rules/use-open-graph/open-graph-bad.jpg"
 />
 
-
 <imageEmbed
-  alt="Image"
+  alt="A shared link with a custom image and title from Open Graph tags"
   size="large"
   showBorder={false}
   figurePrefix="good"
@@ -55,21 +50,81 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
   src="/uploads/rules/use-open-graph/opengraph-good.jpg"
 />
 
+## The tags you need
 
+Open Graph tags go in the `<head>` section of your page. The 3 most important are `og:title`, `og:description`, and `og:image` - but a few more make previews render reliably across Facebook, LinkedIn, X, Slack, Discord, and WhatsApp.
 
-<boxEmbed
-  style="info"
-  body={<>
-    **Note:** For LinkedIn you might need to add the prefix as following:
+```html
+<!-- The essentials -->
+<meta property="og:title" content="Do you use Open Graph? | SSW Rules" />
+<meta property="og:description" content="Control how your links look when shared on social media." />
+<meta property="og:image" content="https://www.ssw.com.au/rules/use-open-graph/og-image.jpg" />
 
-```xml
-&lt;metaprefix="og: http://ogp.me/ns#" property='og:title' content="Microsoft Azure | SSW Consulting - Sydney, Brisbane, Melbourne"/&gt;
+<!-- Recommended extras -->
+<meta property="og:url" content="https://www.ssw.com.au/rules/use-open-graph/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SSW Rules" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="SSW Rules - Open Graph" />
 ```
 
+**✅ Figure: Good example - A complete set of Open Graph tags**
+
+A few things that trip people up:
+
+* Use an **absolute `https://` URL** for `og:image` - relative paths and `http://` are often ignored
+* Set `og:image:width` and `og:image:height` so platforms render the large card immediately instead of a tiny thumbnail on first scrape
+* Keep `og:url` as the page's canonical URL to avoid duplicate previews
+
+## Add X (Twitter) Cards too
+
+X reads its own `twitter:*` tags. It will fall back to your Open Graph tags, but adding a Card tag gives you the big, clickable image preview instead of a small one.
+
+```html
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Do you use Open Graph? | SSW Rules" />
+<meta name="twitter:description" content="Control how your links look when shared on social media." />
+<meta name="twitter:image" content="https://www.ssw.com.au/rules/use-open-graph/og-image.jpg" />
+```
+
+**✅ Figure: Good example - X Card tags for a large image preview**
+
+## Get the image right
+
+The preview image does most of the work, so size it for the link-preview card (this is different from a normal social post - see [Do you follow image standard sizes on social media?](/image-standard-sizes-on-social-media)):
+
+* **1200 × 630px** (1.91:1 aspect ratio) - renders cleanly on Facebook, LinkedIn, X, Slack, Discord, and WhatsApp
+* **JPG or PNG**, kept under ~5 MB (ideally under 1 MB so it loads fast and survives compression)
+* Keep key content (logos, text) **near the centre** - platforms crop the edges differently
+
+A blog post's [featured image](/add-a-featured-image-to-your-blog-post) is often a good source for the OG image.
+
+## Generate them dynamically
+
+You don't need to hand-write these tags. Modern frameworks generate them for you - and can generate a unique preview **image** per page (e.g. a blog card with the post title, author, and date) instead of one static image for the whole site.
+
+* **Next.js** - use the [Metadata API](https://nextjs.org/docs/app/getting-started/metadata-and-og-images) (`metadata` / `generateMetadata`) for the tags, and the [`opengraph-image`](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image) file convention to render an image per route
+* **Dynamic images** - libraries like [`@vercel/og`](https://vercel.com/docs/og-image-generation) (built on [Satori](https://github.com/vercel/satori)) turn JSX/HTML into a 1200 × 630 image at request time
+* **A CMS** - most (e.g. Tina CMS) expose title/description/image fields that feed the OG tags automatically
+
+This keeps every page's preview on-brand without anyone remembering to set tags by hand.
+
+## Test before you share
+
+OG tags are easy to get subtly wrong, and platforms **cache** previews (LinkedIn for ~7 days), so always test before sharing widely:
+
+* **[opengraph.xyz](https://www.opengraph.xyz/)** - paste a URL to preview how it looks across every major platform at once 👍
+* [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) - validates tags and force-refreshes Facebook's cache
+* [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) - previews and clears LinkedIn's cache so updated tags show immediately
+
+<boxEmbed
+  style="highlight"
+  body={<>
+    **Tip:** Changed your tags but the old preview still shows? It's almost always cached. Run the URL through the relevant debugger above to force a refresh.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
-More information and other properties can be found at [The Open Graph protocol](https://ogp.me/).
+For the full list of properties, see [The Open Graph protocol](https://ogp.me/). For the SEO-focused `<meta>` tags that complement these, see [Do you use meta tags?](/html-meta-tags)
