@@ -3,7 +3,7 @@ type: rule
 title: Do you verify the safety of AI skills before using them?
 uri: verify-ai-skill-safety
 categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
 authors:
   - title: Luke Cook
     url: 'https://www.ssw.com.au/people/luke-cook'
@@ -18,7 +18,7 @@ seoDescription: 'AI agent skills can run scripts and hidden instructions on your
 created: 2026-07-02T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: theshoosh87@gmail.com
-lastUpdated: 2026-07-02T06:39:21.157Z
+lastUpdated: 2026-07-02T07:34:37.198Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 ---
@@ -37,17 +37,17 @@ Two large-scale studies looked at real-world skills in the wild, and the results
 
 NVIDIA's [Skillspector](https://github.com/nvidia/skillspector) research (based on *"Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale"*, Liu et al., 2026) analysed **42,447** skills:
 
-* **26.1%** contained at least one vulnerability
-* **5.2%** showed likely malicious intent
-* Skills that ship with executable scripts were **2.12x** more likely to be vulnerable
+* **26%** contained at least one vulnerability
+* **5%** showed likely malicious intent
+* Skills that ship with executable scripts were **2x** more likely to be vulnerable
 
 Snyk's [ToxicSkills research](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/), which examined skills published to the ClawHub marketplace, found:
 
-* **36.8%** had at least one security flaw
-* **13.4%** contained at least one **critical**-level issue
+* **37%** had at least one security flaw
+* **13%** contained at least one **critical**-level issue
 * **76** confirmed malicious payloads were identified through human review (8 were still publicly downloadable at the time of publication)
-* **10.9%** exposed hardcoded secrets
-* **17.7%** fetched untrusted third-party content, and **2.9%** dynamically executed remote content
+* **11%** exposed hardcoded secrets
+* **18%** fetched untrusted third-party content, and **3%** dynamically executed remote content
 * Of the confirmed-malicious skills, **100%** contained malicious code patterns and **91%** *also* used prompt injection - attacking both the AI's reasoning and the machine it runs on
 
 ## ❌ Why "just ask the AI to review it" is a trap
