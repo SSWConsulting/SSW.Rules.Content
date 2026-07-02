@@ -24,17 +24,17 @@ Most skills are fine. A meaningful minority are not - and you can't tell which i
 
 <endIntro />
 
-## The numbers are worse than you think
+## How risky are skills?
 
 Two large-scale studies looked at real-world skills in the wild, and the results are sobering.
 
-NVIDIA's **Skillspector** research (based on *"Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale"*, Liu et al., 2026) analysed **42,447** skills:
+NVIDIA's [Skillspector](https://github.com/nvidia/skillspector) research (based on *"Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale"*, Liu et al., 2026) analysed **42,447** skills:
 
 * **26.1%** contained at least one vulnerability
 * **5.2%** showed likely malicious intent
 * Skills that ship with executable scripts were **2.12x** more likely to be vulnerable
 
-Snyk's **ToxicSkills** research, which examined skills published to the ClawHub marketplace, found:
+Snyk's [ToxicSkills research](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/), which examined skills published to the ClawHub marketplace, found:
 
 * **36.8%** had at least one security flaw
 * **13.4%** contained at least one **critical**-level issue
@@ -43,10 +43,6 @@ Snyk's **ToxicSkills** research, which examined skills published to the ClawHub 
 * **17.7%** fetched untrusted third-party content, and **2.9%** dynamically executed remote content
 * Of the confirmed-malicious skills, **100%** contained malicious code patterns and **91%** *also* used prompt injection - attacking both the AI's reasoning and the machine it runs on
 
-**Sources:**
-
-* [Skillspector - NVIDIA](https://github.com/nvidia/skillspector)
-* [ToxicSkills: Malicious AI Agent Skills on ClawHub - Snyk](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/)
 
 ## ❌ Why "just ask the AI to review it" is a trap
 
@@ -71,8 +67,14 @@ skillspector scan https://github.com/user/my-skill
 ```
 
 It scores the skill (0-100) and tells you plainly: `CRITICAL`/`HIGH` = do not install. Because the analysis is static and deterministic, the skill can't argue with the verdict.
-
-**Figure: Static analysis reads the skill; it never gives the skill a chance to run or to talk back.**
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Static analysis reads the skill; it never gives the skill a chance to run or to talk back"
+  src="/uploads/rules/verify-ai-skill-safety/gold-example-static-analysis.png"
+/>
 
 ## 🥈 Silver standard - sandbox and review in isolation
 
