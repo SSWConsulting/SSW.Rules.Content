@@ -24,9 +24,9 @@ seoDescription: 'Learn how to write SSW Rules using Markdown and MDX. This cheat
 created: 2021-02-22T03:20:26.000Z
 createdBy: 'Christian Morford-Waite [SSW]'
 createdByEmail: ChristianMWaite@ssw.com.au
-lastUpdated: 2026-01-13T22:26:47.533Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-07-02T13:57:20.127Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -128,7 +128,7 @@ _You **can** combine them_.
 
 <mark>These words</mark> will be highlighted.
 
-<mark style="background-color: #CC4141">red:These words</mark> will be highlighted in red.
+<mark style={{ backgroundColor: "#CC4141" }}>These words</mark> will be highlighted in red.
 
 ***
 
@@ -319,19 +319,19 @@ This is [an external link](https://www.google.com).
 
 #### Classes for images
 
-<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;small&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;small&#x22;" src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;medium&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;medium&#x22;" src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;large&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;large&#x22;" src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Image with showBorder set to &#x22;false&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Image with showBorder set to &#x22;false&#x22;" src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
 #### Extra examples
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..." src="/uploadshttps://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..." src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="...and with a short caption" src="/uploadshttps://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="...and with a short caption" src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
 
 <boxEmbed
   style="todo"
@@ -348,13 +348,13 @@ This is [an external link](https://www.google.com).
 
 #### Captions on images
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Caption for bad images" src="/uploadshttps://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Caption for bad images" src="https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Caption for regular images" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Caption for regular images" src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="Caption for OK images" src="/uploadshttps://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="Caption for OK images" src="https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Caption for good images" src="/uploadshttps://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Caption for good images" src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" />
 
 #### Captions on boxes
 
