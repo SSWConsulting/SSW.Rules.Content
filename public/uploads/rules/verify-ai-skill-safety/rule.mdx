@@ -18,7 +18,7 @@ seoDescription: 'AI agent skills can run scripts and hidden instructions on your
 created: 2026-07-02T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: theshoosh87@gmail.com
-lastUpdated: 2026-07-02T07:34:37.198Z
+lastUpdated: 2026-07-02T07:38:18.527Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 ---
@@ -37,13 +37,13 @@ Two large-scale studies looked at real-world skills in the wild, and the results
 
 NVIDIA's [Skillspector](https://github.com/nvidia/skillspector) research (based on *"Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale"*, Liu et al., 2026) analysed **42,447** skills:
 
-* **26%** contained at least one vulnerability
+* **<mark style={{ backgroundColor: "#CC4141" }}>26%</mark><mark style={{ backgroundColor: "#CC4141" }}> contained at least one vulnerability</mark>**
 * **5%** showed likely malicious intent
 * Skills that ship with executable scripts were **2x** more likely to be vulnerable
 
 Snyk's [ToxicSkills research](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/), which examined skills published to the ClawHub marketplace, found:
 
-* **37%** had at least one security flaw
+* **<mark style={{ backgroundColor: "#CC4141" }}>37%</mark><mark style={{ backgroundColor: "#CC4141" }}> had at least one security flaw</mark>**
 * **13%** contained at least one **critical**-level issue
 * **76** confirmed malicious payloads were identified through human review (8 were still publicly downloadable at the time of publication)
 * **11%** exposed hardcoded secrets
