@@ -26,7 +26,7 @@ These models are trained on vast amounts of text data, wherein the data is divid
 
 ### The Influence of Tokens on ChatGPT's Performance
 
-ChatGPT breaks down an input message into tokens and uses these to generate a sequence of output tokens. This reflects what it has learned during training. The model can process only a specific number of tokens in a single instance, counted as the token limit. This limit is around 4000 for GPT-3.5 and about 8000 for GPT-4.
+ChatGPT breaks down an input message into tokens and uses these to generate a sequence of output tokens. This reflects what it has learned during training. The model can process only a specific number of tokens in a single instance, counted as the token limit (also called the context window). This limit has grown dramatically as models have improved - early models like GPT-3.5 handled only a few thousand tokens, while modern models such as GPT-4o handle around 128,000 tokens and the latest models can handle up to 1 million tokens. Check the [OpenAI models documentation](https://platform.openai.com/docs/models) for the current limit of the model you are using, as these numbers keep rising.
 
 For example, if you send a message of 10 tokens to ChatGPT and it responds with a message of 20 tokens, that would count as 30 tokens used. The count includes both input and output tokens.
 
