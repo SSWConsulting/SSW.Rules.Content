@@ -17,56 +17,56 @@ related:
 archivedreason: null
 ---
 
-Developers adopt Claude Code faster than security teams can govern it. Left unmanaged, the failure modes are concrete and already documented: prompt injection hidden in a README or a repo's `.git/config` that runs **before** the agent's own trust prompt, secrets read out of `~/.aws/credentials` into model context, `--dangerously-skip-permissions` on a corporate laptop, or an uncatalogued MCP server quietly exfiltrating files.
+Claude Code is genuinely powerful, and your developers have almost certainly installed it already. The trouble is that it usually spreads faster than anyone decides how to govern it. The moment you give an agent your terminal, your files, and the internet, the risks stop being hypothetical: prompt injection buried in a README that runs *before* you are asked to approve anything, secrets read straight out of `~/.aws/credentials` into the model's context, or an unvetted MCP server quietly shipping your files somewhere.
 
-Not every repository needs the same controls. What you need is set by **how much you let the agent act on its own**, not just by what the repository contains.
+The instinct is to lock down the sensitive repositories and relax everywhere else. That is the wrong axis. What really sets your risk is **how much you let the agent act without you watching**, and that is something you can decide on purpose instead of by accident.
 
 <endIntro />
 
-Claude Code moves fast, and the exact setting keys change between releases. Verify every key and file path in this rule against the current docs before you deploy. See [Settings](https://code.claude.com/docs/en/settings) and [Sandboxing](https://code.claude.com/docs/en/sandboxing). (Several keys have already been renamed since this rule was first written.)
+Claude Code changes fast, and setting keys move between releases. Treat the keys below as a starting point and confirm them against the current docs before you roll anything out. See [Settings](https://code.claude.com/docs/en/settings) and [Sandboxing](https://code.claude.com/docs/en/sandboxing).
 
-## Two questions set your controls
+## Ask the right question first
 
-Every deployment decision comes down to two independent questions:
+Most arguments about AI agent security are arguments about the wrong thing. There are really only two questions that matter, and they pull in different directions:
 
-1. **How autonomous is the agent?** Is a human approving each consequential action, or is the agent acting on its own? This drives **containment**: the OS sandbox, network egress control, and environment isolation.
-2. **How much is at stake?** Does the repository hold auth, payments, customer data, or production infrastructure? This drives **scrutiny**: permission tightness, MCP scope, review gates, and governance.
+* **How much is the agent doing on its own?** Are you approving each step, or has it been told to just get on with it? This decides how much you need to **contain** it: the OS sandbox, network limits, and isolation.
+* **How much is at stake in the repo?** Auth, payments, customer data, production infrastructure? This decides how much you need to **scrutinise** it: tighter permissions, vetted MCP servers, and sign-off.
 
-The rest of this rule is organised around the first question. Three **modes** of running Claude Code each add the controls that the previous mode's human oversight used to provide. The second question then raises the bar: a high-value repository restricts *which modes you are even allowed to use*.
+Get those two straight and everything else follows. The next three sections walk up the first axis, from a human approving every action to no human in the room at all. Each step asks more of your controls, because it asks less of a person. Repository tier then decides how far up that ladder any given repo is allowed to climb.
 
-<boxEmbed style="greybox" figurePrefix="bad" figure="Securing by repository alone. A cautious developer manually approving each action on a docs repo is forced through the same heavy isolation as an unattended CI job, so nobody bothers and the CI job runs unprotected" body={<>
-"It's only a docs repo, so the agent can run however it likes."
+<boxEmbed style="greybox" figurePrefix="bad" figure="Securing by repository. The docs repo gets a free pass and the payments repo gets locked down, but a careful developer and an unattended CI job are treated the same, so the friction lands in the wrong place" body={<>
+"It is only a docs repo, so the agent can do whatever it likes."
 </>} />
 
-<boxEmbed style="greybox" figurePrefix="good" figure="Securing by autonomy. Containment scales with how much human oversight you remove, so the friction lands on the unattended job that needs it, not on the developer watching every step" body={<>
-"A human is approving each step, so the permission prompt is my control. The moment I let it run unattended, the sandbox and isolation become mandatory."
+<boxEmbed style="greybox" figurePrefix="good" figure="Securing by autonomy. The more you step back, the more the environment has to catch what you no longer can, so the heavy controls land exactly where the human stopped watching" body={<>
+"While I approve each step, the prompt is my safety net. The moment I let it run on its own, the sandbox is."
 </>} />
 
-## The floor: every session, every repo
+## The floor: do these everywhere
 
-Four controls apply unconditionally, in every mode and every tier. They are the cheapest and highest-leverage things you can do.
+Four things are cheap, they apply no matter how you run the agent, and they head off the worst outcomes. Sort these out before you worry about modes at all.
 
-### Written usage policy and training
+### Write it down, and train people once
 
-Staff paste proprietary code and secrets into AI tools. [Samsung banned ChatGPT](https://www.forbes.com/sites/siladityaray/2023/05/02/samsung-bans-chatgpt-and-other-chatbots-for-employees-after-sensitive-code-leak/) after engineers leaked semiconductor source three times in 20 days, and untrained users approve destructive actions they don't understand, as when a [Replit agent deleted a live production database](https://www.theregister.com/2025/07/21/replit_saastr_vibe_coding_incident/) during an explicit code freeze.
+The fastest way to lose data is to have no one know the rules. Samsung found this out when engineers pasted confidential source into ChatGPT three times in 20 days and the company [banned the tools outright](https://www.forbes.com/sites/siladityaray/2023/05/02/samsung-bans-chatgpt-and-other-chatbots-for-employees-after-sensitive-code-leak/). The other half of the problem is people approving things they do not understand, which is how a [Replit agent wiped a live production database](https://www.theregister.com/2025/07/21/replit_saastr_vibe_coding_incident/) during a code freeze.
 
-* A written policy: bypass mode prohibited on corporate devices, AI-generated code reviewed like human-written code, no secrets or customer data in prompts, and repository contents treated as untrusted input.
-* Short onboarding covering the permission prompt, prompt injection, and how to report an incident.
-* An org-wide **managed policy CLAUDE.md** that every session loads and no project can exclude.
+A one-page policy and a short induction fix most of this:
 
-### Enterprise identity: SSO, domain capture, no personal keys
+* Bypass mode is not allowed on work machines, AI-written code is reviewed like anyone else's, and secrets and customer data never go in a prompt.
+* Treat everything in a repo as untrusted, because a README or a fixture file can carry instructions aimed at the agent.
+* Ship an org-wide **managed policy `CLAUDE.md`** so those rules load in every session and no project can quietly drop them.
 
-Credentials leak constantly. [28.6M secrets appeared in public GitHub commits in 2025, with AI-service credentials up 81%](https://snyk.io/articles/state-of-secrets/), and breaches involving shadow AI cost around US$670K more on average, per [IBM's 2025 Cost of a Data Breach report](https://www.ibm.com/reports/data-breach), and take longer to contain.
+### Put it behind your identity provider
 
-* SSO with **domain capture** so `@yourco.com` sign-ins route to the enterprise workspace, and IdP groups mapped to Claude roles.
-* API keys issued through the admin console with scope and expiry, stored in a secrets manager, never in dotfiles. Force org identity with `forceLoginMethod` and `forceLoginOrgUUID`.
-* A tested leaver flow: disable a test account in the IdP and confirm access drops across web and CLI.
+Personal accounts and hand-rolled API keys are where the leaks come from. GitGuardian counted [28.6 million secrets in public GitHub commits in 2025](https://snyk.io/articles/state-of-secrets/), with AI-service credentials up 81%, and breaches that involve shadow AI cost around US$670K more on average, per [IBM's Cost of a Data Breach report](https://www.ibm.com/reports/data-breach).
 
-> No MDM? **Server-managed settings** from the admin console can deliver identity and policy without a device-management fleet.
+* Put Claude Code behind SSO with **domain capture**, so anyone signing in with a company address lands in your workspace, and map your identity-provider groups to Claude roles.
+* Issue keys from the admin console with a scope and an expiry, keep them in your secrets manager, and never in a dotfile. `forceLoginMethod` and `forceLoginOrgUUID` stop people using a personal login.
+* Test the leaver flow: disable an account in the identity provider and confirm access actually drops on both web and CLI.
 
-### Managed-settings baseline
+### Own the config, so no one can quietly weaken it
 
-A malicious `.claude/settings.json` hook loaded from an untrusted project [runs with full host privileges](https://cymulate.com/blog/the-race-to-ship-ai-tools-left-security-behind-part-1-sandbox-escape/), and prompt injection can flip an agent into auto-approve mode for remote code execution, as [CVE-2025-53773](https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/) did to GitHub Copilot. Immutable, org-owned config blocks this whole class. It is also where you **disable full bypass mode for everyone**, so the riskiest autonomy is off before you even reach the mode question.
+Here is the pattern you are defending against: an agent reads a hostile project, and a hook in that project's `.claude/settings.json` [runs with full access to your machine](https://cymulate.com/blog/the-race-to-ship-ai-tools-left-security-behind-part-1-sandbox-escape/). Or worse, injected text flips the agent into auto-approve mode and turns a suggestion into remote code execution, which is exactly what [CVE-2025-53773](https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/) did to GitHub Copilot. A managed settings file that developers cannot edit shuts this down, and it is where you turn full bypass mode off for the whole organisation before anyone even reaches the question of modes.
 
 ```json
 {
@@ -87,111 +87,108 @@ A malicious `.claude/settings.json` hook loaded from an untrusted project [runs 
 }
 ```
 
-* Deploy locations (admin-writable only): macOS `/Library/Application Support/ClaudeCode/managed-settings.json`, Linux/WSL `/etc/claude-code/managed-settings.json`, Windows `C:\Program Files\ClaudeCode\managed-settings.json`. **Note:** the old `C:\ProgramData\ClaudeCode\` path is deprecated.
-* Push via Intune, Jamf, or config management; make the file root-owned and read-only. Verify on an endpoint with `/status`; the managed source should appear.
-* Managed sources are **first-non-empty-wins, not merged**, so put the whole floor in one place.
+* Push it read-only through Intune, Jamf, or your config manager to the admin-only path: macOS `/Library/Application Support/ClaudeCode/managed-settings.json`, Linux and WSL `/etc/claude-code/managed-settings.json`, Windows `C:\Program Files\ClaudeCode\managed-settings.json`. (The old `C:\ProgramData\ClaudeCode\` path is deprecated.)
+* Managed sources do not merge, the first non-empty one wins, so keep the whole floor in one file. Check it landed by running `/status` on a machine.
+* No device management? **Server-managed settings** from the admin console deliver the same policy without an MDM fleet.
 
-### Permission floor
+### Deny the dangerous things by default
 
-Deny rules cost nothing and stop the worst outcomes regardless of mode. `deny` always beats `allow`, at any scope.
+Deny rules cost nothing and a `deny` always beats an `allow`, wherever it is set. The list above blocks reads of your secrets and the usual exfiltration commands. Lock it down with the managed-only `allowManagedPermissionRulesOnly: true` so a project cannot loosen it, and watch one footgun: `Read(/path)` is anchored to the settings file's location, not the root of the disk.
 
-* Lock the floor with the managed-only `allowManagedPermissionRulesOnly: true` so projects can't loosen it.
-* Deny reads of secret paths and execution of `sudo`, `curl`, and `wget` (above). Watch the `Read(/path)` footgun: a leading-slash path is anchored to the settings file's location, not the filesystem root.
+## Monitored: you approve every step
 
-## Monitored: a human approves each action
+This is Claude Code with your hand on the wheel. In `default` or `plan` mode the agent proposes and you approve, one action at a time. An injected "delete everything" shows up as a prompt before it runs, so **the permission dialog is your control** and the floor above is enough to work safely.
 
-**When a human is in the loop for every consequential action, the permission prompt is your primary control.** Default and plan modes work this way: the agent proposes, a person approves. An injected "delete everything" is shown before it runs, so the floor above is enough to run safely.
+There is one gap worth knowing about. A small class of attack fires *before* any prompt appears: a booby-trapped `.git/config` can [run a command the instant Claude Code checks `git status`](https://www.sonarsource.com/blog/claude-arbitrary-code-execution/), which happens before it can ask you anything. Approving carefully cannot catch what runs before the dialog. So even here the OS sandbox is worth turning on. It is **recommended, not required**, which keeps low-risk, closely-watched work free of friction.
 
-**One reason to still turn the sandbox on even here:** a class of attack executes *before* any prompt appears. A hostile repo's `.git/config` `fsmonitor` value [runs an arbitrary command on `git status`](https://www.sonarsource.com/blog/claude-arbitrary-code-execution/), which Claude Code invokes before it can ask you anything. Manual approval can't catch what runs before the dialog, so in monitored mode the OS sandbox is **recommended, not mandatory**. That trade keeps low-risk, closely-watched work friction-free.
+* `acceptEdits` mode still counts as monitored for commands: it applies file edits on its own but still stops and asks before running Bash, so it sits below the line that forces containment.
+* On Windows this matters, because monitored work does **not** force your developers into WSL2. The next mode is where that changes.
 
-* Run in `default` or `plan` mode; keep the managed floor.
-* `acceptEdits` mode still counts as monitored for *command execution*: it auto-applies file edits but still prompts for Bash, so it sits below the line that forces containment.
-* **Windows note:** monitored work does **not** force WSL2 on your developers (see the next mode for why that matters).
+## Autonomous: the agent runs without asking
 
-## Autonomous: the agent acts without asking
+The moment you tell the agent to stop asking, whether that is `dontAsk` mode, `auto` mode inside its classifier limits, or any "just keep going" workflow, the human safety net is gone and the environment has to take over. This is not theoretical. When someone hijacked [Amazon's AI coding agent](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/), the payload told it to delete the user's files, S3 buckets, EC2 instances, and IAM users, and it shipped to roughly a million machines. Four controls stop being optional.
 
-**The moment the agent auto-approves command execution, whether through `dontAsk` mode, `auto` mode within its classifier limits, or any "just keep going" workflow, the human gate is gone and technical containment becomes primary.** Injected instructions now reach a shell with no one watching: this is the mode behind the [Amazon Q extension shipping a "delete files, S3 buckets, EC2 instances and IAM users" prompt to roughly a million installs](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/). Four controls become mandatory.
+### Turn on the OS sandbox
 
-### Enforce the OS sandbox
+With no human gate, the sandbox is the only thing standing between an injected instruction and your machine, and injected source code has already been shown to [quietly DNS out your keys](https://mindgard.ai/disclosures/cline-bot-ai-coding-agent-data-exfiltration-via-prompt-injection-and-dns). Turning it on is three settings, plus two you will forget if no one tells you:
 
-Prompt injection in analysed source code can drive an agent to [DNS-exfiltrate key material to attacker infrastructure](https://mindgard.ai/disclosures/cline-bot-ai-coding-agent-data-exfiltration-via-prompt-injection-and-dns). With no human gate, the sandbox is the only thing between injection and your machine.
+* `sandbox.enabled: true`, `failIfUnavailable: true` so it hard-fails rather than silently running wide open, and `allowUnsandboxedCommands: false` to close the `excludedCommands` escape hatch (which has no managed lockdown, so developers can otherwise just append to it).
+* The two people forget: `sandbox.network.allowManagedDomainsOnly` and `sandbox.filesystem.allowManagedReadPathsOnly`, so a project cannot widen the allowlist or the readable paths. And `sandbox.credentials` set to deny or mask, because by default the sandbox **still reads** `~/.ssh` and `~/.aws/credentials`. That last one surprises people.
 
-* `sandbox.enabled: true`, `failIfUnavailable: true` (hard-fail rather than silently run unsandboxed), and `allowUnsandboxedCommands: false` (closes the `excludedCommands` escape hatch, which has *no* managed lockdown).
-* The nested lock keys `sandbox.network.allowManagedDomainsOnly` and `sandbox.filesystem.allowManagedReadPathsOnly` so users can't widen the allowlist or readable paths.
-* Add `sandbox.credentials` (deny or mask). By default the sandbox **still reads** `~/.ssh` and `~/.aws/credentials`, and closing that is not automatic.
+On macOS this is free, because Seatbelt is built in. On Windows there is no getting around it: native Windows cannot sandbox, so autonomous work means running inside **WSL2** with `bubblewrap` and `socat` installed and the repo cloned into the Linux filesystem, with `wslInheritsWindowsSettings` set so it inherits the Windows policy. Do not hand every developer that checklist. **Build one image** (a WSL2 distro or a dev container, see the next mode) so the sandbox is set up once, centrally, instead of going wrong on 200 laptops.
 
-**Windows reality: this is where the WSL2 cost lands, and only here.** Native Windows cannot sandbox, so autonomous mode on Windows means running Claude Code inside **WSL2**: a developer needs WSL2 with a Linux distro, Claude Code plus `bubblewrap` and `socat` installed inside it (`sudo apt-get install bubblewrap socat`), the repo cloned into the WSL2 filesystem, and the session run from the distro rather than PowerShell. Set `wslInheritsWindowsSettings` so WSL inherits the Windows-managed policy. Rather than hand every developer this checklist, **ship a prebuilt WSL2 or dev-container image** (see unattended mode) so the sandbox is a one-time central build, not per-developer friction. macOS needs none of this, as Seatbelt is built in.
+### Control what leaves the network
 
-### Network egress control
+The built-in sandbox proxy only looks at hostnames, it does not inspect TLS, so a broad allowlist is still an open door, and even a plain DNS lookup can smuggle data past a firewall that blocks nothing outbound. [EchoLeak (CVE-2025-32711)](https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability) exfiltrated data with zero clicks through an endpoint that was on the allowlist.
 
-The built-in sandbox proxy decides on hostname only and does not inspect TLS, so broad allowed domains stay an exfiltration channel, and even DNS lookups can smuggle data past a firewall that blocks nothing outbound. [EchoLeak (CVE-2025-32711, CVSS 9.3)](https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability) showed zero-click exfiltration through endpoints an allowlist had permitted.
+* Put a TLS-inspecting gateway in front (`HTTPS_PROXY` and `NODE_EXTRA_CA_CERTS` trusting its CA). Sort your egress into buckets (model, auth, updates, package registries, source control, MCP, WebFetch) and write a rule per bucket, rather than one giant allowlist nobody can reason about.
+* Better still, keep model traffic off the public internet entirely with `CLAUDE_CODE_USE_BEDROCK`, `CLAUDE_CODE_USE_VERTEX`, or `CLAUDE_CODE_USE_FOUNDRY`. On a shared VM with a cloud role attached, this also gets you out of the per-developer API key business. One catch: those provider variables bypass server-managed settings, so use the self-hosted **Claude apps gateway** if you still want audit logging and spend limits.
 
-* A TLS-inspecting gateway (`HTTPS_PROXY` plus `NODE_EXTRA_CA_CERTS` trusting the gateway CA). Classify egress by class (model, auth, update, registry, source-control, MCP, WebFetch) and write explicit rules per class.
-* Route model traffic off the public internet with `CLAUDE_CODE_USE_BEDROCK`, `CLAUDE_CODE_USE_VERTEX`, or `CLAUDE_CODE_USE_FOUNDRY`; on a shared VM with an attached cloud role this also eliminates per-developer API keys. Those provider variables **bypass server-managed settings**, so use the self-hosted **Claude apps gateway** to keep audit logging and spend limits.
+### Vet every MCP server and plugin
 
-### MCP and extension governance
+An autonomous agent calls tools without checking with you, so every connected server is live attack surface. A malicious one does not need an exploit, it just [hides instructions in its tool descriptions](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) and lets the agent read and send your files for it. Worse, a poisoned tool result can rewrite the agent's own MCP config and get code execution ([CVE-2025-54135](https://www.catonetworks.com/blog/curxecute-rce/)), or an already-approved server can be swapped for a malicious one after the fact ([CVE-2025-54136](https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/)).
 
-An autonomous agent calls tools without asking, so every connected server is live attack surface. Malicious MCP servers hide instructions in tool metadata: [tool poisoning](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) silently directs the agent to read and send sensitive files. Untrusted data can also rewrite the agent's own MCP config for RCE ([CVE-2025-54135 "CurXecute"](https://www.catonetworks.com/blog/curxecute-rce/)) or swap an already-approved entry for malicious commands ([CVE-2025-54136 "MCPoison"](https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/)).
+* Keep an allowlist in `managed-mcp.json` and route every server through one internal gateway that holds the credentials, scopes tools per role, and logs every call. Lock it with `allowManagedMcpServersOnly: true`.
+* Set per-tool rules with the `mcp__server__tool` namespace: allow the reads, ask on the writes, deny the destructive ones.
+* Close the side door too. `disableSideloadFlags` and `strictKnownMarketplaces` stop a developer sidestepping the whole catalogue with `--mcp-config` or a random plugin.
 
-* A `managed-mcp.json` allowlist routing every server through one internal gateway that holds the credentials, scopes tools per role, and logs every call. Lock it with `allowManagedMcpServersOnly: true`.
-* Per-tool rules using the `mcp__server__tool` namespace: `allow` reads, `ask` on writes, `deny` the destructive ones.
-* Close the back door: `disableSideloadFlags` (blocks `--plugin-dir`, `--agents`, `--mcp-config`) and `strictKnownMarketplaces`, or a developer simply sideloads an uncatalogued server.
+### Send the evidence to your SIEM
 
-### Telemetry to your SIEM
+You are not watching anymore, so something has to be. Credential-theft chains that ride in on injected instructions leave [almost no trace across Claude Code, Gemini CLI, and Copilot](https://oddguan.com/blog/comment-and-control-prompt-injection-credential-theft-claude-code-gemini-cli-github-copilot/) unless you are collecting the agent's own telemetry.
 
-You are no longer watching, so something else has to. Injection-to-credential-theft chains leave [little visible trace across Claude Code, Gemini CLI, and Copilot](https://oddguan.com/blog/comment-and-control-prompt-injection-credential-theft-claude-code-gemini-cli-github-copilot/) without agent telemetry.
+* Set `allowManagedHooksOnly: true`, then ship a `ConfigChange` hook that alerts when a settings file changes mid-session and a `PreToolUse` HTTP hook that checks tool calls against a central policy service (pin the endpoints with `allowedHttpHookUrls`).
+* Turn on OpenTelemetry export (`CLAUDE_CODE_ENABLE_TELEMETRY=1` and an OTLP endpoint), then alert on the things that actually mean trouble: a spike in denials, a config change on a Tier 1 repo, Bash near a secret path, an off-catalogue MCP call, or the sandbox falling back.
 
-* `allowManagedHooksOnly: true`, then ship a `ConfigChange` hook that alerts on mid-session settings changes and a `PreToolUse` HTTP hook that checks each tool call against a central policy service (restrict endpoints with `allowedHttpHookUrls`).
-* OpenTelemetry export (`CLAUDE_CODE_ENABLE_TELEMETRY=1` plus an OTLP endpoint). Build detections for permission-denial spikes, `ConfigChange` on high-value repos, secret-path Bash, off-catalogue MCP calls, and sandbox-fallback events.
+## Unattended: nobody is in the room
 
-## Unattended: no human present
+CI jobs, headless (`-p`) runs, and scheduled agents have no human at all, not even to press start. Nothing can be approved in the moment, so everything has to be proven safe beforehand. This mode keeps every autonomous control **and** adds hard isolation, because a compromise here runs at machine speed holding pipeline credentials.
 
-**CI jobs, headless (`-p`) runs, and scheduled agents have no human at all, not even to start the session.** Everything the agent might do must be proven safe in advance, because nothing can be approved in the moment. This mode carries every autonomous-mode control **plus** hard isolation, because a compromise here runs at machine speed with pipeline credentials.
+The output needs watching too. Veracode found [45% of AI-generated code samples carried a vulnerability](https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt), and the [Rules File Backdoor](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents) hides instructions in invisible Unicode that sail straight through a human reviewer.
 
-The output is also riskier: [45% of AI-generated code samples in Veracode's 2025 study contained security vulnerabilities](https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt), and the [invisible-Unicode "Rules File Backdoor"](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents) hides malicious instructions that pass human review unseen.
+* **Isolate the whole thing.** Run in a throwaway dev container or VM: minimal image, non-root, read-only root filesystem, managed settings baked in as root, network policy at the container or Kubernetes layer. This is the same image your Windows developers use. It matters because agent tooling itself gets trojanised, from an extension that [tried to wipe a million machines](https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw) to npm `postinstall` worms that [steal cloud tokens and spread](https://www.trendmicro.com/en_us/research/25/i/npm-supply-chain-attack.html). Be clear-eyed, though: a container is a convention, not a wall. Only the OS sandbox enforces itself.
+* **Use throwaway credentials.** Never let a pipeline reuse a developer's tokens, or injected instructions become [credential theft in CI](https://phoenix.security/critical-ci-cd-nightmare-3-command-injection-flaws-in-claude-code-cli-allow-credential-exfiltration/). Short-lived OIDC tokens, scoped to the job. This is the only place `--dangerously-skip-permissions` is acceptable, and only inside a network-isolated container.
+* **Gate the merge.** Secret scanning, SAST, dependency audit, and an invisible-Unicode check, all blocking, plus branch protection that needs an approval from someone other than the author. Remember headless `-p` skips the trust and managed-settings dialogs, so the isolation is covering for controls that never ran.
+* **Pin the version and the model.** Most agent CVEs are "fixed in version X," and Cursor's [run of sandbox-escape bugs into 2026](https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html) shows one patch is never the end of it. `requiredMinimumVersion` refuses to start on an unpatched build, and `availableModels` with `enforceAvailableModels` keeps runs on sanctioned models.
 
-* **Isolated environment.** Run in a per-repo dev container or managed VM: minimal base image, non-root user, read-only root filesystem, managed settings copied in root-owned, network policy at the container or Kubernetes layer. This is also the prebuilt image your Windows developers use for autonomous work. Malicious code shipped inside a widely used agent extension [tried to wipe roughly a million machines](https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw), and npm `postinstall` worms [steal cloud tokens and self-replicate](https://www.trendmicro.com/en_us/research/25/i/npm-supply-chain-attack.html), so isolation caps the blast radius. Note the limit: a dev container is a convention, not an enforcement boundary; only the OS sandbox is self-enforced.
-* **Ephemeral, job-scoped credentials.** Never reuse developer credentials in pipelines; use short-lived OIDC-federated tokens, or injected instructions become [credential exfiltration in CI](https://phoenix.security/critical-ci-cd-nightmare-3-command-injection-flaws-in-claude-code-cli-allow-credential-exfiltration/). `--dangerously-skip-permissions` is acceptable **only** here, and only in a network-isolated container.
-* **Blocking CI gates.** Secret scanning, SAST on high severity, dependency audit, and an invisible-Unicode scan, plus branch protection requiring a review from someone other than the author (self-review of agent PRs is not review). Note headless `-p` mode **skips the trust and managed-settings approval dialogs**, so the isolation above is compensating for controls that don't run.
-* **Version and model pinning.** Most agent CVEs are "fixed in version X," and [Cursor's repeated sandbox-escape CVEs into 2026](https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html) show single fixes don't hold. Set `requiredMinimumVersion` so agents refuse to start on unpatched builds, and `availableModels` with `enforceAvailableModels` to restrict to sanctioned models.
+## Let repository tier set the ceiling
 
-## Raise the bar for high-value repos
-
-Mode decides the controls; **repository tier decides which modes you may use at all.** The more a repository holds, the less autonomy you should grant.
+Mode decides the controls. Repository tier decides which modes a repo is even allowed to use. The more it holds, the less you should let the agent off the leash.
 
 | Repo tier | Monitored | Autonomous | Unattended |
 | --- | --- | --- | --- |
 | **Tier 3** (docs, prototypes, internal tools) | Floor | Floor + sandbox + egress | Full isolation + CI gates |
 | **Tier 2** (standard product code) | Floor | Floor + full containment | Full isolation + CI gates + non-author review |
-| **Tier 1** (auth, payments, customer data, infrastructure) | Default way to work | Discouraged; full containment + telemetry if used | Only with the full stack **and** governance sign-off |
+| **Tier 1** (auth, payments, customer data, infrastructure) | The default way to work | Discouraged; full containment + telemetry if used at all | Only with the full stack **and** a sign-off |
 
-A repository moves up a tier, via PR review of its settings file, when it gains production credentials, deployment workflows, sensitive data, or a high-risk MCP server. The tier itself is an owned decision, not a developer's guess (see below).
+A repo moves up a tier, reviewed like any other change to its settings file, the day it gains production credentials, a deployment pipeline, sensitive data, or a risky MCP server. Deciding the tier is somebody's job, not a developer's guess.
 
-## Govern it: owners, tier reviews, red-teaming
+## Give it an owner
 
-Agentic autonomy is now weaponised at scale. [Anthropic disrupted a state-sponsored campaign in which Claude Code executed 80-90% of the attack](https://www.anthropic.com/news/disrupting-AI-espionage) across roughly 30 targets, and the [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) formalises risks that need lifecycle governance, not a one-time setup.
+None of this survives contact with a real org unless someone owns it. Agent autonomy is already being turned against people at scale: Anthropic [disrupted a state-sponsored campaign](https://www.anthropic.com/news/disrupting-AI-espionage) where Claude Code ran 80-90% of the attack across roughly 30 targets, and the [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) exists precisely because these are lifecycle risks, not a one-time setup.
 
-* A control-ownership table naming who owns each control and its change process (managed settings, permission floor, MCP catalogue, egress rules, CI gates, tier assignments, exceptions register).
-* Version the managed settings in a git policy repo and deploy from CI, so policy changes get production-grade review. Anthropic publishes starter policies at [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code) under `examples/settings`.
-* A time-boxed, auto-expiring exceptions register, and a quarterly red-team (below). `ConfigChange` hooks and the compliance-API audit log catch runtime config drift.
+* Keep a simple table of who owns each control and how it changes: managed settings, the permission floor, the MCP catalogue, egress rules, CI gates, tier assignments, and the exceptions register.
+* Version your managed settings in a git repo and deploy them from CI, so a policy change gets the same review as production. Anthropic's [starter policies](https://github.com/anthropics/claude-code) under `examples/settings` are a good base.
+* Give exceptions an expiry date, and red-team the setup every quarter (below). `ConfigChange` hooks and the audit log catch config drift in between.
 
-## Test that it actually works
+## Prove it actually works
 
-A policy document is not a control until you have watched it fire. Run a quarterly red-team and record pass/fail per test; that trend line is your real security posture:
+A policy is not a control until you have watched it fire. Once a quarter, try to break your own setup and record what passes:
 
-* Plant a canary secret (a unique token that alerts when read) in a test repo; confirm the deny rule and the SIEM detection both fire.
-* Add a prompt-injection payload to a README that tries to read a key and `curl` it out; confirm the sandbox blocks both the read and the egress.
-* Publish a test package with a malicious `postinstall` script to an internal registry; confirm it runs inside the sandbox and can't write outside the workspace.
-* Attempt to connect an uncatalogued MCP server; confirm it's blocked and logged.
-* Have a developer append an `excludedCommands` entry locally; confirm it's ignored.
-* Run a CI job that tries to merge without the scan gates; confirm branch protection blocks it.
+* Plant a canary secret (a token that alerts when read) and confirm both the deny rule and the SIEM catch it.
+* Drop a prompt-injection payload in a README that tries to read a key and `curl` it out, and confirm the sandbox blocks the read and the egress.
+* Publish a package with a malicious `postinstall` to an internal registry, and confirm it cannot write outside the workspace.
+* Try to connect an MCP server that is not on the list, and confirm it is refused and logged.
+* Have someone append an `excludedCommands` entry, and confirm it is ignored.
+* Push a CI job that skips the scan gates, and confirm branch protection stops it.
+
+That pass-or-fail trend, quarter on quarter, is your real security posture. The policy document is not.
 
 ## Further reading
 
-Setting keys and file paths change between Claude Code releases, so always confirm against the current docs before deploying.
+Setting keys and paths shift between releases, so confirm against the current docs before you deploy.
 
 * [Claude Code settings](https://code.claude.com/docs/en/settings) - the full settings reference and precedence order
-* [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing) - OS sandbox keys, platform support, and credential isolation
-* [Set up Claude Code for your organization](https://code.claude.com/docs/en/admin-setup) - the official admin decision map
-* [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) - the risk taxonomy behind most of these controls
-* [Do you use guardrails when vibe coding with AI?](/guardrails-for-vibe-coding) - the individual-developer counterpart to this rule
+* [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing) - sandbox keys, platform support, and credential isolation
+* [Set up Claude Code for your organization](https://code.claude.com/docs/en/admin-setup) - Anthropic's own admin decision map
+* [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) - the risk taxonomy underneath most of these controls
+* [Do you use guardrails when vibe coding with AI?](/guardrails-for-vibe-coding) - the individual-developer companion to this rule
