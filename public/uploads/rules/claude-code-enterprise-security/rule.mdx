@@ -17,7 +17,7 @@ related:
 archivedreason: null
 ---
 
-Developers adopt Claude Code faster than security teams can govern it. Left unmanaged, the failure modes are concrete and already documented: prompt injection hidden in a README or a repo's `.git/config` that runs **before** the agent's own trust prompt, secrets read out of `~/.aws/credentials` into model context, `--dangerously-skip-permissions` on a corporate laptop, or an un-cataloged MCP server quietly exfiltrating files.
+Developers adopt Claude Code faster than security teams can govern it. Left unmanaged, the failure modes are concrete and already documented: prompt injection hidden in a README or a repo's `.git/config` that runs **before** the agent's own trust prompt, secrets read out of `~/.aws/credentials` into model context, `--dangerously-skip-permissions` on a corporate laptop, or an uncatalogued MCP server quietly exfiltrating files.
 
 Not every repository needs the same controls. What you need is set by **how much you let the agent act on its own**, not just by what the repository contains.
 
@@ -56,7 +56,7 @@ Staff paste proprietary code and secrets into AI tools. [Samsung banned ChatGPT]
 
 ### Enterprise identity: SSO, domain capture, no personal keys
 
-Credentials leak constantly. [28.6M secrets appeared in public GitHub commits in 2025, with AI-service credentials up 81%](https://snyk.io/articles/state-of-secrets/), and breaches traced to shadow AI on personal accounts [cost around US$670K more](https://www.matters.ai/article/shadow-ai-data-breach-cost) and take longer to detect.
+Credentials leak constantly. [28.6M secrets appeared in public GitHub commits in 2025, with AI-service credentials up 81%](https://snyk.io/articles/state-of-secrets/), and breaches involving shadow AI cost around US$670K more on average, per [IBM's 2025 Cost of a Data Breach report](https://www.ibm.com/reports/data-breach), and take longer to contain.
 
 * SSO with **domain capture** so `@yourco.com` sign-ins route to the enterprise workspace, and IdP groups mapped to Claude roles.
 * API keys issued through the admin console with scope and expiry, stored in a secrets manager, never in dotfiles. Force org identity with `forceLoginMethod` and `forceLoginOrgUUID`.
@@ -110,7 +110,7 @@ Deny rules cost nothing and stop the worst outcomes regardless of mode. `deny` a
 
 ## Autonomous: the agent acts without asking
 
-**The moment the agent auto-approves command execution, whether through `auto` or `dontAsk` modes or any "just keep going" workflow, the human gate is gone and technical containment becomes primary.** Injected instructions now reach a shell with no one watching: this is the mode behind the [Amazon Q extension shipping a "delete files, S3 buckets, EC2 instances and IAM users" prompt to roughly a million installs](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/). Four controls become mandatory.
+**The moment the agent auto-approves command execution, whether through `dontAsk` mode, `auto` mode within its classifier limits, or any "just keep going" workflow, the human gate is gone and technical containment becomes primary.** Injected instructions now reach a shell with no one watching: this is the mode behind the [Amazon Q extension shipping a "delete files, S3 buckets, EC2 instances and IAM users" prompt to roughly a million installs](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/). Four controls become mandatory.
 
 ### Enforce the OS sandbox
 
@@ -124,7 +124,7 @@ Prompt injection in analysed source code can drive an agent to [DNS-exfiltrate k
 
 ### Network egress control
 
-The built-in sandbox proxy decides on hostname only and does not inspect TLS, so broad allowed domains stay an exfiltration channel. Agents have been steered to [DNS-exfiltrate through firewalls](https://vibegraveyard.ai/story/claude-code-dns-data-exfiltration/), and [EchoLeak (CVE-2025-32711, CVSS 9.3)](https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability) showed zero-click exfiltration through endpoints an allowlist had permitted.
+The built-in sandbox proxy decides on hostname only and does not inspect TLS, so broad allowed domains stay an exfiltration channel, and even DNS lookups can smuggle data past a firewall that blocks nothing outbound. [EchoLeak (CVE-2025-32711, CVSS 9.3)](https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability) showed zero-click exfiltration through endpoints an allowlist had permitted.
 
 * A TLS-inspecting gateway (`HTTPS_PROXY` plus `NODE_EXTRA_CA_CERTS` trusting the gateway CA). Classify egress by class (model, auth, update, registry, source-control, MCP, WebFetch) and write explicit rules per class.
 * Route model traffic off the public internet with `CLAUDE_CODE_USE_BEDROCK`, `CLAUDE_CODE_USE_VERTEX`, or `CLAUDE_CODE_USE_FOUNDRY`; on a shared VM with an attached cloud role this also eliminates per-developer API keys. Those provider variables **bypass server-managed settings**, so use the self-hosted **Claude apps gateway** to keep audit logging and spend limits.
@@ -135,14 +135,14 @@ An autonomous agent calls tools without asking, so every connected server is liv
 
 * A `managed-mcp.json` allowlist routing every server through one internal gateway that holds the credentials, scopes tools per role, and logs every call. Lock it with `allowManagedMcpServersOnly: true`.
 * Per-tool rules using the `mcp__server__tool` namespace: `allow` reads, `ask` on writes, `deny` the destructive ones.
-* Close the back door: `disableSideloadFlags` (blocks `--plugin-dir`, `--agents`, `--mcp-config`) and `strictKnownMarketplaces`, or a developer simply sideloads an un-cataloged server.
+* Close the back door: `disableSideloadFlags` (blocks `--plugin-dir`, `--agents`, `--mcp-config`) and `strictKnownMarketplaces`, or a developer simply sideloads an uncatalogued server.
 
 ### Telemetry to your SIEM
 
 You are no longer watching, so something else has to. Injection-to-credential-theft chains leave [little visible trace across Claude Code, Gemini CLI, and Copilot](https://oddguan.com/blog/comment-and-control-prompt-injection-credential-theft-claude-code-gemini-cli-github-copilot/) without agent telemetry.
 
 * `allowManagedHooksOnly: true`, then ship a `ConfigChange` hook that alerts on mid-session settings changes and a `PreToolUse` HTTP hook that checks each tool call against a central policy service (restrict endpoints with `allowedHttpHookUrls`).
-* OpenTelemetry export (`CLAUDE_CODE_ENABLE_TELEMETRY=1` plus an OTLP endpoint). Build detections for permission-denial spikes, `ConfigChange` on high-value repos, secret-path Bash, off-catalog MCP calls, and sandbox-fallback events.
+* OpenTelemetry export (`CLAUDE_CODE_ENABLE_TELEMETRY=1` plus an OTLP endpoint). Build detections for permission-denial spikes, `ConfigChange` on high-value repos, secret-path Bash, off-catalogue MCP calls, and sandbox-fallback events.
 
 ## Unattended: no human present
 
@@ -171,7 +171,7 @@ A repository moves up a tier, via PR review of its settings file, when it gains 
 
 Agentic autonomy is now weaponised at scale. [Anthropic disrupted a state-sponsored campaign in which Claude Code executed 80-90% of the attack](https://www.anthropic.com/news/disrupting-AI-espionage) across roughly 30 targets, and the [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) formalises risks that need lifecycle governance, not a one-time setup.
 
-* A control-ownership table naming who owns each control and its change process (managed settings, permission floor, MCP catalog, egress rules, CI gates, tier assignments, exceptions register).
+* A control-ownership table naming who owns each control and its change process (managed settings, permission floor, MCP catalogue, egress rules, CI gates, tier assignments, exceptions register).
 * Version the managed settings in a git policy repo and deploy from CI, so policy changes get production-grade review. Anthropic publishes starter policies at [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code) under `examples/settings`.
 * A time-boxed, auto-expiring exceptions register, and a quarterly red-team (below). `ConfigChange` hooks and the compliance-API audit log catch runtime config drift.
 
@@ -182,7 +182,7 @@ A policy document is not a control until you have watched it fire. Run a quarter
 * Plant a canary secret (a unique token that alerts when read) in a test repo; confirm the deny rule and the SIEM detection both fire.
 * Add a prompt-injection payload to a README that tries to read a key and `curl` it out; confirm the sandbox blocks both the read and the egress.
 * Publish a test package with a malicious `postinstall` script to an internal registry; confirm it runs inside the sandbox and can't write outside the workspace.
-* Attempt to connect an un-cataloged MCP server; confirm it's blocked and logged.
+* Attempt to connect an uncatalogued MCP server; confirm it's blocked and logged.
 * Have a developer append an `excludedCommands` entry locally; confirm it's ignored.
 * Run a CI job that tries to merge without the scan gates; confirm branch protection blocks it.
 
