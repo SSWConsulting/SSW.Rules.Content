@@ -14,6 +14,7 @@ related:
   - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
   - rule: public/uploads/rules/scoped-rules-for-ai-agents/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/verify-ai-skill-safety/rule.mdx
 archivedreason: null
 ---
 
@@ -130,7 +131,7 @@ An autonomous agent calls tools without checking with you, so every connected se
 
 * Keep an allowlist in `managed-mcp.json` and route every server through one internal gateway that holds the credentials, scopes tools per role, and logs every call. Lock it with `allowManagedMcpServersOnly: true`.
 * Set per-tool rules with the `mcp__server__tool` namespace: allow the reads, ask on the writes, deny the destructive ones.
-* Close the side door too. `disableSideloadFlags` and `strictKnownMarketplaces` stop a developer sidestepping the whole catalogue with `--mcp-config` or a random plugin.
+* Close the side door too. `disableSideloadFlags` and `strictKnownMarketplaces` stop a developer sidestepping the whole catalogue with `--mcp-config` or a random plugin, and the same wariness applies to any [skill you did not write yourself](/verify-ai-skill-safety), because a skill is just files that run with your permissions.
 
 ### Send the evidence to your SIEM
 
