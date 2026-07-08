@@ -12,8 +12,8 @@ lastUpdated: 2021-06-17 17:15:32.446000+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
-seoDescription: Optimize page load times by placing JavaScript files at the bottom
-  of your HTML, just before the closing body tag.
+seoDescription: Optimize page load times by loading your scripts with the defer or
+  async attribute so they don't block the page.
 title: Do you place scripts at the bottom of your page?
 categories:
   - category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
@@ -25,19 +25,19 @@ Bear in mind that the load time is a very important aspect on web development. T
 
 <endIntro />
 
-It's known that when a browser loads a script, it can’t continue on until the entire file has been loaded.
+It's known that a script without `defer` or `async` blocks the browser from parsing the rest of the page until the file has been downloaded and run. Slower pages cost you users, so you want your scripts to load without holding up the content.
 
-Once JavaScript files have the purpose to add functionality - something happen after a button is clicked for example — there is no good reason to load the JS file before the button itself.
-
-So go ahead and place JS files at the bottom of the HTML, just before the closing body tag.
+The modern approach is to keep your scripts in the `<head>` and add the `defer` attribute. Deferred scripts download in parallel while the page is parsed, then run in order once the HTML is ready.
 
 ```html
-...
-<script type="text/javascript" src="file.js"></script>
-  </body>
-    </html>
+<head>
+  ...
+  <script src="file.js" defer></script>
+</head>
 ```
 
-**Figure: Place JavaScript at the bottom of your HTML**
+**✅ Figure: Good example - defer lets the script load without blocking the page**
 
-Tests at a big online sales company revealed that every 100 ms increase in load time decreased sales by 1%.
+Use `async` instead of `defer` for independent scripts (such as analytics) that don't depend on the DOM or on each other.
+
+If you can't use `defer` or `async`, the legacy fallback is to place your scripts at the bottom of the HTML, just before the closing `</body>` tag, so they load after the page content.
