@@ -1,0 +1,66 @@
+---
+type: rule
+title: Do you link directly to the message when chasing an action in Teams?
+uri: link-to-messages
+categories:
+  - category: categories/communication/rules-to-better-microsoft-teams.mdx
+authors:
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+related:
+  - rule: public/uploads/rules/refer-to-email-subject/rule.mdx
+  - rule: public/uploads/rules/follow-up-effectively/rule.mdx
+guid: 502965d9-d7ed-482c-941e-c4bafac56949
+seoDescription: 'When you chase someone for an action in Teams, link straight to the message so they are one click from where they need to act.'
+created: 2026-06-26T03:21:06.374Z
+createdBy: AlexBlum-SSW
+createdByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-07-01T00:16:12.259Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
+---
+
+Following-up is key to get things done. See [Do you follow up tasks effectively?](https://www.ssw.com.au/rules/follow-up-effectively)
+
+When you need someone to act on something buried in a busy chat or channel, don't make them hunt for it. Copy the link to the exact message and paste it into your follow-up, so they are one click from where they need to act.
+
+<endIntro />
+
+In Microsoft Teams, hover over the message, click the `Meatball menu (...)`, and then choose `Copy link`. Paste that link into a short follow-up message.
+
+<imageEmbed alt="Demonstration of creating a direct link to a message in Teams" size="medium" showBorder={true} figurePrefix="none" figure="Creating a direct link to a message in Teams" src="/uploads/rules/link-to-messages/direct-message-link-example.png" />
+
+<boxEmbed
+  body={<>
+    Hi Adam,
+    
+    Can you check the chat and &#123;&#123; ACTION &#125;&#125; when you get a chance?
+  </>}
+  figurePrefix="bad"
+  figure="No context and no link, so the reader has to scroll the channel to find the right message"
+/>
+
+<boxEmbed
+  body={<>
+    Hi Adam,
+    
+    RE: &#123;&#123; SUBJECT &#125;&#125;
+    
+    1\. Please see chat and &#123;&#123; ACTION &#125;&#125;:
+    
+    &#123;&#123; INSERT LINK TO MESSAGE &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure="Clear context, a numbered ask, and a direct link to the exact message that needs the vote"
+/>
+
+***
+
+## Why this works
+
+* The reader does not waste time scrolling a channel to find what you're referring to
+* The `RE: &#123;&#123; SUBJECT &#125;&#125;` line gives instant context, so they know what it relates to before opening anything
+* The numbered task makes the required action unambiguous
+* A permalink survives even when the channel keeps moving, so the message is still findable later
