@@ -19,9 +19,9 @@ seoDescription: 'Understand Azure Private Networking, including Private Endpoint
 created: 2026-03-05T23:12:00.032Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-09T06:52:27.807Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-07-10T00:47:38.777Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
 Azure Private Networking allows Azure services to be accessed through private IP addresses inside a Virtual Network (VNet) instead of the public internet. It uses features such as Azure Private Link and Private Endpoints to create secure, private connections between your applications and Azure services.
@@ -29,6 +29,10 @@ Azure Private Networking allows Azure services to be accessed through private IP
 <endIntro />
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=88cfFXVE50Y" description="Video: Azure Private Networking Explained | Ben Neoh | SSW Rules (6 min)" />
+
+## 📚 Recommended networking basics
+
+Before going deep into cloud-specific networking concepts, it is worth understanding the basic networking fundamentals first. Watch this [video](https://www.youtube.com/watch?v=xj_GjnD4uyI) if you are new to networking. 
 
 ## ✅ Advantages
 
@@ -58,6 +62,14 @@ Private networking can increase infrastructure costs because some Azure services
 ### ⚙ Additional networking infrastructure
 
 Implementing private networking typically requires additional infrastructure components such as virtual networks, subnets, private DNS zones, NAT gateways, and Bastion or VPN gateways. These components add complexity to the initial setup and ongoing maintenance, particularly when managing infrastructure through Infrastructure as Code (IaC) and CI/CD pipelines.
+
+### 🔁 A middle-ground option
+
+If full private networking is too costly or complex for the workload, consider whether a service-specific network restriction is enough.
+
+For example, with Azure SQL Database, you can restrict access using firewall rules instead of immediately using a Private Endpoint. This can be useful for lower-risk workloads where you only need to allow access from known IP addresses or controlled Azure resources.
+
+This middle-ground approach can reduce cost and complexity, but it is not the same as full private networking. Choose based on the security requirements of your workload.
 
 ## ✅ Recommendation – When to use Azure Private Networking
 
