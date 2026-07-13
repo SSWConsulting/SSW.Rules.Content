@@ -56,3 +56,50 @@ Make the changes even easier to see and understand by highlighting:
 * In <mark style="background-color: #CC4141">red</mark> (with white and bold text) - Content you want to delete, whether it be specific text or an entire sentence (only do this on the "From" section)
   **Note:** Only indicate in red the content that will **not** be replaced/updated with something correlated.
 
+**Note:** All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
+
+1\. For the CodeAuditor web page, please make the list read:
+
+Scan all your projects for coding errors:
+
+\- Guarantee Industry best practices
+
+\- Friendly licensing model, bloggers even pay $0 for the full version!
+  </>}
+  figurePrefix="bad"
+  figure="The original version of content has not been included in the email... it is hard to tell what needs to be changed"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
+
+On CodeAuditor web page ssw.com.au/ssw/codeauditor
+
+1\. Please change:
+
+From:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scan all your projects for coding <mark style="background-color: #CC4141">bugs and</mark> errors:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model pay nothing for the full version!
+
+To:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scan all your projects for coding errors
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <mark style="background-color: #FEF08A">Guarantee</mark> industry best practices
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model<mark style="background-color: #FEF08A"> - bloggers even pay $0</mark> for the full version!
+  </>}
+  figurePrefix="good"
+  figure="'From' and 'To' changes are highlighted... it is clear what needs to be changed"
+/>
+
+**Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+
+
+
