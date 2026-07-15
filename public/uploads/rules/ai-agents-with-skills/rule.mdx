@@ -64,7 +64,15 @@ For connecting to external systems like databases or APIs, use [MCP servers](/ru
 
 ## When to use public skills
 
-You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities. In Claude Code, you can install them via the plugin system:
+You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities.
+
+The best way to discover and install skills is [skills.sh](https://www.skills.sh/) - Vercel's open agent skills ecosystem. It's a registry of community and official skills plus a CLI that installs a skill into the right location for whichever agent you use (Claude Code, GitHub Copilot, Cursor, Codex, and 70+ others) - no per-agent setup required:
+
+```bash
+npx skills add anthropics/skills --skill frontend-design
+```
+
+If you're using Claude Code only, you can alternatively install via the plugin system:
 
 ```bash
 /plugin marketplace add anthropics/skills
@@ -135,7 +143,19 @@ Project-level skills (committed to the repo) are one of the most effective ways 
 * **Review skill changes in PRs** - when a teammate updates a skill, review it like you would review code
 * **Be cautious of skills that run shell commands** - skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
 
+## Publishing skills
+
+To share skills beyond your team, publish them to [skills.sh](https://www.skills.sh/). There's no submission process - push a public GitHub repository containing your `SKILL.md` files and anyone can install them with one command, regardless of which agent they use:
+
+```bash
+npx skills add your-org/your-skills-repo
+```
+
+This beats maintaining separate install instructions for Claude Code, Copilot, Cursor, and every other agent - the skills CLI puts the skill in the right place for each one.
+
 ## Setting up skills
+
+If you installed a skill via `npx skills add`, the CLI already placed it correctly for your agent - the locations below are for writing your own skills manually.
 
 ### Claude Code
 
@@ -258,6 +278,7 @@ Where you store a skill determines who can use it:
 
 ## Further reading
 
+* [skills.sh - The Open Agent Skills Ecosystem](https://www.skills.sh/) - discover, install, and publish skills across 70+ agents
 * [Specification - Agent Skills](https://agentskills.io/specification)
 * [Extend Claude with skills - Claude Code](https://code.claude.com/docs/en/skills)
 * [Agent Skills - OpenCode](https://opencode.ai/docs/skills/)
