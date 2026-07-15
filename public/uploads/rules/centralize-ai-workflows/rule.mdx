@@ -20,7 +20,7 @@ lastUpdatedBy: Luke Cook
 lastUpdatedByEmail: LukeCook@ssw.com.au
 ---
 
-Your team has five developers using AI agents, and five slightly different `/code-review` skills. One checks for SQL injection, another forgets. A new hire copies whichever version they stumble across first, and the checks that should be identical across the team have quietly drifted apart.
+Your team has five developers using AI agents, and five slightly different `/code-review` skills. One checks for SQL injection, another lets it sail through. A new hire copies whichever version they stumble across first, and the checks that should be identical across the team have quietly drifted apart.
 
 Centralizing your AI workflows means distributing skills, plugins, and agent config from one source of truth, so every developer's agent behaves the same way. Fix the source once and the whole team picks up the change.
 
@@ -37,7 +37,7 @@ Skills and plugins are only worth writing once. If each developer maintains thei
 
 <boxEmbed
   body={<>
-    Every developer keeps their own skills in `~/.claude/skills/`. Alice's `/code-review` checks for N+1 queries; Bob's doesn't. Nobody knows whose version is correct, and each new project starts from a blank slate.
+    Every developer keeps their own skills in ~/.claude/skills/. Alice added a security check to her /code-review months ago after a bug slipped through - but Bob never got that fix, and last week his agent approved a PR with the exact same vulnerability. When a new hire asks "which version should I copy?", nobody has an answer.
   </>}
   figurePrefix="bad"
   figure="Personal, per-machine skills drift apart and can't be reviewed"
