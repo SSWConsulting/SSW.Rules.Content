@@ -1,0 +1,93 @@
+---
+type: rule
+title: Do you centralize your team's AI workflows?
+uri: centralize-ai-workflows
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Luke Cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
+related:
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+guid: cd6d3ad6-91d1-46be-a142-f47e1a672dd6
+seoDescription: 'Learn how to centralize and distribute AI skills and plugins across your team. Compare how Claude Code, GitHub Copilot, OpenAI Codex, and Gemini CLI handle org-wide distribution and self-hosted marketplaces.'
+created: 2026-07-15T00:00:00.000Z
+createdBy: Luke Cook
+createdByEmail: LukeCook@ssw.com.au
+lastUpdated: 2026-07-15T00:00:00.000Z
+lastUpdatedBy: Luke Cook
+lastUpdatedByEmail: LukeCook@ssw.com.au
+---
+
+Your team has five developers using AI agents, and five slightly different `/code-review` skills. One checks for SQL injection, another forgets. A new hire copies whichever version they stumble across first, and the checks that should be identical across the team have quietly drifted apart.
+
+Centralizing your AI workflows means distributing skills, plugins, and agent config from one source of truth, so every developer's agent behaves the same way. Fix the source once and the whole team picks up the change.
+
+<endIntro />
+
+## Why centralize your AI workflows?
+
+Skills and plugins are only worth writing once. If each developer maintains their own copy, you lose the main benefit - consistency.
+
+* **Consistent results** - everyone's agent follows the same review checklist, commit format, and coding standards
+* **Faster onboarding** - a new hire installs one marketplace and inherits the whole team's workflows on day one
+* **One place to fix** - patch a skill at the source instead of chasing stale copies across repos and laptops
+* **Safer by review** - shared skills go through PR review before they reach everyone, instead of unvetted files spreading ad hoc
+
+<boxEmbed
+  body={<>
+    Every developer keeps their own skills in `~/.claude/skills/`. Alice's `/code-review` checks for N+1 queries; Bob's doesn't. Nobody knows whose version is correct, and each new project starts from a blank slate.
+  </>}
+  figurePrefix="bad"
+  figure="Personal, per-machine skills drift apart and can't be reviewed"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    The team publishes its skills to a shared repository. Everyone runs `/plugin marketplace add northwind/Northwind.AI.Skills` once, installs the same reviewed skills, and gets updates by pulling the repo.
+  </>}
+  figurePrefix="good"
+  figure="One shared source of truth, installed the same way by everyone"
+  style="greybox"
+/>
+
+## How do the major tools handle this?
+
+Every major AI coding tool has converged on the same two-tier model: push config down from an admin if you're on an enterprise plan, or self-host a shared repository if you're not.
+
+| Tool | Push org-wide (enterprise/admin) | Self-host (no enterprise plan) |
+| --- | --- | --- |
+| **Claude Code** | Admins deploy a locked `managed-settings.json` that auto-registers marketplaces and force-enables plugins for everyone | Host a plugin marketplace in any git repo, then `/plugin marketplace add owner/repo` |
+| **GitHub Copilot** | Enterprise/org policies, organization custom instructions, and Agent Skills across all surfaces | Commit Agent Skills to `.github/skills/`; Copilot CLI also supports a plugin marketplace |
+| **OpenAI Codex** | ChatGPT Enterprise admins manage plugins and push a `requirements.toml` policy layer | Commit skills to `.agents/skills/`, or package them as a plugin for workspace install |
+| **Gemini CLI** | System-level `settings.json` at fixed OS paths sets allowed MCP servers and tools | Publish an extension to a git repo, then `gemini extensions install <git-url>` |
+
+Skills themselves are portable - Claude, Copilot, and Codex all read the same `SKILL.md` open standard, and most tools now honor a shared `AGENTS.md` for project context. So a central repository can serve more than one tool at once.
+
+## What if you don't have an enterprise plan?
+
+You don't need Claude Teams or Copilot Enterprise to standardize. Create a repository that acts as the source of truth for your team's general-purpose skills and plugins - for example `github.com/northwind/Northwind.AI.Skills`. Developers add it as a marketplace (or install it as an extension) and pull updates like any other dependency.
+
+This keeps distribution in git, where it belongs: changes go through PR review, history is auditable, and a private repo keeps internal workflows internal. Project-specific skills still live in their own project repos.
+
+<boxEmbed
+  body={<>
+    Skills and plugins are prompt injections by design - a malicious one can instruct the agent to run destructive commands or exfiltrate data. Before you distribute anything org-wide, read it in full and review updates like code. A central, reviewed repository is safer than everyone grabbing files from random third-party marketplaces.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you use skills to standardize your AI workflows?](/rules/ai-agents-with-skills) - how to write and share the skills you'll distribute
+* [SSW: Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - when to reach for MCP servers instead
+* [Claude Code plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) - host and distribute plugins from a git repo
+* [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) - shared skills across Copilot surfaces
+* [Gemini CLI extensions](https://google-gemini.github.io/gemini-cli/docs/extensions/) - package commands, MCP servers, and skills
+* [AGENTS.md](https://agents.md/) - the open standard many tools read for project context
