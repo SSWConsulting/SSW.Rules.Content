@@ -17,9 +17,9 @@ seoDescription: 'Learn how to centralize and distribute AI skills and plugins ac
 created: 2026-07-15T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-07-15T00:00:00.000Z
-lastUpdatedBy: Luke Cook
-lastUpdatedByEmail: LukeCook@ssw.com.au
+lastUpdated: 2026-07-16T07:01:25.923Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
 Your team has five developers using AI agents, and five slightly different `/code-review` skills. One checks for SQL injection, another lets it sail through. A new hire copies whichever version they stumble across first, and the checks that should be identical across the team have quietly drifted apart.
@@ -28,10 +28,9 @@ Centralizing your AI workflows means distributing skills, plugins, and agent con
 
 <endIntro />
 
-<youtubeEmbed
-  url="https://www.youtube.com/watch?v=lrRfo2h0O9o"
-  description="Video: The Smarter Way to Share AI Skills | Ulysses Maclaren | SSW Rules (1 min)"
-/>
+<youtubeEmbed url="https://www.youtube.com/watch?v=lrRfo2h0O9o" description="Video: The Smarter Way to Share AI Skills | Ulysses Maclaren | SSW Rules (1 min)" />
+
+<imageEmbed alt="centralize your AI workflow" size="large" showBorder={false} figurePrefix="none" figure="Figure: Centralize AI plugins and skills in one place to support consistent workflows" src="/uploads/rules/centralize-ai-workflows/ai-plugins.jpg" />
 
 ## Why centralize your AI workflows?
 
@@ -64,12 +63,12 @@ Skills and plugins are only worth writing once. If each developer maintains thei
 
 Every major AI coding tool has converged on the same two-tier model: push config down from an admin if you're on an enterprise plan, or self-host a shared repository if you're not.
 
-| Tool | Push org-wide (enterprise/admin) | Self-host (no enterprise plan) |
-| --- | --- | --- |
-| **Claude Code** | Admins deploy a locked `managed-settings.json` that auto-registers marketplaces and force-enables plugins for everyone | Host a plugin marketplace in any git repo, then `/plugin marketplace add owner/repo` |
-| **GitHub Copilot** | Enterprise/org policies, organization custom instructions, and Agent Skills across all surfaces | Commit Agent Skills to `.github/skills/`; Copilot CLI also supports a plugin marketplace |
-| **OpenAI Codex** | ChatGPT Enterprise admins manage plugins and push a `requirements.toml` policy layer | Commit skills to `.agents/skills/`, or package them as a plugin for workspace install |
-| **Gemini CLI** | System-level `settings.json` at fixed OS paths sets allowed MCP servers and tools | Publish an extension to a git repo, then `gemini extensions install <git-url>` |
+| Tool               | Push org-wide (enterprise/admin)                                                                                       | Self-host (no enterprise plan)                                                           |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Claude Code**    | Admins deploy a locked `managed-settings.json` that auto-registers marketplaces and force-enables plugins for everyone | Host a plugin marketplace in any git repo, then `/plugin marketplace add owner/repo`     |
+| **GitHub Copilot** | Enterprise/org policies, organization custom instructions, and Agent Skills across all surfaces                        | Commit Agent Skills to `.github/skills/`; Copilot CLI also supports a plugin marketplace |
+| **OpenAI Codex**   | ChatGPT Enterprise admins manage plugins and push a `requirements.toml` policy layer                                   | Commit skills to `.agents/skills/`, or package them as a plugin for workspace install    |
+| **Gemini CLI**     | System-level `settings.json` at fixed OS paths sets allowed MCP servers and tools                                      | Publish an extension to a git repo, then `gemini extensions install <git-url>`           |
 
 Skills themselves are portable - Claude, Copilot, and Codex all read the same `SKILL.md` open standard, and most tools now honor a shared `AGENTS.md` for project context. So a central repository can serve more than one tool at once.
 
