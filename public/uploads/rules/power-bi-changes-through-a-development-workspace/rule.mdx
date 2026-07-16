@@ -1,5 +1,5 @@
 ---
-title: Do you manage Power BI changes through a Development workspace and Git?
+title: Do you let users safely update Power BI reports?
 uri: power-bi-changes-through-a-development-workspace
 categories:
   - category: categories/company-operations/rules-to-better-power-bi.mdx
@@ -14,14 +14,14 @@ seoDescription: How to manage Power BI report changes safely using a Git-connect
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-16T01:50:10.893Z
+lastUpdated: 2026-07-16T05:34:17.321Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
-Power BI workspaces provide a shared environment for managing reports, semantic models, and other Fabric items.
+The ideal development workflow is to clone the repository, make changes in Power BI Desktop, and follow the standard feature-branch and pull-request process.
 
-When a workspace is connected to Git, admins can edit reports in the Development workspace, commit those changes to source control, and have them reviewed before Production is updated.
+However, when your admin need to make small Power BI report changes without waiting for a developer to become available, a Git-connected Development workspace provides a simple editing experience. They can edit and test reports in the shared workspace, commit changes without using Git commands or local branches, and send them for review before Production is updated.
 
 <endIntro />
 
@@ -33,20 +33,17 @@ When a workspace is connected to Git, admins can edit reports in the Development
 A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use a Development workspace for editing and testing. Keep the Production workspace for approved reports used by end users.
 
 
-
 ## How does a workspace work with Git
 
 A workspace connects to one Git repository, one branch, and one repository folder at a time.
 
 Changes made in the workspace are compared with its connected branch:
 
-\- \*\*Changes\*\* – workspace edits that have not been committed to Git
+**Changes** – workspace edits that have not been committed to Git
 
-\- \*\*Updates\*\* – Git changes that have not been applied to the workspace
+**Updates** – Git changes that have not been applied to the workspace
 
-Before editing, confirm there are no unexpected Changes or Updates.
-
-A workspace connection applies to all supported items in that workspace. Use another workspace and branch when work needs to be developed independently.
+`⚠️ Notes: Before edit the report, confirm there are no unexpected Changes or Updates`
 
 ## How to commit changes from workspace
 
