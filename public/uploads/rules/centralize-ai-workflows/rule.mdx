@@ -17,7 +17,7 @@ seoDescription: 'Learn how to centralize and distribute AI skills and plugins ac
 created: 2026-07-15T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-07-16T19:04:27.720Z
+lastUpdated: 2026-07-16T19:05:23.847Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -93,7 +93,9 @@ This keeps distribution in git, where it belongs: changes go through PR review, 
 
 <boxEmbed
   body={<>
-    Skills and plugins are prompt injections by design - a malicious one can instruct the agent to run destructive commands or exfiltrate data. Before you distribute anything org-wide, [verify its safety](/rules/verify-ai-skill-safety) - read it in full and review updates like code. A central, reviewed repository is safer than everyone grabbing files from random third-party marketplaces.
+    **Warning:** Skills and plugins are prompt injections by design. A malicious one can instruct the agent to run destructive commands or exfiltrate data!
+    
+    Before you distribute anything org-wide, [verify its safety](/rules/verify-ai-skill-safety). Read it in full and review updates like code. A central, reviewed repository is safer than everyone grabbing files from random third-party marketplaces.
   </>}
   figurePrefix="none"
   figure=""
