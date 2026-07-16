@@ -14,7 +14,7 @@ seoDescription: How to manage Power BI report changes safely using a Git-connect
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-16T05:34:17.321Z
+lastUpdated: 2026-07-16T05:38:31.234Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
@@ -25,21 +25,17 @@ However, when your admin need to make small Power BI report changes without wait
 
 <endIntro />
 
-
-
-
 ## What is a Power BI workspace?
 
 A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use a Development workspace for editing and testing. Keep the Production workspace for approved reports used by end users.
 
-
 ## How does a workspace work with Git
 
-A workspace connects to one Git repository, one branch, and one repository folder at a time.
+A workspace connects to one Git repository, one branch, and one repository folder at a time. Changes made in the workspace are compared with its connected branch:
 
-Changes made in the workspace are compared with its connected branch:
+<imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
 
-**Changes** – workspace edits that have not been committed to Git
+**Figure: Changes** – workspace edits that have not been committed to Git
 
 **Updates** – Git changes that have not been applied to the workspace
 
