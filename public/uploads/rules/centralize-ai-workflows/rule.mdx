@@ -17,9 +17,9 @@ seoDescription: 'Learn how to centralize and distribute AI skills and plugins ac
 created: 2026-07-15T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-07-16T07:01:25.923Z
-lastUpdatedBy: Ben Neoh
-lastUpdatedByEmail: benneoh@ssw.com.au
+lastUpdated: 2026-07-16T19:04:27.720Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 Your team has five developers using AI agents, and five slightly different `/code-review` skills. One checks for SQL injection, another lets it sail through. A new hire copies whichever version they stumble across first, and the checks that should be identical across the team have quietly drifted apart.
@@ -30,8 +30,6 @@ Centralizing your AI workflows means distributing skills, plugins, and agent con
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=lrRfo2h0O9o" description="Video: The Smarter Way to Share AI Skills | Ulysses Maclaren | SSW Rules (1 min)" />
 
-<imageEmbed alt="centralize your AI workflow" size="large" showBorder={false} figurePrefix="none" figure="Figure: Centralize AI plugins and skills in one place to support consistent workflows" src="/uploads/rules/centralize-ai-workflows/ai-plugins.jpg" />
-
 ## Why centralize your AI workflows?
 
 Skills and plugins are only worth writing once. If each developer maintains their own copy, you lose the main benefit - consistency.
@@ -40,6 +38,10 @@ Skills and plugins are only worth writing once. If each developer maintains thei
 * **Faster onboarding** - a new hire installs one marketplace and inherits the whole team's workflows on day one
 * **One place to fix** - patch a skill at the source instead of chasing stale copies across repos and laptops
 * **Safer by review** - shared skills go through PR review before they reach everyone, instead of unvetted files spreading ad hoc
+
+<imageEmbed alt="centralize your AI workflow" size="large" showBorder={true} figurePrefix="none" figure="Centralize AI plugins and skills in one place to support consistent workflows" src="/uploads/rules/centralize-ai-workflows/ai-plugins-ssw.jpg" />
+
+### Examples
 
 <boxEmbed
   body={<>
@@ -58,6 +60,8 @@ Skills and plugins are only worth writing once. If each developer maintains thei
   figure="One shared source of truth, installed the same way by everyone"
   style="greybox"
 />
+
+***
 
 ## How do the major tools handle this?
 
@@ -100,9 +104,9 @@ This keeps distribution in git, where it belongs: changes go through PR review, 
 
 ### Learn more
 
-* [SSW: Do you use skills to standardize your AI workflows?](/rules/ai-agents-with-skills) - how to write and share the skills you'll distribute
-* [SSW: Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - when to reach for MCP servers instead
-* [Claude Code plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) - host and distribute plugins from a git repo
-* [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) - shared skills across Copilot surfaces
-* [Gemini CLI extensions](https://google-gemini.github.io/gemini-cli/docs/extensions/) - package commands, MCP servers, and skills
-* [AGENTS.md](https://agents.md/) - the open standard many tools read for project context
+* [SSW: Do you use skills to standardize your AI workflows?](/rules/ai-agents-with-skills) - How to write and share the skills you'll distribute
+* [SSW: Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - When to reach for MCP servers instead
+* [Claude Code plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) - Host and distribute plugins from a git repo
+* [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) - Shared skills across Copilot surfaces
+* [Gemini CLI extensions](https://google-gemini.github.io/gemini-cli/docs/extensions/) - Package commands, MCP servers, and skills
+* [AGENTS.md](https://agents.md/) - The open standard many tools read for project context
