@@ -13,7 +13,7 @@ related:
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
 guid: cd6d3ad6-91d1-46be-a142-f47e1a672dd6
-seoDescription: 'Learn how to centralize and distribute AI skills and plugins across your team. Compare how Claude Code, GitHub Copilot, OpenAI Codex, and Gemini CLI handle org-wide distribution and self-hosted marketplaces.'
+seoDescription: 'Learn how to centralize and distribute AI skills and plugins across your team. Compare how Claude Code, GitHub Copilot, OpenAI Codex, and Google Antigravity handle org-wide distribution and shared repositories.'
 created: 2026-07-15T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
@@ -65,16 +65,16 @@ Skills and plugins are only worth writing once. If each developer maintains thei
 
 ## How do the major tools handle this?
 
-Every major AI coding tool has converged on the same two-tier model: push config down from an admin if you're on an enterprise plan, or self-host a shared repository if you're not.
+Major AI coding tools use some combination of admin-controlled config and shared repositories. The exact support depends on the tool and plan.
 
-| Tool               | Push org-wide (enterprise/admin)                                                                                       | Self-host (no enterprise plan)                                                           |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Claude Code**    | Admins deploy a locked `managed-settings.json` that auto-registers marketplaces and force-enables plugins for everyone | Host a plugin marketplace in any git repo, then `/plugin marketplace add owner/repo`     |
-| **GitHub Copilot** | Enterprise/org policies, organization custom instructions, and Agent Skills across all surfaces                        | Commit Agent Skills to `.github/skills/`; Copilot CLI also supports a plugin marketplace |
-| **OpenAI Codex**   | ChatGPT Enterprise admins manage plugins and push a `requirements.toml` policy layer                                   | Commit skills to `.agents/skills/`, or package them as a plugin for workspace install    |
-| **Gemini CLI**     | System-level `settings.json` at fixed OS paths sets allowed MCP servers and tools                                      | Publish an extension to a git repo, then `gemini extensions install <git-url>`           |
+| Tool                   | Push org-wide (enterprise/admin)                                                                                           | Self-host (no enterprise plan)                                                           |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Claude Code**        | Admins deploy a locked `managed-settings.json` that auto-registers marketplaces and force-enables plugins for everyone     | Host a plugin marketplace in any git repo, then `/plugin marketplace add owner/repo`     |
+| **GitHub Copilot**     | Enterprise/org policies, organization custom instructions, and Agent Skills across all surfaces                            | Commit Agent Skills to `.github/skills/`; Copilot CLI also supports a plugin marketplace |
+| **OpenAI Codex**       | ChatGPT Enterprise admins manage plugins and push a `requirements.toml` policy layer                                       | Commit skills to `.agents/skills/`, or package them as a plugin for workspace install    |
+| **Google Antigravity** | Gemini Enterprise Agent Platform provides org-level access and data governance; centralized admin controls are coming soon | Commit skills to `.agents/skills/`, or plugins to `.agents/plugins/`                     |
 
-Skills themselves are portable - Claude, Copilot, and Codex all read the same `SKILL.md` open standard, and most tools now honor a shared `AGENTS.md` for project context. So a central repository can serve more than one tool at once.
+Skills themselves are portable - Claude, Copilot, Codex, and Antigravity all read the same `SKILL.md` open standard, and most tools now honor a shared `AGENTS.md` for project context. So a central repository can serve more than one tool at once.
 
 ## What if you don't have an enterprise plan?
 
@@ -94,7 +94,7 @@ This keeps distribution in git, where it belongs: changes go through PR review, 
 <boxEmbed
   body={<>
     **Warning:** Skills and plugins are prompt injections by design. A malicious one can instruct the agent to run destructive commands or exfiltrate data!
-    
+
     Before you distribute anything org-wide, [verify its safety](/rules/verify-ai-skill-safety). Read it in full and review updates like code. A central, reviewed repository is safer than everyone grabbing files from random third-party marketplaces.
   </>}
   figurePrefix="none"
@@ -110,5 +110,5 @@ This keeps distribution in git, where it belongs: changes go through PR review, 
 * [SSW: Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - When to reach for MCP servers instead
 * [Claude Code plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) - Host and distribute plugins from a git repo
 * [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) - Shared skills across Copilot surfaces
-* [Gemini CLI extensions](https://google-gemini.github.io/gemini-cli/docs/extensions/) - Package commands, MCP servers, and skills
+* [Google Antigravity plugins](https://antigravity.google/docs/plugins) - Package skills, rules, MCP servers, and hooks
 * [AGENTS.md](https://agents.md/) - The open standard many tools read for project context
