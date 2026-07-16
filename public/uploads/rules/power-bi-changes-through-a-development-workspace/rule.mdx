@@ -1,17 +1,67 @@
 ---
-title: Do you manage Power BI changes through a Development workspace and Git branch?
+title: Do you manage Power BI changes through a Development workspace and Git?
 uri: power-bi-changes-through-a-development-workspace
+categories:
+  - category: categories/company-operations/rules-to-better-power-bi.mdx
+  - category: categories/company-operations/rules-to-better-reporting-services.mdx
+authors:
+  - title: Ben Neoh
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/do-you-know-powerbi-version-control-features/rule.mdx
 guid: abbc22c1-a5f8-45b4-a3bb-a85aeab06751
+seoDescription: How to manage Power BI report changes safely using a Git-connected Development workspace
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-16T01:03:39.997Z
+lastUpdated: 2026-07-16T01:50:10.893Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
-Intro
+Power BI workspaces provide a shared environment for managing reports, semantic models, and other Fabric items.
+
+When a workspace is connected to Git, admins can edit reports in the Development workspace, commit those changes to source control, and have them reviewed before Production is updated.
 
 <endIntro />
 
-Body
+
+
+
+## What is a Power BI workspace?
+
+A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use a Development workspace for editing and testing. Keep the Production workspace for approved reports used by end users.
+
+
+
+## How does a workspace work with Git
+
+A workspace connects to one Git repository, one branch, and one repository folder at a time.
+
+Changes made in the workspace are compared with its connected branch:
+
+\- \*\*Changes\*\* – workspace edits that have not been committed to Git
+
+\- \*\*Updates\*\* – Git changes that have not been applied to the workspace
+
+Before editing, confirm there are no unexpected Changes or Updates.
+
+A workspace connection applies to all supported items in that workspace. Use another workspace and branch when work needs to be developed independently.
+
+## How to commit changes from workspace
+
+1\. Open the Development workspace.
+
+2\. Confirm nobody else is editing the same report.
+
+3\. Edit, save, and test the report.
+
+4\. Open \*\*Source control\*\*.
+
+5\. Review the changed items.
+
+6\. Enter a clear commit message.
+
+7\. Select \*\*Commit\*\*.
+
+8\. Send the change for review before Production is updated
