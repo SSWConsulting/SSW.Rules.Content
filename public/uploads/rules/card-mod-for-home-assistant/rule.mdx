@@ -2,7 +2,7 @@
 type: rule
 title: Do you use card-mod to style Home Assistant cards?
 uri: card-mod-for-home-assistant
-seoDescription: Use card-mod to apply custom CSS to Lovelace cards in Home Assistant for consistent, polished dashboards - without the performance traps.
+seoDescription: Use card-mod to apply custom CSS to Lovelace cards in Home Assistant for consistent, polished dashboards, without the performance traps.
 guid: 902e670c-faec-45c2-a9c0-c9f71dd64a5b
 created: 2026-07-17T00:00:00.000Z
 authors:
@@ -12,11 +12,11 @@ categories:
   - category: categories/office-automation/rules-to-better-home-assistant.mdx
 ---
 
-Want to tweak how a standard Lovelace card looks - recolour a state, tighten some padding, round the corners - without building a custom card from scratch? Use [card-mod](https://github.com/thomasloven/lovelace-card-mod).
+A few CSS tweaks are all it takes to customise a standard Lovelace card. You can recolour states, adjust spacing, round corners, and more without creating a custom card. Use [card-mod](https://github.com/thomasloven/lovelace-card-mod).
 
 <endIntro />
 
-card-mod lets you drop plain CSS into almost any built-in card via a `card_mod` block, so you get the look you want without reinventing the card. Install it through [HACS](https://hacs.xyz/), then keep shared styling in a [theme](https://www.home-assistant.io/integrations/frontend/#defining-themes) rather than repeating it on every card.
+It lets you drop plain CSS into almost any built-in card via a `card_mod` block, so you get the look you want without reinventing the card. Install it through [HACS](https://hacs.xyz/), then keep shared styling in a [theme](https://www.home-assistant.io/integrations/frontend/#defining-themes) rather than repeating it on every card.
 
 ```yaml
 type: entities
@@ -34,10 +34,9 @@ card_mod:
 
 Styling is cheap to add and easy to overdo. A few habits keep dashboards fast and stable:
 
-* **Decouple data fetching** - dashboards lag when cards directly query heavy, network-dependent or chatty entities (like media players). Cache their state asynchronously using background Trigger-Based Template Sensors.
-* **Isolate Jinja from CSS blocks** - putting Jinja inside a CSS declaration (e.g. `ha-card { {% if ... %} }`) forces the browser to destroy and rebuild its CSS parser tree on every update. Process the logic up front into variables instead.
-* **Maintain layout stability** - always give structural styles an explicit `else` fallback (e.g. `border: 2px solid transparent`). This avoids a sudden 2px layout shift when the condition toggles.
-* **Animate wisely** - animate `border-color`, not the `border` shorthand, so the work runs on the GPU instead of forcing a CPU layout recalculation.
-* **Avoid heavy DOM destruction** - dashboard visibility conditions on complex cards (like the SVGs in the thermostat card) cause severe UI stutter as the DOM is torn down and rebuilt. Hide with CSS via card-mod (`display: none`) instead to keep the layout snappy.
+* **Decouple data fetching** - Dashboards lag when cards directly query heavy, network-dependent or chatty entities (like media players). Cache their state asynchronously using background Trigger-Based Template Sensors
+* **Isolate Jinja from CSS blocks** - Putting Jinja inside a CSS declaration (e.g. `ha-card { {% if ... %} }`) forces the browser to destroy and rebuild its CSS parser tree on every update. Process the logic up front into variables instead
+* **Maintain layout stability** - Always give structural styles an explicit `else` fallback (e.g. `border: 2px solid transparent`). This avoids a sudden 2px layout shift when the condition toggles
+* **Animate wisely** - Animate `border-color`, not the `border` shorthand, so the work runs on the GPU instead of forcing a CPU layout recalculation
+* **Avoid heavy DOM destruction** - Dashboard visibility conditions on complex cards (like the SVGs in the thermostat card) cause severe UI stutter as the DOM is torn down and rebuilt. Hide with CSS via card-mod (`display: none`) instead to keep the layout snappy
 
-For the full selector reference and more examples, see the [card-mod GitHub repo](https://github.com/thomasloven/lovelace-card-mod).
