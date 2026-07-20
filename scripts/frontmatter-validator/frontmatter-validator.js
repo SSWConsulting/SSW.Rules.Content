@@ -212,7 +212,7 @@ function parseFrontmatterToJson(fileContents) {
 function extractFrontMatter(fileContents) {
   if (!fileContents) return undefined;
   let frontmatterString;
-  const frontmatterMatch = /^---([\s\S]*?)---/.exec(fileContents);
+  const frontmatterMatch = /^---\r?\n([\s\S]*?)\r?\n---(\r?\n|$)/.exec(fileContents);
 
   if (!frontmatterMatch) return undefined;
   frontmatterString = frontmatterMatch[1];
