@@ -1,0 +1,60 @@
+---
+type: rule
+title: Do you link to the existing group chat?
+uri: link-to-existing-group-chat
+categories:
+  - category: categories/communication/rules-to-better-im.mdx
+  - category: categories/communication/rules-to-better-microsoft-teams.mdx
+authors:
+  - title: Eli Kent
+    url: 'https://www.ssw.com.au/people/eli-kent'
+related:
+  - rule: public/uploads/rules/when-to-create-a-group-chat/rule.mdx
+  - rule: public/uploads/rules/link-to-messages/rule.mdx
+  - rule: public/uploads/rules/teams-meetings-vs-group-chats/rule.mdx
+guid: 94f8a16e-dbbe-4c51-b37c-8fac2a26a2e1
+seoDescription: 'When a topic already has a group chat, share a link to that chat instead of splitting the conversation, so history and context stay in one place.'
+created: 2026-07-20T06:09:11.000Z
+createdBy: Eli Kent
+createdByEmail: elikent@ssw.com.au
+---
+
+Conversations tend to start wherever it is easiest, like a 1:1 message or a reply in another chat. The problem is that when the topic already has a group chat, discussing it anywhere else splits the conversation. Decisions get made where half the people can't see them, and newcomers can't find the history.
+
+Before you message someone about a topic, check whether a group chat for it already exists. If it does, put a link to that chat in your message so the reader is one click away from the full context.
+
+<endIntro />
+
+Telling someone "there's a chat about this" without a link forces them to hunt through [Teams search](/how-to-use-teams-search), guessing at the chat name. A link takes them straight there.
+
+Follow these steps:
+
+1. **Check for an existing group chat** before starting a new conversation about the topic
+2. **If one exists**, link to it and [add the person to the chat](/teams-group-chat) if they should be a participant
+3. **If none exists**, [create a group chat](/when-to-create-a-group-chat) with everyone involved
+
+To get the link in Microsoft Teams, hover over a message in the chat, click the `Meatball menu (...)`, and choose `Copy link`. Pasting the link into Teams shows the chat title, so the reader knows where they are headed before they click.
+
+<boxEmbed
+  body={<>
+    Hi Bob,
+
+    Can you review the new video? There's already a group chat about it with all the context
+  </>}
+  figurePrefix="bad"
+  figure="The chat is mentioned but not linked, so the reader has to hunt through Teams search to find it"
+/>
+
+<boxEmbed
+  body={<>
+    Hi Bob,
+
+    Can you review the new video? All the context is in the group chat (I've added you):
+
+    &#123;&#123; LINK TO GROUP CHAT &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure="One click and the reader has the full history"
+/>
+
+This also keeps the number of chats down. Every duplicate chat about the same topic is one more place where context gets lost and one more conversation the team has to keep an eye on.
