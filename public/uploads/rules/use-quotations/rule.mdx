@@ -1,0 +1,84 @@
+---
+type: rule
+archivedreason:
+title: Do you include relevant quotations?
+seoDescription: Strengthen content with attributed, sourced expert quotations marked up in blockquotes so readers and AI answer engines can trust and cite them.
+guid: 484abe45-483f-4944-ae4f-071651de6fb8
+uri: use-quotations
+created: 2026-07-21T03:04:22.000Z
+authors:
+  - title: Isaac Lombard
+    url: https://www.ssw.com.au/people/isaac-lombard
+related:
+  - rule: public/uploads/rules/cite-your-sources/rule.mdx
+  - rule: public/uploads/rules/ai-optimization-geo-aeo/rule.mdx
+categories:
+  - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
+createdBy: Isaac Lombard [SSW]
+createdByEmail:
+isArchived: false
+lastUpdated: 2026-07-21T03:04:22.000Z
+lastUpdatedBy: Isaac Lombard
+lastUpdatedByEmail:
+---
+
+A page full of your own assertions asks readers to take your word for it. A relevant quotation from a recognised expert or a primary source does the opposite - it borrows their authority and lends it to your point.
+
+Quotations also make content easier to consume. They break up long stretches of prose, giving the eye a place to rest and signalling "this part matters". And they hand AI answer engines something they love: a clean, self-contained, attributable statement they can lift and cite - with your page as the source.
+
+The catch is that a quote only works when it is properly attributed and sourced. A paraphrase with no name, or a quote with no link, adds nothing an AI can verify and nothing a sceptical reader can trust.
+
+<endIntro />
+
+## Why quotations matter
+
+- **Authority** - an expert's words carry weight your own claims cannot
+- **Credibility** - a linked source lets readers and machines verify the statement
+- **Scannability** - a set-off block breaks up long text and draws the eye
+- **AI citability** - answer engines can extract an attributed quote and cite your page as where they found it
+
+## Quote the right things
+
+Reach for a quotation when it comes from someone or something worth quoting:
+
+- A **recognised expert** in the field
+- A **primary source** - the original study, spec, standard, or announcement
+- An **official statement** from the organisation that owns the topic
+
+Avoid quoting anonymous opinions or unnamed "industry sources" - they carry none of the authority that makes a quotation worth including.
+
+## Mark it up properly
+
+Use a real `<blockquote>` element, not italics or a coloured `<div>`. The element tells browsers, screen readers, and crawlers "this is a quotation from elsewhere". Follow it with clear attribution: the person's name, their role, and a link to the original source.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+  Studies show that expert quotes make content more trustworthy, and experts agree they help readers.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - a vague paraphrase with no name, role, or source to verify"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+  <blockquote>
+    Pages that surface clear, attributable statements are far easier for answer engines to quote and cite than walls of unattributed prose.
+  </blockquote>
+  <p>
+    - Jane Smith, Head of Search at Example Corp, in <a href="https://www.example.com/report">The State of AI Search 2026</a>
+  </p>
+  </>}
+  figurePrefix="good"
+  figure="Good example - a blockquote with the quote, name, role, and a linked source"
+/>
+
+## Distinguish quotations from pull-quotes
+
+A **pull-quote** repeats a sentence from your own page in large text for visual emphasis - it is decoration, and it points to no external authority. A **quotation** is someone else's words, attributed and sourced. This rule is about the latter. If you style a pull-quote as a `<blockquote>`, you send readers and crawlers a signal you cannot back up. Keep the two separate.
+
+## Related rules
+
+- [Do you cite authoritative sources?](/cite-your-sources)
+- [Do you optimise your content for AI answer engines (GEO/AEO)?](/ai-optimization-geo-aeo)
