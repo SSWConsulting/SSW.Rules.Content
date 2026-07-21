@@ -31,7 +31,7 @@ Declaring the language is one of the cheapest accessibility and SEO wins availab
 
 ## Set the lang attribute on the html element
 
-Always declare the primary language of the document on the root `<html>` element using a valid [BCP 47](https://www.rfc-editor.org/info/bcp47) language tag, such as `en-AU` for Australian English.
+Always declare the primary language of the document on the root `<html>` element using a valid [BCP 47](https://www.rfc-editor.org/info/bcp47) language tag, such as `en-AU` for Australian English. This is a formal accessibility requirement: [WCAG 2.1 Success Criterion 3.1.1 (Language of Page)](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html) requires the default human language of each page to be programmatically determinable, and [MDN documents the `lang` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang) as the way to do it.
 
 <boxEmbed
   style="greybox"
@@ -73,7 +73,7 @@ Always declare the primary language of the document on the root `<html>` element
 
 ## Set lang on sections in another language
 
-When part of a page is written in a different language from the document, set `lang` on that element too. This lets assistive technology switch voices mid-page and keeps translation tools accurate.
+When part of a page is written in a different language from the document, set `lang` on that element too. This lets assistive technology switch voices mid-page and keeps translation tools accurate, and it satisfies [WCAG 2.1 Success Criterion 3.1.2 (Language of Parts)](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html).
 
 <boxEmbed
   style="greybox"
