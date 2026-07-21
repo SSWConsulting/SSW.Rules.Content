@@ -1,6 +1,6 @@
 ---
-title: Do you let users safely update Power BI reports?
-uri: power-bi-changes-through-a-development-workspace
+title: Do you safely develop and deploy Power BI report changes?
+uri: safely-develop-and-deploy-power-bi-report-changes
 categories:
   - category: categories/company-operations/rules-to-better-power-bi.mdx
   - category: categories/company-operations/rules-to-better-reporting-services.mdx
@@ -14,40 +14,38 @@ seoDescription: How to manage Power BI report changes safely using a Git-connect
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-16T05:45:24.722Z
+lastUpdated: 2026-07-21T05:38:42.925Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
 The ideal development workflow is to clone the repository, make changes in Power BI Desktop, and follow the standard feature-branch and pull-request process.
 
-However, when your admin need to make small Power BI report changes without waiting for a developer to become available, a Git-connected Development workspace provides a simple editing experience. They can edit and test reports in the shared workspace, commit changes without using Git commands or local branches, and send them for review before Production is updated.
+However, when an administrator needs to make a small Power BI report change without waiting for a developer, a Git-connected Development workspace provides a simple editing experience.
 
 <endIntro />
 
 ## What is a Power BI workspace?
 
-A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use a Development workspace for editing and testing. Keep the Production workspace for approved reports used by end users.
+A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use the workspaces as follows:
+
+* **Development** – used by administrators to edit and test reports on a feature branch
+* **Staging** – connected to main and used to validate approved changes
+* **Production** – contains approved reports used by end users and is updated only through the deployment pipeline
 
 ## How does a workspace work with Git
 
 A workspace connects to one Git repository, one branch, and one repository folder at a time. Changes made in the workspace are compared with its connected branch:
 
-<imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
+<imageEmbed alt="Connect branches to workspace" size="large" showBorder={false} figurePrefix="none" figure="Create and connect branch to the workspace" src="/uploads/rules/power-bi-changes-through-a-development-workspace/connect-branch-to-workspace.png" />
 
-**Figure: **Changes – workspace edits that have not been committed to Git
-
-<imageEmbed alt="Updates – Git changes that have not been applied to the workspace" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/power-bi-changes-through-a-development-workspace/poqwe-bi-update.png" />
-
-**Figure: **Updates – Git changes that have not been applied to the workspace
-
-> ⚠️ Notes: Before edit the report, confirm there are no unexpected Changes or Updates
+<imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="Changes – workspace edits that have not been committed to Git" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
 
 ## How to commit changes from workspace
 
 1\. Open the Development workspace.
 
-2\. Confirm nobody else is editing the same report.
+2\. Create a feature branch from the latest main branch, switch the Sales Development workspace to the new feature branch.
 
 3\. Edit, save, and test the report.
 
@@ -55,8 +53,19 @@ A workspace connects to one Git repository, one branch, and one repository folde
 
 5\. Review the changed items.
 
-6\. Enter a clear commit message.
+6\. Enter a clear commit message, and commit the changes
 
-7\. Click the commit button.
+7. Create a PR from the branch and wait for review
 
-8\. Create a PR from the branch
+## How do you deploy Power BI changes using deployment pipeline?
+
+<imageEmbed alt="power bi deployment stragegy" size="large" showBorder={false} figurePrefix="good" figure="Figure: Power BI deployment pipeline" src="/uploads/rules/power-bi-changes-through-a-development-workspace/powerbi-deployment-strategy.png" />
+
+1. Merge your approved pull request to main
+2. Open the Staging workspace and sync the changes from main branch
+3. Test the updated reports in Staging workspace
+4. Open the Power BI deployment pipeline.
+5. Compare Staging with Production workspace and deploy the changes
+6. Your changes is now live 🎉
+
+Solution adapted from Microsoft Fabric’s official CI/CD workflow documentation. See [details](https://learn.microsoft.com/en-us/fabric/cicd/manage-deployment#option-3---deploy-using-fabric-deployment-pipelines)
