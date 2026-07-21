@@ -14,7 +14,7 @@ seoDescription: How to manage Power BI report changes safely using a Git-connect
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-16T05:45:24.722Z
+lastUpdated: 2026-07-21T05:03:24.157Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
@@ -35,11 +35,11 @@ A workspace connects to one Git repository, one branch, and one repository folde
 
 <imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
 
-**Figure: **Changes – workspace edits that have not been committed to Git
+**Figure:** Changes – workspace edits that have not been committed to Git
 
 <imageEmbed alt="Updates – Git changes that have not been applied to the workspace" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/power-bi-changes-through-a-development-workspace/poqwe-bi-update.png" />
 
-**Figure: **Updates – Git changes that have not been applied to the workspace
+**Figure:** Updates – Git changes that have not been applied to the workspace
 
 > ⚠️ Notes: Before edit the report, confirm there are no unexpected Changes or Updates
 
@@ -47,7 +47,7 @@ A workspace connects to one Git repository, one branch, and one repository folde
 
 1\. Open the Development workspace.
 
-2\. Confirm nobody else is editing the same report.
+2\. Create a feature branch from main, point the workspace to the branch
 
 3\. Edit, save, and test the report.
 
@@ -60,3 +60,7 @@ A workspace connects to one Git repository, one branch, and one repository folde
 7\. Click the commit button.
 
 8\. Create a PR from the branch
+
+How to deploy Power BI using deployment pipeline 
+
+<imageEmbed alt="power bi deployment stragegy" size="large" showBorder={false} figurePrefix="good" figure="Figure: Power BI deployment pipeline" src="/uploads/rules/power-bi-changes-through-a-development-workspace/powerbi-deployment-strategy.png" />
