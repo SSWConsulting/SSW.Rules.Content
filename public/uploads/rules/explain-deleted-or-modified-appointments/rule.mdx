@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Appointments - Do you explain why you've deleted or updated an appointment?
+title: Appointments - Do you explain why you've updated or deleted an appointment?
 uri: explain-deleted-or-modified-appointments
 categories:
   - category: categories/communication/rules-to-better-calendars.mdx
@@ -27,7 +27,7 @@ seoDescription: 'Appointments changed or deleted require explicit explanations t
 created: 2010-03-15T08:42:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-07-21T23:50:55.944Z
+lastUpdated: 2026-07-21T23:52:32.938Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 archivedreason: null
@@ -80,7 +80,7 @@ Example of a change comment:
     
     ***
     
-    &#123;&#123; APPOINTMENT CONTENT &#125;&#125;
+    {{ APPOINTMENT CONTENT }}
   </>}
   figurePrefix="good"
   figure="Explaining the change that has been made using the version number"
@@ -109,11 +109,11 @@ In those cases, it is recommended to remove the versioning data from more than 1
     
     V7 - Pushing back 30 minutes (to 9:30am) for Tiago.
     
-    &lt; snipped items older than a year &gt;
+    \< snipped items older than a year >
     
     ***
     
-    &#123;&#123; APPOINTMENT CONTENT &#125;&#125;
+    {{ APPOINTMENT CONTENT }}
   </>}
   figurePrefix="none"
   figure="Snipped old stuff from a recurrent appointment"
