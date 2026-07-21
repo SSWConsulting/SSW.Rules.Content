@@ -1,33 +1,31 @@
 ---
 type: rule
-archivedreason:
 title: Do you set the HTML lang attribute?
-seoDescription: Set the HTML lang attribute so screen readers, browsers, search engines, and AI answer engines correctly identify your page's language.
-guid: 882dd133-6be1-4836-9724-184600e42a4b
 uri: html-lang-attribute
-created: 2026-07-21T03:03:09.000Z
+categories:
+  - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
 authors:
   - title: Isaac Lombard
-    url: https://www.ssw.com.au/people/isaac-lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard'
 related:
   - rule: public/uploads/rules/on-page-seo-best-practice/rule.mdx
   - rule: public/uploads/rules/wcag-compliance/rule.mdx
   - rule: public/uploads/rules/accessible-text/rule.mdx
-categories:
-  - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
-createdBy: Isaac Lombard [SSW]
-createdByEmail:
-isArchived: false
-lastUpdated: 2026-07-21T03:03:09.000Z
+guid: 882dd133-6be1-4836-9724-184600e42a4b
+seoDescription: 'Set the HTML lang attribute so screen readers, browsers, search engines, and AI answer engines correctly identify your page''s language.'
+created: 2026-07-21T03:03:09.000Z
+createdBy: 'Isaac Lombard [SSW]'
+createdByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-07-21T04:52:15.618Z
 lastUpdatedBy: Isaac Lombard
-lastUpdatedByEmail:
+lastUpdatedByEmail: isaaclombard@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 Every HTML document has a language, but browsers and assistive technologies can only act on it if you declare it. When the `<html>` element has no `lang` attribute, machines are left guessing.
 
-That guess has real consequences: screen readers pronounce content with the wrong voice or accent, browsers offer the wrong translation, and search engines and AI answer engines can misidentify the page's language and serve it to the wrong audience.
-
-Declaring the language is a single attribute, and it is one of the cheapest accessibility and SEO wins available.
+Declaring the language is one of the cheapest accessibility and SEO wins available.
 
 <endIntro />
 
@@ -40,10 +38,10 @@ Always declare the primary language of the document on the root `<html>` element
   body={<>
     ```html
     <html>
-      <head>
-        <title>SSW Rules</title>
-      </head>
-      <body>...</body>
+    <head>
+    <title>SSW Rules</title>
+    </head>
+    <body>...</body>
     </html>
     ```
   </>}
@@ -56,10 +54,10 @@ Always declare the primary language of the document on the root `<html>` element
   body={<>
     ```html
     <html lang="en-AU">
-      <head>
-        <title>SSW Rules</title>
-      </head>
-      <body>...</body>
+    <head>
+    <title>SSW Rules</title>
+    </head>
+    <body>...</body>
     </html>
     ```
   </>}
@@ -69,9 +67,9 @@ Always declare the primary language of the document on the root `<html>` element
 
 ## Why it matters
 
-- **Screen readers** use the language to select the correct voice and accent, so content is pronounced naturally instead of being mangled by the wrong phonetics.
-- **Browsers** use it to offer the correct translation and to apply language-specific behaviour like hyphenation and quotation marks.
-- **Search engines and AI answer engines** use it to correctly identify the page's language and serve it to the right audience.
+* **Screen readers** use the language to select the correct voice and accent, so content is pronounced naturally instead of being mangled by the wrong phonetics.
+* **Browsers** use it to offer the correct translation and to apply language-specific behaviour like hyphenation and quotation marks.
+* **Search engines and AI answer engines** use it to correctly identify the page's language and serve it to the right audience.
 
 ## Set lang on sections in another language
 
@@ -82,9 +80,9 @@ When part of a page is written in a different language from the document, set `l
   body={<>
     ```html
     <html lang="en-AU">
-      <body>
-        <p>Our team says <span lang="fr">bonjour</span> to new clients.</p>
-      </body>
+    <body>
+    <p>Our team says <span lang="fr">bonjour</span> to new clients.</p>
+    </body>
     </html>
     ```
   </>}
@@ -105,6 +103,6 @@ If you publish the same content in multiple languages or regions, add `hreflang`
 
 For more on structuring accessible, discoverable pages, see:
 
-- [Do you follow on-page SEO best practice?](/on-page-seo-best-practice)
-- [Do you make your website WCAG compliant?](/wcag-compliance)
-- [Do you make your text accessible?](/accessible-text)
+* [Do you follow on-page SEO best practice?](/on-page-seo-best-practice)
+* [Do you make your website WCAG compliant?](/wcag-compliance)
+* [Do you make your text accessible?](/accessible-text)
