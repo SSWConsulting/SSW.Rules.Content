@@ -15,7 +15,7 @@ seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft D
 created: 2019-11-25T19:14:13.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-07-24T07:19:41.493Z
+lastUpdated: 2026-07-24T07:22:45.745Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
@@ -125,14 +125,10 @@ In Dynamics 365 you rarely hard-delete. The platform already supports soft delet
 
 <imageEmbed alt="Deactivate in CRM" size="medium" showBorder={false} figurePrefix="good" figure="safe deactivate-then-delete flow" src="/uploads/rules/avoid-deleting-records-by-flagging-them-as-isdeleted/soft-delete.png" />
 
-1\. Deactivate, don't delete — set Status = Inactive (statecode) rather than removing the record.
+1\. Deactivate the record
 
-2\. Tag what you touch — mark the affected records with an identifiable marker and run the change under a dedicated service account, so they're easy to filter, review and reverse.
+2\. Mark the affected records with an identifiable marker and run the change under a dedicated service account, so they're easy to filter, review and reverse.
 
-3\. Get approval — present the draft list of records for sign-off before any hard delete.
+3\. Present the draft list of records for sign-off before any hard delete.
 
-4\. Delete only what's approved — run the built-in Bulk Record Deletion job with tight filters, e.g. Status == Inactive AND ModifiedBy == \[service account] AND ModifiedOn == today.
-
-❌ Bad example
-
-Running an ad-hoc script that hard-deletes straight from production with no deactivate step, no marker, and no approval list — leaving nothing to review or roll back. (This is what happened at CP Cards.)
+4\. Run the built-in Bulk Record Deletion job with tight filters, e.g. Status  Inactive AND ModifiedBy \[service account] AND ModifiedOn today.
