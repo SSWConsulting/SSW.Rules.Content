@@ -1,0 +1,81 @@
+---
+type: rule
+title: Do you pin your .NET SDK version with global.json?
+uri: use-global-json
+seoDescription: Pin the .NET SDK version with a global.json file so every developer and CI agent builds with the same SDK. Learn rollForward policies and how to avoid surprise breakages from SDK updates.
+guid: a6a1bd8c-196f-4453-9bdb-787f0dbf74d2
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+  - title: Kaha Mason
+    url: https://www.ssw.com.au/people/kaha-mason/
+related:
+  - rule: public/uploads/rules/when-to-target-lts-versions/rule.mdx
+  - rule: public/uploads/rules/directory-build-props/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+---
+
+Without a `global.json`, the `dotnet` CLI silently uses the **latest SDK installed on the machine**. That means a teammate who just installed a newer SDK (or a CI image that updated overnight) can build your repo with a different compiler, different analyzers, and different language version than everyone else - and you find out via a broken build or, worse, subtly different output.
+
+A one-file fix makes the SDK version part of the repository.
+
+<endIntro />
+
+## What is global.json?
+
+A [global.json](https://learn.microsoft.com/en-us/dotnet/core/tools/global-json?WT.mc_id=DT-MVP-33518) file at the root of your repository tells the `dotnet` CLI which SDK version to use:
+
+```json
+{
+  "sdk": {
+    "version": "10.0.100",
+    "rollForward": "latestFeature",
+    "allowPrerelease": false
+  }
+}
+```
+
+**✅ Good example - SDK pinned to the 10.0.x band, newer feature bands allowed, previews blocked**
+
+You can generate one with:
+
+```bash
+dotnet new globaljson --sdk-version 10.0.100
+```
+
+## Pick a sensible rollForward policy
+
+Pinning to an *exact* version is usually too strict - every developer would need that precise patch installed. The `rollForward` setting controls how flexible the match is:
+
+* `latestPatch` - same feature band, latest patch (e.g. `10.0.100` → `10.0.1xx`). Safest for strict reproducibility
+* `latestFeature` - same major.minor, latest feature band and patch (e.g. `10.0.100` → `10.0.2xx`). **Good default for most teams**
+* `latestMajor` - effectively "use the newest SDK", which is the same as having no `global.json` - avoid
+* `disable` - exact version only. Reserve for build environments you fully control
+
+## Keep CI on the same SDK
+
+Make your pipeline read the same file instead of duplicating the version:
+
+```yaml
+- uses: actions/setup-dotnet@v4
+  with:
+    dotnet-version: 9.0.x
+```
+
+**❌ Bad example - CI hardcodes an SDK that will drift from what developers use**
+
+```yaml
+- uses: actions/setup-dotnet@v4
+  with:
+    global-json-file: global.json
+```
+
+**✅ Good example - CI resolves the SDK from global.json, so there is a single source of truth**
+
+## Tips
+
+* Put `global.json` at the **repository root** so it governs every project - the CLI searches upward from the working directory and uses the first one it finds
+* Update it deliberately (in a PR) when adopting a new SDK, so the whole team and CI move together - this pairs well with [targeting the right LTS/STS version](/when-to-target-lts-versions)
+* If a build fails with "The command could not be loaded... requested SDK version not found", the machine is missing the pinned SDK - the error is your friend: install the right SDK instead of building with a random one

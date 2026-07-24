@@ -1,0 +1,74 @@
+---
+type: rule
+title: Do you lock your NuGet dependencies?
+uri: lock-nuget-dependencies
+seoDescription: Make .NET builds repeatable by enabling NuGet lock files with RestorePackagesWithLockFile and enforcing them in CI with dotnet restore --locked-mode.
+guid: 92ed0137-8c47-49a8-980e-8a897f2509ad
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+  - title: Kaha Mason
+    url: https://www.ssw.com.au/people/kaha-mason/
+related:
+  - rule: public/uploads/rules/defend-against-package-supply-chain-attacks/rule.mdx
+  - rule: public/uploads/rules/cache-dependencies-in-github-actions/rule.mdx
+  - rule: public/uploads/rules/use-central-package-management/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+---
+
+JavaScript developers commit `package-lock.json` without thinking about it - yet most .NET teams run `dotnet restore` with no lock file at all. That means the exact packages your build uses can change between restores without any code change: floating versions (`8.*`) resolve to something new, or a transitive dependency publishes a new version that shifts your whole graph. The build that passed yesterday and the one deployed today may not be running the same bytes.
+
+NuGet has lock files too - they're just off by default.
+
+<endIntro />
+
+## Enable lock files
+
+Turn them on for every project in one place - your [Directory.Build.props](/directory-build-props):
+
+```xml
+<PropertyGroup>
+  <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+</PropertyGroup>
+```
+
+The next `dotnet restore` generates a `packages.lock.json` per project recording the exact resolved version **and content hash** of every direct and transitive package. Commit these files.
+
+## Enforce them in CI
+
+A lock file only guarantees repeatability if CI refuses to deviate from it:
+
+```bash
+dotnet restore
+```
+
+**❌ Bad example - CI re-resolves the dependency graph, so it can build something no developer has tested**
+
+```bash
+dotnet restore --locked-mode
+```
+
+**✅ Good example - Restore fails (NU1004) if the graph no longer matches the committed lock file**
+
+You can also enforce this via MSBuild so it applies automatically on CI:
+
+```xml
+<PropertyGroup>
+  <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
+</PropertyGroup>
+```
+
+## Why it's worth it
+
+* **Repeatable builds** - the same commit always restores the same package graph
+* **Supply-chain protection** - the recorded content hashes mean a tampered or re-published package fails restore instead of silently shipping. See [Do you defend against package supply chain attacks?](/defend-against-package-supply-chain-attacks)
+* **Better caching** - the lock file is the ideal cache key for NuGet packages in CI. See [Do you cache dependencies in GitHub Actions?](/cache-dependencies-in-github-actions)
+* **Reviewable upgrades** - dependency changes show up as lock file diffs in PRs, and Dependabot/Renovate keep them updated
+
+## Notes
+
+* To intentionally update the graph (e.g. after editing package versions), run `dotnet restore --force-evaluate`
+* Lock files are per-project and per-target framework - multi-targeted solutions will see bigger diffs
+* Combine with [Central Package Management](/use-central-package-management): CPM decides the versions you *want*, the lock file proves the graph you *got*

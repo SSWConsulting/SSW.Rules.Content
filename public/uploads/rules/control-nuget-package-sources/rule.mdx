@@ -1,0 +1,79 @@
+---
+type: rule
+title: Do you control your NuGet package sources?
+uri: control-nuget-package-sources
+seoDescription: Commit a nuget.config to control your NuGet package sources and use Package Source Mapping to prevent dependency confusion attacks when using private feeds.
+guid: 4b60da4d-3256-4278-ad78-088a931fd0cb
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+  - title: Kaha Mason
+    url: https://www.ssw.com.au/people/kaha-mason/
+related:
+  - rule: public/uploads/rules/defend-against-package-supply-chain-attacks/rule.mdx
+  - rule: public/uploads/rules/lock-nuget-dependencies/rule.mdx
+  - rule: public/uploads/rules/use-central-package-management/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+---
+
+If your repository has no `nuget.config`, package restore depends on whatever sources happen to be configured on each machine - a recipe for "restores fine for me" surprises. It gets worse when you add a private feed: if an internal package name also exists on nuget.org, NuGet may happily pull the **public** one. Attackers exploit exactly this with **dependency confusion** attacks - publishing malicious packages under names they guess companies use internally.
+
+The fix is to make package sources part of the repository, not the machine.
+
+<endIntro />
+
+## Commit a nuget.config
+
+Add a `nuget.config` at the repository root, and start it with `<clear />` so machine-level sources can't leak into the build:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+    <add key="MyCompany" value="https://pkgs.dev.azure.com/mycompany/_packaging/mycompany/nuget/v3/index.json" />
+  </packageSources>
+</configuration>
+```
+
+**✅ Good example - Sources are explicit, versioned, and identical for every developer and CI agent**
+
+## Map packages to the right source
+
+With multiple sources, [Package Source Mapping](https://learn.microsoft.com/en-us/nuget/consume-packages/package-source-mapping?WT.mc_id=DT-MVP-33518) (NuGet 6.0+) declares which packages are allowed to come from which feed:
+
+```xml
+<packageSourceMapping>
+  <packageSource key="nuget.org">
+    <package pattern="*" />
+  </packageSource>
+  <packageSource key="MyCompany">
+    <package pattern="MyCompany.*" />
+  </packageSource>
+</packageSourceMapping>
+```
+
+**✅ Good example - MyCompany.* packages can only ever come from the private feed, killing dependency confusion**
+
+Without this, NuGet treats all sources as equal candidates:
+
+```xml
+<packageSources>
+  <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+  <add key="MyCompany" value="https://pkgs.dev.azure.com/mycompany/_packaging/mycompany/nuget/v3/index.json" />
+</packageSources>
+```
+
+**❌ Bad example - No mapping means a public package named MyCompany.Core could be restored instead of your internal one**
+
+## Keep credentials out of the file
+
+`nuget.config` is committed, so it must never contain PATs or passwords:
+
+* ✅ Use `packageSourceCredentials` with environment variable references, or better
+* ✅ Use a credential provider (e.g. [Azure Artifacts Credential Provider](https://github.com/microsoft/artifacts-credprovider)) so auth happens outside the repo
+
+For the broader picture on supply-chain risks (lockfiles, install scripts, typosquatting), see [Do you defend against package supply chain attacks?](/defend-against-package-supply-chain-attacks).
