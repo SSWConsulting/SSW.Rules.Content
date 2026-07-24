@@ -1,0 +1,88 @@
+---
+type: rule
+title: Do you use binlogs to diagnose build issues?
+uri: use-msbuild-binlogs
+seoDescription: Diagnose .NET build problems fast with MSBuild binary logs (binlogs). Learn how to capture a binlog with dotnet build -bl and analyze it in the MSBuild Structured Log Viewer.
+guid: 8e08959b-cc35-4c0f-9d2b-4f8bf798f343
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+related:
+  - rule: public/uploads/rules/directory-build-props/rule.mdx
+  - rule: public/uploads/rules/manage-compatibility-for-different-tfms/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+---
+
+Some build failures are easy - the error tells you exactly what to fix. Then there are the others: a property that mysteriously has the wrong value, a stale DLL being copied from who-knows-where, a build that works locally but fails in CI, or a multi-targeted project that behaves differently per framework. Staring at console output (or a 200 MB diagnostic text log) is a slow way to solve these.
+
+MSBuild **binary logs (binlogs)** capture everything the build did - every project, property, item, task, and environment variable - in a compact, searchable file.
+
+<endIntro />
+
+## Capturing a binlog
+
+Add `-bl` to any build-related command:
+
+```bash
+dotnet build -bl
+dotnet restore -bl:restore.binlog
+dotnet publish -bl:publish.binlog
+```
+
+This produces an `msbuild.binlog` file (or the name you specified) in the current directory.
+
+For builds started **inside Visual Studio**, install the [Project System Tools extension](https://github.com/dotnet/project-system-tools) to capture binlogs from IDE builds.
+
+## Analyzing it with the Structured Log Viewer
+
+Open the file in the free [MSBuild Structured Log Viewer](https://msbuildlog.com) - it turns the log into a navigable tree with full-text search.
+
+Things that are painful with console output and trivial in the viewer:
+
+* **"Where did this property value come from?"** - search `$property TargetFramework` and see every assignment, including which `.props` file set it. Invaluable when debugging [Directory.Build.props](/directory-build-props) inheritance and [multi-targeting conditions](/manage-compatibility-for-different-tfms)
+* **NuGet version conflicts** - capture a restore binlog to see exactly how a `NU1605` downgrade or version conflict was resolved
+* **Double writes** - the viewer flags 2 different source files being copied to the same output path (the classic cause of "stale DLL" bugs)
+* **Slow builds** - the Timeline and "Top 10 most expensive tasks" views show where the time actually goes
+* **Why did this rebuild?** - task inputs/outputs are recorded, so you can see which file triggered an incremental rebuild
+* **Preprocessed project view** - see a project's XML with every import expanded inline, exactly as MSBuild evaluated it
+
+## Use binlogs instead of diagnostic text logs
+
+```bash
+dotnet build -v:diag > build.log
+```
+
+**❌ Bad example - Diagnostic verbosity dumps hundreds of MB of unsearchable text and still misses structure**
+
+```bash
+dotnet build -bl
+```
+
+**✅ Good example - A binlog is smaller, complete, and opens in a purpose-built viewer**
+
+## Capture binlogs in CI
+
+The worst place to debug a build is a CI agent you can't touch. Produce a binlog in your pipeline and upload it as an artifact when the build fails:
+
+```yaml
+- name: Build
+  run: dotnet build -bl:build.binlog
+
+- name: Upload binlog
+  if: failure()
+  uses: actions/upload-artifact@v4
+  with:
+    name: binlog
+    path: build.binlog
+```
+
+**✅ Good example - GitHub Actions publishing a binlog on failure, so "works on my machine" arguments end with evidence**
+
+## ⚠️ Binlogs contain secrets
+
+A binlog embeds **environment variables**, command lines, and the full content of your project and targets files. Treat it like a memory dump:
+
+* ❌ Never attach a binlog to a public GitHub issue
+* ✅ Share via private channels, and rotate any secrets that were in environment variables if one leaks

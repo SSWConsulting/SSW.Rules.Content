@@ -89,11 +89,13 @@ For a list of potential breaking changes when migrating to later versions of .NE
 
 The first thing you want to do is update your projects' `csproj` files to the new SDK-style format. This greatly simplifies the contents of the file, and will allow you to easily target multiple versions of .NET framework monikers simultaneously (more on this below).
 
+For a detailed walkthrough of the conversion, its gotchas, and the post-conversion cleanup, see [Do you migrate your csproj files to SDK-style?](/migrate-to-sdk-style-csproj)
+
 <boxEmbed
   style="greybox"
   body={<>
     **Tip:** You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format.
-    
+
     Install the tool using:
     
     ```bash
@@ -127,7 +129,7 @@ Multi-targeting both your original .NET Framework version *and* your future .NET
   style="greybox"
   body={<>
     Why is this important?
-    
+
     Imagine you *don't* do this, and instead, you simply target the newer version of .NET only. You get a list of 100 build errors due to breaking changes - too many to handle for 1 Sprint (or 2 Sprints, or 3).
     
     You start fixing these build errors. You go from 100 errors to 50 - progress!

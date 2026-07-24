@@ -1,0 +1,122 @@
+---
+type: rule
+title: Do you migrate your csproj files to SDK-style?
+uri: migrate-to-sdk-style-csproj
+seoDescription: Convert legacy .NET project files to the SDK-style csproj format with try-convert, handle web and desktop project gotchas, and clean up leftover cruft for small, maintainable project files.
+guid: 8003aee9-0300-4c51-8936-078ca0591349
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+related:
+  - rule: public/uploads/rules/migration-plans/rule.mdx
+  - rule: public/uploads/rules/manage-compatibility-for-different-tfms/rule.mdx
+  - rule: public/uploads/rules/directory-build-props/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
+---
+
+Legacy `.csproj` files are hundreds of lines of XML: every source file listed explicitly (a merge conflict every time 2 people add a file), NuGet references via `packages.config` and `HintPath`s, and no support for multi-targeting. Converting to the **SDK-style** format is the first mechanical step of any .NET migration (see [Do you have a .NET migration plan?](/migration-plans)) - and it pays off immediately, even while you're still targeting .NET Framework.
+
+<endIntro />
+
+## What is the SDK-style format?
+
+An SDK-style project starts with `<Project Sdk="Microsoft.NET.Sdk">` and comes with smart defaults:
+
+* **Implicit file globbing** - all `*.cs` files are compiled automatically; no `<Compile Include="..." />` needed
+* **Sensible property defaults** - `OutputType` defaults to `Library`, `AssemblyName` and `RootNamespace` default to the project name, `Debug`/`Release` configurations are built in
+* **Generated assembly info** - `AssemblyVersion`, `Company` etc. are generated from MSBuild properties, replacing `AssemblyInfo.cs`
+* **PackageReference** - NuGet dependencies are project data; no `packages.config`, `HintPath`s, or `packages` folder
+* **Multi-targeting** - `<TargetFrameworks>net48;net10.0</TargetFrameworks>` lets one project build for both frameworks during a migration
+
+**Important:** SDK-style does **not** mean modern .NET - an SDK-style project can still target `net48`. That's exactly what makes incremental migration possible: change the *format* first, the *framework* later.
+
+## Convert with try-convert
+
+Use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool:
+
+```bash
+dotnet tool install -g try-convert
+```
+
+Convert while keeping your current target framework, so the format change is the *only* change:
+
+```bash
+try-convert --keep-current-tfms
+```
+
+For web projects, conversion must be forced:
+
+```bash
+try-convert --keep-current-tfms --force-web-conversion
+```
+
+Alternatively, the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) performs the conversion as part of a full upgrade - see [Do you know how to modernize .NET applications?](/dotnet-modernization-tools).
+
+## Watch out for these gotchas
+
+* **ASP.NET Framework web projects** - there is no SDK-style equivalent of a `System.Web`-based project. Converting the class libraries first and handling the web project via the incremental (side-by-side) approach is usually the right move - see [Do you know how to migrate Web Apps to .NET?](/migrating-web-apps-to-dotnet)
+* **WinForms / WPF projects** - add `<UseWindowsForms>true</UseWindowsForms>` or `<UseWPF>true</UseWPF>`, and when you later add a modern target framework use `net10.0-windows` - see [Do you know how to multi-target your .NET projects?](/manage-compatibility-for-different-tfms)
+* **packages.config** - `try-convert` migrates it to `PackageReference`. Afterwards, only *direct* dependencies should remain - transitive packages no longer need to be listed
+* **Convert bottom-up, one project per PR** - start with the projects that have no project references and work upward, so each conversion builds and can be reviewed in isolation
+
+## Clean up after converting
+
+Conversion tools err on the side of caution, so converted `.csproj` files usually keep legacy leftovers. The whole point of SDK-style projects is that they are small enough to read in one screen and rarely cause merge conflicts - leftover cruft throws those benefits away.
+
+After conversion, go through each project and remove:
+
+* **`<Compile>` items** that just re-include what the glob already covers
+* **Properties restating defaults** - `OutputType=Library`, `AssemblyName`/`RootNamespace` equal to the project name, empty `Debug|Release` `PropertyGroup` blocks
+* **Legacy metadata** - `ProjectGuid`, `ProjectTypeGuids`, `SchemaVersion`, `AppDesignerFolder`, `FileAlignment`
+* **Legacy imports** - `<Import Project="...Microsoft.CSharp.targets" />` and `packages.config`-era `.props`/`.targets` imports (the SDK handles these)
+* **`Reference` items with `HintPath`s** into a `packages` folder - replace with `PackageReference`
+* **`AssemblyInfo.cs`** - delete it and move any meaningful values (company, product, `InternalsVisibleTo`) into the csproj or [Directory.Build.props](/directory-build-props). If you keep it, set `<GenerateAssemblyInfo>false</GenerateAssemblyInfo>` or the build fails with `CS0579: Duplicate 'AssemblyVersion' attribute`
+
+Then pull the properties that are identical across projects (target framework, nullability, analyzers) up into a `Directory.Build.props`, and manage package versions with [Central Package Management](/use-central-package-management).
+
+## Before and after
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Northwind.Domain</RootNamespace>
+    <AssemblyName>Northwind.Domain</AssemblyName>
+    <TargetFramework>net10.0</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
+```
+
+**❌ Bad example - Converted but never cleaned: every line here is either a default or legacy noise**
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+</Project>
+```
+
+**✅ Good example - The same project after cleanup (with shared properties in Directory.Build.props)**
+
+## Verify as you go
+
+Converting and cleaning up csproj files is exactly the kind of change that *shouldn't* alter build output - prove it:
+
+* Build before and after, and compare the binaries in `bin\`
+* If something behaves differently, [capture a binlog](/use-msbuild-binlogs) of both builds and compare the evaluated properties and compiled items
+* Keep the conversion and the cleanup in their own commits (or PRs) separate from functional changes, so reviewers can skim them with confidence

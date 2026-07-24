@@ -1,0 +1,120 @@
+---
+type: rule
+title: Do you use Central Package Management?
+uri: use-central-package-management
+seoDescription: Manage NuGet package versions in one place with Central Package Management (CPM). Learn how Directory.Packages.props eliminates version drift, simplifies upgrades, and keeps multi-project .NET solutions consistent.
+guid: 3931506a-fbb9-49fb-95b1-57e00e7e65cf
+created: 2026-07-24T00:00:00.000Z
+authors:
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
+related:
+  - rule: public/uploads/rules/directory-build-props/rule.mdx
+  - rule: public/uploads/rules/lock-nuget-dependencies/rule.mdx
+  - rule: public/uploads/rules/control-nuget-package-sources/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+---
+
+In a solution with many projects, NuGet package versions end up scattered across every `.csproj` file. Sooner or later 2 projects reference different versions of the same package, and you start seeing version drift, `NU1605` package downgrade errors, and runtime binding failures. Upgrading a package means hunting through dozens of files and hoping you didn't miss one.
+
+[Central Package Management (CPM)](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management?WT.mc_id=DT-MVP-33518) fixes this by declaring every package version once, in a single `Directory.Packages.props` file.
+
+<endIntro />
+
+## What is Central Package Management?
+
+CPM is a NuGet feature (available since NuGet 6.2 / .NET SDK 6.0.300 / Visual Studio 2022 17.2) that moves all package **versions** out of your project files and into one `Directory.Packages.props` file at the root of your repository:
+
+* Projects still declare **which** packages they use with `<PackageReference>`
+* `Directory.Packages.props` declares **what version** every package resolves to
+* NuGet raises an error (`NU1008`) if a project tries to specify its own version
+
+This works the same way as [Directory.Build.props](/directory-build-props) - it applies automatically to every project below it in the directory tree.
+
+## Why it matters
+
+* **One place to upgrade** - bumping a package version is a one-line change, no matter how many projects use it
+* **No version drift** - 2 projects can never silently reference different versions of the same package
+* **Smaller csproj files** - project files only say what they depend on, not which version
+* **Easier reviews** - package upgrades show up as a single-file diff
+
+## How to enable it
+
+**Directory.Packages.props:**
+
+```xml
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageVersion Include="xunit" Version="2.9.2" />
+  </ItemGroup>
+</Project>
+```
+
+Then remove the `Version` attributes from your project files:
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+  <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+</ItemGroup>
+```
+
+**❌ Bad example - Versions repeated (and already drifting) in every csproj**
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  <PackageReference Include="Serilog.AspNetCore" />
+</ItemGroup>
+```
+
+**✅ Good example - Projects declare dependencies, Directory.Packages.props owns the versions**
+
+## Handy extras
+
+### Version overrides
+
+If a single project genuinely needs a different version (e.g. during a migration), use `VersionOverride` rather than abandoning CPM:
+
+```xml
+<PackageReference Include="Serilog.AspNetCore" VersionOverride="9.0.0" />
+```
+
+Use this sparingly - every override is a little piece of version drift you've chosen to keep.
+
+### Global package references
+
+Packages that every project should consume (analyzers, source linking, banned API checks) can be declared once as a `GlobalPackageReference`:
+
+```xml
+<ItemGroup>
+  <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+</ItemGroup>
+```
+
+### Transitive pinning
+
+CPM can also pin **transitive** dependencies - packages you don't reference directly - which is useful for forcing patched versions of vulnerable transitive packages:
+
+```xml
+<PropertyGroup>
+  <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+</PropertyGroup>
+```
+
+## Migrating an existing solution
+
+For small solutions, move the versions by hand. For anything bigger, use the community [CentralisedPackageConverter](https://github.com/Webreaper/CentralisedPackageConverter) tool:
+
+```bash
+dotnet tool install -g CentralisedPackageConverter
+central-pkg-converter .
+```
+
+If you are planning a .NET migration, consolidating package versions with CPM **before** you start makes the upgrade dramatically easier - see [Do you have a .NET migration plan?](/migration-plans).
