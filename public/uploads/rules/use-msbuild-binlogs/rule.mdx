@@ -2,7 +2,7 @@
 type: rule
 title: Do you use binlogs to diagnose build issues?
 uri: use-msbuild-binlogs
-seoDescription: Diagnose .NET build problems fast with MSBuild binary logs (binlogs). Learn how to capture a binlog with dotnet build -bl and analyze it in the MSBuild Structured Log Viewer.
+seoDescription: Diagnose .NET build problems fast with MSBuild binary logs (binlogs). Capture a binlog with dotnet build -bl, analyze it in the MSBuild Structured Log Viewer, or let AI assistants query it via the Microsoft Binlog MCP Server.
 guid: 8e08959b-cc35-4c0f-9d2b-4f8bf798f343
 created: 2026-07-24T00:00:00.000Z
 authors:
@@ -48,6 +48,34 @@ Things that are painful with console output and trivial in the viewer:
 * **Why did this rebuild?** - task inputs/outputs are recorded, so you can see which file triggered an incremental rebuild
 * **Preprocessed project view** - see a project's XML with every import expanded inline, exactly as MSBuild evaluated it
 
+## Let AI analyze your binlogs
+
+Binlogs aren't just for humans. The [Microsoft Binlog MCP Server](https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/) lets AI assistants (GitHub Copilot, Claude Code, etc.) query a binlog directly - it's built on the same engine as the Structured Log Viewer and exposes tools for exactly the investigations above: errors and warnings with full context, property tracing, the most expensive projects/targets/tasks, embedded file search, and comparing 2 builds.
+
+The easiest setup is the `dotnet-msbuild` plugin from the [.NET Agent Skills repo](https://github.com/dotnet/skills), which bundles the MCP server with curated skills for build investigation. You can also register the server manually:
+
+```json
+{
+  "servers": {
+    "binlog-mcp": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["tool", "run", "Microsoft.AITools.BinlogMcp"]
+    }
+  }
+}
+```
+
+**✅ Good example - .vscode/mcp.json registering the Binlog MCP Server as a dotnet tool**
+
+Once connected, capture a binlog and ask questions like:
+
+* "Why did this build fail?"
+* "Where did `TargetFramework` get its value in MyProject?"
+* "Compare `local.binlog` and `ci.binlog` - why is CI slower?"
+
+This also works beyond the chat window - an agent in your pipeline can pick up the binlog from a failed build and post a diagnosis, see [MCP Beyond the Chat Window: Build Diagnostics in CI](https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-workflows/).
+
 ## Use binlogs instead of diagnostic text logs
 
 ```bash
@@ -85,4 +113,5 @@ The worst place to debug a build is a CI agent you can't touch. Produce a binlog
 A binlog embeds **environment variables**, command lines, and the full content of your project and targets files. Treat it like a memory dump:
 
 * ❌ Never attach a binlog to a public GitHub issue
+* ⚠️ The same caution applies to AI tooling - an assistant connected to the Binlog MCP Server can read everything in the log, including environment variables
 * ✅ Share via private channels, and rotate any secrets that were in environment variables if one leaks
