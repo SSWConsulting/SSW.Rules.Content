@@ -98,7 +98,7 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
 
 **Figure: Conditional inclusion of the "System.Web" reference in a .NET Framework 4.7.2 project.**
 
-Next step is to define an interface. For this case, we’ll only expose currently authenticated user. We are calling it IApplicationContext as it contains context for current request, whether it’s coming from an HttpContext or somewhere else if it’s a background job or console application.
+Next step is to define an interface. For this case, we’ll only expose currently authenticated user. We are calling it IRequestContext as it contains context for current request, whether it’s coming from an HttpContext or somewhere else if it’s a background job or console application.
 
 ```csharp
 public interface IRequestContext
