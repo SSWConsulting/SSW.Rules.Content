@@ -1,0 +1,114 @@
+---
+type: rule
+archivedreason:
+title: Do you use strongly typed database exceptions?
+seoDescription: >-
+  EF Core throws DbUpdateException for every write failure, forcing you to dig
+  into provider-specific inner exceptions and magic error numbers. Learn how
+  EntityFrameworkCore.Exceptions gives you strongly typed exceptions instead.
+guid: 40348b12-f36b-40ea-b900-c30650e27d2d
+uri: strongly-typed-database-exceptions
+created: 2026-07-27T00:00:00.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related: []
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+  - category: categories/software-engineering/rules-to-better-error-handling.mdx
+isArchived: false
+---
+
+Some failures are cheaper to let the database catch. A unique constraint is the classic one - checking for a duplicate before every insert costs an extra round trip, and it still races with the insert that happens a millisecond later. Letting the database enforce it is faster and actually correct.
+
+The catch is that EF Core reports every one of those failures as the same `DbUpdateException`, so finding out what went wrong means drilling into a provider-specific inner exception and matching on error numbers.
+
+<endIntro />
+
+## The problem - one exception type for every failure
+
+`DbUpdateException` is thrown for all of these:
+
+* Unique constraint violations
+* Inserting null into a non-nullable column
+* Exceeding a column's max length
+* Numeric overflow
+* Foreign key (reference constraint) violations
+* Deadlocks
+
+The type tells you nothing about which one happened. To find out, you unwrap `InnerException` and match on a database error number:
+
+```csharp
+try
+{
+    await dbContext.SaveChangesAsync(cancellationToken);
+}
+catch (DbUpdateException ex) when (ex.InnerException is SqlException { Number: 2601 or 2627 })
+{
+    // Duplicate key - but only if you're on SQL Server
+}
+```
+
+❌ **Figure: Bad example - Provider-specific error numbers leak persistence details into your code**
+
+Two things are wrong here. Those magic numbers are SQL Server's, so moving to PostgreSQL means rewriting every handler. And the `SqlException` type itself is an infrastructure detail that has no business appearing in an application or domain layer - see [Do you catch and re-throw exceptions properly?](/do-you-catch-and-re-throw-exceptions-properly).
+
+## The fix - EntityFrameworkCore.Exceptions
+
+[EntityFrameworkCore.Exceptions](https://github.com/Giorgi/EntityFramework.Exceptions) translates provider errors into strongly typed exceptions. Install the package for your provider:
+
+```bash
+dotnet add package EntityFrameworkCore.Exceptions.SqlServer
+```
+
+Then turn it on where you configure your `DbContext`:
+
+```csharp
+services.AddDbContext<AppDbContext>(options => options
+    .UseSqlServer(connectionString)
+    .UseExceptionProcessor());
+```
+
+✅ **Figure: Good example - One line wires up strongly typed exceptions for the whole DbContext**
+
+Now the exception type says what happened:
+
+```csharp
+try
+{
+    await dbContext.SaveChangesAsync(cancellationToken);
+}
+catch (UniqueConstraintException)
+{
+    return Error.Conflict(description: $"A hero named '{hero.Name}' already exists");
+}
+```
+
+✅ **Figure: Good example - The exception type carries the meaning, so no error numbers and no provider coupling**
+
+The exceptions all inherit from `DbUpdateException`, so existing catch blocks keep working while you migrate.
+
+| Exception | Thrown when |
+| --- | --- |
+| `UniqueConstraintException` | A unique index or constraint is violated |
+| `CannotInsertNullException` | Null is written to a non-nullable column |
+| `MaxLengthExceededException` | A value is too long for its column |
+| `NumericOverflowException` | A number is out of range for its column |
+| `ReferenceConstraintException` | A foreign key constraint is violated |
+| `DeadlockException` | The database picks the transaction as a deadlock victim |
+
+Each one also exposes `ConstraintName`, `ConstraintProperties`, and the schema-qualified table name, which is what you want in a log entry or a retry decision.
+
+## Pair it with the Result pattern
+
+Catching a typed exception is a big step up from matching error numbers, but exceptions still shouldn't be how failures travel through your application. Catch at the persistence boundary and convert to a result, as in the `Error.Conflict` example above - see [Do you use the result pattern?](/do-you-use-the-result-pattern).
+
+<youtubeEmbed url="https://www.youtube.com/embed/QKwZlWvfh-o" description="" />
+
+**✅ Video: Stop Dealing with EF Core Exceptions Wrong! - Nick Chapsas (9 min)**
+
+## Gotchas
+
+* There is a separate package per provider - SQL Server, PostgreSQL, MySQL (including Pomelo), SQLite, and Oracle - so pick the one that matches yours.
+* The constraint has to exist in your EF model. Constraints added by hand in a migration, or straight in the database, won't populate `ConstraintName` or `ConstraintProperties`.
+* SQLite doesn't populate those properties at all. You still get the right exception type, just without the detail. Worth knowing if tests run on SQLite and production runs on something else.
