@@ -17,7 +17,7 @@ seoDescription: 'GitHub environments enable gated deployments by adding manual a
 created: 2023-07-02T11:10:35.000Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-27T06:34:58.798Z
+lastUpdated: 2026-07-27T06:42:31.284Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 archivedreason: null
@@ -73,17 +73,15 @@ Here is an example of a workflow waiting for manual approval from a required rev
 
 <imageEmbed alt="" size="large" showBorder={false} figurePrefix="none" figure="Waiting for manual approval to deploy to Prod" src="/uploads/rules/use-gated-deployments/github-approval-gate.png" />
 
+Once the reviewer is notified, they can manually approve which will then let the deployment process continue.
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Manually approving a review before deploying to next environment" src="/uploads/rules/use-gated-deployments/manual-approval.png" />
+
 <boxEmbed
   body={<>
-    See repo [example](https://github.com/SSWConsulting/SSW.Rewards.Mobile/actions/runs/29004064911)
+    **See repo [example ](https://github.com/SSWConsulting/SSW.Rewards.Mobile/actions/runs/29004064911) using gated deployment in GitHub**
   </>}
   figurePrefix="none"
   figure=""
   style="greybox"
 />
-
-Once the reviewer is notified, they can manually approve which will then let the deployment process continue.
-
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Manually approving a review before deploying to next environment" src="/uploads/rules/use-gated-deployments/manual-approval.png" />
-
-Check out the [sample repo](https://github.com/william-liebenberg/github-gated-deployments) for an example GitHub workflow with gated deployments.
