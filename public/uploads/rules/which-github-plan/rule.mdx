@@ -16,7 +16,7 @@ seoDescription: 'GitHub is generous on public repos, but private repos lose feat
 created: 2026-07-28T00:00:00.000Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-07-28T06:33:04.733Z
+lastUpdated: 2026-07-28T06:38:10.459Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 archivedreason: null
@@ -53,15 +53,9 @@ All of these are free on public repositories, on any plan.
 
 ## Protections every repository should have
 
-Two things are worth picking a plan for. Both are free on public repos. On private repos, you have to pay.
+**✅ Enforced branch protection.** You need this. Nobody should push straight to `main`. See [Do you use branch protection?](/rules/do-you-use-branch-protection/)
 
-**1. Enforced branch protection.** You need this. Nobody should push straight to `main`.
-
-Be careful on Free. You can create a ruleset, and it looks saved. But GitHub does not enforce it, so the branch is not protected. You need **Team** for this to work. See [Do you use branch protection?](/rules/do-you-use-branch-protection/)
-
-**2. A deployment approval gate.** Highly recommended for enterprise apps. Someone should approve a release before it goes live. It is one more layer of protection.
-
-On private repos you need **Enterprise Cloud**. On Free, Pro and Team, [required reviewers](https://docs.github.com/en/actions/reference/deployments-and-environments) only work on public repos. Without this gate, anyone with write access can deploy to production. So can an AI agent in your pipeline. See [Do you use gated deployments?](/rules/use-gated-deployments/)
+✅** A deployment approval gate.** Highly recommended for enterprise apps. Someone should approve a release before it goes live. It is one more layer of protection. On private repos you need **Enterprise Plan **to have this feature [required reviewers](https://docs.github.com/en/actions/reference/deployments-and-environments) . See [Do you use gated deployments?](/rules/use-gated-deployments/)
 
 ## Team or Enterprise - which one?
 
