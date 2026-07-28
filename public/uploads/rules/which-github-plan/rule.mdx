@@ -1,0 +1,85 @@
+---
+type: rule
+title: GitHub Plans - Do you know which plan you need?
+uri: which-github-plan
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+authors:
+  - title: Ben Neoh
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+- rule: public/uploads/rules/use-gated-deployments/rule.mdx
+- rule: public/uploads/rules/do-you-use-branch-protection/rule.mdx
+redirects: null
+guid: 4af3e658-1c6d-47ee-a174-b55aa6c1e8e8
+seoDescription: 'GitHub is generous on public repos, but private repos lose features - branch protection is not enforced on Free and deployment approvals need Enterprise. Know which plan you need.'
+created: 2026-07-28T00:00:00.000Z
+archivedreason: null
+---
+
+GitHub is remarkably generous with **public** repositories. Branch protection, wikis, GitHub Pages and deployment approvals are all free on open source — you can run a serious project without paying a cent.
+
+Most commercial work cannot be public. The moment a repository is private, features start disappearing — and some of them appear to work while being silently ignored.
+
+Know which gate you will hit before you rely on a feature you do not have.
+
+<endIntro />
+
+## What each plan gives you on private repos
+
+| Feature (on private repos) | Free | Team | Enterprise |
+| --- | --- | --- | --- |
+| Branch protection / rulesets **enforced** | ❌ | ✅ | ✅ |
+| Wikis | ❌ | ✅ | ✅ |
+| GitHub Pages | ❌ | ✅ | ✅ |
+| GitHub Actions minutes per month | 2,000 | 3,000 | 50,000 |
+| **Required reviewers** (deployment approval) | ❌ | ❌ | ✅ |
+| Organisation-level rulesets | ❌ | ❌ | ✅ |
+| Custom repository roles | ❌ | ❌ | ✅ |
+| Internal repositories | ❌ | ❌ | ✅ |
+| SAML SSO and SCIM provisioning | ❌ | ❌ | ✅ |
+| Publish a GitHub Pages site privately | ❌ | ❌ | ✅ |
+| Audit log via API and streaming | ❌ | ❌ | ✅ |
+| IP allow list | ❌ | ❌ | ✅ |
+
+Everything above is free on public repositories, whatever plan you are on.
+
+## Protections every repository should have
+
+Two features are worth choosing a plan around. Both are free on public repos — on private repos, each has a price.
+
+**1. Enforced branch protection** — required. Nobody should be able to push straight to `main` or force-push over it. Watch out on Free: GitHub lets you create the ruleset, it saves, and it appears in the list — it is simply never enforced, so the branch you believe is protected is not. Needs **Team**. See [Do you use branch protection?](/rules/do-you-use-branch-protection/)
+
+**2. A deployment approval gate** — highly recommended for enterprise applications. It adds another layer of protection before anything goes live: a named reviewer signs off on the release. On private repos this comes only with **Enterprise Cloud** — [required reviewers](https://docs.github.com/en/actions/reference/deployments-and-environments) work on public repos only for Free, Pro and Team. Without a gate, anyone with write access — or any AI agent running in your pipeline — can release straight to production. See [Do you use gated deployments?](/rules/use-gated-deployments/)
+
+## Team or Enterprise - which one?
+
+### Team is enough for most teams
+
+1. You want branch protection actually enforced, plus wikis and Pages on private repos
+2. Your production deploys are approved outside GitHub, or you do not gate them yet
+3. You run a single organisation and manage access by hand
+4. The built-in repository roles — Read, Triage, Write, Maintain, Admin — fit how you work
+5. You are only short on build minutes. Buy the extra minutes instead of upgrading; capacity is far cheaper than the plan difference
+
+### Enterprise Cloud is for enterprise organisations
+
+Enterprise costs several times more per user than Team. It is built for large organisations with governance and compliance obligations — **not for small teams**. Consider it when:
+
+1. **You need an approval gate before production.** This is the most common reason to upgrade, and the only one Team cannot work around
+2. **You have too many repos to configure one at a time.** Organisation-level rulesets apply one standard everywhere, instead of repeating it per repo
+3. **Joiners and leavers should come from your identity provider.** SAML SSO and SCIM remove the manual step where someone leaves and their access lingers
+4. **You need permissions between Write and Read.** Custom repository roles let you say "can review and merge, but cannot deploy or change settings" — without them, people who need a little access get full write
+5. **You want internal repos.** Code visible to everyone in the company without being public to the internet. Without them the alternative is to keep each repo private and add people or teams to it by hand — workable, but it becomes admin as the number of repos grows
+6. **You have compliance obligations.** Audit log API, IP allow list and a 99.9% uptime SLA are Enterprise only
+
+Only move to Enterprise Cloud when several of these apply at once. One feature on its own rarely justifies the jump in per-user cost.
+
+<boxEmbed
+  style="info"
+  body={<>
+    GitHub moves features between tiers regularly. Check [GitHub's pricing page](https://github.com/pricing) before you commit to an upgrade.
+  </>}
+  figurePrefix="none"
+  figure="Tip - Check the current pricing before you upgrade"
+/>
