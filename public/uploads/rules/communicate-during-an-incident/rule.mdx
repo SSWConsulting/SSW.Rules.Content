@@ -1,0 +1,171 @@
+---
+type: rule
+title: Incidents - Do you know the 4 R's of incident communication?
+uri: communicate-during-an-incident
+authors:
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
+related:
+  - rule: public/uploads/rules/how-to-take-feedback-or-criticism/rule.mdx
+  - rule: public/uploads/rules/unplanned-outage-process/rule.mdx
+  - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
+  - rule: public/uploads/rules/call-first-before-emailing/rule.mdx
+  - rule: public/uploads/rules/escalate-key-updates/rule.mdx
+categories:
+  - category: categories/communication/rules-to-better-communication.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+  - category: categories/client-engagement/rules-to-better-software-consultants-working-in-a-team.mdx
+guid: 8d13b07c-04b9-4d85-b191-106ff1c86fd8
+seoDescription: The 4 R's of incident communication - Respond, Reinforce, Report, and Resolve. How to keep stakeholders calm and informed when a server goes down.
+created: 2026-07-28T00:00:00.000Z
+isArchived: false
+archivedreason: null
+---
+
+When a production system goes down, the technical fix is only half the job. The other half is communication - and it is usually the half that damages the relationship.
+
+Most incidents go pear-shaped not because the fix took too long, but because the stakeholder was left wondering whether anyone cared.
+
+<endIntro />
+
+<boxEmbed
+  style="info"
+  body={<>
+    This rule covers the **human** side of an incident. For the technical process, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## The 4 R's: Respond, Reinforce, Report, Resolve
+
+### 1. Respond - within 5 minutes
+
+**📞 Call, don't chat**
+
+Chat is the wrong tool for an incident. It is asynchronous, easy to misread, and a slow back-and-forth reads as a lack of urgency.
+
+Pick up the phone - even if you are nowhere near your computer. You can still assist verbally, or at minimum tell the other person you can't help right now so they can escalate to someone else immediately instead of waiting on you.
+
+**🙏 Use the 3 A's**
+
+Follow [Communication - Do you know the 3 A's for receiving feedback/criticism?](/how-to-take-feedback-or-criticism):
+
+1. **Acknowledge** the issue - "Yes, the server is down, I can see it too"
+2. **Apologize** for the impact - "Sorry, I know this is affecting the demo tomorrow"
+3. **Act** by saying exactly what you are doing next - "I'm heading home now and will be online in 30 minutes"
+
+**⏰ Be specific about your availability**
+
+Never leave someone guessing when you will be back. Vague answers force the stakeholder to either wait and hope, or chase you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'll look when I'm home."
+  </>}
+  figurePrefix="bad"
+  figure="Vague - no timeframe, no fallback, so the stakeholder has no idea whether to wait or escalate"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'll be home in 30 minutes and will look into it."
+  </>}
+  figurePrefix="good"
+  figure="Specific - the stakeholder knows exactly when to expect the next update"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I won't be home for the next 2 hours. Are you able to get hold of Tom or Rick?"
+  </>}
+  figurePrefix="good"
+  figure="Even better when you genuinely can't help - it hands over a path forward instead of a dead end"
+/>
+
+### 2. Reinforce - don't go solo
+
+**👥 Bring in a second person early**
+
+A second person is not a luxury during an incident. They halve the stress, spot the thing you're staring straight past, and - most importantly - one person can keep the stakeholder informed while the other investigates.
+
+Call someone from the team if you can. If nobody from the team is available, grab any co-worker who is.
+
+**🚨 Escalate early if progress has stalled**
+
+It is always better to involve more people sooner than to sit blocked, quietly burning the stakeholder's confidence. Escalate as soon as you hit a dead end, and tell the stakeholder you are doing it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I've hit a wall - I need more OpenRouter credits but I don't have access to the account. I've called Chris and I'm trying Kiki now as a backup."
+  </>}
+  figurePrefix="good"
+  figure="The blocker, the person who can unblock it, and the fallback - all in one message"
+/>
+
+### 3. Report - while you work
+
+**🔄 Give regular status updates, even when there is no progress**
+
+Silence is the single biggest cause of "they don't care about this". Short updates every **15-30 minutes** during a major incident keep everyone calm.
+
+If you need a longer uninterrupted block to investigate, say so upfront so nobody is left waiting: *"I need 30 minutes to get home, then about an hour to dig into the database logs. I'll update you at 8pm either way."*
+
+**🔓 Surface blockers loudly**
+
+If you are waiting on another person, actively chase them - call, message, whatever it takes. If you still can't reach them, don't sit in silence. Tell everyone that you tried, what is blocking you, and what happens next.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Sent a message to Kiki. If I don't hear back in 15 minutes I'll call him, then try Rob."
+  </>}
+  figurePrefix="good"
+  figure="Shows the chase is active and timeboxed, not a passive wait"
+/>
+
+**🔥 Never downplay the urgency**
+
+Statements that push the problem into the future tell the stakeholder you have mentally clocked off.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "They can look at it on Monday."
+  </>}
+  figurePrefix="bad"
+  figure="Signals the incident isn't urgent to you - even when it's critical to them"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'm restoring from last night's backup now. If that doesn't work, I'll call Rob to help me rebuild the VM tonight."
+  </>}
+  figurePrefix="good"
+  figure="Explains what is happening right now and what the next option is"
+/>
+
+### 4. Resolve - and follow through
+
+**📌 Make the incident the highest priority on the next business day**
+
+An incident over a weekend is not over when the service comes back up. On the next business day:
+
+1. Make it the team's **top priority** - above whatever was already planned
+2. Brief everyone who was not around during the incident, especially anyone who was off
+3. Coordinate the investigation immediately - don't let it drift into "we'll look next sprint"
+4. [Record the incident and perform a root cause analysis with clear actions](/record-incidents-and-perform-root-cause-analysis-with-clear-actions)
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** The 4 R's work in order, but they are not one-way. If you finish step 3 and the issue is still live, loop back to step 2 and pull in more people.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
