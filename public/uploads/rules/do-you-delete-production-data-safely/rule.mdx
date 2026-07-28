@@ -1,0 +1,24 @@
+---
+title: Do you delete production data safely?
+uri: do-you-delete-production-data-safely
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+  - category: categories/software-engineering/rules-to-better-power-platform.mdx
+authors:
+  - title: Ben Neoh
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+guid: 5c9ebda6-c505-404c-91cc-aaff597d5252
+seoDescription: "Deleting data on production is one of the most dangerous things a developer can do — and the damage is rarely caused by one big mistake. It's a chain of small ones lining up: write access that should have been read-only, a script with no dry run, no audit trail, no way back.\n\nMinor mistakes are unavoidable. Disasters are not. The Swiss Cheese Model explains why: every safeguard is a slice with holes in it, but stack enough independent layers and the holes don't line up. Add as many layers as you can — each one is another chance to catch the mistake before it becomes a disaster.\n\n▎ \U0001F5BC️ [IMAGE PLACEHOLDER — Swiss Cheese Model diagram]\n▎ Figure: Each safeguard is a slice. A disaster only happens when the holes line up.\n\n---\n❌ Bad example\n\nAn ad-hoc JavaScript snippet run straight against production — no dry run, no batching, no logging, and no way to tell afterwards what it actually deleted.\n\n▎ \U0001F5BC️ [IMAGE PLACEHOLDER — ad-hoc script hard-deleting against production]\n▎ Figure: Bad example — a one-off script with write access to prod and no safety layers\n---\n✅ Good example\n\nBefore you run anything\n\n- Confirm the safety net is real — the Recycle Bin (or soft-delete retention) is on and active for the entity, and you have actually confirmed you could restore. Backups always succeed; restores are what fail.\n- Have a backout plan — know exactly how you'd reverse this.\n- Have a notification plan — know who you tell, and how fast, if it goes wrong.\n\nHow the script is written\n\n- Use PowerShell, BDU (Bulk Data Updater) or LinqPad — not ad-hoc JavaScript.\n- Default to read-only / log-only mode. The script logs what it would do; \"write\" mode must be explicitly switched on.\n- Require the environment name to be typed to confirm before running.\n- Log every operation — a complete audit trail, so you can show exactly what was changed without reconstructing it after the fact.\n\nHow you run it\n\n- Dry run first — have it report what it would do, and read the output.\n- Small batch first — run it on the top 1 record, verify the result, then continue.\n- Delete in at least 2 steps — never inactivate and delete in one pass:\n  a. Script inactivates (or lists) the target records\n  b. A human approves the draft list\n  c. A deletion job runs against only the already-inactive records, with tight filters\ne.g. Status = Inactive AND ModifiedBy = [service account] AND ModifiedOn = today\n\n▎ \U0001F5BC️ [IMAGE PLACEHOLDER — dry run console output]\n▎ Figure: Good example — the script reports what it would delete without touching anything\n\n▎ \U0001F5BC️ [IMAGE PLACEHOLDER — environment name confirmation prompt]\n▎ Figure: Good example — the operator must type the environment name before the script will run\n\n---\nReferences\n\n- Do you avoid deleting records by flagging them as IsDeleted (Soft Delete)? (https://www.ssw.com.au/rules/avoid-deleting-records-by-flagging-them-as-isdeleted)\n- Do you default to read-only access on Production?\n- Do you have a disaster recovery plan? (https://www.ssw.com.au/rules/do-you-have-a-disaster-recovery-plan)\n- Swiss cheese model – Wikipedia (https://en.wikipedia.org/wiki/Swiss_cheese_model)"
+created: 2026-07-24T07:32:34.984Z
+createdBy: Ben Neoh
+createdByEmail: benneoh@ssw.com.au
+lastUpdated: 2026-07-24T07:41:13.071Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
+---
+
+Intro
+
+<endIntro />
+
+Body
