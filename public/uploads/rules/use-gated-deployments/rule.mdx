@@ -32,13 +32,13 @@ GitHub enables us to add manual approval steps in our workflow via the [environm
 Environments also allow us to add per-environment secrets, timers, and protection rules. To use environments we have to consider if our repository is:
 
 * **Public** - awesome! all public repo's have the environments feature enabled
-* **Private** - environments are available, but protection rules (e.g. Required reviewers) require a paid plan
+* **Private** - environments are available. Environment secrets and deployment branch policies need a paid plan; **Required reviewers need GitHub Enterprise Cloud**
 
 Only repository administrators can configure environments reviewers, timers, and secrets.
 
 <boxEmbed
   body={<>
-    Without a paid plan (GitHub Team or Enterprise) you can't configure Required reviewers on private repos — so anyone with write access can release straight to prod. This matters more in the age of AI, where a junior can ship to prod without proper testing.
+    Without GitHub Enterprise Cloud you can't configure Required reviewers on private repos — so anyone with write access can release straight to prod. This matters more in the age of AI, where a junior can ship to prod without proper testing. See [GitHub Plans - Do you know which plan you need?](/rules/which-github-plan/) for what each plan includes.
   </>}
   figurePrefix="none"
   figure=""
