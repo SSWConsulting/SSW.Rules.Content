@@ -1,79 +1,73 @@
 ---
-archivedreason: null
-authors:
-- title: Rob Weitz
-  url: https://ssw.com.au/people/rob-weitz
-created: 2026-07-24 00:00:00+00:00
-createdBy: Rob Weitz
-createdByEmail: robweitz17@gmail.com
-guid: 59f8e654-b79a-4af3-86a0-e74cd87e489c
-isArchived: false
-redirects: []
-related:
-- rule: public/uploads/rules/do-you-offer-specific-criticism/rule.mdx
-- rule: public/uploads/rules/do-not-provide-anchors-for-feedback/rule.mdx
-seoDescription: Don't rate something 7/10 - it's a cop-out that avoids commitment. Give a clear pass/fail or specific, actionable feedback instead.
+type: rule
 title: Do you avoid using 7/10 when giving feedback?
+uri: avoid-7-out-of-10-feedback
 categories:
   - category: categories/communication/rules-to-better-giving-and-taking-feedback.mdx
-type: rule
-uri: avoid-7-out-of-10-feedback
+authors:
+  - title: Rob Weitz
+    url: 'https://ssw.com.au/people/rob-weitz'
+related:
+  - rule: public/uploads/rules/do-you-offer-specific-criticism/rule.mdx
+  - rule: public/uploads/rules/do-not-provide-anchors-for-feedback/rule.mdx
+redirects: []
+guid: 59f8e654-b79a-4af3-86a0-e74cd87e489c
+seoDescription: 'Don''t rate something 7/10 - it''s a cop-out that avoids commitment. Give a clear pass/fail or specific, actionable feedback instead.'
+created: 2026-07-24T00:00:00.000Z
+createdBy: Rob Weitz
+createdByEmail: robweitz17@gmail.com
+lastUpdated: 2026-07-29T16:46:46.244Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-"7/10" feels like an answer, but it isn't one. It's a number that lets you avoid saying whether something is actually good enough - a way to sound engaged while committing to nothing.
+Giving something a "7/10" often says very little. It avoids answering the real question of whether it's actually good enough, replacing a clear opinion with a vague score.
 
 <endIntro />
 
 ## Why 7/10 is a cop-out
 
-When someone asks "how was it?" or "is this good?", a 7/10 score:
+When someone asks *"how was it?"* or *"is this good?"*, a 7/10 score sounds polite, but is really just sitting on the fence:
 
-- Doesn't say what's wrong
-- Doesn't say what's right
-- Doesn't say what to do next
-- Sounds polite, but is really just sitting on the fence
+* Doesn't say what's wrong
+* Doesn't say what's right
+* Doesn't say what to do next
 
-It protects the reviewer from an uncomfortable conversation, but it leaves the person asking with nothing they can act on. If it's not good enough to ship, say so - and say why. If it's good, say that too - specifically.
+It protects the reviewer from an uncomfortable conversation, but it leaves the person asking with nothing they can act on.
 
-Note this isn't a rule against numbers - a score like 8 or 9 out of 10 is fine, and can even be a great way to compliment someone. The problem is the bare, non-committal middle number with no reasoning attached. A decisive score paired with specific feedback is just as good as a pass/fail.
-
-## Bad example
-
-<imageEmbed
-  alt="A vague 7/10 rating with no explanation"
-  size="large"
-  showBorder={true}
-  figurePrefix="bad"
-  figure="A vague score gives the team nothing to act on"
-  src="/uploads/rules/avoid-7-out-of-10-feedback/bad-example-7-out-of-10.png"
-/>
-
-## Good example
-
-<imageEmbed
-  alt="A high, decisive 9/10 score paired with specific feedback on what to fix"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="A decisive score plus specific feedback the team can act on"
-  src="/uploads/rules/avoid-7-out-of-10-feedback/good-example-clear-feedback.png"
+<boxEmbed
+  body={<>
+    **Note:** This isn't a rule against using numbers. Scores like 8/10 or 9/10 can be a great way to recognize good work, especially when paired with specific feedback.
+    
+    The problem is giving a noncommittal middle score, such as 7/10, without explaining what it means. A clear score backed by actionable feedback is just as useful as a simple pass or fail.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
 />
 
 ## What to do instead
 
-- **Use pass/fail (or ship/don't ship)** when the question is really binary
-- **If you give a score, make it decisive** - an 8 or 9 (or a 2 or 3) says something; a 7 usually doesn't
-- **Always justify the score** - explain exactly what's standing between the score given and a 10
-- **Lead with the action**, not the number - "Not ready to ship because X" beats "7/10"
-- **Be specific** - name the exact things that need to change
+If it's not ready to ship, say so and explain why. If it is ready, say that clearly and specifically.
+
+* **Use " ✅ Pass / ❌ Fail "** when the decision is whether something is ready to go live
+* **When you give a score, make it decisive** - An 8 or 9 says something. So does a 2 or 3. A 7 usually doesn't
+* **Always justify the score** - Explain exactly what's standing between the score given and a 10. E.g.: *"Not ready to ship because {{ REASON }}"*
+* **Be specific** - List the exact things that need to change
+
+<imageEmbed alt="A vague 7/10 rating with no explanation" size="large" showBorder={true} figurePrefix="bad" figure="A vague score gives the team nothing to act on" src="/uploads/rules/avoid-7-out-of-10-feedback/bad-example-7-out-of-10.png" />
+
+<imageEmbed alt="A high, decisive 9/10 score paired with specific feedback on what to fix" size="large" showBorder={true} figurePrefix="good" figure="A decisive score plus specific feedback the team can act on" src="/uploads/rules/avoid-7-out-of-10-feedback/good-example-clear-feedback.png" />
+
+***
 
 <boxEmbed
-  style="tips"
   body={<>
-
-    A rating only becomes useful once you explain the gap. "7/10" tells no one anything - "9/10, solid work, just fix the error handling before it ships" tells everyone what to do next.
-
+    **Tip:** When **requesting** feedback, ask reviewers not to use 7/10 and link them to this rule.
   </>}
   figurePrefix="none"
   figure=""
+  style="tips"
 />
