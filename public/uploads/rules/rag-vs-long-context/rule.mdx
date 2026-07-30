@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you know how to choose a data access strategy for your AI app?
 uri: rag-vs-long-context
-seoDescription: 'Long context, vector retrieval (RAG), agentic search or graph retrieval - how to pick a data access strategy for your AI app, and why cache shareability usually decides it.'
+seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to pick a data access strategy for your AI app, what each one costs you, and why RAG is not dead.'
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
 created: 2026-07-30T00:00:00.000Z
 authors:
@@ -23,12 +23,11 @@ Your AI feature needs data the model was never trained on - your codebase, your 
 
 <endIntro />
 
-## The four options
+## The three options
 
 * **Long context** - the whole corpus in the prompt. Simplest, and the only option that reasons across everything at once. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window, and on multi-hop questions the [whole chain collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - though reasoning models largely recover it. A bigger window is not a substitute for choosing.
 * **Vector retrieval (RAG)** - embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing), the opposite call to Claude Code on the same problem.
 * **Agentic search** - hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this. Costs latency, and weakens when the answer uses different words to the question (`retry` vs `backoff` vs `circuit_breaker`).
-* **Graph retrieval** - entities and edges, for "what themes run across all of this" questions. Expensive to ingest - see [AI agent memory](/ai-agent-memory-systems).
 
 ## "RAG is dead" is not quite right
 
@@ -42,12 +41,12 @@ Under ~50k tokens and shared across users, put it in the prompt. Past ~200k, ret
 
 In between, the decider is usually **cache shareability, not corpus size**. Count queries per cache lifetime, per distinct prefix: a cache write costs 1.25x normal input against 0.1x for a read, so below roughly two queries per lifetime you pay that premium nearly every request and long context loses. Per-user permissions are what normally push you there - one prefix per tenant. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-| | Long context | RAG | Agentic search | Graph |
-| --- | --- | --- | --- | --- |
-| **Best for** | Small, static, shared | Large prose corpora | Structured, live, permission-sensitive | Relationship questions |
-| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have | Graph store plus extraction |
-| **Auditability** | Weak | Strong - chunks are citable | Strong - query is in the log | Moderate |
-| **Weak spot** | Middle-of-context accuracy | Stale index, vocabulary mismatch | Latency and tokens | Ingest cost |
+| | Long context | RAG | Agentic search |
+| --- | --- | --- | --- |
+| **Best for** | Small, static, shared | Large prose corpora | Structured, live, permission-sensitive |
+| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have |
+| **Auditability** | Weak | Strong - chunks are citable | Strong - query is in the log |
+| **Weak spot** | Middle-of-context accuracy | Stale index, vocabulary mismatch | Latency and tokens |
 
 <boxEmbed
   style="tips"
