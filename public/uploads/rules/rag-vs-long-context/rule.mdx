@@ -26,7 +26,7 @@ Your AI feature needs data the model was never trained on - your codebase, your 
 ## The four options
 
 * **Long context** - the whole corpus in the prompt. Simplest, and the only option that reasons across everything at once. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window, and on multi-hop questions the [whole chain collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - though reasoning models largely recover it. A bigger window is not a substitute for choosing.
-* **Vector retrieval (RAG)** - embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way.
+* **Vector retrieval (RAG)** - embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing), the opposite call to Claude Code on the same problem.
 * **Agentic search** - hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this. Costs latency, and weakens when the answer uses different words to the question (`retry` vs `backoff` vs `circuit_breaker`).
 * **Graph retrieval** - entities and edges, for "what themes run across all of this" questions. Expensive to ingest - see [AI agent memory](/ai-agent-memory-systems).
 
