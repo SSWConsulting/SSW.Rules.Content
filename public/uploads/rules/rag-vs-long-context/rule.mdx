@@ -43,9 +43,9 @@ Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, 
 
 ## Long context is only cheap if the prompt repeats
 
-Providers cache prompts: send the same text again a short while later and you pay a fraction of the price. That discount is the only thing making it affordable to put a whole corpus into every request.
+Caching works on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price - whatever the question is. That discount is what makes putting a whole corpus into every request affordable, so the ordering is a design decision, not a detail.
 
-It applies when the documents are identical each time. **One shared staff handbook, asked about all day - cheap.** A different contract for every client, or documents that change hourly, means nothing repeats and you pay close to full price for a very large prompt on every single question. Check that before assuming long context is the cheaper option. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+It only holds while that opening text is byte-identical. **One shared staff handbook, hundreds of different questions - cheap.** Give each client their own contract, or change the documents hourly, and every request opens with something new: nothing to reuse, and you pay close to full price for a very large prompt every time. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
 | | Long context | RAG | Agentic search |
 | --- | --- | --- | --- |
@@ -57,7 +57,7 @@ It applies when the documents are identical each time. **One shared staff handbo
 <boxEmbed
   style="tips"
   body={<>
-    Most teams over-build this. Start with the smallest thing that answers the question, and add an index only when you hit a reason the prompt cannot serve - size, permissions, or an answer that must cite its source.
+    Most teams over-build this. Add an index only once you hit something the prompt genuinely cannot serve - size, permissions, or an answer that has to cite its source.
   </>}
   figurePrefix="none"
   figure=""
