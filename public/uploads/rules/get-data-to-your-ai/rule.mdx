@@ -20,7 +20,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T06:34:39.840Z
+lastUpdated: 2026-07-30T06:40:05.568Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -64,9 +64,7 @@ Hand the model `glob`, `grep` or a query API and let it look. There's no index t
 
 That does not have to mean handing an agent a real shell. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) is a simulated bash over a virtual filesystem - `grep`, `find`, `glob` and friends, no child processes, and network access off by default - so the model gets the search primitives without terminal access to the host.
 
-The agent chooses its own search at query time, and can reach for any of the same tools RAG uses. Where it shines is **exact** matches. An exact hit that exists also cannot be ranked out of the results, the way top-k similarity search risks quietly dropping it.
-
-The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer… and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
+The agent chooses its own search at query time, and can reach for any of the same tools RAG uses. The key difference is the AI manages its own context rather than the system.
 
 ## So which should I use?
 
