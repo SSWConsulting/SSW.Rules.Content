@@ -18,7 +18,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T05:50:33.438Z
+lastUpdated: 2026-07-30T05:52:43.869Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -91,10 +91,10 @@ That gets you to a starting point. Check it against the detail below - particula
 
 Hybrid solutions and more complex context engineering are also options if you need to further optimise the solution.
 
-|                    | Long context                                                                                 | Vector retrieval (RAG)                                     | Agentic search                                       |
-| ------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| **Corpus size**    | Must fit with room to spare                                                                  | Unbounded                                                  | Unbounded                                            |
-| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None                                                                                         | Vector DB, embeddings, reranker, sync                      | A sandboxed shell or query API                       |
-| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Paid once, at indexing time                                | Tokens and turns while the agent searches            |
-| **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source     |
+|                    | Long context                                                                                 | Vector retrieval (RAG)                                         | Agentic search                                       |
+| ------------------ | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
+| **Corpus size**    | Must fit with room to spare                                                                  | Unbounded                                                      | Unbounded                                            |
+| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                    | Exact identifiers, live or permission-sensitive data |
+| **Infrastructure** | None                                                                                         | Vector DB, embeddings, reranker, sync                          | A sandboxed shell or query API                       |
+| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Paid once, at indexing time… typically **the cheapest option** | Tokens and turns while the agent searches            |
+| **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it     | Missing a match worded differently to the source     |
