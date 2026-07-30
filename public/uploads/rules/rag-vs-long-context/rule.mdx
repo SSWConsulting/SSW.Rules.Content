@@ -18,13 +18,13 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T01:53:42.682Z
+lastUpdated: 2026-07-30T02:32:09.602Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
 ---
 
-Your AI solution needs data: your codebase, your support docs, your policies.
+Your AI solution needs data: your codebase, your support docs, your business information.
 
 How the model reaches it decides your cost per query, latency, and the ability to cite sources. RAG was the clear choice for this not too long ago, but now there's some nuance to this decision… with the decision often coming down to corpus size and how dynamic it is.
 
@@ -86,10 +86,10 @@ flowchart TD
 
 That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built.
 
-| | Long context | Vector retrieval (RAG) | Agentic search |
-| --- | --- | --- | --- |
-| **Corpus size** | Must fit with room to spare | Unbounded | Unbounded |
-| **Best for** | Whole-corpus reasoning - comparisons, omissions, contradictions | Large prose corpora needing citable answers | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | A sandboxed shell or query API |
-| **Cost driver** | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time | Tokens and turns while the agent searches |
-| **Fails by** | Losing the middle of a long window | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source |
+|                    | Long context                                                       | Vector retrieval (RAG)                                     | Agentic search                                       |
+| ------------------ | ------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
+| **Corpus size**    | Must fit with room to spare                                        | Unbounded                                                  | Unbounded                                            |
+| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions    | Large prose corpora needing citable answers                | Exact identifiers, live or permission-sensitive data |
+| **Infrastructure** | None                                                               | Vector DB, embeddings, reranker, sync                      | A sandboxed shell or query API                       |
+| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time                                | Tokens and turns while the agent searches            |
+| **Fails by**       | Losing the middle of a long window                                 | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source     |
