@@ -20,15 +20,15 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T06:46:09.313Z
+lastUpdated: 2026-07-30T07:07:55.850Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
 ---
 
-Your AI solution needs data: your codebase, your support docs, your business information.
+Your AI solution needs data: your support docs, your business information.
 
-How the model reaches it decides your cost per query, latency, and the quality of your response. RAG was the clear choice not too long ago, but now there's some nuance to the decision.
+How the model reaches it decides your cost per query, latency, and the quality of your response. Back when LLMs had tiny context windows, RAG was the clear choice. Nowadays there's some nuance to the decision.
 
 <endIntro />
 
@@ -54,7 +54,7 @@ RAG means retrieving the relevant material first and passing only that to the mo
 
 Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
-### "RAG is dead"
+### The "RAG is dead" comment
 
 RAG as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt) is no longer an obvious choice, yet as a **capability**, it is still an important element of AI solution architecture. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
 
