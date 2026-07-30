@@ -68,6 +68,19 @@ Three questions settle most cases: whether the corpus fits with room to spare, w
 
 <imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat" src="/uploads/rules/rag-vs-long-context/data-access-decision-tree.svg" />
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI, which means picking the right backlog out of every project a client has.
+
+    Walk the tree. The list of projects and what each one covers is small, so it **fits with room to spare**. And picking the best match means weighing every project against the others, not retrieving the three that look closest - so it **needs the whole corpus at once**.
+
+    Two questions, and it lands on long context. The project list is also identical on every request, so it caches cleanly.
+  </>}
+  figurePrefix="good"
+  figure="YakShaver needs to compare every project to route a PBI, so the whole list goes in the prompt"
+/>
+
 That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built.
 
 |                    | Long context                                                       | Vector retrieval (RAG)                                     | Agentic search                                       |
