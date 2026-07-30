@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you know how to choose a data access strategy for your AI app?
 uri: rag-vs-long-context
-seoDescription: 'Long context, vector retrieval (RAG), agentic search or graph retrieval - how to choose a data access strategy based on corpus shape, cache shareability and auditability, with a comparison of the trade-offs.'
+seoDescription: 'Long context, vector retrieval (RAG), agentic search or graph retrieval - how to pick a data access strategy for your AI app, and why cache shareability usually decides it.'
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
 created: 2026-07-30T00:00:00.000Z
 authors:
@@ -19,189 +19,41 @@ categories:
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
 ---
 
-Almost every AI feature runs into the same wall. The model needs to answer questions about data it was never trained on - your codebase, your support documentation, your policies, your ticket history - and that data is bigger than the prompt you can send it.
-
-So you have to decide how the model gets to it. That decision sets your cost per query, your latency, your security posture, and whether an answer can cite a source. It is also much harder to change later than it looks, because each option drags its own infrastructure along behind it.
-
-There are four strategies in common use, and the honest answer to "which one?" is that it depends on properties of your corpus you can measure before writing any code.
+Your AI feature needs data the model was never trained on - your codebase, your support docs, your policies - and it is bigger than the prompt you can send. How the model reaches it sets your cost per query, your latency, and whether an answer can cite a source.
 
 <endIntro />
 
-## The four strategies
+## The four options
 
-* **Long context** - put the whole corpus in the prompt and let the model read all of it
-* **Vector retrieval (RAG)** - embed the corpus, search it semantically, inject the matches
-* **Agentic search** - give the model tools and let it go looking for what it needs
-* **Graph retrieval** - store entities and relationships, then traverse them
+* **Long context** - the whole corpus in the prompt. Simplest, and the only option that reasons across everything at once. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window, so a bigger window is not a substitute for choosing.
+* **Vector retrieval (RAG)** - embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way.
+* **Agentic search** - hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this. Costs latency, and weakens when the answer uses different words to the question (`retry` vs `backoff` vs `circuit_breaker`).
+* **Graph retrieval** - entities and edges, for "what themes run across all of this" questions. Expensive to ingest - see [AI agent memory](/ai-agent-memory-systems).
 
-Three properties of your corpus decide between them: **shape** (size, structure, volatility), **cache shareability** (how many queries share one prefix), and **auditability** (whether an answer must cite its source).
+## "RAG is dead" is not quite right
 
-## Long context
+Retrieval as a **default pipeline** - chunk, embed, top-k, stuff the prompt - is no longer a sensible starting point. Retrieval as a **capability** is fine.
 
-Put everything in the prompt. No index, no retrieval layer, no sync job - and the model can reason across the whole corpus at once, which is the one thing retrieval genuinely struggles with.
+Anthropic gets cited for killing it, yet they published [contextual retrieval](https://www.anthropic.com/news/contextual-retrieval) to make it better, and Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window - then back off when it shrinks. Even the [best result for ditching the vector store](https://arxiv.org/abs/2602.23368) puts agentic search at roughly 90% of RAG's scores, not ahead.
 
-**Fits when** the corpus is under roughly 200k tokens, mostly static, identical for every user, and the questions need holistic reasoning ("what's inconsistent across these twelve policies?"). Miss any one of those and retrieval usually wins.
+## Measure before you choose
 
-The catch is that a bigger window does not mean uniform attention. Accuracy across a context window is U-shaped - strong at the beginning and the end, weakest in the middle. Liu et al. found performance "significantly degrades when models must access relevant information in the middle of long contexts, **even for explicitly long-context models**".
+Under ~50k tokens and shared across users, put it in the prompt. Past ~200k, retrieval wins on cost.
 
-That gets worse as windows grow, because the proportion of "middle" grows faster than the edges do. Reaching for a 1M-token window to avoid choosing puts the relevant paragraph in the worst available position.
+In between, the decider is usually **cache shareability, not corpus size**. Count queries per cache lifetime, per distinct prefix: a cache write costs 1.25x normal input against 0.1x for a read, so below roughly two queries per lifetime you pay that premium nearly every request and long context loses. Per-user permissions are what normally push you there - one prefix per tenant. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-**Who's using it:** Claude Code loads `CLAUDE.md` into context up front rather than retrieving it - small, stable, relevant to everything. Claude Projects keeps project knowledge fully in context until it stops fitting.
-
-## Vector retrieval (RAG)
-
-Embed the corpus into vectors, embed the query, return the nearest matches, inject them. This is what people usually mean by RAG, and it is the option whose reputation has moved fastest.
-
-### "RAG is dead" is not quite right
-
-The claim is half true, and the half that is true matters. Retrieval **as a default pipeline** - chunk at 512 tokens, embed, take top-k by cosine similarity, stuff the prompt, ship it - is no longer a sensible starting point for every problem. Retrieval **as a capability** is as relevant as it has ever been.
-
-Anthropic is the source most often cited for "RAG is dead", so it is worth noting what Anthropic actually does. They published a technique for making retrieval *better* - contextual retrieval, which prepends 50-100 tokens of document-level context to each chunk before embedding and BM25 indexing, cutting failed retrievals by 35% on its own and 67% combined with a reranker. And they still ship retrieval in their consumer product:
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    "RAG automatically activates when your project approaches or exceeds the context window limits" - expanding capacity "by up to 10x" - and "Claude uses a <strong>project knowledge search tool</strong> to retrieve relevant information from your uploaded documents."
-  </>}
-  figurePrefix="none"
-  figure="Anthropic Help Centre - RAG for Projects"
-/>
-
-The detail worth stealing is the reverse gear: "if your project knowledge later drops below the context window threshold, Claude can automatically convert back to context-based processing." Corpus fits, use full context. Corpus does not, use retrieval. It switches in **both directions**, automatically, at the threshold - the boundary shipped as a product behaviour.
-
-**Fits when** the corpus is large, unstructured prose without good handles - support documentation, PDFs, policies, meeting transcripts, wikis with unhelpful titles - and answers need to cite a source. Hybrid search (dense plus keyword) with a reranker on top is still the best quality-to-cost ratio for most production cases.
-
-**Do not over-engineer it.** Most of the value is in hybrid search plus a reranker. Contextual chunking earns its place when retrieval quality is your bottleneck; a knowledge graph usually does not.
-
-**Who's using it:** Claude Projects above the context threshold. SSW's own [RulesGPT](https://rulesgpt.ssw.com.au) retrieves over the rules corpus. Broadly: support assistants, policy and compliance search, and anything answering natural-language questions over a large pile of prose.
-
-## Agentic search
-
-Give the model tools - `glob`, `grep`, a search API, a SQL interface - and let it look things up the way a developer would. There is no index, so there is nothing to sync and nothing to go stale.
-
-Claude Code took this route. Boris Cherny, its creator, on the Latent Space podcast (7 May 2025):
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    "we tried very, very early versions of Claude actually used RAG...eventually, we landed on just agentic search as the way to do stuff."
-  </>}
-  figurePrefix="none"
-  figure="Boris Cherny, Latent Space, May 2025"
-/>
-
-His reasons were performance ("it outperformed everything. By a lot."), no index drifting out of sync with the code, and not having to ship a customer's codebase to an embedding provider. Anthropic later described this as **just-in-time context loading**, and framed it as a hybrid rather than a vectorless model - `CLAUDE.md` is loaded up front, while "primitives like glob and grep allow it to navigate its environment and retrieve files just-in-time, effectively bypassing the issues of stale indexing and complex syntax trees."
-
-The same post notes the hybrid strategy "might be better suited for contexts with less dynamic content, such as legal or finance work" - so read the split as being about **volatility, not file type**. Static corpora tolerate pre-loading; volatile ones demand just-in-time.
-
-On how much you give up by dropping the vector store: an AWS-authored study (arXiv, December 2025) held the model, datasets and evaluation harness constant and swapped only the retriever, with the agentic side using `ripgrep-all` and `pdfgrep` in a ReAct loop. Relative to the vector-RAG baseline it reached **94.5%** of its faithfulness, **88.1%** of its context recall and **91.5%** of its answer correctness. On FinanceBench - dense financial filings full of tables - the agent **beat** RAG on answer correctness, roughly 30% against 24.2%.
-
-Read that honestly: agentic search generally landed *slightly below* the baseline, with one dataset where it won, and the paper flags real limits on large documents and ambiguous queries. It is evidence that a vector store is often not worth its operational cost - not evidence that it does not work.
-
-**Fits when** the corpus is structured, live or permission-sensitive, and has handles an agent can grab - codebases, filesystems, ticket systems, databases, well-titled wikis.
-
-Its advantages are mostly about **what does not exist**: no index to sync, no staleness, permissions inherited from the access path, and queries a human can read in a log. That last pair is usually what decides enterprise architecture, and it is barely covered in the literature.
-
-**Who's using it:** Claude Code, and coding agents generally.
-
-## Graph retrieval
-
-Store facts as typed nodes and edges, then traverse them. This answers "what themes run across the whole corpus?" and "who worked with whom, on what?" - questions where no single similarity query surfaces the answer, because the answer is the shape of the relationships.
-
-The cost is ingest: building the graph takes extra model calls per write to extract entities and place them. Reach for it when traversal *is* the question, not as an upgrade to vector search. See [Do you know the types of AI agent memory?](/ai-agent-memory-systems) for where this sits alongside memory stores.
-
-## Do the arithmetic before you commit
-
-Cached input reads at roughly **a tenth** of normal input cost. Once the cache write has amortised, cached long context costs about `0.1 x corpus_tokens` per query, against roughly `retrieved_tokens` for retrieval. Setting those equal:
-
-| Retrieved context per query | Long-context break-even corpus |
-| --- | --- |
-| ~5k tokens | ~50k tokens |
-| ~20k tokens | ~200k tokens |
-
-* **Under ~50k tokens of corpus** - put it all in the prompt. A retrieval layer is not worth building.
-* **50k-200k** - close enough that quality should decide, not price.
-* **Beyond ~200k** - the gap compounds fast at volume.
-
-**In production, cache shareability decides this more often than corpus size does.** Compute *queries per cache lifetime, per distinct prefix*. A cache write costs 1.25x normal input on the 5-minute TTL (2x on the 1-hour TTL), so below roughly two queries per cache lifetime you pay the write premium on nearly every request, and long context loses on every axis.
-
-Two things drive that number below two:
-
-1. **Per-user document sets.** Row-level permissions mean a cache per tenant, each amortising over that tenant's traffic alone. This is the most underrated killer of long-context designs.
-2. **Write frequency.** A corpus that changes hourly invalidates faster than you can amortise.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Choosing long context because the corpus "felt small enough" - then discovering that per-user permissions mean a separate cached prefix per tenant, most tenants ask one or two questions a session, and the cache-write premium therefore applies to nearly every request.
-  </>}
-  figurePrefix="bad"
-  figure="Bad example - choosing before measuring the corpus"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Measuring first: 60k tokens, identical for every user, changes monthly, roughly 40 queries an hour. One shared cached prefix that amortises easily - so long context, with the arithmetic to back it.
-  </>}
-  figurePrefix="good"
-  figure="Good example - the same choice, justified by measurements"
-/>
-
-See [Do you follow best practices for prompt caching?](/do-you-follow-best-practices-for-prompt-caching) before betting an architecture on cache economics.
-
-## Comparing the options
-
-| | Long context | Vector retrieval (RAG) | Agentic search | Graph retrieval |
+| | Long context | RAG | Agentic search | Graph |
 | --- | --- | --- | --- | --- |
-| **Corpus fit** | Under ~200k tokens, mostly static | Large unstructured prose | Structured, live, has queryable handles | Entity and relationship heavy |
-| **Latency** | Fast once cached | Milliseconds | Seconds - multiple tool round trips | Fast reads, slow ingest |
-| **Token cost** | Highest, unless the cache is well shared | Lowest per query | Moderate to high - the agent reads as it explores | Low per query |
-| **Infrastructure** | None | Vector DB, embedding pipeline, reranker, sync job | None beyond tools you already have | Graph store plus extraction pipeline |
-| **Staleness** | Refresh the prompt | Index drifts until re-embedded | None - reads live data | Drifts, and re-ingest is expensive |
-| **Permissions** | Awkward - one prefix per permission set | Needs filtering built into the index | Inherited from the access path | Needs modelling |
-| **Auditability** | Weak - hard to say which part was used | Strong - retrieved chunks are citable | Strong - the query is in the log | Moderate |
-| **Weak spot** | Middle-of-context accuracy loss | Vocabulary mismatch; no sense of time or contradiction | Genuinely semantic queries (`retry` vs `backoff` vs `circuit_breaker`) | Ingest cost |
-| **In the wild** | `CLAUDE.md`; Claude Projects under the threshold | Claude Projects over the threshold; RulesGPT | Claude Code and coding agents | Cross-corpus thematic analysis |
-
-Production systems usually put a cheap router in front of two or three of these rather than picking one.
-
-## Evidence worth checking before you repeat it
-
-A few numbers circulate in this debate that do not support the conclusions attached to them:
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    <ul>
-      <li><strong>"Multi-agent beat single-agent by 90.2%, so agentic search beats vector search."</strong> That figure concerns multi-agent orchestration on breadth-first research tasks, and cost around 15x the tokens. It measures a different variable.</li>
-      <li><strong>"SWE-bench went from 1.96% to 80%+ once we dropped embeddings."</strong> Those systems also differ in model quality, test execution, patch validation and iteration count.</li>
-      <li><strong>Per-query cost tables from blog posts.</strong> Usually illustrative rather than measured. Derive your own from published token prices and show the working.</li>
-    </ul>
-  </>}
-  figurePrefix="bad"
-  figure="Bad example - figures that do not support the claim attached to them"
-/>
-
-The structural properties - corpus size, volatility, permissions, auditability, cache shareability - are testable against your own workload, which is what makes them worth arguing from.
+| **Best for** | Small, static, shared | Large prose corpora | Structured, live, permission-sensitive | Relationship questions |
+| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have | Graph store plus extraction |
+| **Auditability** | Weak | Strong - chunks are citable | Strong - query is in the log | Moderate |
+| **Weak spot** | Middle-of-context accuracy | Stale index, vocabulary mismatch | Latency and tokens | Ingest cost |
 
 <boxEmbed
   style="tips"
   body={<>
-    Most teams over-build this. Start with the smallest thing that answers the question: if the corpus fits in the prompt and is shared across users, put it in the prompt. Add an index when you have a specific reason the simple approach cannot serve - size, permissions, or an answer that has to cite its source.
+    Most teams over-build this. Start with the smallest thing that answers the question, and add an index only when you hit a reason the prompt cannot serve - size, permissions, or an answer that must cite its source.
   </>}
   figurePrefix="none"
   figure=""
 />
-
-***
-
-### Learn more
-
-* [Claude Code: Anthropic's Agent in Your Terminal](https://www.latent.space/p/claude-code) - Boris Cherny on dropping the vector index (Latent Space, May 2025)
-* [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) - just-in-time context loading and the hybrid model (Anthropic, September 2025)
-* [Retrieval augmented generation (RAG) for Projects](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) - the threshold that switches both ways (Anthropic Help Centre)
-* [Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval) - improving retrieval rather than abandoning it (Anthropic, September 2024)
-* [Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use](https://arxiv.org/abs/2602.23368) - Subramanian et al., AWS (arXiv, December 2025)
-* [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - Liu et al., TACL
-* [In Defense of RAG in the Era of Long-Context Language Models](https://arxiv.org/abs/2409.01666) - Yu, Xu and Akkiraju, 2024
