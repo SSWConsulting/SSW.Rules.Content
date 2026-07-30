@@ -24,7 +24,7 @@ lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
 ---
 
-Your AI solution needs data: your codebase, your support docs, your policies. 
+Your AI solution needs data: your codebase, your support docs, your policies.
 
 How the model reaches it decides your cost per query, latency, and the ability to cite sources. RAG was the clear choice for this not too long ago, but now there's some nuance to this decision… with the decision often coming down to corpus size and how dynamic it is.
 
@@ -36,6 +36,12 @@ The newest of the three, and the one to try first. Context windows reaching a mi
 
 It has two failure modes worth knowing before you rely on it. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window. And on multi-hop questions, performance [collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - one badly-positioned hop takes the whole chain with it - though reasoning models largely recover it. A bigger window is not a substitute for choosing what goes in it.
 
+### Making long context economical
+
+Caching works on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price - whatever the question is. That discount is what makes putting a whole corpus into every request affordable, so the ordering is a design decision, not a detail.
+
+It only holds while that opening text is byte-identical. **One shared staff handbook, hundreds of different questions - cheap.** Give each client their own contract, or change the documents hourly, and every request opens with something new: nothing to reuse, and you pay close to full price for a very large prompt every time. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+
 ## Vector retrieval (RAG)
 
 Embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing), the opposite call to Claude Code on the same problem.
@@ -46,13 +52,11 @@ Retrieval as a **default pipeline** - chunk, embed, top-k, stuff the prompt - is
 
 ## Agentic search
 
-Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this. Costs latency, and weakens when the answer uses different words to the question (`retry` vs `backoff` vs `circuit_breaker`).
+Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
 
-## Long context is only cheap if the prompt repeats
+The defining trait is that it matches **exactly**. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search can quietly drop it.
 
-Caching works on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price - whatever the question is. That discount is what makes putting a whole corpus into every request affordable, so the ordering is a design decision, not a detail.
-
-It only holds while that opening text is byte-identical. **One shared staff handbook, hundreds of different questions - cheap.** Give each client their own contract, or change the documents hourly, and every request opens with something new: nothing to reuse, and you pay close to full price for a very large prompt every time. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer - and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
 
 |                    | Long context               | RAG                                   | Agentic search                         |
 | ------------------ | -------------------------- | ------------------------------------- | -------------------------------------- |
