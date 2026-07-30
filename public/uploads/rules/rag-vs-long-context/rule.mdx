@@ -35,11 +35,11 @@ Retrieval as a **default pipeline** - chunk, embed, top-k, stuff the prompt - is
 
 Anthropic gets cited for killing it, yet they published [contextual retrieval](https://www.anthropic.com/news/contextual-retrieval) to make it better, and Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window - then back off when it shrinks. Even the [best result for ditching the vector store](https://arxiv.org/abs/2602.23368) puts agentic search at roughly 90% of RAG's scores, not ahead.
 
-## Measure before you choose
+## Check the cache before you commit
 
-Under ~50k tokens and shared across users, put it in the prompt. Past ~200k, retrieval wins on cost.
+If the corpus comfortably fits the window and every user sees the same thing, put it in the prompt - there is nothing to build.
 
-In between, the decider is usually **cache shareability, not corpus size**. Count queries per cache lifetime, per distinct prefix: a cache write costs 1.25x normal input against 0.1x for a read, so below roughly two queries per lifetime you pay that premium nearly every request and long context loses. Per-user permissions are what normally push you there - one prefix per tenant. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+Long context stays cheap only while one prefix is reused enough to amortise caching it. **Per-user document sets** break that - a separate prefix per tenant - and so does a corpus that changes faster than you reuse it. Either way, the prompt you thought was cheap is near full price on every request. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
 | | Long context | RAG | Agentic search |
 | --- | --- | --- | --- |
