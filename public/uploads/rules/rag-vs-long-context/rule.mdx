@@ -67,6 +67,7 @@ The flip side is that the model has to guess the search term. Ask about "retry l
 Three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
 
 ```mermaid
+%%{init: {"flowchart": {"curve": "step"}}}%%
 flowchart TD
     Fits{"Corpus fits with room to spare?"}
     Fits -->|"No"| Handles{"Clear matches or live data?"}
