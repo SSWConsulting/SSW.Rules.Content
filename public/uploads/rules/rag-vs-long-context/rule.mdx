@@ -1,11 +1,10 @@
 ---
 type: rule
-archivedreason:
 title: Do you know how to choose a data access strategy for your AI app?
 uri: rag-vs-long-context
-seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to pick a data access strategy for your AI app, what each one costs you, and why RAG is not dead.'
-guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
-created: 2026-07-30T00:00:00.000Z
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
 authors:
   - title: Isaac Lombard
     url: 'https://www.ssw.com.au/people/isaac-lombard/'
@@ -14,12 +13,20 @@ related:
   - rule: public/uploads/rules/do-you-follow-best-practices-for-prompt-caching/rule.mdx
   - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
   - rule: public/uploads/rules/use-embeddings/rule.mdx
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
+seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to pick a data access strategy for your AI app, what each one costs you, and why RAG is not dead.'
+created: 2026-07-30T00:00:00.000Z
+createdBy: Isaac Lombard
+createdByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-07-30T01:31:23.181Z
+lastUpdatedBy: Isaac Lombard
+lastUpdatedByEmail: isaaclombard@ssw.com.au
+archivedreason: null
 ---
 
-Your AI feature needs data the model was never trained on - your codebase, your support docs, your policies - and it is bigger than the prompt you can send. How the model reaches it sets your cost per query, your latency, and whether an answer can cite a source.
+Your AI solution needs data: your codebase, your support docs, your policies. 
+
+How the model reaches it decides your cost per query, latency, and the ability to cite sources. RAG was the clear choice for this not too long ago, but now there's some nuance to this decision… with the decision often coming down to corpus size and how dynamic it is.
 
 <endIntro />
 
@@ -47,12 +54,12 @@ Caching works on how a prompt *starts*, not the whole thing. Put the documents a
 
 It only holds while that opening text is byte-identical. **One shared staff handbook, hundreds of different questions - cheap.** Give each client their own contract, or change the documents hourly, and every request opens with something new: nothing to reuse, and you pay close to full price for a very large prompt every time. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-| | Long context | RAG | Agentic search |
-| --- | --- | --- | --- |
-| **Best for** | Small, static, shared | Large prose corpora | Structured, live, permission-sensitive |
-| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have |
-| **Auditability** | Weak | Strong - chunks are citable | Strong - query is in the log |
-| **Weak spot** | Middle-of-context accuracy | Stale index, vocabulary mismatch | Latency and tokens |
+|                    | Long context               | RAG                                   | Agentic search                         |
+| ------------------ | -------------------------- | ------------------------------------- | -------------------------------------- |
+| **Best for**       | Small, static, shared      | Large prose corpora                   | Structured, live, permission-sensitive |
+| **Infrastructure** | None                       | Vector DB, embeddings, reranker, sync | Tools you already have                 |
+| **Auditability**   | Weak                       | Strong - chunks are citable           | Strong - query is in the log           |
+| **Weak spot**      | Middle-of-context accuracy | Stale index, vocabulary mismatch      | Latency and tokens                     |
 
 <boxEmbed
   style="tips"
