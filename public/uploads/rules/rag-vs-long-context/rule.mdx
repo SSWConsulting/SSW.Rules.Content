@@ -56,6 +56,8 @@ Retrieval as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the 
 
 Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
 
+That does not have to mean handing an agent a real shell. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) is a simulated bash over a virtual filesystem - `grep`, `find`, `glob` and friends, no child processes, and network access off by default - so the model gets the search primitives without terminal access to the host.
+
 The defining trait is that it matches **exactly**. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search risks quietly dropping it.
 
 The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer… and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
@@ -83,7 +85,7 @@ flowchart TD
 | --- | --- | --- | --- |
 | **Corpus size** | Must fit with room to spare | Unbounded | Unbounded |
 | **Best for** | Whole-corpus reasoning - comparisons, omissions, contradictions | Large prose corpora needing citable answers | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have |
+| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | A sandboxed shell or query API |
 | **Cost driver** | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time | Tokens and turns while the agent searches |
 | **Fails by** | Losing the middle of a long window | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source |
 
