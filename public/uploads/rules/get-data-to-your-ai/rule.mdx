@@ -36,7 +36,7 @@ How the model reaches it decides your cost per query, latency, and the ability t
 
 The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option.
 
-There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the only strategy that reasons across the whole corpus at once.
+There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the simplest way to put the whole corpus in front of the model in one call.
 
 That matters most where the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full to answer, because the answer is the gap between them.
 
@@ -44,13 +44,13 @@ It has caveats worth knowing. Accuracy [sags in the middle](https://arxiv.org/ab
 
 ### Making long context economical
 
-Long context becomes even better when accounting for caching. Caching keys on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+Long context becomes even better when accounting for caching. Caching keys on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. Check the numbers for your own provider and model first - the minimum cacheable size, how long the cache lives and the size of the discount all differ. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
 That discount is what makes putting a whole corpus into every request affordable, so the ordering is an important design decision here.
 
 ## Retrieval-Augmented Generation (RAG)
 
-RAG is an architecture where a user query and documents are converted into numerical embedding vectors in order to match natural language queries to semantically similar content.
+RAG means retrieving the relevant material first and passing only that to the model. The retrieval itself can be keyword, structured, graph-based, vector similarity, or a mix - vector search over embeddings is just the most common, and usually what people mean when they say RAG.
 
 Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
@@ -60,19 +60,21 @@ RAG as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt
 
 ## Agentic search
 
-Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
+Hand the model `glob`, `grep` or a query API and let it look. There's no index to keep in sync, so nothing goes stale - as long as the tools read the live source and not a snapshot or a cache. Permissions can come from the access path too, but only if that path authenticates the caller and filters the results before the model ever sees them. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
 
 That does not have to mean handing an agent a real shell. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) is a simulated bash over a virtual filesystem - `grep`, `find`, `glob` and friends, no child processes, and network access off by default - so the model gets the search primitives without terminal access to the host.
 
-The defining trait is that it matches **exactly**. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search risks quietly dropping it.
+The agent chooses its own search at query time, and can reach for any of the same tools RAG uses. Where it shines is **exact** matches. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search risks quietly dropping it.
 
 The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer… and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
 
 ## So which should I use?
 
-Three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
+These are composable building blocks, not mutually exclusive architectures - retrieval can select the relevant material before the model reasons over it in context.
 
-<imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat" src="/uploads/rules/get-data-to-your-ai/data-access-decision-tree-v2.svg" />
+That said, three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
+
+<imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat" src="/uploads/rules/get-data-to-your-ai/data-access-decision-tree-v3.svg" />
 
 <boxEmbed
   style="greybox"
@@ -91,10 +93,10 @@ That gets you to a starting point. Check it against the detail below - particula
 
 Hybrid solutions and more complex context engineering are also options if you need to further optimise the solution.
 
-|                    | Long context                                                                                 | Vector retrieval (RAG)                                         | Agentic search                                       |
+|                    | Long context                                                                                 | RAG (retrieval)                                         | Agentic search                                       |
 | ------------------ | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
-| **Corpus size**    | Must fit with room to spare                                                                  | Unbounded                                                      | Unbounded                                            |
+| **Corpus size**    | Must fit with room to spare | Bigger than the window - bounded by index and retrieval limits | Bigger than the window - bounded by what each search returns |
 | **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                    | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None                                                                                         | Vector DB, embeddings, reranker, sync                          | A sandboxed shell or query API                       |
-| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Paid once, at indexing time… typically **the cheapest option** | Tokens and turns while the agent searches            |
+| **Infrastructure** | None                                                                                         | A retrieval layer to build and keep in sync - commonly a vector DB and embeddings | A sandboxed shell or query API                       |
+| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Indexing up front, re-indexing as documents change, plus retrieval per query… often **the cheapest per query** | Tokens and turns while the agent searches            |
 | **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it     | Missing a match worded differently to the source     |

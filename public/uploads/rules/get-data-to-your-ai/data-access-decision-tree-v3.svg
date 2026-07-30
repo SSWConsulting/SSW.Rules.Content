@@ -43,7 +43,7 @@
 
   <g fill="#333333" font-size="15" font-weight="600" text-anchor="middle">
     <text x="125" y="531">Agentic search</text>
-    <text x="395" y="531">Vector retrieval (RAG)</text>
+    <text x="395" y="531">RAG (retrieval)</text>
     <text x="715" y="531">Long context</text>
   </g>
 
