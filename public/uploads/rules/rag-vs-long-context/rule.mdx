@@ -18,7 +18,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T01:51:41.590Z
+lastUpdated: 2026-07-30T01:53:42.682Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -54,9 +54,13 @@ Retrieval as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the 
 
 Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
 
-The defining trait is that it matches **exactly**. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search can quietly drop it.
+The defining trait is that it matches **exactly**. `grep` finds literal strings, which makes it precise wherever your data has canonical spellings - function names, error codes, config keys, ticket IDs, file paths. An exact hit that exists cannot be ranked out of the results, the way top-k similarity search risks quietly dropping it.
 
-The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer - and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
+The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer… and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
+
+So which should I use?
+
+
 
 |                    | Long context               | RAG                                   | Agentic search                         |
 | ------------------ | -------------------------- | ------------------------------------- | -------------------------------------- |
