@@ -18,7 +18,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T05:52:43.869Z
+lastUpdated: 2026-07-30T05:58:31.069Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -89,14 +89,14 @@ That said, three questions settle most cases: whether the corpus fits with room 
   figure="YakShaver needs to compare every project to route a PBI, so the whole list goes in the prompt"
 />
 
-That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built. 
+That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built.
 
 Hybrid solutions and more complex context engineering are also options if you need to further optimise the solution.
 
-|                    | Long context                                                                                 | RAG (retrieval)                                         | Agentic search                                       |
-| ------------------ | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
-| **Corpus size**    | Must fit with room to spare | Bigger than the window - bounded by index and retrieval limits | Bigger than the window - bounded by what each search returns |
-| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                    | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None                                                                                         | A retrieval layer to build and keep in sync - commonly a vector DB and embeddings | A sandboxed shell or query API                       |
-| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Indexing up front, re-indexing as documents change, plus retrieval per query… often **the cheapest per query** | Tokens and turns while the agent searches            |
-| **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it     | Missing a match worded differently to the source     |
+|                    | Long context                                                                                 | RAG (retrieval)                                                                   | Agentic search                                               |
+| ------------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Corpus size**    | Must fit with room to spare                                                                  | Bigger than the window - bounded by index and retrieval limits                    | Bigger than the window - bounded by what each search returns |
+| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                                       | Exact identifiers, live or permission-sensitive data         |
+| **Infrastructure** | None                                                                                         | A retrieval layer to build and keep in sync - commonly a vector DB and embeddings | A sandboxed shell or query API                               |
+| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Indexing up front, re-indexing as documents change, plus retrieval per query      | Tokens and turns while the agent searches                    |
+| **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it                        | Missing a match worded differently to the source             |
