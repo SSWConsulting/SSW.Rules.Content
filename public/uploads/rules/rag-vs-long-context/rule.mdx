@@ -34,7 +34,11 @@ How the model reaches it decides your cost per query, latency, and the ability t
 
 ## Long context
 
-The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option. There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the only strategy that reasons across the whole corpus at once - which is what you need for a question like *which security requirements never made it into the release*, where the answer is the gap between two documents rather than a passage inside either one.
+The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option.
+
+There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the only strategy that reasons across the whole corpus at once.
+
+That matters most where the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full to answer, because the answer is the gap between them.
 
 It has caveats worth knowing. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window. On multi-hop questions, performance [collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - one badly-positioned hop can derail the conversation.
 
@@ -44,13 +48,15 @@ Long context becomes even better when accounting for caching. Caching keys on ho
 
 That discount is what makes putting a whole corpus into every request affordable, so the ordering is an important design decision here.
 
-## Vector retrieval (RAG)
+## Retrieval-Augmented Generation (RAG)
 
-Embed, search, inject the matches. Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
+RAG is an architecture where a user query and documents are converted into numerical embedding vectors in order to match natural language queries to semantically similar content.
+
+Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
 ### "RAG is dead"
 
-Retrieval as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt) is no longer an obvious choice. Retrieval as a **capability** is still an important element of AI infrastructure. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then back off when it shrinks. And even the [best result for ditching the vector store](https://arxiv.org/abs/2602.23368) puts agentic search (see below) at roughly 90% of RAG's scores, not ahead of them.
+RAG as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt) is no longer an obvious choice, yet as a **capability**, it is still an important element of AI infrastructure. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then back off when it shrinks. And even the [best result for ditching the vector store](https://arxiv.org/abs/2602.23368) puts agentic search (see below) at roughly 90% of RAG's scores, not ahead of them.
 
 ## Agentic search
 
@@ -73,7 +79,7 @@ Three questions settle most cases: whether the corpus fits with room to spare, w
   body={<>
     [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI, which means picking the right backlog out of every project a client has.
 
-    Walk the tree. The list of projects and what each one covers is small, so it **fits with room to spare**. And picking the best match means weighing every project against the others, not retrieving the three that look closest - so it **needs the whole corpus at once**.
+    Walk the decision tree above: the list of projects and what each one covers is small, so it **fits with room to spare**. And picking the best match means weighing every project against the others, not retrieving the three that look closest - so it **needs the whole corpus at once**.
 
     Two questions, and it lands on long context. The project list is also identical on every request, so it caches cleanly.
   </>}

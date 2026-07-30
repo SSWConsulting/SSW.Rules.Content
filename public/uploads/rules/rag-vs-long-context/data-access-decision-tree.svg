@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Segoe UI, Helvetica, Arial, sans-serif">
   <title id="title">Choosing a data access strategy</title>
-  <desc id="desc">A decision tree. Does the corpus fit with room to spare? If no, does it have clear matches or live data? If yes, use agentic search; if no, use vector retrieval (RAG). If the corpus does fit, does the answer need the whole corpus at once? If yes, use long context. If no, are the same documents sent on every request? If yes, use long context; if no, use vector retrieval (RAG).</desc>
+  <desc id="desc">A decision tree. Does the corpus fit in context with room to spare? If no, does it have clear matches or live data? If yes, use agentic search; if no, use vector retrieval (RAG). If the corpus does fit, does the answer need the whole corpus at once? If yes, use long context. If no, are the same documents sent on every request? If yes, use long context; if no, use vector retrieval (RAG).</desc>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -22,7 +22,7 @@
   </g>
 
   <g fill="#fdecea" stroke="#cc4141" stroke-width="2">
-    <rect x="290" y="40" width="300" height="64" rx="8"/>
+    <rect x="270" y="40" width="340" height="64" rx="8"/>
     <rect x="60" y="180" width="300" height="64" rx="8"/>
     <rect x="520" y="180" width="300" height="64" rx="8"/>
     <rect x="520" y="330" width="300" height="64" rx="8"/>
@@ -35,8 +35,8 @@
   </g>
 
   <g fill="#333333" font-size="15" text-anchor="middle">
-    <text x="440" y="78">Corpus fits with room to spare?</text>
-    <text x="210" y="218">Clear matches or live data?</text>
+    <text x="440" y="78">Corpus fits in context with room to spare?</text>
+    <text x="210" y="218">Has clear matches or live data?</text>
     <text x="670" y="218">Needs the whole corpus at once?</text>
     <text x="670" y="368">Same documents every request?</text>
   </g>
