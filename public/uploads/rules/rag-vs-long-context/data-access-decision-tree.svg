@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="title">Choosing a data access strategy</title>
+  <desc id="desc">A decision tree. Does the corpus fit with room to spare? If no, does it have clear matches or live data? If yes, use agentic search; if no, use vector retrieval (RAG). If the corpus does fit, does the answer need the whole corpus at once? If yes, use long context. If no, are the same documents sent on every request? If yes, use long context; if no, use vector retrieval (RAG).</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#797979"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="600" fill="#ffffff"/>
+
+  <g stroke="#797979" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 440 104 V 142 H 210 V 176"/>
+    <path d="M 440 104 V 142 H 670 V 176"/>
+    <path d="M 210 244 V 420 H 125 V 496"/>
+    <path d="M 210 244 V 420 H 340 V 496"/>
+    <path d="M 670 244 V 326"/>
+    <path d="M 670 394 V 450 H 450 V 496"/>
+    <path d="M 670 394 V 450 H 680 V 496"/>
+    <path d="M 820 212 H 870 V 526 H 824"/>
+  </g>
+
+  <g fill="#fdecea" stroke="#cc4141" stroke-width="2">
+    <rect x="290" y="40" width="300" height="64" rx="8"/>
+    <rect x="60" y="180" width="300" height="64" rx="8"/>
+    <rect x="520" y="180" width="300" height="64" rx="8"/>
+    <rect x="520" y="330" width="300" height="64" rx="8"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#cc4141" stroke-width="2">
+    <rect x="20" y="500" width="210" height="52" rx="26"/>
+    <rect x="290" y="500" width="210" height="52" rx="26"/>
+    <rect x="610" y="500" width="210" height="52" rx="26"/>
+  </g>
+
+  <g fill="#333333" font-size="15" text-anchor="middle">
+    <text x="440" y="78">Corpus fits with room to spare?</text>
+    <text x="210" y="218">Clear matches or live data?</text>
+    <text x="670" y="218">Needs the whole corpus at once?</text>
+    <text x="670" y="368">Same documents every request?</text>
+  </g>
+
+  <g fill="#333333" font-size="15" font-weight="600" text-anchor="middle">
+    <text x="125" y="531">Agentic search</text>
+    <text x="395" y="531">Vector retrieval (RAG)</text>
+    <text x="715" y="531">Long context</text>
+  </g>
+
+  <g font-size="13" text-anchor="middle">
+    <rect x="278" y="123" width="30" height="20" fill="#ffffff"/>
+    <text x="293" y="138" fill="#797979">No</text>
+    <rect x="558" y="123" width="34" height="20" fill="#ffffff"/>
+    <text x="575" y="138" fill="#797979">Yes</text>
+
+    <rect x="146" y="401" width="34" height="20" fill="#ffffff"/>
+    <text x="163" y="416" fill="#797979">Yes</text>
+    <rect x="272" y="401" width="30" height="20" fill="#ffffff"/>
+    <text x="287" y="416" fill="#797979">No</text>
+
+    <rect x="655" y="277" width="30" height="20" fill="#ffffff"/>
+    <text x="670" y="292" fill="#797979">No</text>
+
+    <rect x="520" y="431" width="30" height="20" fill="#ffffff"/>
+    <text x="535" y="446" fill="#797979">No</text>
+    <rect x="676" y="431" width="34" height="20" fill="#ffffff"/>
+    <text x="693" y="446" fill="#797979">Yes</text>
+
+    <rect x="853" y="340" width="34" height="20" fill="#ffffff"/>
+    <text x="870" y="355" fill="#797979">Yes</text>
+  </g>
+</svg>

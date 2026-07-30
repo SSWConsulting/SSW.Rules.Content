@@ -66,20 +66,7 @@ The flip side is that the model has to guess the search term. Ask about "retry l
 
 Three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
 
-```mermaid
-flowchart TD
-    Fits{"Corpus fits with room to spare?"}
-    Fits -->|"No"| Handles{"Clear matches or live data?"}
-    Fits -->|"Yes"| Global{"Needs the whole corpus at once?"}
-    Handles -->|"Yes"| Agentic(["Agentic search"])
-    Handles -->|"No"| RAG(["Vector retrieval (RAG)"])
-    Global -->|"Yes"| LC(["Long context"])
-    Global -->|"No"| Repeats{"Same documents every request?"}
-    Repeats -->|"Yes"| LC
-    Repeats -->|"No"| RAG
-```
-
-**Figure: Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat**
+<imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat" src="/uploads/rules/rag-vs-long-context/data-access-decision-tree.svg" />
 
 That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built.
 
