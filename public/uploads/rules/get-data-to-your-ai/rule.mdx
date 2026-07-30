@@ -20,7 +20,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T07:22:17.057Z
+lastUpdated: 2026-07-30T07:29:09.557Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -54,9 +54,7 @@ This is the OG. RAG means retrieving the relevant material first and passing onl
 
 Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
-### The "RAG is dead" comment
-
-RAG as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt) is no longer an obvious choice, yet as a **capability**, it is still an important element of AI solution architecture. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
+**On the "RAG is dead" comment:** RAG as the **default pipeline** (i.e. chunk, embed, top-k, then stuff the prompt) is no longer an obvious choice, yet as a **capability**, it is still an important element of AI solution architecture. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
 
 ## Option C: Agentic search
 
@@ -70,7 +68,11 @@ The agent chooses its own search at query time, and can reach for any of the sam
 
 These are composable building blocks, not mutually exclusive architectures.
 
-That said, three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
+That said, 3 questions settle most cases: 
+
+* whether the corpus fits with room to spare
+* whether the answer needs all of it at once
+* whether the same documents come back on every request
 
 <imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat" src="/uploads/rules/get-data-to-your-ai/data-access-decision-tree-v3.svg" />
 
