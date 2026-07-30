@@ -63,26 +63,25 @@ The flip side is that the model has to guess the search term. Ask about "retry l
 ## So which should I use?
 
 ```mermaid
-flowchart
+flowchart TD
+    Fits{"Fits with room to spare?"} -->|"No"| Handles{"Clear matches or live data?"}
+    Fits -->|"Yes"| Global{"Needs the whole corpus at once?"}
 
- Start(["Start"]) --> Fits{"Corpus fits\nthe context window?"}
+    Handles -->|"Yes"| Agentic(["Agentic search"])
+    Handles -->|"No"| RAG(["Vector retrieval (RAG)"])
 
- Fits -->|"No"| Handles{"Exact identifiers, live data\nor per-user permissions?"}
- Fits -->|"Yes"| Global{"Answer needs the\nwhole corpus at once?"}
+    Global -->|"Yes"| LongContext(["Long context"])
+    Global -->|"No"| Repeats{"Same documents every request?"}
 
- Handles -->|"Yes"| Agentic(["Agentic search"])
- Handles -->|"No"| RAG(["Vector retrieval (RAG)"])
-
- Global -->|"Yes"| LongContext(["Long context"])
- Global -->|"No"| Repeats{"Same documents\non every request?"}
-
- Repeats -->|"Yes"| LongContext
- Repeats -->|"No"| RAG
+    Repeats -->|"Yes"| LongContext
+    Repeats -->|"No"| RAG
 ```
+
+**Figure: Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat**
 
 | | Long context | Vector retrieval (RAG) | Agentic search |
 | --- | --- | --- | --- |
-| **Corpus size** | Has to fit the window | Unbounded | Unbounded |
+| **Corpus size** | Must fit with room to spare | Unbounded | Unbounded |
 | **Best for** | Whole-corpus reasoning - comparisons, omissions, contradictions | Large prose corpora needing citable answers | Exact identifiers, live or permission-sensitive data |
 | **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have |
 | **Cost driver** | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time | Tokens and turns while the agent searches |
