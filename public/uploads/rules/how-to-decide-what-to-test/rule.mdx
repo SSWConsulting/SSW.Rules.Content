@@ -5,7 +5,6 @@ authors:
 created: 2022-12-08 00:05:15.114000+00:00
 guid: 22353d13-869b-48b5-b775-a8a872167c24
 related:
-- rule: public/uploads/rules/know-when-you-have-found-a-problem/rule.mdx
 - rule: public/uploads/rules/what-is-exploratory-testing/rule.mdx
 - rule: public/uploads/rules/risk-based-testing/rule.mdx
 seoDescription: Discover effective ways to generate test ideas and apply heuristics
@@ -27,18 +26,17 @@ Taking an exploratory approach to testing gives testers more freedom to choose w
 
 It's helpful to think in terms of **test ideas**.
 
-### Test ideas
+## Test ideas
 
 > Test ideas are brief notions about something that could be tested - Rikard Edgren
-
+>
 > Test idea: an idea for testing something - James Bach
 
 When tasked with testing something new, you don't necessarily know how to unearth interesting test ideas and so following rules probably doesn't help.
 
 Under such conditions of uncertainty (which are normal in software development), look for methods or ways of coming up with test ideas that might work, while acknowledging that they might not - these are **heuristics**.
 
-### Heuristics
-
+## Heuristics
 
 <boxEmbed
   style="greybox"
@@ -51,12 +49,11 @@ A heuristic is an experience-based technique for problem solving, learning and d
   figure=""
 />
 
-
 > A heuristic is a way to help me come up with test ideas - Lee Hawkins
 
 You'll likely build up your own toolbox of heuristics to draw from as you become more familiar with them and realise their power.
 
-### Getting started - consistency heuristics
+## Getting started - consistency heuristics
 
 To get started with the use of heuristics, try some **consistency heuristics**. A great example comes from Michael Bolton in the form of [HICCUPPS](https://developsense.com/blog/2012/07/few-hiccupps), which is a mnemonic as follows:
 
@@ -71,6 +68,43 @@ To get started with the use of heuristics, try some **consistency heuristics**. 
 
 As an example of using the "Product" part of this heuristic, note that in Trello, there is an inconsistency in the way fields on cards can be edited. Clicking in the Description or Tasks fields puts the field straight into Edit mode, whereas to edit a Comment requires an explicit click on the "Edit" action. This is a case of the Trello product being inconsistent with itself in terms of editing fields on a card.
 
-### Further reading
+## Test oracles
+
+Heuristics help identify what to test. Once unexpected behaviour is observed, a **test oracle** helps determine whether it might be a problem.
+
+A test oracle is a source of expected behaviour, such as:
+
+* Acceptance criteria or specifications
+* Previous versions of the product
+* Comparable products
+* Consistency elsewhere in the product
+* Reasonable user expectations
+* Legal or business requirements
+
+Oracles are fallible and context-dependent. For example, behaviour that conflicts with a specification may indicate a software defect, an outdated specification, or a misunderstanding of the intended behaviour. Using multiple oracles can provide more confidence that an observation is a genuine problem.
+
+When reporting a potential problem, identify the oracle by clearly stating the expected and actual behaviour.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The Save button doesn't work properly.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The problem is based on an unexplained expectation"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Expected:** Selecting **Save** should retain the edited address, as stated in Acceptance Criterion 3.
+
+    **Actual:** A confirmation message appears, but reopening the record shows the original address.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The expected behaviour, oracle, and actual behaviour are clear"
+/>
+
+## Further reading
 
 * [Cultivate your Credibility with Oracles and Heuristics](https://www.ministryoftesting.com/dojo/lessons/cultivate-your-credibility-with-oracles-and-heuristics) by Lee Hawkins
