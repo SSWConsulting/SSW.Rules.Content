@@ -18,7 +18,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T02:32:09.602Z
+lastUpdated: 2026-07-30T05:49:17.286Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -78,21 +78,23 @@ Three questions settle most cases: whether the corpus fits with room to spare, w
   style="greybox"
   body={<>
     [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI, which means picking the right backlog out of every project a client has.
-
+    
     Walk the decision tree above: the list of projects and what each one covers is small, so it **fits with room to spare**. And picking the best match means weighing every project against the others, not retrieving the three that look closest - so it **needs the whole corpus at once**.
-
+    
     Two questions, and it lands on long context. The project list is also identical on every request, so it caches cleanly.
   </>}
   figurePrefix="good"
   figure="YakShaver needs to compare every project to route a PBI, so the whole list goes in the prompt"
 />
 
-That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built.
+That gets you to a starting point. Check it against the detail below - particularly what drives the cost and how each option fails, since those are what you live with once it is built. 
 
-|                    | Long context                                                       | Vector retrieval (RAG)                                     | Agentic search                                       |
-| ------------------ | ------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
-| **Corpus size**    | Must fit with room to spare                                        | Unbounded                                                  | Unbounded                                            |
-| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions    | Large prose corpora needing citable answers                | Exact identifiers, live or permission-sensitive data |
-| **Infrastructure** | None                                                               | Vector DB, embeddings, reranker, sync                      | A sandboxed shell or query API                       |
-| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time                                | Tokens and turns while the agent searches            |
-| **Fails by**       | Losing the middle of a long window                                 | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source     |
+Hybrid solutions and more complex context engineering are also options in certain scenarios. 
+
+|                    | Long context                                                                                 | Vector retrieval (RAG)                                     | Agentic search                                       |
+| ------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
+| **Corpus size**    | Must fit with room to spare                                                                  | Unbounded                                                  | Unbounded                                            |
+| **Best for**       | Whole-corpus reasoning - comparisons, omissions, contradictions,&#xA;**single-turn queries** | Large prose corpora needing citable answers                | Exact identifiers, live or permission-sensitive data |
+| **Infrastructure** | None                                                                                         | Vector DB, embeddings, reranker, sync                      | A sandboxed shell or query API                       |
+| **Cost driver**    | Re-sent every request - caching only helps if the documents repeat                           | Paid once, at indexing time                                | Tokens and turns while the agent searches            |
+| **Fails by**       | Losing the middle of a long window                                                           | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source     |
