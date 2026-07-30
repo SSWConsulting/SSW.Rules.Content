@@ -30,17 +30,19 @@ How the model reaches it decides your cost per query, latency, and the ability t
 
 <endIntro />
 
+<youtubeEmbed url="https://www.youtube.com/watch?v=UabBYexBD4k" description="Video: Is RAG Still Needed? Choosing the Best Approach for LLMs (11 min)" />
+
 ## Long context
 
-The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option. There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the only strategy that reasons across the whole corpus at once.
+The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option. There's no index, no embedding pipeline, no sync job, that you would have to set up as with RAG. It's also the only strategy that reasons across the whole corpus at once - which is what you need for a question like *which security requirements never made it into the release*, where the answer is the gap between two documents rather than a passage inside either one.
 
 It has caveats worth knowing. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window. On multi-hop questions, performance [collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - one badly-positioned hop can derail the conversation.
 
 ### Making long context economical
 
-Long context becomes even better when accounting for caching. This on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+Long context becomes even better when accounting for caching. Caching keys on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-That discount is what makes putting a whole corpus into every request affordable, so the ordering is an important design decision here. 
+That discount is what makes putting a whole corpus into every request affordable, so the ordering is an important design decision here.
 
 ## Vector retrieval (RAG)
 
@@ -58,16 +60,33 @@ The defining trait is that it matches **exactly**. `grep` finds literal strings,
 
 The flip side is that the model has to guess the search term. Ask about "retry logic" when the code says `circuit_breaker` and the first search returns nothing, so the agent tries again with different words. That recovery is why the cost lands as latency and tokens rather than a wrong answer… and why questions phrased in genuinely different vocabulary to the source still favour embeddings.
 
-So which should I use?
+## So which should I use?
 
+```mermaid
+flowchart
 
+ Start(["Start"]) --> Fits{"Corpus fits\nthe context window?"}
 
-|                    | Long context               | RAG                                   | Agentic search                         |
-| ------------------ | -------------------------- | ------------------------------------- | -------------------------------------- |
-| **Best for**       | Small, static, shared      | Large prose corpora                   | Structured, live, permission-sensitive |
-| **Infrastructure** | None                       | Vector DB, embeddings, reranker, sync | Tools you already have                 |
-| **Auditability**   | Weak                       | Strong - chunks are citable           | Strong - query is in the log           |
-| **Weak spot**      | Middle-of-context accuracy | Stale index, vocabulary mismatch      | Latency and tokens                     |
+ Fits -->|"No"| Handles{"Exact identifiers, live data\nor per-user permissions?"}
+ Fits -->|"Yes"| Global{"Answer needs the\nwhole corpus at once?"}
+
+ Handles -->|"Yes"| Agentic(["Agentic search"])
+ Handles -->|"No"| RAG(["Vector retrieval (RAG)"])
+
+ Global -->|"Yes"| LongContext(["Long context"])
+ Global -->|"No"| Repeats{"Same documents\non every request?"}
+
+ Repeats -->|"Yes"| LongContext
+ Repeats -->|"No"| RAG
+```
+
+| | Long context | Vector retrieval (RAG) | Agentic search |
+| --- | --- | --- | --- |
+| **Corpus size** | Has to fit the window | Unbounded | Unbounded |
+| **Best for** | Whole-corpus reasoning - comparisons, omissions, contradictions | Large prose corpora needing citable answers | Exact identifiers, live or permission-sensitive data |
+| **Infrastructure** | None | Vector DB, embeddings, reranker, sync | Tools you already have |
+| **Cost driver** | Re-sent every request - caching only helps if the documents repeat | Paid once, at indexing time | Tokens and turns while the agent searches |
+| **Fails by** | Losing the middle of a long window | Silent failure - the answer was there, retrieval missed it | Missing a match worded differently to the source |
 
 <boxEmbed
   style="tips"
