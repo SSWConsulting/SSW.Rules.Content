@@ -20,7 +20,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T06:10:57.012Z
+lastUpdated: 2026-07-30T06:19:30.987Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -28,7 +28,7 @@ archivedreason: null
 
 Your AI solution needs data: your codebase, your support docs, your business information.
 
-How the model reaches it decides your cost per query, latency, and the ability to cite sources. RAG was the clear choice for this not too long ago, but now there's some nuance to this decision… with the decision often coming down to corpus size and how dynamic it is.
+How the model reaches it decides your cost per query, latency, and the quality of your response. RAG was the clear choice not too long ago, but now there's some nuance to the decision.
 
 <endIntro />
 
@@ -36,11 +36,11 @@ How the model reaches it decides your cost per query, latency, and the ability t
 
 ## Long context
 
-The newest options. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option.
+The newest option. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option.
 
 That matters most where the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full to answer, because the answer is the gap between them.
 
-It has caveats worth knowing. Accuracy [sags in the middle](https://arxiv.org/abs/2307.03172) of a long window. On multi-hop questions, performance [collapses to the least visible fact](https://arxiv.org/abs/2601.12499) - one badly-positioned hop can derail the conversation.
+It has caveats worth knowing. Positioning matters, and context in certain areas is predisposed to being missed – such as [in the middle](https://arxiv.org/abs/2307.03172) and [other specific positions](https://arxiv.org/abs/2601.12499) in multi-hop conversations.
 
 ### Making long context economical
 
