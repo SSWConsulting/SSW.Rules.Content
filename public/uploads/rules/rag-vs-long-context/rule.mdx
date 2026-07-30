@@ -67,20 +67,16 @@ The flip side is that the model has to guess the search term. Ask about "retry l
 Three questions settle most cases: whether the corpus fits with room to spare, whether the answer needs all of it at once, and whether the same documents come back on every request.
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "step"}}}%%
 flowchart TD
     Fits{"Corpus fits with room to spare?"}
     Fits -->|"No"| Handles{"Clear matches or live data?"}
     Fits -->|"Yes"| Global{"Needs the whole corpus at once?"}
-
     Handles -->|"Yes"| Agentic(["Agentic search"])
-    Handles -->|"No"| RagLarge(["Vector retrieval (RAG)"])
-
-    Global -->|"Yes"| LcGlobal(["Long context"])
+    Handles -->|"No"| RAG(["Vector retrieval (RAG)"])
+    Global -->|"Yes"| LC(["Long context"])
     Global -->|"No"| Repeats{"Same documents every request?"}
-
-    Repeats -->|"Yes"| LcRepeat(["Long context"])
-    Repeats -->|"No"| RagVolatile(["Vector retrieval (RAG)"])
+    Repeats -->|"Yes"| LC
+    Repeats -->|"No"| RAG
 ```
 
 **Figure: Choosing a data access strategy by corpus size, reasoning scope, and whether the documents repeat**
