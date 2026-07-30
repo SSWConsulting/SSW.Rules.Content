@@ -18,7 +18,7 @@ seoDescription: 'Long context, vector retrieval (RAG) or agentic search - how to
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T01:44:09.227Z
+lastUpdated: 2026-07-30T01:48:39.505Z
 lastUpdatedBy: Isaac Lombard
 lastUpdatedByEmail: isaaclombard@ssw.com.au
 archivedreason: null
@@ -38,9 +38,9 @@ It has caveats worth knowing. Accuracy [sags in the middle](https://arxiv.org/ab
 
 ### Making long context economical
 
-Long context becomes even better when accounting for caching. This on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price - whatever the question is. That discount is what makes putting a whole corpus into every request affordable, so the ordering is a design decision, not a detail.
+Long context becomes even better when accounting for caching. This on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-It only holds while that opening text is byte-identical. **One shared staff handbook, hundreds of different questions - cheap.** Give each client their own contract, or change the documents hourly, and every request opens with something new: nothing to reuse, and you pay close to full price for a very large prompt every time. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+That discount is what makes putting a whole corpus into every request affordable, so the ordering is an important design decision here. 
 
 ## Vector retrieval (RAG)
 
