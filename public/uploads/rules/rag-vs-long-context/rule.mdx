@@ -41,11 +41,11 @@ Retrieval as a **default pipeline** - chunk, embed, top-k, stuff the prompt - is
 
 Hand the model `glob`, `grep` or a query API and let it look. Nothing to index, so nothing goes stale and permissions come from the access path. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this. Costs latency, and weakens when the answer uses different words to the question (`retry` vs `backoff` vs `circuit_breaker`).
 
-## Check the cache before you commit
+## Long context is only cheap if the prompt repeats
 
-If the corpus comfortably fits the window and every user sees the same thing, put it in the prompt - there is nothing to build.
+Providers cache prompts: send the same text again a short while later and you pay a fraction of the price. That discount is the only thing making it affordable to put a whole corpus into every request.
 
-Long context stays cheap only while one prefix is reused enough to amortise caching it. **Per-user document sets** break that - a separate prefix per tenant - and so does a corpus that changes faster than you reuse it. Either way, the prompt you thought was cheap is near full price on every request. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+It applies when the documents are identical each time. **One shared staff handbook, asked about all day - cheap.** A different contract for every client, or documents that change hourly, means nothing repeats and you pay close to full price for a very large prompt on every single question. Check that before assuming long context is the cheaper option. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
 | | Long context | RAG | Agentic search |
 | --- | --- | --- | --- |
