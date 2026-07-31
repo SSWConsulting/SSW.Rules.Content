@@ -1,0 +1,124 @@
+---
+authors:
+- title: Rob Weitz
+  url: https://www.ssw.com.au/people/rob-weitz
+created: 2026-07-31 02:35:01.254847+00:00
+guid: 70c7cdbd-9ac7-420a-9045-5b78b760cdf6
+related:
+- rule: public/uploads/rules/awesome-readme/rule.mdx
+- rule: public/uploads/rules/use-readme-templates/rule.mdx
+seoDescription: Learn how to add a README.md to your GitHub profile using a special
+  repository named after your username, so visitors see who you are instead of a bare
+  list of repos.
+title: Do you know how to add a README.md to your GitHub Profile?
+categories:
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+type: rule
+uri: github-profile-readme
+---
+
+Your repos should have an [awesome README](/awesome-readme) - but what about **you**?
+
+Your GitHub profile is often the first thing a recruiter, a client, or a potential collaborator sees. By default it's a wall of repository names and a contribution graph, which says nothing about who you are or what you're good at.
+
+GitHub has a hidden feature that fixes this: a **profile README** - a README.md that renders at the top of your profile page.
+
+<endIntro />
+
+## How it works
+
+The magic is a **special repository named exactly the same as your GitHub username**. When GitHub finds a public repo with that name containing a README.md, it renders it on your profile.
+
+E.g. If your username is `johnsmith`, create a repo called `johnsmith` containing a `README.md`.
+
+## Steps to create your profile README
+
+1. Go to [github.com/new](https://github.com/new)
+2. Set the **Repository name** to your GitHub username (GitHub will show a message confirming you've found the secret ✨)
+3. Set the visibility to **Public** - it won't render if it's private
+4. Tick **Add a README file**
+5. Click **Create repository**
+6. Edit `README.md` and commit
+7. Visit `github.com/<your-username>` to see it live
+
+<imageEmbed
+  alt="Creating a repository named after your GitHub username"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Name the repo after your username and GitHub confirms you've found the ✨special✨ repository"
+  src="/uploads/rules/github-profile-readme/create-special-repo.jpg"
+/>
+
+::: greybox
+**Warning:** The repo name must match your username **exactly**. A repo called `About-Me`, or one with a stray trailing character, will not render on your profile - it just sits there as an ordinary repository. If your README isn't showing up, check the repo name first, then check it's public.
+:::
+
+::: greybox
+**Tip:** GitHub also supports an **organization** profile README. Create a public repo called `.github` in your org, and add `profile/README.md` to it.
+:::
+
+## What to include
+
+Keep it short and scannable - this is a landing page, not a resume.
+
+- **Who you are** - your role, company, and the tech you work with
+- **What you're working on** - current projects or areas of focus
+- **What you're learning** - shows curiosity and invites conversation
+- **How to reach you** - LinkedIn, blog, X, email
+- **Links to your best repos** - point people at your strongest work
+- **(Optional) Stats and badges** - e.g. [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) for language and contribution cards
+
+Avoid: walls of technology icons with no context, empty "coming soon" placeholders, and joke content that a client wouldn't appreciate.
+
+<imageEmbed
+  alt="A GitHub profile with no README - just pinned repositories and a contribution graph"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - The page opens straight into pinned repos. There's even an 'About Me' repo pinned, but because its name doesn't exactly match the username, GitHub never renders it on the profile"
+  src="/uploads/rules/github-profile-readme/bad-no-profile-readme.jpg"
+/>
+
+<imageEmbed
+  alt="A GitHub profile with a well-structured profile README"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Brady Stroud's profile README - who he is, what he works on, his tech stack, and a link to his portfolio, all above the fold"
+  src="/uploads/rules/github-profile-readme/good-profile-readme.jpg"
+/>
+
+## Sample profile README
+
+```markdown
+# Hi, I'm John Smith 👋
+
+I'm a Software Engineer at [SSW](https://www.ssw.com.au), building enterprise apps with **.NET**, **Azure**, and **Angular**.
+
+## 🔭 What I'm working on
+
+- [SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture) - a .NET template for Clean Architecture
+- Speaking at user groups about AI-assisted development
+
+## 🌱 What I'm learning
+
+- Semantic Kernel and building agents on top of LLMs
+
+## 📫 Get in touch
+
+- [LinkedIn](https://www.linkedin.com/in/johnsmith)
+- [My blog](https://johnsmith.dev)
+```
+
+::: good
+Figure: Good example - Short, specific, and gives a visitor a reason to reach out
+:::
+
+## Keep it current
+
+A profile README that says "currently learning Angular 12" is worse than no README at all - it tells people you stopped caring.
+
+::: greybox
+**Tip:** Add a recurring reminder to review your profile README every 6 months, or automate the dynamic parts (latest blog posts, recent activity) with a [GitHub Action](https://github.com/gautamkrishnar/blog-post-workflow) so it updates itself.
+:::
