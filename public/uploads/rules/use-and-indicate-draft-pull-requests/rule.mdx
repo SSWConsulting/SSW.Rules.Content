@@ -1,31 +1,34 @@
 ---
-archivedreason: null
-authors:
-- title: Tino Liu
-  url: https://www.ssw.com.au/people/tino-liu
-- title: Nick Curran
-  url: https://www.ssw.com.au/people/nick-curran
-- title: Daniel Mackay
-  url: https://www.ssw.com.au/people/daniel-mackay
-created: 2024-01-11 04:53:25+00:00
-guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
-redirects:
-- create-draft-pull-requests
-related:
-- rule: public/uploads/rules/over-the-shoulder/rule.mdx
-- rule: public/uploads/rules/adding-changes-to-pull-requests/rule.mdx
-- rule: public/uploads/rules/co-creation-patterns/rule.mdx
-- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
-- rule: public/uploads/rules/co-authored-commits/rule.mdx
-seoDescription: Draft Pull Requests enhance collaboration and feedback by indicating
-  work-in-progress, reducing duplication, and maintaining a transparent development
-  pipeline.
+type: rule
 title: Do you use and indicate Draft Pull Requests?
+uri: use-and-indicate-draft-pull-requests
 categories:
   - category: categories/project-delivery/rules-to-better-github.mdx
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
-type: rule
-uri: use-and-indicate-draft-pull-requests
+authors:
+  - title: Tino Liu
+    url: 'https://www.ssw.com.au/people/tino-liu'
+  - title: Nick Curran
+    url: 'https://www.ssw.com.au/people/nick-curran'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+related:
+  - rule: public/uploads/rules/over-the-shoulder/rule.mdx
+  - rule: public/uploads/rules/adding-changes-to-pull-requests/rule.mdx
+  - rule: public/uploads/rules/co-creation-patterns/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/co-authored-commits/rule.mdx
+redirects:
+  - create-draft-pull-requests
+guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
+seoDescription: 'Draft Pull Requests enhance collaboration and feedback by indicating work-in-progress, reducing duplication, and maintaining a transparent development pipeline.'
+created: 2024-01-11T04:53:25.000Z
+createdBy: SamMaher@ssw.com.au
+createdByEmail: sammaher@ssw.com.au
+lastUpdated: 2026-08-03T07:29:37.270Z
+lastUpdatedBy: SamMaher@ssw.com.au
+lastUpdatedByEmail: sammaher@ssw.com.au
+archivedreason: null
 ---
 
 The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
@@ -33,49 +36,29 @@ This approach enhances code quality, reduces duplication, and helps to maintain 
 
 <endIntro />
 
+## Why Draft Pull Requests?
+
+* Clearly communicate that the change is still a work in progress and not yet ready for review.
+* Prevent unnecessary notifications to the team (for example, "Sam opened a pull request") when the work is still in progress.
+* In the age of AI, pull requests created by tools such as Claude or Copilot should start as drafts so a human can validate the changes before involving reviewers.
+* Control which CI automations run by using draft pull requests, avoiding unnecessary builds, deployments, or long-running test suites until the work is ready.
+
+## Clearly marking your Pull Requests
+
 Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `🚧 WIP: &#123;&#123;PR Title&#125;&#125;` to clearly show that it is a Draft Pull Request.
 
-## GitHub
+### GitHub
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="The default experience lacks clear indication that this is Draft Pull Request"
-  src="/uploads/rules/use-and-indicate-draft-pull-requests/github-bad-example.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="This PR isn't a draft, sending unwanted notifications and risks being merged" src="/uploads/rules/use-and-indicate-draft-pull-requests/Screenshot-2026-08-03-at-4.53.54-pm.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="The default experience lacks clear indication that this is Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/Screenshot-2026-08-03-at-4.58.09-pm.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Add prefix with 🚧 emoji to clearly indicate it is a Draft Pull Request"
-  src="/uploads/rules/use-and-indicate-draft-pull-requests/github-good-example.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Add prefix with 🚧 emoji to clearly indicate it is a Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-good-example.png" />
 
 If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title. When you are ready to go, you just remove the WIP prefix.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="WIP app catching Draft Pull Request"
-  src="/uploads/rules/use-and-indicate-draft-pull-requests/github-wip.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="WIP app catching Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-wip.png" />
 
+### Azure DevOps
 
-## Azure DevOps
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Clear naming and indication of a draft pull request"
-  src="/uploads/rules/use-and-indicate-draft-pull-requests/devops-good-example.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Clear naming and indication of a draft pull request" src="/uploads/rules/use-and-indicate-draft-pull-requests/devops-good-example.png" />
