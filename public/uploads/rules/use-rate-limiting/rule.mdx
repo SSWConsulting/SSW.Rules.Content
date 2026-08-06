@@ -53,6 +53,15 @@ app.UseRateLimiter();
 
 **✅ Figure: Good example - Configure global rate limiting by IP address**
 
+<boxEmbed
+  style="warning"
+  body={<>
+    `RemoteIpAddress` is only the real client behind a correctly configured proxy chain. Behind a CDN or load balancer it is either the proxy's own IP - collapsing every user into one shared bucket - or a value the caller supplied and can change per request. Both defeat the limiter. See [Do you know the client IP address can be spoofed?](/client-ip-can-be-spoofed) before partitioning on IP.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 ## Rate limiting algorithms
 
 ### Fixed Window
