@@ -118,14 +118,12 @@ var options = new ForwardedHeadersOptions
     ForwardLimit = 1 // only the hop added by your own ingress
 };
 
-options.KnownProxies.Clear();
-options.KnownNetworks.Clear();
 options.KnownNetworks.Add(new IPNetwork(IPAddress.Parse("10.0.0.0"), 8)); // your ingress range only
 
 app.UseForwardedHeaders(options);
 ```
 
-**😐 Figure: OK example - Explicit known networks work, but this configuration now has to be repeated and maintained in every service**
+**😐 Figure: OK example - Adding the trusted network (not clearing the defaults) keeps the built-in loopback restriction and works alongside it, but this configuration now has to be repeated and maintained in every service**
 
 <boxEmbed
   style="warning"
