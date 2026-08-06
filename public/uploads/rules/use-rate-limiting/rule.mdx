@@ -36,7 +36,10 @@ builder.Services.AddRateLimiter(options =>
     // Return proper 429 status with Retry-After header
     options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
 
-    // Global rate limit - 100 requests per minute per IP
+    // Global rate limit - 100 requests per minute per IP.
+    // RemoteIpAddress is only the real client if your forwarded-headers
+    // middleware is correctly configured for your proxy chain - see
+    // "Do you know the client IP address can be spoofed?" below.
     options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(context =>
         RateLimitPartition.GetFixedWindowLimiter(
             partitionKey: context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
@@ -51,12 +54,12 @@ var app = builder.Build();
 app.UseRateLimiter();
 ```
 
-**✅ Figure: Good example - Configure global rate limiting by IP address**
+**😐 Figure: OK example - Configure global rate limiting by IP address, but only once your app resolves a trustworthy client IP**
 
 <boxEmbed
   style="warning"
   body={<>
-    `RemoteIpAddress` is only the real client behind a correctly configured proxy chain. Behind a CDN or load balancer it is either the proxy's own IP - collapsing every user into one shared bucket - or a value the caller supplied and can change per request. Both defeat the limiter. See [Do you know the client IP address can be spoofed?](/client-ip-can-be-spoofed) before partitioning on IP.
+    `RemoteIpAddress` is only the real client behind a correctly configured proxy chain. Behind a CDN or load balancer, with the default configuration, it is either the proxy's own IP - collapsing every user into one shared bucket - or a value the caller supplied and can change per request. Both defeat the limiter. See [Do you know the client IP address can be spoofed?](/client-ip-can-be-spoofed) to configure trusted proxies correctly before partitioning on IP.
   </>}
   figurePrefix="none"
   figure=""
