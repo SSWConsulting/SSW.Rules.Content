@@ -1,27 +1,25 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2019-11-25 19:14:13+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 56fff82d-9ed7-4aee-ab22-68e4c61fe162
-isArchived: false
-lastUpdated: 2020-05-21 05:38:31+00:00
-lastUpdatedBy: Christian Morford-Waite
-lastUpdatedByEmail: ChristianMWaite@ssw.com.au
-redirects:
-- data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
-- data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-(aka-soft-delete)
-seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft Delete)
-  and instead keep historical data intact.
-title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka Soft
-  Delete)?
+type: rule
+title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka Soft Delete)?
+uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
-type: rule
-uri: avoid-deleting-records-by-flagging-them-as-isdeleted
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+redirects:
+  - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
+  - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-(aka-soft-delete)
+guid: 56fff82d-9ed7-4aee-ab22-68e4c61fe162
+seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft Delete) and instead keep historical data intact.
+created: 2019-11-25T19:14:13.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-07-24T07:22:45.745Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 When users are deleting a lot of records as part of normal operations - they can and do make mistakes. Instead of the painful process of having to go to a backup to get these records, why not simply flag the records as IsDeleted?
@@ -84,7 +82,6 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
 }
 ```
 
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -93,7 +90,6 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
   figurePrefix="none"
   figure=""
 />
-
 
 ### 4. Registering the Interceptor
 
@@ -107,21 +103,32 @@ services.AddDbContext<MyDbContext>(options =>
 
 This integrates the interceptor with the EF Core context, this will ensure to run the entity through this interceptor every time context.saveChanges() is triggered.
 
----
+***
 
 Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for alternatives to this approach using 3rd party auditing tools.
-
 
 <boxEmbed
   style="greybox"
   body={<>
+    Watch William Liebenberg's SpendOps talk for more details about why soft deletes are advantageous in Azure:
     
-Watch William Liebenberg's SpendOps talk for more details about why soft deletes are advantageous in Azure:
-
-* SSW TV: [Real-life SpendOps with Azure Cosmos DB](https://www.youtube.com/watch?v=qfPQR8XlwFo)
-* NDC: [Azure SpendOps – The Art of Effectively Managing Azure Costs](https://www.youtube.com/watch?v=zxSlKiWOOzw)
-
+    * SSW TV: [Real-life SpendOps with Azure Cosmos DB](https://www.youtube.com/watch?v=qfPQR8XlwFo)
+    * NDC: [Azure SpendOps – The Art of Effectively Managing Azure Costs](https://www.youtube.com/watch?v=zxSlKiWOOzw)
   </>}
   figurePrefix="none"
   figure=""
 />
+
+### Soft Delete in Dynamic 365/ Dataverse (CRM)
+
+In Dynamics 365 you rarely hard-delete. The platform already supports soft delete via record status — so deactivate instead of delete, and make any real deletion a reviewed, reversible, 2-step process.
+
+<imageEmbed alt="Deactivate in CRM" size="medium" showBorder={false} figurePrefix="good" figure="safe deactivate-then-delete flow" src="/uploads/rules/avoid-deleting-records-by-flagging-them-as-isdeleted/soft-delete.png" />
+
+1\. Deactivate the record
+
+2\. Mark the affected records with an identifiable marker and run the change under a dedicated service account, so they're easy to filter, review and reverse.
+
+3\. Present the draft list of records for sign-off before any hard delete.
+
+4\. Run the built-in Bulk Record Deletion job with tight filters, e.g. Status  Inactive AND ModifiedBy \[service account] AND ModifiedOn today.

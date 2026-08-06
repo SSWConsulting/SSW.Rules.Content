@@ -35,11 +35,10 @@ This can be used for:
 
 ### Examples
 
-
 <boxEmbed
   style="greybox"
   body={<>
-    
+
 **Project1.csproj:**
 
 ```xml
@@ -119,3 +118,41 @@ This can be used for:
 </Project>
 ```**  
 **✅ Good example - Centralized configuration**  
+
+## What about Directory.Build.targets?
+
+MSBuild auto-imports a second file, `Directory.Build.targets`, and the difference between the 2 is **when** they are imported:
+
+* `Directory.Build.props` is imported **early** - before the project's own content. Perfect for **defaults** that individual projects may still override
+* `Directory.Build.targets` is imported **late** - after the project's content and the SDK targets. Perfect for **overrides** and shared build logic that must react to (or win over) whatever a project sets
+
+Rule of thumb: **defaults go in .props, overrides and custom targets go in .targets**.
+
+```xml
+<Project>
+  <!-- Reacts to a property each project sets in its own body,
+       which is only reliable in .targets (imported after the project) -->
+  <PropertyGroup Condition="'$(IsPackable)' == 'true'">
+    <PackageOutputPath>$(MSBuildThisFileDirectory)artifacts\packages</PackageOutputPath>
+  </PropertyGroup>
+
+  <!-- Custom build step shared by every project -->
+  <Target Name="PrintBuildInfo" AfterTargets="Build">
+    <Message Importance="high" Text="Built $(MSBuildProjectName) ($(TargetFramework))" />
+  </Target>
+</Project>
+```
+
+**✅ Good example - Directory.Build.targets reacting to per-project properties and defining a shared target**
+
+**Note:** MSBuild only auto-imports the **nearest** `Directory.Build.props`/`.targets` above each project. If you need multiple levels (e.g. one at the repo root plus one for the `tests` folder), the inner file must import the outer one explicitly:
+
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+```
+
+**Tip:** If a property doesn't have the value you expect and you can't work out which file set it, [capture a binlog](/use-msbuild-binlogs) and search for the property - the Structured Log Viewer shows every assignment and where it came from.
+
+## What about package versions?
+
+`Directory.Build.props` centralizes **build configuration**. To centralize **NuGet package versions** the same way, use a `Directory.Packages.props` file - see [Do you use Central Package Management?](/use-central-package-management).

@@ -9,8 +9,8 @@ guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
 related:
 - rule: public/uploads/rules/what-currency-to-quote/rule.mdx
 - rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
-seoDescription: Include annual costs to provide a complete picture of expenses and
-  facilitate informed budget planning.
+seoDescription: Include annual costs, the pricing page URL, and a screenshot to provide
+  a complete picture of expenses and facilitate informed budget planning.
 title: Do you include the annual cost for recurring expenses?
 categories:
   - category: categories/client-engagement/rules-to-better-sales.mdx
@@ -25,6 +25,11 @@ When quoting prices, it's common practice to state daily, weekly, or monthly cos
 - **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
 - **Comparison Ease**: Customers can more easily compare costs with other services or products
 - **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
+
+Go one step further and back the numbers up. Include:
+
+- **The URL of the pricing page** - so the client can check the price themselves instead of taking your word for it
+- **A screenshot of the pricing page** - vendors change their prices, so a screenshot proves what the price was on the day you quoted it
 
 
 <boxEmbed
@@ -43,6 +48,18 @@ When quoting prices, it's common practice to state daily, weekly, or monthly cos
   body={<>
     AUD $150 + GST/month (AUD $1,800 + GST/year)
   </>}
+  figurePrefix="ok"
+  figure="Both monthly and yearly cost, but there's no way to verify the price"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    AUD $150 + GST/month (AUD $1,800 + GST/year)<br />
+    Source: https://www.example.com/pricing (screenshot below - prices as at 29 July 2026)
+  </>}
   figurePrefix="good"
-  figure="Include both monthly and yearly cost"
+  figure="Monthly and yearly cost, plus the pricing page URL and a dated screenshot"
 />
