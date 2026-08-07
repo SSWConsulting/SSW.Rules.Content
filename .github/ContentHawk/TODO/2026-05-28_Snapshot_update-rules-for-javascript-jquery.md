@@ -1,0 +1,179 @@
+# Content Campaign
+
+## Agent Configuration
+
+| Field               | Value                                           |
+|---------------------|-------------------------------------------------|
+| Intent              | Find any outdated rules                            |
+| Search Scope        | Rules to better javascript                      |
+| Processing Priority | last updated date               |
+| Issue Preferences   | 5 issues per run                 |
+| PR Preferences      | bundle up to 5 issues per PR                    |
+| Label               | `update-rules-for-javascript-jquery`                      |
+| Created             | 2026-05-28                    |
+
+## Files to Review
+
+| Path        | CategoryList   | Created    | LastUpdated   | CheckedDate | CheckResult |
+|-------------|----------------|------------|---------------|-------------|-------------|
+| public/uploads/rules/do-you-create-a-minimal-master-page/rule.mdx | do-you-create-a-minimal-master-page | - | - | - | pending |
+| public/uploads/rules/do-you-manage-3rd-party-dependencies/rule.mdx | do-you-manage-3rd-party-dependencies | - | - | - | pending |
+| public/uploads/rules/optimize-bundle-size/rule.mdx | optimize-bundle-size | - | - | - | pending |
+| public/uploads/rules/use-jquery-instead-of-javascript/rule.mdx | use-jquery-instead-of-javascript | - | - | - | pending |
+| public/uploads/rules/do-you-know-common-web-configuration-stuff-you-will-need/rule.mdx | do-you-know-common-web-configuration-stuff-you-will-need | - | - | - | pending |
+| public/uploads/rules/use-the-right-capitalization/rule.mdx | use-the-right-capitalization | - | - | - | pending |
+| public/uploads/rules/do-not-use-linkbutton/rule.mdx | do-not-use-linkbutton | - | - | - | pending |
+| public/uploads/rules/do-you-use-hyperlinks-instead-of-javascript-to-open-pages/rule.mdx | do-you-use-hyperlinks-instead-of-javascript-to-open-pages | - | - | - | pending |
+| public/uploads/rules/use-ngrx-on-complex-applications/rule.mdx | use-ngrx-on-complex-applications | - | - | - | pending |
+| public/uploads/rules/do-you-always-use-semicolons-on-your-js-file/rule.mdx | do-you-always-use-semicolons-on-your-js-file | - | - | - | pending |
+| public/uploads/rules/do-you-treat-javascript-like-a-real-language/rule.mdx | do-you-treat-javascript-like-a-real-language | - | - | - | pending |
+| public/uploads/rules/production-do-you-know-how-to-conduct-an-interview/rule.mdx | production-do-you-know-how-to-conduct-an-interview | - | - | - | pending |
+| public/uploads/rules/do-you-use-jquery-tooltips-to-save-drilling-through/rule.mdx | do-you-use-jquery-tooltips-to-save-drilling-through | - | - | - | pending |
+| public/uploads/rules/test-your-javascript/rule.mdx | test-your-javascript | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-letting-the-screen-go-white/rule.mdx | do-you-avoid-letting-the-screen-go-white | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-best-way-to-do-printable-reports/rule.mdx | do-you-know-the-best-way-to-do-printable-reports | - | - | - | pending |
+| public/uploads/rules/use-google-analytics/rule.mdx | use-google-analytics | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-relying-on-javascript-for-crucial-actions/rule.mdx | do-you-avoid-relying-on-javascript-for-crucial-actions | - | - | - | pending |
+| public/uploads/rules/why-vue-is-great/rule.mdx | why-vue-is-great | - | - | - | pending |
+| public/uploads/rules/how-to-set-up-application-insights/rule.mdx | how-to-set-up-application-insights | - | - | - | pending |
+| public/uploads/rules/css-changes/rule.mdx | css-changes | - | - | - | pending |
+| public/uploads/rules/application-insights-in-sharepoint/rule.mdx | application-insights-in-sharepoint | - | - | - | pending |
+| public/uploads/rules/tools-do-you-know-the-best-packages-and-libraries-to-use-with-react/rule.mdx | tools-do-you-know-the-best-packages-and-libraries-to-use-with-react | - | - | - | pending |
+| public/uploads/rules/blazor-does-not-support-stopping-event-propogation/rule.mdx | blazor-does-not-support-stopping-event-propogation | - | - | - | pending |
+| public/uploads/rules/use-html-maxlength-to-limit-number-of-characters/rule.mdx | use-html-maxlength-to-limit-number-of-characters | - | - | - | pending |
+| public/uploads/rules/do-you-use-content-query-web-part/rule.mdx | do-you-use-content-query-web-part | - | - | - | pending |
+| public/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/rule.mdx | controls-do-you-include-a-select-all-checkbox-on-the-top | - | - | - | pending |
+| public/uploads/rules/look-at-the-architecture-of-javascript-projects/rule.mdx | look-at-the-architecture-of-javascript-projects | - | - | - | pending |
+| public/uploads/rules/the-best-learning-resources-for-react/rule.mdx | the-best-learning-resources-for-react | - | - | - | pending |
+| public/uploads/rules/avoid-using-any/rule.mdx | avoid-using-any | - | - | - | pending |
+| public/uploads/rules/create-a-combo-box-that-has-a-custom-template/rule.mdx | create-a-combo-box-that-has-a-custom-template | - | - | - | pending |
+| public/uploads/rules/avoid-clear-text-email-addresses-in-web-pages/rule.mdx | avoid-clear-text-email-addresses-in-web-pages | - | - | - | pending |
+| public/uploads/rules/dont-open-popup-windows-use-a-javascript-modal-instead/rule.mdx | dont-open-popup-windows-use-a-javascript-modal-instead | - | - | - | pending |
+| public/uploads/rules/automated-ui-testing/rule.mdx | automated-ui-testing | - | - | - | pending |
+| public/uploads/rules/blazor-render-mode/rule.mdx | blazor-render-mode | - | - | - | pending |
+| public/uploads/rules/modern-stateless-authentication/rule.mdx | modern-stateless-authentication | - | - | - | pending |
+| public/uploads/rules/do-you-tell-your-designers-to-only-use-classes/rule.mdx | do-you-tell-your-designers-to-only-use-classes | - | - | - | pending |
+| public/uploads/rules/handling-diacritics/rule.mdx | handling-diacritics | - | - | - | pending |
+| public/uploads/rules/how-to-change-the-live-chat-appearance/rule.mdx | how-to-change-the-live-chat-appearance | - | - | - | pending |
+| public/uploads/rules/do-you-help-users-by-selecting-a-default-field/rule.mdx | do-you-help-users-by-selecting-a-default-field | - | - | - | pending |
+| public/uploads/rules/fetch-data-nextjs/rule.mdx | fetch-data-nextjs | - | - | - | pending |
+| public/uploads/rules/best-practice-for-managing-state/rule.mdx | best-practice-for-managing-state | - | - | - | pending |
+| public/uploads/rules/ai-pair-programming/rule.mdx | ai-pair-programming | - | - | - | pending |
+| public/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/rule.mdx | forms-do-you-know-when-to-use-links-and-when-to-use-buttons | - | - | - | pending |
+| public/uploads/rules/standalone-components/rule.mdx | standalone-components | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-best-sample-applications/rule.mdx | do-you-know-the-best-sample-applications | - | - | - | pending |
+| public/uploads/rules/progressive-web-app/rule.mdx | progressive-web-app | - | - | - | pending |
+| public/uploads/rules/graphql-when-to-use/rule.mdx | graphql-when-to-use | - | - | - | pending |
+| public/uploads/rules/do-you-use-thin-controllers-fat-models-and-dumb-views/rule.mdx | do-you-use-thin-controllers-fat-models-and-dumb-views | - | - | - | pending |
+| public/uploads/rules/making-last-edited-clear/rule.mdx | making-last-edited-clear | - | - | - | pending |
+| public/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/rule.mdx | crm2013-2015-do-you-use-crm-business-rules-to-automate-forms | - | - | - | pending |
+| public/uploads/rules/do-you-know-how-to-share-a-touch-of-code/rule.mdx | do-you-know-how-to-share-a-touch-of-code | - | - | - | pending |
+| public/uploads/rules/dynamically-load-components/rule.mdx | dynamically-load-components | - | - | - | pending |
+| public/uploads/rules/best-ide-for-vue/rule.mdx | best-ide-for-vue | - | - | - | pending |
+| public/uploads/rules/maintain-dependencies-correctly/rule.mdx | maintain-dependencies-correctly | - | - | - | pending |
+| public/uploads/rules/typescript-enums/rule.mdx | typescript-enums | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-email-harvesting-or-spamming-by-using-images/rule.mdx | do-you-avoid-email-harvesting-or-spamming-by-using-images | - | - | - | pending |
+| public/uploads/rules/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript/rule.mdx | do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript | - | - | - | pending |
+| public/uploads/rules/do-you-use-bundling-and-or-amd/rule.mdx | do-you-use-bundling-and-or-amd | - | - | - | pending |
+| public/uploads/rules/the-best-tool-to-debug-javascript/rule.mdx | the-best-tool-to-debug-javascript | - | - | - | pending |
+| public/uploads/rules/do-you-use-lodash-to-perform-your-daily-_-foreach/rule.mdx | do-you-use-lodash-to-perform-your-daily-_-foreach | - | - | - | pending |
+| public/uploads/rules/do-you-use-the-code-health-extensions-in-vs-code/rule.mdx | do-you-use-the-code-health-extensions-in-vs-code | - | - | - | pending |
+| public/uploads/rules/the-best-learning-resources-for-angular/rule.mdx | the-best-learning-resources-for-angular | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/rule.mdx | do-you-know-the-code-health-quality-gates-to-add | - | - | - | pending |
+| public/uploads/rules/link-local-npm-dependency/rule.mdx | link-local-npm-dependency | - | - | - | pending |
+| public/uploads/rules/sharepoint-development/rule.mdx | sharepoint-development | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-correct-license-to-use-for-open-source-software/rule.mdx | do-you-know-the-correct-license-to-use-for-open-source-software | - | - | - | pending |
+| public/uploads/rules/migrating-to-app-router/rule.mdx | migrating-to-app-router | - | - | - | pending |
+| public/uploads/rules/do-you-use-jquery-for-making-a-site-come-alive/rule.mdx | do-you-use-jquery-for-making-a-site-come-alive | - | - | - | pending |
+| public/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/rule.mdx | improve-performance-with-lazy-loading-of-media-assets | - | - | - | pending |
+| public/uploads/rules/do-you-use-jquery-with-the-web-api-to-build-responsive-ui/rule.mdx | do-you-use-jquery-with-the-web-api-to-build-responsive-ui | - | - | - | pending |
+| public/uploads/rules/use-zod-for-runtime-validation/rule.mdx | use-zod-for-runtime-validation | - | - | - | pending |
+| public/uploads/rules/do-you-use-mvc-unobtrusive-validation/rule.mdx | do-you-use-mvc-unobtrusive-validation | - | - | - | pending |
+| public/uploads/rules/do-you-start-reading-code/rule.mdx | do-you-start-reading-code | - | - | - | pending |
+| public/uploads/rules/why-nextjs-is-great/rule.mdx | why-nextjs-is-great | - | - | - | pending |
+| public/uploads/rules/best-package-manager-for-node/rule.mdx | best-package-manager-for-node | - | - | - | pending |
+| public/uploads/rules/analyze-website-performance/rule.mdx | analyze-website-performance | - | - | - | pending |
+| public/uploads/rules/have-a-pleasant-development-workflow/rule.mdx | have-a-pleasant-development-workflow | - | - | - | pending |
+| public/uploads/rules/customization-do-you-use-the-built-in-test-form-events-before-you-publish-javascript-changes/rule.mdx | customization-do-you-use-the-built-in-test-form-events-before-you-publish-javascript-changes | - | - | - | pending |
+| public/uploads/rules/avoid-using-mailto-on-your-website/rule.mdx | avoid-using-mailto-on-your-website | - | - | - | pending |
+| public/uploads/rules/write-in-eye-witness-style/rule.mdx | write-in-eye-witness-style | - | - | - | pending |
+| public/uploads/rules/always-put-javascript-in-a-separate-file/rule.mdx | always-put-javascript-in-a-separate-file | - | - | - | pending |
+| public/uploads/rules/browser-security-patterns/rule.mdx | browser-security-patterns | - | - | - | pending |
+| public/uploads/rules/sharepoint-page-layout-js-fix/rule.mdx | sharepoint-page-layout-js-fix | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-best-framework-to-build-an-admin-interface/rule.mdx | do-you-know-the-best-framework-to-build-an-admin-interface | - | - | - | pending |
+| public/uploads/rules/angular-read-and-write-to-the-model-never-to-the-page/rule.mdx | angular-read-and-write-to-the-model-never-to-the-page | - | - | - | pending |
+| public/uploads/rules/the-difference-between-canvas-apps-and-model-driven-apps/rule.mdx | the-difference-between-canvas-apps-and-model-driven-apps | - | - | - | pending |
+| public/uploads/rules/crm2013-do-you-use-real-time-workflows-instead-of-javascript-and-or-plugin-code/rule.mdx | crm2013-do-you-use-real-time-workflows-instead-of-javascript-and-or-plugin-code | - | - | - | pending |
+| public/uploads/rules/installing-3rd-party-libraries/rule.mdx | installing-3rd-party-libraries | - | - | - | pending |
+| public/uploads/rules/how-to-easily-start-a-react-project/rule.mdx | how-to-easily-start-a-react-project | - | - | - | pending |
+| public/uploads/rules/chatgpt-skills-weaknesses/rule.mdx | chatgpt-skills-weaknesses | - | - | - | pending |
+| public/uploads/rules/have-tests-for-performance/rule.mdx | have-tests-for-performance | - | - | - | pending |
+| public/uploads/rules/do-you-use-the-best-javascript-libraries/rule.mdx | do-you-use-the-best-javascript-libraries | - | - | - | pending |
+| public/uploads/rules/do-you-include-application-insights-for-visual-studio-online-in-your-website/rule.mdx | do-you-include-application-insights-for-visual-studio-online-in-your-website | - | - | - | pending |
+| public/uploads/rules/css-frameworks/rule.mdx | css-frameworks | - | - | - | pending |
+| public/uploads/rules/website-chatbot/rule.mdx | website-chatbot | - | - | - | pending |
+| public/uploads/rules/use-typescript/rule.mdx | use-typescript | - | - | - | pending |
+| public/uploads/rules/good-typescript-configuration/rule.mdx | good-typescript-configuration | - | - | - | pending |
+| public/uploads/rules/do-you-know-why-you-choose-windows-forms/rule.mdx | do-you-know-why-you-choose-windows-forms | - | - | - | pending |
+| public/uploads/rules/do-you-use-resource-file-for-storing-your-static-script/rule.mdx | do-you-use-resource-file-for-storing-your-static-script | - | - | - | pending |
+| public/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/rule.mdx | do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010 | - | - | - | pending |
+| public/uploads/rules/do-you-place-scripts-at-the-bottom-of-your-page/rule.mdx | do-you-place-scripts-at-the-bottom-of-your-page | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-doing-an-embedded-add/rule.mdx | do-you-avoid-doing-an-embedded-add | - | - | - | pending |
+| public/uploads/rules/maui-cross-platform/rule.mdx | maui-cross-platform | - | - | - | pending |
+| public/uploads/rules/avoid-the-dom-in-your-components/rule.mdx | avoid-the-dom-in-your-components | - | - | - | pending |
+| public/uploads/rules/choose-dependencies-correctly/rule.mdx | choose-dependencies-correctly | - | - | - | pending |
+| public/uploads/rules/write-your-angular-1-x-directives-in-typescript/rule.mdx | write-your-angular-1-x-directives-in-typescript | - | - | - | pending |
+| public/uploads/rules/do-you-bundle-and-minify-your-javascript/rule.mdx | do-you-bundle-and-minify-your-javascript | - | - | - | pending |
+| public/uploads/rules/use-mermaid-diagrams/rule.mdx | use-mermaid-diagrams | - | - | - | pending |
+| public/uploads/rules/make-your-website-llm-friendly/rule.mdx | make-your-website-llm-friendly | - | - | - | pending |
+| public/uploads/rules/use-nextjs-caching-system/rule.mdx | use-nextjs-caching-system | - | - | - | pending |
+| public/uploads/rules/avoid-using-documentgetelementbyid-and-documentall-to-get-a-single-element/rule.mdx | avoid-using-documentgetelementbyid-and-documentall-to-get-a-single-element | - | - | - | pending |
+| public/uploads/rules/do-you-have-tooltips-for-icons-on-the-kendo-grid/rule.mdx | do-you-have-tooltips-for-icons-on-the-kendo-grid | - | - | - | pending |
+| public/uploads/rules/embed-ui-into-an-ai-chat/rule.mdx | embed-ui-into-an-ai-chat | - | - | - | pending |
+| public/uploads/rules/optimize-web-performance-nextjs/rule.mdx | optimize-web-performance-nextjs | - | - | - | pending |
+| public/uploads/rules/do-you-separate-javascript-functionality-aka-unobtrusive-javascript/rule.mdx | do-you-separate-javascript-functionality-aka-unobtrusive-javascript | - | - | - | pending |
+| public/uploads/rules/do-you-use-client-side-tools-for-localization-as-much-as-possible/rule.mdx | do-you-use-client-side-tools-for-localization-as-much-as-possible | - | - | - | pending |
+| public/uploads/rules/customization-do-you-check-custom-javascript-with-the-crm-custom-code-validation-tool/rule.mdx | customization-do-you-check-custom-javascript-with-the-crm-custom-code-validation-tool | - | - | - | pending |
+| public/uploads/rules/avoid-content-in-javascript/rule.mdx | avoid-content-in-javascript | - | - | - | pending |
+| public/uploads/rules/manage-bundle-size/rule.mdx | manage-bundle-size | - | - | - | pending |
+| public/uploads/rules/check-facts/rule.mdx | check-facts | - | - | - | pending |
+| public/uploads/rules/streamline-development-with-npm-and-task-runners/rule.mdx | streamline-development-with-npm-and-task-runners | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-making-changes-to-individual-css-styles-using-jquery/rule.mdx | do-you-avoid-making-changes-to-individual-css-styles-using-jquery | - | - | - | pending |
+| public/uploads/rules/npm-packages-version-symbols/rule.mdx | npm-packages-version-symbols | - | - | - | pending |
+| public/uploads/rules/encapsulate-scripts-avoid-global-namespace/rule.mdx | encapsulate-scripts-avoid-global-namespace | - | - | - | pending |
+| public/uploads/rules/do-you-remove-language-from-your-script-tag/rule.mdx | do-you-remove-language-from-your-script-tag | - | - | - | pending |
+| public/uploads/rules/do-you-know-not-to-use-the-eval-function/rule.mdx | do-you-know-not-to-use-the-eval-function | - | - | - | pending |
+| public/uploads/rules/pros-and-cons-and-ratings/rule.mdx | pros-and-cons-and-ratings | - | - | - | pending |
+| public/uploads/rules/web-ui-libraries/rule.mdx | web-ui-libraries | - | - | - | pending |
+| public/uploads/rules/using-markdown-to-store-your-content/rule.mdx | using-markdown-to-store-your-content | - | - | - | pending |
+| public/uploads/rules/low-code-and-ai/rule.mdx | low-code-and-ai | - | - | - | pending |
+| public/uploads/rules/set-language-on-code-blocks/rule.mdx | set-language-on-code-blocks | - | - | - | pending |
+| public/uploads/rules/why-react-is-great/rule.mdx | why-react-is-great | - | - | - | pending |
+| public/uploads/rules/do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming/rule.mdx | do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming | - | - | - | pending |
+| public/uploads/rules/do-you-consider-seo-in-your-angularjs-application/rule.mdx | do-you-consider-seo-in-your-angularjs-application | - | - | - | pending |
+| public/uploads/rules/do-you-use-bundling-to-package-script-and-css-files/rule.mdx | do-you-use-bundling-to-package-script-and-css-files | - | - | - | pending |
+| public/uploads/rules/the-best-examples-of-visually-cool-jquery-plug-ins/rule.mdx | the-best-examples-of-visually-cool-jquery-plug-ins | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-using-inherit-value-of-style-display/rule.mdx | do-you-avoid-using-inherit-value-of-style-display | - | - | - | pending |
+| public/uploads/rules/choosing-authentication/rule.mdx | choosing-authentication | - | - | - | pending |
+| public/uploads/rules/do-you-update-your-nuget-packages/rule.mdx | do-you-update-your-nuget-packages | - | - | - | pending |
+| public/uploads/rules/do-you-know-which-version-of-jquery-to-use/rule.mdx | do-you-know-which-version-of-jquery-to-use | - | - | - | pending |
+| public/uploads/rules/rule/rule.mdx | rule | - | - | - | pending |
+| public/uploads/rules/do-you-avoid-using-flash-silverlight/rule.mdx | do-you-avoid-using-flash-silverlight | - | - | - | pending |
+| public/uploads/rules/optimise-js-with-lodash/rule.mdx | optimise-js-with-lodash | - | - | - | pending |
+| public/uploads/rules/do-you-comment-your-javascript-code/rule.mdx | do-you-comment-your-javascript-code | - | - | - | pending |
+| public/uploads/rules/handle-redirects/rule.mdx | handle-redirects | - | - | - | pending |
+| public/uploads/rules/do-you-offer-out-of-browser-support/rule.mdx | do-you-offer-out-of-browser-support | - | - | - | pending |
+| public/uploads/rules/what-are-the-best-examples-of-technically-cool-jquery-plug-ins/rule.mdx | what-are-the-best-examples-of-technically-cool-jquery-plug-ins | - | - | - | pending |
+| public/uploads/rules/the-best-build-tool/rule.mdx | the-best-build-tool | - | - | - | pending |
+| public/uploads/rules/crm-configuration-vs-customization-vs-extension/rule.mdx | crm-configuration-vs-customization-vs-extension | - | - | - | pending |
+| public/uploads/rules/the-right-technology/rule.mdx | the-right-technology | - | - | - | pending |
+| public/uploads/rules/when-to-use-react/rule.mdx | when-to-use-react | - | - | - | pending |
+| public/uploads/rules/do-you-use-the-ready-function/rule.mdx | do-you-use-the-ready-function | - | - | - | pending |
+| public/uploads/rules/comment-each-property-and-method/rule.mdx | comment-each-property-and-method | - | - | - | pending |
+| public/uploads/rules/why-upgrade-to-latest-angular/rule.mdx | why-upgrade-to-latest-angular | - | - | - | pending |
+| public/uploads/rules/follow-naming-conventions/rule.mdx | follow-naming-conventions | - | - | - | pending |
+| public/uploads/rules/manage-javascript-projects-with-nx/rule.mdx | manage-javascript-projects-with-nx | - | - | - | pending |
+| public/uploads/rules/website-page-speed/rule.mdx | website-page-speed | - | - | - | pending |
+| public/uploads/rules/do-you-use-javascript-alert/rule.mdx | do-you-use-javascript-alert | - | - | - | pending |
+| public/uploads/rules/trim-input-whitespace/rule.mdx | trim-input-whitespace | - | - | - | pending |
+| public/uploads/rules/use-a-cdn/rule.mdx | use-a-cdn | - | - | - | pending |
