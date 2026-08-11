@@ -2,8 +2,6 @@
 type: rule
 title: Do you know the best way to feed your data to AI?
 uri: feed-data-to-ai
-redirects:
-  - get-data-to-your-ai
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -12,25 +10,29 @@ authors:
     url: 'https://www.ssw.com.au/people/isaac-lombard/'
   - title: Jernej Kavka
     url: 'https://www.ssw.com.au/people/jernej-kavka/'
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
 related:
   - rule: public/uploads/rules/ai-agent-memory-systems/rule.mdx
   - rule: public/uploads/rules/do-you-follow-best-practices-for-prompt-caching/rule.mdx
   - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
   - rule: public/uploads/rules/use-embeddings/rule.mdx
+redirects:
+  - get-data-to-your-ai
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
 seoDescription: 'Long context, RAG or agentic search - the best way to feed your data to AI, what each one costs you, and why RAG is not dead.'
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
-lastUpdated: 2026-07-30T07:37:41.074Z
-lastUpdatedBy: Isaac Lombard
-lastUpdatedByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-08-11T05:37:10.024Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
 archivedreason: null
 ---
 
 Your AI solution needs data: your support docs, your business information.
 
-How the model reaches it decides your cost per query, latency, and the quality of your response. Back when LLMs had tiny context windows, RAG was the clear choice. Nowadays there's some nuance to the decision.
+How the model reaches it decides your cost per query, latency, and the quality of your response. Back when LLMs had tiny 4K token context windows, RAG was the clear choice. Nowadays, context windows can fit millions of tokens - this adds some nuance to the decision.
 
 <endIntro />
 
@@ -38,13 +40,15 @@ How the model reaches it decides your cost per query, latency, and the quality o
 
 ## Option A: Long context
 
-The newest option. Context windows reaching up to and over a million tokens turned "just put it all in the prompt" into an intuitive, simple option.
+The brute-force approach. Requires the least infrastructure.
 
-That matters most where the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full to answer, because the answer is the gap between them.
+If the entire corpus required to answer a particular question fits inside the context window, then just inject it into the context window!
+
+This can be useful when the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full to answer, because the answer is the gap between them.
 
 It has caveats worth knowing. Positioning matters, and context in certain areas is predisposed to being missed – such as [in the middle](https://arxiv.org/abs/2307.03172) and in [multi-hop conversations](https://arxiv.org/abs/2601.12499).
 
-### Making long context economical
+### Prompt Caching - Making long context economical
 
 Long context becomes even better when accounting for caching. Caching keys on how a prompt *starts*, not the whole thing. Put the documents at the front and the user's question at the end, and every request opening with those same documents reuses the cached copy at a fraction of the price, independent of the following question. Check the numbers for your own provider and model first - the minimum cacheable size, how long the cache lives and the size of the discount all differ. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
@@ -52,7 +56,7 @@ That discount is what makes putting a whole corpus into every request affordable
 
 ## Option B: Retrieval-Augmented Generation (RAG)
 
-This is the OG. RAG means retrieving the relevant material first and passing only that to the model. The retrieval itself can be keyword, structured, graph-based, vector similarity, or a mix; vector search over embeddings is the most common.
+RAG means retrieving the relevant material first and passing only that to the model. The retrieval itself can be keyword, structured, graph-based, vector similarity, or a mix; vector search over embeddings is the most common.
 
 Best for large unstructured prose: support docs, PDFs, policies, transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
@@ -60,9 +64,13 @@ Best for large unstructured prose: support docs, PDFs, policies, transcripts. SS
 
 ## Option C: Agentic search
 
-Hand the model `glob`, `grep` or a query API and let it look. There's no index to keep in sync, so nothing goes stale - as long as the tools read the live source and not a snapshot or a cache. Permissions can come from the access path too, but only if that path authenticates the caller and filters the results before the model ever sees them. [Claude Code dropped its vector store](https://www.latent.space/p/claude-code) for this.
+This involves setting up an agentic loop, giving the agent tools like `grep` or a query API, and letting it reason through the results, in-between searches.
 
-That does not have to mean handing an agent a real shell. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) is a simulated bash over a virtual filesystem - `grep`, `find`, `glob` and friends, no child processes, and network access off by default - so the model gets the search primitives without terminal access to the host.
+This is great when the results from the first search require more granularity, or a slightly different query - in fact, it's exactly how a human would look for knowledge.
+
+There's no index to keep in sync, so nothing goes stale - as long as the tools read the live source and not a snapshot or a cache.
+
+This does require handing an agent a real shell. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) is a simulated bash over a virtual filesystem - `grep`, `find`, `glob` and friends, no child processes, and network access off by default - so you can leverage the model's knowledge of these tools, without giving the agent any real power.
 
 The agent chooses its own search at query time, and can reach for any of the same tools RAG uses. The key difference is the AI manages its own context rather than the system.
 
@@ -70,7 +78,7 @@ The agent chooses its own search at query time, and can reach for any of the sam
 
 These are composable building blocks, not mutually exclusive architectures.
 
-That said, 3 questions settle most cases: 
+That said, 3 questions settle most cases:
 
 * whether the corpus fits with room to spare
 * whether the answer needs all of it at once
@@ -86,7 +94,6 @@ That said, 3 questions settle most cases:
     [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI, which means picking the right backlog out of every project a user has.
     
     Go for a stroll amongst the decision trees…
-    
     
     **Q1**: The list of projects and what each one covers is small, so it **fits with room to spare**.
     
