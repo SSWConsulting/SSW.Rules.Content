@@ -1,0 +1,112 @@
+---
+type: rule
+title: Do you serve Markdown to AI agents?
+uri: serve-markdown-to-ai-agents
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-aeo-and-geo.mdx
+authors:
+  - title: Isaac Lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard'
+related:
+  - rule: public/uploads/rules/make-your-website-llm-friendly/rule.mdx
+  - rule: public/uploads/rules/ai-optimization-geo-aeo/rule.mdx
+guid: e6cca9fd-7129-40a1-b439-b140292b52c8
+seoDescription: AI agents waste context reading HTML wrappers. Learn how to use content negotiation to serve Markdown instead, cutting token cost by up to 80%.
+created: 2026-08-12T07:54:54.000Z
+---
+
+When an AI agent reads a web page, it pays for every byte of markup it does not need. Navigation, scripts, styles and wrapper divs all consume context that could have held your actual content.
+
+Worse, when a page is too large the agent truncates it. Your answer may be sitting in the half that never got read.
+
+<endIntro />
+
+## Use content negotiation
+
+Content negotiation is a standard part of HTTP. The client states what format it wants, and the server responds in that format.
+
+When a request carries `Accept: text/markdown`, return Markdown instead of HTML.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```http
+    GET /blog/my-article HTTP/1.1
+    Host: www.example.com
+    Accept: text/markdown
+    ```
+
+    ```http
+    HTTP/1.1 200 OK
+    Content-Type: text/markdown; charset=utf-8
+    Vary: Accept
+
+    # My article
+
+    The content, with no navigation, scripts or wrappers.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent asks for Markdown and gets Markdown"
+/>
+
+Cloudflare measured up to 80% fewer tokens compared to the HTML equivalent. Cheaper to read, faster to process, and far more likely to be consumed whole rather than truncated.
+
+## Always send Vary: Accept
+
+This is the trap that bites people. Without `Vary: Accept`, a CDN or browser cache can store the Markdown response and serve it to the next visitor, who gets a wall of plain text instead of your website.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    If one URL can return more than one format, `Vary: Accept` is mandatory. Skipping it is a caching bug waiting to happen.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Add a .md URL as a fallback
+
+Not every agent sends the header. Some coding agents do, most other clients do not.
+
+So expose the same content at a predictable URL as well. The convention is to append `.md` to the page path.
+
+| Page | Markdown |
+| --- | --- |
+| `/blog/my-article` | `/blog/my-article.md` |
+| `/` | `/index.md` |
+
+Do both. The header is the correct mechanism, and the URL is the fallback for agents that have not caught up.
+
+## This is nearly free on a Markdown-backed site
+
+If your content is already authored in Markdown, and it is on any Git-based CMS, then the Markdown already exists. You are converting it to HTML at build time and throwing the original away.
+
+Instead of generating Markdown from your HTML, serve the source you started with. This is a build step or an edge function, not a rewrite.
+
+## How is this different to llms.txt?
+
+They solve different problems and you want both.
+
+* `llms.txt` is **one index file** at the root, listing what your site contains and where to find it. It helps an agent decide what to read
+* Markdown negotiation applies to **every page**. It makes the thing the agent decided to read cheap to consume
+
+## Check your own site
+
+```bash
+curl -sI -H "Accept: text/markdown" https://www.example.com/ | grep -i "content-type\|vary"
+```
+
+If `Content-Type` comes back as `text/html`, you are not negotiating. Adoption is still low, so this is an easy way to stand out.
+
+## Related rules
+
+* [Do you provide an llms.txt file to make your website LLM-friendly?](/make-your-website-llm-friendly)
+* [Do you optimize your content for AI answers?](/ai-optimization-geo-aeo)
+* [Do you let AI answer engines crawl your site?](/allow-ai-answer-engines)
+
+## References
+
+* [Cloudflare, Markdown for agents](https://developers.cloudflare.com/changelog/2026-02-12-markdown-for-agents)
+* [Cloudflare, Agent Readiness score](https://blog.cloudflare.com/agent-readiness/)
+* [RFC 9110, content negotiation](https://www.rfc-editor.org/rfc/rfc9110.html#name-content-negotiation)
