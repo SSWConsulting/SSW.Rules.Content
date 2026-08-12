@@ -21,7 +21,7 @@ createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
 ---
 
-You open a Pull Request with 50 changed files. Your reviewer scrolls for a minute, skims the parts they recognise, and approves with a single "LGTM". Nobody can hold 50 files in their head, so bugs go straight through review.
+Big Pull Requests don't get reviewed - they get skimmed and "LGTM"-ed, and the data backs it up. [SmartBear's study of 2,500 code reviews at Cisco](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) found reviewers' ability to catch defects drops sharply beyond ~400 lines of code, [Microsoft Research](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf) found the density of useful review comments falls as changes get bigger, and [Graphite's analysis of millions of PRs](https://graphite.com/blog/the-ideal-pr-is-50-lines-long) found 50-line changes are ~15% less likely to be reverted than 250-line ones.
 
 Stacked Pull Requests fix this by splitting one big change into a chain of small PRs, where each PR targets the branch below it instead of `main`. Reviewers see a handful of focused files per PR, and each one gets a real review.
 
