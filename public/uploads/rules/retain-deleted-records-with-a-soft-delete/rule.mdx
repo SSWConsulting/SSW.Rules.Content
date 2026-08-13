@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Data - Do you know you can retain deleted records with a Soft Delete?
-uri: do-you-know-you-can-retain-deleted-records-with-a-soft-delete
+uri: retain-deleted-records-with-a-soft-delete
 categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 authors:
@@ -10,6 +10,7 @@ authors:
 redirects:
   - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
   - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-(aka-soft-delete)
+  - do-you-know-you-can-retain-deleted-records-with-a-soft-delete
 guid: 56fff82d-9ed7-4aee-ab22-68e4c61fe162
 seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft Delete) and instead keep historical data intact.
 created: 2019-11-25T19:14:13.000Z
@@ -37,7 +38,7 @@ When users are deleting a lot of records as part of normal operations - they can
 * Depending on your interface design, you may have to join to parent tables to ensure that deleted child records do not appear. Typically, the interface would be designed in such a way that you would not need be able to created new records based on the deleted items (e.g. you cannot create a new order record for a customer that is deleted). Performance of queries can potentially suffer if you have to do these joins.
 * While storage space is very cheap, you are not removing records from your database. You may need to archive records if the number of deleted records becomes large.
 
-### Best Approach for Implementing Soft Delete in EF Core for modern web application
+## Best approach for implementing Soft Delete in EF Core for modern web applications
 
 ### 1. `ISoftDeleteEntity` Interface
 
@@ -137,16 +138,13 @@ Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for a
   figure=""
 />
 
-### Soft Delete in Dynamic 365/ Dataverse (CRM)
+## Soft Delete in Dynamic 365/ Dataverse (CRM)
 
 In Dynamics 365 you rarely hard-delete. The platform already supports soft delete via record status — so deactivate instead of delete, and make any real deletion a reviewed, reversible, 2-step process.
 
 <imageEmbed alt="Deactivate in CRM" size="medium" showBorder={false} figurePrefix="good" figure="safe deactivate-then-delete flow" src="/uploads/rules/avoid-deleting-records-by-flagging-them-as-isdeleted/soft-delete.png" />
 
-1\. Deactivate the record
-
-2\. Mark the affected records with an identifiable marker and run the change under a dedicated service account, so they're easy to filter, review and reverse.
-
-3\. Present the draft list of records for sign-off before any hard delete.
-
-4\. Run the built-in Bulk Record Deletion job with tight filters, e.g. Status  Inactive AND ModifiedBy \[service account] AND ModifiedOn today.
+1. Deactivate the record
+2. Mark the affected records with an identifiable marker and run the change under a dedicated service account, so they're easy to filter, review and reverse
+3. Present the draft list of records for sign-off before any hard delete
+4. Run the built-in Bulk Record Deletion job with tight filters, e.g. Status  Inactive AND ModifiedBy \[service account] AND ModifiedOn today
