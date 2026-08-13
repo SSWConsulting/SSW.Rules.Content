@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka Soft Delete)?
+title: Data - Do you know you can retain records by flagging them as IsDeleted (aka Soft Delete)?
 uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
@@ -67,17 +67,35 @@ Override the default delete behavior using EF Core interceptors by using an inte
 ```chsarp
 public class SoftDeleteInterceptor : SaveChangesInterceptor
 {
-    public override InterceptionResult<int> SavingChanges(DbContextEventData eventData, InterceptionResult<int> result)
+    public override InterceptionResult<int> SavingChanges(
+        DbContextEventData eventData, 
+        InterceptionResult<int> result)
     {
-        foreach (var entry in eventData.Context.ChangeTracker.Entries<ISoftDeleteEntity>())
+        UpdateEntities(eventData.Context);
+        return base.SavingChanges(eventData, result);
+    }
+
+    public override ValueTask<InterceptionResult<int>> SavingChangesAsync(
+        DbContextEventData eventData, 
+        InterceptionResult<int> result, 
+        CancellationToken cancellationToken = default)
+    {
+        UpdateEntities(eventData.Context);
+        return base.SavingChangesAsync(eventData, result, cancellationToken);
+    }
+
+    private static void UpdateEntities(DbContext? context)
+    {
+        if (context is null) return;
+
+        foreach (var entry in context.ChangeTracker.Entries<ISoftDeleteEntity>())
         {
             if (entry.State == EntityState.Deleted)
             {
-                entry.Entity.IsDeleted = true;
                 entry.State = EntityState.Modified;
+                entry.Entity.IsDeleted = true;
             }
         }
-        return base.SavingChanges(eventData, result);
     }
 }
 ```
