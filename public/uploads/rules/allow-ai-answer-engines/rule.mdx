@@ -10,6 +10,7 @@ authors:
 related:
   - rule: public/uploads/rules/make-your-website-llm-friendly/rule.mdx
   - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
+  - rule: public/uploads/rules/sitemap-xml-best-practices/rule.mdx
 guid: c2d0fbfc-c6cc-462a-a59d-aff2d38f64ad
 seoDescription: AI crawlers do different jobs. Learn which ones to allow so your site can be cited in ChatGPT, Claude and Perplexity answers, and which ones only affect model training.
 created: 2026-08-12T07:54:54.000Z
@@ -25,7 +26,7 @@ Some collect content to train models. Others fetch a page to answer a user's que
 
 Two jobs, two very different consequences.
 
-**Retrieval crawlers** fetch pages to answer questions and build search indexes. Blocking one costs you citations and referral traffic.
+**Retrieval crawlers** fetch pages to answer questions and build search indexes. Blocking one costs you citations and referral traffic. [OpenAI](https://developers.openai.com/api/docs/bots) and [Anthropic](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) both document what each of their crawlers does.
 
 | User agent | Operator | Blocking it means |
 | --- | --- | --- |
@@ -97,7 +98,7 @@ If you want both, allow both. The point is to decide deliberately rather than bl
 
 This myth costs people real traffic, so it is worth stating plainly.
 
-`Google-Extended` controls whether your content is used for Gemini training and grounding. It does not control whether you appear in AI Overviews or AI Mode. Those are features of Google Search, and they follow ordinary Googlebot crawl rules and snippet settings.
+`Google-Extended` controls whether your content is used for Gemini training and grounding. It does not control whether you appear in AI Overviews or AI Mode. Those are features of Google Search, and they follow ordinary Googlebot crawl rules and snippet settings. See Google's [overview of Google crawlers](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers).
 
 <boxEmbed
   style="warning"
@@ -112,7 +113,7 @@ Note the reverse trap too. A `nosnippet` or `max-snippet:0` directive does remov
 
 ## State your position with Content Signals
 
-`robots.txt` can say who may fetch a page. It cannot say what they may do with it afterwards. Content Signals adds that missing half, with three independent signals.
+`robots.txt` can say who may fetch a page. It cannot say what they may do with it afterwards. The [Content Signals Policy](https://contentsignals.org/) adds that missing half, with three independent signals.
 
 * `search` - may appear in search results
 * `ai-input` - may be used to ground an AI answer
@@ -144,16 +145,4 @@ Read your own `robots.txt` and confirm it matches the decision you think you mad
 * Within a group, the longest matching path wins, and `Allow` beats `Disallow` on an equal-length match
 * A staging `Disallow: /` copied to production blocks everything, including Googlebot
 
-## Related rules
-
-* [Do you provide an llms.txt file to make your website LLM-friendly?](/make-your-website-llm-friendly)
-* [Technical - Do you use Robots.txt file effectively?](/use-robots-txt-effectively)
-* [Do you have a crawler-friendly sitemap.xml?](/sitemap-xml-best-practices)
-
-## References
-
-* [OpenAI bots](https://developers.openai.com/api/docs/bots)
-* [Anthropic crawlers](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
-* [Google crawlers overview](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)
-* [Content Signals Policy](https://contentsignals.org/)
-* [RFC 9309, Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html)
+The precedence rules are defined in [RFC 9309, the Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html).
