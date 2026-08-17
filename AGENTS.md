@@ -21,6 +21,7 @@ Use the current schemas and scripts as the source of truth. Before introducing u
 * Explain why the practice matters. Link to product documentation for implementation details that will become stale.
 * Prefer concrete good/bad examples when they materially clarify the advice. Every image or example box needs a descriptive `figure`.
 * Use asterisks for unordered lists and specify a language on fenced code blocks.
+* Bold markdown must not contain whitespace immediately inside the `**` markers — the space leaks out as a literal `**` when rendered (a common Tina editing mistake). Write `**Note:**`, not `** Note: **`. `❌ ** Note: **` → `✅ **Note:**`. The `check-malformed-bold` validator enforces this.
 * Link to another rule as `[descriptive title](/[uri])`.
 * SSW URLs must use `https://www.ssw.com.au/...`; the URL linter flags the bare domain.
 * Put images in the rule folder, use descriptive kebab-case names and lowercase extensions, and embed them with `<imageEmbed>` rather than Markdown image syntax.
@@ -121,6 +122,12 @@ Markdown:
 
 ```bash
 npx --yes markdownlint-cli 'public/uploads/rules/[uri]/rule.mdx' --config .markdownlint/config.json
+```
+
+Malformed bold (whitespace inside `**` markers). Omit the file argument to scan the whole repository:
+
+```bash
+node scripts/check-malformed-bold/check-malformed-bold.js 'public/uploads/rules/[uri]/rule.mdx'
 ```
 
 For new, moved, or recategorized rules:
