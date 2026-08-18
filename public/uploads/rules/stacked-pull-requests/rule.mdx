@@ -15,13 +15,16 @@ related:
   - rule: public/uploads/rules/enable-pull-requests-to-ensure-code-is-reviewed/rule.mdx
   - rule: public/uploads/rules/git-worktrees/rule.mdx
 guid: 0183755d-6e84-4bbd-8890-0e29a850530d
-seoDescription: Learn how stacked Pull Requests break one big change into a chain of small, reviewable PRs using GitHub's native stacking support.
+seoDescription: 'Learn how stacked Pull Requests break one big change into a chain of small, reviewable PRs using GitHub''s native stacking support.'
 created: 2026-08-12T00:00:00.000Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
+lastUpdated: 2026-08-18T15:45:34.138Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
-Big Pull Requests don't get reviewed - they get skimmed and "LGTM"-ed, and the data backs it up. [SmartBear's study of 2,500 code reviews at Cisco](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) found reviewers' ability to catch defects drops sharply beyond ~400 lines of code, [Microsoft Research](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf) found the density of useful review comments falls as changes get bigger, and [Graphite's analysis of millions of PRs](https://graphite.com/blog/the-ideal-pr-is-50-lines-long) found 50-line changes are ~15% less likely to be reverted than 250-line ones.
+Big Pull Requests don't get reviewed - they get skimmed and "LGTM"-ed, and the data backs it up. [SmartBear's study of 2,500 code reviews at Cisco](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) found reviewers' ability to catch defects drops sharply beyond \~400 lines of code, [Microsoft Research](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf) found the density of useful review comments falls as changes get bigger, and [Graphite's analysis of millions of PRs](https://graphite.com/blog/the-ideal-pr-is-50-lines-long) found 50-line changes are \~15% less likely to be reverted than 250-line ones.
 
 Stacked Pull Requests fix this by splitting one big change into a chain of small PRs, where each PR targets the branch below it instead of `main`. Reviewers see a handful of focused files per PR, and each one gets a real review.
 
@@ -96,7 +99,7 @@ When review feedback changes a lower PR, the branches above it diverge. GitHub f
   style="warning"
 />
 
-Once the whole stack is approved, click **Squash and merge stack** to land every PR on `main` in one action, preserving stack order in the commit history. Don't squash-merge stacked PRs one at a time outside the stack tooling - squashing creates new commit SHAs and leaves the PRs above with a broken base.
+Once the whole stack is approved, click **Squash and merge stack** to land every PR on `main` in one action, preserving stack order in the commit histocszdsry. Don't squash-merge stacked PRs one at a time outside the stack tooling - squashing creates new commit SHAs and leaves the PRs above with a broken base.
 
 <boxEmbed
   body={<>
