@@ -39,23 +39,21 @@ bcdedit /copy {default} /d “Demo-NameOfDemo”
 ```
 
 ![Creating the entry using BCDEdit shows your GUID](/uploads/rules/do-you-know-how-to-setup-a-boot-to-vhd-image/fig1-creatingentry.png)
-**Figure - Creating the entry using BCDEdit shows your GUID** 4. Type:
+
+4. Type:
 
 ```bash
 bcdedit /set <GUID>  device vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
 ```
 
-**D:\*\* is the drive the VHD is located and **VM-DEV-SharePoint_2010_Public_Beta.vhd** is the location of your VHD file. Make sure you replace **&lt;GUID&gt;\*\* with the GUID you got in the previous step. 5. Type:
+**D:** is the drive the VHD is located and **VM-DEV-SharePoint_2010_Public_Beta.vhd** is the location of your VHD file. Make sure you update with the GUID you got in the previous step. 
 
-```bash
-bcdedit /set <GUID>  osdevice vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
-```
-
-**D:\*\* is the drive the VHD is located and **VM-DEV-SharePoint_2010_Public_Beta.vhd** is the location of your VHD file. Make sure you replace **&lt;GUID&gt;\*\* with the GUID you got in the previous step. 6. Type:
+5. Type:
 
 ```bash
 bcdedit /set <GUID> detecthal on
 ```
 
-![Each time you run a BCDEdit command it should return](/uploads/rules/do-you-know-how-to-setup-a-boot-to-vhd-image/fig2-addguids.png)
-**Figure - Each time you run a BCDEdit command it should return "The operation completed successfully"** 7. Reboot the computer and now you will have the option to choose between Windows 7 and the new Boot to VHD image.
+![Figure - Each time you run a BCDEdit command it should return "The operation completed successfully"](/uploads/rules/do-you-know-how-to-setup-a-boot-to-vhd-image/fig2-addguids.png)
+
+6. Reboot the computer and now you will have the option to choose between Windows 7 and the new Boot to VHD image.

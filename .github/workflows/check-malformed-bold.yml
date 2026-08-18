@@ -1,0 +1,106 @@
+name: Check-Malformed-Bold
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+      - ".github/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  check-malformed-bold:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Get changed Markdown/MDX files
+        id: changed_md
+        shell: bash
+        run: |
+          set -e
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.md' '*.mdx' | paste -sd "," -)"
+          else
+            # For manual runs, check all tracked .md/.mdx files
+            changed="$(git ls-files '*.md' '*.mdx' | paste -sd "," -)"
+          fi
+
+          echo "changed=$changed" >> $GITHUB_ENV
+          echo "Changed Markdown/MDX: $changed"
+
+      - name: Run malformed-bold check
+        id: bold_check
+        if: ${{ env.changed != '' }}
+        continue-on-error: true
+        env:
+          BOLD_REPORT_PATH: ${{ runner.temp }}/malformed-bold-report.md
+        run: |
+          node scripts/check-malformed-bold/check-malformed-bold.js '${{ env.changed }}'
+
+      - name: Check report exists
+        id: bold_report
+        if: ${{ env.changed != '' }}
+        shell: bash
+        run: |
+          if [ -f "${{ runner.temp }}/malformed-bold-report.md" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Comment on PR
+        if: ${{ env.changed != '' && steps.bold_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        uses: actions/github-script@v9
+        env:
+          BOLD_REPORT_PATH: ${{ runner.temp }}/malformed-bold-report.md
+        with:
+          script: |
+            const fs = require('fs');
+
+            const marker = '<!-- malformed-bold-check -->';
+            const reportPath = process.env.BOLD_REPORT_PATH;
+
+            let body = fs.readFileSync(reportPath, 'utf8');
+            if (!body.includes(marker)) body = `${marker}\n` + body;
+
+            const prNumber = context.payload.pull_request.number;
+            const { owner, repo } = context.repo;
+
+            // Update existing bot comment to avoid spam
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number: prNumber, per_page: 100
+            });
+
+            const existing = comments.find(c =>
+              c.user && c.user.type === 'Bot' && typeof c.body === 'string' && c.body.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: prNumber, body
+              });
+            }
+
+      - name: Fail job if malformed bold was found
+        if: ${{ env.changed != '' && steps.bold_check.outcome == 'failure' }}
+        run: exit 1
