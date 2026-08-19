@@ -1,18 +1,23 @@
 ---
-authors:
-- title: Brook Jeynes
-  url: https://www.ssw.com.au/people/brook-jeynes
-created: 2026-04-17T09:48:01+10:00
-guid: c0b71d44-b9d4-48b7-8785-de4338ff8380
-related:
-- rule: public/uploads/rules/workflow-naming-scheme/rule.mdx
-- rule: public/uploads/rules/have-a-continuous-build-server/rule.mdx
-seoDescription: Test GitHub Actions workflows locally with act to speed up feedback, reduce unnecessary hosted runner usage, and catch workflow issues earlier.
+type: rule
 title: GitHub Actions - Do you test workflows locally with act?
+uri: test-github-actions-workflows-locally-with-act
 categories:
   - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
-type: rule
-uri: test-github-actions-workflows-locally-with-act
+authors:
+  - title: Brook Jeynes
+    url: 'https://www.ssw.com.au/people/brook-jeynes'
+related:
+  - rule: public/uploads/rules/workflow-naming-scheme/rule.mdx
+  - rule: public/uploads/rules/have-a-continuous-build-server/rule.mdx
+guid: c0b71d44-b9d4-48b7-8785-de4338ff8380
+seoDescription: 'Test GitHub Actions workflows locally with act to speed up feedback, reduce unnecessary hosted runner usage, and catch workflow issues earlier.'
+created: 2026-04-16T23:48:01.000Z
+createdBy: Brook Jeynes
+createdByEmail: BrookJeynes@ssw.com.au
+lastUpdated: 2026-08-19T04:22:41.678Z
+lastUpdatedBy: Brook Jeynes
+lastUpdatedByEmail: BrookJeynes@ssw.com.au
 ---
 
 Pushing small GitHub Actions changes just to see whether a workflow works is
@@ -25,31 +30,19 @@ job wiring.
 
 <endIntro />
 
-<imageEmbed
-  alt="GitHub Actions run history showing several small failed workflow iterations"
-  size="large"
-  showBorder={true}
-  figurePrefix="bad"
-  figure="Bad example - Using hosted runners as your first feedback loop"
-  src="/uploads/rules/test-github-actions-workflows-locally-with-act/github-actions-small-failed-iterations.png"
-/>
+<youtubeEmbed url="https://www.youtube.com/watch?v=7xfDpoEBp60" description="Video:  Coding Short: Test Your Github Actions Locally with Act (4 mins)" />
 
-<imageEmbed
-  alt="Local terminal run of act validating the workflow before pushing"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Good example - Use act to tighten the workflow feedback loop"
-  src="/uploads/rules/test-github-actions-workflows-locally-with-act/act-local-run.png"
-/>
+<imageEmbed alt="GitHub Actions run history showing several small failed workflow iterations" size="large" showBorder={true} figurePrefix="bad" figure="Bad example - Using hosted runners as your first feedback loop" src="/uploads/rules/test-github-actions-workflows-locally-with-act/github-actions-small-failed-iterations.png" />
+
+<imageEmbed alt="Local terminal run of act validating the workflow before pushing" size="large" showBorder={true} figurePrefix="good" figure="Good example - Use act to tighten the workflow feedback loop" src="/uploads/rules/test-github-actions-workflows-locally-with-act/act-local-run.png" />
 
 ## Why `act` is useful
 
-- **Faster iteration** - Catch broken paths, missing environment variables, and
+* **Faster iteration** - Catch broken paths, missing environment variables, and
   shell mistakes without waiting on GitHub
-- **Cheaper experimentation** - Avoid burning hosted runner minutes for every
+* **Cheaper experimentation** - Avoid burning hosted runner minutes for every
   small workflow tweak
-- **Less noisy history** - Reduce the stream of tiny "fix workflow" commits
+* **Less noisy history** - Reduce the stream of tiny "fix workflow" commits
   made purely to test YAML changes
 
 `act` gets you closer to your final workflow much earlier, but it is still not
