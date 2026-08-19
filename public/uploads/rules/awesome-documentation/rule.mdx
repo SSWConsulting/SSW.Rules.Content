@@ -39,20 +39,22 @@ seoDescription: 'Do you make awesome documentation? Discover how to create a doc
 created: 2013-07-15T16:37:37.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-08-19T06:09:59.611Z
+lastUpdated: 2026-08-19T23:50:25.890Z
 lastUpdatedBy: SamMaher@ssw.com.au
 lastUpdatedByEmail: sammaher@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
+ADD INTRO
+
 There are a few styles of documentation:
 
 <endIntro />
 
-### ❌ Bad example – Old School
+### Old School
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="The dinosaur’s method of documentation" src="/uploads/rules/awesome-documentation/old-documentation.png" />
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="bad" figure="The dinosaur’s method of documentation" src="/uploads/rules/awesome-documentation/old-documentation.png" />
 
 The old school way is document first – lots of planning and lots of heavy documentation created upfront before even a single line of code is written.
 
@@ -68,14 +70,14 @@ This is a well-established way to do documentation, but it has several problems:
 * High maintenance overhead
 * Needs a business analyst
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Documentation can take the form of Sequence Diagrams" src="/uploads/rules/awesome-documentation/enterprisearchitect1.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Documentation can take the form of Sequence Diagrams" src="/uploads/rules/awesome-documentation/enterprisearchitect1.jpg" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Use Case Diagrams are even worse!" src="/uploads/rules/awesome-documentation/EnterpriseArchitectUseCases.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Use Case Diagrams are even worse!" src="/uploads/rules/awesome-documentation/EnterpriseArchitectUseCases.jpg" />
 
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
 <boxEmbed
-  style="greybox"
+  style="info"
   body={<>
     **More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
   </>}
@@ -83,9 +85,16 @@ There may be exceptions – some situations benefit from this kind of documentat
   figure=""
 />
 
-**Tip:** Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.
+<boxEmbed
+  body={<>
+    **Tip:** Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
-### ✅ Good example – The 8 Important Documents
+### The Right Way - The 8 Important Documents
 
 This style of documentation is used by modern teams who are Agile only.
 
@@ -140,13 +149,27 @@ GitHub wiki options:
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-**Tip:** All of your documents (in your Wiki and your repository) should be [written in Markdown](/using-github-and-markdown-to-store-you-content).
+<boxEmbed
+  body={<>
+    **Tip:** All of your documents (in your Wiki and your repository) should be [written in Markdown](/using-github-and-markdown-to-store-you-content).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 **Publishing your documentation with GitHub Pages:**
 
 When you want to make your documentation visible to a wider audience, for example with an open source project, consider publishing your documentation using [GitHub Pages](https://pages.github.com)
 
-**Tip:** Check out this great example [SSW Clean Architecture Template](https://sswconsulting.github.io/SSW.CleanArchitecture/)
+<boxEmbed
+  body={<>
+    **Tip:** Check out this great example [SSW Clean Architecture Template](https://sswconsulting.github.io/SSW.CleanArchitecture/)
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 <boxEmbed
   body={<>
