@@ -3,8 +3,9 @@ type: rule
 title: Do you scope your DbContext to the unit of work in long-running jobs?
 seoDescription: >-
   Long-running background jobs that keep one EF Core DbContext for the whole
-  run get slower with every row as the change tracker grows. Scope DbContexts
-  per chunk and clear the tracker per row to keep throughput flat.
+  run get slower with every row as the change tracker grows. Create a fresh
+  DbContext per chunk with IDbContextFactory - or a DI scope per chunk when
+  services own the context - to keep throughput flat.
 guid: 9adbe77d-cdc4-4687-8902-acbb05a33577
 uri: scope-dbcontext-in-long-running-jobs
 created: 2026-08-19T00:00:00.000Z
@@ -32,64 +33,47 @@ A background job that syncs or imports thousands of rows often starts fast and g
 
 Job frameworks like Hangfire create one dependency injection scope per job execution. For a web request, a scope lives for milliseconds. For a bulk job, that same scope - and every scoped `DbContext` in it - lives for the entire run, which can be hours or days.
 
-Every entity the job loads or adds stays in the change tracker. Each `SaveChangesAsync` then walks all tracked entities to detect changes, and any `SaveChanges` interceptors (audit stamping, outbox) walk them all again. Row 10,000 pays for the 9,999 rows before it, so each save costs more than the last. Eventually a save crosses the SQL command timeout and the run dies without finishing.
+Every entity the job loads or adds stays in the change tracker. Each `SaveChangesAsync` then walks all tracked entities to detect changes, and any `SaveChanges` interceptors (audit stamping, outbox) walk them all again. Chunk 100 pays for the 99 chunks before it, so each save costs more than the last. Eventually a save crosses the SQL command timeout and the run dies without finishing.
 
-Constructor injection is what makes this easy to miss - the code looks completely normal:
+Process the data in chunks (see [Do you bulk process in chunks?](/bulk-process-in-chunks)), then look at what owns the `DbContext`:
 
 ```csharp
-public class SyncAllProductsJob(ProductSyncService syncService)
+public class SyncAllProductsJob(AppDbContext dbContext)
 {
     public async Task Execute(CancellationToken ct)
     {
-        var ids = await GetAllProductIds(ct);
+        var ids = await GetProductIdsToSync(ct);
 
         foreach (var chunk in ids.Chunk(500))
         {
-            // Same service, same DbContext, same change tracker - for the whole run
-            await syncService.SyncProducts(chunk, ct);
+            var products = await dbContext.Products
+                .Where(p => chunk.Contains(p.Id))
+                .ToListAsync(ct);
+
+            ApplyChanges(products);
+            await dbContext.SaveChangesAsync(ct);
         }
     }
 }
 ```
 
-❌ **Figure: Bad example - The injected service holds one DbContext whose change tracker grows for the whole run**
+❌ **Figure: Bad example - One injected DbContext for the whole run. Every chunk's entities stay tracked, so every save walks all of them again**
 
-## Fix 1 - Create a DI scope per chunk
+## OK - Clear the change tracker after each chunk
 
-Process the data in chunks (see [Do you bulk process in chunks?](/bulk-process-in-chunks)) and create a fresh DI scope for each one. Resolve everything that touches a `DbContext` from that scope - your own services, and indirect users like a MediatR `ISender`, whose handlers get their `DbContext` from whatever scope the sender came from.
-
-```csharp
-public class SyncAllProductsJob(IServiceScopeFactory scopeFactory)
-{
-    public async Task Execute(CancellationToken ct)
-    {
-        var ids = await GetAllProductIds(ct);
-
-        foreach (var chunk in ids.Chunk(500))
-        {
-            using var scope = scopeFactory.CreateScope();
-            var syncService = scope.ServiceProvider.GetRequiredService<ProductSyncService>();
-
-            await syncService.SyncProducts(chunk, ct);
-        } // Disposing the scope disposes every DbContext resolved from it
-    }
-}
-```
-
-✅ **Figure: Good example - Each chunk gets its own scope, so no DbContext outlives one chunk**
-
-Lead with this fix because it doesn't rely on anyone remembering anything. Clearing trackers by hand only fixes the contexts you thought of - a `DbContext` hiding behind a MediatR handler, or one a teammate adds next year, keeps leaking. Disposing the scope catches them all.
-
-## Fix 2 - Clear the change tracker after each row
-
-Scoping per chunk stops the leak between chunks, but the rows within one chunk still share a `DbContext`. If you save row by row, entities from finished rows pile up. Clear the tracker in a `finally` at the end of each row:
+If you keep the single context, empty its tracker at the end of every chunk - in a `finally`, so a failed chunk clears too:
 
 ```csharp
-foreach (var row in chunk)
+foreach (var chunk in ids.Chunk(500))
 {
     try
     {
-        await ProcessRow(row, ct);
+        var products = await dbContext.Products
+            .Where(p => chunk.Contains(p.Id))
+            .ToListAsync(ct);
+
+        ApplyChanges(products);
+        await dbContext.SaveChangesAsync(ct);
     }
     finally
     {
@@ -98,26 +82,77 @@ foreach (var row in chunk)
 }
 ```
 
-✅ **Figure: Good example - Each row leaves the tracker empty, whether it succeeded or failed**
+😐 **Figure: OK example - Clearing the tracker caps the cost, but it relies on every code path remembering to clear**
 
 <boxEmbed
   style="warning"
   body={<>
-    Only clear at the row boundary. If one row involves two saves - save the parent, then save its children - a `Clear()` between them detaches the parent, and the children are silently never written. No exception, just missing data. Keep the clear in one place, the `finally` on the row loop, and never inside the methods that do the saves.
+    Only clear at the chunk boundary. If one chunk involves two saves - save the parents, then save their children - a `Clear()` between them detaches the parents, and the children are silently never written. No exception, just missing data. Keep the clear in one place, the `finally` on the loop, and never inside the methods that do the saves.
   </>}
   figurePrefix="none"
   figure="Warning - A misplaced Clear() causes silent data loss, which is worse than the slowdown it fixes"
 />
 
-## A simpler alternative - IDbContextFactory
+## Good - A fresh DbContext per chunk with IDbContextFactory
 
-When the job talks to a `DbContext` directly instead of through a graph of services, you can skip the scope and create a short-lived context per chunk:
+`DbContext` is designed to be short-lived. Instead of reusing one context and cleaning up after it, create one per chunk and throw it away - there is nothing to remember and nothing to leak.
+
+Register the factory:
 
 ```csharp
-using var db = await dbContextFactory.CreateDbContextAsync(ct);
+services.AddDbContextFactory<AppDbContext>(options =>
+    options.UseSqlServer(connectionString));
 ```
 
-✅ **Figure: Good example - IDbContextFactory gives a fresh context per chunk when there is no service graph to resolve**
+Then create a context per chunk:
+
+```csharp
+public class SyncAllProductsJob(IDbContextFactory<AppDbContext> dbContextFactory)
+{
+    public async Task Execute(CancellationToken ct)
+    {
+        var ids = await GetProductIdsToSync(ct);
+
+        foreach (var chunk in ids.Chunk(500))
+        {
+            await using var dbContext = await dbContextFactory.CreateDbContextAsync(ct);
+
+            var products = await dbContext.Products
+                .Where(p => chunk.Contains(p.Id))
+                .ToListAsync(ct);
+
+            ApplyChanges(products);
+            await dbContext.SaveChangesAsync(ct);
+        }
+    }
+}
+```
+
+✅ **Figure: Good example - Each chunk gets a brand-new DbContext and disposes it, so nothing accumulates between chunks**
+
+## When the DbContext hides behind services
+
+Many jobs never touch the `DbContext` directly - they call sync services or MediatR handlers that get their context from dependency injection. A factory can't reach those contexts. Create a DI scope per chunk instead, and resolve the services from it. Disposing the scope disposes every scoped `DbContext` inside it - including one hiding behind an `ISender`, or one a teammate adds next year:
+
+```csharp
+public class SyncAllProductsJob(IServiceScopeFactory scopeFactory)
+{
+    public async Task Execute(CancellationToken ct)
+    {
+        var ids = await GetProductIdsToSync(ct);
+
+        foreach (var chunk in ids.Chunk(500))
+        {
+            using var scope = scopeFactory.CreateScope();
+            var syncService = scope.ServiceProvider.GetRequiredService<ProductSyncService>();
+
+            await syncService.SyncProducts(chunk, ct);
+        }
+    }
+}
+```
+
+✅ **Figure: Good example - For service graphs, a scope per chunk plays the factory's role - the scope owns every DbContext the chunk used**
 
 ## How to spot it in production
 
