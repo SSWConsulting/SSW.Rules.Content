@@ -1,0 +1,128 @@
+---
+type: rule
+title: Do you scope your DbContext to the unit of work in long-running jobs?
+seoDescription: >-
+  Long-running background jobs that keep one EF Core DbContext for the whole
+  run get slower with every row as the change tracker grows. Scope DbContexts
+  per chunk and clear the tracker per row to keep throughput flat.
+guid: 9adbe77d-cdc4-4687-8902-acbb05a33577
+uri: scope-dbcontext-in-long-running-jobs
+created: 2026-08-19T00:00:00.000Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/bulk-process-in-chunks/rule.mdx
+  - rule: public/uploads/rules/use-asnotracking-for-readonly-queries/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+archivedreason: null
+isArchived: false
+---
+
+A background job that syncs or imports thousands of rows often starts fast and gets slower with every row. A run that did 60 chunks in its first hour is down to 10 a day later, and it never logs "complete". The database is usually innocent - the cause is the EF Core change tracker, quietly holding every entity the job has ever touched.
+
+<endIntro />
+
+## Why long jobs slow down
+
+Job frameworks like Hangfire create one dependency injection scope per job execution. For a web request, a scope lives for milliseconds. For a bulk job, that same scope - and every scoped `DbContext` in it - lives for the entire run, which can be hours or days.
+
+Every entity the job loads or adds stays in the change tracker. Each `SaveChangesAsync` then walks all tracked entities to detect changes, and any `SaveChanges` interceptors (audit stamping, outbox) walk them all again. Row 10,000 pays for the 9,999 rows before it, so each save costs more than the last. Eventually a save crosses the SQL command timeout and the run dies without finishing.
+
+Constructor injection is what makes this easy to miss - the code looks completely normal:
+
+```csharp
+public class SyncAllProductsJob(ProductSyncService syncService)
+{
+    public async Task Execute(CancellationToken ct)
+    {
+        var ids = await GetAllProductIds(ct);
+
+        foreach (var chunk in ids.Chunk(500))
+        {
+            // Same service, same DbContext, same change tracker - for the whole run
+            await syncService.SyncProducts(chunk, ct);
+        }
+    }
+}
+```
+
+❌ **Figure: Bad example - The injected service holds one DbContext whose change tracker grows for the whole run**
+
+## Fix 1 - Create a DI scope per chunk
+
+Process the data in chunks (see [Do you bulk process in chunks?](/bulk-process-in-chunks)) and create a fresh DI scope for each one. Resolve everything that touches a `DbContext` from that scope - your own services, and indirect users like a MediatR `ISender`, whose handlers get their `DbContext` from whatever scope the sender came from.
+
+```csharp
+public class SyncAllProductsJob(IServiceScopeFactory scopeFactory)
+{
+    public async Task Execute(CancellationToken ct)
+    {
+        var ids = await GetAllProductIds(ct);
+
+        foreach (var chunk in ids.Chunk(500))
+        {
+            using var scope = scopeFactory.CreateScope();
+            var syncService = scope.ServiceProvider.GetRequiredService<ProductSyncService>();
+
+            await syncService.SyncProducts(chunk, ct);
+        } // Disposing the scope disposes every DbContext resolved from it
+    }
+}
+```
+
+✅ **Figure: Good example - Each chunk gets its own scope, so no DbContext outlives one chunk**
+
+Lead with this fix because it doesn't rely on anyone remembering anything. Clearing trackers by hand only fixes the contexts you thought of - a `DbContext` hiding behind a MediatR handler, or one a teammate adds next year, keeps leaking. Disposing the scope catches them all.
+
+## Fix 2 - Clear the change tracker after each row
+
+Scoping per chunk stops the leak between chunks, but the rows within one chunk still share a `DbContext`. If you save row by row, entities from finished rows pile up. Clear the tracker in a `finally` at the end of each row:
+
+```csharp
+foreach (var row in chunk)
+{
+    try
+    {
+        await ProcessRow(row, ct);
+    }
+    finally
+    {
+        dbContext.ChangeTracker.Clear();
+    }
+}
+```
+
+✅ **Figure: Good example - Each row leaves the tracker empty, whether it succeeded or failed**
+
+<boxEmbed
+  style="warning"
+  body={<>
+    Only clear at the row boundary. If one row involves two saves - save the parent, then save its children - a `Clear()` between them detaches the parent, and the children are silently never written. No exception, just missing data. Keep the clear in one place, the `finally` on the row loop, and never inside the methods that do the saves.
+  </>}
+  figurePrefix="none"
+  figure="Warning - A misplaced Clear() causes silent data loss, which is worse than the slowdown it fixes"
+/>
+
+## A simpler alternative - IDbContextFactory
+
+When the job talks to a `DbContext` directly instead of through a graph of services, you can skip the scope and create a short-lived context per chunk:
+
+```csharp
+using var db = await dbContextFactory.CreateDbContextAsync(ct);
+```
+
+✅ **Figure: Good example - IDbContextFactory gives a fresh context per chunk when there is no service graph to resolve**
+
+## How to spot it in production
+
+* Throughput decays smoothly over the run - the first hour is the fastest the job will ever be
+* Memory climbs for the life of the job
+* Saves start failing with command timeouts, even though the same save is instant when run on its own
+
+Log a short heartbeat per chunk - rows processed, elapsed time, rows per second - so the decay shows up in one log line instead of being reconstructed from timestamps after the incident.
+
+For reads the job never modifies, keep entities out of the tracker entirely - see [Do you use AsNoTracking for readonly queries?](/use-asnotracking-for-readonly-queries).
