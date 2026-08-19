@@ -15,15 +15,15 @@ seoDescription: 'Test GitHub Actions workflows locally with act to speed up feed
 created: 2026-04-16T23:48:01.000Z
 createdBy: Brook Jeynes
 createdByEmail: BrookJeynes@ssw.com.au
-lastUpdated: 2026-08-19T04:22:41.678Z
+lastUpdated: 2026-08-19T23:14:27.660Z
 lastUpdatedBy: Brook Jeynes
 lastUpdatedByEmail: BrookJeynes@ssw.com.au
 ---
 
 Pushing small GitHub Actions changes just to see whether a workflow works is
-slow, noisy, and burns hosted runner minutes unnecessarily.
+**slow, noisy, and burns hosted runner minutes unnecessarily ❌**
 
-[`act`](https://github.com/nektos/act) solves a lot of that pain by running
+[Act ](https://github.com/nektos/act)solves a lot of that pain by running
 your GitHub Action workflows locally. It shortens the feedback loop when you
 are iterating on workflow logic, shell steps, environment variables, or basic
 job wiring.
@@ -36,7 +36,7 @@ job wiring.
 
 <imageEmbed alt="Local terminal run of act validating the workflow before pushing" size="large" showBorder={true} figurePrefix="good" figure="Good example - Use act to tighten the workflow feedback loop" src="/uploads/rules/test-github-actions-workflows-locally-with-act/act-local-run.png" />
 
-## Why `act` is useful
+## Why Act is useful
 
 * **Faster iteration** - Catch broken paths, missing environment variables, and
   shell mistakes without waiting on GitHub
@@ -45,10 +45,10 @@ job wiring.
 * **Less noisy history** - Reduce the stream of tiny "fix workflow" commits
   made purely to test YAML changes
 
-`act` gets you closer to your final workflow much earlier, but it is still not
+Act gets you closer to your final workflow much earlier, but it is still not
 identical to running on GitHub's hosted runners. Some workflows behave
 differently depending on the runner image, available tools, service containers,
 or platform-specific behaviour.
 
-That means `act` should improve your inner loop, not replace your real CI run.
-You can read more about act via the [`act` documentation](https://nektosact.com/).
+That means Act should improve your inner loop, not replace your real CI run.
+You can read more about act via the [Act documentation](https://nektosact.com/).
