@@ -4,8 +4,8 @@ title: Do you scope your DbContext to the unit of work in long-running jobs?
 seoDescription: >-
   Long-running background jobs that keep one EF Core DbContext for the whole
   run get slower with every row as the change tracker grows. Create a fresh
-  DbContext per chunk with IDbContextFactory - or a DI scope per chunk when
-  services own the context - to keep throughput flat.
+  DbContext per chunk with IDbContextFactory, or a DI scope per chunk when
+  services own the context, to keep throughput flat.
 guid: 9adbe77d-cdc4-4687-8902-acbb05a33577
 uri: scope-dbcontext-in-long-running-jobs
 created: 2026-08-19T00:00:00.000Z
@@ -25,13 +25,13 @@ archivedreason: null
 isArchived: false
 ---
 
-A background job that syncs or imports thousands of rows often starts fast and gets slower with every row. A run that did 60 chunks in its first hour is down to 10 a day later, and it never logs "complete". The database is usually innocent - the cause is the EF Core change tracker, quietly holding every entity the job has ever touched.
+A background job that syncs or imports thousands of rows often starts fast and gets slower with every row. A run that did 60 chunks in its first hour is down to 10 a day later, and it never logs "complete". The database is usually innocent. The cause is the EF Core change tracker, quietly holding every entity the job has ever touched.
 
 <endIntro />
 
 ## Why long jobs slow down
 
-Job frameworks like Hangfire create one dependency injection scope per job execution. For a web request, a scope lives for milliseconds. For a bulk job, that same scope - and every scoped `DbContext` in it - lives for the entire run, which can be hours or days.
+Job frameworks like Hangfire create one dependency injection scope per job execution. For a web request, a scope lives for milliseconds. For a bulk job, that same scope (and every scoped `DbContext` in it) lives for the entire run, which can be hours or days.
 
 Every entity the job loads or adds stays in the change tracker. Each `SaveChangesAsync` then walks all tracked entities to detect changes, and any `SaveChanges` interceptors (audit stamping, outbox) walk them all again. Chunk 100 pays for the 99 chunks before it, so each save costs more than the last. Eventually a save crosses the SQL command timeout and the run dies without finishing.
 
@@ -59,9 +59,9 @@ public class SyncAllProductsJob(AppDbContext dbContext)
 
 ❌ **Figure: Bad example - One injected DbContext for the whole run. Every chunk's entities stay tracked, so every save walks all of them again**
 
-## OK - Clear the change tracker after each chunk
+## OK example: Clear the change tracker after each chunk
 
-If you keep the single context, empty its tracker at the end of every chunk - in a `finally`, so a failed chunk clears too:
+If you keep the single context, empty its tracker at the end of every chunk. Put the clear in a `finally` so a failed chunk clears too:
 
 ```csharp
 foreach (var chunk in ids.Chunk(500))
@@ -87,15 +87,15 @@ foreach (var chunk in ids.Chunk(500))
 <boxEmbed
   style="warning"
   body={<>
-    Only clear at the chunk boundary. If one chunk involves two saves - save the parents, then save their children - a `Clear()` between them detaches the parents, and the children are silently never written. No exception, just missing data. Keep the clear in one place, the `finally` on the loop, and never inside the methods that do the saves.
+    Only clear at the chunk boundary. If one chunk involves two saves (save the parents, then save their children), a `Clear()` between them detaches the parents, and the children are silently never written. No exception, just missing data. Keep the clear in one place: the `finally` on the loop. Never put it inside the methods that do the saves.
   </>}
   figurePrefix="none"
   figure="Warning - A misplaced Clear() causes silent data loss, which is worse than the slowdown it fixes"
 />
 
-## Good - A fresh DbContext per chunk with IDbContextFactory
+## Good example: A fresh DbContext per chunk with IDbContextFactory
 
-`DbContext` is designed to be short-lived. Instead of reusing one context and cleaning up after it, create one per chunk and throw it away - there is nothing to remember and nothing to leak.
+`DbContext` is designed to be short-lived. Instead of reusing one context and cleaning up after it, create one per chunk and throw it away. There is nothing to remember and nothing to leak.
 
 Register the factory:
 
@@ -132,7 +132,7 @@ public class SyncAllProductsJob(IDbContextFactory<AppDbContext> dbContextFactory
 
 ## When the DbContext hides behind services
 
-Many jobs never touch the `DbContext` directly - they call sync services or MediatR handlers that get their context from dependency injection. A factory can't reach those contexts. Create a DI scope per chunk instead, and resolve the services from it. Disposing the scope disposes every scoped `DbContext` inside it - including one hiding behind an `ISender`, or one a teammate adds next year:
+Many jobs never touch the `DbContext` directly. They call sync services or MediatR handlers that get their context from dependency injection, and a factory can't reach those contexts. Create a DI scope per chunk instead, and resolve the services from it. Disposing the scope disposes every scoped `DbContext` inside it, including one hiding behind an `ISender` or one a teammate adds next year:
 
 ```csharp
 public class SyncAllProductsJob(IServiceScopeFactory scopeFactory)
@@ -152,14 +152,14 @@ public class SyncAllProductsJob(IServiceScopeFactory scopeFactory)
 }
 ```
 
-✅ **Figure: Good example - For service graphs, a scope per chunk plays the factory's role - the scope owns every DbContext the chunk used**
+✅ **Figure: Good example - For service graphs, a scope per chunk plays the factory's role: the scope owns every DbContext the chunk used**
 
 ## How to spot it in production
 
-* Throughput decays smoothly over the run - the first hour is the fastest the job will ever be
+* Throughput decays smoothly over the run: the first hour is the fastest the job will ever be
 * Memory climbs for the life of the job
 * Saves start failing with command timeouts, even though the same save is instant when run on its own
 
-Log a short heartbeat per chunk - rows processed, elapsed time, rows per second - so the decay shows up in one log line instead of being reconstructed from timestamps after the incident.
+Log a short heartbeat per chunk (rows processed, elapsed time, rows per second) so the decay shows up in one log line instead of being reconstructed from timestamps after the incident.
 
-For reads the job never modifies, keep entities out of the tracker entirely - see [Do you use AsNoTracking for readonly queries?](/use-asnotracking-for-readonly-queries).
+For reads the job never modifies, keep entities out of the tracker entirely. See [Do you use AsNoTracking for readonly queries?](/use-asnotracking-for-readonly-queries).
