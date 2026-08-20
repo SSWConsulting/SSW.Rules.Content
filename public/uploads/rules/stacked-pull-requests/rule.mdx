@@ -1,0 +1,120 @@
+---
+type: rule
+title: Do you use stacked Pull Requests?
+uri: stacked-pull-requests
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+authors:
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Luke Cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
+related:
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/enable-pull-requests-to-ensure-code-is-reviewed/rule.mdx
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+guid: 0183755d-6e84-4bbd-8890-0e29a850530d
+seoDescription: Learn how stacked Pull Requests break one big change into a chain of small, reviewable PRs using GitHub's native stacking support.
+created: 2026-08-12T00:00:00.000Z
+createdBy: Luke Cook
+createdByEmail: LukeCook@ssw.com.au
+---
+
+Big Pull Requests don't get reviewed - they get skimmed and "LGTM"-ed, and the data backs it up. [SmartBear's study of 2,500 code reviews at Cisco](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) found reviewers' ability to catch defects drops sharply beyond ~400 lines of code, [Microsoft Research](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf) found the density of useful review comments falls as changes get bigger, and [Graphite's analysis of millions of PRs](https://graphite.com/blog/the-ideal-pr-is-50-lines-long) found 50-line changes are ~15% less likely to be reverted than 250-line ones.
+
+Stacked Pull Requests fix this by splitting one big change into a chain of small PRs, where each PR targets the branch below it instead of `main`. Reviewers see a handful of focused files per PR, and each one gets a real review.
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=3Z1xcfF2xlY" description="Video: Github's Biggest Release In Years. Stacked PRs. (5 min)" />
+
+## What are stacked Pull Requests?
+
+A stacked Pull Request is a PR that targets another PR's branch instead of `main`. The bottom PR targets `main`, the second targets the first, and so on. Each PR's diff only shows its own changes, so the reviewer of PR #3 never wades through the code from PR #1 and #2.
+
+Under the hood it's still just base branches - no magic. What changed is that GitHub now detects the chain and gives you native tooling to visualise, rebase, and merge the whole stack.
+
+<boxEmbed
+  body={<>
+    **Note:** GitHub's native stacked PR support is in [public preview](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/) (July 2026) and may change. Before that, teams needed third-party tools like [Graphite](https://graphite.dev/) or [spr](https://github.com/ejoffe/spr) to get this workflow - they are still worth a look for deep stacks, but for a 3-PR stack the native experience is enough
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## When should you stack your PRs?
+
+Stacking shines when one piece of work naturally splits into dependent steps:
+
+* **Dependent changes** - The database migration, the API endpoint, and the UI that consumes it are separate PRs, but each builds on the one below
+* **Big features** - Any change that would land as a 1000+ line PR gets skimmed, not reviewed
+* **Keeping momentum** - You start PR #2 on top of PR #1 while it waits for review, instead of blocking on the merge
+
+<boxEmbed
+  body={<>
+    **One giant PR** - `feature/reporting` touches the schema, 3 API endpoints, and 12 UI components in a single 48-file PR. The reviewer approves it in 4 minutes with one comment: "LGTM"
+  </>}
+  figurePrefix="bad"
+  figure="Large PRs get skimmed - approval without real review"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **A stack of 3** - PR #1 adds the schema migration, PR #2 (based on #1) adds the endpoints, PR #3 (based on #2) adds the UI. Each PR gets reviewed on its own small diff, and the whole stack lands on `main` together
+  </>}
+  figurePrefix="good"
+  figure="Small stacked PRs each get a real review"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** Keep the stack shallow - 3 or 4 PRs at most. Every extra level multiplies the rebasing and coordination overhead when a lower PR changes
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## How do you stack PRs on GitHub?
+
+1. **Open the first PR as normal** - e.g. `feature/add-greeting` off `main`
+2. **Branch the next change off the first branch** - create `feature/use-greeting` from `feature/add-greeting` (not from `main`), and open its PR with the **base** set to `feature/add-greeting`
+3. **Formalise the stack** - GitHub detects the relationship and shows a banner on the PR. Click **Preview stack**, then **Create stack**
+
+When review feedback changes a lower PR, the branches above it diverge. GitHub flags this on the stack and offers a **Rebase stack** button, which rebases each branch onto the one below it and force-pushes the result.
+
+<boxEmbed
+  body={<>
+    **Warning:** Rebase stack rewrites and force-pushes every branch above the change. Anyone with one of those branches checked out will need to reset their local copy - avoid sharing stack branches with teammates mid-flight
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+Once the whole stack is approved, click **Squash and merge stack** to land every PR on `main` in one action, preserving stack order in the commit history. Don't squash-merge stacked PRs one at a time outside the stack tooling - squashing creates new commit SHAs and leaves the PRs above with a broken base.
+
+<boxEmbed
+  body={<>
+    **Tip:** Try the workflow on a throwaway repository first. The stack banner, rebase button, and merge behaviour make much more sense after one 10-minute practice run
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+One of our Solution Architects, [Dan Mackay](https://www.ssw.com.au/people/daniel-mackay), went into stacked PRs sceptical and came out a fan. His blog post walks through the whole workflow end to end with screenshots of every step (see link below).
+
+***
+
+### Learn more
+
+* Dan Mackay: [GitHub Stacked Pull Requests](https://www.dandoescode.com/blog/github-stacked-pull-requests) - end-to-end walkthrough of the native GitHub workflow
+* [About stacked pull requests](https://docs.github.com/en/pull-requests/get-started/about-stacked-prs) - Official GitHub documentation
+* [Quickstart for stacked pull requests](https://docs.github.com/en/pull-requests/get-started/stacked-prs-quickstart) - GitHub's hands-on guide using the `gh stack` CLI extension
+* [Stacked pull requests are now in public preview](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/) - GitHub changelog announcement
+* [Graphite](https://graphite.dev/) - Third-party stacking tool that predates native support

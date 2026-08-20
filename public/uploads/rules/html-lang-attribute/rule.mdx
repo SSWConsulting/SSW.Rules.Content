@@ -1,0 +1,108 @@
+---
+type: rule
+title: Do you set the HTML lang attribute?
+uri: html-lang-attribute
+categories:
+  - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
+authors:
+  - title: Isaac Lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard'
+related:
+  - rule: public/uploads/rules/on-page-seo-best-practice/rule.mdx
+  - rule: public/uploads/rules/wcag-compliance/rule.mdx
+  - rule: public/uploads/rules/accessible-text/rule.mdx
+guid: 882dd133-6be1-4836-9724-184600e42a4b
+seoDescription: 'Set the HTML lang attribute so screen readers, browsers, search engines, and AI answer engines correctly identify your page''s language.'
+created: 2026-07-21T03:03:09.000Z
+createdBy: 'Isaac Lombard [SSW]'
+createdByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-07-21T04:52:15.618Z
+lastUpdatedBy: Isaac Lombard
+lastUpdatedByEmail: isaaclombard@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+Every HTML document has a language, but browsers and assistive technologies can only act on it if you declare it. When the `<html>` element has no `lang` attribute, machines are left guessing.
+
+Declaring the language is one of the cheapest accessibility and SEO wins available.
+
+<endIntro />
+
+## Set the lang attribute on the html element
+
+Always declare the primary language of the document on the root `<html>` element using a valid [BCP 47](https://www.rfc-editor.org/info/bcp47) language tag, such as `en-AU` for Australian English. This is a formal accessibility requirement: [WCAG 2.1 Success Criterion 3.1.1 (Language of Page)](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html) requires the default human language of each page to be programmatically determinable, and [MDN documents the `lang` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang) as the way to do it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```html
+    <html>
+    <head>
+    <title>SSW Rules</title>
+    </head>
+    <body>...</body>
+    </html>
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - no lang attribute, so machines must guess the language"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```html
+    <html lang="en-AU">
+    <head>
+    <title>SSW Rules</title>
+    </head>
+    <body>...</body>
+    </html>
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - the document language is declared as Australian English"
+/>
+
+## Why it matters
+
+* **Screen readers** use the language to select the correct voice and accent, so content is pronounced naturally instead of being mangled by the wrong phonetics.
+* **Browsers** use it to offer the correct translation and to apply language-specific behaviour like hyphenation and quotation marks.
+* **Search engines and AI answer engines** use it to correctly identify the page's language and serve it to the right audience.
+
+## Set lang on sections in another language
+
+When part of a page is written in a different language from the document, set `lang` on that element too. This lets assistive technology switch voices mid-page and keeps translation tools accurate, and it satisfies [WCAG 2.1 Success Criterion 3.1.2 (Language of Parts)](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html).
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```html
+    <html lang="en-AU">
+    <body>
+    <p>Our team says <span lang="fr">bonjour</span> to new clients.</p>
+    </body>
+    </html>
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - the French phrase is marked with its own lang attribute"
+/>
+
+## Use hreflang for multilingual sites
+
+If you publish the same content in multiple languages or regions, add `hreflang` annotations so search engines serve the right version to each audience. This complements the `lang` attribute rather than replacing it.
+
+```html
+<link rel="alternate" hreflang="en-au" href="https://example.com/au/" />
+<link rel="alternate" hreflang="en-us" href="https://example.com/us/" />
+```
+
+## Related rules
+
+For more on structuring accessible, discoverable pages, see:
+
+* [Do you follow on-page SEO best practice?](/on-page-seo-best-practice)
+* [Do you make your website WCAG compliant?](/wcag-compliance)
+* [Do you make your text accessible?](/accessible-text)

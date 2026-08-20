@@ -1,0 +1,110 @@
+---
+type: rule
+archivedreason: null
+title: Do you set the initial capacity of your .NET collections?
+seoDescription: List, Dictionary and Queue are backed by arrays that reallocate as
+  they grow. Pass a capacity when you know the size to avoid wasted allocations and
+  copying.
+guid: 2f1b5b8c-4a0e-45bd-b41c-d18ab9df711b
+uri: set-initial-capacity-of-collections
+created: 2026-07-27T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/linq-performance/rule.mdx
+  - rule: public/uploads/rules/when-to-use-stringbuilder/rule.mdx
+  - rule: public/uploads/rules/do-you-know-how-to-investigate-performance-problems-in-a-net-app/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-application-performance.mdx
+---
+
+`List<T>`, `Dictionary<TKey, TValue>` and `Queue<T>` all store their items in a plain array. An array cannot grow, so when the collection runs out of room the runtime allocates a bigger array, copies every existing item into it, and leaves the old one for the garbage collector.
+
+A `new List<T>()` starts with a capacity of 0, jumps to 4 on the first `Add()`, and doubles from there: 8, 16, 32, 64... Filling it with 10,000 items costs 13 array allocations and 16,380 item copies that nobody asked for.
+
+When you already know how many items are going in - and you usually do - pass the capacity to the constructor.
+
+<endIntro />
+
+## The classic case - mapping one list to another
+
+```cs
+public List<OrderDto> MapOrders(List<Order> orders)
+{
+    var result = new List<OrderDto>();
+
+    foreach (var order in orders)
+    {
+        result.Add(order.ToDto());
+    }
+
+    return result;
+}
+```
+**❌ Figure: Bad example - The list grows 0 → 4 → 8 → 16 → ..., reallocating and copying the whole array each time**
+
+```cs
+public List<OrderDto> MapOrders(List<Order> orders)
+{
+    var result = new List<OrderDto>(orders.Count);
+
+    foreach (var order in orders)
+    {
+        result.Add(order.ToDto());
+    }
+
+    return result;
+}
+```
+**✅ Figure: Good example - The exact size is already known, so one allocation does the job**
+
+`Add()` is O(1) while there is spare capacity, but the call that triggers a resize is O(n) because it copies every existing item. Pre-sizing removes those spikes entirely.
+
+## Guess when you don't know the exact size
+
+A `Count` is not always available. A rough upper bound still beats starting from zero.
+
+For the ~500 staff of a company that hires about 50 people a year, `new List<Employee>(750)` is one allocation instead of eight. Over-allocating a little wastes a bit of memory once; under-allocating repeatedly wastes CPU and produces garbage every time the array is replaced.
+
+## It's not just `List<T>`
+
+```cs
+var lookup = new Dictionary<int, Order>(orders.Count);
+var pending = new Queue<WorkItem>(expectedBatchSize);
+var seen = new HashSet<string>(candidateIds.Count);
+```
+**✅ Figure: Good example - Dictionary, Queue and HashSet all take a capacity too**
+
+`Dictionary<TKey, TValue>` rounds the capacity up to a prime number. The bucket index is `hash % bucketCount`, and a prime bucket count spreads real-world hash codes more evenly, which means fewer collisions. A dictionary lookup is O(1) until keys start colliding - with enough collisions in one bucket it degrades to O(n).
+
+When the collection already exists, `EnsureCapacity(int)` resizes it in one hit instead of letting it double its way there.
+
+## Clear() does not give the memory back
+
+```cs
+var buffer = new List<LogEntry>(100_000);
+// ... fill it ...
+buffer.Clear();   // Count is 0, Capacity is still 100,000
+```
+**😐 Figure: OK example - Clear() resets the count but keeps the array, so the memory stays allocated**
+
+That is usually the behaviour you want: if the buffer is about to be refilled, keeping the array avoids paying for it again. `Dictionary<TKey, TValue>` and `Queue<T>` work the same way.
+
+When the collection will not grow back, release the array:
+
+```cs
+buffer.Clear();
+buffer.TrimExcess();
+```
+**✅ Figure: Good example - TrimExcess() releases the unused capacity**
+
+One detail to watch: `List<T>.TrimExcess()` does nothing unless `Count` has dropped below 90% of `Capacity`. It reclaims a mostly-empty list, it does not shave off a few spare slots.
+
+## Want to go deeper?
+
+<youtubeEmbed url="https://www.youtube.com/embed/ocbPkNROnlc" description={"Video: What every .NET developer should know about collections - Anton Polkanov | SSW User Groups (52 min)"} />
+
+The talk walks through the .NET runtime source for each of these collections - how arrays sit in contiguous memory and why row-major iteration is several times faster than column-major, how `Queue<T>` recycles its array with head and tail pointers, and how `Dictionary<TKey, TValue>` chains colliding entries across its buckets and entries arrays.
+
+For the API details see [List&lt;T&gt;.Capacity](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.capacity?WT.mc_id=DT-MVP-33518) and [Dictionary&lt;TKey,TValue&gt;.EnsureCapacity](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.ensurecapacity?WT.mc_id=DT-MVP-33518).

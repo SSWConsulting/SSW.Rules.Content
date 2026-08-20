@@ -1,35 +1,32 @@
 ---
-archivedreason: null
-authors:
-- title: Eric Phan
-  url: https://www.ssw.com.au/people/eric-phan
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2016-09-20 20:03:06+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 8d36a3c3-47e0-4302-a609-a09080565847
-isArchived: false
-lastUpdated: 2020-11-23 17:44:21+00:00
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects:
-- when-you-use-@-mentions-in-a-pbi
-- do-you-know-when-you-use-mentions-in-a-pbi
-- do-you-know-when-you-use-@-mentions-in-a-pbi
-related:
-- rule: public/uploads/rules/know-that-im-interrupts/rule.mdx
-- rule: public/uploads/rules/do-you-reply-to-the-correct-zendesk-email/rule.mdx
-seoDescription: When you update a Product Backlog Item (PBI) to reflect a change verbally
-  requested by the Product Owner, use the discussions feature and mention the user
-  using "@username" instead of sending an email. This keeps track of the conversation
-  and allows everyone involved to stay updated.
+type: rule
 title: Do you use comments with @mentions to track changes in a PBI?
+uri: when-you-use-mentions-in-a-pbi
 categories:
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
   - category: categories/project-delivery/rules-to-better-scrum.mdx
-type: rule
-uri: when-you-use-mentions-in-a-pbi
+authors:
+  - title: Eric Phan
+    url: 'https://www.ssw.com.au/people/eric-phan'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+related:
+  - rule: public/uploads/rules/know-that-im-interrupts/rule.mdx
+  - rule: public/uploads/rules/do-you-reply-to-the-correct-zendesk-email/rule.mdx
+redirects:
+  - when-you-use-@-mentions-in-a-pbi
+  - do-you-know-when-you-use-mentions-in-a-pbi
+  - do-you-know-when-you-use-@-mentions-in-a-pbi
+guid: 8d36a3c3-47e0-4302-a609-a09080565847
+seoDescription: 'When you update a Product Backlog Item (PBI) to reflect a change verbally requested by the Product Owner, use the discussions feature and mention the user using "@username" instead of sending an email. This keeps track of the conversation and allows everyone involved to stay updated.'
+created: 2016-09-20T20:03:06.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-07-14T21:50:33.087Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 When the Product Owner makes a verbal change request or decision, you might consider sending an email and CCing others, but that limits visibility to only those on the thread.
@@ -44,26 +41,25 @@ A better approach is to **update the PBI** to document the change, making the co
 * History is visible to anyone looking at the PBI (with email, if you don't CC them, they wouldn't have a clue)
 * Easy to see all important information in one place, instead of digging through email
 
-### How it works
+### Real-world examples
 
-Say the Product Owner asks you to prioritize and update PBI 1234.
+Say the Product Owner asks you to prioritize and update PBI 1234. Should you send an email OR update the PBI?
 
 <emailEmbed
   from=""
-  to="&#123;&#123; TO MYSELF &#125;&#125;"
-  cc="&#123;&#123; PRODUCT OWNER &#125;&#125;, &#123;&#123; RELEVANT PEOPLE &#125;&#125;"
+  to="{{ TO MYSELF }}"
+  cc="{{ PRODUCT OWNER }}, {{ RELEVANT PEOPLE }}"
   bcc=""
   subject="SugarLearning - Use third party for quiz engine"
   shouldDisplayBody={true}
   body={<>
     ## To myself
-
-As per my conversation with the PO, we want to use a third party quiz engine instead of building our own. This is a priority.
+    
+    As per my conversation with the PO, we want to use a third party quiz engine instead of building our own. This is a priority.
   </>}
   figurePrefix="bad"
   figure="Don't use emails for tasks updates"
 />
-
 
 <boxEmbed
   style="info"
@@ -74,100 +70,67 @@ As per my conversation with the PO, we want to use a third party quiz engine ins
   figure=""
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    _"I have found and updated the PBI and moved it near the top of the backlog"_
+    *"I have found and updated the PBI and moved it near the top of the backlog"*
   </>}
   figurePrefix="bad"
   figure="Change documented in the backlog, but no @mention tag used"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    _"I have found and updated the PBI, prioritized it near the top of the backlog, and @mentioned you and relevant team members so you know when it is actioned"_
+    *"I have found and updated the PBI, prioritized it near the top of the backlog, and @mentioned you and relevant team members so you know when it is actioned"*
   </>}
   figurePrefix="good"
   figure="Change documented in the backlog and @mention tag included"
 />
 
-
-### Format PBI comments like an email
+## Format PBI comments like an email
 
 Try formatting your mentions like an email to clarify both accountability and responsiblity and identify the current status of the project. This is especially useful when [requesting a "test please"](/request-a-test-please).
 
-**Note:** You can and should use @mention on **pull requests** as well.
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure='Using "Cc" and greetings as you would in an email. Emojis are helpful too! 😊'
-  src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-formatting-mentions.png"
+<boxEmbed
+  body={<>
+    **Note:** You can and should use @mention on **pull requests** as well.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
 />
 
-
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Using &#x22;Cc&#x22; and greetings as you would in an email. Emojis are helpful too! 😊" src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-formatting-mentions.png" />
 
 <boxEmbed
-  style="greybox"
+  style="yakshaver"
   body={<>
+    ### Use YakShaver and make it even easier
     
-### Use YakShaver and make it even easier
-
-You can save time by not writing change requests manually.
-
-With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning/tagging the right people and assigning it to the correct team.
+    You can save time by not writing change requests manually.
+    
+    With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning/tagging the right people and assigning it to the correct team.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
-### How @mentions work
+## How @mentions work
 
 Below are examples of how mentions work in different platforms.
 
-#### GitHub Issues
+### GitHub Issues
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Using @ mentions in GitHub"
-  src="/uploads/rules/when-you-use-mentions-in-a-pbi/MicrosoftTeams-image.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Using @ mentions in GitHub" src="/uploads/rules/when-you-use-mentions-in-a-pbi/MicrosoftTeams-image.png" />
 
+### Azure DevOps PBIs
 
-#### Azure DevOps PBIs
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Using @mentions in Azure DevOps discussion" src="/uploads/rules/when-you-use-mentions-in-a-pbi/good-mention-pbi.jpg" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Using @mentions in Azure DevOps discussion"
-  src="/uploads/rules/when-you-use-mentions-in-a-pbi/good-mention-pbi.jpg"
-/>
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="good" figure="Emails are sent to the users who are mentioned in the discussion, so they can still chime in if any details are needed" src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-mention-email.png" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Emails are sent to the users who are mentioned in the discussion, so they can still chime in if any details are needed"
-  src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-mention-email.png"
-/>
-
-
----
+***
 
 ## Related suggestion
 

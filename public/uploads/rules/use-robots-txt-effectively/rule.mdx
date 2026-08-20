@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
+- title: Isaac Lombard
+  url: https://www.ssw.com.au/people/isaac-lombard
 created: 2015-11-10 19:49:05+00:00
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -13,8 +15,11 @@ lastUpdatedBy: Camilla Rosa Silva
 lastUpdatedByEmail: CamillaSilva@ssw.com.au
 redirects:
 - do-you-use-your-robots-txt-file-effectively
-seoDescription: Use robots.txt effectively to prevent incorrect hits and maintain
-  accurate statistics by specifying crawlable areas for search engines.
+related:
+- rule: public/uploads/rules/allow-ai-answer-engines/rule.mdx
+- rule: public/uploads/rules/sitemap-xml-best-practices/rule.mdx
+- rule: public/uploads/rules/page-indexed-by-google/rule.mdx
+seoDescription: robots.txt controls crawling, not indexing. Learn what it can and cannot do, how Allow and Disallow precedence works, and the mistakes that quietly cost traffic.
 title: Technical - Do you use Robots.txt file effectively?
 categories:
   - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
@@ -22,8 +27,107 @@ type: rule
 uri: use-robots-txt-effectively
 ---
 
-If you decide to use the redirect method when linking to external pages from your site, it's a good idea to have a [robots.txt](https://www.robotstxt.org) file in your root directory. In the "robots.txt" file, you specify that the robot (or spider as they're sometimes known) should not look in the redirects folder. This will avoid the problem that can sometimes occur, where a Google search will incorrectly display content from another site as if it was from your site.
+`robots.txt` is the first file a crawler reads on your site. Most are copied from a template years ago and never looked at again.
+
+That is a problem, because the mistakes are silent. Nothing errors, nothing appears in a build log, and you only find out when a page you care about is missing from search results.
 
 <endIntro />
 
-Also, this avoids incorrect hits on your redirects, mucking up your statistics which is one of the main reasons you would use redirects in the first place!
+## It controls crawling, not indexing
+
+This is the misconception that causes the most damage. Google is explicit that `robots.txt` "is not a mechanism for keeping a web page out of Google".
+
+`Disallow` stops a crawler fetching a URL. It does not stop that URL being indexed. If another site links to it, Google can still list it, showing the URL and the anchor text with no description.
+
+Worse, the two directives fight each other. If you `Disallow` a page **and** put `noindex` on it, the crawler never fetches the page, so it never sees the `noindex`. The block defeats the very thing meant to remove the page.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```txt
+    User-agent: *
+    Disallow: /old-campaign/
+    ```
+
+    The page carries a `noindex` tag, but Googlebot is not allowed to fetch it, so the tag is never read. The URL can stay in the index indefinitely.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Blocking a page you are trying to deindex"
+/>
+
+Instead, leave the page crawlable and let the `noindex` do its job:
+
+```html
+<meta name="robots" content="noindex">
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The page stays fetchable, Googlebot reads the `noindex` and drops it from the index. Once it is gone you can add a `Disallow` as well, if you also want to save crawl budget.
+  </>}
+  figurePrefix="good"
+  figure="Good example - noindex removes a page, robots.txt only manages crawling"
+/>
+
+To keep something genuinely private, use authentication. `robots.txt` is a public file, so listing a secret path there advertises it to anyone who reads it.
+
+## Where it goes and what it covers
+
+* It must live at the root, for example `https://www.ssw.com.au/robots.txt`
+* It applies to one origin only. The protocol, host and port must all match, so `https://www.example.com` and `https://shop.example.com` need their own files
+* It must be UTF-8 plain text
+* Paths are case-sensitive. `Disallow: /file.asp` does not cover `/FILE.asp`
+
+## Know how the rules are matched
+
+Precedence surprises people, and a rule that looks right can do nothing at all.
+
+* A crawler obeys **one** group only: the most specific `User-agent` match. A named group **replaces** the `*` group rather than adding to it, so anything you still want enforced has to be repeated inside it
+* Within that group, the **longest matching path wins**, regardless of order in the file
+* On an equal-length match, `Allow` beats `Disallow`
+* `*` matches any sequence and `$` anchors the end of a path
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```txt
+    User-agent: *
+    Disallow: /admin/
+    Disallow: /private/
+    Allow: /private/public-report.pdf
+
+    User-agent: Googlebot
+    Disallow: /admin/
+    Disallow: /private/
+    Allow: /private/public-report.pdf
+    ```
+
+    `/private/public-report.pdf` is allowed because it is a longer match than `/private/`. The Googlebot group repeats the rules, because it would otherwise ignore the `*` group entirely.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Specific rules repeated in the named group"
+/>
+
+## Point to your sitemap
+
+`robots.txt` is where crawlers look for your sitemap. The URL must be fully qualified, as Google does not guess between http and https or www and non-www.
+
+```txt
+Sitemap: https://www.ssw.com.au/sitemap.xml
+```
+
+See [Do you have a crawler-friendly sitemap.xml?](/sitemap-xml-best-practices) for what belongs in it.
+
+## Avoid these mistakes
+
+* **Shipping the staging file.** A staging site blocks everything with `Disallow: /`. Deploy that to production and you remove the entire site from search. Check this after any migration
+* **Blocking CSS and JavaScript.** Google renders pages before judging them. If blocked resources make a page harder to understand, it can be assessed as broken
+* **Blocking redirect folders is still worth doing.** If you link out through a redirects folder, disallow it so search engines do not attribute another site's content to yours, and so the hits do not pollute your statistics
+* **Treating it as security.** Anyone can read `robots.txt`, so it is a map of what you wanted hidden
+
+## Be deliberate about AI crawlers
+
+`robots.txt` is now also how you decide whether AI answer engines can reach your content, and blocking the wrong one quietly removes you from ChatGPT, Claude or Perplexity answers. That is covered in [Do you let AI answer engines crawl your site?](/allow-ai-answer-engines).
+
+Test your file with [Google Search Console's robots.txt report](https://support.google.com/webmasters/answer/6062598) rather than assuming it does what you intended. The full specification is [RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html), and Google documents its own behaviour in [Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro).

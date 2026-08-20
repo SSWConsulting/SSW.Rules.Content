@@ -1,24 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Rebecca Liu
-  url: https://www.ssw.com.au/people/rebecca-liu
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
-created: 2015-02-16 01:26:10+00:00
-guid: b55df040-7424-48e4-b19b-14d4bcdcfbc7
-redirects:
-- do-you-use-underlines-on-links
-- do-you-use-underlines-only-on-links
-seoDescription: Hover effects on text links are a great way to enhance user experience
-  and make your website more interactive.
-title: Do you underline links and show a clear hover effect?
-categories:
-  - category: categories/design/rules-to-better-websites-navigation.mdx
 type: rule
+title: Do you underline links and have a rollover (aka hover effect)?
 uri: underlined-links
+categories:
+  - category: categories/design/rules-to-better-navigation-and-links.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Rebecca Liu
+    url: 'https://www.ssw.com.au/people/rebecca-liu'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+redirects:
+  - do-you-use-underlines-on-links
+  - do-you-use-underlines-only-on-links
+guid: b55df040-7424-48e4-b19b-14d4bcdcfbc7
+seoDescription: Hover effects on text links are a great way to enhance user experience and make your website more interactive.
+created: 2015-02-16T01:26:10.000Z
+createdBy: 'Harkirat Singh [SSW]'
+createdByEmail: sandhukirat23@gmail.com
+lastUpdated: 2026-07-29T06:30:43.417Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
+archivedreason: null
 ---
 
 Ensure your links are easily distinguishable from the background and surrounding text by **always making them underlined**. Users expect underlined texts to be a link; and links to be underlined.
@@ -26,7 +30,6 @@ Ensure your links are easily distinguishable from the background and surrounding
 <endIntro />
 
 **Note:** Underlines are **not** necessary on obvious links, like **menu/breadcrumb items** or **buttons**. On the other hand, hover effect (see more below) should always exist.
-
 
 <boxEmbed
   style="greybox"
@@ -37,8 +40,6 @@ Ensure your links are easily distinguishable from the background and surrounding
   figure="The link is nice and clear"
 />
 
-
-
 <boxEmbed
   style="info"
   body={<>
@@ -48,22 +49,18 @@ Ensure your links are easily distinguishable from the background and surrounding
   figure=""
 />
 
-
 ## Never underline a text that isn't a link
 
 Use bold or another styling if you need emphasis.
 
-
 <boxEmbed
   style="greybox"
   body={<>
-    When you develop on SharePoint, you &lt;u&gt;do not&lt;/u&gt; have a full copy of web.config in your Visual Studio project.
+    When you develop on SharePoint, you \<u>do not\</u> have a full copy of web.config in your Visual Studio project.
   </>}
   figurePrefix="bad"
   figure="Never underline the text when it isn't a link"
 />
-
-
 
 <boxEmbed
   style="greybox"
@@ -74,14 +71,13 @@ Use bold or another styling if you need emphasis.
   figure="Using bold for emphasis"
 />
 
-
 ## Include a hovering effect
 
 Rollovers are also important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; color change is recommended because it preserves text readability. Hover the good example above to see this working.
 
 The basic CSS for changing the link color on hover is:
 
-``` css
+```css
 a:hover {
     color: #cc4141;
 }
@@ -91,15 +87,7 @@ a:hover {
 
 Effects like **bold**, **scaling**, **rotation**, or **background changes** can distort text, making it harder for users to read and interact with links.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Using bold on hovering may cause a text shift"
-  src="/uploads/rules/underlined-links/bad-example-bold-hover.gif"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Using bold on hovering may cause a text shift" src="/uploads/rules/underlined-links/bad-example-bold-hover.gif" />
 
 **Note:** These effects may be used for buttons or other non-text content elements.
 
@@ -109,21 +97,6 @@ The default implementation of underlines in CSS is `text-decoration: underline;`
 
 Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for example. In this case, you could even have a **dotted** line under the text. It's **not recommended** you use this method - It may create extra pixels in the interface, which can potentially cause other problems in your UI:
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="The different border size pushes the content down"
-  src="/uploads/rules/underlined-links/border-problem-1.gif"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="The different border size pushes the content down" src="/uploads/rules/underlined-links/border-problem-1.gif" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Borders going over the text area"
-  src="/uploads/rules/underlined-links/border-problem-2.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Borders going over the text area" src="/uploads/rules/underlined-links/border-problem-2.png" />
