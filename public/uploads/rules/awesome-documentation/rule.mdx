@@ -39,16 +39,14 @@ seoDescription: 'Do you make awesome documentation? Discover how to create a doc
 created: 2013-07-15T16:37:37.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-08-19T23:50:25.890Z
+lastUpdated: 2026-08-20T02:21:11.749Z
 lastUpdatedBy: SamMaher@ssw.com.au
 lastUpdatedByEmail: sammaher@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
-ADD INTRO
-
-There are a few styles of documentation:
+Good documentation helps teams understand, maintain, and evolve a solution without creating unnecessary overhead. The best documentation is useful, lightweight, easy to maintain, and evolves alongside the solution.
 
 <endIntro />
 
@@ -182,25 +180,39 @@ When you want to make your documentation visible to a wider audience, for exampl
 
 ### What good documentation looks like
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Github project without any documentation or instructions" src="/uploads/rules/awesome-documentation/documentation__level2__bad-example-gh.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Github project without any documentation or instructions" src="/uploads/rules/awesome-documentation/documentation__level2__bad-example-gh.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Azure DevOps project without any documentation or instructions" src="/uploads/rules/awesome-documentation/azuredevops-bad.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Azure DevOps project without any documentation or instructions" src="/uploads/rules/awesome-documentation/azuredevops-bad.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="Github project with README instructions on how to compile and run the project (but still has a TODO)" src="/uploads/rules/awesome-documentation/documentation__level2__good-example-1-gh.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="ok" figure="Github project with README instructions on how to compile and run the project (but still has a TODO)" src="/uploads/rules/awesome-documentation/documentation__level2__good-example-1-gh.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Azure DevOps project with README instructions on how to compile and run the project" src="/uploads/rules/awesome-documentation/azuredevops-good.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Azure DevOps project with README instructions on how to compile and run the project" src="/uploads/rules/awesome-documentation/azuredevops-good.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)" src="/uploads/rules/awesome-documentation/documentation__level2__good-example-2-gh.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)" src="/uploads/rules/awesome-documentation/documentation__level2__good-example-2-gh.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption" src="/uploads/rules/awesome-documentation/azuredevops-wiki-good.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption" src="/uploads/rules/awesome-documentation/azuredevops-wiki-good.png" />
 
-**Tip:** Use your documentation for onboarding developers
+<boxEmbed
+  body={<>
+    **Tip:** Use your documentation for onboarding developers
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="No documentation, go and sit with another developer" src="/uploads/rules/awesome-documentation/sit-dev-bad.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="No documentation, go and sit with another developer" src="/uploads/rules/awesome-documentation/sit-dev-bad.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues" src="/uploads/rules/awesome-documentation/documentation__level2__onboarding-pbi-3.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues" src="/uploads/rules/awesome-documentation/documentation__level2__onboarding-pbi-3.png" />
 
-**Tip:** Keep your documentation as minimal as possible - automate the F5 experience and deployment process (documents 2 and 3) using PowerShell scripts. Then your documents can just say "run these scripts"
+<boxEmbed
+  body={<>
+    **Tip:** Keep your documentation as minimal as possible - automate the F5 experience and deployment process (documents 2 and 3) using PowerShell scripts. Then your documents can just say "run these scripts"
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 ### The rest of the jigsaw
 
@@ -239,4 +251,11 @@ We can choose to continue paying the interest, or we can pay the debt in full by
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
-**Warning:** If you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each Sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
+<boxEmbed
+  body={<>
+    **Warning:** If you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each Sprint. If you do want to keep it, make sure you add it to your [definition of done](/definition-of-done) to keep it updated.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
