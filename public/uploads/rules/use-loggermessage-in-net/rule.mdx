@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: Tom Iwainski
   url: https://www.ssw.com.au/people/thomas-iwainski
+- title: Kosta Madorsky
+  url: https://www.ssw.com.au/people/kosta-madorsky
 created: 2024-11-05 12:52:08+00:00
 guid: 2feb782f-0cee-4022-95d9-f44b9f739b90
 seoDescription: Learn how to optimize logging in .NET applications using the LoggerMessage
@@ -58,15 +60,15 @@ public partial class InstanceLoggingExample(ILogger logger)
 ```
 
 Using `LoggerMessageAttribute` with `JsonConsole` formatter can produce structured logs.
-In our log messages we can specify custom event names as well as utelize string formatters:
+In our log messages we can specify custom event names as well as utilize string formatters:
 
 ```csharp
 [LoggerMessage(
-        EventId = 9,
-        Level = LogLevel.Trace,
-        EventName = "PropertyValueEvent")]
-        Message = "In {City} the average property value is {Value:E}")]
-public static partial void PropertyValueInAustralia(ILogger logger, string city double value);
+    EventId = 9,
+    Level = LogLevel.Trace,
+    EventName = "PropertyValueEvent",
+    Message = "In {City} the average property value is {Value:E}")]
+public static partial void PropertyValueInAustralia(ILogger logger, string city, double value);
 ```
 
 ## Constraints

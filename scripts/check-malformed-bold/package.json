@@ -1,0 +1,10 @@
+{
+  "description": "Check Markdown/MDX for malformed bold formatting (whitespace inside ** markers)",
+  "name": "check-malformed-bold",
+  "private": true,
+  "scripts": {
+    "start": "node check-malformed-bold.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
