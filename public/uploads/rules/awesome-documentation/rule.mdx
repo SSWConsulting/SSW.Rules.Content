@@ -50,7 +50,7 @@ Good documentation helps teams understand, maintain, and evolve a solution witho
 
 <endIntro />
 
-### Old School
+## Old school
 
 <imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="bad" figure="The dinosaur’s method of documentation" src="/uploads/rules/awesome-documentation/old-documentation.png" />
 
@@ -92,23 +92,23 @@ There may be exceptions – some situations benefit from this kind of documentat
   style="tips"
 />
 
-### The Right Way - The 8 Important Documents
+## The modern way 
 
 This style of documentation is used by modern teams who are Agile only.
 
-**In the repository (for developers):**
+### In the repository (for developers) - The 8 important documents
 
-**1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
+**1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution
 
-**2. \_docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience).
+**2. \_docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience)
 
 **3. \_docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
-**4. \_docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
+**4. \_docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent
 
-**5. \_docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
+**5. \_docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution
 
-* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project.
+* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project
 * Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
 * A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
 * Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
@@ -118,10 +118,10 @@ This style of documentation is used by modern teams who are Agile only.
 
 **6. \_docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
 
-* We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
-* We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
-* We chose to use Azure over on-premises to avoid procurement of costly servers.
-* Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+* We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems
+* We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular
+* We chose to use Azure over on-premises to avoid procurement of costly servers
+* **Note:** If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
 **7. \_docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
@@ -131,7 +131,7 @@ Keeping these documents in the repository means that you ensure that any documen
 
 It also means that when a developer makes a change to the code that needs an update to the documentation, the documentation changes can be checked in along with the code in the same commit.
 
-**Exposing documentation through a Wiki (for developers and other stakeholders):**
+### Exposing documentation through a Wiki (for developers and other stakeholders)
 
 Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
 
@@ -156,7 +156,7 @@ GitHub wiki options:
   style="tips"
 />
 
-**Publishing your documentation with GitHub Pages:**
+### Publishing your documentation with GitHub Pages
 
 When you want to make your documentation visible to a wider audience, for example with an open source project, consider publishing your documentation using [GitHub Pages](https://pages.github.com)
 
@@ -178,7 +178,9 @@ When you want to make your documentation visible to a wider audience, for exampl
   style="warning"
 />
 
-### What good documentation looks like
+---
+
+### Examples
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Github project without any documentation or instructions" src="/uploads/rules/awesome-documentation/documentation__level2__bad-example-gh.png" />
 
@@ -214,6 +216,8 @@ When you want to make your documentation visible to a wider audience, for exampl
   style="tips"
 />
 
+---
+
 ### The rest of the jigsaw
 
 **Update your Acceptance Criteria** - If you use a policy that requires commits to be linked to PBIs, then you understand that the PBI is now the documentation. If requirements change (based on a conversation with the Product Owner of course) then the PBI should be updated.
@@ -234,22 +238,20 @@ When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance
 
 This should be added to the [Definition of Done](/definition-of-done).
 
-### Technical Debt
-
-**What's "Technical Debt"?**
-
-![Technical Debt](/uploads/rules/awesome-documentation/Debt.jpg)
+### Technical debt
 
 During a project, when you add functionality, you have a choice:
 
-* One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty).
-* The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place.
+* A. One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty)
+* B. The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place
 
 'Technical Debt' is a metaphor to help us think about this problem. In this metaphor (often mentioned during Scrum software projects), doing things the quick and dirty way gives us a 'technical debt', which will have to be fixed later. Like financial debt, the technical debt incurs interest payments - in the form of the extra effort that we must do in future development.
 
-We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way. Learn about [the importance of paying back technical debt.](/technical-debt/)
+We can choose to continue paying the interest, or we can pay the debt in full by redoing the piece of work in a cleaner way. Learn about [the importance of paying back technical debt](/technical-debt/).
 
-The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
+![Technical Debt](/uploads/rules/awesome-documentation/Debt.jpg)
+
+**The same principle is true with documentation.** Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
 <boxEmbed
   body={<>
