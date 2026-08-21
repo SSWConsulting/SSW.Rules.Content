@@ -32,7 +32,7 @@ seoDescription: 'Convert emails into Product Backlog Items (PBIs) before startin
 created: 2023-05-11T14:51:13.000Z
 createdBy: 'Brady Stroud [SSW]'
 createdByEmail: bradystroud@ssw.com.au
-lastUpdated: 2026-08-21T07:05:14.834Z
+lastUpdated: 2026-08-21T07:09:14.643Z
 lastUpdatedBy: Ken Shi
 lastUpdatedByEmail: KenShi@ssw.com.au
 isArchived: false
@@ -76,7 +76,7 @@ You should use your judgement to decide if the email needs to become a PBI. For 
 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Should the email be turned into a PBI?" src="/uploads/rules/turn-emails-into-pbis/urgent-flowchart.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Should the email be turned into a PBI?" src="/uploads/rules/turn-emails-into-pbis/turn-email-to-pbi.png" />
 
 ## New PBI - Steps to turn an email into a PBI
 
@@ -89,7 +89,7 @@ It's important that you follow the right steps so that the PBI contains all the 
 5. Ensure that the Product Owner is @mentioned in the PBI
 6. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
 7. Prioritize the PBI. If it is important, then it should be added at the top of the Product Backlog after the current Sprint items. Otherwise, you should make your best guess as to its priority.
-8. Reply back to the original email saying: *"That's awesome feedback, we have a PBI for prioritization: &#123;&#123; URL &#125;&#125;*\
+8. Reply back to the original email saying: *"That's awesome feedback, we have a PBI for prioritization: {{ URL }}*\
    *For future issues, if you have access, please add your comments to items in that backlog 🙂"*
 
 <boxEmbed
