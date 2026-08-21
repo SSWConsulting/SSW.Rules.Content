@@ -12,7 +12,7 @@ seoDescription: 'Learn how to implement structured logging with Serilog, correla
 created: 2026-02-05T00:00:00.000Z
 createdBy: Chloe Lin
 createdByEmail: chloelin@ssw.com.au
-lastUpdated: 2026-08-21T12:44:30.812Z
+lastUpdated: 2026-08-21T12:47:51.759Z
 lastUpdatedBy: Chloe Lin
 lastUpdatedByEmail: chloelin@ssw.com.au
 ---
@@ -174,6 +174,8 @@ _logger.LogInformation("Payment processed for card ending in {LastFour}", card[^
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="The error is logged, but there is not enough context to identify what failed" src="/uploads/rules/use-structured-logging/bad-example.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="The log includes enough context to identify the failure and where it occurred" src="/uploads/rules/use-structured-logging/good-example.png" />
+
 ```csharp
 public async Task ProcessOrderAsync(Order order)
 {
@@ -224,7 +226,7 @@ ORDER BY Timestamp
 
 | Do                                          | Avoid                                   |
 | ------------------------------------------- | --------------------------------------- |
-| Use message templates with named parameters | String interpolation ($"User \{userId\}") |
+| Use message templates with named parameters | String interpolation ($"User {userId}") |
 | Include correlation IDs                     | Logs without request context            |
 | Use appropriate log levels                  | Logging everything as Information       |
 | Mask sensitive data                         | Logging passwords, tokens, PII          |
