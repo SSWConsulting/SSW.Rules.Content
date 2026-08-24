@@ -18,6 +18,10 @@ authors:
     url: 'https://www.ssw.com.au/people/drew-robson'
   - title: Chris Schultz
     url: 'https://www.ssw.com.au/people/chris-schultz'
+  - title: Steven Qiang
+    url: 'https://www.ssw.com.au/people/steven-qiang'
+  - title: Calum Simpson
+    url: 'https://www.ssw.com.au/people/calum-simpson'
 related:
   - rule: public/uploads/rules/3-steps-to-a-pbi/rule.mdx
   - rule: public/uploads/rules/when-you-use-mentions-in-a-pbi/rule.mdx
@@ -49,7 +53,7 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <boxEmbed
   body={<>
-    The best way to create PBIs and share feedback is by using [YakShaver](http://yakshaver.ai)
+    Don't retype the email by hand. Get an AI agent or [YakShaver](http://yakshaver.ai) to do it - see [How should you create the PBI?](#how-should-you-create-the-pbi) below
   </>}
   figurePrefix="none"
   figure=""
@@ -77,6 +81,71 @@ You should use your judgement to decide if the email needs to become a PBI. For 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Should the email be turned into a PBI?" src="/uploads/rules/turn-emails-into-pbis/turn-email-to-pbi.png" />
+
+## How should you create the PBI?
+
+Once you've decided the email deserves a PBI, you have 3 ways to create it. Choose based on **what you are adding beyond the email itself**.
+
+If you are adding nothing beyond the email, don't retype it by hand - and don't record a video of yourself reading it out either. Get an agent to do it.
+
+### 1. AI agent - the default for text-based asks
+
+Point an AI agent (e.g. Claude Code with the approved read-only M365 connector) at the email and let it raise the issue with the [GitHub CLI](https://cli.github.com):
+
+1. Ask your agent to turn the email into an issue, naming the sender/subject and the target repo
+2. It reads the **whole thread** - not just the one-line ask, but the quoted history, links, senders and dates
+3. It creates the issue with `gh issue create`, following the PBI format below
+4. **You review it**, fix anything it got wrong, then prioritize and assign
+
+This is the cheapest path, it keeps the full fidelity of the thread, and it scales to a backlog of emails rather than one at a time.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Read the email from Bob Northwind about the login page, and raise it as an issue on SSWConsulting/Northwind following our PBI format. Include the email header and @mention the people on the thread."
+  </>}
+  figurePrefix="good"
+  figure="A prompt that gives the agent the source, the target and the format"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Warning:** The agent still needs a human in the loop. Always read the issue it created before you assign it - AI can misread the ask, and a wrong PBI is worse than no PBI
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### 2. YakShaver - when you need to *show* something
+
+Use [YakShaver](http://yakshaver.ai) when the email alone isn't enough and you are adding real context on top of it:
+
+* You want to **add more context** to the PBI (e.g. you investigated the bug and can explain what's actually going on)
+* You want to **visually show** something - a repro, a screen recording, a UI defect
+* The email is too vague on its own, and pointing at the screen is faster than writing it out
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The email says only *"Make the same as TinaCMS"*. You record a YakShave walking through the page, showing which elements need branding and calling out the error states the email never mentioned
+  </>}
+  figurePrefix="good"
+  figure="YakShaving adds context the email never had"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The email already spells out the task clearly. You record yourself reading it aloud so YakShaver can transcribe it back into a PBI
+  </>}
+  figurePrefix="bad"
+  figure="A slower way to do what an agent does instantly"
+/>
+
+### 3. Manual - when typing is faster than explaining
+
+For a tiny, unambiguous task it can be quicker to just create the PBI yourself. Follow the steps below.
 
 ## New PBI - Steps to turn an email into a PBI
 
