@@ -90,7 +90,7 @@ If you are adding nothing beyond the email, don't retype it by hand - and don't 
 
 ### 1. AI agent - the default for text-based asks
 
-Point an AI agent (e.g. Claude Code with the approved read-only M365 connector) at the email and let it raise the issue with the [GitHub CLI](https://cli.github.com):
+Now that we have started to roll out access to the approved read-only M365 connector, you can point an AI agent (e.g. Claude Code) straight at your mailbox and let it raise the issue with the [GitHub CLI](https://cli.github.com):
 
 1. Ask your agent to turn the email into an issue, naming the sender/subject and the target repo
 2. It reads the **whole thread** - not just the one-line ask, but the quoted history, links, senders and dates
@@ -98,6 +98,8 @@ Point an AI agent (e.g. Claude Code with the approved read-only M365 connector) 
 4. **You review it**, fix anything it got wrong, then prioritize and assign
 
 This is the cheapest path, it keeps the full fidelity of the thread, and it scales to a backlog of emails rather than one at a time.
+
+If you do not have connector access yet, you can still get most of the benefit - paste the email text into your agent and ask it to create the issue.
 
 <boxEmbed
   style="greybox"
