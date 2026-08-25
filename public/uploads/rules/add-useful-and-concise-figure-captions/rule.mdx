@@ -35,7 +35,7 @@ isArchived: false
 archivedreason: null
 ---
 
-When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
+When you add images/videos/tables to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
 
@@ -47,7 +47,7 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ## Tip 1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
+Prefix your caption with "Figure: ", "Table: ", "Video: ", "Code: ", or "GIF: "
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -241,4 +241,37 @@ Using a GIF instead of a static image can be beneficial for illustrating multipl
   </>}
   figurePrefix="good"
   figure="Specificies that it is a GIF"
+/>
+
+## Tip 9: Tables - lead with the takeaway
+
+A table is data, not a picture. Readers scan the caption before they read the rows - so if the data says something, say it in the caption.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    {{ TABLE }}\
+    **Table: AI tool usage for Sprint 12**
+  </>}
+  figurePrefix="bad"
+  figure="Repeats the heading and tells the reader nothing the table doesn't already show"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    {{ TABLE }}\
+    **Table: 3 of 5 devs hit Claude limits this sprint - worth reviewing plan tiers**
+  </>}
+  figurePrefix="good"
+  figure="The reader gets the finding without reading a single row"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** If the data has no takeaway this time, describe it plainly. Never invent a finding just to fill the caption.
+  </>}
+  figurePrefix="none"
+  figure=""
 />
