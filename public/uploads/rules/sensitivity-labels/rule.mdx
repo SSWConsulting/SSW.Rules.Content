@@ -6,21 +6,50 @@ categories:
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
   - category: categories/infrastructure-and-networking/rules-to-better-office-365.mdx
 authors:
-  - title: Rob Thomlinson
-    url: 'https://www.ssw.com.au/people/rob-thomlinson'
   - title: Kiki Biancatti
     url: 'https://www.ssw.com.au/people/kaique-biancatti/'
+  - title: Rob Thomlinson
+    url: 'https://www.ssw.com.au/people/rob-thomlinson'
+related:
+  - {}
 guid: d1eb9b4b-010e-47e0-bbc5-a8f599e1e214
+seoDescription: 'Sensitivity Labels, Microsoft Purview, Microsoft 365, Data Classification, Data Governance, Information Protection, Data Loss Prevention, DLP, Retention Labels, Microsoft Compliance, Data Security, Confidential Data, PII Protection, SharePoint, Microsoft Entra, Azure Information Protection, Change Management, IT Best Practices, SSW Rules'
 created: 2026-08-25T06:58:37.350Z
 createdBy: Rob Thomlinson
 createdByEmail: RobThomlinson@ssw.com.au
-lastUpdated: 2026-08-26T23:02:14.933Z
+lastUpdated: 2026-08-27T00:22:43.370Z
 lastUpdatedBy: Rob Thomlinson
 lastUpdatedByEmail: RobThomlinson@ssw.com.au
 ---
 
-Intro
+Microsoft's sensitivity labels are a tool organizations can use to classify and protect data. Sensitivity labels are highly customizable and can fit the needs of a business allowing you to meet data governance requirements for example sensitivity labels can be used to automatically label TFN's as confidential and restrict access to the payroll team.
 
 <endIntro />
 
-Body
+## Start with Taxonomy
+
+Before touching anything you should plan it out with your team, ensuring that the scope is small and clear for an initial classification scheme something like \_Public\_, \_Internal\_, \_Confidential\_, and \_Highly Confidential\_ is a standard most organizations can use. Starting with a small label set keeps administration manageable and makes it clear for employees.
+
+## Labels for People, Not Systems
+
+A user should be able to look at a label name and immediately understand what it means and when to use it. Pair every label with a short description.
+
+## Reuse Existing Labels
+
+If your organization already has a set of sensitivity labels in use somewhere in your ecosystem, extend and reuse that label set. Duplicate label sets create confusion, inconsistent classification, and extra maintenance overhead for no real benefit.
+
+## Pilot Before You Roll Out
+
+Test your labels with a pilot group of users first. This surfaces confusing label names, missing categories, or workflow friction before it becomes a company issue. Use feedback to refine names, descriptions, and defaults before a full rollout.
+
+## Automate Labeling for High-Risk Data
+
+Manual labeling alone won't catch everything. Configuring automatic labeling rules for well-defined data types like personal data, credentials or financial records reduces the amount of human error an employee can create.
+
+## Monitor and Iterate
+
+Monitoring and iterating on sensitivity labels is important. Regular reviews of usage reports to see which labels are actually being applied, where content is going unlabeled, and where users are consistently choosing the wrong classification. Use that data to refine label names, defaults, and training over time.
+
+## Be Careful Updating Policies
+
+Once a label with specific access or sharing settings has been applied broadly especially to groups, teams, or sites avoid changing its underlying configuration. Changes can take time to propagate, and previously granted access (like external guest access) may not be automatically revoked just because you tightened the label's settings later. Plan configuration carefully up front rather than adjusting after wide adoption.
