@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use the right dictation tool for AI agents?
-uri: handy-dictation-tool
+uri: dictation-for-ai-agents
 seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
 guid: 37041b24-e07b-4422-a259-7f4eb865a38b
 created: 2026-04-23T00:00:00.000Z
@@ -14,6 +14,8 @@ related:
   - rule: public/uploads/rules/dictate-emails/rule.mdx
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/best-ai-tools/rule.mdx
+redirects:
+  - handy-dictation-tool
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -165,22 +167,14 @@ Custom words are for the places where nothing is going to fix it for you afterwa
 
 ### How custom words actually work
 
-Knowing the mechanism explains why some entries work and others quietly do nothing:
+Whisper models take your custom words as the `initial_prompt`, so they bias recognition itself. Every other model, which on Windows means Parakeet, is not biased - Handy runs a fuzzy match over the finished transcript instead. That leaves a few limits worth knowing:
 
-* **With Whisper models**, your custom words are passed as the `initial_prompt`, so they bias recognition itself
-* **With any other model, which on Windows means Parakeet**, recognition is not biased. Handy instead runs a fuzzy correction pass over the finished transcript
+* **Up to 3 words per entry** - A longer phrase will never match
+* **Punctuation breaks a match** - "Yak, shaver" will not be corrected
+* **Avoid short acronyms** - They fire on the wrong word too easily. Use distinctive coined terms instead
+* **Judge it on what lands, not what flickers** - The streaming preview can show raw text while the pasted result is corrected
 
-For that fuzzy pass, every run of 1 to 3 words in the transcript is stripped of punctuation, lowercased and concatenated, then compared against your custom word treated the same way. So "yak shaver" becomes `yakshaver`, the entry YakShaver becomes `yakshaver`, they match exactly, and the correction is applied. Scoring is Levenshtein distance normalised by length, with a heavy Soundex phonetic boost, accepted below a threshold that defaults to 0.18.
-
-That leads to some practical gotchas:
-
-* **Multi-word terms work, up to 3 words** - A 4-word phrase will never match
-* **Punctuation breaks a candidate** - "Yak, shaver" will not be corrected
-* **Casing comes from the first word** of the matched run
-* **Avoid short acronyms** - There is a length guard of 25% or at least 2 characters, so for a 3-letter entry almost any short word is length-eligible and Soundex can fire on something unintended. Add distinctive coined terms instead
-* **Judge it on what lands, not what flickers** - The live streaming preview can show the raw text while the pasted result is corrected
-
-For bulk entry there is no import button. Edit `%APPDATA%\com.pais.handy\settings_store.json`, add to the `custom_words` array, and restart Handy.
+There is no import button. For bulk entry, edit `%APPDATA%\com.pais.handy\settings_store.json`, add to the `custom_words` array, and restart Handy.
 
 ## Other great uses
 
