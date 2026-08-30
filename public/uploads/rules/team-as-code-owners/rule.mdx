@@ -27,6 +27,14 @@ A `CODEOWNERS` file maps path patterns to owners. When a pull request touches a 
 ```gitignore
 # .github/CODEOWNERS
 
+* @jane-dev @sam-dev
+```
+
+**❌ Bad example - Named individuals go stale, and duplicate the team membership you already maintain**
+
+```gitignore
+# .github/CODEOWNERS
+
 # The repo's developer team owns everything by default
 * @SSWConsulting/cleanarchitecture
 
@@ -36,23 +44,17 @@ A `CODEOWNERS` file maps path patterns to owners. When a pull request touches a 
 
 **✅ Good example - The team owns the repo, so membership stays correct as people join and leave**
 
-```gitignore
-# .github/CODEOWNERS
+## Benefits
 
-* @jane-dev @sam-dev
-```
-
-**❌ Bad example - Named individuals go stale, and duplicate the team membership you already maintain**
-
-## Benefit 1 - Visibility
+### Visibility
 
 The people who own the code are asked for the review, every time, without anyone remembering to add them. Choosing reviewers by hand means the busy or the nearby get picked, and the person who knows that area finds out after the merge.
 
-## Benefit 2 - Security
+### Security
 
 GitHub only accepts a code owner who has write access to the repo. An owner without it is ignored — silently, which is its own trap, so check for it (see below). That makes the team the boundary: approval authority follows the team, and the team follows the repo.
 
-Turn on **Require review from Code Owners** in your branch protection, and an approval from outside the team no longer satisfies the requirement. Somebody with broad access across the whole organisation cannot rubber stamp a change in a repo they have nothing to do with, because their approval does not count towards it.
+Turn on **Require review from Code Owners** in your branch protection, and an approval from outside the team no longer satisfies the requirement. Somebody with broad access across the whole organization cannot rubber stamp a change in a repo they have nothing to do with, because their approval does not count towards it.
 
 <boxEmbed
   style="info"
@@ -77,8 +79,8 @@ Without it, `CODEOWNERS` only suggests reviewers. It enforces nothing.
 
 `CODEOWNERS` fails quietly. The two failures worth knowing:
 
-* **A line with no path pattern does nothing.** Every line needs a pattern first, then the owners. A bare `@org/team` on its own line is read as a *path* with no owners, so it matches nothing and requests nobody. Write `* @org/team` instead.
-* **An owner without write access is dropped.** A person who left the team, or a team that was never given access to this repo, is ignored rather than reported.
+* **A line with no path pattern does nothing.** Every line needs a pattern first, then the owners. A bare `@org/team` on its own line is read as a *path* with no owners, so it matches nothing and requests nobody. Write `* @org/team` instead
+* **An owner without write access is dropped.** A person who left the team, or a team that was never given access to this repo, is ignored rather than reported
 
 Neither failure produces a warning in a pull request, so verify it directly:
 
