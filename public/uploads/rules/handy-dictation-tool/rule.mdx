@@ -2,7 +2,7 @@
 type: rule
 title: Do you use the right dictation tool for AI agents?
 uri: handy-dictation-tool
-seoDescription: Use Claude Code's built-in /voice inside the CLI and Handy everywhere else. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
+seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
 guid: 37041b24-e07b-4422-a259-7f4eb865a38b
 created: 2026-04-23T00:00:00.000Z
 authors:
@@ -38,40 +38,26 @@ Dictation fixes that, but most people give up on it before they find a tool that
   figure=""
 />
 
-## In Claude Code, use the built-in **/voice**
+## Use one tool everywhere: **Handy**
 
-You do not need a 3rd party tool inside the Claude Code CLI.
+What decides whether dictation sticks is not accuracy or speed. It is whether it is the same action in every context.
 
-* Run `/voice`, then hold `Space` while you speak and release. `/voice tap` gives you tap-to-start, tap-to-send
-* Transcription is free. It does not consume tokens and does not count toward the limits shown in `/usage`
-* It is tuned for coding vocabulary, and it feeds your project name and git branch in as recognition hints automatically
+The same key in an email, in VS Code, in a commit message, in Claude chat, in a Teams reply, and in your agent's prompt. You stop thinking about which app you are in and whether this one has a mic button, and it becomes automatic. That rules out per-app mic buttons, and it rules out running a different dictation tool inside your AI CLI than the one you use everywhere else. Pick one hotkey and use it for everything.
 
-There are 2 caveats worth knowing before you rely on it:
-
-* **Hold mode has a warmup** - Claude Code detects a held key by watching for key-repeat events from your terminal, so recording does not start on the first keypress. Tap mode has no warmup, and neither does a modifier combination. Rebind `voice:pushToTalk` in `~/.claude/keybindings.json` to something like `meta+k` to start recording instantly
-* **Audio is sent to Anthropic for transcription** - It is not processed on your machine, which matters when you are working under a client confidentiality agreement
-
-It also needs a Claude.ai account. It does not work with an Anthropic API key, Amazon Bedrock, Google Cloud or Microsoft Foundry, and it does not work over SSH or in Claude Code on the web, because the microphone is local. In WSL it needs WSLg plus `sudo apt install sox libsox-fmt-pulse`.
-
-**Learn more:** [Claude Code voice dictation docs](https://code.claude.com/docs/en/voice-dictation)
-
-## Everywhere else, use **Handy**
-
-`/voice` only exists in Claude Code. It is not in Claude chat, not in Codex, not in your browser, not in your IDE and not in Teams. So you need a 2nd tool regardless, and [Handy](https://handy.computer/) is the one to pick.
-
-Handy is a free, open-source (MIT) push-to-talk tool for Windows, macOS and Linux. Press a shortcut, speak, and your words are pasted into whatever text field has focus.
+[Handy](https://handy.computer/) is the tool to pick. It is a free, open-source (MIT) push-to-talk app for Windows, macOS and Linux. Press a shortcut, speak, and your words are pasted into whatever text field has focus.
 
 * `winget install cjpais.Handy` on Windows
 * `brew install --cask handy` on macOS
 
 ### ✅ Why Handy
 
-* **One shortcut everywhere** - The same key in an email, in VS Code, in a commit message, in Claude chat, in a Teams reply. You stop thinking about which app you are in and whether this one has a mic button. This is the strongest argument for it: dictation only sticks as a habit when it is the same action in every context, and a per-app dictation button can never give you that
-* **Runs entirely on device** - Nothing leaves your machine, so there is no client-confidentiality question to answer. For a consultancy handling client data, this is the point that matters most
+* **One shortcut everywhere** - It types into whatever has focus, so there is nowhere it does not work: your terminal, your IDE, your browser, Teams, a commit message
+* **Runs entirely on device** - Nothing leaves your machine. When you dictate a paragraph of context to an agent, that paragraph usually contains client details, so this is the point that matters most for a consultancy
+* **You can teach it your vocabulary** - Custom words fix the product names and people's names that every model mangles (see [below](#configure-it-properly))
 * **No warm-up** - Recording starts on the keypress
 * **Free and open source** - See the code on [GitHub](https://github.com/cjpais/Handy)
 
-That 3rd point is worth dwelling on, because it is the single most annoying failure mode of in-app dictation and almost nobody diagnoses it.
+That 4th point is worth dwelling on, because it is the single most annoying failure mode of in-app dictation and almost nobody diagnoses it.
 
 <boxEmbed
   style="greybox"
@@ -103,6 +89,29 @@ Handy is also the reason you do not need to pay a subscription for this. [Wispr 
   figurePrefix="bad"
   figure="Bad example - The OS dictation that puts people off dictation entirely"
 />
+
+## What about Claude Code's built-in **/voice**?
+
+Claude Code has dictation built in. Run `/voice`, hold `Space` while you speak, then release. Transcription is free (it does not consume tokens and does not count toward the limits shown in `/usage`), it is tuned for coding vocabulary, and `/voice tap` will even submit the prompt for you so you never touch Enter.
+
+It is good, and it costs nothing to try. It is still not worth switching tools for:
+
+* **It breaks the one-shortcut habit** - `/voice` does not exist in Claude chat, in Codex, in your browser, in your IDE or in Teams, so you need Handy for all of those anyway. Two dictation keys is worse than one, and the one you use in the other 20 apps is the one that will win
+* **You cannot teach it your vocabulary** - There is no custom words equivalent. Its recognition hints are your project name and git branch, added automatically, and there is no way to add your own terms. YakShaver, SugarLearning and your colleagues' names will keep coming out wrong, every time
+* **Audio is sent to Anthropic for transcription** - It is not processed on your machine, unlike Handy. Under a client confidentiality agreement that is a question you have to answer, and with Handy you never have to
+
+It is also unavailable in places you may well be working. It needs a Claude.ai account, so it does not work with an Anthropic API key, Amazon Bedrock, Google Cloud or Microsoft Foundry, and it does not work over SSH or in Claude Code on the web because the microphone is local. Handy has none of those limits, because it just types into whatever is in front of you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Use `/voice` when you are on a machine that does not have Handy installed and you want dictation right now. Then install Handy.
+  </>}
+  figurePrefix="ok"
+  figure="OK example - /voice as a stopgap, not as your dictation setup"
+/>
+
+**Learn more:** [Claude Code voice dictation docs](https://code.claude.com/docs/en/voice-dictation)
 
 ## On Windows, choose **Parakeet**, not Whisper
 
