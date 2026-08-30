@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you reject enum values your code does not define?
+title: Do you reject undefined enum values?
 uri: reject-undefined-enum-values
 guid: b419bb9c-0151-44b3-a47b-b1bd374007c8
 seoDescription: A successful enum parse does not mean a valid value. Check that the result is a defined member, map anything unrecognized to an explicit Unknown, and log it.
@@ -23,7 +23,7 @@ An enum is a named integer, and the runtime does not police it. `Enum.TryParse` 
 
 `Enum.TryParse` tells you the text converted to the underlying integer type. It does not tell you the result is one of your members. A cast such as `(Status)99` does not throw either. Both produce a value that matches no `switch` branch and falls through to whatever your default is.
 
-That default is where the damage happens. Enum members usually start at zero with the most ordinary state, so an unrecognized value quietly renders as the safest looking option. The screen shows a state that is wrong but plausible, and nobody questions it — until the record is picked up by a bulk action that should never have touched it.
+That default is where the damage happens. Enum members usually start at zero with the most ordinary state, so an unrecognized value quietly renders as the safest looking option. The screen shows a state that is wrong but plausible, and nobody questions it, until the record is picked up by a bulk action that should never have touched it.
 
 ```csharp
 if (Enum.TryParse<Status>(raw, out var status))
@@ -70,7 +70,7 @@ Then make the UI show `Unknown` as an obvious gap, such as a dash or a warning, 
 
 An unrecognized value usually means an upstream system added a member and did not tell you. If you map it to `Unknown` in silence, you lose the only notice you will get that the contract has moved. Log the raw value and its source, so the gap becomes a work item instead of a mystery.
 
-## Flags enums need a mask
+## `Flags` enums need a mask
 
 `Enum.IsDefined` returns `false` for a legitimate combination such as `Read | Write`, unless that exact combination happens to be a named member. For a `[Flags]` enum, test the value against a mask of every defined bit instead.
 
