@@ -142,25 +142,6 @@ Your agent already has the repo in context, so say "the yak shaver controller" a
 
 Save custom words for the places where nothing will fix it for you afterwards: a product name in a client email, a colleague's name in Teams, a commit message. Keep the list short. Every extra entry is another candidate for the fuzzy matcher to test, and another chance it fires on something you didn't mean.
 
-### How custom words actually work
-
-Worth knowing, because it explains why some entries work and others quietly do nothing:
-
-* **With Whisper models**, your custom words go in as the `initial_prompt`, so they bias recognition itself
-* **With any other model**, recognition isn't biased at all. Handy runs a fuzzy correction pass over the finished transcript instead
-
-In that pass, every run of 1 to 3 words is stripped of punctuation, lowercased and concatenated, then compared against your custom word treated the same way. So "yak shaver" becomes `yakshaver`, the entry YakShaver becomes `yakshaver`, they match exactly, and the correction lands. Scoring is Levenshtein distance normalised by length, with a heavy Soundex phonetic boost, accepted below a threshold that defaults to 0.18.
-
-Hence the gotchas:
-
-* **Multi-word terms work, up to 3 words** - A 4-word phrase never matches
-* **Punctuation breaks a candidate** - "Yak, shaver" won't be corrected
-* **Casing comes from the first word** of the matched run
-* **Avoid short acronyms** - The length guard is 25% or at least 2 characters, so for a 3-letter entry almost any short word is length-eligible and Soundex can fire on something you didn't intend. Use distinctive coined terms instead
-* **Judge what lands, not what flickers** - The live streaming preview can show raw text while the pasted result is corrected
-
-There's no import button for bulk entry. Edit `%APPDATA%\com.pais.handy\settings_store.json`, add to the `custom_words` array, and restart Handy.
-
 ## Other great uses
 
 Once the habit's there, it's not only for prompts:
