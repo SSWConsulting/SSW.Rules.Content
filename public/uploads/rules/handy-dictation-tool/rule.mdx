@@ -157,6 +157,12 @@ Custom words are the highest-value setting, because the words you dictate most o
   figure="Good example - Custom words worth adding at SSW"
 />
 
+Do not add your codebase's symbols. Loading in every class and function name is tempting, and it is unnecessary.
+
+Your agent already has the repo in context, so say "the yak shaver controller" and it will resolve that to `YakShaverController` on its own, because it can see the file. When you are dictating to an agent, the transcript does not need to be exact. It only needs to be close enough to be understood, which is a much lower bar than it sounds.
+
+Custom words are for the places where nothing is going to fix it for you afterwards: a product name in a client email, a colleague's name in Teams, a commit message. Keep the list short. Every extra entry is another candidate for the fuzzy matcher to test, and another chance for it to fire on something you did not mean.
+
 ### How custom words actually work
 
 Knowing the mechanism explains why some entries work and others quietly do nothing:
