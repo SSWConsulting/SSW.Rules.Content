@@ -1,57 +1,190 @@
 ---
 type: rule
-title: Do you use Handy for hands-free dictation?
+title: Do you use the right dictation tool for AI agents?
 uri: handy-dictation-tool
-seoDescription: Handy is a free, open-source, cross-platform dictation tool that runs Whisper locally for private, offline speech-to-text in any text field.
+seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
 guid: 37041b24-e07b-4422-a259-7f4eb865a38b
 created: 2026-04-23T00:00:00.000Z
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - rule: public/uploads/rules/dictate-emails/rule.mdx
+  - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/best-ai-tools/rule.mdx
 categories:
-  - category: categories/communication/rules-to-better-email.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+  - category: categories/communication/rules-to-better-email.mdx
 isArchived: false
 ---
 
-Typing is slow, hard on your wrists, and breaks your flow - especially when working with AI. A good prompt to ChatGPT, Claude, or Cursor is often a paragraph of detailed context, and typing that out is painful. Built-in OS dictation helps, but it's usually cloud-based, locked to one language, or only works inside specific apps.
+Typing is now the bottleneck. An AI agent will happily take 3 times the context you would ever bother typing, including your constraints, your edge cases and the things you explicitly do not want. Most people never give it that, because typing a paragraph is tedious, so they send a one-liner and get a one-liner's worth of quality back.
 
-[Handy](https://handy.computer/) is a free, open-source dictation tool that solves all of this - press a shortcut, speak, and your words are pasted into whatever text field you're in.
+Dictation fixes that, but most people give up on it before they find a tool that works. The tools you try first are bad in specific ways: they are slow, they clip the start of your sentence, and they cannot spell your own product names.
 
 <endIntro />
 
-### Why Handy?
-
-* ✅ **Free and open source** (MIT licensed) - see the code on [GitHub](https://github.com/cjpais/Handy)
-* ✅ **Runs 100% locally** - your voice never leaves your computer
-* ✅ **Cross-platform** - works on macOS (Intel + Apple Silicon), Windows, and Linux
-* ✅ **Uses Whisper and Parakeet models** - industry-leading accuracy with automatic language detection
-* ✅ **Works anywhere** - any text field, any app (email, Slack, Teams, IDEs, browsers)
-* ✅ **Push-to-talk or toggle mode** with a customizable keyboard shortcut
-
-### Perfect for AI prompts
-
-Handy shines when working with AI tools. The quality of an answer from ChatGPT, Claude, Copilot, or Cursor is directly tied to the quality of your prompt - and good prompts are **long**. Typing out a paragraph of context every time you ask for help is tedious, so most people cut corners and get worse results.
-
-Dictating is 3-5x faster than typing, which means:
-
-* You give the AI much richer context in the same amount of time
-* You're more likely to include the "why", constraints, and examples
-* You stay in flow instead of switching between thinking and typing
-
 <boxEmbed
-  style="tips"
+  style="highlight"
   body={<>
-    **Tip:** Try dictating your next Claude or ChatGPT prompt - aim for a full paragraph rather than a one-liner. The difference in output quality is dramatic.
+    **Dictate intent and constraints, not code.**
+
+    Describing what you want and what you do not want works well, because the model imposes the structure. Speaking out variable names, brackets and indentation does not.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-### Other great uses
+## Use one tool everywhere: **Handy**
+
+What decides whether dictation sticks is not accuracy or speed. It is whether it is the same action in every context.
+
+The same key in an email, in VS Code, in a commit message, in Claude chat, in a Teams reply, and in your agent's prompt. You stop thinking about which app you are in and whether this one has a mic button, and it becomes automatic. That rules out per-app mic buttons, and it rules out running a different dictation tool inside your AI CLI than the one you use everywhere else. Pick one hotkey and use it for everything.
+
+[Handy](https://handy.computer/) is the tool to pick. It is a free, open-source (MIT) push-to-talk app for Windows, macOS and Linux. Press a shortcut, speak, and your words are pasted into whatever text field has focus.
+
+* `winget install cjpais.Handy` on Windows
+* `brew install --cask handy` on macOS
+
+### ✅ Why Handy
+
+* **One shortcut everywhere** - It types into whatever has focus, so there is nowhere it does not work: your terminal, your IDE, your browser, Teams, a commit message
+* **Runs entirely on device** - Nothing leaves your machine. When you dictate a paragraph of context to an agent, that paragraph usually contains client details, so this is the point that matters most for a consultancy
+* **You can teach it your vocabulary** - Custom words fix the product names and people's names that every model mangles (see [below](#configure-it-properly))
+* **No warm-up** - Recording starts on the keypress
+* **Free and open source** - See the code on [GitHub](https://github.com/cjpais/Handy)
+
+That 4th point is worth dwelling on, because it is the single most annoying failure mode of in-app dictation and almost nobody diagnoses it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You click the microphone button in the Claude or ChatGPT app, start talking straight away (and you will), and the first few words never make it. The button needs a moment to spin up.
+
+    Your transcript starts mid-sentence, you retype it by hand, and after the 3rd time you abandon the habit.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - An in-app mic button that clips the start of every sentence"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You press the Handy hotkey and start talking immediately. Recording begins on the keypress, so the first words land.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Push-to-talk that is recording from the moment the key goes down"
+/>
+
+Handy is also the reason you do not need to pay a subscription for this. [Wispr Flow](https://wisprflow.ai/pricing) is USD $12/user/month billed annually (USD $15 monthly) and [Aqua Voice](https://aquavoice.com/pricing) is USD $8/month billed annually (USD $10 monthly). Both are cloud-based, which reintroduces the confidentiality question that Handy avoids.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Windows' built-in `Win+H` dictation. It is slow and unreliable, and it is the reason most people conclude that dictation is not for them before they ever try something good.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The OS dictation that puts people off dictation entirely"
+/>
+
+## What about Claude Code's built-in **/voice**?
+
+Claude Code has dictation built in. Run `/voice`, hold `Space` while you speak, then release. Transcription is free (it does not consume tokens and does not count toward the limits shown in `/usage`), and it is tuned for coding vocabulary.
+
+It costs nothing to try, and it is not bad. It is still not worth switching tools for:
+
+* **It breaks the one-shortcut habit** - `/voice` does not exist in Claude chat, in Codex, in your browser, in your IDE or in Teams, so you need Handy for all of those anyway. Two dictation keys is worse than one, and the one you use in the other 20 apps is the one that will win
+* **You cannot teach it your vocabulary** - There is no custom words equivalent. Its recognition hints are your project name and git branch, added automatically, and there is no way to add your own terms. YakShaver, SugarLearning and your colleagues' names will keep coming out wrong, every time
+* **Audio is sent to Anthropic for transcription** - It is not processed on your machine, unlike Handy. Under a client confidentiality agreement that is a question you have to answer, and with Handy you never have to
+
+It is also unavailable in places you may well be working. It needs a Claude.ai account, so it does not work with an Anthropic API key, Amazon Bedrock, Google Cloud or Microsoft Foundry, and it does not work over SSH or in Claude Code on the web because the microphone is local. Handy has none of those limits, because it just types into whatever is in front of you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Use `/voice` when you are on a machine that does not have Handy installed and you want dictation right now. Then install Handy.
+  </>}
+  figurePrefix="ok"
+  figure="OK example - /voice as a stopgap, not as your dictation setup"
+/>
+
+**Learn more:** [Claude Code voice dictation docs](https://code.claude.com/docs/en/voice-dictation)
+
+## On Windows, choose **Parakeet**, not Whisper
+
+This is the non-obvious bit. Handy ships both Whisper and Parakeet models, and on Windows the Whisper path is the flaky one.
+
+Handy's own README warns that Whisper models crash on certain Windows and Linux configurations. It is not only Handy: Whispering removed whisper.cpp and Moonshine from its Windows builds entirely in [v7.11.0](https://github.com/EpicenterHQ/epicenter/releases/tag/v7.11.0), after CPU-only Windows machines hit a `vulkan-1.dll was not found` crash at launch. Its Windows builds now ship Parakeet only.
+
+Parakeet runs on ONNX Runtime and needs no Vulkan and no CUDA, so it works on any machine.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Parakeet Unified EN 0.6B** (731 MB, English only)
+  </>}
+  figurePrefix="good"
+  figure="Good example - The model to pick in Handy on Windows"
+/>
+
+One known bug to be aware of: on Windows, Parakeet Unified sometimes drops the last word of a sentence in 0.9.6 ([cjpais/Handy issue #1983](https://github.com/cjpais/Handy/issues/1983), still open).
+
+Do not bother with Canary 180M Flash, which is too small, or Nemotron, which is multilingual and unnecessary for an Australian English audience.
+
+## Configure it properly
+
+These are the tweaks that move Handy from "works" to "used daily":
+
+1. **Launch at computer startup, and start hidden** - It should always be there and never in the way
+2. **Add custom words** for your product names and people's names - Settings, Advanced, Custom Words, type the word, press Enter
+3. **Turn on Auto Submit** - Settings, Advanced. Off by default. It presses the send key for you when the paste lands, so you speak your prompt and let go without touching the keyboard. Pick Ctrl+Enter or Cmd+Enter rather than Enter for anything where Enter means a newline
+
+Custom words are the highest-value setting, because the words you dictate most often are exactly the ones every model gets wrong.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Product names: **YakShaver**, **SugarLearning**, **TimePRO**
+
+    AI tool names you say constantly: **Codex**, **Cowork**, **Claude** (frequently transcribed as "clawed"), **Anthropic**
+
+    Plus the names of the people on your team, which transcription always mangles.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Custom words worth adding at SSW"
+/>
+
+Do not add your codebase's symbols. Loading in every class and function name is tempting, and it is unnecessary.
+
+Your agent already has the repo in context, so say "the yak shaver controller" and it will resolve that to `YakShaverController` on its own, because it can see the file. When you are dictating to an agent, the transcript does not need to be exact. It only needs to be close enough to be understood, which is a much lower bar than it sounds.
+
+Custom words are for the places where nothing is going to fix it for you afterwards: a product name in a client email, a colleague's name in Teams, a commit message. Keep the list short. Every extra entry is another candidate for the fuzzy matcher to test, and another chance for it to fire on something you did not mean.
+
+### How custom words actually work
+
+Knowing the mechanism explains why some entries work and others quietly do nothing:
+
+* **With Whisper models**, your custom words are passed as the `initial_prompt`, so they bias recognition itself
+* **With any other model, which on Windows means Parakeet**, recognition is not biased. Handy instead runs a fuzzy correction pass over the finished transcript
+
+For that fuzzy pass, every run of 1 to 3 words in the transcript is stripped of punctuation, lowercased and concatenated, then compared against your custom word treated the same way. So "yak shaver" becomes `yakshaver`, the entry YakShaver becomes `yakshaver`, they match exactly, and the correction is applied. Scoring is Levenshtein distance normalised by length, with a heavy Soundex phonetic boost, accepted below a threshold that defaults to 0.18.
+
+That leads to some practical gotchas:
+
+* **Multi-word terms work, up to 3 words** - A 4-word phrase will never match
+* **Punctuation breaks a candidate** - "Yak, shaver" will not be corrected
+* **Casing comes from the first word** of the matched run
+* **Avoid short acronyms** - There is a length guard of 25% or at least 2 characters, so for a 3-letter entry almost any short word is length-eligible and Soundex can fire on something unintended. Add distinctive coined terms instead
+* **Judge it on what lands, not what flickers** - The live streaming preview can show the raw text while the pasted result is corrected
+
+For bulk entry there is no import button. Edit `%APPDATA%\com.pais.handy\settings_store.json`, add to the `custom_words` array, and restart Handy.
+
+## Other great uses
+
+Once the habit exists, it is not only for prompts:
 
 * Drafting long emails or docs without RSI
 * Dictating commit messages and PR descriptions
