@@ -2,7 +2,7 @@
 type: rule
 title: Do you use the right dictation tool for AI agents?
 uri: handy-dictation-tool
-seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
+seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI, and add custom words so your product names transcribe correctly.
 guid: 37041b24-e07b-4422-a259-7f4eb865a38b
 created: 2026-04-23T00:00:00.000Z
 authors:
@@ -113,27 +113,6 @@ It's also missing in places you might well be working. It needs a Claude.ai acco
 
 **Learn more:** [Claude Code voice dictation docs](https://code.claude.com/docs/en/voice-dictation)
 
-## On Windows, choose **Parakeet**, not Whisper
-
-Handy ships both Whisper and Parakeet models, and on Windows the Whisper path is the flaky one.
-
-Handy's own README warns that Whisper models crash on certain Windows and Linux configurations. Whispering hit the same wall and pulled whisper.cpp and Moonshine out of its Windows builds in [v7.11.0](https://github.com/EpicenterHQ/epicenter/releases/tag/v7.11.0), after CPU-only Windows machines crashed at launch with `vulkan-1.dll was not found`. Its Windows builds are Parakeet only now.
-
-Parakeet runs on ONNX Runtime. No Vulkan, no CUDA, works on any machine.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Parakeet Unified EN 0.6B** (731 MB, English only)
-  </>}
-  figurePrefix="good"
-  figure="Good example - The model to pick in Handy on Windows"
-/>
-
-One bug to know about: on Windows, Parakeet Unified sometimes drops the last word of a sentence in 0.9.6 ([cjpais/Handy issue #1983](https://github.com/cjpais/Handy/issues/1983), still open).
-
-Skip Canary 180M Flash, which is too small, and skip Nemotron, which is multilingual and does nothing for an Australian English audience.
-
 ## Configure it properly
 
 3 tweaks take Handy from "works" to "used every day":
@@ -168,7 +147,7 @@ Save custom words for the places where nothing will fix it for you afterwards: a
 Worth knowing, because it explains why some entries work and others quietly do nothing:
 
 * **With Whisper models**, your custom words go in as the `initial_prompt`, so they bias recognition itself
-* **With anything else, which on Windows means Parakeet**, recognition isn't biased at all. Handy runs a fuzzy correction pass over the finished transcript instead
+* **With any other model**, recognition isn't biased at all. Handy runs a fuzzy correction pass over the finished transcript instead
 
 In that pass, every run of 1 to 3 words is stripped of punctuation, lowercased and concatenated, then compared against your custom word treated the same way. So "yak shaver" becomes `yakshaver`, the entry YakShaver becomes `yakshaver`, they match exactly, and the correction lands. Scoring is Levenshtein distance normalised by length, with a heavy Soundex phonetic boost, accepted below a threshold that defaults to 0.18.
 
