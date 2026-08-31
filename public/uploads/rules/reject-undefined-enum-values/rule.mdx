@@ -1,0 +1,88 @@
+---
+type: rule
+title: Do you reject undefined enum values?
+uri: reject-undefined-enum-values
+guid: b419bb9c-0151-44b3-a47b-b1bd374007c8
+seoDescription: A successful enum parse does not mean a valid value. Check that the result is a defined member, map anything unrecognized to an explicit Unknown, and log it.
+created: 2026-08-20T00:00:00.000Z
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+related:
+  - rule: public/uploads/rules/use-enums-instead-of-hard-coded-strings/rule.mdx
+  - rule: public/uploads/rules/use-enum-constants-instead-of-magic-numbers/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-code.mdx
+---
+
+An enum is a named integer, and the runtime does not police it. `Enum.TryParse` returns `true` for any number the underlying type can hold, so a status of `"99"` parses successfully into a value that no member defines. The parse looks safe, the code carries on, and a record ends up in a state that never existed.
+
+<endIntro />
+
+## A successful parse is not a valid value
+
+`Enum.TryParse` tells you the text converted to the underlying integer type. It does not tell you the result is one of your members. A cast such as `(Status)99` does not throw either. Both produce a value that matches no `switch` branch and falls through to whatever your default is.
+
+That default is where the damage happens. Enum members usually start at zero with the most ordinary state, so an unrecognized value quietly renders as the safest looking option. The screen shows a state that is wrong but plausible, and nobody questions it, until the record is picked up by a bulk action that should never have touched it.
+
+```csharp
+if (Enum.TryParse<Status>(raw, out var status))
+{
+    // "99" reaches here. status is (Status)99, which is not a member.
+    return Map(status); // No branch matches, so it falls through to the default
+}
+```
+
+**❌ Bad example - The parse succeeds, so an undefined value is treated as real**
+
+```csharp
+if (!Enum.TryParse<Status>(raw, out var status) || !Enum.IsDefined(status))
+{
+    logger.LogWarning("Unrecognized status {RawStatus} from {Source}", raw, source);
+    return Status.Unknown;
+}
+
+return status;
+```
+
+**✅ Good example - The value must also be a defined member, and anything else is explicit**
+
+## Give the enum an Unknown member
+
+Never let an unrecognized value land on a real state. Reserve a member for it, so reading code has something honest to branch on.
+
+```csharp
+public enum Status
+{
+    // 0 means the value was missing, or is one this build does not recognize.
+    // Reading code must treat it as "cannot act on this yet", never as a real state.
+    Unknown = 0,
+    WithClient = 1,
+    Resolved = 2,
+}
+```
+
+**✅ Good example - Zero is a deliberate sentinel instead of an accidental default**
+
+Then make the UI show `Unknown` as an obvious gap, such as a dash or a warning, rather than an empty badge. A blank badge reads as "no problem here", which is the opposite of the truth.
+
+## Log the value you rejected
+
+An unrecognized value usually means an upstream system added a member and did not tell you. If you map it to `Unknown` in silence, you lose the only notice you will get that the contract has moved. Log the raw value and its source, so the gap becomes a work item instead of a mystery.
+
+## `Flags` enums need a mask
+
+`Enum.IsDefined` returns `false` for a legitimate combination such as `Read | Write`, unless that exact combination happens to be a named member. For a `[Flags]` enum, test the value against a mask of every defined bit instead.
+
+```csharp
+private const Permissions All = Permissions.Read | Permissions.Write | Permissions.Delete;
+
+// True only when every bit set in value is a bit we defined
+var isValid = (value & ~All) == 0;
+```
+
+**✅ Good example - A mask accepts valid combinations and still rejects undefined bits**
+
+## Check every door into your system
+
+Parsing text is only one way an external value becomes an enum. JSON deserialization, query string model binding, and a column read from a database that your application does not own all do the same thing, and none of them checks that the result is defined. Put the check at the boundary, in one place per entry point, so every value is validated once as it arrives rather than trusted everywhere afterwards.
