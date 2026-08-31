@@ -1,8 +1,8 @@
 ---
 type: rule
 title: Do you use the right dictation tool for AI agents?
-uri: handy-dictation-tool
-seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI, and add custom words so your product names transcribe correctly.
+uri: dictation-for-ai-agents
+seoDescription: Dictation only sticks when it is one hotkey in every app, so use Handy everywhere including your AI CLI. On Windows pick Parakeet over Whisper, and add custom words so your product names transcribe correctly.
 guid: 37041b24-e07b-4422-a259-7f4eb865a38b
 created: 2026-04-23T00:00:00.000Z
 authors:
@@ -14,6 +14,8 @@ related:
   - rule: public/uploads/rules/dictate-emails/rule.mdx
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/best-ai-tools/rule.mdx
+redirects:
+  - handy-dictation-tool
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -141,6 +143,17 @@ Don't add your codebase's symbols. Loading in every class and function name is t
 Your agent already has the repo in context, so say "the yak shaver controller" and it'll resolve that to `YakShaverController` on its own, because it can see the file. Dictating to an agent doesn't need an exact transcript, only one that's close enough to understand.
 
 Save custom words for the places where nothing will fix it for you afterwards: a product name in a client email, a colleague's name in Teams, a commit message. Keep the list short. Every extra entry is another candidate for the fuzzy matcher to test, and another chance it fires on something you didn't mean.
+
+### How custom words actually work
+
+Whisper models take your custom words as the `initial_prompt`, so they bias recognition itself. Every other model, which on Windows means Parakeet, is not biased - Handy runs a fuzzy match over the finished transcript instead. That leaves a few limits worth knowing:
+
+* **Up to 3 words per entry** - A longer phrase will never match
+* **Punctuation breaks a match** - "Yak, shaver" will not be corrected
+* **Avoid short acronyms** - They fire on the wrong word too easily. Use distinctive coined terms instead
+* **Judge it on what lands, not what flickers** - The streaming preview can show raw text while the pasted result is corrected
+
+There is no import button. For bulk entry, edit `%APPDATA%\com.pais.handy\settings_store.json`, add to the `custom_words` array, and restart Handy.
 
 ## Other great uses
 
