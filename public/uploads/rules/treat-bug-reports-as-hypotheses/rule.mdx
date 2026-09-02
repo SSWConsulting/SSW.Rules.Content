@@ -1,0 +1,123 @@
+---
+type: rule
+title: Do you treat a bug report as a hypothesis?
+seoDescription: A bug report mixes what the reporter saw with what they think caused it. Verify each claim against logs and data before you plan the fix, or you fix the theory instead of the bug.
+guid: e0e6dc81-8621-4997-bb04-23709e1f5466
+uri: treat-bug-reports-as-hypotheses
+created: 2026-09-02T20:55:57.000Z
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
+  - rule: public/uploads/rules/ai-investigation-prompts/rule.mdx
+  - rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+  - rule: public/uploads/rules/reply-done-plus-added-a-unit-test/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A bug report arrives with a confident story: "The Orders page is slow because the new caching layer is broken." The reporter might be a customer, a teammate, or an AI agent that mined the logs overnight. Either way, the story mixes what they saw with what they think caused it.
+
+If you plan the fix from the story, you fix the theory, not the bug. AI-written issues make this worse. They read like finished diagnoses, complete with a suspected file and line number, and it is tempting to skip straight to the code.
+
+<endIntro />
+
+## Split what was seen from what was guessed
+
+Every bug report contains two kinds of statement:
+
+* **Observables** - an error message, a screenshot, a timestamp, a row count, a customer ID. These are evidence
+* **Inferences** - anything after "because", "probably", "looks like", or "must be". These are hypotheses
+
+Rewrite the report as a list and tag each line. If nothing observable survives, stop and ask the reporter for one concrete thing they saw before you write any code.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Orders page is broken after the cache change**
+
+    The Orders page has been really slow since yesterday. It is because the new Redis cache is not being hit, so every request goes to the database. The `OrderCacheService` probably has the wrong key format. Please fix the key format.
+  </>}
+  figurePrefix="bad"
+  figure="One observable (slow since yesterday) buried under three guesses and a proposed fix"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Claim | Type |
+    | --- | --- |
+    | Orders page slow since yesterday | Observable, needs a time and a measurement |
+    | Redis cache is not being hit | Inference |
+    | Every request goes to the database | Inference |
+    | `OrderCacheService` has the wrong key format | Inference |
+    | Fix the key format | Proposed fix, based on an inference |
+  </>}
+  figurePrefix="good"
+  figure="The same report as a claim table. Only one line is evidence, and it still needs numbers"
+/>
+
+## Anchor on one sentence of observable fault
+
+Before you look at code, write one sentence that states the fault in measurable terms:
+
+> Between 09:10 and 09:40 on 2 September, `GET /orders` for customer ALFKI took 12 seconds instead of the usual 200 ms.
+
+Everything you do next exists to explain that sentence. If you cannot write it, you do not have a bug yet. You have a feeling.
+
+## Verify from primary sources
+
+Check the claims against logs, metrics, the database, and a reproduction. Do not check them against the issue text or against the last person who touched the file.
+
+* **Compare a trace point across the onset** - pick one log line or metric that should look different before and after the fault started, then look at both sides
+* **Correlate the onset with deployments, not commits** - a commit merged last week might have shipped this morning. The deployment log tells you what was live when the fault began
+* **Reproduce it if you can** - a reproduction turns the anchor sentence into something you can run
+
+## Classify every claim before you plan
+
+Mark each claim from the report as one of:
+
+* **Confirmed** - you saw it in a primary source
+* **Refuted** - the primary source contradicts it
+* **Could not verify** - no evidence either way
+
+Plan the fix from the confirmed claims only. Put the table in the pull request so the reviewer can see what was checked.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Claim | Result | Evidence |
+    | --- | --- | --- |
+    | Orders page slow since yesterday | Confirmed | p95 for `GET /orders` rose from 210 ms to 11.8 s at 08:52 on 2 Sep |
+    | Redis cache is not being hit | Refuted | Cache hit ratio steady at 94% before and after the onset |
+    | Every request goes to the database | Refuted | Database calls per request are 3 before and after the onset, and database time per request is unchanged |
+    | `OrderCacheService` has the wrong key format | Could not verify | Keys match the integration tests, but nobody has inspected a live key. Irrelevant now that the cache is ruled out |
+    | Actual cause | Confirmed | Traces show 96% of request time inside calls to the carrier API, one call per order line. The calls were added in the 08:50 deployment. Reproduced on staging with a 120-line order |
+  </>}
+  figurePrefix="good"
+  figure="The proposed fix would have changed the cache key and left the real cause in place"
+/>
+
+## AI agents need the same discipline
+
+Agents write plausible bug reports fast, and they write them with the same confident tone whether the diagnosis is right or wrong. When an agent triages or investigates a bug, give it the same steps:
+
+1. Split observables from inferences
+2. Write the anchor sentence, or stop and ask
+3. Verify from logs, metrics, and data, not from the issue
+4. Report each claim as confirmed, refuted, or could not verify
+
+Put these steps in the prompt or skill the agent uses for bug triage, so it verifies before it explores the code. Once the anchor sentence and the confirmed claims exist, [Do you use AI to explore unfamiliar code?](/ai-investigation-prompts) has prompts for the code-reading part.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Once the cause is confirmed, [write a test that fails on the unfixed code](/reply-done-plus-added-a-unit-test) before you fix it. The test proves the fix changes the behaviour you observed. It does not replace the evidence for the cause, so keep both.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
