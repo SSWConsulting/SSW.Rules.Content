@@ -177,6 +177,43 @@ app.MapGet("/api/recommendations", async (
 
 **✅ Figure: Good example - Disable expensive features during incidents without redeployment**
 
+## Give every flag a lifecycle
+
+Flags outlive their features. Six months after `NewCheckout` reaches 100%, the flag is still in the code, both branches are still being tested, and nobody remembers whether it is safe to delete. A flag with no exit plan is technical debt that was created on purpose.
+
+Fix this at the moment the flag is created, not at cleanup time. Keep a registry of flags in the repo and require a lifecycle for each one:
+
+* **Temporary** flags carry an expected lifetime and a retirement PBI that is opened when the flag is created. The PBI sits in the backlog with a date, so retirement gets planned like any other work
+* **Permanent** flags (kill switches, operational toggles) carry a named owner. Somebody is accountable for whether it still earns its place
+
+```json
+{
+  "flags": [
+    {
+      "id": "NewCheckout",
+      "description": "New checkout flow for the Northwind store",
+      "lifecycle": "temporary",
+      "expectedLifetime": "2026-11-30",
+      "retirementPbi": "https://github.com/northwind/store/issues/1284"
+    },
+    {
+      "id": "MLRecommendations",
+      "description": "Kill switch for the recommendation service during high load",
+      "lifecycle": "permanent",
+      "owner": "Jane Smith"
+    }
+  ]
+}
+```
+
+**✅ Figure: Good example - Every flag states whether it is temporary or permanent, and who or what retires it**
+
+Then make the registry enforce itself:
+
+* **Fail the build** when a flag has no lifecycle, when a temporary flag has no expected lifetime or retirement PBI, or when a permanent flag has no owner. The rule is only real if a missing field stops the pipeline
+* **Report overdue flags** - a scheduled job or a dashboard that lists temporary flags past their expected lifetime, so the debt is visible in the sprint review rather than discovered by accident
+* **Delete both the flag and the old branch** when you retire it. A retired flag that leaves the fallback code in place has only done half the job
+
 ## When to use feature flags vs configuration
 
 | Use Feature Flags | Use Configuration |
@@ -188,7 +225,7 @@ app.MapGet("/api/recommendations", async (
 
 ## Best practices
 
-1. **Clean up old flags** - Remove flags once features are fully rolled out
+1. **Clean up old flags** - Give each flag a lifecycle when you create it (see above). Temporary flags get a retirement PBI, permanent flags get an owner. Remove a temporary flag and its old branch once the feature is fully rolled out
 2. **Name flags clearly** - Use descriptive names like `NewCheckoutFlow` not `Flag1`
 3. **Default to off** - New features should be disabled by default
 4. **Log flag evaluations** - Track which users see which features
