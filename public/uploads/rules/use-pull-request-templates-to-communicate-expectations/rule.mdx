@@ -65,6 +65,51 @@ When creating a PR template, think of how you can help developers create great P
 />
 
 
+## Give bug-fix PRs their own structure
+
+A bug-fix PR has a different job from a feature PR. The reviewer needs to confirm that you found the real cause and that the fix is proven, without rerunning the investigation. Four headings do that:
+
+* **The failure** - what was observed, with the error text or the numbers
+* **Cause** - the root cause and how you confirmed it, for example from logs or a reproduction
+* **Fix** - what changed and why that is the right layer to change
+* **Verification** - the test that was red before and green after, and anything tests cannot reach that you checked by hand
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Fixed the slow orders page. Added a test.
+  </>}
+  figurePrefix="bad"
+  figure="The reviewer has to rerun the whole investigation to know whether this is right"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **The failure**
+
+    `GET /orders` p95 rose from 210 ms to 11.8 s at 08:52 on 2 Sep. Customers with 50+ order lines timed out.
+
+    **Cause**
+
+    The 08:50 deployment added `ShippingEstimateService`, which calls the carrier API once per order line. Confirmed from the carrier request count in App Insights, which matches the line count per order.
+
+    **Fix**
+
+    Batch the estimate calls per order through `IShippingEstimateBatcher`. The cache layer was not the cause (hit ratio stayed at 94%), so it is unchanged.
+
+    **Verification**
+
+    * `Shipping_estimates_are_batched_per_order` - red before the fix, green after, revert check confirms
+    * Manually checked a 120-line order on staging: 380 ms
+    * Not covered by tests: the carrier's own rate limit. Monitored via the existing 429 alert
+  </>}
+  figurePrefix="good"
+  figure="The reviewer can confirm the cause, the fix, and the proof from the description alone"
+/>
+
+Put these headings in a `bugfix.md` template so they are there every time. See the GitHub docs above for how to offer more than one template.
+
 **Tip:** You can use comments in the Markdown as above. These comments will not show when the PR is created, and is only visible when editing the description.
 
 For a great Pull Request template, take a look at [@SSWConsulting/SSW.GitHub.Template](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/pull_request_template.md).
