@@ -60,6 +60,39 @@ There is almost always a better alternative to adding comments to your code. [Ch
 4. ...that are documentation comments for your next-biggest-thing-on-Nuget library
 5. ...that are real apologies (perhaps you had to add some gut-wrenching nasty code just to meeting time constraints, must be accompanied by a link to Bug/PBI)
 
+### The one-year test
+
+A good comment explains something that stays true and is not visible in the code: what a sentinel value means, an invariant, why a value must never change. A bad comment narrates the change that produced the current state, or restates what is on the line. Once the change settles, the second kind reads as stale clutter.
+
+AI coding agents are especially prone to the second kind. They tend to narrate the diff they just made, so review their comments with this test: would this comment still earn its place a year from now, with the change long forgotten?
+
+```csharp
+public enum OrderSource
+{
+    // Renamed from LegacyChannel in the March refactor. Kept the same numbers
+    // so the refactor did not need a data migration.
+    Workflow = 1,
+    Import = 2,
+    Api = 3,
+}
+```
+
+**❌ Bad example - This narrates the refactor that produced the code. Once it ships, nobody asks what the enum used to be called**
+
+```csharp
+public enum OrderSource
+{
+    // 0 is a sentinel meaning the source was never set. New code never writes it.
+    // These values are persisted in Orders.Source, so never renumber them.
+    Unknown = 0,
+    Workflow = 1,
+    Import = 2,
+    Api = 3,
+}
+```
+
+**✅ Good example - The meaning of 0 and the "never renumber" invariant are written down in the one place a maintainer will look, and both stay true next year**
+
 Last but not the least, [some parting words](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode) from [@UncleBob](https://twitter.com/unclebobmartin) himself:
 
 > "A comment is an apology for not choosing a more clear name, or a more reasonable set of parameters, or for the failure to use explanatory variables and explanatory functions. Apologies for making the code unmaintainable, apologies for not using well-known algorithms, apologies for writing 'clever' code, apologies for not having a good version control system, apologies for not having finished the job of writing the code, or for leaving vulnerabilities or flaws in the code, apologies for hand-optimizing C code in ugly ways."
