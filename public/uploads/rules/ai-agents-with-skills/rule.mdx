@@ -244,6 +244,57 @@ A good skill is specific about what the agent should do, how it should structure
   style="greybox"
 />
 
+### Say when the skill should trigger
+
+The `description` is not documentation. It is the text the agent reads to decide whether to load the skill at all. A skill that is installed but never fires is wasted, and a skill that fires on the wrong request is worse.
+
+Matching is semantic, not a string comparison, so the agent will recognise paraphrases. It still needs to know the intent. Write the description in three parts: what the skill does, examples of what a user says when they want it, and any scope guard. Then test it with a few different phrasings and adjust.
+
+<boxEmbed
+  body={<>
+    ```yaml
+    description: Helps with sprint reviews
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Too broad to separate this skill from a retro summary, a sprint report, or a planning session"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ```yaml
+    description: Prepare draft emails for a Sprint Review, Retro, and Planning meeting.
+      Trigger when the user says "prepare sprint review", "draft sprint emails",
+      "sprint review prep", or asks to get ready for the sprint ceremony.
+      Accepts an optional sprint number and auto-detects the board from the repo.
+      Drafts only - never sends email.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="What it does, example phrases, what it accepts, and what it will never do"
+  style="greybox"
+/>
+
+Some skills should only run when a person asks for them by name, for example anything that pushes, sends, bills, or deletes. Say so in the description, and in Claude Code set `disable-model-invocation: true` so the agent cannot load the skill on its own. Other tools ignore that field. OpenCode, for example, reads only its own frontmatter fields, so there the guard has to come from the agent's tool permissions rather than the skill file.
+
+### Keep SKILL.md short and load the rest on demand
+
+A skill that runs to 600 lines is loaded into the context window in full every time it triggers. Keep the `SKILL.md` to the workflow, roughly 100 lines, and put the long material beside it:
+
+```text
+skills/
+└── timesheets/
+    ├── SKILL.md              → the workflow, read every time
+    ├── references/
+    │   ├── source-gathering.md   → read only when the step needs it
+    │   └── gotchas.md
+    └── scripts/
+        └── scan_activity.py      → run, not read
+```
+
+Tell the agent in `SKILL.md` which reference to open at which step. The agent pays for the detail only when it needs it.
+
 Tips for writing skills:
 
 * **One task per skill** - a focused skill is easier to maintain and produces more consistent results than one that tries to handle multiple scenarios
