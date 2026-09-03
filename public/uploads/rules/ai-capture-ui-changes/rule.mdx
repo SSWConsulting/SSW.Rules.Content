@@ -9,13 +9,8 @@ authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 related:
-  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
-  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
-  - rule: public/uploads/rules/definition-of-done/rule.mdx
   - rule: public/uploads/rules/done-video/rule.mdx
   - rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
-  - rule: public/uploads/rules/devtools-design-changes/rule.mdx
-  - rule: public/uploads/rules/screenshots-avoid-walls-of-text/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
@@ -29,7 +24,9 @@ Loop AI into the visual review, and it can resolve obvious visual bugs before th
 
 <endIntro />
 
-<youtubeEmbed url="https://youtu.be/7yty_Abk7uw?t=4461" description="Video: AI - It's a Skill Issue | Calum Simpson (watch from 1:14:21 - 1:20:07)" />
+<youtubeEmbed url="https://youtu.be/7yty_Abk7uw?t=4461" description="Video: AI: It's a Skill Issue | Calum Simpson | SSW User Group (watch from 1:14:21 - 1:20:07, 6 min)" />
+
+**✅ Video: Good example - Watch from 1:14:21 - 1:20:07 (6 min) - Calum Simpson shows an AI agent recording its own Done video with Playwright and text-to-speech**
 
 ## How the agent checks its own work
 
@@ -109,8 +106,8 @@ There is a third option when you are developing against a pre-existing reference
 
 ## Tips
 
-* **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody
-* **Caption every image** - one line saying what the reviewer should look at. See [Do you use screenshots instead of a 'wall of text'?](/screenshots-avoid-walls-of-text)
+* **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
+* **Caption every image** - one line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
 * **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the image ends up in a PR that stays visible forever
 * **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
 
@@ -118,6 +115,7 @@ There is a third option when you are developing against a pre-existing reference
 
 * **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
 * **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
+* **[Steel](https://steel.dev/)** - open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
 * **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal. It cannot upload images, so the agent leaves the placeholders and you drag the screenshots in
 
 <boxEmbed
