@@ -23,7 +23,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI agent changes a header component, runs the build, and reports "done". The code compiles, so as far as the agent can tell, the job is finished. The reviewer opens the PR, checks out the branch, and finds the header overlapping the navigation on mobile. Now the PBI goes back, the agent fixes it, and the reviewer looks again. Every bug the agent could not see costs a full round trip.
+An AI agent changes a header component, sees the code compile, and reports "done". The reviewer checks out the branch and finds the header overlapping the nav on mobile - a full round trip for a bug the agent could not see.
 
 The fix has two halves. First, the agent looks at its own change in a real browser and fixes what it finds. Second, it keeps the screenshot or video from that check, and that evidence goes on the PR and the Done comment. Most teams do the first half by hand and the second half not at all.
 
