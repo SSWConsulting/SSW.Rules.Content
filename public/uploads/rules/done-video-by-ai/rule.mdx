@@ -1,0 +1,102 @@
+---
+type: rule
+title: Do you get your AI agent to capture its own UI changes?
+uri: ai-capture-ui-changes
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Isaac Lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard'
+  - title: Ben Neoh
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/done-video/rule.mdx
+  - rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
+  - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+guid: 82547870-a225-4398-9034-75c41500ab8b
+seoDescription: 'An AI agent that verifies its UI change in a real browser should keep the screenshot or video it took. Put that evidence on the PR and the Done comment, so bugs get fixed before a human reviews and reviewers see the change without checking out the branch.'
+created: '2026-09-03T01:04:28.000Z'
+createdBy: Ben Neoh
+createdByEmail: benneoh@ssw.com.au
+lastUpdated: '2026-09-03T04:48:30.769Z'
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+
+An AI agent changes a header component, sees the code compile, and reports "done". The reviewer checks out the branch and finds the header overlapping the nav on mobile - a full round trip for a bug the agent could not see.
+
+Loop AI into the visual review, and it can resolve obvious visual bugs before they ever reach you. To do this, the agent takes screenshots in a real browser and fixes obvious issues. Double dip by using these screenshots to document your work on the PR and in a Done comment.
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/embed/7yty_Abk7uw?start=4461" description="Video: AI: It's a Skill Issue | Calum Simpson | SSW User Group - Calum shows an AI agent recording its own Done video with Playwright and text-to-speech (watch from 1:14:21 - 1:20:07, 6 min)" />
+
+## How the agent checks its  work and creates a done video
+
+The screenshot is a by-product of a verification loop, not a separate step. Give the agent a browser and make the loop part of its definition of done for any UI change:
+
+1. **Open the page** - the agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+2. **Check against the acceptance criteria** - it walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
+3. **Fix what it finds** - the agent fixes issues before a human looks
+4. **Keep the capture** - use screenshots or videos as evidence of the work
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Screenshot the header on `main` at desktop and mobile widths, then make the change and screenshot it again at the same widths. Fix anything that looks broken before you show me the pair.
+  </>}
+  figurePrefix="good"
+  figure="A prompt that asks for the capture as part of the verification"
+/>
+
+Better still, bake the loop into `AGENTS.md`, a skill, or the PR template, so every UI change gets the same visual review without anyone asking for it. This is [back pressure](/utilize-back-pressure-for-agents) for UI work - the browser gives the agent a signal it can act on, the same way a linter or a failing test does.
+
+## What to capture
+
+Match the capture to the change:
+
+* **Before and after screenshots** for visual changes. Take both at the same viewport size so the reviewer can compare them
+* **A short video** for flows. Playwright can record the run, and 10 to 30 seconds is enough
+* **One screenshot per state** for conditional UI. These are the states a reviewer rarely clicks through by hand
+
+## Where your Done screenshots/videos goes
+
+The agent already has the capture, so put it where the review normally happens.
+
+* **The PR description** - taking advantage of screenshots or Done videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
+* **The Done comment on the PBI** - [Definition of Done](/definition-of-done) lists these kinds of screenshots or Done videos as good evidence when you close out the PBI
+
+<imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={false} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/ai-capture-ui-changes/pr-without-screenshots.png" />
+
+<imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card hover border changing from black to red" size="large" showBorder={false} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/ai-capture-ui-changes/pr-with-screenshots.png" />
+
+## Tips
+
+* **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
+* **Caption every image or video** - one line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
+* **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
+* **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
+
+<imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={false} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/ai-capture-ui-changes/ai-capture-ui-change.png" />
+
+## Tooling
+
+* **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
+* **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
+* **[Steel](https://steel.dev/)** - open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
+* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** This is the developer-side twin of [Do you walk through UI changes using DevTools and screen recordings?](/devtools-design-changes). A designer records the change they want. The agent records the change it made.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
