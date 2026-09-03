@@ -125,13 +125,12 @@ There is a third option when you are developing against a pre-existing reference
 
 * **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
 * **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
-* **[Screengrabs for Pull Requests](https://mcpmarket.com/tools/skills/screengrabs-for-pull-requests)** - a Claude Code skill that automates before/after PR screenshots with Playwright
-* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description and attach the images without leaving the terminal
+* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal. It cannot upload images, so the agent leaves the placeholders and you drag the screenshots in
 
 <boxEmbed
   style="tips"
   body={<>
-    **Tip:** This is the developer-side twin of [Do you walk through UI changes using DevTools and screen recordings?](/devtools-design-changes). A designer records the change they want. The agent records the change it made. Both replace a paragraph of description with something the other person can see.
+    **Tip:** This is the developer-side twin of [Do you walk through UI changes using DevTools and screen recordings?](/devtools-design-changes). A designer records the change they want. The agent records the change it made.
   </>}
   figurePrefix="none"
   figure=""
