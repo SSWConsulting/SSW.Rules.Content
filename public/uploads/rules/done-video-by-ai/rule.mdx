@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Do you get your AI agent to capture its own UI changes?
+title: Do you get AI to create your Done videos/screenshots?
 uri: done-video-by-ai
-redirects:
-  - ai-capture-ui-changes
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
@@ -18,18 +16,19 @@ related:
   - rule: public/uploads/rules/done-video/rule.mdx
   - rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
   - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+redirects:
+  - ai-capture-ui-changes
 guid: 82547870-a225-4398-9034-75c41500ab8b
 seoDescription: 'An AI agent that verifies its UI change in a real browser should keep the screenshot or video it took. Put that evidence on the PR and the Done comment, so bugs get fixed before a human reviews and reviewers see the change without checking out the branch.'
-created: '2026-09-03T01:04:28.000Z'
+created: 2026-09-03T01:04:28.000Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: '2026-09-03T04:48:30.769Z'
+lastUpdated: 2026-09-03T05:13:30.912Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
-
 
 An AI agent changes a header component, sees the code compile, and reports "done". The reviewer checks out the branch and finds the header overlapping the nav on mobile - a full round trip for a bug the agent could not see.
 
