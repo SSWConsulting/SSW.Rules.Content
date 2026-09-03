@@ -21,6 +21,7 @@ related:
   - rule: public/uploads/rules/playwright-page-object-model/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
+  - rule: public/uploads/rules/ai-capture-ui-changes/rule.mdx
 guid: 05f8fdb2-bbf8-4c93-a94c-eedd362cc218
 seoDescription: 'Learn the different ways to combine Playwright with AI coding agents - the Playwright MCP server, the Playwright CLI, codegen, and the official Playwright Test Agents - for UI testing, frontend development, and browser automation.'
 created: 2026-05-05T05:12:20.286Z
@@ -54,7 +55,7 @@ By giving the Agent access to Playwright, we can bridge this gap, giving your Ag
 * **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development. *See also: **[Do you do automated UI testing?](https://www.ssw.com.au/rules/automated-ui-testing)***
 * **Frontend development** - allow the Agent to open the page that it just built, click through the page, and verify that the changes made work as intended before claiming that it is done
 * **Reproduce reported bugs** - when a bug report comes in, the Agent can use Playwright to follow the reported steps, inspect the app state, and confirm the bug in a real browser. If the steps are incomplete, it can explore the flow to find a reliable reproduction path before proposing a fix
-* **Automation and scraping** - have Agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data instead of brittle screenshots that break with the slightest UI change
+* **Automation and scraping** - have Agents drive multi-step web workflows (form fills, data extraction, scheduled checks, etc.) using the existing structured accessibility data for navigation and assertions, rather than driving from screenshots that break with the slightest UI change. Screenshots still have a place as evidence for humans (see below)
 * **Easy handling of popups and modals** - it allows your Agent to see and interact with popups within the context of your own application and frontend tests
 
 ### Development - Using Playwright for AI-assisted frontend dev
@@ -69,6 +70,17 @@ This unlocks a few high-value workflows:
 * **Component playground verification** - Agent navigates Storybook, Histoire, or your component sandbox after a change and confirms each variant still renders correctly
 * **Network interception during dev** - Agent uses Playwright's route mocking to test edge cases (slow API, 500 errors, empty states) without needing to touch the real backend
 * **Check acceptance criteria** - For PBIs with UI changes, the Agent can use Playwright to verify the user flow against the Acceptance Criteria before merging. *See also: **[Do you write Acceptance Tests to verify Acceptance Criteria?](https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)***
+
+### Capture the evidence, not just the check
+
+The verification loop above produces something worth keeping. When the Agent has confirmed the change in the browser, get it to take a screenshot or record a short video from that same session, then put the capture on the PR description and the Done comment. The reviewer sees the result without checking out the branch, and the Agent has already fixed whatever it found along the way.
+
+Use the two outputs for different jobs:
+
+* **Accessibility tree** - for the Agent's own assertions. It is deterministic and does not change when a font or animation does
+* **Screenshot or video** - for the human reading the PR. It shows the result at a glance
+
+See [Do you get your AI agent to capture its own UI changes?](/ai-capture-ui-changes) for what to capture and where to put it.
 
 ## How can you pair Playwright with an AI Agent?
 

@@ -28,6 +28,7 @@ related:
   - rule: public/uploads/rules/which-emojis-to-use-in-scrum/rule.mdx
   - rule: public/uploads/rules/reply-done/rule.mdx
   - rule: public/uploads/rules/refer-to-email-subject/rule.mdx
+  - rule: public/uploads/rules/ai-capture-ui-changes/rule.mdx
 redirects:
   - do-you-know-how-to-write-a-good-pull-request
 guid: d35b49bf-bdd1-48eb-bc1d-944cdc5be4dc
@@ -131,6 +132,15 @@ Examples of sentences to have in a good PR description:
 > "This PR is to **&#123;&#123; ACHIEVE THE FEATURE / FIX THE BUG / OTHER GOAL(S) &#125;&#125;**" (anything that was not possible to explain in the title)
 
 > "See **&#123;&#123; SCREENSHOT / DONE VIDEO &#125;&#125;** for more details" (to help the reviewer to understand the changes. E.g. styling changes)
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** If an AI agent made the UI change, it can take the screenshot or record the video itself while it verifies the change in a browser. See [Do you get your AI agent to capture its own UI changes?](/ai-capture-ui-changes).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 If you noticed that a change needed to be made and had no specific task/issue, use:
 
@@ -237,7 +247,7 @@ If the PR is closing an email task after merged, remember to refer back to it:
 ##### **Q:** Are the changes big and complex?
 
 **A:** You should include a demonstration of the change.
-E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
+E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes. If an AI agent built the change, [get it to capture the evidence](/ai-capture-ui-changes) as part of its own verification.
 
 ***
 

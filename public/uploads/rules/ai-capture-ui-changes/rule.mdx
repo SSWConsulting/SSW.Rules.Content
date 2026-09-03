@@ -1,0 +1,145 @@
+---
+type: rule
+title: Do you get your AI agent to capture its own UI changes?
+seoDescription: An AI agent that verifies its UI change in a real browser should keep the screenshot or video it took. Put that evidence on the PR and the Done comment, so bugs get fixed before a human reviews and reviewers see the change without checking out the branch.
+guid: 82547870-a225-4398-9034-75c41500ab8b
+uri: ai-capture-ui-changes
+created: 2026-09-03T01:04:28.000Z
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/definition-of-done/rule.mdx
+  - rule: public/uploads/rules/done-video/rule.mdx
+  - rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
+  - rule: public/uploads/rules/devtools-design-changes/rule.mdx
+  - rule: public/uploads/rules/screenshots-avoid-walls-of-text/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI agent changes a header component, runs the build, and reports "done". The code compiles, so as far as the agent can tell, the job is finished. The reviewer opens the PR, checks out the branch, and finds the header overlapping the navigation on mobile. Now the PBI goes back, the agent fixes it, and the reviewer looks again. Every bug the agent could not see costs a full round trip.
+
+The fix has two halves. First, the agent looks at its own change in a real browser and fixes what it finds. Second, it keeps the screenshot or video from that check, and that evidence goes on the PR and the Done comment. Most teams do the first half by hand and the second half not at all.
+
+<endIntro />
+
+<boxEmbed
+  style="todo"
+  body={<>
+    **TODO:** Record an SSW video for this rule and embed it here. The closest existing video is [3 Ways to Supercharge Playwright with AI Agents | Hark Singh | SSW Rules (18 min)](https://www.youtube.com/watch?v=EUhQ1J-69KY), which covers the browser side but not the evidence side.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Verify first, evidence second
+
+The screenshot is a by-product of a verification loop, not a separate step. Give the agent a browser and make the loop part of its definition of done for any UI change:
+
+1. **Open the page** - the agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+2. **Check against the acceptance criteria** - it walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
+3. **Fix what it finds** - a layout that breaks at a narrow width, a button that does nothing, a state that never loads. The agent fixes these before a human looks
+4. **Keep the capture** - the screenshot or short video from the last pass becomes the evidence
+
+Step 3 is where the time saving comes from. Step 4 is what most teams forget.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Once the header change looks right in the browser at desktop and mobile widths, take a screenshot of each and save them to `.pr-assets/header-after-desktop.png` and `.pr-assets/header-after-mobile.png`. Take the same two screenshots on `main` first so we have a before pair.
+  </>}
+  figurePrefix="good"
+  figure="A prompt that asks for the capture as part of the verification, not as an afterthought"
+/>
+
+## Keep the right artefact
+
+Match the capture to the change:
+
+* **Before and after screenshots** for visual changes - spacing, colours, layout, new components. Take both at the same viewport size so the reviewer can compare them
+* **A short video** for flows - a form submission, a wizard, a drag and drop. Playwright can record the run, and 10 to 30 seconds is enough
+* **One screenshot per state** for conditional UI - empty state, loading state, error state. These are the states a reviewer rarely clicks through by hand
+
+## Put the evidence where reviewers look
+
+The capture is only useful if it lands where the next person will see it:
+
+* **The PR description** - this fills the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request). Put it in the body, not in a comment that scrolls away
+* **The Done comment on the PBI** - [Definition of Done](/definition-of-done) already lists screenshots and Done videos as evidence. Reuse the same image instead of taking a second one by hand
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **PR title:** ✨ Header - Move the account menu into the top bar
+
+    **PR description:**
+    Relates to #4521
+
+    Updated the header so the account menu sits in the top bar.
+  </>}
+  figurePrefix="bad"
+  figure="The reviewer has to check out the branch and run the app to see what changed"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **PR title:** ✨ Header - Move the account menu into the top bar
+
+    **PR description:**
+    Relates to #4521
+
+    Updated the header so the account menu sits in the top bar. Verified in Chromium at 1440 px and 390 px.
+
+    | Before | After |
+    | --- | --- |
+    | `header-before-desktop.png` | `header-after-desktop.png` |
+    | `header-before-mobile.png` | `header-after-mobile.png` |
+
+    Mobile: the menu collapses into the hamburger. Found and fixed an overlap with the search icon at 390 px during this check.
+  </>}
+  figurePrefix="good"
+  figure="A before/after pair the agent captured during its own verification, plus one line on what it found and fixed"
+/>
+
+The last sentence in the good example is the point of the rule. The agent found the overlap, fixed it, and told the reviewer. The reviewer sees a finished change instead of a bug report.
+
+## Assert on the accessibility tree, show the screenshot
+
+The agent should not check its work by comparing pixels. Screenshots change with fonts, animations, and viewport sizes, so a pixel comparison breaks for reasons that have nothing to do with the change. The accessibility tree is stable, so use it for the checks:
+
+* **Assertions** - the agent confirms that a button exists, a heading has the right text, or a dialog is open by reading the accessibility tree
+* **Evidence** - the agent takes a screenshot so a human can see the result at a glance
+
+Both come from the same browser session. The tree tells the agent whether the change worked. The screenshot tells the reviewer.
+
+## Tips
+
+* **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody
+* **Name the files** - `header-after-mobile.png` is easy to match to its caption. `screenshot-1.png` is not
+* **Caption every image** - one line saying what the reviewer should look at. See [Do you use screenshots instead of a 'wall of text'?](/screenshots-avoid-walls-of-text)
+* **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the image ends up in a PR that stays visible forever
+* **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
+* **Put the steps in the agent's instructions** - add the verify-then-capture loop to your `AGENTS.md`, a skill, or the PR template so the agent does it every time
+
+## Tooling
+
+* **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
+* **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
+* **[Screengrabs for Pull Requests](https://mcpmarket.com/tools/skills/screengrabs-for-pull-requests)** - a Claude Code skill that automates before/after PR screenshots with Playwright
+* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description and attach the images without leaving the terminal
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** This is the developer-side twin of [Do you walk through UI changes using DevTools and screen recordings?](/devtools-design-changes). A designer records the change they want. The agent records the change it made. Both replace a paragraph of description with something the other person can see.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
