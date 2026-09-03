@@ -26,11 +26,11 @@ The [`Global.asax`](https://learn.microsoft.com/en-us/previous-versions/aspnet/1
 
 The methods given below are automatically linked to event handlers on the [HttpApplication](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) class at runtime.
 
-The `Application_Start()` or `Application_OnStart()` method is called once upon the first request being received by the server, and is typically used to initialize static values. The logic for this starting method should be included at the beginning of [`Program.cs`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) in the ASP.NET Core project.
+The `Application_Start()` or `Application_OnStart()` method is called once upon the first request being received by the server, and is typically used to initialize static values. The logic for this starting method should be included at the beginning of [`Program.cs`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) in the ASP.NET Core project.
 
-The `Application_Init()` method is called after all event handler modules have been added. Its logic can be migrated by registering the logic with the [WebApplication.Lifetime](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication.lifetime?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) property [ApplicationStarted](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstarted?view=dotnet-plat-ext-7.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstarted&WT.mc_id=DT-MVP-33518).
+The `Application_Init()` method is called after all event handler modules have been added. Its logic can be migrated by registering the logic with the [WebApplication.Lifetime](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication.lifetime?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) property [ApplicationStarted](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstarted?view=net-10.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstarted&WT.mc_id=DT-MVP-33518).
 
-The `Application_End()` and `Application_Disposed()` methods are fired upon application termination. They can be migrated by registering the logic with the [WebApplication.Lifetime](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication.lifetime?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) properties [ApplicationStopping](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstopping?view=dotnet-plat-ext-7.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstopping&WT.mc_id=DT-MVP-33518) and [ApplicationStopped](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstopped?view=dotnet-plat-ext-7.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstopped&WT.mc_id=DT-MVP-33518).
+The `Application_End()` and `Application_Disposed()` methods are fired upon application termination. They can be migrated by registering the logic with the [WebApplication.Lifetime](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication.lifetime?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) properties [ApplicationStopping](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstopping?view=net-10.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstopping&WT.mc_id=DT-MVP-33518) and [ApplicationStopped](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime.applicationstopped?view=net-10.0#microsoft-extensions-hosting-ihostapplicationlifetime-applicationstopped&WT.mc_id=DT-MVP-33518).
 
 Therefore, the following `Global.asax.cs` snippet would migrate as per the figures below.
 
@@ -45,12 +45,12 @@ public class MvcApplication : HttpApplication
         Console.WriteLine("Init");
     }
 
-    protected void Application_Stopping() {
-        Console.WriteLine("Stopping");
+    protected void Application_End() {
+        Console.WriteLine("End");
     }
 
-    protected void Application_Stopped() {
-        Console.WriteLine("Stopped");
+    protected void Application_Disposed() {
+        Console.WriteLine("Disposed");
     }
 }
 ```
@@ -63,8 +63,8 @@ var builder = WebApplication.CreateBuilder(args);
 // ...
 var app = builder.Build();
 app.Lifetime.ApplicationStarted.Register(() => Console.WriteLine("Init"));
-app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("Stopping"));
-app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Stopped"));
+app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("End"));
+app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Disposed"));
 ```
 **✅ Figure: The above code migrated to ASP.NET Core.**  
 
@@ -76,7 +76,7 @@ The `Session_Start()` is called when a new user session is detected. The `Sessio
 
 ## Request Lifecycle Methods
 
-The events raised during a request are [documented in the HttpApplication API](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1#remarks&WT.mc_id=DT-MVP-33518). The logic to be executed before and after a request should be implemented using [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518).
+The events raised during a request are [documented in the HttpApplication API](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1#remarks&WT.mc_id=DT-MVP-33518). The logic to be executed before and after a request should be implemented using [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
 
 ```cs
 public class MvcApplication : HttpApplication
@@ -107,7 +107,7 @@ app.Use(async (context, next) =>
 
 ## Error Handling
 
-Global error handling logic in [`Application_Error()`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication.error?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) method should be migrated to use middleware registered with the [`UseExceptionHandler()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.exceptionhandlerextensions.useexceptionhandler?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) method.
+Global error handling logic in [`Application_Error()`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication.error?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) method should be migrated to use middleware registered with the [`UseExceptionHandler()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.exceptionhandlerextensions.useexceptionhandler?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) method.
 
 ```cs
 public class MvcApplication : HttpApplication
@@ -139,4 +139,4 @@ app.UseExceptionHandler(exceptionHandlerApp =>
 ```
 **✅ Figure: Using exception handling middleware.**  
 
-See [here](https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) for more options for handling errors in ASP.NET Core.
+See [here](https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) for more options for handling errors in ASP.NET Core.
