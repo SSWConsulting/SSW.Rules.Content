@@ -2,6 +2,8 @@
 type: rule
 title: Do you get your AI agent to capture its own UI changes?
 uri: done-video-by-ai
+redirects:
+  - ai-capture-ui-changes
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
@@ -72,9 +74,9 @@ The agent already has the capture, so put it where the review normally happens.
 * **The PR description** - taking advantage of screenshots or Done videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
 * **The Done comment on the PBI** - [Definition of Done](/definition-of-done) lists these kinds of screenshots or Done videos as good evidence when you close out the PBI
 
-<imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={false} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/ai-capture-ui-changes/pr-without-screenshots.png" />
+<imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={false} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/done-video-by-ai/pr-no-evidence.png" />
 
-<imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card hover border changing from black to red" size="large" showBorder={false} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/ai-capture-ui-changes/pr-with-screenshots.png" />
+<imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card title and hover border changing from black to red" size="large" showBorder={false} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/done-video-by-ai/pr-before-after-evidence.png" />
 
 ## Tips
 
@@ -83,12 +85,13 @@ The agent already has the capture, so put it where the review normally happens.
 * **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
 * **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
 
-<imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={false} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/ai-capture-ui-changes/ai-capture-ui-change.png" />
+<imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={false} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/done-video-by-ai/ai-capture-ui-change.png" />
 
 ## Tooling
 
 * **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
 * **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
+* **[Puppeteer](https://pptr.dev/)** - drives Chrome or Firefox from Node and takes screenshots or records the session. A good fit when the project already uses it, or when you do not want a second browser stack
 * **[Steel](https://steel.dev/)** - open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
 * **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal.
 
