@@ -21,7 +21,7 @@ seoDescription: 'An AI agent that verifies its UI change in a real browser shoul
 created: 2026-09-03T01:04:28.000Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-09-03T04:45:27.800Z
+lastUpdated: 2026-09-03T04:48:30.769Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
@@ -75,12 +75,6 @@ The agent already has the capture, so put it where the review normally happens.
 
 <imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card hover border changing from black to red" size="large" showBorder={false} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/ai-capture-ui-changes/pr-with-screenshots.png" />
 
-## Use both the accessibility tree and the screenshot
-
-There are two methods available for the agent to verify with. The **accessibility tree** gives the agent the page as structured data - what exists and what state it is in. It says nothing about colour, spacing, or a modal covering half the page, so the agent needs to **look at a screenshot** as well.
-
-There is a third option when you are developing against a pre-existing reference, like a Figma mockup or a page that should not have changed - **pixel comparison** against a committed baseline image. Tools like [Playwright visual comparisons](https://playwright.dev/docs/test-snapshots) can flag any difference, so mask the parts that move and set a threshold, or the check fails on a font or an animation.
-
 ## Tips
 
 * **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
@@ -95,7 +89,7 @@ There is a third option when you are developing against a pre-existing reference
 * **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
 * **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
 * **[Steel](https://steel.dev/)** - open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
-* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal. It cannot upload images, so the agent leaves the placeholders and you drag the screenshots in
+* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal.
 
 <boxEmbed
   style="tips"
