@@ -58,7 +58,7 @@ Match the capture to the change:
 * **A short video** for flows. Playwright can record the run, and 10 to 30 seconds is enough
 * **One screenshot per state** for conditional UI. These are the states a reviewer rarely clicks through by hand
 
-## Where the screenshots go
+## Where the evidence goes
 
 The agent already has the capture, so put it where the review normally happens.
 
@@ -109,8 +109,8 @@ There is a third option when you are developing against a pre-existing reference
 ## Tips
 
 * **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
-* **Caption every image** - one line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
-* **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the image ends up in a PR that stays visible forever
+* **Caption every image or video** - one line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
+* **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
 * **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
 
 ## Tooling
