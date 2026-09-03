@@ -30,4 +30,38 @@ Tip: you can then reply to the bug report with "Done + Added a unit test so it 
 
 <endIntro />
 
+## See the test fail first
+
+A test that is written after the fix, and only ever seen passing, proves very little. It might pass on the broken code too. Write the test before you touch the fix, run it, and watch it go red. If it goes green on the unfixed code, the test is not checking the bug.
+
+```csharp
+// Written after the fix. Never seen red.
+[Fact]
+public void Discount_is_applied_to_bulk_orders()
+{
+    var order = new Order(quantity: 100, unitPrice: 10m);
+    Assert.Equal(900m, order.Total);
+}
+```
+
+**❌ Bad example - Nobody knows whether this test would have caught the bug, because it was never run against the broken code**
+
+```text
+1. Write Discount_is_applied_to_bulk_orders
+2. Run it on the current code   -> FAIL (Total was 1000m)
+3. Fix Order.Total
+4. Run it again                 -> PASS
+```
+
+**✅ Good example - The test was red before the fix and green after, so it is tied to the bug**
+
+## Run a revert check before you open the PR
+
+Once the fix is in, temporarily revert it and run the new test one more time. It should fail again, and it should fail at the same assertion as the first red run. A compile error or a broken fixture does not count, because it says nothing about whether the test can see the bug. This catches the two ways a bug-fix test quietly stops working:
+
+* The test passed for a different reason, such as a fixture that already set up the "fixed" state
+* The fix was refactored while you worked, and the test no longer exercises the changed path
+
+Then restore the fix and note the result in the PR description, for example: "New test proven red-first, revert check confirms it fails without the fix". A reviewer can trust that sentence far more than a green tick.
+
 See [how to send a good 'Done' email](/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug).
