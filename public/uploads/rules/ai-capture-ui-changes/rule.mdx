@@ -44,13 +44,13 @@ The screenshot is a by-product of a verification loop, not a separate step. Give
 
 1. **Open the page** - the agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 2. **Check against the acceptance criteria** - it walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
-3. **Fix what it finds** - the agent fixes these before a human looks
+3. **Fix what it finds** - the agent fixes issues before a human looks
 4. **Keep the capture** - use screenshots or videos as evidence of the work
 
 <boxEmbed
   style="greybox"
   body={<>
-    Once the header change looks right in the browser at desktop and mobile widths, take a screenshot of each and save them to `.pr-assets/header-after-desktop.png` and `.pr-assets/header-after-mobile.png`. Take the same two screenshots on `main` first so we have a before pair.
+    Screenshot the header on `main` at desktop and mobile widths, then make the change and screenshot it again at the same widths. Fix anything that looks broken before you show me the pair.
   </>}
   figurePrefix="good"
   figure="A prompt that asks for the capture as part of the verification, not as an afterthought"
