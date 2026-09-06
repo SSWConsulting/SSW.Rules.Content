@@ -42,15 +42,15 @@ Loop AI into the visual review, and it can resolve obvious visual bugs before th
 
 The screenshot is a by-product of a verification loop, not a separate step. Give the agent a browser and make the loop part of its definition of done for any UI change:
 
-1. **Open the page** - the agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-2. **Check against the acceptance criteria** - it walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
-3. **Fix what it finds** - the agent fixes issues before a human looks
-4. **Keep the capture** - use screenshots or videos as evidence of the work
+1. **Open the page** - The agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+2. **Check against the acceptance criteria** - It walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
+3. **Fix what it finds** - The agent fixes issues before a human looks
+4. **Keep the capture** - Use screenshots or videos as evidence of the work
 
 <boxEmbed
   style="greybox"
   body={<>
-    Screenshot the header on `main` at desktop and mobile widths, then make the change and screenshot it again at the same widths. Fix anything that looks broken before you show me the pair.
+    **Prompt:** Screenshot the header on `main` at desktop and mobile widths, then make the change and screenshot it again at the same widths. Fix anything that looks broken before you show me the pair.
   </>}
   figurePrefix="good"
   figure="A prompt that asks for the capture as part of the verification"
@@ -70,29 +70,29 @@ Match the capture to the change:
 
 The agent already has the capture, so put it where the review normally happens.
 
-* **The PR description** - taking advantage of screenshots or Done videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
+* **The PR description** - Taking advantage of screenshots or Done videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
 * **The Done comment on the PBI** - [Definition of Done](/definition-of-done) lists these kinds of screenshots or Done videos as good evidence when you close out the PBI
 
-<imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={false} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/done-video-by-ai/pr-no-evidence.png" />
+<imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={true} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/done-video-by-ai/pr-no-evidence.png" />
 
-<imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card title and hover border changing from black to red" size="large" showBorder={false} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/done-video-by-ai/pr-before-after-evidence.png" />
+<imageEmbed alt="The same GitHub pull request, with a before and after screenshot table showing the card title and hover border changing from black to red" size="large" showBorder={true} figurePrefix="good" figure="A before/after pair the agent captured during its own verification, so the change is obvious without leaving the PR" src="/uploads/rules/done-video-by-ai/pr-before-after-evidence.png" />
 
 ## Tips
 
-* **Keep images small** - crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
-* **Caption every image or video** - one line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
-* **Never capture secrets or customer data** - the agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
-* **Prefer the PR body over a comment** - the body is what GitHub shows first, and it survives when comments are collapsed
+* **Keep images small** - Crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
+* **Caption every image or video** - One line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
+* **Never capture secrets or customer data** - The agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
+* **Prefer the PR body over a comment** - The body is what GitHub shows first, and it survives when comments are collapsed
 
-<imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={false} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/done-video-by-ai/ai-capture-ui-change.png" />
+<imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={true} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/done-video-by-ai/ai-capture-ui-change.png" />
 
 ## Tooling
 
-* **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - the agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
-* **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - gives the agent a real Chrome instance with screenshots, performance traces, and console access
-* **[Puppeteer](https://pptr.dev/)** - drives Chrome or Firefox from Node and takes screenshots or records the session. A good fit when the project already uses it, or when you do not want a second browser stack
-* **[Steel](https://steel.dev/)** - open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
-* **[GitHub CLI](https://cli.github.com/)** - lets the agent write the PR description without leaving the terminal.
+* **[Playwright MCP and Playwright CLI](/playwright-with-ai)** - The agent navigates, reads the accessibility tree, and takes screenshots or records video from the same session
+* **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** - Gives the agent a real Chrome instance with screenshots, performance traces, and console access
+* **[Puppeteer](https://pptr.dev/)** - Drives Chrome or Firefox from Node and takes screenshots or records the session. A good fit when the project already uses it, or when you do not want a second browser stack
+* **[Steel](https://steel.dev/)** - Open-source cloud browser sessions for agents, with screenshots and session recordings built in. Useful when the agent runs in CI or a sandbox with no local browser
+* **[GitHub CLI](https://cli.github.com/)** - Lets the agent write the PR description without leaving the terminal
 
 <boxEmbed
   style="tips"
