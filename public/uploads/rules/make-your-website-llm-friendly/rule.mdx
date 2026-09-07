@@ -24,6 +24,17 @@ Implementing an `llms.txt` file addresses this challenge by providing a streamli
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=_Lx1DmMMJbg" description={"Video: Do you provide an llms.txt file to make your website LLM-friendly? | Isaac Lombard | Rules (1 min)"} />
 
+<boxEmbed
+  style="warning"
+  body={<>
+    **Note:** `llms.txt` is an emerging convention, not an established standard. No major AI provider has confirmed reading it, and Google has stated that Search ignores the file entirely.
+
+    Today it is most useful for technical documentation, where coding agents such as Cursor, GitHub Copilot and Claude fetch it to find the right pages. Adopt it there as a low-cost, forward-looking step, but treat [serving Markdown to AI agents](/serve-markdown-to-ai-agents) as the higher-value change.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## What is an `llms.txt`?
 
@@ -101,6 +112,15 @@ Important notes:
 ```
 
 **Figure: Excerpt of an in-use llms.txt**
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Run your site through [Tina GEO](https://tina.io/geo) - a free tool that scores your pages for AI search readiness. It reports whether an `llms.txt` file is present, alongside the signals that carry real weight such as Markdown content negotiation.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ### Directories
 
