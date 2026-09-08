@@ -27,9 +27,9 @@ Implementing an `llms.txt` file addresses this challenge by providing a streamli
 <boxEmbed
   style="warning"
   body={<>
-    **Note:** `llms.txt` is an emerging convention, not an established standard. No major AI provider has confirmed reading it, and Google has stated that Search ignores the file entirely.
+    **Note:** `llms.txt` is an emerging convention, not an established standard. The crawlers behind AI search products do not read it, and Google has stated that Search ignores the file entirely.
 
-    Today it is most useful for technical documentation, where coding agents such as Cursor, GitHub Copilot and Claude fetch it to find the right pages. Adopt it there as a low-cost, forward-looking step, but treat [serving Markdown to AI agents](/serve-markdown-to-ai-agents) as the higher-value change.
+    Where it does help today is technical documentation. Coding agents such as Cursor, GitHub Copilot and Claude Code will fetch an `llms.txt` when a developer points them at your docs, and use it to find the right pages. Adopt it there as a low-cost, forward-looking step, but treat [serving Markdown to AI agents](/serve-markdown-to-ai-agents) as the higher-value change.
   </>}
   figurePrefix="none"
   figure=""
