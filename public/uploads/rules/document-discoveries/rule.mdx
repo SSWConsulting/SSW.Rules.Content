@@ -51,10 +51,6 @@ Some examples include:
 * A developer gets approval to implement a new UI design
 * A tester has tested and approved the feature in staging
 
-#### What about project-wide changes?
-
-If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [Architectural Decision Record](/architectural-decision-records) and then link to it in the PBI as well.
-
 ### When should changes be documented?
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
@@ -104,6 +100,18 @@ Using the Work Item discussion provides several benefits to developers on the te
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Decision is documented in the work item" src="/uploads/rules/document-discoveries/document-discoveries-good-example.png" />
 
+### Documenting changes mid-Sprint
+
+Sometimes you have to make changes mid-Sprint. A PBI gets blocked, a production bug jumps the queue, or the Product Owner decides the work can wait. That is fine, but the reason has to live on the PBI, not in a chat message.
+
+For example, if you pull a PBI out of the Sprint, add a comment to the PBI explaining why before you move it back to the backlog. Then the next person to open it knows what happened and whether it is still worth doing.
+
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Moving a PBI to the backlog without documenting the decision" src="/uploads/rules/document-discoveries/Bad-example-Adding-and-Item-to-the-backlog.jpg" />
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Moving a PBI to the backlog and documenting the decision" src="/uploads/rules/document-discoveries/Good-example-Adding-and-Item-to-the-backlog.jpg" />
+
+### Documenting architectural changes
+
+Some discoveries are bigger than one Work Item. If a decision **affects the project at a high level** (for example, swapping the database, changing the hosting model, or making a repository public), a comment on the PBI is not enough. It will get buried once the PBI is closed.
+
+Record those decisions in an [Architectural Decision Record (ADR)](/architectural-decision-records), then link to the ADR from the PBI. The PBI keeps the story of the work, and the ADR keeps the reasoning where future developers will find it.
