@@ -30,8 +30,8 @@ If you plan the fix from the story, you fix the theory, not the bug. AI-written 
 
 Every bug report contains two kinds of statement:
 
-* **Observables** - an error message, a screenshot, a timestamp, a row count, a customer ID. These are evidence
-* **Inferences** - anything after "because", "probably", "looks like", or "must be". These are hypotheses
+* **Observables** - An error message, a screenshot, a timestamp, a row count, a customer ID. These are evidence
+* **Inferences** - Anything after "because", "probably", "looks like", or "must be". These are hypotheses
 
 Rewrite the report as a list and tag each line. If nothing observable survives, stop and ask the reporter for one concrete thing they saw before you write any code.
 
@@ -73,17 +73,17 @@ Everything you do next exists to explain that sentence. If you cannot write it, 
 
 Check the claims against logs, metrics, the database, and a reproduction. Do not check them against the issue text or against the last person who touched the file.
 
-* **Compare a trace point across the onset** - pick one log line or metric that should look different before and after the fault started, then look at both sides
-* **Correlate the onset with deployments, not commits** - a commit merged last week might have shipped this morning. The deployment log tells you what was live when the fault began
-* **Reproduce it if you can** - a reproduction turns the anchor sentence into something you can run
+* **Compare a trace point across the onset** - Pick one log line or metric that should look different before and after the fault started, then look at both sides
+* **Correlate the onset with deployments, not commits** - A commit merged last week might have shipped this morning. The deployment log tells you what was live when the fault began
+* **Reproduce it if you can** - A reproduction turns the anchor sentence into something you can run
 
 ## Classify every claim before you plan
 
 Mark each claim from the report as one of:
 
-* **Confirmed** - you saw it in a primary source
-* **Refuted** - the primary source contradicts it
-* **Could not verify** - no evidence either way
+* **Confirmed** - You saw it in a primary source
+* **Refuted** - The primary source contradicts it
+* **Could not verify** - No evidence either way
 
 Plan the fix from the confirmed claims only. Put the table in the pull request so the reviewer can see what was checked.
 
