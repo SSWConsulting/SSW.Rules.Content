@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Feature Flags for safer deployments?
+title: Do you use feature flags for safer deployments?
 uri: use-feature-flags
 authors:
   - title: Hajir Lesani
@@ -14,7 +14,7 @@ seoDescription: Learn how to use feature flags for safer deployments, trunk-base
 created: 2026-02-05T00:00:00.000Z
 ---
 
-Deploying new features is risky - bugs can affect all users instantly. Feature flags let you deploy code to production but control who sees new features. You can gradually roll out to 1%, then 10%, then 100% of users, and instantly disable a feature if something goes wrong - no redeployment needed.
+Deploying new features is risky. A bug can affect every user the moment it goes live. Feature flags let you deploy code to production while controlling who sees new features. Gradually roll out to 1%, then 10%, then 100% of users, and instantly disable a feature if something goes wrong, with no redeployment needed.
 
 Feature flags enable trunk-based development, where all developers commit to main and features are hidden behind flags until ready.
 
@@ -28,7 +28,7 @@ Feature flags enable trunk-based development, where all developers commit to mai
 * **A/B testing** - Show different experiences to different user groups
 * **Kill switches** - Disable expensive features during incidents
 
-## Setting up Feature Flags with Microsoft.FeatureManagement
+## Setting up feature flags with Microsoft.FeatureManagement
 
 ```csharp
 // Program.cs
@@ -216,7 +216,7 @@ Then make the registry enforce itself:
 
 ## When to use feature flags vs configuration
 
-| Use Feature Flags | Use Configuration |
+| Use feature flags | Use configuration |
 |-------------------|-------------------|
 | New features being developed | Stable settings (connection strings, URLs) |
 | Gradual rollouts needed | Per-environment differences |
