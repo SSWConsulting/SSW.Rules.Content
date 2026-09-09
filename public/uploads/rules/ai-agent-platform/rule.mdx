@@ -31,29 +31,36 @@ Microsoft has six ways to build an agent. They are a ladder, not competitors, an
 
 <endIntro />
 
-## What are you choosing between?
-
-| Tool | Code | Best for | Publishes to |
-| --- | --- | --- | --- |
-| SharePoint agent | None | One site's documents | SharePoint, Teams, Microsoft 365 Copilot |
-| Agent Builder | None | You or a small team | Microsoft 365 Copilot, Teams |
-| Copilot Studio (Recommended) | Low | A department, an organisation, or customers | Teams, web, WhatsApp, Slack, SMS, and more |
-| Agents Toolkit | Pro | Source control and CI/CD on a declarative agent | Microsoft 365 Copilot, Teams |
-| Microsoft 365 Agents SDK | Pro | A front end you built yourself | Any surface you code |
-| Microsoft Foundry | Pro | Your own model and orchestration | Teams, Microsoft 365 Copilot, or any app via its endpoint |
-
 ## Which one should you use?
 
-Work down and stop at the first one that fits.
+Work down the tree and stop at the first thing that fits.
 
-1. **The answer lives in one SharePoint site** - build a SharePoint agent and let the site owner keep it
-2. **It is for you or a few colleagues** - use Agent Builder in Microsoft 365 Copilot
-3. **It serves a department, the organisation, or customers** - use Copilot Studio
-4. **Developers need source control or custom API actions** - use the Agents Toolkit
-5. **It has to live inside a product you built** - add the Agents SDK
-6. **You need your own model or Azure network controls** - use Foundry
+```mermaid
+flowchart TD
+    Start(["You need an agent"]) --> Q1{"Does the answer live in<br>one SharePoint site?"}
+    Q1 -->|Yes| SP["SharePoint agent<br>No code"]
+    Q1 -->|No| Q2{"Is it just for you or<br>a few colleagues?"}
+    Q2 -->|Yes| AB["Agent Builder<br>No code"]
+    Q2 -->|No| CS["Copilot Studio<br>Low code, Recommended"]
+    CS --> Q3{"Does anything force<br>you past it?"}
+    Q3 -->|No| Ship(["Ship it"])
+    Q3 -->|"Source control and CI/CD"| TK["Agents Toolkit<br>Pro code"]
+    Q3 -->|"Lives inside a product you built"| SDK["Agents SDK<br>Pro code"]
+    Q3 -->|"Your own model or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
+```
 
-Most teams should stop at step 3. The common failure is not picking a weak tool, it is reaching for a powerful one before anyone has proven the agent gets used.
+Most teams should stop at Copilot Studio. The common failure is not picking a weak tool, it is reaching for a powerful one before anyone has proven the agent gets used.
+
+Reach is the one thing the tree cannot show, and it can override everything above it.
+
+| Tool | Publishes to |
+| --- | --- |
+| SharePoint agent | SharePoint, Teams, Microsoft 365 Copilot |
+| Agent Builder | Microsoft 365 Copilot, Teams |
+| Copilot Studio | Teams, web, WhatsApp, Slack, SMS, and more |
+| Agents Toolkit | Microsoft 365 Copilot, Teams |
+| Microsoft 365 Agents SDK | Any surface you code |
+| Microsoft Foundry | Teams, Microsoft 365 Copilot, or any app via its endpoint |
 
 ## Why is Copilot Studio the default?
 
