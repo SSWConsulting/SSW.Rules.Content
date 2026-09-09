@@ -23,7 +23,7 @@ seoDescription: Improve your workplace relationships by mastering the art of man
 created: 2018-08-14T16:33:01.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-09-09T13:32:52.976Z
+lastUpdated: 2026-09-09T13:43:35.968Z
 lastUpdatedBy: Chloe Lin
 lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
@@ -110,3 +110,35 @@ If you know the primary recipient — e.g. your manager or colleague — is like
 If the email includes external recipients, remove them before discussing the response internally. Then draft a reply for your manager or colleague to review.
 
 This saves a round of communication and makes it easier for them to take action.
+
+<boxEmbed
+  body={<>
+    A client sends an email to your manager asking why a deployment has been delayed. You are CC'd because you are the technical lead.
+    
+    You wait for your manager to message you:
+    
+    > "What happened here, and what should I tell the client?"
+  </>}
+  figurePrefix="bad"
+  figure="Waiting to be asked when you already know your input will be needed"
+/>
+
+<boxEmbed
+  body={<>
+    A client sends an email to your manager asking why a deployment has been delayed. You are CC'd because you are the technical lead.
+    
+    You remove the client from the recipients and proactively send your manager:
+    
+    > "The deployment was delayed because the production configuration was missing the new API setting. This has now been fixed and we expect deployment to complete by 3 PM.\
+    > \
+    > I recommend we reply with:\
+    > \
+    > **Hi Bob,**\
+    > **Thanks for checking in. The deployment was delayed due to a production configuration issue that we have now resolved. We expect the deployment to complete by 3 PM today.**\
+    > **We will confirm once it is live.**\
+    > \
+    > 1\. Please let me know if you're happy for us to send this response
+  </>}
+  figurePrefix="good"
+  figure="Proactively providing the context, recommendation, and a draft reply"
+/>
