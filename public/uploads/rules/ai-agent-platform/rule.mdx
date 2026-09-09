@@ -1,0 +1,102 @@
+---
+authors:
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+created: 2026-09-09T00:00:00.000Z
+createdBy: Luke Mao
+createdByEmail: LukeMao@ssw.com.au
+guid: 88c76a84-da63-466b-b749-2a3092d479d6
+isArchived: false
+lastUpdated: 2026-09-09T00:00:00.000Z
+lastUpdatedBy: Luke Mao
+lastUpdatedByEmail: LukeMao@ssw.com.au
+redirects:
+  - bot-framework
+related:
+  - rule: public/uploads/rules/dataverse-ai-options/rule.mdx
+  - rule: public/uploads/rules/website-chatbot/rule.mdx
+seoDescription: Compare SharePoint agents, Agent Builder, Copilot Studio, the Agents
+  Toolkit, the Microsoft 365 Agents SDK, and Microsoft Foundry to pick the right platform
+  for your chatbot or AI agent.
+title: Do you choose the right platform for your AI agent?
+categories:
+  - category: categories/software-engineering/rules-to-better-bots.mdx
+type: rule
+uri: ai-agent-platform
+---
+
+You need an agent that answers staff questions from the HR policies in SharePoint. You open a studio, wire up knowledge sources, and ship it a fortnight later. A site owner could have done it in ten minutes without leaving SharePoint.
+
+Microsoft has six ways to build an agent. They are a ladder, not competitors, and most teams start too far down it.
+
+<endIntro />
+
+## What are you choosing between?
+
+| Tool | Code | Best for | Publishes to |
+| --- | --- | --- | --- |
+| SharePoint agent | None | One site's documents | SharePoint, Teams, Microsoft 365 Copilot |
+| Agent Builder | None | You or a small team | Microsoft 365 Copilot, Teams |
+| Copilot Studio (Recommended) | Low | A department, an organisation, or customers | Teams, web, WhatsApp, Slack, SMS, and more |
+| Agents Toolkit | Pro | Source control and CI/CD on a declarative agent | Microsoft 365 Copilot, Teams |
+| Microsoft 365 Agents SDK | Pro | A front end you built yourself | Any surface you code |
+| Microsoft Foundry | Pro | Your own model and orchestration | Teams, Microsoft 365 Copilot, or any app via its endpoint |
+
+## Which one should you use?
+
+Work down and stop at the first one that fits.
+
+1. **The answer lives in one SharePoint site** - build a SharePoint agent and let the site owner keep it
+2. **It is for you or a few colleagues** - use Agent Builder in Microsoft 365 Copilot
+3. **It serves a department, the organisation, or customers** - use Copilot Studio
+4. **Developers need source control or custom API actions** - use the Agents Toolkit
+5. **It has to live inside a product you built** - add the Agents SDK
+6. **You need your own model or Azure network controls** - use Foundry
+
+Most teams should stop at step 3. The common failure is not picking a weak tool, it is reaching for a powerful one before anyone has proven the agent gets used.
+
+## Why is Copilot Studio the default?
+
+Because it is a finished product rather than a toolkit. Knowledge from SharePoint, Dataverse, documents, and Microsoft Search connectors without code. Generative answers on by default. Per-user security trimming, so each person only sees content their Entra ID account can already open. File uploads, a long list of channels, and real dev, test, and production environments.
+
+Reach and governance decide this, not features. Choose it when the agent serves a department, the organisation, or customers, or when it has to survive an audit.
+
+## Why is the Agents SDK not a peer?
+
+It is the successor to Bot Framework, which Microsoft retired in December 2025, and it inherits that job: move messages between a user and whatever logic you wrote. Microsoft is blunt that it is not an AI model, not an orchestration engine, and not a no-code builder.
+
+Picking it instead of Copilot Studio means building generative answers, grounding, and security trimming yourself. It ships a Copilot Studio client for .NET, JavaScript, and Python, so put Copilot Studio or Foundry behind it rather than in place of them.
+
+<boxEmbed style="warning" figurePrefix="none" figure="" body={<>
+
+**Note:** Foundry is closer to Copilot Studio than the names suggest, using the same Microsoft 365 retrieval stack and the same permission trimming. Two catches: its SharePoint tool stops working once the agent is published to Teams, and every end user needs a Microsoft 365 Copilot licence.
+
+</>} />
+
+## What if you are not a Microsoft shop?
+
+Grounding and per-user permission trimming only work where your content and your identity provider already live, so the platform follows the data.
+
+| Your content mostly lives in | Look at |
+| --- | --- |
+| Microsoft 365, SharePoint, Dataverse | Copilot Studio |
+| Google Workspace or Google Cloud | Gemini Enterprise Agent Platform |
+| AWS | Amazon Bedrock AgentCore |
+| Salesforce | Agentforce |
+| Nowhere in particular | A code-first SDK such as the OpenAI Agents SDK or LangGraph |
+
+<boxEmbed style="warning" figurePrefix="none" figure="" body={<>
+
+**Note:** Choose for where your data lives, not for the authoring experience. OpenAI shipped a visual Agent Builder in October 2025 and [deprecated it eight months later](https://developers.openai.com/api/docs/deprecations), with shutdown set for 30 November 2026. Drag-and-drop canvases come and go. The grounding layer is what you are really committing to.
+
+</>} />
+
+***
+
+### Learn more
+
+* [Choose between Agent Builder and Copilot Studio](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/copilot-studio-experience) - Microsoft's decision tree, by audience and scope
+* [Choose the right tool to build a declarative agent](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/declarative-agent-tool-comparison) - pros and cons of all four declarative tools
+* [Copilot Studio knowledge sources](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) - SharePoint, Dataverse, and connector limits
+* [What is the Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview) - what it does, and a section on what it deliberately does not do
+* [SSW: Do you know your Dataverse AI options?](/dataverse-ai-options) - Copilot Studio agents and MCP against Dataverse
