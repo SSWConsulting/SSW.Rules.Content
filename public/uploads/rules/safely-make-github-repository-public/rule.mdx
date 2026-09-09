@@ -17,6 +17,7 @@ related:
   - rule: public/uploads/rules/team-as-code-owners/rule.mdx
   - rule: public/uploads/rules/awesome-readme/rule.mdx
   - rule: public/uploads/rules/find-your-license/rule.mdx
+  - rule: public/uploads/rules/security-email-account/rule.mdx
 categories:
   - category: categories/project-delivery/rules-to-better-github.mdx
 ---
@@ -40,9 +41,9 @@ Check for:
 - Commercially sensitive internal information
 - Third-party code or assets that cannot be redistributed
 
-If the repository is intended to be open source, choose an appropriate licence. See [Do you know the best license for your project?](/find-your-license).
+If the repository is intended to be open source, choose an appropriate license. See [Do you know the best license for your project?](/find-your-license).
 
-Making a repository public does not automatically make the code open source. The licence defines what others are allowed to do with it.
+Making a repository public does not automatically make the code open source. The license defines what others are allowed to do with it.
 
 ## 2. Scan the entire Git history
 
@@ -71,7 +72,7 @@ Look for internal infrastructure, customer information, cloud environment detail
 
 For example, a screenshot containing an Azure SAS URL with delete permissions is just as sensitive as putting the SAS token directly in source code.
 
-GitHub Issues and comments can also retain sensitive information in revision history. See [Do you know how to completely remove confidential information from a GitHub Issue?](/remove-confidential-information-from-github).
+GitHub issues and comments can also retain sensitive information in revision history. See [Do you know how to completely remove confidential information from a GitHub Issue?](/remove-confidential-information-from-github).
 
 ## 4. Perform a security audit
 
@@ -101,10 +102,10 @@ Review all workflows and check that:
 - `GITHUB_TOKEN` has the minimum required permissions
 - Secrets cannot be exposed to untrusted pull requests
 - `pull_request_target` is not being used unsafely
-- Third-party Actions are trusted and preferably pinned
-- Existing Actions logs and artifacts do not contain sensitive information
+- Third-party actions are trusted and preferably pinned
+- Existing GitHub Actions logs and artifacts do not contain sensitive information
 
-For workflows that deploy to real environments, use appropriate GitHub Environment protections. See [GitHub Environments - Do you use gated deployments?](/use-gated-deployments).
+For workflows that deploy to real environments, use appropriate GitHub environment protections. See [GitHub Environments - Do you use gated deployments?](/use-gated-deployments).
 
 ### Check self-hosted runners
 
@@ -116,7 +117,7 @@ A malicious pull request could access credentials, internal services or other re
 
 Protect important branches such as `main`.
 
-Configure appropriate Rulesets or branch protection to:
+Configure appropriate rulesets or branch protection to:
 
 - Require pull requests and approvals
 - Require status checks
@@ -139,7 +140,7 @@ Also enable the applicable GitHub security features:
 
 Making the repository public exposes more than the source tree.
 
-Review existing Issues, Pull Requests, Discussions, Wiki pages, releases, branches, tags, Actions history, logs and workflow artifacts. Remove anything that was written or uploaded with the expectation that only internal users could see it.
+Review existing issues, pull requests, discussions, wiki pages, releases, branches, tags, GitHub Actions history, logs and workflow artifacts. Remove anything that was written or uploaded with the expectation that only internal users could see it.
 
 GitHub Actions history and logs become visible to everyone when a private repository is made public.
 
@@ -153,9 +154,11 @@ Depending on the project, also consider:
 - `SECURITY.md`
 - `CONTRIBUTING.md`
 - `CODEOWNERS`
-- Pull Request and Issue templates
+- Pull request and issue templates
 
-For public projects, a `SECURITY.md` gives security researchers a private way to report vulnerabilities instead of opening a public Issue.
+For public projects, a `SECURITY.md` gives security researchers a private way to report vulnerabilities instead of opening a public issue.
+
+For repositories associated with a public website or service, also ensure the service publishes a `security.txt` file at `/.well-known/security.txt`. This complements `SECURITY.md` by making the security contact easy for researchers and automated tools to find. See [Do you have a security@ email account?](/security-email-account).
 
 ## 9. Record the decision and get another person to review it
 
@@ -180,6 +183,6 @@ See [GitHub - Setting repository visibility](https://docs.github.com/en/reposito
 Afterwards:
 
 1. Open the repository in an incognito/private browser and confirm what an unauthenticated user can see
-2. Re-check branch protections and Rulesets
-3. Confirm Secret Scanning and Push Protection are enabled
+2. Re-check branch protections and rulesets
+3. Confirm secret scanning and push protection are enabled
 4. Confirm GitHub Actions still have the expected permissions
