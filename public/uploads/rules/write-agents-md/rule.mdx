@@ -42,6 +42,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **Common commands** - List frequently used scripts for building, testing, and linting
 * **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 * **Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
+* **Hard-won facts and dead ends** - The one-paragraph fact that cost you a day, and the fixes that were tried and did not work (see below)
 
 ## 👎 What does **not** go into an AGENTS.md?
 
@@ -135,6 +136,52 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
 You could also have a separate AGENTS.md for your tests!
 
 For an alternative pattern that scopes rules by file *patterns* rather than directories, see [Do you split your AGENTS.md into scoped rule files?](/scoped-rules-for-ai-agents).
+
+## Record hard-won facts and dead ends
+
+Task notes and chat transcripts rot. What the next agent, or the next developer, needs is the fact that cost a day to learn and the fixes that were already tried and disproven. Without that record, an agent will confidently retry the same wrong fix, because it looks like the obvious answer.
+
+Keep a short section for these. Each entry is one paragraph: the fact, why it matters, and what not to do about it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```markdown
+    ## Gotchas
+
+    - The Orders page is slow sometimes
+    - Redis can be weird locally
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Vague notes that tell the next agent nothing it can act on"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```markdown
+    ## Hard-won facts
+
+    - **Shipping estimates call the carrier API once per order line.**
+      Orders with 50+ lines take 10+ seconds. Batch the calls through
+      `IShippingEstimateBatcher`; do not add caching in `OrderCacheService`,
+      that was tried in PR #1284 and made no difference because the cache
+      was already hitting at 94%.
+
+    - **Do not re-add the `Northwind.Legacy` project reference to `Northwind.Api`.**
+      It pulls in an old `Newtonsoft.Json` and breaks minimal API serialization.
+      The dependency was removed on purpose in PR #1190.
+
+    - **The nightly import job runs in UTC.** A test that checks "today's" orders
+      fails between midnight and 10am AEST. Pass the clock in, do not use `DateTime.Now`.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Each entry states the fact, the reason, and the dead end, so nobody walks into it again"
+/>
+
+When an agent solves something that took several attempts, ask it to add the entry before it finishes. The commit that fixed the problem is the best moment to write down what did not.
 
 ## Writing tips
 
