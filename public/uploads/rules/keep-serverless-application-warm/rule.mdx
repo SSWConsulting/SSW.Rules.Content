@@ -32,15 +32,15 @@ The old fix was a timer-triggered function that pinged your own app every few mi
 
 ## Azure Functions
 
-* **Flex Consumption** - set an **always ready** instance count per function, which keeps instances running and skips the on-demand scale-out wait
+* **[Flex Consumption](https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-plan)** - set an **always ready** instance count per function, which keeps instances running and skips the on-demand scale-out wait
 * **Premium plan** - supports prewarmed and always ready instances with a minimum of one, and is generally available rather than the preview it was when this rule was written
 * **Dedicated App Service plan** - compute is always allocated, so there is nothing to warm, but you give up automatic scale-out
 
 ## AWS Lambda
 
 * **Provisioned concurrency** - pre-initialises a set number of execution environments so they are ready before the request arrives
-* **SnapStart** - caches a snapshot of the initialised environment and restores it, taking Java, Python, and .NET cold starts to sub-second at no extra charge. You cannot use it and provisioned concurrency on the same function version
-* **Attach a VPC only when you need it** - the network interface setup adds latency, so AWS advises using it only where access to VPC resources is genuinely required
+* **[SnapStart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)** - caches a snapshot of the initialised environment and restores it, taking Java, Python, and .NET cold starts to sub-second at no extra charge. You cannot use it and provisioned concurrency on the same function version
+* **Attach a VPC only when you need it** - the network interface setup adds latency, so [AWS advises](https://aws.amazon.com/blogs/compute/understanding-and-remediating-cold-starts-an-aws-lambda-perspective/) using it only where access to VPC resources is genuinely required
 
 <boxEmbed style="info" figurePrefix="none" figure="" body={<>
 
@@ -52,7 +52,7 @@ The old fix was a timer-triggered function that pinged your own app every few mi
 
 Formerly Cloud Functions, and the same settings apply to Cloud Functions for Firebase.
 
-* **Minimum instances** - keep a number of instances warm during quiet periods, which is the supported replacement for a self-built ping
+* **[Minimum instances](https://docs.cloud.google.com/run/docs/configuring/min-instances)** - keep a number of instances warm during quiet periods, which is the supported replacement for a self-built ping
 * **Startup CPU boost** - allocates extra CPU during startup, which halves start time for some workloads
 
 ## Is it worth paying for?
@@ -61,12 +61,3 @@ Always-warm instances bill while idle, so match the setting to real traffic rath
 
 * **Worth it** - a user-facing agent, an API behind a UI, or anything a person waits on
 * **Usually not** - batch jobs, queue processing, and overnight work, where a few seconds of startup costs nothing
-
-***
-
-### Learn more
-
-* [Azure Functions Flex Consumption plan](https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-plan) - always ready instances and per-function scaling
-* [Improving startup performance with Lambda SnapStart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html) - supported runtimes and how snapshots work
-* [Understanding and remediating cold starts on Lambda](https://aws.amazon.com/blogs/compute/understanding-and-remediating-cold-starts-an-aws-lambda-perspective/) - AWS's own guidance on causes and fixes
-* [Set minimum instances for Cloud Run services](https://docs.cloud.google.com/run/docs/configuring/min-instances) - keeping instances warm on Google Cloud
