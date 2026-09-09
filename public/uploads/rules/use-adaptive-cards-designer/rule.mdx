@@ -3,10 +3,13 @@ authors:
 - title: Luke Mao
   url: https://www.ssw.com.au/people/luke-mao
 created: 2021-10-15 02:27:05.306000+00:00
+lastUpdated: 2026-09-09T00:00:00.000Z
+lastUpdatedBy: Luke Mao
+lastUpdatedByEmail: LukeMao@ssw.com.au
 guid: 147d41b0-3106-431e-8455-3aae0dd23e8a
-seoDescription: Microsoft Bot Framework developers can preview Adaptive Cards designs
-  across multiple platforms using the Adaptive Cards Designer. This online tool offers
-  real-time editing and multi-platform previews, streamlining card design and testing.
+seoDescription: Use the Adaptive Cards Designer to preview cards against Teams, Copilot
+  Studio, and web chat before you ship, and design against the schema version each
+  host supports.
 title: Do you use Adaptive Cards Designer?
 categories:
   - category: categories/software-engineering/rules-to-better-bots.mdx
@@ -14,33 +17,55 @@ type: rule
 uri: use-adaptive-cards-designer
 ---
 
-If you are using [Microsoft Bot Framework](https://dev.botframework.com/) and [Bot Framework Emulator](https://github.com/microsoft/BotFramework-Emulator), you can't preview what the card UI looks like in other platforms (e.g. Teams) until you deploy to production. [Adaptive Cards Designer](https://adaptivecards.io/designer/) helps you solve this problem by providing some awesome features...
+An Adaptive Card that looks right in Teams can render badly on your website and come out as an empty box in a live chat widget. Hosts support different schema versions, and hand-editing JSON tells you nothing about which ones.
+
+The [Adaptive Cards Designer](https://adaptivecards.microsoft.com/designer) previews a card against each host before you ship it.
 
 <endIntro />
 
-* Online editing
-* Multi-platform preview
+## Where should you design your cards?
 
-There are two ways to use Adaptive Cards Designer:
+* **[Copilot Studio's built-in designer](https://learn.microsoft.com/en-us/microsoft-copilot-studio/adaptive-cards-overview)** - the fastest path when the card belongs to a Copilot Studio agent, carrying the most useful features of the standalone tool
+* **The standalone designer** - [adaptivecards.microsoft.com/designer](https://adaptivecards.microsoft.com/designer) for cards not tied to one agent, with a host picker so you can switch preview targets
+* **The Designer SDK** - [embed the designer](https://learn.microsoft.com/en-us/adaptive-cards/sdk/designer) in your own application when your users author their own cards
 
-* Using [online version](https://adaptivecards.io/designer/)
-* Using [Adaptive Cards Designer SDK](https://docs.microsoft.com/en-us/adaptive-cards/sdk/designer?WT.mc_id=M365-MVP-33518) to embed into your application
+## Which schema version can you use?
+
+[Design against the version your target host supports](https://learn.microsoft.com/en-us/microsoft-copilot-studio/adaptive-cards-overview), not the newest one available.
+
+| Host | Schema version |
+| --- | --- |
+| Microsoft Copilot Studio | 1.6 and earlier |
+| Web Chat, the default website integration | 1.6, but no `Action.Execute` |
+| Live chat widget for Omnichannel for Customer Service | 1.5 |
+
+<boxEmbed style="warning" figurePrefix="none" figure="" body={<>
+
+**Note:** Reaching for an element the host does not understand is the usual reason a card renders perfectly in Teams and as a blank box everywhere else.
+
+</>} />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure="Using Bot Framework Emulator to design the card"
+  figure="Editing card JSON and redeploying just to see how it looks"
   src="/uploads/rules/use-adaptive-cards-designer/design-cards-in-emulator.png"
 />
-
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Using Adaptive Cards Designer to design the card"
+  figure="Using Adaptive Cards Designer to preview the card against its target host"
   src="/uploads/rules/use-adaptive-cards-designer/design-card-with-designer.png"
 />
+
+***
+
+### Learn more
+
+* [Designing Adaptive Cards for your app](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards) - Teams design guidance and the Card Design Toolkit
+* [SSW: Do you choose the right platform for your AI agent?](/ai-agent-platform) - where cards fit across Copilot Studio, the Agents SDK, and Foundry
