@@ -1,0 +1,185 @@
+---
+type: rule
+title: Do you know how to safely make a GitHub repository public?
+uri: safely-make-github-repository-public
+guid: accc8579-0818-4bbf-8b5e-22809fc1388c
+seoDescription: Check Git history, secrets, sensitive content, vulnerabilities, CI/CD, repository protections and licensing before changing a GitHub repository from private to public.
+created: 2026-09-09T01:50:00.000Z
+authors:
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kaique-biancatti
+related:
+  - rule: public/uploads/rules/architectural-decision-records/rule.mdx
+  - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+  - rule: public/uploads/rules/developer-cybersecurity-tools/rule.mdx
+  - rule: public/uploads/rules/use-branch-protection/rule.mdx
+  - rule: public/uploads/rules/use-gated-deployments/rule.mdx
+  - rule: public/uploads/rules/team-as-code-owners/rule.mdx
+  - rule: public/uploads/rules/awesome-readme/rule.mdx
+  - rule: public/uploads/rules/find-your-license/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+---
+
+Changing a GitHub repository from **private** to **public** can expose years of source code, Git history, screenshots, documentation and CI/CD information to the internet. Once it is public, assume anything exposed can be copied immediately.
+
+Before making a repository public, it should pass a publication security review.
+
+<endIntro />
+
+## 1. Confirm the repository can be public
+
+Confirm that SSW has the right to publish everything in the repository.
+
+Check for:
+
+- Client-owned or licensed source code
+- Client data or confidential information
+- Personal information
+- Content covered by an NDA
+- Commercially sensitive internal information
+- Third-party code or assets that cannot be redistributed
+
+If the repository is intended to be open source, choose an appropriate licence. See [Do you know the best license for your project?](/find-your-license).
+
+Making a repository public does not automatically make the code open source. The licence defines what others are allowed to do with it.
+
+## 2. Scan the entire Git history
+
+Checking the current `main` branch is not enough. A credential or sensitive file deleted years ago may still be available in Git history.
+
+Scan the **entire repository history, including branches and tags**, for secrets such as API keys, Personal Access Tokens, Azure SAS tokens, passwords, connection strings, private keys, `.env` files and webhook URLs containing secrets.
+
+Use an automated scanner that supports full Git history, but do not rely on automated scanning alone. See [Do you know the best way to prevent secrets leaking from your code repository?](/prevent-secrets-leaking-from-repo).
+
+If a secret is found:
+
+1. **Revoke or rotate it first**
+2. Remove it from the current repository and Git history where appropriate
+3. Re-run the scan
+4. Investigate whether the credential was used unexpectedly
+
+Deleting a secret from the latest commit does not remove it from Git history.
+
+## 3. Review sensitive files and information
+
+Secret scanners will not find everything that should remain private.
+
+Review the current repository and its history for sensitive content in screenshots, photos, architecture or network diagrams, office floor plans, documents, logs, test data and exported configuration.
+
+Look for internal infrastructure, customer information, cloud environment details, credentials and anything else that was never intended to be public.
+
+For example, a screenshot containing an Azure SAS URL with delete permissions is just as sensitive as putting the SAS token directly in source code.
+
+GitHub Issues and comments can also retain sensitive information in revision history. See [Do you know how to completely remove confidential information from a GitHub Issue?](/remove-confidential-information-from-github).
+
+## 4. Perform a security audit
+
+Review the code from the perspective of someone who now has unlimited access to inspect it.
+
+Run the security checks appropriate for the technology, such as:
+
+- Static application security testing
+- Dependency vulnerability scanning
+- Dependabot
+- CodeQL or other code scanning
+- Infrastructure as Code scanning
+- Container scanning
+
+See [Do you use the right cybersecurity tools when writing code?](/developer-cybersecurity-tools).
+
+Also manually review authentication, authorization, unsafe defaults, debug endpoints and anything that previously relied on the repository being private for security.
+
+Critical or High vulnerabilities that present a realistic attack path should normally be fixed before publication.
+
+## 5. Review GitHub Actions and CI/CD
+
+A public repository has a different threat model because anyone can fork it and submit a pull request.
+
+Review all workflows and check that:
+
+- `GITHUB_TOKEN` has the minimum required permissions
+- Secrets cannot be exposed to untrusted pull requests
+- `pull_request_target` is not being used unsafely
+- Third-party Actions are trusted and preferably pinned
+- Existing Actions logs and artifacts do not contain sensitive information
+
+For workflows that deploy to real environments, use appropriate GitHub Environment protections. See [GitHub Environments - Do you use gated deployments?](/use-gated-deployments).
+
+### Check self-hosted runners
+
+Do not allow arbitrary public pull request code to execute on an SSW self-hosted runner.
+
+A malicious pull request could access credentials, internal services or other resources available to that runner. GitHub-hosted ephemeral runners are generally the safer default for public repositories.
+
+## 6. Add repository protections
+
+Protect important branches such as `main`.
+
+Configure appropriate Rulesets or branch protection to:
+
+- Require pull requests and approvals
+- Require status checks
+- Block force pushes and branch deletion
+
+See [Do you use branch protection?](/use-branch-protection).
+
+Where appropriate, use `CODEOWNERS` so changes are reviewed by the people responsible for that area of the repository. See [Do you make your repo's team the code owners?](/team-as-code-owners).
+
+Also enable the applicable GitHub security features:
+
+- Secret scanning
+- Push protection
+- Dependabot alerts and security updates
+- Code scanning
+
+> **Important:** GitHub disables all push rulesets when a repository changes from private to public. Re-check the repository protections after changing visibility.
+
+## 7. Check the rest of GitHub
+
+Making the repository public exposes more than the source tree.
+
+Review existing Issues, Pull Requests, Discussions, Wiki pages, releases, branches, tags, Actions history, logs and workflow artifacts. Remove anything that was written or uploaded with the expectation that only internal users could see it.
+
+GitHub Actions history and logs become visible to everyone when a private repository is made public.
+
+## 8. Make the repository ready for the public
+
+Make sure the repository has a useful `README.md`. See [Do you have an awesome README?](/awesome-readme).
+
+Depending on the project, also consider:
+
+- `LICENSE`
+- `SECURITY.md`
+- `CONTRIBUTING.md`
+- `CODEOWNERS`
+- Pull Request and Issue templates
+
+For public projects, a `SECURITY.md` gives security researchers a private way to report vulnerabilities instead of opening a public Issue.
+
+## 9. Record the decision and get another person to review it
+
+Changing repository visibility is an important decision. Create an ADR that records why the repository is being made public, who approved it, what security checks were completed, and any known risks or exceptions.
+
+See [Do you use Architectural Decision Records (ADRs)?](/architectural-decision-records).
+
+Before changing the visibility, get another developer or someone from the **SysAdmin or Security team** to review the repository. Higher-risk repositories should have a formal security review before publication.
+
+## 10. Make the repository public
+
+Once the review is complete and approved:
+
+1. Open the repository on GitHub
+2. Go to **Settings | General | Danger Zone**
+3. Under **Change repository visibility**, click **Change visibility | Public**
+4. Confirm that you are changing the correct repository and understand the effects
+5. Click **Make this repository public**
+
+See [GitHub - Setting repository visibility](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility).
+
+Afterwards:
+
+1. Open the repository in an incognito/private browser and confirm what an unauthenticated user can see
+2. Re-check branch protections and Rulesets
+3. Confirm Secret Scanning and Push Protection are enabled
+4. Confirm GitHub Actions still have the expected permissions
