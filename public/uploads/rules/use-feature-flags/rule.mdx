@@ -211,7 +211,7 @@ Fix this at the moment the flag is created, not at cleanup time. Keep a registry
 Then make the registry enforce itself:
 
 * **Fail the build** when a flag has no lifecycle, when a temporary flag has no expected lifetime or retirement PBI, or when a permanent flag has no owner. The rule is only real if a missing field stops the pipeline
-* **Report overdue flags** - a scheduled job or a dashboard that lists temporary flags past their expected lifetime, so the debt is visible in the sprint review rather than discovered by accident
+* **Report overdue flags** - A scheduled job or a dashboard that lists temporary flags past their expected lifetime, so the debt is visible in the sprint review rather than discovered by accident
 * **Delete both the flag and the old branch** when you retire it. A retired flag that leaves the fallback code in place has only done half the job
 
 ## When to use feature flags vs configuration
