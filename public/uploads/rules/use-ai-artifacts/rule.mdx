@@ -22,7 +22,7 @@ isArchived: false
 
 You work out the answer on Tuesday. The stakeholders see it on Friday, because Wednesday and Thursday went into a deck that flattens it into six bullets and a screenshot. They skim it, ask the one question the deck does not answer, and you book another meeting.
 
-AI artifacts close that gap. Describe what you want to show and the assistant builds a working version of it beside the conversation - a calculator, a dashboard over their own numbers, a diagram, a screen they can click through. It renders in about a minute, changes while the room watches, and publishes as a link you send when the call ends.
+AI artifacts close that gap. Describe what you want to show and the assistant builds a working version of it beside the conversation. It renders in about a minute, changes while the room watches, and publishes as a link you send when the call ends.
 
 Anything you currently explain in a document is a candidate.
 
@@ -32,21 +32,45 @@ Anything you currently explain in a document is a candidate.
 
 ## What is an AI artifact?
 
-An artifact is a self-contained thing the assistant builds and renders in a panel beside the chat. It can be a clickable web app, a dashboard, a diagram, a calculator, or a document. It is not a picture of one. It runs.
+An artifact is a working page the assistant builds and renders beside the chat. It is not a picture of a screen or a dashboard. It runs.
 
-Every vendor has landed on the same idea under a different name - Anthropic calls them Artifacts, OpenAI calls them Sites, Google calls it Canvas. The capabilities that matter are the same four:
+Every vendor has the same idea under a different name - Anthropic calls them Artifacts, OpenAI calls them Sites, Google calls it Canvas. What matters is what they let you do:
 
 * **It responds** - Stakeholders click through the flow instead of imagining it from a flat image
 * **It changes mid-sentence** - "Make that wizard 2 steps instead of 4" is a 30-second edit, not a backlog item
 * **It ships as a link** - Publish it and the GM who missed the call opens it on their phone
 * **It takes their data** - Paste a sample export or a photo of the workshop whiteboard and the artifact is built on the thing they recognise
 
+Take a cloud spend review. The data is the same in both cases. What changes is whether the client can read it.
+
+```json
+{
+  "subscription": "Northwind Traders - Azure",
+  "period": "2026-03-01/2026-08-31",
+  "budgetMonthlyUsd": 114000,
+  "rows": [
+    { "resource": "nwt-prod-app-plan-p3v3", "workload": "App Services", "env": "Production", "aug": 31400, "jul": 28010 },
+    { "resource": "nwt-sql-mi-prod-01", "workload": "SQL & storage", "env": "Production", "aug": 24800, "jul": 23006 },
+    { "resource": "nwt-prod-aks-nodepool", "workload": "App Services", "env": "Production", "aug": 18900, "jul": 18138 },
+    { "resource": "nwt-uat-app-plan-p2v3", "workload": "App Services", "env": "Non-production", "aug": 14200, "jul": 10245 },
+    { "resource": "nwt-storage-archive", "workload": "SQL & storage", "env": "Production", "aug": 8600, "jul": 8784 },
+    { "resource": "nwt-egress-apim", "workload": "Networking", "env": "Production", "aug": 7900, "jul": 7221 },
+    { "resource": "nwt-dev-aks-nodepool", "workload": "App Services", "env": "Non-production", "aug": 6400, "jul": 5259 },
+    { "resource": "nwt-log-analytics", "workload": "SQL & storage", "env": "Production", "aug": 5100, "jul": 5010 }
+  ],
+  "monthlyTotalsUsd": { "mar": 98400, "apr": 104100, "may": 108900, "jun": 116200, "jul": 125400, "aug": 133600 },
+  "reservedInstanceSavingUsd": 18400
+}
+```
+
+**❌ Figure: Bad example - We used to show clients this. The numbers are all there, and nobody in the room can find the one that matters**
+
 <imageEmbed
   alt="Azure spend dashboard with an environment filter, four headline figures, a stacked bar chart of spend by workload, and a cumulative burn chart"
   size="large"
   showBorder={true}
-  figurePrefix="none"
-  figure="A billing export turned into something the client filters during the call, instead of a PDF they read afterwards"
+  figurePrefix="good"
+  figure="Now we show them this. The same export as an artifact, so the client filters by environment and sees the overspend during the call"
   src="/uploads/rules/use-ai-artifacts/sample-cloud-dashboard.png"
 />
 
@@ -86,7 +110,7 @@ Almost anything you currently send as a PDF, a slide, or a spreadsheet:
 | A monthly report PDF | A dashboard over their own sample export, filtered in front of them |
 | A plan for a PBI written in the ticket | A page the coding agent builds from the repo, showing the approach, the files it touches and the open questions, sent to a senior dev before you start |
 
-The roadmap one is the sleeper. Scope conversations stall because "if we drop SSO, when do we ship?" is a question nobody can answer in the room. Build the timeline as an artifact with a checkbox per feature and the answer is a click. The client stops negotiating against your estimate and starts making trade-offs against their own deadline.
+The roadmap is the one to try first. Scope conversations stall because "if we drop SSO, when do we ship?" is a question nobody can answer in the room. Build the timeline as an artifact with a checkbox per feature and the answer is a click. The client stops negotiating against your estimate and starts making trade-offs against their own deadline.
 
 <imageEmbed
   alt="Azure migration strategy with a scope checklist of eight workloads, headline figures for go-live and annual saving, and a wave plan Gantt chart"
@@ -103,10 +127,10 @@ Whichever one your client already pays for. The four big assistants all do this 
 
 | Tool | Vendor | Best for | Sharing |
 | --- | --- | --- | --- |
-| Claude Artifacts | Anthropic | Interactive pages and apps built inside the conversation | Publish to a link, and the viewer needs no account |
-| ChatGPT Sites | OpenAI | Hosted web apps with storage, access controls and a database | Every deploy gets a production URL. Still in public beta |
-| Gemini Canvas | Google | Docs, dashboards and apps, when you want the code back | Share link, or export the code to GitHub |
-| Copilot Pages | Microsoft | Collaborative documents inside Microsoft 365 | Shared through Teams, Outlook and the Microsoft 365 app |
+| [Claude Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) ⭐ | Anthropic | Interactive pages and apps built inside the conversation, or from a coding session with [Claude Code](https://claude.com/blog/artifacts-in-claude-code) | Publish to a link, and the viewer needs no account |
+| [ChatGPT Sites](https://learn.chatgpt.com/docs/sites?surface=app) | OpenAI | Hosted web apps with storage, access controls and a database | Every deploy gets a production URL. Still in public beta |
+| [Gemini Canvas](https://support.google.com/gemini/answer/16047321) | Google | Docs, dashboards and apps, when you want the code back | Share link, or export the code to GitHub |
+| [Copilot Pages](https://support.microsoft.com/en-us/microsoft-365-copilot/how-microsoft-365-copilot-pages-works) | Microsoft | Collaborative documents inside Microsoft 365 | Shared through Teams, Outlook and the Microsoft 365 app |
 
 Copilot Pages is the odd one out. It is a shared document you and Copilot edit together, not a page that runs, so it fits the handover doc and the options paper but not the clickable prototype.
 
@@ -124,13 +148,3 @@ Copilot Pages is the odd one out. It is a shared document you and Copilot edit t
 Never open a client meeting on a blank chat. Build a rough artifact beforehand, even a wrong one. People are far better at correcting something than specifying something, and "no, the approver goes second" gets you further in 10 seconds than 20 minutes of requirements questions.
 
 Use the client's real data. Artifacts are private to you until you share them, so building one on their real export is no different from opening that export on your laptop. The care goes into the link: share it with the people on the engagement, and never publish an artifact with real data to a public link.
-
-***
-
-### Learn more
-
-* [Anthropic: Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code) - artifacts built from a coding session, with use cases by role
-* [Anthropic: What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) - creating, editing, publishing and sharing Claude Artifacts
-* [OpenAI: Creating and managing ChatGPT Sites](https://help.openai.com/en/articles/20001339-creating-and-managing-chatgpt-sites) - hosting, access controls and what the deploy URL gives you
-* [Google: Create docs, apps and more with Canvas](https://support.google.com/gemini/answer/16047321) - what Gemini Canvas builds, and how the share link works
-* [Microsoft: How Microsoft 365 Copilot Pages works](https://support.microsoft.com/en-us/microsoft-365-copilot/how-microsoft-365-copilot-pages-works) - the collaborative document model and who can see a shared page
