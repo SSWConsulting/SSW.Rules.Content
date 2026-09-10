@@ -1,23 +1,28 @@
 ---
 type: rule
 title: Do you use AI artifacts to communicate ideas to stakeholders?
-seoDescription: Learn how AI artifacts from Claude, ChatGPT, Gemini and Copilot replace static wireframes, estimates and options papers with live deliverables stakeholders can drive themselves.
-guid: 5f22c37b-4a2a-4f60-b5db-ed389a72d8da
 uri: use-ai-artifacts
-created: 2026-09-10T00:00:00.000Z
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
   - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
 related:
   - rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
   - rule: public/uploads/rules/ai-for-prototype-development/rule.mdx
   - rule: public/uploads/rules/mockups-and-prototypes/rule.mdx
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-archivedreason: null
+guid: 5f22c37b-4a2a-4f60-b5db-ed389a72d8da
+seoDescription: 'Learn how AI artifacts from Claude, ChatGPT, Gemini and Copilot replace static wireframes, estimates and options papers with live deliverables stakeholders can drive themselves.'
+created: 2026-09-10T00:00:00.000Z
+createdBy: Chloe Lin
+createdByEmail: chloelin@ssw.com.au
+lastUpdated: 2026-09-10T15:57:50.005Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
+archivedreason: null
 ---
 
 In the old world, consultants had to rely on static images, heavy documentation, and boardroom gesticulation to communicate information and concepts to stakeholders and decision makers.
@@ -66,14 +71,7 @@ Take a cloud spend review. The data is the same in both cases. What changes is w
 
 **❌ Figure: Bad example - We used to show clients this. The numbers are all there, and nobody in the room can find the one that matters**
 
-<imageEmbed
-  alt="Azure spend dashboard with an environment filter, four headline figures, a stacked bar chart of spend by workload, and a cumulative burn chart"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Now we show them this. The same export as an artifact, so the client filters by environment and sees the overspend during the call"
-  src="/uploads/rules/use-ai-artifacts/sample-cloud-dashboard.png"
-/>
+<imageEmbed alt="Azure spend dashboard with an environment filter, four headline figures, a stacked bar chart of spend by workload, and a cumulative burn chart" size="large" showBorder={true} figurePrefix="good" figure="Now we show them this. The same export as an artifact, so the client filters by environment and sees the overspend during the call" src="/uploads/rules/use-ai-artifacts/sample-cloud-dashboard.png" />
 
 ## Why do artifacts beat static deliverables?
 
@@ -101,37 +99,30 @@ Because a document can only show what you already decided. An artifact lets the 
 
 Almost anything you currently send as a PDF, a slide, or a spreadsheet:
 
-| What you send today | What you could send instead |
-| --- | --- |
-| Wireframes and UI mockups in Figma | A clickable screen the client drives themselves |
-| A hosting options comparison table | A cost calculator with a user-count slider, so they watch the Azure bill move |
-| An estimate and roadmap in a spreadsheet | A timeline where ticking scope items moves the go-live date |
-| Architecture diagrams you redrew after the workshop | A sequence or C4 diagram built from the whiteboard photo and edited live on the call |
-| A 40-page handover Word doc | An interactive explainer wired to the config they actually have |
-| A monthly report PDF | A dashboard over their own sample export, filtered in front of them |
-| A plan for a PBI written in the ticket | A page the coding agent builds from the repo, showing the approach, the files it touches and the open questions, sent to a senior dev before you start |
+| What you send today                                 | What you could send instead                                                                                                                            |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Wireframes and UI mockups in Figma                  | A clickable screen the client drives themselves                                                                                                        |
+| A hosting options comparison table                  | A cost calculator with a user-count slider, so they watch the Azure bill move                                                                          |
+| An estimate and roadmap in a spreadsheet            | A timeline where ticking scope items moves the go-live date                                                                                            |
+| Architecture diagrams you redrew after the workshop | A sequence or C4 diagram built from the whiteboard photo and edited live on the call                                                                   |
+| A 40-page handover Word doc                         | An interactive explainer wired to the config they actually have                                                                                        |
+| A monthly report PDF                                | A dashboard over their own sample export, filtered in front of them                                                                                    |
+| A plan for a PBI written in the ticket              | A page the coding agent builds from the repo, showing the approach, the files it touches and the open questions, sent to a senior dev before you start |
 
 The roadmap is the one to try first. Scope conversations stall because "if we drop SSO, when do we ship?" is a question nobody can answer in the room. Build the timeline as an artifact with a checkbox per feature and the answer is a click. The client stops negotiating against your estimate and starts making trade-offs against their own deadline.
 
-<imageEmbed
-  alt="Azure migration strategy with a scope checklist of eight workloads, headline figures for go-live and annual saving, and a wave plan Gantt chart"
-  size="large"
-  showBorder={true}
-  figurePrefix="none"
-  figure="Unticking a workload moves the go-live date and the annual saving in front of the client, so scope becomes their trade-off rather than an argument about your estimate"
-  src="/uploads/rules/use-ai-artifacts/sample-cloud-migration-strategy.png"
-/>
+<imageEmbed alt="Azure migration strategy with a scope checklist of eight workloads, headline figures for go-live and annual saving, and a wave plan Gantt chart" size="large" showBorder={true} figurePrefix="none" figure="Unticking a workload moves the go-live date and the annual saving in front of the client, so scope becomes their trade-off rather than an argument about your estimate" src="/uploads/rules/use-ai-artifacts/sample-cloud-migration-strategy.png" />
 
 ## Which tool should you use?
 
 Whichever one your client already pays for. The four big assistants all do this now, and the differences that matter are where the thing gets hosted and who can open the link.
 
-| Tool | Vendor | Best for | Sharing |
-| --- | --- | --- | --- |
-| [Claude Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) ⭐ | Anthropic | Interactive pages and apps built inside the conversation, or from a coding session with [Claude Code](https://claude.com/blog/artifacts-in-claude-code) | Publish to a link, and the viewer needs no account |
-| [ChatGPT Sites](https://learn.chatgpt.com/docs/sites?surface=app) | OpenAI | Hosted web apps with storage, access controls and a database | Every deploy gets a production URL. Still in public beta |
-| [Gemini Canvas](https://support.google.com/gemini/answer/16047321) | Google | Docs, dashboards and apps, when you want the code back | Share link, or export the code to GitHub |
-| [Copilot Pages](https://support.microsoft.com/en-us/microsoft-365-copilot/how-microsoft-365-copilot-pages-works) | Microsoft | Collaborative documents inside Microsoft 365 | Shared through Teams, Outlook and the Microsoft 365 app |
+| Tool                                                                                                             | Vendor    | Best for                                                                                                                                                | Sharing                                                  |
+| ---------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Claude Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) ⭐    | Anthropic | Interactive pages and apps built inside the conversation, or from a coding session with [Claude Code](https://claude.com/blog/artifacts-in-claude-code) | Publish to a link, and the viewer needs no account       |
+| [ChatGPT Sites](https://learn.chatgpt.com/docs/sites?surface=app)                                                | OpenAI    | Hosted web apps with storage, access controls and a database                                                                                            | Every deploy gets a production URL. Still in public beta |
+| [Gemini Canvas](https://support.google.com/gemini/answer/16047321)                                               | Google    | Docs, dashboards and apps, when you want the code back                                                                                                  | Share link, or export the code to GitHub                 |
+| [Copilot Pages](https://support.microsoft.com/en-us/microsoft-365-copilot/how-microsoft-365-copilot-pages-works) | Microsoft | Collaborative documents inside Microsoft 365                                                                                                            | Shared through Teams, Outlook and the Microsoft 365 app  |
 
 Copilot Pages is the odd one out. It is a shared document you and Copilot edit together, not a page that runs, so it fits the handover doc and the options paper but not the clickable prototype.
 
@@ -144,8 +135,14 @@ Copilot Pages is the odd one out. It is a shared document you and Copilot edit t
   figure=""
 />
 
-## How do you get the most out of them?
+## Don’t start a client meeting with nothing to react to
 
-Never open a client meeting on a blank chat. Build a rough artifact beforehand, even a wrong one. People are far better at correcting something than specifying something, and "no, the approver goes second" gets you further in 10 seconds than 20 minutes of requirements questions.
+Before the meeting, create a rough first version of whatever you’re discussing - a mockup, proposal,  process, etc. It does not have to be correct.
 
-Use the client's real data. Artifacts are private to you until you share them, so building one on their real export is no different from opening that export on your laptop. The care goes into the link: share it with the people on the engagement, and never publish an artifact with real data to a public link.
+The reason is that people usually find it easier to say, “That part of the UX is wrong; move the approver after the manager,” than to answer broad questions like, “How should the approval process work?”
+
+So instead of spending 20 minutes asking client requirements questions, you show a mockup or proposal and let the client correct it. Their corrections quickly reveal what they actually want.
+
+In simple terms: give people something to edit, not a blank page to describe.
+
+Tip: Use the client's real data. Artifacts are private to you until you share them, so building one on their real export is no different from opening that export on your laptop. Never publish an artifact with real data to a public link.
