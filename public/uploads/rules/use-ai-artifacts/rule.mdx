@@ -8,6 +8,8 @@ created: 2026-09-10T00:00:00.000Z
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
   - rule: public/uploads/rules/ai-for-prototype-development/rule.mdx
@@ -82,6 +84,7 @@ Almost anything you currently send as a PDF, a slide, or a spreadsheet:
 | Architecture diagrams you redrew after the workshop | A sequence or C4 diagram built from the whiteboard photo and edited live on the call |
 | A 40-page handover Word doc | An interactive explainer wired to the config they actually have |
 | A monthly report PDF | A dashboard over their own sample export, filtered in front of them |
+| A plan for a PBI written in the ticket | A page the coding agent builds from the repo, showing the approach, the files it touches and the open questions, sent to a senior dev before you start |
 
 The roadmap one is the sleeper. Scope conversations stall because "if we drop SSO, when do we ship?" is a question nobody can answer in the room. Build the timeline as an artifact with a checkbox per feature and the answer is a click. The client stops negotiating against your estimate and starts making trade-offs against their own deadline.
 
@@ -118,30 +121,15 @@ Copilot Pages is the odd one out. It is a shared document you and Copilot edit t
 
 ## How do you get the most out of them?
 
-<boxEmbed
-  style="tips"
-  body={<>
-    **Tip:** Never open a client meeting on a blank chat. Build a rough artifact beforehand, even a wrong one. People are far better at correcting something than specifying something, and "no, the approver goes second" gets you further in 10 seconds than 20 minutes of requirements questions.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+Never open a client meeting on a blank chat. Build a rough artifact beforehand, even a wrong one. People are far better at correcting something than specifying something, and "no, the approver goes second" gets you further in 10 seconds than 20 minutes of requirements questions.
 
-<boxEmbed
-  style="warning"
-  body={<>
-    **Warning:** An artifact that works looks finished. Say the word "prototype" out loud, or your next meeting is an argument about why an app the client watched working still needs 8 sprints. Keep real customer data out of it too - use anonymised or sample data unless there is an agreement covering it.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+Use the client's real data. Artifacts are private to you until you share them, so building one on their real export is no different from opening that export on your laptop. The care goes into the link: share it with the people on the engagement, and never publish an artifact with real data to a public link.
 
 ***
 
 ### Learn more
 
-* [SSW: Do you generate UI mockups with AI?](/generate-ui-mockups-with-ai) - the sibling rule on AI-generated UI, covering v0 and Figma-to-code
-* [SSW: Do you use AI tools in your prototype development?](/ai-for-prototype-development) - the wider tool landscape when a prototype needs a real backend
+* [Anthropic: Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code) - artifacts built from a coding session, with use cases by role
 * [Anthropic: What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) - creating, editing, publishing and sharing Claude Artifacts
 * [OpenAI: Creating and managing ChatGPT Sites](https://help.openai.com/en/articles/20001339-creating-and-managing-chatgpt-sites) - hosting, access controls and what the deploy URL gives you
 * [Google: Create docs, apps and more with Canvas](https://support.google.com/gemini/answer/16047321) - what Gemini Canvas builds, and how the share link works
