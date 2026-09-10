@@ -11,9 +11,9 @@ seoDescription: Learn the best file transfer techniques for China. Discover why 
 created: 2026-04-09T06:43:01.274Z
 createdBy: 'LydiaCheng [SSW]'
 createdByEmail: lydiacheng@ssw.com.au
-lastUpdated: 2026-07-28T01:05:25.804Z
-lastUpdatedBy: Marcus Irmscher
-lastUpdatedByEmail: MarcusIrmscher@ssw.com.au
+lastUpdated: 2026-09-10T17:23:34.890Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 When working on international projects, especially video editing and remote collaboration - large file transfers are a common bottleneck. Between Australia and China, the "Great Firewall" often makes standard tools unusable or painfully slow.
@@ -22,7 +22,7 @@ When working on international projects, especially video editing and remote coll
 
 ## The pain
 
-SharePoint (default at SSW) is heavily throttled or inconsistent for users in China. Download speeds are often extremely slow, leading to:
+SharePoint (default for Australia) is heavily throttled or inconsistent for users in China. Download speeds are often extremely slow, leading to:
 
 * Broken video editing workflows
 * Delays in remote team collaboration
@@ -34,30 +34,47 @@ SharePoint (default at SSW) is heavily throttled or inconsistent for users in Ch
 * **Reliability** - Fewer interrupted uploads/downloads for large files (4K footage, high-bitrate audio)
 * **Collaboration** - Smoother "Hand-off" between AU editors and China-based video teams
 
-💡 To get started, follow the official guide on [how to use Google Drive](https://support.google.com/drive/answer/2424384).
+<boxEmbed
+  body={<>
+    To get started, follow the official guide on [how to use Google Drive](https://support.google.com/drive/answer/2424384).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
-<imageEmbed alt="Sharepoint-takes-2-hours" size="large" showBorder={false} figurePrefix="bad" figure="238 MB files shared through Sharepoint takes 2 hours" src="/uploads/rules/the-best-file-transfer-techniques-to-and-from-china/Sharepoints-takes-3-hour.png" />
+<imageEmbed alt="Sharepoint-takes-2-hours" size="large" showBorder={true} figurePrefix="bad" figure="238 MB files shared through Sharepoint takes 2 hours" src="/uploads/rules/the-best-file-transfer-techniques-to-and-from-china/Sharepoints-takes-3-hour.png" />
 
-<imageEmbed alt="Googledrive-takes-6-seconds" size="large" showBorder={false} figurePrefix="good" figure="353 MB files shared through GoogleDrive takes 6 seconds" src="/uploads/rules/the-best-file-transfer-techniques-to-and-from-china/googledrive-takes-6-seconds.png" />
+<imageEmbed alt="Googledrive-takes-6-seconds" size="large" showBorder={true} figurePrefix="good" figure="353 MB files shared through GoogleDrive takes 6 seconds" src="/uploads/rules/the-best-file-transfer-techniques-to-and-from-china/googledrive-takes-6-seconds.png" />
 
 ## What to do after uploading the video content
 
 Once the video content has been uploaded to Google Drive, send the following email to the editing team:
 
-```text
-Hi SSWTV Team,
-
-I have uploaded the video content to the Google Drive and it is now ready to be edited.
-
-Could you please:
-
-1. Create a work item for this video.
-2. Assign the work item to the appropriate editor.
-3. Begin the editing process when available.
-
-Please let me know if there are any issues accessing the files.
-
-Thanks!
-```
-
-**Figure: example of editing request email**
+<emailEmbed
+  from=""
+  to="SSW TV"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; VIDEO NAME &#125;&#125; - Ready for editing "
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi SSWTV Team,
+    
+    I have uploaded the &#123;&#123; VIDEO NAME &#125;&#125; files to Google Drive and it is now ready to be edited.
+    
+    &#123;&#123; GOOGLE DRIVE LINK &#125;&#125;
+    
+    Could you please:
+    
+    1. Create a work item for this video
+    2. Assign the work item to the appropriate editor
+    3. Begin the editing process when available
+    
+    Please let me know if there are any issues accessing the files.
+    
+    Thanks!
+  </>}
+  figurePrefix="none"
+  figure="Editing request email"
+/>
