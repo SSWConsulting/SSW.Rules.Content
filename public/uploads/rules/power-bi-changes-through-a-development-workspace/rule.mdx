@@ -14,7 +14,7 @@ seoDescription: How to manage Power BI report changes safely using a Git-connect
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-08-26T00:11:39.303Z
+lastUpdated: 2026-09-17T00:58:33.259Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
@@ -25,6 +25,8 @@ However, when an administrator needs to make a small Power BI report change with
 
 <endIntro />
 
+<youtubeEmbed url="https://youtu.be/octTaHeYEmI" description={"Video: Make Safe Power BI Report Changes in Minutes with Git | Ben Neoh | SSW Rules (7 min)"} />
+
 ## What is a Power BI workspace?
 
 A Power BI workspace is a shared location where users can view, edit, and manage reports, semantic models, and other Power BI items. Use the workspaces as follows:
@@ -33,44 +35,49 @@ A Power BI workspace is a shared location where users can view, edit, and manage
 * **Staging** – connected to main and used to validate approved changes
 * **Production** – contains approved reports used by end users and is updated only through the deployment pipeline
 
-## How does a workspace work with Git
+## How does a workspace work with Git?
 
-A workspace connects to one Git repository, one branch, and one repository folder at a time. Changes made in the workspace are compared with its connected branch:
-
-<imageEmbed alt="Connect branches to workspace" size="large" showBorder={false} figurePrefix="none" figure="Create and connect branch to the workspace" src="/uploads/rules/power-bi-changes-through-a-development-workspace/connect-branch-to-workspace.png" />
-
-<imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="Changes – workspace edits that have not been committed to Git" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
-
-<imageEmbed alt="Figure : Git history for power bi report" size="medium" showBorder={false} figurePrefix="good" figure="Git history for Power Bi report" src="/uploads/rules/power-bi-changes-through-a-development-workspace/azure-devops-powerbi-git.png" />
+A workspace connects to one Git repository, one branch, and one repository folder at a time. Changes made in the workspace are compared with its connected branch.
 
 ## How to commit changes from workspace
 
 1\. Open the Development workspace.
 
-2\. Create a feature branch from the latest main branch, switch the Sales Development workspace to the new feature branch.
+2\. Open **Source control** → **Branches** → **Switch branch** → **New Branch**, and create a feature branch from the latest main branch. The workspace switches to the new branch.
+
+<imageEmbed alt="Source control pane with Switch branch highlighted" size="medium" showBorder={false} figurePrefix="none" figure="Source control → Branches → Switch branch" src="/uploads/rules/power-bi-changes-through-a-development-workspace/source-control-switch-branch.png" />
+
+<imageEmbed alt="Switch branch dialog with New Branch highlighted" size="medium" showBorder={false} figurePrefix="none" figure="Switch branch → New Branch" src="/uploads/rules/power-bi-changes-through-a-development-workspace/switch-branch-new-branch.png" />
 
 3\. Edit, save, and test the report.
 
-4\. Open Source control (see image above)
+4\. Open **Source control** and review the changed items on the **Changes** tab.
 
-5\. Review the changed items.
+<imageEmbed alt="Changes – workspace edits that have not been committed to Git" size="large" showBorder={false} figurePrefix="none" figure="Changes – workspace edits that have not been committed to Git" src="/uploads/rules/power-bi-changes-through-a-development-workspace/power-bi-changes.png" />
 
-6\. Enter a clear commit message, and commit the changes
+5\. Enter a clear commit message and commit the changes.
 
-7\. Create a PR from the branch and ask for review
+6\. Create a PR from the branch and ask for review.
+
+<imageEmbed alt="Git history for Power BI report" size="medium" showBorder={false} figurePrefix="none" figure="Git history for Power BI report" src="/uploads/rules/power-bi-changes-through-a-development-workspace/azure-devops-powerbi-git.png" />
 
 ## How are Power BI changes deployed?
 
+<imageEmbed alt="Power BI deployment strategy" size="large" showBorder={false} figurePrefix="none" figure="Power BI deployment strategy" src="/uploads/rules/power-bi-changes-through-a-development-workspace/powerbi-deployment-strategy.png" />
+
+1\. Review and merge the approved pull request into main.
+
+2\. Sync the Staging workspace with the latest changes from main.
+
+3\. Test the updated reports in Staging.
+
+4\. Open the Power BI deployment pipeline.
+
 <imageEmbed alt="Power BI deployment pipeline" size="medium" showBorder={false} figurePrefix="none" figure="Power BI deployment pipeline example" src="/uploads/rules/safely-develop-and-deploy-power-bi-report-changes/powerbi-deployment-pipeline.png" />
 
-<imageEmbed alt="power bi deployment stragegy" size="large" showBorder={false} figurePrefix="good" figure="Figure: Power BI deployment pipeline" src="/uploads/rules/power-bi-changes-through-a-development-workspace/powerbi-deployment-strategy.png" />
+5\. Compare the Staging and Production workspaces.
 
-1. Review and merge the approved pull request into main
-2. Sync the Staging workspace with the latest changes from main.
-3. Test the updated reports in Staging.
-4. Open the Power BI deployment pipeline.
-5. Compare the Staging and Production workspaces.
-6. Deploy the approved changes to Production.
+6\. Deploy the approved changes to Production.
 
 Your changes are now live 🎉
 
