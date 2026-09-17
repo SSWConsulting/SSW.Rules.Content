@@ -1,8 +1,6 @@
 ---
 title: Do you safely develop and deploy Power BI report changes?
 uri: power-bi-safe-changes
-redirects:
-  - power-bi-changes-through-a-development-workspace
 categories:
   - category: categories/company-operations/rules-to-better-power-bi.mdx
   - category: categories/company-operations/rules-to-better-reporting-services.mdx
@@ -11,12 +9,14 @@ authors:
     url: 'https://www.ssw.com.au/people/ben-neoh'
 related:
   - rule: public/uploads/rules/do-you-know-powerbi-version-control-features/rule.mdx
+redirects:
+  - power-bi-changes-through-a-development-workspace
 guid: abbc22c1-a5f8-45b4-a3bb-a85aeab06751
 seoDescription: How to manage Power BI report changes safely using a Git-connected Development workspace
 created: 2026-07-16T01:02:06.796Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-09-17T00:58:33.259Z
+lastUpdated: 2026-09-17T07:36:55.451Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
@@ -27,7 +27,7 @@ However, when an administrator needs to make a small Power BI report change with
 
 <endIntro />
 
-<youtubeEmbed url="https://youtu.be/C7g6-QTw-9A" description={"Video: Make Safe Power BI Report Changes in Minutes with Git | Ben Neoh | SSW Rules (7 min)"} />
+<youtubeEmbed url="https://youtu.be/C7g6-QTw-9A" description="Video: Make Safe Power BI Report Changes in Minutes with Git | Ben Neoh | SSW Rules (7 min)" />
 
 ## What is a Power BI workspace?
 
@@ -41,7 +41,7 @@ A Power BI workspace is a shared location where users can view, edit, and manage
 
 A workspace connects to one Git repository, one branch, and one repository folder at a time. Changes made in the workspace are compared with its connected branch.
 
-<imageEmbed alt="Power BI report with the Edit button highlighted" size="large" showBorder={false} figurePrefix="bad" figure="Editing the report directly with the Edit button leaves no Git history" src="/uploads/rules/power-bi-safe-changes/bad-edit-report-directly.png" />
+<imageEmbed alt="Power BI report with the Edit button highlighted" size="medium" showBorder={false} figurePrefix="bad" figure="Editing the report directly with the Edit button leaves no Git history" src="/uploads/rules/power-bi-safe-changes/bad-edit-report-directly.png" />
 
 <imageEmbed alt="Development workspace with Source control highlighted" size="medium" showBorder={false} figurePrefix="good" figure="Making the change in a branch through Source control keeps a full Git history" src="/uploads/rules/power-bi-safe-changes/good-edit-through-source-control.png" />
 
