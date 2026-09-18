@@ -12,14 +12,15 @@ authors:
 related:
   - rule: public/uploads/rules/refer-to-email-subject/rule.mdx
   - rule: public/uploads/rules/follow-up-effectively/rule.mdx
+  - rule: public/uploads/rules/avoid-repetition/rule.mdx
 guid: 502965d9-d7ed-482c-941e-c4bafac56949
 seoDescription: 'When you chase someone for an action in Teams, link straight to the message so they are one click from where they need to act.'
 created: 2026-06-26T03:21:06.374Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-07-01T00:16:12.259Z
-lastUpdatedBy: AlexBlum-SSW
-lastUpdatedByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-09-18T10:20:45.064Z
+lastUpdatedBy: Sylvia Huang
+lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
 
 Following-up is key to get things done. See [Do you follow up tasks effectively?](https://www.ssw.com.au/rules/follow-up-effectively)
@@ -36,7 +37,7 @@ In Microsoft Teams, hover over the message, click the `Meatball menu (...)`, and
   body={<>
     Hi Adam,
     
-    Can you check the chat and &#123;&#123; ACTION &#125;&#125; when you get a chance?
+    Can you check the chat and {{ ACTION }} when you get a chance?
   </>}
   figurePrefix="bad"
   figure="No context and no link, so the reader has to scroll the channel to find the right message"
@@ -46,11 +47,11 @@ In Microsoft Teams, hover over the message, click the `Meatball menu (...)`, and
   body={<>
     Hi Adam,
     
-    RE: &#123;&#123; SUBJECT &#125;&#125;
+    RE: {{ SUBJECT }}
     
-    1\. Please see chat and &#123;&#123; ACTION &#125;&#125;:
+    1\. Please see chat and {{ ACTION }}:
     
-    &#123;&#123; INSERT LINK TO MESSAGE &#125;&#125;
+    {{ INSERT LINK TO MESSAGE }}
   </>}
   figurePrefix="good"
   figure="Clear context, a numbered ask, and a direct link to the exact message that needs the vote"
