@@ -5,7 +5,7 @@ guid: 0a9ddf5d-352b-4b2c-981d-9bd1c248f1da
 created: 2026-09-20T23:10:18.142Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-20T23:46:46.027Z
+lastUpdated: 2026-09-20T23:58:01.372Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -45,7 +45,7 @@ However it comes at the cost of:
 * Large JavaScript bundles negatively affect Core Web Vitals
 * Search engines having difficult indexing JavaScript dependent content 
 
-## Server Side Rendering (SSR)
+### Server Side Rendering (SSR)
 
 SSR generates the HTML on the server when a user requests the page. Unlike CSR, the browser receives HTML containing the rendered content without needing HTML to render the initial page. 
 
@@ -61,7 +61,7 @@ However it comes at the cost of:
 * Slow round requests can increase TTFB
 * May increase hosting costs
 
-## Static Site Generation (SSG)
+### Static Site Generation (SSG)
 
 SSG generates HTML ahead of time, typically during the build process. This means when a user visits the website, the server delivers an existing HTML file rather than generating it on demand. 
 
@@ -78,7 +78,7 @@ However it comes at the cost of:
 * Large sites can experience lengthy builds 
 * Build-time HTML cannot contain user-specific info
 
-## Incremental Site Regeneration (ISR)
+### Incremental Site Regeneration (ISR)
 
 ISR is an extension of SSG, it combines static page delivery with the ability to regenerate pages without rebuilding the entire website. 
 
@@ -104,3 +104,58 @@ However it comes at the cost of:
   figure=""
   style="info"
 />
+
+### Partial Prerendering (PPR)
+
+PPR combines static and dynamic rendering within a single page. The static portions are generated ahead of time, whilst dynamic content is rendered when the user makes a request and is streamed into the response. This strategy takes advantage of loading fallbacks whilst JavaScript is being executed.
+
+PPR is great for:
+
+* Combining fast static delivery with personalized content
+* Avoids blocking an entire page on slow dynamic operations
+* Allow static and dynamic content to have separate rendering behaviours
+
+However it comes at the cost of:
+
+* Additional architectural and caching complexity 
+* Dynamic sections may initially display loading states 
+
+## How to choose
+
+Choosing the right strategy starts with understanding your sites requirements, ask the following:
+
+How often does the content change? 
+
+* Rarely - use SSG to generate ahead of time
+* Every request - consider SSR or CSR
+
+Is the content the same for every visitor? 
+
+* Yes - prefer SSG or ISR 
+* No - consier SSR or CSR
+
+Does the content need to be indexed by search engines? 
+
+* Yes - prefer SSG, ISR, or SSR
+* No - CSR may be suitable
+
+How much traffic will the website receive?
+
+* High traffic - consider SSG or ISR to reduce server rendering and leverage CDN caching
+* Low traffic - SSR may be practical 
+
+How quickly must content change go live? 
+
+* Immediately - consider SSR or CSR
+* Within seconds or minutes - consider ISR with on-demand revalidation
+* Only after deployment - SSG is sufficient
+
+What is your infra and hosting budget?
+
+* Limited - SSG or CSR can use static hosting and reduce server-side rendering costs 
+* Flexible - SSR offers request time rendering 
+* Optimising costs at scale - consider SSG, ISR or PPR to avoid unnecessary rendering
+
+## The golden rule
+
+Render content as early as possible, but as late as necessary. Choose the simplest strategy that satisfies your requirements, and remember that different pages within the same app can use different rendering strategies.
