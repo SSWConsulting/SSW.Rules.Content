@@ -5,7 +5,7 @@ guid: 0a9ddf5d-352b-4b2c-981d-9bd1c248f1da
 created: 2026-09-20T23:10:18.142Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-20T23:45:05.804Z
+lastUpdated: 2026-09-20T23:46:46.027Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -95,3 +95,12 @@ However it comes at the cost of:
 * Users may receive stale content during revalidation
 * Cache invalidation adds complexity
 * Not appropriate for data requiring guaranteed real-time accuracy
+
+<boxEmbed
+  body={<>
+    SSW Rules uses ISR and pre-builds every rule and category page at deploy time. A TinaCloud webhook calls for revalidation for just the changed slug on each content save, so edits go live in just minutes without a rebuild
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
