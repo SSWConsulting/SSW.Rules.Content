@@ -5,7 +5,7 @@ guid: 0a9ddf5d-352b-4b2c-981d-9bd1c248f1da
 created: 2026-09-20T23:10:18.142Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-20T23:24:22.602Z
+lastUpdated: 2026-09-20T23:37:36.490Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -26,3 +26,53 @@ In short, rendering strategy impacts **when,** **where,** and **how** your websi
 4. Scalability - How much server work is required as traffic increases
 5. Content freshness - Whether users see real-time, cached or build time content
 6. Personalization - Whether pages can be customized per user
+
+## The primary rendering strategies 
+
+### Client Side Rendering (CSR)
+
+CSR generates the page's content in the users browser, the server sends an HTML shell, the browser downloads the associated JavaScript and executes it to render the page. 
+
+CSR is great for: 
+
+* Highly interactive applications (i.e. dashboards)
+* Reducing server-side rendering requirements
+* Applications where SEO is not a priority
+
+However it comes at the cost of:
+
+* Initial content being delayed as JavaScript downloads and executes
+* Large JavaScript bundles negatively affect Core Web Vitals
+* Search engines having difficult indexing JavaScript dependent content 
+
+## Server Side Rendering (SSR)
+
+SSR generates the HTML on the server when a user requests the page. Unlike CSR, the browser receives HTML containing the rendered content without needing HTML to render the initial page. 
+
+SSR is great for:
+
+* SEO dependent pages
+* Supporting request specific content and personalization
+* Retrieving fresh data for each request
+
+However it comes at the cost of:
+
+* Server rendering introduces computation for each uncached request 
+* Slow round requests can increase TTFB
+* May increase hosting costs
+
+## Static Site Generation (SSG)
+
+SSG generates HTML ahead of time, typically during the build process. This means when a user visits the website, the server delivers an existing HTML file rather than generating it on demand. 
+
+SSG is great for:
+
+* Fast delivery without request-time rendering
+* Minimal server computation (lowering host costs)
+* Search engines receive pre-rendered HTML
+
+However it comes at the cost of:
+
+* Changes to prebuilt content require rebuilding and redeploying affected pages
+* Large sites can experience lenghty builds 
+* Build-time HTML cannot contain user-specific info
