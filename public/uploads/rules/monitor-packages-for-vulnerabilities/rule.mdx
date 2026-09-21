@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you monitor your application for vulnerabilities?
+title: Do you monitor your application for dependency vulnerabilities?
 uri: monitor-packages-for-vulnerabilities
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
@@ -9,6 +9,10 @@ authors:
     url: 'https://www.ssw.com.au/people/chris-clement'
   - title: William Liebenberg
     url: 'https://www.ssw.com.au/people/william-liebenberg'
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: Matt Wicks
+    url: 'https://www.ssw.com.au/people/matt-wicks'
 related:
   - rule: public/uploads/rules/packages-up-to-date/rule.mdx
   - rule: public/uploads/rules/do-you-make-sure-you-get-brownie-points/rule.mdx
@@ -20,9 +24,9 @@ seoDescription: Monitor packages for vulnerabilities and ensure your application
 created: 2022-07-28T09:37:35.000Z
 createdBy: 'Chris Clement [SSW]'
 createdByEmail: 35278147+christoment@users.noreply.github.com
-lastUpdated: 2026-09-18T01:49:39.211Z
-lastUpdatedBy: 'Zeno Wang [SSW]'
-lastUpdatedByEmail: ZenoWang@ssw.com.au
+lastUpdated: 2026-09-21T23:37:52.541Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
 ---
 
@@ -38,13 +42,24 @@ One of the big challenges for developers to address is when a project has been d
 
 However, if you monitor the packages you have installed, and a vulnerability is reported, then as developers, we have a duty of care to inform our clients.
 
+### What should you monitor?
+
+Monitor every dependency source used by your application, including:
+
+* npm, NuGet, Maven, Gradle, pip and other package ecosystem
+* Transitive dependencies (dependencies of dependencies) 
+* Container base images
+* GitHub Actions and other CI/CD dependencies
+
 ### Level 0 - Manual tracking (not recommended)
 
-List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
+A developer can manually list packages and search vulnerability databases such as the [GitHub Advisory Database.](https://github.com/advisories)
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Tracking list of packages manually" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png" />
+This approach is slow, inconsistent, and usually stops once active development finishes.
 
-### Level 1 - Using tools to scan for vulnerabilities
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="bad" figure="Tracking list of packages manually" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png" />
+
+### Level 1 - Running local vulnerability scans
 
 Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries.
 
@@ -78,4 +93,44 @@ Some of the available tools in the market:
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Dependabot produces a vulnerability report periodically (and can raise a PR for you)" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Snyk produces a vulnerability detection alert email" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png" />
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Snyk produces a vulnerability detection alert email" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png" />
+
+### Level 3 - Preventing vulnerable dependencies from being merged
+
+Monitoring existing dependencies is not half of the job, your pull requests should also be checked for newly introduced vulnerabilities. 
+
+For GitHub repositories, use the [Dependency Review Action](https://github.com/actions/dependency-review-action) as apart of your CI. This prevents a pull request from adding a dependency with a known high or critical vulnerability.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The Dependency Review Action only works on public repositories, or private repositories with [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) enabled. On a private repository without it, the action will fail the build.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+```yaml
+name: Dependency Review
+
+on: 
+  pull_request: 
+    
+permissions: 
+  contents: read 
+    
+jobs: 
+  dependency-review: 
+    runs-on: ubuntu-latest 
+        
+    steps: 
+      - uses: actions/checkout@v6 
+            
+      - uses: actions/dependency-review-action@v5 
+        with: 
+          fail-on-severity: high
+```
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Who's better at fighting the vulnerabilities? " src="/uploads/rules/monitor-packages-for-vulnerabilities/dependabot-vs-renovate.png" />
+
+&#x20;
