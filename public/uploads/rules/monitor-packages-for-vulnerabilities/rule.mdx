@@ -101,6 +101,15 @@ Monitoring existing dependencies is not half of the job, your pull requests shou
 
 For GitHub repositories, use the [Dependency Review Action](https://github.com/actions/dependency-review-action) as apart of your CI. This prevents a pull request from adding a dependency with a known high or critical vulnerability.
 
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The Dependency Review Action only works on public repositories, or private repositories with [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) enabled. On a private repository without it, the action will fail the build.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 ```yaml
 name: Dependency Review
 
