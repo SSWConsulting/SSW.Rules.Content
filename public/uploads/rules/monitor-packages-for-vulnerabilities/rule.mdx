@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you monitor your application for vulnerabilities?
+title: Do you monitor your application for dependency vulnerabilities?
 uri: monitor-packages-for-vulnerabilities
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
@@ -20,9 +20,9 @@ seoDescription: Monitor packages for vulnerabilities and ensure your application
 created: 2022-07-28T09:37:35.000Z
 createdBy: 'Chris Clement [SSW]'
 createdByEmail: 35278147+christoment@users.noreply.github.com
-lastUpdated: 2026-09-18T01:49:39.211Z
-lastUpdatedBy: 'Zeno Wang [SSW]'
-lastUpdatedByEmail: ZenoWang@ssw.com.au
+lastUpdated: 2026-09-21T23:16:10.973Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
 ---
 
@@ -40,9 +40,14 @@ However, if you monitor the packages you have installed, and a vulnerability is 
 
 ### Level 0 - Manual tracking (not recommended)
 
-List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
+Manual tracking consists of: 
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Tracking list of packages manually" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png" />
+* Listing all installed packages 
+* Cross-check with the [advisory board](https://github.com/advisories)
+* Googling for CVE's
+* Updating versions one at a time 
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="bad" figure="Tracking list of packages manually" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png" />
 
 ### Level 1 - Using tools to scan for vulnerabilities
 
@@ -78,4 +83,4 @@ Some of the available tools in the market:
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Dependabot produces a vulnerability report periodically (and can raise a PR for you)" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Snyk produces a vulnerability detection alert email" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png" />
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Snyk produces a vulnerability detection alert email" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png" />
