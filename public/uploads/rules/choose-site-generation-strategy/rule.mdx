@@ -1,4 +1,5 @@
 ---
+type: rule
 title: Do you choose the right rendering strategy for your website?
 uri: choose-site-generation-strategy
 categories:
@@ -24,30 +25,30 @@ lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Teams often pick a rendering strategy by framework default and move on. This rendering strategy often decides how fast your page loads, whether search engines can read them, how stale your content gets, and ultimately how much you pay your hosting provider. 
+Teams often pick a rendering strategy by framework default and move on. This rendering strategy often decides how fast your page loads, whether search engines can read them, how stale your content gets, and ultimately how much you pay your hosting provider.
 
-Get it wrong and you can end up server rendering a marketing page that changes twice a year, or shipping an your home page as an empty shell to Google when they go to rank it.
+Get it wrong and you can end up server rendering a marketing page that changes twice a year, or shipping your home page as an empty shell to Google when they go to rank it.
 
 <endIntro />
 
 ## Why rendering strategy matters
 
-In short, rendering strategy impacts **when,** **where,** and **how** your website is generated, affecting 6 key areas: 
+In short, rendering strategy impacts **when,** **where,** and **how** your website is generated, affecting 6 key areas:
 
-1. Performance - Time-to-First-Byte (TTFB), First Contentful Paint (FCP), Largest Contentful Paint (LCP) and initial loading speed 
-2. SEO - How easily search engines can discover and index your content 
-3. Hosting costs - The rate at which a server needs to fulfill requests  
+1. Performance - Time-to-First-Byte (TTFB), First Contentful Paint (FCP), Largest Contentful Paint (LCP) and initial loading speed
+2. SEO - How easily search engines can discover and index your content
+3. Hosting costs - The rate at which a server needs to fulfill requests
 4. Scalability - How much server work is required as traffic increases
 5. Content freshness - Whether users see real-time, cached or build time content
 6. Personalization - Whether pages can be customized per user
 
-## The primary rendering strategies 
+## The primary rendering strategies
 
-### Client Side Rendering (CSR)
+### Client-Side Rendering (CSR)
 
-CSR generates the page's content in the users browser, the server sends an HTML shell, the browser downloads the associated JavaScript and executes it to render the page. 
+CSR generates the page's content in the user's browser, the server sends an HTML shell, the browser downloads the associated JavaScript and executes it to render the page.
 
-CSR is great for: 
+CSR is great for:
 
 * Highly interactive applications (i.e. dashboards)
 * Reducing server-side rendering requirements
@@ -57,11 +58,13 @@ However it comes at the cost of:
 
 * Initial content being delayed as JavaScript downloads and executes
 * Large JavaScript bundles negatively affect Core Web Vitals
-* Search engines having difficult indexing JavaScript dependent content 
+* Search engines having difficulty indexing JavaScript dependent content
+
+CSR is a poor default for public content pages because it delays initial content and can make indexing harder. Sometimes it is the only practical option, such as a static-only deployment that needs live data or a browser-only integration. See [client-side fetching in Next.js](/fetch-data-nextjs) for an example.
 
 ### Server Side Rendering (SSR)
 
-SSR generates the HTML on the server when a user requests the page. Unlike CSR, the browser receives HTML containing the rendered content without needing JavaScript to render the initial page. 
+SSR generates the HTML on the server when a user requests the page. Unlike CSR, the browser receives HTML containing the rendered content without needing JavaScript to render the initial page.
 
 SSR is great for:
 
@@ -71,13 +74,13 @@ SSR is great for:
 
 However it comes at the cost of:
 
-* Server rendering introduces computation for each uncached request 
-* Slow round requests can increase TTFB
+* Server rendering introduces computation for each uncached request
+* Slow upstream requests can increase TTFB
 * May increase hosting costs
 
 ### Static Site Generation (SSG)
 
-SSG generates HTML ahead of time, typically during the build process. This means when a user visits the website, the server delivers an existing HTML file rather than generating it on demand. 
+SSG generates HTML ahead of time, typically during the build process. This means when a user visits the website, the server delivers an existing HTML file rather than generating it on demand.
 
 SSG is great for:
 
@@ -89,16 +92,16 @@ SSG is great for:
 However it comes at the cost of:
 
 * Changes to pre-built content require rebuilding and redeploying affected pages
-* Large sites can experience lengthy builds 
+* Large sites can experience lengthy builds
 * Build-time HTML cannot contain user-specific info
 
 ### Incremental Static Regeneration (ISR)
 
-ISR is an extension of SSG, it combines static page delivery with the ability to regenerate pages without rebuilding the entire website. 
+ISR is an extension of SSG, it combines static page delivery with the ability to regenerate pages without rebuilding the entire website.
 
 Users still receive pre-generated HTML pages, but individual cached pages can be regenerated using time-based or on-demand re-validation as a rebuild signal.
 
-ISR is great for: 
+ISR is great for:
 
 * Static delivery speed with the ability to refresh content
 * Avoids full-site rebuilds for individual content updates
@@ -110,18 +113,11 @@ However it comes at the cost of:
 * Cache invalidation adds complexity
 * Not appropriate for data requiring guaranteed real-time accuracy
 
-<boxEmbed
-  body={<>
-    SSW Rules uses ISR and pre-builds every rule and category page at deploy time. A TinaCloud webhook calls for revalidation for just the changed slug on each content save, so edits go live in just minutes without a rebuild
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
-/>
+For an example and the SSW Rules case study, see [Incremental Static Regeneration (ISR) in Next.js](/fetch-data-nextjs).
 
 ### Partial Prerendering (PPR)
 
-PPR combines static and dynamic rendering within a single page. The static portions are generated ahead of time, whilst dynamic content is rendered when the user makes a request and is streamed into the response. This strategy takes advantage of loading fallbacks whilst JavaScript is being executed.
+PPR combines static and dynamic rendering within a single page. The static portions are generated ahead of time, whilst dynamic content is rendered when the user makes a request and is streamed into the response. Loading fallbacks are shown while the server prepares the dynamic content.
 
 PPR is great for:
 
@@ -131,24 +127,24 @@ PPR is great for:
 
 However it comes at the cost of:
 
-* Additional architectural and caching complexity 
-* Dynamic sections may initially display loading states 
+* Additional architectural and caching complexity
+* Dynamic sections may initially display loading states
 
 ## How to choose
 
-Choosing the right strategy starts with understanding your sites requirements, ask the following:
+Choosing the right strategy starts with understanding your site's requirements, ask the following:
 
-How often does the content change? 
+How often does the content change?
 
 * Rarely - use SSG to generate ahead of time
 * Every request - consider SSR or CSR
 
-Is the content the same for every visitor? 
+Is the content the same for every visitor?
 
-* Yes - prefer SSG or ISR 
-* No - consier SSR or CSR
+* Yes - prefer SSG or ISR
+* No - consider SSR or CSR
 
-Does the content need to be indexed by search engines? 
+Does the content need to be indexed by search engines?
 
 * Yes - prefer SSG, ISR, or SSR
 * No - CSR may be suitable
@@ -156,9 +152,9 @@ Does the content need to be indexed by search engines?
 How much traffic will the website receive?
 
 * High traffic - consider SSG or ISR to reduce server rendering and leverage CDN caching
-* Low traffic - SSR may be practical 
+* Low traffic - SSR may be practical
 
-How quickly must content change go live? 
+How quickly must content change go live?
 
 * Immediately - consider SSR or CSR
 * Within seconds or minutes - consider ISR with on-demand revalidation
@@ -166,8 +162,8 @@ How quickly must content change go live?
 
 What is your infra and hosting budget?
 
-* Limited - SSG or CSR can use static hosting and reduce server-side rendering costs 
-* Flexible - SSR offers request time rendering 
+* Limited - SSG or CSR can use static hosting and reduce server-side rendering costs
+* Flexible - SSR offers request time rendering
 * Optimising costs at scale - consider SSG, ISR or PPR to avoid unnecessary rendering
 
 ## The golden rule
