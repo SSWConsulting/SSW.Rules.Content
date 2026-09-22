@@ -115,7 +115,16 @@ However it comes at the cost of:
 * Cache invalidation adds complexity
 * Not appropriate for data requiring guaranteed real-time accuracy
 
-For an example and the SSW Rules case study, see [Incremental Static Regeneration (ISR) in Next.js](/fetch-data-nextjs).
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tip:** SSW Rules uses ISR and a TinaCloud webhook to revalidate affected pages. With over 3,000 rules, a rule update takes about 7 minutes to appear. This is an observed publishing time, not a fixed ISR interval.
+  </>}
+  figurePrefix="none"
+  figure="SSW Rules uses on-demand revalidation for content updates"
+/>
+
+For a code example, see [Incremental Static Regeneration (ISR) in Next.js](/fetch-data-nextjs).
 
 ### Partial Prerendering (PPR)
 
