@@ -1,18 +1,21 @@
 ---
 title: Do you know when to use System One vs System Two AI
 uri: system-one-vs-system-two-ai
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
 guid: d3a2d431-1d2e-4be6-b599-e8fa289f2a9a
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-23T04:24:20.156Z
+lastUpdated: 2026-09-23T04:28:52.412Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding. 
+Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding.
 
-System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Save generative system 2 models like Claude and ChatGPT for jobs that need reasoning or words. 
+System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Save generative system 2 models like Claude and ChatGPT for jobs that need reasoning or words.
 
 <endIntro />
 
@@ -20,10 +23,10 @@ System 1 models are built for that, you ask typed questions and you get typed an
 
 The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which splits human thinking into two modes. AI models are now splitting the same way.
 
-* **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort. 
+* **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort.
 * **System 2** - is slow, deliberate an analytical. The thinking deployed for reasoning, writing and planning
 
-Chat interfaces trained us to treat every AI job as System 2. 
+Chat interfaces trained us to treat every AI job as System 2.
 
 ## How do they compare?
 
@@ -48,7 +51,7 @@ Reach for it when the answer fits in a dropdown.
   style="greybox"
   body={<>
     **Prompt:** "Read this ticket. Reply ONLY with one of: billing, bug, feature. No other text."
-
+    
     **Response:** "Based on the ticket, this looks like a **bug**."
   </>}
   figurePrefix="bad"
@@ -59,7 +62,7 @@ Reach for it when the answer fits in a dropdown.
   style="greybox"
   body={<>
     **Question (choice):** Which queue? billing | bug | feature
-
+    
     **Response:** bug (0.91), billing (0.06), feature (0.03)
   </>}
   figurePrefix="good"
