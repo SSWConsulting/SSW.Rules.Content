@@ -172,6 +172,15 @@ Licenses define what you can and cannot do with the code. Legal issues can emerg
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Licensing mentioned" src="/uploads/rules/choose-dependencies-correctly/licensing-good.png" />
 
+### 9. Does it have known vulnerabilities?
+
+Check for known vulnerabilities before you install a package, not after. Your tooling can often do this for you:
+
+* **.NET** - NuGet has built-in vulnerability auditing, so installing or restoring a vulnerable package will often raise build warnings (e.g. `NU1902`, `NU1903`)
+* **JavaScript** - run `npm audit` (or `pnpm audit` / `yarn npm audit`) after adding a package
+
+Don't ignore these warnings. If a package already has open advisories, pick a patched version or a different package. See [monitoring for dependency vulnerabilities](/monitor-packages-for-vulnerabilities) to keep checking after it's installed.
+
 ## Documenting dependencies the right way
 
 ### Have a 2nd pair of eyes
@@ -182,7 +191,9 @@ Lastly before deciding to install the library, check with another developer that
 
 Always [keep track of the reasoning](/document-discoveries) when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project.
 
-Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
+Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes.
+
+The best way to record the decision to add a new package is with an [Architectural Decision Record (ADR)](/architectural-decision-records). ADRs capture the context, the options you considered, and why you chose one over the others. A [package audit log](/package-audit-log) is also a great way to keep a running list of every package decision.
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A markdown file should include your reasons to assist future developers" src="/uploads/rules/choose-dependencies-correctly/md-decision-reasons.png" />
 
