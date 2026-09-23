@@ -1,5 +1,6 @@
 ---
-title: Do you know when to use System One vs System Two AI
+title: Do you know when to use System One vs System Two AI?
+seoDescription: Learn when to use fast System 1 decision models like Jev to classify, route and score, and when to use System 2 LLMs like Claude and ChatGPT to write and reason.
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 uri: system-one-vs-system-two-ai
@@ -31,19 +32,19 @@ System 1 models are built for that, you ask typed questions and you get typed an
 The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which splits human thinking into two modes. AI models are now splitting the same way.
 
 * **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort.
-* **System 2** - is slow, deliberate an analytical. The thinking deployed for reasoning, writing and planning
+* **System 2** - is slow, deliberate and analytical. The thinking deployed for reasoning, writing and planning
 
 Chat interfaces trained us to treat every AI job as System 2.
 
 ## How do they compare?
 
-|          | System 1                                                                              | System 2                                                      |
-| -------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| Input    | A state (data) and a question (choice, score, or noul)                                | Text, images, files, audio                                    |
-| Output   | Structured JSON data containing typed decisions, probabilities, and confidence scores | Free-form text or code                                        |
-| Speed    | Ultra-fast - \<1ms                                                                    | Seconds to minutes                                            |
-| Cost     | Pay for only input tokens                                                             | Pay for both reasoning tokens and final visible output tokens |
-| Best for | Classify, route, score, gate                                                          | Write, summarise, reason, plan                                |
+|          | System 1                                                 | System 2                           |
+| -------- | -------------------------------------------------------- | ---------------------------------- |
+| Input    | Data plus typed questions (yes/no, choice or score)      | Text, images, files, audio         |
+| Output   | Typed decisions with probabilities and confidence scores | Free-form text or code             |
+| Speed    | Fast - about 100ms                                       | Seconds to minutes                 |
+| Cost     | Input tokens only                                        | Input, reasoning and output tokens |
+| Best for | Classify, route, score, gate                             | Write, summarise, reason, plan     |
 
 ## When should you use System 1?
 
