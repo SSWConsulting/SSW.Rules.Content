@@ -34,3 +34,64 @@ Chat interfaces trained us to treat every AI job as System 2.
 | Speed    | Ultra-fast - \<1ms                                                                    | Seconds to minutes                                            |
 | Cost     | Pay for only input tokens                                                             | Pay for both reasoning tokens and final visible output tokens |
 | Best for | Classify, route, score, gate                                                          | Write, summarise, reason, plan                                |
+
+## When should you use System 1?
+
+Reach for it when the answer fits in a dropdown.
+
+* **Triage** - Is this email urgent? Which queue does this ticket belong in?
+* **Routing** - Does this question need the cheap model, the expensive one, or just a database lookup?
+* **Gating** - Does this shell command need a human to approve it before your AI Agent runs it?
+* **Scoring** - How well does this CV match the rubric, from 1 to 5?
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Prompt:** "Read this ticket. Reply ONLY with one of: billing, bug, feature. No other text."
+
+    **Response:** "Based on the ticket, this looks like a **bug**."
+  </>}
+  figurePrefix="bad"
+  figure="Using a System 2 model for a System 1 job - slow, expensive, and your parser breaks"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Question (choice):** Which queue? billing | bug | feature
+
+    **Response:** bug (0.91), billing (0.06), feature (0.03)
+  </>}
+  figurePrefix="good"
+  figure="A System 1 model returns a typed answer and tells you how sure it is"
+/>
+
+The probabilities are the bonus. Auto-route anything above 0.9 and send anything below 0.6 to a person.
+
+## When should you use System 2?
+
+Use it when the output is words or code, or the task takes more than one step.
+
+* **Writing** - Email replies, summaries, docs
+* **Reasoning** - Planning, debugging, multi-step agent work
+* **Extracting exact values** - System 1 models can't reliably pull out dates, amounts or counts
+* **Explaining a decision** - System 1 gives you a probability, not a reason
+
+## How do you use both together?
+
+Decide first, generate second. System 1 reads the input, your code branches on the answer, and only the cases that need words reach the LLM.
+
+For example, take a website enquiry form. [Jev](https://jevai.net/) answers three questions in a single call: Is this spam? Sales or support? Which state? Spam is dropped for a fraction of a cent. Everything else goes to Claude, which drafts a reply for the right person.
+
+Jev launched in September 2026, so pilot it on a low-risk pipeline before you put it anywhere critical.
+
+***
+
+### Learn more
+
+* [SSW: Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+* [SSW: Do you use agentic workflows?](/agentic-workflows)
+* [SSW: Do you build custom agents?](/build-custom-agents)
+* [Jev AI](https://jevai.net/) - Official site and API docs
+* [A deep dive into Jev](https://flaviocopes.com/jev/) - Question types, limits and harness patterns
+* [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) - Where System 1 and System 2 come from
