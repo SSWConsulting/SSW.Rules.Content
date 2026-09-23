@@ -1,0 +1,108 @@
+---
+title: Do you know when to use System One vs System Two AI?
+seoDescription: Learn when to use fast System 1 decision models like Jev to classify, route and score, and when to use System 2 LLMs like Claude and ChatGPT to write and reason.
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+uri: system-one-vs-system-two-ai
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+related:
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/agentic-workflows/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
+  - rule: public/uploads/rules/use-system-prompt/rule.mdx
+guid: d3a2d431-1d2e-4be6-b599-e8fa289f2a9a
+created: 2026-09-23T04:06:42.322Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-09-23T04:28:52.412Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+---
+
+Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding.
+
+System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Save generative system 2 models like Claude and ChatGPT for jobs that need reasoning or words.
+
+<endIntro />
+
+## What are System 1 and System 2 AI?
+
+The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which splits human thinking into two modes. AI models are now splitting the same way.
+
+* **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort.
+* **System 2** - is slow, deliberate and analytical. The thinking deployed for reasoning, writing and planning
+
+Chat interfaces trained us to treat every AI job as System 2.
+
+## How do they compare?
+
+|          | System 1                                                 | System 2                           |
+| -------- | -------------------------------------------------------- | ---------------------------------- |
+| Input    | Data plus typed questions (yes/no, choice or score)      | Text, images, files, audio         |
+| Output   | Typed decisions with probabilities and confidence scores | Free-form text or code             |
+| Speed    | Fast - about 100ms                                       | Seconds to minutes                 |
+| Cost     | Input tokens only                                        | Input, reasoning and output tokens |
+| Best for | Classify, route, score, gate                             | Write, summarise, reason, plan     |
+
+## When should you use System 1?
+
+Reach for it when the answer fits in a dropdown.
+
+* **Triage** - Is this email urgent? Which queue does this ticket belong in?
+* **Routing** - Does this question need the cheap model, the expensive one, or just a database lookup?
+* **Gating** - Does this shell command need a human to approve it before your AI Agent runs it?
+* **Scoring** - How well does this CV match the rubric, from 1 to 5?
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Prompt:** "Read this ticket. Reply ONLY with one of: billing, bug, feature. No other text."
+    
+    **Response:** "Based on the ticket, this looks like a **bug**."
+  </>}
+  figurePrefix="bad"
+  figure="Using a System 2 model for a System 1 job - slow, expensive, and your parser breaks"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Question (choice):** Which queue? billing | bug | feature
+    
+    **Response:** bug (0.91), billing (0.06), feature (0.03)
+  </>}
+  figurePrefix="good"
+  figure="A System 1 model returns a typed answer and tells you how sure it is"
+/>
+
+The probabilities are the bonus. Auto-route anything above 0.9 and send anything below 0.6 to a person.
+
+## When should you use System 2?
+
+Use it when the output is words or code, or the task takes more than one step.
+
+* **Writing** - Email replies, summaries, docs
+* **Reasoning** - Planning, debugging, multi-step agent work
+* **Extracting exact values** - System 1 models can't reliably pull out dates, amounts or counts
+* **Explaining a decision** - System 1 gives you a probability, not a reason
+
+## How do you use both together?
+
+Decide first, generate second. System 1 reads the input, your code branches on the answer, and only the cases that need words reach the LLM.
+
+For example, take a website enquiry form. [Jev](https://jevai.net/) answers three questions in a single call: Is this spam? Sales or support? Which state? Spam is dropped for a fraction of a cent. Everything else goes to Claude, which drafts a reply for the right person.
+
+Jev launched in September 2026, so pilot it on a low-risk pipeline before you put it anywhere critical.
+
+***
+
+### Learn more
+
+* [SSW: Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+* [SSW: Do you use Agentic Workflows?](/agentic-workflows)
+* [SSW: Do you build custom agents for complex tasks?](/build-custom-agents)
+* [Jev AI](https://jevai.net/) - Official site and API docs
+* [A deep dive into Jev](https://flaviocopes.com/jev/) - Question types, limits and harness patterns
+* [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) - Where System 1 and System 2 come from
