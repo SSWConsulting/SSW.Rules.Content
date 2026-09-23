@@ -5,13 +5,32 @@ guid: d3a2d431-1d2e-4be6-b599-e8fa289f2a9a
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-23T04:07:09.378Z
+lastUpdated: 2026-09-23T04:24:20.156Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Intro
+Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding. 
+
+System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Save generative system 2 models like Claude and ChatGPT for jobs that need reasoning or words. 
 
 <endIntro />
 
-Body
+## What are System 1 and System 2 AI?
+
+The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which splits human thinking into two modes. AI models are now splitting the same way.
+
+* **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort. 
+* **System 2** - is slow, deliberate an analytical. The thinking deployed for reasoning, writing and planning
+
+Chat interfaces trained us to treat every AI job as System 2. 
+
+## How do they compare?
+
+|          | System 1                                                                              | System 2                                                      |
+| -------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Input    | A state (data) and a question (choice, score, or noul)                                | Text, images, files, audio                                    |
+| Output   | Structured JSON data containing typed decisions, probabilities, and confidence scores | Free-form text or code                                        |
+| Speed    | Ultra-fast - \<1ms                                                                    | Seconds to minutes                                            |
+| Cost     | Pay for only input tokens                                                             | Pay for both reasoning tokens and final visible output tokens |
+| Best for | Classify, route, score, gate                                                          | Write, summarise, reason, plan                                |
