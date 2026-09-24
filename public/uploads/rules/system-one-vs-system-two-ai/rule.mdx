@@ -23,7 +23,7 @@ lastUpdatedByEmail: JoshBerman@ssw.com.au
 
 Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding.
 
-System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Save generative system 2 models like Claude and ChatGPT for jobs that need reasoning or words.
+System 1 models are built for that, you ask typed questions and you get typed answers with probabilities in blazing fast times. Generative System 2 models like Claude and ChatGPT shine at jobs that need reasoning or words. Don't guess which one you need - test them on your own data and let cost, accuracy and speed decide.
 
 <endIntro />
 
@@ -36,7 +36,9 @@ The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which spl
 
 Recent chat interfaces trained us to treat every AI job as System 2.
 
-## How do they compare?
+## How do they typically compare?
+
+These are tendencies, not hard rules. The lines blur once you tune an LLM for short answers (more on that below).
 
 |          | System 1                                                    | System 2                           |
 | -------- | ----------------------------------------------------------- | ---------------------------------- |
@@ -48,7 +50,7 @@ Recent chat interfaces trained us to treat every AI job as System 2.
 
 ## When should you use System 1?
 
-Reach for it when the answer fits in a dropdown.
+It's a strong candidate when the answer fits in a dropdown.
 
 * **Triage** - Is this email urgent? Which queue does this ticket belong in? Which branch of your workflow should this run down?
 * **Routing** - Does this question need the cheap model, the expensive one, or just a database lookup?
@@ -58,22 +60,11 @@ Reach for it when the answer fits in a dropdown.
 <boxEmbed
   style="greybox"
   body={<>
-    **Prompt:** "Read this ticket. Reply ONLY with one of: billing, bug, feature. No other text."
-    
-    **Response:** "Based on the ticket, this looks like a **bug**."
-  </>}
-  figurePrefix="bad"
-  figure="Using a System 2 model for a System 1 job - slow, expensive, and your parser breaks"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
     **Question (choice):** Which queue? billing | bug | feature
     
     **Response:** bug (0.91), billing (0.06), feature (0.03)
   </>}
-  figurePrefix="good"
+  figurePrefix="none"
   figure="A System 1 model returns a typed answer and tells you how sure it is"
 />
 
@@ -88,11 +79,61 @@ Use it when the output is words or code, or when the model has to work out its o
 * **Extracting exact values** - System 1 models can't reliably pull out dates, amounts or counts
 * **Explaining a decision** - System 1 gives you a probability, not a reason
 
+## How do you choose the right model?
+
+Don't label the problem as System 1 or System 2 and then pick from the shortlist. Put the candidates side by side on your own data and pick the one that fits the job.
+
+* **Build a test set** - 50-100 real inputs with the answer you expect
+* **Run every candidate** - A System 1 model like Jev, a small LLM, and a frontier LLM
+* **Measure three things** - Accuracy, p50/p95 latency, and cost per 1,000 calls
+* **Pick per job** - The winner for triage might lose for scoring
+
+You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and turn on logprobs, and you get one label back with a probability for each option. That's a fair fight on cost and speed, not a strawman.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Check your provider first.** Not every API exposes logprobs. OpenAI does, so confirm yours before you build the test around it.
+
+    **Use single-token labels.** With `max_tokens` set to 1, you only see the first token. If "billing" and "bug" both start with "b", the probabilities mean nothing. Use labels like `A`, `B`, `C` or check each label is one token.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Routing tickets is a dropdown question, so it's a System 1 job. Let's plug in Jev."
+  </>}
+  figurePrefix="bad"
+  figure="Picking a model because the task feels like System 1 or System 2"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Test set:** 100 real tickets (example numbers)
+
+    * **Jev** - 94% accurate, 110ms, $0.40 per 1,000 calls
+    * **Small LLM (max_tokens = 1, logprobs)** - 91% accurate, 350ms, $0.30 per 1,000 calls
+    * **Frontier LLM** - 96% accurate, 1.8s, $6.00 per 1,000 calls
+
+    **Decision:** Jev for triage. Frontier accuracy isn't worth 15x the cost for this job.
+  </>}
+  figurePrefix="good"
+  figure="Measuring the candidates on your own data, then picking the one that fits"
+/>
+
+Re-run the test when a new model ships or your data changes. Today's winner won't be next quarter's.
+
 ## How do you use both together?
 
 Decide first, generate second. System 1 reads the input, your code branches on the answer, and only the cases that need words reach the LLM.
 
 For example, take a website enquiry form. [Jev](https://typesafe.ai) answers three questions in a single call: Is this spam? Sales or support? Which state? Spam is dropped for a fraction of a cent. Everything else goes to Claude, which drafts a reply for the right person.
+
+Add a confidence gate to your harness for the best of both. System 1 handles the answers it's sure about. Anything below your threshold escalates to an LLM, or to a person. You only pay LLM prices for the hard cases.
 
 Jev launched in September 2026, so pilot it on a low-risk pipeline before you put it anywhere critical.
 
