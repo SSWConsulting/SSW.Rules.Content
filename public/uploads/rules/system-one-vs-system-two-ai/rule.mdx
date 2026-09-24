@@ -16,7 +16,7 @@ seoDescription: 'Learn when to use fast System 1 decision models like Jev to cla
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-24T06:49:12.950Z
+lastUpdated: 2026-09-24T06:56:15.829Z
 lastUpdatedBy: HarleyJackson@ssw.com.au
 lastUpdatedByEmail: harleyjackson@ssw.com.au
 ---
@@ -31,8 +31,8 @@ System 1 models are built for that, you ask typed questions and you get typed an
 
 The term comes from Daniel Kahneman's “*Thinking, Fast and Slow”,* which splits human thinking into two modes. AI models are now splitting the same way.
 
-* **System 1** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort.
-* **System 2** - is slow, deliberate and analytical. The thinking deployed for reasoning, writing and planning
+* **System 1 (aka Jev)** - is fast and unconscious, it runs constantly without you noticing. Assessing faces, patterns, senses and impressions. It costs no effort.
+* **System 2 (aka ChatGPT)** - is slow, deliberate and analytical. The thinking deployed for reasoning, writing and planning
 
 Recent chat interfaces trained us to treat every AI job as System 2.
 
@@ -40,7 +40,7 @@ Recent chat interfaces trained us to treat every AI job as System 2.
 
 These are tendencies, not hard rules. The lines blur once you tune an LLM for short answers (more on that below).
 
-|          | System 1                                                    | System 2                           |
+|          | Jev                                                         | Reasoning Models (ChatGPT, Claude) |
 | -------- | ----------------------------------------------------------- | ---------------------------------- |
 | Input    | Data plus typed questions (yes/no, choice or score)         | Text, images, files, audio         |
 | Output   | Selected decisions with probabilities and confidence scores | Free-form text or code             |
@@ -81,7 +81,7 @@ Use it when the output is words or code, or when the model has to work out its o
 
 ## How do you choose the right model?
 
-Don't label the problem as System 1 or System 2 and then pick from the shortlist. Put the candidates side by side on your own data and pick the one that fits the job.
+Don't label the problem as System 1 or System 2 and then pick from the shortlist. Put the candidates side-by-side on your own data and pick the one that fits the job.
 
 * **Build a test set** - 50-100 real inputs with the answer you expect
 * **Run every candidate** - A System 1 model like Jev, a small LLM, and a frontier LLM
@@ -127,7 +127,7 @@ You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and
 
 Re-run the test when a new model ships or your data changes. Today's winner won't be next quarter's.
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=F3YXg7AaKWE" />
+<youtubeEmbed url="https://www.youtube.com/watch?v=F3YXg7AaKWE" description="Jev is incredible | Adam Cogan ()" />
 
 ## How do you use both together?
 
