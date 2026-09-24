@@ -16,7 +16,7 @@ seoDescription: 'Learn when to use fast System 1 decision models like Jev to cla
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-24T07:02:42.091Z
+lastUpdated: 2026-09-24T07:04:21.856Z
 lastUpdatedBy: HarleyJackson@ssw.com.au
 lastUpdatedByEmail: harleyjackson@ssw.com.au
 ---
@@ -85,7 +85,7 @@ Don't label the problem as System 1 or System 2 and then pick from the shortlist
 
 * **Build a test set** - 50-100 real inputs with the answer you expect
 * **Run every candidate** - A System 1 model like Jev, a small LLM, and a frontier LLM
-* **Measure three things** - Accuracy, p50/p95 latency, and cost per 1,000 calls
+* **Measure 3 things** - Accuracy, p50/p95 latency, and cost per 1,000 calls
 * **Pick per job** - The winner for triage might lose for scoring
 
 You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and turn on logprobs, and you get one label back with a probability for each option. That's a fair fight on cost and speed, not a strawman.
