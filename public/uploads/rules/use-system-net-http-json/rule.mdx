@@ -1,0 +1,172 @@
+---
+type: rule
+title: Do you use System.Net.Http.Json correctly?
+seoDescription: Use the System.Net.Http.Json extension methods to call JSON APIs from .NET - keep the built-in web defaults, cache custom JsonSerializerOptions, and check the status code before reading the body so errors are not lost.
+guid: 7ac093a0-6992-4235-983e-702a430bea85
+uri: use-system-net-http-json
+created: 2026-09-25T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/do-you-check-your-api-serialisation-format/rule.mdx
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+archivedreason: null
+isArchived: false
+---
+
+Calling a JSON API from .NET used to mean serializing to a string, wrapping it in `StringContent`, then reading the response back as a string and deserializing it. `System.Net.Http.Json` replaces all of that with one-line extension methods like `PostAsJsonAsync` and `ReadFromJsonAsync`.
+
+The methods are easy to call, but also easy to call wrongly. The two common mistakes are overriding the serializer settings by accident and reading an error response as if it succeeded. Both fail quietly: the code compiles, the happy path works, and the bug only shows up in production when the other API rejects a request.
+
+<endIntro />
+
+## Use the extension methods, not hand-rolled serialization
+
+```csharp
+var json = JsonSerializer.Serialize(request);
+var content = new StringContent(json, Encoding.UTF8, "application/json");
+var response = await _httpClient.PostAsync("orders", content, ct);
+
+var body = await response.Content.ReadAsStringAsync(ct);
+var order = JsonSerializer.Deserialize<OrderResponse>(body);
+```
+
+**❌ Figure: Bad example - Manual serialization builds the whole payload as a string and uses different default settings than ASP.NET Core**
+
+```csharp
+using var response = await _httpClient.PostAsJsonAsync("orders", request, ct);
+var order = await response.Content.ReadFromJsonAsync<OrderResponse>(ct);
+```
+
+**✅ Figure: Good example - The extension methods stream the JSON and use the web defaults**
+
+The available methods are:
+
+| Method | Use it for |
+| --- | --- |
+| `GetFromJsonAsync<T>` | A GET where a failed response can simply throw |
+| `PostAsJsonAsync` / `PutAsJsonAsync` / `PatchAsJsonAsync` | Sending a JSON body |
+| `ReadFromJsonAsync<T>` | Reading a JSON response body |
+| `ReadFromJsonAsAsyncEnumerable<T>` | Streaming a large JSON array item by item |
+| `JsonContent.Create(value)` | Building a JSON body for `SendAsync` or a multipart request |
+
+## Don't install the NuGet package on modern .NET
+
+`System.Net.Http.Json` has been part of the shared framework since .NET 5. A project targeting .NET 5 or later already has it.
+
+```xml
+<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+```
+
+**❌ Figure: Bad example - An extra package reference on a .NET 8+ project can pin an old version and cause version conflicts**
+
+Only add the package when the project targets .NET Framework or .NET Standard. On modern .NET, just add `using System.Net.Http.Json;` (or a `global using` if many files call HTTP APIs).
+
+## Keep the web defaults - don't replace them by accident
+
+When you pass no options, `System.Net.Http.Json` uses the same web defaults as ASP.NET Core (`JsonSerializerDefaults.Web`):
+
+* `PropertyNamingPolicy = JsonNamingPolicy.CamelCase`
+* `PropertyNameCaseInsensitive = true`
+* `NumberHandling = JsonNumberHandling.AllowReadingFromString`
+
+Passing your own `JsonSerializerOptions` **replaces** these defaults, it doesn't add to them. The most common trap is creating options "just to be sure" the payload is camelCase:
+
+```csharp
+var options = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+
+var response = await _httpClient.PostAsJsonAsync(url, request, options, ct);
+var result = await response.Content.ReadFromJsonAsync<GenericResponse>(options, ct);
+```
+
+**❌ Figure: Bad example - These options turn off case-insensitive reading, so a `"Message"` property from the API silently deserializes to `null`. They are also rebuilt on every call, which throws away the serializer's metadata cache**
+
+```csharp
+var response = await _httpClient.PostAsJsonAsync(url, request, ct);
+var result = await response.Content.ReadFromJsonAsync<GenericResponse>(ct);
+```
+
+**✅ Figure: Good example - No options needed, because camelCase is already the default**
+
+When the API genuinely needs different settings (for example `snake_case` names or string enums), start from the web defaults and create the options **once**:
+
+```csharp
+public class PaymentApiClient(HttpClient httpClient)
+{
+    private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web)
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
+        Converters = { new JsonStringEnumConverter() },
+    };
+
+    // pass JsonOptions to every PostAsJsonAsync / ReadFromJsonAsync call
+}
+```
+
+**✅ Figure: Good example - Custom options built on top of the web defaults and cached in a static field**
+
+<boxEmbed
+  style="tips"
+  body={<>
+    The `CA1869` analyzer ("Cache and reuse 'JsonSerializerOptions' instances") flags options created inside a method. Turn it on as a warning.
+  </>}
+  figurePrefix="none"
+  figure="Let the analyzer catch options that are rebuilt on every call"
+/>
+
+## Check the status code before you read the body
+
+`ReadFromJsonAsync` doesn't look at the status code. It will happily try to deserialize a `400` error body into your success type. Depending on the error body, you get a `JsonException`, or worse, an object where every property is `null`.
+
+Calling `EnsureSuccessStatusCode()` first stops that, but it throws away the error body. The `HttpRequestException` it throws only has the status code, and its `HttpRequestError` is always `Unknown` for a status-code failure. So the log reads "API returned BadRequest: Unknown", and the reason the other API gave for rejecting the request is lost.
+
+```csharp
+var response = await _httpClient.PostAsJsonAsync(url, request, ct);
+response.EnsureSuccessStatusCode();
+
+var result = await response.Content.ReadFromJsonAsync<OrderResponse>(ct);
+```
+
+**❌ Figure: Bad example - A rejected request is logged as "BadRequest: Unknown" and nobody can tell why it failed**
+
+```csharp
+using var response = await _httpClient.PostAsJsonAsync(url, request, ct);
+
+if (!response.IsSuccessStatusCode)
+{
+    var error = await response.Content.ReadAsStringAsync(ct);
+    _logger.LogError("Orders API returned {StatusCode}: {ResponseBody}", (int)response.StatusCode, error);
+    return Result.Fail($"Orders API returned {(int)response.StatusCode}: {error}");
+}
+
+var result = await response.Content.ReadFromJsonAsync<OrderResponse>(ct);
+if (result is null)
+{
+    return Result.Fail("Orders API returned an empty response");
+}
+
+return Result.Ok(result);
+```
+
+**✅ Figure: Good example - The error body is logged and returned, and a `null` result is treated as a failure**
+
+A few details that go with this:
+
+* **Dispose the response** with `using` so the connection goes back to the pool promptly
+* **Treat a `null` result as a failure** - `ReadFromJsonAsync<T>` returns `T?`, and a body of `null` is valid JSON
+* **Don't read a body that isn't there** - a `204 No Content` has an empty body, and `ReadFromJsonAsync` throws a `JsonException` on it
+* **Be careful what you log** - cap the length of error bodies, and don't log bodies from `401`/`403` responses or anything that may contain tokens or personal data (see [structured logging](/use-structured-logging))
+* **`GetFromJsonAsync` calls `EnsureSuccessStatusCode` for you**, so it has the same "error body is lost" problem. Use it only where the error details don't matter; otherwise use `GetAsync` + a status check + `ReadFromJsonAsync`
+
+## Summary
+
+| Do | Avoid |
+| --- | --- |
+| `PostAsJsonAsync` / `ReadFromJsonAsync` | `JsonSerializer.Serialize` + `StringContent` |
+| Rely on the framework copy on .NET 5+ | Adding the `System.Net.Http.Json` package to modern projects |
+| No options, or `static readonly` options built from `JsonSerializerDefaults.Web` | `new JsonSerializerOptions { ... }` inside the method |
+| Check `IsSuccessStatusCode` and log the error body | `EnsureSuccessStatusCode()` before reading a response you need to diagnose |
+| Treat a `null` result as a failure | Assuming `ReadFromJsonAsync` never returns `null` |
