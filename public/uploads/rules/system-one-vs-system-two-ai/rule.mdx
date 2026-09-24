@@ -16,7 +16,7 @@ seoDescription: 'Learn when to use fast System 1 decision models like Jev to cla
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-24T06:57:25.973Z
+lastUpdated: 2026-09-24T07:01:36.678Z
 lastUpdatedBy: HarleyJackson@ssw.com.au
 lastUpdatedByEmail: harleyjackson@ssw.com.au
 ---
@@ -133,7 +133,7 @@ Re-run the test when a new model ships or your data changes. Today's winner won'
 
 Decide first, generate second. System 1 reads the input, your code branches on the answer, and only the cases that need words reach the LLM.
 
-For example, take a website enquiry form. [Jev](https://typesafe.ai) answers three questions in a single call: Is this spam? Sales or support? Which state? Spam is dropped for a fraction of a cent. Everything else goes to Claude, which drafts a reply for the right person.
+For example, take a website enquiry form. [Jev](https://typesafe.ai) answers three questions in a single call: Is this spam? Sales or support? Which state and country? Spam is dropped for a fraction of a cent. Everything else goes to Claude, which drafts a reply for the right person.
 
 Add a confidence gate to your harness for the best of both. System 1 handles the answers it's sure about. Anything below your threshold escalates to an LLM, or to a person. You only pay LLM prices for the hard cases.
 
