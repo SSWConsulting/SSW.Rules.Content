@@ -1,0 +1,155 @@
+---
+type: rule
+archivedreason: null
+title: Do you use IHttpClientFactory instead of new HttpClient()?
+seoDescription: Creating an HttpClient per request exhausts sockets, and a single static HttpClient ignores DNS changes. Use IHttpClientFactory, keep per-request headers on the request, and add resilience only once.
+guid: b9b8e725-5f66-4c90-a068-4f953fe2d3ae
+uri: use-httpclientfactory
+created: 2026-09-25T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/use-using-statement-instead-of-use-explicitly-dispose/rule.mdx
+  - rule: public/uploads/rules/when-to-implement-idisposable/rule.mdx
+  - rule: public/uploads/rules/dependency-injection/rule.mdx
+  - rule: public/uploads/rules/aspire/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-application-performance.mdx
+---
+
+`HttpClient` implements `IDisposable`, so wrapping it in a `using` block looks like the right thing to do. It isn't.
+
+Every `HttpClient` you create with `new` owns its own connection pool. Disposing it closes those connections, and the operating system keeps each closed port in the `TIME_WAIT` state for a while before it can be reused. Create a client per request under load and the machine runs out of ports, and every outgoing call fails with a `SocketException`.
+
+The opposite mistake is just as bad. A single static `HttpClient` that lives forever resolves DNS only when it opens a connection. When the remote service fails over or swaps a deployment slot, the client keeps calling the old IP address.
+
+`IHttpClientFactory` fixes both problems. It pools the handlers that own the connections, so they get reused, and it replaces them every two minutes by default, so DNS gets looked up again.
+
+<endIntro />
+
+## Creating a client per call exhausts sockets
+
+```cs
+public async Task<Order?> GetOrder(int id)
+{
+    using var client = new HttpClient();
+    return await client.GetFromJsonAsync<Order>($"https://orders.example.com/api/orders/{id}");
+}
+```
+**❌ Figure: Bad example - Every call opens a new connection pool and throws it away, leaving a port in TIME_WAIT**
+
+## A static client never sees DNS changes
+
+```cs
+public class OrdersClient
+{
+    private static readonly HttpClient Client = new();
+}
+```
+**❌ Figure: Bad example - Connections stay open forever, so the client keeps using the IP address it resolved on day one**
+
+## Register a typed client
+
+```cs
+builder.Services.AddHttpClient<IOrdersClient, OrdersClient>(client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["Orders:BaseUrl"]!);
+    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+});
+
+public sealed class OrdersClient(HttpClient httpClient) : IOrdersClient
+{
+    public async Task<Order?> GetOrder(int id, CancellationToken ct) =>
+        await httpClient.GetFromJsonAsync<Order>($"api/orders/{id}", ct);
+}
+```
+**✅ Figure: Good example - The factory creates the HttpClient, reuses pooled handlers and rotates them for you**
+
+Typed clients keep the base address, default headers and handlers in one place, and consumers depend on `IOrdersClient` instead of raw HTTP. If you only need a quick call, a named client (`AddHttpClient("Orders", ...)` plus `IHttpClientFactory.CreateClient("Orders")`) works too.
+
+Disposing a client created by the factory is safe. It does not dispose the pooled handler, so it does not cause socket exhaustion.
+
+## Put per-request values on the request, not on `DefaultRequestHeaders`
+
+`DefaultRequestHeaders` belongs to the `HttpClient` instance and is sent with every request that instance makes. Only the send methods on `HttpClient` (`SendAsync`, `GetAsync`, `PostAsync` and so on) are thread safe. Changing its properties while another request is in flight is not.
+
+This bites hardest when the value is different per call, such as a bearer token for a specific tenant or client:
+
+```cs
+public async Task<Result> UpdateFundStatus(Guid tenantId, UpdateStatusRequest body, CancellationToken ct)
+{
+    var token = await _tokens.GetToken(tenantId, ct);
+    _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+    using var response = await _httpClient.PutAsJsonAsync("api/fund/status", body, ct);
+    // ...
+}
+```
+**❌ Figure: Bad example - If this client instance is shared (a singleton, or several calls run in parallel), one tenant's token can go out with another tenant's request**
+
+```cs
+public async Task<Result> UpdateFundStatus(Guid tenantId, UpdateStatusRequest body, CancellationToken ct)
+{
+    var token = await _tokens.GetToken(tenantId, ct);
+
+    using var request = new HttpRequestMessage(HttpMethod.Put, "api/fund/status")
+    {
+        Content = JsonContent.Create(body)
+    };
+    request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+    using var response = await _httpClient.SendAsync(request, ct);
+    // ...
+}
+```
+**✅ Figure: Good example - The token lives on this request only, so concurrent calls can't overwrite each other**
+
+When every request needs the same kind of header (for example, an access token for the current user), move it into a `DelegatingHandler` and register it with `AddHttpMessageHandler<T>()`. The handler sets the header on each outgoing request and keeps the calling code clean.
+
+Setting `DefaultRequestHeaders` once, in the registration delegate, is fine for values that never change, such as `Accept` or `User-Agent`.
+
+## Don't capture typed clients in singletons
+
+Typed clients are registered as transient and are meant to be short-lived. Once the factory hands over an `HttpClient`, it no longer controls it. Inject a typed client into a singleton and that one `HttpClient` lives for the whole life of the app, which brings back the DNS problem.
+
+In a singleton, inject `IHttpClientFactory` and call `CreateClient()` when you need one. If the typed client has to stay, configure `SocketsHttpHandler.PooledConnectionLifetime` as the primary handler so connections are still recycled.
+
+## Add resilience once
+
+Transient failures happen. Add retries, timeouts and a circuit breaker with [Microsoft.Extensions.Http.Resilience](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience?WT.mc_id=DT-MVP-33518):
+
+```cs
+builder.Services.AddHttpClient<IOrdersClient, OrdersClient>(...)
+    .AddStandardResilienceHandler(options => options.Retry.DisableForUnsafeHttpMethods());
+```
+**✅ Figure: Good example - Standard retry, timeout and circuit breaker, without retrying a POST that may have already succeeded**
+
+Check what is already configured before you add it. The .NET Aspire ServiceDefaults template adds the standard handler to every client through `ConfigureHttpClientDefaults`. Adding it again on a single client stacks a second pipeline around the first. Each outer retry replays the whole inner pipeline, retries included, so one call can reach the remote service far more often than either policy says.
+
+```cs
+builder.Services.AddHttpClient<IOrdersClient, OrdersClient>(...)
+    .RemoveAllResilienceHandlers()
+    .AddStandardResilienceHandler(options => options.Retry.DisableForUnsafeHttpMethods());
+```
+**✅ Figure: Good example - Remove the app-wide handler first when one client needs a different policy**
+
+## No dependency injection? Use a long-lived client with a connection lifetime
+
+Console apps and small tools without a DI container can still get this right:
+
+```cs
+private static readonly HttpClient Client = new(new SocketsHttpHandler
+{
+    PooledConnectionLifetime = TimeSpan.FromMinutes(2)
+});
+```
+**✅ Figure: Good example - One shared client, with connections recycled every 2 minutes so DNS is looked up again**
+
+This is a valid alternative to `IHttpClientFactory` on .NET Core and .NET 5+. What matters is that you don't create and dispose clients per request, and that connections don't live forever.
+
+## Further reading
+
+* [HttpClient guidelines for .NET](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines?WT.mc_id=DT-MVP-33518)
+* [Use the IHttpClientFactory](https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory?WT.mc_id=DT-MVP-33518)
+* [Build resilient HTTP apps](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience?WT.mc_id=DT-MVP-33518)
