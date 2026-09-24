@@ -90,30 +90,23 @@ The goal is one migration per logical change, not one migration at any cost.
 
 ## How to squash
 
-The example assumes the last migration that came from `main` is `20260910021544_AddCustomers`.
-
 1. Rebase your branch onto `main`
 
-2. Copy out anything you wrote by hand in your branch's migrations - `migrationBuilder.Sql(...)` calls, `RenameColumn` or `RenameTable` edits, `InsertData` and `UpdateData`. Scaffolding only regenerates what it can work out from the model
-
-3. Roll your local database back to `main`'s last migration while your migrations' `Down` methods still exist, then remove your migrations, newest first
+2. Remove your branch's migrations, newest first. Run this once for each migration your branch added:
 
    ```bash
-   dotnet ef database update 20260910021544_AddCustomers
-   dotnet ef migrations remove   # repeat for each of your branch's migrations
+   dotnet ef migrations remove --force
    ```
 
-   If your local database is disposable, `dotnet ef database drop` is fine too. `dotnet ef migrations remove --force` rolls back and removes the latest migration in one step.
+   `--force` first rolls your local database back to the previous migration, then deletes the migration's files. When you're done, your database and your `Migrations` folder both match `main` again.
 
-4. Scaffold one migration with a name that describes the feature
+3. Scaffold one migration with a name that describes the feature
 
    ```bash
    dotnet ef migrations add AddInvoicing
    ```
 
-5. Put the hand-written code from step 2 back into the new migration
-
-6. Apply it, run your tests, and check nothing was missed
+4. Apply it, run your tests, and check nothing was missed
 
    ```bash
    dotnet ef database update
@@ -122,7 +115,7 @@ The example assumes the last migration that came from `main` is `20260910021544_
 
 ### Check the result
 
-Generate the SQL for your branch before and after squashing, starting from `main`'s last migration:
+Before you start, save the SQL your draft migrations produce. After squashing, generate it again and compare. Both scripts start from `main`'s last migration, `20260910021544_AddCustomers` in this example:
 
 ```bash
 dotnet ef migrations script 20260910021544_AddCustomers -o before.sql   # before squashing
@@ -162,7 +155,7 @@ migrationBuilder.RenameColumn(
 ### Other traps
 
 * **Hand-written SQL and data operations are not regenerated** - copy them over, or the views, stored procedures and seed rows silently disappear
-* **Roll back before you delete** - if you delete migration files first, your local database keeps history rows and schema for migrations that no longer exist, and the next update fails or skips changes
+* **Don't delete migration files by hand** - your local database keeps the history rows and schema for migrations that no longer exist, and the next update fails or skips changes. `migrations remove --force` rolls the database back first
 * **Teammates who pulled your branch** need to roll back their local databases too - tell them, or squash before you share the branch
 * **Several `DbContext`s** - squash each context's migrations separately with `--context`
 * **Read the generated migration** - it should contain exactly the feature's schema change and nothing else
