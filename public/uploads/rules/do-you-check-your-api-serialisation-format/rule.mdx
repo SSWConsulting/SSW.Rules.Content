@@ -38,7 +38,7 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
 
 ## The differences
 
-[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#table-of-differences&WT.mc_id=DT-MVP-33518) contains a compiled list of differences between `System.Text.Json` and `Newtonsoft.Json`.
+[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-10-0#table-of-differences&WT.mc_id=DT-MVP-33518) contains a compiled list of differences between `System.Text.Json` and `Newtonsoft.Json`.
 
 ### Notable Things to Check
 
@@ -50,9 +50,9 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
   * **Option A:** Implement a per-controller override for migrated legacy APIs to maintain the same behaviour by setting `JsonSerializerOptions.PropertyNamingPolicy = null`, e.g., via a custom attribute using `ActionFilterAttribute`.
   * **Option B:** Apply a global JSON serialisation override to retain `JsonSerializerOptions.PropertyNamingPolicy = null`.
 
-* ⚠️ **No Support for JSON Patch Documents**
+* ⚠️ **JSON Patch Documents**
 
-  Deserialisation of JSON Patch documents might fail due to [lack of support for JSON Path queries](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#json-path-queries-not-supported&WT.mc_id=DT-MVP-33518), e.g., commonly used in legacy `PATCH` endpoints.
+  Historically `System.Text.Json` could not handle JSON Patch documents, so legacy `PATCH` endpoints relied on `Newtonsoft.Json`. **As of .NET 10**, ASP.NET Core supports JSON Patch with `System.Text.Json` via the [`Microsoft.AspNetCore.JsonPatch.SystemTextJson`](https://www.nuget.org/packages/Microsoft.AspNetCore.JsonPatch.SystemTextJson) package - though some [behavioural differences](https://learn.microsoft.com/en-us/aspnet/core/web-api/jsonpatch?view=aspnetcore-10.0) still apply. When targeting an earlier framework, JSON Patch still requires `Newtonsoft.Json`.
 
 * ⚠️ **Limited OData Support**
 
