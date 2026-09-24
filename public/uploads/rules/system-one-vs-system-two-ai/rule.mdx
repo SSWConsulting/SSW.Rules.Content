@@ -1,9 +1,8 @@
 ---
-title: Do you know when to use System One vs System Two AI?
-seoDescription: Learn when to use fast System 1 decision models like Jev to classify, route and score, and when to use System 2 LLMs like Claude and ChatGPT to write and reason.
+title: Do you know when to use System 1 vs System 2 AI?
+uri: system-one-vs-system-two-ai
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-uri: system-one-vs-system-two-ai
 authors:
   - title: Josh Berman
     url: 'https://www.ssw.com.au/people/josh-berman'
@@ -13,12 +12,13 @@ related:
   - rule: public/uploads/rules/build-custom-agents/rule.mdx
   - rule: public/uploads/rules/use-system-prompt/rule.mdx
 guid: d3a2d431-1d2e-4be6-b599-e8fa289f2a9a
+seoDescription: 'Learn when to use fast System 1 decision models like Jev to classify, route and score, and when to use System 2 LLMs like Claude and ChatGPT to write and reason.'
 created: 2026-09-23T04:06:42.322Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-09-23T04:28:52.412Z
-lastUpdatedBy: Josh Berman
-lastUpdatedByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-09-24T06:49:12.950Z
+lastUpdatedBy: HarleyJackson@ssw.com.au
+lastUpdatedByEmail: harleyjackson@ssw.com.au
 ---
 
 Everyone wants to integrate AI into their application and workflows, but often times you're using the wrong tool for the task. Most AI work in your app isn't writing, it's deciding.
@@ -94,7 +94,7 @@ You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and
   style="warning"
   body={<>
     **Check your provider first.** Not every API exposes logprobs. OpenAI does, so confirm yours before you build the test around it.
-
+    
     **Use single-token labels.** With `max_tokens` set to 1, you only see the first token. If "billing" and "bug" both start with "b", the probabilities mean nothing. Use labels like `A`, `B`, `C` or check each label is one token.
   </>}
   figurePrefix="none"
@@ -114,11 +114,11 @@ You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and
   style="greybox"
   body={<>
     **Test set:** 100 real tickets (example numbers)
-
+    
     * **Jev** - 94% accurate, 110ms, $0.40 per 1,000 calls
-    * **Small LLM (max_tokens = 1, logprobs)** - 91% accurate, 350ms, $0.30 per 1,000 calls
+    * **Small LLM (max\_tokens = 1, logprobs)** - 91% accurate, 350ms, $0.30 per 1,000 calls
     * **Frontier LLM** - 96% accurate, 1.8s, $6.00 per 1,000 calls
-
+    
     **Decision:** Jev for triage. Frontier accuracy isn't worth 15x the cost for this job.
   </>}
   figurePrefix="good"
@@ -126,6 +126,8 @@ You can make an LLM behave like System 1 for the test. Set `max_tokens` to 1 and
 />
 
 Re-run the test when a new model ships or your data changes. Today's winner won't be next quarter's.
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=F3YXg7AaKWE" />
 
 ## How do you use both together?
 
