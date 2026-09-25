@@ -58,12 +58,21 @@ A job is just a container image, so Docker can run that same image on your machi
 On EagleEye, this is how we test changes to our Container Apps job. When a developer presses **Start Scan** in the local portal, the API starts the real job image in Docker, with the same limits as the job in Azure (2 vCPU and 4 GiB). The scan runs against real services, and the portal shows its progress as it does in Azure. A change to the job is checked in minutes.
 
 <imageEmbed
-  alt="EagleEye portal showing a GitHub scan in progress, next to the scan container running in Docker Desktop"
+  alt="EagleEye portal on localhost, Manual Scans page, showing a GitHub scan that succeeded in 1 minute 1 second and processed 59 items"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Start Scan runs the real job image in Docker, with the job's Azure CPU and memory limits"
-  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/eagleeye-scan-in-docker.png"
+  figure="Start Scan in the local portal runs the real job, and the portal tracks it the same way it does in Azure"
+  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-eagleeye-portal-with-scan-run-on-docker.png"
+/>
+
+<imageEmbed
+  alt="Docker Desktop showing the logs of container eagleeye-manual-github-361980d2, running image ssw.eagleeye:harness and calling the GitHub GraphQL API"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The same scan in Docker Desktop: the job's own image, with the job's Azure CPU and memory limits, calling real GitHub"
+  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-container-job-on-docker.png"
 />
 
 Under the hood it is a normal `docker run`, with the job's limits:
