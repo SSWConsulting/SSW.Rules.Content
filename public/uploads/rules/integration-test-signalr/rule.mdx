@@ -1,0 +1,202 @@
+---
+type: rule
+title: Do you know how to integration test SignalR?
+uri: integration-test-signalr
+categories:
+  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/use-live-connections-instead-of-polling/rule.mdx
+  - rule: public/uploads/rules/use-iapimarker-with-webapplicationfactory/rule.mdx
+  - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/the-standard-naming-conventions-for-tests/rule.mdx
+guid: b83fe0f2-3771-4b7c-9a50-3467925b0080
+seoDescription: Integration test SignalR hubs by connecting a real HubConnection to WebApplicationFactory's in-memory server, awaiting messages with a TaskCompletionSource instead of Task.Delay, and asserting on what the client actually receives.
+created: 2026-09-25T00:00:00.000Z
+---
+
+There is plenty of guidance on integration testing a Web API: spin up `WebApplicationFactory`, call an endpoint, check the response. SignalR is different. The server pushes messages to clients whenever it decides to, so there is no response to check. Most teams give up and mock `IHubContext` instead, which tests that your code *called* SignalR, not that a client *received* anything.
+
+You can test SignalR end to end with the same `WebApplicationFactory` you already use for your API. Connect a real SignalR client to the in-memory server, trigger the server-side code, and wait for the message to arrive.
+
+<endIntro />
+
+## Don't mock IHubContext - connect a real client
+
+```csharp
+var clientProxy = Substitute.For<IOrderHubClient>();
+var clients = Substitute.For<IHubClients<IOrderHubClient>>();
+var hubContext = Substitute.For<IHubContext<OrderHub, IOrderHubClient>>();
+clients.Group($"order-{orderId}").Returns(clientProxy);
+hubContext.Clients.Returns(clients);
+
+await new OrderShippedHandler(hubContext).Handle(new OrderShipped(orderId), ct);
+
+await clientProxy.Received(1).ReceiveOrderStatus(Arg.Any<OrderStatusModel>());
+```
+
+**❌ Figure: Bad example - The test repeats the handler's group key and passes even if the hub isn't mapped, the client can't join the group, or the payload can't be serialized**
+
+A mocked `IHubContext` can't catch the bugs that actually break real-time features:
+
+* The hub route isn't mapped, or auth rejects the connection
+* The client joins group `order-{id}` but the server sends to `orders-{id}`
+* The client method name doesn't match what the server calls
+* The payload doesn't serialize (a missing JSON converter, a polymorphic type)
+
+A test with a real client catches all of these.
+
+## Create the connection from WebApplicationFactory
+
+Add the `Microsoft.AspNetCore.SignalR.Client` package to the test project, and route the client through the factory's in-memory `TestServer`:
+
+```csharp
+public class ApiFactory : WebApplicationFactory<IApiMarker>
+{
+    public async Task<HubConnection> CreateHubConnection(string hubPath)
+    {
+        var url = new Uri(Server.BaseAddress, hubPath);
+
+        var connection = new HubConnectionBuilder()
+            .WithUrl(url, options =>
+            {
+                options.HttpMessageHandlerFactory = _ => Server.CreateHandler();
+                options.WebSocketFactory = async (context, ct) =>
+                {
+                    var wsClient = Server.CreateWebSocketClient();
+                    return await wsClient.ConnectAsync(context.Uri, ct);
+                };
+            })
+            .Build();
+
+        await connection.StartAsync();
+        return connection;
+    }
+}
+```
+
+**✅ Figure: Good example - Both HTTP and WebSocket traffic go to the in-memory server, so no port is opened**
+
+* **`HttpMessageHandlerFactory`** sends the negotiate request and the HTTP-based transports to the `TestServer`
+* **`WebSocketFactory`** does the same for WebSockets. Without it, the client can't open a WebSocket to the in-memory server and quietly falls back to Server-Sent Events or Long Polling. The test still passes, but it isn't testing the transport you use in production
+* **Match the server's serializer settings.** If the server registers custom converters with `AddJsonProtocol`, register the same ones on the client. Otherwise the test fails on the client side, not in your code
+
+If the hub requires authentication, set `options.AccessTokenProvider` to return a test token, or register a test authentication scheme in the factory.
+
+## Wait for the message with a TaskCompletionSource, not Task.Delay
+
+The message arrives on a background thread, some time after the server sends it. The first thing most people try is a delay:
+
+```csharp
+OrderStatusModel? received = null;
+connection.On<OrderStatusModel>(nameof(IOrderHubClient.ReceiveOrderStatus), m => received = m);
+
+await TriggerOrderShipped(orderId);
+await Task.Delay(1000);
+
+received.Should().NotBeNull();
+```
+
+**❌ Figure: Bad example - Too short and it fails on a slow CI agent. Too long and every test wastes a second**
+
+Use a `TaskCompletionSource` that completes when the message arrives, and give it a timeout:
+
+```csharp
+[Fact]
+public async Task Handle_WhenClientInOrderGroup_ShouldReceiveOrderStatus()
+{
+    // Arrange
+    var order = await _factory.CreateOrder();
+
+    await using var connection = await _factory.CreateHubConnection("/hubs/orders");
+
+    var received = new TaskCompletionSource<OrderStatusModel>(TaskCreationOptions.RunContinuationsAsynchronously);
+    connection.On<OrderStatusModel>(nameof(IOrderHubClient.ReceiveOrderStatus), m => received.TrySetResult(m));
+
+    await connection.InvokeAsync(nameof(OrderHub.JoinOrderGroup), order.Id);
+
+    // Act
+    await _factory.Publish(new OrderShipped(order.Id));
+
+    // Assert
+    var model = await received.Task.WaitAsync(TimeSpan.FromSeconds(5));
+    model.OrderId.Should().Be(order.Id);
+    model.Status.Should().Be(OrderStatus.Shipped);
+}
+```
+
+**✅ Figure: Good example - The test finishes as soon as the message arrives, and fails with a TimeoutException if it never does**
+
+The details in that test all matter:
+
+* **Register the `On` handler before you trigger anything.** A message that arrives before the handler exists is dropped
+* **Join groups with `InvokeAsync`, not `SendAsync`.** `SendAsync` returns as soon as the message leaves the client. The server may not have added you to the group yet when your test triggers the broadcast, so the test fails at random. `InvokeAsync` waits until the hub method has finished
+* **Use `RunContinuationsAsynchronously`.** Without it, your assertions run on SignalR's receive loop and can block it
+* **Use `TrySetResult`, not `SetResult`.** If the server sends the message twice, `SetResult` throws on SignalR's thread, and that error never shows up in your test
+* **Complete the task with the payload** and assert on its fields. A `bool` only tells you *something* arrived
+* **Dispose the connection** with `await using` so connections don't pile up in a shared factory
+
+## Test that the wrong clients don't receive it
+
+Groups and user targeting are where SignalR bugs hide. A message that reaches the wrong client can be a data leak, not just a bug. Prove it doesn't happen by expecting a timeout:
+
+```csharp
+[Fact]
+public async Task Handle_WhenClientNotInOrderGroup_ShouldNotReceiveOrderStatus()
+{
+    // Arrange
+    var order = await _factory.CreateOrder();
+
+    await using var connection = await _factory.CreateHubConnection("/hubs/orders");
+
+    var received = new TaskCompletionSource<OrderStatusModel>(TaskCreationOptions.RunContinuationsAsynchronously);
+    connection.On<OrderStatusModel>(nameof(IOrderHubClient.ReceiveOrderStatus), m => received.TrySetResult(m));
+
+    // Act
+    await _factory.Publish(new OrderShipped(order.Id));
+
+    // Assert
+    var act = () => received.Task.WaitAsync(TimeSpan.FromSeconds(1));
+    await act.Should().ThrowAsync<TimeoutException>();
+}
+```
+
+**✅ Figure: Good example - A client that never joined the group gets nothing**
+
+**Tip:** Keep the timeout short for negative tests. They always wait the full timeout, so a 5 second wait across 20 tests adds almost 2 minutes to the build.
+
+## Use nameof, not strings, for method names
+
+Hub method and client method names are just strings on the wire. A typo compiles fine and fails only at runtime.
+
+```csharp
+connection.On<OrderStatusModel>("ReceiveOrderStatus", ...);
+await connection.InvokeAsync("JoinOrderGroup", orderId);
+```
+
+**❌ Figure: Bad example - Renaming the method breaks the test (and your real clients) without a compile error**
+
+Use a strongly typed hub (`Hub<IOrderHubClient>`) on the server, and `nameof` in tests:
+
+```csharp
+connection.On<OrderStatusModel>(nameof(IOrderHubClient.ReceiveOrderStatus), ...);
+await connection.InvokeAsync(nameof(OrderHub.JoinOrderGroup), orderId);
+```
+
+**✅ Figure: Good example - A rename updates the test too**
+
+## Summary
+
+| Do | Avoid |
+| --- | --- |
+| Connect a real `HubConnection` to `WebApplicationFactory` | Mocking `IHubContext` and asserting `Received(1)` |
+| Set both `HttpMessageHandlerFactory` and `WebSocketFactory` | Letting the client fall back to a transport production doesn't use |
+| Await a `TaskCompletionSource` with `WaitAsync(timeout)` | `Task.Delay` |
+| Register `On` handlers, then join groups with `InvokeAsync` | `SendAsync` for anything the test depends on |
+| Assert the payload, and that other clients receive nothing | Only checking that *a* message arrived |
+| `nameof` with strongly typed hubs | Method names as string literals |
