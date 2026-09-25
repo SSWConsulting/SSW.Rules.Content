@@ -2,29 +2,29 @@
 type: rule
 title: Do you test Azure Container Apps Jobs locally with Docker?
 uri: test-azure-container-apps-jobs-locally-with-docker
-guid: f5fd2c87-5b8a-45cd-9862-8aafebfb6af4
-seoDescription: Test Azure Container Apps jobs locally with Docker, as the exact image you ship, to find broken images, missing settings and memory crashes before you deploy.
-created: 2026-09-25T06:05:44.475Z
-createdBy: 'Harkirat Singh [SSW]'
-createdByEmail: harksingh@ssw.com.au
-lastUpdated: 2026-09-25T06:16:06.914Z
-lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: harksingh@ssw.com.au
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
 authors:
   - title: Hark Singh
-    url: https://www.ssw.com.au/people/hark-singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
 related:
   - rule: public/uploads/rules/test-github-actions-workflows-locally-with-act/rule.mdx
   - rule: public/uploads/rules/use-testcontainers/rule.mdx
   - rule: public/uploads/rules/what-is-a-container/rule.mdx
   - rule: public/uploads/rules/ephemeral-environments/rule.mdx
   - rule: public/uploads/rules/aspire/rule.mdx
-categories:
-  - category: categories/software-engineering/rules-to-better-testing.mdx
-  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
-  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
-archivedreason: null
+guid: f5fd2c87-5b8a-45cd-9862-8aafebfb6af4
+seoDescription: 'Test Azure Container Apps jobs locally with Docker, as the exact image you ship, to find broken images, missing settings and memory crashes before you deploy.'
+created: 2026-09-25T06:05:44.475Z
+createdBy: 'Harkirat Singh [SSW]'
+createdByEmail: harksingh@ssw.com.au
+lastUpdated: 2026-09-25T06:45:11.808Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
+archivedreason: null
 ---
 
 An [Azure Container Apps job](https://learn.microsoft.com/en-us/azure/container-apps/jobs) is a container that runs a task for a finite time and then stops. It starts manually, on a schedule, or when an event arrives.
@@ -34,6 +34,8 @@ Pushing a change to Azure just to see whether your job works is **slow, and ever
 A job is just a container image, so Docker can run that same image on your machine with the same CPU and memory limits. You find a broken image, a missing setting or an out-of-memory crash in minutes, not after a deployment.
 
 <endIntro />
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Quick feedback look with running Azure Container Apps Jobs on Docker" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/container-job-in-docker.png" />
 
 <boxEmbed
   style="greybox"
@@ -62,11 +64,11 @@ A job is just a container image, so Docker can run that same image on your machi
     ```bash
     # 1. Build the same image your pipeline builds
     docker build --platform linux/amd64 -t orders-job:local .
-
+    
     # 2. Run it with the job's limits (2 vCPU / 4 GiB) and staging settings
     docker run --rm --name orders-local --platform linux/amd64 \
-      --cpus=2 --memory=4g --env-file ./staging.env \
-      orders-job:local process-orders --since 2026-09-01
+    --cpus=2 --memory=4g --env-file ./staging.env \
+    orders-job:local process-orders --since 2026-09-01
     ```
   </>}
   figurePrefix="good"
