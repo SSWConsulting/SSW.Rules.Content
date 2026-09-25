@@ -1,0 +1,163 @@
+---
+type: rule
+archivedreason: null
+title: Do you squash your EF Core migrations before merging?
+seoDescription: Squash the EF Core migrations you created during local development
+  into one meaningful migration before your branch is merged, pulled by other
+  developers, and deployed.
+guid: 504194fe-e351-4a82-b124-f4c88f2dadff
+uri: squash-ef-core-migrations
+created: 2026-09-23T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/use-code-migrations/rule.mdx
+  - rule: public/uploads/rules/clean-git-history/rule.mdx
+  - rule: public/uploads/rules/use-squash-and-merge-for-open-source-projects/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+---
+
+While you build a feature, the model keeps changing, and you run `dotnet ef migrations add` every time you want to try it against your local database. By the end of the branch you have `AddInvoice`, `AddInvoice2`, `FixInvoiceFk`, `RemoveInvoiceNotes` and `AddInvoiceNotesBack`.
+
+Those are drafts. Once they are merged, every developer, every test run and every environment replays them forever, and nobody can safely remove them. Squash them into one migration that describes the feature while they are still only yours.
+
+<endIntro />
+
+## Why squash before merging?
+
+Once a migration has been applied to a shared or production database, it is permanent. Microsoft's guidance is to [never remove a migration that has been applied to a shared database](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing#remove-a-migration) - you add a corrective migration instead. The only cheap moment to clean up is before the branch is merged.
+
+Draft migrations also cost you on every deployment:
+
+* **Pointless work** - the deployment adds a column, alters it, drops it and adds it back, taking locks on a table that may be large
+* **Data loss risk** - a drop followed by an add on a table that already has rows throws that data away
+* **Harder reviews** - the reviewer has to mentally combine five migrations that partly cancel each other out
+* **Noisy history** - the `Migrations` folder should read like a changelog, one meaningful name per feature
+* **More code** - every `.Designer.cs` file carries a full copy of the model
+
+```text
+Migrations/
+  20260910021544_AddCustomers.cs            <- from main
+  20260915033012_AddInvoice.cs
+  20260915041127_AddInvoice2.cs
+  20260916012209_FixInvoiceFk.cs
+  20260917053318_RemoveInvoiceNotes.cs
+  20260918002741_AddInvoiceNotesBack.cs
+  AppDbContextModelSnapshot.cs
+```
+
+**❌ Figure: Bad example - Five draft migrations for one feature are about to be merged**
+
+```text
+Migrations/
+  20260910021544_AddCustomers.cs            <- from main
+  20260918034502_AddInvoicing.cs
+  AppDbContextModelSnapshot.cs
+```
+
+**✅ Figure: Good example - One migration that describes the feature's real schema change**
+
+## When to squash
+
+* Before you open the pull request, or before you merge it, once the model has settled
+* After rebasing onto `main`, if `main` got new migrations in the meantime. Re-scaffolding on top of `main`'s snapshot also fixes a [diverged migration tree](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/teams)
+
+Only squash migrations that exist only on your branch and have only been applied to your own local database.
+
+## When not to squash
+
+* **The migration is already merged** to `main` or has been pulled by other developers
+* **It has been applied to a shared database** - a dev or test server, a PR preview environment, staging. Those databases have the history rows and the schema, so leave the migration alone and add a new one
+* **The split is intentional**:
+  * Schema and data changes kept apart - add a nullable column, backfill it, then make it required
+  * A migration with `suppressTransaction: true` SQL that must not share a transaction with the others
+  * Expand and contract changes that are meant to ship in separate releases
+
+The goal is one migration per logical change, not one migration at any cost.
+
+<boxEmbed
+  style="info"
+  body={<>
+    This rule is about draft migrations on a feature branch. Replacing an entire production migration history with a single baseline is a different, riskier process - see [Resetting all migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing#resetting-all-migrations).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## How to squash
+
+1. Rebase your branch onto `main`
+
+2. Remove your branch's migrations, newest first. Run this once for each migration your branch added:
+
+   ```bash
+   dotnet ef migrations remove --force
+   ```
+
+   `--force` first rolls your local database back to the previous migration, then deletes the migration's files. When you're done, your database and your `Migrations` folder both match `main` again.
+
+3. Scaffold one migration with a name that describes the feature
+
+   ```bash
+   dotnet ef migrations add AddInvoicing
+   ```
+
+4. Apply it, run your tests, and check nothing was missed
+
+   ```bash
+   dotnet ef database update
+   dotnet ef migrations has-pending-model-changes
+   ```
+
+### Check the result
+
+Before you start, save the SQL your draft migrations produce. After squashing, generate it again and compare. Both scripts start from `main`'s last migration, `20260910021544_AddCustomers` in this example:
+
+```bash
+dotnet ef migrations script 20260910021544_AddCustomers -o before.sql   # before squashing
+dotnet ef migrations script 20260910021544_AddCustomers -o after.sql    # after squashing
+```
+
+**✅ Figure: Good example - Both scripts end in the same schema, `after.sql` just skips the intermediate steps**
+
+## What to be careful about
+
+### Renames come back as a drop and an add
+
+EF Core can't tell a renamed property from a dropped one plus a new one, so it [scaffolds `DropColumn` and `AddColumn`](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing#column-renames). If your branch renamed a column that already exists on `main`, the fresh migration will drop it and lose every value in it.
+
+```cs
+migrationBuilder.DropColumn(
+    name: "Notes",
+    table: "Invoices");
+
+migrationBuilder.AddColumn<string>(
+    name: "Comments",
+    table: "Invoices",
+    nullable: true);
+```
+
+**❌ Figure: Bad example - The re-scaffolded migration drops the existing column and its data**
+
+```cs
+migrationBuilder.RenameColumn(
+    name: "Notes",
+    table: "Invoices",
+    newName: "Comments");
+```
+
+**✅ Figure: Good example - The rename is put back by hand, so the data is kept**
+
+### Other traps
+
+* **Hand-written SQL and data operations are not regenerated** - copy them over, or the views, stored procedures and seed rows silently disappear
+* **Don't delete migration files by hand** - your local database keeps the history rows and schema for migrations that no longer exist, and the next update fails or skips changes. `migrations remove --force` rolls the database back first
+* **Teammates who pulled your branch** need to roll back their local databases too - tell them, or squash before you share the branch
+* **Several `DbContext`s** - squash each context's migrations separately with `--context`
+* **Read the generated migration** - it should contain exactly the feature's schema change and nothing else
+
+Treat migrations like commits - squash the drafts before anyone else sees them.
