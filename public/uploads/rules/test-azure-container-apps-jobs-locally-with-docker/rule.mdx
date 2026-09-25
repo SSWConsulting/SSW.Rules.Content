@@ -22,51 +22,57 @@ createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: harksingh@ssw.com.au
 lastUpdated: 2026-09-25T06:54:11.645Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: sandhukirat23@gmail.com
+lastUpdatedByEmail: harksingh@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
 An [Azure Container Apps job](https://learn.microsoft.com/en-us/azure/container-apps/jobs) is a container that runs a task for a finite time and then stops. It starts manually, on a schedule, or when an event arrives.
 
-Pushing a change to Azure just to see whether your job works is **slow, and every attempt costs a deployment ❌**
+Deploying a change to Azure just to see whether your job works is **slow, and every attempt costs a deployment ❌**
 
 A job is just a container image, so Docker can run that same image on your machine with the same CPU and memory limits. You find a broken image, a missing setting or an out-of-memory crash in minutes, not after a deployment.
 
 <endIntro />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Quick feedback look with running Azure Container Apps Jobs on Docker" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/container-job-in-docker.png" />
+<imageEmbed
+  alt="A laptop starts the job image in Docker with 2 vCPU and 4 GiB, the same image and limits as the job in Azure"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="A quick feedback loop: run the Azure Container Apps job's image in Docker"
+  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/container-job-in-docker.png"
+/>
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Using Azure as your first feedback loop (a deployment per attempt)" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/failing-container-app-job.png" />
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    ```csharp
-    // A BackgroundService in the API: the API's process, memory and config
-    await mediator.Send(new ProcessOrdersCommand(), stoppingToken);
-    ```
-  </>}
+<imageEmbed
+  alt="Azure portal execution history for a Container Apps job, with one execution Failed and a later one Succeeded"
+  size="large"
+  showBorder={true}
   figurePrefix="bad"
-  figure="Running the job's code inside your API tests the logic, but not the image, its limits or how it dies"
+  figure="Using Azure as your first feedback loop (a deployment per attempt)"
+  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/failing-container-app-job.png"
 />
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    ```bash
-    # 1. Build the same image your pipeline builds
-    docker build --platform linux/amd64 -t orders-job:local .
-    
-    # 2. Run it with the job's limits (2 vCPU / 4 GiB) and staging settings
-    docker run --rm --name orders-local --platform linux/amd64 \
-    --cpus=2 --memory=4g --env-file ./staging.env \
-    orders-job:local process-orders --since 2026-09-01
-    ```
-  </>}
+## ✅ Run the job in Docker, the way Azure runs it
+
+On EagleEye, this is how we test changes to our Container Apps job. When a developer presses **Start Scan** in the local portal, the API starts the real job image in Docker, with the same limits as the job in Azure (2 vCPU and 4 GiB). The scan runs against real services, and the portal shows its progress as it does in Azure. A change to the job is checked in minutes.
+
+<imageEmbed
+  alt="EagleEye portal showing a GitHub scan in progress, next to the scan container running in Docker Desktop"
+  size="large"
+  showBorder={true}
   figurePrefix="good"
-  figure="Use Docker to run the image you ship, with the job's real limits"
+  figure="Start Scan runs the real job image in Docker, with the job's Azure CPU and memory limits"
+  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/eagleeye-scan-in-docker.png"
 />
+
+Under the hood it is a normal `docker run`, with the job's limits:
+
+```bash
+docker run --rm --name orders-local --platform linux/amd64 \
+  --cpus=2 --memory=4g --env-file ./staging.env \
+  orders-job:local process-orders --since 2026-09-01
+```
 
 Put secrets in the env file (`chmod 600`), not in `-e` flags. Command-line arguments end up in your shell history and in `ps`.
 
@@ -74,18 +80,20 @@ Put secrets in the env file (`chmod 600`), not in `-e` flags. Command-line argum
 
 * **Same image** - You test the build that ships, not your code running inside something else
 * **Same limits** - `--cpus` and `--memory` apply the job's limits, and .NET sizes its threads and garbage collector to match
-* **Real crashes** - Go over the memory limit and the container is killed with exit code 137, as in Azure
+* **Real crashes** - .NET sees the memory limit and throws `OutOfMemoryException` at 75% of it, so a job that loads too much fails locally the way it fails in Azure
 * **Real services** - Point it at your staging services, not fakes. [The Twelve-Factor App](https://12factor.net/dev-prod-parity) says to resist "the urge to use different backing services between development and production"
 * **Same CPU architecture** - `--platform linux/amd64` runs the Intel image on an ARM laptop too. It is slower, because Docker emulates it
 
 <boxEmbed
   body={<>
-    Crash the job on purpose. Run `docker kill orders-local` in the middle of a run, then check that the job records **Failed**, not **Succeeded**, and how much work was lost since the last save.
+    Crash the job on purpose. Run `docker kill` on the container in the middle of a run, then check that the job records **Failed**, not **Succeeded**, and how much work was lost since the last save.
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
+
+### ❌ What a local run can't tell you
 
 Docker gets you much closer to Azure, but it is not Azure. A local run does not test:
 
