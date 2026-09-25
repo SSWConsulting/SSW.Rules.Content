@@ -20,9 +20,9 @@ seoDescription: 'Test Azure Container Apps jobs locally with Docker, as the exac
 created: 2026-09-25T06:05:44.475Z
 createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: harksingh@ssw.com.au
-lastUpdated: 2026-09-25T06:54:11.645Z
+lastUpdated: 2026-09-25T07:51:37.382Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: harksingh@ssw.com.au
+lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
 archivedreason: null
 ---
@@ -35,45 +35,17 @@ A job is just a container image, so Docker can run that same image on your machi
 
 <endIntro />
 
-<imageEmbed
-  alt="A laptop starts the job image in Docker with 2 vCPU and 4 GiB, the same image and limits as the job in Azure"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="A quick feedback loop: run the Azure Container Apps job's image in Docker"
-  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/container-job-in-docker.png"
-/>
+<imageEmbed alt="A laptop starts the job image in Docker with 2 vCPU and 4 GiB, the same image and limits as the job in Azure" size="large" showBorder={false} figurePrefix="none" figure="A quick feedback loop: run the Azure Container Apps job's image in Docker" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/container-job-in-docker.png" />
 
-<imageEmbed
-  alt="Azure portal execution history for a Container Apps job, with one execution Failed and a later one Succeeded"
-  size="large"
-  showBorder={true}
-  figurePrefix="bad"
-  figure="Using Azure as your first feedback loop (a deployment per attempt)"
-  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/failing-container-app-job.png"
-/>
+<imageEmbed alt="Azure portal execution history for a Container Apps job, with one execution Failed and a later one Succeeded" size="large" showBorder={true} figurePrefix="bad" figure="Using Azure as your first feedback loop (a deployment per attempt)" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/failing-container-app-job.png" />
 
 ## ✅ Run the job in Docker, the way Azure runs it
 
 On EagleEye, this is how we test changes to our Container Apps job. When a developer presses **Start Scan** in the local portal, the API starts the real job image in Docker, with the same limits as the job in Azure (2 vCPU and 4 GiB). The scan runs against real services, and the portal shows its progress as it does in Azure. A change to the job is checked in minutes.
 
-<imageEmbed
-  alt="EagleEye portal on localhost, Manual Scans page, showing a GitHub scan that succeeded in 1 minute 1 second and processed 59 items"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Start Scan in the local portal runs the real job, and the portal tracks it the same way it does in Azure"
-  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-eagleeye-portal-with-scan-run-on-docker.png"
-/>
+<imageEmbed alt="EagleEye portal on localhost, Manual Scans page, showing a GitHub scan that succeeded in 1 minute 1 second and processed 59 items" size="large" showBorder={true} figurePrefix="good" figure="Start Scan in the local portal runs the real job, and the portal tracks it the same way it does in Azure" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-eagleeye-portal-with-scan-run-on-docker.png" />
 
-<imageEmbed
-  alt="Docker Desktop showing the logs of container eagleeye-manual-github-361980d2, running image ssw.eagleeye:harness and calling the GitHub GraphQL API"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="The same scan in Docker Desktop: the job's own image, with the job's Azure CPU and memory limits, calling real GitHub"
-  src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-container-job-on-docker.png"
-/>
+<imageEmbed alt="Docker Desktop showing the logs of container eagleeye-manual-github-361980d2, running image ssw.eagleeye:harness and calling the GitHub GraphQL API" size="large" showBorder={true} figurePrefix="good" figure="The same scan in Docker Desktop: the job's own image, with the job's Azure CPU and memory limits, calling real GitHub" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/local-container-job-on-docker.png" />
 
 Under the hood it is a normal `docker run`, with the job's limits:
 
@@ -115,7 +87,7 @@ That means Docker should improve your inner loop, not replace a test in Azure.
 
 <boxEmbed
   body={<>
-    For a worked example, check out this simple Aspire sample: [aca-jobs-locally](https://github.com/0xharkirat/aca-jobs-locally). It has a .NET Web API, a Blazor app and SQL Server, and runs a Container Apps job in Docker with the job's Azure limits. From the web page you can run the job, stop it, kill it, and tick **All at once** to watch it run out of memory at its 1 GB limit.
+    For a worked example, check out this simple Aspire app sample: [aca-jobs-locally](https://github.com/0xharkirat/aca-jobs-locally). It has a .NET Web API, a Blazor app and SQL Server, and runs a Container Apps job in Docker with the job's Azure limits. From the web page you can run the job, stop it, kill it, and watch it run out of memory at its 1 GB limit.
   </>}
   figurePrefix="none"
   figure=""
