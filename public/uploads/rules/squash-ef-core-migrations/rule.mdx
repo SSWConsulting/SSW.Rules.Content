@@ -160,13 +160,4 @@ migrationBuilder.RenameColumn(
 * **Several `DbContext`s** - squash each context's migrations separately with `--context`
 * **Read the generated migration** - it should contain exactly the feature's schema change and nothing else
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Tip:** Add a PR checklist item, or a CI check that flags a pull request adding more than one migration per `DbContext`. Treat it as a prompt to squash, not a hard block - some splits are intentional.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
 Treat migrations like commits - squash the drafts before anyone else sees them.
