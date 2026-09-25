@@ -1,17 +1,102 @@
 ---
+type: rule
 title: Do you test Azure Container Apps Jobs locally with Docker?
 uri: test-azure-container-apps-jobs-locally-with-docker
 guid: f5fd2c87-5b8a-45cd-9862-8aafebfb6af4
+seoDescription: Test Azure Container Apps jobs locally with Docker, as the exact image you ship, to find broken images, missing settings and memory crashes before you deploy.
 created: 2026-09-25T06:05:44.475Z
 createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: sandhukirat23@gmail.com
 lastUpdated: 2026-09-25T06:16:06.914Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
+authors:
+  - title: Hark Singh
+    url: https://www.ssw.com.au/people/hark-singh
+related:
+  - rule: public/uploads/rules/test-github-actions-workflows-locally-with-act/rule.mdx
+  - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/what-is-a-container/rule.mdx
+  - rule: public/uploads/rules/ephemeral-environments/rule.mdx
+  - rule: public/uploads/rules/aspire/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+archivedreason: null
+isArchived: false
 ---
 
-Intro
+An [Azure Container Apps job](https://learn.microsoft.com/en-us/azure/container-apps/jobs) is a container that runs a task for a finite time and then stops. It starts manually, on a schedule, or when an event arrives.
+
+Pushing a change to Azure just to see whether your job works is **slow, and every attempt costs a deployment ❌**
+
+A job is just a container image, so Docker can run that same image on your machine with the same CPU and memory limits. You find a broken image, a missing setting or an out-of-memory crash in minutes, not after a deployment.
 
 <endIntro />
 
-Body
+<boxEmbed
+  style="greybox"
+  body={<>
+    Change the code, push, wait for the pipeline, start the job in Azure, read the logs, repeat.
+  </>}
+  figurePrefix="bad"
+  figure="Using Azure as your first feedback loop (a deployment per attempt)"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```csharp
+    // A BackgroundService in the API: the API's process, memory and config
+    await mediator.Send(new ProcessOrdersCommand(), stoppingToken);
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Running the job's code inside your API tests the logic, but not the image, its limits or how it dies"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```bash
+    # 1. Build the same image your pipeline builds
+    docker build --platform linux/amd64 -t orders-job:local .
+
+    # 2. Run it with the job's limits (2 vCPU / 4 GiB) and staging settings
+    docker run --rm --name orders-local --platform linux/amd64 \
+      --cpus=2 --memory=4g --env-file ./staging.env \
+      orders-job:local process-orders --since 2026-09-01
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Use Docker to run the image you ship, with the job's real limits"
+/>
+
+Put secrets in the env file (`chmod 600`), not in `-e` flags. Command-line arguments end up in your shell history and in `ps`.
+
+## ✅ Why Docker is useful
+
+* **Same image** - You test the build that ships, not your code running inside something else
+* **Same limits** - `--cpus` and `--memory` apply the job's limits, and .NET sizes its threads and garbage collector to match
+* **Real crashes** - Go over the memory limit and the container is killed with exit code 137, as in Azure
+* **Real services** - Point it at your staging services, not fakes. [The Twelve-Factor App](https://12factor.net/dev-prod-parity) says to resist "the urge to use different backing services between development and production"
+* **Same CPU architecture** - `--platform linux/amd64` runs the Intel image on an ARM laptop too. It is slower, because Docker emulates it
+
+<boxEmbed
+  body={<>
+    Crash the job on purpose. Run `docker kill orders-local` in the middle of a run, then check that the job records **Failed**, not **Succeeded**, and how much work was lost since the last save.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+Docker gets you much closer to Azure, but it is not Azure. A local run does not test:
+
+* **Identity** - Locally the job signs in as you, not as its managed identity, so missing role assignments only show up in Azure
+* **Key Vault references** - Locally the secrets come from your env file
+* **Triggers** - Scheduled and event triggers do not fire. You start the job yourself
+* **Speed** - Your laptop's CPU is not Azure's, so run times do not transfer
+
+That means Docker should improve your inner loop, not replace a test in Azure.
