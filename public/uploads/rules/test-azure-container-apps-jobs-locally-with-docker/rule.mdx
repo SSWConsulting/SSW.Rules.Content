@@ -112,3 +112,12 @@ Docker gets you much closer to Azure, but it is not Azure. A local run does not 
 * **Speed** - Your laptop's CPU is not Azure's, so run times do not transfer
 
 That means Docker should improve your inner loop, not replace a test in Azure.
+
+<boxEmbed
+  body={<>
+    For a worked example, check out this simple Aspire sample: [aca-jobs-locally](https://github.com/0xharkirat/aca-jobs-locally). It has a .NET Web API, a Blazor app and SQL Server, and runs a Container Apps job in Docker with the job's Azure limits. From the web page you can run the job, stop it, kill it, and tick **All at once** to watch it run out of memory at its 1 GB limit.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
