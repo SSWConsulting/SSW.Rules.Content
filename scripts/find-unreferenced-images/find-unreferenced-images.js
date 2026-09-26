@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 const marked = require('marked');
 const core = require('@actions/core');
 
@@ -43,10 +43,11 @@ function findImagesInMarkdown(file) {
 }
 
 function getChangedRuleDirectories() {
-    const mergeBase = execSync("git merge-base origin/main HEAD", {
+    const baseRef = process.env.GITHUB_BASE_REF || "main";
+    const mergeBase = execFileSync("git", ["merge-base", `origin/${baseRef}`, "HEAD"], {
         encoding: "utf8"
     }).trim();
-    const diffOutput = execSync(`git diff --name-only ${mergeBase} HEAD`, {
+    const diffOutput = execFileSync("git", ["diff", "--name-only", mergeBase, "HEAD"], {
         encoding: "utf8"
     });
 
