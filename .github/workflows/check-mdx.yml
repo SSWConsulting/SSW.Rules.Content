@@ -33,36 +33,43 @@ jobs:
         shell: bash
         run: |
           set -e
+          changed_file="${{ runner.temp }}/changed-mdx.txt"
 
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | paste -sd "," -)"
+            git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' > "$changed_file"
           else
             # For manual runs, check all tracked .mdx files
-            changed="$(git ls-files '*.mdx' | paste -sd "," -)"
+            git ls-files '*.mdx' > "$changed_file"
           fi
 
-          echo "changed=$changed" >> $GITHUB_ENV
-          echo "Changed MDX: $changed"
+          changed_count="$(grep -c . "$changed_file" || true)"
+          echo "changed_count=$changed_count" >> $GITHUB_OUTPUT
+          echo "Changed MDX count: $changed_count"
+
+          if [ "$changed_count" -gt 0 ]; then
+            echo "First changed MDX files:"
+            sed -n '1,20p' "$changed_file"
+          fi
 
       - name: Install deps for MDX checker
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' }}
         run: |
           cd scripts/check-mdx
           npm install
 
       - name: Run MDX check (auto-fix)
         id: mdx_check
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' }}
         continue-on-error: true
         env:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
         run: |
           cd scripts/check-mdx
-          node check-mdx.js --fix '${{ env.changed }}'
+          node check-mdx.js --fix --files-from '${{ runner.temp }}/changed-mdx.txt'
 
       - name: Check MDX report exists
         id: mdx_report
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' }}
         shell: bash
         run: |
           if [ -f "${{ runner.temp }}/mdx-check-report.md" ]; then
@@ -73,7 +80,7 @@ jobs:
 
       - name: Commit & push auto-fixes (same-repo PR only)
         id: autofix
-        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         run: |
           set -e
 
@@ -94,7 +101,7 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Comment on PR (same-repo PR only, only when issues found)
-        if: ${{ env.changed != '' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
@@ -140,5 +147,5 @@ jobs:
             }
 
       - name: Fail job if MDX check failed
-        if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' }}
+        if: ${{ steps.changed_mdx.outputs.changed_count != '0' && steps.mdx_check.outcome == 'failure' }}
         run: exit 1

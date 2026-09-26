@@ -68,10 +68,37 @@ function normalizeToRepoRelative(repoRoot, p) {
 
 function parseArgs(argv) {
   const args = argv.slice(2);
-  const fix = args.includes("--fix");
-  const filesRaw = args.filter((a) => a !== "--fix");
+  const filesRaw = [];
+  let fix = false;
+  let filesFrom = "";
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    if (arg === "--fix") {
+      fix = true;
+      continue;
+    }
+
+    if (arg === "--files-from") {
+      filesFrom = args[i + 1] || "";
+      i++;
+      continue;
+    }
+
+    filesRaw.push(arg);
+  }
 
   let files = filesRaw.filter(Boolean);
+
+  if (filesFrom) {
+    files.push(
+      ...fsSync
+        .readFileSync(filesFrom, "utf8")
+        .split(/\r?\n/)
+        .map((s) => s.trim())
+        .filter(Boolean),
+    );
+  }
 
   // Support a single comma-separated argument (workflow passes "a,b,c")
   if (files.length === 1 && files[0].includes(",")) {
