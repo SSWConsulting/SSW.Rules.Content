@@ -167,11 +167,14 @@ function scanFile(file) {
 
 const repoRoot = findRepoRoot(process.cwd());
 const rawArg = process.argv[2] || "";
+const rawInput = rawArg.startsWith("@")
+  ? fs.readFileSync(rawArg.slice(1), "utf8")
+  : rawArg;
 
 let files;
-if (rawArg.trim()) {
-  files = rawArg
-    .split(",")
+if (rawInput.trim()) {
+  files = rawInput
+    .split(/[\r\n,]+/)
     .map((f) => f.trim())
     .filter(Boolean)
     .filter((f) => /\.mdx?$/.test(f))

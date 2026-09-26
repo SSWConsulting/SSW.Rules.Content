@@ -34,28 +34,37 @@ jobs:
         run: |
           set -e
 
+          changed_file="${{ runner.temp }}/changed-markdown-files.txt"
+
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.md' '*.mdx' | paste -sd "," -)"
+            git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.md' '*.mdx' > "$changed_file"
           else
             # For manual runs, check all tracked .md/.mdx files
-            changed="$(git ls-files '*.md' '*.mdx' | paste -sd "," -)"
+            git ls-files '*.md' '*.mdx' > "$changed_file"
           fi
 
-          echo "changed=$changed" >> $GITHUB_ENV
-          echo "Changed Markdown/MDX: $changed"
+          if grep -qve '^[[:space:]]*$' "$changed_file"; then
+            echo "has_changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changed Markdown/MDX files: $(wc -l < "$changed_file")"
+          else
+            echo "has_changed=false" >> "$GITHUB_OUTPUT"
+            echo "Changed Markdown/MDX: none"
+          fi
+
+          echo "changed_file=$changed_file" >> "$GITHUB_OUTPUT"
 
       - name: Run malformed-bold check
         id: bold_check
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_md.outputs.has_changed == 'true' }}
         continue-on-error: true
         env:
           BOLD_REPORT_PATH: ${{ runner.temp }}/malformed-bold-report.md
         run: |
-          node scripts/check-malformed-bold/check-malformed-bold.js '${{ env.changed }}'
+          node scripts/check-malformed-bold/check-malformed-bold.js '@${{ steps.changed_md.outputs.changed_file }}'
 
       - name: Check report exists
         id: bold_report
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_md.outputs.has_changed == 'true' }}
         shell: bash
         run: |
           if [ -f "${{ runner.temp }}/malformed-bold-report.md" ]; then
@@ -65,7 +74,7 @@ jobs:
           fi
 
       - name: Comment on PR
-        if: ${{ env.changed != '' && steps.bold_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ steps.changed_md.outputs.has_changed == 'true' && steps.bold_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
           BOLD_REPORT_PATH: ${{ runner.temp }}/malformed-bold-report.md
@@ -102,5 +111,5 @@ jobs:
             }
 
       - name: Fail job if malformed bold was found
-        if: ${{ env.changed != '' && steps.bold_check.outcome == 'failure' }}
+        if: ${{ steps.changed_md.outputs.has_changed == 'true' && steps.bold_check.outcome == 'failure' }}
         run: exit 1
