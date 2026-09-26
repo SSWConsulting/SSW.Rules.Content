@@ -80,7 +80,10 @@ function parseArgs(argv) {
     }
 
     if (arg === "--files-from") {
-      filesFrom = args[i + 1] || "";
+      if (!args[i + 1] || args[i + 1].startsWith("--")) {
+        throw new Error("Missing path after --files-from");
+      }
+      filesFrom = args[i + 1];
       i++;
       continue;
     }
