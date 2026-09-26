@@ -88,6 +88,8 @@ function parseArgs(argv) {
     filesRaw.push(arg);
   }
 
+  // Combine positional files first, then append newline-delimited paths from
+  // --files-from. We deduplicate after all inputs are collected.
   let files = filesRaw.filter(Boolean);
 
   if (filesFrom) {
