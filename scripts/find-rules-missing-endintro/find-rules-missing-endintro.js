@@ -7,6 +7,7 @@ import process from "node:process";
  * If no argument is supplied, it scans all rule.mdx files under public/uploads/rules/.
  *
  * Environment variables:
+ *   ENDINTRO_INPUT_PATH  - If set, reads newline-delimited file paths from this file.
  *   ENDINTRO_REPORT_PATH - If set, writes a Markdown report to this path (used by CI to post PR comments).
  */
 
@@ -44,10 +45,19 @@ function getAllRuleFiles(rootDir) {
 
 const repoRoot = findRepoRoot(process.cwd());
 const rawArg = process.argv[2] || "";
+const inputPath = process.env.ENDINTRO_INPUT_PATH || "";
 
 let filesToCheck;
 
-if (rawArg.trim()) {
+if (inputPath.trim()) {
+  filesToCheck = fs
+    .readFileSync(inputPath, "utf8")
+    .split(/\r?\n/)
+    .map((f) => f.trim())
+    .filter(Boolean)
+    .map((f) => (path.isAbsolute(f) ? f : path.resolve(repoRoot, f)))
+    .filter(isRuleFile);
+} else if (rawArg.trim()) {
   filesToCheck = rawArg
     .split(",")
     .map((f) => f.trim())

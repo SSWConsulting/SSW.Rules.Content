@@ -34,29 +34,33 @@ jobs:
         run: |
           set -e
 
+          changed_file="${{ runner.temp }}/changed-mdx-files.txt"
+
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | paste -sd "," -)"
+            git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' > "$changed_file"
           else
             # For manual runs, check all tracked .mdx files
-            changed="$(git ls-files '*.mdx' | paste -sd "," -)"
+            git ls-files '*.mdx' > "$changed_file"
           fi
 
-          echo "changed=$changed" >> $GITHUB_ENV
-          echo "Changed MDX: $changed"
+          count="$(grep -c . "$changed_file" || true)"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Changed MDX files: $count"
 
       - name: Run endIntro check
         id: endintro_check
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_mdx.outputs.count != '0' }}
         continue-on-error: true
         env:
+          ENDINTRO_INPUT_PATH: ${{ runner.temp }}/changed-mdx-files.txt
           ENDINTRO_REPORT_PATH: ${{ runner.temp }}/endintro-report.md
         run: |
           cd scripts/find-rules-missing-endintro
-          node find-rules-missing-endintro.js '${{ env.changed }}'
+          node find-rules-missing-endintro.js
 
       - name: Check report exists
         id: endintro_report
-        if: ${{ env.changed != '' }}
+        if: ${{ steps.changed_mdx.outputs.count != '0' }}
         shell: bash
         run: |
           if [ -f "${{ runner.temp }}/endintro-report.md" ]; then
@@ -66,7 +70,7 @@ jobs:
           fi
 
       - name: Comment on PR
-        if: ${{ env.changed != '' && steps.endintro_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ steps.changed_mdx.outputs.count != '0' && steps.endintro_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
           ENDINTRO_REPORT_PATH: ${{ runner.temp }}/endintro-report.md
@@ -103,5 +107,5 @@ jobs:
             }
 
       - name: Fail job if endIntro check failed
-        if: ${{ env.changed != '' && steps.endintro_check.outcome == 'failure' }}
+        if: ${{ steps.changed_mdx.outputs.count != '0' && steps.endintro_check.outcome == 'failure' }}
         run: exit 1
