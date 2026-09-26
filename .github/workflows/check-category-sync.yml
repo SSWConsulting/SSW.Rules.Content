@@ -32,7 +32,8 @@ jobs:
         id: get_changed
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD | paste -sd ",")" >> $GITHUB_ENV
+          git fetch --no-tags --depth=1 https://github.com/${{ github.repository }}.git ${{ github.event.pull_request.base.ref }}
+          echo "changed=$(git diff --name-only $(git merge-base FETCH_HEAD HEAD) HEAD | paste -sd ",")" >> $GITHUB_ENV
 
       # Step 4: Run the category sync fixer
       - name: Fix Category Sync
