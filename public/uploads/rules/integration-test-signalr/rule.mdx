@@ -192,7 +192,7 @@ await connection.InvokeAsync(nameof(OrderHub.JoinOrderGroup), orderId);
 
 ## Summary
 
-| Do | Avoid |
+| ✅ Do | ❌ Avoid |
 | --- | --- |
 | Connect a real `HubConnection` to `WebApplicationFactory` | Mocking `IHubContext` and asserting `Received(1)` |
 | Set both `HttpMessageHandlerFactory` and `WebSocketFactory` | Letting the client fall back to a transport production doesn't use |
