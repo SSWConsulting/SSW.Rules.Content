@@ -42,7 +42,7 @@ jobs:
             git ls-files '*.mdx' > "$changed_file"
           fi
 
-          changed_count="$(grep -c . "$changed_file" || true)"
+          changed_count="$(wc -l < "$changed_file" | tr -d '[:space:]')"
           echo "changed_count=$changed_count" >> $GITHUB_OUTPUT
           echo "Changed MDX count: $changed_count"
 
