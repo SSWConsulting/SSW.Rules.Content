@@ -1,13 +1,14 @@
 name: PR Preview Comment
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
 
 jobs:
   comment:
     runs-on: ubuntu-latest
     permissions:
+      issues: write
       pull-requests: write
       contents: read
     steps:
