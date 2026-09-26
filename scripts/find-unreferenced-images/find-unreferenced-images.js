@@ -1,7 +1,21 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const marked = require('marked');
 const core = require('@actions/core');
+
+const RULES_ROOT = "../../public/uploads/rules";
+
+function normalizeImageReference(reference) {
+    if (!reference) {
+        return null;
+    }
+
+    const cleanedReference = reference.split("?")[0].split("#")[0];
+    const fileName = path.basename(cleanedReference);
+
+    return fileName || null;
+}
 
 function findImagesInMarkdown(file) {
     const nodeList = []
@@ -18,7 +32,36 @@ function findImagesInMarkdown(file) {
     marked.use({ walkTokens });
     marked.parse(markdown, { mangle: false, headerIds: false });
 
-    return [...new Set(nodeList)];
+    const imageEmbedRegex = /<imageEmbed\b[^>]*\bsrc=(?:"([^"]+)"|'([^']+)')/g;
+    let match;
+
+    while ((match = imageEmbedRegex.exec(markdown)) !== null) {
+        nodeList.push(match[1] || match[2]);
+    }
+
+    return [...new Set(nodeList.map(normalizeImageReference).filter(Boolean))];
+}
+
+function getChangedRuleDirectories() {
+    const mergeBase = execSync("git merge-base origin/main HEAD", {
+        encoding: "utf8"
+    }).trim();
+    const diffOutput = execSync(`git diff --name-only ${mergeBase} HEAD`, {
+        encoding: "utf8"
+    });
+
+    return [...new Set(
+        diffOutput
+            .split(/\r?\n/)
+            .filter(file => file.startsWith("public/uploads/rules/"))
+            .map(file => path.posix.dirname(file))
+            .filter(directory => directory !== "public/uploads/rules")
+            .map(directory => `../../${directory}`)
+    )];
+}
+
+function getRuleKey(directory) {
+    return directory.replace(`${RULES_ROOT}/`, "");
 }
 
 function traverseEverything(directory) {
@@ -37,7 +80,7 @@ function traverseDirectories(directories) {
         const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
         if (intersection.length > 0) {
-            images[directory.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
+            images[getRuleKey(directory)] = intersection;
         }
     });
 
@@ -63,12 +106,12 @@ function recTraverseDirectory(directory, images) {
             const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
             if (intersection.length > 0) {
-                images[filePath.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
+                images[getRuleKey(filePath)] = intersection;
             }
-        } else if (file.toLowerCase() === 'rule.md') {
+        } else if (["rule.md", "rule.mdx"].includes(file.toLowerCase())) {
             const images = findImagesInMarkdown(filePath);
             markdownImages.push(...images);
-        } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf)$/i.test(file)) {
+        } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf|webp)$/i.test(file)) {
             folderImages.push(file);
         }
     }
@@ -83,16 +126,12 @@ async function main() {
     let images;
 
     if (eventType === "pull_request") {
-        if (process.argv[2] && process.argv[2].length > 0) {
-            const folders = process.argv[2]
-                .split(",")
-                .filter(file => file.slice(0, 5) == "rules")
-                .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
-
+        const folders = getChangedRuleDirectories();
+        if (folders.length > 0) {
             images = traverseDirectories(folders);
         }
     } else if (eventType === "workflow_dispatch") {
-        images = traverseEverything("../../rules/");
+        images = traverseEverything(RULES_ROOT);
     }
     
     if (images === undefined || images === null || Object.keys(images).length === 0) {
@@ -102,7 +141,7 @@ async function main() {
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
-        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
+        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/public/uploads/rules/${rule}`).addList(images[rule]).write();
     }
 }
 
