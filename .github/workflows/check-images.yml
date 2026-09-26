@@ -28,7 +28,16 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
       - uses: actions/setup-node@v7
 
+      - name: Fetch pull request base commit
+        if: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch --no-tags --depth=1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" ${{ github.event.pull_request.base.sha }}
+
       - name: run find-unreferenced-images script
+        env:
+          GITHUB_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           cd scripts/find-unreferenced-images
           npm install

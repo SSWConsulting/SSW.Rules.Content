@@ -43,8 +43,10 @@ function findImagesInMarkdown(file) {
 }
 
 function getChangedRuleDirectories() {
+    const baseSha = process.env.GITHUB_BASE_SHA;
     const baseRef = process.env.GITHUB_BASE_REF || "main";
-    const mergeBase = execFileSync("git", ["merge-base", `origin/${baseRef}`, "HEAD"], {
+    const baseTarget = baseSha || `origin/${baseRef}`;
+    const mergeBase = execFileSync("git", ["merge-base", baseTarget, "HEAD"], {
         encoding: "utf8"
     }).trim();
     const diffOutput = execFileSync("git", ["diff", "--name-only", mergeBase, "HEAD"], {
