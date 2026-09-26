@@ -36,7 +36,9 @@ jobs:
           changed_file="${{ runner.temp }}/changed-mdx.txt"
 
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' > "$changed_file"
+            base_ref="${{ github.event.pull_request.base.ref }}"
+            git fetch --no-tags origin "$base_ref":"refs/remotes/origin/$base_ref"
+            git diff --name-only --diff-filter=ACMRT $(git merge-base "origin/$base_ref" HEAD) HEAD -- '*.mdx' > "$changed_file"
           else
             # For manual runs, check all tracked .mdx files
             git ls-files '*.mdx' > "$changed_file"
