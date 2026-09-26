@@ -34,7 +34,7 @@ jobs:
         id: get_changed
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+          git diff --name-only $(git merge-base origin/main HEAD) HEAD > changed_files.txt
           echo "pr_owner=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
 
       # Step 4: Check Markdown files for valid frontmatter
@@ -43,9 +43,8 @@ jobs:
         id: check_markdown
         with:
           run: |
-            cd scripts/frontmatter-validator
-            npm install --silent
-            node frontmatter-validator.js '${{ env.changed }}'
+            npm --prefix scripts/frontmatter-validator install --silent
+            node scripts/frontmatter-validator/frontmatter-validator.js --file changed_files.txt
 
       # Step 5: Write workflow job summary if the previous step failed
       - name: Add Job Summary
