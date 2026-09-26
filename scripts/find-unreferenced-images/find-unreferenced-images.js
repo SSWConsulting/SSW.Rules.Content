@@ -44,9 +44,12 @@ function findImagesInMarkdown(file) {
 
 function getChangedRuleDirectories() {
     const baseSha = process.env.GITHUB_BASE_SHA;
-    const baseRef = process.env.GITHUB_BASE_REF || "main";
-    const baseTarget = baseSha || `origin/${baseRef}`;
-    const mergeBase = execFileSync("git", ["merge-base", baseTarget, "HEAD"], {
+
+    if (!baseSha) {
+        throw new Error("GITHUB_BASE_SHA is required for pull request image checks.");
+    }
+
+    const mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], {
         encoding: "utf8"
     }).trim();
     const diffOutput = execFileSync("git", ["diff", "--name-only", mergeBase, "HEAD"], {
