@@ -20,7 +20,7 @@ seoDescription: 'Test Azure Container Apps jobs locally with Docker, as the exac
 created: 2026-09-25T06:05:44.475Z
 createdBy: 'Harkirat Singh [SSW]'
 createdByEmail: harksingh@ssw.com.au
-lastUpdated: 2026-09-25T07:51:37.382Z
+lastUpdated: 2026-09-27T23:59:21.351Z
 lastUpdatedBy: 'Harkirat Singh [SSW]'
 lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
@@ -39,7 +39,7 @@ A job is just a container image, so Docker can run that same image on your machi
 
 <imageEmbed alt="Azure portal execution history for a Container Apps job, with one execution Failed and a later one Succeeded" size="large" showBorder={true} figurePrefix="bad" figure="Using Azure as your first feedback loop (a deployment per attempt)" src="/uploads/rules/test-azure-container-apps-jobs-locally-with-docker/failing-container-app-job.png" />
 
-## ✅ Run the job in Docker, the way Azure runs it
+## &#x20;Run the job in Docker, the way Azure runs it
 
 On EagleEye, this is how we test changes to our Container Apps job. When a developer presses **Start Scan** in the local portal, the API starts the real job image in Docker, with the same limits as the job in Azure (2 vCPU and 4 GiB). The scan runs against real services, and the portal shows its progress as it does in Azure. A change to the job is checked in minutes.
 
@@ -57,7 +57,7 @@ docker run --rm --name orders-local --platform linux/amd64 \
 
 Put secrets in the env file (`chmod 600`), not in `-e` flags. Command-line arguments end up in your shell history and in `ps`.
 
-## ✅ Why Docker is useful
+## Why Docker is useful
 
 * **Same image** - You test the build that ships, not your code running inside something else
 * **Same limits** - `--cpus` and `--memory` apply the job's limits, and .NET sizes its threads and garbage collector to match
@@ -74,7 +74,7 @@ Put secrets in the env file (`chmod 600`), not in `-e` flags. Command-line argum
   style="tips"
 />
 
-### ⚠️ What a local run can't tell you
+### What a local run can't tell you
 
 Docker gets you much closer to Azure, but it is not Azure. A local run does **not** test:
 
