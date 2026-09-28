@@ -29,9 +29,9 @@ It is the responsibility of Account Managers to book developers for known client
   style="greybox"
   body={<>
     **The Rule of the 3 T's**
-    
+
     Before booking developers, make sure you talk to them and check that they are cool with:
-    
+
     * The **Time** - How long is the project?
     * The **Tech** - What skills are required?
     * The **Team** - Who will they be working with?
@@ -48,15 +48,36 @@ To see which developers are available for booking:
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Build a Power BI report to show the CRM data more succinctly" src="/uploads/rules/book-developers-for-a-project/bookedindays.png" />
 
-There are a few different ways of booking developers for project work, either via Outlook or the browser.
+You can book developers through BookingPro in ChatGPT or Claude, or manually through Outlook or Dynamics 365.
 
 <endIntro />
 
-### Option 1: Use the Outlook Calendar and "Set Regarding" (recommended)
+## Option 1: BookingPro in ChatGPT or Claude (Recommended)
+
+At SSW, BookingPro lets you create, change and delete developer bookings using natural language. It uses a local Model Context Protocol (MCP) server, accessible from ChatGPT or Claude, to make those changes in Dynamics 365 and Outlook.
+
+### How do you use BookingPro?
+
+1. Open ChatGPT or Claude with the local BookingPro MCP connected
+2. Describe the booking you want to create, change or delete. Include the developer, client, dates, working hours, time zone and location. For recurring bookings, specify the recurrence and whether a change applies to one occurrence or the whole series
+3. Check the details returned by BookingPro and clarify anything missing or incorrect
+4. Verify the result in Dynamics 365 and Outlook. For a new or changed booking, check the developer, client, dates and times. For a deleted booking, check that it has been removed from both systems
+
+For example, you can ask:
+
+* **Create a booking** - "Book Brendan for Northwind on Mon 12 Oct 2026, from 9 am to 5 pm Sydney time, working remotely"
+* **Change a booking** - "Move Brendan's Northwind booking on Mon 12 Oct 2026 to Tue 13 Oct 2026. Keep the same hours and location"
+* **Delete a booking** - "Delete Brendan's Northwind booking on Tue 13 Oct 2026 only"
+
+The Rule of the 3 T's still applies. Talk to the developer before booking their time.
+
+If you don't have BookingPro connected, use one of the manual options below.
+
+## Option 2: Outlook Calendar and "Set Regarding"
 
 Prerequisite: [Do you install the Dynamics 365 App?](/install-the-2-add-ins)
 
-This is generally the easiest way for developers to book themselves in as they don't need to leave Outlook and 90% of the steps will already be familiar to them.
+This is a manual option for developers who use Outlook with the Dynamics 365 App.
 
 1. Create a new Outlook appointment (in the Desktop or Web client) and give it a relevant subject
 2. Invite required resources if there are other people working with you or if you're booking for someone else\
@@ -70,7 +91,7 @@ This is generally the easiest way for developers to book themselves in as they d
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="A complete appointment booking Brendan to work for SSW for 5 days" src="/uploads/rules/book-developers-for-a-project/Dynamics1.jpg" />
 
-### Option 2: CRM Activity Appointments
+## Option 3: CRM Activity Appointments
 
 This is a backup option for anyone who doesn't have access to Outlook with the CRM add-in.
 
@@ -114,7 +135,9 @@ To book someone for internal work:
 
 ### Deleting Bookings
 
-Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to follow these steps:
+You can ask BookingPro to delete a booking from Dynamics 365 and Outlook, as shown in Option 1.
+
+If you're deleting a booking manually, cancelling an appointment in Outlook will not delete it from Dynamics 365. Follow these steps:
 
 1. In the appointment, open the Dynamics 365 App
 2. Click on the menu next to **Tracked regarding**
