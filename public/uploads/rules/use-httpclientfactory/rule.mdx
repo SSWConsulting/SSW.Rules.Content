@@ -22,7 +22,7 @@ categories:
 
 Every `HttpClient` you create with `new` owns its own connection pool. Disposing it closes those connections, and the operating system keeps each closed port in the `TIME_WAIT` state for a while before it can be reused. Create a client per request under load and the machine runs out of ports, and every outgoing call fails with a `SocketException`.
 
-The opposite mistake is just as bad. A single static `HttpClient` that lives forever resolves DNS only when it opens a connection. When the remote service fails over or swaps a deployment slot, the client keeps calling the old IP address.
+The opposite mistake is just as bad. A single static `HttpClient` resolves DNS only when it opens a connection, and by default it never retires a busy one. When the remote service fails over or swaps a deployment slot, a client under steady traffic keeps calling the old IP address.
 
 `IHttpClientFactory` fixes both problems. It pools the handlers that own the connections, so they get reused, and it replaces them every two minutes by default, so DNS gets looked up again.
 
@@ -47,7 +47,7 @@ public class OrdersClient
     private static readonly HttpClient Client = new();
 }
 ```
-**❌ Figure: Bad example - Connections stay open forever, so the client keeps using the IP address it resolved on day one**
+**❌ Figure: Bad example - Busy connections are never recycled, so under steady traffic the client keeps calling the IP address it resolved when it first connected**
 
 ## Register a typed client
 
