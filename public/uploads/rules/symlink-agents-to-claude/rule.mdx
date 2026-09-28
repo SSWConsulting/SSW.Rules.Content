@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you symlink your AGENTS.md to other tool-specific files?
+title: Do you share one AGENTS.md and skills folder across AI tools?
 uri: symlink-agents-to-claude
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -15,53 +15,77 @@ related:
   - rule: public/uploads/rules/write-agents-md/rule.mdx
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
 guid: f7a3c1e2-8d45-4b91-a6e0-2c9f17d58b34
-seoDescription: Learn how to use symlinks so your AGENTS.md works across Claude Code, GitHub Copilot, and other AI tools without duplicating files.
+seoDescription: Keep one AGENTS.md that Claude Code, GitHub Copilot and other AI tools read directly, and symlink your skills folder so Claude Code sees the same skills.
 created: 2026-03-11T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: gordonbeeming@ssw.com.au
-lastUpdated: 2026-04-30T00:00:00.000Z
-lastUpdatedBy: Brady Stroud
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2026-09-28T00:00:00.000Z
+lastUpdatedBy: Anton Polkanov
+lastUpdatedByEmail: antonpolkanov@ssw.com.au
 ---
 
-`AGENTS.md` is the cross-tool standard for AI coding instructions, but some tools still look for their own files — Claude Code wants `CLAUDE.md` and `.claude/skills/`, and GitHub Copilot's PR review reads `.github/copilot-instructions.md`. Instead of maintaining multiple copies, use symlinks so every convention resolves to the same source.
+`AGENTS.md` is the cross-tool standard for AI coding instructions. Claude Code and GitHub Copilot code review both read it directly now, so you don't need a `CLAUDE.md` or `.github/copilot-instructions.md` copy of it. Skills are the one gap left: Claude Code only loads skills from `.claude/skills/`, so symlink that folder to `.agents/skills/`.
 
 <endIntro />
 
 ## The problem
 
-Most AI coding tools (Cursor, GitHub Copilot, OpenCode) read `AGENTS.md` and `.agents/skills/`. Claude Code reads `CLAUDE.md` and `.claude/skills/`. GitHub Copilot's pull request review feature reads `.github/copilot-instructions.md`. If you maintain separate files, they drift apart and your team gets inconsistent AI behavior depending on which tool they use.
+If you keep the same instructions in several files, they drift apart and your team gets different AI behavior depending on which tool they use.
 
-## The solution: symlinks
+Here is where the main tools look today:
 
-Symlinks let you keep one source of truth while satisfying both conventions.
+| Tool | Instructions | Skills |
+| --- | --- | --- |
+| Claude Code (v2.1.277+) | `AGENTS.md`, or `CLAUDE.md` if one exists | `.claude/skills/` only |
+| GitHub Copilot | `AGENTS.md` at the repo root, plus `.github/copilot-instructions.md` | `.github/skills/`, `.claude/skills/`, `.agents/skills/` |
+| Cursor, OpenCode, Codex and most others | `AGENTS.md` | `.agents/skills/` |
 
-### AGENTS.md → CLAUDE.md
+## The solution
 
-Keep your instructions in `AGENTS.md` (the cross-tool standard) and symlink `CLAUDE.md` to it:
+### Instructions: keep only AGENTS.md
 
-```bash
-ln -s AGENTS.md CLAUDE.md
+Put your instructions in `AGENTS.md` and don't add a `CLAUDE.md` next to it. By default, [Claude Code reads `AGENTS.md`](https://code.claude.com/docs/en/memory#agents-md) only when there is no `CLAUDE.md`, `.claude/CLAUDE.md` or `CLAUDE.local.md` in the working directory or any folder above it. Adding one of those files makes Claude Code ignore your `AGENTS.md`.
+
+[Copilot code review also reads `AGENTS.md`](https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements/) from the root of the repository, so you no longer need to symlink `.github/copilot-instructions.md` to it. Only use `copilot-instructions.md` for guidance that should apply to Copilot alone.
+
+### When you do need a CLAUDE.md
+
+Some cases still need a `CLAUDE.md`:
+
+* You want to add Claude-specific instructions
+* Someone on the team uses a Claude Code version older than v2.1.277, or has turned off the built-in `agents-md` plugin
+
+In those cases, import `AGENTS.md` at the top of `CLAUDE.md`:
+
+```markdown
+@AGENTS.md
+
+## Claude Code
+
+- Claude-specific instructions go here
 ```
 
-### AGENTS.md → .github/copilot-instructions.md
+Use an import rather than a symlink. A symlinked `CLAUDE.md` turns into a one-line text file on Windows clones unless the developer has symlinks set up (see the note below).
 
-GitHub Copilot's pull request review feature reads `.github/copilot-instructions.md`. Symlink it to `AGENTS.md` so PR reviews use the same instructions:
+<boxEmbed
+  body={<>
+    A `CLAUDE.md` that only says "Get instructions from AGENTS.md" is not an import. Claude Code sees `AGENTS.md` only if it decides to open the file. Use `@AGENTS.md`, or delete the `CLAUDE.md` so Claude Code reads `AGENTS.md` directly.
+  </>}
+  figurePrefix="bad"
+  figure="Telling Claude Code to read AGENTS.md in words doesn't load it"
+  style="greybox"
+/>
 
-```bash
-ln -s ../AGENTS.md .github/copilot-instructions.md
-```
+### Skills: symlink .claude/skills to .agents/skills
 
-### .agents/skills/ → .claude/skills/
-
-Keep your skills in `.agents/skills/` and symlink from `.claude/skills/`:
+Keep your skills in `.agents/skills/` and symlink `.claude/skills/` to it:
 
 ```bash
 # Ensure the source and target directories exist
 mkdir -p .agents/skills
 mkdir -p .claude
 
-# Create the symlink so Claude sees the same skills
+# Create the symlink so Claude Code sees the same skills
 ln -s ../.agents/skills .claude/skills
 ```
 
@@ -90,10 +114,7 @@ ln -s ../.agents/skills .claude/skills
 <boxEmbed
   body={<>
     ```
-    ├── AGENTS.md                ← single source of truth
-    ├── CLAUDE.md → AGENTS.md   ← symlink
-    ├── .github/
-    │   └── copilot-instructions.md → ../AGENTS.md   ← symlink
+    ├── AGENTS.md                ← single source of truth, read by every tool
     ├── .agents/
     │   └── skills/              ← single source of truth
     │       └── commit/
@@ -103,22 +124,27 @@ ln -s ../.agents/skills .claude/skills
     ```
   </>}
   figurePrefix="good"
-  figure="Symlinks keep one source of truth — edit once, both tools pick it up"
+  figure="One AGENTS.md and one skills folder - edit once, every tool picks it up"
   style="greybox"
 />
 
+### Already symlinked CLAUDE.md or copilot-instructions.md?
+
+* `CLAUDE.md → AGENTS.md` - harmless, because Claude Code reads the content once. Delete it to drop the Windows problem below, or replace it with an `@AGENTS.md` import if you need a `CLAUDE.md`
+* `.github/copilot-instructions.md → AGENTS.md` - delete it, because Copilot code review already reads `AGENTS.md`
+
 ### Committing symlinks to git
 
-Git tracks symlinks natively. When you commit and push, your teammates get the same symlinks when they clone or pull — no extra setup needed.
+Git tracks symlinks natively. When you commit and push, your teammates get the same symlink when they clone or pull.
 
 ```bash
-git add CLAUDE.md .github/copilot-instructions.md .claude/skills
-git commit -m "Symlink tool-specific files to AGENTS.md for cross-tool compatibility"
+git add .claude/skills
+git commit -m "Symlink .claude/skills to .agents/skills"
 ```
 
 <boxEmbed
   body={<>
-    **Note:** On Windows, git may need `core.symlinks=true` to properly handle symlinks. Most modern Git for Windows installations handle this by default, but if symlinks appear as plain text files, run:
+    **Note:** On Windows, Git checks symlinks out as plain text files unless `core.symlinks` is enabled, and creating a symlink needs Developer Mode or Administrator rights. Turn on Developer Mode, then run:
 
     ```bash
     git config core.symlinks true
@@ -133,4 +159,4 @@ git commit -m "Symlink tool-specific files to AGENTS.md for cross-tool compatibi
 
 ## What about .claude/settings.json?
 
-The `.claude/` directory may also contain Claude Code-specific configuration files like `settings.json` and `settings.local.json`. These are unique to Claude Code and don't belong in `.agents/`, so don't symlink the entire `.claude/` directory — only symlink the shared items (skills).
+The `.claude/` directory may also contain Claude Code-specific configuration files like `settings.json` and `settings.local.json`. These are unique to Claude Code and don't belong in `.agents/`, so don't symlink the entire `.claude/` directory - only symlink the shared items (skills).
