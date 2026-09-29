@@ -14,6 +14,7 @@ related:
   - rule: public/uploads/rules/use-output-caching/rule.mdx
   - rule: public/uploads/rules/use-a-cdn/rule.mdx
   - rule: public/uploads/rules/use-right-site-search-for-your-website/rule.mdx
+  - rule: public/uploads/rules/analyse-your-web-application-usage-with-application-insights/rule.mdx
   - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
   - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
 categories:
@@ -51,6 +52,16 @@ To measure it:
 3. Request the same page again, and count again
 
 The second count is what a real visitor costs once your caches are warm. If it matches the first, you have no cache.
+
+### Keep counting in production
+
+A local count proves the cache works on your machine. Production has real traffic, bots and cold starts, so keep the count running there too.
+
+Count at the HTTP client, because that is the one place that sees every call, whichever SDK or cache made it. Record the calls that reached the CMS separately from the ones the cache answered, and attach both as numbers to each request's telemetry. Because every request carries its route, you can then average the calls per page, find the most expensive page, and see whether a release changed it. See [Do you know how to set up Application Insights?](/how-to-set-up-application-insights) and [Do you know how to analyse your web application usage with Application Insights?](/analyse-your-web-application-usage-with-application-insights) for custom metrics.
+
+Where your monitoring already records outgoing HTTP calls as dependencies, counting CMS calls per request is a query rather than new code. Check which HTTP clients [Application Insights collects automatically](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-collect-detect) for your stack before writing a counter.
+
+Check the daily total against the CMS usage page, because that is what you are billed on. If the two do not match, something is calling the CMS outside a page request, such as a background job, a scheduled task or a sitemap build, or your telemetry is being sampled.
 
 ## Cache in layers
 
