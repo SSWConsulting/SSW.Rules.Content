@@ -1,0 +1,109 @@
+---
+type: rule
+title: Do you cache headless CMS content to stay inside your API quota?
+seoDescription: Headless CMSs like Contentful bill by the API call, so an uncached site pays for every page view and every bot. Measure calls per page, cache in layers, prove the cache is read, and watch the usage page.
+guid: 45752d81-074b-4e5c-a34a-373b9ed6ef7e
+uri: cache-headless-cms-content
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+related:
+  - rule: public/uploads/rules/when-to-use-contentful/rule.mdx
+  - rule: public/uploads/rules/choose-site-generation-strategy/rule.mdx
+  - rule: public/uploads/rules/use-output-caching/rule.mdx
+  - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
+  - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
+categories:
+  - category: categories/websites-and-cms/rules-to-better-contentful.mdx
+archivedreason: null
+isArchived: false
+---
+
+A headless CMS like Contentful bills by the API call. If your site fetches content from the CMS on every request, every page view costs calls. So does every bot, every crawler and every 404. The bill grows with traffic, not with how often the content changes.
+
+It is also silent. Nothing breaks and the pages still load. Nobody opens the usage page until an invoice or a throttling error turns up.
+
+<endIntro />
+
+## Know what your plan allows
+
+Find your plan's API call quota, and what happens when you go over it. Contentful's [usage limits](https://www.contentful.com/help/admin/usage/usage-limit/) show the three shapes this takes:
+
+* **Free** - a fixed monthly quota, with no overage allowed
+* **Lite** - a monthly quota, then every extra million calls is billed, with no cap
+* **Premium and Enterprise** - no per-call billing, but every request is bound by the [technical limits](https://www.contentful.com/developers/docs/platform/technical-limits/), so heavy uncached traffic risks being throttled
+
+Whichever plan you are on, uncached traffic ends up as either a bill or throttled requests.
+
+## Measure calls per page view
+
+Monthly API calls are roughly page views multiplied by calls per page view. Most teams know the first number and have never measured the second.
+
+A CMS-driven page usually makes more calls than you expect. There is the page itself, then the navigation, the footer, global settings, related items and any listing on the page. The layout calls happen on every page, including 404s, and a sitemap can fan out into hundreds.
+
+To measure it:
+
+1. Log every outgoing CMS request in a local build, for example with HTTP client middleware that appends each URL to a file
+2. Request a key page once, and count the lines
+3. Request the same page again, and count again
+
+The second count is what a real visitor costs once your caches are warm. If it matches the first, you have no cache.
+
+## Cache in layers
+
+1. **Serve whole pages from a cache.** Static generation, incremental regeneration, [output caching](/use-output-caching) or a CDN in front of the site all work. A repeat view served this way makes no CMS calls at all. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy)
+2. **Cache shared content in the app.** Navigation, footer and site settings appear on every page. Fetch them once and reuse them from a cache that survives between requests and across servers, such as Redis
+3. **Clear the cache when content is published.** Use [Contentful webhooks](https://www.contentful.com/developers/docs/extensibility/webhooks/overview/) to clear the pages that changed. A short expiry that refetches "just in case" spends calls on content that has not changed
+
+## Prove the cache is being read
+
+The most expensive cache is one that looks like it works. The code writes to the cache and the config looks right, but every read misses. These are the common causes, and none of them throws an error:
+
+* The page cache is set up for one web server (e.g. Apache `.htaccess` rules) but production runs another (e.g. nginx), so cached pages are written and never served
+* A cache read helper never returns the value it found
+* Caching sits behind a config flag that defaults to off and is never set in production
+* Code reads a value from the cache, then fetches it fresh anyway on the next line
+* The cache driver is in-memory, so it forgets everything at the end of each request
+
+The only way to find these is to count calls. The second view of a page should cost far fewer calls than the first, and a page served from a page cache should cost none.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **First view of the homepage:** 23 CMS calls
+
+    **Second view:** 23 CMS calls
+  </>}
+  figurePrefix="bad"
+  figure="The site has a page cache, a content cache and an SDK cache, but the second view costs the same as the first, so none of them is being read"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **First view of the homepage:** 23 CMS calls
+
+    **Second view:** 10 CMS calls
+
+    **Views served from the page cache:** 0 CMS calls
+  </>}
+  figurePrefix="good"
+  figure="The second view is cheaper than the first, which proves the cache is being read"
+/>
+
+## Search is billed the same way
+
+Hosted search services like Algolia bill per search request. If a listing page runs a search on the server every time it renders, it has the same problem, and bots paging through every filter and page number multiply it. Cache search results the same way. Use [robots.txt](/use-robots-txt-effectively) to keep crawlers out of the filter and paging combinations, while leaving the articles themselves crawlable.
+
+## Watch the usage page
+
+Check the CMS usage page as often as you check the cloud bill, and always after a release that changes how content is fetched. Turn on usage alerts where the CMS offers them. If usage is heading past the quota, tell the client before the invoice does, the same way you would [warn about a spike in Azure costs](/spike-in-azure-resource-costs).
+
+## Example: a site 10 times over its quota
+
+A marketing site on Contentful's Lite plan had a quota of 3 million API calls a month. For at least 6 months it used between 23 and 33 million. Nearly every call came from the Content Delivery API, which means the website itself, not the editors.
+
+Measuring locally showed 20 to 40 calls per page view. A 404 page cost 20. A repeat view cost exactly the same as the first. The site had a page cache, an app content cache and an SDK cache, and each one was broken by a cause on the list above. Every one of those calls was also a round trip the server made before it could send the page, so the site was slow as well as expensive.
+
+Fixing the cache read and the navigation refetch took a warm homepage from 23 calls to 10, and a warm content page to 7. Serving the page cache from nginx means repeat views of cached pages never reach the app at all, so they cost nothing.
