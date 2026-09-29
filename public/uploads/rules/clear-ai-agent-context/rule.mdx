@@ -77,7 +77,7 @@ The new phase starts with clean context focused on its own job. The file is a pr
     One long session handles a bug fix, then a new API endpoint, then a docs update. The developer never clears the context and relies on auto-compact whenever the window fills. By the third task, the agent mixes up files from the first task and ignores the latest instructions.
   </>}
   figurePrefix="bad"
-  figure="Bad example - One session carried through three unrelated tasks with auto-compact"
+  figure="One session carried through three unrelated tasks with auto-compact"
 />
 
 <boxEmbed
@@ -86,7 +86,7 @@ The new phase starts with clean context focused on its own job. The file is a pr
     The developer runs `/clear` after the bug fix and before the new endpoint. Midway through the endpoint, the window fills, so they run `/compact focus on the failing migration test and the fix we agreed`. For the larger docs overhaul, they ask the agent to write `PLAN.md`, clear, and start the implementation from the file.
   </>}
   figurePrefix="good"
-  figure="Good example - Clear between tasks, compact with a focus mid-task, and hand off phases with a plan file"
+  figure="Clear between tasks, compact with a focus mid-task, and hand off phases with a plan file"
 />
 
 ## Commands in popular CLI agents
