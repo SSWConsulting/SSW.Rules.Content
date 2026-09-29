@@ -1,0 +1,100 @@
+---
+type: rule
+title: Do you clear your AI agent's context between tasks?
+seoDescription: Clear your AI coding agent's context between tasks, compact only when one task outgrows the window, and hand off big tasks between phases with a written plan.
+guid: 5231259b-f5ca-4a4e-9993-2f938c35a65f
+uri: clear-ai-agent-context
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/ai-agent-memory-systems/rule.mdx
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/keep-prompts-concise-and-clear/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+You finish a bug fix, then ask the same AI agent session to write a new feature. The agent still carries every file, error, and failed attempt from the bug fix. It gets distracted by old details, forgets your newer instructions, and every message costs more than it should.
+
+<endIntro />
+
+An AI coding agent's context window holds the whole conversation: every message, every file it reads, and every command output. The agent sends all of it to the model with every request. Leftover context from an old task hurts you in three ways:
+
+* **It distracts the agent** - Irrelevant history pulls the agent back toward the last task and drifts its behaviour
+* **It costs more** - Every later message re-sends the old context, so you pay for it again and again
+* **It lowers quality** - Model performance degrades as the context fills, and the agent starts forgetting earlier instructions
+
+Anthropic's [Claude Code best practices](https://code.claude.com/docs/en/best-practices) put it plainly: "LLM performance degrades as context fills." The [Claude Code cost guide](https://code.claude.com/docs/en/costs#manage-context-proactively) adds: "Stale context wastes tokens on every subsequent message."
+
+## Clear by default
+
+Start every new task with a fresh context. Run `/clear`, or start a new session.
+
+Anything the agent needs on every task belongs in a file it loads at startup, such as `AGENTS.md`, not in a long-running conversation. See [Do you write an AGENTS.md?](/write-agents-md)
+
+If a task goes wrong and you have corrected the agent more than twice, clear too. Start again with a better prompt that includes what you learned.
+
+## Compact only mid-task
+
+Compacting asks the agent to summarise the conversation so far and replace the history with that summary. It frees space but loses detail. The summary keeps what the agent thinks matters, not necessarily what you need.
+
+Compact only when one task outgrows the window and its details still matter. Tell the agent what to keep:
+
+```text
+/compact focus on the failing migration test and the fix we agreed
+```
+
+Claude Code also compacts automatically as the conversation nears the context limit. Don't rely on auto-compact to carry you from one task to the next. It keeps a summary of old work you no longer need.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Compacting a large context is itself a large request, because the agent reads the whole conversation to summarise it. `/clear` costs nothing.
+  </>}
+  figurePrefix="none"
+  figure="Compacting has a cost of its own"
+/>
+
+## Hand off between phases with a plan file
+
+Big tasks often run in phases, such as plan, implement, and roll out. Don't compact across phases. Instead:
+
+1. Ask the agent to write the plan or spec to a file, such as `PLAN.md`
+2. Clear the context
+3. Start the next phase from the file, for example "Implement the plan in PLAN.md"
+
+The new phase starts with clean context focused on its own job. The file is a precise handoff that you can read and edit, unlike an automatic summary.
+
+## Examples
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    One long session handles a bug fix, then a new API endpoint, then a docs update. The developer never clears the context and relies on auto-compact whenever the window fills. By the third task, the agent mixes up files from the first task and ignores the latest instructions.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - One session carried through three unrelated tasks with auto-compact"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The developer runs `/clear` after the bug fix and before the new endpoint. Midway through the endpoint, the window fills, so they run `/compact focus on the failing migration test and the fix we agreed`. For the larger docs overhaul, they ask the agent to write `PLAN.md`, clear, and start the implementation from the file.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear between tasks, compact with a focus mid-task, and hand off phases with a plan file"
+/>
+
+## Commands in popular CLI agents
+
+| Tool | Clear the context | Compact the context |
+| --- | --- | --- |
+| [Claude Code](https://code.claude.com/docs/en/costs#manage-context-proactively) | `/clear` | `/compact [instructions]` |
+| [OpenAI Codex CLI](https://learn.chatgpt.com/docs/developer-commands?surface=cli) | `/clear` or `/new` | `/compact` |
+| [GitHub Copilot CLI](https://docs.github.com/en/copilot/reference/cli-command-reference) | `/clear` or `/new` | `/compact [focus instructions]` |
+
+Commands change often. Check each tool's documentation for the current list.
