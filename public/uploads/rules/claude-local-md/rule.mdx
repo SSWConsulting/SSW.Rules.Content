@@ -66,7 +66,7 @@ Team conventions stay in the shared file. Build commands, coding standards, and 
     ```
   </>}
   figurePrefix="good"
-  figure="Good example - A short, gitignored CLAUDE.local.md with only personal overrides"
+  figure="A short, gitignored CLAUDE.local.md with only personal overrides"
 />
 
 <boxEmbed
@@ -84,7 +84,7 @@ Team conventions stay in the shared file. Build commands, coding standards, and 
     ```
   </>}
   figurePrefix="bad"
-  figure="Bad example - Personal preferences committed to the shared AGENTS.md, where they confuse the rest of the team"
+  figure="Personal preferences committed to the shared AGENTS.md, where they confuse the rest of the team"
 />
 
 Copying the team conventions into `CLAUDE.local.md` is just as bad. The copy goes stale when the shared file changes, and Claude then reads two versions of the same rule.
@@ -111,14 +111,14 @@ A repository that has a `CLAUDE.md` importing or linking to `AGENTS.md` doesn't 
 
 ### Worktrees don't share CLAUDE.local.md
 
-A gitignored `CLAUDE.local.md` exists only in the worktree where you created it. A new worktree starts without it. To share personal instructions across worktrees, keep them in a file in your home folder and import it:
+A gitignored `CLAUDE.local.md` exists only in the worktree where you created it. A new worktree starts without it. To share personal instructions across worktrees, keep them in one file in your home folder. Then make each worktree's `CLAUDE.local.md` a single import of that file:
 
 ```markdown
 # Individual Preferences
 - @~/.claude/my-project-instructions.md
 ```
 
-Claude Code asks you to approve an import from outside the project the first time it sees one. See [Do you use Git worktrees?](/git-worktrees)
+Your overrides then live in one place, and a new worktree only needs that one line. Claude Code asks you to approve an import from outside the project the first time it sees one. See [Do you use Git worktrees?](/git-worktrees)
 
 ## Learn more
 
