@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what to watch out for when using ChatGPT to write content?
+title: Do you know what to watch out for when using AI to write content?
 uri: check-your-ai-writing
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -9,6 +9,8 @@ authors:
     url: 'https://www.ssw.com.au/people/clara-fang'
   - title: Tiago Araujo
     url: 'https://www.ssw.com.au/people/tiago-araujo'
+  - title: Ulysses Maclaren
+    url: 'https://www.ssw.com.au/people/ulysses-maclaren'
 related:
   - rule: public/uploads/rules/chatgpt-skills-weaknesses/rule.mdx
   - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
@@ -23,141 +25,77 @@ lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 ---
 
-AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. While these tools are great at generating content quickly, they’re **not** always great at *sounding human*.
+AI tools like ChatGPT, Claude, and Copilot are great for drafting emails, reports, LinkedIn posts, and documentation quickly. They're **not** always great at *sounding human*.
 
-Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
+Left unchecked, AI-generated text comes across as overly formal, overly dramatic, or just a bit fake.
 
 <endIntro />
 
 <youtubeEmbed url="https://www.youtube.com/shorts/34BmRpsDTh0" description="Video: What to check before sending AI-written content (3 min)" />
 
-Before hitting send, take a minute to review the content ChatGPT gave you. It can save you from sounding robotic.
+## Watch out for common AI tells
 
-Here are the most common issues to watch out for:
+Before hitting send, check the draft for these patterns:
 
-## Overly Formal Tone
-
-AI often leans toward formality, making everyday points sound like a lawyer or English literature. This can feel unnatural, especially in a casual email or chat.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Common examples:
-    
-    * “plays a vital role”
-    * “holds significant importance”
-    * “a crucial influence”
-    * “a profound heritage”
-  </>}
-  figurePrefix="bad"
-  figure="These phrases sound heavy-handed for most day-to-day writing"
-/>
-
-Instead, use simpler alternatives that sound more like what you'd say in conversation.
-
-## Too Many Adjectives and Adverbs
-
-AI sometimes slips into writing that sounds like an ad, even when you’re not selling anything. This usually means lots of positive adjectives with no real facts.
+* **Overly formal tone** - "plays a vital role", "holds significant importance", "a profound heritage". Use the words you'd say in conversation
+* **Adjectives instead of facts** - "continues to captivate", "boasts a...", "seamlessly connecting...". If something is great, show *why* it's great
+* **Emojis** - 🚀 💡 🔥 at the start of every line looks unpolished in emails, reports, and documents for clients or stakeholders
+* **Em dashes (—)** - AI overuses them. People usually reach for a comma, a hyphen, or parentheses
+* **Dramatic contrasts** - "It's not just X, it's Y" or "The question isn't A, it's B" when there is no real contrast
+* **Fake or vague analysis** - Sentences that *sound* deep but say nothing. Ask yourself: *Is this actually true? Do I have evidence?* If not, cut it
 
 <boxEmbed
   style="greybox"
   body={<>
-    Typical AI phrases include:
-    
-    * “continues to captivate”
-    * “boasts a…”
-    * “seamlessly connecting…”
-    * “value-driven experiences…”
+    🚀 This update marks a pivotal step forward in redefining the user experience — it's not just a release, it's a transformation that seamlessly connects teams and underscores our commitment to value-driven outcomes.
   </>}
   figurePrefix="bad"
-  figure="Sounds polished, but it’s just fluff with no substance"
+  figure="Bad example - Emoji, em dash, dramatic contrast, and fluff with no facts"
 />
-
-Stick to facts. If something is great, show *why* it’s great, don’t just say it is.
-
-## Too Many Emojis (⭐ 🤖 😒)
-
-AI sometimes adds emojis to make text feel friendly or informal, but in professional writing, this can come across as unpolished or even inappropriate.
-
-While emojis are fine in casual chats, they don’t belong in emails, reports, or documents intended for clients, managers, or stakeholders. They can reduce the credibility of your message and make serious topics seem trivial.
 
 <boxEmbed
   style="greybox"
   body={<>
-    Phrases like:
-    
-    * 🚀 Let’s dive into the roadmap for Q1 2024!
-    * 💡 Pro tip: Always test your code before deployment.
-    * 🤖 AI is changing the game — are you ready?
-    * 📈 Our KPIs are looking great this month!
-    * 🔥 Things are heating up for our launch!
-    * 🎯 Don’t forget to submit your timesheets!
+    This update cuts page load time from 4 seconds to 1.5 seconds and adds offline mode, so people no longer lose drafts when their connection drops.
   </>}
-  figurePrefix="bad"
-  figure="Emojis make the writing feel unprofessional"
+  figurePrefix="good"
+  figure="Good example - Plain words and concrete facts"
 />
 
-Don't overuse Emojis!
+## Tell the AI how to write before it starts
 
-## Too Many Em Dashes (—)
+Fixing the tone after the fact is slower than getting it right the first time. Give the AI your output format up front instead of accepting its default voice.
 
-AI uses em dashes excessively. Humans usually prefer commas or parentheses in most cases.
+* **Claude** - Use [Styles](https://support.claude.com/en/articles/10181068) to create a custom writing style from a sample of your own writing, then reuse it in every chat
+* **Claude Code** - Use [output styles](https://code.claude.com/docs/en/output-styles) or project instructions (`CLAUDE.md`) so agents write PR descriptions, docs, and commit messages the way your team does
+* **ChatGPT and Copilot** - Put the same guidance in custom instructions so you don't repeat it in every prompt
 
 <boxEmbed
   style="greybox"
   body={<>
-    Phrases like:
-    
-    * And consensus doesn’t grow from silence **— it grows from critique, correction, and clarity**
-    * However, to date, no editor **— including yourself —** has identified any specific passages in the current version that were generated by AI or that fail to meet Wikipedia's content standards
-    * Given the article’s current state **—well-sourced, policy-compliant, and collaboratively improved —** the continued presence of the “LLM advisory” banner is unwarranted.
+    Write in plain English. Use short sentences and active voice. Don't use em dashes, emojis, or "it's not just X, it's Y" contrasts. Use facts and numbers instead of adjectives. Match the tone of the writing sample below.
   </>}
-  figurePrefix="bad"
-  figure="Too many em dashes make it feel unnatural"
+  figurePrefix="good"
+  figure="Good example - A reusable style instruction that prevents the most common AI tells"
 />
 
-## Unnecessary Drama or Parallelisms
+## Run a humanizer pass
 
-AI loves to add contrast for dramatic effect, even though it isn’t needed.
+The [humanizer skill](https://github.com/blader/humanizer) is an open-source [Agent Skill](https://agentskills.io/) for Claude Code, Codex, and other agents. It is based on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide and rewrites the patterns above (and many more) without changing what the text says.
+
+Once installed, run `/humanizer` on a draft before you send it. This is especially useful when an agent writes on your behalf, such as a PR description or release notes.
 
 <boxEmbed
-  style="greybox"
+  style="info"
   body={<>
-    Common AI patterns include:
-    
-    * Then let’s stay on topic, and the topic **is not** who feels warm fuzzies from visibility, **it’s whether** this article meets the threshold for inclusion. It doesn’t.
-    * **It’s not just** about the beat riding under the vocals; **it’s** part of the aggression and atmosphere.
+    A humanizer fixes the *style*, not the *facts*. You still need to read the result and check every claim.
   </>}
-  figurePrefix="bad"
-  figure="Overuse of dramatic structures makes writing feel artificial or emotionally loaded"
+  figurePrefix="none"
+  figure=""
 />
 
-## Fake or Vague Analysis
-
-AI can invent explanations that *sound* deep, but actually say nothing.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Phrases like:
-    
-    * Douera enjoys close proximity to the capital city, Algiers, **further enhancing its significance as a dynamic hub of activity and culture.**
-    * These citations, spanning more than six decades and appearing in recognized academic publications, **illustrate Blois' lasting influence in computational linguistics, grammar, and neology.**
-    * The software update **marks a pivotal step forward in redefining user experience across digital platforms.**
-    * The growing demand for sustainability **underscores an urgent need for action, collaboration, and thoughtful leadership.**
-  </>}
-  figurePrefix="bad"
-  figure="Sounds analytical, but adds no real value or evidence"
-/>
-
-If AI adds analysis, ask yourself: *Is this actually true? Do I have evidence for this?* If not, cut it.
-
-***
-
-## Final Tips
+## Final tips
 
 * **Keep the good stuff** - AI often produces solid drafts and saves time
 * **Don't blindly copy and paste** - Review tone, phrasing, and accuracy first
-* **Ask yourself: *“Would I say it this way?”*** - If not, rewrite it
-
-By taking the time to edit AI's output, you'll sound more authentic, approachable, and clear.
+* **Ask yourself: *"Would I say it this way?"*** - If not, rewrite it
