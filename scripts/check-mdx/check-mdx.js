@@ -339,7 +339,8 @@ function fixAngleBracketsInEmailEmbedBody(source) {
  * - JSX fragments: </>, <>
  * - Autolinks: <https://...>
  *
- * Also skips fenced code blocks delimited by ``` or ~~~.
+ * Also escapes any remaining `>` that doesn't close a tag (see
+ * escapeStrayGreaterThan), and skips fenced code blocks delimited by ``` or ~~~.
  */
 function escapeAngleBracketsInNonFenceText(text) {
   const lines = text.split(/\r?\n/);
@@ -365,13 +366,35 @@ function escapeAngleBracketsInNonFenceText(text) {
 
     if (inFence) continue;
 
-    lines[idx] = line.replace(/\\?<([^>\n]+)>/g, (m, inner) => {
-      if (!inner.includes(" ")) return m; // skip fragments/autolinks/etc.
-      return `&lt;${inner}&gt;`;
-    });
+    lines[idx] = escapeStrayGreaterThan(
+      line.replace(/\\?<([^>\n]+)>/g, (m, inner) => {
+        if (!inner.includes(" ")) return m; // skip fragments/autolinks/etc.
+        return `&lt;${inner}&gt;`;
+      })
+    );
   }
 
   return lines.join("\n");
+}
+
+/**
+ * Escapes a `>` that doesn't close a `<...>` on the same line, e.g. a
+ * blockquote marker (`> quoted`) or an arrow (`->`). JSX text rejects a bare
+ * `>`, so these fail to compile inside an emailEmbed body.
+ */
+function escapeStrayGreaterThan(line) {
+  let inTag = false;
+  let out = "";
+  for (const ch of line) {
+    if (ch === "<") inTag = true;
+    if (ch === ">" && !inTag) {
+      out += "&gt;";
+      continue;
+    }
+    if (ch === ">") inTag = false;
+    out += ch;
+  }
+  return out;
 }
 
 
