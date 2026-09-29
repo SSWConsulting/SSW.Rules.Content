@@ -13,6 +13,7 @@ authors:
   - title: Adam Cogan
     url: 'https://www.ssw.com.au/people/adam-cogan'
 related:
+  - rule: public/uploads/rules/avoid-redundant-links.mdx
   - rule: public/uploads/rules/use-emojis/rule.mdx
   - rule: public/uploads/rules/avoid-full-stops/rule.mdx
   - rule: public/uploads/rules/wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again/rule.mdx
@@ -41,9 +42,9 @@ Clear communication is essential for success, and especially helpful in professi
   figure=""
 />
 
-## DRY is especially important in lists
+## Lists
 
-Lists are great to make text easier to digest. By using them you can enhance the communication experience. But when elements are repeated excessively, they can become a hindrance rather than a help.
+DRY is especially important in lists, that are great to make text easier to digest. By using them you can enhance the communication experience. But when elements are repeated excessively, they can become a hindrance rather than a help.
 
 ### Words
 
@@ -126,4 +127,17 @@ If the same emoji appears **3 or more times**, move it to the intro sentence ins
   </>}
   figurePrefix="good"
   figure="Following the DRY principle"
+/>
+
+## Links
+
+DRY also applies to linking between pages. [Don't include a link to the same page more than once](/rules/avoid-redundant-links) as it creates clutter and reads like keyword stuffing. Link it once, then refer back to it by name if you mention it again.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** This does not apply across separate components on a page. For example, the written content of a rule and the "Related Rules" list are 2 different components serving  different purposes, so the repetition is not a concern.
+  </>}
+  figurePrefix="none"
+  figure=""
 />
