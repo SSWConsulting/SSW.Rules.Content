@@ -12,6 +12,8 @@ related:
   - rule: public/uploads/rules/when-to-use-contentful/rule.mdx
   - rule: public/uploads/rules/choose-site-generation-strategy/rule.mdx
   - rule: public/uploads/rules/use-output-caching/rule.mdx
+  - rule: public/uploads/rules/use-a-cdn/rule.mdx
+  - rule: public/uploads/rules/use-right-site-search-for-your-website/rule.mdx
   - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
   - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
 categories:
@@ -20,7 +22,7 @@ archivedreason: null
 isArchived: false
 ---
 
-A headless CMS like Contentful bills by the API call. If your site fetches content from the CMS on every request, every page view costs calls. So does every bot, every crawler and every 404. The bill grows with traffic, not with how often the content changes.
+A headless CMS like [Contentful](/when-to-use-contentful) bills by the API call. If your site fetches content from the CMS on every request, every page view costs calls. So does every bot, every crawler and every 404. The bill grows with traffic, not with how often the content changes.
 
 It is also silent. Nothing breaks and the pages still load. Nobody opens the usage page until an invoice or a throttling error turns up.
 
@@ -52,7 +54,7 @@ The second count is what a real visitor costs once your caches are warm. If it m
 
 ## Cache in layers
 
-1. **Serve whole pages from a cache.** Static generation, incremental regeneration, [output caching](/use-output-caching) or a CDN in front of the site all work. A repeat view served this way makes no CMS calls at all. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy)
+1. **Serve whole pages from a cache.** Static generation, incremental regeneration, [output caching](/use-output-caching) or a [CDN](/use-a-cdn) in front of the site all work. A repeat view served this way makes no CMS calls at all. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy), and for Next.js, [Do you know how to use NextJS caching system?](/use-nextjs-caching-system)
 2. **Cache shared content in the app.** Navigation, footer and site settings appear on every page. Fetch them once and reuse them from a cache that survives between requests and across servers, such as Redis
 3. **Clear the cache when content is published.** Use [Contentful webhooks](https://www.contentful.com/developers/docs/extensibility/webhooks/overview/) to clear the pages that changed. A short expiry that refetches "just in case" spends calls on content that has not changed
 
@@ -62,7 +64,7 @@ The most expensive cache is one that looks like it works. The code writes to the
 
 * The page cache is set up for one web server (e.g. Apache `.htaccess` rules) but production runs another (e.g. nginx), so cached pages are written and never served
 * A cache read helper never returns the value it found
-* Caching sits behind a config flag that defaults to off and is never set in production
+* Caching sits behind a config flag that defaults to off and is never set in production, like [Sitefinity's debug="true"](/do-you-know-that-caching-is-disabled-when-debug-true)
 * Code reads a value from the cache, then fetches it fresh anyway on the next line
 * The cache driver is in-memory, so it forgets everything at the end of each request
 
@@ -94,11 +96,11 @@ The only way to find these is to count calls. The second view of a page should c
 
 ## Search is billed the same way
 
-Hosted search services like Algolia bill per search request. If a listing page runs a search on the server every time it renders, it has the same problem, and bots paging through every filter and page number multiply it. Cache search results the same way. Use [robots.txt](/use-robots-txt-effectively) to keep crawlers out of the filter and paging combinations, while leaving the articles themselves crawlable.
+Hosted search services like [Algolia](/use-right-site-search-for-your-website) bill per search request. If a listing page runs a search on the server every time it renders, it has the same problem, and bots paging through every filter and page number multiply it. Cache search results the same way. Use [robots.txt](/use-robots-txt-effectively) to keep crawlers out of the filter and paging combinations, while leaving the articles themselves crawlable.
 
 ## Watch the usage page
 
-Check the CMS usage page as often as you check the cloud bill, and always after a release that changes how content is fetched. Turn on usage alerts where the CMS offers them. If usage is heading past the quota, tell the client before the invoice does, the same way you would [warn about a spike in Azure costs](/spike-in-azure-resource-costs).
+Check the CMS usage page as often as you [check the cloud bill](/azure-budgets), and always after a release that changes how content is fetched. Better still, count calls per page on the PR before it merges, as part of [comparing PR performance with production](/compare-pr-performance-with-production). Turn on usage alerts where the CMS offers them. If usage is heading past the quota, tell the client before the invoice does, the same way you would [warn about a spike in Azure costs](/spike-in-azure-resource-costs).
 
 ## Example: a site 10 times over its quota
 
