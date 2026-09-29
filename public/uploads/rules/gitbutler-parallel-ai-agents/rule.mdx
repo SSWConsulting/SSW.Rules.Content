@@ -1,0 +1,96 @@
+---
+type: rule
+title: Do you use GitButler to run parallel AI agents in one working directory?
+seoDescription: Run several AI coding agent sessions in one folder with GitButler, so each task ends up on its own clean branch without separate worktrees.
+guid: 2d1e7bda-b52d-4f99-b1e0-ae0183006f58
+uri: gitbutler-parallel-ai-agents
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/gitbutler-benefits/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+You often want several AI agent sessions working at once. One fixes a bug while another builds a feature. If they all run in the same folder on plain Git, their changes land in one working directory on one checked-out branch. You end up with a single mixed diff, and you have to split it into separate branches and commits by hand.
+
+<endIntro />
+
+## Why plain Git mixes the work
+
+Git has one checked-out branch per working directory. Every agent in that folder writes to the same branch, so Git can't tell which change belongs to which task. The usual fix is a separate [Git worktree](/git-worktrees) per agent. That works, but each worktree needs its own directory, dependency install, build output, and dev server.
+
+<boxEmbed
+  body={<>
+    Two Claude Code sessions run in the same folder on plain Git. One adds checkout validation and the other fixes a caching bug. When both finish, `git status` shows one list of changed files. You now have to work out which hunks belong to which task, then stage and commit them onto two branches yourself.
+  </>}
+  figurePrefix="bad"
+  figure="Two agents in one folder produce one mixed diff"
+  style="greybox"
+/>
+
+## How GitButler keeps each session on its own branch
+
+GitButler lets one working directory hold several active branches at the same time. If you are new to it, read [Do you know what benefits GitButler gives you?](/gitbutler-benefits) first.
+
+Once your agents use GitButler for version control, parallel sessions need no worktrees and no pre-created branches:
+
+1. Start a session and give it a task, for example "Work on checkout validation".
+2. Start another session in the same folder and give it a different task.
+3. When a session is done, ask it to "Commit your changes".
+4. The agent uses the `but` CLI to commit only the changes for its task to its own GitButler branch.
+
+The agent does the branch routing, so your prompts stay short. You can review the result as separate branches in the CLI or the GitButler desktop app, then push each one as its own PR.
+
+<boxEmbed
+  body={<>
+    Three Claude Code sessions run in the same folder with GitButler. One adds checkout validation, one fixes a caching bug, and one updates notification settings. Each session commits its own changes, and you end up with three branches, each with a focused set of commits ready for its own PR.
+  </>}
+  figurePrefix="good"
+  figure="Three sessions in one folder produce three clean branches"
+  style="greybox"
+/>
+
+If one task turns out to depend on another, ask the agent to stack its branch on top of the branch it needs. If an unrelated fix shows up in a feature session, ask the agent to move it to a separate branch.
+
+## Know the limit - sessions share one folder
+
+GitButler branches are not runtime isolation. All sessions share one filesystem, one dependency install, the same generated files, and the same app state. This works well while the tasks change different files. When two sessions edit the same file or generated output, their work starts to overlap, and one agent can break the other's build.
+
+<boxEmbed
+  body={<>
+    If you expect two sessions to touch the same files, give each one its own [Git worktree](/git-worktrees) instead.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## Worktrees or GitButler?
+
+| | Git worktrees | GitButler parallel branches |
+| --- | --- | --- |
+| Folder | One directory per agent | One shared directory |
+| Isolation | Separate checkout and runtime | Shared files and runtime |
+| Setup cost | Extra installs, builds, and dev servers | Reuses one install and dev server |
+| Best fit | Tasks that touch the same files, competing attempts at one task, or separate runtime state | Independent features and fixes that touch different files |
+
+## How do you set it up?
+
+1. Install GitButler and the `but` CLI
+2. Run `but agent setup` in your repository. The wizard installs the GitButler skill for your agents (such as Claude Code, Codex, Cursor, or GitHub Copilot) and can write version-control instructions for them
+3. Let the wizard run `but setup` if the repository isn't in GitButler workspace mode yet
+
+The setup steps change between releases, so follow [GitButler - Getting started with AI agents](https://docs.gitbutler.com/ai-agents/getting-started) for the current details.
+
+***
+
+### Learn more
+
+* [GitButler - Parallel agents](https://docs.gitbutler.com/ai-agents/parallel-agents) - How parallel sessions work and how they compare to worktrees
+* [GitButler - AI agents overview](https://docs.gitbutler.com/ai-agents/overview) - What agents can do with the `but` CLI
