@@ -88,30 +88,38 @@ The goal is one migration per logical change, not one migration at any cost.
 
 ## How to squash
 
-1. Rebase your branch onto `main`
+### Step 1: Rebase your branch onto `main`
 
-2. Remove your branch's migrations, newest first. Run this once for each migration your branch added:
+Your branch's migrations must sit on top of `main`'s latest migration and snapshot.
 
-   ```bash
-   dotnet ef migrations remove --force
-   ```
+### Step 2: Remove your branch's migrations
 
-   `--force` first rolls your local database back to the previous migration, then deletes the migration's files. When you're done, your database and your `Migrations` folder both match `main` again.
+Remove them newest first. Run this once for each migration your branch added:
 
-3. Scaffold one migration with a name that describes the feature
+```bash
+dotnet ef migrations remove --force
+```
 
-   ```bash
-   dotnet ef migrations add AddInvoicing
-   ```
+`--force` first rolls your local database back to the previous migration, then deletes the migration's files. When you're done, your database and your `Migrations` folder both match `main` again.
 
-4. Apply it, run your tests, and check nothing was missed
+### Step 3: Scaffold one migration
 
-   ```bash
-   dotnet ef database update
-   dotnet ef migrations has-pending-model-changes
-   ```
+Give it a name that describes the feature:
 
-### Check the result
+```bash
+dotnet ef migrations add AddInvoicing
+```
+
+### Step 4: Apply it and check nothing was missed
+
+Update your local database, run your tests, and confirm the model has no pending changes:
+
+```bash
+dotnet ef database update
+dotnet ef migrations has-pending-model-changes
+```
+
+### Step 5: Check the result
 
 Before you start, save the SQL your draft migrations produce. After squashing, generate it again and compare. Both scripts start from `main`'s last migration, `20260910021544_AddCustomers` in this example:
 
@@ -121,6 +129,8 @@ dotnet ef migrations script 20260910021544_AddCustomers -o after.sql    # after 
 ```
 
 **✅ Figure: Good example - Both scripts end in the same schema, `after.sql` just skips the intermediate steps**
+
+---
 
 ## What to be careful about
 
