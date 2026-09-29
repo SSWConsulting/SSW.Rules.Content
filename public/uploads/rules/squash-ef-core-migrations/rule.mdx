@@ -88,11 +88,11 @@ The goal is one migration per logical change, not one migration at any cost.
 
 ## How to squash
 
-### Step 1 - Rebase your branch onto `main`
+### Step 1: Rebase your branch onto `main`
 
 Your branch's migrations must sit on top of `main`'s latest migration and snapshot.
 
-### Step 2 - Remove your branch's migrations
+### Step 2: Remove your branch's migrations
 
 Remove them newest first. Run this once for each migration your branch added:
 
@@ -102,7 +102,7 @@ dotnet ef migrations remove --force
 
 `--force` first rolls your local database back to the previous migration, then deletes the migration's files. When you're done, your database and your `Migrations` folder both match `main` again.
 
-### Step 3 - Scaffold one migration
+### Step 3: Scaffold one migration
 
 Give it a name that describes the feature:
 
@@ -110,7 +110,7 @@ Give it a name that describes the feature:
 dotnet ef migrations add AddInvoicing
 ```
 
-### Step 4 - Apply it and check nothing was missed
+### Step 4: Apply it and check nothing was missed
 
 Update your local database, run your tests, and confirm the model has no pending changes:
 
@@ -119,7 +119,7 @@ dotnet ef database update
 dotnet ef migrations has-pending-model-changes
 ```
 
-### Check the result
+### Step 5: Check the result
 
 Before you start, save the SQL your draft migrations produce. After squashing, generate it again and compare. Both scripts start from `main`'s last migration, `20260910021544_AddCustomers` in this example:
 
@@ -129,6 +129,8 @@ dotnet ef migrations script 20260910021544_AddCustomers -o after.sql    # after 
 ```
 
 **✅ Figure: Good example - Both scripts end in the same schema, `after.sql` just skips the intermediate steps**
+
+---
 
 ## What to be careful about
 
