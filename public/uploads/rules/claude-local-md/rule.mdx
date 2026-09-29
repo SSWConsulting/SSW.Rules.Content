@@ -1,0 +1,125 @@
+---
+type: rule
+title: Do you keep personal Claude Code overrides in CLAUDE.local.md?
+seoDescription: Keep personal, project-specific Claude Code instructions in a gitignored CLAUDE.local.md so the shared AGENTS.md or CLAUDE.md stays clean for the team.
+guid: b0b4390e-672d-4780-b153-a913adedf304
+uri: claude-local-md
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/symlink-agents-to-claude/rule.mdx
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/add-local-configuration-file-for-developer-specific-settings/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Every developer has a few instructions that only make sense on their machine. Your API runs on a different port. You use your own test account. You start the backend yourself. These notes often end up in the shared `AGENTS.md` or `CLAUDE.md`, where they are noise for everyone else. Or they stay out of any file, and you repeat them in every chat.
+
+<endIntro />
+
+Claude Code reads a file called `CLAUDE.local.md` for exactly this. Put it at the project root and add it to `.gitignore`. It holds your personal instructions for this project, and nobody else sees them.
+
+## How does CLAUDE.local.md load?
+
+Claude Code loads `CLAUDE.local.md` alongside `CLAUDE.md` at the start of every session. Within each folder, it appends `CLAUDE.local.md` after `CLAUDE.md`, so your personal notes are the last thing Claude reads at that level.
+
+The files are joined together, not merged. If your local file contradicts the shared file, Claude may follow either one. Write local instructions that add to the team conventions, not ones that fight them.
+
+To check that the file loaded, run `/context` in a session and look under **Memory files**.
+
+## What belongs in CLAUDE.local.md?
+
+Keep it to a few small overrides. Only include what is different for you in this repository:
+
+* Local URLs and ports, such as your sandbox or a non-default API port
+* The test account or test data you use
+* How you run the app, such as "I start the API myself"
+* Personal response preferences, such as how verbose Claude should be
+
+Team conventions stay in the shared file. Build commands, coding standards, and architecture belong in [AGENTS.md](/write-agents-md), where every developer and every AI tool gets them.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `.gitignore`
+
+    ```text
+    CLAUDE.local.md
+    ```
+
+    `CLAUDE.local.md`
+
+    ```markdown
+    # Personal overrides
+
+    - My API runs on https://localhost:7250, not the default port
+    - My sandbox is https://sandbox-bob.example.com
+    - Use the test account bob.tester@example.com for manual checks
+    - I run the API myself. Don't start or stop it
+    - Keep answers short. Skip the summary at the end
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Good example - A short, gitignored CLAUDE.local.md with only personal overrides"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `AGENTS.md` (committed)
+
+    ```markdown
+    # Project instructions
+
+    - Run `dotnet test` before every commit
+    - Use FluentValidation for request validation
+    - Bob's API runs on https://localhost:7250
+    - Bob prefers short answers
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Personal preferences committed to the shared AGENTS.md, where they confuse the rest of the team"
+/>
+
+Copying the team conventions into `CLAUDE.local.md` is just as bad. The copy goes stale when the shared file changes, and Claude then reads two versions of the same rule.
+
+## What are the gotchas?
+
+### CLAUDE.local.md can hide AGENTS.md
+
+By default, Claude Code reads `AGENTS.md` only when there is no `CLAUDE.md` or `CLAUDE.local.md` in your working folder or above it. If your repository relies on `AGENTS.md` alone, creating a `CLAUDE.local.md` makes Claude stop reading `AGENTS.md` for you.
+
+To read both, type `/config` in a Claude Code session and set **Project instructions** to `claude-md-and-agents-md`. You can also set it in `~/.claude/settings.json`:
+
+```json
+{
+  "pluginConfigs": {
+    "agents-md@builtin": {
+      "options": { "instructionFiles": "claude-md-and-agents-md" }
+    }
+  }
+}
+```
+
+A repository that has a `CLAUDE.md` importing or linking to `AGENTS.md` doesn't have this problem. See [Do you share one AGENTS.md and skills folder across AI tools?](/symlink-agents-to-claude)
+
+### Worktrees don't share CLAUDE.local.md
+
+A gitignored `CLAUDE.local.md` exists only in the worktree where you created it. A new worktree starts without it. To share personal instructions across worktrees, keep them in a file in your home folder and import it:
+
+```markdown
+# Individual Preferences
+- @~/.claude/my-project-instructions.md
+```
+
+Claude Code asks you to approve an import from outside the project the first time it sees one. See [Do you use Git worktrees?](/git-worktrees)
+
+## Learn more
+
+* [Claude Code Docs - How Claude remembers your project](https://code.claude.com/docs/en/memory)
