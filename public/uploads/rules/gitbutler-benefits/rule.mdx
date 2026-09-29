@@ -1,0 +1,125 @@
+---
+type: rule
+title: Do you know what benefits GitButler gives you?
+seoDescription: Learn what GitButler adds on top of Git, including parallel branches, stacked branches, easy history editing, undo for every operation, and first-class conflicts.
+guid: 0107edbe-77a1-4e83-bf50-e9e506efb50a
+uri: gitbutler-benefits
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
+archivedreason: null
+isArchived: false
+---
+
+Plain Git lets you work on one branch at a time. When an urgent fix comes in, you stash your work, switch branches, fix it, switch back, and pop the stash. Cleaning up history means an interactive rebase, and one wrong step can lose work or leave you stuck in the middle of a conflict.
+
+[GitButler](https://gitbutler.com) is a Git client, with a desktop app and a `but` CLI, that works on top of your normal Git repository. It removes most of this friction.
+
+<endIntro />
+
+## Parallel branches
+
+GitButler lets you apply several branches to the same working directory at once. Each branch is a lane with its own staging area. You assign changed files, or single hunks, to the branch they belong to and commit each branch on its own.
+
+In plain Git you'd stash, switch branches, and switch back for every context change.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You are halfway through a feature when a bug report comes in. You run `git stash`, `git switch main`, `git switch -c fix-login`, fix the bug, commit, push, `git switch feature`, and `git stash pop`. Then you resolve a stash conflict.
+  </>}
+  figurePrefix="bad"
+  figure="The stash-and-switch dance breaks your flow for every small fix"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You fix the bug in the same working directory. You assign the fix to a new `fix-login` branch and commit it. Your feature changes stay where they are on their own branch.
+  </>}
+  figurePrefix="good"
+  figure="Parallel branches let you commit the fix without leaving your feature"
+/>
+
+See [Parallel Branches](https://docs.gitbutler.com/features/branch-management/virtual-branches).
+
+## Stacked branches
+
+When one change depends on another, you can stack the branches. Each branch still becomes its own focused pull request. The bottom pull request targets `main`, and each one above targets the branch below it.
+
+When you amend, squash, or reorder a commit in a lower branch, GitButler rebases everything above it for you. When you push again, it updates each pull request base to match your local order.
+
+In plain Git you'd rebase every dependent branch by hand after each change to a lower branch.
+
+See [Create stacked branches and pull requests](https://docs.gitbutler.com/features/branch-management/stacked-branches).
+
+## Easy history editing
+
+Most history edits are drag and drop in the desktop app:
+
+* Drag a file onto a commit to amend it into that commit
+* Drag one commit onto another to squash them
+* Undo a commit, or uncommit a single file, to turn it back into uncommitted changes
+* Split a commit by adding an empty commit and dragging changes into it
+* Drag commits to reorder them
+* Move changes from one commit to another
+
+GitButler rebases the commits above each edit automatically.
+
+In plain Git you'd run `git rebase -i`, edit a todo list, and hope nothing conflicts.
+
+See [Commit Editing](https://docs.gitbutler.com/features/branch-management/commits).
+
+## Undo everything
+
+GitButler takes a snapshot before each operation. The snapshot includes your branches, your uncommitted work, and any conflict state. The operations history (oplog) lists every snapshot, and you can restore any of them. A restore is also recorded, so you can undo it too.
+
+In plain Git you'd dig through `git reflog`, which tracks branch tips but not your uncommitted work.
+
+See [Operations History](https://docs.gitbutler.com/features/timeline).
+
+## First-class conflicts
+
+When a rebase hits a conflict, GitButler still completes it. It marks the affected commits as conflicted, and the rest of your work stays applied. You can resolve the conflicted commits in any order, whenever you are ready.
+
+In plain Git you'd have to stop and resolve every conflict before the rebase can continue.
+
+See [Conflict Resolution](https://docs.gitbutler.com/cli-guides/cli-tutorial/conflict-resolution).
+
+## The `but` CLI
+
+The `but` CLI gives you the same model from the terminal. Because it is scriptable, coding agents can use it too.
+
+```bash
+# Show uncommitted changes, applied branches, and their commits
+but status
+
+# Commit only the selected files or hunks (IDs come from `but diff`) to a new branch
+but commit -b user-bookmarks -m "Add bookmark model" q3 w7
+
+# Stack a dependent branch on top of the branch it needs
+but move liked-tweets --above user-bookmarks
+
+# Push the stack and create the missing pull requests
+but pr new liked-tweets
+
+# Undo the last operation
+but undo
+```
+
+See the [GitButler CLI command reference](https://docs.gitbutler.com/commands/commands-overview).
+
+GitButler can also generate commit messages, branch names, and pull request descriptions with AI, and it creates and updates pull requests on forges such as GitHub and GitLab.
+
+## When not to use it
+
+* Your team is not ready for it. Everyone who touches the branches needs to understand parallel and stacked branches. Try it on your own work first.
+* You want to keep switching branches by hand. GitButler manages your branches through its own `gitbutler/workspace` branch. It installs a Git hook that blocks `git commit` on that branch. If you check out another branch, you have to set GitButler up again. Use `but teardown` to go back to plain Git.
+* Your tasks need isolated runtimes. Parallel branches share one filesystem, one dependency install, and one set of build outputs. When tasks need separate runtime state, use [Git worktrees](/git-worktrees) instead.
+
+See [Workspace Branch](https://docs.gitbutler.com/workspace-branch).
