@@ -13,7 +13,7 @@ authors:
     url: 'https://www.ssw.com.au/people/gordon-beeming'
 related: []
 guid: e244ecf4-f6cf-4ffc-8a3b-5cdf7bb75a7f
-seoDescription: 'Discover why AI-powered CLI tools like GitHub Copilot CLI, OpenCode, and Claude Code can boost productivity and deliver better quality results than IDE extensions.'
+seoDescription: 'Discover why AI-powered CLI tools like Claude Code, Codex, GitHub Copilot CLI, and OpenCode can boost productivity and deliver better quality results than IDE extensions.'
 created: 2026-01-12T02:42:56.895Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
@@ -47,47 +47,63 @@ Anecdotally, developers have noticed that CLI tools often produce higher-quality
 
 * **Learning curve** - Requires comfort with command-line interfaces
 * **No inline suggestions** - Unlike IDE extensions, you won't get suggestions as you type
-* **Context switching** - Moving between your editor and terminal requires discipline
+* **Context switching** - Moving between your editor and terminal requires discipline (though most CLI tools now integrate with VS Code and JetBrains to show diffs in your editor)
 * **Setup overhead** - May require additional configuration compared to IDE plugins
-* **Less visual** - No syntax highlighting or preview in suggestions (though output can be piped to editors)
+* **Less visual** - Reviewing large changes in a terminal is harder than in an editor
 
 ## Popular AI CLI tools
 
 ### 1. ⭐ Claude Code (Recommended)
 
-Claude Code is a fan favourite at SSW.
+Claude Code is a fan favourite at SSW. It runs in the terminal, and the same agent is also available in VS Code, JetBrains, a desktop app, and the browser.
 
 **✅ Pros:**
 
-* **⭐️ Custom agents** - Claude Code's custom agents are the most configurable we've used. While they provide all the functionality of other offerings (e.g. personas, allowed tools/paths, etc.), Claude's custom agents also provide dedicated pre and post-use hooks. This is excellent to help with deterministic tool execution, allowing you to guarantee that certain scripts or commands will be run before and after the agent
-* ✅ Integration - Claude has some interesting integrations that aren't available with other tools OOTB, such as Slack integration
+* **⭐️ Extensibility** - Claude Code is the most configurable agent we've used. Custom subagents, skills, plugins, and MCP servers let you package your team's workflows, and hooks run scripts before and after tool calls. This is excellent for deterministic behaviour, allowing you to guarantee that certain scripts or commands will run (e.g. a linter after every edit)
+* **Integration** - Claude has integrations that aren't available with other tools OOTB, such as mentioning Claude in Slack to turn a bug report into a pull request
 
 **❌ Cons:**
 
-* **Flexibility** - Similar to GitHub Copilot, Claude Code locks you in to one provider (but there are ways around this, like [https://claudish.com/](https://claudish.com/))
+* **Flexibility** - Claude Code only uses Claude models. You can run them through Amazon Bedrock, Google Vertex AI, or Microsoft Foundry, but you can't switch to another vendor's models (there are community workarounds, like [https://claudish.com/](https://claudish.com/))
 
 **Learn more:** [Claude Code Docs](https://code.claude.com/docs/en/overview)
 
-### 2. GitHub Copilot CLI
+### 2. ⭐ Codex
+
+Codex is OpenAI's **open-source** coding agent. It is included with ChatGPT paid plans, so many developers already have access without an extra subscription.
+
+**✅ Pros:**
+
+* **⭐️ Sandboxing** - Codex runs commands in a sandbox by default and lets you choose how much it can do without asking (read-only, edit files, or full access). This makes it a safe choice for letting an agent work unattended
+* **Local to cloud** - Hand a task off to Codex cloud to run in the background, then apply the result to your local repository. The same agent is also available as an IDE extension and a desktop app
+* **Open standards** - Codex reads `AGENTS.md` for project instructions and supports MCP servers, so your setup is portable to other agents
+
+**❌ Cons:**
+
+* **Flexibility** - Codex is built for OpenAI models. If you want to use models from other providers, OpenCode is a better fit
+
+**Learn more:** [Codex CLI Documentation](https://learn.chatgpt.com/docs/codex/cli)
+
+### 3. GitHub Copilot CLI
 
 GitHub's official command-line tool for AI-assisted development. Unsurprisingly, Copilot CLI provides first-class integration with GitHub.
 
 **✅ Pros:**
 
-* **⭐️ Delegation** - One standout feature not available with other CLI tools is the `/delegate` command which pushes your existing local session to a GitHub coding agent (with context!)
+* **⭐️ Delegation** - Prefix a prompt with `&` to hand the task (with context!) to the GitHub Copilot coding agent in the cloud, freeing your terminal for other work
+* **Model choice** - One Copilot subscription gives you models from Anthropic, OpenAI, and Google, and you can switch mid-session with `/model`
 * **Custom agents** - You can define custom agents via markdown files with options to define agents at user, repository, and org level within GitHub
 
 **❌ Cons:**
 
-* **Flexibility** - Copilot CLI locks you into one provider: Copilot. If you're all in on Team GitHub, this is fine. But if you're looking for more options and
-  less vendor lock-in, you're better off with something like OpenCode
+* **Subscription** - Copilot CLI requires a GitHub Copilot plan. If you're all in on Team GitHub, this is fine, but if you want to bring any model or provider you're better off with something like OpenCode
 
 **Learn more:** [GitHub Copilot CLI Documentation](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)
 
 <boxEmbed
   body={<>
     #### Bonus: Sandboxed Copilot CLI
-    
+
     One of SSW's Solution Architects has created a sandboxed version of Copilot CLI, **[Copilot Here](https://github.com/gordonbeeming/copilot_here)**. If you're working
     in a high-sec environment or just want added protection around what AI can and cannot access during sessions, we highly recommend checking this out. It spins up within Docker,
     is wired to its own reverse-proxy, and provides external controls around the agent itself.
@@ -97,7 +113,7 @@ GitHub's official command-line tool for AI-assisted development. Unsurprisingly,
   style="tips"
 />
 
-### 3. OpenCode
+### 4. OpenCode
 
 OpenCode is an **open-source** agent that gives you the most options when it comes to models, providers, and extensibility. While it does provide some free models
 OOTB, you are expected to BYO model subscription.
@@ -105,7 +121,7 @@ OOTB, you are expected to BYO model subscription.
 **✅ Pros:**
 
 * **⭐️ Flexibility** - OpenCode allows you to select from almost any model, as well as select your own **provider**. This kind of agnosticism is a huge win for users,
-  especially with the AI landscape being as volatile as it is. Being able to learn one CLI, define your own custom agents within it, and then and the models and providers
+  especially with the AI landscape being as volatile as it is. Being able to learn one CLI, define your own custom agents within it, and then switch the models and providers
   arbitrarily is a godsend
 * **Custom agents** - Custom agents are again defined by markdown files, and while they can be defined and used at a repository level, the general principle of OpenCode is for agents to be user-level definitions
 * **Subagent usage** - OpenCode is better at reasoning about subagent usage automatically, rather than needing to be explicitly directed to do so. On a long enough agent session, context compacting is a real problem and can degrade the quality of output, so having enthusiastic subagent usage is a big plus
@@ -116,13 +132,12 @@ OOTB, you are expected to BYO model subscription.
 
 **Learn more:** [OpenCode GitHub Repository](https://github.com/anomalyco/opencode)
 
-### 4. Other notable tools
+### 5. Other notable tools
 
-* **[Warp AI](https://www.warp.dev/)** - Built into Warp terminal for command suggestions
-* **[Fig AI](https://hellofig.io/)** - Autocomplete with AI explanations (acquired by AWS)
-* **[Shell GPT](https://github.com/TheR1D/shell_gpt)** - Simple GPT integration for shell commands
-* **[Codex](https://openai.com/codex/)** - OpenAI's open source CLI tool
-* [Gemini CLI ](https://geminicli.com/)- Google's offering, has a very generous free tier
+* **[Gemini CLI](https://geminicli.com/)** - Google's open-source offering, has a very generous free tier
+* **[Kiro CLI](https://kiro.dev/cli/)** - AWS's agent, which replaces the Amazon Q Developer CLI
+* **[Cursor CLI](https://cursor.com/cli)** - Brings Cursor's agent to the terminal, sharing rules and settings with the Cursor editor
+* **[Warp](https://www.warp.dev/)** - A terminal with a built-in coding agent
 
 ## When to use IDE vs CLI
 
@@ -147,7 +162,7 @@ OOTB, you are expected to BYO model subscription.
 <boxEmbed
   body={<>
     **Pro tip:** You should be using both!
-    
+
     IDE extensions for real-time suggestions while coding, and CLI tools for complex problem-solving, debugging, and refactoring tasks.
   </>}
   figurePrefix="none"
@@ -157,7 +172,7 @@ OOTB, you are expected to BYO model subscription.
 
 ## Getting started
 
-1. **Choose a tool** - Start with GitHub Copilot CLI if you already have a Copilot subscription, or try OpenCode for an open-source option
+1. **Choose a tool** - Start with the tool that matches a subscription you already have: Claude Code (Claude), Codex (ChatGPT), or GitHub Copilot CLI (Copilot). Try OpenCode if you want to bring your own model
 2. **Install and configure** - Follow the installation instructions for your chosen tool
 3. **Start small** - Begin with simple queries like explaining commands or generating shell scripts
 4. **Integrate into workflow** - Gradually incorporate CLI AI into your debugging and refactoring workflows
@@ -166,10 +181,10 @@ OOTB, you are expected to BYO model subscription.
 ## Best practices
 
 * **Provide context** - The more information you give (file paths, error messages, what you've tried), the better the results
-* **Iterate** - CLI tools work best in a conversational workflow—refine your prompts based on responses
+* **Iterate** - CLI tools work best in a conversational workflow - refine your prompts based on responses
 * **Review output** - Always review and understand generated code before using it
 * **Combine with version control** - Use git to track AI-generated changes and easily revert if needed
 * **Use for learning** - Ask CLI tools to explain their suggestions to deepen your understanding
-* **Subagent switching** - Get comfortable with switching between specific subagents like `Plan` and `Build`
+* **Plan before you build** - Use plan mode (or a `Plan` agent) to agree on the approach before the agent starts editing files
 
 By incorporating AI CLI tools into your workflow alongside IDE extensions, you can leverage the strengths of both approaches for maximum productivity and code quality.
