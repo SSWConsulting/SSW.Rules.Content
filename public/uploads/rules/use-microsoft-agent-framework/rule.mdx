@@ -1,0 +1,95 @@
+---
+type: rule
+title: Do you use Microsoft Agent Framework?
+seoDescription: Build AI agents and multi-agent workflows in .NET or Python with Microsoft Agent Framework, the successor to Semantic Kernel and AutoGen.
+guid: c8443d0f-df83-4a32-8506-80a13ccaa4a8
+uri: use-microsoft-agent-framework
+created: 2026-09-30T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/agentic-ai/rule.mdx
+  - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+You start a new AI feature in .NET, search for "Semantic Kernel", and copy the first sample you find. Six months later the SDK only gets security fixes, and every new capability you need lives somewhere else.
+
+Semantic Kernel and AutoGen are in maintenance mode. Microsoft Agent Framework is their successor, built by the same teams.
+
+<endIntro />
+
+## What is Microsoft Agent Framework?
+
+[Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/overview/) is Microsoft's open-source SDK for building AI agents and multi-agent workflows in .NET and Python. It combines the simple agent abstractions of AutoGen with the enterprise features of Semantic Kernel, and it reached 1.0 with stable APIs and long-term support.
+
+It gives you:
+
+* **Agents** - An LLM that calls tools and MCP servers to answer a request
+* **Workflows** - Graph-based flows that connect agents and functions along paths you control
+* **Model choice** - Microsoft Foundry, Azure OpenAI, OpenAI, Anthropic, Ollama, and more, behind one abstraction
+* **Production features** - Session state, middleware, human-in-the-loop approval, and OpenTelemetry tracing
+
+## Why use it?
+
+* **It is where new features land** - Semantic Kernel and AutoGen only get bug fixes and security patches
+* **Less code** - A working agent takes a few lines, with no kernel or plugin plumbing
+* **Swap models without rewrites** - Change provider by changing the client, not the agent
+* **Standard tool connections** - Agents call tools over [MCP](/use-mcp-to-standardize-llm-connections) and talk to agents built with other frameworks over A2A
+
+```csharp
+using Azure.AI.Projects;
+using Azure.Identity;
+using Microsoft.Agents.AI;
+
+AIAgent agent = new AIProjectClient(
+        new Uri("https://your-foundry-service.services.ai.azure.com/api/projects/your-foundry-project"),
+        new AzureCliCredential())
+    .AsAIAgent(
+        model: "gpt-5.4-mini",
+        instructions: "You are a friendly assistant. Keep your answers brief.");
+
+Console.WriteLine(await agent.RunAsync("What is the largest city in France?"));
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A new project that references `Microsoft.SemanticKernel` and builds a `Kernel` to call the model.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Starting new work on an SDK in maintenance mode"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A new project that references `Microsoft.Agents.AI` and creates an `AIAgent` from the model client.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Starting new work on Microsoft Agent Framework"
+/>
+
+## Agent or workflow?
+
+| Use an agent when... | Use a workflow when... |
+| --- | --- |
+| The task is open-ended or conversational | The process has well-defined steps |
+| The model should plan and pick its own tools | You need explicit control over execution order |
+| A single model call (with tools) is enough | Several agents or functions must coordinate |
+
+If a plain function can do the job, write the function. An agent adds cost and non-determinism.
+
+## Migrating from Semantic Kernel or AutoGen
+
+Existing Semantic Kernel and AutoGen apps keep working, so there is no need to rewrite them today. Move them when you next make a significant change, using the official guides:
+
+* [Migration guide from Semantic Kernel](https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-semantic-kernel/)
+* [Migration guide from AutoGen](https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/)
+
+For how Microsoft Agent Framework compares with LangGraph, the OpenAI Agents SDK, and n8n, see [Do you build agentic AI?](/agentic-ai)

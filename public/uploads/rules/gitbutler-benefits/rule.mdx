@@ -1,0 +1,154 @@
+---
+type: rule
+title: Do you use GitButler to improve your Git workflow?
+seoDescription: See what GitButler gives you over plain Git - parallel and stacked branches, painless history edits, undo for everything - plus its drawbacks and how to make your AI agent use it instead of Git.
+guid: 0107edbe-77a1-4e83-bf50-e9e506efb50a
+uri: gitbutler-benefits
+created: 2026-09-29T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Plain Git lets you work on one branch at a time. An urgent fix means stashing your work, switching branches, and switching back. Tidying history means an interactive rebase, where one wrong step can lose work or leave you stuck in a conflict. That friction adds up every day, and it gets worse when AI agents make changes faster than you can sort them into branches.
+
+[GitButler](https://gitbutler.com) is a Git client, with a desktop app and a `but` CLI, that runs on top of your normal Git repository. It removes most of that friction, and your remote still sees ordinary Git branches and commits.
+
+<endIntro />
+
+## What do you get?
+
+### Work on several branches at once
+
+You can have several branches applied in the same working directory. You make changes, then assign each file or hunk to the branch it belongs to. An urgent fix no longer means putting your feature away.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You are halfway through a feature when a bug report comes in. You stash your work, switch to `main`, create a fix branch, fix the bug, commit, push, switch back, pop the stash, and then resolve a stash conflict.
+  </>}
+  figurePrefix="bad"
+  figure="Plain Git - the stash-and-switch dance breaks your flow for every small fix"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You fix the bug in the same working directory and assign the fix to a new branch. Your feature changes stay exactly where they are.
+  </>}
+  figurePrefix="good"
+  figure="GitButler - the fix gets its own branch without leaving your feature"
+/>
+
+### Small PRs that depend on each other
+
+When one change builds on another, you can stack branches. Each branch becomes its own small, focused pull request instead of one large one. When you change a lower branch, GitButler rebases the branches above it for you.
+
+### Clean history without interactive rebase
+
+Amending an older commit, squashing, reordering, and moving changes between commits are drag and drop in the desktop app. GitButler rebases everything above the edit automatically. You end up with a history that tells a clear story, without `git rebase -i`.
+
+### An undo button for Git
+
+GitButler takes a snapshot before every operation, including your uncommitted work. If something goes wrong, you restore an earlier snapshot. Trying things stops being scary.
+
+### Conflicts that don't block you
+
+When a rebase hits a conflict, GitButler still finishes it. It marks the conflicted commits so you can resolve them later, in any order. The rest of your work stays usable in the meantime.
+
+### Parallel AI agents without worktrees
+
+Several AI agent sessions can work in the same folder at once. Each agent uses the `but` CLI to commit only the changes for its own task to its own branch. You don't need a separate worktree, dependency install, and dev server per agent.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    2 agent sessions work in the same folder on plain Git. One adds checkout validation and the other fixes a caching bug. When both finish, `git status` shows one mixed list of changes, and you split them into 2 branches by hand.
+  </>}
+  figurePrefix="bad"
+  figure="Plain Git - 2 agents in one folder produce one mixed diff"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    3 agent sessions work in the same folder with GitButler. Each one commits its own changes to its own branch. You end up with 3 focused branches, each ready for its own pull request.
+  </>}
+  figurePrefix="good"
+  figure="GitButler - 3 agents in one folder produce 3 clean branches"
+/>
+
+This works best when the agents work on different parts of the code. When two agents will edit the same files, give each one its own [Git worktree](/git-worktrees) instead.
+
+### AI where it helps
+
+GitButler can write commit messages, branch names, and pull request descriptions with AI. It also creates pull requests on GitHub and GitLab.
+
+## ⚠️ What are the drawbacks?
+
+* **A new mental model** - Parallel and stacked branches take some getting used to. Try GitButler on your own work before you roll it out to a team
+* **It owns your checkout** - GitButler works through its own `gitbutler/workspace` branch and installs Git hooks that block `git commit` on it. Switching branches with plain Git takes you out of GitButler until you set it up again
+* **One shared folder** - Parallel branches share one filesystem, one dependency install, and one set of build outputs. When tasks need separate runtimes or touch the same files, use [Git worktrees](/git-worktrees) instead
+* **Tools that expect one branch** - IDE Git panels and scripts that assume a single checked-out branch show the `gitbutler/workspace` branch instead of the branch you are working on
+
+If it doesn't suit you, `but teardown` takes the repository back to plain Git.
+
+## How do you make your AI agent use `but` instead of Git?
+
+AI agents know plain Git very well, so they reach for `git commit` and `git checkout` by habit. In a GitButler workspace, those commands fight GitButler. Tell the agent to use `but`, then back that up with a guard.
+
+### 1. Install the GitButler skill
+
+Run `but agent setup` in the repository. It installs the GitButler skill for agents such as Claude Code, Codex, Cursor, and GitHub Copilot, and can write version-control instructions for them.
+
+### 2. Say it in your AGENTS.md
+
+Put the policy where every agent reads it, so it applies in every session:
+
+```markdown
+## Version control
+
+This repository uses GitButler. Use the `but` CLI for every change to branches and commits.
+Never run `git commit`, `git checkout`, `git switch`, `git stash`, `git rebase`, `git reset`, or `git merge`.
+Read-only Git commands such as `git log` and `git diff` are fine.
+```
+
+### 3. Block the Git commands
+
+Instructions steer an agent, but they don't stop it. In Claude Code, add deny rules to `.claude/settings.json`. A deny rule wins over any allow rule:
+
+```json
+{
+  "permissions": {
+    "deny": [
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(git stash *)",
+      "Bash(git rebase *)",
+      "Bash(git reset *)",
+      "Bash(git merge *)"
+    ]
+  }
+}
+```
+
+GitButler's own pre-commit hook is the last line of defence. It rejects `git commit` on the workspace branch and tells the agent how to fix it.
+
+---
+
+## Learn more
+
+* [GitButler documentation](https://docs.gitbutler.com)
+* [GitButler - Parallel agents](https://docs.gitbutler.com/ai-agents/parallel-agents)
+* [GitButler - Getting started with AI agents](https://docs.gitbutler.com/ai-agents/getting-started)
+* [Claude Code - Configure permissions](https://code.claude.com/docs/en/permissions)
