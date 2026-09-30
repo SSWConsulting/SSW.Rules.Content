@@ -47,6 +47,24 @@ Team conventions stay in the shared file. Build commands, coding standards, and 
 <boxEmbed
   style="greybox"
   body={<>
+    `AGENTS.md` (committed)
+
+    ```markdown
+    # Project instructions
+
+    - Run `dotnet test` before every commit
+    - Use FluentValidation for request validation
+    - Bob's API runs on https://localhost:7250
+    - Bob prefers short answers
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Personal preferences committed to the shared AGENTS.md, where they confuse the rest of the team"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
     `.gitignore`
 
     ```text
@@ -67,24 +85,6 @@ Team conventions stay in the shared file. Build commands, coding standards, and 
   </>}
   figurePrefix="good"
   figure="A short, gitignored CLAUDE.local.md with only personal overrides"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    `AGENTS.md` (committed)
-
-    ```markdown
-    # Project instructions
-
-    - Run `dotnet test` before every commit
-    - Use FluentValidation for request validation
-    - Bob's API runs on https://localhost:7250
-    - Bob prefers short answers
-    ```
-  </>}
-  figurePrefix="bad"
-  figure="Personal preferences committed to the shared AGENTS.md, where they confuse the rest of the team"
 />
 
 Copying the team conventions into `CLAUDE.local.md` is just as bad. The copy goes stale when the shared file changes, and Claude then reads two versions of the same rule.
