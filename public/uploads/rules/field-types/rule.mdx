@@ -1,0 +1,84 @@
+---
+archivedreason: null
+authors:
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
+created: 2012-11-27 08:38:26+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: c024923e-c733-4c89-a573-404cb191b4f5
+isArchived: false
+lastUpdated: 2012-11-27 08:38:26+00:00
+lastUpdatedBy: Rebecca Liu
+lastUpdatedByEmail: RebeccaLiu@ssw.com.au
+redirects:
+- controls-do-you-indicate-when-fields-are-＂read-only＂-or-＂calculated＂
+- controls-do-you-indicate-when-fields-are-read-only-or-calculated
+related:
+  - rule: public/uploads/rules/excel-distinguish-calculated-cells/rule.mdx
+seoDescription: Clearly indicate editable, read-only, and calculated fields using grey backgrounds and correct HTML attributes so users know at a glance what they can change.
+title: Do you clearly indicate editable, read-only, and calculated fields?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-controls.mdx
+  - category: categories/design/rules-to-better-forms.mdx
+type: rule
+uri: field-types
+---
+
+When a field cannot be edited, make its read-only state visually clear. A common convention is to use a grey background so users can immediately distinguish it from editable fields.
+
+<endIntro />
+
+This applies to web forms as well as documents and spreadsheets. For example, fields populated from another system, calculated values, generated IDs, or values the current user does not have permission to change should look different from editable inputs.
+
+## On the web
+
+Use the appropriate HTML behavior as well as the visual treatment:
+
+* Use `readonly` when users should be able to focus, select, and copy the value but not change it
+* Use `disabled` when the control should not be interactive at all. Remember that disabled form controls are generally not submitted with the form
+* Do not rely on grey styling alone — the field should also be programmatically read-only or disabled so its behavior matches its appearance
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Different field types look the same"
+  src="/uploads/rules/field-types/field-types-bad-example.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Editable, read-only, and calculated fields are clearly distinguished"
+  src="/uploads/rules/field-types/field-types-good-example.jpg"
+/>
+
+## In Word or [Excel](/excel-distinguish-calculated-cells)
+
+Locking cells or tables may not always be necessary. However, you should still prevent users from accidentally changing calculated or system-controlled values. Using grey cells provides a clear visual indication that these values should not be edited.
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Read-only fields are greyed out"
+  src="/uploads/rules/field-types/GreyField.gif"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Calculated fields in [Excel](/excel-distinguish-calculated-cells) are greyed out"
+  src="/uploads/rules/field-types/GreyField-Excel.gif"
+/>
+
+Conversely, editable fields should have a clear editable appearance, typically using a white background. The important thing is consistency: users should be able to tell at a glance which values they can change and which they cannot.
