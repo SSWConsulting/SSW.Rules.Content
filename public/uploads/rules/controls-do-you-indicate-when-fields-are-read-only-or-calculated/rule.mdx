@@ -36,6 +36,24 @@ Use the appropriate HTML behavior as well as the visual treatment:
 * Use `disabled` when the control should not be interactive at all. Remember that disabled form controls are generally not submitted with the form
 * Do not rely on grey styling alone — the field should also be programmatically read-only or disabled so its behavior matches its appearance
 
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Different field types look the same"
+  src="/uploads/rules/controls-do-you-indicate-when-fields-are-read-only-or-calculated/field-types-bad-example.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Editable, read-only, and calculated fields are clearly distinguished"
+  src="/uploads/rules/controls-do-you-indicate-when-fields-are-read-only-or-calculated/field-types-good-example.jpg"
+/>
+
 ## In Word or Excel
 
 Locking cells or tables may not always be necessary. However, you should still prevent users from accidentally changing calculated or system-controlled values. Using grey cells provides a clear visual indication that these values should not be edited.
