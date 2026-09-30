@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what benefits GitButler gives you?
+title: Do you use GitButler to improve your Git workflow?
 seoDescription: See what GitButler gives you over plain Git - parallel and stacked branches, painless history edits, undo for everything - plus its drawbacks and how to make your AI agent use it instead of Git.
 guid: 0107edbe-77a1-4e83-bf50-e9e506efb50a
 uri: gitbutler-benefits
@@ -72,19 +72,19 @@ Several AI agent sessions can work in the same folder at once. Each agent uses t
 <boxEmbed
   style="greybox"
   body={<>
-    Two agent sessions work in the same folder on plain Git. One adds checkout validation and the other fixes a caching bug. When both finish, `git status` shows one mixed list of changes, and you split them into two branches by hand.
+    2 agent sessions work in the same folder on plain Git. One adds checkout validation and the other fixes a caching bug. When both finish, `git status` shows one mixed list of changes, and you split them into 2 branches by hand.
   </>}
   figurePrefix="bad"
-  figure="Plain Git - two agents in one folder produce one mixed diff"
+  figure="Plain Git - 2 agents in one folder produce one mixed diff"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    Three agent sessions work in the same folder with GitButler. Each one commits its own changes to its own branch. You end up with three focused branches, each ready for its own pull request.
+    3 agent sessions work in the same folder with GitButler. Each one commits its own changes to its own branch. You end up with 3 focused branches, each ready for its own pull request.
   </>}
   figurePrefix="good"
-  figure="GitButler - three agents in one folder produce three clean branches"
+  figure="GitButler - 3 agents in one folder produce 3 clean branches"
 />
 
 This works best when the agents work on different parts of the code. When two agents will edit the same files, give each one its own [Git worktree](/git-worktrees) instead.
@@ -93,12 +93,12 @@ This works best when the agents work on different parts of the code. When two ag
 
 GitButler can write commit messages, branch names, and pull request descriptions with AI. It also creates pull requests on GitHub and GitLab.
 
-## What are the drawbacks?
+## ⚠️ What are the drawbacks?
 
-* **A new mental model** - Parallel and stacked branches take some getting used to. Try GitButler on your own work before you roll it out to a team.
-* **It owns your checkout** - GitButler works through its own `gitbutler/workspace` branch and installs Git hooks that block `git commit` on it. Switching branches with plain Git takes you out of GitButler until you set it up again.
-* **One shared folder** - Parallel branches share one filesystem, one dependency install, and one set of build outputs. When tasks need separate runtimes or touch the same files, use [Git worktrees](/git-worktrees) instead.
-* **Tools that expect one branch** - IDE Git panels and scripts that assume a single checked-out branch show the `gitbutler/workspace` branch instead of the branch you are working on.
+* **A new mental model** - Parallel and stacked branches take some getting used to. Try GitButler on your own work before you roll it out to a team
+* **It owns your checkout** - GitButler works through its own `gitbutler/workspace` branch and installs Git hooks that block `git commit` on it. Switching branches with plain Git takes you out of GitButler until you set it up again
+* **One shared folder** - Parallel branches share one filesystem, one dependency install, and one set of build outputs. When tasks need separate runtimes or touch the same files, use [Git worktrees](/git-worktrees) instead
+* **Tools that expect one branch** - IDE Git panels and scripts that assume a single checked-out branch show the `gitbutler/workspace` branch instead of the branch you are working on
 
 If it doesn't suit you, `but teardown` takes the repository back to plain Git.
 
@@ -143,6 +143,8 @@ Instructions steer an agent, but they don't stop it. In Claude Code, add deny ru
 ```
 
 GitButler's own pre-commit hook is the last line of defence. It rejects `git commit` on the workspace branch and tells the agent how to fix it.
+
+---
 
 ## Learn more
 
