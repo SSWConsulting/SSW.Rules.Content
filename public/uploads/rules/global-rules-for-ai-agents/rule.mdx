@@ -1,0 +1,146 @@
+---
+type: rule
+title: Do you keep universal rules for your AI agent in a global instructions file?
+seoDescription: Put the rules that apply to every project, such as no dead code and labelling where each claim comes from, in your AI agent's global instructions file so you stop repeating them in every repository.
+guid: d88e3255-dbf5-41b7-bd62-bf57ab40d4c3
+uri: global-rules-for-ai-agents
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/scoped-rules-for-ai-agents/rule.mdx
+  - rule: public/uploads/rules/claude-local-md/rule.mdx
+  - rule: public/uploads/rules/centralize-ai-workflows/rule.mdx
+  - rule: public/uploads/rules/avoid-ai-hallucinations/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Your AI agent refactors a method and leaves the old one behind. You tell it to delete what it replaced. Next week, in another repository, it does the same thing and you tell it again. Some corrections have nothing to do with the project. They are about how you expect any agent to work on any code.
+
+If these corrections stay in your head, you repeat them forever. If you copy them into every project's `AGENTS.md`, you maintain the same paragraph in ten places.
+
+<endIntro />
+
+Every major AI coding agent reads a global instructions file from your home folder, in every session, in every repository. Write your universal rules there once.
+
+## Where is the global file?
+
+| Tool | Global instructions file |
+| --- | --- |
+| **Claude Code** | `~/.claude/CLAUDE.md`, plus rule files in `~/.claude/rules/` |
+| **OpenAI Codex** | `~/.codex/AGENTS.md` |
+| **GitHub Copilot CLI** | `~/.copilot/copilot-instructions.md` |
+| **GitHub Copilot on GitHub.com** | Personal instructions in the Copilot Chat settings |
+
+The agent loads the global file together with the project's own instructions, so the two add up.
+
+## Which instruction goes in which file?
+
+| File | What goes in it | Who gets it |
+| --- | --- | --- |
+| **Global file** | How you expect any agent to work, in any project | You, everywhere |
+| **Project** [AGENTS.md](/write-agents-md) | Build commands, architecture and conventions of this repository | The whole team |
+| [Scoped rule files](/scoped-rules-for-ai-agents) | Conventions for one part of the repository | The whole team |
+| [CLAUDE.local.md](/claude-local-md) | Your personal overrides for this repository | You, in this repository |
+
+A good test for the global file: would this instruction still be true in a project written in a different language? "No dead code" passes. "Use FluentValidation" doesn't.
+
+## What makes a good universal rule?
+
+The best ones come from a correction you gave more than once. Three examples that pay off in every project:
+
+### Leave no dead code
+
+Agents add things "for later" and forget to remove what they replaced. Each leftover looks harmless, and after a month the codebase is full of methods nobody calls.
+
+```markdown
+- Leave no dead code. Everything you add must have a caller by the end of the change.
+  When you replace one approach with another, delete the old one in the same change.
+  Read your own diff before you commit and remove anything nothing uses.
+```
+
+### Check the whole call graph
+
+An agent fixes the caller you pointed at and ignores the other five. Changing what a shared method returns, or how it fails, can quietly break every other place that uses it.
+
+```markdown
+- When you change what a shared method returns or how it fails, find every caller
+  and check each one, not only the caller you are editing. If you make the same edit
+  in several places, extract a shared helper.
+```
+
+### Label where each claim comes from
+
+An agent states a guess in the same confident voice as a fact it checked. You can't tell "I ran the tests and they pass" from "the tests should pass". See [Do you handle AI Hallucinations the right way?](/avoid-ai-hallucinations)
+
+```markdown
+- Label every factual claim as one of: observed in this session (say where),
+  documented (cite it), or inferred. Repeating a claim doesn't upgrade it.
+  An inference stays an inference until you check it.
+```
+
+## How do you write them?
+
+* **Say why** - "No dead code, because unused code hides the real behavior from the next reader" gets applied in cases you didn't list
+* **Be specific** - "Write clean code" changes nothing. "Delete what you replaced in the same change" does
+* **Add a rule when you repeat yourself** - The second time you give the same correction, ask the agent to add it to the global file
+* **Keep it short** - The file is loaded into every session. A long file costs tokens and waters down the rules that matter
+* **Prune it** - Remove rules the agent now follows without being told, and rules you no longer agree with
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Monday, repository A: "You left the old `GetPrice` method behind. Delete what you replace."
+
+    Thursday, repository B: "You left the old validator behind. Delete what you replace."
+
+    Next Tuesday, repository C: "You left the old..."
+  </>}
+  figurePrefix="bad"
+  figure="The same correction typed again in every repository"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `~/.claude/CLAUDE.md`
+
+    ```markdown
+    # How I expect you to work
+
+    - Leave no dead code. When you replace one approach with another,
+      delete the old one in the same change.
+    - When you change what a shared method returns or how it fails,
+      check every caller.
+    - Label every factual claim as observed, documented or inferred.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="The correction is written once in the global file and applies in every repository"
+/>
+
+## What are the gotchas?
+
+### Your teammates don't have your global file
+
+The global file is on your machine. Your colleague's agent has never seen it, and neither has an agent running in CI or in the cloud. If the team depends on a rule, it belongs in the project's `AGENTS.md`. If every project in the company should follow it, share it centrally. See [Do you centralize your team's AI workflows?](/centralize-ai-workflows)
+
+### Don't fight the project
+
+When your global file says one thing and the project file says another, the agent may follow either one. Keep global rules about how to work, and leave the choice of tools and patterns to each project.
+
+### One tool's file doesn't apply to another
+
+If you use more than one agent, each reads its own global file. Keep one source file and link or copy it to the others, the same way you [share one AGENTS.md across AI tools](/symlink-agents-to-claude) in a repository.
+
+## Learn more
+
+* [Claude Code Docs - How Claude remembers your project](https://code.claude.com/docs/en/memory)
+* [OpenAI Codex Docs - Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
+* [GitHub Docs - Add custom instructions for Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions)
+* [GitHub Docs - Add personal instructions for Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-personal-instructions)
