@@ -20,10 +20,13 @@ archivedreason: null
 isArchived: false
 ---
 
-Previously, users have needed to BYO devices to host their AI agents. Whether that's running Claude Code *et al* locally on your machine, running Hermes on a local server, or setting up a VPS in the cloud,
+Previously, users have needed to BYO devices to host their AI agents. Whether that's running Claude Code *et al* locally on your machine, running OpenClaw/Hermes on a local server, or setting up a VPS in the cloud,
 there weren't many out-of-the-box solutions that gave people an always-on, always-available agent host.
 Recently, things have changed. With the release of Claude Tag, Grok Bot, Meta Muse, and ChatGPT Dots, more and more providers are now offering subscription-based agents you don't need to host yourself. This opens up a
 lot of new opportunities for AI automation, but where (and how) do cloud-based agents fit into the mix? When is the best time to reach for them over your existing local setup?
+
+<youtubeEmbed url="https://www.youtube.com/shorts/7BlsZyhlJwQ" description={"Video: Is Dot the Personal AI Assistant We’ve Been Waiting For? | Adam Cogan & Eve Cogan (1 min)"} />
+
 
 <endIntro />
 
@@ -40,8 +43,8 @@ Cloud agents don't need you at the helm, and if you've been swimming in AI autom
 
 | | Attended (you drive) | Unattended (it starts itself) |
 | --- | --- | --- |
-| **Local** | Claude Code, Copilot in your IDE, Codex | Desktop scheduled tasks, `/loop` - dies when the laptop sleeps |
-| **Cloud** | ChatGPT, Claude chat, Claude Code on the web | **Cloud agents** - Routines, ChatGPT Tasks, Claude Tag, Dots, Grok Bot, Foundry |
+| **Local** | Claude Code, Copilot in your IDE, Codex | Desktop scheduled tasks, `/loop` dies when the laptop sleeps e.g. OpenClaw, Hermes |
+| **Cloud** | ChatGPT, Claude chat, Claude Code on the web | **Cloud agents** e.g. Routines, ChatGPT Tasks, Claude Tag, Dots, Grok Bot, Foundry  |
 
 Chat and code are for work you want to steer. Cloud agents are for work you want to stop thinking about.
 
@@ -65,7 +68,7 @@ Some examples that fit well with cloud agents are:
     Every Monday at 9am you paste the sprint board into ChatGPT, ask for a summary, and copy it into the team channel.
   </>}
   figurePrefix="bad"
-  figure="Bad example - You are the scheduler, and you forget"
+  figure="You are the scheduler, and you forget"
 />
 
 <boxEmbed
@@ -74,7 +77,7 @@ Some examples that fit well with cloud agents are:
     A Claude Routine runs Mondays at 8am, reads the Sprint board through a connector, and posts the summary to the channel before standup.
   </>}
   figurePrefix="good"
-  figure="Good example - The agent is the scheduler, and it doesn't forget"
+  figure="The agent is the scheduler, and it doesn't forget"
 />
 
 Stick with chat or a local agent when you are still working out what "done" looks like. If you'd change the prompt every run, it isn't ready to automate.
@@ -97,7 +100,7 @@ Make this a decision point before you automate anything:
     You schedule a cloud agent to summarise the meeting notes in your Documents folder every Friday. It runs on time and reports that it found nothing.
   </>}
   figurePrefix="bad"
-  figure="Bad example - The agent can't reach files that only exist on your laptop"
+  figure="The agent can't reach files that only exist on your laptop"
 />
 
 <boxEmbed
@@ -106,14 +109,17 @@ Make this a decision point before you automate anything:
     You move the meeting notes to a SharePoint library and give the agent a connector scoped to that library. It reads the same notes every Friday, whether your laptop is on or not.
   </>}
   figurePrefix="good"
-  figure="Good example - The data lives where the agent can reach it"
+  figure="The data lives where the agent can reach it"
 />
 
 If the data can't leave your machine, that settles it. Keep the task on a local agent and accept that it only runs while your machine is on.
 
 ## Which cloud agent should you use?
 
+The first 5 are products you configure in minutes. Foundry is a platform you build on. If you're choosing between Microsoft agent options, see [Do you choose the right platform for your AI agent?](/ai-agent-platform)
+
 | Platform | Starts on | Best for | Watch out for |
+| --- | --- | --- |
 | [Claude Routines](https://code.claude.com/docs/en/routines) (Recommended for dev work) | Schedule (hourly min), API call, GitHub event | Code and repo chores - PR review, docs drift, alert triage | Research preview. Runs as you, with no approval prompts |
 | [ChatGPT Tasks](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt) | Schedule (hourly min on paid plans) | Personal reminders and research digests | 3-15 active tasks per plan. Idle tasks can auto-pause |
 | [Dots](https://openai.com/index/introducing-dots/) (OpenAI) | Chat in ChatGPT, Slack, Teams, or a phone call. Checks in on its own when idle | An always-on assistant that watches your inbox and projects across 4,000+ apps | Rolling out on Pro, Business Premium, and Enterprise. Not yet for Pro users in the UK or EU |
@@ -121,7 +127,7 @@ If the data can't leave your machine, that settles it. Keep the task on a local 
 | [Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) | On-demand using Slack | Ad-hoc tasks that don't require direction | Unaddressed feedback or questions that stall progress |
 | [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/routines) | Cron (5 min min), timer, GitHub issue, Logic Apps | Production agents that need Azure networking and governance | Pro-code. You build and host the agent |
 
-The first 5 are products you configure in minutes. Foundry is a platform you build on. If you're choosing between Microsoft agent options, see [Do you choose the right platform for your AI agent?](/ai-agent-platform)
+
 
 ## What do you give up?
 
