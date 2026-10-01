@@ -1,0 +1,149 @@
+---
+type: rule
+title: Do you know which skills every repository should have?
+seoDescription: Five project skills every repository needs for AI coding agents - writing backlog items, recording architectural decisions, navigating the app, tracing data model changes, and investigating bugs.
+guid: bbe98732-74b4-4ceb-8a35-2e826016a70f
+uri: essential-repository-skills
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/centralize-ai-workflows/rule.mdx
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/treat-bug-reports-as-hypotheses/rule.mdx
+  - rule: public/uploads/rules/architectural-decision-records/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Your team uses AI coding agents every day, but everyone drives them differently. One developer's PBIs come with a full solution design, another's have no acceptance criteria. Decisions are made in chat and never recorded. The agent takes ten minutes to find the login page each time it tests a change. A new column ships and the reports break a week later.
+
+None of these are hard problems. The team already knows how each task should be done. The agent doesn't, because that knowledge is in people's heads.
+
+<endIntro />
+
+Put that knowledge into [skills](/ai-agents-with-skills) and commit them to the repository. Public skills cover generic work. These five are different: they depend on your project's templates, your app and your data, so every repository needs its own version of each.
+
+| Skill | What it does |
+| --- | --- |
+| `/issue-scribe` | Writes a PBI the way your team writes them |
+| `/adr-documenter` | Records an architectural decision in your ADR format |
+| `/navigate-<app>` | Tells the agent how to log in to and move around your running app |
+| `/data-model-blast-radius` | Walks through everything that must follow a data model change |
+| `/investigate` | Finds the verified root cause of a bug before anything is fixed |
+
+## /issue-scribe - write backlog items
+
+Agents are quick to write a PBI and quick to fill it with a solution nobody agreed on. This skill makes every PBI look like your team wrote it.
+
+It should:
+
+* **Ask before it writes** - Clarifying questions one at a time, and a look at the code and existing decisions for context
+* **Use your issue types and templates** - Bug, feature, refactor and so on, matching the issue forms in the repository
+* **Describe the problem, not the solution** - No named endpoints, tables or UI controls unless the Product Owner asked for them. A good test: an acceptance criterion should still be true if the team picks a completely different implementation
+* **Always include** [Acceptance Criteria](/acceptance-criteria) - As observable outcomes, with a link to the Definition of Done
+* **Attach the evidence** - Screenshots and logs from the conversation, with secrets and personal data removed first
+* **Show the draft and wait** - Nothing is created until you approve the title and body
+
+## /adr-documenter - record decisions
+
+Agents make architectural choices all day. Without a record, nobody knows in six months why the project uses one library over another. This skill turns a decision into an [Architectural Decision Record](/architectural-decision-records).
+
+It should:
+
+* **Interview you** - The decision, the options you considered, the reasoning, who decided and when
+* **Read the existing ADRs first** - So the new one is consistent and links to related decisions
+* **Follow one template** - Context, considered options, decision outcome, consequences. Keep the options neutral and name the chosen one once
+* **Name real people as deciders** - Not a team or a role
+* **Use the decision date in the file name** - Not the day the file was written
+* **Never edit an old decision** - A changed decision gets a new ADR that supersedes the old one
+* **Show the draft and wait** - The pull request review is where the team accepts it
+
+## /navigate-&lt;app&gt; - drive the running app
+
+An agent that verifies its own UI work needs to know how to get around: how to log in, where the menus are, which test data exists. Without this it rediscovers the app every session. See [Do you know how to use Playwright with your AI Agents?](/playwright-with-ai)
+
+Create one skill per application, for example `/navigate-admin-portal` and `/navigate-client-portal`. If several apps share a login, give authentication its own skill and point the others at it.
+
+It should:
+
+* **Document local login** - The seeded test users, the login form, and how to reset a locked account. Local development credentials only, never real ones
+* **Describe the layout** - Navigation structure, and the click path to each important page
+* **List the test data** - Which seeded records are good for a demo, and how to create them
+* **Insist on real clicks** - The agent navigates like a user: visible clicks on real elements, no jumping to URLs and no scripted clicks. This way recordings show real user paths, and broken navigation gets noticed
+* **Check for a positive success signal** - "The dashboard heading is visible", not "the login form is gone"
+* **Record the gotchas** - Slow first load, known bugs that block a demo, components that behave oddly
+* **Keep itself up to date** - Tell the agent to correct the skill whenever it finds something wrong or missing
+
+## /data-model-blast-radius - follow a schema change downstream
+
+Adding a column is easy. Remembering everything that depends on that table is not. Reports, the data warehouse, exports, integrations, search indexes and caches all break quietly, and often weeks later.
+
+It should:
+
+* **Trigger on the work, not only on a command** - Phrases like "add a migration" or "new entity", and edits to entity or migration files
+* **Triage first** - Does this change affect anything downstream? If not, record that and stop
+* **Walk through each downstream step in order** - For example: generate the migration, update change tracking, register the table in the warehouse, raise a PBI for the reports
+* **Point to one checklist** - Keep the steps in a document in the repository. The skill summarizes and links to it, so there are never two versions
+* **Point to a recent merged example** - The agent copies a working change, not a description of one
+* **Leave a visible acknowledgement** - A label or checkbox on the pull request that says "downstream impact handled" or "not applicable", ideally enforced by a CI check
+
+## /investigate - find the root cause first
+
+Give an agent a bug report and it starts fixing the first plausible cause. If the report was wrong, the fix is wrong too. See [Do you treat a bug report as a hypothesis?](/treat-bug-reports-as-hypotheses)
+
+It should:
+
+* **Separate what was seen from what was guessed** - Symptoms, times and log lines are leads. A root cause stated in the issue is a claim to verify
+* **Start from a symptom it can test** - What stopped working, for whom, since when. If that can't be written down, stop and ask
+* **Gather evidence before forming a theory** - Read the code path end to end, query logs and telemetry directly, and check what was deployed, not just what was committed
+* **Only run read-only diagnostics**
+* **Tie every claim to something you can open** - A file and line, a log excerpt, a query and its result
+* **Label confirmed and unconfirmed** - "Most likely, not confirmed" is a valid result
+* **Report logging and alerting gaps** - If nothing would have alerted you, that is a finding too
+* **Stop before the fix** - Deliver the findings, then plan the fix once you accept them
+
+## What do good project skills have in common?
+
+* **A person approves before anything is published** - Issues, ADRs and fixes are shown as a draft first
+* **They ask one question at a time** - Not a wall of ten questions
+* **They link to the source of truth** - Templates, checklists and the Definition of Done stay in the repository, and the skill points to them
+* **They explain why** - A rule with its reason next to it gets followed in cases the author didn't think of
+* **They say when they don't apply** - So the agent doesn't run the data model checklist for a CSS change
+* **They are kept current** - A skill that describes last year's app is worse than no skill
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Create a PBI for the export bug. Use our bug template, include steps to reproduce, don't suggest a solution, add acceptance criteria, link the Definition of Done, attach my screenshot..."
+  </>}
+  figurePrefix="bad"
+  figure="Every developer re-types the team's conventions in every prompt, each a little differently"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```text
+    .agents/skills/
+    ├── adr-documenter/SKILL.md
+    ├── data-model-blast-radius/SKILL.md
+    ├── investigate/SKILL.md
+    ├── issue-scribe/SKILL.md
+    ├── navigate-admin-portal/SKILL.md
+    ├── navigate-client-portal/SKILL.md
+    └── navigate-identity-server/SKILL.md
+    ```
+
+    "/issue-scribe the export bug"
+  </>}
+  figurePrefix="good"
+  figure="The conventions are committed once as project skills, and everyone on the team gets the same result"
+/>
+
+Start with the skill that removes the most repeated typing for your team, and add the others as the need comes up. If the same workflow is useful across all your repositories, see [Do you centralize your team's AI workflows?](/centralize-ai-workflows)
