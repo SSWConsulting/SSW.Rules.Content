@@ -5,6 +5,8 @@ authors:
   url: https://www.ssw.com.au/people/calum-simpson
 - title: Baba Kamyljanov
   url: https://www.ssw.com.au/people/baba-kamyljanov
+- title: Anton Polkanov
+  url: https://www.ssw.com.au/people/anton-polkanov
 created: 2025-11-24 04:13:40+00:00
 createdBy: Baba Kamyljanov [SSW]
 createdByEmail: babakamyljanov@ssw.com.au
@@ -19,8 +21,7 @@ related:
 - rule: public/uploads/rules/use-images-to-replace-words/rule.mdx
 - rule: public/uploads/rules/set-language-on-code-blocks/rule.mdx
 seoDescription: Quickly test AI-built desktop features by switching to PR pre-releases
-  in your desktop app. Avoid slow local branch builds and adopt a professional AI-assisted
-  workflow for Electron apps.
+  in your desktop app. Avoid slow local branch builds, whatever your desktop stack.
 title: Do you use PR pre-releases to rapidly test AI-built desktop features?
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -28,28 +29,45 @@ type: rule
 uri: ai-assisted-desktop-pr-preview
 ---
 
-Previously, testing desktop features created with AI agents meant checking out a PR branch locally, building the app, and running it manually. Which took time, slowed feedback loops, and encouraged "vibe coding" where changes are shipped without a deep understanding of the code.
+AI agents can produce a desktop feature in minutes, but testing it often still means checking out the PR branch, building the app locally and running it by hand. That slows feedback, puts off non-developers such as Product Owners, and tempts people to merge without really trying the change.
 
-By exposing a settings option to switch to specific PR builds, they can be easily installed tested - no local branch juggling or manual builds required.
+Instead, build every PR as a pre-release and let testers switch the installed app to that PR's build from Settings. No local branch juggling or manual builds required.
 
 <endIntro />
 
 ## Why this matters
 
 * Faster feedback for AI-generated changes without compromising quality
-* Realistic testing inside the desktop runtime, not just mock environments
-* Reduced friction for reviewers and Product Owners
-* Encourages the professional Plan → Discuss → Implement → Review cadence
+* Realistic testing inside the real desktop app, not just mock environments
+* Product Owners and reviewers can test without a dev environment
+* Encourages the [Plan → Discuss → Implement → Review cadence](/ai-assisted-development-workflow)
 
-## The new workflow
+<imageEmbed
+  alt="Developer switching git branches, building and running the desktop app locally to test a change"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Manual local branch switching, building, and running every time you want to test a change"
+  src="/uploads/rules/ai-assisted-desktop-pr-preview/local-build.png"
+/>
+
+<imageEmbed
+  alt="YakShaver Settings with a release channel dropdown listing Latest Stable and PR pre-releases such as PR #200"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Switch your desktop app to a PR pre-release in Settings, install, and test in the real app"
+  src="/uploads/rules/ai-assisted-desktop-pr-preview/releases-dropdown.png"
+/>
+
+## The workflow
 
 1. Plan the change with context and constraints
-2. Ask your AI agent to implement a small, self-contained step
-3. Automatically build a PR pre-release via CI
-4. In your desktop app, switch to that PR pre-release from Settings
+2. Ask your AI agent to implement a small, self-contained step and open a PR
+3. CI builds the PR and publishes it as a pre-release on its own channel (e.g. `beta.200` for PR #200)
+4. In your desktop app, switch to that PR's channel from Settings
 5. Review the behavior in-app, run tests, and capture findings
-6. Iterate until the feature is complete, then merge
-
+6. Iterate until the feature is complete, then merge. Closing the PR deletes its pre-releases
 
 <boxEmbed
   style="info"
@@ -60,27 +78,25 @@ By exposing a settings option to switch to specific PR builds, they can be easil
   figure=""
 />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Manual local branch switching, building, and running every time you want to test a change"
-  src="/uploads/rules/ai-assisted-desktop-pr-preview/local-build.png"
-/>
+## How each change reaches the app
 
+Every push to the PR triggers a new build, so testers always get the latest commit:
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Switch your desktop app to the PR pre-release channel in Settings, install, and test instantly in the real app environment"
-  src="/uploads/rules/ai-assisted-desktop-pr-preview/releases-dropdown.png"
-/>
+* **Rebuild on every push** - The workflow runs on `opened`, `synchronize` and `reopened`, and cancels any build still running for an older commit
+* **Unique version per build** - Each build gets a version such as `0.4.4-beta.200.1763605458` (base version, PR number, timestamp), so the updater always sees it as newer. The previous pre-release for that PR is deleted
+* **The app checks for updates** - The installed app polls its channel (every 10 minutes in the example below), downloads the new build in the background and installs it on restart. Add a "Check for Updates" button so testers don't have to wait
 
+The delay is the CI build time plus the polling interval. If a build fails, no new pre-release appears, so check the PR's CI status when a change doesn't show up.
 
-## Tips for professional AI-assisted development
+## Works with any desktop stack
+
+The pattern isn't specific to JavaScript. You need two things: CI that publishes each PR build to its own channel, and an updater that can switch channels at runtime.
+
+* **Electron** - [electron-updater](https://www.electron.build/auto-update) supports channels and pre-releases from GitHub Releases
+* **.NET** - [Velopack](https://docs.velopack.io/integrating/switching-channels) lets the app switch channel at runtime with `ExplicitChannel` and `AllowVersionDowngrade`
+* **Tauri** - The [updater plugin](https://v2.tauri.app/plugin/updater/) can set its update endpoints at runtime, so each PR can have its own feed
+
+## Tips for AI-assisted development
 
 * Prefer small, focused steps that map one-to-one to PRs
 * Write down assumptions and risks in the PR description
@@ -90,6 +106,5 @@ By exposing a settings option to switch to specific PR builds, they can be easil
 
 ## References
 
-* [**GitHub Action example** – PR pre-release switching](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml)
-* [**Release channel handler example**](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts)
-* [**Electron autoUpdater**](https://www.electronjs.org/docs/latest/api/auto-updater)
+* [GitHub Action example - PR pre-release workflow](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml)
+* [Release channel handler example](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts)
