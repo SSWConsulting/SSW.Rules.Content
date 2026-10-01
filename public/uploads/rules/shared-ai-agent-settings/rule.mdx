@@ -1,0 +1,145 @@
+---
+type: rule
+title: Do you commit a shared settings file for your AI coding agents?
+seoDescription: Commit a shared settings file for Claude Code, Codex and GitHub Copilot so the whole team gets the same permissions, hooks and MCP servers, and keep personal settings in a local override.
+guid: e0b0ce7f-e525-4920-9d4d-d15eae8cc0c8
+uri: shared-ai-agent-settings
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/claude-local-md/rule.mdx
+  - rule: public/uploads/rules/symlink-agents-to-claude/rule.mdx
+  - rule: public/uploads/rules/add-local-configuration-file-for-developer-specific-settings/rule.mdx
+  - rule: public/uploads/rules/gitbutler-benefits/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A new developer joins the project and starts their AI coding agent. It asks for permission to run the build. Then the tests. Then the linter. They click "allow" forty times on the first day, and by the afternoon they click it without reading. Meanwhile nothing stops the agent from opening the `.env` file, because the instruction "never read secrets" is only a sentence in `AGENTS.md`.
+
+Instructions tell an agent what you want. They don't stop it. What the agent is actually allowed to do is decided by its settings file, and most teams leave that on each developer's machine.
+
+<endIntro />
+
+Commit a settings file to the repository. Everyone who clones the project then gets the same permissions, the same hooks and the same tools from the first session.
+
+`AGENTS.md` and the settings file do different jobs:
+
+* **Instructions** (`AGENTS.md`, `CLAUDE.md`) - Guidance the agent reads and usually follows. See [Do you write an AGENTS.md?](/write-agents-md)
+* **Settings** - Rules the tool enforces. A denied command doesn't run, whatever the agent thinks about it
+
+## What goes in the shared settings file?
+
+* **Allowed commands** - The safe things everyone runs all day: build, test, lint, read-only Git commands. No more approval prompts for these
+* **Denied commands and files** - Secrets, `.env` files, destructive commands. A deny rule beats an allow rule
+* **Commands that always ask** - Pushing, deploying, running database migrations
+* **Hooks** - Scripts that run on agent events, for example formatting a file after every edit or blocking a dangerous command
+* **MCP servers** - The servers the project uses, so everyone has the same tools
+* **Sandbox settings** - Which folders the agent can write to and which domains it can reach
+
+## What stays out of it?
+
+* **Secrets and tokens** - Never. Reference an environment variable instead
+* **Personal preferences** - Your model, theme and editor choices
+* **Machine-specific paths and ports**
+* **Wide-open permissions** - "Allow everything" in a shared file turns off the safety checks for the whole team
+
+Personal settings go in a local override that Git ignores. This is the same idea as [Do you add a local configuration file for developer-specific settings?](/add-local-configuration-file-for-developer-specific-settings)
+
+## Where does each tool keep its settings?
+
+| | Claude Code | OpenAI Codex | GitHub Copilot CLI | GitHub Copilot in VS Code |
+| --- | --- | --- | --- | --- |
+| **Shared (commit)** | `.claude/settings.json` | `.codex/config.toml` | `.github/copilot/settings.json` | `.vscode/settings.json` |
+| **Personal for this project (gitignore)** | `.claude/settings.local.json` | - | `.github/copilot/settings.local.json` | - |
+| **Personal for all projects** | `~/.claude/settings.json` | `~/.codex/config.toml` | `~/.copilot/settings.json` | VS Code user settings |
+| **Command rules** | `permissions` with `allow`, `ask` and `deny` | `approval_policy`, `sandbox_mode` and `.codex/rules/` | Allow and deny tool flags | Terminal auto-approve settings |
+| **Hooks** | `hooks` in the settings file | `.codex/hooks.json` | `.github/hooks/` | Preview |
+| **MCP servers** | `.mcp.json` | `mcp_servers` in the config file | `.mcp.json` | `.vscode/mcp.json` |
+
+The Copilot cloud agent is configured differently. Its environment is set up by `.github/workflows/copilot-setup-steps.yml`, and its firewall and MCP servers are set in the repository settings on GitHub.
+
+File names and keys change often. Check the product documentation under [Learn more](#learn-more) before you copy an example.
+
+### Claude Code
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `AGENTS.md`
+
+    ```markdown
+    - Never read .env files
+    - Always ask before you push
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Safety rules written as instructions. The agent can ignore them, and every developer still approves each build command by hand"
+/>
+
+`.claude/settings.json` (committed)
+
+```json
+{
+  "permissions": {
+    "allow": ["Bash(npm run *)", "Bash(git status)", "Bash(git diff *)"],
+    "ask": ["Bash(git push *)"],
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Read(./secrets/**)"]
+  }
+}
+```
+
+**✅ Figure: Good example - The same rules as settings. The tool enforces them for everyone who clones the repository**
+
+Claude Code checks deny rules first, then ask, then allow. A deny rule in any settings file can't be undone by an allow rule in another one.
+
+### OpenAI Codex
+
+Codex reads a project `.codex/config.toml` next to your user configuration:
+
+```toml
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+network_access = false
+```
+
+Rules for individual commands go in `.codex/rules/`.
+
+### GitHub Copilot
+
+Copilot CLI reads `.github/copilot/settings.json` from the repository, with `settings.local.json` beside it for your own overrides. Hooks in `.github/hooks/` apply to both the CLI and the cloud agent. In VS Code, agent settings sit with the other workspace settings in `.vscode/settings.json`, and MCP servers go in `.vscode/mcp.json`.
+
+## What are the gotchas?
+
+### Shared settings need a trusted folder
+
+A settings file in a repository you just cloned could have been written by anyone. Claude Code and Codex both ask you to trust a project before they apply everything in it. Until you do, Codex skips the project's `.codex/` folder, and Claude Code applies the deny and ask rules but not the allow rules. Tell new team members to expect the trust prompt.
+
+### Review changes to the settings file like code
+
+A new allow rule gives every agent on the team a new power. Read the diff of a settings file as carefully as you read a change to the build pipeline, and be suspicious of a pull request that widens permissions without explaining why.
+
+### One tool's settings don't apply to another
+
+If your team uses more than one agent, each needs its own file. Keep them in step: when you deny reading secrets in one, deny it in the others.
+
+### Your organization can set rules above the repository
+
+All three tools support managed settings that an administrator pushes to every machine, and those win over the repository file. Use them for rules that must hold in every project, such as blocked commands or approved MCP servers. Use the repository file for what is specific to the project.
+
+## Learn more
+
+* [Claude Code Docs - Settings](https://code.claude.com/docs/en/settings)
+* [Claude Code Docs - Permissions](https://code.claude.com/docs/en/permissions)
+* [OpenAI Codex Docs - Configuration](https://learn.chatgpt.com/docs/config-file/config-basic)
+* [OpenAI Codex Docs - Rules](https://learn.chatgpt.com/docs/agent-configuration/rules)
+* [GitHub Docs - Configure Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)
+* [GitHub Docs - Hooks configuration](https://docs.github.com/en/copilot/reference/hooks-configuration)
+* [VS Code Docs - Copilot settings reference](https://code.visualstudio.com/docs/copilot/reference/copilot-settings)
