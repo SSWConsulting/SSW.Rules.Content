@@ -1,0 +1,93 @@
+---
+authors:
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Lewis Toh
+  url: https://www.ssw.com.au/people/lewis-toh
+- title: Anton Polkanov
+  url: https://www.ssw.com.au/people/anton-polkanov
+created: 2025-10-16 16:49:00+00:00
+guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
+related:
+- rule: public/uploads/rules/architectural-decision-records/rule.mdx
+- rule: public/uploads/rules/write-agents-md/rule.mdx
+- rule: public/uploads/rules/use-ai-for-meeting-notes/rule.mdx
+- rule: public/uploads/rules/leave-explanatory-notes-for-non-standard-code/rule.mdx
+redirects:
+- keep-task-summaries-from-ai-assisted-development
+seoDescription: Don't commit AI task summaries. Keep the why behind your changes in PRs, ADRs and Sprint Review transcripts, and make sure your AI agent can read them.
+title: Do you keep the why from AI-assisted development?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+type: rule
+uri: keep-the-why-from-ai-assisted-development
+---
+
+AI agents love to write a summary at the end of every task: what they changed, which files they touched, how they implemented it. It's tempting to commit these as documentation. In practice they pile up, go stale as soon as the next change lands, and repeat what the diff already shows. Worse, the next agent session reads them as current truth.
+
+What's worth keeping is the **why**: the decisions, the trade-offs, and what the Product Owner actually asked for. The code shows what was done. Only people remember why, and they forget.
+
+<endIntro />
+
+## Don't commit AI task summaries
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **docs/ai-tasks/**
+
+* `20251002-GB-01-graceful-row-failure-implementation-summary.md`
+* `20251002-GB-02-graceful-row-failure-refactoring-guide.md`
+* `20251002-GB-03-graceful-row-failure-changes-summary.md`
+* `20251003-GB-01-fix-null-check.md`
+
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - AI task summaries describe what changed, duplicate the diff, and go stale after the next PR"
+/>
+
+Tell your agent not to create them. Add a line like this to your [AGENTS.md](/write-agents-md):
+
+```markdown
+Don't write task summary or "changes made" files. Put the reason for a change in the PR description instead.
+```
+
+## Keep the why where people look
+
+* **PR descriptions and commit messages** - Why the change was needed and what alternatives you rejected. This is the first place a reviewer or a future developer looks
+* **[Architectural Decision Records](/architectural-decision-records)** - For significant decisions (a new library, a pattern, a data model change), write a short ADR. An ADR records one decision and its context, so it doesn't go stale when the code moves on
+* **Code comments** - Only for [non-standard code](/leave-explanatory-notes-for-non-standard-code) that would mislead a reader without one
+
+## Keep your Sprint Review transcripts
+
+The Sprint Review is where the Product Owner sees the work and explains what they actually want, often with reasons that never make it into a PBI. Record it, generate a transcript (see [Do you use AI for meeting notes?](/use-ai-for-meeting-notes)), and commit it to the repo:
+
+```text
+docs/
+  adr/
+    0007-use-velopack-for-updates.md
+  sprint-reviews/
+    2026-09-12.md
+    2026-09-26.md
+```
+
+Review the transcript before committing it, and remove anything confidential or personal that shouldn't live in source control.
+
+## Make sure your agent has the context
+
+Stored decisions only help if your AI agent reads them. Point to them from your AGENTS.md:
+
+```markdown
+## Context
+- Architectural decisions: docs/adr/ - read the relevant ADR before changing architecture
+- Product Owner decisions: docs/sprint-reviews/ - check recent reviews before starting a PBI
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The agent reads the last Sprint Review transcript, sees that the Product Owner rejected a modal dialog for this flow, and builds an inline form instead.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent starts with the why, so it doesn't repeat a decision the team already made"
+/>
