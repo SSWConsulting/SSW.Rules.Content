@@ -1,0 +1,152 @@
+---
+type: rule
+title: Do you know when to use AI agents in the cloud?
+seoDescription: Cloud AI agents run on a schedule or trigger while your laptop is closed. Learn when to use one, and how Claude Routines, ChatGPT Tasks, Dots, Grok Bot, and Azure AI Foundry compare.
+guid: f1f46fd6-23e4-4994-be07-c9ff6b606223
+uri: cloud-ai-agents
+created: 2026-09-30T23:01:20.782Z
+authors:
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
+related:
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+  - rule: public/uploads/rules/ai-agent-platform/rule.mdx
+  - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+archivedreason: null
+isArchived: false
+---
+
+Previously, users have needed to BYO devices to host their AI agents. Whether that's running Claude Code *et al* locally on your machine, running Hermes on a local server, or setting up a VPS in the cloud,
+there weren't many out-of-the-box solutions that gave people an always-on, always-available agent host.
+Recently, things have changed. With the release of Grok Bot, Meta Muse, and ChatGPT Dots, more and more providers are now offering subscription-based agents you don't need to host yourself. This opens up a
+lot of new opportunities for AI automation, but where (and how) do cloud-based agents fit into the mix? When is the best time to reach for them over your existing local setup?
+
+<endIntro />
+
+## What makes a cloud agent different?
+
+Most AI tools you currently use need you sitting at your machine. These are still a first-class choice for your own interactive work, where you'd be sitting at your computer anyway.
+Cloud agents don't need you at the helm, and if you've been swimming in AI automation for any length of time, you've probably run into scenarios where being tethered to your own device is a hindrance, not a help.
+
+3 questions can now help you decide between local vs cloud agents:
+
+* **Attended or unattended?** - Do you prompt and interact, or does your use case execute without human interaction?
+* **Scheduling** - Do you want the task to continue when you close your laptop?
+* **Local files** - Does the task need anything that only exists on your machine? See [Does the task need your local files?](#does-the-task-need-your-local-files)
+
+| | Attended (you drive) | Unattended (it starts itself) |
+| --- | --- | --- |
+| **Local** | Claude Code, Copilot in your IDE, Codex | Desktop scheduled tasks, `/loop` - dies when the laptop sleeps |
+| **Cloud** | ChatGPT, Claude chat, Claude Code on the web | **Cloud agents** - Routines, ChatGPT Tasks, Dots, Grok Bot, Foundry |
+
+Chat and code are for work you want to steer. Cloud agents are for work you want to stop thinking about.
+
+## When should you use a cloud agent?
+
+Use cloud agents when the task is:
+
+* Recurring
+* Has a clear finish line, and
+* Doesn't need your judgement mid-run.
+
+Some examples that fit well with cloud agents are:
+
+* **Recurring reports** - Monday sprint summary, weekly client update draft, overnight error digest
+* **Event reactions** - Review every new PR against your checklist, triage an alert the moment it fires
+* **Slow watches** - Check a competitor's pricing page daily, flag a dependency when a new major version ships
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Every Monday at 9am you paste the sprint board into ChatGPT, ask for a summary, and copy it into the team channel.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - You are the scheduler, and you forget"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A Claude Routine runs Mondays at 8am, reads the Sprint board through a connector, and posts the summary to the channel before standup.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent is the scheduler, and it doesn't forget"
+/>
+
+Stick with chat or a local agent when you are still working out what "done" looks like. If you'd change the prompt every run, it isn't ready to automate.
+
+## Does the task need your local files?
+
+A cloud agent runs on the provider's machine, not yours. It can't see your working folder, your uncommitted changes, your local database, or anything that is only reachable from inside your network. It only sees what you hand it: a repository it can clone, a connector to a cloud service, or a file you upload.
+
+Make this a decision point before you automate anything:
+
+| Where the task's data lives | Use |
+| --- | --- |
+| Already in the cloud - GitHub, SharePoint, Slack, a SaaS app with a connector | Cloud agent |
+| On your machine, but easy to move - a folder you could push to a repo or sync to cloud storage | Move it first, then use a cloud agent |
+| Only on your machine or inside your network - uncommitted work, local databases, internal-only systems, licensed desktop apps | Local agent |
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You schedule a cloud agent to summarise the meeting notes in your Documents folder every Friday. It runs on time and reports that it found nothing.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The agent can't reach files that only exist on your laptop"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You move the meeting notes to a SharePoint library and give the agent a connector scoped to that library. It reads the same notes every Friday, whether your laptop is on or not.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The data lives where the agent can reach it"
+/>
+
+If the data can't leave your machine, that settles it. Keep the task on a local agent and accept that it only runs while your machine is on.
+
+## Which cloud agent should you use?
+
+| Platform | Starts on | Best for | Watch out for |
+| --- | --- | --- | --- |
+| [Claude Routines](https://code.claude.com/docs/en/routines) (Recommended for dev work) | Schedule (hourly min), API call, GitHub event | Code and repo chores - PR review, docs drift, alert triage | Research preview. Runs as you, with no approval prompts |
+| [ChatGPT Tasks](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt) | Schedule (hourly min on paid plans) | Personal reminders and research digests | 3-15 active tasks per plan. Idle tasks can auto-pause |
+| [Dots](https://openai.com/index/introducing-dots/) (OpenAI) | Chat in ChatGPT, Slack, Teams, or a phone call. Checks in on its own when idle | An always-on assistant that watches your inbox and projects across 4,000+ apps | Rolling out on Pro, Business Premium, and Enterprise. Not yet for Pro users in the UK or EU |
+| [Grok Bot](https://x.ai/bot) (xAI) | Chat from desktop or mobile. Learns a job by watching you do it once | Bots that sign into your apps, even ones with no API | Bundled with SuperGrok and Cursor plans, with separate usage. Bots share one cloud computer and your logins |
+| [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/routines) | Cron (5 min min), timer, GitHub issue, Logic Apps | Production agents that need Azure networking and governance | Pro-code. You build and host the agent |
+
+The first four are products you configure in minutes. Foundry is a platform you build on. If you're choosing between Microsoft agent options, see [Do you choose the right platform for your AI agent?](/ai-agent-platform)
+
+## What do you give up?
+
+An unattended agent acts with your credentials and nobody watching. Claude Routines commit as your GitHub user and post to Slack as you. Scope every connector and repo to what the job needs, and read the run output for the first week before trusting it.
+
+## How do you keep a cloud agent secure?
+
+A local agent asks before it does something risky, and you are there to say no. A cloud agent has no one to ask, so the permissions you give it up front are the only control you have.
+
+* **Give it the least access that does the job** - One repo instead of the whole organisation, read-only where it only needs to read, one channel instead of the whole workspace. See [Do you give users least privileges?](/give-users-least-privileges)
+* **Treat everything it reads as untrusted** - A PR description, a web page, or an inbound email can contain instructions aimed at the agent (prompt injection). The less the agent is allowed to do, the less a hijacked run can do
+* **Know where your data goes** - Everything the agent reads is processed on the provider's infrastructure. Check the provider's retention and training terms against your client and company obligations before you connect a data source
+* **Keep secrets out of prompts** - Use the platform's connectors or secret storage instead of pasting API keys into the task instructions
+* **Keep a human on anything irreversible** - Let the agent draft the email, open the PR, or propose the change. Sending, merging, and deleting stay with a person until the agent has earned trust
+* **Review and prune** - Read the run history regularly, and pause or delete agents you no longer need. A forgotten agent keeps its access
+
+For the wider picture, see [Do you manage security risks when adopting AI solutions?](/manage-security-risks-when-adopting-ai-solutions)
+
+***
+
+### Learn more
+
+* [SSW: Do you know when to use agents, subagents, skills, and MCPs?](/when-to-use-skills-agents-subagents-mcps-plugins)
+* [SSW: Do you choose the right platform for your AI agent?](/ai-agent-platform)
+* [Claude Code - Automate work with routines](https://code.claude.com/docs/en/routines)
+* [OpenAI - Scheduled tasks in ChatGPT](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt)
+* [OpenAI - Introducing dots](https://openai.com/index/introducing-dots/)
+* [xAI - Grok Bot is now included with more plans](https://x.ai/news/grok-bot-more-plans)
