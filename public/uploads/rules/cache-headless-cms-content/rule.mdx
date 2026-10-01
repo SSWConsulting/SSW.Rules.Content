@@ -81,28 +81,28 @@ The most expensive cache is one that looks like it works. The code writes to the
 
 The only way to find these is to count calls. The second view of a page should cost far fewer calls than the first, and a page served from a page cache should cost none.
 
-On the example site at the end of this rule, production telemetry showed the difference in one number:
+On the example site at the end of this rule, Application Insights showed the difference:
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Contentful calls per render:** 11.0
+    **Contentful calls per render:** 10.4
 
-    **Render time:** 1,294ms
+    **Calls answered by the cache:** 0
   </>}
   figurePrefix="bad"
-  figure="Application Insights with the content cache off. Every render still goes to the CMS"
+  figure="Production telemetry with the content cache off. Every call still goes to the CMS"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Contentful calls per render:** 0.32
+    **Contentful calls per render:** 1.8
 
-    **Render time:** 318ms
+    **Calls answered by the cache:** 8.8
   </>}
   figurePrefix="good"
-  figure="The same telemetry with the content cache warm. Almost no render reaches the CMS, which proves the cache is being read"
+  figure="The same site with the content cache on. Most calls are answered by the cache, which proves it is being read"
 />
 
 ## Search is billed the same way
