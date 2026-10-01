@@ -1,0 +1,112 @@
+---
+type: rule
+title: Do you get your implementation plan reviewed before you write the code?
+seoDescription: Move the design review from the pull request to the plan. A teammate reviews a short implementation plan before coding starts, so a wrong approach costs minutes to fix, not days.
+guid: 71039917-7d07-4795-9bd1-7fb408eeaffa
+uri: review-implementation-plan-before-coding
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/review-ai-plans/rule.mdx
+  - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+  - rule: public/uploads/rules/dont-push-your-pull-requests/rule.mdx
+  - rule: public/uploads/rules/over-the-shoulder/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+archivedreason: null
+isArchived: false
+---
+
+You spend three days on a big feature and open a pull request with 40 changed files. Your reviewer reads it and says "this should have been built on the existing notification module". They are right, and now the choice is between a rewrite and merging something the team doesn't want.
+
+The pull request is the most expensive place to find a design problem. By then the code is written, the tests are written, and everyone is reluctant to throw the work away.
+
+<endIntro />
+
+Move the design review to the front. For any complex feature, write a short implementation plan first and get a teammate to review it before you write code. This is front-loading the review: the big questions are answered at the plan, and the pull request only has to confirm that the code matches the agreed plan.
+
+AI coding agents make this more important, not less. An agent can produce a large, working, wrong implementation in an hour. It can also produce a detailed plan in a few minutes, so having a plan to review costs almost nothing.
+
+## Why review the plan and not only the pull request?
+
+* **A plan is cheap to change** - Rewriting a paragraph takes a minute. Rewriting a feature takes days
+* **The reviewer sees the approach, not the noise** - One page of decisions is easier to judge than 40 files of diff
+* **The reviewer brings what you don't know** - Existing modules, past attempts, upcoming changes and client constraints rarely show up in the code you are reading
+* **The pull request review gets faster** - The reviewer already agreed with the approach, so they only check the execution
+* **Nobody has to reject finished work** - Reviewers often approve a questionable design because the code already exists. At plan stage, saying "do it differently" is easy
+
+## Which work needs a plan review?
+
+Not everything. A typo fix or a small bug doesn't need a second pair of eyes before you start. Ask for a plan review when the work:
+
+* Takes more than a day or two
+* Changes the data model, a public API or a contract between services
+* Crosses module or team boundaries
+* Introduces a new library, pattern or piece of infrastructure
+* Can be solved in several reasonable ways and you had to pick one
+* Touches an area you don't know well
+
+## What goes in the plan?
+
+Keep it to what a reviewer needs to judge the approach. One or two pages is enough:
+
+* **The problem** - A link to the PBI and the acceptance criteria
+* **The approach** - What you will build and how it fits into the existing code
+* **Alternatives you rejected** - And why, so the reviewer doesn't suggest them again
+* **What changes** - Data model, API, files and modules affected
+* **Risks and open questions** - What you are unsure about. This is where the reviewer helps most
+* **How you will test it**
+* **Out of scope** - What you are deliberately not doing
+
+If an AI agent wrote the plan, review it yourself first. See [Do you review your AI coding plans?](/review-ai-plans) Never send a teammate a plan you haven't read. Their time is for the things you couldn't catch on your own.
+
+## How do you run the review?
+
+1. Write the plan, or have your AI agent write it in plan mode, and review it yourself
+2. Share it where the team can comment - on the PBI, in a draft pull request that contains only the plan file, or in a plan review tool
+3. Ask a specific person, ideally someone who knows that part of the system. Tell them what you are least sure about
+4. Walk through it on a quick call if the plan is big. See [Pull Request - Do you do over the shoulder reviews?](/over-the-shoulder)
+5. Update the plan with what you agreed, and record who reviewed it
+6. Start coding. Link the plan in the pull request description so the code reviewer can compare the two
+
+Keep the review short. A plan review is a 15 minute conversation, not an approval gate that blocks work for days. If the reviewer can't get to it today, ask someone else.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Bob picks up the "Export invoices" PBI
+    2. Bob and his AI agent build it over three days
+    3. Bob opens a pull request with 40 changed files
+    4. Alice reviews it and points out that the reporting module already has an export pipeline
+    5. Bob rewrites most of the feature
+  </>}
+  figurePrefix="bad"
+  figure="The approach is reviewed for the first time in the pull request, after the work is done"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Bob picks up the "Export invoices" PBI
+    2. Bob and his AI agent write a one page plan in 20 minutes
+    3. Alice reviews the plan and points out that the reporting module already has an export pipeline
+    4. Bob updates the plan in 5 minutes and builds on the existing pipeline
+    5. Bob opens a pull request that links the plan. Alice only checks that the code matches it
+  </>}
+  figurePrefix="good"
+  figure="The approach is reviewed at the plan, where changing it costs 5 minutes"
+/>
+
+## What if the plan changes while you build?
+
+It will. You find things during implementation that nobody saw in the plan. Small deviations are fine - note them in the pull request description. If the approach itself changes, go back to your reviewer before you continue. A surprise in the pull request is exactly what the plan review was meant to prevent.
