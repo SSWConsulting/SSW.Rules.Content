@@ -1,0 +1,125 @@
+---
+type: rule
+title: Do you let your AI agent sessions message each other?
+seoDescription: Stop copy-pasting context between AI coding sessions. Claude Code sessions can message each other directly, and Codex and GitHub Copilot offer partial equivalents. Learn when messaging helps and when it doesn't.
+guid: fbe060d3-bd5a-49b2-a8fe-0954418f9364
+uri: ai-agent-session-messaging
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/organize-terminal-sessions-with-panes/rule.mdx
+  - rule: public/uploads/rules/clear-ai-agent-context/rule.mdx
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+You have two AI coding sessions open. One is building the API, the other is building the UI. The UI session needs to know the shape of the new endpoint, so you ask the API session, copy its answer, switch terminals and paste it in. Ten minutes later you do it again in the other direction.
+
+You have become the message bus between your own agents. It is slow, you lose detail every time you summarise, and it stops the moment you step away.
+
+<endIntro />
+
+Let the sessions talk to each other. A session that already holds the answer can give it directly to the session that needs it, and you stay in control of what each one is allowed to do.
+
+## How does messaging work in Claude Code?
+
+Claude Code has three kinds of messaging. They solve different problems.
+
+| Kind | What it does | Enabled |
+| --- | --- | --- |
+| **Cross-session messaging** | One running session sends a message to another running session - on the same machine, on another machine, or in the cloud | On by default |
+| **Continuing a subagent** | The main session sends a follow-up to a subagent it spawned earlier. The subagent resumes with everything it already read | On by default |
+| **Agent teams** | A lead session and several teammates share a task list and message each other by name | Experimental, off by default |
+
+For cross-session messaging, give each session a name with `/rename` or `--name`, then ask in plain language:
+
+```text
+Ask the api session what the response of the new GET /invoices endpoint looks like
+```
+
+Run `/list-agents` to see which sessions, subagents and teammates you can reach.
+
+Sessions on the same machine talk over a local socket, and the messages never leave your computer. Reaching a session on another machine or in the cloud goes through the vendor's servers and needs Remote Control connected.
+
+## What about Codex and GitHub Copilot?
+
+Neither has messaging between independent sessions today. Both let a parent talk to the agents it spawned.
+
+| Tool | Session to session | Follow-up to a spawned subagent | Agents talk to each other |
+| --- | --- | --- | --- |
+| **Claude Code** | ✅ Local, other machines and cloud | ✅ | ✅ Agent teams (experimental) |
+| **OpenAI Codex** | ❌ | ✅ The parent steers a running subagent | ❌ |
+| **GitHub Copilot** | ❌ You can steer a running cloud session yourself | ⚠️ In Copilot CLI. Subagents in VS Code are stateless | ❌ Handoffs between custom agents only |
+
+This area changes quickly, so check the product documentation under [Learn more](#learn-more) before you rely on the table.
+
+If your tool has no messaging, or your sessions run in different tools, use something every agent can read:
+
+* **A handoff file in the repository** - One session writes `HANDOFF.md` or updates the plan file, the other reads it
+* **Issue or pull request comments** - Slower, but the team can see and review what the agents told each other
+
+## When is messaging the right tool?
+
+* **Asking for a contract** - The frontend session asks the backend session for the new API contract, and gets the real answer, not a guess
+* **Sending review findings to the author** - A reviewer session sends its findings to the session that wrote the code and still remembers why
+* **Continuing a subagent** - A subagent already read 30 files to answer your first question. Send it the follow-up, don't brief a new one from scratch
+* **Reporting back from long work** - A session running a migration or a long test suite tells your main session when it finishes or gets stuck
+* **Warning parallel sessions** - You work in several [Git worktrees](/git-worktrees), and one session changes a shared type or schema. It tells the others before they build on the old one
+* **Debugging with competing theories** - Several teammates each investigate a different cause and challenge each other's findings
+* **Checking on remote work** - Your laptop session asks a cloud session how far it got
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Bob asks the `api` session to describe the new endpoint
+    2. Bob copies the answer and pastes it into the `ui` session
+    3. The `ui` session asks whether the date is UTC. Bob switches back and asks the `api` session
+    4. Bob pastes the second answer, and forgets to mention that the list is paged
+  </>}
+  figurePrefix="bad"
+  figure="The developer carries every question and answer between sessions by hand, and details get lost"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Bob tells the `ui` session: "Ask the api session for the contract of the new invoices endpoint, then build the list page"
+    2. The `ui` session asks the `api` session, including its follow-up question about dates
+    3. The `api` session answers from the code it just wrote
+    4. Bob reviews the result
+  </>}
+  figurePrefix="good"
+  figure="The session that needs the answer asks the session that has it"
+/>
+
+## When is it the wrong tool?
+
+* **Small or sequential tasks** - One session does the job. Every message costs tokens in both sessions, like a prompt you typed
+* **Two sessions editing the same files** - Messaging doesn't prevent conflicts. Split the work first
+* **Moving a whole context** - A message is plain text, so it is a summary. For a real handover, resume the original session or write a plan file. See [Do you clear your AI agent's context between tasks?](/clear-ai-agent-context)
+* **Decisions the team needs to see** - Messages between sessions leave no trail for people. Put decisions in the PBI or pull request
+
+## How do you keep it safe?
+
+A message from another session is not a message from you. Claude Code tells the receiving session where the message came from, and the receiver cannot use it to approve a permission prompt, change configuration or run slash commands.
+
+Keep that boundary yourself as well:
+
+* **Messages can carry bad instructions** - If one session read a malicious web page or issue, it can pass those instructions on. This matters most when the receiving session runs with permission prompts turned off
+* **Turn it off where it doesn't belong** - Claude Code has settings to hold or refuse incoming messages, and you can deny the messaging tools in your [shared settings file](https://code.claude.com/docs/en/settings)
+* **Review the outcome** - Check what the sessions agreed on, the same way you review any other AI output
+
+## Learn more
+
+* [Claude Code Docs - Cross-session messaging](https://code.claude.com/docs/en/cross-session-messaging)
+* [Claude Code Docs - Subagents](https://code.claude.com/docs/en/sub-agents)
+* [Claude Code Docs - Agent teams](https://code.claude.com/docs/en/agent-teams)
+* [VS Code Docs - Subagents in GitHub Copilot](https://code.visualstudio.com/docs/copilot/agents/subagents)
+* [GitHub Docs - Manage and track Copilot agents](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents)
