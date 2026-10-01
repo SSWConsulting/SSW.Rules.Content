@@ -81,28 +81,28 @@ The most expensive cache is one that looks like it works. The code writes to the
 
 The only way to find these is to count calls. The second view of a page should cost far fewer calls than the first, and a page served from a page cache should cost none.
 
+On the example site at the end of this rule, production telemetry showed the difference in one number:
+
 <boxEmbed
   style="greybox"
   body={<>
-    **First view of the homepage:** 23 CMS calls
+    **Contentful calls per render:** 11.0
 
-    **Second view:** 23 CMS calls
+    **Render time:** 1,294ms
   </>}
   figurePrefix="bad"
-  figure="The site has a page cache, a content cache and an SDK cache, but the second view costs the same as the first, so none of them is being read"
+  figure="Application Insights with the content cache off. Every render still goes to the CMS"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    **First view of the homepage:** 23 CMS calls
+    **Contentful calls per render:** 0.32
 
-    **Second view:** 10 CMS calls
-
-    **Views served from the page cache:** 0 CMS calls
+    **Render time:** 318ms
   </>}
   figurePrefix="good"
-  figure="The second view is cheaper than the first, which proves the cache is being read"
+  figure="The same telemetry with the content cache warm. Almost no render reaches the CMS, which proves the cache is being read"
 />
 
 ## Search is billed the same way
@@ -121,13 +121,13 @@ Measuring locally showed 20 to 40 calls per page view. A 404 page cost 20. A rep
 
 Fixing the cache read and the navigation refetch took a warm homepage from 23 calls to 10, and a warm content page to 7. Serving the page cache from nginx means repeat views of cached pages never reach the app at all, so they cost nothing.
 
-Over the months the fixes were rolled out, monthly calls fell from 30.7 million in June to 5.1 million in September. That is still above the 3 million quota, but it is a sixth of the peak.
+The page cache went live in production on 31 August. Monthly calls fell from 30.7 million in June to 5.1 million in September. That is still above the 3 million quota, but it is a sixth of the peak.
 
 <imageEmbed
-  alt="Bar chart of monthly CMS API calls from November to September, peaking at about 31 million in June and dropping to about 5 million in September"
+  alt="Bar chart of monthly CMS API calls from November to September, peaking at about 31 million in June, with a marker at 31 August where the page cache went live, and dropping to about 5 million in September"
   size="large"
   showBorder={true}
   figurePrefix="none"
-  figure="Monthly API calls from the CMS usage page. The last full month is a sixth of the June peak"
+  figure="Monthly API calls from the CMS usage page. The first full month after the page cache went live is a sixth of the June peak"
   src="/uploads/rules/cache-headless-cms-content/contentful-monthly-api-calls.png"
 />
