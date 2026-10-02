@@ -83,26 +83,22 @@ The only way to find these is to count calls. The second view of a page should c
 
 On the example site at the end of this rule, Application Insights showed the difference:
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Contentful calls per render:** 10.4
-
-    **Calls answered by the cache:** 0
-  </>}
+<imageEmbed
+  alt="Application Insights query result with the content cache off: 1,809 renders, 10.4 Contentful calls per render, 0 calls answered by the cache"
+  size="large"
+  showBorder={true}
   figurePrefix="bad"
   figure="Production telemetry with the content cache off. Every call still goes to the CMS"
+  src="/uploads/rules/cache-headless-cms-content/app-insights-cache-off.png"
 />
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Contentful calls per render:** 1.8
-
-    **Calls answered by the cache:** 8.8
-  </>}
+<imageEmbed
+  alt="Application Insights query result with the content cache on: 8,579 renders, 1.8 Contentful calls per render, 8.8 calls answered by the cache"
+  size="large"
+  showBorder={true}
   figurePrefix="good"
   figure="The same site with the content cache on. Most calls are answered by the cache, which proves it is being read"
+  src="/uploads/rules/cache-headless-cms-content/app-insights-cache-on.png"
 />
 
 ## Search is billed the same way
