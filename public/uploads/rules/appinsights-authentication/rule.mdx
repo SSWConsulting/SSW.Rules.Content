@@ -27,17 +27,23 @@ While this IK isn't a secret and is often included in client-side code, if it IK
 
 <endIntro />
 
-The IK **does not** grant users access to **read** your data. In order for an application or a user to read your telemetry data, they need to authenticate into Application Insights with Entra ID (used to be Azure AD).
+## Instrumentation Keys do not provide read access
 
-For client-side telemetry (e.g. Static Web Pages, Single Page Apps) the key will be visible in the browser via Dev Tools, but it is comforting to know that all the Application Insights telemetry is sent over HTTPS.
+The IK **does not** grant users access to **read** your data. To read telemetry data, an application or user must authenticate to Application Insights using **Microsoft Entra ID** (formerly Azure AD).
 
-To prevent unintended access, Local authentication (via Instrumentation Key or API Keys) can be **disabled** for authenticating data ingestion. Once disabled, a **stronger authentication** method known as Role **Based Access Control (RBAC)** can be used.
+For client-side telemetry, such as Static Web Apps or Single Page Applications, the key is visible in the browser via DevTools. However, Application Insights telemetry is sent over **HTTPS**.
 
-With Role-Based Access Control (RBAC) we can define the specific applications and users that have the ability to send telemetry data, making unauthorized data injection harder.
+## Use RBAC for stronger authentication
 
-This method also allows for more accurate Monitoring and Auditing because it allows us to log who accessed our resources and what actions they performed, which is crucial for security.
+To prevent unintended access, **local authentication** using Instrumentation Keys or API Keys can be disabled for data ingestion.
 
-In summary, disabling local authentication and relying on Entra ID RBAC for telemetry ingestion in Azure Application Insights allows for more robust security measures, ensuring that only authorized entities can submit telemetry data.
+Once disabled, **Role-Based Access Control (RBAC)** can be used to define exactly which applications and users are allowed to send telemetry, making unauthorized data injection harder.
+
+## Improve monitoring and auditing
+
+RBAC also improves monitoring and auditing because access and actions can be associated with authenticated identities.
+
+Disabling local authentication and using **Entra ID with RBAC** therefore provides stronger control over who can submit telemetry to Application Insights.
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="" src="/uploads/rules/appinsights-authentication/appinsights-disable-local-auth.png" />
 
