@@ -82,11 +82,11 @@ In a typical PHP app each request starts fresh, so an in-memory driver like Lara
 
 A shared store runs on its own server. Every instance reads and writes the same copy, so there is one place to invalidate and the cache survives your app's deploys. Redis is the usual choice, and ASP.NET Core's [output cache can use it as its store](/use-output-caching).
 
-Redis changed its licence in 2024. Older versions are BSD, and newer ones are source-available or AGPL. See [Redis licences](https://redis.io/legal/licenses/), and check which one applies if you host Redis yourself. The alternatives speak the same protocol, so most clients work unchanged:
+Redis moved from BSD to source-available licences in 2024, and [Redis 8 added AGPL as an option in 2025](https://redis.io/blog/agplv3/). See [Redis licences](https://redis.io/legal/licenses/), and check which one applies if you host Redis yourself. The alternatives:
 
-* **[Valkey](https://valkey.io/)** - a BSD-licensed fork of Redis, taken just before the licence change and run under the Linux Foundation
-* **[Garnet](https://microsoft.github.io/garnet/)** - an MIT-licensed store from Microsoft Research. It [does not support every Redis command](https://microsoft.github.io/garnet/docs/commands/api-compatibility), so check the ones you use
-* **[Memcached](https://memcached.org/)** - older and simpler. Its servers do not replicate or talk to each other
+* **[Valkey](https://valkey.io/)** - a BSD-licensed fork of Redis, taken just before the licence change and run under the Linux Foundation. Redis clients work with it
+* **[Garnet](https://microsoft.github.io/garnet/)** - an MIT-licensed store from Microsoft Research. It speaks the Redis protocol, so Redis clients work with it, but it [does not support every Redis command](https://microsoft.github.io/garnet/docs/commands/api-compatibility), so check the ones you use
+* **[Memcached](https://memcached.org/)** - older and simpler, with its own protocol, so it needs its own client. Its servers do not replicate or talk to each other
 
 ## Prefer a managed service to hosting your own
 
@@ -97,6 +97,8 @@ On Azure, use [Azure Managed Redis](https://learn.microsoft.com/en-us/azure/redi
 Hosting it yourself is the right call for local development and tests. [.NET Aspire](/aspire) and [Testcontainers](/use-testcontainers) start one for you, so local and CI runs use the same kind of store as production.
 
 Whichever you choose, give each environment its own instance. A shared one lets staging evict production's keys. Keep sessions and other data you cannot lose off the cache instance too, because [Redis suggests separate instances](https://redis.io/docs/latest/develop/reference/eviction/) for cache data and persistent keys.
+
+Weigh the cost against what the cache saves. Price one instance per environment on the [Azure Managed Redis pricing page](https://azure.microsoft.com/pricing/details/managed-redis/), then compare it with the database load, API calls and app instances the cache removes. The cheapest tier is often the one that fails under real traffic, as the example below shows.
 
 ## Size it for the working set and choose eviction on purpose
 
@@ -154,4 +156,4 @@ It never got warm, for two reasons.
 
 The content cache stays off until both are fixed: a bigger instance for each environment, and a Redis set that appends a key in one command without reading anything back.
 
-The same site had a near miss with the wrong store. Its redirect middleware called `Cache::tags()`, and the cache config fell back to the `file` driver whenever its setting was blank. One blank setting would have returned a 500 on every request. It was found before that happened. The fix dropped the tags and wrapped the cache read, so a broken cache now falls back to a database lookup.
+The same site also had a near miss. One blank cache setting would have switched it to the `file` driver, and its redirect middleware used tags, so every request would have returned a 500. It was found in time, and a broken cache now falls back to a database lookup.
