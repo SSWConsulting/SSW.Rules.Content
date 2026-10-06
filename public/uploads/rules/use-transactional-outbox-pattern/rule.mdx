@@ -1,0 +1,152 @@
+---
+type: rule
+title: Do you use the Transactional Outbox pattern to publish events reliably?
+seoDescription: >-
+  Saving data and publishing an event are two separate writes, so a crash
+  between them loses the event. The Transactional Outbox pattern stores domain
+  and integration events in the same database transaction as the data, then
+  publishes them afterwards with retries.
+guid: 3480cb2e-2fca-4873-9aa7-e4884d20941e
+uri: use-transactional-outbox-pattern
+created: 2026-10-02T00:00:00.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/when-to-use-domain-and-integration-events/rule.mdx
+  - rule: public/uploads/rules/use-mass-transit/rule.mdx
+  - rule: public/uploads/rules/modular-monolith-architecture/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+  - category: categories/software-engineering/rules-to-better-modular-monoliths.mdx
+archivedreason: null
+isArchived: false
+---
+
+An order is saved, and then the code publishes `OrderPlaced` so the customer gets a confirmation email and the warehouse gets a pick list. If the process crashes, is redeployed, or loses its connection to the message broker between those two steps, the order exists but nobody is ever told. Nothing fails loudly, so the first sign is a customer asking where their order is.
+
+Swapping the order of the two steps only changes the bug: the event is published, the save fails, and other parts of the system react to an order that does not exist.
+
+<endIntro />
+
+This is the dual-write problem. A database commit and a message publish are two separate writes, and no ordering of them makes both succeed or both fail.
+
+```csharp
+public async Task Handle(PlaceOrderCommand command, CancellationToken ct)
+{
+    var order = Order.Create(command.CustomerId, command.Items);
+    dbContext.Orders.Add(order);
+
+    await dbContext.SaveChangesAsync(ct);
+
+    // A crash, deploy or broker outage here loses the event for good
+    await publisher.Publish(new OrderPlacedEvent(order.Id), ct);
+}
+```
+
+❌ **Figure: Bad example - The save and the publish are separate writes, so a failure between them silently loses the event**
+
+## How the outbox fixes it
+
+The Transactional Outbox pattern turns two writes into one. The event is written as a row in an outbox table, in the same database transaction as the business data. Either both commit or neither does. A separate processor then reads the outbox, publishes each event, and marks it as sent. If publishing fails, the row is still there to retry.
+
+With EF Core, a `SaveChanges` interceptor does this without any handler having to remember it:
+
+```csharp
+public sealed class OutboxInterceptor : SaveChangesInterceptor
+{
+    public override ValueTask<InterceptionResult<int>> SavingChangesAsync(
+        DbContextEventData eventData,
+        InterceptionResult<int> result,
+        CancellationToken ct = default)
+    {
+        var dbContext = eventData.Context!;
+
+        var events = dbContext.ChangeTracker.Entries<IAggregateRoot>()
+            .SelectMany(entry => entry.Entity.PopDomainEvents())
+            .ToList();
+
+        // Added to the same change set, so the rows commit with the aggregates
+        dbContext.Set<OutboxMessage>().AddRange(events.Select(OutboxMessage.Create));
+
+        return base.SavingChangesAsync(eventData, result, ct);
+    }
+}
+```
+
+```csharp
+public async Task Handle(PlaceOrderCommand command, CancellationToken ct)
+{
+    // Order.Create raises OrderPlacedEvent on the aggregate
+    var order = Order.Create(command.CustomerId, command.Items);
+    dbContext.Orders.Add(order);
+
+    await dbContext.SaveChangesAsync(ct);
+}
+```
+
+✅ **Figure: Good example - The event is stored in the same transaction as the order, so it cannot be lost and cannot exist without the order**
+
+## Use it for domain events and integration events
+
+The outbox is often described as a tool for integration events only, because that is where a message broker is involved. Domain events have the same problem whenever a handler does something that must not be lost and should not run inside the original transaction: sending an email, calling another module, pushing a change to an external system.
+
+Routing every event through one outbox gives one delivery guarantee, one retry policy and one place to look when something did not happen. It also means handlers run after the commit, so they always see saved data.
+
+See [Do you know when to use Domain and Integration Events?](/when-to-use-domain-and-integration-events) for the difference between the two.
+
+## Build the processor so it survives failure
+
+Writing the outbox row is the easy half. Most outbox bugs live in the processor.
+
+### Dispatch straight after the commit, and poll as a safety net
+
+A processor that only polls every minute makes every event up to a minute late. Trigger processing of the new rows as soon as the transaction commits, and keep a scheduled sweep for anything the fast path missed, such as when the process stopped before it could dispatch.
+
+### Claim each message atomically in the database
+
+Two processors can pick up the same row: the fast path and the sweep, or two instances of the application. An in-memory lock does not help once there is more than one process. Claim the row with a conditional update and check the number of rows affected:
+
+```csharp
+var claimed = await dbContext.OutboxMessages
+    .Where(m => m.Id == message.Id && m.Status == OutboxStatus.Queued)
+    .ExecuteUpdateAsync(s => s
+        .SetProperty(m => m.Status, OutboxStatus.Processing)
+        .SetProperty(m => m.LeaseExpiresAt, now.AddMinutes(2)), ct);
+
+if (claimed == 0)
+{
+    // Another processor got there first
+    continue;
+}
+```
+
+✅ **Figure: Good example - The database decides who owns the message, so the claim holds across instances**
+
+### Give every claim a lease
+
+A processor that crashes after claiming a message leaves it stuck in `Processing` forever. Store an expiry time with the claim, and let the sweep reclaim rows whose lease has passed.
+
+### Make handlers idempotent
+
+The outbox guarantees at-least-once delivery, not exactly-once. A handler can succeed and the processor can crash before marking the row as sent, so the handler runs again. Handlers need to tolerate that: check whether the work is already done, use an upsert, or pass an idempotency key to the external system.
+
+### Retry with a limit, then alert
+
+Retry failed messages with an increasing delay and a maximum attempt count. Move messages that exhaust their retries to a `Failed` status, keep the last error on the row, and raise an alert. A failed message nobody looks at is the same lost event the outbox was meant to prevent.
+
+## Know what changes for the rest of the system
+
+* **Handlers run later** - A request returns before its events are handled. If the UI needs the outcome of a handler, it has to wait for it (for example by polling for readiness) instead of assuming it is done
+* **Event payloads must serialize** - Outbox rows are JSON, so events carry IDs and primitives, never the aggregate itself
+* **Bulk updates skip the outbox** - `ExecuteUpdate`, `ExecuteDelete` and raw SQL bypass `SaveChanges`, so they raise no events. Load the aggregate and call its domain method when the change needs to be announced
+* **Order is not guaranteed** - Retries and parallel processors can deliver events out of order. Handlers should not depend on arrival order
+* **The table grows** - Delete or archive sent rows on a schedule
+
+## Use a library where one fits
+
+Messaging libraries such as [MassTransit](https://masstransit.io/documentation/patterns/transactional-outbox), [Wolverine](https://wolverinefx.net/guide/durability/) and [NServiceBus](https://docs.particular.net/nservicebus/outbox/) ship a tested outbox. If the project already uses one, turn its outbox on before writing your own (see [Do you use MassTransit to build reliable distributed applications?](/use-mass-transit)).
+
+A hand-rolled outbox is reasonable when events are dispatched in-process, for example between the modules of a [modular monolith](/modular-monolith-architecture), and there is no broker to integrate with. It still needs every safeguard above.
