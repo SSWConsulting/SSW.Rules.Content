@@ -1,45 +1,71 @@
 ---
 type: rule
-archivedreason: null
 title: Do you sign AI-generated PRs and issues with the model name?
 uri: sign-ai-prs-and-issues
-guid: 31BF37DD-EE7F-4764-8CAB-3B33CEAEBBFE
-seoDescription: Add a short footer naming the AI model to every pull request and issue that Claude Code creates. Reviewers can then see which model wrote the work, and no private session link is exposed.
-created: 2026-10-05T00:00:00.000Z
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Tiago Araújo
     url: 'https://www.ssw.com.au/people/tiago-araujo'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
 related:
   - rule: public/uploads/rules/attribute-ai-assisted-commits-with-co-authors/rule.mdx
   - rule: public/uploads/rules/co-authored-commits/rule.mdx
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+guid: 31BF37DD-EE7F-4764-8CAB-3B33CEAEBBFE
+seoDescription: 'Add a short footer naming the AI model to every pull request and issue that Claude Code creates. Reviewers can then see which model wrote the work, and no private session link is exposed.'
+created: 2026-10-05T00:00:00.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-06T21:21:35.385Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+archivedreason: null
 ---
 
-When an AI agent like Claude Code opens a pull request or issue, reviewers should know straight away that AI wrote it and which model did. A generic "Generated with Claude Code" line doesn't say which model was used. Some tools also add a link to the agent session, which may expose private context.
+When an AI agent like Claude Code opens a pull request or issue, reviewers should know straight away that AI wrote it and which model did. 
+
+A generic "Generated with Claude Code" line doesn't say which model was used. Some tools also add a link to the agent session, which may expose private context.
 
 <endIntro />
 
-Use one short footer that names the model and never links the session.
+Use one short footer that names the model.
 
 <boxEmbed
   style="greybox"
   body={<>
-    ---
-
-    Changes made by Claude Opus 5.5 via Claude Code.
-
-    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+    &#123;&#123; PR CONTENT &#125;&#125;
+    
+    ***
+    
+    🤖 Generated with Claude Code
   </>}
   figurePrefix="bad"
-  figure="Three lines of footer that repeat themselves"
+  figure="No model information"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    ---
+    &#123;&#123; PR CONTENT &#125;&#125;
+    
+    ***
+    
+    Changes made by Claude Opus 5.5 via Claude Code.
+    
+    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+  </>}
+  figurePrefix="ok"
+  figure="Multiple lines of footer that repeat themselves"
+/>
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; PR CONTENT &#125;&#125;
+    
+    ***
+    
     🤖 Changes made by **Claude Opus 5.5** via [Claude Code](https://claude.com/claude-code)
   </>}
   figurePrefix="good"
@@ -47,14 +73,12 @@ Use one short footer that names the model and never links the session.
 />
 
 <boxEmbed
-  style="greybox"
+  style="tips"
   body={<>
-    ---
-
-    🤖 Created by **Claude Opus 5.5** via [Claude Code](https://claude.com/claude-code)
+    **Tip:** Use "Created by" instead of “Changes made” for Issues, which have no code changes.
   </>}
-  figurePrefix="good"
-  figure="Use &quot;Created by&quot; for issues that have no code changes"
+  figurePrefix="none"
+  figure=""
 />
 
 ## Why name the model?
