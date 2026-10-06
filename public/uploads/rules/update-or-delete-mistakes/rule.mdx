@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know you can update or delete chat messages with mistakes?
+title: 'Do you know you can update or delete chat messages with mistakes? '
 uri: update-or-delete-mistakes
 categories:
   - category: categories/communication/rules-to-better-im.mdx
@@ -9,9 +9,12 @@ authors:
     url: 'https://www.ssw.com.au/people/adam-cogan'
   - title: Alex Blum
     url: 'https://www.ssw.com.au/people/alex-blum'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
 related:
   - rule: public/uploads/rules/inform-others-about-chat-message-updates/rule.mdx
   - rule: public/uploads/rules/do-you-strike-through-completed-items/rule.mdx
+  - rule: public/uploads/rules/email-send-a-v2/rule.mdx
 redirects:
   - clarity-do-you-update-or-delete-message-mistakes
 guid: 957cbd4f-928f-45fa-9d81-b759f21dd178
@@ -19,35 +22,41 @@ seoDescription: 'Edit or delete chat messages with typos, and strike through wro
 created: 2018-12-11T19:07:31.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-10-02T05:12:18.811Z
+lastUpdated: 2026-10-06T04:24:02.745Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
-If you notice a mistake in a message you sent in IM (e.g. Microsoft Teams), fix it. Edit or delete small slips, but strike through anything someone may already have read or acted on.
+Fix mistakes in chat messages you've sent. Edit or delete small slips, and strike through anything someone may have already read.
 
 <endIntro />
 
 ## Typos and messages sent in error - Edit or delete
 
-If the mistake is minor, like a typo, edit the message. If you sent it to the wrong chat or by accident, delete it. Either way, the recipient doesn't have to read around the mistake.
+Edit a typo. If you sent a message to the wrong chat or by accident, delete it.
 
-<imageEmbed alt="Microsoft Teams message context menu showing the Edit, Delete, Mark as unread, and Immersive Reader options" size="large" showBorder={false} figurePrefix="none" figure="&#x22;Edit&#x22; and &#x22;Delete&#x22; are options after you send a message" src="/uploads/rules/update-or-delete-mistakes/teams-message-edit-delete-menu.png" />
+<imageEmbed alt="Microsoft Teams message context menu showing the Edit, Delete, Mark as unread, and Immersive Reader options" size="small" showBorder={true} figurePrefix="none" figure="&#x22;Edit&#x22; and &#x22;Delete&#x22; are options after you send a message" src="/uploads/rules/update-or-delete-mistakes/teams-message-edit-delete-menu.png" />
+
+<imageEmbed alt="Microsoft Teams message marked Edited that reads: The client demo is on Thursday at 3pm - the client asked to move it" size="large" showBorder={true} figurePrefix="ok" figure="The sender corrected the time from &#x22;2pm&#x22; to &#x22;3pm&#x22;, but those who read it can miss the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-overwritten-correction.png" />
 
 ## Wrong or outdated information - Strike it through
 
-If the message contains information that is wrong or no longer relevant, and someone may have already read it, strike through the original text and add the correction next to it. Don't delete it.
+If someone may have already read the wrong information, strike it through instead of overwriting or deleting it. Readers see what changed, and earlier replies still make sense. In Teams, use the formatting toolbar or [Markdown](https://support.microsoft.com/en-us/office/use-markdown-formatting-in-teams-4d10bd65-55e2-4b2d-a1f3-2bebdcd2c772).
 
-Readers who saw the original message might have already acted on it. If you overwrite the text, they have to compare it against their memory to work out what is different, and replies to the original may no longer make sense. A strikethrough lets them see the old and new text side by side, so they can follow the thread.
+If the whole message no longer applies, like a question you've since answered, strike it through and add a note such as "Found it in the wiki".
 
-<imageEmbed alt="Microsoft Teams message marked Edited that reads: The client demo is on Thursday at 3pm - the client asked to move it" size="large" showBorder={true} figurePrefix="ok" figure="The sender corrected the time, but those who read &#x22;2pm&#x22; can miss the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-overwritten-correction.png" />
+### Option A - Small changes: Correct it in the same message
+
+Strike through the wrong text and add the correction next to it.
 
 <imageEmbed alt="Microsoft Teams message marked Edited that reads: The client demo is on Thursday at 2pm (struck through) 3pm - the client asked to move it" size="large" showBorder={true} figurePrefix="good" figure="The sender struck through the old time and gave the reason for the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-strikethrough-correction.png" />
 
-The same applies when a whole message is no longer relevant, such as a question you have since answered yourself. Strike through the message and add a short note, like "Found it in the wiki", so people don't spend time replying.
+Edits don't notify anyone. If the correction changes the meaning, [let people know you updated the message](/inform-others-about-chat-message-updates).
 
-In Microsoft Teams, use the formatting options or the Markdown shortcut. See [Use Markdown formatting in Teams](https://support.microsoft.com/en-us/office/use-markdown-formatting-in-teams-4d10bd65-55e2-4b2d-a1f3-2bebdcd2c772).
+### Option B - Big changes: Post a v2 message
 
-Editing a message doesn't notify anyone, so after a correction that changes the meaning, [let people know you updated the message](/inform-others-about-chat-message-updates).
+If most of the message changes, strike through the original and post the correction as a new message starting with "(v2 - reason)". The new message notifies everyone.
+
+<imageEmbed alt="Microsoft Teams chat with an edited message that reads: The client demo is on Thursday at 2pm in Meeting Room 1. Bring the release notes (struck through), followed by a new message that reads: (v2 - client moved demo online) The client demo is on Friday at 10am on Teams. Bring the release notes and the test plan" size="large" showBorder={true} figurePrefix="good" figure="The sender struck through the original and posted a v2 with the reason for the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-strikethrough-v2.png" />
