@@ -17,7 +17,7 @@ seoDescription: 'Add a short footer naming the AI model to every pull request an
 created: 2026-10-05T00:00:00.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-10-06T21:17:00.939Z
+lastUpdated: 2026-10-06T21:20:46.515Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 archivedreason: null
@@ -34,9 +34,11 @@ Use one short footer that names the model.
 <boxEmbed
   style="greybox"
   body={<>
+    {{ PR CONTENT }}
+    
     ***
     
-    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+    🤖 Generated with Claude Code
   </>}
   figurePrefix="bad"
   figure="No model information"
@@ -45,6 +47,8 @@ Use one short footer that names the model.
 <boxEmbed
   style="greybox"
   body={<>
+    {{ PR CONTENT }}
+    
     ***
     
     Changes made by Claude Opus 5.5 via Claude Code.
@@ -58,6 +62,8 @@ Use one short footer that names the model.
 <boxEmbed
   style="greybox"
   body={<>
+    {{ PR CONTENT }}
+    
     ***
     
     🤖 Changes made by **Claude Opus 5.5** via [Claude Code](https://claude.com/claude-code)
