@@ -1,0 +1,75 @@
+---
+type: rule
+archivedreason: null
+title: Do you sign AI-generated PRs and issues with the model name?
+uri: sign-ai-prs-and-issues
+guid: 31BF37DD-EE7F-4764-8CAB-3B33CEAEBBFE
+seoDescription: Add a short footer naming the AI model to every pull request and issue that Claude Code creates. Reviewers can then see which model wrote the work, and no private session link is exposed.
+created: 2026-10-05T00:00:00.000Z
+authors:
+  - title: Tiago Araújo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/attribute-ai-assisted-commits-with-co-authors/rule.mdx
+  - rule: public/uploads/rules/co-authored-commits/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+---
+
+When an AI agent like Claude Code opens a pull request or issue, reviewers should know straight away that AI wrote it and which model did. A generic "Generated with Claude Code" line doesn't say which model was used. Some tools also add a link to the agent session, which may expose private context.
+
+<endIntro />
+
+Use one short footer that names the model and never links the session.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ---
+
+    Changes made by Claude Opus 5.5 via Claude Code.
+
+    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+  </>}
+  figurePrefix="bad"
+  figure="Three lines of footer that repeat themselves"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ---
+
+    🤖 Changes made by **Claude Opus 5.5** via [Claude Code](https://claude.com/claude-code)
+  </>}
+  figurePrefix="good"
+  figure="One line for a PR, with the model name in bold"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ---
+
+    🤖 Created by **Claude Opus 5.5** via [Claude Code](https://claude.com/claude-code)
+  </>}
+  figurePrefix="good"
+  figure="Use &quot;Created by&quot; for issues that have no code changes"
+/>
+
+## Why name the model?
+
+* **Review effort** - Reviewers can decide how closely to check the work
+* **Traceability** - If a model causes problems, you can find the PRs it wrote
+* **Transparency** - Clients and team members can see where AI was used
+
+## Automate it with a Claude Code skill
+
+Add a user-level skill at `~/.claude/skills/model-attribution/SKILL.md`. The skill tells Claude to add this footer every time it creates or edits a PR or issue.
+
+## Tips
+
+* Always use the model that actually did the work. Don't hard-code an old model name
+* Never include links to agent sessions or transcripts
+* Keep only one footer. When you edit a PR description, update the footer instead of adding another
+* Keep using `Co-Authored-By` trailers on commits. The footer is for PR and issue descriptions only
