@@ -21,7 +21,7 @@ Use the current schemas and scripts as the source of truth. Before introducing u
 * Explain why the practice matters. Link to product documentation for implementation details that will become stale.
 * Prefer concrete good/bad examples when they materially clarify the advice. Every image or example box needs a descriptive `figure`.
 * Use asterisks for unordered lists and specify a language on fenced code blocks.
-* Bold markdown must not contain whitespace immediately inside the `**` markers — the space leaks out as a literal `**` when rendered (a common Tina editing mistake). Write `**Note:**`, not `** Note: **`. `❌ ** Note: **` → `✅ **Note:**`. The `check-malformed-bold` validator enforces this.
+* Bold markdown must not contain whitespace immediately inside the `**` markers - the space leaks out as a literal `**` when rendered (a common Tina editing mistake). Write `**Note:**`, not `** Note: **`. `❌ ** Note: **` → `✅ **Note:**`. The `check-malformed-bold` validator enforces this.
 * Link to another rule as `[descriptive title](/[uri])`.
 * SSW URLs must use `https://www.ssw.com.au/...`; the URL linter flags the bare domain.
 * Put images in the rule folder, use descriptive kebab-case names and lowercase extensions, and embed them with `<imageEmbed>` rather than Markdown image syntax.
@@ -89,6 +89,18 @@ archivedreason: Merged into [Do you know how to decide what to test?](/rules/how
 ```
 
 Archive reasons use `/rules/[uri]`, unlike links in rule bodies. Do not put an absolute `https://www.ssw.com.au/rules/...` URL inside an archive-reason Markdown link: one rule-list rendering path can linkify the absolute URL twice.
+
+## Renaming a rule
+
+A rule's URL is its `uri`. TinaCMS locks `uri` on existing rules, so a rename is a git change. Keep the `guid` unchanged.
+
+1. Move the folder: `git mv public/uploads/rules/[old-uri] public/uploads/rules/[new-uri]`.
+2. Set `uri: [new-uri]` and add `[old-uri]` under `redirects`, keeping any existing entries.
+3. Replace every other reference to `[old-uri]`: category `index` entries, other rules' `related` paths, `/uploads/rules/[old-uri]/` image paths, and `/[old-uri]` rule links.
+4. The rename is complete when `git grep -n "[old-uri]"` matches only the new `redirects` entry. Then run the Validation commands for moved rules.
+5. In the pull request description, state that the redirect starts working only after the next SSW.Rules production deploy (daily at 06:00 UTC); until then the old URL serves the old page. Anyone with write access can deploy sooner with `gh workflow run scheduled-production-deploy.yml -R SSWConsulting/SSW.Rules`.
+
+The human walkthrough is the [How to Rename Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Rename-Rules) wiki page.
 
 ## Categories
 
