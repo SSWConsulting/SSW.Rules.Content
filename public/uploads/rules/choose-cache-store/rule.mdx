@@ -1,0 +1,161 @@
+---
+type: rule
+title: Do you choose the right cache store?
+seoDescription: Your cache store decides whether the cache survives scale-out, deploys and outages. Compare in-memory, Redis and its alternatives, file and database caches, and two-layer caching before you pick one.
+guid: ca6982bd-2de6-425c-9a3d-e761e28b291a
+uri: choose-cache-store
+created: 2026-10-01T00:00:00.000Z
+authors:
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+related:
+  - rule: public/uploads/rules/use-output-caching/rule.mdx
+  - rule: public/uploads/rules/choose-site-generation-strategy/rule.mdx
+  - rule: public/uploads/rules/use-nextjs-caching-system/rule.mdx
+  - rule: public/uploads/rules/aspire/rule.mdx
+  - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/infrastructure-health-checks/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-application-performance.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most teams never choose a cache store. The framework ships with a default, or the last project used Redis, so that is what goes in.
+
+The choice shows up later. The app scales to a second instance and the cache stops agreeing with itself. A deploy wipes it. It fills up and starts evicting. None of this throws an error. Pages just get slower, and nobody suspects the thing that was meant to make them fast.
+
+<endIntro />
+
+For most web apps the answer is a managed Redis-compatible store, with a short-lived in-process layer in front of it, and code that treats a cache failure as a miss. The rest of this rule is how to tell when that answer is wrong for you.
+
+Before you pick a store, check whether you need a data cache at all. If whole pages can be static or cached at the edge, that is cheaper than any store. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy) and [Do you use Output Caching for better API performance?](/use-output-caching).
+
+## Answer these questions first
+
+1. **How many instances serve requests?** A per-process cache gives each instance its own copy, and clearing one leaves the others stale
+2. **Must it survive a deploy?** An in-process cache starts empty every time. So does a file cache on a container's disk
+3. **How will you invalidate?** If a publish has to clear a group of entries, check that your framework's driver for that store supports tags or groups
+4. **How big is the working set?** Size for everything the cache will hold under real traffic, not for a quiet morning
+5. **How many round trips per request?** Every read and write to a shared store is a network call
+6. **What happens when it is down?** An outage should cost speed, not availability
+7. **What does it cost?** Count the monthly bill, one instance per environment, and the time to run it if you host it yourself
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Cache:** Redis, Basic tier for now. We can resize it later.
+  </>}
+  figurePrefix="bad"
+  figure="The store is named, but nothing says what happens when the app scales, the cache fills or the cache fails"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Cache:** Azure Managed Redis, one instance per environment, with high availability on in production. Every entry has an expiry, and an alert fires well before memory is full. An in-process layer holds the navigation for 30 seconds. Publishing clears the shared store by tag. A cache failure is logged and treated as a miss.
+  </>}
+  figurePrefix="good"
+  figure="Each of the 7 questions has an answer the team can check in production"
+/>
+
+## Compare the options
+
+| Store | Shared across instances | Survives an app deploy | Network call per read | Good for |
+| --- | --- | --- | --- | --- |
+| In-memory, per process | No | No | No | One instance, or the fast layer of a two-layer cache |
+| File on local disk | No | Only on a persistent disk | No | One server, or a page cache the web server serves directly |
+| Database | Yes | Yes | Yes | Small apps with light cache traffic |
+| Redis, Valkey or Garnet | Yes | Yes | Yes | The default shared cache |
+| Memcached | Yes | Yes | Yes | Simple key-value caching |
+| Two layers | Yes, through the shared layer | The shared layer does | Only on a local miss | High read volume across several instances |
+
+Tag or group invalidation is not in the table, because it depends on your framework's driver rather than the store. Laravel cannot tag entries on its `file` or `database` drivers. .NET's HybridCache tracks tags itself, so it supports them over any store.
+
+## Use in-memory only while you have one instance
+
+The fastest cache is in your own process, with no network call and nothing extra to host. It is the right choice while you run one instance. Once you scale out, each instance holds its own copy, a publish clears one of them, and the rest keep serving stale content.
+
+In a typical PHP app each request starts fresh, so an in-memory driver like Laravel's `array` forgets everything when the request ends. And watch the names: ASP.NET Core's distributed memory cache [is not actually distributed](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/distributed).
+
+## Use a shared store once you have more than one instance
+
+A shared store runs on its own server. Every instance reads and writes the same copy, so there is one place to invalidate and the cache survives your app's deploys. Redis is the usual choice, and ASP.NET Core's [output cache can use it as its store](/use-output-caching).
+
+Redis moved from BSD to source-available licences in 2024, and [Redis 8 added AGPL as an option in 2025](https://redis.io/blog/agplv3/). See [Redis licences](https://redis.io/legal/licenses/), and check which one applies if you host Redis yourself. The alternatives:
+
+* **[Valkey](https://valkey.io/)** - a BSD-licensed fork of Redis, taken just before the licence change and run under the Linux Foundation. Redis clients work with it
+* **[Garnet](https://microsoft.github.io/garnet/)** - an MIT-licensed store from Microsoft Research. It speaks the Redis protocol, so Redis clients work with it, but it [does not support every Redis command](https://microsoft.github.io/garnet/docs/commands/api-compatibility), so check the ones you use
+* **[Memcached](https://memcached.org/)** - older and simpler, with its own protocol, so it needs its own client. Its servers do not replicate or talk to each other
+
+## Prefer a managed service to hosting your own
+
+A managed service gives you patching, replication, failover, TLS and metrics. A Redis container next to your app is cheap, but you own all of that, and it goes down with the host.
+
+On Azure, use [Azure Managed Redis](https://learn.microsoft.com/en-us/azure/redis/overview). Azure Cache for Redis is [being retired](https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/retirement-faq), and [new customers can no longer create it](https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-whats-new). Azure Managed Redis lets you turn off high availability to save money, which is fine for dev and test but means downtime and data loss in production.
+
+Hosting it yourself is the right call for local development and tests. [.NET Aspire](/aspire) and [Testcontainers](/use-testcontainers) start one for you, so local and CI runs use the same kind of store as production.
+
+Whichever you choose, give each environment its own instance. A shared one lets staging evict production's keys. Keep sessions and other data you cannot lose off the cache instance too, because [Redis suggests separate instances](https://redis.io/docs/latest/develop/reference/eviction/) for cache data and persistent keys.
+
+Weigh the cost against what the cache saves. Price one instance per environment on the [Azure Managed Redis pricing page](https://azure.microsoft.com/pricing/details/managed-redis/), then compare it with the database load, API calls and app instances the cache removes. The cheapest tier is often the one that fails under real traffic, as the example below shows.
+
+## Size it for the working set and choose eviction on purpose
+
+Measure memory with the cache on, under real traffic, until it levels off. Then alert well before it is full, as Microsoft's [memory management guidance](https://learn.microsoft.com/en-us/azure/redis/best-practices-memory-management) recommends.
+
+Check the eviction policy. Azure Managed Redis defaults to `volatile-lru`, which only evicts keys that have an expiry. If your entries have none, a full cache [stops accepting writes and returns errors](https://redis.io/docs/latest/develop/reference/eviction/). Give every entry an expiry, or use `allkeys-lru` on an instance that only holds cache data.
+
+## Count the round trips
+
+A shared store costs a network round trip per operation. One is cheap. Two thousand on one page are not. See [Redis pipelining](https://redis.io/docs/latest/develop/using-commands/pipelining/) for why the round trip, not the server, sets the cost.
+
+* Read several keys in one call, or pipeline the commands
+* Do not read a growing list, append to it and write it back. Use a structure that appends in one command, such as a Redis set
+* Record operations per request as a metric. A faster client does not fix a high count
+
+## Put a fast local layer in front of the shared one
+
+Two layers give you the best of both. Most reads come from the instance's own memory. A cold instance or an evicted entry falls through to the shared store instead of to the database.
+
+In .NET, use [HybridCache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid). It keeps an in-process layer in front of any `IDistributedCache`, such as Redis, SQL Server or Postgres. It also makes concurrent callers for the same key wait for one fetch, so a cold key costs one database call per instance rather than one per request.
+
+Keep the local layer's expiry short. When HybridCache invalidates an entry, it clears the shared store and the current server's memory, but not the memory of your other servers. They keep serving their copy until it expires.
+
+## Know when file and database caches become a trap
+
+A file cache is fine on one server with a persistent disk. On containers, each instance has its own disk, and a deploy or restart usually wipes it. A self-hosted Next.js app keeps its cache [on each instance's local disk](https://nextjs.org/docs/app/guides/self-hosting) by default, and revalidating on one instance leaves the others serving stale pages. The fix is a custom cache handler backed by shared storage such as Redis. See [Do you know how to use NextJS caching system?](/use-nextjs-caching-system).
+
+A database cache puts the load back on the database it was meant to protect. Microsoft notes that a SQL Server cache [in the same database as your app data can reduce performance](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/distributed), and recommends a dedicated instance. Laravel's default cache store is the database, so check what your app is actually using.
+
+The worst trap is code that assumes a feature the store lacks. Laravel's `Cache::tags()` [is not supported](https://laravel.com/docs/cache#cache-tags) on the `file` or `database` drivers, and throws when you call it. Code written against Redis works until someone points it at another store.
+
+## Treat a cache outage as a miss
+
+A cache should never be the reason the app is down.
+
+* Wrap cache reads and writes so a failure falls through to the source
+* Set short timeouts, because a cache that hangs is worse than one that fails fast
+* Log and count failures separately from misses. Otherwise a broken cache looks like a cold one
+* Alert on it like any other dependency. See [Do you Health Check your infrastructure?](/infrastructure-health-checks)
+
+## Example: a cache that never warmed up
+
+A Laravel marketing site on Azure rendered its pages from a headless CMS. Alongside a page cache, it kept CMS responses in Redis, so a page that missed the page cache could still render without calling the CMS.
+
+Turned on in production, the Redis cache made the site 20 to 60 times slower, and it was turned off the same day. A second attempt with telemetry showed it worked once warm:
+
+* A warm render took 318ms against 1,294ms uncached
+* CMS calls per render dropped from 11.0 to 0.32
+
+It never got warm, for two reasons.
+
+**The store was too small and shared.** It was the smallest Azure Cache for Redis size: 250MB, one node, no SLA. Staging and production shared it. With the cache on, it reached 90% of capacity in 15 minutes and started evicting. The miss rate then stuck at 14%, because every eviction caused a rebuild that wrote more data.
+
+**Bookkeeping cost too many round trips.** To support invalidation, the cache read a stored list of keys for every entry and asset in a CMS response, appended one key and wrote the whole list back. A render that filled the cache cost 2,013 Redis operations and 3.7 seconds of Redis time. The team first suspected the Redis client and swapped it. Each operation measured about 1.83ms, an ordinary round trip over TLS, so the client was never the problem. The number of round trips was.
+
+The content cache stays off until both are fixed: a bigger instance for each environment, and a Redis set that appends a key in one command without reading anything back.
+
+The same site also had a near miss. One blank cache setting would have switched it to the `file` driver, and its redirect middleware used tags, so every request would have returned a 500. It was found in time, and a broken cache now falls back to a database lookup.
