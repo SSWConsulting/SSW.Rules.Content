@@ -17,6 +17,7 @@ related:
   - rule: public/uploads/rules/aspire/rule.mdx
   - rule: public/uploads/rules/use-testcontainers/rule.mdx
   - rule: public/uploads/rules/infrastructure-health-checks/rule.mdx
+  - rule: public/uploads/rules/cache-headless-cms-content/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-application-performance.mdx
 archivedreason: null
@@ -31,7 +32,7 @@ The choice shows up later. The app scales to a second instance and the cache sto
 
 For most web apps the answer is a managed Redis-compatible store, with a short-lived in-process layer in front of it, and code that treats a cache failure as a miss. The rest of this rule is how to tell when that answer is wrong for you.
 
-Before you pick a store, check whether you need a data cache at all. If whole pages can be static or cached at the edge, that is cheaper than any store. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy) and [Do you use Output Caching for better API performance?](/use-output-caching).
+Before you pick a store, check whether you need a data cache at all. If whole pages can be static or cached at the edge, that is cheaper than any store. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy) and [Do you use Output Caching for better API performance?](/use-output-caching). If the data comes from a headless CMS that bills by the API call, see [Do you cache headless CMS content to stay inside your API quota?](/cache-headless-cms-content).
 
 ## Answer these questions first
 

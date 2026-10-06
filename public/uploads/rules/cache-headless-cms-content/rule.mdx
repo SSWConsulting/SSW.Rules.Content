@@ -17,6 +17,7 @@ related:
   - rule: public/uploads/rules/analyse-your-web-application-usage-with-application-insights/rule.mdx
   - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
   - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
+  - rule: public/uploads/rules/choose-cache-store/rule.mdx
 categories:
   - category: categories/websites-and-cms/rules-to-better-contentful.mdx
 archivedreason: null
@@ -66,7 +67,7 @@ Check the daily total against the CMS usage page, because that is what you are b
 ## Cache in layers
 
 1. **Serve whole pages from a cache.** Static generation, incremental regeneration, [output caching](/use-output-caching) or a [CDN](/use-a-cdn) in front of the site all work. A repeat view served this way makes no CMS calls at all. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy), and for Next.js, [Do you know how to use NextJS caching system?](/use-nextjs-caching-system)
-2. **Cache shared content in the app.** Navigation, footer and site settings appear on every page. Fetch them once and reuse them from a cache that survives between requests and across servers, such as Redis
+2. **Cache shared content in the app.** Navigation, footer and site settings appear on every page. Fetch them once and reuse them from a cache that survives between requests and across servers, such as Redis. See [Do you choose the right cache store?](/choose-cache-store)
 3. **Clear the cache when content is published.** Use [Contentful webhooks](https://www.contentful.com/developers/docs/extensibility/webhooks/overview/) to clear the pages that changed. A short expiry that refetches "just in case" spends calls on content that has not changed
 
 ## Prove the cache is being read
