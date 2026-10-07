@@ -45,15 +45,15 @@ RBAC also improves monitoring and auditing because access and actions can be ass
 
 Disabling local authentication and using **Entra ID with RBAC** therefore provides stronger control over who can submit telemetry to Application Insights.
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="" src="/uploads/rules/appinsights-authentication/appinsights-disable-local-auth.png" />
+<imageEmbed alt="Application Insights Properties page with Local Authentication set to Disabled" size="large" showBorder={true} figurePrefix="good" figure="Disable local authentication to enforce Entra ID authentication for telemetry ingestion" src="/uploads/rules/appinsights-authentication/appinsights-disable-local-auth.png" />
 
 ## Benefits and Limitations
 
-| ✅ Pros                                                                    | ❌ Cons                                                                             |
-| :---------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| No spam telemetry                                                     | Does not work for Client-Side applications                                     |
-| Perfect for Server-side applications                                  | 2 Application Insights instances to collect Client and Server-side telemetry |
-| Accurate telemetry - Exact applications, servers, services are listed | Custom Queries and Dashboards to combine Client and Server-side telemetry      |
+| ✅ Pros | ❌ Cons |
+| :-- | :-- |
+| No spam telemetry | Does not work for Client-Side applications |
+| Perfect for Server-side applications | 2 Application Insights instances to collect Client and Server-side telemetry |
+| Accurate telemetry - Exact applications, servers, services are listed | Custom Queries and Dashboards to combine Client and Server-side telemetry |
 
 ## Securing Application Insights
 
@@ -117,23 +117,23 @@ There are a couple of Azure quirks that make this less than trivial, but it is a
 
 1. Get the Role Definition using the Azure CLI:
 
-```ps1
-az role definition list --name "Monitoring Metrics Publisher" --output json --query '[].{description:description, name:name, roleName:roleName}'
-```
+   ```ps1
+   az role definition list --name "Monitoring Metrics Publisher" --output json --query '[].{description:description, name:name, roleName:roleName}'
+   ```
 
-Output:
+   Output:
 
-```json
-[
-  {
-    "description": "Enables publishing metrics against Azure resources",
-    "name": "3913510d-42f4-4e42-8a64-420c390055eb",
-    "roleName": "Monitoring Metrics Publisher"
-  }
-]
-```
+   ```json
+   [
+     {
+       "description": "Enables publishing metrics against Azure resources",
+       "name": "3913510d-42f4-4e42-8a64-420c390055eb",
+       "roleName": "Monitoring Metrics Publisher"
+     }
+   ]
+   ```
 
-The `name` field is a `GUID` that you use in the Bicep code to assign a role to an entity.
+   The `name` field is a `GUID` that you use in the Bicep code to assign a role to an entity.
 
 1. Add the following Bicep code to assign the `Monitoring Metrics Publisher` role to an Azure AppService:
 
@@ -158,7 +158,7 @@ resource monitoringMetricsPublisherRoleAssignment 'Microsoft.Authorization/roleA
 
 **✅ Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep**
 
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService" src="/uploads/rules/appinsights-authentication/appinsights-assigned-role.png" />
+<imageEmbed alt="Application Insights Access control (IAM) page listing the AppService with the Monitoring Metrics Publisher role" size="large" showBorder={true} figurePrefix="none" figure="AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService" src="/uploads/rules/appinsights-authentication/appinsights-assigned-role.png" />
 
 ### Authenticating with Application Insights
 
@@ -207,5 +207,3 @@ builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 **✅ Figure: Using Managed Identities when authenticating with Application Insights**
 
 Once the application starts up, authenticates with Application Insights, then you can start observing telemetry in the Application Insights resource or Application Dashboards.
-
-Happy monitoring!
