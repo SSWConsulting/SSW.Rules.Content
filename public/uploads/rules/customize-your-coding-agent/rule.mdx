@@ -18,7 +18,7 @@ seoDescription: 'Put your model, context and usage limits on screen, use hooks t
 created: 2026-10-07T23:18:13.000Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-10-08T01:50:06.123Z
+lastUpdated: 2026-10-08T02:01:43.454Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
@@ -60,23 +60,9 @@ In Claude Code, the status line is a shell script that receives the session as J
 
 A good status line will help you keep track of your session's context, cost, model, limits and more!
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="ok"
-  figure="Status Line Shows Some Cool Things"
-  src="/uploads/rules/customize-your-coding-agent/status-line-ok.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="Status Line Shows Some Cool Things" src="/uploads/rules/customize-your-coding-agent/status-line-ok.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Better Status Line Shows Every Usage Window With Its Reset Time, Plus Your Branch and PR"
-  src="/uploads/rules/customize-your-coding-agent/status-line-better.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Better Status Line Shows Every Usage Window With Its Reset Time, Plus Your Branch and PR" src="/uploads/rules/customize-your-coding-agent/status-line-better.png" />
 
 Now the numbers drive the decision:
 
@@ -85,39 +71,6 @@ Now the numbers drive the decision:
 | 7-day usage low, 5-hour window fresh       | Go nuts. Parallel subagents, the big refactor, the premium model                          |
 | 5-hour window above 80%, resets in an hour | Finish the current task, don't start the next big one                                     |
 | Context above 70%                          | Consider `/compact` or `/clear`, as quality may drop and every prompt gets more expensive |
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    You start a cross-cutting refactor, and the agent stops with "You've hit your weekly limit". The branch is half-migrated until your limit resets.
-  </>}
-  figurePrefix="bad"
-  figure="You found out about the limit when you hit it"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Your status line shows 7d 83%. You switch to a cheaper model and work on a smaller task that can be completed and reviewed straight away. Leave the big refactor for Monday morning when the window resets.
-  </>}
-  figurePrefix="good"
-  figure="The limit was on screen, so you paced the work around it"
-/>
-
-A few commands worth knowing even without a status line:
-
-* `/usage` - plan usage bars, plus a breakdown of which skills, subagents, plugins and MCP servers are eating your budget
-* `/context` - what is actually in the context window right now
-* `/model` - which models your plan gives you. Check it. Plenty of developers are on the default model without knowing a stronger one is a keystroke away
-
-The other agents expose the same numbers, with less freedom in how you show them:
-
-| Agent              | How you get usage on screen                                                                                    | Limits                                                                                                                    |
-| ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Claude Code        | `/statusline` runs any script you like, with model, context, cost and both rate-limit windows on stdin         | None worth noting                                                                                                         |
-| OpenAI Codex       | `/statusline` picks from a fixed list of items, including `context-used`, `five-hour-limit` and `weekly-limit` | No custom scripts. Shows remaining %, no reset times                                                                      |
-| GitHub Copilot CLI | `/statusline` runs a custom command, same shape as Claude's                                                    | Its stdin payload isn't documented, and community status lines query quota themselves rather than reading it from Copilot |
-| Cursor CLI         | `statusLine` command in `cli-config.json`, same shape as Claude's                                              | Replaces the native footer rather than adding to it, and carries no plan usage                                            |
 
 ### Status line or mod?
 
