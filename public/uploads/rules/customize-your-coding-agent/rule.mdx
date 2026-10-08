@@ -88,17 +88,17 @@ Now the numbers drive the decision:
 
 ### Status line or mod?
 
-You may want your usage stats in the status line itself. Mods can't draw there: the status line's row isn't one of the components a mod can render, so a mod shows usage as a band above the prompt, a pinned line of its own under the prompt, or a toast. For the status line proper, use the `/statusline` script, or a tool like [goccc](https://github.com/backstabslash/goccc), which formats the same stdin data and adds cost history from your session logs. The two coexist, and the data is identical: a mod reads it from `$.session.usage()` and the `session.measure` event, the script reads it from stdin.
+You may want your usage stats in the status line itself. Mods can't draw there: the status line's row isn't one of the components a mod can render, so a mod shows usage as a band above the prompt, a pinned line of its own under the prompt, or a toast. For the status line proper, use the `/statusline` script, or a tool like [goccc](https://github.com/backstabslash/goccc), which formats the same stdin data and adds cost history from your session logs. The 2 coexist, and the data is identical: a mod reads it from `$.session.usage()` and the `session.measure` event, the script reads it from stdin.
 
 ## How do you write a hook?
 
-Every major agent has hooks, and they share one shape. Whatever the agent, a hook has five parts:
+Every major agent has hooks, and they share one shape. Whatever the agent, a hook has 5 parts:
 
-* **Trigger event** - when it runs: before a tool call, after an edit, at session start
-* **stdin JSON** - what the agent hands you: the tool name and its arguments, the session, the working directory
-* **Execution logic** - the one check or action the hook exists for
+* **Trigger event** - When it runs: before a tool call, after an edit, at session start
+* **stdin JSON** - What the agent hands you: the tool name and its arguments, the session, the working directory
+* **Execution logic** - The one check or action the hook exists for
 * **Deterministic exit code** - 0 lets the action through, 2 blocks it. There is no "maybe"
-* **stderr** - the message the agent reads when you block it, so it can do something else instead
+* **stderr** - The message the agent reads when you block it, so it can do something else instead
 
 <boxEmbed
   style="greybox"
@@ -109,11 +109,11 @@ Every major agent has hooks, and they share one shape. Whatever the agent, a hoo
   figure="The rule in AGENTS.md that the agent ignored once a week now runs on every command"
 />
 
-Three hooks worth having on every project:
+3 hooks worth having on every project:
 
-* **Block the command you never want run** - force pushes, `rm -rf`, anything touching a production connection string
-* **Run the formatter and tests after every edit** - a `PostToolUse` hook on `Edit|Write` so the agent sees failures immediately instead of you seeing them in the PR
-* **Inject context at session start** - a `SessionStart` hook that returns the current branch, the ticket it belongs to and the sprint goal, so you stop pasting the same three lines into every prompt
+* **Block the command you never want run** - Force pushes, `rm -rf`, anything touching a production connection string
+* **Run the formatter and tests after every edit** - A `PostToolUse` hook on `Edit|Write` so the agent sees failures immediately instead of you seeing them in the PR
+* **Inject context at session start** - A `SessionStart` hook that returns the current branch, the ticket it belongs to and the sprint goal, so you stop pasting the same 3 lines into every prompt
 
 Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `npm test` to `npm test | grep -A5 FAIL` turns a 10,000-line log into a few hundred tokens.
 
@@ -137,13 +137,13 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 
 Hooks can block and rewrite, but they can't add a feature or draw on the screen. Mods can, because they open up the Claude Code harness. A mod is a TypeScript function that Claude Code calls from inside its own process, on the same events hooks see, plus every part of the interface it draws. Your code can run before an event, after it, or instead of it. The built-in `/diff` command is now itself a mod.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A /prs mod opens a pane listing every open PR with its CI, review and conflict status, without leaving Claude Code" src="/uploads/rules/customize-your-coding-agent/good-mod.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A `/prs` mod opens a panel on the right-hand side, listing every open PR with its CI, review and conflict status. All without leaving Claude Code" src="/uploads/rules/customize-your-coding-agent/good-mod.png" />
 
-Think of a mod as a feature you add to the agent yourself. Hooks act on what the agent does. Mods change the agent itself. That makes them useful for three kinds of problem:
+Think of a mod as a feature you add to the agent yourself. Hooks act on what the agent does. Mods change the agent itself. That makes them useful for 3 kinds of problem:
 
-* **Show what you need to see** - your open PRs and their CI status, a chart of how full the context window is, a warning before you hit a usage limit
-* **Add a step the agent doesn't have** - hold a risky command such as a force push and show what it would change before you confirm
-* **Fit the agent to how your team works** - your own commands, your review flow, your naming
+* **Show what you need to see** - Your open PRs and their CI status, a chart of how full the context window is, a warning before you hit a usage limit
+* **Add a step the agent doesn't have** - Hold a risky command such as a force push and show what it would change before you confirm
+* **Fit the agent to how your team works** - Your own commands, your review flow, your naming
 
 You don't need to write them by hand. Describe the mod you want and the agent writes it, installs it and reloads it in your session. Mods ship inside plugins, so one developer's mod can be shared with the whole team.
 
@@ -151,9 +151,9 @@ You don't need to write them by hand. Describe the mod you want and the agent wr
 
 A hook that can rewrite a tool call or auto-approve a permission is exactly what a malicious hook would do. Anthropic's own wording on mods: they "aren't sandboxed, and you should only install mods from sources you trust, the same way you'd install any code on your computer." One community scanner's September 2026 snapshot of 72 published mods found that 30 spawned processes, 14 reached the network, and about a third saw every prompt or tool call.
 
-* **Read before you install** - a mod or hook from a marketplace is code running as you. Apply the same checks as [Do you verify the safety of AI skills before using them?](/verify-ai-skill-safety)
+* **Read before you install** - A mod or hook from a marketplace is code running as you. Apply the same checks as [Do you verify the safety of AI skills before using them?](/verify-ai-skill-safety)
 * **Prefer org-level enforcement over asking developers to behave** - Claude's `sec-default` mod on Team and Enterprise plans, Copilot's policy directory and Codex's `requirements.toml` all load ahead of anything a developer configures in a project
-* **Put each customization in the right place** - personal ones in `CLAUDE.local.md` or `settings.local.json` (see [Do you keep personal Claude Code overrides in CLAUDE.local.md?](/claude-local-md)), team ones in the repo, org ones in managed settings (see [Do you centralize your team's AI workflows?](/centralize-ai-workflows))
+* **Put each customization in the right place** - Personal ones in `CLAUDE.local.md` or `settings.local.json` (see [Do you keep personal Claude Code overrides in CLAUDE.local.md?](/claude-local-md)), team ones in the repo, org ones in managed settings (see [Do you centralize your team's AI workflows?](/centralize-ai-workflows))
 
 ***
 
