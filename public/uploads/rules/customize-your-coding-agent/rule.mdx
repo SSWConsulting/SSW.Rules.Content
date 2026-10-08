@@ -20,35 +20,37 @@ seoDescription: 'Put your model, context and usage limits on screen, use hooks t
 created: 2026-10-07T23:18:13.000Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-10-08T02:04:52.110Z
-lastUpdatedBy: Josh Berman
-lastUpdatedByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-10-08T18:25:09.587Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
-Until recently, the only ways to change how a coding agent behaved were its instructions file (AGENTS.md, CLAUDE.md, etc) and, on most agents, shell-command hooks. If you wanted the agent to display additional information, or to stop doing something it kept doing, you waited for the vendor to ship it.
+Until recently, the only ways to change how a coding agent behaved were its instructions file (`AGENTS.md`, `CLAUDE.md`, etc) and, on most agents, shell-command hooks. If you wanted the agent to display additional information, or to stop doing something it kept doing, you waited for the vendor to ship it.
 
 That has changed. Every major agent now has lifecycle hooks (**Claude Code**, **Codex**, **GitHub Copilot**, **Gemini CLI** and **Cursor**), Claude Code has a scriptable status line, and in October 2026 Anthropic shipped **mods**, TypeScript functions that run inside Claude Code and can rewrite what it does or draw new UI.
 
-Most developers still run their agent stock. That is why people find out about their weekly limit when they hit it, don't know which models their plan includes, and keep re-typing the one rule in AGENTS.md the agent ignores. So what can you actually customize, and how far should you go?
+<endIntro />
+
+Most developers still run their agent stock. That is why people find out about their weekly limit when they hit it, don't know which models their plan includes, and keep re-typing the one rule in `AGENTS.md` the agent ignores. 
+
+So what can you actually customize, and how far should you go?
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=LDn7rQKIFro" description="Video: Claude Code Just Dropped MODS (10 min)" />
 
-<endIntro />
-
 ## What can you customize?
 
-There are four layers. Each one up is more powerful and more work, so start at the bottom and stop as soon as the problem is solved.
+There are 4 layers. Each one up is more powerful and more work, so start at the bottom and stop as soon as the problem is solved.
 
 | Layer            | What it is                                                                                        | Enforced?                                    | Reach for it when                                     |
 | ---------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------- |
-| **Instructions** | AGENTS.md, CLAUDE.md, scoped rule files                                                           | No - the model reads it and usually complies | Conventions, context, preferences, and agent steering |
+| **Instructions** | `AGENTS.md`, `CLAUDE.md `scoped rule files                                                        | No - the model reads it and usually complies | Conventions, context, preferences, and agent steering |
 | **Skills**       | Reusable prompts and scripts the agent loads on demand                                            | No                                           | Repeatable workflows - "do a PR review our way"       |
-| **Hooks**        | Scripts or code that run at lifecycle points: before a tool call, after an edit, at session start | **Yes** - the agent can't skip them          | "Every time X, do Y" rules the agent keeps forgetting |
-| **Mods**         | Code that runs inside the agent and can rewrite events or draw UI                                 | **Yes**                                      | The agent needs a feature it doesn't have             |
+| **Hooks**        | Scripts or code that run at lifecycle points: before a tool call, after an edit, at session start | Yes - the agent can't skip them              | "Every time X, do Y" rules the agent keeps forgetting |
+| **Mods**         | Code that runs inside the agent and can rewrite events or draw UI                                 | Yes                                          | The agent needs a feature it doesn't have             |
 
-If a rule in AGENTS.md keeps getting ignored, it belongs in a hook. Instructions are advisory. Hooks run every time.
+If a rule in `AGENTS.md` keeps getting ignored, it belongs in a hook. Instructions are advisory. Hooks run every time.
 
 See [Do you use skills to standardize AI workflows?](/ai-agents-with-skills) for the skills layer.
 
@@ -69,14 +71,13 @@ A good status line will help you keep track of your session's context, cost, mod
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Better Status Line Shows Every Usage Window With Its Reset Time, Plus Your Branch and PR" src="/uploads/rules/customize-your-coding-agent/status-line-better.png" />
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
     **Tip:** Sub agents can also have their own status lines too! This is especially useful if you're using swarm workflows or other delegation-based orchestration.
   </>}
   figurePrefix="none"
   figure=""
 />
-
 
 Now the numbers drive the decision:
 
@@ -88,7 +89,9 @@ Now the numbers drive the decision:
 
 ### Status line or mod?
 
-You may want your usage stats in the status line itself. Mods can't draw there: the status line's row isn't one of the components a mod can render, so a mod shows usage as a band above the prompt, a pinned line of its own under the prompt, or a toast. For the status line proper, use the `/statusline` script, or a tool like [goccc](https://github.com/backstabslash/goccc), which formats the same stdin data and adds cost history from your session logs. The 2 coexist, and the data is identical: a mod reads it from `$.session.usage()` and the `session.measure` event, the script reads it from stdin.
+You may want your usage stats in the status line itself. Mods can't draw there: the status line's row isn't one of the components a mod can render, so a mod shows usage as a band above the prompt, a pinned line of its own under the prompt, or a toast. 
+
+For the status line proper, use the `/statusline` script, or a tool like [goccc](https://github.com/backstabslash/goccc), which formats the same stdin data and adds cost history from your session logs. The 2 coexist, and the data is identical: a mod reads it from `$.session.usage()` and the `session.measure` event, the script reads it from stdin.
 
 ## How do you write a hook?
 
@@ -127,7 +130,9 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 <boxEmbed
   style="warning"
   body={<>
-    **Warning:** Hooks in Copilot's policy directory (`C:\ProgramData\GitHub\Copilot\policy.d` or `/etc/github-copilot/policy.d`) run before anything a developer configures, so a project hook can't undo them. Gemini's `BeforeModel` hook goes further than the others: it can rewrite or replace the request to the model itself.
+    **Warning:** Hooks in Copilot's policy directory (`C:\ProgramData\GitHub\Copilot\policy.d` or `/etc/github-copilot/policy.d`) run before anything a developer configures, so a project hook can't undo them.
+    
+    Gemini's `BeforeModel` hook goes further than the others: it can rewrite or replace the request to the model itself.
   </>}
   figurePrefix="none"
   figure=""
@@ -135,9 +140,11 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 
 ## When do you need a mod?
 
-Hooks can block and rewrite, but they can't add a feature or draw on the screen. Mods can, because they open up the Claude Code harness. A mod is a TypeScript function that Claude Code calls from inside its own process, on the same events hooks see, plus every part of the interface it draws. Your code can run before an event, after it, or instead of it. The built-in `/diff` command is now itself a mod.
+Hooks can block and rewrite, but they can't add a feature or draw on the screen. Mods can, because they open up the Claude Code harness. A mod is a TypeScript function that Claude Code calls from inside its own process, on the same events hooks see, plus every part of the interface it draws. 
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A `/prs` mod opens a panel on the right-hand side, listing every open PR with its CI, review and conflict status. All without leaving Claude Code" src="/uploads/rules/customize-your-coding-agent/good-mod.png" />
+Your code can run before an event, after it, or instead of it. The built-in `/diff` command is now itself a mod.
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="A `/prs` mod opens a panel on the right-hand side, listing every open PR with its CI, review and conflict status. All without leaving Claude Code" src="/uploads/rules/customize-your-coding-agent/good-mod.png" />
 
 Think of a mod as a feature you add to the agent yourself. Hooks act on what the agent does. Mods change the agent itself. That makes them useful for 3 kinds of problem:
 
@@ -149,7 +156,9 @@ You don't need to write them by hand. Describe the mod you want and the agent wr
 
 ## Why treat hooks and mods as installed code?
 
-A hook that can rewrite a tool call or auto-approve a permission is exactly what a malicious hook would do. Anthropic's own wording on mods: they "aren't sandboxed, and you should only install mods from sources you trust, the same way you'd install any code on your computer." One community scanner's September 2026 snapshot of 72 published mods found that 30 spawned processes, 14 reached the network, and about a third saw every prompt or tool call.
+A hook that can rewrite a tool call or auto-approve a permission is exactly what a malicious hook would do. Anthropic's own wording on mods: they "aren't sandboxed, and you should only install mods from sources you trust, the same way you'd install any code on your computer." 
+
+One community scanner's September 2026 snapshot of 72 published mods found that 30 spawned processes, 14 reached the network, and about a third saw every prompt or tool call.
 
 * **Read before you install** - A mod or hook from a marketplace is code running as you. Apply the same checks as [Do you verify the safety of AI skills before using them?](/verify-ai-skill-safety)
 * **Prefer org-level enforcement over asking developers to behave** - Claude's `sec-default` mod on Team and Enterprise plans, Copilot's policy directory and Codex's `requirements.toml` all load ahead of anything a developer configures in a project
