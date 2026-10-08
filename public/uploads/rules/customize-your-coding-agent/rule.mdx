@@ -1,23 +1,28 @@
 ---
 type: rule
 title: Do you customize your coding agent?
-seoDescription: Put your model, context and usage limits on screen, use hooks to enforce the rules your agent keeps ignoring, and reach for mods when you need to change the agent itself. Covers Claude Code, Codex, GitHub Copilot, Gemini CLI and Cursor.
-guid: 41c49e0f-6762-4ea4-877c-a887e9089ad7
 uri: customize-your-coding-agent
-created: 2026-10-07T23:18:13.000Z
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
+    url: 'https://www.ssw.com.au/people/luke-cook'
 related:
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
   - rule: public/uploads/rules/claude-local-md/rule.mdx
   - rule: public/uploads/rules/clear-ai-agent-context/rule.mdx
   - rule: public/uploads/rules/verify-ai-skill-safety/rule.mdx
   - rule: public/uploads/rules/centralize-ai-workflows/rule.mdx
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-archivedreason: null
+guid: 41c49e0f-6762-4ea4-877c-a887e9089ad7
+seoDescription: 'Put your model, context and usage limits on screen, use hooks to enforce the rules your agent keeps ignoring, and reach for mods when you need to change the agent itself. Covers Claude Code, Codex, GitHub Copilot, Gemini CLI and Cursor.'
+created: 2026-10-07T23:18:13.000Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-10-08T00:52:40.615Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
+archivedreason: null
 ---
 
 Until recently, the only ways to change how a coding agent behaved were its instructions file (AGENTS.md, CLAUDE.md, etc) and, on most agents, shell-command hooks. If you wanted the agent to display additional information, or to stop doing something it kept doing, you waited for the vendor to ship it.
@@ -48,12 +53,12 @@ The fields behind it are `model.display_name`, `context_window.used_percentage`,
 
 Now the numbers drive the decision:
 
-| What you see | What to do |
-| --- | --- |
-| 7-day usage low, 5-hour window fresh | Go nuts. Parallel subagents, the big refactor, the premium model |
-| 5-hour window above 80%, resets in an hour | Finish the current task, don't start the next big one |
-| 7-day usage above 80% and it's Wednesday | Drop to a smaller model, tighten scope, `/clear` between tasks, lower `/effort` |
-| Context above 70% | Consider `/compact` or `/clear`, as quality may drop and every prompt gets more expensive |
+| What you see                               | What to do                                                                                |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| 7-day usage low, 5-hour window fresh       | Go nuts. Parallel subagents, the big refactor, the premium model                          |
+| 5-hour window above 80%, resets in an hour | Finish the current task, don't start the next big one                                     |
+| 7-day usage above 80% and it's Wednesday   | Drop to a smaller model, tighten scope, `/clear` between tasks, lower `/effort`           |
+| Context above 70%                          | Consider `/compact` or `/clear`, as quality may drop and every prompt gets more expensive |
 
 <boxEmbed
   style="greybox"
@@ -82,13 +87,13 @@ A few commands worth knowing even without a status line:
 
 The other agents expose the same numbers, with less freedom in how you show them:
 
-| Agent | How you get usage on screen | Limits |
-| --- | --- | --- |
-| Claude Code | `/statusline` runs any script you like, with model, context, cost and both rate-limit windows on stdin | None worth noting |
-| OpenAI Codex | `/statusline` picks from a fixed list of items, including `context-used`, `five-hour-limit` and `weekly-limit` | No custom scripts. Shows remaining %, no reset times |
-| GitHub Copilot CLI | `/statusline` runs a custom command, same shape as Claude's | Its stdin payload isn't documented, and community status lines query quota themselves rather than reading it from Copilot |
-| Cursor CLI | `statusLine` command in `cli-config.json`, same shape as Claude's | Replaces the native footer rather than adding to it, and carries no plan usage |
-| Gemini CLI | `ui.footer` settings toggle model and context % | Built-in items only, no usage windows |
+| Agent              | How you get usage on screen                                                                                    | Limits                                                                                                                    |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Claude Code        | `/statusline` runs any script you like, with model, context, cost and both rate-limit windows on stdin         | None worth noting                                                                                                         |
+| OpenAI Codex       | `/statusline` picks from a fixed list of items, including `context-used`, `five-hour-limit` and `weekly-limit` | No custom scripts. Shows remaining %, no reset times                                                                      |
+| GitHub Copilot CLI | `/statusline` runs a custom command, same shape as Claude's                                                    | Its stdin payload isn't documented, and community status lines query quota themselves rather than reading it from Copilot |
+| Cursor CLI         | `statusLine` command in `cli-config.json`, same shape as Claude's                                              | Replaces the native footer rather than adding to it, and carries no plan usage                                            |
+| Gemini CLI         | `ui.footer` settings toggle model and context %                                                                | Built-in items only, no usage windows                                                                                     |
 
 ### Status line or mod?
 
@@ -98,12 +103,12 @@ You may want your usage stats in the status line itself. Mods can't draw there: 
 
 There are four ways to change what an agent does. Each one up is more powerful and more work. Start at the bottom.
 
-| Layer | What it is | Enforced? | Reach for it when |
-| --- | --- | --- | --- |
-| **Instructions** | AGENTS.md, CLAUDE.md, scoped rule files | No - the model reads it and usually complies | Conventions, context, preferences |
-| **Skills** | Reusable prompts and scripts the agent loads on demand | No | Repeatable workflows - "do a PR review our way" |
-| **Hooks** | Scripts or code that run at lifecycle points: before a tool call, after an edit, at session start | **Yes** - the agent can't skip them | "Every time X, do Y" rules the agent keeps forgetting |
-| **Mods** | Code that runs inside the agent and can rewrite events or draw UI | **Yes** | The agent needs a feature it doesn't have |
+| Layer            | What it is                                                                                        | Enforced?                                    | Reach for it when                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------- |
+| **Instructions** | AGENTS.md, CLAUDE.md, scoped rule files                                                           | No - the model reads it and usually complies | Conventions, context, preferences                     |
+| **Skills**       | Reusable prompts and scripts the agent loads on demand                                            | No                                           | Repeatable workflows - "do a PR review our way"       |
+| **Hooks**        | Scripts or code that run at lifecycle points: before a tool call, after an edit, at session start | **Yes** - the agent can't skip them          | "Every time X, do Y" rules the agent keeps forgetting |
+| **Mods**         | Code that runs inside the agent and can rewrite events or draw UI                                 | **Yes**                                      | The agent needs a feature it doesn't have             |
 
 The test for moving from instructions to hooks is simple: if you've written the same rule into AGENTS.md twice and the agent still ignores it one time in five, it isn't an instruction. It's a hook.
 
@@ -152,13 +157,13 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 
 The same shape works everywhere:
 
-| Agent | Where hooks live | Key events | Org-level enforcement |
-| --- | --- | --- | --- |
-| [Claude Code](https://code.claude.com/docs/en/hooks) | `settings.json` (user, project or managed) | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SessionStart`, `Stop`, `PreCompact` | Managed policy settings |
-| [OpenAI Codex](https://learn.chatgpt.com/docs/hooks) | `.codex/hooks.json` or `config.toml` | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SubagentStart/Stop`, `Stop` | Admin `requirements.toml` |
-| [GitHub Copilot](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-hooks-reference) | `.github/hooks/*.json` | `preToolUse`, `postToolUse`, `userPromptSubmitted`, `agentStop`, `preCompact` | Policy directory, loaded before user and project hooks |
-| [Gemini CLI](https://geminicli.com/docs/hooks/) | `settings.json` | `BeforeTool`, `AfterTool`, `BeforeModel`, `AfterModel`, `BeforeAgent` | Via extensions |
-| [Cursor](https://cursor.com/docs/hooks) | `.cursor/hooks.json` | `beforeShellExecution`, `afterFileEdit`, `beforeMCPExecution`, `stop` | Enterprise MDM, then Team, then Project |
+| Agent                                                                                                    | Where hooks live                           | Key events                                                                             | Org-level enforcement                                  |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Claude Code](https://code.claude.com/docs/en/hooks)                                                     | `settings.json` (user, project or managed) | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SessionStart`, `Stop`, `PreCompact` | Managed policy settings                                |
+| [OpenAI Codex](https://learn.chatgpt.com/docs/hooks)                                                     | `.codex/hooks.json` or `config.toml`       | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SubagentStart/Stop`, `Stop`         | Admin `requirements.toml`                              |
+| [GitHub Copilot](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-hooks-reference) | `.github/hooks/*.json`                     | `preToolUse`, `postToolUse`, `userPromptSubmitted`, `agentStop`, `preCompact`          | Policy directory, loaded before user and project hooks |
+| [Gemini CLI](https://geminicli.com/docs/hooks/)                                                          | `settings.json`                            | `BeforeTool`, `AfterTool`, `BeforeModel`, `AfterModel`, `BeforeAgent`                  | Via extensions                                         |
+| [Cursor](https://cursor.com/docs/hooks)                                                                  | `.cursor/hooks.json`                       | `beforeShellExecution`, `afterFileEdit`, `beforeMCPExecution`, `stop`                  | Enterprise MDM, then Team, then Project                |
 
 Gemini is the odd one out: `BeforeModel` lets you intercept the request to the model itself. Copilot's policy directory is the strongest enterprise story - hooks dropped in `C:\ProgramData\GitHub\Copilot\policy.d` or `/etc/github-copilot/policy.d` run before anything a developer configures.
 
