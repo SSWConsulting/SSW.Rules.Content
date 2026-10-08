@@ -7,6 +7,8 @@ categories:
 authors:
   - title: Luke Cook
     url: 'https://www.ssw.com.au/people/luke-cook'
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
 related:
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
   - rule: public/uploads/rules/claude-local-md/rule.mdx
@@ -39,7 +41,7 @@ There are four layers. Each one up is more powerful and more work, so start at t
 
 | Layer            | What it is                                                                                        | Enforced?                                    | Reach for it when                                     |
 | ---------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------- |
-| **Instructions** | AGENTS.md, CLAUDE.md, scoped rule files                                                           | No - the model reads it and usually complies | Conventions, context, preferences                     |
+| **Instructions** | AGENTS.md, CLAUDE.md, scoped rule files                                                           | No - the model reads it and usually complies | Conventions, context, preferences, and agent steering |
 | **Skills**       | Reusable prompts and scripts the agent loads on demand                                            | No                                           | Repeatable workflows - "do a PR review our way"       |
 | **Hooks**        | Scripts or code that run at lifecycle points: before a tool call, after an edit, at session start | **Yes** - the agent can't skip them          | "Every time X, do Y" rules the agent keeps forgetting |
 | **Mods**         | Code that runs inside the agent and can rewrite events or draw UI                                 | **Yes**                                      | The agent needs a feature it doesn't have             |
@@ -108,7 +110,7 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 | [Claude Code](https://code.claude.com/docs/en/hooks)                                                     | `settings.json` (user, project or managed) | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SessionStart`, `Stop`, `PreCompact` | Managed policy settings                                |
 | [OpenAI Codex](https://learn.chatgpt.com/docs/hooks)                                                     | `.codex/hooks.json` or `config.toml`       | `PreToolUse`, `PostToolUse`, `PermissionRequest`, `SubagentStart/Stop`, `Stop`         | Admin `requirements.toml`                              |
 | [GitHub Copilot](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-hooks-reference) | `.github/hooks/*.json`                     | `preToolUse`, `postToolUse`, `userPromptSubmitted`, `agentStop`, `preCompact`          | Policy directory, loaded before user and project hooks |
-| [Gemini CLI](https://geminicli.com/docs/hooks/)                                                          | `settings.json`                            | `BeforeTool`, `AfterTool`, `BeforeModel`, `AfterModel`, `BeforeAgent`                  | Via extensions                                         |
+| [Antigravity CLI](https://antigravity.google/docs/hooks)                                                 | `settings.json`                            | `BeforeTool`, `AfterTool`, `BeforeModel`, `AfterModel`, `BeforeAgent`                  | Via extensions                                         |
 
 <boxEmbed
   style="warning"
