@@ -18,7 +18,7 @@ seoDescription: 'Put your model, context and usage limits on screen, use hooks t
 created: 2026-10-07T23:18:13.000Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-10-08T02:01:43.454Z
+lastUpdated: 2026-10-08T02:04:52.110Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
@@ -123,23 +123,7 @@ Hooks can also shrink what the agent reads. A `PreToolUse` hook that rewrites `n
 
 Hooks can block and rewrite, but they can't add a feature or draw on the screen. Mods can, because they open up the Claude Code harness. A mod is a TypeScript function that Claude Code calls from inside its own process, on the same events hooks see, plus every part of the interface it draws. Your code can run before an event, after it, or instead of it. The built-in `/diff` command is now itself a mod.
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Use case:** Every time Claude writes "Adam Cogan" in a reply, a mod rewrites the rendered message to "😎 The Big Boss". Ten lines of TypeScript on the `ui.render` event, hot-reloaded into the session without restarting Claude Code.
-  </>}
-  figurePrefix="good"
-  figure="A mod changes what Claude Code draws, which no hook or skill can do"
-/>
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="A /prs mod opens a pane listing every open PR with its CI, review and conflict status, without leaving Claude Code"
-  src="/uploads/rules/customize-your-coding-agent/good-mod.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A /prs mod opens a pane listing every open PR with its CI, review and conflict status, without leaving Claude Code" src="/uploads/rules/customize-your-coding-agent/good-mod.png" />
 
 That same access is how you react to the usage numbers in your status line. The `session.measure` event fires after every turn and whenever a rate-limit window moves a point, so a toast at 80% of the weekly window is a few lines. Anthropic's samples show the range: `token-weather` charts your context window above the prompt after each turn, and `blast-radius` holds a risky shell command such as a force push and shows what it would change before you confirm.
 
