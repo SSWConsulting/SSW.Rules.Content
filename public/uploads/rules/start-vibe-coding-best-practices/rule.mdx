@@ -15,7 +15,7 @@ related:
   - rule: public/uploads/rules/software-architecture-decision-tree/rule.mdx
   - rule: public/uploads/rules/bus-test/rule.mdx
 guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
-seoDescription: 'Learn the best practices for starting vibe coding to ensure your code is maintainable, passes the bus test, and follows professional standards using GitHub Copilot Workspaces and architecture templates.'
+seoDescription: 'Learn how to start vibe coding with an architecture template, supported AI coding workflows, and reviewable changes.'
 created: 2025-11-21T04:05:21.000Z
 createdBy: Copilot
 createdByEmail: 198982749+Copilot@users.noreply.github.com
@@ -114,15 +114,18 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
 
 See the [software architecture decision tree](/software-architecture-decision-tree) for more guidance on choosing the right architecture.
 
-## Drive development from GitHub Copilot Workspaces
+## Use a supported AI coding workflow
 
-Once your repository is set up with a template, use [GitHub Copilot Workspaces](https://githubnext.com/projects/copilot-workspace) to drive your development:
+After choosing a repository and architecture template, use a supported AI coding workflow. For example, use GitHub Copilot in your IDE, or delegate a task to Copilot cloud agent on GitHub.com. See [GitHub Copilot on GitHub.com](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github) for supported workflows and availability.
 
-1. **Open your repository in GitHub Copilot Workspace** - This gives the AI full context of your codebase
-2. **Describe what you want to build** - Use natural language to explain your feature or change
-3. **Review the AI's plan** - The AI will propose changes based on your architecture template and existing code patterns
-4. **Let the AI implement** - Copilot Workspace will make the changes directly in your repository
-5. **Create a Pull Request** - Review the changes before merging to main
+For each change:
+
+1. **Describe one concrete task** - Give the AI the feature or change you want and the relevant project context
+2. **Review the proposed plan** - Check that it follows your architecture and stays within scope
+3. **Inspect and verify the changes** - Review the diff and run the project's checks before using the code
+4. **Create a pull request** - Ask for review before merging
+
+Copilot Workspace is a historical example. Its [GitHub Next technical preview ended on May 30, 2025](https://githubnext.com/projects/copilot-workspace/).
 
 <boxEmbed
   style="greybox"
