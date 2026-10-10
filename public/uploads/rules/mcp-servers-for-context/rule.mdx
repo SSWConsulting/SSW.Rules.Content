@@ -124,7 +124,7 @@ The examples below use the `mcpServers` shape used by Claude Desktop. Other MCP 
   "mcpServers": {
     "github": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "-e", "GITHUB_PERSONAL_ACCESS_TOKEN", "ghcr.io/github/github-mcp-server", "--toolsets=repos", "--read-only"]
+      "args": ["run", "-i", "--rm", "-e", "GITHUB_PERSONAL_ACCESS_TOKEN", "ghcr.io/github/github-mcp-server", "stdio", "--toolsets=repos", "--read-only"]
     }
   }
 }
