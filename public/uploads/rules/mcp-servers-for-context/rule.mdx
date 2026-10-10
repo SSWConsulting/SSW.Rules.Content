@@ -98,12 +98,12 @@ This can then be invoked with `/project:review` in Claude Code.
 
 ## Recommended MCP Servers
 
-* [GitHub MCP](https://github.com/github/github-mcp-server) - Allows AI tools to directly connect to GitHub's platform, giving them the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows.
+* [GitHub MCP Server](https://github.com/github/github-mcp-server) - GitHub's maintained MCP server. It can read repository content and, when enabled, manage issues, pull requests, and other GitHub resources.
 * [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - An integration to the Brave Search API, providing comprehensive search capabilities, including web search, local business search, video search, news search, and AI-powered summarization.
 * [Filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Allows AI models to interact with a local or remote computer's file system, enabling it to read and write files, manage directories, search and organize files and retrieve metadata.
 * [Aspire MCP](https://aspire.dev/dashboard/mcp-server/) - Integrates Aspire into your development AI eco-system, allowing it to query resources, debug with real-time console logs, investigate development time telemetry, and execute resource commands.
 * [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Enables AI tools to interact with web browsers through structured accessibility snapshots, allowing them to navigate pages, interact with elements, fill forms, and execute browser automation without requiring screenshots or vision models.
-* [PostgreSQL MCP](https://github.com/crystaldba/postgres-mcp) - Connects AI tools to PostgreSQL databases, enabling them to explore schemas, run read-only queries, and analyze data directly.
+* [Postgres MCP](https://github.com/crystaldba/postgres-mcp) - Connects AI tools to PostgreSQL and provides schema exploration and SQL execution with a restricted read-only mode.
 * [MySQL MCP](https://github.com/benborla/mcp-server-mysql) - Provides AI tools with access to MySQL databases for schema exploration, query execution, and data analysis.
 
 ## Configuring MCP Servers
@@ -115,27 +115,43 @@ Location:
 * macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
 * Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
+The examples below use the `mcpServers` shape used by Claude Desktop. Other MCP hosts may use different configuration keys or support different transports, so follow your host's setup guide. These examples start local Docker servers; install Docker first. Keep credentials out of shared configuration and source control. Make the named variables available to the host process through your operating system's secret store or protected environment before starting the host.
+
+### GitHub MCP Server (read-only)
+
 ```json
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
-    },
     "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-      }
-    },
-    "postgres": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "-e", "GITHUB_PERSONAL_ACCESS_TOKEN", "ghcr.io/github/github-mcp-server", "--toolsets=repos", "--read-only"]
     }
   }
 }
 ```
+
+Provide `GITHUB_PERSONAL_ACCESS_TOKEN` to the host process through a secret store or protected environment variable; do not paste a real token into a checked-in config. Grant the credential access only to the repositories and read operations the task needs. The server's `--read-only` flag removes write tools, but does not reduce the credential's underlying GitHub permissions; use a read-only, repository-scoped credential where possible. Avoid organization-wide access unless required.
+
+**Check the connection:** Ask the MCP client to call `get_file_contents` for a known file in a repository the credential can read. Success returns the file contents (or a directory listing if a directory was requested). A permission or authentication error means the connection or credential needs attention. This read-only check does not change repository data.
+
+### PostgreSQL MCP (restricted)
+
+```json
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "-e", "DATABASE_URI", "crystaldba/postgres-mcp", "--access-mode=restricted"]
+    }
+  }
+}
+```
+
+Provide `DATABASE_URI` to the host process through a secret store or protected environment variable. Use TLS when connecting remotely and a dedicated database role that can connect to only the required database and has `USAGE` on only the needed schemas and `SELECT` on only the needed tables or views. Do not grant write privileges, ownership, or elevated roles for read-only work. Restricted mode uses read-only transactions and limits query execution time; it is an additional safeguard, not a replacement for database permissions. The project documents a limitation: unsafe stored-procedure languages enabled in the database may circumvent its read-only protections. Do not expose such languages for this connection, and do not treat restricted mode alone as a security boundary.
+
+**Check the connection:** Call `list_schemas` to confirm that the expected permitted schema appears. Then call `execute_sql` with `SELECT current_database() AS database_name, current_user AS role_name;`. Success returns one row naming the connected database and role. If access fails, review the connection URI and the role's database, schema, and table grants. These checks only read metadata and session identity.
+
+The host's environment-variable inheritance varies. Configure these variables using your host's documented secret mechanism; never put real credentials in a shared example. The server flags above are for the official local Docker servers and may need adapting to your MCP host.
 
 ## Further reading
 
