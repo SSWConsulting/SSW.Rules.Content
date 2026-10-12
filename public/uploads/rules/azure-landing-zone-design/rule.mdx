@@ -1,0 +1,90 @@
+---
+type: rule
+title: Do you know the best practices for Azure landing zone design?
+seoDescription: Design your Azure landing zone first, following Microsoft's best practices for subscriptions, policies, access and shared services.
+guid: b84ab01b-5d24-41d7-b1f2-192ce24482ce
+uri: azure-landing-zone-design
+created: 2026-10-12T22:46:35.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/use-azure-policies/rule.mdx
+  - rule: public/uploads/rules/azure-private-networking/rule.mdx
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/well-architected-framework/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+archivedreason: null
+isArchived: false
+---
+
+Before any app goes into Azure, someone has to set up the basics: the subscriptions, the network, who gets access and which policies apply. Microsoft calls this setup a landing zone. Many teams skip it and set up Azure by hand for each project, so every project ends up different and harder to secure.
+
+That's why you should **design the landing zone first, following Microsoft's best practices**.
+
+<endIntro />
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Microsoft splits a [landing zone](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) in two. The platform landing zone is the shared part, owned by a platform team. Each project then gets its own workload landing zone inside it.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+```text
+{"error":{"code":"RequestDisallowedByPolicy","target":"northwind-ai",
+ "message":"Resource 'northwind-ai' was disallowed by policy.
+ Policy identifiers: 'policyAssignment':{'name':'Allowed locations', ...
+```
+
+❌ **Figure: Bad example - The deployment fails because of a policy the team did not know about**
+
+## Start from Microsoft's design instead of a blank page
+
+1. **Start with an accelerator** - Microsoft's ready-made templates, called [accelerators](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options), deploy the recommended design as code. For most organizations they are "the fastest path"
+2. **Decide every design area first** - Microsoft lists [eight](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-areas) (e.g. identity, network, governance and automation)
+3. **Separate environments with subscriptions** - Development, test and production each get their own, organized under management groups
+4. **Set the rules with Azure Policy** - Assign [policies](/use-azure-policies) (e.g. allowed regions and required tags) to a management group. Every subscription below inherits them
+5. **Give roles to groups, not to people** - Assign them on the subscription or resource group, a level below the policies
+6. **Share only what many projects need** - Set those services up once, centrally (e.g. the network hub, DNS and one Log Analytics workspace)
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** These are recommendations, and they do not fit every project (e.g. some projects keep all their environments in one subscription, and that can still work). When you [do it differently](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-principles#impact-of-design-deviations), know what the recommendation is and write down why you chose another way.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Know the rules before you build on one
+
+When the landing zone already exists, ask the team that owns it what was decided, before you design your app. You can see the policies yourself in the Azure portal, under **Policy**, then **Assignments**:
+
+<imageEmbed
+  src="/uploads/rules/azure-landing-zone-design/policy-assignments.png"
+  alt="Azure portal, Policy, Assignments: seven assignments, six on the subscription and one on the Tenant Root Group"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Policy, Assignments lists every policy that applies to the subscription. The last one is set above it, on the Tenant Root Group"
+/>
+
+Write the answers down in the repo, so the next developer does not have to ask again.
+
+```text
+docs/landing-zone.md
+
+Checked 12 Oct 2026 with Bob Northwind (platform team)
+
+Subscription  Northwind-Production. Contributor on the resource group only
+Policies      Australia East only. Owner and Environment tags required
+Network       Private endpoints required. Private DNS zones are in the hub
+Identity      Access through Entra groups. Pipelines use a managed identity
+Monitoring    Logs go to the central Log Analytics workspace
+```
+
+✅ **Figure: Good example - The answers are in the repo before the design starts**
