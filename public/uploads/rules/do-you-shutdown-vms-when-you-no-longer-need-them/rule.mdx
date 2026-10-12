@@ -33,7 +33,7 @@ Shutting down the VM will prevent compute charges from incurring. There is still
 
 Please note that is for [Visual Studio subscriptions](https://azure.microsoft.com/en-us/services/developer-tools/visual-studio-subscriptions/?WT.mc_id=AZ-MVP-33518).
 
-Deallocate the VM so its status reads **Stopped (deallocated)**, for example with `az vm deallocate`. Shutting down from inside the VM leaves it **Stopped**, and Azure [still bills the compute](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing). Set [auto-shutdown](https://learn.microsoft.com/en-us/azure/virtual-machines/auto-shutdown-vm) so dev VMs stop on their own after hours.
+Deallocate the VM (e.g. with `az vm deallocate`) so its status reads **Stopped (deallocated)**. Shutting down from inside the VM leaves it **Stopped**, and Azure [still bills the compute](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing). Set [auto-shutdown](https://learn.microsoft.com/en-us/azure/virtual-machines/auto-shutdown-vm) so dev VMs stop on their own after hours.
 
 
 <imageEmbed
