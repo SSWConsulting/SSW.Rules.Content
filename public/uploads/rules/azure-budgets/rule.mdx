@@ -103,6 +103,38 @@ If the company is really worried about costs, an Azure runbook could even be set
 />
 
 
+### AI apps - Don't let a usage spike hide in the total
+
+AI models are usually [billed per token](https://learn.microsoft.com/en-us/azure/foundry/concepts/manage-costs), so the cost follows how much the app is used and can jump in a day. Inside one subscription budget that jump is easy to miss.
+
+1. **Give the AI services their own budget** - Add a filter for the AI service, so its spend has its own number
+2. **Alert on the forecast too** - Add a Forecasted alert at 100% beside the Actual ones, so the email arrives before the money is spent
+3. **Cap the usage** - Give each model deployment a [tokens-per-minute limit](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/quota). Azure enforces it on every request
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Budget | Covers | Amount | Alerts |
+    | --- | --- | --- | --- |
+    | northwind-subscription | The whole subscription | $5,000 a month | Actual 50%, 75%, 100%, 200% |
+  </>}
+  figurePrefix="bad"
+  figure="One budget for the whole subscription, so the AI spend is hidden in the total"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Budget | Covers | Amount | Alerts |
+    | --- | --- | --- | --- |
+    | northwind-subscription | The whole subscription | $5,000 a month | Actual 50%, 75%, 100%, 200% |
+    | northwind-prod-ai | Only the AI services in Northwind.Production | $1,000 a month | Actual 80%, Forecasted 100% |
+    | Model deployment northwind-chat: limit of 50,000 tokens per minute |   |   |   |
+  </>}
+  figurePrefix="good"
+  figure="The AI services have their own budget with a forecast alert, and the model deployment has a limit"
+/>
+
 ### Cost analysis - What if you get an alert?
 
 It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=AZ-MVP-33518). You can break down costs by various attributes (e.g. resource group or resource type).
