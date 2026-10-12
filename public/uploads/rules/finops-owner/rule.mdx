@@ -28,6 +28,24 @@ That's why every project should have a **FinOps owner** - one named person who i
 
 <endIntro />
 
+<imageEmbed
+  src="/uploads/rules/finops-owner/alert-recipients-shared-mailbox.png"
+  alt="Azure portal, Create budget, Set alerts: the only alert recipient is devteam@northwind.com"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The alert only goes to a shared mailbox, so nobody is responsible for it"
+/>
+
+<imageEmbed
+  src="/uploads/rules/finops-owner/alert-recipients-teams-channel-and-owner.png"
+  alt="Azure portal, Create budget, Set alerts: the alert recipients are a Teams channel address and bob@northwind.com"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The alert goes to the project's Teams channel and to the FinOps owner by name"
+/>
+
 <boxEmbed
   style="info"
   body={<>
@@ -48,7 +66,7 @@ That's why every project should have a **FinOps owner** - one named person who i
 
 ## What the FinOps owner does
 
-1. **Acts on the alerts** - Makes sure budget and [cost anomaly](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/analyze-unexpected-charges) alerts [go to the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel), and is the person who acts on them
+1. **Acts on the alerts** - Makes sure budget and [cost anomaly](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/analyze-unexpected-charges) alerts [go to the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel) and to them by name, and is the person who acts on them
 2. **Reviews the bill every month** - Compares actual spend in [Cost analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis) with the budget and the original estimate, and can explain the difference
 3. **Acts on Azure Advisor** - Reads the [cost recommendations](https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-cost-recommendations) and adds the ones worth doing to the backlog
 4. **Keeps the Product Owner informed** - Reports the month's spend, and [warns them before an expected spike](/spike-in-azure-resource-costs)
@@ -60,26 +78,24 @@ Pick one person, not a team. The Tech Lead is usually the right choice: they kno
 
 They don't need to be an Owner of the subscription. Cost Management Reader is enough to see costs and budgets, and Cost Management Contributor lets them create budgets and anomaly alerts.
 
-The [Azure Spend Master](/do-you-have-an-azure-spend-master) controls who can create resources. The FinOps owner watches what one project's resources cost each month.
+## Make the owner visible in Azure
 
-## Write it down
-
-Put the FinOps owner's name in the `Owner` tag of the project's resource group. Anyone who opens the resource group in Azure then knows who to ask about the cost. See [Do you apply Tags to your Azure Resource Groups?](/apply-tags-to-your-azure-resource-groups)
+Put the FinOps owner's name in a `FinOpsOwner` tag on the project's resource group. Anyone who opens the resource group in Azure then knows who to ask about the cost. See [Do you apply Tags to your Azure Resource Groups?](/apply-tags-to-your-azure-resource-groups)
 
 <imageEmbed
-  src="/uploads/rules/finops-owner/resource-group-owner-tag-team.png"
-  alt="Tags of the resource group northwind-prod-rg: Owner is Dev Team, Environment is Production"
+  src="/uploads/rules/finops-owner/finopsowner-tag-team.png"
+  alt="Tags of the resource group northwind-prod-rg: FinOpsOwner is Dev Team, Environment is Production"
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="The owner is a team, so nobody is responsible"
+  figure="The FinOps owner is a team, so nobody is responsible"
 />
 
 <imageEmbed
-  src="/uploads/rules/finops-owner/resource-group-owner-tag-person.png"
-  alt="Tags of the resource group northwind-prod-rg: Owner is Bob Northwind, Environment is Production"
+  src="/uploads/rules/finops-owner/finopsowner-tag-person.png"
+  alt="Tags of the resource group northwind-prod-rg: FinOpsOwner is Bob Northwind, Environment is Production"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="The Owner tag names the FinOps owner"
+  figure="The FinOpsOwner tag names one person"
 />
