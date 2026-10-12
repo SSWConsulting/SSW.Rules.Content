@@ -63,5 +63,5 @@ That's why every project with an AI feature should **set alerts on the AI servic
 ## Make every alert lead to an action
 
 1. **Send it to the team** - Alerts go to [the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel)
-2. **Say what to do** - Put the first step in the alert description, e.g. "Find the deployment that is throttling, then raise its TPM"
+2. **Say what to do** - Put the first step in the alert description (e.g. "Find the deployment that is throttling, then raise its TPM")
 3. **Handle 429s in code too** - [Retry with backoff](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/quota) and respect the `retry-after-ms` header, so a short burst never reaches the user
