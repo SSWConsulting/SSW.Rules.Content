@@ -103,19 +103,25 @@ One review at the end finds problems when it is too late to fix them. Do it at l
 
 For an AI project, also do the [Azure Well-Architected AI workload](https://learn.microsoft.com/en-us/assessments/ea306cce-c7fa-4a2b-89a6-bfefba6a9cf4/) assessment.
 
-```text
-Sprint 12 - First Well-Architected Review, one week before go-live
-            It finds "single region, no failover"
-            Go-live goes ahead. There is no time to change the design
-```
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Sprint | What happens |
+    | --- | --- |
+    | 12 | First Well-Architected Review, one week before go-live. It finds "single region, no failover". Go-live goes ahead. There is no time to change the design |
+  </>}
+  figurePrefix="bad"
+  figure="The only review is at the end, so the findings come too late"
+/>
 
-❌ **Figure: Bad example - The only review is at the end, so the findings come too late**
-
-```text
-Sprint 1  - Review of the design. Milestone "Design"
-            "Single region, no failover" goes on the backlog as a PBI
-Sprint 12 - Go-Live review. Milestone "Before go-live"
-            The score is compared with Sprint 1
-```
-
-✅ **Figure: Good example - Reviewed at the start and before go-live, with a milestone each time**
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Sprint | What happens |
+    | --- | --- |
+    | 1 | Review of the design. Milestone "Design". "Single region, no failover" goes on the backlog as a PBI |
+    | 12 | Go-Live review. Milestone "Before go-live". The score is compared with Sprint 1 |
+  </>}
+  figurePrefix="good"
+  figure="Reviewed at the start and before go-live, with a milestone each time"
+/>
