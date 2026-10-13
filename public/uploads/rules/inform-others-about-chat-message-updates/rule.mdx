@@ -10,47 +10,119 @@ related:
 seoDescription: Ensure clear communication and collaboration in IM chats by notifying
   others when updating messages. Promote transparency, avoid confusion, and keep everyone
   informed for smoother workflows.
-title: Do you notify others after updating a chat message?
+title: Do you notify others when changing a chat message?
 categories:
   - category: categories/communication/rules-to-better-im.mdx
 type: rule
 uri: inform-others-about-chat-message-updates
 ---
 
-When updating an existing message in IM chats, others might see an indication of it, but won't get a notification, so it's important to inform them about your message changes.
+Editing a chat message is useful for fixing mistakes or clarifying information. However, changing a message after someone has read or reacted to it can cause confusion.
 
-This simple practice promotes transparency, avoids confusion, and ensures everyone has the most current information. By keeping everyone in the loop, you foster clearer communication and enhance collaboration within the team.
+Most chat applications, including Microsoft Teams, give a subtle indication, but do not send a new notification when you edit a message. This means someone may continue working with outdated information without realizing it has changed.
+
+When making a **meaningful change**, make sure others know about it. If someone has already reacted to your message, leave the original unchanged and send a new message instead.
 
 <endIntro />
 
+## When should you edit a message?
+
+* **Minor typo or formatting fix** - Edit the message without sending a notification if the meaning stays the same
+* **Message not yet read** - You can edit it without notifying others, provided nobody has already responded or reacted
+* **Meaningful change to a message already read** - Edit the message and send a follow-up explaining what changed
+* **Message already reacted to or answered** - Leave the original unchanged and send a v2 instead
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
-    **Note:** It's **not** necessary to notify others if:
-
-* You're simply fixing a typo or making a minor edit that won't alter the meaning of your message
-* The other person hasn't read the message yet
+    **Tip:** When in doubt, preserve the original message and send a new one. It is better to have a clear conversation history than to risk changing the meaning of someone else's response.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
+## Notify others when you make a meaningful change
+
+If you edit a message that changes its meaning, instructions, or important details, send a follow-up message explaining what changed.
+
+For example, imagine you send a message asking someone to review a PR, but later realize the PR is not ready.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message:**
+
+The PR is ready for review. Please take a look.
+
+github&#46;com/Northwind/pull/1234
+
+**Edited message:**
+
+The PR is not ready for review yet. Please wait until the build passes.
+
+github&#46;com/Northwind/pull/1234
+  </>}
   figurePrefix="bad"
-  figure="Silently update a message"
-  src="/uploads/rules/inform-others-about-chat-message-updates/update-im-message-bad.png"
+  figure="❌ Bad example - The message was silently edited, so someone who read the original may start reviewing a PR that is not ready"
 />
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Edited message:**
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
+The PR is not ready for review yet. Please wait until the build passes.
+
+github&#46;com/Northwind/pull/1234
+
+**New message:**
+
+Updated my message above. The PR is not ready for review yet. Please wait until the build passes.
+  </>}
   figurePrefix="good"
-  figure="Mention you updated a message"
-  src="/uploads/rules/inform-others-about-chat-message-updates/update-im-message-good.png"
+  figure="✅ Good example - A follow-up message makes the change visible and explains why the original instructions no longer apply"
+/>
+
+## Never change the meaning of a message after someone has reacted
+
+A reaction, such as a 👍, is feedback on the message as it was originally written.
+
+If you change the meaning of that message afterward, the reaction may appear to support something the person never intended.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message:**
+
+In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+
+👍 Adam reacted
+
+**Edited message:**
+
+Edited - In my summary video, is my work on TinaCMS worth mentioning?
+
+👍 Adam reacted
+  </>}
+  figurePrefix="bad"
+  figure="❌ Bad example - Editing the question changes what Adam's 👍 appears to mean, even though he may have been agreeing that the TinaCMS work should be omitted"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message (unchanged):**
+
+In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+
+👍 Adam reacted
+
+**New message:**
+
+v2
+
+In my summary video, is my work on TinaCMS worth mentioning?
+  </>}
+  figurePrefix="good"
+  figure="✅ Good example - The original question and reaction are preserved, while a new v2 message asks an unambiguous question"
 />
