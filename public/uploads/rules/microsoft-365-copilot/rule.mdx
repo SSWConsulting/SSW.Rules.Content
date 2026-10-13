@@ -10,13 +10,67 @@ guid: 5b345c2c-7169-4ef6-ba28-5f468aecca4c
 created: 2026-10-13T22:25:17.420Z
 createdBy: Rob Thomlinson
 createdByEmail: RobThomlinson@ssw.com.au
-lastUpdated: 2026-10-13T22:37:43.869Z
+lastUpdated: 2026-10-13T23:55:25.681Z
 lastUpdatedBy: Rob Thomlinson
 lastUpdatedByEmail: RobThomlinson@ssw.com.au
 ---
 
-Intro
+Your company has Microsoft 365 Copilot licences, and half the team tried it once. They typed "help me with this email", got a bland answer, and went back to doing it by hand.
+
+Copilot works when you test it on real work, with prompts that say what you want and where to look. Run the prompts below in the apps you use every day, and you'll know in 10 minutes whether it saves you time.
 
 <endIntro />
 
-Body
+## Why should you test Microsoft 365 Copilot on real work?
+
+Copilot can see your emails, meetings, chats and files (only what you already have access to). A generic prompt ignores all of that.
+
+* &#x20;**Catch up fast** - Summarise the meeting you missed instead of scrubbing through the recording
+* **Find the lost document** - Locate the file someone shared in a chat three weeks ago
+* Skip the blank page - Get a first draft to edit instead of starting from nothing
+
+## What prompts can you use to test it?
+
+A good prompt has 4 parts: a **goal**, some **context**, a **source** and your **expectations**. The goal is required, and the rest make the answer better. See [Microsoft's guide to Copilot prompts](https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5) for the full framework.
+
+### Teams
+
+```
+Summarise the meeting I missed yesterday. List the decisions and action items, with an owner for each.
+```
+
+### Outlook
+
+```
+Create a table of actions I owe from my emails over the past week. Include who asked and the due date. Keep it concise.
+```
+
+### Word
+
+```
+Draft a one-page project update for {{ CLIENT_NAME }} based on {{ FILE_NAME }}. Use a friendly, professional tone with 3 headings.
+```
+
+### Excel
+
+```
+Analyse this table and tell me the 3 biggest trends in plain English. Show a chart for the biggest one.
+```
+
+### Copilot Chat
+
+```
+What did {{ PERSON_NAME }} and I last agree on for {{ PROJECT_NAME }}? Check my emails and Teams chats from the last month.
+```
+
+## How do you check Copilot's answer?
+
+* **Open the citations** - Click the reference links and confirm the source says what Copilot claims
+* **Spot check the numbers** - Copilot can misread a table, so recalculate one or two totals
+* **Follow up instead of starting again** - Reply with "make it shorter" or "use only the Teams chat"
+
+### Learn more
+
+* [Learn about Copilot prompts](https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5) - Microsoft's goal, context, source and expectations framework
+* [Write effective prompts to achieve optimal results](https://learn.microsoft.com/en-us/training/modules/write-effective-prompts-do-more-prompting) - Free Microsoft Learn module covering the Prompt Gallery
+* [Microsoft 365 Copilot documentation](https://learn.microsoft.com/en-us/copilot/microsoft-365/) - Setup, licensing and app-by-app guidance
