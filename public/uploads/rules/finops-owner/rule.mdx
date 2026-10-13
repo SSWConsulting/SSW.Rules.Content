@@ -1,0 +1,101 @@
+---
+type: rule
+title: Do you have a FinOps owner for every project?
+seoDescription: Give every Azure project one named FinOps owner who gets the budget alerts, reviews the bill each month and keeps the Product Owner informed.
+guid: 15adaa60-aa43-4576-abfe-feffd9e5f636
+uri: finops-owner
+created: 2026-10-12T04:54:25.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/azure-budgets/rule.mdx
+  - rule: public/uploads/rules/set-up-azure-alert-emails-on-teams-channel/rule.mdx
+  - rule: public/uploads/rules/reduce-azure-costs/rule.mdx
+  - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
+  - rule: public/uploads/rules/do-you-have-an-azure-spend-master/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+  - rule: public/uploads/rules/apply-tags-to-your-azure-resource-groups/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most teams set up [budgets and cost alerts](/azure-budgets) in Azure, but often nobody is responsible for acting on them. When an alert arrives, everyone assumes someone else is looking into it, and the cost only gets attention when the Product Owner asks about the bill.
+
+That's why every project should have a **FinOps owner** - one named person who is responsible for the project's cloud costs.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/finops-owner/alert-recipients-shared-mailbox.png"
+  alt="Azure portal, Create budget, Set alerts: the only alert recipient is devteam@northwind.com"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The alert only goes to a shared mailbox, so nobody is responsible for it"
+/>
+
+<imageEmbed
+  src="/uploads/rules/finops-owner/alert-recipients-teams-channel-and-owner.png"
+  alt="Azure portal, Create budget, Set alerts: the alert recipients are a Teams channel address and bob@northwind.com"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The alert goes to the project's Teams channel and to the FinOps owner by name"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** FinOps is the name Microsoft and the FinOps Foundation use for managing cloud costs. The word is "[a blend of Finance and DevOps](https://learn.microsoft.com/en-us/cloud-computing/finops/overview)".
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** This matters even more for AI apps. AI models are usually [billed per token](https://learn.microsoft.com/en-us/azure/foundry/concepts/manage-costs), so the cost depends on how much the app is used and can jump from one week to the next.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What the FinOps owner does
+
+1. **Acts on the alerts** - Makes sure budget and [cost anomaly](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/analyze-unexpected-charges) alerts [go to the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel) and to them by name, and is the person who acts on them
+2. **Reviews the bill every month** - Compares actual spend in [Cost analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis) with the budget and the original estimate, and can explain the difference
+3. **Acts on Azure Advisor** - Reads the [cost recommendations](https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-cost-recommendations) and adds the ones worth doing to the backlog
+4. **Keeps the Product Owner informed** - Reports the month's spend, and [warns them before an expected spike](/spike-in-azure-resource-costs)
+5. **Hands the role over** - Names the next owner before leaving the project
+
+## Who should it be?
+
+Pick one person, not a team. The Tech Lead is usually the right choice: they know what every resource is for, and [monitoring the budget](/know-the-non-scrum-roles) is already part of the role. The Product Owner still approves the spend.
+
+They don't need to be an Owner of the subscription. Cost Management Reader is enough to see costs and budgets, and Cost Management Contributor lets them create budgets and anomaly alerts.
+
+## Make the owner visible in Azure
+
+Put the FinOps owner's name in a `FinOpsOwner` tag on the project's resource group. Anyone who opens the resource group in Azure then knows who to ask about the cost. See [Do you apply Tags to your Azure Resource Groups?](/apply-tags-to-your-azure-resource-groups)
+
+<imageEmbed
+  src="/uploads/rules/finops-owner/finopsowner-tag-team.png"
+  alt="Tags of the resource group northwind-prod-rg: FinOpsOwner is Dev Team, Environment is Production"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The FinOps owner is a team, so nobody is responsible"
+/>
+
+<imageEmbed
+  src="/uploads/rules/finops-owner/finopsowner-tag-person.png"
+  alt="Tags of the resource group northwind-prod-rg: FinOpsOwner is Bob Northwind, Environment is Production"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The FinOpsOwner tag names one person"
+/>
