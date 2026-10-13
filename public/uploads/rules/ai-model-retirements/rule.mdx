@@ -1,0 +1,66 @@
+---
+type: rule
+title: Do you have a plan for AI model retirements?
+seoDescription: Know when each AI model your project uses retires, and test and move to the replacement on your own schedule.
+guid: f67ff94b-c5f4-444d-80ed-f9d3ff11e3d5
+uri: ai-model-retirements
+created: 2026-10-12T22:02:53.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/set-up-azure-alert-emails-on-teams-channel/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+AI models don't stay available forever. On Azure, a model version is retired about 18 months after its launch. On that day the deployment either switches to a different model by itself or stops working. Either way, the app changes without a release.
+
+That's why every project should **know when each of its models retires and move to the replacement on its own schedule**.
+
+<endIntro />
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Microsoft emails subscription owners at least 60 days before a model retires, and names the replacement about 90 to 120 days before. The dates for every model are in the [model retirement schedule](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Don't find out from an outage
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Deployment | Model | Retires | Plan |
+    | --- | --- | --- | --- |
+    | chat | gpt-4o | ? | None |
+  </>}
+  figurePrefix="bad"
+  figure="Nobody knows which version is deployed or when it retires"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Deployment | Model and version | Retires | Upgrade setting | Backlog |
+    | --- | --- | --- | --- | --- |
+    | chat | gpt-4o 2024-11-20 | 14 Apr 2027 | Once the current version expires | PBI due 14 Jan 2027: run the evals on the replacement |
+  </>}
+  figurePrefix="good"
+  figure="Every deployment has a date, an upgrade setting and a backlog item"
+/>
+
+## Steps to manage AI model retirements
+
+1. **List your deployments** - Record each deployment's model, version and retirement date
+2. **Put the date in the backlog** - Add a PBI three months before each retirement, so there is time to test
+3. **Get the notice as a team** - Microsoft's email only goes to subscription owners. Add a [Service Health alert](https://learn.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal) for Azure OpenAI Service and send it to [the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel)
+4. **Choose the upgrade setting on purpose** - For production, use "Once the current version expires": the version only changes at retirement, and the app keeps running if the plan slips. Provisioned deployments are never upgraded automatically
+5. **Test the replacement first** - Run [your evals](/run-evals-on-ai-features) against the new model before you switch
