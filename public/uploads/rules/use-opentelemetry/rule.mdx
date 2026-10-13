@@ -192,7 +192,7 @@ A call to an AI model is often the slowest and most expensive dependency in the 
 
 ```csharp
 IChatClient client = new ChatClientBuilder(azureOpenAiClient)
-    .Build(); // ❌ No token counts, no model name
+    .Build();
 ```
 
 ❌ **Figure: Bad example - No telemetry on the chat client**
@@ -201,7 +201,7 @@ IChatClient client = new ChatClientBuilder(azureOpenAiClient)
 const string AiSource = "Northwind.Chat";
 
 IChatClient client = new ChatClientBuilder(azureOpenAiClient)
-    .UseOpenTelemetry(sourceName: AiSource) // ✅ Tokens and model on every call
+    .UseOpenTelemetry(sourceName: AiSource)
     .Build();
 
 builder.Services.AddOpenTelemetry()
