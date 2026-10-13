@@ -1,0 +1,67 @@
+---
+type: rule
+title: Do you set alerts on AI usage, failures and throttling?
+seoDescription: Set Azure Monitor alerts on your AI service for throttling, failures and token usage, so the team knows before the users do.
+guid: de2294c6-bc45-412e-a639-7fc96b677589
+uri: ai-service-alerts
+created: 2026-10-12T22:02:51.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/set-up-azure-alert-emails-on-teams-channel/rule.mdx
+  - rule: public/uploads/rules/azure-budgets/rule.mdx
+  - rule: public/uploads/rules/are-you-alerted-when-your-site-goes-down/rule.mdx
+  - rule: public/uploads/rules/use-opentelemetry/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most teams put a budget alert on the Azure subscription and stop there. But cost data arrives with a delay, and a budget says nothing when the AI model starts rejecting requests or returning errors. Users get slow or failed answers long before anyone on the team knows.
+
+That's why every project with an AI feature should **set alerts on the AI service itself: throttling, failures and token usage**.
+
+<endIntro />
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** A 429 response means a deployment hit its [rate limit](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/quota). Azure gives each deployment a number of tokens per minute (TPM). Once that is used up, further requests get a 429 until the counter resets.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Know before your users do
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Alert | Watches | Fires when |
+    | --- | --- | --- |
+    | Monthly budget | Cost of the subscription | Spend reaches 80% |
+  </>}
+  figurePrefix="bad"
+  figure="Only a cost alert, so nobody is told when the model throttles or fails"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Alert | Metric in Azure Monitor | Fires when |
+    | --- | --- | --- |
+    | Throttling | Azure OpenAI Requests, status code 429 | More than 10 in 5 minutes |
+    | Failures | Azure OpenAI Requests, server errors | More than 5 in 5 minutes |
+    | Token spike | Processed Prompt Tokens and Generated Completion Tokens | Usage is far above its normal level (dynamic threshold) |
+  </>}
+  figurePrefix="good"
+  figure="Three alerts on the AI service, next to the budget alert"
+/>
+
+## Make every alert lead to an action
+
+1. **Send it to the team** - Alerts go to [the project's Teams channel](/set-up-azure-alert-emails-on-teams-channel)
+2. **Say what to do** - Put the first step in the alert description (e.g. "Find the deployment that is throttling, then raise its TPM")
+3. **Handle 429s in code too** - [Retry with backoff](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/quota) and respect the `retry-after-ms` header, so a short burst never reaches the user
