@@ -1,0 +1,97 @@
+---
+type: rule
+title: Do you wait until your changes are live before marking a task as Done?
+seoDescription: Only mark a task as Done once your changes are approved, deployed, and verified live, so others can check them and trust your Done messages.
+guid: df311d64-4392-4b0d-816a-4208282a6d7d
+uri: ensure-changes-are-live-before-done
+created: 2026-10-13T00:00:00.000Z
+authors:
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+related:
+  - rule: public/uploads/rules/include-links-in-dones/rule.mdx
+categories:
+  - category: categories/communication/rules-to-better-email.mdx
+  - category: categories/project-delivery/rules-to-better-scrum.mdx
+archivedreason: null
+isArchived: false
+---
+
+When working on a website or application, completing your development work does not necessarily mean the changes are live. They may still be waiting for approval, merging, or deployment.
+
+Before marking a task as Done, always ensure the changes have been approved, successfully deployed, and are available for others to verify.
+
+<endIntro />
+
+Marking a task as Done too early can cause several problems:
+
+* **Confusion** - Stakeholders expect to see the completed changes, but they are not yet available
+* **Wasted time** - Reviewers spend time looking for changes that have not been released
+* **Unnecessary communication** - People ask why the changes are missing, generating avoidable emails and messages
+* **False confidence** - Changes awaiting approval, merging, or deployment are not necessarily ready for production. The approval might be rejected, or the deployment might fail
+* **Missed issues** - Changes that work in development might fail in production. Marking the task as Done too early can leave these problems unnoticed
+* **Loss of trust** - Repeatedly claiming work is complete when it cannot be verified reduces confidence in your Done messages
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Done - github&#46;com/northwind/website/pull/123
+  </>}
+  figurePrefix="bad"
+  figure="The changes are still awaiting approval, merging, or deployment, so the task is not Done"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Done - northwind&#46;com/about-us
+  </>}
+  figurePrefix="good"
+  figure="The changes have been approved, deployed, and verified on the live website"
+/>
+
+## Steps to take before sending a Done
+
+* **Get approval** - Ensure all required approvals have been received
+* **Confirm the release** - Verify the changes have been merged or released
+* **Check deployment** - Wait for the deployment pipeline to complete successfully
+* **Verify production** - Open the production URL and confirm the changes are visible and working as expected
+* **Send your Done** - Include the final URL so others can easily verify the changes
+
+## Use clear status wording for unfinished work
+
+If your work is not yet live, communicate its current status instead of calling it Done. This keeps stakeholders informed without giving the impression that the task is complete.
+
+Use wording such as:
+
+* **In Progress** - The changes are still being worked on
+* **Pending Review** - The changes are ready for review, but have not yet been approved
+* **Pending Approval** - The work requires approval before it can proceed
+* **Pending Merge** - The PR has been approved but has not yet been merged
+* **Pending Deployment** - The changes have been merged but are not yet live
+* **Pending Verification** - The changes have been deployed but still need to be checked in production
+* **Blocked** - The work cannot proceed until an issue or dependency is resolved
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Status: Pending Approval
+
+PR: github&#46;com/northwind/website/pull/123
+
+The changes are ready and awaiting approval. I will send a Done once they are deployed and verified.
+  </>}
+  figurePrefix="good"
+  figure="The status clearly communicates what has been completed and what is still outstanding"
+/>
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** A successful deployment does not always mean the latest version is immediately visible. Caching and CDN propagation can cause delays. Always check the live page rather than relying solely on the pipeline status.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
