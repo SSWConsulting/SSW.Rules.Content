@@ -34,13 +34,14 @@ That's why you should **design the landing zone first, following Microsoft's bes
   figure=""
 />
 
-```text
-{"error":{"code":"RequestDisallowedByPolicy","target":"northwind-ai",
- "message":"Resource 'northwind-ai' was disallowed by policy.
- Policy identifiers: 'policyAssignment':{'name':'Allowed locations', ...
-```
-
-❌ **Figure: Bad example - The deployment fails because of a policy the team did not know about**
+<boxEmbed
+  style="greybox"
+  body={<>
+    RequestDisallowedByPolicy: Resource 'northwind-ai' was disallowed by policy. Policy assignment: 'Allowed locations'
+  </>}
+  figurePrefix="bad"
+  figure="The deployment fails because of a policy the team did not know about"
+/>
 
 ## Start from Microsoft's design instead of a blank page
 
