@@ -76,16 +76,21 @@ When the landing zone already exists, ask the team that owns it what was decided
 
 Write the answers down in the repo, so the next developer does not have to ask again.
 
-```text
-docs/landing-zone.md
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```text
+    docs/landing-zone.md
 
-Checked 12 Oct 2026 with Bob Northwind (platform team)
+    Checked 12 Oct 2026 with Bob Northwind (platform team)
 
-Subscription  Northwind-Production. Contributor on the resource group only
-Policies      Australia East only. Owner and Environment tags required
-Network       Private endpoints required. Private DNS zones are in the hub
-Identity      Access through Entra groups. Pipelines use a managed identity
-Monitoring    Logs go to the central Log Analytics workspace
-```
-
-✅ **Figure: Good example - The answers are in the repo before the design starts**
+    Subscription  Northwind-Production. Contributor on the resource group only
+    Policies      Australia East only. Owner and Environment tags required
+    Network       Private endpoints required. Private DNS zones are in the hub
+    Identity      Access through Entra groups. Pipelines use a managed identity
+    Monitoring    Logs go to the central Log Analytics workspace
+    ```
+  </>}
+  figurePrefix="good"
+  figure="The answers are in the repo before the design starts"
+/>
