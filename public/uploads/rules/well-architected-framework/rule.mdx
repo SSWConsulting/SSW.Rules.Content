@@ -92,3 +92,36 @@ Just like Agile, this is intended to be applied for continuous improvement throu
   figure="WAF is very visible to the Product Owner on the backlog"
   src="/uploads/rules/well-architected-framework/waf-tech-debt-backlog-northwind.png"
 />
+
+### Review at the start and before go-live
+
+One review at the end finds problems when it is too late to fix them. Do it at least twice:
+
+1. **At the start** - Review the design before you build, while a gap is still cheap to fix
+2. **Before go-live** - Review what was built. Microsoft has a [Go-Live | Well-Architected Review](https://learn.microsoft.com/en-us/assessments/b0f9a229-5f82-4f19-ae61-b7be31131f4e/) for this
+3. **Save a milestone each time** - The next review then shows what improved and what is still open
+
+For an AI project, also do the [Azure Well-Architected AI workload](https://learn.microsoft.com/en-us/assessments/ea306cce-c7fa-4a2b-89a6-bfefba6a9cf4/) assessment.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Sprint | What happens |
+    | --- | --- |
+    | 12 | First Well-Architected Review, one week before go-live. It finds "single region, no failover". Go-live goes ahead. There is no time to change the design |
+  </>}
+  figurePrefix="bad"
+  figure="The only review is at the end, so the findings come too late"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Sprint | What happens |
+    | --- | --- |
+    | 1 | Review of the design. Milestone "Design". "Single region, no failover" goes on the backlog as a PBI |
+    | 12 | Go-Live review. Milestone "Before go-live". The score is compared with Sprint 1 |
+  </>}
+  figurePrefix="good"
+  figure="Reviewed at the start and before go-live, with a milestone each time"
+/>
