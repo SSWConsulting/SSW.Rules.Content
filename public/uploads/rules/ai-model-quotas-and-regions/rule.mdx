@@ -23,11 +23,14 @@ That's why you should **check model availability and quota before the design is 
 
 <endIntro />
 
-```text
-InsufficientQuota: This operation require 120 new capacity in quota Tokens Per Minute (thousands) - gpt-4o, which is bigger than the current available capacity 30. The current quota usage is 270 and the quota limit is 300 for quota Tokens Per Minute (thousands) - gpt-4o.
-```
-
-❌ **Figure: Bad example - The deployment fails because the app needs more quota than the subscription has left**
+<boxEmbed
+  style="greybox"
+  body={<>
+    InsufficientQuota: This operation require 120 new capacity in quota Tokens Per Minute (thousands) - gpt-4o, which is bigger than the current available capacity 30. The current quota usage is 270 and the quota limit is 300 for quota Tokens Per Minute (thousands) - gpt-4o.
+  </>}
+  figurePrefix="bad"
+  figure="The deployment fails because the app needs more quota than the subscription has left"
+/>
 
 <imageEmbed
   src="/uploads/rules/ai-model-quotas-and-regions/foundry-quota.png"
