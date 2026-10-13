@@ -45,17 +45,27 @@ Deallocate the VM (e.g. with `az vm deallocate`) so its status reads **Stopped (
   src="/uploads/rules/do-you-shutdown-vms-when-you-no-longer-need-them/Azure.jpg"
 />
 
-```text
-northwind-dev-vm     Status: Stopped
-```
+<boxEmbed
+  style="greybox"
+  body={<>
+    | VM | Status |
+    | --- | --- |
+    | northwind-dev-vm | Stopped |
+  </>}
+  figurePrefix="bad"
+  figure="Shut down from inside Windows. The VM is still allocated, so the compute is still billed"
+/>
 
-❌ **Figure: Bad example - Shut down from inside Windows. The VM is still allocated, so the compute is still billed**
-
-```text
-northwind-dev-vm     Status: Stopped (deallocated)
-```
-
-✅ **Figure: Good example - Deallocated with az vm deallocate. The compute is no longer billed**
+<boxEmbed
+  style="greybox"
+  body={<>
+    | VM | Status |
+    | --- | --- |
+    | northwind-dev-vm | Stopped (deallocated) |
+  </>}
+  figurePrefix="good"
+  figure="Deallocated with az vm deallocate. The compute is no longer billed"
+/>
 
 ## Idle dev and test resources still cost money
 
