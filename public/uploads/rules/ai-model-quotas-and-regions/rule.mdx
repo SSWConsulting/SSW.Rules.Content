@@ -24,23 +24,19 @@ That's why you should **check model availability and quota before the design is 
 <endIntro />
 
 ```text
-AI model:  gpt-5.5
-Region:    Australia East
-Data:      prompts must stay in Asia Pacific
+InsufficientQuota: This operation require 120 new capacity in quota Tokens Per Minute (thousands) - gpt-4o, which is bigger than the current available capacity 30. The current quota usage is 270 and the quota limit is 300 for quota Tokens Per Minute (thousands) - gpt-4o.
 ```
 
-❌ **Figure: Bad example - Nobody checked. In October 2026, Australia East offers gpt-5.5 only as Global Standard, which can process prompts in any Azure region**
+❌ **Figure: Bad example - The deployment fails because the app needs more quota than the subscription has left**
 
-```text
-AI model:         gpt-5.4-mini
-Deployment type:  Data Zone Standard, Australia East
-Prompts stay in:  Asia Pacific
-Peak load:        120K tokens per minute
-Quota:            300K tokens per minute on the Northwind-Production subscription
-Checked:          12 Oct 2026
-```
-
-✅ **Figure: Good example - Model, deployment type and quota are checked and written into the design**
+<imageEmbed
+  src="/uploads/rules/ai-model-quotas-and-regions/foundry-quota.png"
+  alt="Foundry portal, Quota page for one subscription. The row for gpt-4o, Standard, Australia East reads 20K of 1.02M TPM"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The Quota page in the Foundry portal shows how much of each model you can use in each region"
+/>
 
 ## Check these before the design is final
 
