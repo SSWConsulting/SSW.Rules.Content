@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you wait until your changes are live before marking a task as Done?
+title: Do you wait until changes are live before sending 'Done'?
 seoDescription: Only mark a task as Done once your changes are approved, deployed, and verified live, so others can check them and trust your Done messages.
 guid: df311d64-4392-4b0d-816a-4208282a6d7d
 uri: ensure-changes-are-live-before-done
@@ -54,32 +54,32 @@ Marking a task as Done too early can cause several problems:
 
 ## Steps to take before sending a Done
 
-* **Get approval** - Ensure all required approvals have been received
-* **Confirm the release** - Verify the changes have been merged or released
-* **Check deployment** - Wait for the deployment pipeline to complete successfully
-* **Verify production** - Open the production URL and confirm the changes are visible and working as expected
-* **Send your Done** - Include the final URL so others can easily verify the changes
+1. **Get approval** - Ensure all required approvals have been received
+2. **Confirm the release** - Verify the changes have been merged or released
+3. **Check deployment** - Wait for the deployment pipeline to complete successfully
+4. **Verify production** - Open the production URL and confirm the changes are visible and working as expected
+5. **Send your Done** - Include the final URL so others can easily verify the changes
 
 ## Use clear status wording for unfinished work
 
 If your work is not yet live, communicate its current status instead of calling it Done. This keeps stakeholders informed without giving the impression that the task is complete.
 
-Use wording such as:
+[Use emojis](/use-emojis) and wording such as:
 
-* **In Progress** - The changes are still being worked on
-* **Pending Review** - The changes are ready for review, but have not yet been approved
-* **Pending Approval** - The work requires approval before it can proceed
-* **Pending Merge** - The PR has been approved but has not yet been merged
-* **Pending Deployment** - The changes have been merged but are not yet live
-* **Pending Verification** - The changes have been deployed but still need to be checked in production
-* **Blocked** - The work cannot proceed until an issue or dependency is resolved
+* 👀 **In Progress** - The changes are still being worked on
+* 👀 **Pending Review** - The changes are ready for review, but have not yet been approved
+* 👀 **Pending Approval** - The work requires approval before it can proceed
+* 👀 **Pending Merge** - The PR has been approved but has not yet been merged
+* 👀 **Pending Deployment** - The changes have been merged but are not yet live
+* 👀 **Pending Verification** - The changes have been deployed but still need to be checked in production
+* 🚫 **Blocked** - The work cannot proceed until an issue or dependency is resolved
 
 <boxEmbed
   style="greybox"
   body={<>
-    Status: Pending Approval
+    **Status:** 👀 Pending Approval
 
-PR: github&#46;com/northwind/website/pull/123
+**PR:** github&#46;com/northwind/website/pull/123
 
 The changes are ready and awaiting approval. I will send a Done once they are deployed and verified.
   </>}
