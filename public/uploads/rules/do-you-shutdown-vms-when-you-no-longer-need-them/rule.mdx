@@ -12,9 +12,13 @@ lastUpdated: 2021-04-22 23:39:26.345000+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+related:
+- rule: public/uploads/rules/reduce-azure-costs/rule.mdx
+- rule: public/uploads/rules/ephemeral-environments/rule.mdx
+- rule: public/uploads/rules/azure-budgets/rule.mdx
 seoDescription: Shutting down Azure VMs when no longer needed prevents compute charges
   and minimizes costs.
-title: Do you shutdown VM's when you no longer need them?
+title: Do you shut down dev and test resources when you no longer need them?
 categories:
   - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
 type: rule
@@ -29,7 +33,7 @@ Shutting down the VM will prevent compute charges from incurring. There is still
 
 Please note that is for [Visual Studio subscriptions](https://azure.microsoft.com/en-us/services/developer-tools/visual-studio-subscriptions/?WT.mc_id=AZ-MVP-33518).
 
-You can shutdown the VM by either making a remote desktop connection to the VM and shutdown server or using Azure portal to shutdown the VM.
+Deallocate the VM (e.g. with `az vm deallocate`) so its status reads **Stopped (deallocated)**. Shutting down from inside the VM leaves it **Stopped**, and Azure [still bills the compute](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing). Set [auto-shutdown](https://learn.microsoft.com/en-us/azure/virtual-machines/auto-shutdown-vm) so dev VMs stop on their own after hours.
 
 
 <imageEmbed
@@ -40,3 +44,37 @@ You can shutdown the VM by either making a remote desktop connection to the VM a
   figure="Azure Portal"
   src="/uploads/rules/do-you-shutdown-vms-when-you-no-longer-need-them/Azure.jpg"
 />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | VM | Status |
+    | --- | --- |
+    | northwind-dev-vm | Stopped |
+  </>}
+  figurePrefix="bad"
+  figure="Shut down from inside Windows. The VM is still allocated, so the compute is still billed"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | VM | Status |
+    | --- | --- |
+    | northwind-dev-vm | Stopped (deallocated) |
+  </>}
+  figurePrefix="good"
+  figure="Deallocated with az vm deallocate. The compute is no longer billed"
+/>
+
+## Idle dev and test resources still cost money
+
+Dev and test environments are used during work hours and billed around the clock. Each service stops costing money in a different way:
+
+| Resource | How to stop paying while it is idle |
+| --- | --- |
+| App Service | Scale the plan down to the Free tier, or delete it. The plan is charged even with no apps in it |
+| Container Apps | Set the minimum replicas to 0. At zero replicas there are no usage charges |
+| Azure SQL Database | Use the serverless tier with auto-pause. While it is paused, only storage is billed |
+| Azure AI Search | It cannot be paused. On the Dedicated model you must delete the service to stop the bill |
+| AI model deployments | Pay-per-token deployments are only charged when called. Provisioned and fine-tuned deployments are billed by the hour whether they are used or not, so delete them |
