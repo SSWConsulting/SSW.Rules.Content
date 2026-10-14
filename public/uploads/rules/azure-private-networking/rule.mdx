@@ -6,7 +6,7 @@ categories:
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 authors:
   - title: Ben Neoh
-    url: 'https://ssw.com.au/people/ben-neoh'
+    url: 'https://www.ssw.com.au/people/ben-neoh'
 related:
   - rule: public/uploads/rules/cloud-architect/rule.mdx
   - rule: public/uploads/rules/separate-networks/rule.mdx
@@ -70,6 +70,46 @@ If full private networking is too costly or complex for the workload, consider w
 For example, with Azure SQL Database, you can restrict access using firewall rules instead of immediately using a Private Endpoint. This can be useful for lower-risk workloads where you only need to allow access from known IP addresses or controlled Azure resources.
 
 This middle-ground approach can reduce cost and complexity, but it is not the same as full private networking. Choose based on the security requirements of your workload.
+
+## 🤖 AI apps
+
+An AI app sends prompts and documents to a model and a search index, and that is often where the sensitive data is. By default the model resource accepts connections from any network.
+
+* **Cover every service the data touches** - The Microsoft Foundry (or Azure OpenAI) resource, Azure AI Search, and the storage that holds the documents
+* **Decide before you build** - Outbound networking can't be added to an existing Foundry deployment. You have to redeploy
+* **Check the features you need** - Some Foundry agent tools only partly support network isolation
+* **Budget for Azure AI Search** - Private endpoints need the Basic tier or higher
+
+```bicep
+// Foundry resource (Microsoft.CognitiveServices/accounts)
+properties: {
+  publicNetworkAccess: 'Enabled'
+}
+```
+
+❌ **Figure: Bad example - The model accepts connections from any network**
+
+```bicep
+properties: {
+  publicNetworkAccess: 'Enabled'
+  networkAcls: {
+    defaultAction: 'Deny'
+    ipRules: [
+      { value: '203.0.113.10' }
+    ]
+  }
+}
+```
+
+🙂 **Figure: OK example - The middle ground: only the office IP address can reach the model**
+
+```bicep
+properties: {
+  publicNetworkAccess: 'Disabled'
+}
+```
+
+✅ **Figure: Good example - Public access is off, so the model is only reachable through its private endpoint**
 
 ## ✅ Recommendation – When to use Azure Private Networking
 
