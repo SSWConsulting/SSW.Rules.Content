@@ -1,20 +1,27 @@
 ---
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2024-05-29 18:15:42.034000+00:00
-guid: 1b2a81d8-2738-4274-9eab-0ae4e0d010f5
-related:
-- rule: public/uploads/rules/update-or-delete-mistakes/rule.mdx
-- rule: public/uploads/rules/email-send-a-v2/rule.mdx
-seoDescription: Ensure clear communication and collaboration in IM chats by notifying
-  others when updating messages. Promote transparency, avoid confusion, and keep everyone
-  informed for smoother workflows.
+type: rule
 title: Do you notify others when changing a chat message?
+uri: inform-others-about-chat-message-updates
 categories:
   - category: categories/communication/rules-to-better-im.mdx
-type: rule
-uri: inform-others-about-chat-message-updates
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/update-or-delete-mistakes/rule.mdx
+  - rule: public/uploads/rules/email-send-a-v2/rule.mdx
+  - rule: public/uploads/rules/meaningful-chat-reactions/rule.mdx
+  - rule: public/uploads/rules/separate-messages/rule.mdx
+guid: 1b2a81d8-2738-4274-9eab-0ae4e0d010f5
+seoDescription: 'Ensure clear communication and collaboration in IM chats by notifying others when updating messages. Promote transparency, avoid confusion, and keep everyone informed for smoother workflows.'
+created: 2024-05-29T18:15:42.034Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-14T00:25:51.007Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 Editing a chat message is useful for fixing mistakes or clarifying information. However, changing a message after someone has read or reacted to it can cause confusion.
@@ -41,7 +48,7 @@ When making a **meaningful change**, make sure others know about it. If someone 
   figure=""
 />
 
-## Notify others when you make a meaningful change
+### Notify others when you make a meaningful change
 
 If you edit a message that changes its meaning, instructions, or important details, send a follow-up message explaining what changed.
 
@@ -51,39 +58,36 @@ For example, imagine you send a message asking someone to review a PR, but later
   style="greybox"
   body={<>
     **Original message:**
-
-The PR is ready for review. Please take a look.
-
-github&#46;com/Northwind/pull/1234
-
-**Edited message:**
-
-The PR is not ready for review yet. Please wait until the build passes.
-
-github&#46;com/Northwind/pull/1234
+    
+    > The PR is ready for review. Please take a look.\
+    > github.com/Northwind/pull/1234
+    
+    **Edited message:**
+    
+    > The PR is not ready for review yet. Please wait until the build passes.\
+    > github.com/Northwind/pull/1234
   </>}
   figurePrefix="bad"
-  figure="❌ Bad example - The message was silently edited, so someone who read the original may start reviewing a PR that is not ready"
+  figure="The message was silently edited, so someone who read the original may start reviewing a PR that is not ready"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
     **Edited message:**
-
-The PR is not ready for review yet. Please wait until the build passes.
-
-github&#46;com/Northwind/pull/1234
-
-**New message:**
-
-Updated my message above. The PR is not ready for review yet. Please wait until the build passes.
+    
+    > The PR is not ready for review yet. Please wait until the build passes.\
+    > github.com/Northwind/pull/1234
+    
+    **New message:**
+    
+    > Updated my message above. The PR is **not** ready for review yet. Please wait until the build passes.
   </>}
   figurePrefix="good"
-  figure="✅ Good example - A follow-up message makes the change visible and explains why the original instructions no longer apply"
+  figure="A follow-up message makes the change visible and explains why the original instructions no longer apply"
 />
 
-## Never change the meaning of a message after someone has reacted
+### Never change the meaning of a message after someone has reacted
 
 A reaction, such as a 👍, is feedback on the message as it was originally written.
 
@@ -93,36 +97,39 @@ If you change the meaning of that message afterward, the reaction may appear to 
   style="greybox"
   body={<>
     **Original message:**
-
-In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
-
-👍 Adam reacted
-
-**Edited message:**
-
-Edited - In my summary video, is my work on TinaCMS worth mentioning?
-
-👍 Adam reacted
+    
+    > In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
+    👍 Adam's reaction
+    
+    **Edited message:**
+    
+    > Edited - In my summary video, is my work on TinaCMS worth mentioning?
+    
+    👍 Adam's reaction
   </>}
   figurePrefix="bad"
-  figure="❌ Bad example - Editing the question changes what Adam's 👍 appears to mean, even though he may have been agreeing that the TinaCMS work should be omitted"
+  figure="Editing the ambiguous question can change Adam's 👍 intention (e.g. Adam may have agreed that the TinaCMS work should be omitted"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
     **Original message (unchanged):**
-
-In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
-
-👍 Adam reacted
-
-**New message:**
-
-v2
-
-In my summary video, is my work on TinaCMS worth mentioning?
+    
+    > In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
+    👍 Adam's reaction
+    
+    **New messages:**
+    
+    > v2 (separated messages as per [https://www.ssw.com.au/rules/separate-messages](https://www.ssw.com.au/rules/separate-messages))\
+    > \
+    > In my summary video, is my work on TinaCMS worth mentioning?
+    
+    > OR\
+    > Should I omit it based on most interns not having that option?
   </>}
   figurePrefix="good"
-  figure="✅ Good example - The original question and reaction are preserved, while a new v2 message asks an unambiguous question"
+  figure="The original question is preserved, while a new v2 allows Adam to react to the correct option"
 />
