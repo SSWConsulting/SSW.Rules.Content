@@ -1,0 +1,105 @@
+---
+title: Have you used Microsoft 365 Copilot?
+uri: microsoft-365-copilot
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+authors:
+  - title: Rob Thomlinson
+    url: 'https://www.ssw.com.au/people/rob-thomlinson'
+guid: 5b345c2c-7169-4ef6-ba28-5f468aecca4c
+seoDescription: 'Test Microsoft 365 Copilot on real work with copy-and-paste example prompts for Teams, Outlook, Word, Excel and Copilot Chat.'
+created: 2026-10-13T22:25:17.420Z
+createdBy: Rob Thomlinson
+createdByEmail: RobThomlinson@ssw.com.au
+lastUpdated: 2026-10-14T05:45:57.988Z
+lastUpdatedBy: Rob Thomlinson
+lastUpdatedByEmail: RobThomlinson@ssw.com.au
+---
+
+Your company has Microsoft 365 Copilot licences, and half the team tried it once. They typed "help me with this email", got a bland answer, and went back to doing it by hand.
+
+The fix is a better prompt. Tell Copilot what you want and where to look, then test it on work you'd be doing anyway. The prompts below are a starting point for each app.
+
+<endIntro />
+
+## Why should you test Microsoft 365 Copilot on real work?
+
+Copilot can see your emails, meetings, chats and files (only what you already have access to). A generic prompt ignores all of that.
+
+* **Catch up fast** - Summarise the meeting you missed instead of scrubbing through the recording
+* **Find the lost document** - Locate the file someone shared in a chat three weeks ago
+* **Skip the blank page** - Get a first draft to edit instead of starting from nothing
+
+## What prompts can you use to test it?
+
+A good prompt has 4 parts: a **goal**, some **context**, a **source** and your **expectations**. The goal is required, and the rest make the answer better. See [Microsoft's guide to Copilot prompts](https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5) for the full framework.
+
+### Teams
+
+```
+Summarise the meeting I missed yesterday. List the decisions and action items, with an owner for each.
+```
+
+### Outlook
+
+```
+Create a table of tasks I need to complete from my emails over the past week. Include who asked and the due date. Keep it concise.
+```
+
+### Word
+
+```
+Draft a one-page project update for {{ CLIENT_NAME }} based on {{ FILE_NAME }}. Use a friendly, professional tone with 3 headings.
+```
+
+### Excel
+
+```
+Analyse this table and tell me the 3 biggest trends in plain English. Show a chart for the biggest one.
+```
+
+### Copilot Chat
+
+```
+What did {{ PERSON_NAME }} and I last agree on for {{ PROJECT_NAME }}? Check my emails and Teams chats from the last month.
+```
+
+## What else can you test beyond the Basics?
+
+Once the basics work, try the features that go further than chat.
+
+### Researcher agent
+
+Researcher takes a few minutes to search the web and your work data, then writes a report with sources. Use it when a quick chat answer isn't enough.
+
+```
+Research how {{ TOPIC }} is handled in our emails, Teams chats and SharePoint files from the last 3 months. Give me a one-page report with sources.
+```
+
+### Copilot Notebooks
+
+Pin files, meeting notes and links in one place, then prompt across all of them. This tests whether Copilot sticks to your content.
+
+```
+Using only the items in this notebook, summarise the open risks for {{ PROJECT_NAME }} and list who owns each one.
+```
+
+### Copilot Search
+
+Use it for a document you know exists but can't find. You get an answer plus the source file.
+
+```
+Find the proposal {{ PERSON_NAME }} sent about {{ CLIENT_NAME }} last quarter. Show me the file and who it was shared with.
+```
+
+## How do you check Copilot's answer?
+
+* **Open the citations** - Click the reference links and confirm the source says what Copilot claims
+* **Spot check the numbers** - Copilot can misread a table, so recalculate one or two totals
+* **Follow up instead of starting again** - Reply with "make it shorter" or "use only the Teams chat"
+
+### Learn more
+
+* [Learn about Copilot prompts](https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5) - Microsoft's goal, context, source and expectations framework
+* [Write effective prompts to achieve optimal results](https://learn.microsoft.com/en-us/training/modules/write-effective-prompts-do-more-prompting) - Free Microsoft Learn module covering the Prompt Gallery
+* [Microsoft 365 Copilot documentation](https://learn.microsoft.com/en-us/microsoft-365/copilot/) - Setup, licensing and app-by-app guidance
