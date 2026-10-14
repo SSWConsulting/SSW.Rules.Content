@@ -19,7 +19,7 @@ seoDescription: 'Ensure clear communication and collaboration in IM chats by not
 created: 2024-05-29T18:15:42.034Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-10-14T00:25:51.007Z
+lastUpdated: 2026-10-14T01:38:02.711Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -57,14 +57,16 @@ For example, imagine you send a message asking someone to review a PR, but later
 <boxEmbed
   style="greybox"
   body={<>
-    **Original message:**
-
-    The PR is ready for review. Please take a look.\
+    **Original message**
+    
+    **Dave:** The PR is ready for review. Please take a look.\
     github.com/Northwind/pull/1234
-
-    **Edited message:**
-
-    The PR is not ready for review yet. Please wait until the build passes.\
+    
+    ***
+    
+    **Edited message**
+    
+    **Dave:** The PR is not ready for review yet. Please wait until the build passes.\
     github.com/Northwind/pull/1234
   </>}
   figurePrefix="bad"
@@ -74,14 +76,16 @@ For example, imagine you send a message asking someone to review a PR, but later
 <boxEmbed
   style="greybox"
   body={<>
-    **Edited message:**
-
-    The PR is not ready for review yet. Please wait until the build passes.\
+    **Edited message**
+    
+    **Dave:** The PR is not ready for review yet. Please wait until the build passes.\
     github.com/Northwind/pull/1234
-
-    **New message:**
-
-    Updated my message above. The PR is **not** ready for review yet. Please wait until the build passes.
+    
+    ***
+    
+    **New message**
+    
+    **Dave:** Updated my message above. The PR is **not** ready for review yet. Please wait until the build passes.
   </>}
   figurePrefix="good"
   figure="A follow-up message makes the change visible and explains why the original instructions no longer apply"
@@ -96,16 +100,18 @@ If you change the meaning of that message afterward, the reaction may appear to 
 <boxEmbed
   style="greybox"
   body={<>
-    **Original message:**
-
-    In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
-
+    **Original message**
+    
+    **Dave:** In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
     👍 Adam's reaction
-
-    **Edited message:**
-
-    Edited - In my summary video, is my work on TinaCMS worth mentioning?
-
+    
+    ***
+    
+    **Edited message**
+    
+    **Dave:** Edited - In my summary video, is my work on TinaCMS worth mentioning?
+    
     👍 Adam's reaction
   </>}
   figurePrefix="bad"
@@ -115,19 +121,21 @@ If you change the meaning of that message afterward, the reaction may appear to 
 <boxEmbed
   style="greybox"
   body={<>
-    **Original message (unchanged):**
-
-    In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
-
+    **Original message (unchanged)**
+    
+    **Dave:** In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
     👍 Adam's reaction
-
-    **New messages:**
-
-    v2 (separated messages as per [https://www.ssw.com.au/rules/separate-messages](https://www.ssw.com.au/rules/separate-messages))\
+    
+    ***
+    
+    **New messages**
+    
+    **Dave:** v2 (separated messages as per [https://www.ssw.com.au/rules/separate-messages](https://www.ssw.com.au/rules/separate-messages))\
     \
     In my summary video, is my work on TinaCMS worth mentioning?
-
-    OR\
+    
+    **Dave:** OR\
     Should I omit it based on most interns not having that option?
   </>}
   figurePrefix="good"
