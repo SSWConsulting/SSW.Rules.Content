@@ -1,0 +1,96 @@
+---
+type: rule
+title: Do you add Business Value to your PBIs with AI and telemetry?
+seoDescription: Have an AI agent read your product's usage and error data for each PBI, draft its Business Value with the evidence beside it, and let the Product Owner approve every value.
+guid: b053c6f6-a488-42b8-bf43-469456f3483e
+uri: add-business-value-with-ai-and-telemetry
+created: 2026-10-15T04:07:00.000Z
+authors:
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+related:
+  - rule: public/uploads/rules/do-you-estimate-business-value/rule.mdx
+  - rule: public/uploads/rules/use-ai-manage-backlog/rule.mdx
+  - rule: public/uploads/rules/have-a-definition-of-ready/rule.mdx
+  - rule: public/uploads/rules/analyse-your-web-application-usage-with-application-insights/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-product-owners.mdx
+  - category: categories/project-delivery/rules-to-better-scrum.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most backlogs have an Effort estimate on every PBI and an empty Business Value field. Product Owners are busy, and scoring hundreds of items by hand takes hours. When they do score them, the number often reflects who asked loudest rather than how many people the change helps.
+
+Your product already records how people use it. An AI agent can read that telemetry for each PBI, count the people the change affects, and draft the Business Value with the evidence beside it. The Product Owner approves the number.
+
+<endIntro />
+
+## A value without evidence is a guess
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Business Value:** 8
+  </>}
+  figurePrefix="bad"
+  figure="A number with no reason, so nobody can tell whether it came from data or a hunch"
+/>
+
+The team cannot challenge a number like this, and it goes stale as usage changes.
+
+## Have the agent gather the evidence
+
+For each PBI, the agent:
+
+1. Works out which screen, route or event the PBI touches, from the issue and the code
+2. Queries your analytics (such as PostHog or [Application Insights](/analyse-your-web-application-usage-with-application-insights)) for 30 days of events and distinct users on it
+3. Queries your error tracking or logs for failures in the same area
+4. Drafts a Business Value with a one-line reason and a confidence level
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Example Prompt:** "For each PBI in Needs Triage, find the screen or event it affects. Query PostHog for 30 days of events and distinct users there, and the error logs for failures in that area. Draft a Business Value with a one-line reason and a confidence level, and write the drafts to a file. Do not change the board."
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<imageEmbed
+  alt="A PBI with its Priority row showing 9,030 PostHog events from 807 users in 30 days, a one-line summary, and a suggested Medium priority"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The agent counted the editors who use the create-document screen and drafted Medium, with the usage beside it"
+  src="/uploads/rules/add-business-value-with-ai-and-telemetry/business-value-from-usage.png"
+/>
+
+Teams record value in different ways. Some use a number on the [doubling scale](/do-you-estimate-business-value), and some use a priority level such as Urgent, High, Medium or Low. Have the agent draft whichever your board uses.
+
+## Mark the items the data cannot answer
+
+Some PBIs leave no trace in telemetry. A silent failure logs nothing, a new feature has no users yet, and a request from one large customer looks small in the numbers. Have the agent say so and mark its confidence low, instead of stretching an unrelated number to fit.
+
+Flag these as a Product Owner call. They are where the Product Owner's judgement matters most.
+
+## The Product Owner approves every value
+
+The agent writes drafts to a file and leaves the board alone. The Product Owner accepts each value, picks a different one, or skips the PBI, and only approved values reach the board.
+
+Telemetry counts how many people a change reaches. The Product Owner knows about the contract that renews next month and the feature marketing announced last week, so they make the final call.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** With Effort and Business Value on every PBI, you can sort the backlog by ROI. See [Do you estimate “Business Value”?](/do-you-estimate-business-value)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Example: Backlog Refinery
+
+[Backlog Refinery](https://github.com/kulesy/agentic-scrum-master-kit/tree/main/backlog-refinery) is a small Node app that shows the PBIs on a GitHub Projects board one at a time. An agent pass writes the usage and error counts for each PBI to a file, and the app shows them beside the drafted priority. The Product Owner accepts the draft or picks another level. The app never writes to GitHub, and a Claude Code session applies the approved values afterwards.
+
+The TinaCMS team used it to gather usage and error evidence for 500 PBIs.
