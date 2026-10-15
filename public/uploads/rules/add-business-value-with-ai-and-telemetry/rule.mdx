@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you add Business Value to your PBIs with AI and telemetry?
-seoDescription: Have an AI agent read your product's usage and error data for each PBI, draft its Business Value with the evidence beside it, and let the Product Owner approve every value.
+seoDescription: Have an AI agent draft each PBI's Business Value from your product's usage and error data, with the evidence beside it, for the Product Owner to approve.
 guid: b053c6f6-a488-42b8-bf43-469456f3483e
 uri: add-business-value-with-ai-and-telemetry
 created: 2026-10-15T04:07:00.000Z
@@ -51,22 +51,22 @@ For each PBI, the agent:
 <boxEmbed
   style="greybox"
   body={<>
-    **Example Prompt:** "For each PBI in Needs Triage, find the screen or event it affects. Query PostHog for 30 days of events and distinct users there, and the error logs for failures in that area. Draft a Business Value with a one-line reason and a confidence level, and write the drafts to a file. Do not change the board."
+    **Example Prompt:** "For each PBI in the backlog, find the screen or event it affects. Query PostHog for 30 days of events and distinct users there, and the error logs for failures in that area. Draft a Business Value with a one-line reason and a confidence level, and write the drafts to a file. Do not change the board."
   </>}
   figurePrefix="none"
   figure=""
 />
 
+Teams record value in different ways. Some use a number on the [doubling scale](/do-you-estimate-business-value), and some use a priority level such as Urgent, High, Medium or Low. Have the agent draft whichever your board uses.
+
 <imageEmbed
-  alt="A PBI with its Priority row showing 9,030 PostHog events from 807 users in 30 days, a one-line summary, and a suggested Medium priority"
+  alt="A PBI's Priority row showing 9,030 PostHog events from 807 users in 30 days, a one-line summary, and a suggested Medium priority at medium confidence"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="The agent counted the editors who use the create-document screen and drafted Medium, with the usage beside it"
+  figure="This board uses priority levels, so the agent counted the editors who use the create-document screen and drafted Medium, with the usage beside it"
   src="/uploads/rules/add-business-value-with-ai-and-telemetry/business-value-from-usage.png"
 />
-
-Teams record value in different ways. Some use a number on the [doubling scale](/do-you-estimate-business-value), and some use a priority level such as Urgent, High, Medium or Low. Have the agent draft whichever your board uses.
 
 ## Mark the items the data cannot answer
 
