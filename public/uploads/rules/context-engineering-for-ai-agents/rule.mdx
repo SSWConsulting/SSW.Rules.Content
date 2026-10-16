@@ -14,12 +14,14 @@ seoDescription: 'Learn the 4 ways an AI agent''s context goes bad (poisoning, di
 created: 2026-10-16T04:49:24.341Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-10-16T05:19:04.487Z
+lastUpdated: 2026-10-16T05:19:58.318Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
 
-Intro
+Your AI agent has spent an hour migrating a codebase to a new database driver. Early on, it skimmed the driver docs and wrote itself a note: the new driver retries failed connections, so the old retry code can go. The note is wrong. The agent trusts it anyway and deletes working retry code from every file it touches.
+
+Context engineering is deciding what goes into an agent's context window at each step. Bigger windows don't fix this. Frontier models get less reliable as their window fills, a problem known as context rot. The fix is counter-intuitive: you make the agent better by giving it less.
 
 <endIntro />
 
