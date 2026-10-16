@@ -1,0 +1,84 @@
+---
+type: rule
+title: Do you use AI to generate useful dashboards with insights?
+seoDescription: Use AI to build a branded dashboard on trusted data, show whether each change is real, and bring AI back on a schedule for a few clear insights.
+guid: 07c29b1f-9d02-4d39-ad94-a97379f12460
+uri: ai-dashboards-with-insights
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/forecasts-in-ai-dashboards/rule.mdx
+  - rule: public/uploads/rules/track-ai-cost-by-total-and-unit/rule.mdx
+  - rule: public/uploads/rules/use-chatgpt-to-generate-charts/rule.mdx
+  - rule: public/uploads/rules/ai-critique-reports-dashboards/rule.mdx
+  - rule: public/uploads/rules/ai-with-design-system/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/ai-database-access/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI assistant builds an operations dashboard in an afternoon, and it looks finished. Then the support lead asks where the 77% accuracy figure came from, and nobody can answer: which system, how many checks, or whether the AI worked it out when the page loaded. The AI commentary underneath has already recommended a rollback.
+
+That's why you should **use AI to build the dashboard on trusted data, show whether each change is real, and bring AI back on a schedule for insights**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/ai-dashboards-with-insights/northwind-ai-dashboard-bad-generic-and-untraceable.png"
+  alt="A generic dark purple AI Insights Dashboard updated 'just now' with no sources or data dates. Accuracy shows 77% with a red down arrow and no count, customer satisfaction shows 0.0 stars from 0 ratings, and an AI insight blames release v2.39 and suggests rolling back."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="77% with no count or source, 0 ratings read as a satisfaction crisis, and the drop blamed on v2.39, with a rollback recommended and no evidence shown"
+/>
+
+<imageEmbed
+  src="/uploads/rules/ai-dashboards-with-insights/northwind-ai-dashboard-good-trusted-data-and-insights.png"
+  alt="A Northwind Traders dashboard in company branding. Three tiles each show a count and percentage, a status chip, last week's figure and a source with its data date. Below, an AI insights panel with its own refresh time and a source line under each insight, with source figures highlighted grey and AI-classified counts marked with a star. Beside it, chat themes AI-classified from 301 Helpdesk chats with their data date and a spot-check result, and a note that the customer ratings feed is paused."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="47/61 against 55/64 is 'No clear change yet', shown with its source and data age. Insights carry their own refresh time and sources, and a person agreed with 19 of 20 AI classifications"
+/>
+
+## Build for one audience, in your own branding
+
+Start with one audience and the few questions they need answered, not "show all our data".
+
+Give the model your design system (colours, type, header, product names) so the dashboard looks like your company, not a generic AI page. See [Do you use AI to speed up frontend design?](/ai-with-design-system).
+
+## Connect trusted sources, then run without AI
+
+Every tile reads straight from a trusted source: the database, a system API, a billing export or an approved report. No hard-coded figures, numbers typed into a prompt, or model estimates posing as actuals. Each number shows its source and data age. To check the wiring, pick a range you know has different records, refresh, and compare the result with the source.
+
+Tools such as [Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards) connect to your data warehouse and show the query and last refresh behind each chart, so you can check what every tile counts.
+
+Opening or refreshing the dashboard makes no AI call, so the page stays fast, cheap and consistent, even when the AI service is down. If a feed stops, say so. Northwind's customer ratings feed paused on 2 Sep, so the page shows a note, not a confident 0.0 stars.
+
+## Show whether a change is real
+
+Small weekly samples move a lot by chance, so the dashboard has to say when a change is clear:
+
+* **Show the count** - **47/61 · 77%**, not just 77%, so readers see how much evidence sits behind it
+* **Colour the change, not the level** - "Red under 80%" fires on noise. Colour a tile only when a [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) shows a clear change: support chat at 47/61 against last week's 55/64 is "No clear change yet", while descriptions rising from 30/50 to 44/52 is a "Clear rise"
+* **Mark relevant changes** - Label prompt, model, product or data changes that could move the metric, not every release
+
+## Bring AI back on a schedule for insights
+
+Schedule an AI run daily or weekly, matching how often someone acts on the numbers. It investigates what a query can't explain, then writes a few ranked insights saying what changed, why it matters and what to check next. Northwind's top insight says description acceptance rose after the 7 Oct prompt change.
+
+* **Date the insights** - The panel shows when AI last ran, apart from the live tiles
+* **Quote recorded figures** - AI uses figures from the sources and never invents actuals
+* **Label what AI derives** - Counts AI works out, such as sorting 301 chats into themes, are labelled and spot-checked by a person. See [Do you run evals on your AI features?](/run-evals-on-ai-features)
+* **Allow "no clear change yet"** - When the evidence is thin, AI must not invent a story or blame the nearest release
+
+## Add forecasts and cost when you need them
+
+* **Forecasts** - Backtest a forecast before it goes on the page. See [Do you use forecasts in AI dashboards?](/forecasts-in-ai-dashboards)
+* **AI cost** - Track total spend and the cost of each useful outcome. See [Do you track AI cost by total and by unit?](/track-ai-cost-by-total-and-unit)
