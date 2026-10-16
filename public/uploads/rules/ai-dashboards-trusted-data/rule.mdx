@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use capable AI to build dashboards, then let trusted data run them?
+title: Do you use AI to build dashboards?
 seoDescription: Have a capable AI model build a branded dashboard on trusted data, then bring it back on a schedule to refresh a few clear insights.
 guid: 07c29b1f-9d02-4d39-ad94-a97379f12460
 uri: ai-dashboards-trusted-data
@@ -63,6 +63,8 @@ Give the model your design system (colours, type, header, product names) so the 
 Every tile and chart reads straight from a trusted source: the database, a system API, a billing export or an approved report. No hard-coded figures, leftover placeholders, numbers typed into a prompt, or model estimates posing as actuals.
 
 Each number shows its source and data age, and every percentage has its count (**47/61 · 77%**). To check the wiring, pick a range you know has different records, refresh, and compare the result with the source.
+
+[Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards) builds this kind of dashboard from a data warehouse such as BigQuery or Snowflake, or from a connected app such as Salesforce. Each chart shows its query and when its data was last refreshed, so you can check that every query counts what its tile claims.
 
 Opening or refreshing the dashboard pulls new data and makes no AI call. The page stays fast, cheap and consistent between AI runs, even when the AI service is down. See [Do you monitor AI cost and usage?](/monitor-ai-cost-and-usage).
 
