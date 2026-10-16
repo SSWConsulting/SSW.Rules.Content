@@ -7,6 +7,8 @@ categories:
 authors:
   - title: Eddie Kranz
     url: 'https://www.ssw.com.au/people/eddie-kranz/'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 related:
   - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
   - rule: public/uploads/rules/best-ai-powered-ide/rule.mdx
@@ -14,8 +16,12 @@ related:
   - rule: public/uploads/rules/work-in-vertical-slices/rule.mdx
   - rule: public/uploads/rules/software-architecture-decision-tree/rule.mdx
   - rule: public/uploads/rules/bus-test/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
+  - rule: public/uploads/rules/review-ai-plans/rule.mdx
+  - rule: public/uploads/rules/review-implementation-plan-before-coding/rule.mdx
+  - rule: public/uploads/rules/ai-cli-tools/rule.mdx
 guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
-seoDescription: 'Learn the best practices for starting vibe coding to ensure your code is maintainable, passes the bus test, and follows professional standards using GitHub Copilot Workspaces and architecture templates.'
+seoDescription: 'Start vibe coding with a GitHub repository and an architecture template, then take each change from issue to reviewed plan to pull request.'
 created: 2025-11-21T04:05:21.000Z
 createdBy: Copilot
 createdByEmail: 198982749+Copilot@users.noreply.github.com
@@ -39,17 +45,17 @@ Vibe coding empowers non-developers to build software using AI agents. However, 
   style="info"
 />
 
-The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, and leverages existing AI guidance.
+The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, leverages existing AI guidance, and takes every change from an issue to a pull request.
 
 ## Getting started
 
-### ❌ Don't 
+### ❌ Don't
 
-Don't start coding on your local machine or in an unmanaged environment.
+Don't keep your code only on your local machine or in an unmanaged environment.
 
 ### ✅ Do
 
-Create a GitHub repository (e.g. in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting)) from the start. 
+Create a GitHub repository (e.g. in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting)) from the start.
 
 Starting your project in GitHub, specifically within your organization, ensures:
 
@@ -89,7 +95,6 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
 * Easier to understand for non-developers
 * AI guidance files pre-configured
 * Less ceremony than Clean Architecture for simpler projects
-* Faster to get started with
 
 <boxEmbed
   style="info"
@@ -104,7 +109,7 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
   style="greybox"
   body={<>
     **Which template should I use?**
-    
+
     * Choose **Clean Architecture** if you need more structure and guardrails
     * Choose **Vertical Slice Architecture** if you want to move fast and iterate quickly
   </>}
@@ -114,23 +119,40 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
 
 See the [software architecture decision tree](/software-architecture-decision-tree) for more guidance on choosing the right architecture.
 
-## Drive development from GitHub Copilot Workspaces
+## Drive each change from an issue
 
-Once your repository is set up with a template, use [GitHub Copilot Workspaces](https://githubnext.com/projects/copilot-workspace) to drive your development:
+Take every change through the same small loop:
 
-1. **Open your repository in GitHub Copilot Workspace** - This gives the AI full context of your codebase
-2. **Describe what you want to build** - Use natural language to explain your feature or change
-3. **Review the AI's plan** - The AI will propose changes based on your architecture template and existing code patterns
-4. **Let the AI implement** - Copilot Workspace will make the changes directly in your repository
-5. **Create a Pull Request** - Review the changes before merging to main
+1. **Start from an issue** - Describe one small change and its acceptance criteria. See [Do you use guardrails when vibe coding with AI?](/guardrails-for-vibe-coding)
+2. **Ask for a plan first** - Review it before any code is written, and have a developer check non-trivial plans. See [Do you review your AI coding plans?](/review-ai-plans) and [Do you get your implementation plan reviewed before you write the code?](/review-implementation-plan-before-coding)
+3. **Implement on a branch** - Never let the agent change main directly
+4. **Open a pull request** - Check it does what the issue asked, then have a developer review it before merging. See [Do you do AI-assisted development by vibe coding one bite at a time?](/ai-assisted-development-workflow)
+
+Pick a coding agent to work through the loop with you:
+
+* **[Copilot cloud agent](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/research-plan-iterate)** - Runs on GitHub.com with no local setup. Point it at the issue, ask for a plan and iterate until it's right, then have it implement on a branch and create the pull request
+* **CLI and IDE agents** such as Claude Code, Codex and Copilot CLI - See [Do you use AI CLI tools?](/ai-cli-tools) and [Do you use the best AI Powered IDE?](/best-ai-powered-ide)
 
 <boxEmbed
   style="greybox"
   body={<>
-    "Add a user registration feature with email and password"
+    "Make the Northwind orders page better"
+  </>}
+  figurePrefix="bad"
+  figure="A vague request with no scope and no way to check the result"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Filter Northwind orders by customer**
+
+    * Selecting a customer shows only their orders
+    * Clearing the selection shows all orders again
+    * **Out of scope:** editing or deleting orders
   </>}
   figurePrefix="good"
-  figure="Clear requirement that the AI can implement following the template's patterns"
+  figure="One small change with clear acceptance criteria and boundaries"
 />
 
 ## Why this approach passes the bus test ✅
@@ -139,14 +161,14 @@ By following these practices, your vibe-coded project will be:
 
 * **Maintainable** - Following proven architecture patterns
 * **Understandable** - Using standard structures that developers recognize
-* **Documented** - Architecture decisions are encoded in the template
-* **Reviewable** - All changes go through pull requests
-* **Professional** - Indistinguishable from code written by experienced developers
+* **Documented** - The template's structure and AI guidance explain how the code fits together
+* **Traceable** - Every change links back to an issue and a pull request
+* **Reviewed** - A developer checks every change before it reaches main
 
 <boxEmbed
   style="tips"
   body={<>
-    **Remember:** The goal isn't just to make code work – it's to create code that others can understand, maintain, and extend. Starting with these best practices ensures your vibe coding produces professional-quality software.
+    **Remember:** The goal isn't just to make code work – it's to create code that others can understand, maintain, and extend.
   </>}
   figurePrefix="none"
   figure=""
@@ -156,8 +178,4 @@ By following these practices, your vibe-coded project will be:
 
 ### Learn more
 
-* [AI Assisted Development Workflow](/ai-assisted-development-workflow)
-* [Best AI Powered IDE](/best-ai-powered-ide)
-* [Clean Architecture](/clean-architecture)
-* [Work in Vertical Slices](/work-in-vertical-slices)
 * [SSW Vibe Coding Consulting](https://www.ssw.com.au/consulting/vibe-coding)
