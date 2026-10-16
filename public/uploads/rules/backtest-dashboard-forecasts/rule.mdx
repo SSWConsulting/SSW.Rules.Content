@@ -1,0 +1,83 @@
+---
+type: rule
+title: Do you backtest a forecast before you put it on a dashboard?
+seoDescription: Backtest every dashboard forecast against simple baselines, show its typical miss, and feed in what you already know about the future.
+guid: 4c433285-c97f-43ae-b43b-86cc6eab2fbe
+uri: backtest-dashboard-forecasts
+created: 2026-10-16T08:10:26.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-trusted-data/rule.mdx
+  - rule: public/uploads/rules/dashboard-changes-real-or-noise/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+Ask AI for a "next week" forecast and it adds a smooth line to the dashboard in minutes, often from a popular forecasting library. Nobody knows how wrong that line usually is, yet the warehouse and support leads roster staff around it. Meanwhile the current week, only half logged, looks like a collapse.
+
+That's why you should **backtest every forecast and show its typical miss before it goes on a dashboard**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/backtest-dashboard-forecasts/northwind-forecast-bad-confident-line-no-typical-miss.png"
+  alt="A generic dark purple AI Demand Forecast dashboard updated 'just now'. Orders this week show 3,867 with a red arrow and -45% vs last week, although only Monday to Wednesday are logged. A dashed forecast line climbs to 7,659 next week with no range, justified only by a 'Forecast by AI time-series model' badge, and an AI insight tells the reader to plan warehouse shifts for it."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="3,867 orders logged Mon–Wed shown as a 45% fall, and a 7,659 forecast backed only by 'AI time-series model', with no typical miss and no source check"
+/>
+
+## Replay the past before you pick a method
+
+A backtest replays history: forecast each past week using only the data that existed then, and record the miss.
+
+Match the horizon the dashboard uses, or the score describes a different forecast. On Thursday 15 Oct, Northwind Traders' latest full week is 5–11 Oct, so "next week" (19–25 Oct) is 2 weeks out. Its backtest forecasts each of the 52 weeks to 5 Oct 2026 from 2 weeks earlier.
+
+Include the simple baselines next to whatever model AI proposes: the latest full week, the average of the last 4 weeks, and the same week last year plus growth. Then pick the method with the smallest typical miss for each series. The library model AI suggested first wins support chats at ±11%, but loses orders and comes second-worst for agent hours, where the plain "same week last year, plus growth" beats it (±9% against ±19%).
+
+## Show the typical miss beside the forecast
+
+Northwind's typical miss is the error a method stays within in 4 of 5 past weeks, shown as "Usually within ±X%" with a plain label: **Good** at 10% or less, **Rough** above that. The support chats tile reads 3,010 (2,680–3,340), "Usually within ±11% · Rough", so the support lead rosters with room to spare. One week in five still misses by more.
+
+## Feed in what you already know
+
+Some of next week is already decided: promotions are scheduled, pre-orders taken and leave booked. Use those inputs as they stood on the forecast date.
+
+For orders, last year plus growth, promotions and pre-orders reaches ±9%, against ±14% for the library model. For agent hours, payroll hours minus holidays, booked leave and usual unbooked leave reach ±3%, against ±9% for the best baseline.
+
+The untested forecast said 7,659 orders and 804 agent hours. The backtested forecast, which knows about 3 promotions and 14 days of booked leave, says 10,170 orders and 690 hours.
+
+<imageEmbed
+  src="/uploads/rules/backtest-dashboard-forecasts/northwind-forecast-good-backtested-with-typical-miss.png"
+  alt="A Northwind Traders forecast dashboard in company branding. Three tiles show next week's support chats, orders shipped and agent hours, each with a range, a 'Usually within' chip labelled Good or Rough, the method used, the known future inputs, a hatched 'so far' bar for this week and a source with its data date. Below, a backtest table compares five methods across the three series with the winner of each highlighted, a passed look-ahead check, and a source coverage card."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Each series uses its 52-week backtest winner: the library model for chats (±11%, Rough), promotions and pre-orders for orders (±9%), and booked leave for agent hours (±3%)"
+/>
+
+## Prove the backtest can't peek
+
+A backtest that can see the future means nothing. To check, replace every outcome recorded after each forecast date, keep inputs already known then (like booked leave), and re-run. If a forecast moves, it used data it couldn't have had.
+
+Prove the check itself by leaking on purpose. Northwind planted 3 leaks and caught all 3. A 4-week average that accidentally included the week being forecast improved support chats from ±14% to ±9% and would have beaten the library model. The other 2, a model fitted once on all history and final pre-order counts, left the score unchanged, so a leak won't always show in the numbers. The harness is an eval like any other. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+
+## Check what each source leaves out
+
+* **Leave** - The leave system holds only 58% of leave taken (checked against payroll), so the forecast adds typical unbooked leave
+* **Staff history** - Today's staff list misses 8 agents who have left, which would cut past hours by 16%, so history comes from payroll snapshots
+* **Chats** - Bot and spam sessions, 9% of raw chat sessions, are removed
+* **This week** - It shows as "logged so far" and stays out of the forecast until it closes
+
+Keep it org-wide: totals only, no individual names.
+
+## Let trusted data run it
+
+Use the strongest reasoning model your organisation approves to build the backtest harness. Then the forecast and its typical miss run from trusted data with no AI on the page. See [Do you use capable AI to build dashboards, then let trusted data run them?](/ai-dashboards-trusted-data).

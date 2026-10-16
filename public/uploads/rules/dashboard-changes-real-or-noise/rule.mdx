@@ -1,0 +1,85 @@
+---
+type: rule
+title: Do your dashboards show whether a change is real?
+seoDescription: Show counts, ranges and coverage on dashboard tiles, and colour a change only when the data shows it is clear, not sampling noise.
+guid: 5160f4dc-7e73-4b89-bc33-28167a3fc0ce
+uri: dashboard-changes-real-or-noise
+created: 2026-10-16T08:07:54.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-trusted-data/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/ai-critique-reports-dashboards/rule.mdx
+  - rule: public/uploads/rules/backtest-dashboard-forecasts/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+A tile turns red because support chat accuracy fell from 86% to 77%. The team spends a day hunting for the release that broke it, but 47/61 against 55/64 is a move that small samples produce all the time. Next to it, a "Top 5" leaderboard ranks five questions at 100% from 6 checks each.
+
+That's why you should **show the evidence behind every percentage, and colour a change only when a test shows it is clear**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-bad-colour-by-level.png"
+  alt="A Northwind Traders dashboard with three tiles coloured by level against an 80% target and no counts: support chat accuracy 77% in red with '−9% vs last week', description quality 85% and email triage 96% in green. A daily accuracy chart swings between 50% and 100% with a marker for every release from v2.31 to v2.39, and a Top 5 list ranks five questions at 100% from 6 checks each."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="77% turns red with no count behind it, and five questions rank at 100% from 6 checks each"
+/>
+
+## Put the count and a range beside every percentage
+
+Show **47/61 · 77%**, not just 77%. The count tells readers how much evidence sits behind the number.
+
+Add a 90% range, worked out with the [Wilson method](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm). Northwind Traders' support chat range is 67–85% this week against 77–92% for last week's **55/64 · 86%**. Overlapping ranges are a hint, not a test: two ranges can overlap even when the change is clear.
+
+## Colour the change, not the level
+
+"Red under 80%" fires whenever sampling noise dips a result below the line. Colour a tile only when a [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) against the previous period gives p below 0.05:
+
+* **No clear change yet** - Support chat went from 55/64 to 47/61 (p = 0.20), so the chip stays grey
+* **Clear rise** - Descriptions accepted without edits went from 30/50 to 44/52 (p = 0.005), so the chip turns green
+
+Use the plain phrase on the tile and put the p-value in a tooltip or drill-in. "No clear change yet" doesn't mean nothing changed. It means 61 checks this week and 64 last week can't separate this move from chance.
+
+<imageEmbed
+  src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-good-counts-ranges-and-tests.png"
+  alt="The same Northwind week. Tiles lead with counts (47/61 · 77%, 44/52 · 85%, 182/190 · 96%), show 90% range bars for this week and last week, a coverage line, and a grey 'No clear change yet' or green 'Clear rise' chip. A drill-in under the support tile gives p = 0.20 and the checks needed to spot a drop. A weekly chart with range bars marks only the 7 Oct description prompt change, and a question leaderboard needs 10+ checks before it ranks anything."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="47/61 against 55/64 stays grey with p = 0.20 in the drill-in, while 44/52 against 30/50 is a clear rise"
+/>
+
+## Show coverage and name the measure honestly
+
+Put coverage on the tile: "Checked 61 of 870 answers (7%)". A range covers sampling noise, not bias in which answers got checked. If reviewers only pick complaints, no range fixes that.
+
+When a person's judgement is the reference, call it **agreement**, not accuracy. "Answers a support agent agreed with" says exactly what the check measures.
+
+## Make leaderboards earn their rankings
+
+Set a minimum, such as 10 checks, before anything is ranked. Then rank the best by the low end of the range and the worst by the high end. Northwind's 58/60 (90–99%) ranks above 19/19 (88–100%), because the perfect score has less evidence behind it. Show "Do you ship to Brazil?" at 6/6 as "Not ranked yet": its range is 69–100%.
+
+## Say what a period can detect
+
+At about 60 support checks a week, a weekly comparison usually misses small shifts. Show how many checks each period needs (80% power, 5% test) so nobody expects more:
+
+* **86% to 71%** - About 117 checks per period, so compare 2-week periods
+* **86% to 81%** - About 864 checks per period, more than 14 weeks each at 60 a week
+
+## Mark only prompt and model changes
+
+A marker on every release invites readers to blame whichever release sits next to a wobble. Mark the changes most likely to move an AI feature's results: prompt and model changes. Northwind's timeline marks only the 7 Oct description prompt change, and the clear rise sits right after it. Even then, a marker shows timing, not cause.
+
+Test a prompt or model change with evals before release. See [Do you run evals on your AI features?](/run-evals-on-ai-features). The dashboard watches production, and a colour is a reason to look, not a verdict.
+
+Build the dashboard on traceable sources first. See [Do you use capable AI to build dashboards, then let trusted data run them?](/ai-dashboards-trusted-data).
