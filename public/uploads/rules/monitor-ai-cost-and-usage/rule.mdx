@@ -35,6 +35,34 @@ Teams should track key indicators such as:
 
 This information helps teams optimise usage and ensure that AI remains a productivity multiplier rather than a financial burden.
 
+## Measure cost per useful outcome
+
+A spend total tells you what AI costs, not whether it's worth it. Track **cost per useful outcome**: what a feature spends, divided by the useful results it produces.
+
+<imageEmbed
+  src="/uploads/rules/monitor-ai-cost-and-usage/northwind-ai-spend-without-context.png"
+  alt="A dark dashboard card titled AI spend showing $868 for the last 7 days with a red up arrow and 96%, above a daily spend line that climbs, with weekend dips, from about $75 to about $155. Nothing shows what the spend produced."
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="AI spend is up 96%, with nothing to show whether it bought more useful work"
+/>
+
+* **Pick one useful outcome per feature** - For example, a product description published without edits, or a support chat resolved without a person. Tokens and requests count activity, not results
+* **Use the same days for both** - Divide spend by outcomes over the same window, and include the cost of rejected attempts
+* **Mark model and prompt changes** - A labelled marker explains a step in the line
+
+In the Northwind Traders example below, spend on AI product descriptions nearly doubled after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
+
+<imageEmbed
+  src="/uploads/rules/monitor-ai-cost-and-usage/northwind-ai-cost-per-accepted-description.png"
+  alt="A dark dashboard card titled AI product descriptions comparing the last 7 days with the first week, where x1 means the same. Each line point is a rolling 7-day value. Headlines read +137% accepted descriptions and -17% cost per accepted, with spend +96% and $1.46 to $1.21 per accepted description. A green line for accepted descriptions climbs past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while a white line for cost per accepted description drifts below x1."
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Spend is up 96%, but accepted descriptions are up 137%, so each accepted description costs 17% less"
+/>
+
 ## Providing visibility through status updates
 
 Instead of constantly wondering “Wait, which model am I using?” or  “How much money did I just blow in the last 20 minutes?”, you can have those figures right there at the bottom of the screen - this is called the status line.
