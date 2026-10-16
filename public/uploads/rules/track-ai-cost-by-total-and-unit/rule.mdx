@@ -1,0 +1,62 @@
+---
+type: rule
+title: Do you track AI cost by total and by unit?
+seoDescription: Track total AI spend to stay on budget, and cost per useful outcome to see whether that spend is worth it.
+guid: c0b32d0f-7565-47e1-a750-1daa0b351874
+uri: track-ai-cost-by-total-and-unit
+created: 2026-10-16T13:32:49.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI feature's monthly bill nearly doubles, and the dashboard shows a red arrow. Is that waste, or is the feature doing twice the useful work? The total can't tell you, so the team either cuts a feature that was paying off or ignores spend that wasn't.
+
+That's why you should **track AI spend in total to stay on budget, and per useful outcome to see whether it's worth it**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-spend-without-context.png"
+  alt="A dark dashboard card titled AI spend showing $868 for the last 7 days with a red up arrow and 96%, above a daily spend line that climbs, with weekend dips, from about $75 to about $155. Nothing shows what the spend produced."
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="AI spend is up 96%, with nothing to show whether it bought more useful work"
+/>
+
+## Track the total for the budget
+
+The total keeps spend predictable. Put a budget alert on it, and alert on throttling and failures too, because cost data arrives late. See [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts). For the AI tools your developers use, see [Do you monitor AI cost and usage?](/monitor-ai-cost-and-usage).
+
+## Track the cost per useful outcome for value
+
+Divide what a feature spends by the useful results it produces:
+
+* **Pick one useful outcome per feature** - For example, a product description published without edits, or a support chat resolved without a person. Tokens and requests count activity, not results
+* **Use the same days for both** - Divide spend by outcomes over the same window, and include the cost of rejected attempts
+* **Mark model and prompt changes** - A labelled marker explains a step in the line
+
+If spend rises and the cost per outcome falls, the feature is doing more useful work. If both rise, find out why.
+
+In the Northwind Traders example below, spend on AI product descriptions nearly doubled after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
+
+<imageEmbed
+  src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-cost-per-accepted-description.png"
+  alt="A dark dashboard card titled AI product descriptions comparing the last 7 days with the first week, where x1 means the same. Each line point is a rolling 7-day value. Headlines read +137% accepted descriptions and -17% cost per accepted, with spend +96% and $1.46 to $1.21 per accepted description. A green line for accepted descriptions climbs past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while a white line for cost per accepted description drifts below x1."
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Spend is up 96%, but accepted descriptions are up 137%, so each accepted description costs 17% less"
+/>
+
+To put these numbers on a dashboard, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).
