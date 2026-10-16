@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you treat a bug report as a hypothesis?
-seoDescription: A bug report mixes what the reporter saw with what they think caused it. Verify each claim against logs and data before you plan the fix, or you fix the theory instead of the bug.
+title: Do you verify bug reports before planning a fix?
+seoDescription: A bug report can mix what the reporter saw with what they think caused it. Verify each claim against logs and data before you plan the fix, or you fix the theory instead of the bug.
 guid: e0e6dc81-8621-4997-bb04-23709e1f5466
 uri: treat-bug-reports-as-hypotheses
 created: 2026-09-02T20:55:57.000Z
@@ -15,20 +15,20 @@ related:
   - rule: public/uploads/rules/reply-done-plus-added-a-unit-test/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 archivedreason: null
 isArchived: false
 ---
 
-A bug report arrives with a confident story: "The Orders page is slow because the new caching layer is broken." The reporter might be a customer, a teammate, or an AI agent that mined the logs overnight. Either way, the story mixes what they saw with what they think caused it.
+Sometimes a bug report simply describes a problem. Other times, it includes a suspected cause: "The Orders page is slow because the new caching layer is broken." The reporter might be a customer, a teammate, or an AI agent that mined the logs overnight. When a report names a cause, it mixes what they saw with what they think caused it.
 
-If you plan the fix from the story, you fix the theory, not the bug. AI-written issues make this worse. They read like finished diagnoses, complete with a suspected file and line number, and it is tempting to skip straight to the code.
+If you plan the fix from that suspected cause without checking it, you fix the theory, not the bug. AI-written issues make this worse. They often read like finished diagnoses, complete with a suspected file and line number, and it is tempting to skip straight to the code.
 
 <endIntro />
 
 ## Split what was seen from what was guessed
 
-Every bug report contains two kinds of statement:
+A bug report can contain two kinds of statement:
 
 * **Observables** - An error message, a screenshot, a timestamp, a row count, a customer ID. These are evidence
 * **Inferences** - Anything after "because", "probably", "looks like", or "must be". These are hypotheses
@@ -104,7 +104,7 @@ Plan the fix from the confirmed claims only. Put the table in the pull request s
 
 ## AI agents need the same discipline
 
-Agents write plausible bug reports fast, and they write them with the same confident tone whether the diagnosis is right or wrong. When an agent triages or investigates a bug, give it the same steps:
+Agents can write plausible bug reports quickly, sometimes including a confident diagnosis that has not been verified. When an agent triages or investigates a bug, give it the same steps:
 
 1. Split observables from inferences
 2. Write the anchor sentence, or stop and ask
