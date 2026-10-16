@@ -73,7 +73,7 @@ Before you pick a store, check whether you need a data cache at all. If whole pa
 | Memcached | Yes | Yes | Yes | Simple key-value caching |
 | Two layers | Yes, through the shared layer | The shared layer does | Only on a local miss | High read volume across several instances |
 
-Tag or group invalidation is not in the table, because it depends on your framework's driver rather than the store. Laravel cannot tag entries on its `file` or `database` drivers. .NET's HybridCache tracks tags itself, so it supports them over any store.
+Tag or group invalidation is not in the table, because it depends on your framework's driver rather than the store. Laravel cannot tag entries on its `file`, `database`, `dynamodb` or `storage` drivers. .NET's HybridCache tracks tags itself, so it supports them over any store.
 
 ## Use in-memory only while you have one instance
 
@@ -131,7 +131,7 @@ A file cache is fine on one server with a persistent disk. On containers, each i
 
 A database cache puts the load back on the database it was meant to protect. Microsoft notes that a SQL Server cache [in the same database as your app data can reduce performance](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/distributed), and recommends a dedicated instance. Laravel's default cache store is the database, so check what your app is actually using.
 
-The worst trap is code that assumes a feature the store lacks. Laravel's `Cache::tags()` [is not supported](https://laravel.com/docs/cache#cache-tags) on the `file` or `database` drivers, and throws when you call it. Code written against Redis works until someone points it at another store.
+The worst trap is code that assumes a feature the store lacks. Laravel's `Cache::tags()` [is not supported](https://laravel.com/framework/docs/cache#cache-tags) on the `file`, `database`, `dynamodb` or `storage` drivers, and throws when you call it. Code written against Redis works until someone points it at another store.
 
 ## Treat a cache outage as a miss
 
@@ -141,10 +141,13 @@ A cache should never be the reason the app is down.
 * Set short timeouts, because a cache that hangs is worse than one that fails fast
 * Log and count failures separately from misses. Otherwise a broken cache looks like a cold one
 * Alert on it like any other dependency. See [Do you Health Check your infrastructure?](/infrastructure-health-checks)
+* Use your framework's fallback where it has one. Laravel's [`failover` cache driver](https://laravel.com/framework/docs/cache#cache-failover) tries the next store in a list when the first one fails
+
+A miss is not free when the source bills by the call. If a headless CMS sits behind the cache, an outage sends every request to the CMS, so it shows up as API usage or throttling as well as slower pages. See [Do you cache headless CMS content to stay inside your API quota?](/cache-headless-cms-content).
 
 ## Example: a cache that never warmed up
 
-A Laravel marketing site on Azure rendered its pages from a headless CMS. Alongside a page cache, it kept CMS responses in Redis, so a page that missed the page cache could still render without calling the CMS.
+A Laravel marketing site on Azure rendered its pages from a [headless CMS](/cache-headless-cms-content). Alongside a page cache, it kept CMS responses in Redis, so a page that missed the page cache could still render without calling the CMS.
 
 Turned on in production, the Redis cache made the site 20 to 60 times slower, and it was turned off the same day. A second attempt with telemetry showed it worked once warm:
 

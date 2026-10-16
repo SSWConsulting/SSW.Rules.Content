@@ -68,7 +68,7 @@ Check the daily total against the CMS usage page, because that is what you are b
 
 1. **Serve whole pages from a cache.** Static generation, incremental regeneration, [output caching](/use-output-caching) or a [CDN](/use-a-cdn) in front of the site all work. A repeat view served this way makes no CMS calls at all. See [Do you choose the right rendering strategy for your website?](/choose-site-generation-strategy), and for Next.js, [Do you know how to use NextJS caching system?](/use-nextjs-caching-system)
 2. **Cache shared content in the app.** Navigation, footer and site settings appear on every page. Fetch them once and reuse them from a cache that survives between requests and across servers, such as Redis. See [Do you choose the right cache store?](/choose-cache-store)
-3. **Clear the cache when content is published.** Use [Contentful webhooks](https://www.contentful.com/developers/docs/extensibility/webhooks/overview/) to clear the pages that changed. A short expiry that refetches "just in case" spends calls on content that has not changed
+3. **Clear the cache when content is published.** Use [Contentful webhooks](https://www.contentful.com/developers/docs/extensibility/webhooks/overview/) to clear the pages that changed. A short expiry that refetches "just in case" spends calls on content that has not changed. If you run more than one instance, make sure the clear reaches every one of them, not just the one that received the webhook
 
 ## Prove the cache is being read
 
@@ -78,7 +78,7 @@ The most expensive cache is one that looks like it works. The code writes to the
 * A cache read helper never returns the value it found
 * Caching sits behind a config flag that defaults to off and is never set in production, like [Sitefinity's debug="true"](/do-you-know-that-caching-is-disabled-when-debug-true)
 * Code reads a value from the cache, then fetches it fresh anyway on the next line
-* The cache driver is in-memory, so it forgets everything at the end of each request
+* The cache driver is in-memory, so it forgets everything at the end of each request. See [Use in-memory only while you have one instance](/choose-cache-store#use-in-memory-only-while-you-have-one-instance)
 
 The only way to find these is to count calls. The second view of a page should cost far fewer calls than the first, and a page served from a page cache should cost none.
 
