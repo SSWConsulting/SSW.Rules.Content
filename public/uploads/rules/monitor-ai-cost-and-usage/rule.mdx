@@ -35,25 +35,6 @@ Teams should track key indicators such as:
 
 This information helps teams optimise usage and ensure that AI remains a productivity multiplier rather than a financial burden.
 
-## Measure cost per unit of useful work
-
-A bill tells you what AI costs, but it doesn't tell you whether the spend is worth it. For AI features in production, measure **cost per unit of useful work**: feature spend divided by completed useful outcomes.
-
-* **Choose a useful outcome** - Define what is worth paying for in each feature: an email routed to the right team, a product description accepted without edits, or a support chat resolved without a person. Tokens and requests measure activity, not success.
-* **Compare matching data** - Take spend and completed outcomes from the same time window, broken down by feature and model. Include the cost of failed attempts so the unit cost reflects what each outcome actually costs.
-* **Account for all spend** - Keep an "Unattributed" row for spend without a feature tag, such as untagged API keys. Reconcile the total to the provider's billing export so readers can trust the table.
-
-In the Northwind Traders example below, a prompt change raises description spend, but cost per accepted description falls from $2.94 to $2.19 because far more drafts are accepted. Higher spend can deliver better value. To put figures like these on a dashboard, see [Do you use AI to build dashboards?](/ai-dashboards-trusted-data)
-
-<imageEmbed
-  src="/uploads/rules/monitor-ai-cost-and-usage/northwind-ai-cost-per-unit-of-useful-work.png"
-  alt="Northwind Traders table comparing AI spend and useful outcomes by feature and model over the same seven days. Product descriptions cost $2.19 per accepted description, down from $2.94. An Unattributed row captures $12.60, and the $469.00 total matches the provider billing export."
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Cost per accepted description falls 25%, from $2.94 to $2.19. Including $12.60 of unattributed spend brings the total to $469.00, matching the provider billing export."
-/>
-
 ## Providing visibility through status updates
 
 Instead of constantly wondering “Wait, which model am I using?” or  “How much money did I just blow in the last 20 minutes?”, you can have those figures right there at the bottom of the screen - this is called the status line.
