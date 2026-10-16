@@ -35,7 +35,7 @@ That's why you should **backtest every forecast and show its typical miss before
 
 ## Backtest against simple baselines
 
-A backtest replays history: forecast each past week using only the data that existed then, and record the miss. Use the same horizon as the dashboard. Northwind Traders' "next week" is 2 weeks past its latest full week, so its backtest forecasts each of the last 52 weeks from 2 weeks earlier.
+A backtest replays history: forecast each past week using only the data that existed then, and record the miss. Test forecasts as far ahead as the dashboard predicts. Northwind Traders' "next week" is 2 weeks past its latest full week, so its backtest forecasts each of the last 52 weeks from 2 weeks earlier.
 
 Put simple baselines beside whatever model AI proposes: the latest full week, the average of the last 4 weeks, and the same week last year plus growth. Pick the method with the smallest typical miss for each series. The library model AI suggested first wins support chats at ±11%, but for agent hours the plain "same week last year, plus growth" beats it (±9% against ±19%).
 
@@ -58,7 +58,7 @@ Some of next week is already decided: promotions are scheduled, pre-orders taken
 
 ## Prove the backtest can't peek
 
-A backtest that can see the future means nothing. Prove the check by leaking future data on purpose and confirming it gets caught. Northwind planted 3 leaks and caught all 3. One of them, a 4-week average that included the week being forecast, scored ±9% on support chats instead of its honest ±14%. The harness is an eval like any other. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+A backtest that can see the future means nothing. Prove the check by leaking future data on purpose and confirming it gets caught. Northwind planted 3 leaks and caught all 3. One of them, a 4-week average that included the week being forecast, scored ±9% on support chats instead of its honest ±14%.
 
 ## Check what each source leaves out
 
