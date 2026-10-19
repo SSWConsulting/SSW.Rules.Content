@@ -1,0 +1,97 @@
+---
+type: rule
+title: Do you have a dashboard that shows what your scheduled tasks are doing?
+seoDescription: Show task timelines, queue wait times, failures by task and per-task statistics so you can see when background work keeps users waiting.
+guid: a2070f8a-39ca-47a5-8e47-f93822c1e71b
+uri: scheduled-tasks-dashboard
+created: 2026-10-19T04:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+  - rule: public/uploads/rules/use-opentelemetry/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-application-insights.mdx
+archivedreason: null
+isArchived: false
+---
+
+The background tasks dashboard says 9,115 tasks ran this week with a 99.1% success rate, and the average task takes 12 seconds. Meanwhile, customers wait half an hour for their orders to sync. The totals can't show which tasks failed, when the queue backed up, or how long work waited before it started.
+
+That's why you should **give every app with scheduled or background tasks a dashboard that shows runs over time, queue waits and failures by task**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/scheduled-tasks-dashboard/northwind-scheduled-tasks-bad-totals-only.png"
+  alt="Northwind Traders background tasks dashboard with four tiles: 9,115 tasks run in 7 days, 84 errors, 12 s average duration and a 99.1% success rate, above an even bar chart of tasks run per 24 hours labelled 'All systems healthy'."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Healthy-looking totals. You can't tell which tasks fail, when, or how long work waits to start"
+/>
+
+<imageEmbed
+  src="/uploads/rules/scheduled-tasks-dashboard/northwind-scheduled-tasks-good-swimlanes-and-queue.png"
+  alt="Northwind Traders background tasks dashboard. A one-line summary names the 26.1 min longest wait and its cause. Tiles show runs, p95 queue wait, longest wait and worker busy time. A worker swimlane coloured by task sits above a queue-depth stack where each hourly fan-out piles up and drains, with the longest wait outlined. Failure bars per task per hour show ExportToXero failing 74 times in one afternoon. A table lists runs, failures, p50 and p95 run time, p95 and max wait, and last run for each task."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The worker is only 17% busy, yet each hourly fan-out waits up to 13 min and the 02:00 sync waited 26 min behind NightlyStockReconciliation. ExportToXero failed 74 times between 14:00 and 16:11"
+/>
+
+## Show when tasks run and when they wait
+
+* **Draw swimlanes over time** - Show each run's start and end, coloured by task, with one lane per run that overlaps another, so you can see what runs at the same time. Compress long idle stretches so the busy periods stay readable
+* **Make wait time the headline** - Show how many tasks were waiting at once, and how long each one waited from enqueued to started. A task that runs in 7 seconds still leaves users waiting if it sat in the queue for 13 minutes
+
+Northwind Traders enqueues an order sync and a Xero export for each of 24 stores on the hour, and a single worker runs them in turn. The dashboard shows the worker is idle most of the day, so the waits come from bursts, not total load. Re-running the same week with the hourly tasks spread across the hour, and `NightlyStockReconciliation` on its own queue with its own worker, cuts the p95 wait from about 11 minutes to under a minute.
+
+## Show which tasks fail, and when
+
+* **Break failures down by task and time slot** - A failure count per task per hour shows a pattern that one error total hides, such as a dependency outage every afternoon. Northwind's `ExportToXero` failed in a burst with `HttpRequestException`, and 13 exports still failed after 3 attempts
+* **Add a per-task table** - Include runs, failures, p50/p95 run time, p95/max wait, last run and exception type. Percentiles show slow runs that an average hides. Count each retry as a separate run
+
+## Record one structured event per run
+
+* **Capture the timing and outcome** - Record the task name, when it was enqueued, started and ended (or start, duration and wait), the outcome (`Succeeded`, `Failed` or `Cancelled`), the attempt number and the queue
+* **Keep sensitive data out** - Record only the exception type name. Exception messages and task arguments can contain personal data or secrets
+* **Keep every run** - Prefer a log event over a trace span when traces are sampled, and exclude these events from log sampling. Missing runs distort queue depth and failure rates. See [Do you use OpenTelemetry for observability?](/use-opentelemetry)
+* **Protect the task** - Wrap the logging in `try/catch` so a telemetry error can't fail the work. Use named fields as in [Do you use Structured Logging with correlation IDs?](/use-structured-logging)
+
+In Hangfire, a server filter records the start time, then logs one event when the attempt finishes:
+
+```csharp
+public class TaskRunFilter(ILogger<TaskRunFilter> logger) : JobFilterAttribute, IServerFilter
+{
+    public void OnPerforming(PerformingContext context) => context.Items["StartedAt"] = DateTimeOffset.UtcNow;
+
+    public void OnPerformed(PerformedContext context)
+    {
+        try
+        {
+            var startedAt = (DateTimeOffset)context.Items["StartedAt"];
+            var raw = context.ExceptionHandled ? null : context.Exception;
+            var outcome = context.Canceled || raw is OperationCanceledException ? "Cancelled" : raw is null ? "Succeeded" : "Failed";
+            var error = raw is JobPerformanceException { InnerException: not null } wrapped ? wrapped.InnerException : raw;
+            var job = context.BackgroundJob.Job;
+
+            logger.LogInformation(
+                "Task {TaskName} {Outcome} in {DurationMs} ms after waiting {WaitMs} ms (attempt {Attempt}, queue {Queue}, started {StartedAt}) {ExceptionType}",
+                $"{job.Type.Name}.{job.Method.Name}", outcome, (DateTimeOffset.UtcNow - startedAt).TotalMilliseconds,
+                GetWaitMs(context), context.GetJobParameter<int>("RetryCount") + 1, GetQueue(context), startedAt, error?.GetType().Name);
+        }
+        catch
+        {
+            // A throwing server filter fails the job, so telemetry must never escape
+        }
+    }
+}
+```
+
+`GetWaitMs` and `GetQueue` read the job's state history: the wait is the time from the latest Enqueued state to the Processing state that followed it. Hangfire wraps a task's own exception, including a timeout, in `JobPerformanceException`. Only shutdown and abort arrive unwrapped, so classify the outcome first, then unwrap to log the real type. See [Hangfire's job filter documentation](https://docs.hangfire.io/en/latest/extensibility/using-job-filters.html) to register the filter.
+
+The same event works for Azure Functions timer triggers, Quartz.NET, queue consumers and cron jobs. For queue messages, put the enqueue time on the message and work out the wait when processing starts. For timers, keep the delay against the schedule separate from the queue wait.
+
+Chart the events with KQL in Application Insights or Log Analytics, or in Seq, Grafana or a small custom page.
