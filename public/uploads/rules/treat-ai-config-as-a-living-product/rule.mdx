@@ -26,7 +26,7 @@ isArchived: false
 archivedreason: null
 ---
 
-You tell your AI agent to use pnpm, not npm. Tomorrow you tell it again. By Friday you've typed the same correction for the third time, and your `AGENTS.md` still says nothing about pnpm.
+You tell your AI agent to use `pnpm`, not `npm`. Tomorrow you tell it again. By Friday you've typed the same correction for the third time, and your `AGENTS.md` still says nothing about `pnpm`.
 
 Your AI config is a product. It has users (you and your team), it gets bug reports (every correction you type), and it should ship fixes. Every bit of friction should end as a small change to the config, so the same mistake never costs you twice.
 
@@ -34,30 +34,23 @@ Your AI config is a product. It has users (you and your team), it gets bug repor
 
 ## What counts as AI config?
 
-Anything that changes how your agent behaves: `AGENTS.md` / `CLAUDE.md`, skills, hooks, plugins and MCP servers. See [Do you customize your coding agent?](/customize-your-coding-agent) for what each layer does.
+Anything that changes how your agent behaves: `AGENTS.md` / `CLAUDE.md`, skills, hooks, plugins and MCP servers. See what each layer does on [Do you customize your coding agent?](/customize-your-coding-agent)
 
 ## Why does set-and-forget config fail?
 
-Most people write an `AGENTS.md` , grab a skill from their co-worker, or create a hook once on day one and never open it again - but they still use it every single day.
+Most people write an `AGENTS.md`, grab a skill from their co-worker, or create a hook once on day one and never open it again... but they still use it every single day.
 
-&#x20;The codebase moves on. Team habits change. Your agent config goes stale, and you start patching the gap by hand in every chat.
+The codebase moves on. Team habits change. Your agent config goes stale, and you start patching the gap by hand in every chat.
 
-Watch for these signs:
+## Signs to watch for
 
 * **Repeated corrections** - You've told the agent the same thing more than twice
 * **Rejected tool calls** - You keep denying the same kind of command
 * **Reverts** - You keep undoing the same kind of edit
 
-<boxEmbed
-  style="info"
-  body={<>
-    "They're alive - they evolve with time and usage. They're yours - they're shaped by your workflow and your frictions." - [Josh Berman, Closing the Loop on the Software Factory](https://bermz.au/blog/Closing-the-Loop-on-the-Software-Factory-)
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+> "They're alive - they evolve with time and usage. They're yours - they're shaped by your workflow and your frictions." - [Josh Berman, Closing the Loop on the Software Factory](https://bermz.au/blog/Closing-the-Loop-on-the-Software-Factory-)
 
-## How do you turn friction into fixes?
+## Turning friction into fixes
 
 Use the same idea as a [retrospective](/do-a-retrospective). A retro only works when it ends with an action point. For an AI agent, the action point is a config change.
 
@@ -67,7 +60,7 @@ Use the same idea as a [retrospective](/do-a-retrospective). A retro only works 
     **Without a retro loop** - You correct the agent in chat every session. The config never changes, so tomorrow's session makes the same mistake.
   </>}
   figurePrefix="bad"
-  figure=" Corrections live in chat and disappear when the session ends"
+  figure="Corrections live in chat and disappear when the session ends"
 />
 
 <boxEmbed
@@ -121,7 +114,7 @@ If the loop is automated, review the proposals every morning. It takes 2 minutes
 
 If it's manual, run a retro after any session where you corrected the agent twice. Then run [/insights](/use-claude-insights) monthly for the bigger picture.
 
-However this should be suited how often you are using AI. For those using it constantly every day, improving your config every day can have a compounding impact on your workflows. 
+However this should be suited how often you are using AI. For those using it constantly every day, improving your config every day can have a compounding impact on your workflows.
 
 ***
 
