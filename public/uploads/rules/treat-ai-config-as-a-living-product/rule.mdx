@@ -17,6 +17,11 @@ related:
 guid: 6f7ad30f-d76d-4908-8281-c173e60982b2
 seoDescription: 'Stop typing the same correction to your AI agent. Run retros on your agent sessions and turn every repeated correction, rejected tool call or revert into a fix to your AGENTS.md, skills or hooks.'
 created: 2026-10-20T22:43:38.000Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-10-20T22:50:36.285Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -33,7 +38,9 @@ Anything that changes how your agent behaves: `AGENTS.md` / `CLAUDE.md`, skills,
 
 ## Why does set-and-forget config fail?
 
-Most people write an `AGENTS.md` on day one and never open it again. The codebase moves on. Team habits change. The file goes stale, and you start patching the gap by hand in every chat.
+Most people write an `AGENTS.md` , grab a skill from their co-worker, or create a hook once on day one and never open it again - but they still use it every single day.
+
+&#x20;The codebase moves on. Team habits change. Your agent config goes stale, and you start patching the gap by hand in every chat.
 
 Watch for these signs:
 
@@ -60,7 +67,7 @@ Use the same idea as a [retrospective](/do-a-retrospective). A retro only works 
     **Without a retro loop** - You correct the agent in chat every session. The config never changes, so tomorrow's session makes the same mistake.
   </>}
   figurePrefix="bad"
-  figure="Bad example - Corrections live in chat and disappear when the session ends"
+  figure=" Corrections live in chat and disappear when the session ends"
 />
 
 <boxEmbed
@@ -69,7 +76,7 @@ Use the same idea as a [retrospective](/do-a-retrospective). A retro only works 
     **With a manual retro** - After a frustrating session, you run a retro skill like [Matt Pocock's retro skill](https://github.com/mattpocock/skills/tree/main/skills/engineering/retro). It proposes a fix and you add it. This works, but only when you notice the friction and remember to run it.
   </>}
   figurePrefix="ok"
-  figure="OK example - Fixes land, but only when you remember"
+  figure="Fixes land, but only when you remember"
 />
 
 <boxEmbed
@@ -78,7 +85,7 @@ Use the same idea as a [retrospective](/do-a-retrospective). A retro only works 
     **With a nightly retro** - A scheduled "night shift" job reads the day's agent sessions. It logs every correction, rejected tool call and revert to a ledger. When a pattern repeats across sessions, it writes a proposal: update a skill, add a hook, or add a one-liner to `AGENTS.md`. Each morning you implement or skip each proposal.
   </>}
   figurePrefix="good"
-  figure="Good example - Friction is caught automatically and a human approves every fix"
+  figure="Friction is caught automatically and a human approves every fix"
 />
 
 ## What should a fix look like?
@@ -113,6 +120,8 @@ Pick the lightest fix that stops the friction:
 If the loop is automated, review the proposals every morning. It takes 2 minutes.
 
 If it's manual, run a retro after any session where you corrected the agent twice. Then run [/insights](/use-claude-insights) monthly for the bigger picture.
+
+However this should be suited how often you are using AI. For those using it constantly every day, improving your config every day can have a compounding impact on your workflows. 
 
 ***
 
