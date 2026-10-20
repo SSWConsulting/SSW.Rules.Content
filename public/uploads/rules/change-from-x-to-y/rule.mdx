@@ -31,13 +31,26 @@ lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 archivedreason: null
 ---
 
-When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "change from X to Y".
+When requesting small content changes, use "change from X to Y" to show the current content and your proposed replacement. This applies to web pages, documents, slides, video captions, and other content.
 
-This process consists of including the original version of the content ("X") along with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. 
+This process consists of including the original version of the content ("X") along with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes.
 
 This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
 
 <endIntro />
+
+Use this format wherever you give feedback, including email, chat, review comments, and discussion pages. Include a link and the exact location, such as a heading, slide number, or video timestamp.
+
+This format helps communicate individual edits. For larger changes, use your team's content management and approval workflow.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ⚠️ **Check permissions and confidence before editing.** Even if a website uses a content management system (CMS), you might not have permission to change it. If you are unsure about your proposed change, ask the content owner to review it using "from X to Y".
+  </>}
+  figurePrefix="none"
+  figure="A CMS does not remove the need for permissions or review"
+/>
 
 <boxEmbed
   style="info"
@@ -76,13 +89,13 @@ Make the changes even easier to see and understand by highlighting:
   shouldDisplayBody={true}
   body={<>
     ## Hi Dave
-    
+
     1\. For the CodeAuditor web page, please make the list read:
-    
+
     Scan all your projects for coding errors:
-    
+
     \- Guarantee Industry best practices
-    
+
     \- Friendly licensing model, bloggers even pay $0 for the full version!
   </>}
   figurePrefix="bad"
@@ -98,25 +111,25 @@ Make the changes even easier to see and understand by highlighting:
   shouldDisplayBody={true}
   body={<>
     ## Hi Dave
-    
+
     On CodeAuditor web page ssw\.com.au/ssw/codeauditor
-    
+
     1\. Please change:
-    
+
     From:
-    
+
     Scan all your projects for coding <mark style={{ backgroundColor: "#CC4141" }}>bugs and</mark> errors:
-    
+
     - Enforce industry best practices.
-    
+
     - Friendly licensing model pay nothing for the full version!
-    
+
     To:
-    
+
     Scan all your projects for coding errors
-    
+
     - <mark style={{ backgroundColor: "#FEF08A" }}>Guarantee</mark> industry best practices
-    
+
     - Friendly licensing model<mark style={{ backgroundColor: "#FEF08A" }}> - bloggers even pay $0</mark> for the full version!
   </>}
   figurePrefix="good"
@@ -125,18 +138,64 @@ Make the changes even easier to see and understand by highlighting:
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
 
+## Using feedback to improve video captions
+
+A lower third is text near the bottom of a video, such as a speaker's name or job title. Include a screenshot and timestamp so the editor can find the text you want to change.
+
+<imageEmbed alt="Video lower third showing Andreas Lengkeek and the title SSW Senior Software Architect" size="large" showBorder={true} figurePrefix="none" figure="A screenshot identifies the lower third you want the editor to change" src="/uploads/rules/change-from-x-to-y/video-lower-third.png" />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Example request:** In the linked draft video at 00:05, please shorten the lower-third job title:
+
+    **From:** SSW Senior Software Architect
+
+    **To:** Senior Software Architect
+
+    **Reason:** The SSW logo already identifies the company.
+  </>}
+  figurePrefix="good"
+  figure="An illustrative request gives the editor a location, exact replacement, and reason"
+/>
+
+## Wikipedia - Use Talk pages to suggest changes
+
+If you are unsure about an edit to a Wikipedia article, suggest it on the article's **Talk** page. Check for an existing discussion before starting a new topic. Use "from X to Y" to make your proposal easy to compare, and explain why it improves the article. Include reliable sources when proposing factual changes.
+
+<imageEmbed alt="Wikipedia's Talk:Australia page with the Talk tab selected and Add topic visible" size="large" showBorder={true} figurePrefix="none" figure="Feedback on a Wikipedia Talk page is easier to digest when you use change from X to Y" src="/uploads/rules/change-from-x-to-y/wikipedia-talk-page.png" />
+
+Screenshot: [Talk:Australia](https://en.wikipedia.org/wiki/Talk:Australia), by Wikipedia contributors, available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Illustrative Talk page proposal:** In the History section, please change:
+
+    **From:** The museum was opened in 1990.
+
+    **To:** The museum opened in 1990.
+
+    **Reason:** Shorter wording with the same meaning.
+  </>}
+  figurePrefix="good"
+  figure="A proposed wording change is specific and easy for other editors to discuss"
+/>
+
+See [Wikipedia's Talk page guidelines](https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines) for discussion etiquette. A clear proposal helps discussion but does not guarantee agreement.
+
 ## Using AI to suggest changes
 
-Don’t tell AI to rewrite your email. Instead use change x to y format too. 
+Don’t tell AI to rewrite your email. Instead use change x to y format too.
 
 Prompt example:
 
 <boxEmbed
   body={<>
     Check the below email. Number your suggestions in the form of change x to y eg.
-    
+
     \[number] change \[new line]
-    
+
     x \[new line]\
     to \[new line]\
     y \[new line]
