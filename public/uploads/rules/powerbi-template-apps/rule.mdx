@@ -109,7 +109,7 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
   body={<>
     **Why:** A Power BI Pro workspace limits a semantic model to 1 GB, and the data in every install keeps growing. A column that no visual uses still takes space in every install.
 
-    SSW EagleEye loaded every column of its tables. In October 2026, SSW's own install grew past the limit, and each nightly refresh failed at about 1.08 GB. With only the used columns, the same data is 91 MB.
+    When a model passes the limit, every refresh fails. In one app, loading only the used columns cut the model from 1.08 GB to 91 MB.
   </>}
   figurePrefix="none"
   figure=""
@@ -211,7 +211,12 @@ When users install and open the app, it opens with the default sample data. To c
 
 An installed Template App never updates itself. Each install stays on its version until an Admin of its workspace runs the update.
 
-When you promote a new version to production, Power BI shows an update banner and a notification to installs from AppSource. Installs from a direct link get no banner, so tell those users yourself. Either way, write update steps for your users, because the update dialog makes it easy to break an install.
+When you promote a new version to production:
+
+* **Installs from AppSource** - Power BI shows them an update banner and a notification
+* **Installs from a direct link** - get no banner, so tell those users yourself
+
+Either way, give your users update steps. The update dialog makes it easy to break an install.
 
 #### Keep the semantic model in Small storage format
 
@@ -221,13 +226,13 @@ Template Apps don't support the Large semantic model storage format. An install 
 
 <imageEmbed alt="Update app dialog showing the error This app cannot be updated" size="large" showBorder={true} figurePrefix="bad" figure="Bad example - Every update option fails with 'This app cannot be updated'" src="/uploads/rules/powerbi-template-apps/update-app-blocked-large-format.png" />
 
-A fresh install is always Small. Someone switched SSW EagleEye's own install to Large after the install, and that blocked the update that fixed its size problem. Tell users to check the setting and turn it off before they update.
+A fresh install is always Small, but a workspace Admin can switch it to Large later. Tell users to check the setting and turn it off before they update.
 
 #### Update the workspace content, then the app
 
 The update dialog offers 3 options:
 
-* **Update the workspace and the app** - renames the workspace and the app to the template's name (for example "SSW EagleEye Template 20/10/2026 11:56:36"). Users lose the names they know
+* **Update the workspace and the app** - renames the workspace and the app to the template name plus a timestamp. Users lose the names they know
 * **Update only workspace content without updating the app** - keeps the names, the report ID, the parameters and the credentials
 * **Install another copy of the app into a new workspace** - leaves the old install as it is
 
@@ -235,9 +240,14 @@ The dialog also preselects an install to overwrite, and it can be the wrong one.
 
 <imageEmbed alt="Update app dialog with Update only workspace content selected and the right workspace chosen" size="large" showBorder={true} figurePrefix="good" figure="Good example - Update only workspace content, with the right workspace selected" src="/uploads/rules/powerbi-template-apps/update-app-workspace-only.png" />
 
-After the update, Power BI starts a refresh, and the reports show sample data until it finishes. When the refresh passes, select **Update app** in the workspace so app users see the new version. The report ID stays the same, so an embedded report keeps working.
+After the update:
 
-Microsoft describes each option in [Update a template app](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-install-distribute?WT.mc_id=DP-MVP-33518#update-a-template-app). For a real set of user steps, see SSW EagleEye's [Update the Power BI report](https://ssweagleeye.com/docs/update-power-bi-report).
+1. Power BI starts a refresh. The reports show sample data until it finishes
+2. When the refresh passes, select **Update app** in the workspace, so app users see the new version
+
+The report ID stays the same, so an embedded report keeps working.
+
+Microsoft describes each option in [Update a template app](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-install-distribute?WT.mc_id=DP-MVP-33518#update-a-template-app).
 
 ***
 
