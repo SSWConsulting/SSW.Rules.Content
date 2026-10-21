@@ -103,18 +103,6 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
    * Select a query, then Home | **Choose Columns**, and keep only the columns that a visual, measure or relationship uses
    * Power Query adds a `Table.SelectColumns` step. It folds into the SQL query, so the model never loads the other columns
    * Repeat for **every** query that reads the database
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Why:** A Power BI Pro workspace limits a semantic model to 1 GB, and the data in every install keeps growing. A column that no visual uses still takes space in every install.
-
-    When a model passes the limit, every refresh fails. In one app, loading only the used columns cut the model from 1.08 GB to 91 MB.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
 7. Click **Close & Apply** - the whole report will refresh
 8. Publish the `.pbix` to your template app workspace:
    * Home tab | **Publish**
@@ -123,6 +111,17 @@ In [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/po
    * If a report already exists there, confirm the overwrite when prompted — the report then uploads
    <imageEmbed alt="Publish report to workspace dialog" size="large" showBorder={false} figurePrefix="none" figure="Select your template app workspace to publish your report" src="/uploads/rules/powerbi-template-apps/publish-report-to-workspace.png" />
 9. Refresh the workspace in app.powerbi.com - your report will appear
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Why load only the used columns (step 6):** A Power BI Pro workspace limits a semantic model to 1 GB, and the data in every install keeps growing. A column that no visual uses still takes space in every install.
+
+    When a model passes the limit, every refresh fails. In one app, loading only the used columns cut the model from 1.08 GB to 91 MB.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 #### Step 3: Create and Configure the Template App
 
@@ -222,9 +221,9 @@ Either way, give your users update steps. The update dialog makes it easy to bre
 
 Template Apps don't support the Large semantic model storage format. An install whose model uses Large format can't take any update.
 
-<imageEmbed alt="Large semantic model storage format toggle set to On" size="large" showBorder={true} figurePrefix="bad" figure="Bad example - Someone turned on Large storage format in the install's semantic model settings" src="/uploads/rules/powerbi-template-apps/large-storage-format-on.png" />
+<imageEmbed alt="Large semantic model storage format toggle set to On" size="large" showBorder={true} figurePrefix="bad" figure="Someone turned on Large storage format in the install's semantic model settings" src="/uploads/rules/powerbi-template-apps/large-storage-format-on.png" />
 
-<imageEmbed alt="Update app dialog showing the error This app cannot be updated" size="large" showBorder={true} figurePrefix="bad" figure="Bad example - Every update option fails with 'This app cannot be updated'" src="/uploads/rules/powerbi-template-apps/update-app-blocked-large-format.png" />
+<imageEmbed alt="Update app dialog showing the error This app cannot be updated" size="large" showBorder={true} figurePrefix="bad" figure="Every update option fails with 'This app cannot be updated'" src="/uploads/rules/powerbi-template-apps/update-app-blocked-large-format.png" />
 
 A fresh install is always Small, but a workspace Admin can switch it to Large later. Tell users to check the setting and turn it off before they update.
 
@@ -233,12 +232,12 @@ A fresh install is always Small, but a workspace Admin can switch it to Large la
 The update dialog offers 3 options:
 
 * **Update the workspace and the app** - renames the workspace and the app to the template name plus a timestamp. Users lose the names they know
-* **Update only workspace content without updating the app** - keeps the names, the report ID, the parameters and the credentials
+* **Update only workspace content without updating the app (⭐ recommended)** - keeps the names, the report ID, the parameters and the credentials
 * **Install another copy of the app into a new workspace** - leaves the old install as it is
 
 The dialog also preselects an install to overwrite, and it can be the wrong one.
 
-<imageEmbed alt="Update app dialog with Update only workspace content selected and the right workspace chosen" size="large" showBorder={true} figurePrefix="good" figure="Good example - Update only workspace content, with the right workspace selected" src="/uploads/rules/powerbi-template-apps/update-app-workspace-only.png" />
+<imageEmbed alt="Update app dialog with Update only workspace content selected and the right workspace chosen" size="large" showBorder={true} figurePrefix="good" figure="Update only workspace content, with the right workspace selected" src="/uploads/rules/powerbi-template-apps/update-app-workspace-only.png" />
 
 After the update:
 
