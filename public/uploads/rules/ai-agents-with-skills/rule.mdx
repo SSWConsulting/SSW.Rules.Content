@@ -60,7 +60,7 @@ A **skill** is a markdown file containing a prompt that gets injected into the A
 
 To invoke this skill, type `/security-review` in Claude Code, `@security-review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
 
-For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
+For connecting to external systems like databases or APIs, use [MCP servers](/mcp-servers-for-context) instead.
 
 ## When to use public skills
 
@@ -125,7 +125,7 @@ Project-level skills (committed to the repo) are one of the most effective ways 
 * **Commit skills to version control** - Store them in the project's commands directory so everyone on the team benefits
 * **Review changes like code** - Skill updates should go through the same PR review process as any other change
 * **Reference skills in your README** - Mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
-* **Combine with MCP servers when needed** - Use skills to define *how* the agent should work and [MCP servers](/rules/mcp-servers-for-context) to provide *what data* it can access
+* **Combine with MCP servers when needed** - Use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
 
 ## Using skills safely
 
@@ -337,4 +337,4 @@ Where you store a skill determines who can use it:
 * [Agent Skills - OpenCode](https://opencode.ai/docs/skills/)
 * [Custom agents - GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
 * [Anthropic Skills Repository](https://github.com/anthropics/skills) - Pre-built skills for document creation, design, and development
-* [Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - For guidance on when to use skills vs MCP servers
+* [Do you give your AI agents context with MCP servers and skills?](/mcp-servers-for-context) - For guidance on when to use skills vs MCP servers
