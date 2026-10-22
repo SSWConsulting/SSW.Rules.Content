@@ -1,0 +1,65 @@
+---
+type: rule
+title: Do you remove fake data and dead controls from AI-built dashboards?
+seoDescription: Remove sample data and dead controls before sharing an AI-built dashboard, and make live mode explicit.
+guid: ec56c9be-e075-4b86-b191-12f4d3c4fc93
+uri: remove-fake-data-from-ai-built-dashboards
+created: 2026-10-22T13:32:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/show-missing-and-stale-data-on-dashboards/rule.mdx
+  - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+archivedreason: null
+isArchived: false
+---
+
+Northwind Traders' support lead changes the date range on a new AI-built operations dashboard, but nothing moves. Sample escalations sit beside real customers, and the health badge never changes. The page was shared before anyone checked which parts were real.
+
+That's why you should **remove sample data and dead controls before sharing an AI-built dashboard**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/remove-fake-data-from-ai-built-dashboards/northwind-ai-dashboard-bad-sample-data-and-dead-controls.png"
+  alt="A generic dark purple AI Operations Hub for Northwind Traders. A badge reads 'Updated 2h ago, 96% parsed'. 'Last 30 days' is selected, but the chart shows only 8 to 14 Oct. The Emails triaged tile says 12,480 while the chart adds up to 2,412. The escalation list mixes real customers with 'Acme Corp', 'John Doe' and 'Sample Customer 3', each with an Auto-resolve button."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - 'Sample Customer 3' sits beside real customer escalations, and 'Last 30 days' labels a chart of only 7 days"
+/>
+
+## Keep samples out of live mode
+
+Sample data helps AI draw a page before a source connects. Keep it in a separate sample mode. Never substitute sample rows when live data is unavailable. Mixing sample rows into real results makes even a connected dashboard untrustworthy.
+
+If a panel cannot be computed, leave it empty and explain why. Northwind's returns panel says the inbox is not connected yet. See [Do your dashboards say when data is missing or stale?](/show-missing-and-stale-data-on-dashboards).
+
+## Wire every control or delete it
+
+A selected filter promises that the results reflect that selection. A button promises an action. A dead filter leaves the reader looking at the wrong period without knowing it.
+
+Northwind deletes the fake filter chips and lasso and keeps two working dropdowns, Feature and Dates. The escalation list loses its dead Auto-resolve buttons.
+
+## Make the mode visible
+
+Label the page as live or sample data, with the time the data was built. Read health figures from the build results instead of typing a reassuring badge into the layout. Northwind's footer reports 2,371 of 2,412 emails parsed (98.3%) and says sample data is off.
+
+<imageEmbed
+  src="/uploads/rules/remove-fake-data-from-ai-built-dashboards/northwind-ai-dashboard-good-live-data-and-working-controls.png"
+  alt="A Northwind Traders dashboard in company branding with working Feature and Dates dropdowns set to All and 8 to 14 Oct 2026. The triage tile reads 2,198 of 2,412 emails routed without a person, and the daily chart adds up to the same 2,412. The 'Sent to a person' list shows only real customers and no buttons. A dashed returns panel says it is not connected yet and shows no sample rows. The footer says live data, built 15 Oct 08:10 AEST, 2,371 of 2,412 emails parsed (98.3%), sample data off."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - The unconnected returns panel stays empty instead of showing samples, and the footer says the page is live with sample data off"
+/>
+
+## Try the page before sharing it
+
+Change the date range to one with different records and check that each affected number responds correctly. Click every control and confirm its result. Turn off a data source and check that its panel explains the gap without filling it with samples.
+
+For connecting the live data sources, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).

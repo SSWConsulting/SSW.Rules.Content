@@ -1,0 +1,69 @@
+---
+type: rule
+title: Do your dashboards say when data is missing or stale?
+seoDescription: Show missing data as unknown and expose stale figures so a failed feed never looks like a quiet day or money saved.
+guid: dfcdab7b-a1c6-4c0a-aace-730b80e8beae
+uri: show-missing-and-stale-data-on-dashboards
+created: 2026-10-22T13:32:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/remove-fake-data-from-ai-built-dashboards/rule.mdx
+  - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
+  - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+At 3 pm, Northwind Traders' support lead opens a dashboard showing 0 chats today and $0 of AI spend. It calls this a "Quiet day" and says spending is "On track". But the chat cache stopped syncing yesterday and the billing export failed, so neither figure is known. The page still says "Updated: just now", though it hasn't rebuilt since 08:10, and its AI insight repeats the false reassurance.
+
+That's why you should **show missing data as unknown and make stale data visible**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/show-missing-and-stale-data-on-dashboards/northwind-dashboard-bad-missing-data-shown-as-zero.png"
+  alt="A generic dark purple AI Ops Dashboard for Northwind Traders with an 'All systems healthy, Updated: just now' badge. AI spend for October reads $0 with a green 'On track' chip, support chats today read 0 with a 'Quiet day' chip, and customer returns read 0. The hourly chats chart stops at 6 pm on 14 Oct and is empty after that. The AI insight says support is quiet and spend is well under budget."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - A failed billing export becomes $0 and 'On track', while an unsynced chat cache becomes 0 chats and 'Quiet day'"
+/>
+
+## Keep unknown separate from zero
+
+Only show zero when a successful query confirms it. If the request fails, label the current figure "Cost unavailable" or show a dash. Put the last good value underneath with its coverage date.
+
+Northwind's last good spend is $3,374 to 13 Oct against a $9,000 budget. That can't tell anyone today's budget position, so the tile says "Pace unknown". AI commentary must respect that gap too.
+
+A feed paused for weeks gets the same treatment: a one-line note, not a tile stuck on 0.
+
+For charts, hatch unsynced hours instead of drawing them as zero. Include a partially synced hour in the unknown region, because an incomplete count can still suggest a fall.
+
+## Separate data coverage from pull time
+
+"Pulled 15 Oct 08:10" says when a request runs, not how current its records are. Northwind's chat tile counts whole hours to 14 Oct 18:00, from a cache last synced at 18:02. A fresh pull of an old cache does not make today's chats known.
+
+Track data coverage and the last successful pull time for each metric. If one source fails, keep its last successful pull time even when other sources update. Label different runs "Mixed pulls" and explain any harmless difference: Northwind's 02:00 product-description pull still covers the whole previous day.
+
+<imageEmbed
+  src="/uploads/rules/show-missing-and-stale-data-on-dashboards/northwind-dashboard-good-missing-and-stale-data-flagged.png"
+  alt="A Northwind Traders dashboard in company branding. An amber banner reads 'Stale: last built 7 h ago' and asks the reader to check the scheduler, and a line below warns of mixed pulls. The AI spend tile says 'Cost unavailable' with the last good figure of $3,374 to 13 Oct against a $9,000 budget. The chat tile shows 1,082 chats to 14 Oct 18:00 with a 'Helpdesk cache 14 h behind' chip. The descriptions tile shows 44/52 from the 02:00 run. In the hourly chart, hours after the last sync are hatched and labelled 'Not synced since 14 Oct 18:02'. A note says the customer returns feed has been paused since 30 Sep."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - Failed spend reads 'Cost unavailable' and unsynced chat hours are hatched instead of zero. The browser flags the 7-hour-old build"
+/>
+
+## Check age when the page opens
+
+Store the build timestamp and compare it with the browser's clock when the page opens. A "just now" string written during the build cannot reveal a stopped scheduler.
+
+Northwind rebuilds hourly and warns after 2 hours. At 15:10, the 08:10 build shows "Stale: last built 7 h ago" and asks the reader to check the scheduler.
+
+For where each tile's data should come from, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights). To tell the team when a feed fails, see [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts).
