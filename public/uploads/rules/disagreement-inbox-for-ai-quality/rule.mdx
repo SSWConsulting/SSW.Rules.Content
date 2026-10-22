@@ -28,7 +28,7 @@ That's why you should **review AI disagreements in an inbox and find each cause 
 
 <imageEmbed
   src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-bad-accuracy-tile-and-prompt-fix.png"
-  alt="A generic dark AI quality dashboard for a support chat assistant. Tiles show accuracy 77% with a red down arrow, 14 wrong answers, a 23% hallucination rate and prompt version v12. A list marks six questions 'Incorrect' with no answers or causes, plus 8 more, and an AI recommendation offers a button to apply prompt v13."
+  alt="A generic dark purple AI quality dashboard for a support chat assistant. Tiles show accuracy 77% with a red down arrow, 14 wrong answers, a 23% hallucination rate and prompt version v12. A list marks six questions 'Incorrect' with no answers or causes, plus 8 more, and an AI recommendation offers a button to apply prompt v13."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -37,15 +37,15 @@ That's why you should **review AI disagreements in an inbox and find each cause 
 
 ## Separate agreement from correctness
 
-When a person's answer is the reference, a match tells you the two answers agree. It doesn't tell you which one is right. Show three measures and name them plainly:
+When a person's answer is the reference, a match tells you the two answers agree. It doesn't tell you which one is right. Keep agreement rates separate from the outcomes of reviewed cases:
 
 * **Strict agreement** - The stored AI and human answers match under a documented comparison. This is the headline
 * **Normalised agreement** - A secondary measure that accepts agreed equivalences, such as option order or date format. Keep the original answers and version the comparator, so it can't hide a real difference
-* **Adjudicated correctness** - A reviewer checks the source and a written rubric, then decides whether the AI is wrong, the person is wrong, both are wrong or the question is ambiguous
+* **Reviewed outcomes** - A reviewer checks the source and a written rubric, then decides whether the AI is wrong, the person is wrong, both are wrong or the question is ambiguous. Show which cases were reviewed and how many remain unchecked
 
 Two answers can agree and both be wrong, so adjudicate a sample of agreements too. If you only adjudicate disagreements, the result describes those cases, not overall accuracy.
 
-Show each rate as a count, a range and a period. Northwind Traders' strict agreement is 47/61 (77%) for 8–14 Oct. Its 61 checks are random answers from the five topics the review covers, no two from the same chat, so the 90% range of 67–85% shows the sampling noise for those topics. For comparing weeks, see [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise).
+Show each rate as a count, a range and a period. Northwind Traders' strict agreement is 47/61 (77%) for 8–14 Oct, with a 90% range of 67–85%. For comparing weeks, see [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise).
 
 ## Make new disagreements the main view
 

@@ -12,6 +12,7 @@ related:
   - rule: public/uploads/rules/disagreement-inbox-for-ai-quality/rule.mdx
   - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
   - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/dashboard-changes-real-or-noise/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
@@ -27,7 +28,7 @@ That's why you should **show how much was checked, out of what, beside every AI 
 
 <imageEmbed
   src="/uploads/rules/show-coverage-on-ai-quality-dashboards/northwind-ai-quality-bad-rate-without-coverage.png"
-  alt="A generic dark AI quality dashboard for a support chat assistant. Accuracy shows 71% in red, down 15% on last week, customers helped shows 94% in green, and 870 questions were answered. Accuracy by topic shows bars with no counts, with returns in red at 59%, and an AI insight recommends a returns prompt update. Nothing shows how many answers were checked or which topics were never checked."
+  alt="A generic dark purple AI quality dashboard for a support chat assistant. Accuracy shows 71% in red, down 15% on last week, customers helped shows 94% in green, and 870 questions were answered. Accuracy by topic shows bars with no counts, with returns in red at 59%, and an AI insight recommends a returns prompt update. Nothing shows how many answers were checked or which topics were never checked."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -43,7 +44,7 @@ Northwind Traders counts customer questions for 8–14 Oct. Show each step with 
 * **Answered: 870** - The assistant gave an answer; another 235 went to a person mid-chat
 * **Checked in the random sample: 61** - Random answers from five topics, no two from the same chat. A support agent answered each question without seeing the AI answer
 
-The funnel shows 370 handovers that a single agreement tile hides.
+The funnel shows 370 handovers that an agreement percentage alone hides. Here, agreement means the AI's answer matches the support agent's answer; it does not establish that either answer is correct.
 
 ## Put coverage beside every rate
 
@@ -53,7 +54,7 @@ Next to 47/61 agreement (77%), show "Checked 61 of 870 answers (7%)" and label i
 
 * **Set it before you read the trend** - The bad dashboard's "71%, −15% vs last week" adds 18 targeted returns checks to this week only (56/79), while last week's 55/64 had none, so the two weeks no longer measure the same thing. To test whether a change is real, see [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise)
 * **Don't define it by the outcome** - "Customers helped 94%" is 818/870. It counts only questions the assistant answered, so all 370 handovers drop out
-* **Count independent cases** - Northwind never checks two answers from the same chat, so each check is a separate case. Answers in one chat share a customer and a topic, so 61 answers from a handful of chats can carry less evidence than 61 separate checks. A range that ignores that may be too narrow
+* **Avoid repeated cases** - Draw checks from different chats so one conversation cannot supply several checks. Checks from the same customer or review session may still be correlated; account for that before treating a range as evidence of a change
 * **Keep targeted checks apart** - Returns chats picked after complaints show 9/18 agreed. Show that beside the rate, not inside it. Targeted checks show where to look, not how often the assistant is right
 
 When checked answers disagree, see [Do you turn AI quality disagreements into a review inbox?](/disagreement-inbox-for-ai-quality).
