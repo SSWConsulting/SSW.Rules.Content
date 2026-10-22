@@ -1,7 +1,9 @@
 ---
 type: rule
-title: Do you treat your AI config as a living product?
-uri: treat-ai-config-as-a-living-product
+title: Do you run retros on your AI agent?
+uri: run-retros-on-your-ai-agent
+redirects:
+  - treat-ai-config-as-a-living-product
 categories:
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 authors:
@@ -117,6 +119,15 @@ If the loop is automated, review the proposals every morning. It takes 2 minutes
 If it's manual, run a retro after any session where you corrected the agent twice. Then run [/insights](/use-claude-insights) monthly for the bigger picture.
 
 However this should be suited how often you are using AI. For those using it constantly every day, improving your config every day can have a compounding impact on your workflows.
+
+## What can audit your config for you?
+
+Retros catch friction from your sessions. Claude Code also has 2 built-in checks that find problems in the config itself:
+
+* **`/doctor prompt-audit`** - Reviews your `CLAUDE.md`, `AGENTS.md`, rules, skills and subagents. It flags instructions written for older models, references to files or commands that no longer exist, and files that contradict each other. It proposes edits but changes nothing until you approve them. See [Audit your instruction files](https://code.claude.com/docs/en/memory)
+* **`/skill-doctor`** - Shows what each skill costs in context and how often you actually use it. Skills that never get invoked are prime candidates for pruning. See [Find unused skills](https://code.claude.com/docs/en/skills)
+
+Run both as part of your monthly review, alongside [/insights](/use-claude-insights).
 
 ***
 
