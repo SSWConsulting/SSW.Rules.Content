@@ -25,15 +25,15 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI assistant builds an operations dashboard in an afternoon, and it looks finished. Then the support lead asks where the 77% accuracy figure came from, and nobody can answer: which system, how many checks, or whether the AI worked it out when the page loaded. The AI commentary underneath has already recommended a rollback.
+An AI assistant builds an operations dashboard in an afternoon. It looks finished, but nobody can trace its 77% accuracy figure to a source or find out how many answers were checked. The AI commentary already recommends a rollback.
 
-That's why you should **use AI to build the dashboard on trusted data, show whether each change is real, and bring AI back on a schedule for insights**.
+That's why you should **build AI dashboards on traceable data and require evidence for their insights**.
 
 <endIntro />
 
 <imageEmbed
   src="/uploads/rules/ai-dashboards-with-insights/northwind-ai-dashboard-bad-generic-and-untraceable.png"
-  alt="A generic dark purple AI Insights Dashboard updated 'just now' with no sources or data dates. Accuracy shows 77% with a red down arrow and no count, customer satisfaction shows 0.0 stars from 0 ratings, and an AI insight blames release v2.39 and suggests rolling back."
+  alt="A generic dark purple AI Insights Dashboard updated 'just now' with no sources or data dates. Accuracy shows 77% with a red down arrow and no count, and customer satisfaction shows 0.0 stars from 0 ratings. An undated AI insights list with no sources blames release v2.39, the only marker on the accuracy chart, and suggests rolling back."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -53,13 +53,13 @@ That's why you should **use AI to build the dashboard on trusted data, show whet
 
 Start with one audience and the few questions they need answered, not "show all our data". Give the model your design system (colours, type, header, product names) so the dashboard looks like your company, not a generic AI page. See [Do you use AI to speed up frontend design?](/ai-with-design-system).
 
-## Connect trusted sources, then run without AI
+## Refresh the figures without an AI call
 
 Every tile reads straight from a trusted source: the database, a system API, a billing export or an approved report. No hard-coded figures, numbers typed into a prompt, or model estimates posing as actuals. Each number shows its source and data age.
 
 Tools such as [Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards) connect to your data warehouse and show the query and last refresh behind each chart, so you can check what every tile counts.
 
-Opening or refreshing the dashboard makes no AI call, so the page stays fast, cheap and consistent, even when the AI service is down. If a feed stops, say so. Northwind's customer ratings feed paused on 2 Sep, so the page shows a note, not a confident 0.0 stars.
+Opening or refreshing the dashboard makes no AI call, so the figures remain available even when the AI service is down. If a feed stops, say so. Northwind's customer ratings feed paused on 2 Sep, so the page shows a note, not a confident 0.0 stars.
 
 ## Show whether a change is real
 
@@ -67,7 +67,7 @@ Small samples move a lot by chance, so show the count behind each percentage and
 
 ## Bring AI back on a schedule for insights
 
-Schedule an AI run daily or weekly, matching how often someone acts on the numbers. It investigates what a query can't explain, then writes a few ranked insights: what changed, why it matters and what to check next. Northwind's top insight says description acceptance rose after the 7 Oct prompt change.
+Schedule an AI run daily or weekly, matching how often someone acts on the numbers. Give it the recorded figures and relevant change history. Ask it to highlight changes worth investigating, with a source and a suggested next check for each. Northwind's top insight notes that description acceptance rose after the 7 Oct prompt change.
 
 * **Date the insights** - The panel shows when AI last ran, apart from the live tiles
 * **Quote recorded figures** - AI uses figures from the sources and never invents actuals
