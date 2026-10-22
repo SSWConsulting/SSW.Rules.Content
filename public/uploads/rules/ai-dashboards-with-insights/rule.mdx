@@ -9,6 +9,7 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
+  - rule: public/uploads/rules/dashboard-changes-real-or-noise/rule.mdx
   - rule: public/uploads/rules/forecasts-in-ai-dashboards/rule.mdx
   - rule: public/uploads/rules/track-ai-cost-by-total-and-unit/rule.mdx
   - rule: public/uploads/rules/use-chatgpt-to-generate-charts/rule.mdx
@@ -50,33 +51,33 @@ That's why you should **use AI to build the dashboard on trusted data, show whet
 
 ## Build for one audience, in your own branding
 
-Start with one audience and the few questions they need answered, not "show all our data".
-
-Give the model your design system (colours, type, header, product names) so the dashboard looks like your company, not a generic AI page. See [Do you use AI to speed up frontend design?](/ai-with-design-system).
+Start with one audience and the few questions they need answered, not "show all our data". Give the model your design system (colours, type, header, product names) so the dashboard looks like your company, not a generic AI page. See [Do you use AI to speed up frontend design?](/ai-with-design-system).
 
 ## Connect trusted sources, then run without AI
 
-Every tile reads straight from a trusted source: the database, a system API, a billing export or an approved report. No hard-coded figures, numbers typed into a prompt, or model estimates posing as actuals. Each number shows its source and data age. To check the wiring, pick a range you know has different records, refresh, and compare the result with the source.
+Every tile reads straight from a trusted source: the database, a system API, a billing export or an approved report. No hard-coded figures, numbers typed into a prompt, or model estimates posing as actuals. Each number shows its source and data age.
 
 Tools such as [Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards) connect to your data warehouse and show the query and last refresh behind each chart, so you can check what every tile counts.
 
 Opening or refreshing the dashboard makes no AI call, so the page stays fast, cheap and consistent, even when the AI service is down. If a feed stops, say so. Northwind's customer ratings feed paused on 2 Sep, so the page shows a note, not a confident 0.0 stars.
 
+Before anyone relies on the numbers, work through:
+
+* [Do you remove fake data and dead controls from AI-built dashboards?](/remove-fake-data-from-ai-built-dashboards)
+* [Do you check your dashboard totals against the source?](/check-dashboard-totals-against-the-source)
+* [Do your dashboards say when data is missing or stale?](/show-missing-and-stale-data-on-dashboards)
+
 ## Show whether a change is real
 
-Small weekly samples move a lot by chance, so the dashboard has to say when a change is clear:
-
-* **Show the count** - **47/61 · 77%**, not just 77%, so readers see how much evidence sits behind it
-* **Colour the change, not the level** - "Red under 80%" fires on noise. Colour a tile only when a [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) shows a clear change: support chat at 47/61 against last week's 55/64 is "No clear change yet", while descriptions rising from 30/50 to 44/52 is a "Clear rise"
-* **Mark relevant changes** - Label prompt, model, product or data changes that could move the metric, not every release
+Small samples move a lot by chance, so show the count behind each percentage and colour a tile only when the change is clear. See [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise).
 
 ## Bring AI back on a schedule for insights
 
-Schedule an AI run daily or weekly, matching how often someone acts on the numbers. It investigates what a query can't explain, then writes a few ranked insights saying what changed, why it matters and what to check next. Northwind's top insight says description acceptance rose after the 7 Oct prompt change.
+Schedule an AI run daily or weekly, matching how often someone acts on the numbers. It investigates what a query can't explain, then writes a few ranked insights: what changed, why it matters and what to check next. Northwind's top insight says description acceptance rose after the 7 Oct prompt change.
 
 * **Date the insights** - The panel shows when AI last ran, apart from the live tiles
 * **Quote recorded figures** - AI uses figures from the sources and never invents actuals
-* **Label what AI derives** - Counts AI works out, such as sorting 301 chats into themes, are labelled and spot-checked by a person. See [Do you run evals on your AI features?](/run-evals-on-ai-features)
+* **Label what AI derives** - Counts AI works out, such as sorting 301 chats into themes, are labelled and spot-checked by a person. A person agreeing with 19 of 20 AI classifications shows agreement, not proven correctness. See [Do you run evals on your AI features?](/run-evals-on-ai-features)
 * **Allow "no clear change yet"** - When the evidence is thin, AI must not invent a story or blame the nearest release
 
 ## Add forecasts and cost when you need them
