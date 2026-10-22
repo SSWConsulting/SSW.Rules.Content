@@ -1,0 +1,141 @@
+---
+type: rule
+title: Do you run retros on your AI agent?
+uri: run-retros-on-your-ai-agent
+redirects:
+  - treat-ai-config-as-a-living-product
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+related:
+  - rule: public/uploads/rules/customize-your-coding-agent/rule.mdx
+  - rule: public/uploads/rules/use-claude-insights/rule.mdx
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+  - rule: public/uploads/rules/do-a-retrospective/rule.mdx
+guid: 6f7ad30f-d76d-4908-8281-c173e60982b2
+seoDescription: 'Stop typing the same correction to your AI agent. Run retros on your agent sessions and turn every repeated correction, rejected tool call or revert into a fix to your AGENTS.md, skills or hooks.'
+created: 2026-10-20T22:43:38.000Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-10-20T22:50:36.285Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+You tell your AI agent to use `pnpm`, not `npm`. Tomorrow you tell it again. By Friday you've typed the same correction for the third time, and your `AGENTS.md` still says nothing about `pnpm`.
+
+Your AI config is a product. It has users (you and your team), it gets bug reports (every correction you type), and it should ship fixes. Every bit of friction should end as a small change to the config, so the same mistake never costs you twice.
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=7nNJZmyBlm0" description="Video: Matt Pocock's New Skill, Clearly Explained (with real sessions) (9 min)" />
+
+## What counts as AI config?
+
+Anything that changes how your agent behaves: `AGENTS.md` / `CLAUDE.md`, skills, hooks, plugins and MCP servers. See what each layer does on [Do you customize your coding agent?](/customize-your-coding-agent)
+
+## Why does set-and-forget config fail?
+
+Most people write an `AGENTS.md`, grab a skill from their co-worker, or create a hook once on day one and never open it again... but they still use it every single day.
+
+The codebase moves on. Team habits change. Your agent config goes stale, and you start patching the gap by hand in every chat.
+
+## Signs to watch for
+
+* **Repeated corrections** - You've told the agent the same thing more than twice
+* **Rejected tool calls** - You keep denying the same kind of command
+* **Reverts** - You keep undoing the same kind of edit
+
+> "They're alive - they evolve with time and usage. They're yours - they're shaped by your workflow and your frictions." - [Josh Berman, Closing the Loop on the Software Factory](https://bermz.au/blog/Closing-the-Loop-on-the-Software-Factory-)
+
+## Turning friction into fixes
+
+Use the same idea as a [retrospective](/do-a-retrospective). A retro only works when it ends with an action point. For an AI agent, the action point is a config change.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Without a retro loop** - You correct the agent in chat every session. The config never changes, so tomorrow's session makes the same mistake.
+  </>}
+  figurePrefix="bad"
+  figure="Corrections live in chat and disappear when the session ends"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **With a manual retro** - After a frustrating session, you run a retro skill like [Matt Pocock's retro skill](https://github.com/mattpocock/skills/tree/main/skills/engineering/retro). It proposes a fix and you add it. This works, but only when you notice the friction and remember to run it.
+  </>}
+  figurePrefix="ok"
+  figure="Fixes land, but only when you remember"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **With a nightly retro** - A scheduled "night shift" job reads the day's agent sessions. It logs every correction, rejected tool call and revert to a ledger. When a pattern repeats across sessions, it writes a proposal: update a skill, add a hook, or add a one-liner to `AGENTS.md`. Each morning you implement or skip each proposal.
+  </>}
+  figurePrefix="good"
+  figure="Friction is caught automatically and a human approves every fix"
+/>
+
+## What should a fix look like?
+
+Pick the lightest fix that stops the friction:
+
+* **A preference** - One line in `AGENTS.md`, e.g. "Use pnpm, never npm"
+* **A repeated multi-step task** - A [skill](/ai-agents-with-skills)
+* **A rule the agent keeps breaking** - A hook, because a hook enforces the rule instead of asking nicely (see [back pressure](/utilize-back-pressure-for-agents))
+* **A stale or wrong instruction** - Delete it. Pruning counts as a fix
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Never auto-apply proposals. Pattern matching can lock in a bad habit as easily as a good one. Review every config change the same way you review code.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Commit project config to the repo and review changes in PRs, so every fix reaches the whole team. Keep personal preferences in [CLAUDE.local.md](/claude-local-md) so they don't leak into the shared file.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## How often should you review it?
+
+If the loop is automated, review the proposals every morning. It takes 2 minutes.
+
+If it's manual, run a retro after any session where you corrected the agent twice. Then run [/insights](/use-claude-insights) monthly for the bigger picture.
+
+However this should be suited how often you are using AI. For those using it constantly every day, improving your config every day can have a compounding impact on your workflows.
+
+## What can audit your config for you?
+
+Retros catch friction from your sessions. Claude Code also has 2 built-in checks that find problems in the config itself:
+
+* **`/doctor prompt-audit`** - Reviews your `CLAUDE.md`, `AGENTS.md`, rules, skills and subagents. It flags instructions written for older models, references to files or commands that no longer exist, and files that contradict each other. It proposes edits but changes nothing until you approve them. See [Audit your instruction files](https://code.claude.com/docs/en/memory)
+* **`/skill-doctor`** - Shows what each skill costs in context and how often you actually use it. Skills that never get invoked are prime candidates for pruning. See [Find unused skills](https://code.claude.com/docs/en/skills)
+
+Run both as part of your monthly review, alongside [/insights](/use-claude-insights).
+
+***
+
+### Learn more
+
+* [Josh Berman - Closing the Loop on the Software Factory](https://bermz.au/blog/Closing-the-Loop-on-the-Software-Factory-) - The nightly retro setup this rule is based on
+* [Matt Pocock - Retro skill](https://github.com/mattpocock/skills/tree/main/skills/engineering/retro) - A ready-made skill to start your manual retros
+* [SSW: Do you customize your coding agent?](/customize-your-coding-agent)
+* [SSW: Do you use /insights with Claude Code?](/use-claude-insights)
+* [SSW: Do you write an AGENTS.md?](/write-agents-md)
+* [SSW: Do you use skills to standardize AI workflows?](/ai-agents-with-skills)
