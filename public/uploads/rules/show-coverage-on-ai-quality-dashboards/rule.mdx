@@ -1,0 +1,78 @@
+---
+type: rule
+title: Do your AI quality dashboards show how much was actually checked?
+seoDescription: Show the question funnel, coverage beside every rate and the topics nobody has checked, so a small sample never stands in for the whole AI assistant.
+guid: 91816dd9-a632-4d63-bdf2-84e195b61a39
+uri: show-coverage-on-ai-quality-dashboards
+created: 2026-10-22T13:30:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/disagreement-inbox-for-ai-quality/rule.mdx
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A support chat dashboard says accuracy fell to 71% and recommends a returns prompt update. It also calls the assistant a success, with a record 94% of customers helped. Neither figure says how many answers anyone checked, or out of what. Three topics have never been checked at all, and nothing on the page says so.
+
+That's why you should **show how much was checked, out of what, beside every AI quality rate**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/show-coverage-on-ai-quality-dashboards/northwind-ai-quality-bad-rate-without-coverage.png"
+  alt="A generic dark AI quality dashboard for a support chat assistant. Accuracy shows 71% in red, down 15% on last week, customers helped shows 94% in green, and 870 questions were answered. Accuracy by topic shows bars with no counts, with returns in red at 59%, and an AI insight recommends a returns prompt update. Nothing shows how many answers were checked or which topics were never checked."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - 71% and 94% appear with no count, no coverage and no definition, and the topic chart leaves out every topic nobody checked"
+/>
+
+## Show the funnel before the rate
+
+Northwind Traders counts customer questions for 8–14 Oct. Show each step with its definition under the number:
+
+* **Eligible: 1,240** - Questions in chats where the assistant is switched on
+* **Attempted: 1,105** - The assistant tried to answer; 135 went straight to a person
+* **Answered: 870** - The assistant gave an answer; another 235 went to a person mid-chat
+* **Checked in the random sample: 61** - Random answers from five topics, no two from the same chat. A support agent answered each question without seeing the AI answer
+
+The funnel shows 370 handovers that a single agreement tile hides.
+
+## Put coverage beside every rate
+
+Next to 47/61 agreement (77%), show "Checked 61 of 870 answers (7%)" and label it as the random sample. Those 61 checks come from 718 answers in five topics, not every topic the assistant handles. The 18 targeted checks get their own count.
+
+## Keep the denominator honest
+
+* **Set it before you read the trend** - The bad dashboard's "71%, −15% vs last week" adds 18 targeted returns checks to this week only (56/79), while last week's 55/64 had none, so the two weeks no longer measure the same thing. To test whether a change is real, see [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise)
+* **Don't define it by the outcome** - "Customers helped 94%" is 818/870. It counts only questions the assistant answered, so all 370 handovers drop out
+* **Count independent cases** - Northwind never checks two answers from the same chat, so each check is a separate case. Answers in one chat share a customer and a topic, so 61 answers from a handful of chats can carry less evidence than 61 separate checks. A range that ignores that may be too narrow
+* **Keep targeted checks apart** - Returns chats picked after complaints show 9/18 agreed. Show that beside the rate, not inside it. Targeted checks show where to look, not how often the assistant is right
+
+When checked answers disagree, see [Do you turn AI quality disagreements into a review inbox?](/disagreement-inbox-for-ai-quality).
+
+## List what has never been checked
+
+Rank topics with no checks by volume, so review effort goes where the answers are:
+
+* **Gift cards and vouchers** - 71 answers
+* **Bulk and wholesale orders** - 48 answers
+* **Allergens and ingredients** - 33 answers
+
+That's 152 answers, 17% of everything answered. These topics went live on 1 Oct and aren't in the review sample yet, so the 77% says nothing about them. Add them to the sample before quoting one figure for the whole assistant.
+
+<imageEmbed
+  src="/uploads/rules/show-coverage-on-ai-quality-dashboards/northwind-ai-quality-good-funnel-and-coverage.png"
+  alt="A Northwind Traders support chat quality page in company branding. A funnel runs from 1,240 eligible questions to 1,105 attempted, 870 answered and 61 checked in the random sample, with a definition under each step. The 47/61 agreement card says no two checks come from the same chat, and that the sample is drawn from the 718 answers in the five reviewed topics. A separate card shows 9/18 from complaint-led returns checks, kept out of the random sample's rate and coverage. A coverage table lists three never-checked topics with 152 answers, so the 77% can't describe the whole assistant."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - The random sample checks 61 of 870 answers, and 152 answers in never-checked topics sit outside the sample the 77% comes from"
+/>
