@@ -9,6 +9,9 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
+  - rule: public/uploads/rules/remove-fake-data-from-ai-built-dashboards/rule.mdx
+  - rule: public/uploads/rules/show-missing-and-stale-data-on-dashboards/rule.mdx
+  - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
   - rule: public/uploads/rules/dashboard-changes-real-or-noise/rule.mdx
   - rule: public/uploads/rules/forecasts-in-ai-dashboards/rule.mdx
   - rule: public/uploads/rules/track-ai-cost-by-total-and-unit/rule.mdx
@@ -60,6 +63,12 @@ Every tile reads straight from a trusted source: the database, a system API, a b
 Tools such as [Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards) connect to your data warehouse and show the query and last refresh behind each chart, so you can check what every tile counts.
 
 Opening or refreshing the dashboard makes no AI call, so the page stays fast, cheap and consistent, even when the AI service is down. If a feed stops, say so. Northwind's customer ratings feed paused on 2 Sep, so the page shows a note, not a confident 0.0 stars.
+
+Before anyone relies on the numbers, work through:
+
+* [Do you remove fake data and dead controls from AI-built dashboards?](/remove-fake-data-from-ai-built-dashboards)
+* [Do you check your dashboard totals against the source?](/check-dashboard-totals-against-the-source)
+* [Do your dashboards say when data is missing or stale?](/show-missing-and-stale-data-on-dashboards)
 
 ## Show whether a change is real
 
