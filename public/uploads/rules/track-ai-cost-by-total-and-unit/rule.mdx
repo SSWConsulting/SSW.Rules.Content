@@ -13,6 +13,7 @@ related:
   - rule: public/uploads/rules/ai-service-alerts/rule.mdx
   - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
   - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
@@ -20,7 +21,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI feature's monthly bill nearly doubles, and the dashboard shows a red arrow. Is that waste, or is the feature doing twice the useful work? The total can't tell you, so the team either cuts a feature that was paying off or ignores spend that wasn't.
+An AI feature's spend nearly doubles, and the dashboard shows a red arrow. Is that waste, or is the feature doing twice the useful work? The total can't tell you, so the team either cuts a feature that was paying off or ignores spend that wasn't.
 
 That's why you should **track AI spend in total to stay on budget, and per useful outcome to see whether it's worth it**.
 
@@ -28,9 +29,9 @@ That's why you should **track AI spend in total to stay on budget, and per usefu
 
 <imageEmbed
   src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-spend-without-context.png"
-  alt="A dark dashboard card titled AI spend showing $868 for the last 7 days with a red up arrow and 96%, above a daily spend line that climbs, with weekend dips, from about $75 to about $155. Nothing shows what the spend produced."
+  alt="A generic dark purple AI Spend Monitor for Northwind Traders, updated 'just now'. Product description spend reads $868 for 9–15 Oct 2026 with a red 96% rise, beside 866 drafts generated, up 55%, and $1.00 per draft, up 26%. A daily spend line climbs, with weekend dips, from about $75 to about $155, and the AI insight recommends a cheaper model. Nothing shows how many descriptions were good enough to publish."
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="bad"
   figure="Synthetic illustration - AI spend is up 96%, with nothing to show whether it bought more useful work"
 />
@@ -49,13 +50,13 @@ Divide what a feature spends by the useful results it produces:
 
 If spend rises and the cost per outcome falls, the feature is doing more useful work. If both rise, find out why.
 
-In the Northwind Traders example below, spend on AI product descriptions nearly doubled after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
+In Northwind Traders' 9–15 Oct 2026 window, spend on AI product descriptions is 96% higher than in 14–20 Sep, after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
 
 <imageEmbed
   src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-cost-per-accepted-description.png"
-  alt="A dark dashboard card titled AI product descriptions comparing the last 7 days with the first week, where x1 means the same. Each line point is a rolling 7-day value. Headlines read +137% accepted descriptions and -17% cost per accepted, with spend +96% and $1.46 to $1.21 per accepted description. A green line for accepted descriptions climbs past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while a white line for cost per accepted description drifts below x1."
+  alt="A Northwind Traders AI cost page in company branding comparing product descriptions for 9–15 Oct with 14–20 Sep 2026. Cards show accepted descriptions up 137% (304 to 720), cost per accepted description down 17% ($1.46 to $1.21) and billed spend up 96% ($443 to $868), including rejected drafts. A chart of rolling 7-day values against the first week, where x1 means the same, shows accepted descriptions climbing past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while cost per accepted description falls below x1. The source line names the billing export and merchandising system, with data to 15 Oct."
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="good"
   figure="Synthetic illustration - Spend is up 96%, but accepted descriptions are up 137%, so each accepted description costs 17% less"
 />

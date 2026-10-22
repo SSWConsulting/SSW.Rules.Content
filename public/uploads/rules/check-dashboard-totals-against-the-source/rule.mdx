@@ -21,7 +21,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI assistant builds Northwind Traders' spend dashboard and writes its query. September's total looks safely under budget, and the AI insight recommends a cheaper model for product descriptions. But the dashboard shows $4,489.36 against a bill of $4,122.60, and support chat actually costs the most. The plausible-looking page points the team at the wrong feature.
+An AI assistant builds Northwind Traders' spend dashboard and writes its query. September's total looks safely under budget, and the AI insight recommends a cheaper model for product descriptions. But the dashboard shows $6,907.40 against a bill of $6,335.71, and support chat actually costs the most. The plausible-looking page points the team at the wrong feature.
 
 That's why you should **check dashboard totals against an independent source before acting on the insights**.
 
@@ -29,11 +29,11 @@ That's why you should **check dashboard totals against an independent source bef
 
 <imageEmbed
   src="/uploads/rules/check-dashboard-totals-against-the-source/northwind-ai-spend-bad-truncated-and-double-counted.png"
-  alt="A generic dark purple AI Spend Insights page for Northwind Traders, September 2026, with a 'Synced with billing' badge. Total AI spend is $4,489.36 with a green 'Under $5,000 budget' chip. Product descriptions top the spend-by-feature bars at $1,959. A panel shows the generated query, SELECT TOP 150 day, feature, cost_usd FROM ai_cost_daily ORDER BY day, commented '5 features x 30 days'. The AI insight suggests a cheaper model for product descriptions."
+  alt="A generic dark purple AI Spend Insights page for Northwind Traders, September 2026, with a 'Synced with billing' badge. Total AI spend is $6,907.40 with a green 'Under $9,000 budget' chip. Product descriptions top the spend-by-feature bars at $3,352. A panel shows the generated query, SELECT TOP 150 day, feature, cost_usd FROM ai_cost_daily ORDER BY day, commented '5 features x 30 days'. The AI insight suggests a cheaper model for product descriptions."
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Synthetic illustration - $4,489.36 looks fine under a $5,000 budget, but the query dropped 5 days and counted product descriptions twice, so the insight targets the wrong feature"
+  figure="Synthetic illustration - $6,907.40 looks fine under a $9,000 budget, but the query dropped 5 days and counted product descriptions twice, so the insight targets the wrong feature"
 />
 
 ## Compare the same closed window
@@ -42,25 +42,25 @@ Use a closed month so the dashboard and its comparison cover a period that no lo
 
 Check the subtotals as well as the total. Moving cost from one feature to another leaves the total right and the ranking wrong, so Northwind also matches each feature against the provider's cost report by tag.
 
-[Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights) covers wiring each tile to a trusted source. This rule checks whether the totals built on that source agree with an independent route.
+[Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights) covers wiring each tile to a trusted source. This rule checks those totals against a separate calculation or report.
 
 ## Read every row and count each cost once
 
-The assistant assumes 5 features × 30 days and writes `SELECT TOP 150`, ordered by day. But the table holds 180 rows because daily product-description roll-ups repeat the cost of their children. The query drops the last 5 days and counts descriptions twice. The errors partly cancel, leaving the total just 8.9% above the bill.
+The assistant assumes 5 features × 30 days and writes `SELECT TOP 150`, ordered by day. But the table holds 180 rows because daily product-description roll-ups repeat the cost of their children. The query drops the last 5 days and counts descriptions twice. The errors partly cancel, leaving the total 9.0% above the bill.
 
-Exclude parent roll-ups when summing their children. Read every billing-export page, then compare rows read with rows available: Northwind's export has 11,482 rows across 3 pages, and the dashboard reads them all. Report any query that reaches its row limit, even when its total looks reasonable.
+When adding individual costs, exclude summary rows that already include those costs. Exports and APIs return long results in pages, so read every page and compare rows read with rows available: Northwind's export has 11,482 rows across 3 pages, and the dashboard reads them all. Report any query that reaches its row limit, even when its total looks reasonable.
 
 ## Keep the comparison on the dashboard
 
 Repeat the comparison on every refresh. Show each dashboard value beside the independent source value in a small table, and flag mismatches before generating advice. Northwind also checks 2,804 resolved chats against the helpdesk report and 9,388 routed emails against the inbox log. Those counts are the denominators for cost per outcome, so they need checking too. See [Do you track AI cost by total and by unit?](/track-ai-cost-by-total-and-unit).
 
-Keep the $3,884.00 token estimate separate from billed spend. It estimates the same activity, so adding it would count costs again. The billed-to-estimated ratio of 1.06× is a comparison, not another charge.
+Keep the $5,964.22 token estimate separate from billed spend. It estimates the same activity, so adding it would count costs again. The billed-to-estimated ratio of 1.06× is a comparison, not another charge.
 
 <imageEmbed
   src="/uploads/rules/check-dashboard-totals-against-the-source/northwind-ai-spend-good-reconciled-to-the-bill.png"
-  alt="A Northwind Traders AI spend page in company branding for September 2026, a closed month, with a 'Reconciled, 7 of 7 checks match' pill. Spend by feature lists billed cost from the billing export, led by the support chat assistant at $1,620.40, with $12.60 unattributed and a total of $4,122.60. A note keeps the $3,884.00 token estimate apart from billed spend. A reconciliation table checks the total against the invoice, 11,482 of 11,482 export rows read, 0 of 9 queries at a row limit, every feature against the provider's cost report by tag, roll-up rows excluded, and chat and email counts against the helpdesk and inbox, all ticked."
+  alt="A Northwind Traders AI spend page in company branding for September 2026, a closed month, with a 'Reconciled, 7 of 7 checks match' pill. Spend by feature lists billed cost from the billing export, led by the support chat assistant at $2,690.60, with $12.41 unattributed and a total of $6,335.71. A note keeps the $5,964.22 token estimate apart from billed spend. A reconciliation table checks the total against the invoice, 11,482 of 11,482 export rows read, 0 of 9 queries at a row limit, every feature against the provider's cost report by tag, roll-up rows excluded, and chat and email counts against the helpdesk and inbox, all ticked."
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Synthetic illustration - The corrected total matches the $4,122.60 invoice. Support chat, not product descriptions, is the largest cost at $1,620.40"
+  figure="Synthetic illustration - The corrected total matches the $6,335.71 invoice. Support chat, not product descriptions, is the largest cost at $2,690.60"
 />

@@ -28,7 +28,7 @@ That's why you should **show the evidence behind every percentage and colour a c
 
 <imageEmbed
   src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-bad-colour-by-level.png"
-  alt="A dashboard colours support chat accuracy at 77% red against an 80% target without showing a count. A daily chart carries release markers, the AI insight recommends a rollback, and a Top 5 ranks questions at 100% from 6 checks each."
+  alt="A generic dark purple AI Quality Dashboard colours support chat accuracy at 77% red against an 80% target without showing a count. A daily chart carries release markers, the AI insight recommends a rollback, and a Top 5 ranks questions at 100% from 6 checks each."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -52,12 +52,14 @@ Show **47/61 · 77%**, not just 77%. Call the measure "answers a support agent a
 
 ## Colour the change, not the level
 
-"Red under 80%" fires on noise. Colour only when a [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) against the previous period gives p below 0.05:
+"Red under 80%" fires on noise. Colour only when a planned [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) against the previous period gives p below 0.05:
 
 * **No clear change yet** - Support chat at 47/61 against 55/64 gives p = 0.20
 * **Clear rise** - Descriptions at 44/52 against 30/50 give p = 0.005
 
 Put the plain phrase on the tile and the p-value in the drill-in. "No clear change yet" means these checks can't separate the move from chance, not that nothing changed.
+
+The 0.05 threshold holds for one planned comparison. Across many tiles and repeated looks, some cross it by chance, so set the comparisons before you look, use a method that controls false alerts across them, and check that the change is big enough to matter.
 
 Weekly comparisons catch only big moves. Spotting a fall from 86% to 71% reliably (80% power, 5% test) takes about 117 checks per period, so at about 60 checks a week, compare 2-week periods.
 
