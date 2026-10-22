@@ -1,0 +1,69 @@
+---
+type: rule
+title: Do you turn AI quality disagreements into a review inbox?
+seoDescription: Call it agreement, not accuracy, review each AI disagreement against the evidence, and fix the cause before you change the prompt.
+guid: 19b1faad-47b1-4cd2-a03b-18aa3798a8ff
+uri: disagreement-inbox-for-ai-quality
+created: 2026-10-21T13:11:01.797Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/show-coverage-on-ai-quality-dashboards/rule.mdx
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A support chat tile reads "Accuracy 77%" in red, and the dashboard recommends a new prompt. Behind it sit 14 AI answers that didn't match the support agent's. Four say the same thing in a different format, and three quote a returns policy that was retired on 1 Oct. A new prompt fixes neither.
+
+That's why you should **review AI disagreements in an inbox and find each cause before you change the prompt**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-bad-accuracy-tile-and-prompt-fix.png"
+  alt="A generic dark AI quality dashboard for a support chat assistant. Tiles show accuracy 77% with a red down arrow, 14 wrong answers, a 23% hallucination rate and prompt version v12. A list marks six questions 'Incorrect' with no answers or causes, plus 8 more, and an AI recommendation offers a button to apply prompt v13."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - Agreement is labelled 'Accuracy 77%', every one of the 14 disagreements counts as a hallucination, and the fix on offer is prompt v13"
+/>
+
+## Separate agreement from correctness
+
+When a person's answer is the reference, a match tells you the two answers agree. It doesn't tell you which one is right. Show three measures and name them plainly:
+
+* **Strict agreement** - The stored AI and human answers match under a documented comparison. This is the headline
+* **Normalised agreement** - A secondary measure that accepts agreed equivalences, such as option order or date format. Keep the original answers and version the comparator, so it can't hide a real difference
+* **Adjudicated correctness** - A reviewer checks the source and a written rubric, then decides whether the AI is wrong, the person is wrong, both are wrong or the question is ambiguous
+
+Two answers can agree and both be wrong, so adjudicate a sample of agreements too. If you only adjudicate disagreements, the result describes those cases, not overall accuracy.
+
+Show each rate as a count, a range and a period. Northwind Traders' strict agreement is 47/61 (77%) for 8–14 Oct. Its 61 checks are random answers from the five topics the review covers, no two from the same chat, so the 90% range of 67–85% shows the sampling noise for those topics. For comparing weeks, see [Do your dashboards show whether a change is real?](/dashboard-changes-real-or-noise).
+
+## Make new disagreements the main view
+
+A percentage can't tell you what to fix, but the rows behind it can. List disagreements newest first, with unclassified ones on top. Each row shows the question, the first line of the AI answer and the person's answer, the cause, and a link to the full chat and its source. Keep that link behind the same access controls as the original records.
+
+Show how many answers reached review at all, too. See [Do your AI quality dashboards show how much was actually checked?](/show-coverage-on-ai-quality-dashboards).
+
+## Fix the cause before the prompt
+
+Classify each disagreement as a comparator bug, wrong source, ambiguous question, human error or model error. AI can suggest a cause, but a person confirms it against the evidence. See [Do you avoid automation bias? (aka AI Slop)](/avoid-automation-bias).
+
+Northwind has classified 11 of its 14 disagreements, and only 2 point at the prompt or model. Four are comparator bugs, and three quote the retired returns policy. Fix the comparator and the returns article first. Then turn confirmed model errors into eval cases and re-run them. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+
+<imageEmbed
+  src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-good-disagreement-inbox.png"
+  alt="A Northwind Traders support chat quality page in company branding. Three cards show strict agreement 47/61 from a random sample within five reviewed topics, with a 90% range of 67–85%, normalised agreement 51/61, and 11 of 14 disagreements adjudicated: AI right 5, AI wrong 5, unclear 1, new 3. A disagreement inbox lists the newest cases first with the question, both answers and a cause such as wrong source or comparator bug. A causes panel counts each cause and says only 2 of 11 point at the prompt or model."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - Strict agreement stays the headline at 47/61, and the inbox shows only 2 of 11 classified disagreements point at the prompt or model"
+/>
