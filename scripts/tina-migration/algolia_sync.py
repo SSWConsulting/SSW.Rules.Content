@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import re
 import sys
 import yaml
 from datetime import date, datetime
@@ -27,6 +28,17 @@ def normalize(obj):
         return [normalize(v) for v in obj]
     return obj
 
+# Frontmatter is delimited by lines that are exactly "---". Splitting on the bare
+# string also matches "---" inside values (e.g. a URL ending "...cut---jump-cut"),
+# which truncates the frontmatter mid-quote and makes the YAML unparseable.
+FRONTMATTER_DELIMITER = re.compile(r"^---[ \t]*$", re.MULTILINE)
+
+
+def split_frontmatter(content):
+    """Split content into [before, frontmatter, body] on delimiter lines only."""
+    return FRONTMATTER_DELIMITER.split(content, maxsplit=2)
+
+
 def parse_rule(folder_path):
     rule_file = folder_path / 'rule.mdx'
     if not rule_file.exists():
@@ -35,7 +47,7 @@ def parse_rule(folder_path):
         content = rule_file.read_text(encoding='utf-8')
         if not content.startswith('---'):
             return None
-        parts = content.split('---', 2)
+        parts = split_frontmatter(content)
         if len(parts) < 3:
             return None
         frontmatter = normalize(yaml.safe_load(parts[1]))
