@@ -4,6 +4,7 @@
       "Bash(gh pr list:*)",
       "Bash(gh pr view:*)",
       "Bash(gh issue list:*)"
-    ]
+    ],
+    "deny": ["Bash(gh * -R*)", "Bash(gh * --repo*)"]
   }
 }
