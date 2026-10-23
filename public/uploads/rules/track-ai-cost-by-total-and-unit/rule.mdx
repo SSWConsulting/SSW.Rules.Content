@@ -1,0 +1,63 @@
+---
+type: rule
+title: Do you track AI cost by total and by unit?
+seoDescription: Track total AI spend to stay on budget, and cost per useful outcome to see whether that spend is worth it.
+guid: c0b32d0f-7565-47e1-a750-1daa0b351874
+uri: track-ai-cost-by-total-and-unit
+created: 2026-10-16T13:32:49.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI feature's spend nearly doubles, and the dashboard shows a red arrow. Is that waste, or is the feature doing twice the useful work? The total can't tell you, so the team either cuts a feature that was paying off or ignores spend that wasn't.
+
+That's why you should **track AI spend in total to stay on budget, and per useful outcome to see whether it's worth it**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-spend-without-context.png"
+  alt="A generic dark purple AI Spend Monitor for Northwind Traders, updated 'just now'. Product description spend reads $868 for 9–15 Oct 2026 with a red 96% rise, beside 866 drafts generated, up 55%, and $1.00 per draft, up 26%. A daily spend line climbs, with weekend dips, from about $75 to about $155, and the AI insight recommends a cheaper model. Nothing shows how many descriptions were good enough to publish."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - AI spend is up 96%, with nothing to show whether it bought more useful work"
+/>
+
+## Track the total for the budget
+
+The total keeps spend predictable. Put a budget alert on it, and alert on throttling and failures too, because cost data arrives late. See [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts). For the AI tools your developers use, see [Do you monitor AI cost and usage?](/monitor-ai-cost-and-usage).
+
+## Track the cost per useful outcome for value
+
+Divide what a feature spends by the useful results it produces:
+
+* **Pick one useful outcome per feature** - For example, a product description published without edits, or a support chat resolved without a person. Tokens and requests count activity, not results
+* **Use the same days for both** - Divide spend by outcomes over the same window, and include the cost of rejected attempts
+* **Mark model and prompt changes** - A labelled marker helps readers investigate a step in the line
+
+If spend rises and the cost per outcome falls, the feature is doing more useful work. If both rise, find out why.
+
+In Northwind Traders' 9–15 Oct 2026 window, spend on AI product descriptions is 96% higher than in 14–20 Sep, after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
+
+<imageEmbed
+  src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-cost-per-accepted-description.png"
+  alt="A Northwind Traders AI cost page in company branding comparing product descriptions for 9–15 Oct with 14–20 Sep 2026. Cards show accepted descriptions up 137% (304 to 720), cost per accepted description down 17% ($1.46 to $1.21) and billed spend up 96% ($443 to $868), including rejected drafts. A chart of rolling 7-day values against the first week, where x1 means the same, shows accepted descriptions climbing past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while cost per accepted description falls below x1. The source line names the billing export and merchandising system, with data to 15 Oct."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - Spend is up 96%, but accepted descriptions are up 137%, so each accepted description costs 17% less"
+/>
+
+To put these numbers on a dashboard, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).
