@@ -1,0 +1,98 @@
+---
+type: rule
+title: Do you use an Agentic Development Environment (ADE)?
+seoDescription: IDEs were built for humans typing code. An Agentic Development Environment (ADE) is built for agents writing it, with parallel sessions, multiple agent providers, pull request tracking and diff review in one place.
+guid: d3563d74-16bf-4beb-a900-06fbffd31935
+uri: agentic-development-environment
+created: 2026-10-25T23:13:35.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/best-ai-powered-ide/rule.mdx
+  - rule: public/uploads/rules/ai-cli-tools/rule.mdx
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/ai-agent-session-messaging/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+You have Claude Code fixing a bug in one terminal, Codex building a feature in another, and a third agent writing tests in a different repository. Each one has its own IDE window open so you can read what it changed. One is waiting for your answer, one has opened a pull request with failing CI, and you have no idea which is which until you click through every window.
+
+The tools you are using were designed for a human writing code one file at a time. That is no longer the job.
+
+<endIntro />
+
+## What is an ADE?
+
+An **Agentic Development Environment (ADE)** is a workspace built around agents writing the code, with the human directing, reviewing and shipping the work. You may also see it called an "agent development environment" or an "agent IDE".
+
+An **Integrated Development Environment (IDE)** such as [JetBrains Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) is built around a person typing. Its best features are autocomplete, refactoring shortcuts, a debugger and a big editor in the middle of the screen. AI features were added later, usually as a chat panel on the side.
+
+An ADE flips that layout. Agent sessions are the centre of the screen, and the editor becomes a place to review what the agents wrote.
+
+| | IDE | ADE |
+| --- | --- | --- |
+| **Who writes the code** | You, with AI suggestions | Agents, directed by you |
+| **Unit of work** | A file | A task, running in its own session and branch |
+| **Concurrency** | One thing at a time | Many agents across many projects |
+| **Main screen** | Code editor | Agent sessions, diffs and pull request status |
+
+## Why IDEs are obsolete
+
+When agents write the code, the bottleneck moves from typing to coordinating and reviewing. An IDE doesn't help with either:
+
+* **It assumes one task at a time** - Running several agents means several IDE windows, several terminals and constant context switching
+* **It has no idea what the agents are doing** - You can't see which session is working, which is blocked on a question, and which has finished
+* **Pull requests live somewhere else** - You leave the IDE to open a pull request, then check the browser again and again for CI and review status
+* **Its best features target the wrong person** - Autocomplete and refactoring shortcuts are useless when you are not the one typing
+
+Bolting an agent panel onto an IDE doesn't fix this, because the whole layout is still built around a single human editing a single file.
+
+## What should an ADE do?
+
+<imageEmbed
+  alt="Orca running five Claude Code and Codex agents in parallel across two projects, with an inline diff, a dev server terminal and a file explorer"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Orca running several agents across multiple projects, each in its own worktree, with diff review and a file explorer in the same window"
+  src="/uploads/rules/agentic-development-environment/orca-ade-parallel-agents.png"
+/>
+
+### Manage multiple agent sessions across projects
+
+You should be able to run many agent sessions at once, across many repositories, and see at a glance which ones are working, waiting for input or done. A good ADE gives each task its own [git worktree](/git-worktrees) automatically, so agents never trip over each other's changes.
+
+### Work with agents from any provider
+
+No single model is best at everything. An ADE lets you run [Claude Code](https://claude.com/product/claude-code), [Codex](https://developers.openai.com/codex/cli), [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and other [AI CLI tools](/ai-cli-tools) side by side, so you can pick the right agent for each task or give the same task to two agents and compare the results.
+
+### Create and monitor pull requests
+
+Finished work becomes a pull request without leaving the tool. The ADE then shows CI checks and review status for every open pull request, so you know which ones need attention.
+
+### Review the code
+
+You are still responsible for every line you merge. An ADE includes a file explorer and a diff viewer so you can read what each agent changed, comment on specific lines and send that feedback straight back to the agent.
+
+## Which ADE should you use?
+
+ADEs are a new category and are changing quickly. Some options:
+
+* [Orca](https://www.onorca.dev/) (⭐ Recommended) - Free, open source and cross-platform (macOS, Windows and Linux). Supports Claude Code, Codex, Gemini, Cursor, GitHub Copilot, OpenCode and more, with built-in diff review, GitHub integration and an embedded browser
+* [Superset](https://superset.sh/) - Runs any CLI agent in parallel worktrees, with monitoring and diff review
+* [VS Code Agents](https://code.visualstudio.com/docs/agents/run/agents-window) - A separate window from the VS Code editor, built around agent sessions rather than files. Runs Copilot, Claude and Codex sessions in parallel across projects, with optional worktree isolation, inline diffs and pull request creation (currently in preview in VS Code Insiders)
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Most ADEs are free or have a free tier. Try a couple with your usual agents and pick the one that fits how you work.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
