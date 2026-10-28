@@ -12,6 +12,7 @@ related:
   - rule: public/uploads/rules/write-agents-md/rule.mdx
   - rule: public/uploads/rules/symlink-agents-to-claude/rule.mdx
   - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/copy-claude-local-md-into-worktrees/rule.mdx
   - rule: public/uploads/rules/add-local-configuration-file-for-developer-specific-settings/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
@@ -119,6 +120,8 @@ A gitignored `CLAUDE.local.md` exists only in the worktree where you created it.
 ```
 
 Your overrides then live in one place, and a new worktree only needs that one line. Claude Code asks you to approve an import from outside the project the first time it sees one. See [Do you use Git worktrees?](/git-worktrees)
+
+To check which worktree tools copy the file for you, see [Do you copy CLAUDE.local.md into every Git worktree?](/copy-claude-local-md-into-worktrees)
 
 ## Learn more
 

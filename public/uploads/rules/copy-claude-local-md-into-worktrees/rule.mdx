@@ -1,0 +1,98 @@
+---
+type: rule
+title: Do you copy CLAUDE.local.md into every Git worktree?
+seoDescription: Make sure your gitignored CLAUDE.local.md is in every Git worktree, whether Claude Code, Git or an agentic development environment created it.
+guid: fdacb720-863a-400d-9326-5fa3d940a75c
+uri: copy-claude-local-md-into-worktrees
+created: 2026-10-28T02:18:14.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/claude-local-md/rule.mdx
+  - rule: public/uploads/rules/git-worktrees/rule.mdx
+  - rule: public/uploads/rules/agentic-development-environment/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+You run three agents in three worktrees. One of them keeps starting the API on the default port, uses the wrong subscription and ignores your workflow rules. Nothing errors. That worktree simply has no `CLAUDE.local.md`, so the session never saw your personal instructions.
+
+<endIntro />
+
+## What is CLAUDE.local.md?
+
+`CLAUDE.local.md` is a private, per-developer instructions file at the repository root. Claude Code loads it alongside the project's shared `CLAUDE.md`. It holds things that are true only for you: local ports, your test subscription, how you run the app, and personal workflow rules.
+
+It is never committed. Either add it to `.gitignore`, or list it in `.git/info/exclude` so the rest of the team doesn't even see the entry. See [Do you keep personal Claude Code overrides in CLAUDE.local.md?](/claude-local-md)
+
+## Why can worktrees miss it?
+
+A new [Git worktree](/git-worktrees) is a fresh checkout of tracked files. Git leaves gitignored files, including `CLAUDE.local.md`, behind in the main checkout. Whether the new worktree gets a copy depends on the tool that created it.
+
+Claude doesn't warn you when the file is missing. A session in that worktree reads the shared `CLAUDE.md`, misses your personal file, and carries on without your instructions.
+
+## Worktrees that Claude Code creates
+
+When Claude Code creates the worktree itself with `claude --worktree`, there is nothing to do. It copies `CLAUDE.local.md` from the main checkout into the new worktree for you.
+
+## Worktrees that other tools create
+
+Other tools follow their own rules, so check each one you use:
+
+* **Git** - `git worktree add` copies only tracked files, so the new worktree has no `CLAUDE.local.md`. You have to copy it in by hand, every time
+* **[Agentic development environments (ADEs)](/agentic-development-environment)** - Tools such as [Orca](https://www.onorca.dev/) read a `.worktreeinclude` file at the repository root. It uses `.gitignore` syntax, and the tool copies every gitignored file that matches it into each new worktree
+
+To check any tool, create a worktree with it, start Claude Code in the new folder and run `/memory`. If `CLAUDE.local.md` isn't listed, the session can't see your personal instructions.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```bash
+    git worktree add ../my-app-feature -b feature
+    cp CLAUDE.local.md ../my-app-feature/
+    ```
+
+    Forget the second line once and the agent in that worktree runs without your personal instructions. Nothing warns you.
+  </>}
+  figurePrefix="bad"
+  figure="A native Git worktree needs CLAUDE.local.md copied in by hand"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```bash
+    claude --worktree my-app-feature
+    ```
+
+    Claude Code creates the worktree and copies `CLAUDE.local.md` into it for you.
+  </>}
+  figurePrefix="good"
+  figure="A Claude Code managed worktree gets CLAUDE.local.md automatically"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `.worktreeinclude`
+
+    ```text
+    CLAUDE.local.md
+    ```
+
+    Every worktree your ADE creates now gets a copy of `CLAUDE.local.md`. The file is gitignored, so `git status` in the new worktree stays clean.
+  </>}
+  figurePrefix="good"
+  figure="A one-line .worktreeinclude file gets CLAUDE.local.md into every worktree an ADE such as Orca creates"
+/>
+
+Commit `.worktreeinclude` when it lists files the whole team needs, such as `.env`. If it only lists your personal files, gitignore it too.
+
+Prefer letting Claude Code or your ADE create worktrees. They handle the copy for you, so you can't forget it.
+
+## Learn more
+
+* [Claude Code Docs - Common workflows: Git worktrees](https://code.claude.com/docs/en/common-workflows)
