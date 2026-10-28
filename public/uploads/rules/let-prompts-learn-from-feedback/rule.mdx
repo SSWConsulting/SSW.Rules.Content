@@ -1,0 +1,79 @@
+---
+type: rule
+title: Do you let your prompts learn from feedback?
+seoDescription: Improve recurring AI tasks by turning feedback into specific prompt updates and checking each version with evals.
+guid: 9d84f04a-8e2a-4d57-9ee4-10ead30b9d0a
+uri: let-prompts-learn-from-feedback
+created: 2026-10-18T01:14:46.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/feed-data-to-ai/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/test-prompts-then-iterate/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+You write a prompt for a recurring task, then never revisit it. Reviewers keep correcting the same mistake, run after run. Their corrections fix individual answers, but the next run starts with the same instructions.
+
+Save what you learn in the prompt, then check that the change helps.
+
+<endIntro />
+
+## Treat the prompt as a playbook
+
+[Agentic Context Engineering (ACE)](https://www.microsoft.com/en-us/research/publication/agentic-context-engineering-evolving-contexts-for-self-improving-language-models/) (Zhang et al., ICLR 2026; [arXiv:2510.04618](https://arxiv.org/abs/2510.04618)) treats context as an evolving playbook. It accumulates, refines and organises strategies through generation, reflection and curation, using structured, incremental updates instead of rewriting everything.
+
+ACE works offline on system prompts and online on agent memory. It can adapt from natural execution feedback without labelled data.
+
+The paper names two traps: "brevity bias", where summaries drop domain detail, and "context collapse", where repeated rewrites erode it. Keep useful detail and change the entry that needs fixing.
+
+## The loop
+
+1. Run the task with the current prompt.
+2. Capture feedback: reviewer corrections, failed checks or a user's thumbs-down. Keep the input and output so you can inspect the failure.
+3. Reflect on what went wrong. Identify the missing instruction rather than copying the corrected answer.
+4. Curate a small, specific playbook entry. Add or edit one bullet; don't rewrite the whole prompt.
+5. Re-run evals before promoting the new version. Check earlier cases as well as the failure that prompted the change.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    After each failed policy review, an LLM rewrites the whole prompt "to be more concise". The shorter version drops the instructions for older policies, so reviewers keep correcting the same missing-control claims.
+  </>}
+  figurePrefix="bad"
+  figure="Rewriting the whole prompt loses useful detail"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Append one entry: "When the customer's policy predates 2020, check the old clause numbering before saying a control is missing."
+
+    Keep the other instructions and run evals before approving the change.
+  </>}
+  figurePrefix="good"
+  figure="A specific entry addresses the repeated mistake"
+/>
+
+## Optimise against a metric when you have one
+
+[DSPy's GEPA optimizer](https://dspy.ai/api/optimizers/GEPA/overview/) uses an LLM to reflect on execution traces and textual feedback from your metric, propose new instructions, and keep a Pareto frontier of candidates. It needs a metric plus training and validation examples.
+
+Use GEPA when you have a scored dataset. Use ACE-style playbooks when your feedback is mostly unscored corrections; you still need evals before promoting changes.
+
+## Guardrails
+
+* Version the prompt in git like code.
+* Gate every promotion on evals. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+* Keep a human approving entries at first.
+* Prune entries that stop earning their place.
+* Mind [prompt caching](/do-you-follow-best-practices-for-prompt-caching): append-only edits near the end keep the earlier cached prefix stable.
+* When the playbook grows large, move details into a [skill's extra files](/ai-agents-with-skills) so they load on demand.
+
+Start with Option D in [Do you know the best way to feed your data to AI?](/feed-data-to-ai): precompute the research, then let it evolve.

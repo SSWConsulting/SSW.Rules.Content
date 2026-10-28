@@ -17,10 +17,13 @@ related:
   - rule: public/uploads/rules/do-you-follow-best-practices-for-prompt-caching/rule.mdx
   - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
   - rule: public/uploads/rules/use-embeddings/rule.mdx
+  - rule: public/uploads/rules/let-prompts-learn-from-feedback/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
 redirects:
   - get-data-to-your-ai
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
-seoDescription: 'Long context, RAG or agentic search - the best way to feed your data to AI, what each one costs you, and why RAG is not dead.'
+seoDescription: 'Long context, RAG, agentic search or precomputed context - the best way to feed your data to AI, what each one costs you, and why RAG is not dead.'
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
@@ -74,17 +77,56 @@ This does require handing an agent a real shell. Vercel's [just-bash](https://gi
 
 The agent chooses its own search at query time, and can reach for any of the same tools RAG uses. The key difference is the AI manages its own context rather than the system.
 
+## Option D: Precompute once, reuse every run
+
+When you run the same task over different inputs, do the expensive reading and reasoning once, before the requests arrive. Save the result as part of the task's prompt: a distilled brief, checklist, worked examples or extracted facts. Each run starts from that preparation instead of reading the raw sources again.
+
+The pattern goes by a few names:
+
+* [Sleep-time compute](https://arxiv.org/abs/2504.13171) (Lin et al., 2025) - The model reasons over the context before queries arrive. Sharing that work across several related queries about the same context cut the average cost per query by about 2.5×, and the gains track how predictable the queries are.
+* Compiled / optimised prompts - Treat the prompt as a build artifact, optimised against a metric with tools such as [DSPy's GEPA optimizer](https://dspy.ai/api/optimizers/GEPA/overview/).
+* [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) - Package reusable instructions in a folder with a `SKILL.md` and supporting files. Only the name and description load up front; the body and extra files load when needed. See [Do you use skills to standardize AI workflows?](/ai-agents-with-skills).
+
+This pays off when you have many runs, predictable questions and research that costs more than a single run. The brief goes stale when its sources change. Set a trigger to re-research and recompile it, then compare versions with evals before replacing it. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+
+As Option A's caching subsection explains, caching keys on how the prompt starts. Put the precomputed brief in the shared prefix to qualify for the cache discount, with per-customer and per-run input after it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Suppose your team answers the same bank of about 200 compliance questions for hundreds of customers. Once per regulation change, an agent researches the regulations and writes a brief for each question: what it asks, which evidence counts and common wrong answers.
+
+    Each customer run loads that brief first, as the cached prefix, followed by that customer's documents.
+  </>}
+  figurePrefix="good"
+  figure="Research each question once, then reuse its brief across customer assessments"
+/>
+
+To improve the brief from feedback over time, see [Do you let your prompts learn from feedback?](/let-prompts-learn-from-feedback).
+
+## What about CAG and KAG?
+
+[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605), from Chan et al.'s *Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks*, preloads the whole knowledge base into context, caches it and answers without retrieval. The knowledge base must fit. That is Option A plus prompt caching.
+
+[KAG (knowledge augmented generation)](https://arxiv.org/abs/2409.13731), from the OpenSPG project and used in Ant Group's Q&A services, combines a knowledge graph with vector retrieval so the model can reason over entities and relationships. That is Option B with graph-based retrieval and reasoning over it.
+
+Consider a graph when answers join facts scattered across documents (multi-hop questions). Be prepared to extract entities and merge duplicates such as "ACME Pty Ltd" and "Acme", which costs LLM calls on every write. See [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems).
+
+Most RAG vs CAG vs KAG comparisons leave out Options C and D.
+
 ## So which should I use?
 
 These are composable building blocks, not mutually exclusive architectures.
 
-That said, 3 questions settle most cases:
+That said, pick a base option first. 3 questions settle most cases:
 
 * whether the corpus fits with room to spare
 * whether the answer needs all of it at once
 * whether the same documents come back on every request
 
-<imageEmbed alt="Decision tree for choosing a data access strategy" size="large" showBorder={false} figurePrefix="none" figure="Decision AI Tree – which retrieval strategy do I want to use?" src="/uploads/rules/feed-data-to-ai/data-access-decision-tree-v3.svg" />
+Then add the layers your needs call for: prompt caching when every request starts the same way (CAG), a knowledge graph when answers join facts across many documents (KAG), a precomputed brief when the same task runs many times (Option D), and an [evolving playbook](/let-prompts-learn-from-feedback) when the same corrections keep coming back.
+
+<imageEmbed alt="Two-step diagram: a decision tree that picks agentic search, RAG or long context, then four add-on layers - prompt caching, knowledge graph, precompute once and evolving playbook" size="large" showBorder={false} figurePrefix="none" figure="Decision AI Tree – pick a base option, then add the layers you need" src="/uploads/rules/feed-data-to-ai/data-access-decision-tree-v4.svg" />
 
 ### &#x20;Using the Decision AI Tree
 
@@ -92,13 +134,13 @@ That said, 3 questions settle most cases:
   style="greybox"
   body={<>
     [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI, which means picking the right backlog out of every project a user has.
-    
+
     Go for a stroll amongst the decision trees…
-    
+
     **Q1**: The list of projects and what each one covers is small, so it **fits with room to spare**.
-    
+
     **Q2**: Picking the best match means weighing every project against the others, not retrieving the three that look closest - so it **needs the whole corpus at once**.
-    
+
     **The result**: Two questions, and it lands on long context. The project list is also identical on every request, so it caches cleanly.
   </>}
   figurePrefix="good"

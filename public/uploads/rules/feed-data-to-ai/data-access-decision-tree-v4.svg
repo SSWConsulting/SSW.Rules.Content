@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" width="900" height="860" role="img" aria-labelledby="title desc" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="title">Choosing how to feed data to AI</title>
+  <desc id="desc">Step 1 is a decision tree for the base option. Does the corpus fit in context with room to spare? If no, does it have clear matches or live data? If yes, use agentic search; if no, use vector retrieval (RAG). If the corpus does fit, does the answer need the whole corpus at once? If yes, use long context. If no, are the same documents sent on every request? If yes, use long context; if no, use vector retrieval (RAG). Step 2 adds layers on top of any base option: if every request starts the same way, add prompt caching (long context plus caching is CAG); if answers join facts across many documents, add a knowledge graph (graph retrieval is KAG); if the same task runs many times, precompute a brief once and keep it in the cached prefix; if the same corrections keep coming back, evolve the prompt as a playbook and gate each change on evals.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#797979"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="860" fill="#ffffff"/>
+
+  <g font-size="16" font-weight="600" fill="#333333">
+    <text x="20" y="34">1. Pick a base option</text>
+    <text x="20" y="666">2. Add layers that match your needs</text>
+  </g>
+  <text x="322" y="666" font-size="13" fill="#797979">- combine them with any base option and with each other</text>
+  <line x1="20" y1="630" x2="880" y2="630" stroke="#e5e5e5" stroke-width="2"/>
+
+  <g transform="translate(0 30)">
+  <g stroke="#797979" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 440 104 V 142 H 210 V 176"/>
+    <path d="M 440 104 V 142 H 670 V 176"/>
+    <path d="M 210 244 V 420 H 125 V 496"/>
+    <path d="M 210 244 V 420 H 340 V 496"/>
+    <path d="M 670 244 V 326"/>
+    <path d="M 670 394 V 450 H 450 V 496"/>
+    <path d="M 670 394 V 450 H 680 V 496"/>
+    <path d="M 820 212 H 870 V 526 H 824"/>
+  </g>
+
+  <g fill="#fdecea" stroke="#cc4141" stroke-width="2">
+    <rect x="270" y="40" width="340" height="64" rx="8"/>
+    <rect x="60" y="180" width="300" height="64" rx="8"/>
+    <rect x="520" y="180" width="300" height="64" rx="8"/>
+    <rect x="520" y="330" width="300" height="64" rx="8"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#cc4141" stroke-width="2">
+    <rect x="20" y="500" width="210" height="52" rx="26"/>
+    <rect x="290" y="500" width="210" height="52" rx="26"/>
+    <rect x="610" y="500" width="210" height="52" rx="26"/>
+  </g>
+
+  <g fill="#333333" font-size="15" text-anchor="middle">
+    <text x="440" y="78">Corpus fits in context with room to spare?</text>
+    <text x="210" y="218">Has clear matches or live data?</text>
+    <text x="670" y="218">Needs the whole corpus at once?</text>
+    <text x="670" y="368">Same documents every request?</text>
+  </g>
+
+  <g fill="#333333" font-size="15" font-weight="600" text-anchor="middle">
+    <text x="125" y="531">Agentic search</text>
+    <text x="395" y="531">RAG (retrieval)</text>
+    <text x="715" y="531">Long context</text>
+  </g>
+
+  <g font-size="13" text-anchor="middle">
+    <rect x="278" y="123" width="30" height="20" fill="#ffffff"/>
+    <text x="293" y="138" fill="#797979">No</text>
+    <rect x="558" y="123" width="34" height="20" fill="#ffffff"/>
+    <text x="575" y="138" fill="#797979">Yes</text>
+
+    <rect x="146" y="401" width="34" height="20" fill="#ffffff"/>
+    <text x="163" y="416" fill="#797979">Yes</text>
+    <rect x="272" y="401" width="30" height="20" fill="#ffffff"/>
+    <text x="287" y="416" fill="#797979">No</text>
+
+    <rect x="655" y="277" width="30" height="20" fill="#ffffff"/>
+    <text x="670" y="292" fill="#797979">No</text>
+
+    <rect x="520" y="431" width="30" height="20" fill="#ffffff"/>
+    <text x="535" y="446" fill="#797979">No</text>
+    <rect x="676" y="431" width="34" height="20" fill="#ffffff"/>
+    <text x="693" y="446" fill="#797979">Yes</text>
+
+    <rect x="853" y="340" width="34" height="20" fill="#ffffff"/>
+    <text x="870" y="355" fill="#797979">Yes</text>
+  </g>
+  </g>
+
+  <g text-anchor="middle">
+    <rect x="20" y="690" width="200" height="140" rx="8" fill="#ffffff" stroke="#cc4141" stroke-width="2"/>
+    <line x1="36" y1="752" x2="204" y2="752" stroke="#e5e5e5" stroke-width="1"/>
+    <text x="120" y="718" font-size="14" fill="#333333">Same prompt start</text>
+    <text x="120" y="737" font-size="14" fill="#333333">on every request?</text>
+    <text x="120" y="782" font-size="15" font-weight="600" fill="#cc4141">+ Prompt caching</text>
+    <text x="120" y="808" font-size="13" fill="#797979">Long context + cache ≈ CAG</text>
+    <rect x="240" y="690" width="200" height="140" rx="8" fill="#ffffff" stroke="#cc4141" stroke-width="2"/>
+    <line x1="256" y1="752" x2="424" y2="752" stroke="#e5e5e5" stroke-width="1"/>
+    <text x="340" y="718" font-size="14" fill="#333333">Answers join facts</text>
+    <text x="340" y="737" font-size="14" fill="#333333">across many documents?</text>
+    <text x="340" y="782" font-size="15" font-weight="600" fill="#cc4141">+ Knowledge graph</text>
+    <text x="340" y="808" font-size="13" fill="#797979">Graph retrieval ≈ KAG</text>
+    <rect x="460" y="690" width="200" height="140" rx="8" fill="#ffffff" stroke="#cc4141" stroke-width="2"/>
+    <line x1="476" y1="752" x2="644" y2="752" stroke="#e5e5e5" stroke-width="1"/>
+    <text x="560" y="718" font-size="14" fill="#333333">Same task runs</text>
+    <text x="560" y="737" font-size="14" fill="#333333">many times?</text>
+    <text x="560" y="782" font-size="15" font-weight="600" fill="#cc4141">+ Precompute once</text>
+    <text x="560" y="808" font-size="13" fill="#797979">Brief in the cached prefix</text>
+    <rect x="680" y="690" width="200" height="140" rx="8" fill="#ffffff" stroke="#cc4141" stroke-width="2"/>
+    <line x1="696" y1="752" x2="864" y2="752" stroke="#e5e5e5" stroke-width="1"/>
+    <text x="780" y="718" font-size="14" fill="#333333">Same corrections</text>
+    <text x="780" y="737" font-size="14" fill="#333333">keep coming back?</text>
+    <text x="780" y="782" font-size="15" font-weight="600" fill="#cc4141">+ Evolving playbook</text>
+    <text x="780" y="808" font-size="13" fill="#797979">Gate each change on evals</text>
+  </g>
+</svg>
