@@ -1,0 +1,86 @@
+---
+type: rule
+title: Do you combine AI models to write better content?
+seoDescription: Use the best AI models available to you for writing and independent review, and let free scripts check length, required facts and links.
+guid: 9a127dbb-fb5b-4eba-8f04-98962b47eaae
+uri: combine-ai-models-for-writing
+created: 2026-10-16T06:48:56.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/check-your-ai-writing/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+archivedreason: null
+isArchived: false
+---
+
+You ask a model to write a draft, then ask it to review its own work. It calls the draft strong and under the word limit. That verdict is weak evidence: models can favour their own family's writing and misjudge length.
+
+That's why you should **split writing and review across model families, and let scripts check what they can count**.
+
+<endIntro />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Write a blog post about API versioning. Review it, fix anything weak and make sure it's under 800 words.
+  </>}
+  figurePrefix="bad"
+  figure="Illustrative example - One model writes the draft, then grades its own work and word count"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Writer: Draft from the brief. Include the required facts and stay within the word limit.<br />
+    2. Editor: Improve weak passages. Keep the facts and reasons behind the advice.<br />
+    3. Script: Check length, required facts, links and formatting.<br />
+    4. Reviewer: Use a different model family from the editor. Check sources and flag overclaims.
+  </>}
+  figurePrefix="good"
+  figure="Illustrative example - Clear roles, review across two model families, and scripted checks"
+/>
+
+## Give each job to the model that does it best
+
+* **Writer** - Choose the model that covers the facts within the word limit
+* **Editor** - Choose the model with the clearest prose. Limit edits to weak passages
+* **Reviewer** - Use a different model family from the last editor to review the draft
+
+Tell the editor what to keep, not just what to fix. A broad "cut it" pass can strip the reasons that make advice persuasive.
+
+In a blind test we ran, six models each wrote one draft of the same rule, and two judges from different labs scored them anonymously. The Anthropic drafts had the most natural prose and specific captions but ran over the word limit, while the OpenAI drafts kept all 53 required facts within it but had vague captions.
+
+## Review with a different model family
+
+In that test, each judge ranked its own family's two drafts first and second:
+
+| Draft | Anthropic judge | OpenAI judge |
+| --- | --- | --- |
+| Anthropic model A | 1st | 5th |
+| Anthropic model B | 2nd | 4th |
+| OpenAI model A | 3rd | 1st |
+| OpenAI model B | 4th | 2nd |
+
+Two models from the same lab agreeing count as one opinion, so seek a review from another family.
+
+## Let scripts count
+
+Use scripts for word counts, required-facts checklists, link checks and linters instead of trusting a model's estimate. In the test, the Anthropic judge estimated its own family's 902-word draft at "roughly 820–850 words". A checklist confirms a fact is present; a person still checks it's true.
+
+## Use the best models you have
+
+Use the best models you can access. You don't need premium plans: free or low-cost plans from two different labs cover the writer and the reviewer, and the scripts cost nothing.
+
+* **Try cheaper models first** - In the test, the cheaper OpenAI model wrote as well as its far pricier sibling, and both judges scored them identically on every criterion
+* **Only one model?** - Review in a fresh chat that sees only the brief and the draft. Self-preference remains, so this is weaker than a second family, but better than asking the writer to grade itself
+* **Test before paying more** - Run a small blind test on your own content. See [Do you run evals on your AI features?](/run-evals-on-ai-features) and [Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+
+## When this doesn't apply
+
+A short email or chat reply doesn't need this. One draft plus the checks in [Do you know what to watch out for when using AI to write content?](/check-your-ai-writing) is enough. Use the pipeline for content that is published, reused, or carries facts and figures.
