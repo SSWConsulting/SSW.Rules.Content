@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you copy CLAUDE.local.md into every Git worktree?
-seoDescription: Make sure your gitignored CLAUDE.local.md is in every Git worktree, whether Claude Code, Git or an agentic development environment created it.
+seoDescription: Make sure your gitignored CLAUDE.local.md reaches every Git worktree, whether Claude Code, Git or an agentic development environment created it.
 guid: fdacb720-863a-400d-9326-5fa3d940a75c
 uri: copy-claude-local-md-into-worktrees
 created: 2026-10-28T02:18:14.000Z
@@ -30,22 +30,22 @@ It is never committed. Either add it to `.gitignore`, or list it in `.git/info/e
 
 ## Why can worktrees miss it?
 
-A new [Git worktree](/git-worktrees) is a fresh checkout of tracked files. Git leaves gitignored files, including `CLAUDE.local.md`, behind in the main checkout. Whether the new worktree gets a copy depends on the tool that created it.
+A new [Git worktree](/git-worktrees) is a fresh checkout of tracked files. Git leaves `CLAUDE.local.md` behind in the main checkout. Whether a session in the new worktree still sees your instructions depends on where the worktree lives and which tool created it.
 
 Claude doesn't warn you when the file is missing. A session in that worktree reads the shared `CLAUDE.md`, misses your personal file, and carries on without your instructions.
 
 ## Worktrees that Claude Code creates
 
-`claude --worktree` checks out only tracked files, so on its own it leaves `CLAUDE.local.md` behind too. Claude Code copies a gitignored file into a new worktree only when the file matches a `.worktreeinclude` file at the repository root. It uses `.gitignore` syntax.
+`claude --worktree` puts the new worktree inside the main checkout, at `.claude/worktrees/<name>`. Claude Code loads `CLAUDE.local.md` from the folder you start in and every folder above it, so a session in that worktree picks up the main checkout's `CLAUDE.local.md` with no setup.
 
-List `CLAUDE.local.md` in `.worktreeinclude` once, and every `claude --worktree` session gets a copy.
+You get one file and one source of truth. Edit it in the main checkout and every Claude Code worktree sees the change.
 
 ## Worktrees that other tools create
 
-Other tools follow their own rules, so check each one you use:
+Worktrees created by other tools usually live outside the main checkout, so there is no parent folder to inherit from. Only a `CLAUDE.local.md` inside the worktree itself loads:
 
-* **Git** - `git worktree add` copies only tracked files, so the new worktree has no `CLAUDE.local.md`. You have to copy it in by hand, every time
-* **[Agentic development environments (ADEs)](/agentic-development-environment)** - Tools such as [Orca](https://www.onorca.dev/) read the same `.worktreeinclude` file and copy every gitignored file that matches it into each new worktree
+* **Git** - `git worktree add ../my-app-feature` creates a sibling folder with no `CLAUDE.local.md`. You have to copy it in by hand, every time
+* **[Agentic development environments (ADEs)](/agentic-development-environment)** - Tools such as [Orca](https://www.onorca.dev/) read a `.worktreeinclude` file at the repository root. It uses `.gitignore` syntax, and the tool copies the files it lists into each new worktree
 
 To check any tool, create a worktree with it, start Claude Code in the new folder and run `/memory`. If `CLAUDE.local.md` isn't listed, the session can't see your personal instructions.
 
@@ -66,20 +66,14 @@ To check any tool, create a worktree with it, start Claude Code in the new folde
 <boxEmbed
   style="greybox"
   body={<>
-    `.worktreeinclude`
-
-    ```text
-    CLAUDE.local.md
-    ```
-
     ```bash
     claude --worktree my-app-feature
     ```
 
-    Claude Code creates the worktree and copies `CLAUDE.local.md` into it. The file is still gitignored, so `git status` in the new worktree stays clean.
+    The worktree lands in `.claude/worktrees/my-app-feature`, inside the main checkout, so the session loads the main checkout's `CLAUDE.local.md`. There is nothing to copy.
   </>}
   figurePrefix="good"
-  figure="A Claude Code managed worktree gets CLAUDE.local.md from a one-line .worktreeinclude file"
+  figure="A Claude Code managed worktree inherits CLAUDE.local.md from the main checkout"
 />
 
 <boxEmbed
@@ -97,16 +91,28 @@ To check any tool, create a worktree with it, start Claude Code in the new folde
     orca worktree create --name my-app-feature
     ```
 
-    Orca reads the same `.worktreeinclude` file and copies `CLAUDE.local.md` into the new worktree.
+    Orca copies `CLAUDE.local.md` into the new worktree. Keep `CLAUDE.local.md` gitignored so the copy never shows up in `git status`.
   </>}
   figurePrefix="good"
-  figure="An ADE such as Orca uses the same .worktreeinclude file to copy CLAUDE.local.md"
+  figure="A one-line .worktreeinclude file gets CLAUDE.local.md into every worktree an ADE such as Orca creates"
 />
 
 Commit `.worktreeinclude` when it lists files the whole team needs, such as `.env`. If it only lists your personal files, list it in `.git/info/exclude` so it stays out of the team's `.gitignore` as well.
 
-Prefer letting Claude Code or your ADE create worktrees. With `.worktreeinclude` in place, they handle the copy for you, so you can't forget it.
+Claude Code reads `.worktreeinclude` too. Inside `.claude/worktrees` the copy is redundant: the session then loads both the main checkout's file and the worktree's copy, and the two can drift apart once you edit one.
+
+## Keep one copy for every kind of worktree
+
+Copies go stale. When you edit your instructions in the main checkout, worktrees that already exist keep the old version. To keep one source of truth everywhere, put your instructions in a file in your home folder and make `CLAUDE.local.md` a one-line import of it:
+
+```markdown
+# Individual Preferences
+- @~/.claude/my-app-instructions.md
+```
+
+Copy that stub into each worktree (by hand or with `.worktreeinclude`). Every worktree then reads the same file, whichever tool created it. Claude Code asks you to approve an import from outside the project the first time it sees one.
 
 ## Learn more
 
+* [Claude Code Docs - How Claude remembers your project](https://code.claude.com/docs/en/memory)
 * [Claude Code Docs - Copy gitignored files into worktrees](https://code.claude.com/docs/en/worktrees#copy-gitignored-files-into-worktrees)
