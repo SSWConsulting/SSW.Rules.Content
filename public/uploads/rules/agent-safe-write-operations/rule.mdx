@@ -1,0 +1,115 @@
+---
+type: rule
+title: Do you make write operations safe for AI agents?
+seoDescription: Give every write tool an AI agent can call a dry run, a saved-entity receipt, honest outcome states, human approval for destructive actions and server-side duplicate prevention.
+guid: 567e225b-64a8-4033-9809-d81dd7fc21ef
+uri: agent-safe-write-operations
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/mcp-server/rule.mdx
+  - rule: public/uploads/rules/do-you-return-detailed-error-messages/rule.mdx
+  - rule: public/uploads/rules/use-transactional-outbox-pattern/rule.mdx
+  - rule: public/uploads/rules/destructive-button-ui-ux/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+archivedreason: null
+isArchived: false
+---
+
+Any client can lose a response and retry. A person usually checks the order list first; an AI agent often just calls the tool again. If the server saved the first order before the connection dropped, Northwind now has two identical orders for Alfreds Futterkiste: two shipments go out, and the customer gets two $930.00 invoices for one request.
+
+The write tools an agent calls have to say exactly what happened, and the server has to make a repeat harmless.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/agent-safe-write-operations/agent-retries-timed-out-order-and-ships-twice.png"
+  alt="An agent chat shows create_order timing out after 30 seconds, the agent assuming the order wasn't placed, and a retry that returns order 11079. Beside it, the Northwind orders list for Alfreds Futterkiste has orders 11078 and 11079 with the same lines and $930.00 total, both ready to ship"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - The agent treats a timeout as a failure and calls create_order again, so two identical orders are ready to ship"
+/>
+
+## Give every write tool four behaviours
+
+This applies to any write an agent can reach, through an [MCP server for your app](/mcp-server), a CLI or an HTTP API.
+
+### 1. Offer a dry run
+
+A dry run runs the real call's validation and returns what it would write, without applying it. The agent, or the person supervising it, sees what will be written; server-assigned values such as the order ID arrive with the real call. The real call validates again, because the data may have changed since the dry run.
+
+### 2. Return the saved entity and its ID
+
+On success, return the record as the server stored it, including its ID. The agent needs the ID to update or cancel it later. If the API answers with an empty body, the tool reads the record back first.
+
+### 3. Say which outcome you have
+
+Reporting a completed write as an error is the surest way to get it written twice.
+
+Apart from a confirmed failure, a synchronous create or update reports one of three outcomes:
+
+* **`saved`** - Success, read back. Return the entity
+* **`saved-unverified`** - Success, but the read-back failed. Return the ID if known, no entity, and a lookup to confirm
+* **`unknown`** - The request timed out or the connection dropped, so neither success nor failure is confirmed. Give the safe recovery, not a bare "retry"
+
+Asynchronous and bulk writes also need a `pending` outcome and per-item results.
+
+A write that definitely failed says so, with the reason, and is safe to fix and retry.
+
+An agent-facing CLI still prints JSON on failure, with a stable error code and message, and exits non-zero.
+
+```json
+{ "outcome": "saved", "orderId": 11078, "order": { "id": 11078, "customer": "ALFKI", "total": 930.00, "status": "Ready to ship" } }
+```
+
+```json
+{ "outcome": "saved-unverified", "orderId": 11078, "order": null, "warning": "Created order 11078 but could not read it back. Run get_order(11078) to confirm. Do not create again." }
+```
+
+```json
+{ "outcome": "unknown", "warning": "No response from the server. Retry with the same idempotencyKey, \"reorder-7f3c\". If the first call saved the order, you get that order back, not a new one." }
+```
+
+**✅ Figure: Good example - Every response names its outcome, and each unclear one says how to recover safely**
+
+<imageEmbed
+  src="/uploads/rules/agent-safe-write-operations/agent-checks-unknown-outcome-before-retrying.png"
+  alt="An agent chat shows create_order with an idempotency key returning an unknown outcome and an instruction to retry with the same key. The retry returns saved order 11078, replayed from the first call. Beside it, the Northwind orders list has a single new order, 11078"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - The tool reports an unknown outcome, and the retry with the same key returns order 11078 instead of creating a second one"
+/>
+
+### 4. Confirm destructive and bulk writes
+
+Deletes, cancellations, overwrites and bulk imports need a person's approval, from something the agent can't produce itself. The person approves in the app or the MCP client's prompt, or authorises a short-lived confirmation token tied to that exact operation, payload and user. A `--yes` flag or a second confirm call is only an acknowledgement, because an agent can supply either. This is the agent equivalent of [the confirmation on a delete button](/destructive-button-ui-ux).
+
+The MCP `destructiveHint` [tool annotation](https://modelcontextprotocol.io/specification/2026-07-28/schema#toolannotations) is not an approval mechanism; the specification calls annotations hints, not guarantees.
+
+Asking on every write teaches people to approve without reading, so keep confirmation for writes that are hard to undo.
+
+## Prevent duplicates on the server
+
+"Do not create again" in a warning helps a well-behaved agent. It does not stop a client that retries automatically, or an agent that lost the warning when its context was compacted. Wording is guidance, not idempotency. The server has to make the repeat harmless:
+
+* **Idempotency keys** - The caller sends a unique key with each logical operation, and the server stores the first result for that key. A repeat with the same key gets the stored response instead of a new record. Create the key once per intent and reuse it on retry; a tool that generates a fresh key on every call protects nothing. The server has to:
+  * Scope keys per caller and operation
+  * Handle concurrent same-key requests atomically
+  * Store the key in the same transaction as the write
+  * Reject a reused key with a different payload
+  * Keep keys for a documented window, because a retry after expiry creates a new record
+
+  See [Stripe's idempotent requests](https://docs.stripe.com/api/idempotent_requests) for an example
+* **Natural-key checks** - If the domain has a uniqueness rule, enforce it with a unique constraint. An order has no natural key of its own, because a customer can reorder the same goods, but the customer's purchase-order reference gives it one. A repeat then returns the existing order or a conflict, even when the caller forgot the key
+
+While the server keeps the key, the recovery for an unknown outcome is a retry with the same key. A lookup by the request's reference is for tools that can't promise that; if it's inconclusive, the outcome stays unknown. The MCP `idempotentHint` annotation describes a tool; it doesn't make one idempotent. If the write also publishes events, [publish them reliably with the Transactional Outbox pattern](/use-transactional-outbox-pattern).
+
+## When this doesn't apply
+
+A write that is idempotent by nature, such as setting a field to a fixed value, doesn't need an idempotency key. It still returns the saved entity, and where a repeat could overwrite someone else's change made in between, it uses a version or ETag precondition. If a duplicate costs nothing, as with an append-only log line, a key adds work for no benefit.
