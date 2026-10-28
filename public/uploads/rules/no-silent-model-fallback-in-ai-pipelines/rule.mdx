@@ -1,0 +1,72 @@
+---
+type: rule
+title: Do you avoid silent model fallbacks in AI pipelines?
+seoDescription: Keep model changes explicit, validate outputs before saving, bound retries, and record the actual model behind every AI-generated result.
+guid: d14f2cb2-bccd-4868-9b62-e041d7ccca8b
+uri: no-silent-model-fallback-in-ai-pipelines
+created: 2026-10-21T13:11:01.799Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/ai-model-retirements/rule.mdx
+  - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A document pipeline passes every health check, but some summaries omit important fields. When its preferred model times out, the gateway silently switches to another model. Both return valid JSON. The saved rows contain no model details, so the team cannot identify which summaries need checking.
+
+**Make model changes explicit and traceable.** Availability is useful only when the replacement still meets the feature's quality and data-handling requirements.
+
+<endIntro />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Model A times out. A catch-all handler calls Model B, stores its response and reports success. The record says only "AI generated".
+  </>}
+  figurePrefix="bad"
+  figure="Illustrative example - A green pipeline hides a model change and leaves affected records untraceable"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The pipeline requests its configured model and validates the response. A truncated response gets a bounded retry on the same model with a larger output allowance. After the last failed attempt, the item is marked failed and queued for review. Successful records include the actual model and prompt version.
+  </>}
+  figurePrefix="good"
+  figure="Illustrative example - A failed item is visible and every saved result has model provenance"
+/>
+
+## Pin the intended model and record the actual one
+
+Choose a model and version for the pipeline, then run [evals](/run-evals-on-ai-features) before changing either. Check whether the gateway or provider has its own fallback or automatic upgrade policy; an application setting alone cannot prevent a switch downstream. Plan for [model retirements](/ai-model-retirements).
+
+For each saved result, record the requested deployment, actual model and version when the provider exposes them, provider, prompt version and validation outcome. A deployment alias is not proof of the resolved model. If the provider does not expose a version, record that limitation rather than inventing one. Keep request or attempt IDs so operators can trace failures without logging sensitive prompts or documents.
+
+## Retry for a reason, with a limit
+
+Set a maximum attempt count, timeout and total budget. Classify the failure before choosing the next step:
+
+* **Truncated output** - Retry the same model with a larger output allowance, within its supported limit and the task budget
+* **Transient timeout or throttling** - Retry the same model with bounded backoff, respecting provider retry guidance. See [Do you set up alerts for your AI services?](/ai-service-alerts)
+* **Malformed or incomplete output** - Reject it and use a bounded retry if the error is recoverable. More tokens do not fix every schema or meaning error
+* **Refusal, permissions or policy failure** - Handle the reason explicitly. Do not switch models to get around the restriction
+
+Record each attempt and its outcome. After the limit, expose a failed or pending-review state and alert the operator. Do not store an empty result as success just to keep the job green.
+
+## Validate before saving
+
+Check required fields, types, allowed values and evidence requirements. A syntactically valid object may still be useless. Define when an empty list is a legitimate "nothing found" result and when it means extraction failed. Validate meaning with task-specific checks and evals, rather than assuming schema validity proves correctness.
+
+Retries must not repeat a business write. Generate and validate first, then save once using an idempotent operation.
+
+## When is fallback appropriate?
+
+An explicitly designed fallback can improve availability. Evaluate the replacement on the same cases, approve its data boundary and quality threshold, and make degraded operation visible. Record which model produced each result and provide a way to review or reprocess affected items.
+
+For a low-risk interactive feature, a clearly labelled reduced service may be acceptable. For an unattended extraction pipeline, failing one item for review may be preferable to silently saving a result from an untested model.
