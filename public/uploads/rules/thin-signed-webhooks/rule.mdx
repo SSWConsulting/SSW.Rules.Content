@@ -1,0 +1,103 @@
+---
+type: rule
+title: Do you send thin, signed webhooks?
+seoDescription: Send webhooks as small signed notifications with IDs, fire them from an outbox after commit, and let the receiver fetch details through your authenticated API.
+guid: 2ea71b62-c3a6-433f-9baf-3c50a57ec718
+uri: thin-signed-webhooks
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-transactional-outbox-pattern/rule.mdx
+  - rule: public/uploads/rules/use-live-connections-instead-of-polling/rule.mdx
+  - rule: public/uploads/rules/safe-against-the-owasp-top-10/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A webhook calls a URL that someone else typed into a settings page. Once the request leaves, you can't take the data back. If the URL has a typo or the partner's server is compromised, whatever was in the payload is gone. If the call happens before the database commit, partners also hear about orders that never existed.
+
+That's why you should **treat a webhook as a notification, not a data feed**.
+
+<endIntro />
+
+```http
+POST https://hooks.fabrikam.example/northwind HTTP/1.1
+Content-Type: application/json
+
+{
+  "orderId": 123,
+  "customer": { "name": "Maria Anders", "email": "maria@alfreds.example" },
+  "total": 4180.00,
+  "deliveryNotes": "Leave with reception, call 0400 000 000"
+}
+```
+
+**❌ Figure: Bad example - Northwind posts the full customer record, unsigned, from the request handler before the transaction commits**
+
+Anyone who learns the URL can post a fake order. If the save fails after the call, Fabrikam still ships an order that doesn't exist.
+
+## Send a small, signed envelope
+
+A good webhook does five things:
+
+* **Carries IDs, not data** - The body is an envelope: `specVersion`, `eventId`, `eventType`, `occurredAt`, and the IDs of the subject. No names, emails, amounts or free text
+* **Is signed** - Use HMAC-SHA256 over `webhook-id.webhook-timestamp.raw_body`, with a separate secret for each endpoint. The receiver rejects a bad signature, and any timestamp too far in the past or the future, which limits the replay window
+* **Comes from an outbox** - Write the event in the same transaction as the change, and send it after commit. See [Do you use the Transactional Outbox pattern to publish events reliably?](/use-transactional-outbox-pattern)
+* **Sends the receiver back to your API** - The partner fetches the details with its own credential, so your normal permission checks run on every read
+* **Keeps one ID across retries** - Each retry gets a fresh timestamp and signature but the same `webhook-id`. The receiver deduplicates on it atomically with processing, using a unique constraint or an insert-if-absent, not a separate "have I seen it?" check
+
+```http
+POST https://hooks.fabrikam.example/northwind HTTP/1.1
+Content-Type: application/json
+webhook-id: evt_01J9Z6Q4R8
+webhook-timestamp: 1792027200
+webhook-signature: v1,K5oZfzN95Z9UVu1EsfQmfVNQhnkZ2pj9o9NDN/H/pI4=
+
+{
+  "specVersion": "1",
+  "eventId": "evt_01J9Z6Q4R8",
+  "eventType": "order.shipped",
+  "occurredAt": "2026-10-15T01:20:00Z",
+  "subject": { "orderId": "123" }
+}
+```
+
+Fabrikam verifies the signature, then asks for what it needs:
+
+```http
+GET https://api.northwind.example/api/orders/123 HTTP/1.1
+Authorization: Bearer example-token-not-real
+```
+
+**✅ Figure: Good example - A signed envelope with only IDs, followed by the partner reading the order through the authenticated API**
+
+What you get in return:
+
+* **A leak exposes far less** - A mistyped or hijacked endpoint learns that order 123 shipped, which is still a signal, but it can't read the order without a valid token
+* **Redelivery is harmless** - Sending the same event twice discloses nothing new, and the receiver deduplicates on `webhook-id`
+* **Permissions still apply** - The details stay behind your normal permission checks, so if Fabrikam loses access to order 123, the `GET` returns 403. Also check that the subscription is still authorised for the subject when you deliver, not only when you queue
+
+The headers follow the [Standard Webhooks](https://www.standardwebhooks.com/) specification. Receivers should use its [verification libraries](https://github.com/standard-webhooks/standard-webhooks) rather than hand-rolled checks, and any custom check must compare signatures in constant time. [CloudEvents](https://cloudevents.io/) is a similar envelope format if your platform already uses it. [GitHub](https://docs.github.com/en/webhooks/using-webhooks/validating-webhook-deliveries) and [Stripe](https://docs.stripe.com/webhooks#verify-events) use their own signing schemes.
+
+## Two more things to get right
+
+* **Treat the partner's URL as hostile input** - Your sender runs inside your network. Allow only HTTPS, reject private and internal addresses at registration and again at send time, and don't follow redirects. Connect to the IP address you validated, including on retries, so a second DNS lookup can't swap it. See the [OWASP SSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+* **Rotate secrets without downtime** - After a rotation, sign with both the old and new secret for an overlap period (e.g. 24 hours), so partners can deploy the new secret without dropping events. Standard Webhooks allows several signatures in one header for this
+
+## When to send data in the payload
+
+Thin is the default, not a law. A fatter payload is the better choice when:
+
+* **The fields are fine for anyone with the URL to see** - A public price change, for example. A callback only adds latency and load
+* **The receiver can't call back** - It has no API credential, or a firewall lets traffic in but not out
+* **The event is the data** - Audit streams and change logs need the state at the moment of the event. A later `GET` returns the current state, which may have changed since
+
+A middle ground is to include the non-sensitive fields every receiver needs, such as the new status, and keep everything else behind the API. As the Standard Webhooks spec notes, you can always make a thin payload fuller later, but not the other way around.
+
+Even with a full payload, still sign it, send it from the outbox and validate the URL. Those rules don't depend on what's in the body.
