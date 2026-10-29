@@ -1,17 +1,191 @@
 ---
+type: rule
 title: Do you link YakShaver bug reports to their telemetry with a recording ID?
+seoDescription: Record bug reports with YakShaver and give each recording one recording ID on the work item and on every browser and server span and log, so developers get the user's video plus the exact telemetry behind it.
+guid: edae721f-bfb4-482b-9f47-b73b3cc22abd
 uri: link-yakshaver-recordings-to-telemetry
-guid: 07664294-1bb9-49ea-9769-37b0f6360614
-created: 2026-10-29T07:36:27.004Z
-createdBy: Gordon Beeming
-createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-10-29T07:37:03.903Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: me@gordonbeeming.com
+created: 2026-10-29T07:00:00.000Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/give-feedback-report-bugs-link/rule.mdx
+  - rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+  - rule: public/uploads/rules/use-opentelemetry/rule.mdx
+  - rule: public/uploads/rules/treat-bug-reports-as-hypotheses/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
+  - category: categories/software-engineering/rules-to-better-application-insights.mdx
+archivedreason: null
+isArchived: false
 ---
 
-Intro
+A user reports "the dashboard broke when I switched tabs". Your logs are full of correlation IDs: every request has an operation ID and every span has a trace ID. None of them say which bug report they belong to, so the developer still filters by user and guesses a time window. A screen recording helps, but it only shows what the user saw, not what the browser and server did.
 
 <endIntro />
 
-Body
+Let users report bugs with a [YakShaver](https://yakshaver.ai) recording from inside your app, and give each recording one **recording ID**. Put that ID on the work item YakShaver creates and on every piece of telemetry produced while the recording runs. The developer then gets the user's video, the steps to reproduce and one ID that scopes the browser and server telemetry to exactly that bug report.
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-how-it-fits.png"
+  alt="Diagram: the app's Record with YakShaver button starts a recording, the app sends page snapshots with one recording ID, and the ID goes to browser telemetry, same-origin API requests, server spans, baggage and the log scope"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The app starts the YakShaver recording and supplies context, and one recording ID connects it to the telemetry"
+/>
+
+## Without a bug report, a correlation ID is just another GUID
+
+Correlation IDs are only useful when something points to them. A recording ID ties them to a report: YakShaver puts it on the work item, and your telemetry carries it on every row.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Bug:** Dashboard tab doesn't load
+
+    It broke when I switched tabs on the dashboard, sometime around 12:30.
+
+    *(Logs: about 4,000 requests between 12:00 and 13:00, each with its own operation ID)*
+  </>}
+  figurePrefix="bad"
+  figure="A text-only report, so the developer has to guess which requests and logs belong to it"
+/>
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-pbi-card.png"
+  alt="A PBI created by YakShaver with a video link, description, steps to reproduce, expected behavior, tasks and acceptance criteria, plus a Recording context section whose Start, Timeline and End snapshots each include the recordingId"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="The YakShaver PBI has the video, the steps to reproduce and the recording ID in every context snapshot"
+/>
+
+## Record bug reports with YakShaver from your app
+
+Use YakShaver Anywhere so people can report a bug from the page they're on, without leaving your app:
+
+* **Use your own button** - Load the embed in hidden mode (`data-yak-hidden`) and call `startRecording()` from your button, behind a feature flag
+* **Start inside the click** - Call `startRecording()` before awaiting anything, because the browser only opens the screen picker while the user's click is still active
+* **Send context snapshots** - Use `setContextCallbacks` for the start and end snapshots, and `attachContext` whenever the page context changes. Include the page URL, the user, the current record and the recording ID in every snapshot
+
+YakShaver turns the recording into a PBI with the video, a description, steps to reproduce and acceptance criteria. The snapshots appear under **Recording context**, so the recording ID is on the work item without the user typing anything.
+
+## Put the recording ID on every piece of telemetry
+
+Generate a GUID when the recording starts, and clear it when the recording ends. While the recording is running, add it to:
+
+| Where | How | Name |
+| --- | --- | --- |
+| Context snapshots | Every `attachContext` call and the start and end callbacks | `recordingId` |
+| Browser telemetry | A telemetry initializer adds a custom property to page views, events and dependencies | `YakShaverRecordingId` |
+| API calls | A request header on same-origin calls only | `X-YakShaver-Recording-Id` |
+| Server spans | Middleware sets a span tag and W3C baggage, and a baggage processor copies it onto child spans | `yakshaver.recording_id` |
+| Server logs | Middleware adds it to the log scope | `YakShaverRecordingId` |
+
+### Only send the header to your own origin
+
+A custom header on a cross-origin request triggers a CORS preflight that a third-party service might reject, and it leaks the ID to services that don't need it.
+
+```js
+const sameOrigin = new URL(url, location.href).origin === location.origin;
+if (recordingId && sameOrigin) {
+  headers.set('X-YakShaver-Recording-Id', recordingId);
+}
+```
+
+**✅ Figure: Good example - The recording ID only goes to your own API, so third-party calls are unaffected**
+
+### Treat the incoming ID as untrusted
+
+The header and the baggage both come from outside your server. Check the format before you use them, so nobody can inject arbitrary text into your logs or flood your telemetry with junk values.
+
+```csharp
+var recordingId = context.Request.Headers["X-YakShaver-Recording-Id"].ToString();
+logger.LogInformation("Recording {RecordingId}", recordingId);
+```
+
+**❌ Figure: Bad example - Whatever the caller sends ends up in your logs**
+
+```csharp
+var recordingId = Guid.TryParseExact(
+    context.Request.Headers["X-YakShaver-Recording-Id"].ToString(), "D", out var id)
+    ? id.ToString("D")
+    : null;
+
+if (recordingId is not null && Activity.Current is { } activity)
+{
+    activity.SetTag("yakshaver.recording_id", recordingId);
+    activity.SetBaggage("yakshaver.recording_id", recordingId);
+}
+
+var scope = new Dictionary<string, object> { ["UserId"] = userId };
+if (recordingId is not null)
+{
+    scope["YakShaverRecordingId"] = recordingId;
+}
+
+using (logger.BeginScope(scope))
+{
+    await next(context);
+}
+```
+
+**✅ Figure: Good example - The middleware accepts only a well-formed GUID, then adds it to the span, the baggage and the log scope**
+
+Apply the same check in the baggage processor, because baggage can also arrive over HTTP.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Baggage travels to every downstream service, including third parties. Only put opaque IDs in it, never personal or sensitive data.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Recording IDs don't replace trace IDs
+
+Tracing already gives every request an operation ID (the W3C trace ID), which links the spans of one request across the browser, the web host, the API and the database. A bug report covers many requests, so you need both:
+
+| ID | Scope | Answers |
+| --- | --- | --- |
+| Operation or trace ID | One request | "What happened inside this call?" |
+| YakShaver recording ID | Every request during the recording | "Which telemetry belongs to this bug report?" |
+
+## Query everything the recording produced
+
+Copy the recording ID from the PBI and search every telemetry table for it:
+
+```kusto
+union withsource=Table AppEvents, AppTraces, AppRequests, AppDependencies, AppPageViews
+| where TimeGenerated > ago(3d)
+| where tostring(Properties) has "3f2a9c1e-7b4d-4e8a-9c2f-5d1b6e0a8f34"
+| project TimeGenerated, Table, AppRoleName, Name, ResultCode, DurationMs, OperationId
+| order by TimeGenerated asc
+```
+
+**✅ Figure: Good example - One query returns everything the recording produced, in order, with each request's operation ID**
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-recording-timeline.png"
+  alt="Application Insights results for one 24.5 second recording: 23 matching rows, from YakShaverRecordingStarted through a page view, browser and API requests and SQL dependencies, to YakShaverRecordingEnded"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="The recording ID groups the session, and each operation ID connects the spans of one request"
+/>
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** If the query returns requests but no traces, nothing logged at the configured level during those requests. The recording ID still finds the requests, so check your log levels before you assume the ID wasn't attached.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Learn more
+
+For the full end-to-end walkthrough, including the YakShaver setup, the browser and server code, the PBI YakShaver created and the Application Insights results, read [Adding YakShaver recording and telemetry to a web app](https://gordonbeeming.com/blog/2026-10-29/adding-yakshaver-recording-to-an-app).
