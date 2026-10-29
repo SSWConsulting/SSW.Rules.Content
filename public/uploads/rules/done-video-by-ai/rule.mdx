@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you get AI to create your Done videos/screenshots?
+title: Do you get AI to create your Done Videos/screenshots?
 uri: done-video-by-ai
 categories:
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
@@ -25,12 +25,14 @@ seoDescription: 'An AI agent that verifies its UI change in a real browser shoul
 created: 2026-09-03T01:04:28.000Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-09-03T05:13:30.912Z
-lastUpdatedBy: Ben Neoh
-lastUpdatedByEmail: benneoh@ssw.com.au
+lastUpdated: 2026-10-29T08:40:42.377Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
 isArchived: false
 archivedreason: null
 ---
+
+Everyone makes Done Videos, as per [Do you know how to record a quick and dirty 'Done Video'?](/done-video) Now AI can make them for you.
 
 An AI agent changes a header component, sees the code compile, and reports "done". The reviewer checks out the branch and finds the header overlapping the nav on mobile - a full round trip for a bug the agent could not see.
 
@@ -38,25 +40,27 @@ Loop AI into the visual review, and it can resolve obvious visual bugs before th
 
 <endIntro />
 
-<youtubeEmbed url="https://www.youtube.com/embed/7yty_Abk7uw?start=4461" description="Video: AI: It's a Skill Issue | Calum Simpson | SSW User Group - Calum shows an AI agent recording its own Done video with Playwright and text-to-speech (watch from 1:14:21 - 1:20:07, 6 min)" />
+<youtubeEmbed url="https://www.youtube.com/embed/7yty_Abk7uw?start=4461" description="Video: AI: It's a Skill Issue | Calum Simpson | SSW User Group - Calum shows an AI agent recording its own Done Video with Playwright and text-to-speech (watch from 1:14:21 - 1:20:07, 6 min)" />
 
-## How the agent checks its  work and creates a done video
+## How the agent creates a Done Video
 
 The screenshot is a by-product of a verification loop, not a separate step. Give the agent a browser and make the loop part of its definition of done for any UI change:
 
 1. **Open the page** - The agent drives a real browser with the [Playwright MCP or CLI](/playwright-with-ai) or the [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-2. **Check against the acceptance criteria** - It walks the flow the PBI describes and compares what it sees with what the [acceptance criteria](/acceptance-criteria) say
+2. **Check against the Acceptance Criteria** - It walks the flow the PBI describes and compares what it sees with what the [Acceptance Criteria](/acceptance-criteria) say
 3. **Fix what it finds** - The agent fixes issues before a human looks
 4. **Keep the capture** - Use screenshots or videos as evidence of the work
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Prompt:** Screenshot the header on `main` at desktop and mobile widths, then make the change and screenshot it again at the same widths. Fix anything that looks broken before you show me the pair.
+    **Prompt:** Create a Done Video for the PBI I just finished. Users can now select the Azure OpenAI region for their EagleEye instance. Read this chat and the PR to see what changed.
   </>}
   figurePrefix="good"
-  figure="A prompt that asks for the capture as part of the verification"
+  figure="A prompt that gives the agent the PBI and where to find what changed"
 />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=tSY2zolDjDw" description="Video: Azure OpenAI Regions for SSW EagleEye | Done Video | Hark Singh AI 🤖 - A Done Video made end to end by AI (1 min)" />
 
 Better still, bake the loop into `AGENTS.md`, a skill, or the PR template, so every UI change gets the same visual review without anyone asking for it. This is [back pressure](/utilize-back-pressure-for-agents) for UI work - the browser gives the agent a signal it can act on, the same way a linter or a failing test does.
 
@@ -68,12 +72,12 @@ Match the capture to the change:
 * **A short video** for flows. Playwright can record the run, and 10 to 30 seconds is enough
 * **One screenshot per state** for conditional UI. These are the states a reviewer rarely clicks through by hand
 
-## Where your Done screenshots/videos goes
+## Where your Done screenshots and Done Videos go
 
 The agent already has the capture, so put it where the review normally happens.
 
-* **The PR description** - Taking advantage of screenshots or Done videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
-* **The Done comment on the PBI** - [Definition of Done](/definition-of-done) lists these kinds of screenshots or Done videos as good evidence when you close out the PBI
+* **The PR description** - Taking advantage of screenshots or Done Videos is an awesome way to improve the review process, see the `{{ SCREENSHOT / DONE VIDEO }}` line in [Do you know how to write a great Pull Request?](/write-a-good-pull-request)
+* **The Done comment on the PBI** - [Definition of Done](/definition-of-done) lists these kinds of screenshots or Done Videos as good evidence when you close out the PBI
 
 <imageEmbed alt="A GitHub pull request whose description is a single sentence with no screenshots" size="large" showBorder={true} figurePrefix="bad" figure="The reviewer has to stop what they're doing, check out the branch, and run the app just to see what changed" src="/uploads/rules/done-video-by-ai/pr-no-evidence.png" />
 
@@ -81,10 +85,10 @@ The agent already has the capture, so put it where the review normally happens.
 
 ## Tips
 
-* **Keep images small** - Crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
-* **Caption every image or video** - One line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
-* **Never capture secrets or customer data** - The agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
-* **Prefer the PR body over a comment** - The body is what GitHub shows first, and it survives when comments are collapsed
+1. **Keep images small** - Crop to the component that changed and follow [Do you make sure your screenshots are readable?](/readable-screenshots). A full-page capture of a 3,000 px page helps nobody. If the reviewer needs to look at one spot, [add a box or arrow](/screenshots-avoid-walls-of-text)
+2. **Caption every image or video** - One line saying what the reviewer should look at. See [Do you add useful text captions to images and videos?](/add-useful-and-concise-figure-captions)
+3. **Never capture secrets or customer data** - The agent runs against a local or test environment with seed data. Apply the same care as [Do you hide sensitive information?](/hide-sensitive-information), because the capture ends up in a PR that stays visible forever
+4. **Prefer the PR body over a comment** - The body is what GitHub shows first, and it survives when comments are collapsed
 
 <imageEmbed alt="ai-capture-ui-changes" size="large" showBorder={true} figurePrefix="none" figure="Taking advantage of tools that easily integrate with agents allows for automated UI checks" src="/uploads/rules/done-video-by-ai/ai-capture-ui-change.png" />
 
