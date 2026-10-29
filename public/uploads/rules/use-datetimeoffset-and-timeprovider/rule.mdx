@@ -45,7 +45,7 @@ public class Invoice
 invoice.CreatedAt = DateTime.UtcNow;
 ```
 
-❌ **Figure: Bad example - A DateTime relies on naming and convention to say it is UTC**
+**❌ Figure: Bad example - A DateTime relies on naming and convention to say it is UTC**
 
 ```csharp
 public class Invoice
@@ -56,7 +56,7 @@ public class Invoice
 invoice.CreatedAt = timeProvider.GetUtcNow();
 ```
 
-✅ **Figure: Good example - A DateTimeOffset is an unambiguous point in time and converts to any time zone without losing it**
+**✅ Figure: Good example - A DateTimeOffset is an unambiguous point in time and converts to any time zone without losing it**
 
 ## Get "now" from an injected TimeProvider
 
@@ -82,7 +82,7 @@ public class SubscriptionService(TimeProvider timeProvider)
 }
 ```
 
-✅ **Figure: Good example - The class asks for the time instead of reaching for a static clock**
+**✅ Figure: Good example - The class asks for the time instead of reaching for a static clock**
 
 ## Control time in tests with FakeTimeProvider
 
@@ -102,7 +102,7 @@ public void Subscription_is_expired_after_30_days()
 }
 ```
 
-✅ **Figure: Good example - The test moves the clock instead of waiting or depending on today's date**
+**✅ Figure: Good example - The test moves the clock instead of waiting or depending on today's date**
 
 ## Store it as a DateTimeOffset in the database too
 
@@ -111,10 +111,10 @@ EF Core maps `DateTimeOffset` to SQL Server `datetimeoffset` for you, so the off
 <boxEmbed
   style="info"
   body={<>
-    A `DateTimeOffset` stores an offset (for example +10:00), not a time zone (for example Australia/Brisbane). That is exactly right for "when did this happen". For a future event that must stay at the same local time across daylight saving changes, such as a 9:00 AM meeting every Monday, also store the time zone ID and calculate the offset when you need it.
+    **Note:** An offset is not a time zone. A `DateTimeOffset` stores an offset (for example +10:00), not a time zone (for example Australia/Brisbane). That is exactly right for "when did this happen". For a future event that must stay at the same local time across daylight saving changes, such as a 9:00 AM meeting every Monday, also store the time zone ID and calculate the offset when you need it.
   </>}
   figurePrefix="none"
-  figure="Info - An offset is not a time zone"
+  figure=""
 />
 
 ## When not to bother
