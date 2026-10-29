@@ -33,9 +33,9 @@ seoDescription: 'Do you warn someone before calling them? A warm call can be a g
 created: 2015-10-05T05:50:19.000Z
 createdBy: Gilles Pothieu
 createdByEmail: gillespothieu.pro@gmail.com
-lastUpdated: 2026-06-29T14:09:45.448Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-29T10:11:50.269Z
+lastUpdatedBy: Harley Jackson
+lastUpdatedByEmail: harleyjackson@ssw.com.au
 archivedreason: null
 ---
 
@@ -67,7 +67,7 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 <boxEmbed
   style="info"
   body={<>
-    **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting. E.g. a Sprint Review
+    **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "In a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting. E.g. a Sprint Review
     ![Figure: Check their status first](/uploads/rules/warn-then-call/team-status-1.jpg)
   </>}
   figurePrefix="none"
@@ -107,7 +107,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute. See the PBI/Issue:
     
-    **&#123;&#123; URL &#125;&#125;**
+    **{{ URL }}**
   </>}
   figurePrefix="good"
   figure="Includes PBI/Issue link for reference and doesn't leave anyone waiting"
@@ -120,7 +120,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute about this email thread:
     
-    **&#123;&#123; EMAIL SUBJECT &#125;&#125;**
+    **{{ EMAIL SUBJECT }}**
   </>}
   figurePrefix="good"
   figure="Includes email subject for reference"
@@ -177,7 +177,7 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 
 ## What if your call is declined/not answered?
 
-When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. 
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten.
 
 > It is better to try and fail, than not try.
 
@@ -201,8 +201,8 @@ If you still couldn't get hold of the person, and a decision needs to be made (a
 <boxEmbed
   style="greybox"
   body={<>
-    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with &#123;&#123; THE RECOMMENDATION &#125;&#125; tomorrow.
-    (checked by &#123;&#123; APPROVER &#125;&#125;).
+    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+    (checked by {{ APPROVER }}).
     
     Please get back to me if you prefer another way."
   </>}
