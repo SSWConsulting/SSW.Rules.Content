@@ -11,6 +11,7 @@ redirects: null
 related:
 - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
 - rule: public/uploads/rules/password-manager/rule.mdx
+- rule: public/uploads/rules/deploy-to-azure-from-github-actions-with-oidc/rule.mdx
 seoDescription: Do you use enterprise secrets in your DevOps pipelines? Learn how
   to manage and secure sensitive data across multiple repositories and workflows with
   ease.
@@ -89,7 +90,7 @@ jobs:
 
       # Login to Azure
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/login@v3
         with:
           creds: $&#123;&#123; secrets.AZURE_CREDENTIALS &#125;&#125; # Note you need this credential in GitHub
 
@@ -110,6 +111,15 @@ jobs:
         run: az logout
 ```
 **😐 Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization**  
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** When the deployment target is Azure, avoid the client secret entirely and sign in with OIDC and a federated credential. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ### Advantages:
 
