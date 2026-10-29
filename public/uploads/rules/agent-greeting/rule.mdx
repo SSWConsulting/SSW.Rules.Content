@@ -1,0 +1,105 @@
+---
+type: rule
+title: Do you get your agent to brighten up your day?
+seoDescription: Add one line to your AI agent's global instructions so it greets you with a funny nickname, lifts your mood and proves your instructions loaded.
+guid: 083e06ec-f9d3-4e5e-ae6f-95d324a1c7e4
+uri: agent-greeting
+created: 2026-10-29T05:51:48.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/global-rules-for-ai-agents/rule.mdx
+  - rule: public/uploads/rules/customize-your-coding-agent/rule.mdx
+  - rule: public/uploads/rules/claude-local-md/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+You open a new AI agent session dozens of times a day. Every time, its first reply starts with the same polite, forgettable line. It's fine, but it's also the most repetitive part of your working day.
+
+You also have no quick way to know whether the agent loaded your global instructions. You find out an hour later, when it ignores a rule you thought it knew.
+
+<endIntro />
+
+One line in your global instructions file fixes both. Ask the agent to start its first reply in every session by greeting you with a funny nickname. You get a small laugh before the real work starts, and the greeting shows that the agent read your instructions.
+
+## Add one line to your global instructions
+
+Put the instruction in your personal global file, not the project's `AGENTS.md`. Your teammates didn't sign up to be called "Captain Merge Conflict". See [Do you keep universal rules for your AI agent in a global instructions file?](/global-rules-for-ai-agents)
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Hello! How can I help you today?"
+  </>}
+  figurePrefix="bad"
+  figure="The same greeting every agent gives, every session"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `~/.claude/CLAUDE.md`
+
+    ```markdown
+    When starting a new interactive session, greet Daniel Mackay with a
+    funny nickname, then ask how to help.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="One line in the global instructions file turns every session start into a small surprise"
+/>
+
+Codex, GitHub Copilot CLI and other agents read their own global files, so the same line works there too. The [global instructions rule](/global-rules-for-ai-agents) lists where each agent looks.
+
+## Let the agent pick something fitting
+
+The agent knows which repository it's in, so the nicknames often fit the work. Here's a session opened in a vertical slice architecture repository:
+
+<imageEmbed
+  alt="Claude Code session opening with 'Hey there, Sir Slice-a-Lot! Ready to carve up some more vertical slices today?'"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The agent greets you with a nickname that fits the repository"
+  src="/uploads/rules/agent-greeting/agent-greeting-in-terminal.png"
+/>
+
+And a few more from different sessions:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Morning, Captain Prompt-Whisperer!"
+
+    "G'day, Commander Commit! Shall we ship something?"
+
+    "Welcome back, Honourable Lord of Lint!"
+  </>}
+  figurePrefix="none"
+  figure="Example greetings. No two sessions are the same"
+/>
+
+## Use the greeting as a canary
+
+The greeting is also a free health check. Your global file holds your important rules: how you want code written, what to verify, what never to do. If the agent loaded the file, its first reply includes a nickname. If you get a plain "How can I help?", something is probably wrong. Open with a quick "hi" so you see the greeting before you hand the agent real work, and check the file if the nickname is missing.
+
+Common reasons the greeting goes missing:
+
+* **Different tool** - You opened a different agent, and it reads a different global file
+* **Different machine** - Cloud agents, CI runners and remote containers don't have your home folder
+* **Broken file** - The file moved, a symlink broke, or a bad edit left it unreadable
+* **Stripped context** - Some modes and flags skip user-level instructions on purpose
+
+A canary only works when it's cheap and you notice it straight away. A one-line greeting is both.
+
+## Keep it light
+
+* **Keep it short** - The global file loads in every session, so one line is plenty
+* **Greet once** - Ask for a greeting at the start of the session, not on every reply
+* **Keep it kind** - Funny, not insulting. You read it before your first coffee
+* **Keep it out of automation** - Subagents and headless runs on your machine load the same global file. Limit the greeting to interactive sessions so it doesn't end up in scripted output
+* **Keep it yours** - Your nickname belongs in your global file. Use a personal, git-ignored project file such as [CLAUDE.local.md](/claude-local-md) if it should only happen in one repository
