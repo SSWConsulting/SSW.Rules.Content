@@ -1,0 +1,70 @@
+---
+type: rule
+title: Do you use forecasts in AI dashboards?
+seoDescription: Backtest every dashboard forecast against simple baselines, show how wrong it usually is, and feed in what you already know about next week.
+guid: 4c433285-c97f-43ae-b43b-86cc6eab2fbe
+uri: forecasts-in-ai-dashboards
+created: 2026-10-16T08:10:26.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/dashboard-changes-real-or-noise/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+Ask AI for a "next week" forecast and it adds a smooth line to the dashboard in minutes, often from a popular forecasting library. Nobody knows how wrong that line usually is, yet the warehouse and support leads roster staff around it. Meanwhile the current week, only half logged, looks like a collapse.
+
+That's why you should **backtest every forecast and show its typical miss before it goes on a dashboard**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/forecasts-in-ai-dashboards/northwind-forecast-bad-confident-line-no-typical-miss.png"
+  alt="A generic dark purple AI Demand Forecast dashboard updated 'just now'. Orders this week show 3,867 with a red arrow and -45% vs last week, although only Monday to Wednesday are logged. A dashed forecast line climbs to 7,659 next week with no range, justified only by a 'Forecast by AI time-series model' badge, and an AI insight tells the reader to plan warehouse shifts for it."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - 3,867 orders logged Mon–Wed shown as a 45% fall, and a 7,659 forecast backed only by 'AI time-series model', with no typical miss and no source check"
+/>
+
+## Backtest against simple baselines
+
+A backtest replays history: forecast each past week using only the data that existed then, and record the miss. Test forecasts as far ahead as the dashboard predicts. Northwind Traders' "next week" is 2 weeks past its latest full week, so its backtest forecasts each of the last 52 weeks from 2 weeks earlier.
+
+Put simple baselines beside whatever model AI proposes: the latest full week, the average of the last 4 weeks, and the same week last year plus growth. Pick the method with the smallest typical miss for each series. The library model AI suggested first wins support chats at ±11%, but for agent hours the plain "same week last year, plus growth" beats it (±9% against ±19%).
+
+## Show the typical miss beside the forecast
+
+The typical miss is the error a method stayed within in 4 of 5 past weeks. It describes the past, not a promise about next week. Show it as "Usually within ±X%" with a plain label. Northwind uses **Good** at 10% or less and **Rough** above that; set the line where the decision changes for your team. Northwind's support chats tile reads 3,010 (2,710–3,380), "Usually within ±11% · Rough", so the support lead rosters with room to spare.
+
+## Feed in what you already know
+
+Some of next week is already decided: promotions are scheduled, pre-orders taken and leave booked. Adding them cuts the typical miss for orders to ±9% (against ±14% for the library model) and for agent hours to ±3% (against ±9%). The untested forecast said 7,659 orders. The backtested one, which knows about 3 promotions, says 10,170.
+
+<imageEmbed
+  src="/uploads/rules/forecasts-in-ai-dashboards/northwind-forecast-good-backtested-with-typical-miss.png"
+  alt="A Northwind Traders forecast dashboard in company branding. Three tiles show next week's support chats, orders shipped and agent hours, each with a range, a 'Usually within' chip labelled Good or Rough, the method used, the known future inputs, a hatched 'so far' bar for this week and a source with its data date. Below, a backtest table compares five methods across the three series with the winner of each highlighted, a passed look-ahead check, and a source coverage card."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - Each series uses its 52-week backtest winner: the library model for chats (±11%, Rough), promotions and pre-orders for orders (±9%), and booked leave for agent hours (±3%)"
+/>
+
+## Prove the backtest can't peek
+
+A backtest that can see the future means nothing. Prove the check by leaking future data on purpose and confirming it gets caught. Northwind planted 3 leaks and caught all 3. One of them, a 4-week average that included the week being forecast, scored ±9% on support chats instead of its honest ±14%.
+
+## Check what each source leaves out
+
+* **Incomplete weeks** - The current week shows as "logged so far" and stays out of the forecast until it closes
+* **Missing records** - The leave system holds only 58% of leave taken (checked against payroll), so the forecast adds typical unbooked leave
+* **Noise** - Bot and spam sessions, 9% of raw chat sessions, are removed
+
+Use the strongest reasoning model your organisation approves to build and test the forecasting code. Run that code on trusted data to calculate the forecast and its typical miss, without asking a language model to generate the numbers. See [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).

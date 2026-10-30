@@ -1,0 +1,77 @@
+---
+type: rule
+title: Do your dashboards show whether a change is real?
+seoDescription: Show counts beside dashboard percentages, test changes before colouring tiles, and keep small samples from topping leaderboards.
+guid: 5160f4dc-7e73-4b89-bc33-28167a3fc0ce
+uri: dashboard-changes-real-or-noise
+created: 2026-10-16T08:07:54.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/forecasts-in-ai-dashboards/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+A tile turns red because support chat accuracy "fell" from 86% to 77%, and the AI insight blames the release beside the dip. A "Top 5" ranks five questions at 100% from 6 checks each. Small weekly samples move a lot by chance, but the dashboard presents a verdict.
+
+That's why you should **show the evidence behind every percentage and colour a change only when a test shows it is clear**.
+
+<endIntro />
+
+<imageEmbed
+  src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-bad-colour-by-level.png"
+  alt="A generic dark purple AI Quality Dashboard colours support chat accuracy at 77% red against an 80% target without showing a count. A daily chart carries release markers, the AI insight recommends a rollback, and a Top 5 ranks questions at 100% from 6 checks each."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Synthetic illustration - 77% turns red with no count behind it, the insight blames release v2.38, and five questions rank at 100% from 6 checks each"
+/>
+
+Northwind Traders' rebuilt dashboard shows the same week with the evidence beside each number.
+
+<imageEmbed
+  src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-good-counts-ranges-and-tests.png"
+  alt="Northwind Traders' dashboard shows support agreement at 47/61 against 55/64 with No clear change yet, and descriptions at 44/52 against 30/50 with Clear rise. Tiles show 90% ranges, the drill-in gives p = 0.20 for support, and the leaderboard requires 10 checks before ranking."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Synthetic illustration - 47/61 against 55/64 stays grey as 'No clear change yet', while 44/52 against 30/50 is a clear rise"
+/>
+
+## Show the count beside every percentage
+
+Show **47/61 · 77%**, not just 77%. Call the measure "answers a support agent agreed with" so readers know what passes a check. Optionally add a 90% range using the [Wilson method](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm).
+
+## Colour the change, not the level
+
+"Red under 80%" fires on noise. Colour only when a planned [two-proportion test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) against the previous period gives p below 0.05:
+
+* **No clear change yet** - Support chat at 47/61 against 55/64 gives p = 0.20
+* **Clear rise** - Descriptions at 44/52 against 30/50 give p = 0.005
+
+Put the plain phrase on the tile and the p-value in the drill-in. "No clear change yet" means these checks can't separate the move from chance, not that nothing changed.
+
+The 0.05 threshold holds for one planned comparison. Across many tiles and repeated looks, some cross it by chance, so set the comparisons before you look, use a method that controls false alerts across them, and check that the change is big enough to matter.
+
+Weekly comparisons catch only big moves. Spotting a fall from 86% to 71% reliably (80% power, 5% test) takes about 117 checks per period, so at about 60 checks a week, compare 2-week periods.
+
+## Check where the checks came from
+
+One review session on 9 Oct supplied 17 of the 61 checks (28%). Without it, the result is 33/44 (75%), so the dip doesn't hinge on that batch. Ranges and tests like these assume independent checks. When several checks share a conversation or a review session, the result looks more certain than it is. No range fixes bias either: if reviewers only pick complaints, the rate describes complaints.
+
+## Make leaderboards earn their rankings
+
+Require at least 10 checks before ranking. Rank the best by the low end of the range and the worst by the high end, so a perfect score from few checks can't top the list. Northwind's 58/60 (90–99%) ranks above 19/19 (88–100%). "Do you ship to Brazil?" at 6/6 shows "Not ranked yet", with a range of 69–100%.
+
+## Mark changes that can move the result
+
+Mark prompt, model and data changes, not every release. Northwind marks only the 7 Oct description prompt change. A marker shows timing, not cause. Test changes before release: [Do you run evals on your AI features?](/run-evals-on-ai-features).
+
+To build the dashboard, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).
