@@ -1,0 +1,135 @@
+---
+type: rule
+title: Do you share what you learn as both a blog post and a rule?
+seoDescription: When a blog post teaches something that applies beyond your project, share it as a rule too. Keep the rule to one topic, keep the detail in the post, and link them both ways.
+guid: a22dbb75-2647-41f5-95dc-9c84a6568a1e
+uri: share-as-blog-post-and-rule
+created: 2026-10-29T07:00:00.000Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/document-what-you-are-doing/rule.mdx
+  - rule: public/uploads/rules/do-you-know-when-to-write-a-rule/rule.mdx
+  - rule: public/uploads/rules/rule/rule.mdx
+  - rule: public/uploads/rules/split-large-topics-into-multiple-blog-posts/rule.mdx
+  - rule: public/uploads/rules/optimise-content-for-topical-authority/rule.mdx
+  - rule: public/uploads/rules/do-you-avoid-duplicating-content/rule.mdx
+categories:
+  - category: categories/marketing-and-video/rules-to-better-blogging.mdx
+  - category: categories/communication/rules-to-better-technical-documentation.mdx
+archivedreason: null
+isArchived: false
+---
+
+You spend a weekend getting something working and write it up as a detailed blog post. Six months later a colleague hits the same problem, but the lesson is buried halfway down a dated post they never find. Or it goes the other way: someone pastes the whole tutorial into a rule, and nobody reads past the first screen.
+
+<endIntro />
+
+A blog post and a rule do different jobs, so when you learn something worth sharing, share it as both:
+
+* **The blog post is the full story** - How you landed where you did: the context, what you tried, the full examples, the code and the results. It's yours, so it builds your personal brand
+* **The rule is the best practice that came out of it** - Short and punchy: here's the best practice, move on
+
+Link them both ways and everyone wins. Rule readers get a real worked example, blog readers get the best practice in a few lines, both pages get backlinks, and the rules stay grounded in real work.
+
+## When to do it
+
+* **A rule already exists** - When your post follows a practice that's already a rule, link to the rule from the post, then add your post to the rule's "Learn more" section so the link goes both ways
+* **No rule exists yet** - When part of a new post is a practice that holds beyond your project, create the rule while you're writing the post, and link the two to each other
+
+## Keep the rule to one topic
+
+A rule should [explain the why, not the how](/rule), and it should cover one specific topic. Anything that isn't that topic, such as setup steps, wiring and implementation detail, goes in the blog post. If it's a separate practice worth sharing, make it its own rule. Otherwise the rule creeps in scope and the main point gets lost.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Do you link YakShaver bug reports to their telemetry with a recording ID?**
+
+    1. Load the YakShaver embed
+    2. Add a hidden panel and a feature flag
+    3. Configure the content security policy
+    4. Wire up the click handler
+    5. Write the server middleware
+    6. Write the baggage processor
+    7. Run this query... (and 3 more screens of code)
+  </>}
+  figurePrefix="bad"
+  figure="The rule is the whole tutorial, so the one practice it's about is lost"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Do you link YakShaver bug reports to their telemetry with a recording ID?**
+
+    Give each recording one ID from start to end and put it on the bug report, so the report points to the exact logs from that session.
+
+    **Learn more:** Read the blog post for how to add it to your app
+  </>}
+  figurePrefix="good"
+  figure="The rule covers one practice, and the setup lives in the blog post"
+/>
+
+## Let the blog post tell the whole story
+
+The blog post is where the detail lives, so don't trim it to look like a rule. Share the full examples: the context, every step (including the gotchas and what you tried first), real code and screenshots, the trade-offs and the results. It's the story of how you got to the best practice, and it's published under your name. If the post grows too big, [split it into multiple posts](/split-large-topics-into-multiple-blog-posts).
+
+## When the best practice changes, update the rule
+
+If the rule already has a good example and you've found a better way, don't add yours alongside it. Replace it: your approach becomes the good example, and the previous one becomes a bad (or OK) example, so readers can see what changed. The blog post explains why.
+
+## Open the blog post with the rule
+
+Work the rule into the opening of the post: say there's a rule on the topic, sum it up in a sentence, then carry on with the detail. Avoid a link tacked on at the end, or wording that makes the post sound like an afterthought to the rule.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ...and that's how I tied each recording to its telemetry. Thanks for reading!
+
+    PS: See also [this rule](https://www.ssw.com.au/rules/link-yakshaver-recordings-to-telemetry).
+  </>}
+  figurePrefix="bad"
+  figure="The rule link is an afterthought at the end of the post"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    There's an SSW Rule on [linking YakShaver bug reports to their telemetry with a recording ID](https://www.ssw.com.au/rules/link-yakshaver-recordings-to-telemetry). In short, give every recording one correlation ID from start to finish, so the bug report points straight at the logs from that session. This post is the detailed version: how I added it to a real app, end to end.
+  </>}
+  figurePrefix="good"
+  figure="The post opens with the rule and its one-line summary, then continues with the detail"
+/>
+
+## End the rule with a link to the blog post
+
+Finish the rule with a "Learn more" section that links to the post, so readers who want to implement it can find the worked example.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Learn more**
+
+    For how to add YakShaver to your app and attach the recording ID in the browser and on the server, read [Adding YakShaver recording and telemetry to a web app](https://gordonbeeming.com/blog/2026-10-29/adding-yakshaver-recording-to-an-app).
+  </>}
+  figurePrefix="good"
+  figure="The rule's Learn more section points to the post for the how-to"
+/>
+
+Linking both ways also helps [Google see the two pages as one topic](/optimise-content-for-topical-authority), so both rank better.
+
+## Use company branding on the rule
+
+Rules are company best practices. If your blog post has diagrams or images in your personal branding, rebrand them in the company's colours and logos before you add them to the rule. You're welcome to use the company-branded versions on your blog too.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Rules and blog posts are both public. Keep the rule generic, and never name clients or expose internal details such as product names, domains or screenshots of private data.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
