@@ -12,6 +12,8 @@ authors:
     url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Kaha Mason
     url: 'https://www.ssw.com.au/people/kaha-mason'
+  - title: Kosta Madorsky
+    url: 'https://www.ssw.com.au/people/kosta-madorsky'
 related:
   - rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
   - rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
@@ -379,8 +381,9 @@ dotnet ef migrations add InitialCreate --context MyDbContext
 # Apply migrations to the database
 dotnet ef database update --context MyDbContext
 
-# If you’re starting from an existing database and want a "baseline" migration
-dotnet ef migrations add Baseline --context MyDbContext --ignore-changes
+# Starting from an existing database? Add the initial migration to capture the
+# current schema, then mark it as applied (insert its row into __EFMigrationsHistory)
+# instead of running it - the old `--ignore-changes` flag has been removed.
 
 # Generate an idempotent SQL script (useful for deployments)
 dotnet ef migrations script --context MyDbContext --idempotent --output migrations.sql
