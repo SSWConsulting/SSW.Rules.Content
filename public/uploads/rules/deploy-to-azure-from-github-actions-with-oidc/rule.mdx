@@ -12,6 +12,7 @@ authors:
   - title: Matt Wicks
     url: 'https://www.ssw.com.au/people/matt-wicks'
 related:
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
   - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
   - rule: public/uploads/rules/store-github-secrets-in-keyvault/rule.mdx
   - rule: public/uploads/rules/mask-secrets-in-github-actions/rule.mdx
@@ -29,19 +30,11 @@ isArchived: false
 archivedreason: null
 ---
 
-Your pipeline logs in to Azure with a service principal client secret saved as a GitHub secret. That secret is a long-lived password to your production subscription. It can leak through a compromised workflow, a copied repository or a careless log line. It expires at the worst possible time and breaks every deployment. And someone has to remember to rotate it.
+Read [Do you use OIDC instead of long-lived secrets in your pipelines?](/use-oidc-instead-of-long-lived-secrets-in-pipelines) first. This rule covers the GitHub Actions to Azure specifics.
+
+If your workflow still logs in to Azure with a service principal client secret saved as `AZURE_CREDENTIALS`, replace it with a federated credential. Each workflow run gets a short-lived token that Azure accepts only from the repository and environment you name, and there is nothing left in GitHub to leak or rotate.
 
 <endIntro />
-
-OpenID Connect (OIDC), also called workload identity federation, removes the secret altogether. GitHub issues a short-lived token for each workflow run, and Azure trusts it because you told Entra ID which repository and environment it may come from. There is no password to store, leak, rotate or expire.
-
-## Why OIDC instead of a client secret
-
-* **Nothing to steal** - there is no credential stored in GitHub. A leaked workflow file or repository copy gives an attacker nothing they can use elsewhere
-* **Nothing to rotate** - no expiry date to track, and no outage when a secret quietly expires
-* **Short-lived** - the token is valid for a single run
-* **Scoped** - the trust is limited to one repository and one environment, so a fork or another branch cannot use it
-* **Auditable** - Azure sign-in logs show which repository and workflow signed in
 
 ## How to set it up
 
@@ -103,7 +96,7 @@ jobs:
 <boxEmbed
   style="warning"
   body={<>
-    **Warning:** The trust is only as tight as the subject you configure. Only pass values from `secrets` into `client-id`, `tenant-id` and `subscription-id`. Never pass values an outsider can influence, such as pull request titles, branch names or workflow inputs. A subject that is too broad (for example every branch) lets any workflow that can run in that repository deploy.
+    **Warning:** Only pass values from `secrets` into `client-id`, `tenant-id` and `subscription-id`. Never pass values an outsider can influence, such as pull request titles, branch names or workflow inputs. Scope the federated credential to an environment, not `repo:YourOrg/YourRepo:ref:refs/heads/*`, or any workflow that can run in that repository can deploy.
   </>}
   figurePrefix="none"
   figure=""
@@ -111,11 +104,10 @@ jobs:
 
 ## When you still need something else
 
-* Targets that cannot use federation (some third-party services) still need a secret. Keep it in a vault and see [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines)
+* A target that cannot use federation still needs a secret. Keep it in a vault and see [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines)
 * Code that runs inside Azure (an App Service or a Function) should use a managed identity at runtime, not a federated credential. See [Do you use Managed Identity in Azure?](/use-managed-identity-in-azure)
 
 ## Learn more
 
 * [Configuring OpenID Connect in Azure (GitHub Docs)](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-azure)
-* [Workload identity federation (Microsoft Learn)](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation)
 * [Azure Login action](https://github.com/Azure/login)
