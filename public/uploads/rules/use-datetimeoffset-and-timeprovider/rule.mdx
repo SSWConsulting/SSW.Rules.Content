@@ -1,0 +1,133 @@
+---
+type: rule
+title: Do you use DateTimeOffset and TimeProvider for the current time?
+seoDescription: Use DateTimeOffset values from an injected TimeProvider instead of DateTime.UtcNow so every point in time is unambiguous, stored as an exact instant, and easy to control in tests with FakeTimeProvider.
+guid: 4b1f7a52-3c0e-4e6d-9d57-6a8f2c91e3b4
+uri: use-datetimeoffset-and-timeprovider
+created: 2026-10-29T01:00:00.000Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/datetime-fields-must-be-converted-to-universal-time/rule.mdx
+  - rule: public/uploads/rules/testing-tools/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
+archivedreason: null
+isArchived: false
+---
+
+A report says an invoice was created at 9:00 AM. Whose 9:00 AM? The server's, the user's, or UTC? When the time is stored as a plain `DateTime`, nothing in the value tells you, so every reader has to guess. And when the code under test calls `DateTime.UtcNow`, you cannot write a reliable test for "expires after 30 days" without waiting 30 days, or without a test that fails when it runs across midnight or a daylight saving change.
+
+<endIntro />
+
+Time is an input to your code, just like a database or an HTTP API. Treat it that way: represent a point in time as a `DateTimeOffset`, and get the current time from an injected `TimeProvider`.
+
+## Use DateTimeOffset for every point in time
+
+A `DateTime` carries a `Kind` of `Utc`, `Local` or `Unspecified`. It is easy to lose. SQL Server `datetime2` stores no `Kind`, so EF Core reads every value back as `Unspecified`, and naive string formatting drops it too. You end up with a value that "looks like" UTC but might not be.
+
+A `DateTimeOffset` always carries its offset from UTC, so it identifies exactly one moment, wherever it is read.
+
+```csharp
+public class Invoice
+{
+    public DateTime CreatedAt { get; set; }   // UTC? Local? Nobody knows
+}
+
+invoice.CreatedAt = DateTime.UtcNow;
+```
+
+**❌ Figure: Bad example - A DateTime relies on naming and convention to say it is UTC**
+
+```csharp
+public class Invoice
+{
+    public DateTimeOffset CreatedAt { get; set; }
+}
+
+invoice.CreatedAt = timeProvider.GetUtcNow();
+```
+
+**✅ Figure: Good example - A DateTimeOffset is an unambiguous point in time and converts to any time zone without losing it**
+
+## Get "now" from an injected TimeProvider
+
+`DateTime.UtcNow` and `DateTimeOffset.UtcNow` are static. You cannot replace them in a test, so time-dependent logic becomes untestable or flaky. `TimeProvider` (built into .NET 8+, and available through the `Microsoft.Bcl.TimeProvider` package for older targets) is the standard abstraction for time, so you do not need to invent your own `IClock`.
+
+| Option | Unambiguous | Testable | Notes |
+| --- | --- | --- | --- |
+| `DateTime.UtcNow` | ❌ Relies on `Kind` | ❌ | Easy to confuse with `DateTime.Now` |
+| `DateTimeOffset.UtcNow` | ✅ | ❌ | Static, so tests cannot control it |
+| `timeProvider.GetUtcNow()` | ✅ | ✅ | Needs a `TimeProvider` injected |
+
+Register the real clock once at startup:
+
+```csharp
+builder.Services.AddSingleton(TimeProvider.System);
+```
+
+```csharp
+public class SubscriptionService(TimeProvider timeProvider)
+{
+    public bool IsExpired(Subscription subscription)
+        => subscription.ExpiresAt <= timeProvider.GetUtcNow();
+}
+```
+
+**✅ Figure: Good example - The class asks for the time instead of reaching for a static clock**
+
+## Control time in tests with FakeTimeProvider
+
+`FakeTimeProvider` (from the `Microsoft.Extensions.TimeProvider.Testing` package) lets a test set the time and move it forward. A test for "expires after 30 days" then runs in milliseconds and gives the same result every day.
+
+```csharp
+[Fact]
+public void Subscription_expires_exactly_30_days_after_it_starts()
+{
+    var time = new FakeTimeProvider(new DateTimeOffset(2026, 1, 1, 0, 0, 0, TimeSpan.Zero));
+    var service = new SubscriptionService(time);
+    var subscription = new Subscription { ExpiresAt = time.GetUtcNow().AddDays(30) };
+
+    time.Advance(TimeSpan.FromDays(30) - TimeSpan.FromTicks(1));
+    Assert.False(service.IsExpired(subscription));
+
+    time.Advance(TimeSpan.FromTicks(1));
+    Assert.True(service.IsExpired(subscription));
+}
+```
+
+**✅ Figure: Good example - The test moves the clock to the exact boundary instead of waiting or depending on today's date**
+
+## Store it as a DateTimeOffset in the database too
+
+EF Core maps `DateTimeOffset` to SQL Server `datetimeoffset` for you, so the column records an unambiguous instant (UTC when the value comes from `GetUtcNow()`) and reports can convert it to the viewer's time zone at display time. The column only keeps a local offset, such as the user's +10:00, when the value was captured with that offset.
+
+Other providers behave differently. Npgsql maps `DateTimeOffset` to PostgreSQL `timestamptz` and only accepts an offset of zero, and the SQLite provider stores it as text, so it cannot translate ordering or comparisons to SQL. Check your provider's documentation before relying on the offset.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** An offset is not a time zone. A `DateTimeOffset` stores an offset (for example +10:00), not a time zone (for example Australia/Brisbane). That is exactly right for "when did this happen". For a future event that must stay at the same local time across daylight saving changes, such as a 9:00 AM meeting every Monday, also store the time zone ID and calculate the offset when you need it.
+  </>}
+  figurePrefix="none"
+  figure="An offset records when something happened, a time zone records where"
+/>
+
+## When not to bother
+
+* A value that is a calendar date only, such as a birthday or a due date, is not a point in time. Use `DateOnly`
+* Code that already uses a richer date and time library such as [Noda Time](https://nodatime.org) can keep it. Its `Instant` and `ZonedDateTime` types solve the same problem
+
+## Learn more
+
+* [What is the TimeProvider class (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview)
+* [FakeTimeProvider class (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.time.testing.faketimeprovider)
+* [Avoiding flaky tests with TimeProvider and ITimer (Andrew Lock)](https://andrewlock.net/exploring-the-dotnet-8-preview-avoiding-flaky-tests-with-timeprovider-and-itimer/)
