@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use DateTimeOffset and TimeProvider for the current time?
-seoDescription: Use DateTimeOffset values from an injected TimeProvider instead of DateTime.UtcNow so every point in time is unambiguous, stored with its offset, and easy to control in tests with FakeTimeProvider.
+seoDescription: Use DateTimeOffset values from an injected TimeProvider instead of DateTime.UtcNow so every point in time is unambiguous, stored as an exact instant, and easy to control in tests with FakeTimeProvider.
 guid: 4b1f7a52-3c0e-4e6d-9d57-6a8f2c91e3b4
 uri: use-datetimeoffset-and-timeprovider
 created: 2026-10-29T01:00:00.000Z
@@ -24,7 +24,7 @@ archivedreason: null
 isArchived: false
 ---
 
-A report says an invoice was created at 9:00 AM. Whose 9:00 AM? The server's, the user's, or UTC? When the time is stored as a plain `DateTime`, nothing in the value tells you, so every reader has to guess. And when the code under test calls `DateTime.UtcNow`, you cannot write a reliable test for "expires after 30 days" without waiting 30 days, or without a test that starts failing on the 31st of the month.
+A report says an invoice was created at 9:00 AM. Whose 9:00 AM? The server's, the user's, or UTC? When the time is stored as a plain `DateTime`, nothing in the value tells you, so every reader has to guess. And when the code under test calls `DateTime.UtcNow`, you cannot write a reliable test for "expires after 30 days" without waiting 30 days, or without a test that fails when it runs across midnight or a daylight saving change.
 
 <endIntro />
 
@@ -32,7 +32,7 @@ Time is an input to your code, just like a database or an HTTP API. Treat it tha
 
 ## Use DateTimeOffset for every point in time
 
-A `DateTime` carries a `Kind` of `Utc`, `Local` or `Unspecified`. It is easy to lose, and serializers and databases drop it silently. You end up with a value that "looks like" UTC but might not be.
+A `DateTime` carries a `Kind` of `Utc`, `Local` or `Unspecified`. It is easy to lose. SQL Server `datetime2` stores no `Kind`, so EF Core reads every value back as `Unspecified`, and naive string formatting drops it too. You end up with a value that "looks like" UTC but might not be.
 
 A `DateTimeOffset` always carries its offset from UTC, so it identifies exactly one moment, wherever it is read.
 
@@ -90,23 +90,27 @@ public class SubscriptionService(TimeProvider timeProvider)
 
 ```csharp
 [Fact]
-public void Subscription_is_expired_after_30_days()
+public void Subscription_expires_exactly_30_days_after_it_starts()
 {
     var time = new FakeTimeProvider(new DateTimeOffset(2026, 1, 1, 0, 0, 0, TimeSpan.Zero));
     var service = new SubscriptionService(time);
     var subscription = new Subscription { ExpiresAt = time.GetUtcNow().AddDays(30) };
 
-    time.Advance(TimeSpan.FromDays(31));
+    time.Advance(TimeSpan.FromDays(30) - TimeSpan.FromTicks(1));
+    Assert.False(service.IsExpired(subscription));
 
+    time.Advance(TimeSpan.FromTicks(1));
     Assert.True(service.IsExpired(subscription));
 }
 ```
 
-**✅ Figure: Good example - The test moves the clock instead of waiting or depending on today's date**
+**✅ Figure: Good example - The test moves the clock to the exact boundary instead of waiting or depending on today's date**
 
 ## Store it as a DateTimeOffset in the database too
 
-EF Core maps `DateTimeOffset` to SQL Server `datetimeoffset` for you, so the offset survives the round trip and reports can convert to the viewer's time zone at display time.
+EF Core maps `DateTimeOffset` to SQL Server `datetimeoffset` for you, so the column records an unambiguous instant (UTC when the value comes from `GetUtcNow()`) and reports can convert it to the viewer's time zone at display time. The column only keeps a local offset, such as the user's +10:00, when the value was captured with that offset.
+
+Other providers behave differently. Npgsql maps `DateTimeOffset` to PostgreSQL `timestamptz` and only accepts an offset of zero, and the SQLite provider stores it as text, so it cannot translate ordering or comparisons to SQL. Check your provider's documentation before relying on the offset.
 
 <boxEmbed
   style="info"
@@ -114,13 +118,13 @@ EF Core maps `DateTimeOffset` to SQL Server `datetimeoffset` for you, so the off
     **Note:** An offset is not a time zone. A `DateTimeOffset` stores an offset (for example +10:00), not a time zone (for example Australia/Brisbane). That is exactly right for "when did this happen". For a future event that must stay at the same local time across daylight saving changes, such as a 9:00 AM meeting every Monday, also store the time zone ID and calculate the offset when you need it.
   </>}
   figurePrefix="none"
-  figure=""
+  figure="An offset records when something happened, a time zone records where"
 />
 
 ## When not to bother
 
 * A value that is a calendar date only, such as a birthday or a due date, is not a point in time. Use `DateOnly`
-* Code that already uses a richer date and time library such as Noda Time can keep it. See [Do you know DateTime fields must be converted to universal time?](/datetime-fields-must-be-converted-to-universal-time)
+* Code that already uses a richer date and time library such as [Noda Time](https://nodatime.org) can keep it. Its `Instant` and `ZonedDateTime` types solve the same problem
 
 ## Learn more
 
