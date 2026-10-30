@@ -1,0 +1,113 @@
+---
+type: rule
+title: Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?
+uri: deploy-to-azure-from-github-actions-with-oidc
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-cloud-security.mdx
+authors:
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Matt Wicks
+    url: 'https://www.ssw.com.au/people/matt-wicks'
+related:
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/store-github-secrets-in-keyvault/rule.mdx
+  - rule: public/uploads/rules/mask-secrets-in-github-actions/rule.mdx
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/expiring-app-secrets-certificates/rule.mdx
+guid: e4a0b389-7cfc-48ce-8c1d-664b976c5b47
+seoDescription: 'Deploy to Azure from GitHub Actions with OpenID Connect (workload identity federation) instead of a stored client secret. There is nothing to leak or rotate, and each deployment gets a short-lived token scoped to one repository and environment.'
+created: 2026-10-29T20:48:23.497Z
+createdBy: Gordon Beeming
+createdByEmail: me@gordonbeeming.com
+lastUpdated: 2026-10-29T22:54:23.661Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: me@gordonbeeming.com
+isArchived: false
+archivedreason: null
+---
+
+Read [Do you use OIDC instead of long-lived secrets in your pipelines?](/use-oidc-instead-of-long-lived-secrets-in-pipelines) first. This rule covers the GitHub Actions to Azure specifics.
+
+If your workflow still logs in to Azure with a service principal client secret saved as `AZURE_CREDENTIALS`, replace it with a federated credential. Each workflow run gets a short-lived token that Azure accepts only from the repository and environment you name, and there is nothing left in GitHub to leak or rotate.
+
+<endIntro />
+
+## How to set it up
+
+### 1. Create the identity in Azure
+
+Create an app registration (or a user-assigned managed identity) for the deployment, and give it the least privilege it needs, for example Contributor on a single resource group instead of the whole subscription. Do not create a client secret for it.
+
+### 2. Add a federated credential
+
+On the app registration, add a federated credential for GitHub Actions. The subject says exactly what is trusted:
+
+| Setting  | Value                                          |
+| -------- | ---------------------------------------------- |
+| Issuer   | `https://token.actions.githubusercontent.com`  |
+| Subject  | `repo:YourOrg/YourRepo:environment:production` |
+| Audience | `api://AzureADTokenExchange`                   |
+
+Scope the subject to a GitHub **environment**, not just the repository. Then the environment's protection rules (required reviewers, allowed branches) decide who can deploy.
+
+### 3. Protect the GitHub environment
+
+In the repository settings, create the environment (for example `production`), limit it to protected branches, and require a pull request approval before a deployment starts.
+
+### 4. Log in from the workflow
+
+Give the job permission to request a token, name the environment, and pass the identifiers to `azure/login`. There is no `AZURE_CREDENTIALS` and no secret key.
+
+```yaml
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: azure/login@v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - run: az webapp deploy --resource-group my-rg --name my-app --src-path ./app.zip
+```
+
+**✅ Figure: Good example - The workflow signs in with a short-lived token. The three IDs identify the app but are not credentials**
+
+```yaml
+- uses: azure/login@v1
+  with:
+    creds: ${{ secrets.AZURE_CREDENTIALS }}
+```
+
+**❌ Figure: Bad example - AZURE\_CREDENTIALS holds a client secret that works from anywhere until it expires or someone rotates it**
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Only pass values from `secrets` into `client-id`, `tenant-id` and `subscription-id`. Never pass values an outsider can influence, such as pull request titles, branch names or workflow inputs. Scope the federated credential to an environment, not `repo:YourOrg/YourRepo:ref:refs/heads/*`, or any workflow that can run in that repository can deploy.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## When you still need something else
+
+* A target that cannot use federation still needs a secret. Keep it in a vault and see [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines)
+* Code that runs inside Azure (an App Service or a Function) should use a managed identity at runtime, not a federated credential. See [Do you use Managed Identity in Azure?](/use-managed-identity-in-azure)
+
+## Learn more
+
+* [Configuring OpenID Connect in Azure (GitHub Docs)](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-azure)
+* [Azure Login action](https://github.com/Azure/login)
