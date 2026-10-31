@@ -31,20 +31,25 @@ Save what you learn in the prompt, then check that the change helps.
 
 ACE works offline on system prompts and online on agent memory. It can adapt from natural execution feedback without labelled data.
 
-The paper names two traps: "brevity bias", where summaries drop domain detail, and "context collapse", where repeated rewrites erode it. Keep useful detail and change the entry that needs fixing.
+The paper names two traps:
+
+- **Brevity bias:** summaries drop domain detail
+- **Context collapse:** repeated rewrites erode it
+
+Keep useful detail and change the entry that needs fixing.
 
 ## The loop
 
-1. Run the task with the current prompt.
-2. Capture feedback: reviewer corrections, failed checks or a user's thumbs-down. Keep the input and output so you can inspect the failure.
-3. Reflect on what went wrong. Identify the missing instruction rather than copying the corrected answer.
-4. Curate a small, specific playbook entry. Add or edit one bullet; don't rewrite the whole prompt.
-5. Re-run evals before promoting the new version. Check earlier cases as well as the failure that prompted the change.
+1. **Run** the task with the current prompt.
+2. **Capture feedback:** reviewer corrections, failed checks or a user's thumbs-down. Keep the input and output so you can inspect the failure.
+3. **Reflect** on what went wrong. Identify the missing instruction rather than copying the corrected answer.
+4. **Curate** a small, specific playbook entry. Add or edit one bullet; don't rewrite the whole prompt.
+5. **Re-run evals** before promoting the new version. Check earlier cases as well as the failure that prompted the change.
 
 <boxEmbed
   style="greybox"
   body={<>
-    After each failed policy review, an LLM rewrites the whole prompt "to be more concise". The shorter version drops the instructions for older policies, so reviewers keep correcting the same missing-control claims.
+    After each incorrect Northwind order report, an LLM rewrites the whole prompt "to be more concise". The shorter version drops the instructions for checking required dates, so reviewers keep correcting reports that label every unshipped order as overdue.
   </>}
   figurePrefix="bad"
   figure="Rewriting the whole prompt loses useful detail"
@@ -53,27 +58,28 @@ The paper names two traps: "brevity bias", where summaries drop domain detail, a
 <boxEmbed
   style="greybox"
   body={<>
-    Append one entry: "When the customer's policy predates 2020, check the old clause numbering before saying a control is missing."
+    Append one entry: "For Northwind orders with no ShippedDate, only report an order as overdue when its RequiredDate is before the report date."
 
     Keep the other instructions and run evals before approving the change.
   </>}
   figurePrefix="good"
-  figure="A specific entry addresses the repeated mistake"
+  figure="One specific entry fixes the repeated overdue-order mistake"
 />
 
 ## Optimise against a metric when you have one
 
 [DSPy's GEPA optimizer](https://dspy.ai/api/optimizers/GEPA/overview/) uses an LLM to reflect on execution traces and textual feedback from your metric, propose new instructions, and keep a Pareto frontier of candidates. It needs a metric plus training and validation examples.
 
-Use GEPA when you have a scored dataset. Use ACE-style playbooks when your feedback is mostly unscored corrections; you still need evals before promoting changes.
+- **Use GEPA** when you have a scored dataset
+- **Use ACE-style playbooks** when your feedback is mostly unscored corrections; you still need evals before promoting changes
 
 ## Guardrails
 
-* Version the prompt in git like code.
-* Gate every promotion on evals. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
-* Keep a human approving entries at first.
-* Prune entries that stop earning their place.
-* Mind [prompt caching](/do-you-follow-best-practices-for-prompt-caching): append-only edits near the end keep the earlier cached prefix stable.
-* When the playbook grows large, move details into a [skill's extra files](/ai-agents-with-skills) so they load on demand.
+- **Version** the prompt in git like code.
+- **Gate** every promotion on evals. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+- **Require human approval** for entries at first.
+- **Prune** entries that stop earning their place.
+- **Mind [prompt caching](/do-you-follow-best-practices-for-prompt-caching):** append-only edits near the end keep the earlier cached prefix stable.
+- **Move details out** when the playbook grows large: put them in a [skill's extra files](/ai-agents-with-skills) so they load on demand.
 
 Start with Option D in [Do you know the best way to feed your data to AI?](/feed-data-to-ai): precompute the research, then let it evolve.
