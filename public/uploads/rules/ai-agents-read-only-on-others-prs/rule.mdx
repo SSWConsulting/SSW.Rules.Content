@@ -21,9 +21,9 @@ archivedreason: null
 isArchived: false
 ---
 
-You ask an AI agent to review a teammate's pull request. It finds a merge conflict, merges `main`, fixes it and pushes. The agent runs with your credentials, so the push is yours. On a protected branch, your approval can be dismissed and the PR waits for another reviewer. The author finds commits on their branch that they didn't write.
+You ask an AI agent to review a teammate's pull request. It finds a merge conflict, merges `main`, resolves the conflict and pushes. The agent uses your credentials, so the push is yours. Branch protection can dismiss your approval and block the PR until another reviewer approves. Your teammate now has commits on their branch that they didn't write.
 
-**Read-only means the agent never changes the branch: it reads, comments when asked, and approves only when told.** Don't leave this to each developer's habits. Make it part of your team's base AI agent setup, so every agent in every repository starts from it.
+**A read-only review leaves the branch untouched: the agent reads, comments when asked, and approves only when explicitly told.** Make this part of your team's base AI agent setup, so every agent in every repository follows the same default.
 
 <endIntro />
 
@@ -38,22 +38,22 @@ You ask an AI agent to review a teammate's pull request. It finds a merge confli
 | Commit, push, merge `main`, rebase or resolve conflicts | ❌ Only after the author hands it over |
 | Merge the PR | ❌ Never |
 
-The expected reviewer is whoever the team relies on for this PR, such as the assigned reviewer or a required code owner. If that's someone else, leave approval to them.
+The expected reviewer is whoever the team relies on to review this PR, such as the assigned reviewer or a required code owner. If that's someone else, leave approval to them.
 
-## Why does a push from your account matter?
+## Why does your push matter?
 
-The figure shows a branch with two GitHub settings on, both available in [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) and [rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-a-pull-request-before-merging). In the order they bite:
+The figure shows a branch with two GitHub settings enabled, both available in [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) and [rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-a-pull-request-before-merging). Here's how they affect the PR:
 
 * **Dismiss stale pull request approvals when new commits are pushed** - Jordan's merge of `main` changes the diff, so GitHub dismisses Jordan's approval
 * **Require approval of the most recent reviewable push** - Jordan is now the last pusher, so Jordan's re-approval doesn't count. Someone else must approve. Because the merge brought in new changes from `main` after the review was submitted, this setting also dismisses the approval on its own
 
 <imageEmbed
   src="/uploads/rules/ai-agents-read-only-on-others-prs/reviewer-push-needs-another-approval.png"
-  alt="Pull request timeline where Jordan approves, pushes a merge of main, and the approval is dismissed, so merging is blocked until someone else approves."
+  alt="Pull request timeline where Jordan approves, pushes a merge of main, and the approval is dismissed, blocking the merge until someone else approves."
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Synthetic illustration - Jordan's conflict fix on Sam's PR at 10:05 dismisses Jordan's 10:02 approval, and only someone other than Jordan can approve the latest push, even though all checks pass"
+  figure="Synthetic illustration - Jordan's conflict fix on Sam's PR at 10:05 dismisses Jordan's 10:02 approval. Another reviewer must approve the latest push, even though all checks pass"
 />
 
 <boxEmbed
@@ -64,7 +64,7 @@ The figure shows a branch with two GitHub settings on, both available in [branch
     **Agent:** I merged main, resolved the conflict in `InvoiceService.cs` and pushed. Here are my findings.
   </>}
   figurePrefix="bad"
-  figure="Illustrative example - A review request becomes an unauthorized push to Sam's branch"
+  figure="Illustrative example - A review request becomes an unauthorised push to Sam's branch"
 />
 
 <boxEmbed
@@ -72,38 +72,39 @@ The figure shows a branch with two GitHub settings on, both available in [branch
   body={<>
     **Jordan's review of Sam's PR #412**
 
-    1. `ExportInvoices` loads every invoice before filtering. Filter in the query.
-    2. No test covers an empty date range.
+    1. `ExportInvoices` loads every invoice before filtering by date. Apply the date filter in the query.
+    2. No test covers a date range with no invoices.
 
     **Conflict with main:** `InvoiceService.cs` - Sam to resolve.
 
     No changes made to the branch.
   </>}
   figurePrefix="good"
-  figure="Illustrative example - The review comment gives Sam actionable findings without changing the branch"
+  figure="Illustrative example - Actionable findings for Sam, with the branch untouched"
 />
 
-## How do you put it in your base setup?
+## Make it the default
 
 Add this to your global instructions file. See [Do you keep universal rules for your AI agent in a global instructions file?](/global-rules-for-ai-agents)
 
 ```markdown
 * When reviewing a PR the user didn't author, read it and draft findings.
   Post comments or suggested changes only when the user asks.
-* Never commit, push, merge the base branch in, rebase or resolve conflicts
-  on a PR the user didn't author, unless the user tells you to because the
-  author handed it over. Report conflicts and failing checks for the author
-  to fix. Never merge the PR.
-* Approve only when the user tells you to for this PR and is the expected
-  reviewer. Don't dismiss other people's reviews or change assignees or reviewers.
+* Never commit, push, merge the base branch into the PR branch, rebase or resolve
+  conflicts on a PR the user didn't author, unless the user explicitly asks
+  you to after the author has handed it over. Report conflicts and failing
+  checks for the author to fix. Never merge the PR.
+* Approve only when the user explicitly asks you to approve this PR and is
+  the expected reviewer. Don't dismiss other people's reviews or change
+  assignees or reviewers.
 * Apply these instructions to every subagent you delegate to.
 ```
 
-Your personal global file covers you. If the team relies on this default, put it in each repository's [AGENTS.md](/write-agents-md) or [share it centrally](/centralize-ai-workflows).
+Your personal global file covers you. To make this the team's default, put it in each repository's [AGENTS.md](/write-agents-md) or [share it centrally](/centralize-ai-workflows).
 
-## How do you enforce it?
+## Add guardrails
 
-Instructions aren't enforcement. Command rules can't tell whose branch a push goes to, so make `git push` ask. The rule matches command text, so a variant such as `git -C . push` gets past it. See [Do you commit a shared settings file for your AI coding agents?](/shared-ai-agent-settings) for the equivalent in each tool.
+Instructions aren't enforcement. Command rules can't tell whose branch a push targets, so require approval for `git push`. The rule below matches command text, so a variant such as `git -C . push` bypasses it. See [Do you commit a shared settings file for your AI coding agents?](/shared-ai-agent-settings) for the equivalent in each tool.
 
 `.claude/settings.json` (committed)
 
@@ -119,6 +120,6 @@ These are guardrails, not security; enforce review on the server with branch pro
 
 ## When doesn't this apply?
 
-If Sam hands the PR over to Jordan or asks Jordan to push a specific fix, that changes the task from review to implementation. State the handover on the PR and authorize the agent's work for that PR. Approval requirements still apply, so another reviewer may need to approve afterward.
+If Sam hands the PR over to Jordan or asks Jordan to push a specific fix, the task changes from review to implementation. State the handover on the PR and authorise the agent's work for that PR. Approval requirements still apply, so another reviewer may need to approve afterwards.
 
 For small human edits during review, see [Do you know when to add your changes to an existing PR?](/adding-changes-to-pull-requests).
