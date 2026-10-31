@@ -46,7 +46,15 @@ A document pipeline passes every health check, but some summaries omit important
 
 Choose a model and version for the pipeline, then run [evals](/run-evals-on-ai-features) before changing either. Check whether the gateway or provider has its own fallback or automatic upgrade policy; an application setting alone cannot prevent a switch downstream. Plan for [model retirements](/ai-model-retirements).
 
-For each saved result, record the requested deployment, actual model and version when the provider exposes them, provider, prompt version and validation outcome. A deployment alias is not proof of the resolved model. If the provider does not expose a version, record that limitation rather than inventing one. Keep request or attempt IDs so operators can trace failures without logging sensitive prompts or documents.
+For each saved result, record:
+
+* **Requested deployment**
+* **Actual model and version** - When the provider exposes them
+* **Provider**
+* **Prompt version**
+* **Validation outcome**
+
+A deployment alias is not proof of the resolved model. If the provider does not expose a version, record that limitation rather than inventing one. Keep request or attempt IDs so operators can trace failures without logging sensitive prompts or documents.
 
 ## Retry for a reason, with a limit
 
