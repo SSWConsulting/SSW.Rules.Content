@@ -1,0 +1,114 @@
+---
+type: rule
+title: Do you design your app for agent experience (AX)?
+seoDescription: Agents can't click through pop-up logins and wizards. Learn what agent experience (AX) is and whether to give agents a CLI, MCP server or WebMCP tools.
+guid: 4d1f64a2-66d3-4694-b9a6-edaf9ef1c240
+uri: design-for-agent-experience
+created: 2026-11-01T21:52:32.000Z
+authors:
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/mcp-server/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+Apps have always been built around human interaction. Good UI and UX is essential to giving people a great experience.
+
+Now agents are using your apps more and more. They can't click through a pop-up login or a 4-step wizard. They guess from screenshots, burn tokens, and give up for a tool that just works.
+
+Agent experience (AX) is UX where the user happens to be an agent. Give agents a front door - a CLI, an MCP server, or WebMCP tools - and they can finish the job without scraping your UI.
+
+<endIntro />
+
+## What is agent experience (AX)?
+
+AX is designing your product so an AI agent can understand it and use it on its own. Agents don't see your layout. They read command names, tool descriptions, schemas and error messages.
+
+* **Agents pick tools that work** - If a flow needs a human mid-way, the agent moves on to another tool
+* **No screenshot-and-guess loops** - One structured call replaces a dozen clicks
+* **Easier to permission** - A named tool with a schema is easier to approve than "click anything on the page"
+
+## How is AX different from UX?
+
+AI tools are bad at inferring context or reading between the lines. They need clear, straightforward documentation and definitions, and discoverability should be a priority.
+
+Humans are the opposite. A person can scan a screen, guess what an icon means, and ask a colleague when stuck. An agent has none of that.
+
+* **Humans infer, agents need it spelled out** - A person understands "a couple of days" or an unlabeled icon. An agent needs the exact value and a name
+* **Humans explore, agents need discoverability** - A person clicks around menus to find a feature. An agent can only use what it can list, like commands, tools, schemas and docs
+* **Humans tolerate vague errors** - "Something went wrong" makes a person retry or call support. An agent needs to know what failed and what to try next
+* **Humans can ask for help** - A person can answer a pop-up or pause for a colleague. An agent running unattended can't
+
+## Which AX surface should you build?
+
+There are three ways to give agents a front door. They are not exclusive.
+
+| Surface | Best for | Where it runs | Maturity |
+|---|---|---|---|
+| **CLI** (Recommended) | Dev tools and anything scriptable | The agent's shell | Stable - agents already write shell commands well |
+| **MCP server** | Exposing your system or data to any agent | Your server or a local process | Open standard |
+| **WebMCP** | Actions inside the user's open browser tab | The user's browser | Early - draft spec, browser origin trials |
+
+Start with a CLI or MCP server. Add WebMCP only when the agent needs to act inside the user's logged-in page.
+
+### CLI (Recommended)
+
+A CLI needs no hosting, and agents already know how to run one. Make it agent-friendly:
+
+* **Never prompt** - Take input from flags and environment variables, not interactive questions
+* **Output structured data** - Offer `--json` or similar, and print an explicit message when there are zero results
+* **Fail loud** - Return meaningful exit codes, and reject unknown flags instead of ignoring them
+
+### MCP server
+
+Use an MCP server when agents need to reach your system from anywhere, not just a machine with your CLI installed. The tool name and description are the only UI the agent sees, so write them for an agent.
+
+See [Do you have an MCP server to let AI agents plug into your app?](/mcp-server) for how to build one.
+
+### WebMCP
+
+WebMCP lets a web page register JavaScript tools that an in-browser agent can call, using `document.modelContext.registerTool()`. The agent reuses the user's session instead of re-authenticating.
+
+<boxEmbed
+  body={<>
+    WebMCP is a Draft Community Group Report from the W3C Web Machine Learning Community Group. It is not a W3C Standard and not on the Standards Track.
+
+    At the time of writing, Chrome and Edge offer it through origin trials (Chrome 149, Edge 150), and Chrome also has a flag. The API name has changed before, so check the spec before you build on it.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## What makes a good AX, whichever surface you pick?
+
+* **Non-interactive auth** - Use tokens or service accounts, never a browser pop-up the agent can't answer
+* **Errors that explain the fix** - Say what went wrong and what to try next
+* **Descriptions written for agents** - Say what a tool does, what it needs, and what it returns
+
+<boxEmbed
+  body={<>
+    Give Claude Code your top 3 user tasks and only your CLI or MCP server to do them. Wherever it stalls, fix that spot. That is your AX backlog.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you have an MCP server to let AI agents plug into your app?](/mcp-server)
+* [SSW: Do you give your AI agents context with MCP servers and skills?](/mcp-servers-for-context)
+* [SSW: Do you know when to use agents, subagents, skills, and MCPs?](/when-to-use-skills-agents-subagents-mcps-plugins)
+* [WebMCP specification](https://webmachinelearning.github.io/webmcp/) - Draft Community Group Report
+* [WebMCP on Chrome Developers](https://developer.chrome.com/docs/ai/webmcp) - origin trial and flag setup
+* [AXI: Agent eXperience Interface](https://axi.md/) - 10 principles for agent-friendly CLIs
+* [What is Agent Experience (AX)?](https://nordicapis.com/what-is-agent-experience-ax/) - Nordic APIs
