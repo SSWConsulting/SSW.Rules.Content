@@ -51,13 +51,13 @@ There are three ways to give agents a front door. They are not exclusive.
 
 | Surface | Best for | Where it runs | Maturity |
 |---|---|---|---|
-| **CLI** (Recommended) | Dev tools and anything scriptable | The agent's shell | Stable - agents already write shell commands well |
+| **CLI** | Dev tools and anything scriptable | The agent's shell | Stable - agents already write shell commands well |
 | **MCP server** | Exposing your system or data to any agent | Your server or a local process | Open standard |
 | **WebMCP** | Actions inside the user's open browser tab | The user's browser | Early - draft spec, browser origin trials |
 
-Start with a CLI or MCP server. Add WebMCP only when the agent needs to act inside the user's logged-in page.
+Pick by where the agent runs: a CLI for agents in a shell, an MCP server for agents reaching your system remotely, and WebMCP for agents acting inside the user's open browser tab.
 
-### CLI (Recommended)
+### CLI
 
 A CLI needs no hosting, and agents already know how to run one. Make it agent-friendly:
 
