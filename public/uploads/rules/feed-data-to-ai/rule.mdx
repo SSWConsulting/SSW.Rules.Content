@@ -199,6 +199,45 @@ If your data is already relational, you might not need a graph. Northwind itself
 
 For graphs as agent memory, see [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems#knowledge-graphs).
 
+## When should you fine-tune?
+
+Use fine-tuning to change how a model behaves, not what it knows. It suits format and style, and small, focused tasks that run at high volume, such as classification, extraction, routing or returning a consistent output schema. For tasks like these, a small fine-tuned model can be cheaper, faster and as good as a large general model.
+
+Predibase's [LoRA Land](https://arxiv.org/abs/2405.00732) study (2024) fine-tuned 310 models of up to 7B parameters across 31 tasks. The fine-tuned models beat GPT-4 on most narrow tasks such as classification, while GPT-4 kept the lead on broader tasks such as coding and general knowledge (MMLU).
+
+Fine-tuning a small open-weight model is now cheap and quick with tools such as [Hugging Face PEFT](https://huggingface.co/docs/peft/index) or [Unsloth](https://github.com/unslothai/unsloth). They use [LoRA](https://arxiv.org/abs/2106.09685) and other parameter-efficient methods, which train a small set of added weights instead of the whole model. OpenAI is [winding down self-serve fine-tuning](https://developers.openai.com/api/docs/deprecations), so plan on small open-weight models or another provider.
+
+Don't use fine-tuning to teach a model facts that change, such as prices, stock levels or policies. The model can't cite a source for them, and you have to retrain it every time they change. Use RAG, a knowledge graph (Option E) or a precomputed brief (Option D) instead.
+
+Before you fine-tune, you need:
+
+* **An eval set** - Build it first, so you can tell whether fine-tuning helps. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+* **A prompted baseline** - Measure a good prompt with [few-shot examples](/shot-prompts) on the same evals. If it's good enough, you don't need to fine-tune.
+* **Enough good examples** - Use real, representative inputs with correct labels. OpenAI's [supervised fine-tuning guide](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) suggests starting with 50 well-crafted examples and adding more only if your evals improve.
+* **A retraining plan** - Retrain and re-run your evals when the base model or the task changes.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You fine-tune a model on Northwind's product catalogue so it can answer price questions. Then the price of Chai changes.
+
+    The model keeps quoting the old price until you retrain it. It can't cite a source, so users can't tell it's out of date.
+  </>}
+  figurePrefix="bad"
+  figure="Fine-tuning bakes in prices, so the model quotes stale ones until you retrain it"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind uses a prompted large model to read every support email, pick one of four queues - Orders, Returns, Shipping or Billing - and return it as JSON.
+
+    You label past emails with the right queue and fine-tune a small model on them. Then you run both models against the same eval set, and switch only if the small model scores as well.
+  </>}
+  figurePrefix="good"
+  figure="Fine-tune a small model for a narrow, high-volume task, and let evals decide whether to switch"
+/>
+
 ## Which should I use?
 
 These building blocks can be combined. Most RAG vs CAG vs KAG comparisons leave out agentic search and precompute.
@@ -215,6 +254,7 @@ Then add the layers you need:
 * **Knowledge graph** - when answers follow links between entities (Option E)
 * **Precomputed brief** - when the same task runs many times (Option D)
 * **[Evolving playbook](/let-prompts-learn-from-feedback)** - when the same corrections keep coming back
+* **Fine-tuned small model** - when a narrow task runs at high volume (see fine-tuning above)
 
 ```mermaid
 ---
