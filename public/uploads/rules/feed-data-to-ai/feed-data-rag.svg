@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="title">RAG: only the top-k chunks reach the prompt</title>
+  <desc id="desc">The question is used to search a vector database that was indexed ahead of time. The top-k closest chunks come back and go into the prompt together with the question, and the prompt goes to the LLM.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <rect data-bg="1" width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="40" y="30" width="5" height="26" rx="2" fill="#CC4141"/>
+  <text x="56" y="51" font-size="22" font-weight="700" fill="#333333">RAG</text>
+
+  <!-- Question -->
+  <rect x="40" y="223" width="130" height="60" rx="12" fill="#FFFFFF" stroke="#CC4141" stroke-width="2"/>
+  <circle cx="62" cy="253" r="13" fill="#CC4141"/>
+  <text x="62" y="259" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">?</text>
+  <text x="82" y="259" font-size="16" font-weight="700" fill="#333333">Question</text>
+
+  <!-- Search -->
+  <line x1="172" y1="253" x2="236" y2="253" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="204" y="240" font-size="15" fill="#555555" text-anchor="middle">search</text>
+
+  <!-- Vector DB -->
+  <path d="M240,168 V330 A70,18 0 0 0 380,330 V168 Z" fill="#F5F5F5" stroke="#333333" stroke-width="1.5"/>
+  <ellipse cx="310" cy="168" rx="70" ry="18" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="310" y="246" font-size="17" font-weight="700" fill="#333333" text-anchor="middle">Vector DB</text>
+  <text x="310" y="272" font-size="15" fill="#555555" text-anchor="middle">indexed ahead</text>
+  <text x="310" y="291" font-size="15" fill="#555555" text-anchor="middle">of time</text>
+
+  <!-- Top-k -->
+  <line x1="382" y1="253" x2="432" y2="253" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="407" y="240" font-size="15" fill="#555555" text-anchor="middle">top-k</text>
+
+  <!-- Prompt -->
+  <rect x="436" y="96" width="170" height="320" rx="14" fill="#F5F5F5" stroke="#D6D6D6" stroke-width="1.5"/>
+  <text x="452" y="126" font-size="17" font-weight="700" fill="#333333">Prompt</text>
+  <g fill="#FFFFFF" stroke="#333333" stroke-width="1.5">
+    <rect x="452" y="142" width="138" height="44" rx="8"/>
+    <rect x="452" y="196" width="138" height="44" rx="8"/>
+    <rect x="452" y="250" width="138" height="44" rx="8"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#333333">
+    <text x="466" y="161">Chunk 12</text>
+    <text x="466" y="215">Chunk 47</text>
+    <text x="466" y="269">Chunk 3</text>
+  </g>
+  <g fill="#DCDCDC">
+    <rect x="466" y="171" width="96" height="6" rx="3"/>
+    <rect x="466" y="225" width="108" height="6" rx="3"/>
+    <rect x="466" y="279" width="84" height="6" rx="3"/>
+  </g>
+  <text x="521" y="330" font-size="20" font-weight="700" fill="#555555" text-anchor="middle">+</text>
+  <rect x="452" y="352" width="138" height="46" rx="10" fill="#FFFFFF" stroke="#CC4141" stroke-width="2"/>
+  <circle cx="474" cy="375" r="11" fill="#CC4141"/>
+  <text x="474" y="380" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">?</text>
+  <text x="492" y="380" font-size="15" font-weight="700" fill="#333333">Question</text>
+
+  <!-- The question also goes into the prompt -->
+  <path d="M105,283 V375 H448" fill="none" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- To the model -->
+  <line x1="608" y1="253" x2="656" y2="253" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="660" y="208" width="100" height="90" rx="14" fill="#CC4141"/>
+  <text x="710" y="262" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LLM</text>
+</svg>

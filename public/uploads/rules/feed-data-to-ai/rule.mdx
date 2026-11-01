@@ -23,7 +23,7 @@ related:
 redirects:
   - get-data-to-your-ai
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
-seoDescription: 'Long context, RAG, agentic search or precomputed context - the best way to feed your data to AI, what each one costs you, and why RAG is not dead.'
+seoDescription: 'Long context, RAG, agentic search, precomputed context or knowledge graphs - the best way to feed your data to AI, what each costs and why RAG is not dead'
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
@@ -47,29 +47,49 @@ The brute-force approach requires the least infrastructure.
 
 If all the material needed to answer a question fits inside the context window, put it straight into the prompt.
 
+<imageEmbed
+  alt="Long context: three whole documents - security requirements, release notes and a design spec - sit inside the prompt with the question, and the whole prompt goes to the LLM on every request"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Long context - the model sees every document in full, and every request pays for all of it"
+  src="/uploads/rules/feed-data-to-ai/feed-data-long-context.svg"
+/>
+
 This can be useful when the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full, because the answer is the gap between them.
 
-There are caveats. Position matters: models can miss information [in the middle](https://arxiv.org/abs/2307.03172) of the context and struggle in [multi-hop conversations](https://arxiv.org/abs/2601.12499).
+There are caveats. You pay for every token on every request, in money and latency. Position matters too: models can miss information [in the middle](https://arxiv.org/abs/2307.03172) of the context and struggle in [multi-hop conversations](https://arxiv.org/abs/2601.12499).
 
 ### Prompt caching - Making long context economical
 
 Prompt caching can make long context cheaper. Caching keys on how a prompt *starts*, not the whole prompt. Put the documents at the front and the user's question at the end. Requests with the same document prefix can reuse the cached copy at a fraction of the price, even when the question changes. Check your provider and model first - the minimum cacheable size, cache lifetime and discount all differ. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
 
-That discount can make putting a whole corpus into every request affordable, so prompt order matters.
+Caching cuts cost and latency, not the caveats above. The model still has to find the answer in everything you send.
+
+[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605), from Chan et al.'s *Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks*, preloads the whole knowledge base into context, caches it and answers without retrieval. The knowledge base must fit. That is long context plus prompt caching.
 
 ## Option B: Retrieval-Augmented Generation (RAG)
 
 RAG means retrieving the relevant material first and passing only that to the model. Retrieval can use keywords, structured queries, graphs, vector similarity or a mix; vector search over embeddings is the most common.
 
+<imageEmbed
+  alt="Vector RAG: the question searches a vector database that was indexed ahead of time, the top-k closest chunks go into the prompt with the question, and the prompt goes to the LLM"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Vector RAG - the model only sees the chunks that scored closest to the question"
+  src="/uploads/rules/feed-data-to-ai/feed-data-rag.svg"
+/>
+
 Best for large collections of unstructured text: support docs, PDFs, policies and transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
-**Is RAG dead?** As the **default pipeline** (chunk, embed, retrieve the top matches, then stuff the prompt), RAG is no longer an obvious choice. As a **capability**, it remains an important part of AI solution architecture. Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
+**Is RAG dead?** As the **default pipeline** (chunk, embed, retrieve the top matches, then stuff the prompt), it is no longer an obvious choice. As a **capability**, it is very much alive: Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
 
 ## Option C: Agentic search
 
-Give an agent tools like `grep` or a query API and let it search, inspect the results and decide what to search next.
+Give an agent tools like `grep`, a search API or read-only SQL access, and let it search, inspect the results and decide what to search next.
 
-This works well when the first results reveal a need for more detail or a different query - much as a person would refine a search.
+This works well when the first results reveal a need for more detail or a different query - much as a person would refine a search. If the data already lives in a database, SQL is often the most direct tool: joins return exact answers that similarity search can only approximate.
 
 There's no separate index to keep in sync, provided the tools read the live source rather than a snapshot or cache.
 
@@ -81,6 +101,15 @@ The agent chooses its searches at query time and can use any of the same retriev
 
 When you run the same task over different inputs, do the expensive reading and reasoning once, before requests arrive. Save the result as part of the task's prompt: a distilled brief, checklist, worked examples or extracted facts. Each run starts from that preparation instead of reading the raw sources again.
 
+<imageEmbed
+  alt="Precompute: once, ahead of time, an agent researches the regulations and writes a brief; every run then sends the same brief as a cached prefix, plus one customer's documents, to the LLM"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Precompute - research once, then every run starts from the same brief"
+  src="/uploads/rules/feed-data-to-ai/feed-data-precompute.svg"
+/>
+
 The pattern goes by a few names:
 
 * [Sleep-time compute](https://arxiv.org/abs/2504.13171) (Lin et al., 2025) - The model reasons over the context before queries arrive. Sharing that work across several related queries about the same context cut the average cost per query by about 2.5×, with gains depending on how predictable the queries are.
@@ -89,7 +118,7 @@ The pattern goes by a few names:
 
 This pays off when you have many runs, predictable questions and research that costs more than a single run. The brief goes stale when its sources change. Define when to repeat the research and recompile it, then compare versions with evals before replacing it. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
 
-As Option A's caching subsection explains, caching keys on how the prompt starts. Put the precomputed brief in the shared prefix to qualify for the cache discount, with per-customer and per-run input after it.
+Precompute saves the reading and reasoning; prompt caching only saves reprocessing an identical prefix. Combine them: put the brief in the cached prefix, with per-customer and per-run input after it.
 
 <boxEmbed
   style="greybox"
@@ -104,43 +133,138 @@ As Option A's caching subsection explains, caching keys on how the prompt starts
 
 To improve the brief from feedback over time, see [Do you let your prompts learn from feedback?](/let-prompts-learn-from-feedback).
 
-## What about CAG and KAG?
+## Option E: Knowledge graphs
 
-[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605), from Chan et al.'s *Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks*, preloads the whole knowledge base into context, caches it and answers without retrieval. The knowledge base must fit. That is Option A plus prompt caching.
+A knowledge graph stores your data as entities and the relationships between them. Each node can hold a structured summary of one entity, such as a person or a company, with links to related nodes and to the source documents behind it. Instead of isolated chunks of text, the model sees how the facts connect.
 
-[KAG (knowledge augmented generation)](https://arxiv.org/abs/2409.13731), from the OpenSPG project and used in Ant Group's Q&A services, combines a knowledge graph with vector retrieval so the model can reason over entities and relationships. That is Option B with graph-based retrieval and reasoning.
+<imageEmbed
+  alt="Knowledge graph using Northwind data: the Customer node for Alfreds Futterkiste summarises the customer (Berlin, Germany; contact Maria Anders) and links to its source documents and contact. The question follows the path Customer, Orders, a discontinued Product, Supplier and Country Germany, and the path plus its sources go to the LLM"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Knowledge graph - the question follows the links, and the path shows where each fact came from"
+  src="/uploads/rules/feed-data-to-ai/feed-data-knowledge-graph.svg"
+/>
 
-Consider a graph when answers join facts scattered across documents (multi-hop questions). Be prepared to extract entities and merge duplicates such as "Northwind Traders" and "Northwind", which costs LLM calls on every write. See [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems).
+Graph retrieval is a form of RAG, not a rival to it. You can traverse the graph on its own or combine it with vector search, then pass the connected facts and their sources to the model.
 
-Most RAG vs CAG vs KAG comparisons leave out Options C and D.
+### When does a graph beat vector RAG?
+
+* **Multi-hop questions** - The answer joins facts that no single chunk contains
+* **Relationships between entities** - Who bought what, from whom and where, rather than which text sounds similar
+* **Explainability** - You can show the path and the sources behind each answer
+
+For example, take [Northwind](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs), Microsoft's sample database for a fictional food trader. Imagine its customers, orders, products and suppliers are described across emails, contracts and notes, and you ask: "Which customers bought products from suppliers in Germany that were since discontinued?"
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Vector search returns the chunks that sound most like the question. They might include supplier notes that mention Germany, a notice about discontinued products and the customer record for Alfreds Futterkiste, because its address is in Berlin, Germany.
+
+    No single chunk says which customer bought which product from which supplier, so the model has to guess the joins. It can miss customers, or include ones whose only link to Germany is their own address.
+  </>}
+  figurePrefix="bad"
+  figure="Vector RAG matches 'Germany' and 'discontinued', not the relationships between them"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The graph follows the relationships instead:
+
+    **Customer** → placed → **Order** → contains → **Product** (discontinued) → supplied by → **Supplier** → located in → **Country** (Germany)
+
+    Each customer in the answer comes with its path and links to the source documents, so you can check why it is there.
+  </>}
+  figurePrefix="good"
+  figure="The graph traverses Customer → Order → Product → Supplier → Country and keeps the sources"
+/>
+
+### What about GraphRAG and KAG?
+
+[Microsoft GraphRAG](https://microsoft.github.io/graphrag/) builds the graph for you. An LLM extracts entities and relationships from raw text, groups related entities into communities and summarises each community ahead of time ([Edge et al., 2024](https://arxiv.org/abs/2404.16130)). Those summaries help with global questions about a whole corpus, such as "What are the main themes in the dataset?", where standard RAG struggles. That is a different job from following one customer's relationships.
+
+[KAG (knowledge augmented generation)](https://arxiv.org/abs/2409.13731), from the OpenSPG project and used in Ant Group's Q&A services, combines a knowledge graph with vector retrieval so the model can reason over entities and relationships.
+
+### What does a graph cost?
+
+* **Extraction** - LLM calls on every write to find entities and relationships
+* **Entity resolution** - "Alfreds Futterkiste" and "Alfreds F." must merge into one node, not two
+* **Schema design** - Deciding which entities and relationships matter before you extract them
+* **Synchronisation** - Updating the graph whenever its sources change
+
+A visible path makes an answer easier to check, but it doesn't make it correct.
+
+If your data is already relational, you might not need a graph. Northwind itself is a SQL database, so an agent that writes SQL (Option C) can join Customers, Orders, Order Details, Products and Suppliers directly. Graphs pay off when the relationships are spread across unstructured text such as emails, contracts and notes.
+
+For graphs as agent memory, see [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems#knowledge-graphs).
 
 ## Which should I use?
 
-These building blocks can be combined.
+These building blocks can be combined. Most RAG vs CAG vs KAG comparisons leave out agentic search and precompute.
 
 Pick a base option first. Three questions settle most cases:
 
-1. Does the corpus fit with room to spare?
-2. Does the answer need all of it at once?
-3. Do the same documents appear in every request?
+1. **Does the corpus fit with room to spare?** If not, use agentic search for live, structured or exact-match data, and RAG for the rest.
+2. **Does the answer need all of it at once?** If so, use long context.
+3. **Do the same documents appear in every request?** If so, use long context. If not, use RAG.
 
 Then add the layers you need:
 
 * **Prompt caching** - when every request starts the same way (CAG)
-* **Knowledge graph** - when answers join facts across many documents (KAG)
+* **Knowledge graph** - when answers follow links between entities (Option E)
 * **Precomputed brief** - when the same task runs many times (Option D)
 * **[Evolving playbook](/let-prompts-learn-from-feedback)** - when the same corrections keep coming back
 
-<imageEmbed
-  alt="Two-step diagram: a decision tree that picks agentic search, RAG or long context, then four add-on layers - prompt caching, knowledge graph, precompute once and evolving playbook"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Decision AI Tree – pick a base option, then add the layers you need"
-  src="/uploads/rules/feed-data-to-ai/data-access-decision-tree-v4.svg"
-/>
+```mermaid
+---
+config:
+  fontFamily: "Inter, Segoe UI, Helvetica, Arial, sans-serif"
+  flowchart:
+    rankSpacing: 30
+    nodeSpacing: 30
+    padding: 14
+---
+flowchart TD
+    accTitle: Data-access decision tree
+    accDescr: Step 1 picks a base option. If the corpus does not fit with room to spare, use agentic search for live, structured or exact-match data, otherwise RAG. If it fits and the answer needs all of it at once, or the same documents appear in every request, use long context, otherwise RAG. Step 2 adds prompt caching, a knowledge graph, a precomputed brief or an evolving playbook as needed.
 
-### Using the Decision AI Tree
+    subgraph Base["<b>1. Pick a base option</b>"]
+        direction LR
+        Q1{"Fits with room<br>to spare?"}
+        Q1 -->|No| Q4{"Live, structured or<br>exact-match data?"}
+        Q1 -->|Yes| Q2{"Needs all of<br>it at once?"}
+        Q4 -->|Yes| AS("<b>Agentic search</b>")
+        Q4 -->|No| RAG("<b>RAG</b>")
+        Q2 -->|No| Q3{"Same documents<br>every request?"}
+        Q2 -->|Yes| LC("<b>Long context</b>")
+        Q3 -->|No| RAG
+        Q3 -->|Yes| LC
+    end
+
+    subgraph Layers["<b>2. Add the layers you need</b>"]
+        direction TB
+        L1("<b>+ Prompt caching</b><br>Every request starts<br>the same way")
+        L2("<b>+ Knowledge graph</b><br>Answers follow links<br>between entities")
+        L3("<b>+ Precomputed brief</b><br>Same task runs<br>many times")
+        L4("<b>+ Evolving playbook</b><br>Same corrections<br>keep coming back")
+    end
+
+    Base --> Layers
+
+    classDef question fill:#ffffff,stroke:#333333,stroke-width:1.5px,color:#333333
+    classDef outcome fill:#cc4141,stroke:#cc4141,color:#ffffff
+    classDef layer fill:#ffffff,stroke:#cc4141,stroke-width:1.5px,stroke-dasharray:5 3,color:#333333
+    class Q1,Q2,Q3,Q4 question
+    class AS,RAG,LC outcome
+    class L1,L2,L3,L4 layer
+    style Base fill:#f5f5f5,stroke:#dddddd,color:#333333
+    style Layers fill:#f5f5f5,stroke:#dddddd,color:#333333
+```
+
+**Figure: Choose data access, then add the layers your task needs**
+
+### Using the data-access decision tree
 
 <boxEmbed
   style="greybox"

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="title">Long context: every document goes into the prompt</title>
+  <desc id="desc">Three whole documents - security requirements, release notes and a design spec - sit inside the prompt together with the question "Which requirements missed the release?". The whole prompt goes to the LLM on every request.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <rect data-bg="1" width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="40" y="30" width="5" height="26" rx="2" fill="#CC4141"/>
+  <text x="56" y="51" font-size="22" font-weight="700" fill="#333333">Long context</text>
+
+  <!-- Prompt -->
+  <rect x="40" y="80" width="490" height="346" rx="14" fill="#F5F5F5" stroke="#D6D6D6" stroke-width="1.5"/>
+  <text x="62" y="113" font-size="17" font-weight="700" fill="#333333">Prompt</text>
+
+  <!-- Whole documents -->
+  <g stroke="#333333" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M62,128 H182 L202,148 V324 H62 Z" fill="#FFFFFF"/>
+    <path d="M182,128 V148 H202" fill="#E6E6E6"/>
+    <path d="M214,128 H334 L354,148 V324 H214 Z" fill="#FFFFFF"/>
+    <path d="M334,128 V148 H354" fill="#E6E6E6"/>
+    <path d="M366,128 H486 L506,148 V324 H366 Z" fill="#FFFFFF"/>
+    <path d="M486,128 V148 H506" fill="#E6E6E6"/>
+  </g>
+  <g font-size="16" font-weight="700" fill="#333333">
+    <text x="78" y="164">Security</text>
+    <text x="78" y="184">requirements</text>
+    <text x="230" y="164">Release</text>
+    <text x="230" y="184">notes</text>
+    <text x="382" y="164">Design</text>
+    <text x="382" y="184">spec</text>
+  </g>
+  <g fill="#DCDCDC">
+    <rect x="78" y="202" width="108" height="6" rx="3"/>
+    <rect x="78" y="218" width="96" height="6" rx="3"/>
+    <rect x="78" y="234" width="108" height="6" rx="3"/>
+    <rect x="78" y="250" width="80" height="6" rx="3"/>
+    <rect x="78" y="266" width="108" height="6" rx="3"/>
+    <rect x="78" y="282" width="92" height="6" rx="3"/>
+    <rect x="78" y="298" width="64" height="6" rx="3"/>
+    <rect x="230" y="202" width="108" height="6" rx="3"/>
+    <rect x="230" y="218" width="88" height="6" rx="3"/>
+    <rect x="230" y="234" width="108" height="6" rx="3"/>
+    <rect x="230" y="250" width="100" height="6" rx="3"/>
+    <rect x="230" y="266" width="76" height="6" rx="3"/>
+    <rect x="230" y="282" width="108" height="6" rx="3"/>
+    <rect x="230" y="298" width="84" height="6" rx="3"/>
+    <rect x="382" y="202" width="100" height="6" rx="3"/>
+    <rect x="382" y="218" width="108" height="6" rx="3"/>
+    <rect x="382" y="234" width="84" height="6" rx="3"/>
+    <rect x="382" y="250" width="108" height="6" rx="3"/>
+    <rect x="382" y="266" width="96" height="6" rx="3"/>
+    <rect x="382" y="282" width="108" height="6" rx="3"/>
+    <rect x="382" y="298" width="72" height="6" rx="3"/>
+  </g>
+
+  <!-- Question -->
+  <rect x="62" y="344" width="446" height="60" rx="10" fill="#FFFFFF" stroke="#CC4141" stroke-width="2"/>
+  <circle cx="91" cy="374" r="13" fill="#CC4141"/>
+  <text x="91" y="380" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">?</text>
+  <text x="116" y="380" font-size="16" fill="#333333">Which requirements missed the release?</text>
+
+  <!-- To the model -->
+  <line x1="532" y1="253" x2="656" y2="253" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="594" y="224" font-size="15" fill="#555555" text-anchor="middle">All of it,</text>
+  <text x="594" y="242" font-size="15" fill="#555555" text-anchor="middle">every request</text>
+
+  <rect x="660" y="208" width="100" height="90" rx="14" fill="#CC4141"/>
+  <text x="710" y="262" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LLM</text>
+</svg>

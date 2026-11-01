@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="title">Precompute: research once, reuse the brief on every run</title>
+  <desc id="desc">Once, ahead of time, an agent researches the regulations and writes a brief: what each question asks, which evidence counts and common wrong answers. Refresh it when the rules change. Every run then sends the same brief as a cached prefix, followed by one customer's documents as new input, to the LLM.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#CC4141"/>
+    </marker>
+  </defs>
+
+  <rect data-bg="1" width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="40" y="30" width="5" height="26" rx="2" fill="#CC4141"/>
+  <text x="56" y="51" font-size="22" font-weight="700" fill="#333333">Precompute</text>
+
+  <!-- Zones -->
+  <g font-size="16" font-weight="700" fill="#555555" text-anchor="middle">
+    <text x="175" y="98">Once, ahead of time</text>
+    <text x="478" y="98">Every run</text>
+  </g>
+  <line x1="330" y1="84" x2="330" y2="420" stroke="#D6D6D6" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- Sources -->
+  <rect x="60" y="112" width="230" height="48" rx="10" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <g stroke="#333333" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M82,119 H94 L100,125 V145 H82 Z" fill="#F5F5F5"/>
+    <path d="M76,125 H88 L94,131 V151 H76 Z" fill="#FFFFFF"/>
+  </g>
+  <text x="112" y="142" font-size="16" font-weight="700" fill="#333333">Regulations</text>
+
+  <!-- Research once -->
+  <line x1="175" y1="162" x2="175" y2="186" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="187" y="180" font-size="15" fill="#555555">agent researches</text>
+
+  <!-- Brief -->
+  <path d="M60,190 H270 L290,210 V330 H60 Z" fill="#FFFFFF" stroke="#CC4141" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M270,190 V210 H290" fill="#F5F5F5" stroke="#CC4141" stroke-width="2" stroke-linejoin="round"/>
+  <text x="78" y="220" font-size="17" font-weight="700" fill="#333333">Brief</text>
+  <line x1="78" y1="232" x2="272" y2="232" stroke="#E0E0E0" stroke-width="1"/>
+  <g fill="#CC4141">
+    <circle cx="82" cy="251" r="3"/>
+    <circle cx="82" cy="275" r="3"/>
+    <circle cx="82" cy="299" r="3"/>
+  </g>
+  <g font-size="15" fill="#333333">
+    <text x="94" y="256">What it asks</text>
+    <text x="94" y="280">Evidence that counts</text>
+    <text x="94" y="304">Common wrong answers</text>
+  </g>
+  <text x="175" y="362" font-size="15" fill="#CC4141" text-anchor="middle">Refresh when the rules change</text>
+
+  <!-- Reuse the brief -->
+  <g stroke="#CC4141" stroke-width="2" marker-end="url(#arrow-red)">
+    <line x1="292" y1="260" x2="352" y2="196"/>
+    <line x1="292" y1="260" x2="352" y2="260"/>
+    <line x1="292" y1="260" x2="352" y2="324"/>
+  </g>
+
+  <!-- Runs -->
+  <g font-size="15" text-anchor="middle">
+    <text x="396" y="160" fill="#CC4141">cached prefix</text>
+    <text x="522" y="160" fill="#555555">new input</text>
+  </g>
+  <g fill="#F5F5F5" stroke="#CC4141" stroke-width="2">
+    <rect x="356" y="171" width="80" height="44" rx="8"/>
+    <rect x="356" y="238" width="80" height="44" rx="8"/>
+    <rect x="356" y="305" width="80" height="44" rx="8"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#333333" stroke-width="1.5">
+    <rect x="442" y="171" width="160" height="44" rx="8"/>
+    <rect x="442" y="238" width="160" height="44" rx="8"/>
+    <rect x="442" y="305" width="160" height="44" rx="8"/>
+  </g>
+  <g font-size="15" fill="#333333" text-anchor="middle">
+    <text x="396" y="198" font-weight="700">Brief</text>
+    <text x="396" y="265" font-weight="700">Brief</text>
+    <text x="396" y="332" font-weight="700">Brief</text>
+    <text x="522" y="198">Customer A docs</text>
+    <text x="522" y="265">Customer B docs</text>
+    <text x="522" y="332">Customer C docs</text>
+  </g>
+
+  <!-- To the model -->
+  <g stroke="#333333" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="604" y1="193" x2="656" y2="233"/>
+    <line x1="604" y1="260" x2="656" y2="253"/>
+    <line x1="604" y1="327" x2="656" y2="273"/>
+  </g>
+  <rect x="660" y="208" width="100" height="90" rx="14" fill="#CC4141"/>
+  <text x="710" y="262" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LLM</text>
+</svg>
