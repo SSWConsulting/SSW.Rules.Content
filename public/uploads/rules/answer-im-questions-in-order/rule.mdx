@@ -19,6 +19,8 @@ redirects:
 - clarity-do-you-answer-im-questions-in-order
 related:
 - rule: public/uploads/rules/separate-messages/rule.mdx
+- rule: public/uploads/rules/number-tasks-questions/rule.mdx
+- rule: public/uploads/rules/reply-done/rule.mdx
 seoDescription: Answering IM questions one by one can greatly improve signal to noise
   ratio and make communication more efficient. To do this, simply respond to each
   question separately, repeating its keywords as necessary.
@@ -95,4 +97,49 @@ I start working for Northwind next Monday.
   </>}
   figurePrefix="good"
   figure="Questions answered separately so that they can be responded to individually"
+/>
+
+## Replying to numbered tasks
+
+Reply to numbered tasks on IM with one message per task, in the sender's order. Quote the task with its number, then answer underneath: "✅ Done" with a link, or "Not done yet" with your plan. Keep the original numbers so the sender can match each answer to its task.
+
+If you send one link for task 1, the sender can't tell whether you saw task 2.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **- Gary:**
+
+1. Send me a 1 page PowerPoint on how you used AI last month
+2. When you and Bob have both done it, give me a call
+
+**- Dave:**
+northwind.com/ai-deck.pptx
+  </>}
+  figurePrefix="bad"
+  figure="Only task 1 is answered, so Gary doesn't know if Dave saw task 2"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **- Gary:**
+
+1. Send me a 1 page PowerPoint on how you used AI last month
+2. When you and Bob have both done it, give me a call
+
+**- Dave:**
+
+&gt; 1. Send me a 1 page PowerPoint on how you used AI last month
+
+✅ Done - northwind.com/ai-deck.pptx
+
+**- Dave:**
+
+&gt; 2. When you and Bob have both done it, give me a call
+
+Not done yet - I'll call you once Bob's deck is in
+  </>}
+  figurePrefix="good"
+  figure="Each task gets its own message, quoted with its number and answered underneath"
 />
