@@ -1,0 +1,89 @@
+---
+type: rule
+title: Do you use AI to help prepare your R&D?
+seoDescription: Use AI to gather R&D evidence from your repos and chat history, draft the write-up and review it - while keeping a human accountable for every claim.
+guid: 2d8247d1-3d35-4adc-a0ca-af4371bc1751
+uri: prepare-rd-with-ai
+created: 2026-11-03T22:01:34.000Z
+authors:
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/do-you-define-your-core-activities/rule.mdx
+  - rule: public/uploads/rules/know-the-three-parts-of-rd/rule.mdx
+  - rule: public/uploads/rules/do-you-record-your-failures/rule.mdx
+categories:
+  - category: categories/company-operations/rules-to-better-research-and-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+R&D reporting is slow because the evidence is scattered across commits, pull requests, issues and people's memories. It is usually pieced together months after the work, when details have been forgotten.
+
+AI agents are good at the gathering, cross-referencing and first-draft parts of this job. They are not good at deciding what is true, so a human must stay accountable for the claim.
+
+<endIntro />
+
+## 1. Gather evidence from your repos
+
+Point an agent at your repositories and have it collect, for each core activity:
+
+* Merged pull requests
+* Key commits
+* Related issues and PBIs
+* Abandoned pull requests and approaches that were not adopted. See [Do you document your failures for R&D?](/do-you-record-your-failures)
+
+Ask it to keep every PR, commit and issue link, so each statement in the write-up can be checked.
+
+## 2. Mine your AI chat history
+
+Reasoning often never reaches a commit message or PR. Point the agent at your past AI chats and coding-agent sessions to recover:
+
+* The architecture, and how it evolved
+* The decisions made, and the options you rejected and why
+* What you expected to happen (useful for the hypothesis)
+
+Many coding agents keep session transcripts on disk, so they can be searched.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    Chat history is a **lead**, not proof. Confirm each decision against a PR, issue or architecture decision record, and cite that instead.
+
+    Check transcripts for secrets and customer data before sharing them or quoting them in a claim.
+  </>}
+  figurePrefix="none"
+  figure="Use chat history to find the evidence, not as the evidence"
+/>
+
+## 3. Draft the write-up
+
+Have the agent draft each core activity in the structure the claim needs:
+
+* Description of the activity
+* Technical goals
+* Hypothesis
+* Experiments
+* Results
+* New knowledge generated
+
+Start from the core activities your team defined. See [Do you define your core activities for R&D?](/do-you-define-your-core-activities) and [Do you know the three parts of R&D work?](/know-the-three-parts-of-rd).
+
+## 4. Review it adversarially
+
+Use a separate agent, with fresh context, to check the draft against the R&D criteria and verify that every citation supports the sentence it is attached to. An agent that wrote the draft will not reliably find its own mistakes.
+
+## 5. Keep a human accountable
+
+AI must not make the claim stronger than the record supports.
+
+* **Don't invent measurements.** If a number only exists in telemetry (for example, App Insights or PostHog), list it as an outstanding evidence request and retrieve it
+* **Don't claim a hypothesis was documented in advance when it wasn't.** State the hypothesis plainly. An unticked supporting record is safer than a false tick
+* **Check the citations.** Open the links and confirm they say what the draft says they do
+* **A named person owns the final claim**
+
+## 6. Disclose AI-assisted development
+
+R&D work done with AI tools should say so. Use a consistent marker, such as a commit trailer or a footer in the PR description, so the counts can be derived accurately.
+
+Check your counts against the full source. Tooling that truncates long PR bodies can cut off the footer and understate the figure.
