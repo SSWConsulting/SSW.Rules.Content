@@ -108,6 +108,17 @@ A polished dashboard can hide the same problems:
   src="/uploads/rules/daily-development-digest/yesterday-at-northwind-digest.png"
 />
 
+When development scale is very great, e.g. several AI agents working in parallel, a timeline of the day can work alongside or instead of themed cards. Give each workstream or agent its own lane and mark merges, team decisions and exceptions, so readers see both the volume and the flow of work. People steer during working hours; agents can keep testing overnight against a test environment.
+
+<imageEmbed
+  alt="Northwind - yesterday's timeline, with the SSW logo and example data. Tiles show 27 PRs merged, 20 items delivered, 18 team decisions between 8am and 6pm, 4 issues filed overnight and 2 exceptions to discuss. Lanes for merged PRs, team decisions, Orders, Customers, Reporting, Platform, overnight agents and proposals run from 7 am to 7 am. Decisions and merges cluster at 9 am, 12 pm, 3 pm and 5 pm, a bulk export revert and a failed staging deploy are marked as exceptions, and overnight agents hunt bugs on northwind.test with no human actions"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="A timeline shows the volume and flow of a busy day: team decisions cluster in working hours, while agents keep testing overnight"
+  src="/uploads/rules/daily-development-digest/northwind-yesterdays-timeline.png"
+/>
+
 ## Generate it overnight and check it before posting
 
 Use a [scheduled agent](/cloud-ai-agents), e.g. Claude Opus 5.5, to draft the digest overnight. Feed it [PR descriptions](/write-a-good-pull-request), PBI updates, CI results and [captured UI evidence](/done-video-by-ai). Take numbers from Git and CI, never model estimates. Show unknowns as unknown.
