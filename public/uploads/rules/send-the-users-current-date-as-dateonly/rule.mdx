@@ -1,17 +1,132 @@
 ---
+type: rule
 title: Do you send the user's current date as DateOnly?
+seoDescription: When the frontend needs the user's local "today", send a DateOnly from TimeProvider.GetLocalNow() and let the backend attach the business-context timezone as a DateTimeOffset.
+guid: 0b80ab08-5080-4884-8819-65763b93e6f7
 uri: send-the-users-current-date-as-dateonly
-guid: a6990a2d-af29-4384-b45d-35e7de71b8e4
-created: 2026-11-03T21:14:15.940Z
-createdBy: Gordon Beeming
-createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-03T21:15:02.931Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: me@gordonbeeming.com
+created: 2026-11-03T21:15:00.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-datetimeoffset-and-timeprovider/rule.mdx
+  - rule: public/uploads/rules/datetime-fields-must-be-converted-to-universal-time/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+  - category: categories/software-engineering/rules-to-better-blazor.mdx
+archivedreason: null
+isArchived: false
 ---
 
-Intro
+A hero's mission is due "today". Whose today? The user in Brisbane is already on Wednesday while the API server in UTC is still on Tuesday. If the frontend sends UTC, or a full client `DateTimeOffset`, the backend has to guess which calendar day the user meant, and a mission can land on the wrong day.
 
 <endIntro />
 
-Body
+When the value you need is a calendar date as the user sees it, send that date and nothing else. Capture it with `TimeProvider.GetLocalNow()`, turn it into a `DateOnly`, and let the backend attach the business-context timezone when it stores a `DateTimeOffset`.
+
+## Why send DateOnly for "today"?
+
+* **Preserves the user's intent** - The date they see in the browser is the date that is stored, with no conversion back from UTC
+* **Keeps timezone ownership on the backend** - The client does not decide which region the mission belongs to
+* **Pairs with DateTimeOffset storage** - Once the backend knows the date and the team's region, it builds one unambiguous `DateTimeOffset` (see [Do you use DateTimeOffset and TimeProvider for the current time?](/use-datetimeoffset-and-timeprovider))
+
+## Capture the user's local date in the frontend
+
+Use an injected `TimeProvider` (not `DateTime.Now`) so the clock stays testable. `GetLocalNow()` returns the browser's local `DateTimeOffset`. Convert that to `DateOnly` before you call the API.
+
+```csharp
+public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
+{
+    public async Task StartAsync(Guid teamId)
+    {
+        // Client offset is sent to the API - the team's region may be different
+        var clientNow = timeProvider.GetLocalNow();
+        await api.StartMissionAsync(new StartMissionRequest(teamId, clientNow));
+    }
+}
+```
+
+**❌ Figure: Bad example - Sending the client's DateTimeOffset mixes the browser timezone into a business date that should use the team's region**
+
+```csharp
+public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
+{
+    public async Task StartAsync(Guid teamId)
+    {
+        var localNow = timeProvider.GetLocalNow();
+        var missionDate = new DateOnly(localNow.Year, localNow.Month, localNow.Day);
+        await api.StartMissionAsync(new StartMissionRequest(teamId, missionDate));
+    }
+}
+```
+
+**✅ Figure: Good example - DateOnly carries the calendar day the user sees, with no time or offset attached**
+
+Avoid sending UTC for a "today" value. A user whose local date has already rolled over can still be on the previous UTC date, so the mission day flips incorrectly.
+
+```csharp
+DateOnly missionDate = DateOnly.FromDateTime(timeProvider.GetUtcNow().UtcDateTime);
+```
+
+**❌ Figure: Bad example - UTC "today" is not the user's today when they are ahead of or behind UTC**
+
+## Attach the business timezone on the backend
+
+The API receives the pure date and combines it with the timezone that belongs to the business context (for example the team's region). Store the result as a `DateTimeOffset`.
+
+```csharp
+public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvider)
+{
+    public async Task Handle(StartMissionRequest request, CancellationToken ct)
+    {
+        var team = await db.Teams.SingleAsync(t => t.Id == request.TeamId, ct);
+        var region = TimeZoneInfo.FindSystemTimeZoneById(team.TimeZoneId);
+
+        var localMidnight = request.MissionDate.ToDateTime(TimeOnly.MinValue);
+        var startedAt = new DateTimeOffset(
+            localMidnight,
+            region.GetUtcOffset(localMidnight));
+
+        db.Missions.Add(new Mission
+        {
+            TeamId = team.Id,
+            StartedAt = startedAt,
+            CreatedAt = timeProvider.GetUtcNow()
+        });
+
+        await db.SaveChangesAsync(ct);
+    }
+}
+```
+
+**✅ Figure: Good example - The user's date plus the team's region becomes one DateTimeOffset the rest of the system can trust**
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** `DateOnly` is for calendar dates (birthdays, due dates, the user's "today"). Points in time still use `DateTimeOffset` from an injected `TimeProvider` - see [Do you use DateTimeOffset and TimeProvider for the current time?](/use-datetimeoffset-and-timeprovider).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Rejected approaches at a glance
+
+| Approach | Keeps user's "today" | Uses business timezone | Notes |
+| --- | --- | --- | --- |
+| Client `DateTimeOffset` | ✅ | ❌ | Browser offset may not match the team |
+| UTC `DateTime` / UTC date | ❌ | ❌ | Loses the local calendar day near midnight |
+| Client `DateOnly` + backend region | ✅ | ✅ | Frontend sends the day, backend owns the zone |
+
+## When not to use this
+
+* You need the exact instant something happened (created, expired, audited) - send and store a `DateTimeOffset` from `timeProvider.GetUtcNow()`
+* The UI is already collecting an explicit date the user typed or picked from a date picker - send that `DateOnly` as entered; you do not need `GetLocalNow()` for it
+
+## Learn more
+
+* [DateOnly struct (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/api/system.dateonly)
+* [TimeProvider class (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview)
+* [DateTimeOffset struct (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/api/system.datetimeoffset)
