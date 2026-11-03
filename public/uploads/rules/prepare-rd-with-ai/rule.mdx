@@ -78,12 +78,12 @@ Use a separate agent, with fresh context, to check the draft against the R&D cri
 AI must not make the claim stronger than the record supports.
 
 * **Don't invent measurements.** If a number only exists in telemetry (for example, App Insights or PostHog), list it as an outstanding evidence request and retrieve it
-* **Don't claim a hypothesis was documented in advance when it wasn't.** State the hypothesis plainly. An unticked supporting record is safer than a false tick
+* **Don't claim a hypothesis was documented in advance when it wasn't.** State the hypothesis plainly. On the claim form, leave a supporting-records box unticked if the document does not exist. An unticked box is safer than a false tick
 * **Check the citations.** Open the links and confirm they say what the draft says they do
 * **A named person owns the final claim**
 
 ## 6. Disclose AI-assisted development
 
-R&D work done with AI tools should say so. Use a consistent marker, such as a commit trailer or a footer in the PR description, so the counts can be derived accurately.
+R&D work done with AI tools should say so. Use a consistent marker, such as a commit trailer or a footer in the PR description, so the number of AI-assisted pull requests can be counted accurately.
 
-Check your counts against the full source. Tooling that truncates long PR bodies can cut off the footer and understate the figure.
+Check your counts against the full source. If your tooling truncates long PR bodies, it can cut off the footer and understate the figure.

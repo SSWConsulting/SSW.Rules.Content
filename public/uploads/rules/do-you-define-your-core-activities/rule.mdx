@@ -20,7 +20,7 @@ archivedreason: null
 isArchived: false
 ---
 
-Once a year, someone has to go through every product, find the R&D work that was done, and write it up for the tax authority. If the team never defined what it was trying to learn, that person has to reconstruct it from commits and pull requests months later. It is slow, and the story often does not hold together.
+Once a year, someone has to go through every product, find the R&D work that was done, and write it up for the R&D Tax Incentive claim. If the team never defined what it was trying to learn, that person has to reconstruct it from commits and pull requests months later. It is slow, and the story often does not hold together.
 
 <endIntro />
 
@@ -40,7 +40,7 @@ It is not a feature or a deliverable. It is a question that cannot be answered f
     **Success benchmark:** At least 90% accuracy in identifying tasks across 40 recorded calls.
   </>}
   figurePrefix="good"
-  figure="Good example - States what is being learned and a measurable way to tell if it worked"
+  figure="States what is being learned and a measurable way to tell if it worked"
 />
 
 <boxEmbed
@@ -49,7 +49,7 @@ It is not a feature or a deliverable. It is a question that cannot be answered f
     **Core activity:** Build a meeting summary feature.
   </>}
   figurePrefix="bad"
-  figure="Bad example - A deliverable with no knowledge gap and no way to judge success or failure"
+  figure="A deliverable with no knowledge gap and no way to judge success or failure"
 />
 
 ## When to define them
@@ -61,5 +61,16 @@ It is not a feature or a deliverable. It is a question that cannot be answered f
 ## Where to record them
 
 Keep core activities somewhere the whole team can find them (for example, the team's wiki or repository), and link each experiment's PBI to its core activity. See [Do you record your research under the PBI?](/do-you-record-your-research-under-the-pbi).
+
+A GitHub Epic works well as the core activity. Link the spike and implementation plan from the Epic, and keep every PBI as a sub-issue underneath it.
+
+<imageEmbed
+  alt="A closed GitHub Epic for multi-repo support, linking its spike, implementation plan and a table of sub-issues (PBIs) grouped by slice"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="A GitHub Epic is the core activity, with the spike, implementation plan and every sub-issue (PBI) linked beneath it"
+  src="/uploads/rules/do-you-define-your-core-activities/github-epic-as-core-activity.png"
+/>
 
 When the yearly R&D report is written, the writer can then start from your list instead of starting from scratch.
