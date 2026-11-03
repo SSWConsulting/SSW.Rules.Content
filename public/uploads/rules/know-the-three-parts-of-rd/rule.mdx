@@ -1,0 +1,69 @@
+---
+type: rule
+title: Do you know the three parts of R&D work?
+seoDescription: R&D work has three parts - core activities, experiments and supporting activities. Learn how each fits together so your work is easy to report.
+guid: 99b42617-6083-48ab-91bc-7c32ac4c5d5f
+uri: know-the-three-parts-of-rd
+created: 2026-11-03T22:01:34.000Z
+authors:
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/do-you-define-your-core-activities/rule.mdx
+  - rule: public/uploads/rules/make-rd-experiment-outcomes-measurable/rule.mdx
+  - rule: public/uploads/rules/spike-vs-poc/rule.mdx
+categories:
+  - category: categories/company-operations/rules-to-better-research-and-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Many developers only meet R&D as a section in the sprint review email, and never learn how their day-to-day work becomes part of an R&D claim. When work is not recognised as R&D at the time, the evidence is thin or missing when the report is written.
+
+<endIntro />
+
+Every piece of R&D work fits into one of three parts.
+
+## 1. Core activity
+
+The question the team is trying to answer, and how it will know whether it succeeded. See [Do you define your core activities for R&D?](/do-you-define-your-core-activities).
+
+## 2. Experiments
+
+An experiment is an attempt to do the thing the core activity set out to do. Experiments can be broken down in many ways.
+
+Example core activity: *Establish whether AI can identify tasks discussed in video calls.*
+
+* **Experiment 1:** Give the same call transcript to several LLMs and compare each result with the tasks you expected
+* **Experiment 2:** Repeat the test with a non-English call, such as one recorded by an overseas office, and compare the results
+
+Each experiment needs a measurable outcome. See [Do you make your R&D experiment outcomes measurable?](/make-rd-experiment-outcomes-measurable).
+
+## 3. Supporting activities
+
+Supporting activities are the work that makes the core activity possible. It is not the experiment itself, but it exists to support it.
+
+Common examples:
+
+* Research - how others run similar experiments, and what your benchmark should be
+* Spikes - see [Do you know when to use the term SPIKE (Agile) or PoC (proof of concept)?](/spike-vs-poc)
+* Documentation - on how to use the feature you are building or testing, and on the outcomes
+* Testing - manual testing and unit tests that help show whether the core activity worked
+
+## How the parts fit together
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Core activity**
+    * **Experiment** - one attempt to answer the question
+    * **Experiment** - another attempt, using a different approach or input
+    * **Supporting activity** - research, spikes, documentation or testing that helps the experiments
+  </>}
+  figurePrefix="none"
+  figure="Each core activity has experiments and supporting activities underneath it"
+/>
+
+When you create a PBI, link it to the right core activity and say whether it is an experiment or a supporting activity. See [Do you link commits, branches, and PRs to a PBI?](/do-you-link-your-commits-to-a-pbi).
