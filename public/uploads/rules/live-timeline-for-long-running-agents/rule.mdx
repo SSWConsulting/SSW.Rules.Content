@@ -1,0 +1,102 @@
+---
+type: rule
+title: Do you keep a live timeline so you can steer long-running agents?
+uri: live-timeline-for-long-running-agents
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/agentic-ai/rule.mdx
+  - rule: public/uploads/rules/ai-agent-session-messaging/rule.mdx
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+guid: 67ede866-b995-4b25-8bef-b473e3d1f163
+seoDescription: For multi-day, multi-agent work, let a cheap read-only observer agent keep a live timeline of big events so you can see progress at a glance and redirect early.
+created: 2026-11-05T00:00:00.000Z
+archivedreason: null
+isArchived: false
+---
+
+When agents work for days on something big, like upgrading Northwind from .NET Framework 4.8 to .NET 10, nobody reads every log. You find out too late that one agent spent 6 hours going in circles.
+
+Give a cheap model one job: watch the working agents and keep a live timeline of the big events, like a biography of the project. Glance at it whenever you want to know where things are, and redirect the work as soon as it drifts.
+
+<endIntro />
+
+## Raw logs don't tell you the story
+
+Each agent produces thousands of lines of tool calls, build output and reasoning. The facts are all there, but you can't see the shape of the work: which phase you are in, what failed three times, and what needs your decision.
+
+<imageEmbed
+  alt="Terminal showing thousands of lines of agent tool calls, build errors and retries for the Northwind upgrade"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="A wall of raw agent logs hides the fact that the Web agent is stuck in a loop"
+  src="/uploads/rules/live-timeline-for-long-running-agents/raw-agent-logs-wall.png"
+/>
+
+## Let an observer agent write the timeline
+
+Add one more agent whose only job is to observe:
+
+1. It reads what the working agents produce: logs, commits, PRs, test results and spend
+2. Every few minutes, it turns what changed into events and appends them to a data file (e.g. `events.json`)
+3. A simple static page renders the file and refreshes itself
+
+The observer is **read-only**. It never edits code, never messages the working agents and never makes decisions.
+
+## What a good timeline shows
+
+* **Chapters** - The phases of the work, each with a one-line summary
+* **Big events** - Starts, successes, failures, breakthroughs and your decisions, each with a summary and a "why it matters"
+* **Details on click** - Expand an event to see the evidence, numbers and links
+* **Lanes** - One row per agent, plus one for you, with a **NOW** line
+* **Spend vs budget** - Including what the observer costs
+* **Live indicator** - So you know when the timeline itself has gone stale
+
+<imageEmbed
+  alt="Northwind .NET 10 upgrade live timeline with SSW branding, agent lanes, a NOW line, spend vs budget, chapter cards and an expanded nudge event"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The timeline shows the repeated failures, the nudge that fixed them, and the next breakthrough"
+  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-live-upgrade-timeline.png"
+/>
+
+## Steer with nudges
+
+The timeline is for steering, not just watching:
+
+1. **Check** - Look at the timeline when it suits you, not when an agent finishes
+2. **Spot drift** - Repeated failures, an agent working outside its scope, or a spend spike
+3. **Nudge** - Tell the right agent what to do instead (see [AI agent session messaging](/ai-agent-session-messaging))
+4. **Log it** - Your nudge becomes an event, so everyone can see why the direction changed
+
+In the Northwind example, the Web agent failed three times to rewrite the old reports. Instead of letting it burn another day, you told it to keep the reports on .NET Framework 4.8 behind YARP and move on to Orders.
+
+## Keep the observer cheap
+
+Watching and summarising is easy work. Use a small, fast model for the observer, and save the expensive models for the agents doing the upgrade.
+
+Only send it what changed since its last update. A well-built observer should cost a few percent of the total spend.
+
+## When to use it
+
+✅ Multi-day or multi-agent work, e.g. framework upgrades, large migrations and long research runs
+
+✅ Work where a wrong direction is expensive and hard to see from the outside
+
+❌ Tasks under an hour, or a single agent you are already watching - the chat is enough
+
+**Note:** For a team shipping many changes a day, a daily digest works better than a live timeline. They are siblings: the digest summarises yesterday for the team, the timeline follows one big task as it happens.
+
+## Tips
+
+* **Use importance levels** - Rank events (e.g. 1-3) and only show the top levels by default, otherwise the timeline becomes another log
+* **Strip secrets** - The observer must never copy keys, connection strings or customer data into events
+* **Keep it private** - Host the page on a private network or behind sign-in, not on a public URL
+* **Make it boring to build** - A JSON file and a static HTML page are enough; you don't need a dashboard product
+
+See [agentic AI](/agentic-ai) and [when to use skills, agents, subagents, MCPs and plugins](/when-to-use-skills-agents-subagents-mcps-plugins) for how to structure the agents themselves.
