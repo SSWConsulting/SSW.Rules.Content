@@ -36,10 +36,39 @@ When a pull request is left open for a long time, it becomes stale and accumulat
 
 Merge debt can be avoided by:
 
-* Ensuring PRs don't stay open for too long - you could use [SSW Dory](https://www.sswdory.com) to automatically inform you of any outstanding PRs
+* Ensuring PRs don't stay open for too long
 * Conducting daily reviews on repos to ensure all PRs that can be merged are merged
 * Ensuring that once a PR is ready to be merged, an ["over the shoulder" review](/over-the-shoulder) occurs
-* Following the Single Responsibility Principle (SRP) - if a PR covers multiple tasks, it is harder to review and can create more problems
+* Following the Single Responsibility Principle (SRP), because a PR that covers multiple tasks is harder to review and can create more problems
+
+<imageEmbed
+  alt="Azure DevOps Active pull requests list with many draft PRs last updated weeks or months ago, and one from June 2025 showing merge conflicts"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Draft PRs left open for months pile up merge debt, and the oldest one already has conflicts"
+  src="/uploads/rules/merge-debt/stale-pull-requests.png"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** [SSW Dory](https://www.sswdory.com) emails the people responsible when a PR stays open too long.
+
+    **Note:** SSW Dory only supports GitHub pull requests.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="todo"
+  body={<>
+    **TODO:** Add Azure DevOps support to SSW Dory.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ## Internal contributors
 
@@ -60,7 +89,7 @@ If you are in a team (i.e. an internal contributor) it is the PR author's respon
 <boxEmbed
   style="info"
   body={<>
-    **Note:** If are a PR author and you don't have merge permissions, add a comment to the description, so Repo maintainers can action.
+    **Note:** If you are a PR author and you don't have merge permissions, add a comment to the description, so Repo maintainers can action.
   </>}
   figurePrefix="none"
   figure=""
