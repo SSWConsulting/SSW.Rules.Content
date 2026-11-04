@@ -1,17 +1,201 @@
 ---
+type: rule
 title: Do you compress large JSON documents and keep them off busy temporal tables?
+seoDescription: Gzip-compress whole JSON documents into varbinary(max) with a shared EF Core ValueConverter, and move large JSON off busy temporal rows so history does not balloon when other columns change.
+guid: 48a5d575-b22a-408a-be2e-6ab39fba23e2
 uri: compress-large-json-in-temporal-tables
-guid: d1ea63da-0563-480a-8280-a94516d716bb
-created: 2026-11-04T21:11:54.805Z
+created: 2026-11-04T21:09:36.000Z
 createdBy: Gordon Beeming
 createdByEmail: me@gordonbeeming.com
 lastUpdated: 2026-11-04T21:12:15.872Z
 lastUpdatedBy: Gordon Beeming
 lastUpdatedByEmail: me@gordonbeeming.com
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/use-temporal-tables-to-audit-data-changes/rule.mdx
+  - rule: public/uploads/rules/sqlperf-reduce-table-size/rule.mdx
+  - rule: public/uploads/rules/sqlperf-minimise-large-writes/rule.mdx
+  - rule: public/uploads/rules/use-code-migrations/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+  - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+archivedreason: null
+isArchived: false
 ---
 
-Intro
+SQL Server temporal tables copy the **whole row** into history on every update. A large JSON document sitting on a busy row (mission briefing, workflow payload, form answers — often tens of KB of `nvarchar(max)`) gets rewritten into history even when the JSON did not change. That can grow history by tens of GB a month and fill the data file, while the live table itself still looks fine.
 
 <endIntro />
 
-Body
+Treat large JSON as a document, not as another column on a hot temporal row. Compress it, and when other fields on the parent change often, move it to its own 1:1 table. See [Do you use temporal tables to audit data changes?](/use-temporal-tables-to-audit-data-changes) and [Do you keep database tables small?](/sqlperf-reduce-table-size).
+
+## Why this matters
+
+* **History multiplies every byte** - An unchanged 40 KB JSON on a row updated 10 times a day becomes ~12 MB of history per month for that one row alone
+* **Writes get slower** - Larger rows mean more page splits, more log, and more I/O on every update (see [Do you avoid large database writes?](/sqlperf-minimise-large-writes))
+* **Compression is cheap** - Gzip of whole JSON documents commonly shrinks them to about a twelfth of the original size, and the app can share one converter everywhere
+
+## 1. Store JSON compressed as gzip in varbinary(max)
+
+Keep the document as a string in the domain model. Persist it as `varbinary(max)` through a shared EF Core `ValueConverter` that gzip-compresses on the way in and decompresses on the way out.
+
+Encode the text as **UTF-16LE** before gzip so the bytes interoperate with SQL Server `COMPRESS()` / `DECOMPRESS()` on `nvarchar`. The app and T-SQL can each read what the other wrote.
+
+```csharp
+public class HeroMission
+{
+    public Guid Id { get; private set; }
+    public Guid TeamId { get; private set; }
+    public MissionStatus Status { get; private set; }
+
+    // Tens of KB of briefing JSON rewritten into history on every Status change
+    public string BriefingJson { get; private set; } = string.Empty;
+}
+```
+
+**❌ Figure: Bad example - Plain nvarchar(max) briefing on a temporal HeroMission row is copied into history whenever Status changes**
+
+```csharp
+public sealed class CompressedJsonConverter : ValueConverter<string, byte[]>
+{
+    public CompressedJsonConverter()
+        : base(
+            plain => Compress(plain),
+            bytes => Decompress(bytes))
+    {
+    }
+
+    private static byte[] Compress(string value)
+    {
+        // UTF-16LE matches SQL Server COMPRESS() on nvarchar
+        var utf16 = Encoding.Unicode.GetBytes(value);
+        using var output = new MemoryStream();
+        using (var gzip = new GZipStream(output, CompressionLevel.SmallestSize))
+        {
+            gzip.Write(utf16);
+        }
+        return output.ToArray();
+    }
+
+    private static string Decompress(byte[] value)
+    {
+        using var input = new MemoryStream(value);
+        using var gzip = new GZipStream(input, CompressionMode.Decompress);
+        using var reader = new StreamReader(gzip, Encoding.Unicode);
+        return reader.ReadToEnd();
+    }
+}
+
+// In OnModelCreating:
+builder.Entity<MissionBriefingDocument>()
+    .Property(x => x.BriefingJson)
+    .HasConversion<CompressedJsonConverter>()
+    .HasColumnType("varbinary(max)");
+```
+
+**✅ Figure: Good example - A shared ValueConverter stores the document as gzip varbinary(max) and stays compatible with SQL COMPRESS/DECOMPRESS**
+
+Read compressed values in T-SQL with:
+
+```sql
+SELECT CAST(DECOMPRESS(BriefingJson) AS nvarchar(max)) AS BriefingJson
+FROM dbo.MissionBriefingDocument;
+```
+
+**✅ Figure: Good example - T-SQL decompresses the same bytes the EF converter wrote**
+
+Keep plain `nvarchar` only when SQL must query the JSON itself — EF primitive collections / `OPENJSON`, CDC columns, `ISJSON` constraints, or framework payloads such as outbox, Hangfire, or Identity grants.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Compress the whole document. Per-property or columnstore tricks do not help when the problem is an unchanged nvarchar(max) being copied into temporal history on every parent update.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## 2. Move large JSON to its own 1:1 table when the parent is busy
+
+Compression alone is not enough if other columns on the parent change constantly. Every parent update still writes a new history row that includes the (now smaller) blob. Split the document out.
+
+| Document kind | Pattern | Why |
+| --- | --- | --- |
+| Authored / set-up-front JSON that is part of the audit record (briefing, submitted answers) | Own **temporal** 1:1 table | History only when the JSON itself changes |
+| Transient runtime state rewritten constantly (progress, scratch, last-run payload) | **Non-temporal** 1:1 table | Latest value only — no history to balloon |
+
+```csharp
+// Temporal parent - updated often as the mission runs
+public class HeroMission
+{
+    public Guid Id { get; private set; }
+    public Guid TeamId { get; private set; }
+    public MissionStatus Status { get; private set; }
+    public MissionBriefingDocument? Briefing { get; private set; }
+}
+
+// Temporal 1:1 - history only when the briefing document changes
+public class MissionBriefingDocument
+{
+    public Guid HeroMissionId { get; private set; }
+    public string BriefingJson { get; private set; } = string.Empty;
+}
+```
+
+**✅ Figure: Good example - Authored briefing lives on its own temporal 1:1 table, so Status changes on HeroMission do not rewrite the document into history**
+
+```csharp
+// Non-temporal 1:1 - rewritten on every progress tick, no history needed
+public class MissionRuntimeState
+{
+    public Guid HeroMissionId { get; private set; }
+    public string ProgressJson { get; private set; } = string.Empty;
+}
+```
+
+**✅ Figure: Good example - Transient runtime JSON stays off temporal history entirely**
+
+## 3. Reclaim space without deleting authored history
+
+After you migrate:
+
+* **Do not drop** history of authored content — that history is the audit record
+* Compressible copies that can be rebuilt (for example a denormalised cache of the same document) may be dropped once the new column or table is verified
+* Shrinking files is a separate ops step; stopping the growth comes from the schema change above
+
+## Migrate with expand / contract
+
+Do not flip the column type in place on a large table. Use an expand/contract migration (see [Do you know to use code migrations?](/use-code-migrations)):
+
+1. **Expand** - Add the new `varbinary(max)` column (or 1:1 table)
+2. **Dual-write** - App writes old and new forms
+3. **Backfill** - Batch-update existing rows (SQL `COMPRESS` or the same converter)
+4. **Contract** - Switch reads to the new form, then drop the old column
+
+```sql
+-- Backfill example using SQL Server COMPRESS (UTF-16LE for nvarchar)
+UPDATE dbo.MissionBriefingDocument
+SET BriefingJsonCompressed = COMPRESS(BriefingJson)
+WHERE BriefingJsonCompressed IS NULL;
+```
+
+**✅ Figure: Good example - SQL COMPRESS backfills the new column with bytes the EF converter can decompress**
+
+## Rejected options
+
+| Option | Why not |
+| --- | --- |
+| Move JSON to blob storage | Adds another system, weakens transactional consistency with the row, and complicates point-in-time restore with temporal history |
+| Turn temporal off on the parent | Loses the audit trail you added temporal for |
+| Retention-only on history | Caps growth but still rewrites large unchanged JSON on every update until retention deletes it; does not fix write cost |
+
+## When not to use this
+
+* Small JSON (a few hundred bytes) that is queried with `OPENJSON` or EF primitive collections — keep plain `nvarchar` and index what you need
+* Framework-owned payloads (outbox, Hangfire, Identity) — leave those as the framework expects
+* Documents that must be searched inside SQL — compress only after you have extracted the queryable fields into real columns
