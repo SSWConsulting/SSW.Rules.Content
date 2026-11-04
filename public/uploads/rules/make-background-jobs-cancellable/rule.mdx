@@ -21,7 +21,7 @@ seoDescription: 'Accept a CancellationToken in every background job and hosted s
 created: 2026-11-02T21:10:19.359Z
 createdBy: Gordon Beeming
 createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-04T05:56:14.303Z
+lastUpdated: 2026-11-04T05:57:23.278Z
 lastUpdatedBy: Gordon Beeming
 lastUpdatedByEmail: me@gordonbeeming.com
 isArchived: false
@@ -147,7 +147,7 @@ foreach (var chunk in heroIds.Chunk(500))
 }
 ```
 
-**✅ Figure: Good example - The check sits at the chunk boundary, so a cancelled job stops before starting the next chunk and never leaves one half-written**
+**✅ Figure: Good example - The check sits at the chunk boundary, so a cancelled job stops before starting the next chunk, and each chunk's changes are saved together by SaveChangesAsync**
 
 See [Do you bulk process in chunks?](/bulk-process-in-chunks) and [Do you scope your DbContext to the unit of work in long-running jobs?](/scope-dbcontext-in-long-running-jobs) for how to size and scope those units of work.
 
@@ -242,7 +242,7 @@ foreach (var hero in heroes)
 }
 ```
 
-**✅ Figure: Good example - Cancellation is logged as information and rethrown, so the job stops and the framework records it as cancelled, while real failures are still logged as errors**
+**✅ Figure: Good example - Cancellation is logged as information and rethrown, so the job stops and the framework knows it didn't complete, while real failures are still logged as errors**
 
 <boxEmbed
   style="tips"
