@@ -16,49 +16,55 @@ related:
   - rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
   - rule: public/uploads/rules/storyboards/rule.mdx
 guid: 7bab1402-2ab6-4cda-806a-72e4a617b7bb
-seoDescription: Make early UI mockups obviously unfinished with sketchy styling and clear labels, so people can distinguish ideas from approved designs and shipped features.
+seoDescription: When a big feature still needs UI polish, give its mockup a paper-like, hand-drawn look and a clear label so clients instantly know it is unfinished.
 created: 2026-11-04T00:00:00.000Z
 archivedreason: null
 isArchived: false
 ---
 
-AI can generate a convincing, pixel-perfect interface in minutes. That polish can make an early idea look built or approved. Stakeholders start asking when it will ship, while the team is still deciding what it should do.
+Sometimes you show a client a big feature that still needs UI polish. If it looks finished, they assume it is finished, and the next question is "When does this go live?"
 
-Use visibly unfinished, hand-drawn styling **and a prominent Mockup label** for exploratory designs. Put the status inside the image so it survives being copied into a chat, slide or PBI.
+In those moments, you want the client to be painfully aware it is a mockup. A paper-like design does that at a glance, better than any disclaimer. Pair it with a prominent **Mockup** label inside the image, so the status survives being copied into a chat, slide or PBI.
 
 <endIntro />
 
-## Make the uncertainty visible
+## Polish sets the wrong expectations
 
-Whether you [generate mockups with AI](/generate-ui-mockups-with-ai) or [build an interactive prototype](/ai-for-prototype-development), make its status obvious. A realistic Northwind Orders screen can imply that the layout and behaviour are settled before anyone has agreed to them.
+AI can [generate a pixel-perfect mockup](/generate-ui-mockups-with-ai) or [an interactive prototype](/ai-for-prototype-development) in minutes. When a big feature looks that polished, the client sees a finished product, even though the flow is not agreed and the UI has not been polished.
 
 <imageEmbed
-  alt="Realistic Northwind Orders dashboard with polished controls and no mockup label, and a Product Owner comment asking when it goes live"
+  alt="Polished Northwind Orders dashboard with no mockup label, and a Product Owner comment asking when it goes live"
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="A polished, unlabelled concept looks ready to ship before the design is agreed"
+  figure="The client sees a big feature that looks done and asks when it goes live"
   src="/uploads/rules/make-mockups-look-like-mockups/northwind-realistic-ai-mockup.png"
 />
 
-For early feedback, use rough outlines, simple controls and hand-drawn typography. This invites discussion about structure, content and flow while making changes feel inexpensive.
+## Make it look like paper
 
-[Looseleaf](https://kevintngo.github.io/looseleaf/), created by [Kevin T. Ngo](https://x.com/kevin_t_ngo/status/2116929611196219764), is an example: its React components look drawn on notebook paper. The [component library](https://github.com/kevintngo/looseleaf) is [MIT-licensed](https://github.com/kevintngo/looseleaf/blob/main/LICENSE). You can use that visual approach without adopting a particular framework.
+Give the mockup textured paper, hand-drawn components and handwritten type. Nobody mistakes a sketch on paper for shipped software, so:
 
-Keep the explicit label even with sketchy styling; hand-drawn visuals can also be an intentional production design.
+* **Expectations are set** - The client knows the UI still needs polish
+* **Feedback stays on the flow** - People discuss structure, content and behaviour, not pixels
+* **Changes feel cheap** - Nobody feels attached to a sketch
+
+[Looseleaf](https://kevintngo.github.io/looseleaf/), created by [Kevin T. Ngo](https://x.com/kevin_t_ngo/status/2116929611196219764), is an example: its React components look hand-drawn on paper. The [component library](https://github.com/kevintngo/looseleaf) is [MIT-licensed](https://github.com/kevintngo/looseleaf/blob/main/LICENSE). You can use that visual approach without adopting a particular framework.
+
+Keep the explicit label as well; a hand-drawn look can also be an intentional production design.
 
 <imageEmbed
-  alt="Hand-drawn Northwind Orders mockup on notebook paper with a Mockup - not built label, date and PBI reference"
+  alt="Hand-drawn Northwind Orders mockup on textured paper with a Mockup - not built label, date and PBI reference"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Sketchy styling and a visible Mockup - not built label make the proposal easy to recognise"
+  figure="The paper look and Mockup - not built label tell the client instantly that it is unfinished"
   src="/uploads/rules/make-mockups-look-like-mockups/northwind-looseleaf-mockup.png"
 />
 
 ## Check that the mockup is unmistakable
 
-* **Sketchy style** - Use rough borders, simple shapes and handwritten labels. Keep text readable and controls understandable.
+* **Paper look** - Use textured paper, rough borders and handwritten labels. Keep text readable and controls understandable.
 * **Mockup label** - Put a prominent **Mockup** label or watermark on every screen and export. It must remain readable when the image is scaled down.
 * **Obviously sample data** - Use public sample data, e.g. Northwind customers, and never real customer records. Use `northwind.test` for demo URLs.
 * **No brand polish** - Omit real logos, marketing photography and finished brand styling while exploring the concept.
@@ -67,7 +73,7 @@ Keep the explicit label even with sketchy styling; hand-drawn visuals can also b
 
 ## When to use a polished design instead
 
-Use high fidelity when the visual detail is what you need to evaluate, e.g.:
+The paper look is a deliberate choice, not a default. Use high fidelity when the visual detail is what you need to evaluate, e.g.:
 
 * Final design sign-off, where reviewers need to see the intended appearance
 * Brand or visual review, including colours, typography and imagery
