@@ -1,0 +1,78 @@
+---
+type: rule
+title: Do you make mockups look like mockups?
+uri: make-mockups-look-like-mockups
+categories:
+  - category: categories/design/rules-to-better-designers.mdx
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+related:
+  - rule: public/uploads/rules/mockups-and-prototypes/rule.mdx
+  - rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
+  - rule: public/uploads/rules/ai-for-prototype-development/rule.mdx
+  - rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
+  - rule: public/uploads/rules/storyboards/rule.mdx
+guid: 7bab1402-2ab6-4cda-806a-72e4a617b7bb
+seoDescription: Make early UI mockups obviously unfinished with sketchy styling and clear labels, so people can distinguish ideas from approved designs and shipped features.
+created: 2026-11-04T00:00:00.000Z
+archivedreason: null
+isArchived: false
+---
+
+AI can generate a convincing, pixel-perfect interface in minutes. That polish can make an early idea look built or approved. Stakeholders start asking when it will ship, while the team is still deciding what it should do.
+
+Use visibly unfinished, hand-drawn styling **and a prominent Mockup label** for exploratory designs. Put the status inside the image so it survives being copied into a chat, slide or PBI.
+
+<endIntro />
+
+## Make the uncertainty visible
+
+Whether you [generate mockups with AI](/generate-ui-mockups-with-ai) or [build an interactive prototype](/ai-for-prototype-development), make its status obvious. A realistic Northwind Orders screen can imply that the layout and behaviour are settled before anyone has agreed to them.
+
+<imageEmbed
+  alt="Realistic Northwind Orders dashboard with polished controls and no mockup label, and a Product Owner comment asking when it goes live"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="A polished, unlabelled concept looks ready to ship before the design is agreed"
+  src="/uploads/rules/make-mockups-look-like-mockups/northwind-realistic-ai-mockup.png"
+/>
+
+For early feedback, use rough outlines, simple controls and hand-drawn typography. This invites discussion about structure, content and flow while making changes feel inexpensive.
+
+[Looseleaf](https://kevintngo.github.io/looseleaf/), created by [Kevin T. Ngo](https://x.com/kevin_t_ngo/status/2116929611196219764), is an example: its React components look drawn on notebook paper. The [component library](https://github.com/kevintngo/looseleaf) is [MIT-licensed](https://github.com/kevintngo/looseleaf/blob/main/LICENSE). You can use that visual approach without adopting a particular framework.
+
+Keep the explicit label even with sketchy styling; hand-drawn visuals can also be an intentional production design.
+
+<imageEmbed
+  alt="Hand-drawn Northwind Orders mockup on notebook paper with a Mockup - not built label, date and PBI reference"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Sketchy styling and a visible Mockup - not built label make the proposal easy to recognise"
+  src="/uploads/rules/make-mockups-look-like-mockups/northwind-looseleaf-mockup.png"
+/>
+
+## Check that the mockup is unmistakable
+
+* **Sketchy style** - Use rough borders, simple shapes and handwritten labels. Keep text readable and controls understandable.
+* **Mockup label** - Put a prominent **Mockup** label or watermark on every screen and export. It must remain readable when the image is scaled down.
+* **Obviously sample data** - Use public sample data, e.g. Northwind customers, and never real customer records. Use `northwind.test` for demo URLs.
+* **No brand polish** - Omit real logos, marketing photography and finished brand styling while exploring the concept.
+* **Date and build state** - Add the date and **not built** so an old export cannot pass for current functionality.
+* **PBI link** - Link to the Product Backlog Item beside the mockup and include its identifier in the export. Keep decisions and open questions with the work.
+
+## When to use a polished design instead
+
+Use high fidelity when the visual detail is what you need to evaluate, e.g.:
+
+* Final design sign-off, where reviewers need to see the intended appearance
+* Brand or visual review, including colours, typography and imagery
+* Usability testing of visual detail, such as contrast, spacing or control states
+
+Label these artefacts **Design - not built**, with a date and PBI link. After design approval, **Approved design - not built** keeps approval distinct from implementation. Include realistic branding when it is part of the review.
+
+See [when to create mockups and prototypes](/mockups-and-prototypes) for choosing fidelity, [storyboards](/storyboards) for exploring journeys, and [design handover](/hand-over-mockups-to-developers) for sharing agreed work with developers.
