@@ -1,31 +1,31 @@
 ---
 type: rule
 title: Do you make your background jobs cancellable?
-seoDescription: Accept a CancellationToken in every background job and hosted service, pass it all the way down to EF Core and HTTP calls, and check it between units of work, so a job stops cleanly when a user cancels it or the app shuts down.
-guid: e395d01e-832a-47bf-b53b-e9d2be1c77bd
 uri: make-background-jobs-cancellable
-created: 2026-11-02T21:10:19.359Z
-createdBy: Gordon Beeming
-createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-02T21:10:46.142Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: me@gordonbeeming.com
+categories:
+  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+  - category: categories/software-engineering/rules-to-better-application-performance.mdx
 authors:
   - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
   - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
 related:
   - rule: public/uploads/rules/scope-dbcontext-in-long-running-jobs/rule.mdx
   - rule: public/uploads/rules/bulk-process-in-chunks/rule.mdx
   - rule: public/uploads/rules/use-async-await-for-all-io-bound-operations/rule.mdx
-  - rule: public/uploads/rules/use-the-mediator-pattern-with-cqrs/rule.mdx
+  - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
   - rule: public/uploads/rules/long-process-do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel/rule.mdx
-categories:
-  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
-  - category: categories/software-engineering/rules-to-better-application-performance.mdx
-archivedreason: null
+guid: e395d01e-832a-47bf-b53b-e9d2be1c77bd
+seoDescription: 'Accept a CancellationToken in every background job and hosted service, pass it all the way down to EF Core and HTTP calls, and check it between units of work, so a job stops cleanly when a user cancels it or the app shuts down.'
+created: 2026-11-02T21:10:19.359Z
+createdBy: Gordon Beeming
+createdByEmail: me@gordonbeeming.com
+lastUpdated: 2026-11-04T05:56:14.303Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: me@gordonbeeming.com
 isArchived: false
+archivedreason: null
 ---
 
 Someone starts a job that recalculates the power level of every hero, realises they picked the wrong team, and deletes the job from the dashboard. The dashboard says it's gone. On the server, the job keeps going for another 40 minutes, writing results nobody wants and sending notifications to every hero on the wrong team. The next deployment has to wait for it too, or kills it halfway through a save.
@@ -134,7 +134,7 @@ Give your own methods a `CancellationToken` parameter too, and pass it on. Handl
 
 ## Check the token at safe points
 
-Passing the token down makes I/O stop early. Work that loops over many items also needs an explicit check between units of work, such as between chunks or between heroes. Check at the boundary, not halfway through a unit, so each chunk is either saved completely or not started.
+Passing the token down makes I/O stop early. Work that loops over many items also needs an explicit check between units of work, such as between chunks or between heroes. Check at the boundary, not halfway through a unit, so a cancelled job doesn't start new work. Cancellation isn't a rollback, though: a chunk that is already running can still stop partway, so keep each chunk's writes in one SaveChanges or transaction, and make external side effects safe to run again.
 
 ```csharp
 foreach (var chunk in heroIds.Chunk(500))
