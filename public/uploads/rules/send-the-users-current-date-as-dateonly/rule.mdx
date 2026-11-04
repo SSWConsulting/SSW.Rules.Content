@@ -1,23 +1,26 @@
 ---
 type: rule
 title: Do you send the user's current date as DateOnly?
-seoDescription: When the frontend needs the user's local "today", send a DateOnly from TimeProvider.GetLocalNow() and let the backend attach the business-context timezone as a DateTimeOffset.
-guid: 0b80ab08-5080-4884-8819-65763b93e6f7
 uri: send-the-users-current-date-as-dateonly
-created: 2026-11-03T21:15:00.000Z
-authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-related:
-  - rule: public/uploads/rules/use-datetimeoffset-and-timeprovider/rule.mdx
-  - rule: public/uploads/rules/datetime-fields-must-be-converted-to-universal-time/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-net-projects.mdx
   - category: categories/software-engineering/rules-to-better-blazor.mdx
-archivedreason: null
+authors:
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+related:
+  - rule: public/uploads/rules/use-datetimeoffset-and-timeprovider/rule.mdx
+  - rule: public/uploads/rules/datetime-fields-must-be-converted-to-universal-time/rule.mdx
+guid: 0b80ab08-5080-4884-8819-65763b93e6f7
+seoDescription: 'When the frontend needs the user''s local "today", send a DateOnly from TimeProvider.GetLocalNow() and let the backend attach the business-context timezone as a DateTimeOffset.'
+created: 2026-11-03T21:15:00.000Z
+lastUpdated: 2026-11-04T06:33:41.786Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: me@gordonbeeming.com
 isArchived: false
+archivedreason: null
 ---
 
 A hero's mission is due "today". Whose today? The user in Brisbane is already on Wednesday while the API server in UTC is still on Tuesday. If the frontend sends UTC, or a full client `DateTimeOffset`, the backend has to guess which calendar day the user meant, and a mission can land on the wrong day.
@@ -34,7 +37,7 @@ When the value you need is a calendar date as the user sees it, send that date a
 
 ## Capture the user's local date in the frontend
 
-Use an injected `TimeProvider` (not `DateTime.Now`) so the clock stays testable. `GetLocalNow()` returns the browser's local `DateTimeOffset`. Convert that to `DateOnly` before you call the API.
+Use an injected `TimeProvider` (not `DateTime.Now`) so the clock stays testable. In Blazor WebAssembly, `GetLocalNow()` returns the browser's local `DateTimeOffset`. Convert that to `DateOnly` before you call the API.
 
 ```csharp
 public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
@@ -64,6 +67,8 @@ public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
 
 **✅ Figure: Good example - DateOnly carries the calendar day the user sees, with no time or offset attached**
 
+In Blazor Server or Interactive Server, this code runs on the server, so `GetLocalNow()` uses the server's timezone, not the user's. Get the date from the browser instead, for example through JavaScript interop, and send that as the `DateOnly`.
+
 Avoid sending UTC for a "today" value. A user whose local date has already rolled over can still be on the previous UTC date, so the mission day flips incorrectly.
 
 ```csharp
@@ -85,6 +90,13 @@ public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvi
         var region = TimeZoneInfo.FindSystemTimeZoneById(team.TimeZoneId);
 
         var localMidnight = request.MissionDate.ToDateTime(TimeOnly.MinValue);
+
+        // Some regions skip midnight when daylight saving starts
+        if (region.IsInvalidTime(localMidnight))
+        {
+            localMidnight = localMidnight.AddHours(1);
+        }
+
         var startedAt = new DateTimeOffset(
             localMidnight,
             region.GetUtcOffset(localMidnight));
@@ -103,6 +115,8 @@ public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvi
 
 **✅ Figure: Good example - The user's date plus the team's region becomes one DateTimeOffset the rest of the system can trust**
 
+In a few regions, daylight saving starts at midnight, so that midnight never happens. Check `IsInvalidTime` and move to the first valid time, as above, rather than storing a time that doesn't exist.
+
 <boxEmbed
   style="info"
   body={<>
@@ -114,11 +128,11 @@ public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvi
 
 ## Rejected approaches at a glance
 
-| Approach | Keeps user's "today" | Uses business timezone | Notes |
-| --- | --- | --- | --- |
-| Client `DateTimeOffset` | ✅ | ❌ | Browser offset may not match the team |
-| UTC `DateTime` / UTC date | ❌ | ❌ | Loses the local calendar day near midnight |
-| Client `DateOnly` + backend region | ✅ | ✅ | Frontend sends the day, backend owns the zone |
+| Approach                           | Keeps user's "today" | Uses business timezone | Notes                                         |
+| ---------------------------------- | -------------------- | ---------------------- | --------------------------------------------- |
+| Client `DateTimeOffset`            | ✅                    | ❌                      | Browser offset may not match the team         |
+| UTC `DateTime` / UTC date          | ❌                    | ❌                      | Loses the local calendar day near midnight    |
+| Client `DateOnly` + backend region | ✅                    | ✅                      | Frontend sends the day, backend owns the zone |
 
 ## When not to use this
 
