@@ -16,69 +16,62 @@ related:
   - rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
   - rule: public/uploads/rules/storyboards/rule.mdx
 guid: 7bab1402-2ab6-4cda-806a-72e4a617b7bb
-seoDescription: When a big feature still needs UI polish, give its mockup a paper-like, hand-drawn look and a clear label so clients instantly know it is unfinished.
+seoDescription: Make UI mockups visibly unfinished with sketchy styling and build-state labels, so reviewers discuss the flow without mistaking designs for shipped work.
 created: 2026-11-04T00:00:00.000Z
 archivedreason: null
 isArchived: false
 ---
 
-Sometimes you show a client a big feature that still needs UI polish. If it looks finished, they assume it is finished, and the next question is "When does this go live?"
+A polished mockup can make an unbuilt feature look ready to ship. During an early design review, that confusion shifts the conversation from "Is this the right flow?" to "When does this go live?"
 
-In those moments, you want the client to be painfully aware it is a mockup. A paper-like design does that at a glance, better than any disclaimer. Pair it with a prominent **Mockup** label inside the image, so the status survives being copied into a chat, slide or PBI.
+When you want feedback on structure and behaviour, use a visibly rough, paper-like mockup and put **Mockup - not built** inside every screen. The appearance and status label should still make sense when someone forwards the image without your explanation.
 
 <endIntro />
 
-## Polish sets the wrong expectations
+## Show the idea without implying it is built
 
-AI can [generate a pixel-perfect mockup](/generate-ui-mockups-with-ai) or [an interactive prototype](/ai-for-prototype-development) in minutes. When a big feature looks that polished, the client sees a finished product, even though the flow is not agreed and the UI has not been polished.
+Tools that [generate UI mockups](/generate-ui-mockups-with-ai) or [build prototypes with AI](/ai-for-prototype-development) can produce polished screens before the team agrees on the flow. Visual polish does not establish implementation progress.
+
+In these synthetic Northwind illustrations, the layout and **example data** stay the same. The styling and build-state label change, and the fictional reviewer responses illustrate the difference in focus.
 
 <imageEmbed
-  alt="Polished Northwind Orders dashboard with no mockup label, and a Product Owner comment asking when it goes live"
+  src="/uploads/rules/make-mockups-look-like-mockups/northwind-realistic-ai-mockup.png"
+  alt="Illustration of a polished Northwind Orders dashboard with example data but no build-state label; a reviewer asks when it goes live"
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="The client sees a big feature that looks done and asks when it goes live"
-  src="/uploads/rules/make-mockups-look-like-mockups/northwind-realistic-ai-mockup.png"
+  figure="Illustration - Finished-looking controls and no build-state label invite a delivery question"
 />
 
-## Make it look like paper
+## Make early feedback about the flow
 
-Give the mockup textured paper, hand-drawn components and handwritten type. Nobody mistakes a sketch on paper for shipped software, so:
+Use rough outlines, simple blocks and readable handwritten-style text while exploring the concept. [Low-fidelity wireframes keep attention on structure and functionality](https://balsamiq.com/learn/articles/what-are-wireframes/) before colours and visual detail. Leave out brand polish unless branding is the subject of the review.
 
-* **Expectations are set** - The client knows the UI still needs polish
-* **Feedback stays on the flow** - People discuss structure, content and behaviour, not pixels
-* **Changes feel cheap** - Nobody feels attached to a sketch
-
-[Looseleaf](https://kevintngo.github.io/looseleaf/), created by [Kevin T. Ngo](https://x.com/kevin_t_ngo/status/2116929611196219764), is an example: its React components look hand-drawn on paper. The [component library](https://github.com/kevintngo/looseleaf) is [MIT-licensed](https://github.com/kevintngo/looseleaf/blob/main/LICENSE). You can use that visual approach without adopting a particular framework.
-
-Keep the explicit label as well; a hand-drawn look can also be an intentional production design.
+Keep the explicit **Mockup - not built** label too: a hand-drawn appearance can also be an intentional production style. Put the label in a reserved area so it stays prominent without obscuring the content you want reviewed.
 
 <imageEmbed
-  alt="Hand-drawn Northwind Orders mockup on textured paper with a Mockup - not built label, date and PBI reference"
+  src="/uploads/rules/make-mockups-look-like-mockups/northwind-looseleaf-mockup.png"
+  alt="Illustration of the same Northwind Orders layout and example data in a paper style, labelled Mockup - not built with a date and PBI 345; the reviewer asks to move late shipments first"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="The paper look and Mockup - not built label tell the client instantly that it is unfinished"
-  src="/uploads/rules/make-mockups-look-like-mockups/northwind-looseleaf-mockup.png"
+  figure="Illustration - Sketchy styling and an explicit build state frame a question about information order"
 />
 
-## Check that the mockup is unmistakable
+For a component-based approach, [Looseleaf](https://github.com/kevintngo/looseleaf) offers hand-drawn React components under an [MIT licence](https://github.com/kevintngo/looseleaf/blob/main/LICENSE). The illustrations above demonstrate the visual approach; they are not screenshots of Looseleaf.
 
-* **Paper look** - Use textured paper, rough borders and handwritten labels. Keep text readable and controls understandable.
-* **Mockup label** - Put a prominent **Mockup** label or watermark on every screen and export. It must remain readable when the image is scaled down.
-* **Obviously sample data** - Use public sample data, e.g. Northwind customers, and never real customer records. Use `northwind.test` for demo URLs.
-* **No brand polish** - Omit real logos, marketing photography and finished brand styling while exploring the concept.
-* **Date and build state** - Add the date and **not built** so an old export cannot pass for current functionality.
-* **PBI link** - Link to the Product Backlog Item beside the mockup and include its identifier in the export. Keep decisions and open questions with the work.
+## Check the exported image before sharing
 
-## When to use a polished design instead
+* **Status** - Include **Mockup - not built** on every screen and export, not just in the accompanying message.
+* **Context** - Add a date and the Product Backlog Item (PBI) identifier. Link to the PBI beside the image so decisions and open questions stay with the work.
+* **Data** - Use synthetic records or public sample data, such as Northwind, and label them **example data**. Keep real customer records out of mockups.
+* **Readability** - Open the export at the size the recipient will see. Check that the status, controls and text remain readable, with no labels covering content.
+* **Review question** - State the decision you need, such as "Should late shipments appear first?" Ask a colleague to identify the build state and review question without the surrounding conversation. Revise the export if either is unclear.
 
-The paper look is a deliberate choice, not a default. Use high fidelity when the visual detail is what you need to evaluate, e.g.:
+## Use polish when visual detail is the decision
 
-* Final design sign-off, where reviewers need to see the intended appearance
-* Brand or visual review, including colours, typography and imagery
-* Usability testing of visual detail, such as contrast, spacing or control states
+Use a high-fidelity design for brand review, final appearance approval or usability testing that depends on realistic visual detail. Rough styling can hide problems with spacing, contrast or control states.
 
-Label these artefacts **Design - not built**, with a date and PBI link. After design approval, **Approved design - not built** keeps approval distinct from implementation. Include realistic branding when it is part of the review.
+Label an unimplemented design **Design - not built**, with a date and PBI identifier. After design approval, use **Approved design - not built** to keep approval separate from implementation. If some behaviour already works, state exactly what works and what remains proposed instead of marking the whole screen as unbuilt.
 
 See [when to create mockups and prototypes](/mockups-and-prototypes) for choosing fidelity, [storyboards](/storyboards) for exploring journeys, and [design handover](/hand-over-mockups-to-developers) for sharing agreed work with developers.
