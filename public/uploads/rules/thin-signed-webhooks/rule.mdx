@@ -43,7 +43,7 @@ Content-Length: 211
 }
 ```
 
-**Figure: The unsigned notification exposes customer details and lets forged requests trigger order processing**
+❌ **Figure: The unsigned notification exposes customer details and lets forged requests trigger order processing**
 
 ```http
 POST /hooks/northwind HTTP/1.1
@@ -61,7 +61,7 @@ webhook-signature: v1,3OmCqmj4FEULIsBi0QE8JVmjDSMcrvolxQDr1KQ9Wos=
 }
 ```
 
-**Figure: The signed notification identifies the same order while an authorised API read controls access to customer details**
+✅ **Figure: The signed notification identifies the same order while an authorised API read controls access to customer details**
 
 The partner verifies the second request, then fetches `https://api.example.com/orders/123` using its own API credential. The API checks that the partner can read this order. Use a configured API base URL and validate the ID; never send credentials to a URL supplied in the notification.
 
@@ -75,7 +75,7 @@ Thin notifications add an API call and depend on API availability. A later fetch
 
 Use the sender's verification library and signing scheme. **Never parse JSON and serialise it again to verify a signature**: even a whitespace change alters the signed bytes. Reject failed verification before fetching details or performing business actions.
 
-For Node.js, install `standardwebhooks` and save this helper as `verify.mjs`. It accepts the raw UTF-8 JSON `Buffer`, request headers and an endpoint secret from trusted configuration. Capture the body before any JSON parser; with [Express's raw body middleware](https://expressjs.com/en/5x/api/express/#express.raw), use `express.raw({ type: "application/json" })` on this route and set a request size limit.
+For Node.js, install `standardwebhooks` and save this helper as `verify.mjs`. It accepts the raw UTF-8 JSON `Buffer`, request headers and an endpoint secret from trusted configuration. Capture the body before any JSON parser; with [Express's raw body middleware](https://expressjs.com/en/5x/api/express/#expressraw), use `express.raw({ type: "application/json" })` on this route and set a request size limit.
 
 ```javascript
 import { Webhook } from "standardwebhooks";
