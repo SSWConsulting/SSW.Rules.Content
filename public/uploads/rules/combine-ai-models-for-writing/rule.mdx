@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you combine AI models to write better content?
-seoDescription: Use the best AI models available to you for writing and independent review, and let free scripts check length, required facts and links.
+seoDescription: Draft content with one AI model, ask another to critique it against your sources, and let a human resolve disagreements before publishing the final version.
 guid: 9a127dbb-fb5b-4eba-8f04-98962b47eaae
 uri: combine-ai-models-for-writing
 created: 2026-10-16T06:48:56.000Z
@@ -10,77 +10,88 @@ authors:
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
   - rule: public/uploads/rules/check-your-ai-writing/rule.mdx
-  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
-  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
   - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
 archivedreason: null
 isArchived: false
 ---
 
-You ask a model to write a draft, then review its own work. It declares the draft strong and within the word limit. That verdict is weak evidence: models can favour their own family's writing and misjudge length.
+An AI-written product announcement can read well while promising something the product does not do. Asking the writer to approve its own draft gives you little reason to trust those promises.
 
-**Split writing and review across model families, and let scripts check what they can count.**
+For content you publish or reuse, **draft with one model, ask a second model to critique it against the sources, and let a human decide what changes to accept**. The extra review is useful when a missed fact could mislead readers.
 
 <endIntro />
 
+## Give both models the same source brief
+
+Provide the audience, purpose, required facts, source material and length limit before drafting. Give the reviewer that same brief and the draft in a fresh conversation, without the writer's self-assessment. This lets it assess the text without being steered by an earlier verdict.
+
+Use only material you are authorised to share with each provider. If the source cannot leave your approved environment, keep the review there or use a human reviewer.
+
+For example, a Northwind release note has this brief (**example data**):
+
+* Audience: existing workspace admins
+* Release date: 12 November
+* Feature: download orders as a CSV file
+* Availability: Pro-plan workspace admins only
+* Action: the admin selects Export; exports do not run automatically
+* Length: no more than 50 words
+
+## Ask a second model to find specific defects
+
+Choose a different model, preferably from another model family when available, for a second perspective. Research on [self-preference in LLM evaluators](https://arxiv.org/abs/2404.13076) finds that models can favour their own outputs. This supports caution about self-review; it does not prove that switching models makes a draft correct.
+
+Ask for defects and evidence rather than a score or a general "looks good". You can use this prompt with the brief and draft:
+
 <boxEmbed
   style="greybox"
   body={<>
-    Write a blog post about versioning Northwind's Orders API. Review it, fix anything weak and make sure it's under 800 words.
+    Review this draft against the supplied brief and sources. Identify unsupported claims, missing required facts and wording the audience could misunderstand. For each issue, quote the affected text, point to the supporting source passage and suggest the smallest correction. If a claim cannot be checked from the supplied material, mark it unverified. Keep optional style suggestions separate.
+  </>}
+  figurePrefix="none"
+  figure="A review prompt asks for source evidence and specific corrections"
+/>
+
+Here is how the review changes the Northwind announcement. Both examples use the brief above; the review messages illustrate possible responses, rather than a recorded model test.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Draft:** From 12 November, every Northwind user gets automatic CSV order exports at no extra cost.
+
+    **Writer's self-review:** Clear, concise and ready to publish.
+
+    **Decision:** Publish without checking the brief. Readers are promised access, automation and pricing that the brief does not support.
   </>}
   figurePrefix="bad"
-  figure="Illustrative example - One model writes the draft, then judges its own writing and word count"
+  figure="Self-approval leaves three unsupported promises in the announcement"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    1. <b>Writer:</b> Draft from the brief. Include the required facts and stay within the word limit.<br />
-    2. <b>Editor:</b> Improve weak passages. Keep the facts and reasons behind the advice.<br />
-    3. <b>Script:</b> Check length, required facts, links and formatting.<br />
-    4. <b>Reviewer:</b> Use a different model family from the editor. Check sources and flag overclaims.
+    **Second model's critique:** "Every Northwind user" contradicts the Pro-plan workspace-admin restriction. "Automatic" contradicts the manual Export action. "At no extra cost" has no supporting source.
+
+    **Human decision:** Check the critique against the brief, accept these corrections and remove the unsupported price claim.
+
+    **Revised announcement:** From 12 November, Northwind Pro-plan workspace admins can download orders as a CSV file by selecting Export. Other roles cannot export orders.
   </>}
   figurePrefix="good"
-  figure="Illustrative example - Clear roles, review across two model families, and scripted checks"
+  figure="Source-backed critique leads to a checked announcement with accurate access and instructions"
 />
 
-## Give each job to the model that does it best
+## Resolve disagreements against the source
 
-* **Writer** - Choose the model that covers the facts within the word limit
-* **Editor** - Choose the model with the clearest prose. Limit edits to weak passages
-* **Reviewer** - Use a different model family from the last editor to review the draft
+A second model can repeat the first model's mistake or suggest a worse edit. Agreement between models is not verification. A human checks each factual correction against the source and accepts, rejects or investigates it. If the source is ambiguous, ask the person responsible for the fact before publishing; do not settle it by voting between models.
 
-Tell the editor what to keep, not just what to fix. A broad "cut it" pass can strip the reasons that make advice persuasive.
+Use a word counter for length and a link checker for broken destinations. Neither a word count nor a working link proves a claim is true. Read the final wording after edits: a style improvement can accidentally change a promise or remove a restriction. See [how to avoid automation bias](/avoid-automation-bias).
 
-In a blind test we ran, six models each wrote one draft of the same rule, and two judges from different labs scored the drafts anonymously. The Anthropic drafts had the most natural prose and specific captions but ran over the word limit, while the OpenAI drafts kept all 53 required facts within it but had vague captions.
+The draft is ready when its factual claims have support, required facts remain, mechanical checks pass and a human approves the wording.
 
-## Review with a different model family
+## Match the effort to the content
 
-In that test, each judge ranked its own family's two drafts first and second:
+Use the extra review for announcements, documentation and other content where errors matter. A routine chat reply may only need a direct human read. If you have one model, a fresh conversation can provide another critique, but it still needs source checks and human judgement.
 
-| Draft | Anthropic judge | OpenAI judge |
-| --- | --- | --- |
-| Anthropic model A | 1st | 5th |
-| Anthropic model B | 2nd | 4th |
-| OpenAI model A | 3rd | 1st |
-| OpenAI model B | 4th | 2nd |
-
-Treat agreement between two models from the same lab as one opinion. Seek a review from another family.
-
-## Let scripts count
-
-Use scripts for word counts, required-facts checklists, link checks and linters instead of trusting a model's estimate. In the test, the Anthropic judge estimated its own family's 902-word draft at "roughly 820–850 words". A checklist confirms a fact is present; a person still checks whether it's true.
-
-## Use the best models you have
-
-Use the best models you can access. You don't need premium plans: free or low-cost plans from two different labs cover the writer and the reviewer, and the scripts cost nothing.
-
-* **Try cheaper models first** - In the test, the cheaper OpenAI model wrote as well as its far pricier sibling, and both judges scored them identically on every criterion
-* **Only one model?** - Review in a fresh chat that sees only the brief and the draft. Self-preference remains, so this is weaker than review by a second family, but better than asking the writer to grade itself
-* **Test before paying more** - Run a small blind test on your own content. See [Do you run evals on your AI features?](/run-evals-on-ai-features) and [Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
-
-## When this doesn't apply
-
-A short email or chat reply doesn't need this. One draft plus the checks in [Do you know what to watch out for when using AI to write content?](/check-your-ai-writing) is enough. Use the pipeline for content that is published, reused, or carries facts and figures.
+Choose models by the useful corrections they make on your content; [test model choices on your own use case](/choosing-large-language-models). Apply the [AI-writing checklist](/check-your-ai-writing) for tone and clarity as well as this factual review.
