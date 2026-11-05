@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you keep a parity ledger when you rewrite an app?
-seoDescription: Keep a parity ledger for app rewrites to track existing behaviour, verification evidence and approved retirements before switching users to the replacement.
+title: Do you track feature parity when you rewrite an app?
+seoDescription: Track feature parity in a legacy app rewrite with a ledger of existing behaviour, verification evidence and approved retirements before switching users.
 guid: 045b880a-29ec-4112-9893-d6bb03d80524
 uri: parity-ledger-for-rewrites
 created: 2026-10-15T01:15:51.000Z
@@ -23,7 +23,7 @@ isArchived: false
 
 A rewrite scoped from memory can miss an export button used once a month, a validation rule buried in the code, or an email sent after a save. A feature list that only lives in a wiki or demo rarely captures all this behaviour. Developers or AI agents finish the listed screens, and users discover the gaps after go-live.
 
-**Keep a parity ledger: an inventory of existing behaviour, with each row tracked until its replacement is verified or its retirement is approved.** It makes omissions visible before users switch to the new app.
+**Track feature parity during a legacy app rewrite with a parity ledger: list each existing behaviour until its replacement is verified or its retirement is approved.** It makes omissions visible before users switch to the new app.
 
 <endIntro />
 
@@ -66,13 +66,15 @@ In this synthetic Northwind example, a team replaces WebForms screens with React
     | ORD-02 | Reject past delivery dates | Implemented: test T02 passes; independent comparison pending |
     | INV-03 | Export month-end invoice CSV | Retirement approved: decision D03; old export shutdown pending |
 
-    C01 records old version `legacy-v1`, new version `rewrite-v2`, the shared test inputs, results and a review approval dated 6 November 2026. T02 is a test run. D03 records the Product Owner's approval, after consulting Finance, to drop CSV because an existing finance feed supplies the same data. These identifiers represent evidence records in this fictional example.
+    C01, T02 and D03 are fictional references to a comparison record, test run and approved retirement decision.
 
     ORD-02 blocks cutover of this slice. The new code exists, but no one has yet verified that its behaviour matches. INV-03 stays visible as a deliberate product decision.
   </>}
   figurePrefix="good"
   figure="Behaviour-level rows expose unfinished verification and distinguish an approved retirement from an omission"
 />
+
+For example, ORD-02 also records **Owner:** Orders team; **Old code:** `Orders/Edit.aspx.cs`, `ValidateDeliveryDate`; **Cutover slice:** Orders and Invoices (example data).
 
 For each behaviour, track these milestones separately:
 
