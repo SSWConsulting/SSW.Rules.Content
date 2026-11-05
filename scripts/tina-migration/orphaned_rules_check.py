@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import yaml
 import glob
 from pathlib import Path
@@ -10,6 +11,17 @@ script_dir = Path(__file__).parent
 project_root = script_dir.parent.parent
 rules_dir = project_root / 'public' / 'uploads' / 'rules'
 categories_dir = project_root / 'categories'
+
+# Frontmatter is delimited by lines that are exactly "---". Splitting on the bare
+# string also matches "---" inside values (e.g. a URL ending "...cut---jump-cut"),
+# which truncates the frontmatter mid-quote and makes the YAML unparseable.
+FRONTMATTER_DELIMITER = re.compile(r"^---[ \t]*$", re.MULTILINE)
+
+
+def split_frontmatter(content):
+    """Split content into [before, frontmatter, body] on delimiter lines only."""
+    return FRONTMATTER_DELIMITER.split(content, maxsplit=2)
+
 
 def extract_uri_from_rule(rule_folder_path):
     """Extract URI from rule.md file and check if it's archived"""
@@ -24,7 +36,7 @@ def extract_uri_from_rule(rule_folder_path):
         if not content.startswith('---'):
             return None, True  # No frontmatter = skip
 
-        parts = content.split('---', 2)
+        parts = split_frontmatter(content)
         if len(parts) < 2:
             return None, True  # Invalid frontmatter = skip
 
@@ -47,7 +59,7 @@ def extract_index_from_category(content):
     if not content.startswith('---'):
         return []
 
-    parts = content.split('---', 2)
+    parts = split_frontmatter(content)
     if len(parts) < 2:
         return []
 

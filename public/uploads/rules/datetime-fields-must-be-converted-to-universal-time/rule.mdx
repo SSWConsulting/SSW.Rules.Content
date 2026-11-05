@@ -13,6 +13,8 @@ isArchived: false
 lastUpdated: 2020-01-28 05:50:12+00:00
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+related:
+- rule: public/uploads/rules/use-datetimeoffset-and-timeprovider/rule.mdx
 redirects:
 - data-dates-do-you-know-datetime-fields-must-be-converted-to-universal-time
 seoDescription: When storing DateTime fields, they must be converted to universal
@@ -29,6 +31,8 @@ Any DateTime fields must be converted to universal time from the application to 
 We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https://nodatime.org).
 
 <endIntro />
+
+For new .NET code, see [Do you use DateTimeOffset and TimeProvider for the current time?](/use-datetimeoffset-and-timeprovider). A `DateTimeOffset` records an unambiguous point in time without relying on a `DateTime` being converted to UTC by convention.
 
 Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.
 An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).
