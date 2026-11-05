@@ -61,29 +61,27 @@ Each hand-off includes the work key, acceptance criteria, evidence and next step
 
 ## Compare the same event with and without persistence
 
-These Northwind scenarios use **example data**.
+Northwind PBI 314, "Show supplier lead times", becomes ready at revision 7. In both illustrations, Delivery opens PR 82, then crashes before saving its URL. These synthetic screens use **example data**.
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    Northwind PBI 314, "Show supplier lead times", becomes ready at revision 7. It waits until a developer prompts Delivery. Research investigates the lead-time calculation, then Delivery opens PR 82 and crashes before recording the result in its chat.
-
-    After restart, another prompt starts the same work and creates PR 83. Research's findings remain in the lost session. The developer must identify the duplicate and reconstruct the hand-off.
-  </>}
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/session-only-duplicate-pr.png"
+  alt="Session-only progress for Northwind PBI 314, revision 7, disappears after a crash. A fresh run opens PR 83 while PR 82 already exists, leaving two PRs and a lost hand-off."
+  size="large"
+  showBorder={true}
   figurePrefix="bad"
-  figure="Manual starts and session-only progress leave duplicate PRs and a lost hand-off"
+  figure="Lost session state makes the restarted worker repeat the work and open duplicate PR 83"
 />
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    The ready event queues Northwind PBI 314, revision 7. Delivery claims that work key. Research investigates the lead-time calculation, and Delivery saves its findings in the durable record. It uses branch `agent/northwind-pbi-314-r7` for the work key, opens PR 82, then crashes before saving the PR URL.
-
-    After the lease expires, the replacement worker claims the item and queries PRs for that branch, including closed PRs. It finds PR 82, saves the URL and resumes checking the existing PR. A repeated notification for revision 7 adds no second item. The developer receives one tested PR and its evidence for review.
-  </>}
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/durable-record-reconciled-pr.png"
+  alt="A durable record saves the work key, owner, Research-to-Delivery hand-off, evidence and next step. After lease expiry, a replacement worker reconciles the branch, finds PR 82 and resumes it without creating PR 83."
+  size="large"
+  showBorder={true}
   figurePrefix="good"
-  figure="An event starts the work; durable ownership and reconciliation preserve one PR after a crash"
+  figure="Saved ownership and evidence let the replacement worker reconcile PR 82: one work item, one PR"
 />
+
+After the lease expires, the replacement worker claims the same work key and checks PRs for `agent/northwind-pbi-314-r7`, including closed PRs. It saves PR 82's URL and resumes its checks. A repeated revision-7 event adds no second work item.
 
 GitHub's [list pull requests API](https://docs.github.com/en/rest/pulls/pulls#list-pull-requests) supports filtering by head branch and PR state. If the lookup fails or leaves the outcome uncertain, pause instead of creating another PR.
 
