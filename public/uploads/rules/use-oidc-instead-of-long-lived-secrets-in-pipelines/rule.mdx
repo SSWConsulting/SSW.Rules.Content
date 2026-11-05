@@ -1,0 +1,103 @@
+---
+type: rule
+title: Do you use OIDC instead of long-lived secrets in your pipelines?
+uri: use-oidc-instead-of-long-lived-secrets-in-pipelines
+categories:
+  - category: categories/project-delivery/rules-to-better-devops.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-cloud-security.mdx
+authors:
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Matt Wicks
+    url: 'https://www.ssw.com.au/people/matt-wicks'
+related:
+  - rule: public/uploads/rules/deploy-to-azure-from-github-actions-with-oidc/rule.mdx
+  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/expiring-app-secrets-certificates/rule.mdx
+guid: b32decc3-600c-48f9-80f4-c6ca497360de
+seoDescription: 'Use OpenID Connect (workload identity federation) so your CI/CD pipelines sign in to the cloud with short-lived tokens instead of long-lived secrets that can leak, expire or be forgotten.'
+created: 2026-10-30T01:21:13.000Z
+isArchived: false
+archivedreason: null
+---
+
+Most pipelines deploy with a long-lived credential: a client secret, an access key or an API token pasted into the CI/CD platform's secret store. That credential is effectively a password to production. It can leak through a compromised pipeline, a copied repository or a careless log line. It works from anywhere until someone revokes it. It expires at the worst possible time and breaks every deployment. And someone has to remember to rotate it.
+
+<endIntro />
+
+OpenID Connect (OIDC), also called workload identity federation, removes the stored secret altogether. Instead of proving who it is with a password, the pipeline proves where it is running.
+
+## How OIDC works in a pipeline
+
+1. **The CI/CD platform is the identity provider** - for every run, it issues a signed token (a JWT) that describes the run, for example which repository, branch and environment it belongs to
+2. **The cloud trusts that issuer** - you set up a federated credential (or trust policy) once, saying "accept tokens from this issuer, but only when the subject matches this repository and this environment"
+3. **The pipeline swaps the token** - at run time, it exchanges the signed token for a short-lived cloud access token
+4. **The token expires** - usually within minutes to an hour, and it is never stored anywhere
+
+There is no password to store, leak, rotate or expire.
+
+## Why OIDC instead of a long-lived secret
+
+* **Nothing to steal** - no credential is stored in the pipeline. A leaked pipeline file or repository copy gives an attacker nothing they can use elsewhere
+* **Nothing to rotate** - no expiry date to track, and no outage when a secret quietly expires
+* **Short-lived** - each token is valid for a single run
+* **Scoped** - the trust is limited to the repository, branch or environment you name, so a fork or another branch cannot use it
+* **Auditable** - cloud sign-in logs show exactly which repository and pipeline signed in
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Pipeline secret:** `DEPLOY_CLIENT_SECRET` - valid for 2 years, works from any machine, shared by every pipeline in the project
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - A long-lived secret is a standing password to production"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Federated credential:** trust tokens from the CI/CD platform's issuer only when the subject is `repo:YourOrg/YourRepo:environment:production` - nothing is stored in the pipeline
+  </>}
+  figurePrefix="good"
+  figure="Good example - The cloud trusts one repository and environment, and each run gets a short-lived token"
+/>
+
+## Do it well
+
+* **Scope the subject tightly** - trust a protected environment or branch, not every branch or every repository in the organization
+* **Protect the environment** - require approvals and limit deployments to protected branches, so the trust only applies to reviewed code
+* **Use least privilege** - give the identity only the access the deployment needs, for example one resource group instead of the whole subscription
+* **Use one identity per environment** - production and test deployments should not share an identity
+* **Remember the identifiers are not secrets** - tenant, client or role IDs identify the identity, but they cannot be used to sign in on their own
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** The trust is only as tight as the subject you configure. A subject that is too broad (for example every branch, or a wildcard across repositories) lets any pipeline that can run there deploy to production.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## When you still need a secret
+
+* Some targets (for example some third-party services) cannot use federation and still need a secret. Keep it in a vault, not in the pipeline. See [Do you use enterprise secrets in your DevOps pipelines?](/enterprise-secrets-in-pipelines)
+* Code that runs inside the cloud (for example an Azure App Service or Function) should use a managed identity at runtime, not a federated credential. See [Do you use Managed Identity in Azure?](/use-managed-identity-in-azure)
+
+## Implementations
+
+Read the rule for your platform for the specific setup:
+
+* [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
+
+## Learn more
+
+* [How OpenID Connect works (OpenID Foundation)](https://openid.net/developers/how-connect-works/)
+* [Workload identity federation (Microsoft Learn)](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation)
+* [OpenID Connect in GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/concepts/security/openid-connect)
+* [Connect Azure Pipelines to Azure with workload identity federation (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure)
+* [OIDC identity providers in AWS IAM (AWS Docs)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html)
+* [Workload identity federation in Google Cloud (Google Cloud Docs)](https://cloud.google.com/iam/docs/workload-identity-federation)
+* [OpenID Connect accounts in Octopus Deploy (Octopus Docs)](https://octopus.com/docs/infrastructure/accounts/openid-connect)
