@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you keep a live timeline so you can steer long-running agents?
+title: Do you keep a live timeline to steer long-running AI agents?
 uri: live-timeline-for-long-running-agents
 categories:
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
@@ -8,95 +8,84 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
-  - rule: public/uploads/rules/agentic-ai/rule.mdx
   - rule: public/uploads/rules/ai-agent-session-messaging/rule.mdx
-  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+  - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+  - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
 guid: 67ede866-b995-4b25-8bef-b473e3d1f163
-seoDescription: For multi-day, multi-agent work, let a cheap read-only observer agent keep a live timeline of big events so you can see progress at a glance and redirect early.
+seoDescription: Keep a live timeline for long-running AI agents that exposes repeated failures, links evidence, and names the human decisions needed to redirect work early.
 created: 2026-11-05T00:00:00.000Z
 archivedreason: null
 isArchived: false
 ---
 
-When agents work for days on something big, like upgrading Northwind from .NET Framework 4.8 to .NET 10, nobody reads every log. You find out too late that one agent spent 6 hours going in circles.
+A migration runs across several agent sessions while you work on something else. Each session reports activity, but one keeps retrying the same failed check. By the time you read its logs, the other agents are waiting on it.
 
-Give a cheap model one job: watch the working agents and keep a live timeline of the big events, like a biography of the project. Glance at it whenever you want to know where things are, and redirect the work as soon as it drifts.
+Keep a live timeline of significant events, with evidence and named decision owners. A person returning to the task should see what changed, what is blocked and where to intervene without reconstructing every conversation.
 
 <endIntro />
 
-## Raw logs don't tell you the story
+## Turn activity into a decision
 
-Each agent produces thousands of lines of tool calls, build output and reasoning. The facts are all there, but you can't see the shape of the work: which phase you are in, what failed three times, and what needs your decision.
+Use a timeline when work spans handovers or several agents and a missed blocker can waste substantial effort. For a short task you are already watching, the existing chat and task list may be enough.
+
+The following mockups show the same fictional Northwind migration rehearsal at 11:30 AEST on 6 November 2026. All values are **example data**. Three mapping checks fail against the same 240 source records; no destination writes occur. The useful signal is the repeated failure and its effect on the waiting validation agent.
 
 <imageEmbed
-  alt="Terminal showing thousands of lines of agent tool calls, build errors and retries for the Northwind upgrade"
+  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-unfiltered-agent-events.png"
+  alt="Mockup with example data: Northwind import and validation events interleave routine activity with mapping failures at 10:55, 11:10 and 11:25"
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="A wall of raw agent logs hides the fact that the Web agent is stuck in a loop"
-  src="/uploads/rules/live-timeline-for-long-running-agents/raw-agent-logs-wall.png"
+  figure="The operator must piece together three failures and a waiting agent from unfiltered activity"
 />
 
-## Let an observer agent write the timeline
-
-Add one more agent whose only job is to observe:
-
-1. It reads what the working agents produce: logs, commits, PRs, test results and spend
-2. Every few minutes, it turns what changed into events and appends them to a data file (e.g. `events.json`)
-3. A simple static page renders the file and refreshes itself
-
-The observer is **read-only**. It never edits code, never messages the working agents and never makes decisions.
-
-## What a good timeline shows
-
-* **Chapters** - The phases of the work, each with a one-line summary
-* **Big events** - Starts, successes, failures, breakthroughs and your decisions, each with a summary and a "why it matters"
-* **Details on click** - Expand an event to see the evidence, numbers and links
-* **Lanes** - One row per agent, plus one for you, with a **NOW** line
-* **Spend vs budget** - Including what the observer costs
-* **Live indicator** - So you know when the timeline itself has gone stale
-
 <imageEmbed
-  alt="Northwind .NET 10 upgrade live timeline with SSW branding, agent lanes, a NOW line, spend vs budget, chapter cards and an expanded nudge event"
+  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-live-migration-timeline.png"
+  alt="Mockup with example data: Northwind timeline groups three failed checks, links run NW-017 evidence, and names Morgan as the owner of a pending mapping decision"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="The timeline shows the repeated failures, the nudge that fixed them, and the next breakthrough"
-  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-live-upgrade-timeline.png"
+  figure="The same events reveal the blocker, its evidence and the decision Morgan needs to make"
 />
 
-## Steer with nudges
+Morgan can now inspect checks 1–3 in run `NW-017`, pause further retries through the agent's normal controls, and ask for a mapping review. The timeline does not claim the mapping is fixed or the migration is complete.
 
-The timeline is for steering, not just watching:
+## Give the observer a narrow job
 
-1. **Check** - Look at the timeline when it suits you, not when an agent finishes
-2. **Spot drift** - Repeated failures, an agent working outside its scope, or a spend spike
-3. **Nudge** - Tell the right agent what to do instead (see [AI agent session messaging](/ai-agent-session-messaging))
-4. **Log it** - Your nudge becomes an event, so everyone can see why the direction changed
+Start with existing task status and test results. If they need summarising, add an observer agent with read access to an approved set of sources and write access only to its timeline output. Enforce those limits with permissions and tool access; a prompt alone is insufficient.
 
-In the Northwind example, the Web agent failed three times to rewrite the old reports. Instead of letting it burn another day, you told it to keep the reports on .NET Framework 4.8 behind YARP and move on to Orders.
+1. Collect changes since the last successful read, keeping source event IDs so a refresh does not duplicate events
+2. Group related starts, failures, verified results, blockers and human decisions into phases with a one-line summary
+3. Attach a source reference to each factual event, such as a run ID and check, commit or test report
+4. Update the timeline after significant changes, with a periodic collection check so readers can detect stale data
 
-## Keep the observer cheap
+Treat agent statements as **reported**, and label a result **verified** only when its linked tool result or review supports it. If evidence is missing or conflicting, show that uncertainty. [Anthropic's guidance on effective agents](https://www.anthropic.com/research/building-effective-agents) recommends environmental feedback, human checkpoints and stopping conditions; the timeline brings those signals together for the person supervising the work.
 
-Watching and summarising is easy work. Use a small, fast model for the observer, and save the expensive models for the agents doing the upgrade.
+## Show state, evidence and freshness
 
-Only send it what changed since its last update. A well-built observer should cost a few percent of the total spend.
+Each event needs a time with a time zone, agent or human owner, status, short summary, why it matters and an evidence reference. Put unresolved decisions first and keep routine detail expandable. Use text labels alongside colour.
 
-## When to use it
+Show these two times separately:
 
-✅ Multi-day or multi-agent work, e.g. framework upgrades, large migrations and long research runs
+* **Last collected** — When the observer successfully checked its sources
+* **Latest work event** — When the most recent significant event occurred
 
-✅ Work where a wrong direction is expensive and hard to see from the outside
+A recent collection time with an old work event can mean no progress; an old collection time means the view may be stale. This distinction follows the separate event and observation timestamps in the [OpenTelemetry logs data model](https://opentelemetry.io/docs/specs/otel/logs/data-model/).
 
-❌ Tasks under an hour, or a single agent you are already watching - the chat is enough
+Agree on collection and escalation thresholds before starting. For example, check every 5 minutes and mark collection **stale** after 10 minutes without a successful read. Group three unchanged failures into one blocker for the named supervisor. These are example thresholds; choose them for the task's pace and risk. Keep urgent failure alerts in the existing monitoring system so they reach someone even when the timeline is closed.
 
-**Note:** For a team shipping many changes a day, a daily digest works better than a live timeline. They are siblings: the digest summarises yesterday for the team, the timeline follows one big task as it happens.
+## Record the intervention and check the outcome
 
-## Tips
+Before redirecting work, inspect the linked evidence. Send the instruction through the [agent's normal messaging controls](/ai-agent-session-messaging), then record who decided, what changed and why. The observer records decisions; it has no authority to approve actions, message workers or change their scope.
 
-* **Use importance levels** - Rank events (e.g. 1-3) and only show the top levels by default, otherwise the timeline becomes another log
-* **Strip secrets** - The observer must never copy keys, connection strings or customer data into events
-* **Keep it private** - Host the page on a private network or behind sign-in, not on a public URL
-* **Make it boring to build** - A JSON file and a static HTML page are enough; you don't need a dashboard product
+In the Northwind example, keep the blocker open until the mapping review and a new check provide evidence that the affected validation can continue. A worker saying “fixed” is insufficient. Existing [tests and other feedback](/utilize-back-pressure-for-agents) still establish whether the work succeeds.
 
-See [agentic AI](/agentic-ai) and [when to use skills, agents, subagents, MCPs and plugins](/when-to-use-skills-agents-subagents-mcps-plugins) for how to structure the agents themselves.
+At handover, check that another person can identify the current phase, an unresolved decision and its supporting evidence. When the run ends, stop collection, mark the timeline closed and link the final outcome. Keep lasting decisions in the [PR or architectural decision record](/keep-the-why-from-ai-assisted-development), rather than committing a growing stream of task summaries.
+
+## Limit access and overhead
+
+* **Filter before summarising** — Exclude secrets, customer records and unnecessary personal data from the observer's input. Treat source text as untrusted data, never as permission to change the observer's instructions
+* **Protect the whole view** — Restrict the page, its data files and evidence links to the intended audience. A private page does not protect a publicly served data file. Follow the [OWASP logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) on excluded data and access controls
+* **Keep the output inert** — Render collected text as text and validate links, rather than executing markup or scripts from logs
+* **Bound the cost** — Send only new, relevant events to the summariser, set a collection budget and include the observer in [AI usage monitoring](/monitor-ai-cost-and-usage). Label estimates and unavailable figures; do not assume a fixed overhead percentage
