@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you avoid silent model fallbacks in AI pipelines?
-seoDescription: Keep model changes explicit, validate outputs before saving, bound retries, and record the actual model behind every AI-generated result.
+seoDescription: Prevent silent model fallbacks in AI pipelines with explicit routing, bounded retries, output validation and model provenance for every saved result.
 guid: d14f2cb2-bccd-4868-9b62-e041d7ccca8b
 uri: no-silent-model-fallback-in-ai-pipelines
 created: 2026-10-21T13:11:01.799Z
@@ -18,63 +18,91 @@ archivedreason: null
 isArchived: false
 ---
 
-A document pipeline passes every health check, but some summaries omit important fields. When its preferred model times out, the gateway silently switches to another model. Both return valid JSON. The saved rows contain no model details, so the team cannot identify which summaries need checking.
+A nightly product-description job reports success, but some descriptions contain unsupported claims. Its preferred model times out, so a catch-all handler silently calls another model. Both return valid JSON. The saved rows contain no model details, leaving operators unable to identify the affected products.
 
-**Make model changes explicit and traceable.** Availability is useful only when the replacement still meets the feature's quality and data-handling requirements.
+**Make model changes explicit, tested and traceable.** A successful API call does not prove that a replacement meets the pipeline's quality or data-handling requirements. When no approved route succeeds, leave the item visibly failed or pending review.
 
 <endIntro />
 
+## Keep a failed item visible
+
+This Northwind nightly job uses **example data**. The source says only "Ceramic mug, 350 ml"; it provides no heat-retention evidence. `A-v1` and `B-v1` are fictional model identifiers, not provider model names. Only `A-v1` is approved for this job.
+
 <boxEmbed
   style="greybox"
   body={<>
-    Model A times out. A catch-all handler calls Model B, stores its response and reports success. The record says only "AI generated".
+    ```text
+    Product: NW-MUG-350 | Prompt: product-copy-v3
+    Attempt 1: requested=A-v1 | timeout
+    Attempt 2: requested=B-v1 | valid JSON
+    Description: "Keeps drinks hot for 12 hours."
+    Checks: JSON schema only
+    Result: saved | job reports success | model not recorded
+    ```
   </>}
   figurePrefix="bad"
-  figure="Illustrative example - A green pipeline hides a model change and leaves affected records untraceable"
+  figure="An unapproved fallback saves an unsupported claim, and the record cannot identify which model wrote it"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    The pipeline requests its configured model and validates the response. A truncated response gets a bounded retry on the same model with a larger output allowance. After the last failed attempt, the item is marked failed and queued for review. Successful records include the actual model and prompt version.
+    ```text
+    Product: NW-MUG-350 | Prompt: product-copy-v3
+    Attempt 1: requested=A-v1 | returned=unknown | timeout
+    Attempt 2: requested=A-v1 | returned=A-v1 | valid JSON
+    Description: "Keeps drinks hot for 12 hours."
+    Checks: schema passed | unsupported claim rejected
+    Result: pending review | existing description unchanged
+    Operator alert: NW-MUG-350 needs review after 2 attempts
+    ```
   </>}
   figurePrefix="good"
-  figure="Illustrative example - A failed item is visible and every saved result has model provenance"
+  figure="The retry stays on the approved model; validation rejects the claim and preserves the existing description"
 />
 
-## Pin the intended model and record the actual one
+The second job still has an unfinished item, but it does not publish unverified copy. Its attempt records explain why the operator needs to act.
 
-Choose a model and version for the pipeline, then run [evals](/run-evals-on-ai-features) before changing either. Check whether the gateway or provider has its own fallback or automatic upgrade policy; an application setting alone cannot prevent a switch downstream. Plan for [model retirements](/ai-model-retirements).
+## Check every layer that can change the model
 
-For each saved result, record:
+Choose a model and version where supported, then run [evals](/run-evals-on-ai-features) before changing them. Inspect the application, SDK, gateway and deployment settings. A retry repeats a request; a model fallback changes the model used to fulfil it. Retrying the same deployment name does not guarantee the same model if a gateway routes it elsewhere or the deployment upgrades.
 
-* **Requested deployment**
-* **Actual model and version** - When the provider exposes them
-* **Provider**
-* **Prompt version**
-* **Validation outcome**
+For example, [Microsoft Foundry model-version policies](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/model-versions) can automatically upgrade Standard deployments. Review the policy for your deployment type and plan for [model retirements](/ai-model-retirements); pinning a version does not keep it available forever.
 
-A deployment alias is not proof of the resolved model. If the provider does not expose a version, record that limitation rather than inventing one. Keep request or attempt IDs so operators can trace failures without logging sensitive prompts or documents.
+Record the following with each saved result, and retain attempt records for failures:
+
+* Requested model or deployment, provider and routing-configuration revision
+* Provider-reported model identifier and version, when exposed
+* Prompt version, validation outcome and any fallback reason
+* Job, item and request IDs that connect the result to its attempts
+
+A deployment alias is not evidence of its resolved version. When response metadata is insufficient, use deployment or gateway records and record any remaining uncertainty. If an exact approved version is required and cannot be established, hold the item for review. Keep sensitive prompts, credentials and source documents out of routine logs.
 
 ## Retry for a reason, with a limit
 
-Set a maximum attempt count, timeout and total budget. Classify the failure before choosing the next step:
+Set a total attempt limit, a per-attempt timeout, an overall deadline and a token or cost budget. Include retries inside SDKs and gateways in those limits.
 
-* **Truncated output** - Retry the same model with a larger output allowance, within its supported limit and the task budget
-* **Transient timeout or throttling** - Retry the same model with bounded backoff, respecting provider retry guidance. See [Do you set up alerts for your AI services?](/ai-service-alerts)
-* **Malformed or incomplete output** - Reject it and use a bounded retry if the error is recoverable. More tokens do not fix every schema or meaning error
-* **Refusal, permissions or policy failure** - Handle the reason explicitly. Do not switch models to get around the restriction
+The [OpenAI Python SDK](https://developers.openai.com/api/reference/python#retries) and [Anthropic Python SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python#retries) document two automatic retries for certain connection and HTTP errors by default. Both expose `max_retries`; `0` disables these retries. These settings govern retries, not approval of another model. Check your installed SDK version and routing configuration separately.
 
-Record each attempt and its outcome. After the limit, expose a failed or pending-review state and alert the operator. Do not store an empty result as success just to keep the job green.
+| Failure | Action within the remaining budget |
+| --- | --- |
+| Transient timeout or throttling | Retry the approved route with backoff and jitter, respecting the provider's retry delay |
+| Output stopped at its token limit | Reject the partial result; consider a larger output allowance on the same model, within its supported limits |
+| Invalid schema or unsupported claim | Reject it; retry only when there is a specific, recoverable cause |
+| Refusal, permissions, billing or policy failure | Handle the cause explicitly; do not switch models to bypass a restriction |
+
+Follow the provider's [rate-limit guidance](https://developers.openai.com/api/docs/guides/rate-limits). Disable SDK retries when the application owns retries, or account for both layers so nested loops do not multiply attempts. If a retry delay exceeds the job's remaining deadline, defer the item. After the limit, expose failure or pending review and [alert the operator](/ai-service-alerts).
 
 ## Validate before saving
 
-Check required fields, types, allowed values and evidence requirements. A syntactically valid object may still be useless. Define when an empty list is a legitimate "nothing found" result and when it means extraction failed. Validate meaning with task-specific checks and evals, rather than assuming schema validity proves correctness.
+Check completion status and refusals before consuming a result, then validate required fields, types, allowed values and task-specific evidence. [Structured Outputs can still contain mistakes](https://developers.openai.com/api/docs/guides/structured-outputs). Schema compliance does not establish that a claim is supported.
 
-Retries must not repeat a business write. Generate and validate first, then save once using an idempotent operation.
+For Northwind, a heat-retention claim needs supporting product evidence. Without it, reject the candidate or send it for review. Define when empty output legitimately means "nothing found" and when it means the task failed.
+
+Keep generation retries separate from business writes. Save only an accepted result, using an idempotent operation keyed to the item and job so a replay does not publish it twice. Preserve the existing value when generation fails.
 
 ## When is fallback appropriate?
 
-An explicitly designed fallback can improve availability. Evaluate the replacement on the same cases, approve its data boundary and quality threshold, and make degraded operation visible. Record which model produced each result and provide a way to review or reprocess affected items.
+An explicit fallback can improve availability when its trade-offs are acceptable. Evaluate the replacement on the same cases, approve its quality threshold and data boundary, and define which failures may trigger it. Make its use visible to operators, record model provenance and provide a way to review or reprocess affected items.
 
-For a low-risk interactive feature, a clearly labelled reduced service may be acceptable. For an unattended extraction pipeline, failing one item for review may be preferable to silently saving a result from an untested model.
+Before release, force a timeout, a throttled response, an invalid output and an unexpected route change in a safe fixture. Confirm that attempts stay within the budget, unapproved models cannot produce a saved result, rejected output leaves stored data unchanged, and the operator can find the affected item. A green job is useful only when it also meets these conditions.
