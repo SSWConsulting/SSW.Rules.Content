@@ -1,0 +1,73 @@
+---
+type: rule
+title: Do you make your R&D experiment outcomes measurable?
+seoDescription: Make every R&D experiment measurable. Compare options against the same input and expected result, and record the numbers so you can prove what happened.
+guid: fff45214-1d43-4396-b744-e2e222ba65c6
+uri: make-rd-experiment-outcomes-measurable
+created: 2026-11-03T22:01:34.000Z
+authors:
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/know-the-three-parts-of-rd/rule.mdx
+  - rule: public/uploads/rules/do-you-record-your-failures/rule.mdx
+  - rule: public/uploads/rules/do-you-record-your-research-under-the-pbi/rule.mdx
+categories:
+  - category: categories/company-operations/rules-to-better-research-and-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A pull request that says "I picked this LLM" shows a decision, not an experiment. An R&D assessor needs to see what you tried, what you measured, and why you chose what you chose. Without measured results, you cannot prove the work was experimental.
+
+<endIntro />
+
+## Make the outcome measurable before you start
+
+Decide how you will judge success **before** running the experiment. This is your benchmark, and it comes from your core activity. See [Do you define your core activities for R&D?](/do-you-define-your-core-activities).
+
+For each experiment, define:
+
+* **The input** - the same data for every option (for example, one call transcript)
+* **The expected result** - what a correct answer looks like (for example, the list of tasks you know are in the call)
+* **The measure** - how you will score each option (for example, the percentage of expected tasks found)
+
+## Compare options, don't just pick one
+
+Test several options against the same input and expected result, then record the results side by side.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Experiment:** Which LLM identifies tasks best from a call transcript?
+
+    * Input: the same transcript for every model
+    * Expected: the 12 tasks discussed in the call
+    * Result: each model's score, and the one chosen with the reason why
+  </>}
+  figurePrefix="good"
+  figure="Several options are tested against the same input, with measured results"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    PR title: "Use Model X for task extraction"
+
+    No other tests or results are recorded.
+  </>}
+  figurePrefix="bad"
+  figure="A decision with no evidence of what was tested or why"
+/>
+
+## Document your results
+
+You need to be able to **prove what happened**. For every experiment:
+
+* Record the scores or outcomes, including for the options you did not choose
+* Say what you learned, even when the experiment failed. See [Do you document your failures for R&D?](/do-you-record-your-failures)
+* Keep the results with the PBI, not only in a chat or on your machine. See [Do you record your research under the PBI?](/do-you-record-your-research-under-the-pbi)
+
+Failed experiments still count as R&D. A clearly recorded "this did not work, and here is the data" is valuable evidence.

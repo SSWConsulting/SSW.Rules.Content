@@ -1,0 +1,234 @@
+---
+type: rule
+title: Do you use permission buckets for endpoint authorization?
+seoDescription: Group endpoint permissions into read, write and manage buckets per feature area instead of one permission per endpoint, so policies stay small, tokens stay lean and access is easy to assign and audit.
+guid: f76abc8c-782e-47e8-8c80-8d5385fd32d7
+uri: use-permission-buckets-for-endpoint-authorization
+created: 2026-11-02T04:50:00.000Z
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/do-you-use-the-authorize-attribute-to-secure-actions-or-controllers/rule.mdx
+  - rule: public/uploads/rules/give-users-least-privileges/rule.mdx
+  - rule: public/uploads/rules/modern-stateless-authentication/rule.mdx
+  - rule: public/uploads/rules/choosing-authentication/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+An API starts with a handful of endpoints, and giving each one its own permission feels precise. A year later there are 300 endpoints, 300 permissions, a token stuffed with permission claims, and an admin who has to tick 40 boxes to let someone view and update teams. Nobody can say for sure what a group is allowed to do, and every new endpoint means another permission to create, assign and remember.
+
+<endIntro />
+
+Instead, give each feature area (module) a small, fixed set of permission buckets, and make every endpoint require one of them:
+
+* `module:read` - View data
+* `module:write` - Create and change data as part of normal day-to-day work
+* `module:manage` - Administrative or high-impact actions, such as deleting, disbanding, or changing who has access
+
+Groups are granted buckets, and endpoints check buckets. Access becomes easy to explain ("Mission coordinators can write teams"), easy to audit, and new endpoints usually need no new permission at all. Classify each new endpoint by impact when adding it, because it's open to every holder of that bucket the moment it deploys. Give it a sub-permission if not everyone holding the bucket should have it.
+
+## Don't create one permission per endpoint
+
+```csharp
+var group = app.MapGroup("/api/teams");
+
+group.MapGet("/", GetAllTeams).RequireAuthorization("teams.get-all");
+group.MapGet("/{teamId:guid}", GetTeam).RequireAuthorization("teams.get-by-id");
+group.MapPost("/", CreateTeam).RequireAuthorization("teams.create");
+group.MapPost("/{teamId:guid}/heroes/{heroId:guid}", AddHeroToTeam).RequireAuthorization("teams.add-hero");
+group.MapPost("/{teamId:guid}/execute-mission", ExecuteMission).RequireAuthorization("teams.execute-mission");
+group.MapPost("/{teamId:guid}/complete-mission", CompleteMission).RequireAuthorization("teams.complete-mission");
+group.MapDelete("/{teamId:guid}", DisbandTeam).RequireAuthorization("teams.disband");
+```
+
+**❌ Figure: Bad example - Every endpoint has its own permission, so policies, claims and group assignments grow with every endpoint you add**
+
+A permission-per-endpoint model looks granular, but it causes:
+
+* **Policy sprawl** - Every endpoint needs its own policy registration and its own name to keep in sync
+* **Large tokens** - When permissions are issued as claims, every permission a user holds ends up in their token, adding size to every request
+* **Hard assignment** - Admins have to understand individual endpoints to give someone sensible access
+* **Gaps** - A new endpoint is easy to ship before anyone grants its permission, or with a copy-pasted permission that is wrong
+
+## Classify every endpoint into a bucket
+
+Define the permissions once, in one place, using a consistent `module:action` format. Register a named policy per bucket, then attach those policies to your endpoints.
+
+```csharp
+public static class Permissions
+{
+    public const string ClaimType = "permission";
+
+    public static class Teams
+    {
+        public const string Read = "teams:read";
+        public const string Write = "teams:write";
+        public const string Manage = "teams:manage";
+    }
+}
+
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy(Permissions.Teams.Read, policy => policy.RequireClaim(Permissions.ClaimType, Permissions.Teams.Read))
+    .AddPolicy(Permissions.Teams.Write, policy => policy.RequireClaim(Permissions.ClaimType, Permissions.Teams.Write))
+    .AddPolicy(Permissions.Teams.Manage, policy => policy.RequireClaim(Permissions.ClaimType, Permissions.Teams.Manage));
+
+var group = app.MapGroup("/api/teams");
+
+group.MapGet("/", GetAllTeams).RequireAuthorization(Permissions.Teams.Read);
+group.MapGet("/{teamId:guid}", GetTeam).RequireAuthorization(Permissions.Teams.Read);
+group.MapPost("/", CreateTeam).RequireAuthorization(Permissions.Teams.Write);
+group.MapPost("/{teamId:guid}/heroes/{heroId:guid}", AddHeroToTeam).RequireAuthorization(Permissions.Teams.Write);
+group.MapPost("/{teamId:guid}/execute-mission", ExecuteMission).RequireAuthorization(Permissions.Teams.Write);
+group.MapPost("/{teamId:guid}/complete-mission", CompleteMission).RequireAuthorization(Permissions.Teams.Write);
+group.MapDelete("/{teamId:guid}", DisbandTeam).RequireAuthorization(Permissions.Teams.Manage);
+```
+
+**✅ Figure: Good example - Seven endpoints share three bucket permissions, and the next "read" endpoint needs no new permission**
+
+Make the buckets cumulative: `manage` includes `write`, and `write` includes `read`. Keep only the highest granted bucket in the token, and expand it on the server when the request arrives, so a group only needs that one bucket and the token stays lean.
+
+Back the policies with tests that call each endpoint without a token, with the wrong bucket, and with the right bucket, and check for 401, 403 and success.
+
+## Split manage into sub-permissions when you need finer control
+
+Sooner or later, someone needs to do one administrative action without getting all of `manage`. For example, a mission coordinator should be able to abort a mission that has gone wrong, but not disband a team or change who has access to the module.
+
+Don't solve this with a growing pile of unrelated one-off permissions. Instead, break `manage` into named sub-permissions, and make `manage` a roll-up grant that resolves to all of them:
+
+* Once you split `manage`, move `DisbandTeam` to the `teams:disband` sub-permission and stop checking the `teams:manage` policy on endpoints
+* Granting `teams:manage` still gives every sub-permission, including ones added later, so existing groups need no re-assignment
+* Keep only the highest grant in the token. Expand it on the server at request time, so a new sub-permission applies on the next request and the token stays lean
+* Granting a single sub-permission gives only that action - it does not pull in `write` or `read` as well
+
+Update the nested `Permissions.Teams` class from the earlier example, and keep using `Permissions.Teams` at the call sites and in the hierarchy dictionary. Loop over `Permissions.Teams.All` before `builder.Build()` and require each permission's own claim. That replaces the three `AddPolicy` calls above, so a new permission added to `All` is not left unregistered. Leave the read and write endpoints on `Permissions.Teams.Read` and `Permissions.Teams.Write`.
+
+`Permissions.ImpliedBy` stores the whole hierarchy. The `IClaimsTransformation` adds the implied claims for the request, before authorization, so the `RequireClaim` policies succeed while the token stays lean. A custom authorization handler that reads the same dictionary can apply the hierarchy instead of `RequireClaim`.
+
+```csharp
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+
+public static class Permissions
+{
+    public const string ClaimType = "permission";
+
+    public static class Teams
+    {
+        public const string Read = "teams:read";
+        public const string Write = "teams:write";
+        public const string Manage = "teams:manage"; // Roll-up grant only - no endpoint checks this
+
+        public const string Disband = "teams:disband";
+        public const string AbortMission = "teams:abort-mission";
+        public const string ManageAccess = "teams:manage-access";
+
+        public static readonly string[] All =
+        [
+            Read,
+            Write,
+            Manage,
+            Disband,
+            AbortMission,
+            ManageAccess,
+        ];
+    }
+
+    // Whole hierarchy, applied on the request. The token keeps only the grant.
+    // Write implies Read.
+    // Manage implies Write, Read and every sub-permission.
+    // A sub-permission implies nothing else.
+    public static readonly Dictionary<string, string[]> ImpliedBy = new()
+    {
+        [Permissions.Teams.Write] = [Permissions.Teams.Read],
+        [Permissions.Teams.Manage] =
+        [
+            Permissions.Teams.Write,
+            Permissions.Teams.Read,
+            Permissions.Teams.Disband,
+            Permissions.Teams.AbortMission,
+            Permissions.Teams.ManageAccess,
+        ],
+    };
+}
+
+var authorization = builder.Services.AddAuthorizationBuilder();
+
+foreach (var permission in Permissions.Teams.All)
+{
+    var requiredPermission = permission;
+    authorization.AddPolicy(
+        requiredPermission,
+        policy => policy.RequireClaim(Permissions.ClaimType, requiredPermission));
+}
+
+builder.Services.AddTransient<IClaimsTransformation, PermissionHierarchyTransformation>();
+
+var app = builder.Build();
+
+var group = app.MapGroup("/api/teams");
+
+group.MapDelete("/{teamId:guid}", DisbandTeam).RequireAuthorization(Permissions.Teams.Disband);
+group.MapPost("/{teamId:guid}/abort-mission", AbortMission).RequireAuthorization(Permissions.Teams.AbortMission);
+
+public class PermissionHierarchyTransformation : IClaimsTransformation
+{
+    public Task<ClaimsPrincipal> TransformAsync(ClaimsPrincipal principal)
+    {
+        if (principal.Identity is not ClaimsIdentity identity || !identity.IsAuthenticated)
+        {
+            return Task.FromResult(principal);
+        }
+
+        var granted = new HashSet<string>();
+        foreach (var claim in principal.FindAll(Permissions.ClaimType))
+        {
+            granted.Add(claim.Value);
+        }
+
+        var extras = new List<string>();
+        foreach (var permission in granted)
+        {
+            if (Permissions.ImpliedBy.TryGetValue(permission, out var implied))
+            {
+                extras.AddRange(implied);
+            }
+        }
+
+        foreach (var extra in extras)
+        {
+            if (granted.Add(extra))
+            {
+                identity.AddClaim(new Claim(Permissions.ClaimType, extra));
+            }
+        }
+
+        return Task.FromResult(principal);
+    }
+}
+```
+
+**✅ Figure: Good example - Sub-permissions are registered in one loop, manage expands to the whole hierarchy on the request, and each high-impact action can be granted on its own**
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Permission buckets decide whether a user can call an endpoint at all. Record-level rules, such as "a hero can only update their own profile", still belong inside the endpoint or the domain logic.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Learn more
+
+* [Policy-based authorization in ASP.NET Core (Microsoft Learn)](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies)
+* [Authentication and authorization in minimal APIs (Microsoft Learn)](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/security)
