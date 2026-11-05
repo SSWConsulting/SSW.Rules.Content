@@ -85,6 +85,15 @@ test('checkout preview is available', async ({ request }) => {
   figure="If the assertion fails after enabling the flag, the reset is skipped and the next tester inherits the changed value"
 />
 
+<imageEmbed
+  src="/uploads/rules/restore-shared-test-state-after-automated-tests/northwind-flag-left-enabled.png"
+  alt="Northwind Checkout preview stays ON after a failed Playwright assertion skips reset, so the next tester sees the wrong checkout"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Illustration: the failed assertion skips the reset, leaving the shared flag ON for the next tester"
+/>
+
 ```typescript
 import { writeFile } from 'node:fs/promises';
 import { test as base, expect, type APIRequestContext } from '@playwright/test';
@@ -121,6 +130,15 @@ test('checkout preview is available', async ({ checkoutPreview }) => {
   </>}
   figurePrefix="good"
   figure="The fixture saves the original flag, restores it after a failed assertion, and verifies the persisted value"
+/>
+
+<imageEmbed
+  src="/uploads/rules/restore-shared-test-state-after-automated-tests/northwind-flag-restored-verified.png"
+  alt="The same Northwind assertion fails, but fixture teardown restores Checkout preview to its captured OFF value and reads back OFF before releasing the environment"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Illustration: the assertion still fails, but teardown restores the original OFF value and verifies it before reuse"
 />
 
 Keep the saved file with the run's environment identity and reservation details so an interrupted run can be recovered. Configure the runner to retain recovery artifacts. [Playwright gives teardown its own time budget](https://playwright.dev/docs/test-timeouts#test-timeout); use bounded operations and allow enough time for restoration and verification.
