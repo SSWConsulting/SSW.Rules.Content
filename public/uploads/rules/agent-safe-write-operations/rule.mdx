@@ -103,7 +103,9 @@ An operation that already has idempotent business effects may not need a key. Se
 
 ## Require trusted approval for high-impact changes
 
-For destructive, sensitive or large bulk writes, show the exact targets, effects and recovery limits before a person approves. Enforce approval outside the agent's control. For example, a server can require a short-lived approval token issued through an authenticated human flow and bound to the caller, operation, payload and record versions. Reject an expired or mismatched approval. An agent-supplied `--yes` flag is only an acknowledgement.
+For destructive, sensitive or large bulk writes, show the exact targets, effects and recovery limits before a person approves. Enforce approval outside the agent's control. A server can require a short-lived token issued through an authenticated human flow and bound to the caller, operation, payload and record versions. An agent-supplied `--yes` flag is only an acknowledgement.
+
+Bind approval to one durable operation intent. Before executing, atomically consume it in shared server-side state; reject expired, mismatched or previously consumed approvals for a new execution, even with a fresh idempotency key. Persist the execution state so recovery resumes that intent instead of starting another write. An authorised retry of the completed request returns its receipt without consuming approval again. See [OWASP's transaction-authorisation guidance](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html).
 
 The MCP [tool annotations](https://modelcontextprotocol.io/specification/2026-07-28/schema#toolannotations) `destructiveHint` and `idempotentHint` describe behaviour; they neither enforce approval nor prevent duplicates. Treat annotations from untrusted servers as untrusted.
 
@@ -120,4 +122,5 @@ Before exposing the tool, exercise the failure path in a disposable fixture:
 1. Commit an order, then drop the response. Retry with the same key and payload. Confirm one order and one intended shipment effect
 2. Send concurrent same-key requests, then reuse that key with changed quantities. Confirm a single write and rejection of the changed payload
 3. Check that dry runs change no business data, stale versions and invalid approvals are rejected, and denied callers cannot obtain a replayed receipt
-4. Cancel the test order through the recovery path. Confirm its final state and a linked audit record
+4. Attempt to reuse one approval with a fresh key and submit concurrent requests against it. Confirm at most one execution, rejection of reuse, and safe receipt replay for the original request
+5. Cancel the test order through the recovery path. Confirm its final state and a linked audit record
