@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you use a visual digest when changes outpace your Daily Scrum?
-seoDescription: Keep busy teams aligned with a visual daily digest of changes, evidence and proposals, checked by a person before the Daily Scrum.
+title: Do you use a daily development digest when changes outpace discussion?
+seoDescription: Keep busy teams aligned with a daily development digest that groups changes by theme, flags exceptions and links to evidence before the Daily Scrum.
 guid: c8885ac1-86be-4525-8c1d-3930d2a28ae7
 uri: daily-development-digest
 created: 2026-11-03T00:00:00.000Z
@@ -11,12 +11,11 @@ authors:
 related:
   - rule: public/uploads/rules/bread-daily-scrums/rule.mdx
   - rule: public/uploads/rules/methodology-daily-scrums/rule.mdx
-  - rule: public/uploads/rules/done-video-by-ai/rule.mdx
+  - rule: public/uploads/rules/when-to-send-a-done-email-in-scrum/rule.mdx
+  - rule: public/uploads/rules/give-clear-status-updates/rule.mdx
   - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
-  - rule: public/uploads/rules/cloud-ai-agents/rule.mdx
+  - rule: public/uploads/rules/done-video-by-ai/rule.mdx
   - rule: public/uploads/rules/indicate-ai-helped/rule.mdx
-  - rule: public/uploads/rules/what-happens-at-a-sprint-review-meeting/rule.mdx
-  - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
 categories:
   - category: categories/project-delivery/rules-to-better-scrum.mdx
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
@@ -24,165 +23,73 @@ archivedreason: null
 isArchived: false
 ---
 
-When your team merges more PRs than it can talk through, the Daily Scrum can become a status list. A failed deployment or open decision gets lost among completed changes.
+When a team merges more pull requests (PRs) than it can discuss, a failed deployment or reverted feature gets lost among completed changes. Reading each person's update still leaves the team to reconstruct what changed across the product.
 
-Post a short, visual "what happened yesterday" digest before the meeting: changes grouped by theme, exceptions first, and every claim linked to evidence. Then use the Daily Scrum for what needs the team.
+Post a short daily development digest before the Daily Scrum: group changes by theme, put exceptions first, and link claims to evidence. A person checks the draft so the team can arrive ready to inspect progress and plan its next steps.
 
 <endIntro />
 
-```mermaid
-flowchart TD
-    PRs["Merged PRs"]
-    CI["CI stats"]
-    Shots["PR screenshots"]
-    Agent["Scheduled agent<br>runs overnight"]
-    Group["Group by theme"]
-    Make["Draft digest, mockups<br>and 45 sec video"]
-    Check{"Human check:<br>matches the PRs?"}
-    Fix["Fix or cut<br>the claim"]
-    Post["Post to the<br>team channel"]
-    Scrum(["Daily Scrum<br>discusses exceptions"])
+## Show outcomes and exceptions together
 
-    PRs --> Agent
-    CI --> Agent
-    Shots --> Agent
-    Agent --> Group --> Make --> Check
-    Check -->|"No"| Fix --> Check
-    Check -->|"Yes"| Post
-    Post -->|"Team reads it first"| Scrum
-```
+Summarise the reporting window across the team, rather than repeating individual updates. Name the user benefit under themes such as Orders, Customers and Platform. Put failed deployments, reverts, blockers and decisions above those themes, with an owner and next action.
 
-**Figure: An overnight agent drafts the digest, and a person checks it before the team reads it**
+These matched illustrations use **example data** from a fictional Northwind team. All people, PRs, builds and links are fictional. Both show the same six merged PRs; the second also includes the deployment and verification evidence needed to interpret them.
 
-## Group yesterday by theme, exceptions first
-
-All Northwind figures, counts, identifiers and timings below use **example data**. A raw list makes readers reconstruct the day:
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Yesterday's changes (27 PRs)**
-
-    ```text
-    $ git log --oneline --merges --since=yesterday
-    c41e9a2 Merge PR #1430 order-notes-field
-    b77d0f3 Merge PR #1426 bump-dependencies
-    a9c3e11 Merge PR #1425 orders-api-retry
-    9f2b7c4 Merge PR #1424 revert-1418
-    8e1a5d0 Merge PR #1423 sales-region-date-range
-    7d4c2b9 Merge PR #1421 fix-flaky-order-test
-    6c9e8f1 Merge PR #1420 orders-search-migration
-    5b3a7e2 Merge PR #1419 ship-date-picker
-    4a2f6d3 Merge PR #1418 orders-bulk-export
-    3f1e5c4 Merge PR #1417 refactor-orders-grid
-    2e0d4b5 Merge PR #1416 orders-status-chips
-    1d9c3a6 Merge PR #1413 phone-formatting
-    ... 15 more
-    ```
-  </>}
+<imageEmbed
+  src="/uploads/rules/daily-development-digest/northwind-digest-raw-list.png"
+  alt="Illustration using example data: six Northwind merges appear under All shipped, including bulk export and its revert. The list omits the failed staging deployment and asks readers to find what needs discussion."
+  size="large"
+  showBorder={true}
   figurePrefix="bad"
-  figure="A raw list of 27 merges buries the revert and never mentions the failed deployment"
+  figure="A merge list calls everything shipped and hides the failed deployment and the effect of the revert"
 />
 
-A polished dashboard can hide the same problems:
-
 <imageEmbed
-  alt="Purple gradient Northwind Team Pulse dashboard full of emoji, with vanity tiles such as 14,203 lines of code shipped and +847% velocity, a tile claiming 100% all systems healthy, unlabelled charts and a top shippers leaderboard"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Vanity metrics and decorative charts say all systems are healthy while the staging deployment has failed"
-  src="/uploads/rules/daily-development-digest/ai-slop-progress-dashboard.png"
-/>
-
-* Group outcomes into Orders, Customers, Reporting and Platform, explaining who benefits.
-* Put blockers, failed deployments, reverts and open decisions first.
-* Link every claim to its PR, PBI or build. Keep the complete inventory below the highlights.
-
-<imageEmbed
-  alt="Yesterday at Northwind digest, generated by AI and checked by Sam. Example-data tiles show 27 PRs merged, 20 items, 120 tests passed and a failed staging deploy. A Needs discussion list comes first, then Orders, Customers, Reporting and Platform sections with PR links and thumbnails labelled Screenshot or AI mockup - merged change, and a separate Proposals (not built) section labelled Proposal - not built"
+  src="/uploads/rules/daily-development-digest/northwind-digest-checked.png"
+  alt="Illustration using example data: the same six Northwind merges are grouped by theme. Alex checks the digest; staging failure and bulk-export revert have owners and next actions. Orders changes are merged only, Customers has a verified staging capture, Platform deployment is unknown, and a separate proposal is not built."
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Changes are grouped by theme, exceptions come first, and every claim links to its PR, PBI or build"
-  src="/uploads/rules/daily-development-digest/yesterday-at-northwind-digest.png"
+  figure="The same six merges become a decision aid when exceptions, deployment state and source links sit beside the outcomes"
 />
 
-When development scale is very great, e.g. several AI agents working in parallel, a timeline of the day can work alongside or instead of themed cards. Give each workstream or agent its own lane and mark merges, team decisions and exceptions, so readers see both the volume and the flow of work. People steer during working hours; agents can keep testing overnight against a test environment.
+Keep the full PR inventory available behind a link. A theme can cover several PRs, so six merges need not mean six delivered features. Avoid per-person counts and leaderboards: they do not tell the team what is available or what needs attention.
 
-<imageEmbed
-  alt="Northwind - yesterday's timeline, with the SSW logo and example data. Tiles show 27 PRs merged, 20 items delivered, 18 team decisions between 8am and 6pm, 4 issues filed overnight and 2 exceptions to discuss. Lanes for merged PRs, team decisions, Orders, Customers, Reporting, Platform, overnight agents and proposals run from 7 am to 7 am. Decisions and merges cluster at 9 am, 12 pm, 3 pm and 5 pm, a bulk export revert and a failed staging deploy are marked as exceptions, and overnight agents hunt bugs on northwind.test with no human actions"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="A timeline shows the volume and flow of a busy day: team decisions cluster in working hours, while agents keep testing overnight"
-  src="/uploads/rules/daily-development-digest/northwind-yesterdays-timeline.png"
-/>
+## Collect a bounded, traceable set of evidence
 
-## Generate it overnight and check it before posting
+Start manually; schedule an agent when gathering the sources becomes repetitive. Give the drafting job read-only access to approved PR, work-item and build sources. It does not need permission to merge, deploy or post without review.
 
-Use a [scheduled agent](/cloud-ai-agents), e.g. Claude Opus 5.5, to draft the digest overnight. Feed it [PR descriptions](/write-a-good-pull-request), PBI updates, CI results and [captured UI evidence](/done-video-by-ai). Take numbers from Git and CI, never model estimates. Show unknowns as unknown.
+1. **Fix the scope** - Record the repository, target branch, start and end times, timezone and previous successful cutoff. Use adjacent windows, including weekends, so changes are neither missed nor counted twice.
+2. **Collect the changes** - Read the merged PRs and their descriptions, linked work items, reverts and unfinished work. Follow every page of results and deduplicate by PR identifier. Use repository metadata rather than a merge-commit count, which can miss [squash merges](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github#squashing-your-merge-commits).
+3. **Join the evidence** - Match each claimed outcome to its PRs, the deployed revision and environment, and any test or capture. Check deployment failures even when the build passes. [GitHub records deployment status separately](https://docs.github.com/en/rest/deployments/statuses#list-deployment-statuses); use your platform's equivalent.
+4. **State the limits** - Show unavailable sources and unknown states. If collection is incomplete, label the digest partial and omit totals that appear complete. After a failed run, collect from the previous successful cutoff.
 
-Specify the branch, reporting window, timezone and previous cutoff. Deduplicate items and account for reverts. Read the board for unfinished work. Keep **merged**, **deployed** and **verified** distinct: a passing build does not mean staging deployed successfully.
+Keep **merged**, **deployed** and **verified** distinct. A merged PR record establishes merge state; a successful deployment record identifies an environment and revision; a test or capture supports only the behaviour it checks. None alone proves that the work meets the team's Definition of Done.
 
-A named, rotating checker verifies claims, visuals and the complete video before posting. Sign "[Checked by Sam](/checked-by-xxx)" (fictional example) and [indicate AI assistance](/indicate-ai-helped), using 🤖🤖 when AI wrote the digest.
+## Label visuals and keep proposals separate
 
-Post a channel card linking the dated page and video. [Keep decisions with the work](/keep-the-why-from-ai-assisted-development); don't commit daily digests to the repository. If generation fails, post a smaller factual update.
+Reuse [captures from the running application](/done-video-by-ai) when they help explain a change. Show the environment and revision so readers can tell which version they see. Use synthetic data, inspect the whole frame for sensitive information, and check that the intended audience can access the linked evidence.
 
-## Label every visual and separate proposals
+Use visible labels that survive cropping and video playback:
 
-Build these labels into image and video templates, each with its own border, badge and icon:
+* **Screenshot** - A capture from the running application, with its environment and revision. It shows the captured state, not every acceptance criterion.
+* **AI mockup - merged change** - A labelled illustration of a merged PR. Check it against the diff; it explains the change without proving it runs.
+* **Proposal - not built** - An idea for discussion. Put it in **Proposals (not built)** after the change summaries and exclude it from delivered-work totals.
 
-* **Screenshot** - Captured from the running app in a test environment; proof of the captured state.
-* **AI mockup - merged change** - Illustrates a merged PR; explanation, not proof.
-* **Proposal - not built** - An idea for discussion; never Done evidence.
+The Northwind pair above is an illustration of a digest layout. Its sample evidence links and capture references demonstrate what to include; they are not real verification records.
 
-Make every mockup look like a mockup; see [Do you make mockups look like mockups?](/make-mockups-look-like-mockups).
+Compare matching viewports for before-and-after captures. Remove or mark reverted features, and describe non-visual work in words rather than inventing a screen. An optional short video can summarise selected highlights, but keep labels and captions visible and check every scene before sharing. Omit it when it adds no useful explanation.
 
-Generate merged-change mockups from the PR diff and previous capture. Compare matching viewports and verify that reverted features disappear. Describe non-UI work under Platform without inventing a screen.
+## Check the draft before the team reads it
 
-<imageEmbed
-  alt="Before and after panels of the Northwind Orders grid, each with a dashed border labelled AI mockup - merged change. After adds coloured status chips and a status filter for Delayed 2 and Pending 1, marked 1 and 2. The footer reads Illustrates PR #1416 + #1417, not a screenshot, verify in the PR"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="A labelled mockup illustrates the merged Orders changes and identifies the supporting PRs"
-  src="/uploads/rules/daily-development-digest/orders-grid-status-chips-before-after.png"
-/>
+A named, rotating checker verifies each summary against its sources, reconciles the counts, and checks visual labels and audience access. In the Northwind example, Alex confirms that PR #205 reverts #204 and that build #701 fails on staging; neither a merge total nor a green build can replace that check.
 
-Place proposals after the shipped themes in their own **Proposals (not built)** section. Exclude them from Done totals. For example, PBI 345 proposes an Order timeline panel on Northwind's Order details page; it is not built.
+Record the checker and check time on the dated page, and [indicate AI assistance](/indicate-ai-helped) when used. Post one concise channel message linking the digest. If review is unavailable, hold the generated draft and share only a smaller update someone can verify. Escalate urgent incidents when they occur; do not wait for the next digest.
 
-<imageEmbed
-  alt="Northwind Order details page for order 10250, Hanari Carnes, inside a blue diagonal-hatched border labelled Proposal - not built. A proposed Order timeline panel lists the order, payment, picking, a stock delay and the due ship date. The footer reads Proposal for PBI 345, not built, discuss in the Daily Scrum"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="The proposed Order timeline is clearly separated from delivered work and invites a decision"
-  src="/uploads/rules/daily-development-digest/proposal-order-timeline-mockup.png"
-/>
+## Use the digest to prepare, then discuss the plan
 
-## Keep the video under 60 seconds
+This is a synthesis across many PRs, with deployment and verification state attached. [Clear status updates](/give-clear-status-updates) explain one update; [good PR descriptions](/write-a-good-pull-request) explain one change; [Done notifications](/when-to-send-a-done-email-in-scrum) close the loop on completed work. Keep those records and link to them from the digest. [Meeting summaries](/loop-someone-in) capture decisions from a meeting; the digest prepares the team before one.
 
-Aim for 45 sec. Show selected highlights from the 20 items, then point to the complete digest. These timings and counts are example data.
+The digest supports the [Daily Scrum](/methodology-daily-scrums), whose purpose is to [inspect progress towards the Sprint Goal and adapt the plan](https://scrumguides.org/scrum-guide.html#daily-scrum). [BREAD Daily Scrums](/bread-daily-scrums) provides a meeting format and individual preparation; the digest adds a checked view across the product. Use it as input to the team's plan, with detailed problem-solving in follow-ups.
 
-Use the checked digest to drive an image/video tool. Make the result understandable with sound off, with readable text and captions matching narration. Keep the correct visual label visible throughout each scene, including proposals. Skip video on quiet or non-visual days.
-
-Video coming soon: a 45-second Northwind example digest video will be embedded here.
-
-## Discuss exceptions in the Daily Scrum
-
-Read or watch beforehand. Use [BREAD Daily Scrums](/bread-daily-scrums) to discuss blockers, reviews, clarifications, announcements and decisions. Inspect progress towards the Sprint Goal and agree today's plan; take detailed problem-solving into follow-ups.
-
-The digest does not replace the Daily Scrum or Sprint Review described in the [Scrum Guide](https://scrumguides.org/scrum-guide.html#daily-scrum).
-
-Keep the focus on the product: no per-person counts or leaderboards.
-
-## Check your team is ready
-
-* **Volume** - Status updates crowd out decisions; 10+ PRs a day is example data, not an adoption threshold.
-* **Evidence** - PRs have descriptions, PBI links and screenshots; CI runs on every PR.
-* **A checker** - Someone can verify the digest each morning; allow 15 minutes as example data.
-* **A reading habit** - The team reads written updates and can supervise an AI agent.
-* **Safe captures** - Use synthetic Northwind data at `northwind.test`; exclude secrets, personal data and internal URLs.
-
-If these conditions are missing, use BREAD Daily Scrums and fix the gaps first. Start manually if needed. Stop if nobody reads the digest or checking it costs more time than it saves.
+Try a digest when the team repeatedly misses changes or spends the meeting reconstructing them, and someone can check it before readers need it. Keep it only if readers can identify exceptions and affected areas without opening every PR. Shorten or stop it when checking and reading cost more time than the discussion it saves.
