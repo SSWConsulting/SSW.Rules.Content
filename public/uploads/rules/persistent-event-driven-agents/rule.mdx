@@ -57,7 +57,7 @@ Start with one agent. Split roles when the work needs different tools or permiss
 
 Each hand-off includes the work key, acceptance criteria, evidence and next step. Persist the new owner and pending hand-off together so a restart cannot lose the transfer.
 
-A delivery agent might start a **software factory**: an automated workflow that coordinates implementation, testing and review. It can also complete a small task itself. [Agentic workflows](/agentic-workflows) provide one execution option; [chained workflows](/chain-agentic-workflows-together) handle dependent steps. The durable work record tracks progress across those executions.
+[Agentic workflows](/agentic-workflows) and [chained workflows](/chain-agentic-workflows-together) can form a **software factory** that coordinates implementation, testing and review. The durable work record tracks progress across those executions.
 
 ## Compare the same event with and without persistence
 
@@ -77,18 +77,26 @@ These Northwind scenarios use **example data**.
 <boxEmbed
   style="greybox"
   body={<>
-    The ready event queues Northwind PBI 314, revision 7. Delivery claims that work key. Research investigates the lead-time calculation, and Delivery saves its findings in the durable record. It opens PR 82 with the work key attached, then crashes before saving the PR URL.
+    The ready event queues Northwind PBI 314, revision 7. Delivery claims that work key. Research investigates the lead-time calculation, and Delivery saves its findings in the durable record. It uses branch `agent/northwind-pbi-314-r7` for the work key, opens PR 82, then crashes before saving the PR URL.
 
-    After the lease expires, the replacement worker claims the item and finds PR 82 using that key. It saves the URL and resumes checking the existing PR. A repeated notification for revision 7 adds no second item. The developer receives one tested PR and its evidence for review.
+    After the lease expires, the replacement worker claims the item and queries PRs for that branch, including closed PRs. It finds PR 82, saves the URL and resumes checking the existing PR. A repeated notification for revision 7 adds no second item. The developer receives one tested PR and its evidence for review.
   </>}
   figurePrefix="good"
   figure="An event starts the work; durable ownership and reconciliation preserve one PR after a crash"
 />
 
+GitHub's [list pull requests API](https://docs.github.com/en/rest/pulls/pulls#list-pull-requests) supports filtering by head branch and PR state. If the lookup fails or leaves the outcome uncertain, pause instead of creating another PR.
+
 ## Bound the loop and verify recovery
 
 Give each job limits for attempts, elapsed time and spend. Pause exhausted work and notify its human owner. Provide a way to disable the trigger and stop active runs. Filter agent-generated events so updates cannot trigger an endless cycle.
 
-Validate event sources and treat issue text, logs and retrieved content as untrusted data. Give agents only the tools and credentials their roles need. Keep **merge, deploy and delete behind human approval**, enforced through platform permissions that the agent cannot bypass. GitHub's [deployment environment controls](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments) provide one implementation; availability depends on the repository and plan. Disable approval bypasses and keep the agent's identity unable to change those controls. A prompt saying "ask first" is insufficient.
+Validate event sources and treat issue text, logs and retrieved content as untrusted data. Give agents [only the tools and credentials their roles need](/give-users-least-privileges). Keep **merge, deploy and delete behind human approval**, with a control for each action:
+
+* **Merge** - Use [branch protection with required reviews](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches). Require a human reviewer and prevent the agent from approving its own work, bypassing protection or pushing directly to the protected branch
+* **Deploy** - Use [deployment environment controls](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments) with required human reviewers, self-review prevented and approval bypasses disabled
+* **Delete** - Keep deletion credentials in a separate execution path controlled by a human
+
+Feature availability depends on the repository and plan. Keep the agent's identity unable to change these controls. A prompt saying "ask first" is insufficient.
 
 Before unattended use, test in a sandbox: deliver the same event twice, restart the worker before and after a write, and exhaust a retry limit. Confirm that each work key produces one intended result, the next owner can resume from saved evidence, and blocked work reaches a human. Also attempt a prohibited action and verify that permissions reject it. Record events, hand-offs, checks and approvals against the PBI so a reviewer can explain why the change happened.
