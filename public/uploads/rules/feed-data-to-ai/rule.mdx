@@ -40,7 +40,32 @@ How the model accesses that data affects cost per query, latency and answer qual
 
 <endIntro />
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=UabBYexBD4k" description="Video: Is RAG Still Needed? Choosing the Best Approach for LLMs (11 min)" />
+## Which should I use?
+
+These building blocks can be combined. Use the following questions to choose a starting candidate, then compare it with alternatives on representative questions. For exact joins, totals or current records, prefer a read-only source query (Option C), even when a document snapshot fits.
+
+For document questions, pick a base option first:
+
+1. **Does the required corpus fit with room to spare?** If not, use agentic search for live, structured or exact-match data, and RAG for the rest.
+2. **Does the answer need all of it at once?** If so, use long context.
+3. **Do the same documents appear in every request?** If so, use long context. If not, use RAG.
+
+Then add the layers you need:
+
+* **Prompt caching** - when a prefix repeats and qualifies for cache reuse; CAG uses this idea for a bounded knowledge base
+* **Knowledge graph** - when answers follow links between entities (Option E)
+* **Precomputed brief** - when the same task runs many times (Option D)
+* **[Evolving playbook](/let-prompts-learn-from-feedback)** - when the same corrections keep coming back
+* **Fine-tuned small model** - when a stable task runs at high volume and held-out tests justify the training and serving cost
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/data-access-decision-tree.png"
+  alt="Decision tree: query current structured sources directly. For documents, choose long context when the required corpus fits and is needed together or reused; otherwise retrieve relevant evidence. Add caching, Option D precomputed briefs, Option E knowledge graphs, a feedback playbook or evaluated fine-tuning as needed."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Illustration: Choose data access first; knowledge graphs, preparation and training address different needs"
+/>
 
 ## Option A: Long context
 
@@ -241,34 +266,7 @@ Before you fine-tune, you need:
   figure="The same question gets the current price; training is considered only for the stable routing task"
 />
 
-## Which should I use?
-
-These building blocks can be combined. Use the following questions to choose a starting candidate, then compare it with alternatives on representative questions. For exact joins, totals or current records, prefer a read-only source query (Option C), even when a document snapshot fits.
-
-For document questions, pick a base option first:
-
-1. **Does the required corpus fit with room to spare?** If not, use agentic search for live, structured or exact-match data, and RAG for the rest.
-2. **Does the answer need all of it at once?** If so, use long context.
-3. **Do the same documents appear in every request?** If so, use long context. If not, use RAG.
-
-Then add the layers you need:
-
-* **Prompt caching** - when a prefix repeats and qualifies for cache reuse; CAG uses this idea for a bounded knowledge base
-* **Knowledge graph** - when answers follow links between entities (Option E)
-* **Precomputed brief** - when the same task runs many times (Option D)
-* **[Evolving playbook](/let-prompts-learn-from-feedback)** - when the same corrections keep coming back
-* **Fine-tuned small model** - when a stable task runs at high volume and held-out tests justify the training and serving cost
-
-<imageEmbed
-  src="/uploads/rules/feed-data-to-ai/data-access-decision-tree.png"
-  alt="Decision tree: query current structured sources directly. For documents, choose long context when the required corpus fits and is needed together or reused; otherwise retrieve relevant evidence. Add caching, Option D precomputed briefs, Option E knowledge graphs, a feedback playbook or evaluated fine-tuning as needed."
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Illustration: Choose data access first; knowledge graphs, preparation and training address different needs"
-/>
-
-### Using the data-access decision tree
+## Apply the choice to your task
 
 <boxEmbed
   style="greybox"
