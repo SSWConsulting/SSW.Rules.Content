@@ -3,6 +3,10 @@ archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
+- title: Pam Pan
+  url: https://www.ssw.com.au/people/pam-pan
+related:
+- rule: public/uploads/rules/how-to-take-feedback-or-criticism/rule.mdx
 created: 2018-12-11 18:58:35+00:00
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -24,41 +28,94 @@ type: rule
 uri: answer-with-yes-or-no
 ---
 
-Always start your answer to a question with ‘Yes’ or ‘No’ first, then follow that with your opinion and more details.
+When someone asks a yes or no question, a long answer makes them dig for what they want to know, and it can sound like you are avoiding the question. Start with 'Yes' or 'No', then follow with the details.
 
 <endIntro />
 
+<youtubeEmbed url="https://www.youtube.com/watch?v=CSDWclD5W_k" description="Video: Just Say Yes or No! 3 Tips for Better Communication | Adam Cogan (2 min)" />
+
+## Start with 'Yes' or 'No'
+
+If the answer is 'No', say so first. Then explain where things are up to and what you will do next.
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Adam:** Did you deploy that bug fix?
+    **Adam:** Have you deployed the software?
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    **George:** We deployed 3 times yesterday and one of the deployments took ages and so we optimized the Azure DevOps pipeline, so now a database change has gone from 35 minutes to just 2 minutes to deploy. We’ll get all the remaining items resolved in the next few days.
+    **George:** Well, I made the changes and then I uploaded it to this server and then I ran this.
   </>}
   figurePrefix="bad"
-  figure="We have to infer the answer... if it is there at all!"
+  figure="Bad example - A lot of words, but no clear answer"
 />
-
-
 
 <boxEmbed
   style="greybox"
   body={<>
-    **George:** No - we had issues, but we'll get that one done after lunch today.
-FYI we deployed 3 times yesterday and one of the deployments took ages and so we optimized the Azure DevOps pipeline, so now a database change has gone from 35 minutes to just 2 minutes to deploy.
+    **George:** No.
+  </>}
+  figurePrefix="ok"
+  figure="OK example - A clear answer, but it doesn't explain the status or what happens next"
+/>
 
-We’ll get all the remaining items resolved in the next few days.
+<boxEmbed
+  style="greybox"
+  body={<>
+    **George:** No, I haven't. But I have made the changes and given them to Bob, and I'm waiting for the PR. I should have followed him up, so I'll do that right now.
   </>}
   figurePrefix="good"
-  figure="The question is answered clearly in the start"
+  figure="Good example - The answer comes first, followed by the status and the next step"
 />
+
+## Say 'Understood' when you are corrected
+
+Being corrected is never nice, but a list of excuses sounds like you are arguing. Say 'Understood', then give the reason in a few words.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Adam:** You should have deployed the software last night.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **George:** Well, I've been really busy and I'm super tired and Mary's been stressing me out.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Excuses make the conversation longer and don't solve anything"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **George:** Understood. I think I didn't do it because I got distracted with Mary's problem.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Accepts the correction and gives a short reason"
+/>
+
+## Don't get defensive
+
+Getting moody, shutting down, being defensive or using sarcasm only makes things worse. If you forgot, say so and be genuine about it. That defuses the situation and everyone can move on.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **George:** I forgot.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A simple, genuine answer"
+/>
+
+Whether or not it was your fault, [acknowledge it, apologize and explain what you will do next](/how-to-take-feedback-or-criticism).
