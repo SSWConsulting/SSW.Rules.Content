@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you centralise local development configuration in your Aspire AppHost?
+title: Do you centralise local development configuration and secrets in your Aspire AppHost?
 seoDescription: Centralise local development configuration in Aspire AppHost, inject only what each service needs, and check missing secrets before starting the application.
 guid: 70334ed5-1475-47c2-b79a-c4ab0abaf2af
 uri: centralise-local-dev-config-and-secrets-in-apphost
@@ -20,7 +20,7 @@ archivedreason: null
 isArchived: false
 ---
 
-When each service needs a separate configuration edit, a fresh clone becomes a troubleshooting exercise. A changed API port leaves the web app pointing at yesterday's address, while a missing key appears only after other services start.
+When each service needs a separate configuration edit, a fresh clone becomes a troubleshooting exercise. A changed API port leaves the web app pointing at yesterday's address.
 
 For a solution that already uses [Aspire](/aspire), make the **AppHost the entry point for local development configuration**. Define dependencies and connect configuration sources there, then pass each service only the values it needs.
 
@@ -33,13 +33,37 @@ The following Northwind examples use **example data**. The API uses an existing 
 <boxEmbed
   style="greybox"
   body={<>
-    `Northwind.Api/appsettings.Development.json` holds a copied database connection string. The API's own User Secrets hold `Orders:ApiKey`. `Northwind.Web/.env` holds a copied `API_URL` of `http://localhost:5101`.
+    `Northwind.Api/appsettings.Development.json` holds a copied database connection string. The API's own User Secrets hold `Orders:ApiKey`. `Northwind.Web/appsettings.Development.json` holds a copied `Api:BaseUrl` of `http://localhost:5101`.
 
     After the API port changes, the web app still calls port 5101. Onboarding requires finding and editing settings in multiple places.
   </>}
   figurePrefix="bad"
   figure="The web app keeps a copied API address that drifts from the running API"
 />
+`Northwind.Api/Properties/launchSettings.json` after the port changes:
+
+```json
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5201"
+    }
+  }
+}
+```
+
+`Northwind.Web/appsettings.Development.json`, still used by its HTTP client:
+
+```json
+{
+  "Api": {
+    "BaseUrl": "http://localhost:5101"
+  }
+}
+```
+
+**Figure: The API listens on port 5201 while the web app's copied address still targets port 5101**
 
 <boxEmbed
   style="greybox"
@@ -55,6 +79,8 @@ The following Northwind examples use **example data**. The API uses an existing 
 ## Wire the AppHost once
 
 Use the AppHost to describe the same dependencies. This example targets a C# AppHost on .NET 10 with **Aspire 13.6**; the snippets are verified with 13.6.4. The [Aspire SDK documentation](https://aspire.dev/get-started/aspire-sdk/) covers `Aspire.AppHost.Sdk`, the `Aspire.Hosting.AppHost` package, and project references. Reference `Northwind.Api` and `Northwind.Web` from `Northwind.AppHost` so the SDK generates `Projects.Northwind_Api` and `Projects.Northwind_Web`.
+
+[Aspire prompts for unresolved parameter values](https://aspire.dev/fundamentals/external-parameters/) and can save them to the AppHost's User Secrets. For headless onboarding scripts or CI checks, the example adds an optional preflight that lists all missing inputs and exits non-zero before launching resources. Omit that custom preflight if the native interactive prompt meets your needs.
 
 ```csharp
 // Northwind.AppHost/AppHost.cs
@@ -125,7 +151,9 @@ app.Run();
 
 Commit non-sensitive defaults and dependency wiring. Keep service-owned settings, such as log levels, with the service; centralising configuration does not mean moving every setting into the AppHost.
 
-Choose the configuration provider separately from AppHost composition. For shared, sensitive or frequently changing values, follow [Azure App Configuration for local development](/app-config-for-developer-settings), with secrets referenced from Key Vault. Keep that source authoritative instead of copying those credentials into local files. Load the provider into the AppHost before the preflight runs, using the same configuration keys. Values injected into child processes are set at launch; services that need live refresh can retain their own provider.
+Choose the configuration provider separately from AppHost composition. For shared, sensitive or frequently changing values, follow [Azure App Configuration for local development](/app-config-for-developer-settings), with secrets referenced from Key Vault. Keep that source authoritative instead of copying those credentials into local files.
+
+Load the provider into the AppHost before the preflight runs, using the same configuration keys. Values injected into child processes are set at launch; services that need live refresh can retain their own provider.
 
 For developer-specific or disconnected local work, use local credentials only when the team permits local storage. The Northwind example uses the **AppHost's** [.NET User Secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0), outside source control. For the example above, use this shape in the AppHost's Manage User Secrets editor:
 
@@ -150,13 +178,21 @@ If an approved offline workflow needs a shared development credential, keep one 
 
 This preflight is for a local development AppHost. If the same AppHost also models deployment, validate deployment inputs separately instead of requiring local User Secrets.
 
-The AppHost code above implements `--check-config`; it is **a project-defined switch**, not an Aspire command. Run it from the solution directory:
+The AppHost code above implements `--check-config`; it is **a project-defined switch**, not an Aspire command. Keep `requiredKeys` in step with every required `AddParameter` and `AddConnectionString` input. Run it from the solution directory:
 
 ```shell
 dotnet run --project Northwind.AppHost -- --check-config
 ```
 
-**Figure: The check reports all missing keys without starting services**
+With both inputs missing, it writes:
+
+```text
+Missing: ConnectionStrings:northwind
+Missing: Parameters:orders-api-key
+Source: Northwind - Local development
+```
+
+**Figure: All missing input names appear together without printing secret values or starting services**
 
 The check returns a non-zero exit code when either required input is missing or blank. A pass confirms presence only; it does not validate credentials, database availability, or placeholder values.
 
