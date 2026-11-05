@@ -42,16 +42,16 @@ These Northwind Traders dashboards use example data.
 For 8–14 October, Northwind counts:
 
 * **Eligible: 1,240** — Questions in chats with the assistant switched on
-* **Attempted: 1,105** — AI tries to answer; 135 go straight to a person
-* **Answered: 870** — AI supplies an answer; another 235 go to a person mid-chat
+* **Attempted: 1,105** — The assistant tries to answer; 135 go straight to a person
+* **Answered: 870** — The assistant supplies an answer; another 235 go to a person mid-chat
 
 The funnel reveals 370 handovers. Review sampling is a separate step, taken from the answered questions.
 
 ## Label random-review coverage beside agreement
 
-Northwind randomly reviews 61 of the 718 answers in five included topics, with no two checks from the same chat. A support agent answers without seeing AI's answer. Matching answers measure agreement, not proven correctness; [adjudicate disagreements against evidence](/disagreement-inbox-for-ai-quality).
+Northwind randomly reviews 61 of the 718 answers in five included topics, with no two checks from the same chat. A support agent answers without seeing the assistant's answer. Matching answers measure agreement, not proven correctness; [adjudicate disagreements against evidence](/disagreement-inbox-for-ai-quality).
 
-Show **47/61 agreement (77%)** beside two random-review coverage figures. **61/718 (8.5%)** describes random reviews within the five-topic sampling frame. **61/870 (7%)** compares those same reviews with all answered questions. Both coverage figures exclude targeted reviews, and neither makes the excluded topics represented. If you also report total review coverage, deduplicate random and targeted cases first.
+Show **47/61 agreement (77%)** beside two random-review coverage figures. **61/718 (8.5%)** describes random reviews within the five-topic sampling frame. **61/870 (7%)** compares those same reviews with all answered questions. Both coverage figures exclude targeted reviews, and neither covers the three excluded topics. If you also report total review coverage, deduplicate random and targeted cases first.
 
 A one-answer-per-chat design can give answers in longer chats a lower chance of selection. Record the design and any weighting; the unweighted 47/61 describes the reviewed answers.
 
@@ -61,11 +61,11 @@ When checks are too few for the decision, show their counts and uncertainty, col
 
 Keep the query and sampling-frame definition together in source control under a name such as `support_coverage_v1`. Every quality tile needs its numerator and denominator, sampling frame, exclusions, period and visible definition version. Compute these together and change the version when the sampled population changes.
 
-If a period has no completed reviews, label agreement **Not measured**. A guessed percentage would present an unchecked period as evidence. [Show missing and stale data explicitly](/show-missing-and-stale-data-on-dashboards) rather than asking AI to fill the gap.
+If a period has no completed reviews, label agreement **Not measured**. A guessed percentage would present an unchecked period as evidence. [Show missing and stale data explicitly](/show-missing-and-stale-data-on-dashboards) rather than asking a language model to fill the gap.
 
 ## Keep targeted checks separate
 
-Northwind also checks 18 returns answers after complaints; nine agree. Pooling them into this week gives 56/79 (71%), while last week's 55/64 (86%) has no targeted checks. The apparent 15-percentage-point fall compares different selection methods.
+Northwind also checks 18 answers about returns, chosen after complaints; nine agree. Pooling them into this week gives 56/79 (71%), while last week's 55/64 (86%) has no targeted checks. The apparent 15-percentage-point fall compares different selection methods.
 
 Show **Targeted complaint checks: 9/18** separately. Use a consistent sampling frame to [compare periods](/dashboard-changes-real-or-noise). Repeated customers or review batches may require analysis that accounts for clustering even when chat IDs differ. [Statistics Canada's sampling guidance](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch13/prob/5214899-eng.htm) explains population lists, random selection and clustered designs.
 

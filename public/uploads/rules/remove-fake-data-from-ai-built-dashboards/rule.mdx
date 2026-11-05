@@ -64,8 +64,10 @@ Label the page **Live** or **Demo**, and show its actual build time. Compute hea
 
 Search the generated code for sample or seed arrays, placeholder strings such as `Lorem ipsum` or `Sample Customer`, and error handlers that return demo rows. Trace each live metric to its approved source. For a page that fetches data, inspect the network requests; for a prebuilt page, inspect its build inputs and source metadata.
 
+Run these interactive checks in an isolated test environment with synthetic records and test connections. Keep production connections and records outside the checks.
+
 Choose two date ranges with different known records. Check every affected tile, chart and list against those records; then test Feature in combination with Dates. A panel outside the date filter should state the period it covers.
 
-Activate each control with a mouse and keyboard and confirm its intended result. Disconnect a source and verify that its panel explains the gap without inserting samples. Finally, open live mode with the demo source unavailable: it should still work from its approved source.
+Activate each control with a mouse and keyboard and confirm its intended result. Simulate a source failure or disconnect only the test source; its panel should explain the gap without inserting samples. Restore the test source and verify normal refresh and control behaviour. Finally, exercise live mode in this isolated environment with the demo source unavailable: it should still work from its approved test source.
 
 Use [guardrails for AI-built prototypes](/guardrails-for-vibe-coding) to make these checks repeatable. [Traceable dashboard calculations](/ai-dashboards-with-insights) provide the data; [independent reconciliation](/check-dashboard-totals-against-the-source) checks that the connected totals are right.

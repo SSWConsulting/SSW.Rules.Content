@@ -41,13 +41,15 @@ These Northwind dashboards use example data.
 
 A person's answer is a comparator, not automatically ground truth. The [accuracy metric](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) compares predictions with reference labels; its meaning depends on those labels being correct. Name the measure the evidence supports:
 
-* **Strict agreement** — AI and human answers match under a documented comparison
-* **Normalised agreement** — A secondary comparison accepts specified equivalences, such as equivalent date and number formats. Preserve original answers and version the comparator
-* **Reviewed outcomes** — A person checks the source and written rubric, then records whether AI is right, wrong or still unclear, including cases where both answers are wrong
+* **Strict agreement** — AI and human answers match under a documented comparison.
+* **Normalised agreement** — A secondary comparison accepts specified equivalences, such as equivalent date and number formats. Preserve original answers and version the comparator.
+* **Reviewed outcomes** — A person checks the source and written rubric, then records whether AI is right, wrong or still unclear, including cases where both answers are wrong.
 
-Northwind keeps strict agreement at 47/61 (77%) and normalised agreement at 51/61. The extra four are explained comparator differences, not four newly correct AI answers. For [uncertainty and comparisons between periods](/dashboard-changes-real-or-noise), show counts, a period and an appropriate range.
+Northwind reports strict agreement at 47/61 (77%) and normalised agreement at 51/61 (84%) separately. Review confirms that the four formatting mismatches were already-correct AI answers. Normalisation fixes their comparison; it neither changes those answers nor proves the remaining agreements correct. For [uncertainty and comparisons between periods](/dashboard-changes-real-or-noise), show counts, a period and an appropriate range.
 
 Two answers can agree and both be wrong. Adjudicate a random sample of agreements too; reviewing only disagreements cannot establish overall accuracy. Choose the sample size before reviewing, based on the risk and precision the decision needs, and publish the reviewed count and uncertainty.
+
+Northwind's separate agreement audit reviews 10 of the 47 strict agreements and finds one where both answers are wrong. Report **Agreements audited: 10/47; both wrong: 1/10**, with a 90% Wilson range of about 2–35% for that error rate. These example counts are separate from the 11 reviewed disagreements below and do not establish overall accuracy; ten is not a recommended sample size.
 
 ## Give every disagreement evidence and an owner
 
@@ -67,11 +69,11 @@ The three wrong-source cases need a knowledge-base or retrieval repair. They do 
 
 <imageEmbed
   src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-good-disagreement-inbox.png"
-  alt="Northwind illustration: 47/61 strict agreement stays separate from 51/61 normalised agreement; an inbox shows both answers, causes, owners and status, with 11 reviewed and three new."
+  alt="Northwind illustration: strict and normalised agreement stay separate; a six-row excerpt shows all three New cases before reviewed cases, with cause owners, 11/14 disagreements reviewed and a separate 10/47 agreement audit."
   size="large"
   showBorder={true}
   figurePrefix="good"
   figure="The inbox separates comparator and source repairs from the two confirmed model or prompt errors"
 />
 
-Fix and recheck the comparator and retired article before rewriting the prompt. Close a row only after a reviewer verifies the repair. Add confirmed model errors to [the eval set](/run-evals-on-ai-features) and rerun it before release. This makes [owning AI output](/avoid-automation-bias) a repeatable review process.
+Fix and recheck the comparator and retired article before rewriting the prompt. [Own the AI output](/avoid-automation-bias): close a row only after a reviewer verifies the repair. Add confirmed model errors to [the eval set](/run-evals-on-ai-features) and rerun it before release.
