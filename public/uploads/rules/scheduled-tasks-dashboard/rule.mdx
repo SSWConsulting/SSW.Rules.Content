@@ -17,7 +17,7 @@ archivedreason: null
 isArchived: false
 ---
 
-A background tasks dashboard reports a 96.9% success rate and an average run time of 36 seconds. Meanwhile, customers wait more than 20 minutes for their orders to sync. Totals hide which tasks wait, which fail, and whether an expected run starts at all.
+In this Northwind example, a background tasks dashboard reports a 96.9% success rate and an average run time of 36 seconds. Meanwhile, customers wait more than 20 minutes for their orders to sync. Totals hide which tasks wait, which fail, and whether an expected run starts at all.
 
 For applications with scheduled or queued work, **show run timelines, queue waits, failures by task and the last successful run**. Give the person investigating a delay enough detail to find the affected task and decide what to change.
 
@@ -57,7 +57,7 @@ Break failures down by task and hour. In the example, `LedgerExport` accounts fo
 
 Add a per-task table with attempt count, failed attempts, p50/p95 run time, p95/max queue wait, last start and last success. The p50 is the median; the p95 helps expose slow attempts that an average hides. Keep the maximum and live oldest-item age visible because a percentile can still hide a small number of very long waits.
 
-Count retries as separate attempts, linked to the original job. Show jobs that exhaust retries separately: a failed attempt may succeed later. For example, [Hangfire retries failed jobs automatically](https://docs.hangfire.io/en/latest/background-processing/dealing-with-exceptions.html), so its final job status is not an attempt failure count.
+Count retries as separate attempts, linked to the original job. Show jobs that exhaust retries separately: a job with a failed attempt may succeed on a later attempt. For example, [Hangfire retries failed jobs automatically](https://docs.hangfire.io/en/latest/background-processing/dealing-with-exceptions.html), so its final job status is not an attempt failure count.
 
 ## Capture lifecycle data and current state
 
@@ -72,7 +72,7 @@ Completion events alone cannot reveal jobs that are still queued, stuck or never
 
 ## Use the dashboard to choose and verify a fix
 
-For a burst, consider spreading start times. For long tasks blocking urgent work, consider a separate queue with dedicated worker capacity. A queue name alone does not isolate resources; [Hangfire's queue configuration](https://docs.hangfire.io/en/latest/background-processing/configuring-queues.html) shows how servers select queues. Check ordering requirements and downstream capacity before changing concurrency or retrying work.
+For a burst, consider spreading start times. For long tasks blocking urgent work, consider a separate queue with dedicated worker capacity. A queue name alone does not isolate resources; [Hangfire's queue configuration](https://docs.hangfire.io/en/latest/background-processing/configuring-queues.html) shows how servers select queues. Check ordering requirements and downstream capacity before changing concurrency. Before retrying work, check that repeating it cannot duplicate side effects, such as sending an invoice twice.
 
 Choose an acceptable wait and completion deadline with the task owner. Alert when the oldest queued item exceeds that wait or an expected run misses its success deadline, with a link to the affected task and its owner. A dashboard supports investigation; alerts bring unattended failures to someone who can act.
 
