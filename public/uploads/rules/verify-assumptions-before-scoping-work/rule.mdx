@@ -1,0 +1,81 @@
+---
+type: rule
+title: Do you verify the assumptions in a brief against the code before scoping work?
+seoDescription: Check a brief's technical assumptions against the code before estimating. Record the premise, evidence and corrected scope in a short spike.
+guid: 3dd3e149-e967-44c5-a395-d63b94e443c6
+uri: verify-assumptions-before-scoping-work
+created: 2026-10-31T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/encourage-spikes-when-a-story-is-inestimable/rule.mdx
+  - rule: public/uploads/rules/review-ai-plans/rule.mdx
+redirects: []
+categories:
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+archivedreason: null
+isArchived: false
+---
+
+A brief says order embeddings live in a shared vector store, keyed by `OrderId`. The team designs a cleanup job, estimates it, and only then discovers that the store contains product manuals. There are no order embeddings to delete.
+
+A polished spec, ticket or AI-written dossier can make a guess look like a fact. **Check the premises before you estimate or design the solution.** Otherwise, you can produce a careful plan for work that does not need to exist.
+
+<endIntro />
+
+## Check the assumptions that change the scope
+
+List the claims your scope depends on: which tables exist, which service owns the data, what a store contains, and which keys connect it to the affected records.
+
+For each claim:
+
+* **Search the code** - Grep for the named table, service, store and key, including alternative names
+* **Follow the evidence** - Read the matching definitions, registrations and read/write paths. A class name alone does not prove how it is used
+* **Correct the scope** - Keep, drop or re-scope the dependent work before estimating it
+
+No search matches means **unverified**, not absent. Check configuration, migrations and external dependencies where relevant. If you still cannot verify a premise, record the uncertainty and resolve it in a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable).
+
+## Record premise, evidence and corrected scope
+
+Keep the result with the ticket so the next developer can check it. Include the source revision, search command, relevant output and file references. Record what the evidence proves and what remains unknown; "I checked the code" is not evidence.
+
+The following examples use a fictional Northwind codebase.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Premise:** The AI dossier says Northwind stores order embeddings in a shared vector store keyed by `OrderId`.
+
+    **Evidence:** The dossier describes the store in detail, so the team accepts it.
+
+    **Scope:** Add per-order vector deletion, retries and cleanup tests to the order-deletion workflow.
+  </>}
+  figurePrefix="bad"
+  figure="A detailed dossier becomes the basis for an estimate without checking the implementation"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Premise:** Deleting a Northwind order requires deleting its embeddings from a shared vector store.
+
+    **Evidence:** At source revision `a1b2c3d`, the search finds:
+
+    ```text
+    > rg -n 'VectorStore|ProductManual|OrderId' src
+    src/Northwind.Search/Program.cs:18: services.AddSingleton<IVectorStore, ProductManualStore>();
+    src/Northwind.Search/ProductManualIngestor.cs:24: var files = Directory.GetFiles("product-manuals", "*.pdf");
+    src/Northwind.Search/ProductManualStore.cs:31: var key = $"{productId}:{sectionId}";
+    src/Northwind.Orders/Order.cs:8: public int OrderId { get; set; }
+    ```
+
+    Reading the registered store and its callers confirms that its only ingestion path loads the static product-manual corpus. Records use product and section IDs; the order workflow neither writes to nor references the store.
+
+    **Corrected scope:** Drop vector cleanup from order deletion. Keep the existing order-deletion requirements and estimate those against the Orders implementation.
+  </>}
+  figurePrefix="good"
+  figure="Code evidence disproves the premise and removes unnecessary cleanup work before estimation"
+/>
+
+**Treat an AI-written dossier as a list of claims to check.** If AI gathers the evidence, review the cited code before accepting its conclusion. Then [review the plan](/review-ai-plans) against the corrected scope.
