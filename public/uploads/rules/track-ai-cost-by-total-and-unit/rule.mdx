@@ -21,7 +21,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI feature's spend nearly doubles and its dashboard turns red. Is that waste, or does the feature produce more than twice as much useful work? A total or cost per request cannot answer that decision.
+An AI feature's spend nearly doubles and its dashboard turns red. Is that waste, or does the feature produce more than twice as much useful work? A total or cost per request cannot inform that decision.
 
 **Track total AI spend for the budget and cost per useful outcome for value.** Define useful before comparing models or prompts.
 
@@ -40,7 +40,7 @@ These Northwind Traders dashboards use example data.
 
 ## Track the total for the budget
 
-Keep an overall spend limit and an owner for investigating alerts. Also [alert on failures and throttling](/ai-service-alerts): [cost data can arrive late](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data). A budget alert is not a real-time service-health check.
+Keep an [overall spend budget](/azure-budgets) and an owner for investigating alerts. Because [cost data can arrive late](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data), also [alert on failures and throttling](/ai-service-alerts). A budget alert is not a real-time service-health check.
 
 For developer subscriptions and token activity, see [monitoring AI cost and usage](/monitor-ai-cost-and-usage). This rule adds a measure of useful output from an AI feature.
 
@@ -48,13 +48,15 @@ For developer subscriptions and token activity, see [monitoring AI cost and usag
 
 Choose a measurable acceptance criterion: a description published without edits, or a support case resolved without reopening during a defined follow-up period. A token, request or generated draft counts activity, not success.
 
-Divide all attributable feature costs, including rejected attempts, retries and failed calls, by accepted outcomes counted once. Keep the same currency, cost basis and attribution policy across periods. State whether the figure covers model charges only or also hosting and human review; omitted costs limit the value claim.
+Divide all attributable feature costs, including rejected attempts, retries and failed calls, by accepted outcomes counted once. This is [unit economics](https://www.finops.org/framework/capabilities/unit-economics/): cost expressed against useful output. Keep the same currency, cost basis and attribution policy across periods. Attribute shared-deployment costs using recorded feature tags or another documented allocation rule, keeping unattributed cost visible. State whether the figure covers model charges only or also hosting and human review; omitted costs limit the value claim.
 
 Align costs with their outcomes. If publishing or resolution takes days, use a completed cohort and its associated costs, or flag a provisional period until outcomes mature. **No accepted outcomes** is a visible state, not a zero unit cost or division by zero.
 
 ## Save the calculation, then compare periods
 
 Keep `cost_per_accepted_description_v1`, its joins and its acceptance definition in source control. A reviewed one-off agent query can explore the data; a recurring daily tile uses the saved calculation. [Reconcile both spend and accepted counts independently](/check-dashboard-totals-against-the-source) before drawing advice.
+
+Label provisional charges as estimates and reconcile them once billing closes.
 
 Northwind compares completed product-description cohorts for 14–20 September and 9–15 October. The example uses billed model charges only, including rejected drafts:
 

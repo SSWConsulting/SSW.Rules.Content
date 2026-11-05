@@ -30,7 +30,7 @@ These Northwind Traders dashboards use example data.
 
 <imageEmbed
   src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-bad-colour-by-level.png"
-  alt="Northwind illustration: 77% is red against an 80% target without counts, an insight recommends rollback, and 6/6 leads the ranking."
+  alt="Northwind illustration: agreement of 77% is red against an 80% target without counts, an insight recommends rollback, and 6/6 ranks above more extensively checked questions."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -39,7 +39,7 @@ These Northwind Traders dashboards use example data.
 
 <imageEmbed
   src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-good-counts-ranges-and-tests.png"
-  alt="Northwind illustration: 47/61 versus 55/64 stays No clear change yet, 44/52 versus 30/50 is a Clear rise, with planned tests, ranges and minimum ranking counts."
+  alt="Northwind illustration: 47/61 versus 55/64 stays No clear change yet, 44/52 versus 30/50 is a Clear rise, with a separate Below 80% target badge, an insight withholding rollback, planned tests, ranges and minimum ranking counts."
   size="large"
   showBorder={true}
   figurePrefix="good"
@@ -48,7 +48,7 @@ These Northwind Traders dashboards use example data.
 
 ## Put counts and uncertainty beside rates
 
-Write **47/61 · 77% agreement**, and define agreement: the AI and a support agent give matching answers under the saved comparator. For independent sampled checks, a [90% Wilson interval](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm) is about 67–85%. An interval describes sampling uncertainty; it cannot repair biased selection.
+Write **47/61 · 77% agreement**, and define agreement: the AI and a support agent give matching answers under a written rule for deciding whether their answers match. For independent sampled checks, a [90% Wilson interval](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm) is about 67–85%. An interval describes sampling uncertainty; it cannot repair biased selection.
 
 ## Plan comparisons before colouring changes
 
@@ -57,9 +57,11 @@ Northwind plans two weekly comparisons. A [two-sided pooled two-proportion z-tes
 * **Support: no clear change yet** — 47/61 versus 55/64, p ≈ 0.20
 * **Descriptions: clear rise** — 44/52 versus 30/50, p ≈ 0.005
 
-For these two comparisons, [Holm adjustment](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html) gives about 0.20 and 0.011. Northwind requires adjusted p below 0.05 and a change of at least ten percentage points before colouring a change. These are its planned decision settings, not universal thresholds. The description rise meets both.
+Running several comparisons creates more chances for false alarms. [Holm adjustment](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html) controls that risk across the planned comparisons: here the two p-values become about 0.20 and 0.011. Northwind requires adjusted p below 0.05 and a change of at least ten percentage points before colouring a change. These are its planned decision settings, not universal thresholds. The description rise meets both. The 90% display interval describes uncertainty in one rate; the 0.05 test threshold is a separate decision setting. Do not infer the test result from whether two displayed intervals overlap.
 
-Keep an operational target badge separate: a figure can be below target without evidence it fell. **No clear change yet** does not prove there was no change. Plan sample size for the smallest change that would alter a decision; use longer non-overlapping periods when weekly counts are too small.
+Keep the operational target badge separate: support is **Below 80% target** and still **No clear change yet**. Investigate the disagreements and coverage, but keep the change status neutral while collecting more independent checks. Plan sample size for the smallest change that would alter a decision; use longer non-overlapping periods when weekly counts are too small. An unclear result does not prove there was no change.
+
+Mark relevant prompt, model and data changes. A marker shows timing, not causation; use [evals before shipping a proposed fix](/run-evals-on-ai-features).
 
 ## Check the sample before trusting the test
 
@@ -67,8 +69,8 @@ The test assumes independent checks from comparable populations. Repeated chats,
 
 Keep [random and targeted checks separate, with coverage](/show-coverage-on-ai-quality-dashboards). A complaints-only sample measures complaints, however precise its interval looks.
 
+Use established library functions, such as Statsmodels [Wilson intervals](https://www.statsmodels.org/stable/generated/statsmodels.stats.proportion.proportion_confint.html) and [two-sided proportion tests](https://www.statsmodels.org/stable/generated/statsmodels.stats.proportion.proportions_ztest.html), with the settings saved beside the metric. For the displayed interval, select Wilson with `alpha=0.10`; the change test uses a two-sided alternative.
+
 ## Make rankings earn their place
 
 Northwind requires ten checks before ranking and orders best results by the lower Wilson bound. Thus 58/60 (90–99%) ranks above 19/19 (88–100%); 6/6 (69–100%) stays **Not ranked yet**. Ten is a display rule, not proof of adequate statistical power.
-
-Mark relevant prompt, model and data changes. A marker shows timing, not causation; use [evals before shipping a proposed fix](/run-evals-on-ai-features).

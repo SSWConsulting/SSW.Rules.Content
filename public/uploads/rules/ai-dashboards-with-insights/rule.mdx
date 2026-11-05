@@ -30,7 +30,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI assistant builds an operations dashboard in an afternoon. It looks finished, but nobody can trace its 77% accuracy figure to a source or find how many answers were checked. The AI commentary already recommends a rollback.
+An AI assistant builds an operations dashboard in an afternoon. It looks finished, but nobody can trace its 77% accuracy figure to a source or find how many answers were checked. The AI commentary already tells the product owner to roll back a release.
 
 **Build the dashboard on saved calculations and require evidence for its insights.** Let code refresh the figures and use AI to suggest what a person should investigate.
 
@@ -58,7 +58,9 @@ The Northwind Traders dashboards below use example data.
 
 ## Build for one audience
 
-Choose the few questions that audience needs answered. Give the assistant your [design system](/ai-with-design-system), including colours, type and spacing, so readers can recognise the page and use it consistently.
+List the decisions the audience makes and when it makes them. A support lead reviewing quality each week needs to know which changes warrant investigation before the next rollout. Choose the questions and metrics that inform those decisions, and set their refresh schedule to match.
+
+Then [give AI your design system](/ai-with-design-system), including colours, type and spacing, so readers can recognise the page and use it consistently.
 
 ## Let code own the numbers
 
@@ -79,8 +81,12 @@ An agent can investigate a question with read-only SQL on an approved local or s
 
 ## Schedule insights with evidence
 
-Run AI daily or weekly, matching when someone acts. Supply the saved metrics and relevant prompt, model and data changes. Each insight needs a metric reference, a suggested next check and its own generation time. Keep the last insight visibly dated if generation fails.
+Generate insights on the schedule when someone acts on them. The insight job receives the saved metric results, their definition versions and a dated log of relevant prompt, model and data changes. Each insight needs a metric reference, a suggested next check and its own generation time. Keep the last successful insight visibly dated if generation fails.
 
-A release marker shows timing, not cause. Allow **No clear change yet**, and [test changes before colouring trends](/dashboard-changes-real-or-noise). Label AI-derived classifications, such as chat themes, and check a sample against a written rubric. Human agreement alone does not prove correctness; [review disagreements against source evidence](/disagreement-inbox-for-ai-quality).
+A release marker shows timing, not cause. Allow **No clear change yet**, and [test changes before colouring trends](/dashboard-changes-real-or-noise).
+
+Label AI-derived classifications, such as chat themes, and check a sample against a written rubric. Human agreement alone does not prove correctness; [review disagreements against source evidence](/disagreement-inbox-for-ai-quality).
+
+Before sharing, stop the insight job in a test environment and refresh the dashboard. Confirm the tiles still run their saved queries and show current source dates, while the insight panel says **Insights unavailable** and retains its last successful generation time.
 
 Add [backtested forecasts](/forecasts-in-ai-dashboards) and [cost per useful outcome](/track-ai-cost-by-total-and-unit) when those decisions matter to this audience.

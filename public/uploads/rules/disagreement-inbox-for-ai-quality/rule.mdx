@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you turn AI quality disagreements into a review inbox?
-seoDescription: Turn AI and human answer disagreements into an evidence-based review inbox, distinguish agreement from correctness, and fix causes before prompts.
+seoDescription: Review AI and human answer disagreements against source evidence, distinguish agreement from correctness, and fix root causes before changing prompts.
 guid: 19b1faad-47b1-4cd2-a03b-18aa3798a8ff
 uri: disagreement-inbox-for-ai-quality
 created: 2026-10-21T13:11:01.797Z
@@ -20,7 +20,7 @@ archivedreason: null
 isArchived: false
 ---
 
-Northwind Traders' example dashboard labels 14 AI–human disagreements as wrong answers and recommends a prompt change. Four answers differ only in format; three quote a retired returns policy. The headline hides different problems that need different fixes.
+During a support team's weekly quality review, Northwind Traders' example dashboard labels 14 AI–human disagreements as wrong answers and recommends a prompt change. Four answers differ only in format; three quote a retired returns policy. The headline hides different problems that need different fixes.
 
 **Review disagreements against the evidence before changing the prompt.** Use an inbox to turn a quality rate into specific, owned repairs.
 
@@ -42,22 +42,28 @@ These Northwind dashboards use example data.
 A person's answer is a comparator, not automatically ground truth. The [accuracy metric](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) compares predictions with reference labels; its meaning depends on those labels being correct. Name the measure the evidence supports:
 
 * **Strict agreement** — AI and human answers match under a documented comparison
-* **Normalised agreement** — A secondary comparison accepts specified equivalences, such as option order. Preserve original answers and version the comparator
+* **Normalised agreement** — A secondary comparison accepts specified equivalences, such as equivalent date and number formats. Preserve original answers and version the comparator
 * **Reviewed outcomes** — A person checks the source and written rubric, then records whether AI is right, wrong or still unclear, including cases where both answers are wrong
 
 Northwind keeps strict agreement at 47/61 (77%) and normalised agreement at 51/61. The extra four are explained comparator differences, not four newly correct AI answers. For [uncertainty and comparisons between periods](/dashboard-changes-real-or-noise), show counts, a period and an appropriate range.
 
-Two answers can agree and both be wrong. Adjudicate a random sample of agreements too; reviewing only disagreements cannot establish overall accuracy.
+Two answers can agree and both be wrong. Adjudicate a random sample of agreements too; reviewing only disagreements cannot establish overall accuracy. Choose the sample size before reviewing, based on the risk and precision the decision needs, and publish the reviewed count and uncertainty.
 
 ## Give every disagreement evidence and an owner
 
 Put unclassified cases first, newest first within each status. Show the question, both answers, source version, cause, owner and review status, with a link to the full context. Apply the original records' access controls and minimise personal data in the preview.
 
-AI may suggest a cause, but a reviewer confirms it against the source. An ambiguous case stays unresolved or goes to a second reviewer; don't force it into the model-error count. Show [how much reached review](/show-coverage-on-ai-quality-dashboards) beside the rate.
+AI may suggest a cause, but a reviewer confirms it against the source. An ambiguous case stays unresolved or goes to a second reviewer; don't force it into the model-error count. Show [how much reached review](/show-coverage-on-ai-quality-dashboards) beside the rate. Set a review cadence and an owner for overdue cases. Northwind reviews new rows each working day and flags any unassigned row older than one review cycle.
 
 ## Fix the cause, then verify the repair
 
-Northwind reviews 11 of 14 disagreements: four comparator bugs, three wrong-source cases, one ambiguous question, one human error and two model/prompt errors. Three remain new. The reviewed outcomes are five AI right, five AI wrong and one unclear; the source version explains why some human answers are wrong too.
+Northwind reviews 11 of 14 disagreements; three remain new. The cause and outcome counts agree:
+
+* **AI right: five** — Four format-comparison bugs and one reviewer error
+* **AI wrong: five** — Three answers retrieved from the retired source and two model/prompt errors
+* **Unclear: one** — An ambiguous question that needs further review
+
+The three wrong-source cases need a knowledge-base or retrieval repair. They do not establish a prompt problem.
 
 <imageEmbed
   src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-good-disagreement-inbox.png"

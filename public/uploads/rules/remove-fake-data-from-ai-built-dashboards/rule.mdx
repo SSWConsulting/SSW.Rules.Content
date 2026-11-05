@@ -39,7 +39,7 @@ Both Northwind Traders illustrations use example data, including the illustratio
 
 Sample data helps the assistant draw a page before a source connects. Keep it in a separate, visibly labelled demo mode with a separate data path. Never fall back to sample rows when a live request fails: readers could act on invented results.
 
-If a panel cannot be computed, leave it empty and explain why. Northwind's returns panel says the inbox is not connected. A successful empty query can show zero; an unavailable source cannot. See [showing missing and stale data](/show-missing-and-stale-data-on-dashboards).
+If a panel cannot be computed, leave it empty and explain why. Northwind's returns panel says the returns system is not connected. A successful empty query can show zero; an unavailable source cannot. See [showing missing and stale data](/show-missing-and-stale-data-on-dashboards).
 
 ## Wire every control or remove it
 
@@ -49,11 +49,11 @@ Northwind removes the dead Auto-resolve buttons and keeps Feature and Dates drop
 
 ## Make the mode and build visible
 
-Label the page **Live** or **Demo**, and show its actual build time. Compute health badges from the build results. Northwind's fixture reports 2,371 of 2,412 emails parsed (98.3%) and sample mode off; it does not type a reassuring percentage into the layout.
+Label the page **Live** or **Demo**, and show its actual build time. Compute health badges from the build results. Northwind's build reports 2,371 of 2,412 emails parsed (98.3%) and demo mode off; it does not type a reassuring percentage into the layout.
 
 <imageEmbed
   src="/uploads/rules/remove-fake-data-from-ai-built-dashboards/northwind-ai-dashboard-good-live-data-and-working-controls.png"
-  alt="Northwind illustration: Dates is 8–14 October, the total and chart use 2,412 emails, 2,198 were routed, returns are visibly disconnected, and the footer shows build time and sample mode off."
+  alt="Northwind illustration: Dates is 8–14 October, the total and chart use 2,412 emails, 2,198 were routed, returns are visibly disconnected, and the footer shows build time and demo mode off."
   size="large"
   showBorder={true}
   figurePrefix="good"
@@ -62,8 +62,10 @@ Label the page **Live** or **Demo**, and show its actual build time. Compute hea
 
 ## Try the page before sharing it
 
-Choose two date ranges with different known records. Check every affected tile, chart and list against those records; then test Feature in combination with Dates. An unaffected panel should explain its separate scope.
+Search the generated code for sample or seed arrays, placeholder strings such as `Lorem ipsum` or `Sample Customer`, and error handlers that return demo rows. Trace each live metric to its approved source. For a page that fetches data, inspect the network requests; for a prebuilt page, inspect its build inputs and source metadata.
+
+Choose two date ranges with different known records. Check every affected tile, chart and list against those records; then test Feature in combination with Dates. A panel outside the date filter should state the period it covers.
 
 Activate each control with a mouse and keyboard and confirm its intended result. Disconnect a source and verify that its panel explains the gap without inserting samples. Finally, open live mode with the demo source unavailable: it should still work from its approved source.
 
-[Traceable dashboard calculations](/ai-dashboards-with-insights) provide the data; [independent reconciliation](/check-dashboard-totals-against-the-source) checks that the connected totals are right.
+Use [guardrails for AI-built prototypes](/guardrails-for-vibe-coding) to make these checks repeatable. [Traceable dashboard calculations](/ai-dashboards-with-insights) provide the data; [independent reconciliation](/check-dashboard-totals-against-the-source) checks that the connected totals are right.

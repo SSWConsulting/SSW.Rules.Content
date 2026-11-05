@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do your AI quality dashboards show how much was actually checked?
-seoDescription: Show AI answer counts, sampling coverage and never-checked topics beside agreement rates, so a small or targeted sample cannot describe the whole assistant.
+seoDescription: Show AI answer counts, random-review coverage and unchecked topics beside agreement rates, so readers know which outputs the sample represents.
 guid: 91816dd9-a632-4d63-bdf2-84e195b61a39
 uri: show-coverage-on-ai-quality-dashboards
 created: 2026-10-22T13:30:00.000Z
@@ -46,13 +46,13 @@ For 8–14 October, Northwind counts:
 * **Answered: 870** — AI supplies an answer; another 235 go to a person mid-chat
 * **Random checks: 61** — Randomly drawn from 718 answers in five included topics, with no two checks from the same chat
 
-The funnel reveals 370 handovers. **Customers helped 94%** means 818/870 answered questions in the bad example; it excludes all handovers and does not establish usefulness. Define the success criterion and population before naming a rate.
+The funnel reveals 370 handovers. In the bad example, **Customers helped 94%** means 818/870 answered questions have no repeat contact within 24 hours. That proxy does not establish that customers were helped, and it excludes all 370 handovers. Name the observed outcome and wait until its follow-up window closes before counting it.
 
 For the checks, a support agent answers without seeing AI's answer. Matching answers measure agreement, not proven correctness; [adjudicate disagreements against evidence](/disagreement-inbox-for-ai-quality).
 
-## Put both coverage figures beside agreement
+## Label random-review coverage beside agreement
 
-Show **47/61 agreement (77%)**, **61/718 checked in the sampling frame (8.5%)**, and **61/870 of all answered questions (7%)**. The first coverage figure describes sampling within the five included topics; the second exposes how little of all output has been checked. Neither makes the excluded topics represented.
+Show **47/61 agreement (77%)**, **61/718 randomly checked in the sampling frame (8.5%)**, and **61/870 of all answered questions randomly checked (7%)**. Both are random-review coverage, excluding targeted reviews. The first describes sampling within the five included topics; the second compares random reviews with all answered questions. Neither makes the excluded topics represented. If you also report total review coverage, deduplicate random and targeted cases first.
 
 Keep the query and sampling-frame definition in source control under a name such as `support_coverage_v1`. Compute the numerator, denominator, exclusions and dates together. A model must not fill gaps in the daily tile with a guessed percentage. Changes to the sampled population need a visible definition version.
 
@@ -68,7 +68,7 @@ Northwind's never-checked topics have 71 gift-card answers, 48 wholesale answers
 
 <imageEmbed
   src="/uploads/rules/show-coverage-on-ai-quality-dashboards/northwind-ai-quality-good-funnel-and-coverage.png"
-  alt="Northwind illustration: the question funnel sits beside 47/61 agreement, separate coverage of 61/718 and 61/870, complaint checks 9/18, and 152 answers in never-sampled topics."
+  alt="Northwind illustration: the question funnel sits beside 47/61 agreement, random-review coverage of 61/718 and 61/870, separate complaint checks 9/18, a precisely labelled no-repeat-contact proxy, and 152 answers in never-sampled topics."
   size="large"
   showBorder={true}
   figurePrefix="good"

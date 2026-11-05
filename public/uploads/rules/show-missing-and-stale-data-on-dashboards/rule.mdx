@@ -13,6 +13,7 @@ related:
   - rule: public/uploads/rules/remove-fake-data-from-ai-built-dashboards/rule.mdx
   - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
   - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+  - rule: public/uploads/rules/do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
   - category: categories/company-operations/rules-to-better-business-intelligence.mdx
@@ -20,9 +21,9 @@ archivedreason: null
 isArchived: false
 ---
 
-At 3 pm, a support lead sees zero chats and $0 AI spend, labelled Quiet day and On track. The chat cache stopped syncing yesterday and billing failed. An Updated just now badge repeats a string from the morning build, so the page hides both failures.
+At 3 pm, a support lead sees zero chats and $0 AI spend, labelled **Quiet day** and **On track**. The chat cache stopped syncing yesterday and billing failed. An **Updated just now** badge repeats a string from the morning build, so the page hides both failures.
 
-**Keep unknown separate from zero and make stale data visible.** Show which period a figure covers before recommending an action.
+**Keep unknown separate from zero and make stale data visible.** Show which period a figure covers before a reader or AI insight recommends an action.
 
 <endIntro />
 
@@ -39,7 +40,7 @@ These Northwind Traders dashboards use example data.
 
 ## Keep unknown separate from zero
 
-Show zero only when a successful query over a complete, defined period returns zero. A failed request or incomplete feed shows **Unavailable** or **Unknown**, with the reason. A [null value represents missing or unknown information](https://www.postgresql.org/docs/current/functions-comparison.html); converting it to zero changes the claim.
+Show zero only when a successful query over a complete, defined period returns zero. A failed request or incomplete feed shows **Unavailable** or **Unknown**, with the reason. A [null value represents unknown information](https://www.postgresql.org/docs/current/functions-comparison.html); converting it to zero changes the claim. The [database rule on meaningful NULL versus zero](/do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero) covers storage semantics; this rule covers what the dashboard displays.
 
 Keep the last good value with its coverage date, clearly separate from the current result. Northwind shows **Cost unavailable**, then **Last good: $3,374 through 13 October**. That cannot establish today's budget pace. AI commentary must retain the gap instead of declaring savings.
 
@@ -55,11 +56,11 @@ Track three timestamps:
 
 A fresh pull of an old cache does not extend coverage. A failed pull does not overwrite its last-success timestamp. Where feeds update independently, show their individual dates and explain any harmless difference.
 
-At 15 October 15:10 AEST, Northwind's chat cache is about 21 hours behind. Its last successful cache sync is 14 October 18:02 and complete hourly data ends at 18:00. A request at 08:10 this morning reads that same stale cache. Yesterday's 1,082 chats are a last-known count, not today's zero.
+At 15 October 15:10 AEST, Northwind's chat cache is about 21 hours behind. Its last successful cache sync is 14 October 18:02 and complete hourly data ends at 18:00. The 08:10 build pulls from that same cache, so its fresh pull time does not extend coverage. The 1,082 chats through 18:00 yesterday remain a last-known count; today's count is unknown.
 
 <imageEmbed
   src="/uploads/rules/show-missing-and-stale-data-on-dashboards/northwind-dashboard-good-missing-and-stale-data-flagged.png"
-  alt="Northwind illustration: a seven-hour-old build is flagged, cost is unavailable with a last-good date, the chat cache is 21 hours behind, and unsynced hours are hatched."
+  alt="Northwind illustration: a seven-hour-old build is flagged, cost is unavailable with a last-good date, the chat cache is 21 hours behind, returns are unavailable, unsynced hours are hatched, and an AI summary withholds pace and activity conclusions."
   size="large"
   showBorder={true}
   figurePrefix="good"
@@ -68,7 +69,7 @@ At 15 October 15:10 AEST, Northwind's chat cache is about 21 hours behind. Its l
 
 ## Check age when readers open the page
 
-Store the build timestamp and compare it with the current time when the page opens. Use a consistent time zone and account for a badly wrong client clock where freshness matters. A build-time Just now string cannot reveal a stopped scheduler.
+Store the build timestamp and compare it with the current time when the page opens. Use a consistent time zone. Where a wrong client clock could hide a stale result, obtain the current time from the server when the page opens. A build-time **Just now** string cannot reveal a stopped scheduler.
 
 Choose age limits per source and decision. Northwind rebuilds hourly and warns after two hours: at 15:10, its 08:10 build says **Stale: last built seven hours ago** and directs the reader to check the scheduler. [Source-freshness checks](https://docs.getdbt.com/docs/deploy/source-freshness) can also monitor feed age independently of the page.
 

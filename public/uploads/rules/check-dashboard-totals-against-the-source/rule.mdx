@@ -44,15 +44,17 @@ Start with a closed billing period. Match the account, currency, time zone, taxe
 
 Compare against the invoice or an independently produced report, not another tile that reuses the same query. Check feature subtotals too: moving cost between features can leave the total correct and the ranking wrong. Keep unattributed costs visible.
 
+Keep the $5,964.22 token estimate separate from billed spend: it estimates the same activity. The invoice is about 1.06 times that estimate; use the ratio to compare them, and never add the estimate as another charge.
+
 ## Read every row and count each cost once
 
 In this example, the assistant assumes five features × 30 days and writes `SELECT TOP 150`, ordered by day. The source contains 180 rows because one feature has both daily detail and parent roll-ups. The query drops the last five days and adds some costs twice; the errors partly cancel.
 
-Read every API or export page, compare rows read with rows available, and flag a query that reaches its limit. Aggregate either detail rows or their summaries, never both. Northwind's corrected export reads 11,482 of 11,482 rows across three pages.
+Read every API or export page, compare rows read with rows available, and flag a query that reaches its limit. Aggregate either detail rows or their summaries, never both. Northwind replaces the faulty summary-table query with a saved metric query that reads the provider billing export directly: 11,482 of 11,482 charge records across three pages. These raw billing records are a different source from the 180 daily summary rows.
 
 ## Save the reconciliation with the metric
 
-Keep `billing_spend_v1` and its reconciliation checks in source control. Run them on every refresh and display the difference before generating advice. Where exact equality is inappropriate, document the rounding tolerance and explain any remaining difference. A failed check makes the figure **Unreconciled**, not ready for an AI recommendation. [Data assertions](https://docs.getdbt.com/docs/build/data-tests) can automate these checks.
+Keep the saved metric query `billing_spend_v1` and its reconciliation checks in source control. Run them on every refresh and display the difference before generating advice. Where exact equality is inappropriate, document the rounding tolerance and explain any remaining difference. A failed check makes the figure **Unreconciled**, not ready for an AI recommendation. Assign the metric owner to investigate the difference and verify the check before clearing that status. [Data assertions](https://docs.getdbt.com/docs/build/data-tests) can automate these checks.
 
 Reconcile the [useful-outcome denominators](/track-ai-cost-by-total-and-unit) too. Northwind checks 2,804 resolved chats against the helpdesk report and 9,388 routed emails against the inbox log.
 
@@ -64,7 +66,5 @@ Reconcile the [useful-outcome denominators](/track-ai-cost-by-total-and-unit) to
   figurePrefix="good"
   figure="The $0.00 difference is supported by complete rows, independent subtotals and checked outcome counts"
 />
-
-Keep the $5,964.22 token estimate separate from billed spend. It estimates the same activity, so adding it would count costs again. The invoice-to-estimate ratio is about 1.06; that comparison is not another charge.
 
 [Building traceable dashboard tiles](/ai-dashboards-with-insights) gets figures onto the page. This independent check establishes whether they agree with the source of record.
