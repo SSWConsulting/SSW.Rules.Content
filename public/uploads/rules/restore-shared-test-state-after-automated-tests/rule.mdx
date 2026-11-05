@@ -1,0 +1,87 @@
+---
+type: rule
+title: Do you restore shared test environment state after automated tests and check for side effects?
+seoDescription: Protect shared DEV and UAT environments by recording original state, restoring test changes on failure, and checking for unexpected persistent effects.
+guid: 54c28d63-a109-47a8-99e3-7bbfe615e29f
+uri: restore-shared-test-state-after-automated-tests
+created: 2026-10-31T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ephemeral-environments/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+redirects: []
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+archivedreason: null
+isArchived: false
+---
+
+A regression test reassigns a Northwind invoice, fails an assertion, and exits. The next person testing in UAT sees the wrong assignee and raises a bug caused by the test itself.
+
+Shared DEV and UAT environments are somebody else's workspace too. Automated scripts and AI-driven browser tests must restore what they change and account for anything they leave behind. Even opening a record can write data.
+
+<endIntro />
+
+## Reserve the test data before changing it
+
+Prefer [isolated, disposable environments](/ephemeral-environments). When a shared environment is necessary:
+
+* Use only records approved for testing. Confirm nobody is working on them, then reserve them for the run
+* Reserve the affected scope too. A global toggle or shared record order can affect people using other records
+* Record the original assignee, toggle value, or ordered record IDs **before the first change**. Keep this snapshot with the run so recovery does not depend on the script staying alive
+
+If you cannot prevent concurrent edits, use isolated data. Restoring an old snapshot over somebody else's new work makes the damage worse.
+
+## Restore state when the test fails too
+
+Put changes and assertions inside a `try` block, with restoration in `finally` or the framework's always-run cleanup step. Read back the restored values before releasing the reservation. Resetting to a default is not the same as restoring the original value.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A Northwind script reassigns approved test invoice INV-1042 to the test account. It plans to reset the assignee after checking the generated document. The assertion fails, so execution never reaches the reset. The invoice stays assigned to the test account.
+  </>}
+  figurePrefix="bad"
+  figure="Cleanup after an assertion is skipped when the assertion fails"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The Northwind script reserves INV-1042 and records its original assignee, Employee 5. It enters a try block before reassigning the invoice. Whether document verification passes or throws, the finally block restores Employee 5 and reads the assignee back. The run reports the assertion result and the cleanup result separately.
+  </>}
+  figurePrefix="good"
+  figure="The original assignee is restored and verified even after a failed assertion"
+/>
+
+See [Microsoft's C# exception-handling reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/exception-handling-statements#the-try-finally-statement) for `try`/`finally` behaviour. A killed process may never run cleanup. Use the saved snapshot to recover an interrupted run before reusing its records.
+
+**Failed cleanup is a failed run.** Report the affected record and remaining changes. Attempt each independent cleanup action even if another fails, and preserve the original test failure alongside any cleanup errors.
+
+## Allow-list the traces that may remain
+
+Before the run, list the expected persistent effects: for example, one generated document and the audit entries for reassignment and restoration. Keep legitimate audit history; do not delete it to make a test appear clean.
+
+Before any supposedly read-only exploration, check whether opening a record starts a timer, writes an audit row, or stamps "last viewed". Include those effects in the plan or use a different record or environment.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    An AI tester opens Northwind Order 10248 to inspect its layout. It reports "No changes made" because it never clicks Save. Opening the order starts a timer, which is still running when the tester leaves.
+  </>}
+  figurePrefix="bad"
+  figure="Avoiding Save does not make browser exploration read-only"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Before browsing, the tester confirms that opening approved test Order 10248 starts a timer and records a view audit entry. The run reserves the order and records that no timer is active. Cleanup cancels the test-created timer and discards its elapsed time using the supported application action, then verifies that neither remains. The view audit entry is an expected persistent effect.
+  </>}
+  figurePrefix="good"
+  figure="The tester checks hidden writes and removes only the timer created by the test"
+/>
+
+After cleanup, compare the remaining effects with the allow-list and include the result in the run report. Identify retained documents and audit entries by their IDs. Report unexpected effects even when the assertions pass. If an effect cannot be safely reversed, flag it for recovery rather than silently declaring the environment clean.
