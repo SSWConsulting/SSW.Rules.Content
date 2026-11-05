@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you combine AI models to write better content?
+title: Do you combine AI models to catch factual errors in your writing?
 seoDescription: Draft content with one AI model, ask another to critique it against your sources, and let a human resolve disagreements before publishing the final version.
 guid: 9a127dbb-fb5b-4eba-8f04-98962b47eaae
 uri: combine-ai-models-for-writing
@@ -9,6 +9,8 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
+  - rule: public/uploads/rules/critical-agent/rule.mdx
+  - rule: public/uploads/rules/reflexion/rule.mdx
   - rule: public/uploads/rules/check-your-ai-writing/rule.mdx
   - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
   - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
@@ -43,6 +45,8 @@ For example, a Northwind release note has this brief (**example data**):
 
 Choose a different model, preferably from another model family when available, for a second perspective. Research on [self-preference in LLM evaluators](https://arxiv.org/abs/2404.13076) finds that models can favour their own outputs. This supports caution about self-review; it does not prove that switching models makes a draft correct.
 
+Self-critique through a [critical agent](/critical-agent) or [Reflexion loop](/reflexion) can help polish a draft; factual approval still needs checks against the source.
+
 Ask for defects and evidence rather than a score or a general "looks good". You can use this prompt with the brief and draft:
 
 <boxEmbed
@@ -76,7 +80,7 @@ Here is how the review changes the Northwind announcement. Both examples use the
 
     **Human decision:** Check the critique against the brief, accept these corrections and remove the unsupported price claim.
 
-    **Revised announcement:** From 12 November, Northwind Pro-plan workspace admins can download orders as a CSV file by selecting Export. Other roles cannot export orders.
+    **Revised announcement:** From 12 November, Northwind Pro-plan workspace admins can download orders as a CSV file by selecting Export. Admins on other plans and users in other roles cannot export orders.
   </>}
   figurePrefix="good"
   figure="Source-backed critique leads to a checked announcement with accurate access and instructions"
