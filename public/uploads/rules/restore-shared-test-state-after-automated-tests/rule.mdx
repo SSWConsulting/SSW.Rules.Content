@@ -12,13 +12,15 @@ related:
   - rule: public/uploads/rules/ephemeral-environments/rule.mdx
   - rule: public/uploads/rules/playwright-with-ai/rule.mdx
   - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/subcutaneous-tests/rule.mdx
+  - rule: public/uploads/rules/use-feature-flags/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-testing.mdx
 archivedreason: null
 isArchived: false
 ---
 
-An automated test enables a feature flag in a shared staging environment, fails an assertion, and exits before resetting it. The next tester sees an experimental checkout and reports a bug caused by the test itself.
+An automated test enables a [feature flag](/use-feature-flags) in a shared staging environment, fails an assertion, and exits before resetting it. The next tester sees an experimental checkout and reports a bug caused by the test itself.
 
 Tests that change shared state must restore the original values even when assertions fail, then read them back to confirm the restore worked. Otherwise, later tests and people inherit the damage.
 
@@ -36,7 +38,7 @@ Restore the captured values, rather than assumed defaults. If you cannot prevent
 
 ## Put restoration in test teardown
 
-Use a test-scoped fixture or teardown hook, with `try`/`finally` protecting mutations during setup too. [Playwright fixtures](https://playwright.dev/docs/test-fixtures#execution-order) tear down after each test and keep their dependencies alive until cleanup finishes. A fresh browser context alone does not reset server-side flags or records.
+Use a test-scoped fixture or teardown hook, with `try`/`finally` protecting mutations during setup too. [Playwright fixtures](https://playwright.dev/docs/test-fixtures#execution-order) tear down after each test and keep their dependencies alive until cleanup finishes. A fresh browser context alone does not reset server-side flags or records. [Subcutaneous tests](/subcutaneous-tests) also need restoration when they change shared state.
 
 The following **example data** uses a fictional Northwind test API. Both examples assume an exclusive reservation, an authenticated Playwright `request` fixture, and `baseURL` configured for that test environment. Its application-specific endpoint reads or writes a single Boolean `enabled` value; replace these adapters with your application's supported API.
 
@@ -123,7 +125,7 @@ test('checkout preview is available', async ({ checkoutPreview }) => {
 
 Keep the saved file with the run's environment identity and reservation details so an interrupted run can be recovered. Configure the runner to retain recovery artifacts. [Playwright gives teardown its own time budget](https://playwright.dev/docs/test-timeouts#test-timeout); use bounded operations and allow enough time for restoration and verification.
 
-In [xUnit, use per-test cleanup](https://xunit.net/docs/shared-context#constructor-and-dispose): `IDisposable` for synchronous work or `IAsyncLifetime` for asynchronous work. A class fixture's cleanup runs after the class finishes, so it does not restore state between its tests. Use the same capture, restore, and read-back pattern; protect mutations during setup with `try`/`finally` as well. For browser tests written by agents, apply this contract to [Playwright automation](/playwright-with-ai) too.
+In [xUnit, use per-test cleanup](https://xunit.net/docs/shared-context#constructor): `IDisposable` for synchronous work or `IAsyncLifetime` for asynchronous work. A class fixture's cleanup runs after the class finishes, so it does not restore state between its tests. Use the same capture, restore, and read-back pattern; protect mutations during setup with `try`/`finally` as well. For browser tests written by agents, apply this contract to [Playwright automation](/playwright-with-ai) too.
 
 ## Verify side effects before releasing the reservation
 
