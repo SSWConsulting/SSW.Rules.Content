@@ -1,0 +1,63 @@
+---
+type: rule
+title: Do you reframe BAU work as an R&D experiment?
+seoDescription: Routine upgrades and maintenance don't qualify as R&D. Learn how to reframe business-as-usual (BAU) work as an experiment into a new way of doing it, so it can be a candidate for R&D.
+guid: c34c4aca-7405-43d6-8bfe-1db0c3b7ff0c
+uri: reframe-bau-work-as-rd-experiments
+created: 2026-11-03T22:01:34.000Z
+authors:
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
+related:
+  - rule: public/uploads/rules/know-the-three-parts-of-rd/rule.mdx
+  - rule: public/uploads/rules/make-rd-experiment-outcomes-measurable/rule.mdx
+  - rule: public/uploads/rules/do-you-know-how-painful-rd-is/rule.mdx
+categories:
+  - category: categories/company-operations/rules-to-better-research-and-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Business-as-usual (BAU) work such as upgrades, updates and maintenance does not qualify as R&D. Bug fixes usually do not qualify either (see below). If a team's backlog is mostly this kind of work, it will have little R&D to report, even if the work is hard.
+
+<endIntro />
+
+Before you create a chore PBI, pause and ask: **could this be done in a new way that hasn't been done before?** If so, the way you do it can become the experiment.
+
+## Change the question, not the work
+
+Don't create an epic to complete the chore. Instead, create one to investigate a new, untested way of completing it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Epic:** Upgrade an Angular app from version 10 to 20.
+  </>}
+  figurePrefix="bad"
+  figure="Routine upgrade work, which doesn't qualify as R&D"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Epic:** Establish whether an AI-powered technology uplift program can upgrade an Angular app from version 10 to 20.
+
+    **Success benchmark:** Define it before you start, for example the app builds and its tests pass with no manual code changes.
+  </>}
+  figurePrefix="good"
+  figure="Investigates a new way of doing the upgrade, with a way to judge the result"
+/>
+
+The upgrade still happens. The difference is that the team is now running an experiment on *how* to do it, and recording what it learns. See [Do you make your R&D experiment outcomes measurable?](/make-rd-experiment-outcomes-measurable).
+
+## Be honest about what qualifies
+
+Reframing only works when the new approach is genuinely uncertain. Don't relabel routine work to make it look like R&D.
+
+* If the outcome is already known, it is BAU, not an experiment
+* If you are fixing a bug inside one of your own experiments, it may still count as part of that experiment
+* If you are unsure, record it and let whoever prepares the R&D report decide
+
+Bugs are a grey area, so check with whoever prepares the report before counting them.
