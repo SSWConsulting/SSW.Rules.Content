@@ -1,36 +1,39 @@
 ---
-authors:
-- title: Luke Mao
-  url: https://www.ssw.com.au/people/luke-mao
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2023-12-04 05:13:51.742000+00:00
-guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
-related:
-- rule: public/uploads/rules/what-currency-to-quote/rule.mdx
-- rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
-seoDescription: Include annual costs, the pricing page URL, and a screenshot to provide
-  a complete picture of expenses and facilitate informed budget planning.
+type: rule
 title: Do you include the annual cost for recurring expenses?
+uri: include-annual-cost
 categories:
   - category: categories/client-engagement/rules-to-better-sales.mdx
-type: rule
-uri: include-annual-cost
+authors:
+  - title: Luke Mao
+    url: 'https://www.ssw.com.au/people/luke-mao'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+related:
+  - rule: public/uploads/rules/what-currency-to-quote/rule.mdx
+  - rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
+guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
+seoDescription: 'Include annual costs, the pricing page URL, and a screenshot to provide a complete picture of expenses and facilitate informed budget planning.'
+created: 2023-12-04T05:13:51.742Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-21T22:16:17.504Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 When quoting prices, it's common practice to state daily, weekly, or monthly costs; sometimes per person, per click, etc. It's crucial to provide a full picture by also including the annual cost. The reasons:
 
 <endIntro />
 
-- **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
-- **Comparison Ease**: Customers can more easily compare costs with other services or products
-- **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
+* **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
+* **Comparison Ease**: Customers can more easily compare costs with other services or products
+* **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
 Go one step further and back the numbers up. Include:
 
-- **The URL of the pricing page** - so the client can check the price themselves instead of taking your word for it
-- **A screenshot of the pricing page** - vendors change their prices, so a screenshot proves what the price was on the day you quoted it
-
+* **The URL of the pricing page** - so the client can check the price themselves instead of taking your word for it
+* **A screenshot of the pricing page** - vendors change their prices, so a screenshot proves what the price was on the day you quoted it
 
 <boxEmbed
   style="greybox"
@@ -41,8 +44,6 @@ Go one step further and back the numbers up. Include:
   figure="Only include monthly cost"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -52,13 +53,16 @@ Go one step further and back the numbers up. Include:
   figure="Both monthly and yearly cost, but there's no way to verify the price"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
     AUD $150 + GST/month (AUD $1,800 + GST/year)<br />
-    Source: https://www.example.com/pricing (screenshot below - prices as at 29 July 2026)
+    
+    
+    **Source:** example.com/pricing\
+    \
+    {{ SCREENSHOT }}\
+    **Figure: Prices as at 29 July 2026**
   </>}
   figurePrefix="good"
   figure="Monthly and yearly cost, plus the pricing page URL and a dated screenshot"
