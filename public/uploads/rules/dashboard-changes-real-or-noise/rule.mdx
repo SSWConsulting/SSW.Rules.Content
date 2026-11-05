@@ -20,7 +20,7 @@ archivedreason: null
 isArchived: false
 ---
 
-A support dashboard turns red because agreement falls from 86% to 77%, and its AI insight blames the nearby release. A leaderboard crowns questions with six checks each. Small samples can move sharply by chance, but the page presents a verdict.
+A support dashboard turns red because 77% agreement is below its 80% target, and its AI insight blames the nearby release. A leaderboard crowns questions with six checks each. Small samples can move sharply by chance, but the page presents a verdict.
 
 **Show the evidence behind each rate and distinguish a target breach from evidence of a change.** Use a planned comparison before calling a rise or fall clear.
 
@@ -48,16 +48,24 @@ These Northwind Traders dashboards use example data.
 
 ## Put counts and uncertainty beside rates
 
-Write **47/61 · 77% agreement**, and define agreement: the AI and a support agent give matching answers under a written rule for deciding whether their answers match. For independent sampled checks, a [90% Wilson interval](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm) is about 67–85%. An interval describes sampling uncertainty; it cannot repair biased selection.
+Write **47/61 · 77% agreement** and publish the comparison checklist. In this example, strict agreement requires the AI and reviewer answers to contain the same required facts and recommended action, including date and number formats. A formatting-only difference still counts as a disagreement.
+
+For independent sampled checks, a [90% Wilson interval](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm) is about 67–85%. An interval describes sampling uncertainty; it cannot repair biased selection.
 
 ## Plan comparisons before colouring changes
 
-Northwind plans two weekly comparisons. A [two-sided pooled two-proportion z-test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) gives:
+Northwind plans two weekly comparisons. A [two-sided pooled two-proportion z-test](https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm) checks how surprising the observed gap would be if the two populations had the same underlying rate. It gives:
 
 * **Support: no clear change yet** — 47/61 versus 55/64, p ≈ 0.20
 * **Descriptions: clear rise** — 44/52 versus 30/50, p ≈ 0.005
 
-Running several comparisons creates more chances for false alarms. [Holm adjustment](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html) controls that risk across the planned comparisons: here the two p-values become about 0.20 and 0.011. Northwind requires adjusted p below 0.05 and a change of at least ten percentage points before colouring a change. These are its planned decision settings, not universal thresholds. The description rise meets both. The 90% display interval describes uncertainty in one rate; the 0.05 test threshold is a separate decision setting. Do not infer the test result from whether two displayed intervals overlap.
+Running several comparisons creates more chances for false alarms. [Holm adjustment](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html) controls that risk across the planned comparisons: here the two p-values become about 0.20 and 0.011.
+
+Northwind requires adjusted p below 0.05 and a change of at least ten percentage points before colouring a change. These are its planned decision settings, not universal thresholds. The description rise meets both. Choose your own minimum practical change as the smallest shift that would trigger different work.
+
+The 90% display interval describes uncertainty in one rate; the 0.05 test threshold is a separate decision setting. Do not infer the test result from whether two displayed intervals overlap.
+
+## Keep target status separate from change status
 
 Keep the operational target badge separate: support is **Below 80% target** and still **No clear change yet**. Investigate the disagreements and coverage, but keep the change status neutral while collecting more independent checks. Plan sample size for the smallest change that would alter a decision; use longer non-overlapping periods when weekly counts are too small. An unclear result does not prove there was no change.
 
@@ -65,7 +73,7 @@ Mark relevant prompt, model and data changes. A marker shows timing, not causati
 
 ## Check the sample before trusting the test
 
-The test assumes independent checks from comparable populations. Repeated chats, shared customers or review batches can break that assumption. Use a method suited to those clusters; for sparse independent counts, consider an exact test instead of the large-sample approximation. Repeated daily looks need a monitoring method that accounts for repeated testing, not a fresh weekly p-value each day.
+The test assumes independent checks from comparable populations. Repeated chats, shared customers or review batches can break that assumption. Use a method suited to those clusters. When there are only a few successes or failures, use an exact test rather than a z-test, which relies on having enough of both. Repeated daily looks need a monitoring method that accounts for repeated testing, not a fresh weekly p-value each day.
 
 Keep [random and targeted checks separate, with coverage](/show-coverage-on-ai-quality-dashboards). A complaints-only sample measures complaints, however precise its interval looks.
 
