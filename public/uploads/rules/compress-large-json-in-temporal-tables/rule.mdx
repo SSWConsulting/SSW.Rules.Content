@@ -1,31 +1,31 @@
 ---
 type: rule
 title: Do you compress large JSON documents and keep them off busy temporal tables?
-seoDescription: Gzip-compress whole JSON documents into varbinary(max) with a shared EF Core ValueConverter, and move large JSON off busy temporal rows so history does not balloon when other columns change.
-guid: 48a5d575-b22a-408a-be2e-6ab39fba23e2
 uri: compress-large-json-in-temporal-tables
-created: 2026-11-04T21:09:36.000Z
-createdBy: Gordon Beeming
-createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-04T21:12:15.872Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: me@gordonbeeming.com
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+  - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 authors:
   - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
 related:
   - rule: public/uploads/rules/use-temporal-tables-to-audit-data-changes/rule.mdx
   - rule: public/uploads/rules/sqlperf-reduce-table-size/rule.mdx
   - rule: public/uploads/rules/sqlperf-minimise-large-writes/rule.mdx
   - rule: public/uploads/rules/use-code-migrations/rule.mdx
-categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
-  - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
-  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
-archivedreason: null
+guid: 48a5d575-b22a-408a-be2e-6ab39fba23e2
+seoDescription: 'Gzip-compress whole JSON documents into varbinary(max) with a shared EF Core ValueConverter, and move large JSON off busy temporal rows so history does not balloon when other columns change.'
+created: 2026-11-04T21:09:36.000Z
+createdBy: Gordon Beeming
+createdByEmail: me@gordonbeeming.com
+lastUpdated: 2026-11-05T01:11:57.094Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: me@gordonbeeming.com
 isArchived: false
+archivedreason: null
 ---
 
 SQL Server temporal tables copy the **whole row** into history on every update. A large JSON document sitting on a busy row (mission briefing, workflow payload, form answers — often tens of KB of `nvarchar(max)`) gets rewritten into history even when the JSON did not change. That can grow history by tens of GB a month and fill the data file, while the live table itself still looks fine.
@@ -36,7 +36,7 @@ Treat large JSON as a document, not as another column on a hot temporal row. Com
 
 ## Why this matters
 
-* **History multiplies every byte** - An unchanged 40 KB JSON on a row updated 10 times a day becomes ~12 MB of history per month for that one row alone
+* **History multiplies every byte** - An unchanged 40 KB JSON on a row updated 10 times a day becomes \~12 MB of history per month for that one row alone
 * **Writes get slower** - Larger rows mean more page splits, more log, and more I/O on every update (see [Do you avoid large database writes?](/sqlperf-minimise-large-writes))
 * **Compression is cheap** - Gzip of whole JSON documents commonly shrinks them to about a twelfth of the original size, and the app can share one converter everywhere
 
@@ -124,10 +124,10 @@ Keep plain `nvarchar` only when SQL must query the JSON itself — EF primitive 
 
 Compression alone is not enough if other columns on the parent change constantly. Every parent update still writes a new history row that includes the (now smaller) blob. Split the document out.
 
-| Document kind | Pattern | Why |
-| --- | --- | --- |
+| Document kind                                                                               | Pattern                    | Why                                       |
+| ------------------------------------------------------------------------------------------- | -------------------------- | ----------------------------------------- |
 | Authored / set-up-front JSON that is part of the audit record (briefing, submitted answers) | Own **temporal** 1:1 table | History only when the JSON itself changes |
-| Transient runtime state rewritten constantly (progress, scratch, last-run payload) | **Non-temporal** 1:1 table | Latest value only — no history to balloon |
+| Transient runtime state rewritten constantly (progress, scratch, last-run payload)          | **Non-temporal** 1:1 table | Latest value only — no history to balloon |
 
 ```csharp
 // Temporal parent - updated often as the mission runs
@@ -175,24 +175,33 @@ Do not flip the column type in place on a large table. Use an expand/contract mi
 1. **Expand** - Add the new `varbinary(max)` column (or 1:1 table)
 2. **Dual-write** - App writes old and new forms
 3. **Backfill** - Batch-update existing rows (SQL `COMPRESS` or the same converter)
-4. **Contract** - Switch reads to the new form, then drop the old column
+4. **Preserve history** - Backfill only touches current rows, and dropping a column from a temporal table also drops it from history. Copy historical document versions with their original `ValidFrom` / `ValidTo` periods into the new history table (set `SYSTEM_VERSIONING = OFF`, insert the old versions, then set it back `ON` with `HISTORY_TABLE` pointing at that table). Verify row counts and spot-check samples against the old history
+5. **Contract** - Switch current and historical reads to the new form, then drop the old column
 
 ```sql
--- Backfill example using SQL Server COMPRESS (UTF-16LE for nvarchar)
-UPDATE dbo.MissionBriefingDocument
-SET BriefingJsonCompressed = COMPRESS(BriefingJson)
-WHERE BriefingJsonCompressed IS NULL;
+-- Backfill in small batches using SQL Server COMPRESS (UTF-16LE for nvarchar)
+WHILE 1 = 1
+BEGIN
+    UPDATE TOP (1000) dbo.MissionBriefingDocument
+    SET BriefingJsonCompressed = COMPRESS(BriefingJson)
+    WHERE BriefingJsonCompressed IS NULL
+      AND BriefingJson IS NOT NULL;
+
+    IF @@ROWCOUNT = 0 BREAK;
+END
 ```
 
-**✅ Figure: Good example - SQL COMPRESS backfills the new column with bytes the EF converter can decompress**
+**✅ Figure: Good example - SQL COMPRESS backfills the new column in bounded batches with bytes the EF converter can decompress**
+
+Run each batch as its own commit, not inside one migration transaction, and ideally off-peak. On a temporal table every batch also adds history rows, so watch log and history growth while it runs.
 
 ## Rejected options
 
-| Option | Why not |
-| --- | --- |
-| Move JSON to blob storage | Adds another system, weakens transactional consistency with the row, and complicates point-in-time restore with temporal history |
-| Turn temporal off on the parent | Loses the audit trail you added temporal for |
-| Retention-only on history | Caps growth but still rewrites large unchanged JSON on every update until retention deletes it; does not fix write cost |
+| Option                          | Why not                                                                                                                          |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Move JSON to blob storage       | Adds another system, weakens transactional consistency with the row, and complicates point-in-time restore with temporal history |
+| Turn temporal off on the parent | Loses the audit trail you added temporal for                                                                                     |
+| Retention-only on history       | Caps growth but still rewrites large unchanged JSON on every update until retention deletes it; does not fix write cost          |
 
 ## When not to use this
 
