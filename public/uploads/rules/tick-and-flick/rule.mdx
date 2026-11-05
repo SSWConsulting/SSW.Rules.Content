@@ -13,6 +13,8 @@ authors:
     url: 'https://www.ssw.com.au/people/adam-cogan'
   - title: Tylah Kapa
     url: 'https://www.ssw.com.au/people/tylah-kapa'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
 related:
   - rule: public/uploads/rules/what-happens-at-a-sprint-review-meeting/rule.mdx
   - rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
@@ -33,7 +35,11 @@ lastUpdatedByEmail: JeoffreyFischer@ssw.com.au
 
 It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing each Product Backlog Item (PBI) to the Product Owner. Better communication with the Product Owner can transform this into a swift "tick and flick experience", leading to more efficient reviews.
 
+**In short:** Show each PBI to the Product Owner at least once during the Sprint, before the Sprint Review.
+
 <endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=sjAlt4GgtMw" description="Video: Tick and Flick! 3 tips for better Sprint Reviews | Adam Cogan | SSW Rules (5 min)" />
 
 ## Get PBIs into a "tick and flick" state
 
@@ -44,10 +50,12 @@ If the developer has shown the Product Owner the PBI prior to the Sprint Review,
 <boxEmbed
   style="greybox"
   body={<>
+    *(During the Sprint Review call)*
+
     **Developer:** This PBI is about making the new customer contact form. Let me show you what I've done:
-    
+
     🖥️ *Developer Demos the change*
-    
+
     **Developer:** Any questions?
   </>}
   figurePrefix="ok"
@@ -57,6 +65,8 @@ If the developer has shown the Product Owner the PBI prior to the Sprint Review,
 <boxEmbed
   style="greybox"
   body={<>
+    *(During the Sprint Review call - you showed this PBI to the Product Owner before the call)*
+
     **Developer:** This is the PBI I showed you on Monday about creating the new customer contact form. Are you happy to move onto the next one?
   </>}
   figurePrefix="good"
@@ -65,23 +75,47 @@ If the developer has shown the Product Owner the PBI prior to the Sprint Review,
 
 ## Make a Sprint Review a "tick and flick" experience
 
-To make a **Sprint Review** "tick and flick", you want as many **PBIs** as possible to be in a "tick and flick" state. Every project is different, so the process will differ depending on the project and the Product Owner's preferences. However, the general idea is that you communicate the completion of a PBI to the Product Owner and give them a visual indication of what was changed.
-
 Here are some tips that help improve communication with the Product Owner during a Sprint to help get PBIs ready for the Sprint Review:
 
 1. **[Use @mentions in a PBI](/when-you-use-mentions-in-a-pbi)** - Utilize @ mentions in a PBI to alert the Product Owner and other relevant team members about any updates, questions, or issues related to a PBI. Using @mentions ensures that everyone stays informed, and any concerns are addressed before the Sprint Review
 2. **[Document decisions and discoveries](/document-discoveries)** - While working on the PBI make comments about any decisions or discoveries, that way when a Product Owner reviews the PBI they will be able to see the context of everything that happened
 3. **[Close the PBI with context](/close-pbis-with-context)** - By adding relevant information to close off the PBI, the Product Owner can quickly get a handle on the status of the PBI
-4. **[Send 'Done' emails](/done-do-you-know-when-to-send-a-done-email-in-scrum)** - Use 'Done' emails to notify the Product Owner when a PBI has been completed. This includes a brief description of the work done, links to relevant documentation, and any other essential information. Sending these emails helps keep the Product Owner informed and allows them to prepare for the Sprint Review
-5. **[Send 'Done Videos'](/record-a-quick-and-dirty-done-video)** - When appropriate, make a habit of including a short video demonstrating the completion of a PBI in your done email. This will give the Product Owner an opportunity to review the work before the Sprint Review meeting, saving time and ensuring any issues are addressed beforehand
-6. **Call the Product Owner** to run through what's been done in the PBI
+4. **[Send 'Done' emails with a 'Done Video'](/when-to-send-a-done-email-in-scrum)** - When you finish a PBI, email the Product Owner a short summary and links to the work. Add a short [Done Video](/done-video), so they see the change working before the Sprint Review. AI can now [make the Done Video for you](/done-video-by-ai)
+5. **Call the Product Owner** to run through what you did in the PBI
+6. **Show the Done Video in the [Daily Scrum](/methodology-daily-scrums)** - If the Product Owner joins the Daily Scrum, play the Done Video there
 
 By incorporating these tips into your team's workflow you can keep the Product Owner informed and subsequently make Sprint Reviews "tick and flick".
 
 ## Common mistakes **on the backlog** in Sprint Reviews
 
-Here's a video highlighting common mistakes that show an unhealthy backlog 🤢, and can slow down Sprint Reviews:
+Watch this video highlighting common mistakes that show an unhealthy backlog 🤒, and can slow down Sprint Reviews.
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=-0PUveZg3wk" description="" />
 
 **Video: Run a smooth Sprint Review | [Jeoffrey Fischer](https://www.ssw.com.au/people/jeoffrey-fischer/) | SSW Rules (4 min)**
+
+The video covers 3 ways to fix these mistakes:
+
+1. **[Always estimate your PBIs](/do-you-estimate-all-tasks-at-the-start-of-the-sprint)** - Every PBI should have an estimate, so avoid leaving them at zero
+2. **Assign yourself to PBIs you're working on** - When you move a PBI to In Progress, assign yourself so everyone knows who's responsible
+3. **[Close completed PBIs with context](/close-pbis-with-context)** - Add a closing comment on what was done, include evidence such as a screenshot, then close the PBI
+
+## How can AI help you improve your Sprint Reviews?
+
+### Before the Sprint Review - Get AI to make your Done Videos
+
+A Done Video gets a PBI into a "tick and flick" state fast, because the Product Owner sees the change before the meeting. An AI agent can now read the PR, write the script, record the demo and narrate it in your own voice clone. This makes it easy to send a Done Video for more of your PBIs.
+
+Learn how to [set up AI-generated Done Videos and screenshots](/done-video-by-ai).
+
+### After the Sprint Review - Get AI to analyze the recording
+
+Record the Sprint Review, then run AI over the recording. Tools like [SSW Tiger](https://sswtiger.com) turn the recording into insights that the team can act on:
+
+* **Overview** - How much of the Sprint got done, and how many deployments happened
+* **Timeline** - Who spoke and when
+* **People and roles** - Speaking time for each person, plus good and bad feedback so they can improve
+* **Insights** - The elephants in the room, e.g. user growth is declining but nobody mentions it
+* **Trends** - A comparison with the last Sprint, so you see the problems that repeat and the wins that stick
+
+See how to [incorporate recording and AI analysis into your Sprint Review](/what-happens-at-a-sprint-review-meeting).
