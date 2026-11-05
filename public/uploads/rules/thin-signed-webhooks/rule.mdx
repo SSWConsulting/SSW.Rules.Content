@@ -78,7 +78,7 @@ Use the sender's verification library and signing scheme. For a new API using th
 
 Verify with a constant-time comparison and reject attempt timestamps outside a short past/future tolerance. Never parse JSON and serialise it again to verify: even a whitespace change alters the signature. Keep server clocks synchronised. A valid signature within the tolerance can still be replayed, so deduplication is also required.
 
-For Node.js, install `standardwebhooks` and save this verification helper as `verify.mjs`. This example is exercised with Node.js 24.18.0 and `standardwebhooks` 1.1.1. It accepts a raw `Buffer` containing UTF-8 JSON and headers from the request; load `signingSecret` from trusted configuration. With [Express's raw body middleware](https://expressjs.com/en/5x/api/express/#express.raw), use `express.raw({ type: "application/json" })` on this route **before** any JSON body parser, and configure a request size limit.
+For Node.js, install `standardwebhooks` and save this verification helper as `verify.mjs`. This example is exercised with Node.js 24.18.0 and `standardwebhooks` 1.1.1. It accepts a raw `Buffer` containing UTF-8 JSON and headers from the request; load `signingSecret` from trusted configuration. With [Express's raw body middleware](https://expressjs.com/en/5x/api/express/#expressraw), use `express.raw({ type: "application/json" })` on this route **before** any JSON body parser, and configure a request size limit.
 
 ```javascript
 import { Webhook } from "standardwebhooks";
