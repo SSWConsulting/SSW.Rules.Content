@@ -13,7 +13,8 @@ related:
 - rule: public/uploads/rules/leave-explanatory-notes-for-non-standard-code/rule.mdx
 - rule: public/uploads/rules/todo-tasks/rule.mdx
 - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
-seoDescription: Write useful code comments that explain lasting constraints. Remove AI-generated change narration, prefer clearer code, and keep history in source control.
+- rule: public/uploads/rules/do-you-review-the-code-comments/rule.mdx
+seoDescription: Write code comments that explain lasting constraints, prefer clearer code, remove AI-generated change narration and keep change history in source control.
 title: Do you follow code commenting standards?
 categories:
   - category: categories/software-engineering/rules-to-better-code-commenting.mdx
@@ -24,13 +25,13 @@ uri: code-commenting
 
 Comments can become stale while the code moves on, leaving maintainers to work out which version to trust. Before adding a comment, try clearer names, simpler code or targeted tests.
 
-Keep comments that explain why the code must work this way. Remove those that merely repeat what it does.
+Keep comments that explain why the code must work this way. Remove those that merely repeat what it does or narrate the latest edit, including AI-written change notes.
 
 <endIntro />
 
 ## Prefer clearer code
 
-Comments add text for a maintainer to understand and keep accurate. Refactoring code does not guarantee its comments stay accurate, and prose cannot enforce the behaviour it describes. Before adding an explanation:
+Comments add text for maintainers to understand. Review them during refactoring: prose can become stale and cannot enforce the behaviour it describes. Before adding an explanation:
 
 * Give the class, function, parameter, variable or test a clearer, more descriptive name
 * Rewrite cryptic code in simpler terms; keep necessary optimisations and explain any non-obvious constraints
@@ -38,7 +39,7 @@ Comments add text for a maintainer to understand and keep accurate. Refactoring 
 * Split large methods or classes into smaller ones with descriptive names, or group related parameters in a Parameter Object
 * Pair with someone else when you cannot find a clear approach
 
-## The one-year test
+## Apply the one-year test
 
 When reviewing a comment, ask: **would this comment still earn its place a year from now**, with the change long forgotten? Keep context that a future maintainer needs but cannot infer from the code. Remove narration of the change that produced it.
 
@@ -114,9 +115,18 @@ function getShipCountry(order: { shipCountry: string } | null): string | null {
 
 Put completed-work references and "renamed from/changed from" narration in [commit history](/comment-when-your-code-is-updated). Keep broader decisions in [PR descriptions or decision records](/keep-the-why-from-ai-assisted-development). A link that explains an ongoing constraint can still belong beside the code.
 
-## Preserve useful documentation and unfinished-work references
+To prevent this noise in later tasks, add a standing instruction to the [agent's project instructions](/write-agents-md):
 
-The one-year test applies to explanatory comments, with these limits:
+```markdown
+Do not add comments that narrate edits. Keep necessary explanations of lasting
+constraints beside the code, and put change history in commits or PR descriptions.
+```
+
+**Figure: A project instruction states which comments to omit and which explanations to preserve**
+
+## Handle documentation, TODOs and commented-out code
+
+Account for these special cases during review:
 
 * **API documentation:** Describe purpose, usage and behaviour rather than repeating a member's name. [C# XML documentation comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/) support generated API documentation, including for public NuGet libraries
 * **Legal notices:** Keep required copyright and licence notices
