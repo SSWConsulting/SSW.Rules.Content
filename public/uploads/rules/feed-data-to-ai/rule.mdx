@@ -23,7 +23,7 @@ related:
 redirects:
   - get-data-to-your-ai
 guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
-seoDescription: 'Long context, RAG, agentic search, precomputed context or knowledge graphs - the best way to feed your data to AI, what each costs and why RAG is not dead'
+seoDescription: Choose long context, RAG, agentic search, precomputed briefs or knowledge graphs for your AI data, and use evals to decide when fine-tuning is worthwhile.
 created: 2026-07-30T00:00:00.000Z
 createdBy: Isaac Lombard
 createdByEmail: isaaclombard@ssw.com.au
@@ -31,11 +31,12 @@ lastUpdated: 2026-08-11T05:37:10.024Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 archivedreason: null
+isArchived: false
 ---
 
 Your AI solution needs your support docs and business information. Feed it too little and it misses the answer. Feed it everything and you can pay more and wait longer.
 
-How the model accesses that data affects cost per query, latency and answer quality. When LLMs had tiny 4K token context windows, RAG was the clear choice. Now that context windows can fit millions of tokens, the choice is less obvious.
+How the model accesses that data affects cost per query, latency and answer quality. Start with the simplest approach that supplies the evidence your questions need. Add retrieval, reusable preparation or training only when evaluations show a benefit.
 
 <endIntro />
 
@@ -52,21 +53,21 @@ If all the material needed to answer a question fits inside the context window, 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Long context - the model sees every document in full, and every request pays for all of it"
-  src="/uploads/rules/feed-data-to-ai/feed-data-long-context.svg"
+  figure="Illustration (example data): Long context puts all three documents into each request"
+  src="/uploads/rules/feed-data-to-ai/feed-data-long-context.png"
 />
 
 This can be useful when the answer isn't in any single document. A question like "*which security requirements never made it into the release?*" may need two or more documents in full, because the answer is the gap between them.
 
-There are caveats. You pay for every token on every request, in money and latency. Position matters too: models can miss information [in the middle](https://arxiv.org/abs/2307.03172) of the context and struggle in [multi-hop conversations](https://arxiv.org/abs/2601.12499).
+Long inputs can increase cost and latency, even when they fit. Position matters too: studies find that models can miss information [in the middle](https://arxiv.org/abs/2307.03172) and struggle with [questions that join several pieces of evidence](https://arxiv.org/abs/2601.12499). Test your model on representative questions rather than treating the context limit as an accuracy guarantee.
 
 ### Prompt caching - Making long context economical
 
-Prompt caching can make long context cheaper. Caching keys on how a prompt *starts*, not the whole prompt. Put the documents at the front and the user's question at the end. Requests with the same document prefix can reuse the cached copy at a fraction of the price, even when the question changes. Check your provider and model first - the minimum cacheable size, cache lifetime and discount all differ. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+Prompt caching can reduce repeated processing of an identical prompt prefix. Put stable instructions and reference documents before the changing question. Configure cache boundaries where your provider requires them; matching text alone does not guarantee a hit. Check cache-write costs, minimum size, lifetime and actual cached-token usage in your [provider's documentation](https://developers.openai.com/api/docs/guides/prompt-caching). See [prompt caching](/do-you-follow-best-practices-for-prompt-caching) for prompt layout.
 
-Caching cuts cost and latency, not the caveats above. The model still has to find the answer in everything you send.
+A cache hit can cut input cost and latency. The model still has to find the answer in the supplied material.
 
-[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605), from Chan et al.'s *Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks*, preloads the whole knowledge base into context, caches it and answers without retrieval. The knowledge base must fit. That is long context plus prompt caching.
+[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605), from Chan et al.'s *Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks*, preloads a bounded knowledge base into context and reuses its attention key-value cache, answering without query-time retrieval. The relevant resources must fit. This is a specific long-context caching approach, not a synonym for every use of prompt caching.
 
 ## Option B: Retrieval-Augmented Generation (RAG)
 
@@ -77,23 +78,23 @@ RAG means retrieving the relevant material first and passing only that to the mo
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Vector RAG - the model only sees the chunks that scored closest to the question"
-  src="/uploads/rules/feed-data-to-ai/feed-data-rag.svg"
+  figure="Illustration (example data): This vector RAG pipeline sends only the retrieved chunks to the model"
+  src="/uploads/rules/feed-data-to-ai/feed-data-rag.png"
 />
 
-Best for large collections of unstructured text: support docs, PDFs, policies and transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
+Often a good fit for large collections of unstructured text: support docs, PDFs, policies and transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
 
-**Is RAG dead?** As the **default pipeline** (chunk, embed, retrieve the top matches, then stuff the prompt), it is no longer an obvious choice. As a **capability**, it is very much alive: Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) when a project outgrows the context window, then backs off when it shrinks.
+**Is RAG dead?** As the **default pipeline** (chunk, embed, retrieve the top matches, then stuff the prompt), it is no longer an obvious choice. As a **capability**, it is very much alive: Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) as project knowledge approaches the context limit. Retrieval remains useful when the required sources cannot all fit in a prompt.
 
 ## Option C: Agentic search
 
 Give an agent tools like `grep`, a search API or read-only SQL access, and let it search, inspect the results and decide what to search next.
 
-This works well when the first results reveal a need for more detail or a different query - much as a person would refine a search. If the data already lives in a database, SQL is often the most direct tool: joins return exact answers that similarity search can only approximate.
+This works well when the first results reveal a need for more detail or a different query - much as a person would refine a search. If the data already lives in a database, SQL is often the most direct tool: a correct query can compute exact joins, filters and totals instead of asking the model to infer them from text snippets.
 
-There's no separate index to keep in sync, provided the tools read the live source rather than a snapshot or cache.
+Tools that query the source directly avoid maintaining a separate retrieval index. Search APIs may still have their own indexes or caches, so check their freshness.
 
-For shell-based search, the agent needs shell tools, but these can run in a sandbox. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) simulates bash over a virtual filesystem, with `grep`, `find`, `glob` and friends, no child processes, and network access off by default. This lets the model use familiar tools without access to a real shell.
+For shell-based search, the agent needs shell tools, but these can run in a sandbox. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) provides bash-like commands over a configurable filesystem, with network access off by default. Its [security model](https://github.com/vercel-labs/just-bash/tree/main/packages/just-bash#security-model) explains the boundaries; it is not a substitute for operating-system isolation. Expose only approved files and tools, enforce user permissions outside the model, and limit query time, result size and tool calls. See [database access for AI agents](/ai-database-access).
 
 The agent chooses its searches at query time and can use any of the same retrieval tools as RAG. The key difference is that the AI manages its own context rather than relying on a fixed retrieval pipeline.
 
@@ -106,26 +107,26 @@ When you run the same task over different inputs, do the expensive reading and r
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Precompute - research once, then every run starts from the same brief"
-  src="/uploads/rules/feed-data-to-ai/feed-data-precompute.svg"
+  figure="Illustration (example data): Each run reuses the brief and receives only its own customer documents"
+  src="/uploads/rules/feed-data-to-ai/feed-data-precompute.png"
 />
 
-The pattern goes by a few names:
+Related techniques prepare or package reusable context in different ways:
 
-* [Sleep-time compute](https://arxiv.org/abs/2504.13171) (Lin et al., 2025) - The model reasons over the context before queries arrive. Sharing that work across several related queries about the same context cut the average cost per query by about 2.5×, with gains depending on how predictable the queries are.
-* Compiled / optimised prompts - Treat the prompt as a build artefact, optimised against a metric with tools such as [DSPy's GEPA optimizer](https://dspy.ai/api/optimizers/GEPA/overview/).
+* [Sleep-time compute](https://arxiv.org/abs/2504.13171) (Lin et al., 2025) - The model reasons over the context before queries arrive. In the paper's Multi-Query GSM-Symbolic experiment, sharing that work cut average cost per query by 2.5×. This is a benchmark result, not an expected saving for every application.
+* Compiled / optimised prompts - Treat the prompt as a build artefact, optimised against a metric with tools such as [DSPy's GEPA optimizer](https://dspy.ai/current/api/optimizers/GEPA/overview/).
 * [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (Anthropic) - Package reusable instructions in a folder with a `SKILL.md` and supporting files. Only the name and description load up front; the body and extra files load when needed. See [Do you use skills to standardize AI workflows?](/ai-agents-with-skills).
 
-This pays off when you have many runs, predictable questions and research that costs more than a single run. The brief goes stale when its sources change. Define when to repeat the research and recompile it, then compare versions with evals before replacing it. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+This can pay off over many runs with predictable questions. Preserve source links, versions and effective dates in the brief, and define a refresh trigger when sources change. Compare versions with evals before replacing it, including cases where a summary omits important evidence. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
 
 Precompute saves the reading and reasoning; prompt caching only saves reprocessing an identical prefix. Combine them: put the brief in the cached prefix, with per-customer and per-run input after it.
 
 <boxEmbed
   style="greybox"
   body={<>
-    Suppose your team answers the same set of compliance questions for many customers. Whenever the regulations change, an agent researches them and writes a brief for each question: what it asks, which evidence counts and common wrong answers.
+    **Example data:** A fictional team answers the same policy questions for several customers. A reviewer approves a versioned brief for each question: what it asks, which evidence counts and common wrong answers. Source changes trigger another review.
 
-    Each customer assessment loads that brief first, as the cached prefix, followed by that customer's documents.
+    Each assessment loads that shared brief first, followed by only the authorised customer's documents. Cache the shared prefix where supported; keep customer-specific evidence out of the shared brief.
   </>}
   figurePrefix="good"
   figure="Research each question once, then reuse its brief across customer assessments"
@@ -138,57 +139,57 @@ To improve the brief from feedback over time, see [Do you let your prompts learn
 A knowledge graph stores your data as entities and the relationships between them. Each node can hold a structured summary of one entity, such as a person or a company, with links to related nodes and to the source documents behind it. Instead of isolated chunks of text, the model sees how the facts connect.
 
 <imageEmbed
-  alt="Knowledge graph using Northwind data: the Customer node for Alfreds Futterkiste summarises the customer (Berlin, Germany; contact Maria Anders) and links to its source documents and contact. The question follows the path Customer, Orders, a discontinued Product, Supplier and Country Germany, and the path plus its sources go to the LLM"
+  alt="Illustration using example data: A customer node links to source documents and to Orders, a discontinued Product, its Supplier and the supplier country Germany. The retrieved path and supporting sources go to the LLM"
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Knowledge graph - the question follows the links, and the path shows where each fact came from"
-  src="/uploads/rules/feed-data-to-ai/feed-data-knowledge-graph.svg"
+  figure="Illustration (example data): A graph keeps relationships and links to the evidence behind them"
+  src="/uploads/rules/feed-data-to-ai/feed-data-knowledge-graph.png"
 />
 
 Graph retrieval is a form of RAG, not a rival to it. You can traverse the graph on its own or combine it with vector search, then pass the connected facts and their sources to the model.
 
-### When does a graph beat vector RAG?
+### When can a graph help?
 
 * **Multi-hop questions** - The answer joins facts that no single chunk contains
 * **Relationships between entities** - Who bought what, from whom and where, rather than which text sounds similar
 * **Explainability** - You can show the path and the sources behind each answer
 
-For example, take [Northwind](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs), Microsoft's sample database for a fictional food trader. Imagine its customers, orders, products and suppliers are described across emails, contracts and notes, and you ask: "Which customers bought products from suppliers in Germany that were since discontinued?"
+Consider **example data** inspired by [Northwind](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs), Microsoft's fictional food trader. Imagine the relationships are spread across order emails, supplier contracts and product notices. Ask: "Which customers bought discontinued products supplied by companies in Germany?"
+
+In this example, Alfreds Futterkiste is in Berlin but buys an active product from France. Contoso Foods is in London and buys discontinued product P-7 from a German supplier. The correct answer is Contoso Foods; the customer's address is irrelevant.
 
 <boxEmbed
   style="greybox"
   body={<>
-    Vector search returns the chunks that sound most like the question. They might include supplier notes that mention Germany, a notice about discontinued products and the customer record for Alfreds Futterkiste, because its address is in Berlin, Germany.
+    The retriever returns three chunks: a German supplier note, a discontinued-product notice and Alfreds Futterkiste's Berlin address. It misses the order linking Contoso Foods to P-7.
 
-    No single chunk says which customer bought which product from which supplier, so the model has to guess the joins. It can miss customers, or include ones whose only link to Germany is their own address.
+    The assistant answers "Alfreds Futterkiste" by treating separate matches as a connected purchase. There is no purchase evidence for that answer. It should fetch the missing evidence or say it cannot establish the relationship.
   </>}
   figurePrefix="bad"
-  figure="Vector RAG matches 'Germany' and 'discontinued', not the relationships between them"
+  figure="Separate keyword matches produce the wrong customer when the purchase relationship is missing"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    The graph follows the relationships instead:
+    The graph retrieves **Contoso Foods** → **Order NW-102** → **Product P-7** (discontinued) → **German supplier**. The order email, product notice and supplier contract support the three links.
 
-    **Customer** → placed → **Order** → contains → **Product** (discontinued) → supplied by → **Supplier** → located in → **Country** (Germany)
-
-    Each customer in the answer comes with its path and links to the source documents, so you can check why it is there.
+    The assistant answers "Contoso Foods" with those sources. Alfreds Futterkiste has no qualifying path and is excluded. If an edge or source is missing, the assistant reports incomplete evidence instead of inventing it.
   </>}
   figurePrefix="good"
-  figure="The graph traverses Customer → Order → Product → Supplier → Country and keeps the sources"
+  figure="The complete purchase path returns Contoso Foods and excludes the unrelated Berlin customer"
 />
 
 ### What about GraphRAG and KAG?
 
 [Microsoft GraphRAG](https://microsoft.github.io/graphrag/) builds the graph for you. An LLM extracts entities and relationships from raw text, groups related entities into communities and summarises each community ahead of time ([Edge et al., 2024](https://arxiv.org/abs/2404.16130)). Those summaries help with global questions about a whole corpus, such as "What are the main themes in the dataset?", where standard RAG struggles. That is a different job from following one customer's relationships.
 
-[KAG (knowledge augmented generation)](https://arxiv.org/abs/2409.13731), from the OpenSPG project and used in Ant Group's Q&A services, combines a knowledge graph with vector retrieval so the model can reason over entities and relationships.
+[KAG (knowledge augmented generation)](https://arxiv.org/abs/2409.13731) is a specific framework combining knowledge graphs and vector retrieval with a logical-form-guided reasoning engine. Its authors report applications in Ant Group's Q&A services. KAG is not a generic name for every graph-based retrieval system.
 
 ### What does a graph cost?
 
-* **Extraction** - LLM calls on every write to find entities and relationships
+* **Extraction** - Processing new or changed sources to find entities and relationships; LLM-based extraction adds model costs
 * **Entity resolution** - "Alfreds Futterkiste" and "Alfreds F." must merge into one node, not two
 * **Schema design** - Deciding which entities and relationships matter before you extract them
 * **Synchronisation** - Updating the graph whenever its sources change
@@ -197,119 +198,82 @@ A visible path makes an answer easier to check, but it doesn't make it correct.
 
 If your data is already relational, you might not need a graph. Northwind itself is a SQL database, so an agent that writes SQL (Option C) can join Customers, Orders, Order Details, Products and Suppliers directly. Graphs pay off when the relationships are spread across unstructured text such as emails, contracts and notes.
 
-For graphs as agent memory, see [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems#knowledge-graphs).
+For graphs as agent memory, see [the knowledge graphs section of AI agent memory](/ai-agent-memory-systems#knowledge-graphs-entities-and-relationships).
 
 ## When should you fine-tune?
 
-Use fine-tuning to change how a model behaves, not what it knows. It suits format and style, and small, focused tasks that run at high volume, such as classification, extraction, routing or returning a consistent output schema. For tasks like these, a small fine-tuned model can be cheaper, faster and as good as a large general model.
+Fine-tuning trains a pretrained model on examples to improve task behaviour, such as classification, extraction, routing or a consistent response format. It can change what the model knows too, but it is a poor replacement for retrieving facts that change. [Microsoft's fine-tuning overview](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) explains the distinction and trade-offs.
 
-Predibase's [LoRA Land](https://arxiv.org/abs/2405.00732) study (2024) fine-tuned 310 models of up to 7B parameters across 31 tasks. The fine-tuned models beat GPT-4 on most narrow tasks such as classification, while GPT-4 kept the lead on broader tasks such as coding and general knowledge (MMLU).
+For a stable, high-volume task, a smaller fine-tuned model may meet the same quality target with lower inference cost and latency. Measure that result, including training, hosting and maintenance costs. Predibase's [LoRA Land study](https://arxiv.org/abs/2405.00732) tested 310 fine-tuned models across 31 tasks in 2024; it supports investigating specialisation, not assuming a win against today's general models.
 
-Fine-tuning a small open-weight model is now cheap and quick with tools such as [Hugging Face PEFT](https://huggingface.co/docs/peft/index) or [Unsloth](https://github.com/unslothai/unsloth). They use [LoRA](https://arxiv.org/abs/2106.09685) and other parameter-efficient methods, which train a small set of added weights instead of the whole model. OpenAI is [winding down self-serve fine-tuning](https://developers.openai.com/api/docs/deprecations), so plan on small open-weight models or another provider.
+For open-weight models, tools such as [Hugging Face PEFT](https://huggingface.co/docs/peft/index) and [Unsloth](https://github.com/unslothai/unsloth) support efficient training. With [LoRA](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora), the base weights stay frozen while small adapter matrices learn updates. Hardware, dataset size and serving requirements still determine the cost.
 
-Don't use fine-tuning to teach a model facts that change, such as prices, stock levels or policies. The model can't cite a source for them, and you have to retrain it every time they change. Use RAG, a knowledge graph (Option E) or a precomputed brief (Option D) instead.
+Check model and deployment availability before investing. OpenAI is [winding down self-serve fine-tuning](https://developers.openai.com/api/docs/deprecations); training eligibility and inference retirement are separate. Other managed routes have their own limits: check [Microsoft Foundry's supported combinations](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) and [Anthropic's Claude fine-tuning route through Amazon Bedrock](https://claude.com/resources/articles/fine-tune-claude-3-haiku), including the [current model and region table](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-model-fine-tuning.html). A provider offering a model for inference does not imply it can be fine-tuned.
+
+Keep prices, stock levels and changing policies in a current source. Training weights alone do not provide a verifiable citation or an update mechanism. A fine-tuned model can still use retrieved context and cite it: combine training with Options B, C or E when needed. A precomputed brief (Option D) also needs a refresh process.
 
 Before you fine-tune, you need:
 
-* **An eval set** - Build it first, so you can tell whether fine-tuning helps. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
-* **A prompted baseline** - Measure a good prompt with [few-shot examples](/shot-prompts) on the same evals. If it's good enough, you don't need to fine-tune.
-* **Enough good examples** - Use real, representative inputs with correct labels. OpenAI's [supervised fine-tuning guide](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) suggests starting with 50 well-crafted examples and adding more only if your evals improve.
-* **A retraining plan** - Retrain and re-run your evals when the base model or the task changes.
+* **An eval set** - Keep training examples separate from held-out tests, including edge cases. See [Do you run evals on your AI features?](/run-evals-on-ai-features).
+* **A prompted baseline** - Measure a good prompt with [few-shot examples](/shot-prompts) on the same tests. If the only problem is JSON validity, try schema-constrained output first.
+* **Good demonstrations** - Use representative inputs and correct outputs with permission to train on them. Remove sensitive data. OpenAI's [supervised fine-tuning guide](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) suggests starting with 50 well-crafted examples and evaluating; this is a starting experiment, not a universal dataset size.
+* **A release and maintenance plan** - Compare quality, latency and total cost against the baseline. Switch only when the target is met, retain a fallback, and re-evaluate when the task or base model changes.
 
 <boxEmbed
   style="greybox"
   body={<>
-    You fine-tune a model on Northwind's product catalogue so it can answer price questions. Then the price of Chai changes.
+    **Example data:** A Northwind support assistant learns Chai's price of $18 from training examples. The catalogue changes to $20, but the assistant has no lookup tool.
 
-    The model keeps quoting the old price until you retrain it. It can't cite a source, so users can't tell it's out of date.
+    Asked "What does Chai cost now?", it answers "$18" with no current source. The training run does not update itself when the catalogue changes.
   </>}
   figurePrefix="bad"
-  figure="Fine-tuning bakes in prices, so the model quotes stale ones until you retrain it"
+  figure="The assistant answers the current-price question from outdated training data"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    Northwind uses a prompted large model to read every support email, pick one of four queues - Orders, Returns, Shipping or Billing - and return it as JSON.
+    **Example data:** The same assistant routes "What does Chai cost now?" to a read-only catalogue lookup and answers "$20", citing the current product record.
 
-    You label past emails with the right queue and fine-tune a small model on them. Then you run both models against the same eval set, and switch only if the small model scores as well.
+    Start with prompting for routing. If volume justifies it, evaluate a smaller fine-tuned router on held-out requests. Keep the price lookup even if the router changes.
   </>}
   figurePrefix="good"
-  figure="Fine-tune a small model for a narrow, high-volume task, and let evals decide whether to switch"
+  figure="The same question gets the current price; training is considered only for the stable routing task"
 />
 
 ## Which should I use?
 
-These building blocks can be combined. Most RAG vs CAG vs KAG comparisons leave out agentic search and precompute.
+These building blocks can be combined. Use the following questions to choose a starting candidate, then compare it with alternatives on representative questions. For exact joins, totals or current records, prefer a read-only source query (Option C), even when a document snapshot fits.
 
-Pick a base option first. Three questions settle most cases:
+For document questions, pick a base option first:
 
-1. **Does the corpus fit with room to spare?** If not, use agentic search for live, structured or exact-match data, and RAG for the rest.
+1. **Does the required corpus fit with room to spare?** If not, use agentic search for live, structured or exact-match data, and RAG for the rest.
 2. **Does the answer need all of it at once?** If so, use long context.
 3. **Do the same documents appear in every request?** If so, use long context. If not, use RAG.
 
 Then add the layers you need:
 
-* **Prompt caching** - when every request starts the same way (CAG)
+* **Prompt caching** - when a prefix repeats and qualifies for cache reuse; CAG uses this idea for a bounded knowledge base
 * **Knowledge graph** - when answers follow links between entities (Option E)
 * **Precomputed brief** - when the same task runs many times (Option D)
 * **[Evolving playbook](/let-prompts-learn-from-feedback)** - when the same corrections keep coming back
-* **Fine-tuned small model** - when a narrow task runs at high volume (see fine-tuning above)
+* **Fine-tuned small model** - when a stable task runs at high volume and held-out tests justify the training and serving cost
 
-```mermaid
----
-config:
-  fontFamily: "Inter, Segoe UI, Helvetica, Arial, sans-serif"
-  flowchart:
-    rankSpacing: 30
-    nodeSpacing: 30
-    padding: 14
----
-flowchart TD
-    accTitle: Data-access decision tree
-    accDescr: Step 1 picks a base option. If the corpus does not fit with room to spare, use agentic search for live, structured or exact-match data, otherwise RAG. If it fits and the answer needs all of it at once, or the same documents appear in every request, use long context, otherwise RAG. Step 2 adds prompt caching, a knowledge graph, a precomputed brief or an evolving playbook as needed.
-
-    subgraph Base["<b>1. Pick a base option</b>"]
-        direction LR
-        Q1{"Fits with room<br>to spare?"}
-        Q1 -->|No| Q4{"Live, structured or<br>exact-match data?"}
-        Q1 -->|Yes| Q2{"Needs all of<br>it at once?"}
-        Q4 -->|Yes| AS("<b>Agentic search</b>")
-        Q4 -->|No| RAG("<b>RAG</b>")
-        Q2 -->|No| Q3{"Same documents<br>every request?"}
-        Q2 -->|Yes| LC("<b>Long context</b>")
-        Q3 -->|No| RAG
-        Q3 -->|Yes| LC
-    end
-
-    subgraph Layers["<b>2. Add the layers you need</b>"]
-        direction TB
-        L1("<b>+ Prompt caching</b><br>Every request starts<br>the same way")
-        L2("<b>+ Knowledge graph</b><br>Answers follow links<br>between entities")
-        L3("<b>+ Precomputed brief</b><br>Same task runs<br>many times")
-        L4("<b>+ Evolving playbook</b><br>Same corrections<br>keep coming back")
-    end
-
-    Base --> Layers
-
-    classDef question fill:#ffffff,stroke:#333333,stroke-width:1.5px,color:#333333
-    classDef outcome fill:#cc4141,stroke:#cc4141,color:#ffffff
-    classDef layer fill:#ffffff,stroke:#cc4141,stroke-width:1.5px,stroke-dasharray:5 3,color:#333333
-    class Q1,Q2,Q3,Q4 question
-    class AS,RAG,LC outcome
-    class L1,L2,L3,L4 layer
-    style Base fill:#f5f5f5,stroke:#dddddd,color:#333333
-    style Layers fill:#f5f5f5,stroke:#dddddd,color:#333333
-```
-
-**Figure: Choose data access, then add the layers your task needs**
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/data-access-decision-tree.png"
+  alt="Decision tree: query current structured sources directly. For documents, choose long context when the required corpus fits and is needed together or reused; otherwise retrieve relevant evidence. Add caching, Option D precomputed briefs, Option E knowledge graphs, a feedback playbook or evaluated fine-tuning as needed."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Illustration: Choose data access first; knowledge graphs, preparation and training address different needs"
+/>
 
 ### Using the data-access decision tree
 
 <boxEmbed
   style="greybox"
   body={<>
-    [YakShaver](https://yakshaver.ai) turns a screen recording into a PBI. To put that PBI in the right backlog, it must choose from all the projects a user has.
+    [YakShaver](https://yakshaver.ai) turns a screen recording into a product backlog item (PBI). Consider a design for choosing its destination from a small, authorised project list:
 
     Apply the decision tree:
 
@@ -317,10 +281,10 @@ flowchart TD
 
     **Q2**: Picking the best match means comparing all the projects, so it **needs the whole corpus at once**.
 
-    **The result**: Long context. The project list is also identical on every request, so it can be cached.
+    **The starting candidate**: Long context. If that user's project list stays the same and meets the provider's cache requirements, its prefix can be cached. Test against a retrieval baseline; this is a design example, not a claim about YakShaver's implementation.
   </>}
   figurePrefix="good"
-  figure="Use long context and prompt caching to choose the right project in YakShaver"
+  figure="A small project list is a candidate for long context, with caching when it qualifies"
 />
 
-Use the decision tree as a starting point. Combine approaches or use more complex context engineering when you need further optimisation.
+On the same held-out questions, measure answer correctness and source coverage, cost per request, and latency for the full workflow. Include missing evidence and changed-source cases. Keep the simplest candidate that meets your targets; a larger context window or more elaborate retrieval pipeline is not a success measure by itself.
