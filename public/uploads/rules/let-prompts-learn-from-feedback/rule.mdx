@@ -22,7 +22,7 @@ isArchived: false
 
 Reviewers correct the same mistake in your AI support replies every week. Each answer improves, but the next request starts with the same flawed instructions.
 
-For a recurring AI task, turn verified feedback into a small, versioned prompt change. Test it against earlier cases and unseen examples, then require human approval before release. Here, "learning" means updating the instructions supplied to the model, not training its weights.
+For a recurring AI task, turn verified feedback into a small, versioned prompt change. Run evaluations (evals) on earlier cases and unseen examples, then require human approval before release. Here, "learning" means updating the instructions supplied to the model, not training its weights.
 
 <endIntro />
 
@@ -98,4 +98,4 @@ For a small flow of reviewer corrections, start with a manually curated playbook
 * **Review growth.** Recheck entries when policy, tools or the model change. Put detailed guidance in a [skill's supporting files](/ai-agents-with-skills) when it is needed only for some tasks.
 * **Consider caching after correctness.** Put stable instructions before changing entries and request data. An unchanged prefix may remain reusable, subject to the [provider's caching rules](https://platform.claude.com/docs/en/build-with-claude/prompt-caching). See [prompt caching](/do-you-follow-best-practices-for-prompt-caching); do not retain a harmful entry to save a cache hit.
 
-For a one-off conversation, start with [testing and iterating on prompts](/test-prompts-then-iterate). For coding-agent configuration, use [agent retrospectives](/run-retros-on-your-ai-agent). This loop applies to releasing improved instructions for a recurring application task, such as support replies. It can also maintain a brief prepared through [precomputation](/feed-data-to-ai#option-d-precompute-once-reuse-every-run).
+For a one-off conversation, start with [testing and iterating on prompts](/test-prompts-then-iterate). For coding-agent configuration, use [agent retrospectives](/run-retros-on-your-ai-agent). This loop applies to releasing improved instructions for a recurring application task, such as support replies. For choosing the data supplied to that task, see [feeding data to AI](/feed-data-to-ai).
