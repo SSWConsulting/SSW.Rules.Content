@@ -51,6 +51,15 @@ Two answers can agree and both be wrong. Adjudicate a random sample of agreement
 
 Northwind's separate agreement audit reviews 10 of the 47 strict agreements and finds one where both answers are wrong. Report **Agreements audited: 10/47; both wrong: 1/10**, with a 90% Wilson range of about 2–35% for that error rate. These example counts are separate from the 11 reviewed disagreements below and do not establish overall accuracy; ten is not a recommended sample size.
 
+<imageEmbed
+  src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-agreement-audit.png"
+  alt="Northwind illustration: an audit checks 10 of 47 agreements and finds both answers wrong about gift card expiry; the 1/10 both-wrong rate has a 90% Wilson range of 2–35%, not overall accuracy."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Auditing agreements finds an error the disagreement inbox cannot reveal; the small audit leaves wide uncertainty"
+/>
+
 ## Give every disagreement evidence and an owner
 
 Put unclassified cases first, newest first within each status. Show the question, both answers, source version, cause, owner and review status, with a link to the full context. Apply the original records' access controls and minimise personal data in the preview.
@@ -69,11 +78,11 @@ The three wrong-source cases need a knowledge-base or retrieval repair. They do 
 
 <imageEmbed
   src="/uploads/rules/disagreement-inbox-for-ai-quality/northwind-ai-quality-good-disagreement-inbox.png"
-  alt="Northwind illustration: strict and normalised agreement stay separate; a six-row excerpt shows all three New cases before reviewed cases, with cause owners, 11/14 disagreements reviewed and a separate 10/47 agreement audit."
+  alt="Northwind illustration: three New cases precede three reviewed evidence cards comparing both answers and source versions; confirmed causes have owners, and only two of 11 reviewed disagreements point to the model or prompt."
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="The inbox separates comparator and source repairs from the two confirmed model or prompt errors"
+  figure="Readable answer and source evidence separates comparator and source repairs from the two confirmed model or prompt errors"
 />
 
 Fix and recheck the comparator and retired article before rewriting the prompt. [Own the AI output](/avoid-automation-bias): close a row only after a reviewer verifies the repair. Add confirmed model errors to [the eval set](/run-evals-on-ai-features) and rerun it before release.

@@ -40,7 +40,9 @@ These Northwind Traders dashboards use example data.
 
 ## Track the total for the budget
 
-Keep an [overall spend budget](/azure-budgets) and an owner for investigating alerts. Because [cost data can arrive late](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data), also [alert on failures and throttling](/ai-service-alerts). A budget alert is not a real-time service-health check.
+Keep an [overall spend budget](/azure-budgets) and [an owner for investigating alerts](/finops-owner). In Azure Cost Management, [cost data typically takes 8–24 hours for Enterprise Agreement and Microsoft Customer Agreement subscriptions, or up to 72 hours for pay-as-you-go](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data#cost-and-usage-data-updates-and-retention).
+
+Retry storms or runaway loops can accumulate charges during that delay, so add [real-time alerts for request volume, failures and throttling](/ai-service-alerts) alongside the budget alerts.
 
 For developer subscriptions and token activity, see [monitoring AI cost and usage](/monitor-ai-cost-and-usage). This rule adds a measure of useful output from an AI feature.
 
@@ -48,15 +50,19 @@ For developer subscriptions and token activity, see [monitoring AI cost and usag
 
 Choose a measurable acceptance criterion: a description published without edits, or a support case resolved without reopening during a defined follow-up period. A token, request or generated draft counts activity, not success.
 
-Divide all attributable feature costs, including rejected attempts, retries and failed calls, by accepted outcomes counted once. This is [unit economics](https://www.finops.org/framework/capabilities/unit-economics/): cost expressed against useful output. Keep the same currency, cost basis and attribution policy across periods. Attribute shared-deployment costs using recorded feature tags or another documented allocation rule, keeping unattributed cost visible. State whether the figure covers model charges only or also hosting and human review; omitted costs limit the value claim.
+Divide all attributable feature costs, including rejected attempts, retries and failed calls, by accepted outcomes counted once. This is [unit economics](https://www.finops.org/framework/capabilities/unit-economics/): cost expressed against useful output. Make the calculation comparable and its limits visible:
 
-Align costs with their outcomes. If publishing or resolution takes days, use a completed cohort and its associated costs, or flag a provisional period until outcomes mature. **No accepted outcomes** is a visible state, not a zero unit cost or division by zero.
+* Keep the same currency, cost basis and attribution policy across periods.
+* Allocate shared-deployment costs using [recorded feature tags](/apply-tags-to-your-azure-resource-groups) or another documented allocation rule. Keep unattributed cost visible.
+* State whether the figure covers model charges only or also hosting and human review. Omitted costs limit the value claim.
 
-## Save the calculation, then compare periods
+Align costs with their outcomes. If publishing or resolution takes days, use a completed cohort and its associated costs, or flag a provisional period until outcomes mature. Label provisional charges as estimates and reconcile them once billing closes. **No accepted outcomes** is a visible state, not a zero unit cost or division by zero.
 
-Keep `cost_per_accepted_description_v1`, its joins and its acceptance definition in source control. A reviewed one-off agent query can explore the data; a recurring daily tile uses the saved calculation. [Reconcile both spend and accepted counts independently](/check-dashboard-totals-against-the-source) before drawing advice.
+## Save and review the calculation
 
-Label provisional charges as estimates and reconcile them once billing closes.
+Keep `cost_per_accepted_description_v1`, its joins and its acceptance definition in source control. For a one-off question, an agent can propose a query that a person checks for correct filters, joins and totals before using its result. A recurring daily tile uses the saved, reviewed calculation. [Reconcile both spend and accepted counts independently](/check-dashboard-totals-against-the-source) before drawing conclusions.
+
+## Compare cost per accepted description across completed cohorts
 
 Northwind compares completed product-description cohorts for 14–20 September and 9–15 October. The example uses billed model charges only, including rejected drafts:
 
