@@ -117,7 +117,7 @@ Your personal global file covers you. To make this the team's default, put it in
 
 Instructions guide behaviour; permissions constrain the available actions. Use a read-only session and remove write-capable PR tools where possible. For Codex, select a read-only sandbox using its [permission controls](https://learn.chatgpt.com/docs/agent-approvals-security). Check connected tools separately: a local filesystem restriction is not a repository access policy.
 
-For Claude Code, this `.claude/settings.json` fragment asks before matching Bash pushes in Manual mode. Permission-bypass mode skips those prompts. See the [permission documentation](https://code.claude.com/docs/en/permissions#what-a-bash-rule-doesnt-match):
+For Claude Code, this `.claude/settings.json` fragment asks before matching Bash pushes in Manual mode. Permission-bypass mode skips those prompts. See the [permission documentation](https://code.claude.com/docs/en/permissions#bash-rule-limits):
 
 ```json
 {
