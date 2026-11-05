@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you verify the assumptions in a brief against the code before scoping work?
-seoDescription: Check a brief's technical assumptions against the code before estimating. Record the premise, evidence and corrected scope in a short spike.
+title: Do you verify assumptions before scoping work?
+seoDescription: Verify a PBI's technical assumptions against code, data and the actual system before scoping work. Record the evidence, revised scope and remaining unknowns.
 guid: 3dd3e149-e967-44c5-a395-d63b94e443c6
 uri: verify-assumptions-before-scoping-work
 created: 2026-10-31T00:00:00.000Z
@@ -11,71 +11,71 @@ authors:
 related:
   - rule: public/uploads/rules/encourage-spikes-when-a-story-is-inestimable/rule.mdx
   - rule: public/uploads/rules/review-ai-plans/rule.mdx
-redirects: []
+  - rule: public/uploads/rules/treat-bug-reports-as-hypotheses/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
 archivedreason: null
 isArchived: false
 ---
 
-A brief says order embeddings live in a shared vector store, keyed by `OrderId`. The team designs a cleanup job, estimates it, and only then discovers that the store contains product manuals. There are no order embeddings to delete.
+A Product Backlog Item (PBI) says, "Add a Finland freight surcharge by inserting a row into the existing surcharge table." The team estimates a small data change, then discovers that the table does not exist. The requirement still matters, but the estimate covers the wrong work.
 
-A polished spec, ticket or AI-written dossier can make a guess look like a fact. **Check the premises before you estimate or design the solution.** Otherwise, you can produce a careful plan for work that does not need to exist.
+A detailed brief, especially one drafted by an AI agent, can make an assumption sound established. **Verify the assumptions that change the scope before estimating or designing the solution.** Record what the evidence supports and what remains unknown so the next developer can check the reasoning.
 
 <endIntro />
 
-## Check the assumptions that change the scope
+## Check the premises that change the estimate
 
-List the claims your scope depends on: which tables exist, which service owns the data, what a store contains, and which keys connect it to the affected records.
+During [backlog refinement](/backlog-refinement-meeting), identify the claims that would materially change the work if they were wrong. Examples include an existing table, a reusable service, a data owner or an available API. Focus on these claims rather than auditing the whole application.
 
 For each claim:
 
-* **Search the code** - Grep for the named table, service, store and key, including alternative names
-* **Follow the evidence** - Read the matching definitions, registrations and read/write paths. A class name alone does not prove how it is used
-* **Correct the scope** - Keep, drop or re-scope the dependent work before estimating it
+* **Find a primary source** - Search the code and alternative names, then read the relevant definitions, callers, migrations and configuration. A matching class name alone does not prove that the feature exists
+* **Check the relevant system** - Use authorised read-only schema checks, representative data, logs or a safe reproduction when code alone cannot establish the claim. Record the source revision and, for runtime evidence, the environment and check date
+* **Update the scope** - Mark the claim as verified, refuted or unverified. Keep, remove or revise the dependent tasks and explain why
 
-No search matches means **unverified**, not absent. Check configuration, migrations and external dependencies where relevant. If you still cannot verify a premise, record the uncertainty and resolve it in a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable).
+No search matches means **unverified**, not absent: the feature may use another name, live in another service or differ in the deployed version. Keep sensitive data out of the PBI. Check [AI-generated findings](https://docs.github.com/en/copilot/concepts/prompting-and-context/prompt-engineering#review-copilots-output) against the cited sources yourself.
 
-## Record premise, evidence and corrected scope
+## Record the evidence beside the PBI
 
-Keep the result with the ticket so the next developer can check it. Include the source revision, search command, relevant output and file references. Record what the evidence proves and what remains unknown; "I checked the code" is not evidence.
+Keep a short record of the premise, evidence, scope decision and remaining unknowns with the PBI. Link to exact source locations or saved, sanitised results; "I checked the code" is not enough.
 
-The following examples use a fictional Northwind codebase.
+These matched examples use **example data** from a fictional Northwind implementation, revision `freight-demo-v1`.
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Premise:** The AI dossier says Northwind stores order embeddings in a shared vector store keyed by `OrderId`.
+    **PBI:** Add a Finland freight surcharge.
 
-    **Evidence:** The dossier describes the store in detail, so the team accepts it.
+    **Premise:** The AI-written brief says a `CountrySurcharges` table already feeds the freight calculation.
 
-    **Scope:** Add per-order vector deletion, retries and cleanup tests to the order-deletion workflow.
+    **Evidence:** The brief names the table and describes the insert, so the team accepts it.
+
+    **Scope decision:** Estimate one Finland row and a data-change test. During implementation, the insert fails because the table does not exist; the estimate omits storage and calculation changes.
   </>}
   figurePrefix="bad"
-  figure="A detailed dossier becomes the basis for an estimate without checking the implementation"
+  figure="The brief becomes the evidence, so a missing table invalidates the estimated data change"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Premise:** Deleting a Northwind order requires deleting its embeddings from a shared vector store.
+    **PBI:** Add a Finland freight surcharge.
 
-    **Evidence:** At source revision `a1b2c3d`, the search finds:
+    **Premise:** A `CountrySurcharges` table already feeds the freight calculation.
 
-    ```text
-    > rg -n 'VectorStore|ProductManual|OrderId' src
-    src/Northwind.Search/Program.cs:18: services.AddSingleton<IVectorStore, ProductManualStore>();
-    src/Northwind.Search/ProductManualIngestor.cs:24: var files = Directory.GetFiles("product-manuals", "*.pdf");
-    src/Northwind.Search/ProductManualStore.cs:31: var key = $"{productId}:{sectionId}";
-    src/Northwind.Orders/Order.cs:8: public int OrderId { get; set; }
-    ```
+    **Evidence:** At `freight-demo-v1`, `schema.sql:1-5` defines only `Orders`, including `ShipCountry` and `Freight`. A local database created from that schema lists only `Orders`. Reading `freight.py:1-2` shows that `calculate_freight` returns the stored `Freight` value; it has no country lookup.
 
-    Reading the registered store and its callers confirms that its only ingestion path loads the static product-manual corpus. Records use product and section IDs; the order workflow neither writes to nor references the store.
+    **Scope decision:** The row-only approach is refuted for this revision. Keep the Finland surcharge requirement; scope storage, calculation and tests for Finland and unchanged destinations once the policy is agreed.
 
-    **Corrected scope:** Drop vector cleanup from order deletion. Keep the existing order-deletion requirements and estimate those against the Orders implementation.
+    **Still unverified:** The surcharge amount and whether existing orders change. The Product Owner must confirm both before the team finalises the scope and estimate. This local check makes no claim about a deployed database.
   </>}
   figurePrefix="good"
-  figure="Code evidence disproves the premise and removes unnecessary cleanup work before estimation"
+  figure="Schema and calculation evidence expose missing work, while unresolved policy keeps the estimate provisional"
 />
 
-**Treat an AI-written dossier as a list of claims to check.** If AI gathers the evidence, review the cited code before accepting its conclusion. Then [review the plan](/review-ai-plans) against the corrected scope.
+## Resolve uncertainty before committing to the scope
+
+Proceed when the scope-changing premises have evidence, the tasks reflect that evidence and any remaining assumptions are explicit. If a technical unknown still prevents a useful estimate, create a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) with a specific question and expected evidence. Ask the Product Owner to resolve business-policy questions.
+
+Use this record when you [review an AI coding plan](/review-ai-plans). For a suspected defect, follow the guidance on [verifying bug reports before planning a fix](/treat-bug-reports-as-hypotheses).
