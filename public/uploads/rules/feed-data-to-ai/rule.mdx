@@ -42,6 +42,8 @@ How the model accesses that data affects cost per query, latency and answer qual
 
 ## Which should I use?
 
+The options below are **A: long context**, **B: retrieval-augmented generation (RAG)**, **C: agentic search**, **D: precomputed briefs** and **E: knowledge graphs**.
+
 These building blocks can be combined. Use the following questions to choose a starting candidate, then compare it with alternatives on representative questions. For exact joins, totals or current records, prefer a read-only source query (Option C), even when a document snapshot fits.
 
 For document questions, pick a base option first:
@@ -86,7 +88,7 @@ This can be useful when the answer isn't in any single document. A question like
 
 Long inputs can increase cost and latency, even when they fit. Position matters too: studies find that models can miss information [in the middle](https://arxiv.org/abs/2307.03172) and struggle with [questions that join several pieces of evidence](https://arxiv.org/abs/2601.12499). Test your model on representative questions rather than treating the context limit as an accuracy guarantee.
 
-### Prompt caching - Making long context economical
+### Prompt caching - making long context economical
 
 Prompt caching can reduce repeated processing of an identical prompt prefix. Put stable instructions and reference documents before the changing question. Configure cache boundaries where your provider requires them; matching text alone does not guarantee a hit. Check cache-write costs, minimum size, lifetime and actual cached-token usage in your [provider's documentation](https://developers.openai.com/api/docs/guides/prompt-caching). See [prompt caching](/do-you-follow-best-practices-for-prompt-caching) for prompt layout.
 
@@ -107,7 +109,7 @@ RAG means retrieving the relevant material first and passing only that to the mo
   src="/uploads/rules/feed-data-to-ai/feed-data-rag.png"
 />
 
-Often a good fit for large collections of unstructured text: support docs, PDFs, policies and transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [chunks your repo and keeps the embeddings in a vector DB](https://cursor.com/blog/secure-codebase-indexing).
+RAG often suits large collections of unstructured text: support docs, PDFs, policies and transcripts. SSW's [RulesGPT](https://rulesgpt.ssw.com.au) works this way, and so does Cursor - it [splits your repo into chunks and embeds them for semantic search](https://cursor.com/blog/secure-codebase-indexing).
 
 **Is RAG dead?** As the **default pipeline** (chunk, embed, retrieve the top matches, then stuff the prompt), it is no longer an obvious choice. As a **capability**, it is very much alive: Claude Projects [switches RAG on](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects) as project knowledge approaches the context limit. Retrieval remains useful when the required sources cannot all fit in a prompt.
 
@@ -233,7 +235,9 @@ For a stable, high-volume task, a smaller fine-tuned model may meet the same qua
 
 For open-weight models, tools such as [Hugging Face PEFT](https://huggingface.co/docs/peft/index) and [Unsloth](https://github.com/unslothai/unsloth) support efficient training. With [LoRA](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora), the base weights stay frozen while small adapter matrices learn updates. Hardware, dataset size and serving requirements still determine the cost.
 
-Check model and deployment availability before investing. OpenAI is [winding down self-serve fine-tuning](https://developers.openai.com/api/docs/deprecations); training eligibility and inference retirement are separate. Other managed routes have their own limits: check [Microsoft Foundry's supported combinations](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) and [Anthropic's Claude fine-tuning route through Amazon Bedrock](https://claude.com/resources/articles/fine-tune-claude-3-haiku), including the [current model and region table](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-model-fine-tuning.html). A provider offering a model for inference does not imply it can be fine-tuned.
+Check model and deployment availability before investing. OpenAI is [winding down self-serve fine-tuning](https://developers.openai.com/api/docs/deprecations); training eligibility and inference retirement are separate.
+
+Other managed routes have their own limits: check [Microsoft Foundry's supported combinations](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) and [Anthropic's Claude fine-tuning route through Amazon Bedrock](https://claude.com/resources/articles/fine-tune-claude-3-haiku), including the [current model and region table](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-model-fine-tuning.html). A provider offering a model for inference does not imply it can be fine-tuned.
 
 Keep prices, stock levels and changing policies in a current source. Training weights alone do not provide a verifiable citation or an update mechanism. A fine-tuned model can still use retrieved context and cite it: combine training with Options B, C or E when needed. A precomputed brief (Option D) also needs a refresh process.
 
