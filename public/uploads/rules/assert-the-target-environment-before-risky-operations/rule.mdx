@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you make destructive or environment-bound tooling refuse to run unless the target is verified as the intended environment?
-seoDescription: Make risky database commands verify explicit environment intent and every server and database name, then refuse mismatches before opening connections or running SQL.
+title: Do you verify the target environment before risky operations?
+seoDescription: Make migrations, resets and bulk deletes verify the intended server, database and tenant, then refuse mismatches before changing data in the wrong environment.
 guid: 797bb9fe-7a65-4ddb-996a-33fb118e80aa
 uri: assert-the-target-environment-before-risky-operations
 created: 2026-10-31T00:00:00.000Z
@@ -11,93 +11,104 @@ authors:
 related:
   - rule: public/uploads/rules/do-you-know-how-to-use-connection-strings/rule.mdx
   - rule: public/uploads/rules/naming-convention-for-use-on-database-server-test-and-production/rule.mdx
-redirects: []
 categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
 archivedreason: null
 isArchived: false
 ---
 
-A Northwind maintenance command deletes old Orders successfully. Unfortunately, a stale connection string points it at the wrong database. A successful exit code does not mean the right data changed.
+A test reset can finish successfully while wiping the wrong database. A stale connection string, a copied shell session or the wrong tenant selection can turn an ordinary maintenance command into data loss.
 
-**Make the command prove its target before it touches the database.** A warning printed after the first query is too late.
+Before a migration, seed/reset script, bulk delete or test that clears data, **require explicit environment intent and verify the destination against an independently defined target**. Fail closed: missing, malformed or mismatched values stop the command before any changes.
 
 <endIntro />
 
-## Check intent and destination independently
+## Define what the command is allowed to touch
 
-For a production-only command, require all of these to agree:
+Keep the expected environment, exact server endpoint, database and tenant ID (where applicable) in reviewed code or a separately controlled allow-list. Do not derive the expected destination from the connection string being checked. A reset tool intended only for test must not accept production just because someone supplies `TARGET_ENV=prod`.
 
-* **Explicit intent** - Require `TARGET_ENV=prod`; never default to production
-* **Exact server** - Match the parsed server name against an approved endpoint, not a substring such as `prod`
-* **Exact database** - Require the expected database name, even when the server is correct
-* **Every source** - Validate all connections before opening any of them; one correct source does not make the others safe
+Parse connection strings with the provider's builder, rather than searching for `test` or `prod` in raw text. [Connection string storage and authentication](/do-you-know-how-to-use-connection-strings) and [database naming conventions](/naming-convention-for-use-on-database-server-test-and-production) help manage configuration; the guard enforces where this particular operation may run.
 
-Keep the expected targets in reviewed code or a separately controlled allow-list. Deriving the expected server from the same connection string makes the check meaningless. Give each source its own expected target if the command spans databases.
+These matched examples use fictional Northwind data and hosts. The reset is intended for `Northwind_Test` on `northwind-test.example.com`, but the loaded connection points to `Northwind_Prod` on `northwind-prod.example.com`.
 
-## Refuse before the first side effect
+<boxEmbed
+  style="greybox"
+  body={<>
+    The reset checks only `TARGET_ENV=test`, opens the loaded connection and clears the Orders table. It reports success after changing `Northwind_Prod`.
+  </>}
+  figurePrefix="bad"
+  figure="The test flag describes intent but does not constrain the database that gets cleared"
+/>
 
-Put the guard at the command's entry point, before opening connections, taking locks or running any SQL. Missing, malformed or mismatched settings must stop execution with a named error and a non-zero exit code.
+<boxEmbed
+  style="greybox"
+  body={<>
+    The same reset checks `TARGET_ENV=test` and compares the parsed server and database with its test-only allow-list. It returns `WRONG_TARGET` with exit code 20 before opening the production connection. No Orders change.
+  </>}
+  figurePrefix="good"
+  figure="The destination mismatch stops the reset before it can change production data"
+/>
 
-```csharp
-using var connection = new SqlConnection(
-    Environment.GetEnvironmentVariable("NORTHWIND_ORDERS_CONNECTION"));
-connection.Open();
-using var command = connection.CreateCommand();
-command.CommandText = "DELETE FROM Orders WHERE OrderDate < '2000-01-01'";
-command.ExecuteNonQuery();
-```
+## Reject mismatched configuration before connecting
 
-**❌ Figure: Bad example - The command deletes Orders from whichever database the loaded connection string selects**
-
-The following guard checks two Northwind sources without connecting to either:
+This C# console preflight uses the `Microsoft.Data.SqlClient` NuGet package. It opens no connection and performs no reset. The endpoint includes the protocol and port so an alternate spelling is rejected rather than guessed equivalent.
 
 ```csharp
 using Microsoft.Data.SqlClient;
 
-const int NOT_PROD_TARGET = 20;
-var sources = new[]
-{
-    Environment.GetEnvironmentVariable("NORTHWIND_ORDERS_CONNECTION"),
-    Environment.GetEnvironmentVariable("NORTHWIND_CUSTOMERS_CONNECTION")
-};
+string? connectionString =
+    Environment.GetEnvironmentVariable("NORTHWIND_CONNECTION");
 
-bool MatchesProdTarget(string? connectionString)
+bool MatchesTestTarget(string? value)
 {
-    if (string.IsNullOrWhiteSpace(connectionString)) return false;
+    if (string.IsNullOrWhiteSpace(value)) return false;
 
     try
     {
-        var target = new SqlConnectionStringBuilder(connectionString);
-        return string.Equals(target.DataSource, "northwind-sql-prod",
+        var target = new SqlConnectionStringBuilder(value);
+        return string.Equals(target.DataSource,
+                   "tcp:northwind-test.example.com,1433",
                    StringComparison.OrdinalIgnoreCase)
-            && string.Equals(target.InitialCatalog, "Northwind",
-                   StringComparison.Ordinal);
+            && string.Equals(target.InitialCatalog, "Northwind_Test",
+                   StringComparison.Ordinal)
+            && target.FailoverPartner.Length == 0
+            && target.AttachDBFilename.Length == 0
+            && !target.UserInstance;
     }
-    catch (ArgumentException)
+    catch (Exception ex) when (ex is ArgumentException
+        or FormatException or OverflowException)
     {
         return false;
     }
 }
 
-if (Environment.GetEnvironmentVariable("TARGET_ENV") != "prod"
-    || !sources.All(MatchesProdTarget))
+if (Environment.GetEnvironmentVariable("TARGET_ENV") != "test"
+    || !MatchesTestTarget(connectionString))
 {
     Console.Error.WriteLine(
-        "NOT_PROD_TARGET: expected prod / northwind-sql-prod / Northwind; no SQL executed.");
-    return NOT_PROD_TARGET;
+        "WRONG_TARGET: expected test / northwind-test.example.com / Northwind_Test.");
+    return 20;
 }
 
-// Database work follows here, using the validated strings in sources.
+Console.WriteLine("Target configuration accepted; no database operation performed.");
+// Next: check connected identity, then reset using this connectionString.
 return 0;
 ```
 
-**✅ Figure: Good example - The guard rejects an incorrect environment or either incorrect source before opening a connection**
+**Figure: The preflight rejects missing or incorrect targets and alternate database attachment or failover settings**
 
-Use the validated values for execution; reloading configuration afterwards can change the destination. Report the failed check without logging credentials or the full connection string. See Microsoft's [connection string builders](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-string-builders) for parsing details.
+Microsoft documents how [connection string builders parse keywords and synonyms](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-string-builders). This comparison is deliberately conservative: approve additional endpoint forms explicitly if your deployment needs them. If a command uses several connections, validate all of them before opening any. Execute with the validated values; reloading configuration afterwards can change the destination. Log the failed check, never credentials or a full connection string.
 
-## Prove the refusal locally
+## Verify the connected identity before writing
 
-Test the guard with fake connection strings and a spy for database access. Missing `TARGET_ENV`, a wrong server, a wrong database, a malformed string or a mismatched second source must each produce `NOT_PROD_TARGET` and **zero database calls**. Also test that all matching values let execution proceed.
+The preflight checks configuration, not where DNS, aliases or routing actually lead. Connect with [encryption and server certificate validation enabled](https://learn.microsoft.com/en-us/sql/connect/ado-net/encryption-and-certificate-validation), then make a read-only identity check on the same connection before writes. In SQL Server, [`SELECT DB_NAME()` returns the current database name](https://learn.microsoft.com/en-us/sql/t-sql/functions/db-name-transact-sql). Also compare a deployment-controlled environment marker and, for a tenant-scoped command, the authenticated tenant ID with the approved values. A missing marker, mismatch or failed lookup must stop execution.
 
-Before using a real database, rehearse the whole command against a disposable local Northwind database with a separate sandbox target map. A successful sandbox run tests the operation; the refusal tests prove the guard runs first. Keep the production checks enabled when promoting the command.
+Provision the environment marker separately from seed data, and reset it during database restores or clones so a copied production marker cannot authorise the wrong environment. Do not change databases or tenant context after verification; repeat the checks whenever the connection or context changes.
+
+Use a [database identity with only the permissions it needs](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/getting-started-with-database-engine-permissions). A test reset identity should have no production access. Target checks supplement permissions, reviewed migrations and a tested backup/restore plan; they do not make an unsafe operation safe.
+
+## Test that refusal happens before the operation
+
+Exercise the guard with fake connection strings and a spy that counts connection or write attempts. Missing intent, missing configuration, malformed strings, a wrong server and a wrong database must each return a non-zero exit code with **zero connection attempts**. Include a mismatched second source if the command uses several databases. Matching configuration should reach the identity check, not skip it.
+
+Separately test connected-identity and tenant mismatches: read-only verification may run, but **zero writes** must follow a failed check. Rehearse the whole operation on a disposable local database with a separate sandbox allow-list before using shared data. Keep the guards enabled in deployment.
