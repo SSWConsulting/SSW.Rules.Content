@@ -13,6 +13,7 @@ related:
   - rule: public/uploads/rules/share-your-developer-secrets-securely/rule.mdx
   - rule: public/uploads/rules/developer-experience/rule.mdx
   - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/app-config-for-developer-settings/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-net-projects.mdx
 archivedreason: null
@@ -21,7 +22,7 @@ isArchived: false
 
 When each service needs a separate configuration edit, a fresh clone becomes a troubleshooting exercise. A changed API port leaves the web app pointing at yesterday's address, while a missing key appears only after other services start.
 
-For a solution that already uses [Aspire](/aspire), make the **AppHost the entry point for local development configuration**. Define dependencies there, load development secrets into the AppHost, and pass each service only the values it needs.
+For a solution that already uses [Aspire](/aspire), make the **AppHost the entry point for local development configuration**. Define dependencies and connect configuration sources there, then pass each service only the values it needs.
 
 <endIntro />
 
@@ -43,7 +44,7 @@ The following Northwind examples use **example data**. The API uses an existing 
 <boxEmbed
   style="greybox"
   body={<>
-    `Northwind.AppHost` loads the database connection and Orders key from its User Secrets. Its composition passes those inputs to `Northwind.Api` and an API reference to `Northwind.Web`.
+    `Northwind.AppHost` loads the database connection and Orders key from its User Secrets. The AppHost passes those inputs to `Northwind.Api` and an API reference to `Northwind.Web`.
 
     After the API port changes, the web app resolves the API's current endpoint through that reference. No per-service files need editing, and the web app receives neither database credentials nor the Orders key.
   </>}
@@ -100,13 +101,33 @@ return 0;
 
 [`WithReference` injects configuration](https://aspire.dev/fundamentals/environment-variables/) appropriate to the resource: here, `ConnectionStrings__northwind` for the API and API endpoints for the web app. `WithEnvironment` maps the secret parameter to `Orders__ApiKey`, which .NET reads as `Orders:ApiKey`. AppHost configuration is not automatically copied into every child process.
 
-Configure the web app's HTTP client for [Aspire service discovery](https://aspire.dev/fundamentals/service-discovery/), typically through Service Defaults, and use the logical service address `https+http://api`. `WithReference(api)` supplies the endpoints; it does not configure the HTTP client itself.
+`WithReference(api)` supplies endpoints; it does not configure the web app's HTTP client. Projects using [Service Defaults](https://aspire.dev/get-started/csharp-service-defaults/) already register service discovery for HTTP clients. For a minimal web project without Service Defaults, add the `Microsoft.Extensions.ServiceDiscovery` package and use:
+
+```csharp
+// Northwind.Web/Program.cs
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddServiceDiscovery();
+builder.Services.AddHttpClient("api", client =>
+    client.BaseAddress = new Uri("https+http://api"))
+    .AddServiceDiscovery();
+
+var app = builder.Build();
+app.MapGet("/orders", async (IHttpClientFactory clients) =>
+    await clients.CreateClient("api").GetStringAsync("/orders"));
+app.Run();
+```
+
+**Figure: The web app calls the API by its logical service name instead of a copied port**
+
+[Service discovery](https://aspire.dev/fundamentals/service-discovery/) resolves that logical name to the injected endpoint. The example assumes the API exposes `/orders`.
 
 ## Separate committed defaults from development secrets
 
 Commit non-sensitive defaults and dependency wiring. Keep service-owned settings, such as log levels, with the service; centralising configuration does not mean moving every setting into the AppHost.
 
-Store real development credentials in the **AppHost's** [.NET User Secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0), outside source control. For the example above, use this shape in the AppHost's Manage User Secrets editor:
+Choose the configuration provider separately from AppHost composition. For shared, sensitive or frequently changing values, follow [Azure App Configuration for local development](/app-config-for-developer-settings), with secrets referenced from Key Vault. Keep that source authoritative instead of copying those credentials into local files. Load the provider into the AppHost before the preflight runs, using the same configuration keys. Values injected into child processes are set at launch; services that need live refresh can retain their own provider.
+
+For developer-specific or disconnected local work, use local credentials only when the team permits local storage. The Northwind example uses the **AppHost's** [.NET User Secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0), outside source control. For the example above, use this shape in the AppHost's Manage User Secrets editor:
 
 ```json
 {
@@ -123,7 +144,7 @@ Store real development credentials in the **AppHost's** [.NET User Secrets](http
 
 Use an AppHost launch profile with `DOTNET_ENVIRONMENT=Development`. If the project has no `UserSecretsId`, initialise it with `dotnet user-secrets init --project Northwind.AppHost`. Replace the placeholders with authorised development values. User Secrets are unencrypted local storage for development; `secret: true` describes a sensitive parameter and does not encrypt its source or protect a committed value. Never print secret values when checking configuration.
 
-For shared development credentials, keep one access-controlled record, such as **Northwind - Local development**, and update it when keys change or credentials rotate. Keep individually issued credentials individual. Follow [sharing developer secrets securely](/share-your-developer-secrets-securely) for the sharing mechanism and [storing secrets securely](/store-your-secrets-securely) for deployment storage. Production uses its own secret provider and credentials.
+If an approved offline workflow needs a shared development credential, keep one access-controlled record, such as **Northwind - Local development**, and update it when keys change or credentials rotate. Keep individually issued credentials individual. Follow [sharing developer secrets securely](/share-your-developer-secrets-securely) for the sharing mechanism and [storing secrets securely](/store-your-secrets-securely) for deployment storage. Production uses its own secret provider and credentials.
 
 ## Check the setup before starting services
 
