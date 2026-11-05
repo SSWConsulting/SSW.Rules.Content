@@ -13,7 +13,7 @@ related:
   - rule: public/uploads/rules/remove-fake-data-from-ai-built-dashboards/rule.mdx
   - rule: public/uploads/rules/show-missing-and-stale-data-on-dashboards/rule.mdx
   - rule: public/uploads/rules/track-ai-cost-by-total-and-unit/rule.mdx
-  - rule: public/uploads/rules/ai-database-access/rule.mdx
+  - rule: public/uploads/rules/importance-of-reconciliation/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
   - category: categories/company-operations/rules-to-better-business-intelligence.mdx
@@ -21,7 +21,7 @@ archivedreason: null
 isArchived: false
 ---
 
-Northwind Traders' example spend dashboard shows September AI costs of $6,907.40 against an invoice of $6,335.71. It also names product descriptions as the largest cost and recommends a cheaper model. The total and the feature ranking are both wrong.
+When teams use AI to write dashboard queries, a plausible total can hide missing or duplicated records. Northwind Traders' example spend dashboard shows September AI costs of $6,907.40 against an invoice of $6,335.71. It also names product descriptions as the largest cost and recommends a cheaper model. The total and the feature ranking are both wrong.
 
 **Reconcile dashboard totals against an independent source before acting on the insights.** A plausible total is not evidence that the query counted the right records.
 
@@ -44,11 +44,11 @@ Start with a closed billing period. Match the account, currency, time zone, taxe
 
 Compare against the invoice or an independently produced report, not another tile that reuses the same query. Check feature subtotals too: moving cost between features can leave the total correct and the ranking wrong. Keep unattributed costs visible.
 
-Keep the $5,964.22 token estimate separate from billed spend: it estimates the same activity. The invoice is about 1.06 times that estimate; use the ratio to compare them, and never add the estimate as another charge.
+Keep the $5,964.22 token estimate separate from billed spend. It sums recorded token counts multiplied by the applicable list price for each model and token type. Negotiated rates, pricing tiers and rounding can make the bill differ from that estimate. The invoice is about 1.06 times the estimate; track this ratio over comparable closed periods to spot pricing or attribution drift, then investigate a change. The ratio does not explain the difference, and the estimate is never an extra charge.
 
 ## Read every row and count each cost once
 
-In this example, the assistant assumes five features × 30 days and writes `SELECT TOP 150`, ordered by day. The source contains 180 rows because one feature has both daily detail and parent roll-ups. The query drops the last five days and adds some costs twice; the errors partly cancel.
+In this example, the AI coding assistant assumes five features × 30 days and writes `SELECT TOP 150`, ordered by day. The source contains 180 rows because one feature has both daily detail and parent roll-ups. The query drops the last five days and adds some costs twice; the errors partly cancel.
 
 Read every API or export page, compare rows read with rows available, and flag a query that reaches its limit. Aggregate either detail rows or their summaries, never both. Northwind replaces the faulty summary-table query with a saved metric query that reads the provider billing export directly: 11,482 of 11,482 charge records across three pages. These raw billing records are a different source from the 180 daily summary rows.
 

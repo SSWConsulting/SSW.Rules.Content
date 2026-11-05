@@ -30,7 +30,7 @@ These Northwind Traders dashboards use example data.
 
 <imageEmbed
   src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-bad-colour-by-level.png"
-  alt="Northwind illustration: agreement of 77% is red against an 80% target without counts, an insight recommends rollback, and 6/6 ranks above more extensively checked questions."
+  alt="Northwind illustration: weekly agreement of 77% is red without counts and an insight recommends rollback; a separately dated 103-check question audit ranks 6/6 above more extensively checked questions."
   size="large"
   showBorder={true}
   figurePrefix="bad"
@@ -39,7 +39,7 @@ These Northwind Traders dashboards use example data.
 
 <imageEmbed
   src="/uploads/rules/dashboard-changes-real-or-noise/northwind-ai-dashboard-good-counts-ranges-and-tests.png"
-  alt="Northwind illustration: 47/61 versus 55/64 stays No clear change yet, 44/52 versus 30/50 is a Clear rise, with a separate Below 80% target badge, an insight withholding rollback, planned tests, ranges and minimum ranking counts."
+  alt="Northwind illustration: weekly 47/61 versus 55/64 stays No clear change yet beside a Below 80% target badge, 44/52 versus 30/50 is a Clear rise, and a separately dated 103-check audit uses ranges and minimum ranking counts."
   size="large"
   showBorder={true}
   figurePrefix="good"
@@ -73,4 +73,6 @@ Use established library functions, such as Statsmodels [Wilson intervals](https:
 
 ## Make rankings earn their place
 
-Northwind requires ten checks before ranking and orders best results by the lower Wilson bound. Thus 58/60 (90–99%) ranks above 19/19 (88–100%); 6/6 (69–100%) stays **Not ranked yet**. Ten is a display rule, not proof of adequate statistical power.
+The question leaderboard uses a separate fixed audit of 103 checks from 1 September–14 October 2026, rather than the weekly support sample of 61 checks. Each audit check belongs to one of six questions: 60 order-status checks, 19 opening-hours checks and six checks for each of the other four questions.
+
+Northwind requires ten checks before ranking and orders best results by the lower Wilson bound. Thus 58/60 (90–99%) ranks above 19/19 (88–100%); each 6/6 (69–100%) stays **Not ranked yet**. Ten is a display rule, not proof of adequate statistical power.

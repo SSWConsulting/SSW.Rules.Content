@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use forecasts in AI dashboards?
+title: Do you backtest forecasts before showing them on dashboards?
 seoDescription: Replay historical cutoffs before choosing a dashboard forecast, compare simple baselines, and show tested error bands alongside complete source data.
 guid: 4c433285-c97f-43ae-b43b-86cc6eab2fbe
 uri: forecasts-in-ai-dashboards
@@ -40,19 +40,21 @@ The Northwind Traders dashboards and backtest results below are example data, no
 
 At each historical cutoff, forecast using only information available then. Match the real forecast horizon: with complete data through 11 October, the week 19–25 October is two steps ahead. [Rolling-origin cross-validation](https://otexts.com/fpp3/toolbox.html#sec-tscv) explains this approach.
 
-Compare the last complete week, a recent average and a seasonal baseline with the proposed model. Score every method on the same dates, horizon and error definition. Choose a metric that reflects the decision; percentage errors are unsuitable for zero forecasts and can behave poorly near zero.
+Compare the last complete week, a recent average and a seasonal baseline with the proposed model. Score every method on the same dates, horizon and error definition. Choose a metric that reflects the decision. The forecast-normalised percentage error used below is undefined for zero forecasts and can behave poorly near zero; use an absolute-error measure when that makes it unsuitable.
 
 In Northwind's illustrative 52-week selection backtest, the 80th percentile of `abs(actual - forecast) / abs(forecast)` is 20% for the last complete week, 17% for a four-week average, 15% for seasonal plus growth, 14% for a library model and 9% when known promotions and pre-orders are included. These example results do not establish a generally best method.
 
 ## Show the error band and check it on later weeks
 
-Northwind's saved forecast is 10,170 orders. A ±9% empirical band is 9,255–11,085 after rounding: 42 of the 52 selection errors fall within 9% of their forecasts. Label it **Past error band**, not a guaranteed prediction interval.
+Northwind's saved forecast is 10,170 orders: a 7,770-order baseline plus 2,400 additional promotion pre-orders booked by 11 October. Those incremental orders explain the jump above recent weeks and were known at the cutoff. A ±9% empirical band is 9,255–11,085 after rounding: 42 of the 52 selection errors fall within 9% of their forecasts. Label it **Past error band**, not a guaranteed prediction interval.
 
-Freeze the method and band, then check them on later weeks excluded from selection. In this example, 11 of 13 holdout outcomes fall inside the fixed band. Show that count and continue checking coverage; thirteen weeks provide limited evidence. Plan staffing around plausible misses, and withhold a forecast when its errors make it unhelpful for the decision.
+Choose the error percentile and an acceptable error range with the planner before comparing methods. The 80th percentile here is an illustrative setting, leaving about one in five selection errors outside the band. If understaffing is costly, examine upper errors and a higher percentile rather than treating this symmetric band as sufficient protection.
+
+Freeze the method and band, then check them on later weeks excluded from selection. In this example, 11 of 13 holdout outcomes fall inside the fixed band. Show that count and continue checking coverage; thirteen weeks provide limited evidence. Use history that covers relevant seasonal cycles and operating conditions, rather than treating this example's length as a universal minimum. Withhold automated staffing advice when the band exceeds the planner's acceptable error range; require manual planning instead.
 
 <imageEmbed
   src="/uploads/rules/forecasts-in-ai-dashboards/northwind-forecast-good-backtested-with-typical-miss.png"
-  alt="Northwind illustration: next-week orders are 10,170 with a 9,255–11,085 past-error band, a 52-week method comparison and a separate 11/13 holdout coverage check."
+  alt="Northwind illustration: a 7,770 baseline plus 2,400 promotion pre-orders known at the cutoff gives 10,170 orders, with a 9,255–11,085 past-error band, a 52-week comparison and a separate 11/13 holdout check."
   size="large"
   showBorder={true}
   figurePrefix="good"
@@ -63,7 +65,7 @@ Freeze the method and band, then check them on later weeks excluded from selecti
 
 Promotions, pre-orders and booked leave can help when they were known at forecast time. Store when each record became available, including later revisions. Test the boundary by injecting a late record and confirming the replay excludes it; recompute transformations within each training window so they cannot see the future.
 
-Keep incomplete periods visibly marked **Logged so far**. Check source coverage and known exclusions before interpreting a forecast; [missing data](/show-missing-and-stale-data-on-dashboards) must not become a fall in demand.
+Keep incomplete periods visibly marked **Logged so far**. Check source coverage and known exclusions before interpreting a forecast; [show missing and stale data](/show-missing-and-stale-data-on-dashboards) so it cannot become a false fall in demand.
 
 ## Let trusted data run it
 

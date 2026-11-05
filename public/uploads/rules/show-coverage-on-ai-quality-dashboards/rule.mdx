@@ -20,7 +20,7 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI quality dashboard says accuracy fell to 71% and customers helped reached 94%. It gives neither denominator. Three topics have never been checked, while complaint-led checks are mixed into this week's headline. The page cannot support a whole-assistant verdict.
+A team reporting AI assistant quality to stakeholders sees accuracy fall to 71% and customers helped reach 94% on its dashboard. Neither rate has a denominator. Three topics have never been checked, while complaint-led checks are mixed into this week's headline. The page cannot support a whole-assistant verdict.
 
 **Show how much was checked, out of what, beside every AI quality rate.** Name the sampled population and expose what the checks leave out.
 
@@ -52,9 +52,11 @@ For the checks, a support agent answers without seeing AI's answer. Matching ans
 
 ## Label random-review coverage beside agreement
 
-Show **47/61 agreement (77%)**, **61/718 randomly checked in the sampling frame (8.5%)**, and **61/870 of all answered questions randomly checked (7%)**. Both are random-review coverage, excluding targeted reviews. The first describes sampling within the five included topics; the second compares random reviews with all answered questions. Neither makes the excluded topics represented. If you also report total review coverage, deduplicate random and targeted cases first.
+Show **47/61 agreement (77%)** beside two random-review coverage figures. **61/718 (8.5%)** describes random reviews within the five-topic sampling frame. **61/870 (7%)** compares those same reviews with all answered questions. Both coverage figures exclude targeted reviews, and neither makes the excluded topics represented. If you also report total review coverage, deduplicate random and targeted cases first.
 
-Keep the query and sampling-frame definition in source control under a name such as `support_coverage_v1`. Compute the numerator, denominator, exclusions and dates together. A model must not fill gaps in the daily tile with a guessed percentage. Changes to the sampled population need a visible definition version.
+Keep the query and sampling-frame definition together in source control under a name such as `support_coverage_v1`. Compute the numerator, denominator, exclusions and dates together. Every quality tile needs its numerator and denominator, sampling frame and definition version, exclusions and period. Leave an unmeasured period blank; never let AI guess its percentage. Changes to the sampled population need a visible definition version.
+
+When checks are too few for the decision, show their counts and uncertainty, collect more independent checks and withhold a whole-assistant verdict. [Plan the sample size for a useful comparison](/dashboard-changes-real-or-noise).
 
 ## Keep targeted checks separate
 
