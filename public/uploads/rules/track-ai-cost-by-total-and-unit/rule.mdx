@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you track AI cost by total and by unit?
-seoDescription: Track total AI spend to stay on budget, and cost per useful outcome to see whether that spend is worth it.
+seoDescription: Track total AI spend against a budget and cost per accepted outcome, including rejected attempts, to see whether spending buys more useful work.
 guid: c0b32d0f-7565-47e1-a750-1daa0b351874
 uri: track-ai-cost-by-total-and-unit
 created: 2026-10-16T13:32:49.000Z
@@ -21,44 +21,56 @@ archivedreason: null
 isArchived: false
 ---
 
-An AI feature's spend nearly doubles, and the dashboard shows a red arrow. Is that waste, or is the feature doing twice the useful work? The total can't tell you, so the team either cuts a feature that was paying off or ignores spend that wasn't.
+An AI feature's spend nearly doubles and its dashboard turns red. Is that waste, or does the feature produce more than twice as much useful work? A total or cost per request cannot answer that decision.
 
-That's why you should **track AI spend in total to stay on budget, and per useful outcome to see whether it's worth it**.
+**Track total AI spend for the budget and cost per useful outcome for value.** Define useful before comparing models or prompts.
 
 <endIntro />
 
+These Northwind Traders dashboards use example data.
+
 <imageEmbed
   src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-spend-without-context.png"
-  alt="A generic dark purple AI Spend Monitor for Northwind Traders, updated 'just now'. Product description spend reads $868 for 9–15 Oct 2026 with a red 96% rise, beside 866 drafts generated, up 55%, and $1.00 per draft, up 26%. A daily spend line climbs, with weekend dips, from about $75 to about $155, and the AI insight recommends a cheaper model. Nothing shows how many descriptions were good enough to publish."
+  alt="Northwind illustration: $868 spend rises 96%, with 866 drafts and about $1 per draft, but no accepted-outcome count; AI recommends a cheaper model."
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Synthetic illustration - AI spend is up 96%, with nothing to show whether it bought more useful work"
+  figure="Activity counts cannot show whether the extra spend produced more publishable descriptions"
 />
 
 ## Track the total for the budget
 
-The total keeps spend predictable. Put a budget alert on it, and alert on throttling and failures too, because cost data arrives late. See [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts). For the AI tools your developers use, see [Do you monitor AI cost and usage?](/monitor-ai-cost-and-usage).
+Keep an overall spend limit and an owner for investigating alerts. Also [alert on failures and throttling](/ai-service-alerts): [cost data can arrive late](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/understand-cost-mgt-data). A budget alert is not a real-time service-health check.
 
-## Track the cost per useful outcome for value
+For developer subscriptions and token activity, see [monitoring AI cost and usage](/monitor-ai-cost-and-usage). This rule adds a measure of useful output from an AI feature.
 
-Divide what a feature spends by the useful results it produces:
+## Define and count useful work
 
-* **Pick one useful outcome per feature** - For example, a product description published without edits, or a support chat resolved without a person. Tokens and requests count activity, not results
-* **Use the same days for both** - Divide spend by outcomes over the same window, and include the cost of rejected attempts
-* **Mark model and prompt changes** - A labelled marker helps readers investigate a step in the line
+Choose a measurable acceptance criterion: a description published without edits, or a support case resolved without reopening during a defined follow-up period. A token, request or generated draft counts activity, not success.
 
-If spend rises and the cost per outcome falls, the feature is doing more useful work. If both rise, find out why.
+Divide all attributable feature costs, including rejected attempts, retries and failed calls, by accepted outcomes counted once. Keep the same currency, cost basis and attribution policy across periods. State whether the figure covers model charges only or also hosting and human review; omitted costs limit the value claim.
 
-In Northwind Traders' 9–15 Oct 2026 window, spend on AI product descriptions is 96% higher than in 14–20 Sep, after a gift-basket range was added and the prompt got longer. Accepted descriptions (published without edits) grew faster, so each one now costs $1.21 instead of $1.46.
+Align costs with their outcomes. If publishing or resolution takes days, use a completed cohort and its associated costs, or flag a provisional period until outcomes mature. **No accepted outcomes** is a visible state, not a zero unit cost or division by zero.
+
+## Save the calculation, then compare periods
+
+Keep `cost_per_accepted_description_v1`, its joins and its acceptance definition in source control. A reviewed one-off agent query can explore the data; a recurring daily tile uses the saved calculation. [Reconcile both spend and accepted counts independently](/check-dashboard-totals-against-the-source) before drawing advice.
+
+Northwind compares completed product-description cohorts for 14–20 September and 9–15 October. The example uses billed model charges only, including rejected drafts:
+
+* Spend rises from **$443 to $868**, up 96%
+* Accepted descriptions rise from **304 to 720**, up 137%
+* Cost per accepted description falls from **$1.46 to $1.21**, down 17%
 
 <imageEmbed
   src="/uploads/rules/track-ai-cost-by-total-and-unit/northwind-ai-cost-per-accepted-description.png"
-  alt="A Northwind Traders AI cost page in company branding comparing product descriptions for 9–15 Oct with 14–20 Sep 2026. Cards show accepted descriptions up 137% (304 to 720), cost per accepted description down 17% ($1.46 to $1.21) and billed spend up 96% ($443 to $868), including rejected drafts. A chart of rolling 7-day values against the first week, where x1 means the same, shows accepted descriptions climbing past x2 after markers for the gift-basket range on 28 Sep and the new description prompt on 7 Oct, while cost per accepted description falls below x1. The source line names the billing export and merchandising system, with data to 15 Oct."
+  alt="Northwind illustration: accepted descriptions rise 304 to 720 while spend rises $443 to $868; cost per accepted description falls $1.46 to $1.21, with named billing and publishing sources."
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Synthetic illustration - Spend is up 96%, but accepted descriptions are up 137%, so each accepted description costs 17% less"
+  figure="More than twice as many accepted descriptions outweigh the higher model spend in this completed cohort"
 />
 
-To put these numbers on a dashboard, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).
+Lower unit cost does not excuse a budget breach or lower quality. Keep acceptance criteria comparable, mark changes and investigate shifts in work mix before attributing the improvement to a model or prompt. Run [quality evals](/run-evals-on-ai-features) before accepting a cheaper alternative.
+
+Put both measures on [a traceable dashboard](/ai-dashboards-with-insights) so readers can distinguish affordability from value.

@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you remove fake data and dead controls from AI-built dashboards?
-seoDescription: Remove sample data and dead controls before sharing an AI-built dashboard, and make live mode explicit.
+seoDescription: Remove sample rows and dead controls before sharing an AI-built dashboard, verify its filters, and show when a source cannot provide live results.
 guid: ec56c9be-e075-4b86-b191-12f4d3c4fc93
 uri: remove-fake-data-from-ai-built-dashboards
 created: 2026-10-22T13:32:00.000Z
@@ -18,48 +18,52 @@ archivedreason: null
 isArchived: false
 ---
 
-Northwind Traders' support lead changes the date range on a new AI-built operations dashboard, but nothing moves. Sample escalations sit beside real customers, and the health badge never changes. The page was shared before anyone checked which parts were real.
+A support lead changes the date range on a new AI-built dashboard, but nothing moves. Placeholder escalations appear beside operational records, and the health badge never changes. The page looks finished before its data and controls work.
 
-That's why you should **remove sample data and dead controls before sharing an AI-built dashboard**.
+**Remove sample data and dead controls before sharing an AI-built dashboard.** Check what the page does, not just how it looks.
 
 <endIntro />
 
+Both Northwind Traders illustrations use example data, including the illustration of live mode.
+
 <imageEmbed
   src="/uploads/rules/remove-fake-data-from-ai-built-dashboards/northwind-ai-dashboard-bad-sample-data-and-dead-controls.png"
-  alt="A generic dark purple AI Operations Hub for Northwind Traders. A badge reads 'Updated 2h ago, 96% parsed'. 'Last 30 days' is selected, but the chart shows only 8 to 14 Oct. The Emails triaged tile says 12,480 while the chart adds up to 2,412. The escalation list mixes real customers with 'Acme Corp', 'John Doe' and 'Sample Customer 3', each with an Auto-resolve button."
+  alt="Northwind illustration: Last 30 days labels an 8–14 October chart, 12,480 conflicts with 2,412, and Sample Customer 3 appears beside operational escalations with dead Auto-resolve buttons."
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Synthetic illustration - 'Sample Customer 3' sits beside real customer escalations, and 'Last 30 days' labels a chart of only 7 days"
+  figure="The selected period does not match the records, and placeholder rows look actionable"
 />
 
 ## Keep samples out of live mode
 
-Sample data helps AI draw a page before a source connects. Keep it in a separate sample mode. Never substitute sample rows when live data is unavailable. Mixing sample rows into real results makes even a connected dashboard untrustworthy.
+Sample data helps the assistant draw a page before a source connects. Keep it in a separate, visibly labelled demo mode with a separate data path. Never fall back to sample rows when a live request fails: readers could act on invented results.
 
-If a panel cannot be computed, leave it empty and explain why. Northwind's returns panel says the inbox is not connected yet. See [Do your dashboards say when data is missing or stale?](/show-missing-and-stale-data-on-dashboards).
+If a panel cannot be computed, leave it empty and explain why. Northwind's returns panel says the inbox is not connected. A successful empty query can show zero; an unavailable source cannot. See [showing missing and stale data](/show-missing-and-stale-data-on-dashboards).
 
-## Wire every control or delete it
+## Wire every control or remove it
 
-A selected filter promises that the results reflect that selection. A button promises an action. A dead filter leaves the reader looking at the wrong period without knowing it.
+A selected filter promises that the displayed results reflect that selection. A button promises an action. [Native button semantics](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) support interaction; drawing something that looks clickable does not implement it.
 
-Northwind deletes the fake filter chips and lasso and keeps two working dropdowns, Feature and Dates. The escalation list loses its dead Auto-resolve buttons.
+Northwind removes the dead Auto-resolve buttons and keeps Feature and Dates dropdowns wired to the queries. If a capability is deliberately unavailable, label why it is disabled. Don't leave an enabled control that silently does nothing.
 
-## Make the mode visible
+## Make the mode and build visible
 
-Label the page as live or sample data, with the time the data was built. Read health figures from the build results instead of typing a reassuring badge into the layout. Northwind's footer reports 2,371 of 2,412 emails parsed (98.3%) and says sample data is off.
+Label the page **Live** or **Demo**, and show its actual build time. Compute health badges from the build results. Northwind's fixture reports 2,371 of 2,412 emails parsed (98.3%) and sample mode off; it does not type a reassuring percentage into the layout.
 
 <imageEmbed
   src="/uploads/rules/remove-fake-data-from-ai-built-dashboards/northwind-ai-dashboard-good-live-data-and-working-controls.png"
-  alt="A Northwind Traders dashboard in company branding with working Feature and Dates dropdowns set to All and 8 to 14 Oct 2026. The triage tile reads 2,198 of 2,412 emails routed without a person, and the daily chart adds up to the same 2,412. The 'Sent to a person' list shows only real customers and no buttons. A dashed returns panel says it is not connected yet and shows no sample rows. The footer says live data, built 15 Oct 08:10 AEST, 2,371 of 2,412 emails parsed (98.3%), sample data off."
+  alt="Northwind illustration: Dates is 8–14 October, the total and chart use 2,412 emails, 2,198 were routed, returns are visibly disconnected, and the footer shows build time and sample mode off."
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Synthetic illustration - The unconnected returns panel stays empty instead of showing samples, and the footer says the page is live with sample data off"
+  figure="The period matches the records, disconnected panels stay empty, and controls have defined behaviour"
 />
 
 ## Try the page before sharing it
 
-Change the date range to one with different records and check that each affected number responds correctly. Click every control and confirm its result. Turn off a data source and check that its panel explains the gap without filling it with samples.
+Choose two date ranges with different known records. Check every affected tile, chart and list against those records; then test Feature in combination with Dates. An unaffected panel should explain its separate scope.
 
-For connecting the live data sources, see [Do you use AI to generate useful dashboards with insights?](/ai-dashboards-with-insights).
+Activate each control with a mouse and keyboard and confirm its intended result. Disconnect a source and verify that its panel explains the gap without inserting samples. Finally, open live mode with the demo source unavailable: it should still work from its approved source.
+
+[Traceable dashboard calculations](/ai-dashboards-with-insights) provide the data; [independent reconciliation](/check-dashboard-totals-against-the-source) checks that the connected totals are right.
