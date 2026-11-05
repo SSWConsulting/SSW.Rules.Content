@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you centralise local-dev config in the AppHost and keep one canonical secrets record?
-seoDescription: Centralise Aspire local development settings in the AppHost, keep real secrets in one password-manager record, and report missing keys before startup.
+title: Do you centralise local development configuration in your Aspire AppHost?
+seoDescription: Centralise local development configuration in Aspire AppHost, inject only what each service needs, and check missing secrets before starting the application.
 guid: 70334ed5-1475-47c2-b79a-c4ab0abaf2af
 uri: centralise-local-dev-config-and-secrets-in-apphost
 created: 2026-10-31T00:00:00.000Z
@@ -12,106 +12,131 @@ related:
   - rule: public/uploads/rules/aspire/rule.mdx
   - rule: public/uploads/rules/share-your-developer-secrets-securely/rule.mdx
   - rule: public/uploads/rules/developer-experience/rule.mdx
-redirects: []
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-net-projects.mdx
 archivedreason: null
 isArchived: false
 ---
 
-Getting a fresh clone running should not require a treasure hunt for configuration. Scattered User Secrets and changing local database passwords turn a simple Orders query into an onboarding problem.
+When each service needs a separate configuration edit, a fresh clone becomes a troubleshooting exercise. A changed API port leaves the web app pointing at yesterday's address, while a missing key appears only after other services start.
 
-For local .NET Aspire development, make the AppHost the configuration entry point. Commit predictable, non-sensitive defaults and keep the few real secrets in one authoritative password-manager record.
+For a solution that already uses [Aspire](/aspire), make the **AppHost the entry point for local development configuration**. Define dependencies there, load development secrets into the AppHost, and pass each service only the values it needs.
 
 <endIntro />
+
+## Replace scattered settings with explicit references
+
+The following Northwind examples use **example data**. The API uses an existing development database and an Orders service key; the web app calls the API.
 
 <boxEmbed
   style="greybox"
   body={<>
-    A Northwind developer copies settings into three projects by hand. The local SQL container gets a new password after recreation, so yesterday's `sqlcmd` command fails. Once SQL works, the Orders API fails because another required key is missing.
+    `Northwind.Api/appsettings.Development.json` holds a copied database connection string. The API's own User Secrets hold `Orders:ApiKey`. `Northwind.Web/.env` holds a copied `API_URL` of `http://localhost:5101`.
+
+    After the API port changes, the web app still calls port 5101. Onboarding requires finding and editing settings in multiple places.
   </>}
   figurePrefix="bad"
-  figure="Configuration is discovered one failure at a time"
+  figure="The web app keeps a copied API address that drifts from the running API"
 />
 
-## Commit predictable local defaults
+<boxEmbed
+  style="greybox"
+  body={<>
+    `Northwind.AppHost` loads the database connection and Orders key from its User Secrets. Its composition passes those inputs to `Northwind.Api` and an API reference to `Northwind.Web`.
 
-Put shared, fixed development values in the **local-development AppHost's** `appsettings.json`. Let the AppHost pass configuration to the services it starts, rather than making developers configure each service separately.
+    After the API port changes, the web app resolves the API's current endpoint through that reference. No per-service files need editing, and the web app receives neither database credentials nor the Orders key.
+  </>}
+  figurePrefix="good"
+  figure="The same Northwind services receive their dependencies from one composition, so the API address stays current"
+/>
 
-A known SQL `sa` password is suitable only for an isolated local container containing fictional Northwind Customers and Orders. Bind its host endpoint to loopback, never reuse the password elsewhere, and treat it as public. A credential that grants access to shared infrastructure is a real secret, even in development.
+## Wire the AppHost once
+
+Use the AppHost to describe the same dependencies. This example targets a C# AppHost on .NET 10 with **Aspire 13.6**; the snippets are verified with 13.6.4. The [Aspire SDK documentation](https://aspire.dev/get-started/aspire-sdk/) covers `Aspire.AppHost.Sdk`, the `Aspire.Hosting.AppHost` package, and project references. Reference `Northwind.Api` and `Northwind.Web` from `Northwind.AppHost` so the SDK generates `Projects.Northwind_Api` and `Projects.Northwind_Web`.
+
+```csharp
+// Northwind.AppHost/AppHost.cs
+var checkOnly = args.Contains("--check-config");
+var builder = DistributedApplication.CreateBuilder(
+    args.Where(arg => arg != "--check-config").ToArray());
+
+string[] requiredKeys =
+    ["ConnectionStrings:northwind", "Parameters:orders-api-key"];
+var missing = requiredKeys.Where(key =>
+    string.IsNullOrWhiteSpace(builder.Configuration[key])).ToArray();
+
+if (missing.Length > 0)
+{
+    foreach (var key in missing)
+        Console.Error.WriteLine($"Missing: {key}");
+    Console.Error.WriteLine("Source: Northwind - Local development");
+    return 1;
+}
+
+if (checkOnly)
+{
+    Console.WriteLine("Required configuration is present.");
+    return 0;
+}
+
+var database = builder.AddConnectionString("northwind");
+var ordersKey = builder.AddParameter("orders-api-key", secret: true);
+
+var api = builder.AddProject<Projects.Northwind_Api>("api")
+    .WithReference(database)
+    .WithEnvironment("Orders__ApiKey", ordersKey);
+
+builder.AddProject<Projects.Northwind_Web>("web")
+    .WithReference(api);
+
+builder.Build().Run();
+return 0;
+```
+
+**Figure: The local AppHost checks required inputs and injects each dependency explicitly**
+
+[Aspire parameters](https://aspire.dev/fundamentals/external-parameters/) read `Parameters:orders-api-key`; `AddConnectionString("northwind")` reads `ConnectionStrings:northwind`. `AddConnectionString` references an existing database; it does not create or start one.
+
+[`WithReference` injects configuration](https://aspire.dev/fundamentals/environment-variables/) appropriate to the resource: here, `ConnectionStrings__northwind` for the API and API endpoints for the web app. `WithEnvironment` maps the secret parameter to `Orders__ApiKey`, which .NET reads as `Orders:ApiKey`. AppHost configuration is not automatically copied into every child process.
+
+Configure the web app's HTTP client for [Aspire service discovery](https://aspire.dev/fundamentals/service-discovery/), typically through Service Defaults, and use the logical service address `https+http://api`. `WithReference(api)` supplies the endpoints; it does not configure the HTTP client itself.
+
+## Separate committed defaults from development secrets
+
+Commit non-sensitive defaults and dependency wiring. Keep service-owned settings, such as log levels, with the service; centralising configuration does not mean moving every setting into the AppHost.
+
+Store real development credentials in the **AppHost's** [.NET User Secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0), outside source control. For the example above, use this shape in the AppHost's Manage User Secrets editor:
 
 ```json
 {
+  "ConnectionStrings": {
+    "northwind": "EXAMPLE_ONLY_REPLACE_WITH_DEVELOPMENT_CONNECTION_STRING"
+  },
   "Parameters": {
-    "sql-password": "Northwind-Local-Only!123"
+    "orders-api-key": "EXAMPLE_ONLY_NOT_A_SECRET"
   }
 }
 ```
 
-✅ **Figure: Good example - A disposable local SQL container has a documented, stable password**
+**Figure: Both development inputs belong to the AppHost's secret store; these placeholders are example data**
 
-Wire the configured parameter into the local SQL resource:
+Use an AppHost launch profile with `DOTNET_ENVIRONMENT=Development`. If the project has no `UserSecretsId`, initialise it with `dotnet user-secrets init --project Northwind.AppHost`. Replace the placeholders with authorised development values. User Secrets are unencrypted local storage for development; `secret: true` describes a sensitive parameter and does not encrypt its source or protect a committed value. Never print secret values when checking configuration.
 
-```csharp
-var builder = DistributedApplication.CreateBuilder(args);
-var password = builder.AddParameter("sql-password", secret: true);
-var sql = builder.AddSqlServer("sql", password: password);
-sql.AddDatabase("northwind");
-builder.Build().Run();
+For shared development credentials, keep one access-controlled record, such as **Northwind - Local development**, and update it when keys change or credentials rotate. Keep individually issued credentials individual. Follow [sharing developer secrets securely](/share-your-developer-secrets-securely) for the sharing mechanism and [storing secrets securely](/store-your-secrets-securely) for deployment storage. Production uses its own secret provider and credentials.
+
+## Check the setup before starting services
+
+This preflight is for a local development AppHost. If the same AppHost also models deployment, validate deployment inputs separately instead of requiring local User Secrets.
+
+The AppHost code above implements `--check-config`; it is **a project-defined switch**, not an Aspire command. Run it from the solution directory:
+
+```shell
+dotnet run --project Northwind.AppHost -- --check-config
 ```
 
-✅ **Figure: Good example - SQL uses the configured password instead of a newly generated value**
+**Figure: The check reports all missing keys without starting services**
 
-The `secret: true` flag marks a sensitive parameter for Aspire; it does not make a committed value confidential. See [Aspire's parameter configuration](https://aspire.dev/fundamentals/external-parameters/) for configuration sources and resource references.
+The check returns a non-zero exit code when either required input is missing or blank. A pass confirms presence only; it does not validate credentials, database availability, or placeholder values.
 
-## Keep local defaults out of deployment
-
-Set this property in the local-development AppHost's project file:
-
-```xml
-<PropertyGroup>
-  <IsPublishable>false</IsPublishable>
-</PropertyGroup>
-```
-
-✅ **Figure: Good example - The development AppHost is excluded from solution-wide `dotnet publish`**
-
-**This is a publishing safeguard, not a security boundary.** [IsPublishable](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#ispublishable) controls MSBuild's `Publish` target. It does not block every publishing path, including Visual Studio's `PublishOnly` target. [Aspire publishing](https://aspire.dev/reference/cli/commands/aspire-publish/) generates deployment artefacts from the application model; do not assume this property disables it.
-
-Keep the local AppHost settings out of deployment inputs. If the AppHost also models deployment, use a separate configuration that does not load these local defaults. Keep production credentials in the deployment tool's secret store or a managed vault, and inject them into deployed services.
-
-## Keep one canonical development-secrets record
-
-For real secrets that must be shared, maintain one access-controlled password-manager record, such as **Northwind - Local development**. Store the complete JSON needed by the AppHost, and update that record when keys change or credentials rotate. Individually issued credentials remain individual; the record can explain which keys developers must obtain themselves.
-
-Developers copy the JSON into the AppHost's [.NET User Secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets), outside source control. User Secrets are stored unencrypted on the developer's machine and are for development only. See [sharing developer secrets securely](/share-your-developer-secrets-securely) for the sharing options.
-
-## Report every missing key before startup
-
-Add a project-defined check command, for example an AppHost `--check-config` switch. This is a command your team implements, not a built-in Aspire option.
-
-The check:
-
-- Reads the same merged configuration as normal startup
-- Reports **all missing or blank required keys**
-- Exits with a non-zero code when anything is missing
-- Prints key names and the record to consult, never secret values
-
-Run it before starting containers so developers can fix the whole configuration in one pass.
-
-```text
-> dotnet run --project Northwind.AppHost -- --check-config
-Missing: Parameters:orders-api-key
-Source: Northwind - Local development (password manager)
-```
-
-✅ **Figure: Good example - The check identifies the missing key and where to obtain it without revealing a value**
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    A Northwind developer clones the repository, copies the authorised development-secrets record into AppHost User Secrets, and runs the configuration check. With the required tooling installed and the check passing, `aspire run` starts the application with the committed local SQL settings. No service-by-service configuration hunt is needed.
-  </>}
-  figurePrefix="good"
-  figure="One AppHost, one secrets record, and one check make onboarding repeatable"
-/>
+As an onboarding check, use a fresh clone, obtain the authorised development values, run the check, then start the AppHost with `dotnet run --project Northwind.AppHost`. Verify that the web app reaches the API and the API reaches its dependencies without editing per-service files. Document this path as part of the [initial developer experience](/developer-experience). A service launched outside the AppHost still needs its own configuration source.
