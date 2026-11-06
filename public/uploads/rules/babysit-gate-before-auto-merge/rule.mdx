@@ -28,7 +28,7 @@ Where your project permits auto-merge, require a **babysit gate** before arming 
 
 Treat the gate as a decision about one specific PR revision. An earlier green build or approval is evidence about earlier code.
 
-* **Required checks pass:** open the results for the current PR head commit and confirm the required build, tests and security checks actually ran successfully. A pending result is unfinished work. GitHub can accept skipped or neutral required checks, so confirm that required coverage has not silently disappeared.
+* **Required checks pass:** use the PR's status checks box to identify the commit GitHub evaluates for the latest revision. This can be the head SHA or a synthetic test-merge SHA; when the test-merge commit has a status, its checks must pass. Confirm the required checks actually ran successfully. Pending is unfinished; skipped or neutral results can satisfy GitHub without providing the intended coverage. See [required-check troubleshooting](https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-required-status-checks).
 * **The base is accounted for:** require the branch to be up to date with its base, or use a required merge queue that tests the proposed changes against the latest base and entries ahead of it. Without a queue, update the branch first and recheck the resulting revision.
 * **Review feedback is resolved:** address each thread and record the outcome before resolving it. Follow the [rule for resolving review comments](/resolving-code-review-comments); clicking Resolve alone does not demonstrate a fix. Blocking change requests must also be cleared.
 * **A named human approves the final diff:** confirm an authorized reviewer other than the author approves the current changes after the last reviewable push. An agent's review summary or an approval on a superseded diff does not satisfy this gate.
@@ -45,7 +45,7 @@ These checks complement the [merge-method and auto-merge settings](/use-squash-a
 
 ## Compare the same Northwind PR
 
-In this invented example, an agent updates Northwind's order retry handling in PR #248. Casey Nguyen approved commit `a14c9e2`, then the agent pushes `b72f6d1`.
+In this invented example, an agent updates Northwind's order retry handling in PR #248. Casey Nguyen approved commit `a14c9e2`, then the agent pushes `b72f6d1`. This CI setup reports PR checks on the head SHA; your setup may evaluate a test-merge SHA instead. Queue checks run on a separate integration SHA.
 
 <imageEmbed
   src="/uploads/rules/babysit-gate-before-auto-merge/auto-merge-before-readiness.png"
