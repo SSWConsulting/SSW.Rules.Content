@@ -223,6 +223,16 @@ issue with a reference to the original and notify relevant users.
   believe it's a duplicate.
 ```
 
+## Persist ownership across event-triggered runs
+
+For recurring work, define the event, eligibility, permitted actions, output and human owner. Filter unchanged or agent-generated events before invoking the model so duplicate notifications do not start duplicate work or endless loops.
+
+Store a stable work key, source revision, owner, status, evidence, next step and output links in a durable queue or workflow store. A delivery ID identifies a notification; several notifications can describe the same work item. Claim the work atomically with an expiring lease, renew it during long runs and reject writes from workers with expired leases. Persist handovers with the next owner so a restart cannot lose responsibility.
+
+Reconcile uncertain writes before retrying, or use destination-supported idempotency. In a synthetic Northwind example, a worker opens a PR then crashes before recording its URL. Its replacement claims the same work key, searches the deterministic branch's PRs including closed ones, and records the existing PR rather than creating another. If the lookup cannot establish the outcome, pause for human review.
+
+Bound attempts, elapsed time and spend, provide a stop control and retain human approval for consequential actions through platform permissions. Before unattended use, deliver duplicate events and restart workers before and after writes. Confirm one intended result per work key, recoverable ownership and a clear human escalation when recovery is uncertain.
+
 ## Keep exploring
 
 * [GitHub Next - Agentic Workflows](https://githubnext.com/projects/agentic-workflows/) - The introductory article explaining the vision and design philosophy
