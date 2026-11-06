@@ -20,7 +20,6 @@ There are lots of ways to build cloud-native applications and the overwhelming n
 
 <endIntro />
 
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -30,15 +29,11 @@ There are lots of ways to build cloud-native applications and the overwhelming n
   src="/uploads/rules/aspire/too-complex-aspire.png"
 />
 
-
 Also, the complexity of modern cloud-native applications can make them difficult to manage and maintain.
 
 .NET Aspire is a powerful set of tools, templates, and integrations designed to streamline cloud-native app development with .NET. It offers a consistent approach to orchestration, standardized integrations, and developer-friendly tooling to help you build robust, production-ready applications.
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=59G9Cd-rV9w" description={"Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)"} />
-
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=59G9Cd-rV9w" description="Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)" />
 
 <imageEmbed
   alt="Image"
@@ -49,7 +44,6 @@ Also, the complexity of modern cloud-native applications can make them difficult
   src="/uploads/rules/aspire/aspire-cool-stuff.png"
 />
 
-
 .NET Aspire addresses common pain points in cloud-native development:
 
 ## Orchestration
@@ -59,6 +53,16 @@ Also, the complexity of modern cloud-native applications can make them difficult
 * Automatically setting up service discovery and environment variables
 * Providing tools to spin up local containers and configure dependencies
 * Simplifying complex setups with clear abstractions, reducing the need for low-level configuration
+
+## Make AppHost the local configuration entry point
+
+Use the AppHost to describe service dependencies and pass each service only what it needs. References supply connection information instead of copied ports and connection strings. For example, Northwind's web service receives a reference to its API; only the API receives its database connection and Orders service key. The consuming client must also be configured for service discovery: injecting endpoints does not configure an HTTP client by itself.
+
+Commit non-sensitive defaults and dependency wiring. Load authorised configuration providers into the AppHost, then reference connection strings and sensitive parameters explicitly. AppHost settings are not automatically copied to every child process. Keep service-owned settings with the service and use separate production configuration. See [Aspire external parameters](https://aspire.dev/fundamentals/external-parameters/) and [environment-variable injection](https://aspire.dev/fundamentals/environment-variables/).
+
+Use an approved secret provider; local .NET User Secrets are unencrypted development storage outside source control. Marking a parameter secret does not encrypt its source or protect a committed value. For scripted onboarding, check required input names before starting resources, report all missing names without values and exit non-zero when inputs are missing. Presence alone does not prove credentials work.
+
+Verify onboarding from a fresh clone: obtain authorised development values, run the configuration check, start AppHost and confirm web-to-API and API-to-dependency access without per-service edits. Document any configuration needed when launching a service outside AppHost.
 
 ## Integrations
 
@@ -103,7 +107,7 @@ Leverage predefined templates and tooling to:
       driver: local
   ```
 
-2. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments)
+1. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments)
 
   ```csharp
   var redisConnection = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING") ?? "localhost:6379";
@@ -113,6 +117,7 @@ Leverage predefined templates and tooling to:
       options.InstanceName = "SampleInstance";
   });
 ```
+
 ❌ **Figure: Bad Example - Manually setting up Redis cache 🥱**  
 
 ### The new way - with .NET Aspire
@@ -129,7 +134,7 @@ Aspire handles Redis setup and connection string injection for you:
         .WaitFor(cache);
   ```
 
-2. Add the client integration for Redis
+1. Add the client integration for Redis
 
   ```cs
   public static class DependencyInjection
@@ -140,6 +145,7 @@ Aspire handles Redis setup and connection string injection for you:
       }
   }
   ```
+
 ✅ **Figure: Good Example - Simple Redis setup with .NET Aspire 🚀**  
 
 No need to write Docker Compose files.
@@ -151,7 +157,6 @@ Connection string is automatically injected.
 ## Get started with Aspire
 
 [Check out Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
-
 
 <boxEmbed
   style="greybox"
