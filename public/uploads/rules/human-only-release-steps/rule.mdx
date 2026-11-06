@@ -1,0 +1,107 @@
+---
+type: rule
+title: Do you enforce human-only release steps?
+seoDescription: Mark human-only release steps, name their owners, and enforce the boundary with platform permissions so AI agents can prepare a release without authorising it.
+guid: f1401d9e-58c4-48ff-90e6-31861730e979
+uri: human-only-release-steps
+created: 2026-11-06T01:17:32.146Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/do-you-have-a-deployment-plan/rule.mdx
+  - rule: public/uploads/rules/use-gated-deployments/rule.mdx
+  - rule: public/uploads/rules/shared-ai-agent-settings/rule.mdx
+  - rule: public/uploads/rules/use-branch-protection/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI agent can prepare a release, pass every test, and still lack authority to ship it. If the checklist says only "release the new version", the agent may treat merging, publishing and notifying customers as ordinary follow-up work.
+
+**Mark the release steps reserved for people, name their owners, and enforce each boundary in the platform that performs the action.** Document the same boundary in the release checklist and agent instructions. A sentence asking the agent to stop is useful guidance, but it does not remove its credentials or permissions.
+
+<endIntro />
+
+## Define what remains with a person
+
+The release owner decides which actions need human judgement for this product. Common candidates include approving production deployments, merging to a release branch, publishing a package version, rotating production secrets and sending customer announcements. Reserve the actions that warrant it; build, test and release preparation can remain automated.
+
+Be precise about the boundary:
+
+* **Human approval** - A person approves a specific release; a deterministic pipeline can then deploy the approved artifact.
+* **Human-only execution** - A person performs the action. An approval elsewhere does not give the agent permission to publish, merge or send on their behalf.
+
+For each reserved step, record **Human only**, the responsible role, a link to the enforcing control, and completion evidence such as the approval record, merge commit, published version or send receipt. For secret rotation, retain audit metadata, never secret values.
+
+A [deployment plan](/do-you-have-a-deployment-plan) explains deployment and recovery; [gated deployments](/use-gated-deployments) cover deployment approval. This boundary also covers release actions outside the pipeline.
+
+## Make the boundary visible in the checklist
+
+Northwind's fictional release 2.4 needs five human decisions or actions. In the unrestricted version, every step belongs to the release agent. Green completion badges hide the missing human authority.
+
+<imageEmbed
+  src="/uploads/rules/human-only-release-steps/release-checklist-unrestricted.png"
+  alt="Illustration with Northwind example data: the release agent merges, self-approves production, publishes, rotates a secret and sends an announcement without required reviewers"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The agent completes every release step because no platform control requires a person"
+/>
+
+In the corrected version, each reserved step names a human owner. The production job waits for a release manager; the agent can finish preparation while it waits. The environment gate protects the deployment only. Separate permissions protect merging, publishing, secret rotation and sending.
+
+<imageEmbed
+  src="/uploads/rules/human-only-release-steps/release-checklist-human-only.png"
+  alt="Illustration with Northwind example data: five steps are labelled Human only with named roles; production requires Northwind Release Managers, prevents self-review and disables administrator bypass"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Named owners and an enforced production gate leave the release waiting for human authority"
+/>
+
+The illustrations are fictional configuration summaries. The GitHub example assumes an organisation repository on Enterprise Cloud, which supports required reviewers for private repositories.
+
+## Enforce the boundary outside the agent
+
+Use a separate agent identity without the human owner's credentials, browser session, reviewer membership or administrative access. [Shared agent settings](/shared-ai-agent-settings) add local safeguards; the destination service must also reject unauthorised actions through its API or CLI.
+
+* **Production approval** - Configure a [GitHub environment](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments) with human required reviewers, prevent self-review and disable administrator bypass. The deployment job must reference that environment. Keep production credentials behind the gate and remove alternative deployment credentials from the agent. In [Azure DevOps, use approvals and checks](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops) on the environment or service connection. Resource owners manage these checks outside pipeline YAML; keep the agent out of resource administration and approver roles.
+* **Release merge** - Require PR review and restrict who can push or merge to the release branch to the human release team. Required reviews alone can still allow an agent to merge after approval. Apply [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches), exclude agent identities from bypass access, and check auto-merge or merge-queue paths against the same boundary.
+* **Package publishing** - Restrict publishing to designated people when execution is human only. Check inherited repository/workflow access and tokens. [GitHub Packages access controls](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility) distinguish read, write and admin roles; independent permissions depend on the registry. A deployment gate does not protect a separate publish job or registry token.
+* **Secret rotation and announcements** - Give secret-management permissions to the operations role and customer-send permissions to the communications role. Give the agent only the access it needs to prepare instructions or drafts. Review connector permissions and shared sessions too.
+
+Require human review for changes to release workflows and permission settings. An agent that can remove the gate or grant itself the missing role can cross the boundary. Keep any emergency access separate, human-controlled and audited.
+
+## Tell the agent where to hand over
+
+Link from `AGENTS.md` to the release checklist so both documents describe the same boundary. For example:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind agent instructions · example data**
+
+    ```markdown
+    Follow docs/release-checklist.md for release 2.4.
+    You may build, test, prepare a PR and draft the announcement.
+    Human-only steps: release-branch merge, production approval,
+    package publishing, production secret rotation and customer sending.
+    At each handover, report the version/commit, evidence links,
+    remaining step and responsible role. Use "Awaiting human action".
+    Do not mark the release complete or retry through another identity.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="The agent knows what it can prepare and what evidence to hand to the human owner"
+/>
+
+## Verify the boundary before relying on it
+
+* **Test without production effects** - In a disposable project with equivalent controls, use the agent's actual identity to attempt each reserved operation through the UI and API or CLI. Expect a permission denial or a pending human approval, with no external action completed.
+* **Check the permitted path** - Confirm the human owner can complete their step and the pipeline deploys only the reviewed commit or artifact. Record the result against the checklist.
+* **Recheck after access changes** - Review tokens, inherited roles, workflow changes and bypass permissions. Preserve the approval and action records with the release evidence.
+
+The boundary works when the agent can prepare the release, yet cannot approve or perform a reserved action using any credentials available to it.
