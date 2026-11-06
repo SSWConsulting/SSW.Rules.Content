@@ -5,85 +5,57 @@ authors:
   url: https://www.ssw.com.au/people/adam-cogan
 created: 2018-04-23 23:28:08+00:00
 guid: 84813d6d-f297-4d0b-83a8-e598411ece71
+isArchived: false
 redirects:
 - comments-do-you-follow-the-general-commenting-rules
 - follow-version-conventions
 related:
 - rule: public/uploads/rules/leave-explanatory-notes-for-non-standard-code/rule.mdx
-seoDescription: Discover effective alternatives to code comments and learn how to
-  write cleaner, maintainable code with insights from Clean Code and Robert Martin
-  (Uncle Bob).
-title: Comments - Do you follow the code commenting standards?
+- rule: public/uploads/rules/todo-tasks/rule.mdx
+- rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
+- rule: public/uploads/rules/do-you-review-the-code-comments/rule.mdx
+seoDescription: Write code comments that explain lasting constraints, prefer clearer code, remove AI-generated change narration and keep change history in source control.
+title: Do you follow code commenting standards?
 categories:
   - category: categories/software-engineering/rules-to-better-code-commenting.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 type: rule
 uri: code-commenting
 ---
 
-There is almost always a better alternative to adding comments to your code.
+Comments can become stale while the code moves on, leaving maintainers to work out which version to trust. Before adding a comment, try clearer names, simpler code or targeted tests.
 
-What are the downsides of comments? What are the alternatives? What are bad and good types of comments?
+Keep comments that explain why the code must work this way. Remove those that merely repeat what it does or narrate the latest edit, including AI-written change notes.
 
 <endIntro />
 
-There is almost always a better alternative to adding comments to your code. [Chapter 4: Comments, Clean Code](https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM) is a treatise par excellence on the topic.
+## Prefer clearer code
 
-## What are the downsides of comments?
+Comments add text for maintainers to understand. Review them during refactoring: prose can become stale and cannot enforce the behaviour it describes. Before adding an explanation:
 
-1. Comments don't participate in refactoring and therefore get out of date surprisingly quickly.
-2. Comments are dismissed by the compiler (except in weird languages like java) and therefore don't participate in the design.
-3. Unless strategically added, they place a burden on the reader of the code (they now have to understand 2 things: the code and your comments).
+* Give the class, function, parameter, variable or test a clearer, more descriptive name
+* Rewrite cryptic code in simpler terms; keep necessary optimisations and explain any non-obvious constraints
+* Add targeted tests to document and check the behaviour
+* Split large methods or classes into smaller ones with descriptive names, or group related parameters in a Parameter Object
+* Pair with someone else when you cannot find a clear approach
 
-## What are the alternatives to comments?
+## Apply the one-year test
 
-1. Change name of the element (class, function, parameter, variable, test etc.) to a longer more apt name to further document it
-2. For ‘cryptic’ code (perhaps to optimize it), rewrite it in simpler terms (leave optimization to the runtimes)
-3. Add targeted unit tests to document a piece of code
-4. Innovative techniques that are well known solutions to common code smells e.g.:
-    * For large methods/classes, break them and have longer names for them
-    * For a method with large number of parameters, wrap them all up in a Parameter Object
-    * Pair up with someone else, think... be creative
+When reviewing a comment, ask: **would this comment still earn its place a year from now**, with the change long forgotten? Keep context that a future maintainer needs but cannot infer from the code. Remove narration of the change that produced it.
 
-## What are some **bad** comments?
+The [comments section of Google's code review guidance](https://google.github.io/eng-practices/review/reviewer/looking-for.html#comments) makes the same distinction between necessary reasoning and repetition of visible code.
 
-1. Those that explain the "what"/"how" of the code. Basically the code rewritten in your mother tongue
-2. Those that documentation comments in non-public surface area
-3. Commenting out the code itself (perhaps to work on it later? That’s what source control is for)
-4. TODO comments (Little ones are OK, don't leave them there for too long. The big effort TODOs - say that are over an hour or two - should have a work item URL to it)
-   And many more...
+### Keep the lasting constraint
 
-## What are some **good** comments?
+Explain hidden constraints, sentinel values or necessary workarounds. Aim for one or two lines beside the relevant code, and link to the source of an idea or a longer explanation when needed. For a workaround, follow the guidance on [explanatory notes for non-standard code](/leave-explanatory-notes-for-non-standard-code).
 
-1. Comments that explain the why (e.g. strategic insights)
-2. ...that hyperlink to an external source where you got the idea/piece of code
-3. ...that hyperlink to a Bug/PBI for adding some context
-4. ...that are documentation comments for your next-biggest-thing-on-Nuget library
-5. ...that are real apologies (perhaps you had to add some gut-wrenching nasty code just to meeting time constraints, must be accompanied by a link to Bug/PBI)
-
-## The one-year test
-
-A good comment explains something that stays true and is not visible in the code: what a sentinel value means, an invariant, why a value must never change. A bad comment narrates the change that produced the current state, or restates what is on the line. Once the change settles, the second kind reads as stale clutter.
-
-AI coding agents are especially prone to the second kind. They tend to narrate the diff they just made, so review their comments with this test: would this comment still earn its place a year from now, with the change long forgotten?
+In this Northwind example, `Orders.Source` stores numeric values, and older rows use 0 for an unset source. Renumbering the enum would make existing rows mean something different. Both versions below behave identically; only the comments change.
 
 ```csharp
 public enum OrderSource
 {
     // Renamed from LegacyChannel in the March refactor. Kept the same numbers
     // so the refactor did not need a data migration.
-    Workflow = 1,
-    Import = 2,
-    Api = 3,
-}
-```
-
-**❌ Bad example - This narrates the refactor that produced the code. Once it ships, nobody asks what the enum used to be called**
-
-```csharp
-public enum OrderSource
-{
-    // 0 is a sentinel meaning the source was never set. New code never writes it.
-    // These values are persisted in Orders.Source, so never renumber them.
     Unknown = 0,
     Workflow = 1,
     Import = 2,
@@ -91,10 +63,75 @@ public enum OrderSource
 }
 ```
 
-**✅ Good example - The meaning of 0 and the "never renumber" invariant are written down in the one place a maintainer will look, and both stay true next year**
+**❌ Figure: The refactor history omits the storage column and the meaning of the zero value**
 
-Last but not the least, [some parting words](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode) from [@UncleBob](https://twitter.com/unclebobmartin) himself:
+```csharp
+public enum OrderSource
+{
+    // Older Orders.Source rows use 0 for an unset source.
+    // These numbers are stored in Orders.Source; renumbering misreads existing rows.
+    Unknown = 0,
+    Workflow = 1,
+    Import = 2,
+    Api = 3,
+}
+```
 
-> "A comment is an apology for not choosing a more clear name, or a more reasonable set of parameters, or for the failure to use explanatory variables and explanatory functions. Apologies for making the code unmaintainable, apologies for not using well-known algorithms, apologies for writing 'clever' code, apologies for not having a good version control system, apologies for not having finished the job of writing the code, or for leaving vulnerabilities or flaws in the code, apologies for hand-optimizing C code in ugly ways."
-> \
-> \* Uncle Bob (Robert Martin of 'Clean Code' fame)
+**✅ Figure: The comment explains the legacy zero value and the data corruption that renumbering would cause**
+
+The explicit values are part of this example's storage contract, not a requirement for every enum. See the [C# enum reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum) for numeric values and zero defaults.
+
+### Remove change narration
+
+In AI-written code, check for comments such as `// Added null check` or `// Changed to use X`. These describe an edit rather than a lasting reason. The same test applies to human-written comments.
+
+In this Northwind example, the function returns the shipping country, or null if no order is selected. Removing the narration preserves that behaviour and leaves less text to maintain.
+
+```typescript
+function getShipCountry(order: { shipCountry: string } | null): string | null {
+  // Added null check
+  if (order === null) {
+    return null;
+  }
+
+  // Changed to use shipCountry
+  return order.shipCountry;
+}
+```
+
+**❌ Figure: The comments repeat the visible null check and property access without explaining a constraint**
+
+```typescript
+function getShipCountry(order: { shipCountry: string } | null): string | null {
+  if (order === null) {
+    return null;
+  }
+
+  return order.shipCountry;
+}
+```
+
+**✅ Figure: The same function communicates its behaviour through its name, types and code**
+
+Put completed-work references and "renamed from/changed from" narration in [commit history](/comment-when-your-code-is-updated). Keep broader decisions in [PR descriptions or decision records](/keep-the-why-from-ai-assisted-development). A link that explains an ongoing constraint can still belong beside the code.
+
+To prevent this noise in later tasks, add a standing instruction to the [agent's project instructions](/write-agents-md):
+
+```markdown
+Do not add comments that narrate edits. Keep necessary explanations of lasting
+constraints beside the code, and put change history in commits or PR descriptions.
+```
+
+**Figure: A project instruction states which comments to omit and which explanations to preserve**
+
+## Handle documentation, TODOs and commented-out code
+
+Account for these special cases during review:
+
+* **API documentation:** Describe purpose, usage and behaviour rather than repeating a member's name. [C# XML documentation comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/) support generated API documentation, including for public NuGet libraries
+* **Legal notices:** Keep required copyright and licence notices
+* **Complex logic:** A regular expression or algorithm can need an explanation of how it works when simpler code cannot make it clear
+* **TODOs:** Resolve small reminders while working. Before merging unfinished work, [track the TODO in a work item and link it](/todo-tasks); delete the TODO when the work is done
+* **Unused code:** Remove abandoned feature implementations kept in comments "just in case"; source control preserves them. Disabled debug or trace statements are a separate case covered by the [debugging comments guidance](/what-to-do-with-comments-and-debug-print-statements)
+
+Before approving a change, read the remaining comments alongside the affected code and update any explanation that no longer matches it.
