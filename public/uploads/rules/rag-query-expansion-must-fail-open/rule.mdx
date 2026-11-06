@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do your optional RAG steps fail open?
-seoDescription: Keep RAG retrieval available by bounding optional query expansion, using the original query when enrichment fails, and measuring each fallback.
+title: Does your RAG query expansion fail open?
+seoDescription: "Keep RAG retrieval available when query expansion fails: bound optional helpers, search with the original query, record fallbacks, and preserve security checks."
 guid: 9fd6c36e-6908-4f3c-b9ac-6786790204b8
 uri: rag-query-expansion-must-fail-open
 created: 2026-11-06T02:07:49.899Z
@@ -12,6 +12,7 @@ related:
   - rule: public/uploads/rules/feed-data-to-ai/rule.mdx
   - rule: public/uploads/rules/infrastructure-health-checks/rule.mdx
   - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 archivedreason: null
@@ -36,7 +37,7 @@ Once you [choose RAG as your data-access approach](/feed-data-to-ai), keep an or
 
 [HyDE generates and embeds a hypothetical document to find real documents](https://aclanthology.org/2023.acl-long.99/). The generated document can contain hallucinations; do not cite it as evidence. [Azure AI Search semantic ranker reorders an existing result set](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview).
 
-Preserve the original query when enrichment succeeds, adding accepted variants as extra retrieval inputs. Validate output shape, size and task-specific constraints. A well-formed rewrite can still change intent: [evaluate relevance against plain search](/run-evals-on-ai-features), and disable enrichment that makes it worse. Retaining the original query alone does not guarantee better top-ranked results.
+Preserve the original query when [query rewriting](/build-hallucination-proof-ai-assistants) succeeds, adding accepted variants as extra retrieval inputs. Validate output shape, size and task-specific constraints. A well-formed rewrite can still change intent: [evaluate relevance against plain search](/run-evals-on-ai-features), and disable enrichment that makes it worse. Retaining the original query alone does not guarantee better top-ranked results.
 
 ## Bound the helper call, then search
 
@@ -57,9 +58,9 @@ async def product_search(query, scope, expand, retrieve):
   figure="An expansion timeout prevents a search that the original query can satisfy"
 />
 
-In the corrected Python 3.11+ example, `expand` returns up to three non-empty query strings. The validator checks the list's structure and size; the adapter must also enforce task-specific constraints.
+In the corrected Python 3.11+ example, `expand` returns up to three non-empty query strings. The validator checks the list's structure and size; the expansion adapter must also enforce task-specific constraints.
 
-`retrieve` searches each input as plain text, merges candidates and enforces the access scope independently of expansion. The adapter raises `PolicyDenied` for refusals or mandatory policy-check failures; these must not trigger fallback.
+`retrieve` searches each input as plain text, merges candidates and enforces the access scope independently of expansion. `expand` raises `PolicyDenied` for refusals or mandatory policy-check failures; these must not trigger fallback.
 
 ```python
 import asyncio
@@ -117,13 +118,15 @@ The failure handler surrounds only expansion and its output validation. It catch
 
 Choose the helper's budget from the request's overall deadline; 200 ms is only this example's allowance. Count all SDK retries inside that allowance and reserve enough time for retrieval. See [Azure's timeout and retry guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults). Use asynchronous I/O with transport timeouts: [Python cancellation is cooperative](https://docs.python.org/3.11/library/asyncio-task.html#timeouts), so blocking code or suppressed cancellation can defeat the bound.
 
+### Configure Azure AI Search fallback
+
+Azure AI Search's [query rewrite documentation](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite) describes `OriginalQueryOnly` when rewrites are unavailable. Query rewrite is in preview; Microsoft advises against using that preview in production. For semantic enrichment, the [Search REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/documents/search-post?view=rest-searchservice-2025-09-01) exposes `semanticErrorHandling: "partial"` and `semanticMaxWaitInMilliseconds`. Configure these explicitly for your supported API version and inspect partial-response metadata; they do not recover every search-service failure.
+
 ## Keep degradation visible and security closed
 
 Record the step, reason and request correlation ID without logging raw queries or generated content by default. Track fallback rate alongside search success, latency and relevance. Return the mode in response metadata; show "Standard search used" when the change affects user expectations.
 
 Pass a `collections.Counter` as `fallbacks` in the example. In a service, export those counts as a metric such as `retrieval_enrichment_fallback_total` so operators can detect a broken helper even when search succeeds.
-
-Azure AI Search's [query rewrite documentation](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite) describes `OriginalQueryOnly` when rewrites are unavailable. Query rewrite is in preview; Microsoft advises against using that preview in production. For semantic enrichment, the [Search REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/documents/search-post?view=rest-searchservice-2025-09-01) exposes `semanticErrorHandling: "partial"` and `semanticMaxWaitInMilliseconds`. Configure these explicitly for your supported API version and inspect partial-response metadata; they do not recover every search-service failure.
 
 If the expansion model fails, silently trying another model can hide an unapproved change in behaviour. Skip the optional step and expose the fallback instead. A replacement model needs its own explicit approval, evaluation and provenance.
 
