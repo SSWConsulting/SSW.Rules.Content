@@ -1,0 +1,82 @@
+---
+type: rule
+title: Do you keep AI annotations separate from authoritative data?
+seoDescription: Keep AI tags, summaries and risk flags advisory, labelled and separate from official records, with evidence checks before they affect consequential decisions.
+guid: e842ce32-7cac-4703-ad2e-ed3a662d6a0b
+uri: advisory-ai-annotations-never-source-of-truth
+created: 2026-11-06T01:58:29.353Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+  - rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI-generated tag, summary or risk flag can look like an established fact when it appears beside a customer record. If an enrichment job writes that guess into an official field, reports and workflows can act on it without anyone checking the evidence.
+
+When building these features, keep AI annotations **advisory, labelled as AI-generated and separate from authoritative data**. Never silently overwrite human-entered or system-of-record values. Before an annotation affects a consequential decision, require meaningful human review or an independent deterministic check against authoritative evidence.
+
+<endIntro />
+
+## Store suggestions without changing official fields
+
+Use a separate `AiSuggestion` record or an equivalent isolated structure for auto-tags, summaries, suggested categories, sentiment, risk flags and AI notes. Keep the original record intact. Give the annotation writer permission to create suggestions, without permission to update authoritative fields.
+
+Record the suggestion's target record and field, generated value, model/version, generation time, source identifiers and source revision, and review status. These details let a reviewer find the evidence and detect when the suggestion no longer matches it. Apply the source data's access controls and retention requirements to the annotation too; summaries can reveal restricted information.
+
+Separate storage adds review and lifecycle work, but prevents a model refresh from replacing an approved fact. It also makes it possible to discard or regenerate annotations without changing business records.
+
+## Show the boundary in the interface
+
+Use a visible label such as **AI-generated · Advisory · Not approved** beside the suggestion. Keep official values in their own section, with their approval history. Let users inspect the source evidence, reject the suggestion or request an authorised change. A confidence score is not an approval.
+
+In this fictional Northwind example, `CreditLimitApproved` is a Boolean field controlled by credit approvers. The same AI output, **credit risk: low**, appears in both screens. The customer has an overdue invoice, so the suggestion needs checking.
+
+<imageEmbed
+  src="/uploads/rules/advisory-ai-annotations-never-source-of-truth/northwind-ai-overwrites-approval.png"
+  alt="Northwind illustration: the AI low-risk label overwrites CreditLimitApproved from false to true without an approver, releasing order NW-7008 despite an overdue invoice."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Illustration · example data: an AI risk label becomes official approval and releases an order without evidence review"
+/>
+
+The enrichment job maps the AI label to `CreditLimitApproved = true`, replacing the approver's `false`. The order workflow reads the official field and releases the order. Even a clearly labelled AI note cannot repair this unauthorised write.
+
+<imageEmbed
+  src="/uploads/rules/advisory-ai-annotations-never-source-of-truth/northwind-ai-advisory-suggestion.png"
+  alt="Northwind illustration: CreditLimitApproved stays false and order NW-7008 stays on hold. A separate AiSuggestion shows low risk, AI-generated advisory status, model, time and invoice evidence for review."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Illustration · example data: a separate suggestion preserves the approved value and leaves the order on hold for an approver"
+/>
+
+The job writes `AiSuggestion S-104` instead. The official field stays `false`. An approver checks invoice NW-4102 and the credit policy before deciding whether to change it. Rejection changes the suggestion's status, leaving the official value intact.
+
+## Check evidence before promoting a suggestion
+
+For consequential actions such as credit approval, eligibility or account restrictions, an AI label must not be the sole input. A reviewer needs the underlying records, authority to reject the suggestion and a recorded reason for any official change. Merely clicking **Accept** does not address [automation bias](/avoid-automation-bias).
+
+Where a deterministic check is appropriate, it must apply an approved business rule to authoritative inputs, independently of the AI's conclusion. Checking that an AI label says "low", that its JSON is valid or that another model agrees does not verify the decision. In the Northwind example, only a credit approver changes `CreditLimitApproved`.
+
+Record the approver, time, evidence and before/after values through the normal authorised update path. If source records change before approval, mark the suggestion stale and require another check. Keep the original annotation and the approval event distinguishable, even after a human adopts the suggested value.
+
+## Verify the boundary end to end
+
+* **Storage and API** - Generating, refreshing or rejecting an annotation leaves authoritative values unchanged; the annotation writer cannot bypass this through another endpoint.
+* **Display and export** - Labels and review status travel with suggestions into dashboards, CSV exports and API responses, so consumers can distinguish them from official facts.
+* **Downstream decisions** - Consequential workflows read approved fields or independently checked evidence. Removing the suggestions leaves the official decision unchanged.
+* **Failure and staleness** - Missing, failed or stale AI output means no current suggestion; it never becomes a default "low risk" or automatic approval.
+
+This adds a storage and decision boundary to [indicating when AI helped](/indicate-ai-helped). Attribution tells readers where content came from; the boundary controls what the application can treat as authoritative.
+
+Microsoft's [Copilot transparency note](https://support.microsoft.com/en-gb/privacy/microsoft-copilot/transparency-note) advises checking facts before acting on responses. The [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) covers defined oversight roles (GOVERN 3.2) and documented output limits and oversight (MAP 2.2 and 3.5). A separate suggestion record is an engineering way to apply these principles; neither source prescribes this schema.
+
+Where applicable, [EU AI Act Article 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50) includes notification duties for direct AI interactions and machine-readable marking of synthetic content, with exceptions. Check the relevant provider and deployer duties: an advisory badge alone does not establish compliance, and Article 50 does not mandate separate database tables.
