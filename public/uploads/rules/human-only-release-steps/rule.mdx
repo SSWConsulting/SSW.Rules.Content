@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you enforce human-only release steps?
+title: Do you enforce human-only release steps for AI agents?
 seoDescription: Mark human-only release steps, name their owners, and enforce the boundary with platform permissions so AI agents can prepare a release without authorising it.
 guid: f1401d9e-58c4-48ff-90e6-31861730e979
 uri: human-only-release-steps
@@ -13,6 +13,8 @@ related:
   - rule: public/uploads/rules/use-gated-deployments/rule.mdx
   - rule: public/uploads/rules/shared-ai-agent-settings/rule.mdx
   - rule: public/uploads/rules/use-branch-protection/rule.mdx
+  - rule: public/uploads/rules/cloud-ai-agents/rule.mdx
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 archivedreason: null
@@ -36,7 +38,11 @@ Be precise about the boundary:
 
 For each reserved step, record **Human only**, the responsible role, a link to the enforcing control, and completion evidence such as the approval record, merge commit, published version or send receipt. For secret rotation, retain audit metadata, never secret values.
 
-A [deployment plan](/do-you-have-a-deployment-plan) explains deployment and recovery; [gated deployments](/use-gated-deployments) cover deployment approval. This boundary also covers release actions outside the pipeline.
+| Step (example data) | Human owner | Enforcing control | Completion evidence |
+| --- | --- | --- | --- |
+| Approve Northwind 2.4 for production | Release manager | Production environment requires a human reviewer; agent cannot approve or bypass | Approval record linked to the reviewed commit |
+
+A [deployment plan](/do-you-have-a-deployment-plan) explains deployment and recovery; [gated deployments](/use-gated-deployments) cover deployment approval. Extend [human oversight of cloud agents](/cloud-ai-agents) to release actions outside the pipeline.
 
 ## Make the boundary visible in the checklist
 
@@ -77,7 +83,7 @@ Require human review for changes to release workflows and permission settings. A
 
 ## Tell the agent where to hand over
 
-Link from `AGENTS.md` to the release checklist so both documents describe the same boundary. For example:
+Link from your [AGENTS.md instructions](/write-agents-md) to the release checklist so both documents describe the same boundary. For example:
 
 <boxEmbed
   style="greybox"
