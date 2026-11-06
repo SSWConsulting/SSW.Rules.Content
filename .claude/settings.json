@@ -3,7 +3,21 @@
     "allow": [
       "Bash(gh pr list:*)",
       "Bash(gh pr view:*)",
-      "Bash(gh issue list:*)"
+      "Bash(gh issue list:*)",
+      "Bash(node scripts/check-mdx/check-mdx.js *)",
+      "Bash(node scripts/category-sync-validator/category-sync-validator.js *)",
+      "Bash(node scripts/check-malformed-bold/check-malformed-bold.js *)",
+      "Bash(node scripts/find-rules-missing-endintro/find-rules-missing-endintro.js *)",
+      "Bash(node frontmatter-validator.js *)",
+      "Bash(npx --yes markdownlint-cli *)",
+      "Bash(git fetch *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git mv *)",
+      "Bash(git reset *)",
+      "Bash(git stash *)",
+      "Bash(git branch -D *)"
     ],
     "deny": ["Bash(gh * -R*)", "Bash(gh * --repo*)"]
   }
