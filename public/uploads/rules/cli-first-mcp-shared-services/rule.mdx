@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you build your MCP server on a tested CLI or shared library?
-seoDescription: Build a tested CLI or shared library before adding an MCP server so people, scripts, CI and AI agents share business logic, permission checks and tests.
+seoDescription: Build MCP servers on a tested CLI or shared library to share service logic and permission checks across operators, CI scripts and AI agents without drift.
 guid: 24d3b65b-e7f8-46f7-bfa1-c7a7b54bceaf
 uri: cli-first-mcp-shared-services
 created: 2026-11-06T01:15:59.860Z
@@ -9,6 +9,7 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
+  - rule: public/uploads/rules/mcp-server/rule.mdx
   - rule: public/uploads/rules/design-for-agent-experience/rule.mdx
   - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
   - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
@@ -26,11 +27,11 @@ Build and test the service's operations in a CLI or shared library first. Put th
 
 ## Build the operation before the MCP tool
 
-[Choosing CLI or MCP as an agent interface](/design-for-agent-experience) is one decision. Where their behaviour lives is another: both interfaces should call the same implementation.
+[Exposing your app through an MCP server](/mcp-server) makes its operations available to agents. [Choosing CLI or MCP as an agent interface](/design-for-agent-experience) decides how agents call them. Both interfaces should call the same implementation.
 
 1. **Define a useful operation** - For example, get available stock for a SKU in a warehouse. Give it explicit inputs, a result and predictable failures
 2. **Implement and test the core** - Keep business calculations, input constraints and resource permission checks in one application service. It must run without an MCP host
-3. **Exercise it through a CLI** - Give operators and CI a non-interactive command with help, structured output and a nonzero exit code on failure
+3. **Exercise it through a CLI if people or CI need a command** - Provide a non-interactive command with help, structured output and a nonzero exit code on failure
 4. **Add the MCP adapter** - Describe the tool and its input schema, obtain the authenticated caller, invoke the core and map its result or error into MCP
 
 If an existing API already owns the operation, have both interfaces call that API. If nobody needs a terminal command, a tested shared library is enough; an otherwise unused CLI adds maintenance. A shared library can run inside the MCP process without another network hop or subprocess.
