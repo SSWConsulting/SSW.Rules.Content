@@ -50,7 +50,7 @@ Humans are the opposite. A person can scan a screen, guess what an icon means, a
 There are three ways to give agents a front door. They are not exclusive.
 
 | Surface | Best for | Where it runs | Maturity |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **CLI** | Dev tools and anything scriptable | The agent's shell | Stable - agents already write shell commands well |
 | **MCP server** | Exposing your system or data to any agent | Your server or a local process | Open standard |
 | **WebMCP** | Actions inside the user's open browser tab | The user's browser | Early - draft spec, browser origin trials |
@@ -64,6 +64,22 @@ A CLI needs no hosting, and agents already know how to run one. Make it agent-fr
 * **Never prompt** - Take input from flags and environment variables, not interactive questions
 * **Output structured data** - Offer `--json` or similar, and print an explicit message when there are zero results
 * **Fail loud** - Return meaningful exit codes, and reject unknown flags instead of ignoring them
+
+#### Give CLI errors a stable contract
+
+For a command returning one finite result, document a machine-readable mode with one JSON document on stdout. Use stable error codes for decisions, human-readable messages for explanation and a non-zero exit status on failure. Keep progress and diagnostics on stderr so callers do not need to strip prose before parsing.
+
+A fictional Northwind export command rejects an invalid date with exit status 2 and this example response. The exit value and envelope are Northwind's contract, not universal CLI conventions:
+
+```json
+{"ok":false,"data":null,"error":{"code":"INVALID_DATE","message":"The --since date is invalid.","hint":"Use a real date in YYYY-MM-DD format."}}
+```
+
+**Figure: Example data - A stable code identifies invalid input while the process reports failure**
+
+A successful empty export returns exit 0 with `ok: true`, an empty result and `error: null`. Document code meanings and compatibility rules; consumers stop safely on unknown codes, missing or malformed output, or disagreement between the JSON and exit status. They capture stdout and stderr separately and never execute hint text as a command.
+
+Check success, empty results, invalid flags, missing credentials, service errors and logging-enabled runs. Preserve parseable output and consistent exit status in each case, and redact secrets from both streams. Streaming commands need their own documented framing.
 
 ### MCP server
 
