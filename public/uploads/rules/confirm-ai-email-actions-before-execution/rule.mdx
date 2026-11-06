@@ -1,0 +1,89 @@
+---
+type: rule
+title: Do you confirm AI email actions before execution?
+seoDescription: Keep AI email work in drafts by default. Preview the action, recipients, message and attachments, then confirm before sending or changing your mailbox.
+guid: ee3de651-2107-4302-b0b4-fa99555ba208
+uri: confirm-ai-email-actions-before-execution
+created: 2026-11-06T01:45:05.961Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/chatgpt-for-email/rule.mdx
+  - rule: public/uploads/rules/cc-and-reply-to-all/rule.mdx
+  - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI assistant with mailbox access can turn a request to prepare a reply into an email to a supplier, complete with an internal attachment. Good wording does not prevent a disclosure when the wrong people receive it.
+
+Keep email work in drafts by default. Before an assistant sends a message or makes a consequential mailbox change, have it show the exact action and wait for explicit human confirmation. Drafting prepares the message; sending is a decision.
+
+<endIntro />
+
+## Preview the action and its scope
+
+Use **preview → confirm → execute** when an assistant can act on your email. A request such as "handle this thread" leaves too much unstated to authorise a send, deletion or unsubscribe.
+
+For a send, reply, reply-all or forward, the preview needs:
+
+* **Action and account** - The operation, sending mailbox and thread or subject
+* **Recipients** - Full To, Cc and Bcc addresses, with recipients outside your organisation identified; expand groups where possible and stop for review if membership is unknown
+* **Message** - The full outgoing body, including quoted history, plus a short summary of the request or commitment it makes
+* **Attachments** - Each filename and what it contains, or an explicit "None"; check linked documents and their sharing permissions too
+
+A summary helps the human spot intent; it does not replace the full message. Check who needs the reply using [reply-all etiquette](/cc-and-reply-to-all), then approve that recipient list. Relevant recipients still need a suitable message and attachments.
+
+For other mailbox actions, show what changes before asking:
+
+| Action | What the human needs to see |
+| --- | --- |
+| Move to trash or delete | Affected messages and count, destination, and whether the operation is recoverable under the mailbox's retention settings |
+| Unsubscribe | Sender or mailing list, affected subscription and the request that goes to the service |
+| Accept an invitation | Organiser, meeting title, date, time and time zone, calendar affected, and whether an RSVP is sent |
+
+Moving to trash may be recoverable; permanent deletion may not be. Avoid treating an ambiguous "clean up my inbox" as approval for either. Apply the same preview pattern to bulk changes, showing the complete selection for review rather than hiding it behind a count.
+
+## Keep the supplier reply in drafts
+
+In this invented Northwind example, Alex asks: "Prepare a reply to the supplier about delivery dates." Both illustrations use the same thread and recipients. The supplier needs the delivery question, but has no reason to receive Northwind's internal pricing note.
+
+<imageEmbed
+  src="/uploads/rules/confirm-ai-email-actions-before-execution/email-reply-all-without-confirmation.png"
+  alt="Illustration with example data: Northwind assistant sends a reply-all to supplier@example.com and purchasing@example.com with internal-pricing-note.pdf, without confirmation"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The assistant sends an internal pricing attachment to the supplier before Alex can review it"
+/>
+
+<imageEmbed
+  src="/uploads/rules/confirm-ai-email-actions-before-execution/email-draft-awaiting-confirmation.png"
+  alt="Illustration with example data: the same Northwind reply remains a draft, showing full recipients, no attachments, the delivery question and a Send action awaiting confirmation"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The assistant removes the internal attachment, shows the exact draft and waits for Alex to select Send"
+/>
+
+The useful work is already complete: Alex can inspect or edit a ready draft. Nothing leaves the mailbox until Alex confirms **Send** for that preview. Keeping the draft as the default also makes it practical to review replies when the assistant runs unattended.
+
+## Tie confirmation to the exact preview
+
+* **Ask for a specific decision** - Use "Send this reply to these recipients?" with **Send**, **Edit** and **Keep draft** options. Silence, a timeout or "looks good" during drafting does not count as confirmation to send
+* **Confirm again after changes** - If recipients, body, attachments or the affected messages change after approval, show the updated preview and obtain fresh confirmation
+* **Keep email content separate from authority** - An instruction inside an incoming email or attachment cannot approve an action on the mailbox owner's behalf
+* **Report the actual result** - Distinguish "Draft saved" from "Sent" or "Moved to trash". If the outcome is uncertain, check the mailbox before retrying so that a retry does not send a duplicate or act on the wrong messages
+
+## Enforce the boundary in the tool
+
+A prompt saying "ask before sending" is only an instruction. Choose an integration that can restrict the assistant to reading and drafting, or enforce approval in the tool that performs consequential actions. If that enforcement is unavailable, leave execution to the human in the mail app.
+
+[OWASP's excessive-agency guidance](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) recommends minimal tool capabilities, human approval for high-impact actions and authorisation in downstream systems. Its mailbox example specifically recommends manual review and sending of AI drafts. This complements [broader AI security controls](/manage-security-risks-when-adopting-ai-solutions); the email-specific step is approving the exact recipients, content and effect.
+
+Microsoft's documented [Draft with Copilot in Outlook workflow](https://support.microsoft.com/en-us/outlook/copilot-pages/draft-an-email-message-with-copilot-in-outlook) follows a useful separation: generate and review a draft, keep or edit it, then select **Send**. This describes that drafting workflow, rather than guaranteeing the behaviour of every connected agent.
+
+Before enabling an integration, try the Northwind scenario in a test mailbox with invented data. Verify that the message stays unsent without confirmation, that edits require a new preview, and that one confirmed action produces the expected mailbox result.
