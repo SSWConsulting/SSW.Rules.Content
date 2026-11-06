@@ -1,0 +1,108 @@
+---
+type: rule
+title: Do you let scripts wait instead of spending AI tokens on polling?
+seoDescription: Save AI tokens while waiting for CI, deployments, files, or queues by using a watcher script or completion event with a timeout and a clear final result.
+guid: ffca0e49-34ae-4acc-affc-f8f09ab8a65d
+uri: zero-token-watcher-scripts
+created: 2026-11-06T01:15:42.977Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+  - rule: public/uploads/rules/agentic-workflows/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI coding agent starts a CI run, then asks the model every 30 seconds whether it has finished. Each check consumes tokens to interpret a status that ordinary code can recognise.
+
+When completion has a clear condition, let a watcher script or the platform's wait or notification mechanism handle it. Resume the agent when the condition is met, the operation fails, or the wait times out.
+
+<endIntro />
+
+## Keep the model outside the wait loop
+
+Use the model to decide what to wait for and what to do with the result. Use ordinary code to check whether that result exists. This applies to CI runs, deployments, generated files, and queue jobs.
+
+**Zero-token waiting** means the wait itself makes no model calls. Starting the watcher and interpreting its final result can still consume tokens. The script, API requests, and remote job can still incur other costs. See [how to monitor AI cost and usage](/monitor-ai-cost-and-usage).
+
+Prefer an existing completion event or blocking wait command. If neither is available, a small script can poll at a sensible interval. Polling an API in a script does not require invoking a model on each poll.
+
+## Wait once for the same CI run
+
+Northwind needs to wait for Actions run `1234567890` in `northwind/widgets` before reviewing its result. The repository and run ID below are example data.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Agent instruction:** Check run `1234567890` in `northwind/widgets`. Every 30 seconds, send its status to the model and ask, "Is it done yet?" Repeat until it finishes or 20 minutes pass.
+
+    An unchanged `in_progress` status triggers another model request even though there is no new decision to make.
+  </>}
+  figurePrefix="bad"
+  figure="Each status check asks the model to make the same deterministic decision"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Agent instruction:** Start one watcher for run `1234567890` in `northwind/widgets`, with a 20-minute limit. Await its process exit. Keep intermediate output in a log, then return the outcome, exit code, run ID, and log location together.
+
+    The watcher handles unchanged statuses without model calls. The agent resumes once to interpret the result.
+  </>}
+  figurePrefix="good"
+  figure="The same run is checked by code, and the model receives only the final outcome"
+/>
+
+Save this as `wait-for-ci.sh`. It requires Bash, GNU `timeout`, and an authenticated GitHub CLI with access to the repository. Use [GitHub CLI authentication](https://cli.github.com/manual/gh_auth_login); `gh run watch` does not currently support fine-grained personal access tokens.
+
+```bash
+#!/usr/bin/env bash
+set -u
+
+repo=${1:?Usage: wait-for-ci.sh OWNER/REPO RUN_ID [LIMIT]}
+run_id=${2:?Supply the exact run ID}
+wait_limit=${3:-20m}
+log_file=$(mktemp "${TMPDIR:-/tmp}/ci-watch.XXXXXX") || exit 125
+
+timeout --kill-after=10s "$wait_limit" \
+  gh run watch "$run_id" --repo "$repo" --interval 30 --exit-status \
+  >"$log_file" 2>&1
+rc=$?
+
+case "$rc" in
+  0) outcome=SUCCESS ;;
+  124) outcome=TIMEOUT ;;
+  *) outcome=STOPPED ;;
+esac
+
+printf '%s repo=%s run=%s exit=%s log=%s\n' \
+  "$outcome" "$repo" "$run_id" "$rc" "$log_file"
+exit "$rc"
+```
+
+Run it once, replacing the example values with the repository and run ID returned when your workflow starts:
+
+```bash
+bash wait-for-ci.sh northwind/widgets 1234567890 20m
+```
+
+[`gh run watch`](https://cli.github.com/manual/gh_run_watch) waits for completion; `--exit-status` makes an unsuccessful run return nonzero. [GNU `timeout`](https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html) limits the local wait. It normally returns `124` on timeout; a forced kill can return `137`, which this script treats as `STOPPED`. The extra 10 seconds lets the local process terminate before a forced kill.
+
+Treat only `SUCCESS` with exit code `0` as a successful CI result. For any other result, inspect the log and report failure, interruption, or an unresolved status. **A local timeout does not cancel the remote workflow.** Check that run before retrying work that might already be executing.
+
+## Connect completion to the agent
+
+Configure the agent's execution environment to await process exit or receive a completion notification. Streaming every progress line back into a new model request defeats the purpose. A detached script also needs a supported way to deliver its result; writing a file alone does not wake an agent.
+
+For another service, use its native wait command or completion event where available. For files or queue jobs, define a reliable finish signal such as an atomic file rename or a terminal job status; file existence or an empty queue may not prove that processing succeeded. Keep reasoning in [agentic workflows](/agentic-workflows) for decisions that need it.
+
+Before starting a wait:
+
+* **Identify the exact work** - Record the repository, run or job ID, and expected commit or deployment. Avoid watching whichever run happens to be latest.
+* **Bound the wait** - Set a deadline, handle errors, and respect API rate limits. Avoid repeated watchers for the same job.
+* **Return useful evidence** - Include success, failure, or timeout, the job identity, and a log or result link. Preserve the exit code through the caller.
+* **Resume for a decision** - Let the model interpret the final evidence or a blocker that needs judgement. Keep routine "still running" checks inside the watcher.
