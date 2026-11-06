@@ -43,6 +43,18 @@ This approach enhances code quality, reduces duplication, and helps to maintain 
 * In the age of AI, pull requests created by tools such as Claude or Copilot should start as drafts so a human can validate the changes before involving reviewers.
 * Control which CI automations run by using draft pull requests, avoiding unnecessary builds, deployments, or long-running test suites until the work is ready.
 
+## Verify compatibility before marking ready
+
+Before handing the PR to reviewers:
+
+1. Fetch current `main` and inspect changes in the areas the PR touches. Reduce redundant work if main already solves the problem.
+2. Update the feature branch using the repository's merge or rebase convention, coordinating any shared history changes. Resolve textual conflicts.
+3. Check semantic compatibility too: renamed APIs, changed contracts, overlapping work and migrations can break behaviour even when Git combines the text cleanly. Use disposable environments for migration checks.
+4. Restore dependencies, rebuild and run the relevant tests on the combined result. Confirm CI covers the updated revision or its test merge; an old green run or a skipped draft suite supplies no evidence for the new combination.
+5. Record the tested main and PR commits, check links, manual verification and remaining limits in the PR description. Fetch again before handoff and repeat affected checks if main advances.
+
+Leave the PR in draft when verification is blocked and state the blocker. Readiness is a point-in-time check; [branch protection](/protect-your-main-branch) keeps integration requirements in force as main moves during review.
+
 ## Clearly marking your Pull Requests
 
 Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `🚧 WIP: &#123;&#123;PR Title&#125;&#125;` to clearly show that it is a Draft Pull Request.
