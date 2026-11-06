@@ -1,0 +1,142 @@
+---
+type: rule
+title: Do you investigate dependencies before decompiling them?
+seoDescription: Understand third-party dependency behaviour using version-matched source, docs and runnable experiments before decompiling, while respecting the licence.
+guid: eabd60e3-9687-47ae-921e-78fc8fddefec
+uri: investigate-dependencies-without-decompiling
+created: 2026-11-06T01:15:05.836Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/read-source-code/rule.mdx
+  - rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
+  - rule: public/uploads/rules/find-your-license/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-code.mdx
+archivedreason: null
+isArchived: false
+---
+
+A third-party package behaves unexpectedly. You or your AI agent can spend hours reconstructing its binaries, only to discover a documented option that answers the question. Reading the latest source can also mislead you when your application runs an older release.
+
+**Investigate public evidence for the installed version first:** documentation, release notes, source, symbols and a small runnable experiment. Decompile only when a specific question remains unanswered and the applicable terms permit it.
+
+<endIntro />
+
+## Identify the package you actually run
+
+Record the behaviour question, package ID, resolved version, runtime and relevant settings. Check the restored dependency graph or lock file, including transitive dependencies; a declared version range is not the resolved version. Investigate the deployed version if it differs from your local build.
+
+Follow the package's repository metadata to its official source. Select the matching release tag or recorded commit and save a permalink to the relevant method or test. The default branch may differ from the installed binary. If you cannot match the source to the package, record that uncertainty and test the installed artifact.
+
+## Follow the evidence before reconstructing code
+
+Use the cheapest source that can answer your question, then check it against the version you run:
+
+1. **Documentation and release notes** - Look for defaults, supported options and changes between your version and a reported fix. Current documentation may describe a newer release.
+2. **Source and tests at the matching revision** - Follow the public API to the relevant logic and edge-case tests. See [how to read source code](/read-source-code).
+3. **Symbols and Source Link** - For supporting .NET packages, [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) retrieves original source using build metadata. Load matching symbols (PDB files) from a trusted publisher. Symbols alone do not supply source; check whether the debugger displays original or decompiled code.
+4. **Issues and discussions** - Search the exact API, error and version in the maintainer's tracker. Confirm whether a reported fix ships in your version; an open pull request is only a lead.
+5. **A minimal experiment** - Reproduce the behaviour with synthetic inputs, the resolved package version and the relevant runtime/settings. Compare the observed output with a stated expectation. Remove production connections, credentials and unrelated application code.
+
+Stop when version-matched evidence explains a reproducible result. One input or configuration does not prove every case.
+
+## Example: investigate a Northwind JSON merge
+
+**Example data:** Northwind's importer uses Newtonsoft.Json 13.0.3. It merges product tags and expects each tag once, but `fragile` appears twice.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Investigation request:** "Decompile Newtonsoft.Json.dll and change its merge loop to remove duplicate tags."
+
+    This assumes a library defect before checking the version or API. It creates a private patch to maintain while overlooking a supported merge option.
+  </>}
+  figurePrefix="bad"
+  figure="Starting with a binary patch turns a configuration question into a library fork"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Investigation request:** "For Newtonsoft.Json 13.0.3, explain why merging Northwind's tags repeats `fragile`. Check the public docs and matching source, then reproduce it with example data. Cite the evidence before proposing a change."
+
+    The default concatenates arrays, producing `fragile, fragile, priority`. The documented `MergeArrayHandling.Union` option produces `fragile, priority` for these inputs. A public setting meets the requirement without a library patch or decompilation.
+  </>}
+  figurePrefix="good"
+  figure="Version-matched evidence and a runnable probe identify the supported merge setting"
+/>
+
+The [merge-array options](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_MergeArrayHandling.htm) describe concatenation and union. The [13.0.3 implementation](https://github.com/JamesNK/Newtonsoft.Json/blob/0a2e291c0d9c0c7675d445703e51750363a549ef/Src/Newtonsoft.Json/Linq/JContainer.cs#L1176-L1217) selects `Concat` when settings are absent and checks existing values in the `Union` branch. This probe checks both against the package.
+
+In a new scratch directory with the .NET 8 SDK and runtime installed:
+
+```powershell
+dotnet new console -n NorthwindProbe --framework net8.0
+cd NorthwindProbe
+dotnet add package Newtonsoft.Json --version 13.0.3
+```
+
+Replace `Program.cs` with this example, then run `dotnet run`:
+
+```csharp
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
+// Example data: no production files or services.
+var original = JObject.FromObject(new
+{
+    Product = "Northwind Tea",
+    Tags = new[] { "fragile" }
+});
+var incoming = JObject.FromObject(new
+{
+    Tags = new[] { "fragile", "priority" }
+});
+
+var defaults = (JObject)original.DeepClone();
+defaults.Merge(incoming);
+Console.WriteLine("Default: " + defaults["Tags"]!.ToString(Formatting.None));
+
+var configured = (JObject)original.DeepClone();
+configured.Merge(incoming, new JsonMergeSettings
+{
+    MergeArrayHandling = MergeArrayHandling.Union
+});
+Console.WriteLine("Union: " + configured["Tags"]!.ToString(Formatting.None));
+
+if (!JToken.DeepEquals(defaults["Tags"],
+        new JArray("fragile", "fragile", "priority")) ||
+    !JToken.DeepEquals(configured["Tags"],
+        new JArray("fragile", "priority")))
+{
+    throw new InvalidOperationException("Merge behaviour differs from the expectation.");
+}
+```
+
+Expected output:
+
+```text
+Default: ["fragile","fragile","priority"]
+Union: ["fragile","priority"]
+```
+
+This verifies these string tags, not how to reconcile product objects with the same business ID. Keep a regression test for your required behaviour when upgrading.
+
+## Use decompilation only for the remaining gap
+
+If an implementation question remains, check the package's licence and applicable terms before decompiling. If permission is unclear, ask the vendor or seek legal advice. Public visibility alone [does not grant a licence to reuse code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
+Limit decompilation to the relevant assembly or method. [Decompiled .NET code](https://learn.microsoft.com/en-us/visualstudio/debugger/decompilation?view=visualstudio#decompilation-limitations) can lack comments and original variable names. Verify conclusions against the running package; reconstructed code is not a supported API. Respect copying and redistribution restrictions. Do not upload proprietary binaries to an external service without authorisation.
+
+## Leave an answer someone else can verify
+
+Before closing the investigation, record:
+
+* The question, resolved package version, runtime and relevant settings
+* The documentation and source permalinks, with any uncertainty about their match to the binary
+* The minimal reproduction, expected and actual output, and the chosen supported change
+* Any unanswered question, whether decompilation was needed, and the relevant permission or licence constraints
+
+Require the same evidence from an AI agent. A confident explanation without a matching source and reproduction is still a hypothesis.
