@@ -11,7 +11,7 @@ authors:
 related:
   - rule: public/uploads/rules/read-source-code/rule.mdx
   - rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
-  - rule: public/uploads/rules/find-your-license/rule.mdx
+  - rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
 archivedreason: null
@@ -36,7 +36,7 @@ Use the cheapest source that can answer your question, then check it against the
 
 1. **Documentation and release notes** - Look for defaults, supported options and changes between your version and a reported fix. Current documentation may describe a newer release.
 2. **Source and tests at the matching revision** - Follow the public API to the relevant logic and edge-case tests. See [how to read source code](/read-source-code).
-3. **Symbols and Source Link** - For .NET packages that support it, [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) retrieves original source using build metadata. Load matching symbols (PDB files) from a trusted publisher. Symbols alone do not supply source; check whether the debugger displays original or decompiled code.
+3. **Symbols and Source Link** - For .NET packages that support it, [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) retrieves original source using build metadata. Load matching symbols (PDB files) from a trusted publisher. Portable PDBs can also [embed source](https://github.com/dotnet/sourcelink/blob/main/docs/README.md#embedallsources); check whether the debugger displays original or decompiled code.
 4. **Issues and discussions** - Search the exact API, error and version in the maintainer's tracker. Confirm whether a reported fix ships in your version; an open pull request is only a lead.
 5. **A minimal experiment** - Reproduce the behaviour with synthetic inputs, the resolved package version and the relevant runtime/settings. Compare the observed output with a stated expectation. Remove production connections, credentials and unrelated application code.
 
@@ -70,10 +70,10 @@ Stop when version-matched evidence explains a reproducible result. One input or 
 
 The [merge-array options](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_MergeArrayHandling.htm) describe concatenation and union. The [13.0.3 implementation](https://github.com/JamesNK/Newtonsoft.Json/blob/0a2e291c0d9c0c7675d445703e51750363a549ef/Src/Newtonsoft.Json/Linq/JContainer.cs#L1176-L1217) selects `Concat` when settings are absent and checks existing values in the `Union` branch. This probe checks both against the package.
 
-In a new scratch directory with the .NET 8 SDK and runtime installed:
+In a new scratch directory with the .NET 10 SDK installed:
 
 ```powershell
-dotnet new console -n NorthwindProbe --framework net8.0
+dotnet new console -n NorthwindProbe --framework net10.0
 cd NorthwindProbe
 dotnet add package Newtonsoft.Json --version 13.0.3
 ```
