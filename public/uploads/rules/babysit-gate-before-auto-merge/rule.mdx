@@ -1,0 +1,78 @@
+---
+type: rule
+title: Do you babysit pull requests before enabling auto-merge?
+seoDescription: Before enabling auto-merge, check the latest PR commit, base compatibility, resolved feedback and a named human's approval, including AI-assisted changes.
+guid: 374337b7-1a5d-4744-a423-5d16b4c559f5
+uri: babysit-gate-before-auto-merge
+created: 2026-11-06T01:34:59.050Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/protect-your-main-branch/rule.mdx
+  - rule: public/uploads/rules/resolving-code-review-comments/rule.mdx
+  - rule: public/uploads/rules/use-squash-and-merge-for-open-source-projects/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI agent fixes a review comment, pushes another commit, enables auto-merge and reports the PR as finished. The checks are still running, and the human approval covers the previous diff. If the repository accepts that old approval, the new code can merge without a human reviewing it.
+
+Where your project permits auto-merge, require a **babysit gate** before arming it: check the latest commit, compatibility with the base branch, resolved review feedback and a named human's approval of the final diff. Keep responsibility for the PR until those conditions hold; then let the platform complete the merge.
+
+<endIntro />
+
+## Check readiness on the latest commit
+
+Treat the gate as a decision about one specific PR revision. An earlier green build or approval is evidence about earlier code.
+
+* **Required checks pass:** open the results for the current PR head commit and confirm the required build, tests and security checks actually ran successfully. A pending result is unfinished work. GitHub can accept skipped or neutral required checks, so confirm that required coverage has not silently disappeared.
+* **The base is accounted for:** require the branch to be up to date with its base, or use a required merge queue that tests the proposed changes against the latest base and entries ahead of it. Without a queue, update the branch first and recheck the resulting revision.
+* **Review feedback is resolved:** address each thread and record the outcome before resolving it. Follow the [rule for resolving review comments](/resolving-code-review-comments); clicking Resolve alone does not demonstrate a fix. Blocking change requests must also be cleared.
+* **A named human approves the final diff:** confirm an authorized reviewer other than the author approves the current changes after the last reviewable push. An agent's review summary or an approval on a superseded diff does not satisfy this gate.
+
+A new reviewable change starts the gate again. Before further edits, disable armed auto-merge or remove the PR from the queue; recheck results and approval after the fix or branch update. This is especially important when an agent continues editing after someone has reviewed the PR.
+
+## Enforce the gate in the repository
+
+Use [branch protection](/protect-your-main-branch) to keep the conditions in force after the readiness check. Configure required status checks, required approving reviews, **Dismiss stale pull request approvals when new commits are pushed**, and **Require conversation resolution before merging**. Apply the protections to administrators too, and keep agents out of bypass permissions. The platform can enforce approving reviews; the team must ensure the qualifying approval comes from a human.
+
+For base compatibility, choose strict up-to-date checks or a required merge queue. A queue reruns checks on an integration commit, so its results are separate from the PR checks that pass before entry. GitHub Actions workflows supplying required queue checks need the `merge_group` trigger as well as their PR trigger. Queue availability depends on repository ownership and plan; use strict up-to-date checks where a queue is unavailable. See GitHub's [branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) and [merge queue configuration](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue).
+
+These checks complement the [merge-method and auto-merge settings](/use-squash-and-merge-for-open-source-projects). They define when it is safe to hand over a particular PR. Passing them does not override a stricter policy: for example, the [AI prototyping guidance](/ai-for-prototype-development) says not to auto-merge AI output. Keep manual merging where that guidance or your repository policy applies.
+
+## Compare the same Northwind PR
+
+In this invented example, an agent updates Northwind's order retry handling in PR #248. Casey Nguyen approved commit `a14c9e2`, then the agent pushes `b72f6d1`.
+
+<imageEmbed
+  src="/uploads/rules/babysit-gate-before-auto-merge/auto-merge-before-readiness.png"
+  alt="Illustration of Northwind PR 248: checks for b72f6d1 are pending, Casey's approval covers a14c9e2, a thread is unresolved and auto-merge is already enabled"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Illustration · example data: old approval and loose protections let the new retry code merge as soon as pending CI passes"
+/>
+
+The agent treats enabling auto-merge as completion. With stale approvals retained, loose base checks and no conversation-resolution requirement, a green build can release an unreviewed change into the base branch.
+
+<imageEmbed
+  src="/uploads/rules/babysit-gate-before-auto-merge/merge-queue-after-readiness.png"
+  alt="Illustration of the same Northwind PR: required checks pass on b72f6d1, Casey approves that diff, review threads are resolved and the required queue will test integration before merging"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Illustration · example data: current approval and passing PR checks permit queue entry; integration checks still guard the automatic merge"
+/>
+
+The agent waits for the PR checks, documents the comment's resolution and requests Casey's review of `b72f6d1`. Casey approves that diff. With stale-approval dismissal and a merge queue required, the PR can enter the queue; GitHub merges only after the required integration checks pass.
+
+## Hand over to automation after the gate
+
+GitHub's [auto-merge feature](https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/automatically-merging-a-pull-request) waits for configured requirements. Enabling it early is supported by GitHub, but falls short of this readiness gate. Never let an agent arm it merely to stop waiting or mark an unfinished task Done.
+
+On queue-protected branches, [Merge when ready](https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/merging-a-pull-request-with-a-merge-queue) can also arm auto-merge while requirements are pending, even if repository auto-merge is disabled. Apply the same gate before using it. Once admitted, the queue owns the remaining integration-test wait. If GitHub offers an immediate merge instead of an auto-merge option because all requirements already pass, use the permitted merge action; do not manufacture a blocker to expose the button.
+
+Record the PR revision and named reviewer when handing over. Report the actual state, such as **ready and queued; integration checks pending**, and call it merged only when the platform confirms it. If checks fail or the PR changes, keep it blocked, fix it and repeat the gate.
