@@ -70,4 +70,17 @@ You need to be able to **prove what happened**. For every experiment:
 * Say what you learned, even when the experiment failed. See [Do you document your failures for R&D?](/do-you-record-your-failures)
 * Keep the results with the PBI, not only in a chat or on your machine. See [Do you record your research under the PBI?](/do-you-record-your-research-under-the-pbi)
 
+## Lead the report with the result and its boundaries
+
+Open the experiment report with four short statements so a reader can act without losing the caveat that changes the decision:
+
+* **Verdict** - The main finding and supporting measure; use **Inconclusive** when the evidence cannot distinguish the options
+* **Scope** - Compared versions or configurations, data, sample size and environment; distinguish repeated runs from independent examples
+* **Limits** - Important exclusions and uncertainty beside the result; state when no valid uncertainty estimate is available
+* **Decision** - The next action, its owner and a date or condition for revisiting it; label an unapproved recommendation as pending
+
+For example, a synthetic Northwind export benchmark reports a shorter median time on one fixed dataset, followed immediately by the single-machine and no-concurrency limits. Its next step is an owned concurrency test, rather than a claim that production performance is proven.
+
+Follow the opening with the hypothesis, success criteria, method, full results and reproducible evidence. Read only the opening before sharing it: a forwarded excerpt should still say what was tested, what remains uncertain and who acts next.
+
 Failed experiments still count as R&D. A clearly recorded "this did not work, and here is the data" is valuable evidence.
