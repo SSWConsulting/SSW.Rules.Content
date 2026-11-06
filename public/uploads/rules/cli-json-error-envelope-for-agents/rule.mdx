@@ -1,0 +1,128 @@
+---
+type: rule
+title: Do your CLIs return JSON errors that agents can act on?
+seoDescription: Give AI agents a stable CLI JSON contract with error codes, hints, clean stdout and non-zero exit codes so they can handle failures without scraping prose.
+guid: e3579cf3-0ea3-4a6d-9651-d3f5ffca1beb
+uri: cli-json-error-envelope-for-agents
+created: 2026-11-06T01:14:29.975Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/design-for-agent-experience/rule.mdx
+  - rule: public/uploads/rules/do-you-return-detailed-error-messages/rule.mdx
+  - rule: public/uploads/rules/provide-list-of-arguments/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-command-lines.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI agent calls your order-export CLI. It receives "Please check the date" and exit code 0, so the next step runs as if the export succeeded. Even if the agent recognises the error, a wording change can break its attempt to extract the cause.
+
+When you build a CLI for agents or scripts, offer a machine-readable mode such as `--json`. Return a stable result object, a documented error code and a useful hint, with a non-zero process exit code on failure. Keep logs separate so callers can parse the result without guessing.
+
+<endIntro />
+
+## Define a contract for success and failure
+
+[Designing for agent experience](/design-for-agent-experience) helps you choose a CLI, MCP server or browser tool. Once you choose a CLI, its output becomes an interface that callers depend on.
+
+For commands that return one finite result, define a JSON envelope: an object that wraps either the result or the error. This example contract uses:
+
+| Field | Contract |
+| --- | --- |
+| `ok` | A Boolean: `true` on success, `false` on failure |
+| `data` | The command result on success; `null` on failure |
+| `error` | `null` on success; an object on failure |
+| `error.code` | A stable, documented identifier such as `INVALID_DATE` |
+| `error.message` | A short explanation of this failure for a person |
+| `error.hint` | A suggested next step, or `null` when no safe fix is known |
+
+Agents branch on `error.code`. Messages and hints can change or be translated without changing the code's meaning. Treat field removals, type changes and changes to code meanings as breaking changes; callers should tolerate additional fields and stop safely on unknown codes.
+
+There are public precedents for the parts of this design. [GitHub CLI's JSON mode](https://cli.github.com/manual/gh_help_formatting) exposes selected fields on supported commands, and [Azure CLI's output formats](https://learn.microsoft.com/en-us/cli/azure/format-output-azure-cli) include `--output json`. These establish machine-readable output conventions; they do not promise the envelope shown here.
+
+For HTTP errors, [RFC 9457 Problem Details](https://www.rfc-editor.org/rfc/rfc9457.html) separates a problem's identity from its human-readable detail and advises consumers against parsing that detail. Apply the same principle to CLI errors. This example is a CLI contract, not an RFC 9457 response. See [returning detailed API errors](/do-you-return-detailed-error-messages) for the HTTP-specific guidance.
+
+## Report the same failure in JSON and the exit code
+
+Both examples use the fictional Northwind CLI with the same invalid date. The command is illustrative; it is not an installable product.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+<pre><code className="language-bash">{`northwind-cli orders export --since 2026-13-01 --json`}</code></pre>
+
+stdout:
+
+<pre><code className="language-text">{`Export failed. Please check the date and try again.`}</code></pre>
+
+Process exit code: <strong>0</strong>. stderr: empty.
+
+  </>}
+  figurePrefix="bad"
+  figure="Example data: the agent cannot parse the cause, and the shell reports success"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+<pre><code className="language-bash">{`northwind-cli orders export --since 2026-13-01 --json`}</code></pre>
+
+stdout:
+
+<pre><code className="language-json">{`{
+  "ok": false,
+  "data": null,
+  "error": {
+    "code": "INVALID_DATE",
+    "message": "The --since date is invalid.",
+    "hint": "Use a real date in YYYY-MM-DD format."
+  }
+}`}</code></pre>
+
+Process exit code: <strong>2</strong>. stderr: empty.
+
+  </>}
+  figurePrefix="good"
+  figure="Example data: INVALID_DATE identifies the fix, and the shell reports failure"
+/>
+
+Northwind documents exit **0** for success, **2** for invalid input and **1** for other failures. These numbers are its contract, not universal CLI meanings. The agent can ask for a corrected date when it sees `INVALID_DATE`; retrying the identical command cannot fix it.
+
+A valid export with no matching orders is still a success. Keep the same envelope and return an empty result rather than a prose "No orders found":
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+<pre><code className="language-json">{`{"ok": true, "data": {"orders": []}, "error": null}`}</code></pre>
+
+Process exit code: <strong>0</strong>.
+
+  </>}
+  figurePrefix="none"
+  figure="Example data: an empty export remains a parseable success"
+/>
+
+## Keep stdout parseable
+
+In this JSON mode, write exactly one JSON document to stdout, including handled failures. Send progress, warnings and diagnostic logs to stderr. Do not add banners, colour escape sequences or a second copy of an error as prose to stdout. The [Command Line Interface Guidelines](https://clig.dev/#the-basics) recommend separate streams for machine output and diagnostic messages, with non-zero exit codes on failure.
+
+Handle expected argument, authentication and service errors through the same envelope. Check your argument parser too: an invalid flag must not unexpectedly print help into stdout when JSON mode is selected. Keep a readable default mode for people, and [document the JSON flag and error catalogue in CLI help](/provide-list-of-arguments).
+
+Consumers must capture stdout and stderr separately. Merging them with `2>&1` can corrupt JSON. A killed process or failed executable launch may return no envelope, so callers must treat missing or malformed JSON, and disagreement between `ok` and the exit code, as failures. Streaming commands need a separately documented protocol, such as newline-delimited JSON; do not silently switch this contract to multiple objects.
+
+## Verify the contract before agents depend on it
+
+Add contract checks that execute the command and capture both streams and the exit status:
+
+* **Success and empty results** - stdout parses as one JSON object, `ok` is `true`, `error` is `null` and the exit code is 0.
+* **Handled failures** - invalid input, missing credentials and a simulated service failure return `ok: false`, `data: null`, the documented error fields and a non-zero exit code.
+* **Logs enabled** - progress and warnings appear only on stderr; stdout still parses without stripping lines.
+* **Compatibility and safety** - codes retain their meaning across releases. Redact credentials, private paths and sensitive records from both streams. Hints describe a next step; callers must not execute hint text as shell commands.
+
+The check passes when a caller can choose its next action from the exit status and documented fields alone, without searching error prose for keywords.
