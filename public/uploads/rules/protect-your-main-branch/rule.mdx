@@ -45,7 +45,6 @@ This can include:
   src="/uploads/rules/protect-your-main-branch/protect-branch-bad-1.jpg"
 />
 
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,3 +53,13 @@ This can include:
   figure="The branch protected"
   src="/uploads/rules/protect-your-main-branch/protect-branch-good-1.jpg"
 />
+
+## Require evidence for the current revision
+
+A green build or approval on an earlier diff does not establish that the latest change is ready. Require successful checks for the revision the platform evaluates, resolved review feedback and an authorised human's approval of the current changes after the last reviewable push. Distinguish the PR head, synthetic test-merge commit and merge-queue integration commit when recording evidence; they can have different checks.
+
+In GitHub branch protection, configure required checks and reviews, **Dismiss stale pull request approvals when new commits are pushed**, and conversation resolution. Apply protections to administrators and exclude agent identities from bypass access. The team must ensure the qualifying reviewer is human. See [GitHub's branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+
+Require branches to be up to date or use a required merge queue that tests against the latest base and entries ahead of the PR. Required queue workflows must handle `merge_group` events; see [merge queue configuration](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue). Confirm the intended tests actually run: pending, skipped or neutral results are not proof of test coverage.
+
+Where auto-merge is permitted, complete this readiness check before enabling it. Before making another change, disable armed auto-merge or remove the PR from the queue, then repeat checks and review. Record **Queued; integration checks pending** until the platform confirms a merge. Follow stricter repository policies where they apply.
