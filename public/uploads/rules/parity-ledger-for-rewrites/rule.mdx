@@ -1,0 +1,105 @@
+---
+type: rule
+title: Do you track feature parity when you rewrite an app?
+seoDescription: Track feature parity in a legacy app rewrite with a ledger of existing behaviour, verification evidence and approved retirements before switching users.
+guid: 045b880a-29ec-4112-9893-d6bb03d80524
+uri: parity-ledger-for-rewrites
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/modernize-your-app/rule.mdx
+  - rule: public/uploads/rules/migration-plans/rule.mdx
+  - rule: public/uploads/rules/migrating-web-apps-to-dotnet/rule.mdx
+  - rule: public/uploads/rules/definition-of-done/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+A rewrite scoped from memory can miss an export button used once a month, a validation rule buried in the code, or an email sent after a save. A feature list that only lives in a wiki or demo rarely captures all this behaviour. Developers or AI agents finish the listed screens, and users discover the gaps after go-live.
+
+**Track feature parity during a legacy app rewrite with a parity ledger: list each existing behaviour until its replacement is verified or its retirement is approved.** It makes omissions visible before users switch to the new app.
+
+<endIntro />
+
+## Inventory behaviour before scoping the rewrite
+
+Choose a [modernisation approach](/modernize-your-app) and create a [migration plan](/migration-plans). The ledger adds a different check: what must still work when each part of the app moves?
+
+Build the inventory from the code **and** the running app. Check routes, views, reports, exports, scheduled jobs, permission checks and side effects. Ask users about infrequent workflows such as month-end processing. An agent can draft the list, but have someone independently reconcile it against those sources.
+
+Give each row a stable ID, an owner, its location in the old code, and a cutover slice: a group of behaviours that move together, such as Orders. Record the baseline date, source commit and counts. Counts help spot omissions; matching endpoint totals does not prove matching behaviour. Update the ledger when the old app changes during the rewrite.
+
+## Separate implementation from verification
+
+In this synthetic Northwind example, a team replaces WebForms screens with React and an ASP.NET Core API. Both trackers describe the same Orders and Invoices slice.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind rewrite — wiki scope (example data)**
+
+    | Feature | Status | Evidence |
+    |---|---|---|
+    | Orders screen | Done | New form opens |
+    | Invoices screen | Done | New page opens |
+
+    The team switches users to the replacement. Orders now accept past delivery dates, and Finance cannot find the monthly invoice CSV export. Neither behaviour has a row, so the tracker still says everything is done.
+  </>}
+  figurePrefix="bad"
+  figure="Screen-level completion hides a missing validation rule and month-end export"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind parity ledger — same slice (example data)**
+
+    | ID | Behaviour | State and evidence |
+    |---|---|---|
+    | ORD-01 | Save an order | Verified: saved fields match in comparison C01 |
+    | ORD-02 | Reject past delivery dates | Implemented: test T02 passes; independent comparison pending |
+    | INV-03 | Export month-end invoice CSV | Retirement approved: decision D03; old export shutdown pending |
+
+    C01, T02 and D03 are fictional references to a comparison record, test run and approved retirement decision.
+
+    ORD-02 blocks cutover of this slice. The new code exists, but no one has yet verified that its behaviour matches. INV-03 stays visible as a deliberate product decision.
+  </>}
+  figurePrefix="good"
+  figure="Behaviour-level rows expose unfinished verification and distinguish an approved retirement from an omission"
+/>
+
+For example, ORD-02 also records **Owner:** Orders team; **Old code:** `Orders/Edit.aspx.cs`, `ValidateDeliveryDate`; **Cutover slice:** Orders and Invoices (example data).
+
+For each behaviour, track these milestones separately:
+
+1. **Captured** — [Characterisation tests](https://michaelfeathers.silvrback.com/characterization-testing) record what the old app actually does. Include boundary cases, permissions, defaults and side effects, not just the happy path.
+2. **Implemented** — The replacement endpoint, UI or job exists. Mark inapplicable parts N/A with a reason; a scheduled job may have no UI.
+3. **Verified** — A person other than the implementer compares old and new results, or reviews an automated comparison, and approves the compared versions. Record inputs, results, date and approval.
+4. **Cut over** — Users or traffic move to the new path after its slice and dependencies are verified or approved for retirement.
+5. **Old removed** — The agreed rollback period ends, remaining callers are migrated, and the redundant code is removed.
+
+Link each completed milestone to evidence. For ORD-02, compare yesterday's date and today's date against a fixed test clock in both versions. Test both rejection and acceptance; a test that rejects every date proves little.
+
+Record surprising old behaviour before deciding whether to preserve it. Approve intentional changes explicitly, with replacement acceptance criteria. Do not reproduce a security flaw merely to claim parity.
+
+## Verify safely before moving traffic
+
+Run comparisons on isolated data copies with the same starting state. Sandbox email, payments and other external effects so a comparison cannot send twice or charge twice. Include operational checks relevant to the slice, such as permissions and report performance; the ledger complements the team's [Definition of Done](/definition-of-done).
+
+Rehearse rollback with data written by the new version. Routing back alone may not reverse a schema change or undo an external effect. Before cutover, record who makes the rollback decision and how data stays compatible or is reconciled.
+
+With the [Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig), cutover routes a slice to the new app while other slices remain on the old one. Removing old code comes later. See [migrating web apps to .NET](/migrating-web-apps-to-dotnet) for the routing implementation.
+
+## Make the ledger the work queue
+
+Keep it in the repository, for example `docs/rewrite/parity-ledger.md`, and assign tasks by row ID. Put the column meanings and approval requirements in the project's agent instructions. This gives [AI coding guardrails](/guardrails-for-vibe-coding) a concrete scope and completion test.
+
+For a small rewrite, a checklist in the backlog item can hold the same information. For a larger one, add a required CI check that rejects deleted IDs, completed milestones without evidence and N/A without reasons. The check catches missing records; a reviewer still assesses whether the evidence proves the behaviour. Use actual review approvals, rather than treating a name typed by an agent as sign-off. Changes to a verified behaviour need fresh verification.
+
+Keep every row. Close it as **Done** when all applicable milestones, including old-code removal, have evidence, or **Retired** when the responsible product decision-maker approves dropping it. Record who, when and why; track any required shutdown work before closing a retired row. The rewrite is complete when every row is closed and no remaining callers depend on the old app.
