@@ -90,6 +90,14 @@ Run it once, replacing the example values with the repository and run ID returne
 bash wait-for-ci.sh northwind/widgets 1234567890 20m
 ```
 
+The agent receives a single summary such as this on success (example data):
+
+```text
+SUCCESS repo=northwind/widgets run=1234567890 exit=0 log=/tmp/ci-watch.Abc123
+```
+
+A timed-out wait instead reports `TIMEOUT` with exit code `124`. The caller must await this final result, rather than starting a new model request for each progress update.
+
 [`gh run watch`](https://cli.github.com/manual/gh_run_watch) waits for completion; `--exit-status` makes an unsuccessful run return nonzero. [GNU `timeout`](https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html) limits the local wait. It normally returns `124` on timeout; a forced kill can return `137`, which this script treats as `STOPPED`. The extra 10 seconds lets the local process terminate before a forced kill.
 
 Treat only `SUCCESS` with exit code `0` as a successful CI result. For any other result, inspect the log and report failure, interruption, or an unresolved status. **A local timeout does not cancel the remote workflow.** Check that run before retrying work that might already be executing.
