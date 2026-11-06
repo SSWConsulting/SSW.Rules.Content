@@ -1,0 +1,126 @@
+---
+type: rule
+title: Do you keep small dashboards in a self-contained HTML file?
+seoDescription: Keep small read-only dashboards portable with one static HTML file, scheduled refreshes, visible data timestamps, no runtime server, and clear limits.
+guid: 3a5b5c63-085e-4cde-9db1-3f6a7cbe917c
+uri: self-contained-static-html-dashboards
+created: 2026-11-06T04:14:28.714Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/best-static-site-tech-stack/rule.mdx
+  - rule: public/uploads/rules/choose-site-generation-strategy/rule.mdx
+  - rule: public/uploads/rules/schedule-snapshots-of-slow-reports/rule.mdx
+categories:
+  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A nightly status page can turn into an application to maintain: a frontend build, an API, packages to update, and services that must stay available just to show yesterday's totals.
+
+For small read-only reports, internal status pages, and AI-generated dashboards that can use a snapshot, start with one self-contained static HTML file. A scheduled job regenerates it; readers open the result without installing packages or running an application server.
+
+<endIntro />
+
+## Deliver a snapshot readers can keep
+
+Embed data, styles, and necessary scripts in the HTML. Use system fonts; avoid external CDN assets, analytics, and API calls. Prefer HTML tables when they communicate the result clearly.
+
+Copy the file to a static host, attach it, or open it offline. Keep the generator and input schema in source control. Stable ordering and formatting simplify reviews and diffs; dated copies preserve what readers saw. One bounded file also gives an AI an inspectable artifact to update. Review its output as code before sharing it.
+
+For normal websites, [shared styles belong in a stylesheet](/have-a-stylesheet-file), and [separate JavaScript files support caching and debugging](/always-put-javascript-in-a-separate-file). This narrow exception trades those benefits for portability. Larger sites need a suitable [rendering strategy](/choose-site-generation-strategy) and [static-site stack](/best-static-site-tech-stack).
+
+## Compare the same nightly orders report
+
+Northwind needs yesterday's order count and total, refreshed once each night. Everyone receives the same non-sensitive aggregate; nobody edits orders through this page.
+
+<imageEmbed
+  src="/uploads/rules/self-contained-static-html-dashboards/northwind-orders-service-dependencies.png"
+  alt="Illustration with example data: Northwind orders page shows no totals offline because this implementation requires an orders API and sign-in service"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Illustration · example data: the SPA needs a build, API and sign-in service to display a nightly snapshot; offline readers see no totals"
+/>
+
+<imageEmbed
+  src="/uploads/rules/self-contained-static-html-dashboards/northwind-orders-portable-snapshot.png"
+  alt="Illustration with example data: northwind-orders.html shows 37 orders, USD 5,550 and a data-as-of timestamp while offline"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Illustration · example data: one HTML file keeps the same nightly totals and their timestamp available offline"
+/>
+
+The export job still needs an owner, credentials, monitoring, and a schedule.
+
+## Generate HTML, then publish the completed file
+
+Save this fictional whole-dollar export as `northwind-orders.json`. `as_of` is the source's data cutoff.
+
+```json
+{
+  "as_of": "2026-11-06T00:00:00Z",
+  "order_date": "2026-11-05",
+  "orders": 37,
+  "total_usd": 5550
+}
+```
+
+Save this as `generate.py` beside it; run `python generate.py` with Python 3. It uses the standard library, renders HTML without JavaScript, and replaces the output after writing the complete temporary file.
+
+```python
+import base64
+import hashlib
+import json
+from html import escape
+from pathlib import Path
+
+data = json.loads(Path("northwind-orders.json").read_text(encoding="utf-8"))
+css = "body{font:1.2rem system-ui;max-width:48rem;margin:3rem auto;padding:1rem}"
+digest = base64.b64encode(hashlib.sha256(css.encode()).digest()).decode()
+policy = f"default-src 'none'; style-src 'sha256-{digest}'; base-uri 'none'; form-action 'none'"
+as_of = escape(str(data["as_of"]))
+order_date = escape(str(data["order_date"]))
+orders = int(data["orders"])
+total = int(data["total_usd"])
+if orders < 0 or total < 0:
+    raise ValueError("Expected non-negative order totals")
+page = f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="{policy}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northwind nightly orders</title><style>{css}</style></head>
+<body><main><h1>Northwind nightly orders</h1>
+<p>Example data · Order date: {order_date}</p>
+<p>Data as of: {as_of}</p>
+<table><caption>Daily order totals (USD)</caption>
+<tr><th scope="row">Orders</th><td>{orders:,}</td></tr>
+<tr><th scope="row">Order value</th><td>USD {total:,}</td></tr>
+</table></main></body></html>'''
+target = Path("northwind-orders.html")
+temporary = target.with_suffix(".html.tmp")
+temporary.write_text(page, encoding="utf-8")
+temporary.replace(target)
+```
+
+**Figure: A minimal generator turns the Northwind export into an offline HTML snapshot**
+
+Schedule the export then the generator, using the same working directory and one run at a time. Stop on export failure. Validate the source schema, cutoff and output before publishing; retain the previous successful file on failure. Alert the owner on failure or an overdue source cutoff. [Scheduled snapshots](/schedule-snapshots-of-slow-reports) trade freshness for availability: show the reporting period and a visible **Data as of** timestamp.
+
+## Keep data and execution inside clear limits
+
+* **No secrets or hidden private data:** recipients can read HTML and JSON, including hidden fields. Export only approved aggregates; keep credentials in the job's secret store. Omit sign-in only when the export is safe for every recipient.
+* **Escape data as text:** the generator uses Python's `html.escape` for text fields. Do not splice untrusted strings into scripts or `innerHTML`. Review AI-generated HTML for network requests and executable content.
+* **Keep a restrictive CSP:** the example blocks scripts and authorizes only its exact inline stylesheet hash. If you add scripts, use hashes for approved inline content and regenerate hashes when it changes; avoid weakening the policy with `unsafe-inline`. See [CSP guidance](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) and [inline style hashes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src). A hosted response can add headers; a meta policy supports fewer features.
+* **Choose embedded data for offline use:** a sibling JSON file can separate layout from data when both are served over HTTPS, but it is a two-file deliverable. Browsers can [reject local-file fetches](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSRequestNotHttp), so do not promise double-click offline support for that variant.
+
+For approved public data, [GitHub Pages serves static files with optional build processing](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). [Azure Static Web Apps can skip its app build](https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration#skip-building-front-end-app) for ready-to-serve files. Hosting may use managed servers or a CDN; the report needs no application server or external CDN assets.
+
+## Know when the file has reached its limit
+
+Move to an application or managed service for authentication, per-user authorization, shared state across users, live writes, or data too large to load comfortably. Enforce access and writes on a trusted service; a login screen in HTML does not protect its contents. The frontend can remain static. Local sorting and filtering alone need no backend.
+
+Before handing over, open a copied file offline, check totals and cutoff against the export, and inspect browser network activity for unexpected requests. Readers should see a complete, dated report without starting a service.
