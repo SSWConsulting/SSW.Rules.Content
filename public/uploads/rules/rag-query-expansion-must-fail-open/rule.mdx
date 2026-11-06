@@ -1,0 +1,133 @@
+---
+type: rule
+title: Do your optional RAG steps fail open?
+seoDescription: Keep RAG search available when optional query expansion, rewriting or re-ranking fails by bounding calls, using the original query and measuring fallbacks.
+guid: 9fd6c36e-6908-4f3c-b9ac-6786790204b8
+uri: rag-query-expansion-must-fail-open
+created: 2026-11-06T02:07:49.899Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/feed-data-to-ai/rule.mdx
+  - rule: public/uploads/rules/infrastructure-health-checks/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A product-search assistant can search its catalogue, but an LLM call that expands the query times out. If that optional call aborts retrieval, users lose results that plain search could already find.
+
+**Make optional retrieval enrichment fail open:** when it errors, exceeds its time budget or returns unusable output, search with the user's original query and record the fallback. Keep security checks mandatory on every path.
+
+<endIntro />
+
+## Preserve a working retrieval baseline
+
+Once you [choose RAG as your data-access approach](/feed-data-to-ai), keep an original-query search path independent of optional enrichment. A healthy search index should remain usable when its helper fails.
+
+| Optional step | Fallback when it fails |
+| --- | --- |
+| Query expansion or rewriting | Search with the unchanged original query |
+| Hypothetical Document Embeddings (HyDE) | Embed the original query using the baseline retriever, or use an established keyword path |
+| Re-ranking | Return the already retrieved candidates in their baseline order |
+
+[HyDE generates and embeds a hypothetical document to find real documents](https://aclanthology.org/2023.acl-long.99/). The generated document can contain hallucinations; do not cite it as evidence. [Azure AI Search semantic ranker reorders an existing result set](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview).
+
+Preserve the original query when enrichment succeeds, adding accepted variants as extra retrieval inputs. Validate output shape, size and task-specific constraints. A well-formed rewrite can still change intent: [evaluate relevance against plain search](/run-evals-on-ai-features), and disable enrichment that makes it worse. Retaining the original query alone does not guarantee better top-ranked results.
+
+## Bound the helper call, then search
+
+In this fictional Northwind catalogue (**example data**), `green tea` finds `NW-TEA-01` and `NW-TEA-02`. Both examples use the same query, server-established access scope and asynchronous search adapter.
+
+```python
+async def product_search(query, scope, expand, retrieve):
+    variants = await expand(query)
+    return await retrieve(variants, scope=scope)
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    An expansion timeout escapes before `retrieve` runs. The assistant reports a failed search instead of the two matches.
+  </>}
+  figurePrefix="bad"
+  figure="An expansion timeout prevents a search that the original query can satisfy"
+/>
+
+In the corrected Python 3.11+ example, `expand` returns a list of query strings. `retrieve` searches each as plain text, merges candidates and enforces the access scope independently of expansion. The adapter raises `PolicyDenied` for refusals or mandatory policy-check failures; these must not trigger fallback.
+
+```python
+import asyncio
+import logging
+
+log = logging.getLogger(__name__)
+
+class PolicyDenied(Exception):
+    pass
+
+def valid_variants(value):
+    return (
+        isinstance(value, list) and 1 <= len(value) <= 3
+        and all(isinstance(q, str) and 0 < len(q.strip()) <= 200
+                for q in value)
+    )
+
+async def product_search(query, scope, expand, retrieve,
+                         fallbacks, expansion_seconds=0.2):
+    queries, reason = [query], None
+    try:
+        async with asyncio.timeout(expansion_seconds):
+            variants = await expand(query)
+            if not valid_variants(variants):
+                raise ValueError("Invalid expansion")
+            queries.extend(q.strip() for q in variants)
+    except PolicyDenied:
+        raise
+    except TimeoutError:
+        reason = "timeout"
+    except ValueError:
+        reason = "invalid_output"
+    except Exception:
+        reason = "error"
+
+    if reason:
+        fallbacks[reason] += 1
+        log.warning("retrieval_enrichment_fallback reason=%s", reason)
+
+    # Retrieval errors are outside the optional helper's handler.
+    results = await retrieve(queries, scope=scope)
+    return results, reason
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    When cooperative expansion exceeds 200 ms, `retrieve` receives only `green tea` and returns both products. The reason is `timeout`, and its fallback count increases by one.
+  </>}
+  figurePrefix="good"
+  figure="The bounded expansion fails, but original-query retrieval returns results and records why"
+/>
+
+Caller cancellation propagates. Validation rejects structural junk; the adapter must also enforce task-specific constraints. `fallbacks` is a `collections.Counter` here; export a counter such as `retrieval_enrichment_fallback_total` in a service.
+
+The 200 ms budget is illustrative. Reserve time for retrieval within the request deadline, including SDK retries in the helper's allowance. See [Azure's timeout and retry guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults). Use asynchronous I/O with transport timeouts: [Python cancellation is cooperative](https://docs.python.org/3.11/library/asyncio-task.html#timeouts), so blocking code or suppressed cancellation can defeat the bound.
+
+## Keep degradation visible and security closed
+
+Record the step, reason and request correlation ID without logging raw queries or generated content by default. Track fallback rate alongside search success, latency and relevance. Return the mode in response metadata; show "Standard search used" when the change affects user expectations.
+
+Azure AI Search's [query rewrite documentation](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite) describes `OriginalQueryOnly` when rewrites are unavailable. For semantic enrichment, the [Search REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/documents/search-post?view=rest-searchservice-2025-09-01) exposes `semanticErrorHandling: "partial"` and `semanticMaxWaitInMilliseconds`. Configure these explicitly for your supported API version and inspect partial-response metadata; they do not guarantee recovery from every search-service failure.
+
+Fail-open enrichment does **not** authorise an unrecorded model substitution. This fallback uses the established retriever with the original query, and exposes the change. Any replacement model needs its own explicit approval, evaluation and provenance.
+
+Authentication, tenant isolation, permission filters, required redaction and safety gates must [fail securely](https://owasp.org/www-community/Fail_securely). If a required check fails or cannot complete, stop the protected operation. Keep the same gates on baseline and enriched paths. A search-backend failure must remain a visible failure, rather than being converted to an empty result or an ungrounded answer.
+
+## Verify the fallback before release
+
+* Inject a helper timeout, connection error, empty list and malformed output. Confirm that each runs the original-query search and records one fallback reason.
+* Force caller cancellation and policy denial. Confirm that neither starts fallback retrieval.
+* Break the search backend. Confirm that its error remains visible.
+* Compare results with enrichment disabled, including exact product codes and ambiguous queries. Check access filters on every path, and retain baseline candidates if re-ranking fails.
