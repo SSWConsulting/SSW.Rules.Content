@@ -10,9 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
   - rule: public/uploads/rules/ai-dashboards-with-insights/rule.mdx
-  - rule: public/uploads/rules/remove-fake-data-from-ai-built-dashboards/rule.mdx
   - rule: public/uploads/rules/show-missing-and-stale-data-on-dashboards/rule.mdx
-  - rule: public/uploads/rules/track-ai-cost-by-total-and-unit/rule.mdx
   - rule: public/uploads/rules/importance-of-reconciliation/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
@@ -56,7 +54,7 @@ Read every API or export page, compare rows read with rows available, and flag a
 
 Keep the saved metric query `billing_spend_v1` and its reconciliation checks in source control. Run them on every refresh and display the difference before generating advice. Where exact equality is inappropriate, document the rounding tolerance and explain any remaining difference. A failed check makes the figure **Unreconciled**, not ready for an AI recommendation. Assign the metric owner to investigate the difference and verify the check before clearing that status. [Data assertions](https://docs.getdbt.com/docs/build/data-tests) can automate these checks.
 
-Reconcile the [useful-outcome denominators](/track-ai-cost-by-total-and-unit) too. Northwind checks 2,804 resolved chats against the helpdesk report and 9,388 routed emails against the inbox log.
+Reconcile the [useful-outcome denominators](/monitor-ai-cost-and-usage) too. Northwind checks 2,804 resolved chats against the helpdesk report and 9,388 routed emails against the inbox log.
 
 <imageEmbed
   src="/uploads/rules/check-dashboard-totals-against-the-source/northwind-ai-spend-good-reconciled-to-the-bill.png"
