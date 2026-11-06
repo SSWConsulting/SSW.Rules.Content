@@ -95,6 +95,16 @@ For non-technical business leaders, implementing an MCP server is less about the
 
 As AI continues to transform business operations, having an MCP server will increasingly become a competitive necessity rather than just a nice-to-have technology.
 
+### Keep business logic behind a thin MCP adapter
+
+Implement and test an operation in a shared application service or existing API before exposing it as an MCP tool. Keep business calculations, input constraints and resource permission checks in that core. Add a CLI when people or CI also need the operation; a tested library is enough when nobody needs a terminal command.
+
+The MCP adapter describes the tool, validates protocol inputs, obtains the authenticated caller, invokes the core and maps domain results into safe tool responses. Obtain identity from trusted authentication context, never model-supplied roles or caller arguments. The core still checks access to the requested resource. Follow the [MCP tools specification](https://modelcontextprotocol.io/specification/latest/server/tools) for protocol behaviour.
+
+For example, synthetic Northwind stock has 20 units on hand, 8 reserved and 4 quarantined: 8 are available. A CLI and MCP handler with separate calculations can disagree if one forgets quarantine. Calling the same inventory service makes that rule one implementation to maintain.
+
+Test both entry points with the same caller and stock snapshot, including unknown items, zero stock and denied warehouse access. Share domain regression tests and add adapter checks for schemas, error mapping and CLI exit status. Release each interface with the updated core; sharing source does not update already deployed binaries.
+
 ---
 
 #### Need help connecting your proprietary services?
