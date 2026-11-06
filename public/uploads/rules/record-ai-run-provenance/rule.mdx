@@ -114,3 +114,11 @@ Here, the application supplies rows directly from the retained snapshot, so ther
 For media distributed outside your application, consider [C2PA Content Credentials](https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html) to carry signed, tamper-evident provenance. A plain metadata record does not provide that protection, and even signed provenance does not prove the content is true.
 
 For AI-assisted code changes, keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR as well. Run metadata explains how an output was generated; the decision record explains why the change was wanted.
+
+## Make fallback routes visible in the record
+
+Approve model fallback routes before enabling them. Evaluate each replacement on the same cases and check its quality threshold and data-handling boundary. Inspect gateway and provider routing too; a requested deployment name does not prove which model ran. Make degraded operation visible and retain a way to find and reprocess affected outputs.
+
+Bound the whole run by attempt count, timeout and spend. Retry transient failures with bounded backoff; retry truncation with a larger supported output allowance only within that budget. Reject malformed or incomplete output and validate task-specific meaning before saving. A refusal, permission failure or policy denial is not permission to try another model to bypass it. When no approved route succeeds, expose a failed or pending-review state instead of storing an empty success.
+
+For every attempt, record the requested route, actual provider/model/version when exposed, attempt ID, reason for retry or fallback, validation outcome and timing. Mark unavailable version evidence as unknown. Link the saved output to the attempt or combination that produced it, keeping protected payload references rather than sensitive content in logs. Generate and validate before the business write, then save with duplicate protection so a model retry cannot repeat that write.
