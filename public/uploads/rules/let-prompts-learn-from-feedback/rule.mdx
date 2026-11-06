@@ -84,7 +84,7 @@ Use the ACE-style principle without needing its full framework: update the affec
 
 ## Automate proposals when you can measure them
 
-The [GEPA paper, Agrawal et al.](https://arxiv.org/html/2507.19457v2), describes a prompt optimiser that reflects on execution traces and textual feedback, proposes changes and tests candidates. Pareto-based selection preserves candidates that perform well on different evaluation cases. Model weights remain fixed.
+The [GEPA paper, Agrawal et al.](https://arxiv.org/html/2507.19457v2) describes a prompt optimiser that reflects on execution traces and textual feedback, proposes changes and tests candidates. Pareto-based selection preserves candidates that perform well on different evaluation cases. Model weights remain fixed.
 
 [DSPy's GEPA implementation](https://dspy.ai/current/api/optimizers/GEPA/overview/) is an option when you have representative examples, a scoring metric, useful feedback and a budget for repeated runs. Its validation cases guide candidate selection, so reserve a separate test set for the release decision.
 
