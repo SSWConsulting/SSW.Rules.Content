@@ -1,0 +1,129 @@
+---
+type: rule
+title: Do you engineer your AI agent’s context?
+uri: context-engineering-for-ai-agents
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+authors:
+  - title: Michael Smedley
+    url: 'https://www.ssw.com.au/people/michael-smedley'
+related:
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/clear-ai-agent-context/rule.mdx
+guid: 85ec86a9-f4b3-413f-a5fe-e958fe75a3ba
+seoDescription: 'Learn the 4 ways an AI agent''s context goes bad (poisoning, distraction, confusion and clash) and how to fix each by validating, compacting, curating and pruning.'
+created: 2026-10-16T04:49:24.341Z
+createdBy: Mike
+createdByEmail: michaelsmedley@ssw.com.au
+lastUpdated: 2026-10-16T05:19:58.318Z
+lastUpdatedBy: Mike
+lastUpdatedByEmail: michaelsmedley@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+Your AI agent has spent an hour migrating a codebase to a new database driver. Early on, it skimmed the driver docs and wrote itself a note: the new driver retries failed connections, so the old retry code can go. The note is wrong. The agent trusts it anyway and deletes working retry code from every file it touches.
+
+Context engineering is deciding what goes into an agent's context window at each step. Bigger windows don't fix this. Frontier models get less reliable as their window fills, a problem known as context rot. The fix is counter-intuitive: you make the agent better by giving it less.
+
+<endIntro />
+
+## Why doesn't a bigger context window help?
+
+A model doesn't look things up in its context the way a database looks up a row. Every token competes for a fixed amount of attention. [Chroma's context rot research](https://research.trychroma.com/context-rot) tested 18 frontier models, and every one degraded as input grew.
+
+Most of the window isn't your instructions. It's what the agent piles up along the way:
+
+* **System prompt and task** - Often just a few lines describing the job
+* **Project instructions** - Files like `AGENTS.md`, loaded on every run
+* **Tool definitions** - Every tool the agent can call, used or not
+* **Message history** - Every step it has taken so far
+* **Tool results** - File contents, test output, error logs and API responses, usually the biggest chunk
+
+This applies whether the agent is Claude Code refactoring a repo, a Copilot Studio agent answering staff questions, or an n8n workflow processing invoices.
+
+## What are the 4 ways context goes bad?
+
+[Drew Breunig](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html) named four failure modes. Each has a fix, and every fix works by throwing something away.
+
+| Failure mode | What happens | Fix |
+| --- | --- | --- |
+| **Poisoning** | A wrong conclusion gets written down and treated as fact | **Validate** before it's saved |
+| **Distraction** | The agent's own history outweighs its training, so it repeats old moves | **Compact** and move detail to files |
+| **Confusion** | Too many tools or irrelevant docs, so it picks the wrong one | **Curate** to what the task needs |
+| **Clash** | Old and new versions of a fact both sit in the window | **Prune** the superseded version |
+
+## How do you fix each one?
+
+### How do you stop poisoning?
+
+Make the agent check a conclusion against something real before it writes it down. One connection test would have killed the retry note. For code, builds, tests and linters do this automatically. See [Do you use back pressure to keep AI agents on track?](/utilize-back-pressure-for-agents)
+
+For non-code agents, verify against the source system, not against the agent's own summary.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** An agent treats its own notes as ground truth. A wrong note doesn't fade. It gets repeated, built on and acted on in every turn after it lands.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### How do you stop distraction?
+
+After an hour of work, the agent's own history becomes the strongest pattern in the window. It starts repeating what it already did instead of asking what the job needs next.
+
+Compact or clear the history. [Do you clear your AI agent's context between tasks?](/clear-ai-agent-context) covers when to use each. Compaction is lossy, and a summary of a summary drifts like a photocopy of a photocopy. Keep the detail in files instead, such as a plan or a decisions log, and load them only when needed. See SSW's rule on [agent memory systems](/ai-agent-memory-systems).
+
+### How do you stop confusion?
+
+Every tool definition sits in the window whether the agent uses it or not. In one benchmark, a model failed a task when offered 46 tools and passed the same task with 19.
+
+Give the agent only the tools the job needs. A database migration doesn't need your ticketing system or calendar. Load extras on demand with [skills, subagents and MCPs](/when-to-use-skills-agents-subagents-mcps-plugins) rather than wiring everything in up front. In Copilot Studio or n8n, switch off actions and connectors the agent doesn't use.
+
+### How do you stop clash?
+
+Eventually the agent notices retries aren't happening and records that the note was wrong. Now both versions sit in the window, and the model has to guess which one wins.
+
+When information is superseded, delete the old version. If you can't, start a fresh session that restates only the current, corrected state of the job.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** If an agent starts looping or contradicting itself, don't argue with it in the same session. Every correction adds another conflicting message. Start fresh with the corrected state instead.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## What does this look like in practice?
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A support agent is connected to 40 tools across CRM, email, SharePoint and the ticketing system. It runs all day in one session. Early on, it wrongly concludes a customer is on the Enterprise plan, writes that into its notes, and quotes Enterprise SLAs for the rest of the day. Corrections pile up next to the original mistake.
+  </>}
+  figurePrefix="bad"
+  figure="Unverified notes, every tool loaded, one endless session"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The same agent gets the 5 tools support work needs. It checks the plan in the CRM before recording it. When a fact changes, it updates the note instead of appending a correction, and each customer conversation starts from a clean window.
+  </>}
+  figurePrefix="good"
+  figure="Validated notes, curated tools, pruned facts and a fresh window per conversation"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you clear your AI agent's context between tasks?](/clear-ai-agent-context)
+* [SSW: Do you use back pressure to keep AI agents on track?](/utilize-back-pressure-for-agents)
+* [Context Engineering for AI Agents: 4 Failure Modes to Avoid](https://www.youtube.com/watch?v=BwXremQ-i6I) - The video this rule is based on (10 min)
+* [How Long Contexts Fail](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html) - Drew Breunig's original breakdown of the four failure modes
+* [How to Fix Your Context](https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html) - The follow-up with more fixes
+* [Context Rot](https://research.trychroma.com/context-rot) - Chroma's study of 18 models degrading as input grows
