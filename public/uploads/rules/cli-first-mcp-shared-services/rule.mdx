@@ -1,0 +1,108 @@
+---
+type: rule
+title: Do you build your MCP server on a tested CLI or shared library?
+seoDescription: Build a tested CLI or shared library before adding an MCP server so people, scripts, CI and AI agents share business logic, permission checks and tests.
+guid: 24d3b65b-e7f8-46f7-bfa1-c7a7b54bceaf
+uri: cli-first-mcp-shared-services
+created: 2026-11-06T01:15:59.860Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/design-for-agent-experience/rule.mdx
+  - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
+  - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+An internal service gains an MCP tool, so its business rules go straight into the tool handler. Later, an operator needs the same action from a terminal and CI needs it in a script. Copying the handler creates another implementation to fix, secure and test.
+
+Build and test the service's operations in a CLI or shared library first. Put the MCP server on top as a **thin adapter**: it translates tool calls into those existing operations. Humans, scripts, CI and agents then use the same business rules and permission checks.
+
+<endIntro />
+
+## Build the operation before the MCP tool
+
+[Choosing CLI or MCP as an agent interface](/design-for-agent-experience) is one decision. Where their behaviour lives is another: both interfaces should call the same implementation.
+
+1. **Define a useful operation** - For example, get available stock for a SKU in a warehouse. Give it explicit inputs, a result and predictable failures
+2. **Implement and test the core** - Keep business calculations, input constraints and resource permission checks in one application service. It must run without an MCP host
+3. **Exercise it through a CLI** - Give operators and CI a non-interactive command with help, structured output and a nonzero exit code on failure
+4. **Add the MCP adapter** - Describe the tool and its input schema, obtain the authenticated caller, invoke the core and map its result or error into MCP
+
+If an existing API already owns the operation, have both interfaces call that API. If nobody needs a terminal command, a tested shared library is enough; an otherwise unused CLI adds maintenance. A shared library can run inside the MCP process without another network hop or subprocess.
+
+This applies [separation of business logic from presentation](/keep-business-logic-out-of-the-presentation-layer) to agent integrations. Microsoft's [application architecture guidance](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) explains how an independent application core makes logic reusable and easier to test.
+
+## Keep Northwind's stock calculation in one place
+
+**Illustration · example data:** Northwind's main warehouse holds 20 units of `NW-TEA`, with 8 reserved and 4 quarantined. Available stock is 8. Both requests below use the same authorised caller and stock snapshot.
+
+The CLI includes the quarantine rule, but the calculation written directly in the MCP handler omits it. The agent sees 12 available while the operator sees 8.
+
+<imageEmbed
+  src="/uploads/rules/cli-first-mcp-shared-services/duplicated-inventory-logic.png"
+  alt="Northwind CLI and MCP handlers calculate stock separately. From the same 20 units, 8 reserved and 4 quarantined, the CLI returns 8 and the MCP handler returns 12."
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Two calculations drift: the MCP handler offers four quarantined units as available"
+/>
+
+Move the operation into `Northwind.Inventory`. The `northwind inventory` CLI and MCP server both call it, so a quarantine fix changes one calculation and its shared regression tests.
+
+<imageEmbed
+  src="/uploads/rules/cli-first-mcp-shared-services/shared-inventory-core.png"
+  alt="Northwind CLI and a thin MCP adapter call the same Northwind.Inventory core, which applies warehouse permissions and subtracts reserved and quarantined stock. Both return 8."
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="One tested core returns eight available units through either interface"
+/>
+
+The central C# operation can look like this. `IStockStore.Get` loads the requested stock row or reports an unknown SKU. `IInventoryAccess.RequireRead` rejects unauthenticated callers and callers without read access to that warehouse, before any stock lookup. `StockAvailability` contains the SKU and available quantity.
+
+```csharp
+using System.Security.Claims;
+
+// In Northwind.Inventory; no MCP dependency
+public sealed class InventoryService(
+    IStockStore stock, IInventoryAccess access)
+{
+    public StockAvailability GetAvailable(
+        ClaimsPrincipal caller, string warehouse, string sku)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(warehouse);
+        ArgumentException.ThrowIfNullOrWhiteSpace(sku);
+        access.RequireRead(caller, warehouse);
+        var row = stock.Get(warehouse, sku);
+        var available = Math.Max(0,
+            row.OnHand - row.Reserved - row.Quarantined);
+        return new StockAvailability(sku, available);
+    }
+}
+```
+
+**Figure: The shared operation enforces warehouse access and calculates available stock once**
+
+The adapters obtain the caller from their trusted authentication context and pass it to this operation. The caller's identity, roles and warehouse permissions must never come from model-supplied tool arguments or CLI flags.
+
+## Keep protocol responsibilities in the wrapper
+
+MCP standardises tool discovery, schemas and invocation; it does not require a CLI underneath. The CLI-first sequence is an architecture recommendation. Follow the [MCP tools specification](https://modelcontextprotocol.io/specification/latest/server/tools) for protocol behaviour and your SDK's documentation for registration and result mapping.
+
+The wrapper still validates tool inputs, authenticates requests and formats responses. Translate expected domain failures into safe, useful tool errors, using `isError: true` for tool execution failures. Keep business decisions in the core. Share the domain tests, then add adapter tests for CLI exit codes and JSON output, and MCP schemas and error mapping.
+
+Shared permission checks do not give every caller the same privileges. Preserve each caller's identity and permitted warehouse access. For a protected HTTP server, use the [MCP HTTP authorisation flow](https://modelcontextprotocol.io/specification/latest/basic/authorization); local stdio servers obtain credentials from their environment instead. Neither transport replaces the core's resource permission checks.
+
+## Check that both interfaces agree
+
+* Run `northwind inventory available --warehouse main --sku NW-TEA --json` without an MCP host; expect 8 available units
+* Call the MCP tool with the same warehouse, SKU, caller and stock snapshot; expect the same quantity
+* Test zero availability, unknown SKUs and callers without warehouse access through both interfaces; verify denied requests return no stock data
+* Change the quarantine rule in a fixture and run the shared regression tests plus adapter tests in CI. Release both interfaces with the updated core; a shared library does not update already deployed binaries
+
+The design succeeds when one business-rule change needs one implementation change, and both entry points produce the same domain result for the same authorised request.
