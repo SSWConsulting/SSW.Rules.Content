@@ -77,6 +77,14 @@ SSW's [RulesGPT](https://rulesgpt.ssw.com.au) uses RAG. Cursor [chunks code and 
 
 **Is RAG dead?** A fixed chunk-and-retrieve pipeline is no longer the automatic starting point, but retrieval remains useful. Claude Projects [enables RAG as project knowledge approaches the context limit](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects), then can return to context-based processing when it shrinks.
 
+### Keep optional query enrichment bounded
+
+Query expansion can improve retrieval, but an optional helper must not become a single point of failure. Preserve the user's original query, set a helper timeout and attempt budget, and validate the expanded queries before using them. On a helper timeout, connection error, empty result or malformed output, search with the original query and record the fallback reason. Reserve enough of the request deadline for that search.
+
+Keep authentication, authorisation, tenant filters and policy checks mandatory on every path. Caller cancellation or a policy denial must stop the request; neither triggers fallback. If retrieval itself fails, expose that failure. If optional re-ranking fails, retain the baseline candidates rather than returning nothing.
+
+Before release, inject each helper failure and confirm one bounded fallback with the same access filters. Test cancellation, denial and backend failure separately. Compare enriched retrieval with the original-query baseline on exact identifiers and ambiguous questions using [evals](/run-evals-on-ai-features).
+
 ## Option C: Agentic search
 
 Give an agent tools such as `grep`, a search API or read-only SQL access. It searches, inspects the results and decides what to search next, refining its query when the first results reveal a gap. Unlike a fixed RAG pipeline, the agent manages its own context and can use several retrieval methods.
