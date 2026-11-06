@@ -11,13 +11,9 @@
       "Bash(node frontmatter-validator.js *)",
       "Bash(npx --yes markdownlint-cli *)",
       "Bash(git fetch *)",
-      "Bash(git checkout *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git mv *)",
-      "Bash(git reset *)",
-      "Bash(git stash *)",
-      "Bash(git branch -D *)"
+      "Bash(git mv *)"
     ],
     "deny": ["Bash(gh * -R*)", "Bash(gh * --repo*)"]
   }
