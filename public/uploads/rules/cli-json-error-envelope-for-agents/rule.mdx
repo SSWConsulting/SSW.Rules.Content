@@ -49,32 +49,39 @@ For HTTP errors, [RFC 9457 Problem Details](https://www.rfc-editor.org/rfc/rfc94
 
 Both examples use the fictional Northwind CLI with the same invalid date. The command is illustrative; it is not an installable product.
 
-<boxEmbed
-  style="greybox"
-  body={<>
+Northwind documents exit **0** for success, **2** for invalid input and **1** for other failures. These numbers are its contract, not universal CLI meanings.
 
-<pre><code className="language-bash">{`northwind-cli orders export --since 2026-13-01 --json`}</code></pre>
+**Bad implementation**
+
+```bash
+northwind-cli orders export --since 2026-13-01 --json
+```
 
 stdout:
 
-<pre><code className="language-text">{`Export failed. Please check the date and try again.`}</code></pre>
+```text
+Export failed. Please check the date and try again.
+```
 
-Process exit code: <strong>0</strong>. stderr: empty.
-
+<boxEmbed
+  style="greybox"
+  body={<>
+    Process exit code: 0. stderr: empty.
   </>}
   figurePrefix="bad"
   figure="Example data: the agent cannot parse the cause, and the shell reports success"
 />
 
-<boxEmbed
-  style="greybox"
-  body={<>
+**Good implementation**
 
-<pre><code className="language-bash">{`northwind-cli orders export --since 2026-13-01 --json`}</code></pre>
+```bash
+northwind-cli orders export --since 2026-13-01 --json
+```
 
 stdout:
 
-<pre><code className="language-json">{`{
+```json
+{
   "ok": false,
   "data": null,
   "error": {
@@ -82,27 +89,30 @@ stdout:
     "message": "The --since date is invalid.",
     "hint": "Use a real date in YYYY-MM-DD format."
   }
-}`}</code></pre>
+}
+```
 
-Process exit code: <strong>2</strong>. stderr: empty.
-
+<boxEmbed
+  style="greybox"
+  body={<>
+    Process exit code: 2. stderr: empty.
   </>}
   figurePrefix="good"
   figure="Example data: INVALID_DATE identifies the fix, and the shell reports failure"
 />
 
-Northwind documents exit **0** for success, **2** for invalid input and **1** for other failures. These numbers are its contract, not universal CLI meanings. The agent can ask for a corrected date when it sees `INVALID_DATE`; retrying the identical command cannot fix it.
+The agent can ask for a corrected date when it sees `INVALID_DATE`; retrying the identical command cannot fix it.
 
-A valid export with no matching orders is still a success. Keep the same envelope and return an empty result rather than a prose "No orders found":
+A valid export with no matching orders is still a success. In JSON mode, `ok: true` with an empty array explicitly signals zero results, fulfilling the [AX rule's empty-result guidance](/design-for-agent-experience). Human mode can still print "No orders found".
+
+```json
+{"ok": true, "data": {"orders": []}, "error": null}
+```
 
 <boxEmbed
   style="greybox"
   body={<>
-
-<pre><code className="language-json">{`{"ok": true, "data": {"orders": []}, "error": null}`}</code></pre>
-
-Process exit code: <strong>0</strong>.
-
+    Process exit code: 0.
   </>}
   figurePrefix="none"
   figure="Example data: an empty export remains a parseable success"
@@ -110,7 +120,9 @@ Process exit code: <strong>0</strong>.
 
 ## Keep stdout parseable
 
-In this JSON mode, write exactly one JSON document to stdout, including handled failures. Send progress, warnings and diagnostic logs to stderr. Do not add banners, colour escape sequences or a second copy of an error as prose to stdout. The [Command Line Interface Guidelines](https://clig.dev/#the-basics) recommend separate streams for machine output and diagnostic messages, with non-zero exit codes on failure.
+In this JSON mode, write exactly one JSON document to stdout, including handled failures. Send progress, warnings and diagnostic logs to stderr. Do not add banners, colour escape sequences or a second copy of an error as prose to stdout.
+
+The [Command Line Interface Guidelines](https://clig.dev/#the-basics) generally send errors to stderr. This JSON contract deliberately puts the error envelope on stdout as the command's machine-readable result; human diagnostics remain on stderr. [AXI principle 6](https://axi.md/) explicitly recommends this split for agent-facing CLIs.
 
 Handle expected argument, authentication and service errors through the same envelope. Check your argument parser too: an invalid flag must not unexpectedly print help into stdout when JSON mode is selected. Keep a readable default mode for people, and [document the JSON flag and error catalogue in CLI help](/provide-list-of-arguments).
 
