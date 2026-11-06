@@ -1,0 +1,95 @@
+---
+type: rule
+title: Do you lead experiment reports with a verdict, scope, limits, and decision?
+seoDescription: Open experiment reports with a verdict, scope, limits and a decision so readers can act on the evidence without treating a narrow test as a general result.
+guid: 01c544b4-6dbb-4b88-9e4b-dba103275584
+uri: lead-experiment-reports-with-the-verdict
+created: 2026-11-06T02:14:30.984Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/answer-with-yes-or-no/rule.mdx
+  - rule: public/uploads/rules/make-rd-experiment-outcomes-measurable/rule.mdx
+  - rule: public/uploads/rules/do-you-record-your-research-under-the-pbi/rule.mdx
+categories:
+  - category: categories/communication/rules-to-better-technical-documentation.mdx
+archivedreason: null
+isArchived: false
+---
+
+An experiment report that opens with its setup makes readers hunt for the result. A busy reader may forward "it is faster" without the caveat that the team tested one dataset on one machine, and someone else may treat it as a reason to deploy.
+
+When reporting an experiment, spike, A/B test, benchmark, or AI evaluation, start with four short, labelled statements: **verdict, scope, limits, and decision**. Keep the answer and its boundaries together, then explain the method and show the evidence.
+
+<endIntro />
+
+## Put the answer and its boundaries in the opening
+
+Use the opening of the report, PBI comment, or email to answer these questions:
+
+* **Verdict:** What did you find? Give one sentence with the main outcome and the measure that supports it. "Inconclusive" is a useful verdict when the evidence cannot distinguish the options.
+* **Scope:** What did you test? Name the compared versions or configurations, data, sample size, and environment. Distinguish repeated runs from independent users or examples.
+* **Limits:** What remains uncertain? State important exclusions and caveats beside the result, including uncertainty in the estimate when available. Avoid a vague "more testing needed".
+* **Decision:** What happens next? State the decision or recommendation, name its owner, and give a date or a condition for revisiting it. Label a recommendation as pending if nobody has approved it.
+
+Keep each statement to a short paragraph; four labelled lines can wrap on screen. This applies [inverted-pyramid writing](https://www.nngroup.com/articles/inverted-pyramid/) to experiment reports: the main information comes before supporting detail. The four labels are a practical report template, not a statistical standard.
+
+## Show what a narrow result actually supports
+
+These excerpts describe the same fictional Northwind export benchmark. All timings, versions, people, and decisions are **example data**.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind export benchmark**
+
+    We investigate the export process because the operations team waits for reports at the end of each day.
+
+    We prepare a dataset, configure a test machine, and write a script to call both versions of the exporter.
+
+    We run the script, collect timings, and review the results with the team.
+
+    Version 2.4 is faster in our test. We should consider rolling it out.
+  </>}
+  figurePrefix="bad"
+  figure="Setup buries the result, and the missing scope makes a rollout sound justified"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Verdict:** Northwind exporter v2.4 has a 25% shorter median export time than v2.3 in this fixture (600 ms versus 800 ms).
+
+    **Scope:** 30 paired runs of v2.3 and v2.4 on one fixed 10,000-row synthetic orders dataset; Windows 11, 8 vCPU, 16 GB RAM, one export at a time.
+
+    **Limits:** One dataset and one machine; no concurrent exports or production traffic. These are descriptive medians; no confidence interval is calculated.
+
+    **Decision:** Keep v2.3 in production for now. Alex owns a test with 20 concurrent exports by 10 November 2026, then the team reviews whether to roll out v2.4.
+  </>}
+  figurePrefix="good"
+  figure="The measured improvement, narrow scope, uncertainty, and owned next step stay together"
+/>
+
+The second opening supports a follow-up test without implying that production performance is proven. The 30 pairs are repeated timings of one dataset, not 30 different workloads. In a full report, put the method and raw timings immediately after this opening.
+
+## Make uncertainty change the wording and decision
+
+For statistical comparisons, report the effect size and an appropriate confidence interval when the analysis supports one. Include the confidence level and method in the details. [NIST explains how confidence intervals express uncertainty in an estimated mean](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm); do not apply its mean formula to a median or a conversion rate without choosing a suitable method.
+
+If the estimate is too uncertain to support the proposed action, say so in the verdict and choose a smaller next step. If no valid interval is available, say that plainly instead of inventing a confidence percentage. A single successful spike can establish feasibility in its tested setup without establishing reliability in production.
+
+Use the same four labels for an AI evaluation, but make the scope specific: model version, prompt and tool configuration, evaluation-set size, and scoring method. A score on that set does not establish quality on inputs you did not test.
+
+## Keep the evidence after the opening
+
+Follow the opening with the question or hypothesis, success criteria, method, results, and links to raw data or reproducible artifacts. Keep the report [with the research under the PBI](/do-you-record-your-research-under-the-pbi) so the conclusion can be checked later.
+
+[Measurable R&D outcomes](/make-rd-experiment-outcomes-measurable) explain what evidence to collect. [Answering with yes or no](/answer-with-yes-or-no) makes a direct answer clear. This rule adds the reporting step: attach the tested scope and limits to the verdict, then connect that evidence to an owned decision.
+
+Before sending, read only the opening and check:
+
+* Can a reader tell what was found and what was actually tested?
+* Would a forwarded excerpt still carry the caveat that changes the decision?
+* Is the next action clear, with an owner and a date or review condition?
+* Can a reader follow the details to verify the result?
