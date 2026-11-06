@@ -1,0 +1,91 @@
+---
+type: rule
+title: Do you use bots to track the people you learn from?
+seoDescription: Follow experts' public releases and posts with a bot that records a baseline, checks for new items, and sends concise alerts only when something changes.
+guid: c3842129-1e84-4741-a5f5-57dc418a5c85
+uri: track-important-people-with-bots
+created: 2026-11-06T01:43:10.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/github-notifications/rule.mdx
+  - rule: public/uploads/rules/have-a-notifications-channel/rule.mdx
+  - rule: public/uploads/rules/weekly-ai-meetings/rule.mdx
+  - rule: public/uploads/rules/how-to-see-what-is-going-on-in-your-project/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-bots.mdx
+archivedreason: null
+isArchived: false
+---
+
+You learn from a handful of experts whose tools, posts and talks shape your work. Checking each person's repositories and blog every morning takes time. A daily digest that repeats old items soon becomes another message to ignore.
+
+**Use a bot to follow their public work: record what exists once, then notify only about new releases or publications.** Keep the list short so each alert gives you something worth reading or trying.
+
+<endIntro />
+
+## Choose the simplest subscription that works
+
+Start with 1–5 people whose work you use, then list their relevant public repositories and feeds. Follow selected work, rather than every action on every account.
+
+A custom bot is useful when you need one feed across several people's releases, blogs and videos, with consistent filtering and duplicate suppression. If you only need one repository's releases, [GitHub's custom watch settings](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) may be enough. An RSS reader can also track new posts without a custom bot. Keep those simpler options when they meet your needs.
+
+For a bot, define what counts as a new item before choosing the automation tool:
+
+* **Tools:** published releases from selected repositories; decide whether to include prereleases
+* **Writing:** new posts from the author's official RSS feed
+* **Talks:** new videos from selected public channels, using a supported feed or API
+
+Skip stars, forks and routine commits unless they serve a specific learning goal. Use official feeds and APIs, respect their access terms, and leave a source out if you cannot access it through a supported method.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Track public work, not private activity.** Exclude private repositories, direct messages, calendars and location data. Respect requests not to be monitored. Share alerts only with the people who opted into the feed, and do not impersonate the author or contact them automatically.
+  </>}
+  figurePrefix="none"
+  figure="A learning feed follows deliberately published work, with a limited audience"
+/>
+
+## Record a baseline, then send only new items
+
+Use a scheduled workflow or a small service with persistent storage and a notification destination. The essential behaviour is the same whichever tool you choose:
+
+1. **Baseline without notifying.** On the first successful read of each source, save the IDs of the items it already contains. Repeat this baseline step when adding a source, so an old archive does not arrive as new work.
+2. **Check at a useful interval.** A daily check in your timezone is a reasonable starting point. Prefer supported event subscriptions when available; otherwise follow the provider's [polling, conditional-request and rate-limit guidance](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api).
+3. **Compare stable IDs.** Store source plus item ID, not just the latest title or date. GitHub's [release list](https://docs.github.com/en/rest/releases/releases#list-releases) exposes release IDs; RSS items can provide a [GUID](https://www.rssboard.org/rss-specification#ltguidgtSubelementOfLtitemgt), with a canonical post URL as a fallback. Retrieve enough pages to cover the gap since the last successful check, so two releases between checks are both found.
+4. **Send a concise alert.** Include the tool or publication, version or title, a short source-backed description, and a direct link for each new item. Use the original title if you cannot verify a summary. If no new items exist, send nothing.
+5. **Record delivery.** Keep pending items until delivery succeeds, then mark them delivered. Use stable item keys to suppress duplicates on retries; check whether your destination supports idempotent delivery before assuming retries cannot repeat a message.
+
+A failed source request is not an empty feed. Preserve its saved state, back off as instructed, and report repeated failures to the bot's owner separately from learning alerts. Store any required credentials in the automation tool's secret store, with only the permissions needed.
+
+## Compare the same three days
+
+Northwind's fictional learning feed follows DeskPad releases. On Monday it starts with v2.3. Tuesday has no change. On Wednesday, v2.4 adds split panes and v2.5 adds theme packs.
+
+<imageEmbed
+  src="/uploads/rules/track-important-people-with-bots/noisy-learning-digest.png"
+  alt="Illustration of Northwind's daily digest repeating DeskPad v2.3 on Monday and Tuesday, then burying Wednesday's two new releases among old items"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Repeating the baseline and unchanged items makes the two new releases harder to find"
+/>
+
+<imageEmbed
+  src="/uploads/rules/track-important-people-with-bots/change-only-learning-alerts.png"
+  alt="Illustration of the same Northwind feed: Monday baseline and Tuesday unchanged produce no messages; Wednesday sends one alert linking DeskPad v2.4 and v2.5"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="The bot stays silent until Wednesday, then links both releases with a reason to open each"
+/>
+
+Test this sequence before relying on the bot: first run sends nothing; an unchanged run sends nothing; two new items produce one alert containing both; rerunning sends nothing. Also test a failed fetch and a failed delivery so neither loses an item or resets the baseline.
+
+## Keep the feed useful
+
+Review the watch list periodically and remove sources you no longer read. Check the bot's health separately: silence should mean no new work, not an unnoticed broken integration. Alerts report what was published; read the source and assess it before installing a tool or adopting advice.
+
+This complements [configuring GitHub notifications](/github-notifications), which controls GitHub activity notifications. A [team notifications channel](/have-a-notifications-channel) gives alerts a home, while [reviewing project history](/how-to-see-what-is-going-on-in-your-project) serves a different need: catching up on team activity. Bring useful discoveries to [weekly AI meetings](/weekly-ai-meetings) when relevant; the bot supplies candidates and people decide what is worth sharing.
