@@ -85,3 +85,13 @@ Once the reviewer is notified, they can manually approve which will then let the
   figure=""
   style="greybox"
 />
+
+## Enforce human ownership for agent-assisted releases
+
+Give the agent a separate identity without the release owner's credentials, reviewer membership or administrative access. For each reserved release step, name the human owner, enforcing control and completion evidence in the checklist. Distinguish **Human approval**, after which a pipeline deploys the approved artifact, from **Human-only execution**, where the person performs the action.
+
+For a production environment gate, require a human reviewer, prevent self-review and disable administrator bypass where supported. The deployment job must reference that environment, with production credentials behind the gate. Remove alternative deployment credentials from the agent and protect changes to the gate itself. See [GitHub environment controls](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments).
+
+A deployment gate does not protect a separate package-publishing job, release-branch merge, secret rotation or customer announcement. Restrict each reserved action at its destination, including inherited roles, workflow access, registry tokens and connected sessions. If execution is human only, required review alone is insufficient when the agent can still merge or publish after approval.
+
+Let the agent prepare artifacts and hand over the exact version, evidence links, remaining action and responsible role as **Awaiting human action**. In a disposable project with equivalent controls, use its actual identity to verify each reserved operation is denied or awaits human approval, and confirm the human path deploys only the reviewed artifact. Recheck after permission changes.
