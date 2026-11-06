@@ -48,6 +48,18 @@ Catching problems at the plan stage is dramatically cheaper than catching them a
 
 Modifying a plan is cheap, re-implementing a feature is expensive.
 
+## Verify scope-changing premises before estimating
+
+Identify the assumptions that would materially change the work if wrong, such as an existing table, reusable service, available API or data owner. Check these before estimating or approving the dependent plan steps.
+
+* **Find primary evidence** - Read definitions, callers, migrations and configuration at the relevant source revision; a matching class name alone proves little
+* **Check the relevant system** - When code cannot settle the claim, use authorised read-only schema checks, sanitised logs or a safe reproduction. Record the environment and check date
+* **Revise the plan** - Mark each premise verified, refuted or unverified, link the evidence and update the tasks and estimate
+
+No search matches means **unverified**, not absent: the capability may use another name or live in another service. In a synthetic Northwind example, an AI plan proposes inserting a freight-surcharge row. Checking the schema and calculation shows no surcharge lookup at that revision, so the plan needs storage and calculation work as well as data entry. The surcharge policy still needs its owner's decision.
+
+Keep evidence and remaining unknowns with the PBI. Use a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) when a technical unknown prevents a useful estimate, and leave business-policy questions with the Product Owner.
+
 ## The traditional approach
 
 The original way to review AI plans is to discuss back and forth with your AI agent directly, such as in the terminal, or inside of your editor if you wanted to have more control by reading the raw `PLAN.md` file yourself.
@@ -114,7 +126,7 @@ Key features:
   style="greybox"
   body={<>
     **Review workflow with Plannotator:**
-    
+
     1. AI generates `PLAN.md`
     2. Plannotator opens automatically. The plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries - use batch loading instead"*
@@ -177,12 +189,12 @@ GitHub Copilot lets you review a plan before any code is written, in VS Code and
 
 ## Comparison
 
-|                           | Terminal | Editor  | Plannotator (Recommended) | UltraPlan        | Claude Code VSCode |
+| | Terminal | Editor | Plannotator (Recommended) | UltraPlan | Claude Code VSCode |
 | ------------------------- | -------- | ------- | ------------------------- | ---------------- | ------------------ |
-| Targeted line feedback    | ❌        | Partial | ✅                         | ✅                | ✅                  |
-| Multi-round iteration     | ❌        | ❌       | ✅                         | ✅                | ✅                  |
-| No copy-pasting needed    | ❌        | ✅       | ✅                         | ✅                | ✅                  |
-| Structured feedback to AI | ❌        | Partial | ✅                         | ✅                | ✅                  |
-| Works with any AI agent   | ✅        | ✅       | ✅                         | ❌                | ❌                  |
-| Terminal stays free       | ❌        | ❌       | ❌                         | ✅                | N/A                |
-| Cost                      | Free     | Free    | Free                      | Research preview | Built-in           |
+| Targeted line feedback | ❌ | Partial | ✅ | ✅ | ✅ |
+| Multi-round iteration | ❌ | ❌ | ✅ | ✅ | ✅ |
+| No copy-pasting needed | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Structured feedback to AI | ❌ | Partial | ✅ | ✅ | ✅ |
+| Works with any AI agent | ✅ | ✅ | ✅ | ❌ | ❌ |
+| Terminal stays free | ❌ | ❌ | ❌ | ✅ | N/A |
+| Cost | Free | Free | Free | Research preview | Built-in |
