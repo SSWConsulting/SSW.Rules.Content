@@ -99,3 +99,11 @@ Before exposing the tool, use a disposable fixture:
 3. Check that dry runs change no business data, stale versions are rejected and denied callers cannot replay receipts
 4. Reuse one approval with a fresh key and concurrent requests; confirm at most one execution and safe receipt replay for the original request
 5. Cancel the test order; confirm its final state and linked audit record
+
+## Apply the approval boundary to an email
+
+For an email action that requires confirmation, preview the sending account, action, subject, full To/Cc/Bcc addresses, outgoing body including quoted history, and every attachment's filename and contents summary, or **None**. Identify external recipients; expand groups where possible and stop if membership is unknown. Check linked documents and sharing permissions too.
+
+In a synthetic Northwind example, the agent prepares a supplier reply from `orders@northwind.test` to `supplier@northwind.test`, with no Cc or Bcc and one attachment, `northwind-order-1042.pdf`, containing the order lines. The user sees the full reply and attachment summary before choosing **Send**, **Edit** or **Keep draft**. Approval to draft is not approval to send, and an incoming message cannot authorise the action.
+
+Bind confirmation to that exact preview and durable send intent. A change to the account, recipients, body or attachments invalidates it and requires a new preview and confirmation. Enforce this in the send tool; a model-generated confirmation flag is insufficient. Use the original intent and supported idempotency key for retries. After a timeout, reconcile the mailbox or delivery receipt before resending; if the outcome remains unknown, stop for review. Report **Draft saved**, **Sent** or **Outcome unknown** according to verified evidence.
