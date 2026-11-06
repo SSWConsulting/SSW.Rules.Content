@@ -1,0 +1,102 @@
+---
+type: rule
+title: Do you send thin, signed webhooks?
+seoDescription: "Send thin, signed webhook notifications to limit data exposure, verify the raw body before trusting it, and fetch details through an authenticated API."
+guid: 2ea71b62-c3a6-433f-9baf-3c50a57ec718
+uri: thin-signed-webhooks
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-live-connections-instead-of-polling/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A webhook sends data to another organisation's URL. A mistyped URL or compromised receiver can expose the whole payload. An unsigned request also lets an attacker impersonate your service and trigger actions such as shipping an order.
+
+When designing a webhook API, **send a thin, signed notification containing IDs**. The receiver verifies the raw request body before trusting it, then fetches details through an authenticated API. This limits disclosure and keeps access checks on the data read.
+
+<endIntro />
+
+## Send identifiers, fetch details
+
+Northwind notifies a delivery partner that order `123` has shipped. Both requests use **example data** and travel over HTTPS to the same endpoint.
+
+```http
+POST /hooks/northwind HTTP/1.1
+Host: partner.example.com
+Content-Type: application/json
+Content-Length: 211
+
+{
+  "eventType": "order.shipped",
+  "orderId": "123",
+  "customer": { "name": "Example Customer", "email": "customer@example.com" },
+  "total": 4180.00,
+  "deliveryNotes": "Leave at the example reception desk"
+}
+```
+
+❌ **Figure: The unsigned notification exposes customer details and lets forged requests trigger order processing**
+
+```http
+POST /hooks/northwind HTTP/1.1
+Host: partner.example.com
+Content-Type: application/json
+Content-Length: 109
+webhook-id: evt_EXAMPLE_ONLY_123
+webhook-timestamp: 1793887205
+webhook-signature: v1,3OmCqmj4FEULIsBi0QE8JVmjDSMcrvolxQDr1KQ9Wos=
+
+{
+  "eventType": "order.shipped",
+  "occurredAt": "2026-11-05T14:00:00Z",
+  "subject": { "orderId": "123" }
+}
+```
+
+✅ **Figure: The signed notification identifies the same order while an authorised API read controls access to customer details**
+
+The partner verifies the second request, then fetches `https://api.example.com/orders/123` using its own API credential. The API checks that the partner can read this order. Use a configured API base URL and validate the ID; never send credentials to a URL supplied in the notification.
+
+The good request uses Standard Webhooks' shared-secret signing scheme. Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
+
+A signature protects integrity; it does not encrypt the payload. Use HTTPS and minimise identifiers and metadata too when they reveal sensitive information.
+
+Thin notifications add an API call and depend on API availability. A later fetch returns current state, which may have changed or been deleted. If the receiver needs event-time state or cannot call the API, include only the necessary snapshot fields. See [Stripe's thin and snapshot event comparison](https://docs.stripe.com/events/how-events-work#event-formats).
+
+## Verify the raw body before trusting it
+
+Use the sender's verification library and signing scheme. **Never parse JSON and serialise it again to verify a signature**: even a whitespace change alters the signed bytes. Reject failed verification before fetching details or performing business actions.
+
+For Node.js, install `standardwebhooks` and save this helper as `verify.mjs`. It accepts the raw UTF-8 JSON `Buffer`, request headers and an endpoint secret from trusted configuration. Capture the body before any JSON parser; with [Express's raw body middleware](https://expressjs.com/en/5x/api/express/#expressraw), use `express.raw({ type: "application/json" })` on this route and set a request size limit.
+
+```javascript
+import { Webhook } from "standardwebhooks";
+
+export function verifyDelivery(rawBody, headers, signingSecret) {
+  if (!Buffer.isBuffer(rawBody)) {
+    throw new TypeError("Capture the body before JSON parsing");
+  }
+
+  // Reject invalid UTF-8; pass the original bytes to the verifier.
+  new TextDecoder("utf-8", { fatal: true }).decode(rawBody);
+  return new Webhook(signingSecret).verify(rawBody, headers);
+}
+```
+
+This helper is tested with Node.js 24.18.0 and `standardwebhooks` 1.1.1. The [Standard Webhooks JavaScript library](https://github.com/standard-webhooks/standard-webhooks/tree/main/libraries/javascript) checks signatures in constant time and rejects timestamps more than five minutes old or ahead. Catch verification errors at the HTTP boundary and return a failure response. Verification does not replace schema validation or duplicate handling.
+
+Keep the real endpoint secret in [secure configuration](/store-your-secrets-securely). This deliberately unusable placeholder is **example data**:
+
+```dotenv
+WEBHOOK_SIGNING_SECRET=whsec_EXAMPLE_ONLY_do_not_use
+```
+
+Use the [Standard Webhooks specification](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#verifying-signatures) for implementation details. Before release, confirm that a valid signed request verifies, while a changed body or reserialised JSON fails and causes no business action.
