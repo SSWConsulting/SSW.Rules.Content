@@ -1,0 +1,166 @@
+---
+type: rule
+title: Do your automated tests restore shared state?
+seoDescription: "Restore shared test state even when assertions fail: capture original values, use teardown or fixtures, and read back changes before releasing the environment."
+guid: 54c28d63-a109-47a8-99e3-7bbfe615e29f
+uri: restore-shared-test-state-after-automated-tests
+created: 2026-10-31T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ephemeral-environments/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+  - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/subcutaneous-tests/rule.mdx
+  - rule: public/uploads/rules/use-feature-flags/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+archivedreason: null
+isArchived: false
+---
+
+An automated test enables a [feature flag](/use-feature-flags) in a shared staging environment, fails an assertion, and exits before resetting it. The next tester sees an experimental checkout and reports a bug caused by the test itself.
+
+Tests that change shared state must restore the original values even when assertions fail, then read them back to confirm the restore worked. Otherwise, later tests and people inherit the damage.
+
+<endIntro />
+
+## Reserve the affected scope and capture its state
+
+Prefer [isolated, disposable environments](/ephemeral-environments) or [Testcontainers for integration tests](/use-testcontainers). When a shared test environment is necessary:
+
+* Confirm the target is the intended test environment and use approved test records or accounts
+* Reserve the affected scope against other tests **and people** before taking a snapshot. A global flag needs an environment-wide reservation; a seeded account needs an account-level reservation
+* Save the original values and resource identifiers with the run before the first change. Include feature flags, account settings, shared clocks or timers, and configuration touched by the test
+
+Restore the captured values, rather than assumed defaults. If you cannot prevent concurrent edits, use isolated data or a separate environment: replaying an old snapshot can overwrite someone else's work. Serialising one test suite does not reserve the environment against other users.
+
+## Put restoration in test teardown
+
+Use a test-scoped fixture or teardown hook, with the restore also running when setup fails. [Playwright fixtures](https://playwright.dev/docs/test-fixtures#execution-order) tear down after each test and keep their dependencies alive until cleanup finishes. A fresh browser context alone does not reset server-side flags or records. [Subcutaneous tests](/subcutaneous-tests) also need restoration when they change shared state.
+
+The following **example data** uses a fictional Northwind test API. Both examples assume an exclusive reservation, an authenticated Playwright `request` fixture, and `baseURL` configured for that test environment. Its application-specific endpoint reads or writes a single Boolean `enabled` value; replace these adapters with your application's supported API.
+
+`northwind-test-api.ts` (shared by both examples):
+
+```typescript
+import { expect, type APIRequestContext } from '@playwright/test';
+
+const path = '/test-support/flags/checkout-preview';
+
+export async function readFlag(request: APIRequestContext): Promise<boolean> {
+  const response = await request.get(path, { timeout: 5_000 });
+  await expect(response).toBeOK();
+  const { enabled } = await response.json();
+  expect(typeof enabled).toBe('boolean');
+  return enabled;
+}
+
+export async function writeFlag(request: APIRequestContext, enabled: boolean) {
+  const response = await request.put(path, { data: { enabled }, timeout: 5_000 });
+  await expect(response).toBeOK();
+}
+```
+
+```typescript
+import { test, expect } from '@playwright/test';
+import { readFlag, writeFlag } from './northwind-test-api';
+
+test('checkout preview is available', async ({ request }) => {
+  const original = await readFlag(request);
+  await writeFlag(request, true);
+  const checkout = await request.get('/checkout/preview');
+  await expect(checkout).toBeOK();
+  await writeFlag(request, original);
+});
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Starting value: disabled. The test enables the flag, then fails its assertion. The flag stays enabled for the next tester.
+  </>}
+  figurePrefix="bad"
+  figure="If the assertion fails after enabling the flag, the reset is skipped and the next tester inherits the changed value"
+/>
+
+<imageEmbed
+  src="/uploads/rules/restore-shared-test-state-after-automated-tests/northwind-flag-left-enabled.png"
+  alt="Northwind Checkout preview stays ON after a failed Playwright assertion skips reset, so the next tester sees the wrong checkout"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Illustration: the failed assertion skips the reset, leaving the shared flag ON for the next tester"
+/>
+
+```typescript
+import { writeFile } from 'node:fs/promises';
+import { test as base, expect, type APIRequestContext } from '@playwright/test';
+import { readFlag, writeFlag } from './northwind-test-api';
+
+const test = base.extend<{ checkoutPreview: APIRequestContext }>({
+  checkoutPreview: [async ({ request }, use, testInfo) => {
+    const original = await readFlag(request);
+    await writeFile(
+      testInfo.outputPath('checkout-preview-before.json'),
+      JSON.stringify({ enabled: original }),
+    );
+
+    const restore = async () => {
+      await writeFlag(request, original);
+      await expect.poll(() => readFlag(request)).toBe(original);
+    };
+
+    try {
+      await writeFlag(request, true);
+      await use(request);
+    } catch (error) {
+      try {
+        await restore();
+      } catch (cleanupError) {
+        throw new AggregateError([error, cleanupError], 'Test and cleanup both failed');
+      }
+      throw error;
+    }
+    await restore();
+  }, { timeout: 30_000 }],
+});
+
+test('checkout preview is available', async ({ checkoutPreview }) => {
+  const checkout = await checkoutPreview.get('/checkout/preview');
+  await expect(checkout).toBeOK();
+});
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Starting value: disabled. The test enables the flag, then fails its assertion. Teardown restores disabled and reads it back before the scope is released.
+  </>}
+  figurePrefix="good"
+  figure="The fixture saves the original flag, restores it after a failed assertion, and verifies the persisted value"
+/>
+
+<imageEmbed
+  src="/uploads/rules/restore-shared-test-state-after-automated-tests/northwind-flag-restored-verified.png"
+  alt="The same Northwind assertion fails, but fixture teardown restores Checkout preview to its captured OFF value and reads back OFF before releasing the environment"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Illustration: the assertion still fails, but teardown restores the original OFF value and verifies it before reuse"
+/>
+
+Keep the saved file with the run's environment identity and reservation details so an interrupted run can be recovered. Configure the runner to retain recovery artifacts. [Playwright gives teardown its own time budget](https://playwright.dev/docs/test-timeouts#test-timeout); use bounded operations and allow enough time for restoration and verification.
+
+In [xUnit, use per-test cleanup](https://xunit.net/docs/shared-context#constructor): `IDisposable` for synchronous work or `IAsyncLifetime` for asynchronous work. A class fixture's cleanup runs after the class finishes, so it does not restore state between its tests. Use the same capture, restore, and read-back pattern; restore when setup fails as well. For browser tests written by agents, apply this contract to [Playwright automation](/playwright-with-ai) too.
+
+## Verify side effects before releasing the reservation
+
+Read back state through the application's supported interface. A successful reset request alone does not prove that the original state persisted. For eventually consistent systems, poll within a bounded timeout; fail cleanup if the value never matches.
+
+Account for writes that happen without clicking Save: opening a record may start a timer, create an audit entry, or update "last viewed". Before the run, list the persistent effects that may remain, such as audit entries and generated documents. Keep legitimate audit history; do not erase it to make the run appear clean. Cancel only test-created timers and remove only test-created data using supported application actions.
+
+**Failed cleanup is a failed run.** Report the assertion result and cleanup result separately, attempt each independent cleanup action even if another fails, and retain both errors. Include the affected scope, expected and observed values, unexpected side effects, and recovery artifact location. Block reuse of that scope until restoration is verified.
+
+Teardown cannot guarantee recovery after a killed process or lost environment. Keep the scope unavailable and use the saved snapshot to recover before another test or person uses it. The success condition is the captured state restored and verified, with only the agreed persistent effects remaining.
