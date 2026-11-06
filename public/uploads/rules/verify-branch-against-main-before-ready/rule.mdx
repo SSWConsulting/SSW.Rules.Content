@@ -1,0 +1,78 @@
+---
+type: rule
+title: Do you verify your branch against current main before requesting review?
+seoDescription: Before marking a pull request ready for review, update it against current main, resolve semantic clashes, and rerun builds and tests on the combined code.
+guid: bc08b4e8-7436-4615-88b1-340495828345
+uri: verify-branch-against-main-before-ready
+created: 2026-11-06T01:41:50.838Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-and-indicate-draft-pull-requests/rule.mdx
+  - rule: public/uploads/rules/merge-debt/rule.mdx
+  - rule: public/uploads/rules/rebase-not-merge/rule.mdx
+  - rule: public/uploads/rules/protect-your-main-branch/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+archivedreason: null
+isArchived: false
+---
+
+A pull request (PR) can pass its build while missing changes that have already landed on `main`. Reviewers then spend time on a branch that breaks when combined with the code they use today. An AI agent's successful test run has the same limitation: it proves only the version it tested.
+
+Before marking a PR **ready for review**, bring its branch up to date with current `main`, resolve conflicts and incompatible behaviour, and rerun the build and tests on the combined result. Keep [early collaboration in a draft PR](/use-and-indicate-draft-pull-requests) while you do this.
+
+<endIntro />
+
+## Check the code you are handing to reviewers
+
+[Avoiding merge debt](/merge-debt) reduces how long a PR waits. This checkpoint answers a more immediate question: **Does this branch work with main as it exists when I request review?** Even a short-lived branch can miss an API change or duplicate a fix merged that morning.
+
+Use this checklist immediately before moving from draft to ready:
+
+1. **Fetch and inspect current main.** Fetch from the remote, rather than relying on your local `main`. Read the changes merged since your branch diverged, especially in the areas your PR touches. If main already solves the problem, close the redundant PR or reduce its scope.
+2. **Update your feature branch.** Rebase onto the fetched main or merge main into your branch, following the repository's history conventions. Resolve textual conflicts before continuing. GitHub documents both methods for [keeping a PR in sync with its base branch](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch). Teams that [prefer rebasing](/rebase-not-merge) must still follow the [golden rule of rebasing](/the-golden-rule-of-rebasing): coordinate shared branch changes and never rewrite main.
+3. **Check for semantic clashes.** A clean Git merge only means the edits combine as text. Check renamed APIs and changed contracts, overlapping features or rules, and database migrations or snapshots added on main. Adapt your change to the new behaviour; exercise affected paths that automated checks do not cover. Test migrations on a disposable database, not a shared environment.
+4. **Rebuild and retest the combined code.** Use the repository's documented dependency restore, build and test commands after the update and any fixes. Publish the updated branch and confirm CI succeeds for that revision or its test merge. Inspect which commit and base the checks tested; an earlier green run on the old branch does not verify the new result. If required suites are skipped for drafts, arrange a full run while it remains a draft; a skipped check supplies no test evidence.
+5. **Record the evidence, then request review.** Note the main and PR commit IDs, link the successful checks, and describe any manual verification or remaining limits. Fetch again before the handoff; if main advances, update and repeat the affected checks. Only then [mark the draft ready](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/changing-the-stage-of-a-pull-request). If verification is blocked, leave it in draft and state the blocker.
+
+## A green result needs the right base
+
+Northwind adds CSV order exports. While the branch is in progress, main renames `getOrders` to `listOrders` in the order service. The branch adds a new export module, so Git can merge the files without a textual conflict while leaving an invalid import.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind order export — example data**
+
+    * **Branch:** 40 commits behind current main
+    * **Checks:** Green on the feature branch's old base; no current integration run
+    * **Integration:** Unchecked; the new export module still imports `getOrders`
+    * **Handoff:** Marked ready because the agent reports “build and tests passed”
+    * **Consequence:** The reviewer updates the branch and the build fails because main no longer exports `getOrders`
+  </>}
+  figurePrefix="bad"
+  figure="The green run excludes main's API rename, so the reviewer inherits the broken integration"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind order export — example data**
+
+    * **Branch:** Updated with current main before requesting review
+    * **Integration:** No textual conflicts; the author finds and replaces the obsolete import with `listOrders`
+    * **Checks:** Dependency restore, build and export tests pass on the combined code; CI is green for the updated revision
+    * **Evidence:** PR description records the tested main and branch commits, CI link, and a manual CSV export check
+    * **Handoff:** Marked ready after verification; the reviewer can assess the feature on the current API
+  </>}
+  figurePrefix="good"
+  figure="Updating exposes the API mismatch before handoff; the corrected combined result passes verification"
+/>
+
+## Keep integration checks current until merge
+
+Readiness is a point-in-time check. Main can move again during review. Repository maintainers can [protect main](/protect-your-main-branch) with required status checks and **Require branches to be up to date before merging**. GitHub's [strict status checks](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-status-checks-before-merging) enforce that update at merge time; loose checks can allow a branch whose combination with main has not been verified.
+
+On a busy repository, a [merge queue](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue) checks a temporary combination of the latest target branch and PRs ahead in the queue. It avoids repeated manual branch updates for merge eligibility. GitHub Actions workflows that supply required queue checks must handle `merge_group` events. The queue complements the author's readiness check: it tests the later merge combination, while the author still checks intent, duplicate work and semantic clashes before involving reviewers.
