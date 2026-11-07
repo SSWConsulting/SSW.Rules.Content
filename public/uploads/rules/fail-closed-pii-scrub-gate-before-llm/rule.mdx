@@ -37,6 +37,8 @@ Make personally identifiable information (PII) scrubbing **fail closed**: an err
   figure="Fail open sends the original ticket after a scrubber error; fail closed sends only approved text or blocks the call"
 />
 
+The diagram shows `scrubber_error` for a thrown error. Timeouts record `scrubber_timeout`; missing approval records `unconfirmed`. All three block the model call.
+
 Put the gate in a shared server-side model wrapper, after assembling the prompt, retrieved passages and conversation history. Send only the approved output. Retries and alternate model routes must use the same gate; adding the original ticket as context defeats it.
 
 The scrubber adapter must check the entire input against your configured entity, language and confidence rules before approving it. Block unsupported input, partial processing, malformed responses and uncertain detections. HTTP success or an empty detection list alone does not prove that all checks ran.
@@ -51,7 +53,7 @@ The scrubber adapter must check the entire input against your configured entity,
     **Synthetic example:** Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
   </>}
   figurePrefix="none"
-  figure=""
+  figure="Synthetic Northwind ticket used by both code examples"
 />
 
 ```typescript
