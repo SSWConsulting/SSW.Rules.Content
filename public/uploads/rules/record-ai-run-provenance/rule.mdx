@@ -1,0 +1,127 @@
+---
+type: rule
+title: Do you record provenance for AI outputs you keep?
+seoDescription: Keep model, prompt, input and trigger details with each saved AI output so you can trace mistakes, compare model changes and reconstruct how it was produced.
+guid: 69efbf1e-f4ee-4892-86ab-4c0ba2bd6600
+uri: record-ai-run-provenance
+created: 2026-11-06T01:56:01.251Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-opentelemetry/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A saved AI product description contains a mistake. Since it was generated, the model, prompt and source rows have changed. The text alone cannot tell a developer which combination produced it, or which other descriptions need checking.
+
+Whenever you keep an AI output, keep a linked provenance record: the evidence of how it was produced. Apply this to reports, generated code, classifications and summaries stored in a database, as well as published content.
+
+<endIntro />
+
+<imageEmbed
+  alt="Diagram: a saved Northwind description as text alone leaves its model, prompt and inputs unknown; linked to run-1042, it resolves to retained evidence and to other outputs from prompt v7"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Overview - text alone vs output + receipt: the run ID makes a saved description traceable"
+  src="/uploads/rules/record-ai-run-provenance/output-with-provenance-receipt.png"
+/>
+
+## Link the record to the output revision
+
+Give each run an ID and link it to the exact output revision. Store the record with the output or in durable storage it references. Populate it from application code, using the request, response and execution context; do not ask the model to report its own provenance.
+
+Keep the record for as long as you keep the output. An [operational trace](/use-opentelemetry) can help investigate a run, but it may be sampled or expire before the saved result does.
+
+## Record what produced the result
+
+* **Model** - Provider, requested model ID and the actual model/version returned
+* **Prompt and code** - Retained prompt/template version (including system instructions and output schema), its variables and the application release
+* **Settings** - Parameters actually sent, such as temperature, output limit and seed (where supported)
+* **Inputs** - Retained snapshots or versioned records, plus a content hash
+* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references (or none when unused)
+* **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that started it
+
+Mark a model version as unknown when the provider does not return one, because an alias can change. Distinguish explicit settings from provider defaults. A hash verifies inputs but cannot restore them, and a live URL or current row ID cannot recover an earlier value. Use protected references for sensitive tool payloads. For runs with multiple calls, record each call and identify which produced the saved output.
+
+## Keep the receipt with the result
+
+Northwind saves a generated description. Both examples use the same invented output; all model names, identifiers and values are **example data**.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+    ```yaml
+    product_id: 42
+    revision: 3
+    description: Lemon tea for a bright afternoon.
+    ```
+
+  </>}
+  figurePrefix="bad"
+  figure="The description survives, but its model, prompt and source data are lost"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+    ```yaml
+    product_id: 42
+    revision: 3
+    description: Lemon tea for a bright afternoon.
+    run_id: run-1042
+    provenance:
+      schema_version: 1
+      provider: example-ai
+      requested_model: catalogue-text-3.2-2026-10-01
+      response_model: catalogue-text-3.2-2026-10-01
+      provider_response_id: response-1042
+      prompt: product-description@v7
+      prompt_variables:
+        language: en-AU
+      application_release: catalogue@2.4.0
+      sent_parameters:
+        temperature: 0.2
+        max_output_tokens: 128
+      input_snapshot: catalogue-snapshot-2026-11-06-001
+      input_sha256: 63d8c26e8796af1d92b068e487c3d510ab529f64e37a8c90245f6b107d29ae83
+      source_rows:
+        - Products/42@4
+        - Categories/3@2
+      tool_calls: []
+      retrieval_sources: []
+      started_at: '2026-11-06T01:00:00Z'
+      finished_at: '2026-11-06T01:00:02Z'
+      trigger:
+        service: catalogue-worker
+        job_id: job-88
+    ```
+
+  </>}
+  figurePrefix="good"
+  figure="Revision 3 links to run-1042, prompt v7 and the source rows used to generate it"
+/>
+
+The snapshot contains the rows supplied to the model, so this run has no tool calls or retrieval steps. The prompt version and snapshot resolve to retained content; the hash checks the snapshot's exact bytes. A maintainer can find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
+
+## Record retries and fallbacks
+
+When a run retries or switches models, record each attempt's ID, requested and actual model, reason, timing and validation outcome. Mark unavailable model versions as unknown. Link the saved output to the attempt or combination that produced it, rather than recording only the first requested model.
+
+Use approved fallback routes and keep enough detail to find affected outputs for review or regeneration. A failed attempt must remain visible as a failure, even when a later attempt succeeds.
+
+## Keep the evidence usable
+
+1. **Save the output and its record together.** Use one database transaction, or a sidecar file linked to the output revision by a hash. Preserve the previous revision's record when replacing an output.
+2. **Protect the content.** Restrict access to prompts, inputs and tool payloads. Keep secrets out of the record and set retention and deletion rules for the output and its evidence together. If inputs must be deleted earlier, record that limitation.
+3. **Test the trail.** Pick a saved output and find its run, prompt version and original inputs without consulting today's configuration. Then find other outputs from the same prompt or model version.
+
+Provenance helps reconstruct a run; it does not guarantee identical text or a correct answer. Use [evals](/run-evals-on-ai-features) to compare quality after a model or prompt change. For AI-assisted code, also keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR.
