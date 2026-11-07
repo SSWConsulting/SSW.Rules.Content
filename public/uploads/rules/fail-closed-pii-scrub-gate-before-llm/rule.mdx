@@ -28,6 +28,15 @@ Make personally identifiable information (PII) scrubbing **fail closed**: an err
 
 [De-identifying data](/de-identified-data) explains what to remove. This rule covers failure: **no approved scrub result means no model request**. It applies [OWASP's fail-securely principle](https://owasp.org/www-community/Fail_securely) before the LLM call.
 
+<imageEmbed
+  src="/uploads/rules/fail-closed-pii-scrub-gate-before-llm/fail-open-vs-fail-closed-pii-gate.png"
+  alt="Two flows for a synthetic Northwind ticket from Mira Vale. Fail open: the scrubber throws, the catch block continues and the LLM receives the name, email and phone number. Fail closed: the gate requires an approved result; an error, timeout or unconfirmed result blocks the request, makes zero model calls and records blocked / scrubber_error."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Fail open sends the original ticket after a scrubber error; fail closed sends only approved text or blocks the call"
+/>
+
 Put the gate in a shared server-side model wrapper, after assembling the prompt, retrieved passages and conversation history. Send only the approved output. Retries and alternate model routes must use the same gate; adding the original ticket as context defeats it.
 
 The scrubber adapter must check the entire input against your configured entity, language and confidence rules before approving it. Block unsupported input, partial processing, malformed responses and uncertain detections. HTTP success or an empty detection list alone does not prove that all checks ran.
@@ -36,7 +45,14 @@ The scrubber adapter must check the entire input against your configured entity,
 
 ## Block the call when the scrubber fails
 
-**Synthetic example:** Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
+<boxEmbed
+  style="info"
+  body={<>
+    **Synthetic example:** Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ```typescript
 async function summariseBad(text: string, scrub: Scrubber, model: Model) {
