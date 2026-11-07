@@ -24,6 +24,15 @@ Whenever you keep an AI output, keep a linked provenance record: the evidence of
 
 <endIntro />
 
+<imageEmbed
+  alt="Diagram comparing a saved Northwind product description stored as text alone, which leaves the model, prompt, source rows and trigger unknown, with the same output linked by run-1042 to a provenance record that resolves to retained evidence and finds other outputs from prompt v7"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The run ID turns a saved description into a traceable result"
+  src="/uploads/rules/record-ai-run-provenance/output-with-provenance-receipt.png"
+/>
+
 ## Link the record to the output revision
 
 Give each run an ID and link it to the exact output revision. Store the record with the output or in durable storage it references. Populate it from application code, using the request, response and execution context; do not ask the model to report its own provenance.
@@ -35,7 +44,7 @@ Keep the record for as long as you keep the output. An [operational trace](/use-
 * **Model** - Provider, requested model ID and actual model/version returned, when available. Mark unavailable versions as unknown; a model alias can change.
 * **Prompt and code** - Retained prompt/template version, including system instructions and output schema, its variables, and application release.
 * **Settings** - Parameters actually sent, such as temperature, output limit and seed where supported. Distinguish explicit values from provider defaults.
-* **Inputs** - Retained snapshots or versioned records, plus a content hash to check that the inputs match. A hash verifies content; it cannot restore it. A live URL or current row ID alone cannot recover an earlier value.
+* **Inputs** - Retained snapshots or versioned records, plus a content hash. A hash verifies content but cannot restore it, and a live URL or current row ID cannot recover an earlier value.
 * **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references. Use protected references for sensitive payloads. Record none when unused.
 * **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that initiated it. For multiple calls, record each call and identify which produced the saved output.
 
@@ -102,6 +111,12 @@ Northwind saves a generated description. Both examples use the same invented out
 
 The snapshot contains the rows supplied to the model, so this run has no tool calls or retrieval steps. The prompt version and snapshot resolve to retained content; the hash checks the snapshot's exact bytes. A maintainer can find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
 
+## Record retries and fallbacks
+
+When a run retries or switches models, record each attempt's ID, requested and actual model, reason, timing and validation outcome. Mark unavailable model versions as unknown. Link the saved output to the attempt or combination that produced it, rather than recording only the first requested model.
+
+Use approved fallback routes and keep enough detail to find affected outputs for review or regeneration. A failed attempt must remain visible as a failure, even when a later attempt succeeds.
+
 ## Keep the evidence usable
 
 1. **Save the output and its record together.** Use one database transaction, or a sidecar file linked to the output revision by a hash. Preserve the previous revision's record when replacing an output.
@@ -109,9 +124,3 @@ The snapshot contains the rows supplied to the model, so this run has no tool ca
 3. **Test the trail.** Pick a saved output and find its run, prompt version and original inputs without consulting today's configuration. Then find other outputs from the same prompt or model version.
 
 Provenance helps reconstruct a run; it does not guarantee identical text or a correct answer. Use [evals](/run-evals-on-ai-features) to compare quality after a model or prompt change. For AI-assisted code, also keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR.
-
-## Record retries and fallbacks
-
-When a run retries or switches models, record each attempt's ID, requested and actual model, reason, timing and validation outcome. Mark unavailable model versions as unknown. Link the saved output to the attempt or combination that produced it, rather than recording only the first requested model.
-
-Use approved fallback routes and keep enough detail to find affected outputs for review or regeneration. A failed attempt must remain visible as a failure, even when a later attempt succeeds.
