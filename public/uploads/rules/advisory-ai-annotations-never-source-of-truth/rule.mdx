@@ -36,6 +36,8 @@ Separate storage lets you discard or regenerate suggestions without changing app
 
 Use a visible label such as **AI-generated · Advisory · Not approved** beside the suggestion. Keep official values in their own section, with their approval history. Let users inspect the source evidence, reject the suggestion or request an authorised change. A confidence score is not an approval.
 
+## Example: Northwind credit approval
+
 In this fictional Northwind example, `CreditLimitApproved` is a Boolean field controlled by credit approvers. The same AI output, **credit risk: low**, appears in both screens. The customer has an overdue invoice, so the suggestion needs checking.
 
 <imageEmbed
@@ -44,7 +46,7 @@ In this fictional Northwind example, `CreditLimitApproved` is a Boolean field co
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Illustration · example data: an AI risk label becomes official approval and releases an order without evidence review"
+  figure="The AI label overwrites the approver's false, and the order is released with no one checking the overdue invoice"
 />
 
 The job maps the AI label to `CreditLimitApproved = true`, replacing the approver's `false`. The order workflow reads the official field and releases the order. An AI label does not make this unauthorised write safe.
@@ -55,7 +57,7 @@ The job maps the AI label to `CreditLimitApproved = true`, replacing the approve
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Illustration · example data: a separate suggestion preserves the approved value and leaves the order on hold for an approver"
+  figure="The AI label is stored as a separate suggestion, so the official value stays false and the order waits for an approver"
 />
 
 The job writes `AiSuggestion S-104` instead. The official field stays `false`. An approver checks invoice NW-4102 and the credit policy before deciding whether to change it. Rejection changes the suggestion's status, leaving the official value intact.
