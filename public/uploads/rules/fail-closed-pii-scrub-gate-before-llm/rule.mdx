@@ -1,0 +1,179 @@
+---
+type: rule
+title: Do you block LLM calls when PII scrubbing fails?
+seoDescription: Keep personal data out of LLM requests with a fail-closed PII scrub gate that blocks errors and timeouts, records safe metrics, and tests the failure path.
+guid: 3eb6edd9-6a65-4757-8822-9c8d240e23e1
+uri: fail-closed-pii-scrub-gate-before-llm
+created: 2026-11-06T01:47:57.864Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/de-identified-data/rule.mdx
+  - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+A support-ticket summariser can leak personal data when its scrubber fails. If the error handler sends the original ticket to the large language model (LLM), the privacy control fails with it.
+
+Make personally identifiable information (PII) scrubbing **fail closed**: an error, timeout or uncertain result blocks the LLM call. Never send raw or partially scrubbed data as a fallback.
+
+<endIntro />
+
+## Require approval before calling the model
+
+[De-identifying data](/de-identified-data) explains what to remove. This rule covers failure: **no approved scrub result means no model request**. It applies [OWASP's fail-securely principle](https://owasp.org/www-community/Fail_securely) before the LLM call.
+
+<imageEmbed
+  src="/uploads/rules/fail-closed-pii-scrub-gate-before-llm/fail-open-vs-fail-closed-pii-gate.png"
+  alt="Two flows for a synthetic Northwind ticket from Mira Vale. Fail open: the scrubber throws, the catch block continues and the LLM receives the name, email and phone number. Fail closed: the gate requires an approved result; an error, timeout or unconfirmed result blocks the request, makes zero model calls and records blocked / scrubber_error."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Fail open sends the original ticket after a scrubber error; fail closed sends only approved text or blocks the call"
+/>
+
+The diagram shows `scrubber_error` for a thrown error. Timeouts record `scrubber_timeout`; missing approval records `unconfirmed`. All three block the model call.
+
+Put the gate in a shared server-side model wrapper, after assembling the prompt, retrieved passages and conversation history. Send only the approved output. Retries and alternate model routes must use the same gate; adding the original ticket as context defeats it.
+
+The scrubber adapter must check the entire input against your configured entity, language and confidence rules before approving it. Block unsupported input, partial processing, malformed responses and uncertain detections. HTTP success or an empty detection list alone does not prove that all checks ran.
+
+[Presidio](https://presidio.dataprivacystack.org/) and [Azure AI Language PII detection](https://learn.microsoft.com/en-us/azure/ai-services/language-service/personally-identifiable-information/overview) provide detection and redaction components. Automated detection can miss personal data: approval means the configured checks passed, not that the text is anonymous. Test detection quality with representative synthetic cases, minimise input, and run the scrubber in an approved processing environment.
+
+## Block the call when the scrubber fails
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Synthetic example:** Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
+  </>}
+  figurePrefix="none"
+  figure="Synthetic Northwind ticket used by both code examples"
+/>
+
+```typescript
+async function summariseBad(text: string, scrub: Scrubber, model: Model) {
+  try {
+    const result = await scrub(text, new AbortController().signal);
+    if (result.status === "approved") text = result.text;
+  } catch {
+    // Continue even though the privacy check failed.
+  }
+  return model(text);
+}
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind result (synthetic data):** The scrubber throws. The model receives the original name, email and phone number.
+  </>}
+  figurePrefix="bad"
+  figure="A scrubber exception leaves the original ticket intact and sends its contact details to the model"
+/>
+
+The corrected wrapper sets a deadline and requires explicit approval. `Scrubber` defines the application contract; adapt the vendor response to it. The injected `record` function receives only fixed decision and reason codes.
+
+```typescript
+type ScrubResult =
+  | { status: "approved"; text: string }
+  | { status: "blocked" };
+type Scrubber = (text: string, signal: AbortSignal) => Promise<ScrubResult>;
+type Model = (text: string) => Promise<string>;
+type Reason = "approved" | "scrubber_error" | "scrubber_timeout" | "unconfirmed";
+type RecordDecision = (decision: "allowed" | "blocked", reason: Reason) => void;
+
+class ScrubTimeout extends Error {}
+export class PrivacyGateBlocked extends Error {
+  constructor() {
+    super("Summary blocked: privacy check unavailable or unconfirmed.");
+  }
+}
+
+export async function summarise(
+  text: string, scrub: Scrubber, model: Model, record: RecordDecision,
+  timeoutMs = 2_000
+) {
+  const controller = new AbortController();
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  let result: ScrubResult;
+  try {
+    const deadline = new Promise<never>((_, reject) => {
+      timer = setTimeout(() => {
+        reject(new ScrubTimeout());
+        controller.abort();
+      }, timeoutMs);
+    });
+    result = await Promise.race([scrub(text, controller.signal), deadline]);
+  } catch (error) {
+    record("blocked", error instanceof ScrubTimeout
+      ? "scrubber_timeout" : "scrubber_error");
+    throw new PrivacyGateBlocked();
+  } finally {
+    clearTimeout(timer);
+  }
+
+  if (result?.status !== "approved" || typeof result.text !== "string") {
+    record("blocked", "unconfirmed");
+    throw new PrivacyGateBlocked();
+  }
+  record("allowed", "approved");
+  return model(result.text);
+}
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Northwind result (synthetic data):** The scrubber throws. The application records blocked / scrubber_error, returns a privacy-check error and makes zero model requests.
+  </>}
+  figurePrefix="good"
+  figure="An error, deadline or missing approval records a blocked decision and exits before the model call"
+/>
+
+Choose a suitable timeout; two seconds is an example. The wrapper stops waiting even if the scrubber ignores cancellation, and a late result cannot trigger the model call. The scrubber itself must never call the model.
+
+Map `PrivacyGateBlocked` to a message such as “Summary unavailable; view the ticket in the support system.” A fallback must not send raw or partially scrubbed text to any model.
+
+## Test zero outbound model calls
+
+Save the good wrapper as `gate.ts` and the test as `gate.test.ts`. Run `node --test gate.test.ts` with Node.js 24. The test includes the synthetic ticket in a scrubber exception and checks for a safe error, a safe metric and zero model calls.
+
+```typescript
+import test from "node:test";
+import assert from "node:assert/strict";
+import { summarise, PrivacyGateBlocked } from "./gate.ts";
+
+test("scrubber failure blocks the model without logging the ticket", async () => {
+  const ticket = "Mira Vale, mira.vale@example.com, +1 202-555-0142: damaged parcel";
+  let modelCalls = 0;
+  const events: string[][] = [];
+
+  await assert.rejects(summarise(
+    ticket,
+    async () => { throw new Error(ticket); },
+    async () => { modelCalls++; return "summary"; },
+    (decision, reason) => { events.push([decision, reason]); }
+  ), PrivacyGateBlocked);
+
+  assert.equal(modelCalls, 0);
+  assert.deepEqual(events, [["blocked", "scrubber_error"]]);
+});
+```
+
+**Figure: A forced scrubber error produces one safe blocked event and zero model calls**
+
+Before releasing the gate:
+
+* Confirm zero model calls for a timeout, a late success, an unconfirmed or malformed result, and partial processing
+* Confirm successful redaction sends only the expected scrubbed text, with no raw ticket reattached
+* Check logs, traces, exception reports and metrics for leaked data. Record only a server-generated correlation ID and fixed reason codes; exclude tickets, detected values and scrubber exception messages
+* Disable prompt and body capture on this route, following [OWASP's logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html#data-to-exclude)
+* Alert on blocked-decision rates and investigate without weakening the gate
+
+Keep the gate alongside [broader AI security controls](/manage-security-risks-when-adopting-ai-solutions), including the input validation, redaction and restricted data access recommended by [OWASP LLM02:2025](https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/).
