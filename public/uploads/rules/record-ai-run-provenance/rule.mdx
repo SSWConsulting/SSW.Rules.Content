@@ -26,22 +26,18 @@ Whenever you keep an AI output, keep a linked provenance record: the evidence of
 
 ## Link the record to the output revision
 
-Give each run an ID and link the saved output's exact revision to it. Store the provenance with the output, or in a durable record it references. Generate these fields in application code from the request, response and execution context; do not ask the model to describe its own provenance.
+Give each run an ID and link it to the exact output revision. Store the record with the output or in durable storage it references. Populate it from application code, using the request, response and execution context; do not ask the model to report its own provenance.
 
-[Instrumenting AI calls](/use-opentelemetry) helps diagnose operations, and [monitoring cost and usage](/monitor-ai-cost-and-usage) helps control spend. This record answers a different question: **How was this particular saved result produced?** Keep it available for the result's retention period, even when operational traces are sampled or expire. A trace ID can be an extra link; it is insufficient if the trace is no longer available.
+Keep the record for as long as you keep the output. An [operational trace](/use-opentelemetry) can help investigate a run, but it may be sampled or expire before the saved result does.
 
-The [W3C PROV data model](https://www.w3.org/TR/prov-dm/) describes entities, the activities that produce them and the people or software responsible. For an AI feature, these correspond to the inputs and output, the run, and its initiator.
+## Record what produced the result
 
-## Capture the conditions that affect the result
-
-* **Model** - Provider, requested model ID and actual model/version returned, when exposed. Record an unavailable version as unknown; an alias is not evidence of a fixed version.
-* **Instructions and implementation** - Immutable prompt/template version, its variables or protected input reference, and application release. Retain the referenced template, including system instructions and output schema.
-* **Parameters** - The settings actually sent, such as temperature, output limit and seed where supported. Distinguish explicit values from provider defaults.
-* **Inputs** - A retained snapshot or versioned row/document identifiers that resolve to what the run saw. A current row ID or live URL alone cannot recover an earlier value; a hash can check content but cannot restore it.
-* **Tools and retrieval** - Ordered tool calls with version, arguments, outcomes and result references; retrieved document/chunk IDs and versions. Record none when unused. Reference protected payloads instead of copying sensitive content into logs.
-* **Run and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that initiated it. For several model calls, retain each call's conditions and identify the call or combination that produced the saved output.
-
-[OpenTelemetry's GenAI conventions](https://github.com/open-telemetry/semantic-conventions-genai/tree/main/docs/gen-ai) define fields for inference, tool execution and retrieval. They are under development: use the conventions supported by your instrumentation and version your own stored record. The following YAML is an application example, not an OpenTelemetry or PROV interchange format.
+* **Model** - Provider, requested model ID and actual model/version returned, when available. Mark unavailable versions as unknown; a model alias can change.
+* **Prompt and code** - Retained prompt/template version, including system instructions and output schema, its variables, and application release.
+* **Settings** - Parameters actually sent, such as temperature, output limit and seed where supported. Distinguish explicit values from provider defaults.
+* **Inputs** - Retained snapshots or versioned records, plus a content hash to check that the inputs match. A hash verifies content; it cannot restore it. A live URL or current row ID alone cannot recover an earlier value.
+* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references. Use protected references for sensitive payloads. Record none when unused.
+* **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that initiated it. For multiple calls, record each call and identify which produced the saved output.
 
 ## Keep the receipt with the result
 
@@ -86,9 +82,10 @@ Northwind saves a generated description. Both examples use the same invented out
         temperature: 0.2
         max_output_tokens: 128
       input_snapshot: catalogue-snapshot-2026-11-06-001
+      input_sha256: 63d8c26e8796af1d92b068e487c3d510ab529f64e37a8c90245f6b107d29ae83
       source_rows:
-      - Products/42@4
-      - Categories/3@2
+        - Products/42@4
+        - Categories/3@2
       tool_calls: []
       retrieval_sources: []
       started_at: '2026-11-06T01:00:00Z'
@@ -103,22 +100,18 @@ Northwind saves a generated description. Both examples use the same invented out
   figure="Revision 3 links to run-1042, prompt v7 and the source rows used to generate it"
 />
 
-Here, the application supplies rows directly from the retained snapshot, so there are no tool calls or retrieval steps. The versioned prompt and snapshot resolve to retained content. A maintainer can now find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
+The snapshot contains the rows supplied to the model, so this run has no tool calls or retrieval steps. The prompt version and snapshot resolve to retained content; the hash checks the snapshot's exact bytes. A maintainer can find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
 
-## Preserve the evidence without collecting everything
+## Keep the evidence usable
 
-1. **Save the link reliably.** For a database output, commit its revision and provenance together in one transaction. For a file, retain a sidecar or manifest bound to that file revision, for example by its digest. Keep the previous revision's provenance when replacing an output.
-2. **Protect and retain deliberately.** Restrict access to inputs, prompts and tool payloads; keep secrets out. Set retention and deletion rules for the output and its evidence together. If source content must be deleted earlier, record that limitation rather than claiming the run can still be reconstructed. [OpenTelemetry's content-capture guidance](https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/gen-ai-spans.md#capturing-instructions-inputs-and-outputs) treats model content as sensitive and supports references to separate storage.
-3. **Check the trail works.** Pick a saved output revision and resolve its run, prompt version and original inputs without consulting today's configuration. Query for other outputs from that prompt or model version. After a model change, use [evals](/run-evals-on-ai-features) to compare quality; provenance supplies the conditions, not a guarantee of identical text or a correct answer.
+1. **Save the output and its record together.** Use one database transaction, or a sidecar file linked to the output revision by a hash. Preserve the previous revision's record when replacing an output.
+2. **Protect the content.** Restrict access to prompts, inputs and tool payloads. Keep secrets out of the record and set retention and deletion rules for the output and its evidence together. If inputs must be deleted earlier, record that limitation.
+3. **Test the trail.** Pick a saved output and find its run, prompt version and original inputs without consulting today's configuration. Then find other outputs from the same prompt or model version.
 
-For media distributed outside your application, consider [C2PA Content Credentials](https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html) to carry signed, tamper-evident provenance. A plain metadata record does not provide that protection, and even signed provenance does not prove the content is true.
+Provenance helps reconstruct a run; it does not guarantee identical text or a correct answer. Use [evals](/run-evals-on-ai-features) to compare quality after a model or prompt change. For AI-assisted code, also keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR.
 
-For AI-assisted code changes, keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR as well. Run metadata explains how an output was generated; the decision record explains why the change was wanted.
+## Record retries and fallbacks
 
-## Make fallback routes visible in the record
+When a run retries or switches models, record each attempt's ID, requested and actual model, reason, timing and validation outcome. Mark unavailable model versions as unknown. Link the saved output to the attempt or combination that produced it, rather than recording only the first requested model.
 
-Approve model fallback routes before enabling them. Evaluate each replacement on the same cases and check its quality threshold and data-handling boundary. Inspect gateway and provider routing too; a requested deployment name does not prove which model ran. Make degraded operation visible and retain a way to find and reprocess affected outputs.
-
-Bound the whole run by attempt count, timeout and spend. Retry transient failures with bounded backoff; retry truncation with a larger supported output allowance only within that budget. Reject malformed or incomplete output and validate task-specific meaning before saving. A refusal, permission failure or policy denial is not permission to try another model to bypass it. When no approved route succeeds, expose a failed or pending-review state instead of storing an empty success.
-
-For every attempt, record the requested route, actual provider/model/version when exposed, attempt ID, reason for retry or fallback, validation outcome and timing. Mark unavailable version evidence as unknown. Link the saved output to the attempt or combination that produced it, keeping protected payload references rather than sensitive content in logs. Generate and validate before the business write, then save with duplicate protection so a model retry cannot repeat that write.
+Use approved fallback routes and keep enough detail to find affected outputs for review or regeneration. A failed attempt must remain visible as a failure, even when a later attempt succeeds.
