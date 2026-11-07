@@ -1,0 +1,115 @@
+---
+type: rule
+title: Do you run persistent, event-driven AI agents?
+seoDescription: Connect Operations, Delivery and Research in an event-driven agent loop, with saved hand-offs, restart recovery and human approval for consequential actions.
+guid: 45e90542-1a95-4ad7-b61a-07c3f2337b1f
+uri: persistent-event-driven-agents
+created: 2026-10-31T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/agentic-workflows/rule.mdx
+  - rule: public/uploads/rules/chain-agentic-workflows-together/rule.mdx
+  - rule: public/uploads/rules/use-transactional-outbox-pattern/rule.mdx
+  - rule: public/uploads/rules/cloud-ai-agents/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+Your coding agent fixes a bug when you ask. Meanwhile, a ready backlog item waits for someone to start it, and an interrupted investigation loses its owner. Recurring work depends on someone remembering to type another prompt.
+
+Use **persistent, event-driven agents to hand work between Operations, Delivery and Research**. Operations monitors production and passes investigated bugs to Delivery, which also takes ready backlog items. Delivery asks Research to investigate only when uncertainty blocks implementation, then uses the findings to prepare a tested pull request. After human review and approved deployment, Operations monitors the result and feeds new issues back into the loop.
+
+Saved ownership and progress keep these hand-offs moving after a restart. People set the scope and approve consequential actions; they do not need to prompt every step.
+
+<endIntro />
+
+## Start with one useful trigger
+
+Choose a repeatable job that needs judgement, such as investigating a new production error or implementing a ready product backlog item (PBI). Use ordinary automation for deterministic steps such as refreshing a dashboard. A one-off question rarely needs a persistent agent.
+
+For the hosting decision, see [when to use AI agents in the cloud](/cloud-ai-agents). Design durable ownership and recovery across runs, whether the agent is hosted locally or in the cloud.
+
+Define the event, eligibility criteria, permitted actions, expected output and human owner before enabling the trigger. For example: when a PBI becomes ready, the Delivery agent may prepare one tested pull request (PR), with the assigned developer responsible for reviewing it.
+
+Prefer a webhook when the source provides one. Scheduled polling is reasonable when it does not, or when delayed detection is acceptable. Check for changes before invoking the model: **no relevant change means no new agent work**. See [GitHub's webhook guidance](https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks) for event filtering and delivery identifiers.
+
+## Give each hand-off an owner
+
+Start with one agent. Split roles when the work needs different tools or permissions:
+
+| Role | Trigger | Output and next owner |
+| --- | --- | --- |
+| Operations | Production deployment or error | An investigated bug with reproduction steps and affected release, assigned to Delivery |
+| Delivery | Ready PBI or investigated bug | A tested PR for a human reviewer, or a focused question for Research |
+| Research | Uncertainty blocks Delivery's implementation | Findings and a recommendation returned to Delivery |
+
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/operations-delivery-research-handoffs.png"
+  alt="In the agent zone, all three roles share a durable work record. Operations monitors production and passes an investigated bug to Delivery; ready PBIs from the backlog join the same entry. Only when uncertain, Delivery sends Research a blocking question, such as how a supplier API reports lead times, and receives findings and an approach. Delivery plans, then implements one tested PR. In the people zone, a developer reviews the PR and people approve merge and deployment. The approved release reaches production, and production feedback returns to Operations."
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Operations feeds Delivery, Research resolves uncertainty, and Delivery implements a tested PR. After human review and release, production feedback returns to Operations"
+/>
+
+**Implementation is a Delivery step**, with a tested PR as its output. The PR links the PBI or bug, explains how the change meets its acceptance criteria, and records the tests run and their results. Research is optional: when the requirements and approach are clear, Delivery proceeds directly.
+
+For example, Operations investigates a Northwind production error after release 2.4 and hands Delivery the reproduction steps, relevant logs and affected release. If the fix depends on an unclear supplier API behaviour, Delivery asks Research that specific question. Research returns its evidence and recommended approach so Delivery can implement and test the fix. Northwind is a fictional example.
+
+**Agents do not deploy.** A human reviews the PR and authorises merge and release through the team's release process. Operations then monitors production for the original error and any regression; findings become the next investigated bug for Delivery.
+
+Each hand-off includes the work key, acceptance criteria, evidence and next step. Save the new owner and pending hand-off together so a restart cannot lose the transfer. For a Research request, include the blocking question and what decision its answer must support. If the evidence is inconclusive, return the uncertainty to Delivery's human owner instead of guessing or repeating the investigation indefinitely.
+
+## Persist ownership and progress
+
+Persistence means that work survives a process restart. Store the queue and checkpoints durably; one chat or process does not need to remain open forever. [Microsoft's workflow checkpoint documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints) explains storage options and resuming saved work. In-memory storage alone cannot survive a process restart.
+
+Use a database table or durable workflow store to record each item's source, revision, owner, status, evidence, next step and output links. Claim work atomically and use an expiring lease so a crashed worker does not leave it stuck forever. Renew leases during long work and reject writes from workers whose lease has expired.
+
+Design for duplicate delivery and interrupted actions. Use a stable work key, such as the source system plus PBI ID and ready revision. A delivery ID identifies a notification; several notifications may describe the same work. Serialise writes for that key.
+
+Before retrying a write, reconcile its outcome or use a destination-supported idempotency key. If the outcome is uncertain, pause for a human instead of writing again. A crash after creating a PR but before saving its URL must not lead to another PR. See [how to make handlers safe to retry](/use-transactional-outbox-pattern).
+
+## Compare the same event with and without persistence
+
+Northwind PBI 314, "Show supplier lead times", becomes ready at revision 7. In both illustrations, Delivery opens PR 82, then crashes before saving its URL. These synthetic screens use **example data**.
+
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/session-only-duplicate-pr.png"
+  alt="Session-only progress for Northwind PBI 314, revision 7, disappears after a crash. A fresh run opens PR 83 while PR 82 already exists, leaving two PRs and a lost hand-off."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Lost session state makes the restarted worker repeat the work and open duplicate PR 83"
+/>
+
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/durable-record-reconciled-pr.png"
+  alt="A durable record saves the work key, owner, Research-to-Delivery hand-off, evidence and next step. After lease expiry, a replacement worker reconciles the branch, finds PR 82 and resumes it without creating PR 83."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Saved ownership and evidence let the replacement worker reconcile PR 82: one work item, one PR"
+/>
+
+After the lease expires, the replacement worker claims the same work key and checks PRs for `agent/northwind-pbi-314-r7`, including closed PRs. It saves PR 82's URL and resumes its checks. A repeated revision-7 event adds no second work item.
+
+GitHub's [list pull requests API](https://docs.github.com/en/rest/pulls/pulls#list-pull-requests) supports filtering by head branch and PR state. If the lookup fails or leaves the outcome uncertain, pause instead of creating another PR.
+
+## Bound the loop and verify recovery
+
+Give each job limits for attempts, elapsed time and spend. Pause exhausted work and notify its human owner. Provide a way to disable the trigger and stop active runs. Filter agent-generated events so updates cannot trigger an endless cycle.
+
+Validate event sources and treat issue text, logs and retrieved content as untrusted data. Give agents [only the tools and credentials their roles need](/give-users-least-privileges). Keep **merge, deploy and delete behind human approval**, with a control for each action:
+
+* **Merge** - Use [branch protection with required reviews](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches). Require a human reviewer and prevent the agent from approving its own work, bypassing protection or pushing directly to the protected branch
+* **Deploy** - Use [deployment environment controls](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments) with required human reviewers, self-review prevented and approval bypasses disabled
+* **Delete** - Keep deletion credentials in a separate execution path controlled by a human
+
+Feature availability depends on the repository and plan. Keep the agent's identity unable to change these controls. A prompt saying "ask first" is insufficient.
+
+Before unattended use, test in a sandbox: deliver the same event twice, restart the worker before and after a write, and exhaust a retry limit. Confirm that each work key produces one intended result, the next owner can resume from saved evidence, and blocked work reaches a human. Also attempt a prohibited action and verify that permissions reject it. Record events, hand-offs, checks and approvals against the PBI so a reviewer can explain why the change happened.
