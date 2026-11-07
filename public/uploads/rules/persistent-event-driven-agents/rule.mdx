@@ -43,9 +43,9 @@ Start with one agent. Split roles when the work needs different tools or permiss
 
 | Role | Trigger | Output and next owner |
 | --- | --- | --- |
-| Operations | New deployment or error | A bug with reproduction steps and release evidence, assigned to Delivery |
+| Operations | Production deployment or error | An investigated bug with reproduction steps and affected release, assigned to Delivery |
 | Delivery | Ready PBI or investigated bug | A tested PR for a human reviewer, or a focused question for Research |
-| Research | An unresolved implementation question | Findings and a recommendation returned to Delivery |
+| Research | Uncertainty blocks Delivery's implementation | Findings and a recommendation returned to Delivery |
 
 <imageEmbed
   src="/uploads/rules/persistent-event-driven-agents/operations-delivery-research-handoffs.png"
@@ -56,11 +56,13 @@ Start with one agent. Split roles when the work needs different tools or permiss
   figure="Operations feeds Delivery, Research resolves uncertainty, and Delivery implements a tested PR. After human review and release, production feedback returns to Operations"
 />
 
-**Implementation is a Delivery step**, with a tested PR as its output. Research is an optional detour: when the requirements and approach are clear, Delivery proceeds directly. After human review and approved deployment, production feedback gives Operations the next event to assess.
+**Implementation is a Delivery step**, with a tested PR as its output. The PR links the PBI or bug, explains how the change meets its acceptance criteria, and records the tests run and their results. Research is optional: when the requirements and approach are clear, Delivery proceeds directly.
 
-Each hand-off includes the work key, acceptance criteria, evidence and next step. Persist the new owner and pending hand-off together so a restart cannot lose the transfer.
+For example, Operations investigates a Northwind production error after release 2.4 and hands Delivery the reproduction steps, relevant logs and affected release. If the fix depends on an unclear supplier API behaviour, Delivery asks Research that specific question. Research returns its evidence and recommended approach so Delivery can implement and test the fix. Northwind is a fictional example.
 
-[Agentic workflows](/agentic-workflows) and [chained workflows](/chain-agentic-workflows-together) can form a **software factory** that coordinates implementation, testing and review. The durable work record tracks progress across those executions.
+**Agents do not deploy.** A human reviews the PR and authorises merge and release through the team's release process. Operations then monitors production for the original error and any regression; findings become the next investigated bug for Delivery.
+
+Each hand-off includes the work key, acceptance criteria, evidence and next step. Save the new owner and pending hand-off together so a restart cannot lose the transfer. For a Research request, include the blocking question and what decision its answer must support. If the evidence is inconclusive, return the uncertainty to Delivery's human owner instead of guessing or repeating the investigation indefinitely.
 
 ## Persist ownership and progress
 
