@@ -29,9 +29,7 @@ lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 ---
 
-Measure twice, cut once. Before any non-trivial change, always create **and review** a plan with AI. An AI plan is only as good as the human review it receives. The Discuss step in the Plan → Discuss → Implement → Review workflow is where your domain knowledge and judgment provide the most value. See the SSW rule on [AI-assisted development](https://www.ssw.com.au/rules/ai-assisted-development-workflow).
-
-Reviewing the plan is what separates professional AI-assisted development from vibe coding.
+An AI coding plan can look convincing while misunderstanding the requirements or relying on features that do not exist. Before a non-trivial change, **create and review a plan** with AI. Use the Discuss step in the [AI-assisted development workflow](/ai-assisted-development-workflow) to check its assumptions, scope and approach before implementation.
 
 <endIntro />
 
@@ -39,34 +37,34 @@ Reviewing the plan is what separates professional AI-assisted development from v
 
 ## Why plan review matters
 
-Catching problems at the plan stage is dramatically cheaper than catching them after implementation (both in development costs as well as tokens):
+Reviewing a plan costs less time and fewer tokens than reworking an implementation. Look for:
 
-* **Wrong assumptions** - The AI may have misunderstood requirements or made incorrect assumptions about your architecture
-* **Scope creep** - The plan may include unnecessary changes that increase the scope of the change without you intending it to
-* **Better alternatives** - You may have more domain specific knowledge and know of a more effective approach that the AI didn't consider
-* **Multiple iterations** - Reviewing and refining the plan leads to much better outcomes than approving the first draft
-
-Modifying a plan is cheap, re-implementing a feature is expensive.
+* **Wrong assumptions** - Check the AI's understanding of requirements and architecture
+* **Scope creep** - Remove changes the task does not need
+* **Better alternatives** - Apply domain knowledge the AI may lack
+* **Unresolved feedback** - Check that revisions address your concerns before approval
 
 ## Verify scope-changing premises before estimating
 
-Identify the assumptions that would materially change the work if wrong, such as an existing table, reusable service, available API or data owner. Check these before estimating or approving the dependent plan steps.
+Before estimating or approving a plan, check assumptions that would materially change the work if wrong. For example, does the table, reusable service or API the plan relies on exist?
 
-* **Find primary evidence** - Read definitions, callers, migrations and configuration at the relevant source revision; a matching class name alone proves little
-* **Check the relevant system** - When code cannot settle the claim, use authorised read-only schema checks, sanitised logs or a safe reproduction. Record the environment and check date
-* **Revise the plan** - Mark each premise verified, refuted or unverified, link the evidence and update the tasks and estimate
+* **Find primary evidence** - Read definitions, callers, migrations and configuration at the relevant source revision. A matching class name is not enough
+* **Check the relevant system** - If code cannot settle the claim, use authorised read-only checks such as schema queries or sanitised logs. Record the environment and check date
+* **Revise the plan** - Mark each premise **verified**, **refuted** or **unverified**, link the evidence, and update the tasks and estimate
 
-No search matches means **unverified**, not absent: the capability may use another name or live in another service. In a synthetic Northwind example, an AI plan proposes inserting a freight-surcharge row. Checking the schema and calculation shows no surcharge lookup at that revision, so the plan needs storage and calculation work as well as data entry. The surcharge policy still needs its owner's decision.
+No search matches means **unverified**, not absent: the capability may have another name or live in another service.
 
-Keep evidence and remaining unknowns with the PBI. Use a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) when a technical unknown prevents a useful estimate, and leave business-policy questions with the Product Owner.
+In a synthetic Northwind example, an AI plan proposes adding a freight-surcharge row. The schema and calculation at the checked revision show no surcharge lookup. The plan therefore needs storage and calculation work as well as data entry. The surcharge policy still needs its owner's decision.
+
+Keep the evidence and remaining unknowns with the PBI. Use a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) when a technical unknown prevents a useful estimate; refer business-policy questions to the Product Owner.
 
 ## The traditional approach
 
-The original way to review AI plans is to discuss back and forth with your AI agent directly, such as in the terminal, or inside of your editor if you wanted to have more control by reading the raw `PLAN.md` file yourself.
+Review the plan in your agent's chat, or open `PLAN.md` in your editor to read and edit it directly.
 
-### Terminal - Discussing and iterating with your AI Agent
+### Terminal - Discuss the plan
 
-The simplest approach to reviewing the plan is directly inside of the chat interface with your AI Agent, describing the modifications to your plan that you want.
+Quote the relevant section in chat and explain what should change.
 
 <boxEmbed
   style="greybox"
@@ -77,9 +75,9 @@ The simplest approach to reviewing the plan is directly inside of the chat inter
   figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
-### Editor - Overview of the actual plan file itself
+### Editor - Review the whole plan
 
-For more direct control over just reading summaries inside of the terminal, you can open the generated plan file (e.g. `PLAN.md`) inside your editor alongside the chat session with your agent. This gives you a visual overview of the whole plan at once.
+Open `PLAN.md` alongside the chat to review the whole plan rather than relying on the agent's summary.
 
 * **Edit manually** - Revise the plan directly in the markdown file, then ask the AI to implement from the updated version
 * **Cursor** - Built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
