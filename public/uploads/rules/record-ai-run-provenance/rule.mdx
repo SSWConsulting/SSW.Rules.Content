@@ -25,11 +25,11 @@ Whenever you keep an AI output, keep a linked provenance record: the evidence of
 <endIntro />
 
 <imageEmbed
-  alt="Diagram comparing a saved Northwind product description stored as text alone, which leaves the model, prompt, source rows and trigger unknown, with the same output linked by run-1042 to a provenance record that resolves to retained evidence and finds other outputs from prompt v7"
+  alt="Diagram: a saved Northwind description as text alone leaves its model, prompt and inputs unknown; linked to run-1042, it resolves to retained evidence and to other outputs from prompt v7"
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="The run ID turns a saved description into a traceable result"
+  figure="Overview - text alone vs output + receipt: the run ID makes a saved description traceable"
   src="/uploads/rules/record-ai-run-provenance/output-with-provenance-receipt.png"
 />
 
@@ -41,12 +41,14 @@ Keep the record for as long as you keep the output. An [operational trace](/use-
 
 ## Record what produced the result
 
-* **Model** - Provider, requested model ID and actual model/version returned, when available. Mark unavailable versions as unknown; a model alias can change.
-* **Prompt and code** - Retained prompt/template version, including system instructions and output schema, its variables, and application release.
-* **Settings** - Parameters actually sent, such as temperature, output limit and seed where supported. Distinguish explicit values from provider defaults.
-* **Inputs** - Retained snapshots or versioned records, plus a content hash. A hash verifies content but cannot restore it, and a live URL or current row ID cannot recover an earlier value.
-* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references. Use protected references for sensitive payloads. Record none when unused.
-* **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that initiated it. For multiple calls, record each call and identify which produced the saved output.
+* **Model** - Provider, requested model ID and the actual model/version returned
+* **Prompt and code** - Retained prompt/template version (including system instructions and output schema), its variables and the application release
+* **Settings** - Parameters actually sent, such as temperature, output limit and seed (where supported)
+* **Inputs** - Retained snapshots or versioned records, plus a content hash
+* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references (or none when unused)
+* **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that started it
+
+Mark a model version as unknown when the provider does not return one, because an alias can change. Distinguish explicit settings from provider defaults. A hash verifies inputs but cannot restore them, and a live URL or current row ID cannot recover an earlier value. Use protected references for sensitive tool payloads. For runs with multiple calls, record each call and identify which produced the saved output.
 
 ## Keep the receipt with the result
 
@@ -77,7 +79,6 @@ Northwind saves a generated description. Both examples use the same invented out
     description: Lemon tea for a bright afternoon.
     run_id: run-1042
     provenance:
-      run_id: run-1042
       schema_version: 1
       provider: example-ai
       requested_model: catalogue-text-3.2-2026-10-01
