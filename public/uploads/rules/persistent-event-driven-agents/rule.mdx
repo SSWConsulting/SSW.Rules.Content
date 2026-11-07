@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you run persistent, event-driven AI agents?
-seoDescription: Use persistent, event-driven AI agents for recurring work, recovery after restarts and duplicate prevention, with human approval for consequential actions.
+seoDescription: Connect Operations, Delivery and Research in an event-driven agent loop, with saved hand-offs, restart recovery and human approval for consequential actions.
 guid: 45e90542-1a95-4ad7-b61a-07c3f2337b1f
 uri: persistent-event-driven-agents
 created: 2026-10-31T00:00:00.000Z
@@ -21,7 +21,9 @@ isArchived: false
 
 Your coding agent fixes a bug when you ask. Meanwhile, a ready backlog item waits for someone to start it, and an interrupted investigation loses its owner. Recurring work depends on someone remembering to type another prompt.
 
-Give recurring work to **persistent agents that react to events and save their progress**. People set the scope and approve consequential actions; they do not need to start every investigation.
+Use **persistent, event-driven agents to hand work between Operations, Delivery and Research**. Operations monitors production and passes investigated bugs to Delivery, which also takes ready backlog items. Delivery asks Research to investigate only when uncertainty blocks implementation, then uses the findings to prepare a tested pull request. After human review and approved deployment, Operations monitors the result and feeds new issues back into the loop.
+
+Saved ownership and progress keep these hand-offs moving after a restart. People set the scope and approve consequential actions; they do not need to prompt every step.
 
 <endIntro />
 
@@ -35,16 +37,6 @@ Define the event, eligibility criteria, permitted actions, expected output and h
 
 Prefer a webhook when the source provides one. Scheduled polling is reasonable when it does not, or when delayed detection is acceptable. Check for changes before invoking the model: **no relevant change means no new agent work**. See [GitHub's webhook guidance](https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks) for event filtering and delivery identifiers.
 
-## Persist ownership and progress
-
-Persistence means that work survives a process restart. Store the queue and checkpoints durably; one chat or process does not need to remain open forever. [Microsoft's workflow checkpoint documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints) explains storage options and resuming saved work. In-memory storage alone cannot survive a process restart.
-
-Use a database table or durable workflow store to record each item's source, revision, owner, status, evidence, next step and output links. Claim work atomically and use an expiring lease so a crashed worker does not leave it stuck forever. Renew leases during long work and reject writes from workers whose lease has expired.
-
-Design for duplicate delivery and interrupted actions. Use a stable work key, such as the source system plus PBI ID and ready revision. A delivery ID identifies a notification; several notifications may describe the same work. Serialise writes for that key.
-
-Before retrying a write, reconcile its outcome or use a destination-supported idempotency key. If the outcome is uncertain, pause for a human instead of writing again. A crash after creating a PR but before saving its URL must not lead to another PR. See [how to make handlers safe to retry](/use-transactional-outbox-pattern).
-
 ## Give each hand-off an owner
 
 Start with one agent. Split roles when the work needs different tools or permissions:
@@ -55,9 +47,30 @@ Start with one agent. Split roles when the work needs different tools or permiss
 | Delivery | Ready PBI or investigated bug | A tested PR for a human reviewer, or a focused question for Research |
 | Research | An unresolved implementation question | Findings and a recommendation returned to Delivery |
 
+<imageEmbed
+  src="/uploads/rules/persistent-event-driven-agents/operations-delivery-research-handoffs.png"
+  alt="Operations monitors production and passes investigated bugs to Delivery. Ready PBIs also enter Delivery. When uncertain, Delivery asks Research for findings, then implements a tested PR. Human review and approved deployment return the result to production and Operations monitoring."
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Operations feeds Delivery; Research resolves uncertainty; Delivery implements and returns the result to production monitoring"
+/>
+
+**Implementation is a Delivery step**, with a tested PR as its output. Research is an optional detour: when the requirements and approach are clear, Delivery proceeds directly. After human review and approved deployment, production feedback gives Operations the next event to assess.
+
 Each hand-off includes the work key, acceptance criteria, evidence and next step. Persist the new owner and pending hand-off together so a restart cannot lose the transfer.
 
 [Agentic workflows](/agentic-workflows) and [chained workflows](/chain-agentic-workflows-together) can form a **software factory** that coordinates implementation, testing and review. The durable work record tracks progress across those executions.
+
+## Persist ownership and progress
+
+Persistence means that work survives a process restart. Store the queue and checkpoints durably; one chat or process does not need to remain open forever. [Microsoft's workflow checkpoint documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints) explains storage options and resuming saved work. In-memory storage alone cannot survive a process restart.
+
+Use a database table or durable workflow store to record each item's source, revision, owner, status, evidence, next step and output links. Claim work atomically and use an expiring lease so a crashed worker does not leave it stuck forever. Renew leases during long work and reject writes from workers whose lease has expired.
+
+Design for duplicate delivery and interrupted actions. Use a stable work key, such as the source system plus PBI ID and ready revision. A delivery ID identifies a notification; several notifications may describe the same work. Serialise writes for that key.
+
+Before retrying a write, reconcile its outcome or use a destination-supported idempotency key. If the outcome is uncertain, pause for a human instead of writing again. A crash after creating a PR but before saving its URL must not lead to another PR. See [how to make handlers safe to retry](/use-transactional-outbox-pattern).
 
 ## Compare the same event with and without persistence
 
