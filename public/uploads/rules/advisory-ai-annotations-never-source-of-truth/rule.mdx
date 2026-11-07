@@ -1,0 +1,80 @@
+---
+type: rule
+title: Do you keep AI annotations separate from authoritative data?
+seoDescription: Keep AI tags, summaries and risk flags advisory, labelled and separate from official records, with evidence checks before they affect consequential decisions.
+guid: e842ce32-7cac-4703-ad2e-ed3a662d6a0b
+uri: advisory-ai-annotations-never-source-of-truth
+created: 2026-11-06T01:58:29.353Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+  - rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI-generated tag, summary or risk flag can look like an established fact when it appears beside a customer record. If a background job writes that guess into an official field, reports and workflows can act on it without an evidence check.
+
+Keep AI annotations **advisory, labelled as AI-generated and separate from authoritative data**. An AI annotation must never overwrite an official value. Before it affects a consequential decision, require human review of the evidence or an independent check that applies approved business rules to official records.
+
+<endIntro />
+
+## Store suggestions without changing official fields
+
+Store AI tags, summaries, risk flags and notes in a separate record, such as `AiSuggestion`. Keep the original record intact. Allow the annotation writer to create suggestions, but deny it permission to update official fields.
+
+Record what the suggestion applies to, its value, model and version, generation time, source records and revisions, and review status. These details help reviewers find the evidence and spot outdated suggestions. Apply the source data's access controls and retention requirements to annotations too; summaries can reveal restricted information.
+
+Separate storage lets you discard or regenerate suggestions without changing approved facts.
+
+## Show the boundary in the interface
+
+Use a visible label such as **AI-generated · Advisory · Not approved** beside the suggestion. Keep official values in their own section, with their approval history. Let users inspect the source evidence, reject the suggestion or request an authorised change. A confidence score is not an approval.
+
+## Example: Northwind credit approval
+
+In this fictional Northwind example, `CreditLimitApproved` is a Boolean field controlled by credit approvers. The same AI output, **credit risk: low**, appears in both screens. The customer has an overdue invoice, so the suggestion needs checking.
+
+<imageEmbed
+  src="/uploads/rules/advisory-ai-annotations-never-source-of-truth/northwind-ai-overwrites-approval.png"
+  alt="Northwind illustration: the AI low-risk label overwrites CreditLimitApproved from false to true without an approver, releasing order NW-7008 despite an overdue invoice."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The AI label overwrites the approver's false, and the order is released with no one checking the overdue invoice"
+/>
+
+The job maps the AI label to `CreditLimitApproved = true`, replacing the approver's `false`. The order workflow reads the official field and releases the order. An AI label does not make this unauthorised write safe.
+
+<imageEmbed
+  src="/uploads/rules/advisory-ai-annotations-never-source-of-truth/northwind-ai-advisory-suggestion.png"
+  alt="Northwind illustration: CreditLimitApproved stays false and order NW-7008 stays on hold. A separate AiSuggestion shows low risk, AI-generated advisory status, model, time and invoice evidence for review."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The AI label is stored as a separate suggestion, so the official value stays false and the order waits for an approver"
+/>
+
+The job writes `AiSuggestion S-104` instead. The official field stays `false`. An approver checks invoice NW-4102 and the credit policy before deciding whether to change it. Rejection changes the suggestion's status, leaving the official value intact.
+
+## Check evidence before approving a change
+
+For consequential actions such as credit approval, eligibility or account restrictions, an AI label must not be the sole input. A reviewer needs the underlying records, authority to reject the suggestion and a recorded reason for any official change. Merely clicking **Accept** does not address [automation bias](/avoid-automation-bias).
+
+An automated check must apply an approved business rule to official records, independently of the AI's conclusion. Checking that an AI label says "low", that its JSON is valid or that another model agrees does not verify the decision. In the Northwind example, only a credit approver changes `CreditLimitApproved`.
+
+Record the approver, time, evidence and before/after values through the normal authorised update path. If source records change before approval, mark the suggestion stale and require another check. Keep the original annotation separate from the approval history, even after a human adopts the suggested value.
+
+## Verify the boundary end to end
+
+* **Storage and API** - Generating, refreshing or rejecting an annotation leaves authoritative values unchanged; the annotation writer cannot bypass this through another endpoint.
+* **Display and export** - Labels and review status travel with suggestions into dashboards, CSV exports and API responses, so consumers can distinguish them from official facts.
+* **Downstream decisions** - Consequential workflows read approved fields or independently checked evidence. Removing advisory annotations must not change an already approved decision.
+* **Failure and staleness** - Missing, failed or stale AI output means no current suggestion; it never becomes a default "low risk" or automatic approval.
+
+This adds a storage and decision boundary to [indicating when AI helped](/indicate-ai-helped). Attribution tells readers where content came from; the boundary controls what the application can treat as authoritative.
