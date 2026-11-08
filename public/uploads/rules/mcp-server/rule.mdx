@@ -30,15 +30,29 @@ Think of MCP as a "USB port" for AI applications: a common protocol through whic
 * **Without MCP** - Separate client-specific connectors multiply the integrations you maintain.
 * **With MCP** - Compatible clients share one tool interface, while your application controls the operations it exposes.
 
-MCP standardizes the connection; your implementation still needs authentication, authorization and safe handling of tool calls. It does not automatically update deployed integrations or make them secure.
+<imageEmbed
+  src="/uploads/rules/mcp-server/with-mcp.png"
+  alt="Diagram of an AI application connected over MCP to GitHub, a database, web APIs, Slack, Gmail and a local filesystem"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="One protocol connects an AI application to many tools and data sources"
+/>
 
-![Streamlined connections through an MCP server](/uploads/rules/mcp-server/with-mcp.png)
+MCP standardizes the connection; your implementation still needs authentication, authorization and safe handling of tool calls. It does not automatically update deployed integrations or make them secure.
 
 ## Keep business logic behind a thin MCP adapter
 
 Implement and test an operation in a shared application service or existing API before exposing it as an MCP tool. Keep business calculations, input constraints and resource permission checks in that core. Add a CLI when people or CI also need the operation; a tested library is enough when nobody needs a terminal command.
 
-The MCP adapter describes the tool, validates protocol inputs, obtains the authenticated caller, invokes the core and maps domain results into safe tool responses. Obtain identity from trusted authentication context, never model-supplied roles or caller arguments. The core still checks access to the requested resource. Follow the [MCP tools specification](https://modelcontextprotocol.io/specification/latest/server/tools) for protocol behaviour.
+The MCP adapter only translates between the protocol and that core:
+
+* Describe the tool and validate protocol inputs
+* Obtain the caller from trusted authentication context, never from model-supplied roles or caller arguments
+* Invoke the core, which still checks access to the requested resource
+* Map domain results into safe tool responses
+
+Follow the [MCP tools specification](https://modelcontextprotocol.io/specification/latest/server/tools) for protocol behaviour.
 
 For example, synthetic Northwind stock has 20 units on hand, 8 reserved and 4 quarantined: 8 are available. A CLI and MCP handler with separate calculations can disagree if one forgets quarantine. Calling the same inventory service makes that rule one implementation to maintain.
 
