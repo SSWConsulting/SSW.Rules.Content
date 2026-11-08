@@ -31,8 +31,7 @@ lastUpdatedByEmail: sammaher@ssw.com.au
 archivedreason: null
 ---
 
-The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
-This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline. Creating Draft Pull Requests will also trigger GitHub Workflows so developers get early feedback on the quality of their changes.
+Draft Pull Requests show work in progress so teammates can collaborate and give feedback early. They help improve code quality, reduce duplicate work, and make ongoing changes visible. Draft Pull Requests can also trigger GitHub Workflows, giving developers early feedback when the workflows are configured to run on drafts.
 
 <endIntro />
 
@@ -45,19 +44,21 @@ This approach enhances code quality, reduces duplication, and helps to maintain 
 
 ## Verify compatibility before marking ready
 
-Before handing the PR to reviewers:
+Before handing the PR to reviewers, check that it works with current `main`:
 
-1. Fetch current `main` and inspect changes in the areas the PR touches. Reduce redundant work if main already solves the problem.
-2. Update the feature branch using the repository's merge or rebase convention, coordinating any shared history changes. Resolve textual conflicts.
-3. Check semantic compatibility too: renamed APIs, changed contracts, overlapping work and migrations can break behaviour even when Git combines the text cleanly. Use disposable environments for migration checks.
-4. Restore dependencies, rebuild and run the relevant tests on the combined result. Confirm CI covers the updated revision or its test merge; an old green run or a skipped draft suite supplies no evidence for the new combination.
-5. Record the tested main and PR commits, check links, manual verification and remaining limits in the PR description. Fetch again before handoff and repeat affected checks if main advances.
+1. **Fetch `main`.** Inspect changes in the areas the PR touches. Remove redundant work if `main` already solves the problem.
+2. **Update the feature branch.** Follow the repository's merge or rebase convention, coordinate any shared history changes, and resolve textual conflicts.
+3. **Check semantic compatibility.** Renamed APIs, changed contracts, overlapping work, and migrations can break behaviour even when Git combines the text cleanly. Check migrations in disposable environments.
+4. **Test the combined revision.** Restore dependencies, rebuild, and run relevant tests. Confirm CI covers the updated revision or its test merge. An old green run or a skipped draft suite does not verify the new combination.
+5. **Record the evidence.** In the PR description, list the tested `main` and PR commits, links to check results, manual verification, and remaining limits. Fetch again before handoff; if `main` advances, update the branch and repeat affected checks.
 
-Leave the PR in draft when verification is blocked and state the blocker. Readiness is a point-in-time check; [branch protection](/protect-your-main-branch) keeps integration requirements in force as main moves during review.
+Leave the PR in draft if verification is blocked, and state the blocker in the PR description.
+
+Readiness is a point-in-time check. Use [branch protection](/protect-your-main-branch) to enforce integration requirements as `main` moves during review.
 
 ## Clearly marking your Pull Requests
 
-Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `🚧 WIP: &#123;&#123;PR Title&#125;&#125;` to clearly show that it is a Draft Pull Request.
+A draft status can be easy to overlook on GitHub. Add a title prefix like `🚧 WIP: &#123;&#123;PR Title&#125;&#125;` to make work in progress easier to spot.
 
 ### GitHub
 
