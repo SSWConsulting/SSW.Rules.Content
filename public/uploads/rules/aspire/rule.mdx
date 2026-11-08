@@ -16,7 +16,7 @@ guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 
 A cloud-native app can leave you juggling APIs, databases, caches, and a growing pile of connection strings. Getting a fresh clone running becomes a hunt for the right ports, secrets, and startup order.
 
-.NET Aspire brings local orchestration, integrations, and diagnostics together so you can focus on the app instead of wiring services by hand.
+.NET Aspire brings local orchestration and integrations together so you can focus on the app instead of wiring services by hand. Its AppHost project is the local orchestrator that wires resources.
 
 <endIntro />
 
@@ -81,7 +81,7 @@ services.AddStackExchangeRedisCache(options =>
 });
 ```
 
-**Figure: Manual setup - Redis setup and application configuration must be kept in sync**
+**Figure: Bad example - Redis setup and application configuration must be kept in sync manually**
 
 Docker Compose remains a valid choice. Aspire removes this example's manual connection wiring; it does not remove the need to configure each environment.
 
