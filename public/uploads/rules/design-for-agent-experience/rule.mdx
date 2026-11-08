@@ -32,6 +32,26 @@ Designing for AX means making your product easy for an AI agent to discover and 
 * **Fewer screenshot-and-guess loops** - Expose a task as one structured call instead of a sequence of clicks
 * **Clearer permissions** - A named tool with a schema is easier to approve than "click anything on the page"
 
+The same fictional Northwind task - export orders - can stall behind a human-only step or complete through a tool with scoped access configured in advance.
+
+<imageEmbed
+  src="/uploads/rules/design-for-agent-experience/northwind-human-gated-ui.png"
+  alt="Northwind order export: the agent guesses from screenshots, enters a wizard, then reaches a login pop-up requiring a person."
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Screenshot navigation reaches a human-only login - unattended work stops until someone responds"
+/>
+
+<imageEmbed
+  src="/uploads/rules/design-for-agent-experience/northwind-structured-tool.png"
+  alt="Northwind order export: with scoped access already configured, the agent calls export_orders with a since date and receives structured order data."
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="A documented MCP tool completes the export in one structured call; a CLI can expose the same operation"
+/>
+
 ## How is AX different from UX?
 
 People navigate an app using visual cues and shared context. Design the agent interface around explicit inputs, discoverable operations and structured results instead of leaving it to infer your intent.
@@ -53,17 +73,11 @@ Pick by where the agent runs. The three surfaces complement each other, so many 
 
 ### CLI
 
-A CLI runs locally without hosting a tool server, and shell-based agents call it directly. Make it agent-friendly:
+Let shell-based agents pass flags without interactive prompts and request structured output. Reject unknown flags and return meaningful exit codes.
 
-* **Never prompt** - Take input from flags and environment variables, not interactive questions
-* **Output structured data** - Offer `--json` or similar, with an explicit empty result when nothing matches
-* **Fail clearly** - Return meaningful exit codes, and reject unknown flags instead of ignoring them
+For single-result commands, document one JSON document on stdout, including failures; send diagnostics to stderr. Document streaming separately.
 
-#### Give CLI errors a stable contract
-
-For commands that return a single result, document a machine-readable mode that writes one JSON document to stdout, including on failure. Use stable error codes for programmatic decisions, readable messages for explanation and a non-zero exit status on failure. Send progress and diagnostics to stderr so callers can parse stdout directly.
-
-For example, a fictional Northwind export command rejects an invalid date with exit status 2 and this JSON on stdout. The exit value and response shape are specific to Northwind:
+This fictional Northwind error uses exit status 2. Its response shape and exit values are an example contract:
 
 ```json
 {
@@ -79,21 +93,17 @@ For example, a fictional Northwind export command rejects an invalid date with e
 
 **Figure: The stable code drives the caller's decision; the message and hint explain it**
 
-Every outcome keeps the same shape, so a caller can tell an empty result from a failure without parsing prose:
-
 | Outcome | Exit status | `ok` | `data` | `error` |
 | --- | --- | --- | --- | --- |
 | Rows found | 0 | `true` | `[...]` | `null` |
 | No rows match | 0 | `true` | `[]` | `null` |
 | Invalid date | 2 | `false` | `null` | `{"code": "INVALID_DATE", ...}` |
 
-Document error codes and compatibility guarantees, then verify the contract:
+Callers should:
 
-* **Separate the streams** - Callers parse stdout and read stderr as diagnostics. Keep secrets out of both
-* **Stop safely** - Callers reject unknown codes, missing or malformed output, and JSON that disagrees with the exit status. Never execute hints as commands
-* **Test every outcome** - Cover success, empty results, invalid flags, missing credentials and service errors, with logging enabled too. Check parseable output and matching exit status
-
-Streaming commands need their own documented framing.
+* **Branch on documented codes** - Use stable codes, not message text; never execute hints
+* **Reject inconsistent output** - Stop on unknown codes, malformed JSON or a mismatched exit status
+* **Verify the contract** - Test success, empty results and failures with diagnostics enabled; keep secrets out of both streams
 
 ### MCP server
 
