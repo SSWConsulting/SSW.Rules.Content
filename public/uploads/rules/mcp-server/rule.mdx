@@ -45,23 +45,35 @@ The MCP adapter only translates between the protocol and that core:
 
 Follow the [MCP tools specification](https://modelcontextprotocol.io/specification/latest/server/tools) for protocol behaviour.
 
-Synthetic Northwind stock has 20 units on hand, 8 reserved and 4 quarantined: **8 are available**. These C# sketches show the same operation through two entry points.
+### Example: one stock rule, two entry points
+
+A Northwind warehouse item has 20 units on hand, 8 reserved and 4 quarantined, so **8 are available**. Both a CLI command and an MCP tool report that number.
 
 ```csharp
-// Separate calculations drift: the CLI forgets quarantine.
-int CliAvailable() => stock.OnHand - stock.Reserved; // 12
-int McpAvailable() => stock.OnHand - stock.Reserved - stock.Quarantined; // 8
+// Each adapter copies the stock rule, and the copies drift.
+int CliAvailable(Stock stock) => stock.OnHand - stock.Reserved;                     // 12 - forgot quarantine
+int McpAvailable(Stock stock) => stock.OnHand - stock.Reserved - stock.Quarantined; // 8
 ```
 
-**❌ Figure: Bad example - Duplicated stock rules make the CLI report 12 available while MCP reports 8**
+**❌ Figure: Bad example - Each adapter has its own calculation, so the CLI reports 12 available while MCP reports 8**
 
 ```csharp
-// InventoryService owns the calculation and resource permission checks.
-int CliAvailable() => inventoryService.GetAvailable(caller, itemId); // 8
-int McpAvailable() => inventoryService.GetAvailable(caller, itemId); // 8
-// Shared calculation: 20 on hand - 8 reserved - 4 quarantined = 8.
+// Both adapters only delegate to the shared core.
+int CliAvailable(Caller caller, string itemId) => inventory.GetAvailable(caller, itemId); // 8
+int McpAvailable(Caller caller, string itemId) => inventory.GetAvailable(caller, itemId); // 8
+
+// InventoryService - the one place the rule and the access check live.
+public int GetAvailable(Caller caller, string itemId)
+{
+    var stock = stockStore.GetForCaller(caller, itemId); // denies warehouses the caller can't access
+    return stock.OnHand - stock.Reserved - stock.Quarantined; // 20 - 8 - 4 = 8
+}
 ```
 
-**✅ Figure: Good example - Both thin adapters call the same InventoryService, leaving one stock rule to maintain**
+**✅ Figure: Good example - Both adapters call InventoryService, so a stock rule change is made and tested once**
 
-When exposing both CLI and MCP entry points, test them with the same caller and stock snapshot, including unknown items, zero stock and denied warehouse access. Share domain regression tests and add adapter checks for schemas, error mapping and CLI exit status. Release each interface with the updated core; sharing source does not update already deployed binaries.
+### Test and release both entry points
+
+* Run the same scenarios through the CLI and MCP with the same caller and stock snapshot: unknown item, zero stock and denied warehouse access
+* Keep domain regression tests on the shared core, and add adapter tests for tool schemas, error mapping and CLI exit codes
+* Release each interface with the updated core - sharing source does not update binaries that are already deployed
