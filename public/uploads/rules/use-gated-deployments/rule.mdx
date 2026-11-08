@@ -27,18 +27,18 @@ CI/CD pipelines automate building, testing, and deploying code. Before a product
 
 <endIntro />
 
-GitHub adds manual approval steps to workflows through the [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) feature.
+GitHub adds manual approval steps to workflows through the [environments](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments) feature.
 
 Environments also support per-environment secrets, timers, and protection rules. Feature availability depends on repository visibility and plan:
 
 * **Public** - environments are available on all current GitHub plans
-* **Private** - environments are available. Environment secrets and deployment branch policies need a paid plan; **Required reviewers need GitHub Enterprise Cloud**
+* **Private** - environments, environment secrets, and deployment branch policies require GitHub Pro, Team, or Enterprise; **required reviewers need GitHub Enterprise Cloud**
 
 Only repository administrators can configure environment reviewers, timers, and secrets.
 
 <boxEmbed
   body={<>
-    Without GitHub Enterprise Cloud you can't configure Required reviewers on private repos — so anyone with write access can release straight to prod. This matters more in the age of AI, where a junior can ship to prod without proper testing. See [GitHub Plans - Do you know which plan you need?](https://www.ssw.com.au/rules/which-github-plan)
+    Required reviewers on private repositories need GitHub Enterprise Cloud. Without that control, users with write access can trigger deployment workflows without a required reviewer's approval, subject to other deployment controls and plan limits. See [GitHub Plans - Do you know which plan you need?](/which-github-plan).
   </>}
   figurePrefix="none"
   figure=""
@@ -62,14 +62,14 @@ Here is a high-level workflow for building and deploying a project:
    * Build the UI application
    * Run unit tests
 2. Automatically deploy the applications to `dev`
-3. After review and manual approval by Release Master, deploy the applications to `staging`
-4. After review and manual approval by Release Master, deploy the applications to `prod`
+3. After review and manual approval by a required reviewer, deploy the applications to `staging`
+4. After review and manual approval by a required reviewer, deploy the applications to `prod`
 
-The Release Master uses approvals to control which changes reach `staging`, so new deployments do not disrupt testing.
+The required reviewer uses approvals to control which changes reach `staging`, so new deployments do not disrupt testing.
 
-Before approving a deployment to `prod`, the Release Master checks for known issues that could affect users.
+Before approving a deployment to `prod`, the required reviewer checks for known issues that could affect users.
 
-Here is an example of a workflow waiting for manual approval from a required reviewer before deploying to the `staging` environment:
+Here is an example of a workflow waiting for manual approval from a required reviewer before deploying to the `prod` environment:
 
 <imageEmbed alt="" size="large" showBorder={false} figurePrefix="none" figure="Waiting for manual approval to deploy to Prod" src="/uploads/rules/use-gated-deployments/github-approval-gate.png" />
 
@@ -86,14 +86,12 @@ The reviewer approves the deployment to let the job continue.
   style="greybox"
 />
 
-## Enforce human ownership for agent-assisted releases
+## Apply the gate to agent-assisted releases
 
-An agent can prepare a release without owning every step needed to ship it. Make the boundary enforceable through permissions and gates:
+An agent can prepare a release while a human controls approval of the production deployment:
 
 * **Separate identities:** Give the agent its own identity without the release owner's credentials, reviewer membership, or administrative access.
-* **Assign ownership:** For each reserved release step, record the human owner, the control that enforces the boundary, and the evidence needed to confirm completion.
-* **Choose the handoff:** Use **Human approval** when a pipeline deploys the approved artifact after a person approves it. Use **Human-only execution** when the person must perform the action. Review alone is insufficient if the agent can still merge or publish afterward.
-* **Gate production:** Require a human reviewer, prevent self-review, and disable administrator bypass where supported. The deployment job must reference the protected environment, with production credentials behind its gate. Remove alternative deployment credentials from the agent and protect changes to the gate itself. See [GitHub environment controls](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments).
-* **Protect other reserved actions:** A deployment gate does not cover a separate package-publishing job, release-branch merge, secret rotation, or customer announcement. Restrict each action at its destination, accounting for inherited roles, workflow access, registry tokens, and connected sessions.
-* **Hand over explicitly:** Let the agent prepare artifacts, then report **Awaiting human action** with the exact version, evidence links, remaining action, and responsible role.
-* **Verify the boundary:** In a disposable project with equivalent controls, use the agent's actual identity to check that each reserved operation is denied or waits for human approval, as intended. Confirm that the human path deploys only the reviewed artifact. Recheck after permission changes.
+* **Gate production:** Make the deployment job reference the protected production environment, with deployment credentials behind its human approval gate. Prevent self-review and administrator bypass where supported; protect changes to the gate and give the agent no alternative deployment credentials.
+* **Hand over explicitly:** Report **Awaiting human action** with the exact version, evidence links, remaining action, and release owner. State whether the human approves the pipeline deployment or must perform the action themselves.
+
+Verify the boundary in a disposable project with equivalent controls, using the agent's actual identity: deployment must wait for human approval, and the approved path must deploy only the reviewed artifact. Recheck after permission changes. A deployment gate does not protect separate actions such as package publishing or release-branch merges; restrict those separately when they are reserved for a human.
