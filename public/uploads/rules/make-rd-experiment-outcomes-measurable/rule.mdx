@@ -79,12 +79,18 @@ Summarize the measured comparison above in four short statements so readers see 
 * **Limits** - State exclusions and uncertainty, including when no valid uncertainty estimate is available
 * **Decision** - Name the next action, owner and review date or condition; mark unapproved recommendations as pending
 
-Synthetic Northwind example (illustrative numbers, not measured evidence):
+<boxEmbed
+  style="greybox"
+  body={<>
 
-* **Verdict** - Batched export reduced median completion time from 10 seconds to 6 seconds compared with row-by-row export
-* **Scope** - 20 runs per approach on the same 10,000-order dataset and test machine; one dataset, not 20 independent samples
-* **Limits** - Concurrent exports and production workloads were not tested; no uncertainty estimate is available
-* **Decision** - Northwind's performance lead will test concurrent exports before deciding whether to adopt batched export
+    * **Verdict** - Batched export reduced median completion time from 10 seconds to 6 seconds compared with row-by-row export
+    * **Scope** - 20 runs per approach on the same 10,000-order dataset and test machine; one dataset, not 20 independent samples
+    * **Limits** - Concurrent exports and production workloads were not tested; no uncertainty estimate is available
+    * **Decision** - Northwind's performance lead will test concurrent exports before deciding whether to adopt batched export
+  </>}
+  figurePrefix="good"
+  figure="A synthetic Northwind report opening (illustrative numbers, not measured evidence) gives the result and its boundaries together"
+/>
 
 Follow the opening with the hypothesis, success criteria, method, full results and reproducible evidence. Read only the opening before sharing it: a forwarded excerpt should still say what was tested, what remains uncertain and who acts next.
 
