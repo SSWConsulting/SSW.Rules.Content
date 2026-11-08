@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you design your app for agent experience (AX)?
-seoDescription: Help AI agents complete tasks reliably. Learn how agent experience (AX), structured CLI errors, MCP servers and WebMCP tools improve your app.
+seoDescription: Pop-up logins and wizards waste agent time and tokens. Design better agent experience (AX) with CLIs, stable error contracts, MCP servers and WebMCP tools.
 guid: 4d1f64a2-66d3-4694-b9a6-edaf9ef1c240
 uri: design-for-agent-experience
 created: 2026-11-01T21:52:32.000Z
@@ -18,11 +18,9 @@ archivedreason: null
 isArchived: false
 ---
 
-Most apps are built for people. Good user interfaces and user experience (UX) help them find features and complete tasks.
+Pop-up logins and multi-step wizards make agents guess from screenshots and burn tokens navigating your UI. Human-only steps stop unattended work.
 
-AI agents use these apps too. Navigating pop-up logins and multi-step wizards through screenshots takes extra time and tokens, and can leave an unattended task stuck.
-
-Agent experience (AX) is the experience of an agent using your product. Give agents a front door - a CLI, an MCP server, or WebMCP tools - so they can complete tasks through explicit operations and structured data.
+Agent experience (AX) is the experience of an agent using your product. Give agents a front door - a CLI, an MCP server, or WebMCP tools - to complete tasks through explicit operations and structured data.
 
 <endIntro />
 
@@ -30,17 +28,17 @@ Agent experience (AX) is the experience of an agent using your product. Give age
 
 Designing for AX means making your product easy for an AI agent to discover and use reliably. Command names, tool descriptions, schemas and error messages become its interface.
 
-* **Reliable tools keep tasks moving** - An unexpected human-only step can block an unattended agent
-* **Fewer screenshot-and-guess loops** - A structured call can replace a sequence of clicks
+* **Agents pick tools that work** - When your flow needs a human mid-task, an unattended agent has to stop or use another tool
+* **Fewer screenshot-and-guess loops** - Expose a task as one structured call instead of a sequence of clicks
 * **Clearer permissions** - A named tool with a schema is easier to approve than "click anything on the page"
 
 ## How is AX different from UX?
 
-People use visual cues and shared context to navigate an app. Agents can interpret screens and infer meaning too, but explicit inputs, discoverable operations and structured results reduce guesswork.
+People navigate an app using visual cues and shared context. Design the agent interface around explicit inputs, discoverable operations and structured results instead of leaving it to infer your intent.
 
-* **Make inputs explicit** - A person may understand an unlabeled icon or "a couple of days". Give an agent named operations and defined units
+* **Make inputs explicit** - A person interprets familiar icons and phrases like "a couple of days". Give an agent named operations and defined units
 * **Make operations discoverable** - A person browses menus. Let an agent list commands, tools and schemas, with documentation explaining their use
-* **Make errors actionable** - A person may call support after "Something went wrong". An agent needs a stable error code and a clear next step
+* **Make errors actionable** - People have support teams to explain "Something went wrong". Give agents a stable error code and a clear next step
 * **Support unattended use** - A person can answer a pop-up. An unattended agent needs preconfigured access or a clear way to report that human input is required
 
 ## Which AX surface should you build?
@@ -55,7 +53,7 @@ Pick by where the agent runs. The three surfaces complement each other, so many 
 
 ### CLI
 
-A CLI can run locally without hosting a tool server, and shell-based agents can call it directly. Make it agent-friendly:
+A CLI runs locally without hosting a tool server, and shell-based agents call it directly. Make it agent-friendly:
 
 * **Never prompt** - Take input from flags and environment variables, not interactive questions
 * **Output structured data** - Offer `--json` or similar, with an explicit empty result when nothing matches
@@ -89,13 +87,13 @@ Every outcome keeps the same shape, so a caller can tell an empty result from a 
 | No rows match | 0 | `true` | `[]` | `null` |
 | Invalid date | 2 | `false` | `null` | `{"code": "INVALID_DATE", ...}` |
 
-Document error codes and compatibility guarantees. Callers should:
+Document error codes and compatibility guarantees, then verify the contract:
 
-* **Read the streams separately** - Parse stdout and treat stderr as diagnostics
-* **Stop safely when unsure** - Unknown codes, missing or malformed output, or JSON that disagrees with the exit status all mean stop
-* **Treat hints as advice** - Never execute a hint as a command
+* **Separate the streams** - Callers parse stdout and read stderr as diagnostics. Keep secrets out of both
+* **Stop safely** - Callers reject unknown codes, missing or malformed output, and JSON that disagrees with the exit status. Never execute hints as commands
+* **Test every outcome** - Cover success, empty results, invalid flags, missing credentials and service errors, with logging enabled too. Check parseable output and matching exit status
 
-Test success, empty results, invalid flags, missing credentials, service errors and logging-enabled runs. Preserve parseable output and consistent exit status in each case, and redact secrets from both streams. Streaming commands need their own documented framing.
+Streaming commands need their own documented framing.
 
 ### MCP server
 
@@ -111,7 +109,7 @@ WebMCP lets a web page register JavaScript tools that an in-browser agent can ca
   body={<>
     WebMCP is a Draft Community Group Report from the W3C Web Machine Learning Community Group. It is not a W3C Standard and not on the Standards Track.
 
-    Browser support and APIs are evolving. Check the linked specification and browser documentation for current availability and setup.
+    The API has [moved from `navigator.modelContext` to `document.modelContext`](https://github.com/webmachinelearning/webmcp/pull/184). Check the current specification and browser documentation before copying older examples.
   </>}
   figurePrefix="none"
   figure="WebMCP is experimental - check current support before adopting it"
@@ -126,7 +124,7 @@ WebMCP lets a web page register JavaScript tools that an in-browser agent can ca
 
 <boxEmbed
   body={<>
-    Give Claude Code your top 3 user tasks and only your CLI or MCP server to do them. Wherever it stalls, fix that spot. That is your AX backlog.
+    Give an AI coding agent your top 3 user tasks and only your CLI or MCP server to do them. Wherever it stalls, fix that spot. That is your AX backlog.
   </>}
   figurePrefix="none"
   figure="Find AX gaps by testing real tasks through your agent interface"
