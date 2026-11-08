@@ -45,15 +45,13 @@ People use visual cues and shared context to navigate an app. Agents can interpr
 
 ## Which AX surface should you build?
 
-These three surfaces can complement each other. Choose the ones that fit your users' tasks and where their agents run.
+Pick by where the agent runs. The three surfaces complement each other, so many products offer more than one.
 
 | Surface | Best for | Where it runs | Maturity |
 | --- | --- | --- | --- |
 | **CLI** | Dev tools and anything scriptable | The agent's shell | Stable - agents already write shell commands well |
-| **MCP server** | Exposing your system or data to any agent | Your server or a local process | Open standard |
+| **MCP server** | Exposing your system or data to any agent | Your server or a local process | Established - open standard with broad client support |
 | **WebMCP** | Actions inside the user's open browser tab | The user's browser | Early - draft spec, browser origin trials |
-
-Pick by where the agent runs: a CLI for agents in a shell, an MCP server for agents using an MCP client, and WebMCP for agents acting inside the user's open browser tab.
 
 ### CLI
 
@@ -70,14 +68,34 @@ For commands that return a single result, document a machine-readable mode that 
 For example, a fictional Northwind export command rejects an invalid date with exit status 2 and this JSON on stdout. The exit value and response shape are specific to Northwind:
 
 ```json
-{"ok":false,"data":null,"error":{"code":"INVALID_DATE","message":"The --since date is invalid.","hint":"Use a real date in YYYY-MM-DD format."}}
+{
+  "ok": false,
+  "data": null,
+  "error": {
+    "code": "INVALID_DATE",
+    "message": "The --since date is invalid.",
+    "hint": "Use a real date in YYYY-MM-DD format."
+  }
+}
 ```
 
-**Figure: Example data - A stable code identifies invalid input while the process reports failure**
+**Figure: The stable code drives the caller's decision; the message and hint explain it**
 
-A successful empty export returns exit 0 with `ok: true`, `data: []` and `error: null`. Document error codes and compatibility guarantees. Callers must capture stdout and stderr separately. Stop safely on unknown codes, missing or malformed output, or a mismatch between JSON and exit status. Treat hints as advice rather than executable commands.
+Every outcome keeps the same shape, so a caller can tell an empty result from a failure without parsing prose:
 
-Check success, empty results, invalid flags, missing credentials, service errors and logging-enabled runs. Preserve parseable output and consistent exit status in each case, and redact secrets from both streams. Streaming commands need their own documented framing.
+| Outcome | Exit status | `ok` | `data` | `error` |
+| --- | --- | --- | --- | --- |
+| Rows found | 0 | `true` | `[...]` | `null` |
+| No rows match | 0 | `true` | `[]` | `null` |
+| Invalid date | 2 | `false` | `null` | `{"code": "INVALID_DATE", ...}` |
+
+Document error codes and compatibility guarantees. Callers should:
+
+* **Read the streams separately** - Parse stdout and treat stderr as diagnostics
+* **Stop safely when unsure** - Unknown codes, missing or malformed output, or JSON that disagrees with the exit status all mean stop
+* **Treat hints as advice** - Never execute a hint as a command
+
+Test success, empty results, invalid flags, missing credentials, service errors and logging-enabled runs. Preserve parseable output and consistent exit status in each case, and redact secrets from both streams. Streaming commands need their own documented framing.
 
 ### MCP server
 
