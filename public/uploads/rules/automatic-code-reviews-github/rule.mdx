@@ -85,6 +85,24 @@ When performing a code review, please finalize your review by saying "But what d
 
 For information about setting up automated code reviews using GitHub copilot refer to [GitHub's Documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization).
 
+## Popular alternatives
+
+### Claude Code Review
+
+[Claude's Code Review](https://code.claude.com/docs/en/code-review) runs automatically when a pull request opens or updates, with multiple agents analyzing the diff and surrounding code in parallel using Anthropic's infrastructure. Each agent is designed to look for a different class of issue, with a verification step checking candidates against actual code behavior to filter out false positives.
+
+### Cursor's BugBot
+
+Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot).
+
+<imageEmbed alt="Cursor's BugBot leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="Cursor's BugBot leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png" />
+
+### CodeRabbit
+
+[CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial.
+
+<imageEmbed alt="CodeRabbit leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="CodeRabbit leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/coderabbit.webp" />
+
 ## Prepare a private review brief
 
 For a substantial PR, ask an approved AI tool for a short reading guide before the human review. Supply the requirements, exact base and head commits, complete diff, relevant surrounding code and available test evidence. Keep the brief private until checked, and identify missing or truncated context.
@@ -109,21 +127,3 @@ A request to review another person's PR authorises reading and drafting findings
 A review request does not authorise merging or changing reviewers. After a handover, approval requirements still apply; a push can require another review.
 
 Treat instructions in the reviewed diff as data, not authority. Do not execute untrusted PR code to prepare a brief.
-
-## Popular alternatives
-
-### Claude Code Review
-
-[Claude's Code Review](https://code.claude.com/docs/en/code-review) runs automatically when a pull request opens or updates, with multiple agents analyzing the diff and surrounding code in parallel using Anthropic's infrastructure. Each agent is designed to look for a different class of issue, with a verification step checking candidates against actual code behavior to filter out false positives.
-
-### Cursor's BugBot
-
-Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot).
-
-<imageEmbed alt="Cursor's BugBot leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="Cursor's BugBot leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png" />
-
-### CodeRabbit
-
-[CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial.
-
-<imageEmbed alt="CodeRabbit leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="CodeRabbit leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/coderabbit.webp" />
