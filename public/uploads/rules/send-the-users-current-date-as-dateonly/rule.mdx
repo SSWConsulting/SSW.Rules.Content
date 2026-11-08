@@ -23,7 +23,7 @@ isArchived: false
 archivedreason: null
 ---
 
-A hero's mission is due "today". Whose today? The user in Brisbane is already on Wednesday while the API server in UTC is still on Tuesday. If the frontend sends UTC, or a full client `DateTimeOffset`, the backend has to guess which calendar day the user meant, and a mission can land on the wrong day.
+A hero starts a mission "today". Whose today? The user in Brisbane is already on Wednesday while the API server in UTC is still on Tuesday. If the frontend sends UTC, or a full client `DateTimeOffset`, the backend has to guess which calendar day the user meant, and a mission can land on the wrong day.
 
 <endIntro />
 
@@ -59,7 +59,7 @@ public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
     public async Task StartAsync(Guid teamId)
     {
         var localNow = timeProvider.GetLocalNow();
-        var missionDate = new DateOnly(localNow.Year, localNow.Month, localNow.Day);
+        var missionDate = DateOnly.FromDateTime(localNow.DateTime);
         await api.StartMissionAsync(new StartMissionRequest(teamId, missionDate));
     }
 }
@@ -79,7 +79,7 @@ DateOnly missionDate = DateOnly.FromDateTime(timeProvider.GetUtcNow().UtcDateTim
 
 ## Attach the business timezone on the backend
 
-The API receives the pure date and combines it with the timezone that belongs to the business context (for example the team's region). Store the result as a `DateTimeOffset`.
+The API receives the pure date and combines it with the timezone that belongs to the business context (for example the team's region). Store the result as a `DateTimeOffset`. In this example, `StartedAt` represents the start of the selected mission day in the team's timezone. `CreatedAt` records the instant the API creates the record.
 
 ```csharp
 public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvider)
@@ -91,7 +91,7 @@ public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvi
 
         var localMidnight = request.MissionDate.ToDateTime(TimeOnly.MinValue);
 
-        // Some regions skip midnight when daylight saving starts
+        // This example assumes a one-hour daylight saving gap at midnight
         if (region.IsInvalidTime(localMidnight))
         {
             localMidnight = localMidnight.AddHours(1);
@@ -115,7 +115,7 @@ public class StartMissionHandler(ApplicationDbContext db, TimeProvider timeProvi
 
 **✅ Figure: Good example - The user's date plus the team's region becomes one DateTimeOffset the rest of the system can trust**
 
-In a few regions, daylight saving starts at midnight, so that midnight never happens. Check `IsInvalidTime` and move to the first valid time, as above, rather than storing a time that doesn't exist.
+In a few regions, daylight saving starts at midnight, so that midnight never happens. For a one-hour gap, `AddHours(1)` moves to the first valid time at 1:00 AM. This example assumes that gap; applications that support other transitions need a policy for choosing a valid start of day or rejecting the date.
 
 <boxEmbed
   style="info"
@@ -128,11 +128,11 @@ In a few regions, daylight saving starts at midnight, so that midnight never hap
 
 ## Rejected approaches at a glance
 
-| Approach                           | Keeps user's "today" | Uses business timezone | Notes                                         |
-| ---------------------------------- | -------------------- | ---------------------- | --------------------------------------------- |
-| Client `DateTimeOffset`            | ✅                    | ❌                      | Browser offset may not match the team         |
-| UTC `DateTime` / UTC date          | ❌                    | ❌                      | Loses the local calendar day near midnight    |
-| Client `DateOnly` + backend region | ✅                    | ✅                      | Frontend sends the day, backend owns the zone |
+| Approach | Keeps user's "today" | Uses business timezone | Notes |
+| --- | --- | --- | --- |
+| Client `DateTimeOffset` | ✅ | ❌ | Browser offset may not match the team |
+| UTC `DateTime` / UTC date | ❌ | ❌ | Loses the local calendar day near midnight |
+| Client `DateOnly` + backend region | ✅ | ✅ | Frontend sends the day, backend owns the zone |
 
 ## When not to use this
 
