@@ -21,7 +21,7 @@ A cloud-native app can leave you juggling APIs, databases, caches, and a growing
 <endIntro />
 
 <imageEmbed
-  alt="Image"
+  alt="Confused developer reading instructions while surrounded by a sea of building blocks"
   size="large"
   showBorder={false}
   figurePrefix="none"
@@ -32,7 +32,7 @@ A cloud-native app can leave you juggling APIs, databases, caches, and a growing
 <youtubeEmbed url="https://www.youtube.com/watch?v=59G9Cd-rV9w" description="Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)" />
 
 <imageEmbed
-  alt="Image"
+  alt=".NET Aspire overview: easy to get started, easy to build, and easy to deploy"
   size="large"
   showBorder={false}
   figurePrefix="none"
@@ -49,6 +49,21 @@ A cloud-native app can leave you juggling APIs, databases, caches, and a growing
 * Automatically setting up service discovery and environment variables
 * Providing tools to spin up local containers and configure dependencies
 * Simplifying complex setups with clear abstractions, reducing the need for low-level configuration
+
+## Integrations
+
+.NET Aspire integrations make it easy to connect to essential services:
+
+* Hosting integrations define resources in AppHost; client integrations configure connections and health checks in consuming services
+* Standardized interfaces reduce connection and telemetry boilerplate
+
+## Tooling and templates
+
+Use predefined templates and tooling to:
+
+* Generate projects with common configurations like health checks and telemetry
+* Save time with opinionated defaults for service discovery, logging, and monitoring
+* Kickstart new projects or integrate Aspire into existing .NET apps
 
 ## Make AppHost the local configuration entry point
 
@@ -67,21 +82,6 @@ See [Aspire external parameters](https://aspire.dev/fundamentals/external-parame
 3. Start AppHost and confirm web-to-API and API-to-dependency access without per-service edits. Having a value does not prove the credentials work.
 
 Document any extra configuration needed to launch a service outside AppHost.
-
-## Integrations
-
-.NET Aspire integrations make it easy to connect to essential services:
-
-* Hosting integrations define resources in AppHost; client integrations configure connections and health checks in consuming services
-* Standardized interfaces reduce connection and telemetry boilerplate
-
-## Tooling and Templates
-
-Use predefined templates and tooling to:
-
-* Generate projects with common configurations like health checks and telemetry
-* Save time with opinionated defaults for service discovery, logging, and monitoring
-* Kickstart new projects or integrate Aspire into existing .NET apps
 
 ---
 
@@ -107,7 +107,7 @@ Use predefined templates and tooling to:
        driver: local
    ```
 
-2. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments)
+2. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments).
 
    ```csharp
    var redisConnection = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING")
