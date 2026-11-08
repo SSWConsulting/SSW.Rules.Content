@@ -35,16 +35,6 @@ Teams should track key indicators such as:
 
 Use these indicators to identify expensive workflows and decide where to optimise usage.
 
-## Keep deterministic waiting outside model loops
-
-When completion has a clear condition, let a script, native wait command or completion event handle the wait. Use the model to choose the work and interpret the final result. Repeated **still running** responses do not need another model call.
-
-* **Bound the wait:** Identify the exact job and expected revision, set a deadline and respect rate limits.
-* **Return evidence:** Report success, failure or timeout with the job ID, exit status and evidence link. Use the agent environment's supported completion mechanism; writing a file alone does not wake an agent.
-* **Reconcile before retrying:** A local timeout does not cancel remote work. Check its status before starting another attempt.
-
-The wait makes no model calls, but setup, interpretation, compute and service requests can still cost money.
-
 ## Compare total spend with cost per accepted outcome
 
 Track total spend against a budget alongside **cost per accepted outcome**: all attributable costs divided by accepted outcomes, each counted once.
@@ -54,13 +44,51 @@ Track total spend against a budget alongside **cost per accepted outcome**: all 
 * **State the cost basis:** Use consistent currency and allocation rules, keep unattributed spend visible, and state whether hosting and human review are included alongside model charges.
 * **Handle zero acceptances:** Show **No accepted outcomes** instead of zero unit cost or division by zero.
 
-For illustration, in synthetic Northwind completed cohorts:
+For illustration, two synthetic Northwind completed cohorts:
 
-* Billed model spend rises from **$443 to $868**.
-* Accepted descriptions rise from **304 to 720**.
-* Cost per accepted description falls from **$1.46 to $1.21**.
+| Measure | Cohort A | Cohort B |
+| --- | --- | --- |
+| Billed model spend | $443 | $868 |
+| Accepted descriptions | 304 | 720 |
+| Cost per accepted description | $1.46 | $1.21 |
 
 This illustrates lower unit cost, not permission to breach the budget or lower acceptance quality. Reconcile spend and outcome counts independently, and investigate work-mix changes before attributing improvement to a model.
+
+## Keep deterministic waiting outside model loops
+
+When completion has a clear condition, let a script, native wait command or completion event handle the wait. Use the model to choose the work and interpret the final result. Repeated **still running** responses do not need another model call.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Model call: "Has CI run 4182 finished?" - Still running
+    2. Model call: "Has CI run 4182 finished?" - Still running
+    3. Model call: "Has CI run 4182 finished?" - Still running
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Every status check is another model call"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+```bash
+# The script waits; the model reads only the final result
+timeout 30m gh run watch "$RUN_ID" --interval 30 --exit-status
+echo "run=$RUN_ID exit=$?"
+```
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - A bounded script waits and returns the run ID and exit status"
+/>
+
+* **Bound the wait:** Identify the exact job and expected revision, set a deadline and respect rate limits.
+* **Return evidence:** Report success, failure or timeout with the job ID, exit status and evidence link. Use the agent environment's supported completion mechanism; writing a file alone does not wake an agent.
+* **Reconcile before retrying:** A local timeout does not cancel remote work. Check its status before starting another attempt.
+
+The wait makes no model calls, but setup, interpretation, compute and service requests can still cost money.
 
 ## Providing visibility through status updates
 
