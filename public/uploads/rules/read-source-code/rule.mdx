@@ -56,10 +56,12 @@ To sum up, the way to read the code is as follows:
 
 ## Match dependency source to the installed version
 
-When investigating a dependency, first record the behaviour question, resolved package version, runtime and relevant settings. Inspect the restored dependency graph or lock file, including transitive dependencies; a declared version range is not the version actually running.
+The default branch may describe behaviour that is absent from the installed package. Match the source to the version you are investigating before drawing conclusions.
 
-Read documentation and release notes, then follow the public API into source and tests at the matching release tag or commit. Save permalinks. The default branch can describe behaviour absent from the installed binary. Matching symbols and [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) can help locate original .NET source; record uncertainty if you cannot establish the match.
+1. **Define the question** - Record the behaviour you want to explain, the runtime and relevant settings.
+2. **Find the resolved version** - Check the restored dependency graph or lockfile, including transitive dependencies. A declared version range does not identify the exact version in use.
+3. **Match the source** - Read the documentation and release notes for that version, then follow the public API into source and tests at the matching release tag or commit. Matching symbols and [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) can help locate original .NET source. Record uncertainty if you cannot establish the match.
+4. **Test a minimal probe** - Use synthetic Northwind inputs, the resolved package version and relevant settings, without production connections or credentials. Compare expected and actual output. Check whether a supported option explains the result before proposing a patch; one passing input establishes only that case.
+5. **Keep the evidence** - Save the question, versions, source permalinks, runnable probe and conclusion with the investigation.
 
-Build a minimal probe with synthetic Northwind inputs, the resolved package and the relevant settings. State expected and actual output, then check whether a supported option explains the result before proposing a patch. Remove production connections and credentials. One passing input establishes only that case.
-
-Keep the question, versions, source links, runnable probe and conclusion with the investigation. If an implementation gap remains, check applicable permissions before decompiling and limit the investigation to that gap; reconstructed code still needs verification against the running package.
+If an implementation gap remains, check applicable permissions before decompiling and investigate only that gap. Verify reconstructed code against the running package.
