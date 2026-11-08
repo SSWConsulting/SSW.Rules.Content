@@ -66,7 +66,7 @@ When completion has a clear condition, let a script, native wait command or comp
     3. Model call: "Has CI run 4182 finished?" - Still running
   </>}
   figurePrefix="bad"
-  figure="Bad example - Every status check is another model call"
+  figure="Every status check is another model call"
 />
 
 <boxEmbed
@@ -81,7 +81,7 @@ echo "run=$RUN_ID exit=$?"
 
   </>}
   figurePrefix="good"
-  figure="Good example - A bounded script waits and returns the run ID and exit status"
+  figure="A bounded script waits and returns the run ID and exit status"
 />
 
 * **Bound the wait:** Identify the exact job and expected revision, set a deadline and respect rate limits.
