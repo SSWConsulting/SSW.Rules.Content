@@ -33,12 +33,15 @@ After writing the story, critically analyze it and provide suggestions for impro
   figure="Introducing a critical agent to refine the generated output"
 />
 
-By introducing a critical agent, you can ensure that the model not only generates content but also reviews and refines it, leading to more polished and high-quality responses.
+Self-critique can improve clarity and usefulness, but it can also miss errors in the original response.
 
 ## Give consequential content an independent critique
 
-For published or reused content, review the draft in a fresh context with the brief, acceptance criteria and source material. Use a reviewer from a different model family where available to reduce dependence on the writer's own preferences. This supplies another perspective, not proof that either model is correct.
+For content that people will publish, reuse or rely on, use these steps:
 
-Ask the reviewer to identify unsupported claims, missing facts, misleading examples and specific revisions, with source references. Have a person follow those references and resolve disagreements against the evidence before accepting changes. If only one model is available, a fresh chat still removes the drafting conversation, although the same model's preferences remain.
+1. **Start a fresh review.** Give the reviewer the draft, brief, acceptance criteria and source material, without the drafting conversation. Use a different model family where available for another perspective; agreement between models is not proof of correctness. If only one model is available, use a fresh chat, knowing that the same model's blind spots may remain.
+2. **Ask for evidence.** Request unsupported claims, missing facts and misleading examples. For each finding, ask for the affected passage, a source reference where available and a specific correction. Ask the reviewer to flag missing evidence rather than invent references.
+3. **Verify before revising.** Have a person open the cited sources, check that they support the claims and resolve disagreements against the evidence. Apply focused corrections without removing the reasons behind the advice.
+4. **Run deterministic checks.** Check word limits, required items, formatting and links with tools. These checks can confirm that a required statement appears; a person still needs to check its accuracy against the source.
 
-Use deterministic checks for word limits, required items, formatting and links. A script can establish that a required fact appears; source checking establishes whether it is true. Keep edits focused so polishing does not remove the reasons behind the advice. A short routine message rarely needs this full process; use it where the content's reach or consequences justify the review.
+A short routine message rarely needs this full process. Match the review effort to the content's reach and consequences.
