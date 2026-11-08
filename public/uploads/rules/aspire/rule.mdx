@@ -28,7 +28,7 @@ A cloud-native app can leave you juggling APIs, databases, caches, and a growing
 
 <imageEmbed
   src="/uploads/rules/aspire/northwind-apphost-wiring.png"
-  alt="Northwind Web references the API. AppHost passes the database connection and Orders service key only to the API. Web receives neither secret."
+  alt="AppHost injects the API endpoint into Web, and the database connection string and Orders key only into the API. Web calls the API over HTTP and receives neither secret."
   size="large"
   showBorder={false}
   figurePrefix="good"
