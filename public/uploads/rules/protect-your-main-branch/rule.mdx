@@ -56,10 +56,15 @@ This can include:
 
 ## Require evidence for the current revision
 
-A green build or approval on an earlier diff does not establish that the latest change is ready. Require successful checks for the revision the platform evaluates, resolved review feedback and an authorised human's approval of the current changes after the last reviewable push. Distinguish the PR head, synthetic test-merge commit and merge-queue integration commit when recording evidence; they can have different checks.
+A green build or approval on an earlier revision does not prove the latest change is ready. Configure branch protection so checks and human review cover the changes being merged.
 
-In GitHub branch protection, configure required checks and reviews, **Dismiss stale pull request approvals when new commits are pushed**, and conversation resolution. Apply protections to administrators and exclude agent identities from bypass access. The team must ensure the qualifying reviewer is human. See [GitHub's branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+For example, in GitHub:
 
-Require branches to be up to date or use a required merge queue that tests against the latest base and entries ahead of the PR. Required queue workflows must handle `merge_group` events; see [merge queue configuration](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue). Confirm the intended tests actually run: pending, skipped or neutral results are not proof of test coverage.
+1. **Require a fresh human review.** Require pull request reviews, enable **Dismiss stale pull request approvals when new commits are pushed**, and require conversation resolution. Ensure an authorised human approves the current changes after the last reviewable push.
+2. **Prevent bypasses.** Apply protections to administrators and exclude agent identities from bypass access. An agent's review does not replace the required human approval.
+3. **Test against the latest base.** Enable **Require branches to be up to date before merging** or **Require merge queue**. A queue tests the latest base with the PR and entries ahead of it. Required GitHub Actions workflows must also run on `merge_group` events.
+4. **Verify what ran.** Require status checks before merging. Check results for the revision GitHub evaluates: the PR head, test-merge commit or queue integration commit. These can have different checks. Pending, skipped or neutral results do not prove that the intended tests ran and passed.
 
-Where auto-merge is permitted, complete this readiness check before enabling it. Before making another change, disable armed auto-merge or remove the PR from the queue, then repeat checks and review. Record **Queued; integration checks pending** until the platform confirms a merge. Follow stricter repository policies where they apply.
+See [GitHub's branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) and [merge queue configuration](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue).
+
+Where repository policy permits auto-merge, complete these checks before enabling it. Before pushing another change, disable auto-merge or remove the PR from the queue, then repeat checks and review. Treat **Queued; integration checks pending** as a waiting state until the platform confirms the merge. Follow stricter repository policies where they apply.
