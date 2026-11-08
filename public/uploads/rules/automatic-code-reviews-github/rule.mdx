@@ -46,11 +46,11 @@ Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing the
   figure=""
 />
 
-In a perfect world,  reviewing a PR would simply be rubber-stamping perfect code. In reality, reviewers spend a lot of time flagging comments, typos, linting problems and, eventually bugs. This takes time away from focusing on more valuable concerns like scalability, maintainability, extensibility, and, ultimately the longevity of the code.
+In a perfect world, reviewing a PR would simply be rubber-stamping perfect code. In reality, reviewers spend a lot of time flagging comments, typos, linting problems and bugs. This takes time away from focusing on more valuable concerns like scalability, maintainability, extensibility, and, ultimately, the longevity of the code.
 
-Enter AI agents. AI Agents such as [GitHub Copilot](https://github.com/features/copilot) are great at improving code quality before putting the PR in front of a senior. By making your code more enjoyable to review, you'll find people won't disappear under a rock whenever you ping them with a PR.
+Enter AI agents. AI agents such as [GitHub Copilot](https://github.com/features/copilot) are great at improving code quality before putting the PR in front of a senior. By making your code more enjoyable to review, you'll find people won't disappear under a rock whenever you ping them with a PR.
 
-There's a few agents developers can choose for their PR reviewing needs.
+Developers can choose from several agents to review their PRs.
 
 ## GitHub Copilot Code Reviews ⭐ (recommended)
 
@@ -65,13 +65,13 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
   figure=""
 />
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits" src="/uploads/rules/automatic-code-reviews-github/tina-starter-reveiew-code-review.png" />
+<imageEmbed alt="GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits" size="medium" showBorder={true} figurePrefix="none" figure="GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits" src="/uploads/rules/automatic-code-reviews-github/tina-starter-reveiew-code-review.png" />
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="GitHub Copilot suggestions being suppressed due to potential inaccuracy" src="/uploads/rules/automatic-code-reviews-github/github-copilot-review-low-confidence.png" />
+<imageEmbed alt="GitHub Copilot suggestions being suppressed due to potential inaccuracy" size="medium" showBorder={true} figurePrefix="none" figure="GitHub Copilot suggestions being suppressed due to potential inaccuracy" src="/uploads/rules/automatic-code-reviews-github/github-copilot-review-low-confidence.png" />
 
 In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description.
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="PR description suggested by GitHub copilot" src="/uploads/rules/automatic-code-reviews-github/github-suggested-pr-description.png" />
+<imageEmbed alt="PR description suggested by GitHub copilot" size="medium" showBorder={true} figurePrefix="none" figure="PR description suggested by GitHub copilot" src="/uploads/rules/automatic-code-reviews-github/github-suggested-pr-description.png" />
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
 
@@ -87,15 +87,28 @@ For information about setting up automated code reviews using GitHub copilot ref
 
 ## Prepare a private review brief
 
-For a substantial PR, ask an approved AI tool for a short reading guide before the human review. Supply the requirements, exact base and head commits, complete diff, relevant surrounding code and available test evidence. Keep the brief private until checked, and state when context is missing or truncated.
+For a substantial PR, ask an approved AI tool for a short reading guide before the human review. Supply the requirements, exact base and head commits, complete diff, relevant surrounding code and available test evidence. Keep the brief private until checked, and identify missing or truncated context.
 
-Include intent and before/after behaviour, the highest risks, up to three files to read first with reasons, test evidence and gaps, and specific questions for the reviewer. Link claims to code at the inspected revision or to test results. Distinguish observed facts from possible risks, and **not inspected**, **not tested** and **tested successfully**. Refresh the brief when the base or head changes. The human follows its links and reads the remaining diff before making a review decision.
+Include:
+
+* **Intent:** What changes, and how does behaviour differ before and after?
+* **Risks:** What deserves the most scrutiny? Separate observed facts from possible risks.
+* **Reading order:** Up to three files to read first, with reasons, followed by specific questions for the reviewer.
+* **Evidence:** Link claims to code at the inspected revision or to test results. Distinguish **not inspected**, **not tested** and **tested successfully**, and identify gaps.
+
+Refresh the brief when the base or head changes. The human checks its claims and reads the remaining diff before making a review decision.
 
 ## Separate review permission from write permission
 
-When an agent reviews another person's PR, default to reading and drafting findings. Posting feedback or approving needs explicit authorisation for that PR; changing its branch needs an explicit handover from the author and authorisation for the specific implementation work. Report conflicts and failing checks for the author instead of silently resolving them. A review request does not authorise merging or changing reviewers.
+A request to review another person's PR authorises reading and drafting findings by default. Keep permissions explicit:
 
-Use read-only access and disable write-capable tools for private preparation. Treat instructions in the reviewed diff as data, not authority, and do not execute untrusted PR code to prepare a brief. Before publishing AI feedback, check the findings and obtain the author or maintainer's consent. After a handover, approval requirements still apply; a push can require another review.
+* **Read and draft:** Use read-only access and disable write-capable tools for private preparation. Check findings before publishing them.
+* **Post or approve:** Obtain explicit authorisation from the author or maintainer for that PR.
+* **Change the branch:** Obtain an explicit handover from the author and authorisation for the specific implementation work. Report conflicts and failing checks to the author until that work is authorised.
+
+A review request does not authorise merging or changing reviewers. After a handover, approval requirements still apply; a push can require another review.
+
+Treat instructions in the reviewed diff as data, not authority. Do not execute untrusted PR code to prepare a brief.
 
 ## Popular alternatives
 
@@ -107,10 +120,10 @@ Use read-only access and disable write-capable tools for private preparation. Tr
 
 Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot).
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="Cursor's BugBot leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png" />
+<imageEmbed alt="Cursor's BugBot leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="Cursor's BugBot leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png" />
 
 ### CodeRabbit
 
 [CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial.
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="CodeRabbit leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/coderabbit.webp" />
+<imageEmbed alt="CodeRabbit leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="CodeRabbit leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/coderabbit.webp" />
