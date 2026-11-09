@@ -73,7 +73,7 @@ If you hit a stop where you cannot tell what has focus, or you Tab 20 times and 
 
 ## Add a skip link
 
-A skip link is the bypass block WCAG asks for. It is an ordinary anchor placed first in the DOM. It is positioned off screen until it receives focus, so sighted mouse users never see it.
+A skip link is the most reliable way to meet WCAG 2.4.1 Bypass Blocks (landmarks and headings help too, but not every assistive technology exposes them). It is an ordinary anchor placed first in the DOM. It is positioned off screen until it receives focus, so sighted mouse users never see it.
 
 ```html
 <body>
@@ -114,8 +114,8 @@ Manual testing catches the problem once. A Playwright test catches it every time
 The test below is parameterised by `BASE_URL`, so the same file runs against any site:
 
 ```bash
-BASE_URL=https://app.tina.io npx playwright test tab-order
-BASE_URL=https://yakshaver.ai npx playwright test tab-order
+BASE_URL=https://example.com npx playwright test tab-order
+BASE_URL=http://localhost:3000 npx playwright test tab-order
 ```
 
 ```typescript
@@ -131,11 +131,14 @@ async function describeFocus(page: Page) {
     if (!el || el === document.body) {
       return null;
     }
+    // Stamp each element the first time it gets focus, so two elements with the same
+    // text (e.g. two "Read more" links) are never mistaken for the same stop.
+    const key = (el.dataset.tabStopId ??= crypto.randomUUID());
     const rect = el.getBoundingClientRect();
     const style = getComputedStyle(el);
     return {
+      key,
       tag: el.tagName.toLowerCase(),
-      id: el.id,
       text: (el.innerText || el.getAttribute('aria-label') || '').trim().slice(0, 40),
       tabIndex: el.tabIndex,
       visible: rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.opacity !== '0',
@@ -170,7 +173,7 @@ test.describe(`keyboard navigation on ${url}`, () => {
   });
 
   test('every Tab stop is visible, in order, and never repeats', async ({ page }) => {
-    const stops: string[] = [];
+    const stops: { key: string; label: string }[] = [];
     let reachedEnd = false;
 
     for (let i = 1; i <= maxTabStops; i++) {
@@ -183,23 +186,30 @@ test.describe(`keyboard navigation on ${url}`, () => {
         break;
       }
 
-      expect(focus.visible, `Tab ${i} landed on an invisible <${focus.tag}> "${focus.text}"`).toBe(true);
+      const label = `<${focus.tag}> "${focus.text}"`;
+      expect(focus.visible, `Tab ${i} landed on an invisible ${label}`).toBe(true);
+      // Catches elements that are focusable but parked off screen, such as links in a closed off-canvas menu.
+      await expect(page.locator(':focus'), `Tab ${i}: ${label} is off screen`).toBeInViewport();
       expect(focus.tabIndex, `Tab ${i}: <${focus.tag}> uses a positive tabindex, which breaks reading order`).toBeLessThanOrEqual(0);
 
-      stops.push(`${focus.tag}#${focus.id}:${focus.text}`);
+      stops.push({ key: focus.key, label });
     }
 
     expect(stops.length, 'Nothing on the page received focus').toBeGreaterThan(0);
 
     // A repeated stop means a focus trap, or a component that steals focus back.
-    const repeated = stops.filter((stop, index) => stops.indexOf(stop) !== index);
-    expect(repeated, `Focus revisited: ${repeated.join(', ')}`).toEqual([]);
+    const keys = stops.map((stop) => stop.key);
+    const repeated = stops.filter((stop, index) => keys.indexOf(stop.key) !== index);
+    expect(repeated.map((stop) => stop.label), 'Focus revisited these stops').toEqual([]);
 
-    // Shift+Tab must walk the same path backwards.
-    await page.keyboard.press('Shift+Tab');
-    const previous = await describeFocus(page);
-    const expectedPrevious = reachedEnd ? stops.at(-1) : stops.at(-2);
-    expect(`${previous?.tag}#${previous?.id}:${previous?.text}`).toBe(expectedPrevious);
+    // Shift+Tab must walk the same path backwards, all the way to the first stop.
+    // If Tab left the document, the first Shift+Tab lands on the last stop; otherwise on the one before it.
+    const start = reachedEnd ? stops.length - 1 : stops.length - 2;
+    for (let i = start; i >= 0; i--) {
+      await page.keyboard.press('Shift+Tab');
+      const previous = await describeFocus(page);
+      expect(previous?.key, `Shift+Tab should return to ${stops[i].label}`).toBe(stops[i].key);
+    }
   });
 });
 ```
