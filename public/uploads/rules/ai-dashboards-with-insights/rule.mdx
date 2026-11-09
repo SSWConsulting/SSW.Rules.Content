@@ -9,14 +9,9 @@ authors:
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
 related:
-  - rule: public/uploads/rules/show-missing-and-stale-data-on-dashboards/rule.mdx
-  - rule: public/uploads/rules/check-dashboard-totals-against-the-source/rule.mdx
   - rule: public/uploads/rules/use-chatgpt-to-generate-charts/rule.mdx
   - rule: public/uploads/rules/ai-critique-reports-dashboards/rule.mdx
-  - rule: public/uploads/rules/ai-with-design-system/rule.mdx
   - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
-  - rule: public/uploads/rules/ai-database-access/rule.mdx
-  - rule: public/uploads/rules/disagreement-inbox-for-ai-quality/rule.mdx
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -77,7 +72,7 @@ An agent can investigate a question with read-only SQL on an approved local or s
 
 ## Schedule insights with evidence
 
-Generate insights on the schedule when someone acts on them. The insight job receives the saved metric results, their definition versions and a dated log of relevant prompt, model and data changes. Each insight needs a metric reference, a suggested next check and its own generation time. Keep the last successful insight visibly dated if generation fails.
+Generate insights on a schedule that matches when people act on them. The insight job receives the saved metric results, their definition versions and a dated log of relevant prompt, model and data changes. Each insight needs a metric reference, a suggested next check and its own generation time. Keep the last successful insight visibly dated if generation fails.
 
 A release marker shows timing, not cause. Allow **No clear change yet**, and [check counts and uncertainty before colouring trends](/disagreement-inbox-for-ai-quality).
 
@@ -89,6 +84,6 @@ Track [cost per useful outcome](/monitor-ai-cost-and-usage) when that decision m
 
 ## Check live mode before sharing
 
-In an isolated environment with synthetic Northwind records, choose two date ranges with known different results. Check every affected tile, chart and list, then combine date and feature filters. State the period for any panel outside a filter's scope. Exercise controls with a mouse and keyboard and confirm their results.
+In an isolated environment with synthetic records, choose two date ranges with known different results. Check every affected tile, chart and list, then combine date and feature filters. State the period for any panel outside a filter's scope. Exercise controls with a mouse and keyboard and confirm their results.
 
 Trace live metrics to approved inputs and search generated code for seed arrays, placeholder strings and error handlers that return sample rows. Label the mode **Live** or **Demo**, and derive health badges and build times from actual results. Simulate a test-source failure: the panel explains the gap without invented rows. Restore the source and verify recovery, then confirm live mode still works with the demo source unavailable.
