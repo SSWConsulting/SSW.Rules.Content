@@ -21,7 +21,7 @@ seoDescription: 'Gzip-compress whole JSON documents into varbinary(max) with a s
 created: 2026-11-04T21:09:36.000Z
 createdBy: Gordon Beeming
 createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-05T01:11:57.094Z
+lastUpdated: 2026-11-09T08:31:52.230Z
 lastUpdatedBy: Gordon Beeming
 lastUpdatedByEmail: me@gordonbeeming.com
 isArchived: false
@@ -75,7 +75,7 @@ public sealed class CompressedJsonConverter : ValueConverter<string, byte[]>
         // UTF-16LE matches SQL Server COMPRESS() on nvarchar
         var utf16 = Encoding.Unicode.GetBytes(value);
         using var output = new MemoryStream();
-        using (var gzip = new GZipStream(output, CompressionLevel.SmallestSize))
+        using (var gzip = new GZipStream(output, CompressionLevel.Optimal))
         {
             gzip.Write(utf16);
         }
@@ -182,7 +182,7 @@ Do not flip the column type in place on a large table. Use an expand/contract mi
 -- Backfill in small batches using SQL Server COMPRESS (UTF-16LE for nvarchar)
 WHILE 1 = 1
 BEGIN
-    UPDATE TOP (1000) dbo.MissionBriefingDocument
+    UPDATE TOP (1000) dbo.HeroMission
     SET BriefingJsonCompressed = COMPRESS(BriefingJson)
     WHERE BriefingJsonCompressed IS NULL
       AND BriefingJson IS NOT NULL;
