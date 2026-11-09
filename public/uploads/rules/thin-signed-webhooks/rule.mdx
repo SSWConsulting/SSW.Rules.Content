@@ -11,6 +11,7 @@ authors:
 related:
   - rule: public/uploads/rules/use-live-connections-instead-of-polling/rule.mdx
   - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/use-transactional-outbox-pattern/rule.mdx
 categories:
   - category: categories/software-engineering/rules-to-better-web-api.mdx
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
@@ -20,7 +21,7 @@ isArchived: false
 
 A webhook sends data to another organisation's URL. A mistyped URL or compromised receiver can expose the whole payload. An unsigned request also lets an attacker impersonate your service and trigger actions such as shipping an order.
 
-When designing a webhook API, **send a thin, signed notification containing IDs**. The receiver verifies the raw request body before trusting it, then fetches details through an authenticated API. This limits disclosure and keeps access checks on the data read.
+When designing a webhook API, **send a thin, signed notification containing IDs**. The receiver verifies the raw request body before trusting it, then fetches details through an authenticated API. This limits disclosure and keeps access checks on the data read. Because senders retry, plan for duplicates and failed deliveries on both sides.
 
 <endIntro />
 
@@ -65,7 +66,7 @@ webhook-signature: v1,3OmCqmj4FEULIsBi0QE8JVmjDSMcrvolxQDr1KQ9Wos=
 
 The partner verifies the second request, then fetches `https://api.example.com/orders/123` using its own API credential. The API checks that the partner can read this order. Use a configured API base URL and validate the ID; never send credentials to a URL supplied in the notification.
 
-The good request uses [Standard Webhooks' shared-secret signing scheme](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#verifying-signatures). Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the UTF-8 bytes of the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
+The good request uses [Standard Webhooks' shared-secret signing scheme](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#verifying-signatures). Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the UTF-8 bytes of the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. Standard Webhooks libraries take that key in its base64 form, `whsec_RVhBTVBMRV9PTkxZX1RFU1RfU0lHTklOR19LRVlfMjAyNg==`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
 
 A signature protects integrity; it does not encrypt the payload. Use HTTPS and minimise identifiers and metadata too when they reveal sensitive information.
 
@@ -99,4 +100,30 @@ Keep the real endpoint secret in [secure configuration](/store-your-secrets-secu
 WEBHOOK_SIGNING_SECRET=whsec_EXAMPLE_ONLY_do_not_use
 ```
 
-Use the Standard Webhooks specification for implementation details. Before release, confirm that a valid signed request verifies, while a changed body or reserialised JSON fails and causes no business action.
+## Acknowledge quickly and ignore duplicates
+
+A valid signature shows the request was signed by a holder of the endpoint key, not that this is the first delivery.
+
+* **Deduplicate on `webhook-id`** - Verify the request, then save the ID and the queued work in one transaction, with a unique constraint on the ID for that endpoint. Answer a repeated ID with a `2xx` without queuing it again. Keep IDs for as long as the sender retries, not just the five-minute timestamp window
+* **Acknowledge first, work later** - Return the `2xx` once that transaction commits, then fetch details and process in the background. Mark the event complete in the same transaction as its database changes, and make external effects idempotent, so a crash leaves it queued instead of lost. Slow work inside the handler causes timeouts, and a timeout causes another delivery
+* **Do not rely on arrival order** - A retried `order.shipped` can arrive after `order.delivered`. Fetching current state through the API avoids applying a stale payload, but two workers can still commit out of order. Process one order at a time, or check its version before writing
+
+## Deliver reliably without exposing your network
+
+The sender has duties too. A notification sent once and forgotten is lost whenever the receiver is briefly down.
+
+* **Do not lose the event** - Queue the notification in the same transaction as the business change, using a [transactional outbox](/use-transactional-outbox-pattern), so a committed change always has a notification waiting to be sent
+* **Retry with backoff** - Treat anything other than a `2xx`, including a timeout, as a failed attempt. Retry with bounded exponential backoff and jitter, but stop on `410 Gone` and respect `Retry-After`. Keep the same `webhook-id` and sign each attempt with a fresh timestamp. Let receivers list failed deliveries and replay them
+* **Use one secret per endpoint and plan its rotation** - A shared secret leaked by one receiver lets it forge requests to all the others. During rotation, sign with the old and new secrets; the `webhook-signature` header carries both versioned signatures, separated by a space, so receivers switch without downtime
+* **Treat the receiver's URL as untrusted input** - Whoever registers an endpoint chooses where your servers send requests. Require HTTPS, do not follow redirects, enforce public destination IPs at every connection because DNS can change, and send from an isolated network or filtering proxy. See [OWASP's SSRF prevention guidance](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+
+See the Standard Webhooks specification for signing, retries and delivery guidance.
+
+## Test the failures before release
+
+Confirm each of these on a test endpoint:
+
+1. A valid signed request verifies; a changed body or reserialised JSON fails and causes no business action
+2. The same `webhook-id` delivered twice produces one business action and two `2xx` responses
+3. A receiver that returns `500`, then recovers, gets the event again with the same ID
+4. An endpoint that resolves to an internal address is rejected at registration and again at delivery
