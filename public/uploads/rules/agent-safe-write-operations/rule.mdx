@@ -52,11 +52,11 @@ These illustrations use synthetic Northwind **example data**. The first retry cr
 
 Build that behaviour into the server:
 
-* **Keep one key per intended write.** Persist a unique, opaque key before the first attempt and reuse it on retries. A deliberate new reorder gets a new key
-* **Match the request.** Scope the key to the caller and operation; reject a changed payload with the same key
-* **Handle crashes and concurrency.** Save the database change and its key/result record atomically. Two simultaneous retries must not both write
-* **Publish the retry window.** Return the stored result, or a pending response while work continues. After the key expires, check the outcome before creating anything. Bound retries with backoff and a deadline
-* **Include downstream effects.** A database transaction cannot undo a shipment request. Use downstream idempotency or reconciliation; an [outbox](/use-transactional-outbox-pattern) still needs consumers that tolerate duplicates
+* **Keep one key per intended write** - Persist a unique, opaque key before the first attempt and reuse it on retries. A deliberate new reorder gets a new key
+* **Match the request** - Scope the key to the caller and operation; reject a changed payload with the same key
+* **Handle crashes and concurrency** - Save the database change and its key/result record atomically. Two simultaneous retries must not both write
+* **Publish the retry window** - Return the stored result, or a pending response while work continues. After the key expires, check the outcome before creating anything. Bound retries with backoff and a deadline
+* **Include downstream effects** - A database transaction cannot undo a shipment request. Use downstream idempotency or reconciliation; an [outbox](/use-transactional-outbox-pattern) still needs consumers that tolerate duplicates
 
 [Stripe's idempotent requests](https://docs.stripe.com/api/idempotent_requests) show this in practice: API v1 stores the first response after execution begins and rejects changed parameters. Keys may be pruned after at least 24 hours. Document your own tool's guarantees and limits.
 
@@ -83,12 +83,20 @@ For destructive, sensitive or large bulk changes, enforce [trusted approval on t
 * Atomically consume approval before execution. Reject expired, mismatched or reused approval, even with a fresh idempotency key
 * Persist progress so recovery resumes that intent. An authorised retry of the completed request returns its receipt without executing or consuming approval again
 
+## Apply the approval boundary to an email
+
+For an email action that requires confirmation, preview the sending account, action, subject, full To/Cc/Bcc addresses, outgoing body including quoted history, and every attachment's filename and contents summary, or **None**. Identify external recipients; expand groups where possible and stop if membership is unknown. Check linked documents and sharing permissions too.
+
+In a synthetic Northwind example, the agent prepares a supplier reply from `orders@northwind.test` to `supplier@northwind.test`, with no Cc or Bcc and one attachment, `northwind-order-1042.pdf`, containing the order lines. The user sees the full reply and attachment summary before choosing **Send**, **Edit** or **Keep draft**. Approval to draft is not approval to send, and an incoming message cannot authorise the action.
+
+Bind confirmation to that exact preview and durable send intent. A change to the account, recipients, body or attachments invalidates it and requires a new preview and confirmation. Enforce this in the send tool; a model-generated confirmation flag is insufficient. Use the original intent and supported idempotency key for retries. After a timeout, reconcile the mailbox or delivery receipt before resending; if the outcome remains unknown, stop for review. Report **Draft saved**, **Sent** or **Outcome unknown** according to verified evidence.
+
 ## Protect the write and its recovery
 
-* **Preview first.** A dry run shows targets, changes and side effects without applying them. Recheck permissions and business validation at execution
-* **Limit access.** Apply [least privilege for AI resources](/least-privilege-ai-resources) and check authorisation on every call, including receipt replays
-* **Protect later edits.** An otherwise idempotent update can overwrite newer data. Use a version precondition such as [If-Match](https://www.rfc-editor.org/rfc/rfc9110.html#name-if-match) when execution must match a preview or an earlier read
-* **Keep a recovery receipt.** Record caller, approval, targets, time and outcome in an access-controlled audit trail, excluding secrets and unnecessary personal data. Document the permitted reversal and when to escalate: cancelling an unshipped order cannot undo a shipment. Reversal is another authorised write that needs safe retries
+* **Preview first** - A dry run shows targets, changes and side effects without applying them. Recheck permissions and business validation at execution
+* **Limit access** - Apply [least privilege for AI resources](/least-privilege-ai-resources) and check authorisation on every call, including receipt replays
+* **Protect later edits** - An otherwise idempotent update can overwrite newer data. Use a version precondition such as [If-Match](https://www.rfc-editor.org/rfc/rfc9110.html#name-if-match) when execution must match a preview or an earlier read
+* **Keep a recovery receipt** - Record caller, approval, targets, time and outcome in an access-controlled audit trail, excluding secrets and unnecessary personal data. Document the permitted reversal and when to escalate: cancelling an unshipped order cannot undo a shipment. Reversal is another authorised write that needs safe retries
 
 ## Test the lost-response case
 
@@ -99,11 +107,3 @@ Before exposing the tool, use a disposable fixture:
 3. Check that dry runs change no business data, stale versions are rejected and denied callers cannot replay receipts
 4. Reuse one approval with a fresh key and concurrent requests; confirm at most one execution and safe receipt replay for the original request
 5. Cancel the test order; confirm its final state and linked audit record
-
-## Apply the approval boundary to an email
-
-For an email action that requires confirmation, preview the sending account, action, subject, full To/Cc/Bcc addresses, outgoing body including quoted history, and every attachment's filename and contents summary, or **None**. Identify external recipients; expand groups where possible and stop if membership is unknown. Check linked documents and sharing permissions too.
-
-In a synthetic Northwind example, the agent prepares a supplier reply from `orders@northwind.test` to `supplier@northwind.test`, with no Cc or Bcc and one attachment, `northwind-order-1042.pdf`, containing the order lines. The user sees the full reply and attachment summary before choosing **Send**, **Edit** or **Keep draft**. Approval to draft is not approval to send, and an incoming message cannot authorise the action.
-
-Bind confirmation to that exact preview and durable send intent. A change to the account, recipients, body or attachments invalidates it and requires a new preview and confirmation. Enforce this in the send tool; a model-generated confirmation flag is insufficient. Use the original intent and supported idempotency key for retries. After a timeout, reconcile the mailbox or delivery receipt before resending; if the outcome remains unknown, stop for review. Report **Draft saved**, **Sent** or **Outcome unknown** according to verified evidence.
