@@ -11,11 +11,8 @@ authors:
   - title: Gordon Beeming
     url: 'https://www.ssw.com.au/people/gordon-beeming'
 related:
-  - rule: public/uploads/rules/scope-dbcontext-in-long-running-jobs/rule.mdx
-  - rule: public/uploads/rules/bulk-process-in-chunks/rule.mdx
   - rule: public/uploads/rules/use-async-await-for-all-io-bound-operations/rule.mdx
   - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
-  - rule: public/uploads/rules/long-process-do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel/rule.mdx
 guid: e395d01e-832a-47bf-b53b-e9d2be1c77bd
 seoDescription: 'Accept a CancellationToken in every background job and hosted service, pass it all the way down to EF Core and HTTP calls, and check it between units of work, so a job stops cleanly when a user cancels it or the app shuts down.'
 created: 2026-11-02T21:10:19.359Z
@@ -149,7 +146,7 @@ foreach (var chunk in heroIds.Chunk(500))
 
 **✅ Figure: Good example - The check sits at the chunk boundary, so a cancelled job stops before starting the next chunk, and each chunk's changes are saved together by SaveChangesAsync**
 
-See [Do you bulk process in chunks?](/bulk-process-in-chunks) and [Do you scope your DbContext to the unit of work in long-running jobs?](/scope-dbcontext-in-long-running-jobs) for how to size and scope those units of work.
+See [bulk processing in chunks](/bulk-process-in-chunks) and [scoping your DbContext to the unit of work](/scope-dbcontext-in-long-running-jobs) for how to size and scope those units of work.
 
 <boxEmbed
   style="info"
@@ -221,7 +218,7 @@ foreach (var hero in heroes)
 }
 ```
 
-**❌ Figure: Bad example - Cancellation is caught, logged as an error and ignored, so the loop moves on to the next hero and the job never stops**
+**❌ Figure: Bad example - Cancellation is caught and logged as an error, so the loop moves on and the job finishes as if it had succeeded**
 
 ```csharp
 foreach (var hero in heroes)
@@ -253,4 +250,4 @@ foreach (var hero in heroes)
   figure=""
 />
 
-Cancelling a job is only useful if users can do it. For long-running work a user starts, show progress and give them a way to cancel. See [Do you know that you should show a progress bar and allow users to cancel?](/long-process-do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel)
+Cancelling a job is only useful if users can do it. For long-running work a user starts, show progress and give them a way to cancel. See [showing a progress bar and letting users cancel](/long-process-do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel).
