@@ -22,7 +22,7 @@ isArchived: false
 
 A connection drops after the server saves an order. The AI agent sees a timeout and tries again. Northwind now has two orders ready to ship for one request.
 
-When you build write tools for agents, **treat a timeout as an unknown outcome**. Retry with the original idempotency key under the tool's documented contract. Without that protection, check what happened before trying again; if you cannot establish the outcome, stop and escalate.
+When you build write tools for agents, **treat a timeout as an unknown outcome and make the retry safe**. Accept an idempotency key, so a retry with the same key returns the original result within the documented window instead of writing again. Return an explicit outcome that tells the agent whether to continue, look up the record or stop. Without an idempotency key, the agent checks what happened before trying again; if it cannot establish the outcome, it stops and escalates.
 
 <endIntro />
 
