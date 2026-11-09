@@ -57,7 +57,7 @@ This applies whether the agent is Claude Code refactoring a repo, a Copilot Stud
 
 ### How do you stop poisoning?
 
-Make the agent check a conclusion against something real before it writes it down. One connection test would have killed the retry note. For code, builds, tests and linters do this automatically. See [Do you use back pressure to keep AI agents on track?](/utilize-back-pressure-for-agents)
+Make the agent check a conclusion against something real before it writes it down. One connection test would have killed the retry note. For code, builds, tests and linters do this automatically. See [using back pressure to keep AI agents on track](/utilize-back-pressure-for-agents).
 
 For non-code agents, verify against the source system, not against the agent's own summary.
 
@@ -74,11 +74,11 @@ For non-code agents, verify against the source system, not against the agent's o
 
 After an hour of work, the agent's own history becomes the strongest pattern in the window. It starts repeating what it already did instead of asking what the job needs next.
 
-Compact or clear the history. [Do you clear your AI agent's context between tasks?](/clear-ai-agent-context) covers when to use each. Compaction is lossy, and a summary of a summary drifts like a photocopy of a photocopy. Keep the detail in files instead, such as a plan or a decisions log, and load them only when needed. See SSW's rule on [agent memory systems](/ai-agent-memory-systems).
+Compact or clear the history. [Clearing your AI agent's context between tasks](/clear-ai-agent-context) covers when to use each. Compaction is lossy, and a summary of a summary drifts like a photocopy of a photocopy. Keep the detail in files instead, such as a plan or a decisions log, and load them only when needed. See [the types of AI agent memory](/ai-agent-memory-systems).
 
 ### How do you stop confusion?
 
-Every tool definition sits in the window whether the agent uses it or not. In one benchmark, a model failed a task when offered 46 tools and passed the same task with 19.
+Every tool definition sits in the window whether the agent uses it or not. In [one benchmark](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html), a small, compressed model failed a task when offered 46 tools and passed the same task with 19.
 
 Give the agent only the tools the job needs. A database migration doesn't need your ticketing system or calendar. Load extras on demand with [skills, subagents and MCPs](/when-to-use-skills-agents-subagents-mcps-plugins) rather than wiring everything in up front. In Copilot Studio or n8n, switch off actions and connectors the agent doesn't use.
 
@@ -121,8 +121,8 @@ When information is superseded, delete the old version. If you can't, start a fr
 
 ### Learn more
 
-* [SSW: Do you clear your AI agent's context between tasks?](/clear-ai-agent-context)
-* [SSW: Do you use back pressure to keep AI agents on track?](/utilize-back-pressure-for-agents)
+* [Do you clear your AI agent's context between tasks?](/clear-ai-agent-context)
+* [Do you use back pressure to keep AI agents on track?](/utilize-back-pressure-for-agents)
 * [Context Engineering for AI Agents: 4 Failure Modes to Avoid](https://www.youtube.com/watch?v=BwXremQ-i6I) - The video this rule is based on (10 min)
 * [How Long Contexts Fail](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html) - Drew Breunig's original breakdown of the four failure modes
 * [How to Fix Your Context](https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html) - The follow-up with more fixes
