@@ -58,14 +58,6 @@ Give each recurring metric a stable name, such as `support_agreement_v1`. Keep i
 
 Show the source, coverage date and a route to the metric definition beside the result. Refreshing the figures makes no language-model call, so an AI outage leaves the data refresh working. Use the same saved results in the insight panel; render referenced values from those results rather than copying AI-written numbers.
 
-Before readers rely on the page:
-
-* Keep sample data in a separate, labelled demo mode; never substitute demo rows for a failed live source
-* Wire every filter and action to its intended behaviour, or remove it and explain unavailable capabilities
-* [Reconcile totals independently](/check-dashboard-totals-against-the-source)
-* [Expose missing and stale data](/show-missing-and-stale-data-on-dashboards)
-* [Show sample size and coverage](/disagreement-inbox-for-ai-quality) beside quality rates
-
 ## Use an agent for a one-off question
 
 An agent can investigate a question with read-only SQL on an approved local or sanitised database; see [safe database access for AI agents](/ai-database-access). Check its query and result before using the answer. When that answer becomes a daily tile, [build the report to be reused](/do-you-create-a-report-whenever-you-need-a-number-from-a-system) and move the reviewed query into the saved metric code.
@@ -78,12 +70,13 @@ A release marker shows timing, not cause. Allow **No clear change yet**, and [ch
 
 Label AI-derived classifications, such as chat themes, and check a sample against a written rubric. Human agreement alone does not prove correctness; [review disagreements against source evidence](/disagreement-inbox-for-ai-quality).
 
-Before sharing, stop the insight job in a test environment and refresh the dashboard. Confirm the tiles still run their saved queries and show current source dates, while the insight panel says **Insights unavailable** and retains its last successful generation time.
-
 Track [cost per useful outcome](/monitor-ai-cost-and-usage) when that decision matters to this audience.
 
-## Check live mode before sharing
+## Check the dashboard before sharing
 
-In an isolated environment with synthetic records, choose two date ranges with known different results. Check every affected tile, chart and list, then combine date and feature filters. State the period for any panel outside a filter's scope. Exercise controls with a mouse and keyboard and confirm their results.
+Use an isolated environment with synthetic records to check the page before readers rely on it:
 
-Trace live metrics to approved inputs and search generated code for seed arrays, placeholder strings and error handlers that return sample rows. Label the mode **Live** or **Demo**, and derive health badges and build times from actual results. Simulate a test-source failure: the panel explains the gap without invented rows. Restore the source and verify recovery, then confirm live mode still works with the demo source unavailable.
+* **Data and coverage** - Trace live metrics to approved inputs, [reconcile totals independently](/check-dashboard-totals-against-the-source), [expose missing and stale data](/show-missing-and-stale-data-on-dashboards), and [show sample size and coverage](/disagreement-inbox-for-ai-quality) beside quality rates. Derive health badges and build times from actual results.
+* **Controls** - Choose two date ranges with known different results. Check every affected tile, chart and list, then combine date and feature filters. State the period for panels outside a filter's scope. Exercise controls with a mouse and keyboard; remove unwired actions and explain unavailable capabilities.
+* **Live and demo modes** - Label the mode **Live** or **Demo** and keep their sources separate. Search generated code for seed arrays, placeholder strings and error handlers that return sample rows. Simulate a test-source failure: explain the gap without invented rows. Restore the source and verify recovery, then confirm live mode works with the demo source unavailable.
+* **Insight failure** - Stop the insight job and refresh the dashboard. Confirm tiles still run their saved queries and show current source dates, while the insight panel says **Insights unavailable** and retains its last successful generation time.

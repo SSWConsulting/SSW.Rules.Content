@@ -84,16 +84,8 @@ The three wrong-source cases need a knowledge-base or retrieval repair. They do 
 
 Fix and recheck the comparator and retired article before rewriting the prompt. [Own the AI output](/avoid-automation-bias): close a row only after a reviewer verifies the repair. Add confirmed model errors to [the eval set](/run-evals-on-ai-features) and rerun it before release.
 
-## Show what the reviewed sample represents
+## Keep review rates in context
 
-Display each rate's numerator, denominator, period, sampling frame, exclusions and definition version. Keep eligible, attempted and answered counts separate so handovers remain visible. Label a period with no completed reviews **Not measured**.
+Show each rate's numerator, denominator, period and sampling frame. In Northwind's example, 61 random checks cover 718 answers in five topics, out of 870 overall. Label the three unchecked topics and report **Random-review coverage: 61/718 (8.5%)** separately from **Coverage of all answers: 61/870 (7%)**. Keep targeted checks separate; use **Not measured** when no reviews finish.
 
-In Northwind's synthetic weekly example, 61 randomly reviewed answers come from 718 answers in five included topics, out of 870 answers overall. Show **47/61 agreement (77%)**, **Random-review coverage: 61/718 (8.5%)** and **Coverage of all answers: 61/870 (7%)**. The remaining three topics contain 152 answers and have no random checks; list them rather than implying the sample covers the whole assistant.
-
-Keep complaint-led and other targeted checks separate from random checks. Northwind's 9/18 complaint checks describe that selected group; pooling them with 47/61 changes the selection method and makes period comparisons misleading. Deduplicate cases before reporting total review coverage. Record selection probabilities and weighting where relevant; one answer per chat can underrepresent longer chats. Prioritise unchecked topics by risk as well as volume.
-
-## Separate target breaches from evidence of change
-
-Show counts and an appropriate uncertainty range beside rates. A **Below 80% target** badge can coexist with **No clear change yet**: crossing a target does not establish that quality declined. Define comparable populations, the minimum change that would alter a decision and the comparison method before colouring trends. Account for repeated checks, clustered cases and multiple comparisons with a suitable method; a precise interval cannot repair biased sampling.
-
-Withhold rankings and whole-assistant claims when checks are too few for the decision. Collect more independent evidence and retain uncertainty in the wording. Release markers indicate timing, not causation; verify proposed repairs with evals.
+A **Below 80% target** badge can coexist with **No clear change yet**. Show counts and uncertainty; compare like-for-like samples before claiming a change. Withhold rankings when checks are too few. Release markers show timing, not cause; verify a proposed repair with evals.
