@@ -76,7 +76,8 @@ bool MatchesTestTarget(string? value)
             && !target.UserInstance;
     }
     catch (Exception ex) when (ex is ArgumentException
-        or FormatException or OverflowException)
+        or FormatException or OverflowException
+        or NotSupportedException or KeyNotFoundException)
     {
         return false;
     }
