@@ -49,7 +49,7 @@ If all the material needed to answer a question fits inside the context window, 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Illustration: Long context supplies all three documents for comparison"
+  figure="Long context supplies all three documents for comparison"
 />
 
 Long inputs can increase cost and latency. Models can also miss information [in the middle](https://arxiv.org/abs/2307.03172) or struggle with [questions joining several pieces of evidence](https://arxiv.org/abs/2601.12499). Fitting the context window does not guarantee an accurate answer.
@@ -70,7 +70,7 @@ RAG retrieves relevant material and passes it to the model. Retrieval can use ke
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Illustration: Vector RAG supplies retrieved chunks rather than whole documents"
+  figure="Vector RAG supplies retrieved chunks rather than whole documents"
 />
 
 SSW's [RulesGPT](https://rulesgpt.ssw.com.au) uses RAG. Cursor [chunks code and embeds it for semantic search](https://cursor.com/blog/secure-codebase-indexing).
@@ -103,12 +103,12 @@ For repeated tasks, do the shared reading and reasoning before requests arrive. 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Illustration: Reuse the shared research while supplying separate customer evidence"
+  figure="Reuse the shared research while supplying separate customer evidence"
 />
 
 For example, a team repeatedly assesses customers against the same regulations. Prepare a reviewed brief explaining each question, acceptable evidence and common mistakes. Keep source links and effective dates, refresh it when regulations change, and test that the summary preserves the evidence needed for answers.
 
-Precomputation saves repeated research; prompt caching saves repeated processing of an eligible prefix. Combine them by placing the shared brief before each customer's authorised documents. Keep customer evidence out of the shared brief. To improve it over time, see [Do you let your prompts learn from feedback?](/let-prompts-learn-from-feedback).
+Precomputation saves repeated research; prompt caching saves repeated processing of an eligible prefix. Combine them by placing the shared brief before each customer's authorised documents. Keep customer evidence out of the shared brief. To improve it over time, see [how prompts can learn from feedback](/let-prompts-learn-from-feedback).
 
 ## Option E: Knowledge graphs
 
@@ -122,7 +122,7 @@ Use a graph when a question follows several relationships across documents. In t
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Illustration: The supplier's country matters, not the customer's address"
+  figure="The supplier's country matters, not the customer's address"
 />
 
 <boxEmbed
@@ -151,7 +151,7 @@ Budget for extraction, entity resolution (merging duplicate names), schema desig
 
 [Fine-tuning](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) adapts a pretrained model using task-specific examples. Consider it for stable, high-volume classification, extraction, routing or response formatting. A smaller specialised model may reduce inference cost and latency; include training, hosting and maintenance in the comparison.
 
-Keep changing facts in a current source. For example, a model trained on Chai's old price can still quote it after the catalogue changes. Retrieve the price; consider training the stable task of routing the question to that lookup.
+Keep changing facts in a current source. For example, a model trained on the old price of Northwind's Chai tea can still quote it after the catalogue changes. Retrieve the price; consider training the stable task of routing the question to that lookup.
 
 Before training:
 
@@ -160,7 +160,7 @@ Before training:
 * **Prepare representative demonstrations** with correct outputs and permission to train on them; remove sensitive data.
 * **Compare quality, latency and total cost**, switch only when the targets are met, and re-evaluate when the task or base model changes.
 
-See [Do you run evals on your AI features?](/run-evals-on-ai-features). Fine-tuning can work alongside retrieval; it does not supply a source-update mechanism.
+See [running evals on your AI features](/run-evals-on-ai-features). Fine-tuning can work alongside retrieval; it does not supply a source-update mechanism.
 
 ## Which should I use?
 
@@ -178,7 +178,7 @@ Then add a precomputed brief for repeated research, a graph for relationship que
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Illustration: Choose a starting candidate, then add what the task needs"
+  figure="Choose a starting candidate, then add what the task needs"
 />
 
 For example, [YakShaver](https://yakshaver.ai) turns a screen recording into a product backlog item. To choose its destination, a small authorised project list fits in context (**Q1**) and comparing all projects helps select the best match (**Q2**). That makes long context a starting candidate, with caching if the list repeats and qualifies.
