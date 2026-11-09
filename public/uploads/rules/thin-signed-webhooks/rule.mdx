@@ -65,7 +65,7 @@ webhook-signature: v1,3OmCqmj4FEULIsBi0QE8JVmjDSMcrvolxQDr1KQ9Wos=
 
 The partner verifies the second request, then fetches `https://api.example.com/orders/123` using its own API credential. The API checks that the partner can read this order. Use a configured API base URL and validate the ID; never send credentials to a URL supplied in the notification.
 
-The good request uses Standard Webhooks' shared-secret signing scheme. Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the UTF-8 bytes of the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
+The good request uses [Standard Webhooks' shared-secret signing scheme](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#verifying-signatures). Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the UTF-8 bytes of the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
 
 A signature protects integrity; it does not encrypt the payload. Use HTTPS and minimise identifiers and metadata too when they reveal sensitive information.
 
@@ -99,4 +99,4 @@ Keep the real endpoint secret in [secure configuration](/store-your-secrets-secu
 WEBHOOK_SIGNING_SECRET=whsec_EXAMPLE_ONLY_do_not_use
 ```
 
-Use the [Standard Webhooks specification](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md#verifying-signatures) for implementation details. Before release, confirm that a valid signed request verifies, while a changed body or reserialised JSON fails and causes no business action.
+Use the Standard Webhooks specification for implementation details. Before release, confirm that a valid signed request verifies, while a changed body or reserialised JSON fails and causes no business action.
