@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you run persistent, event-driven AI agents?
-seoDescription: Connect Operations, Delivery and Research in an event-driven agent loop, with saved hand-offs, restart recovery and human approval for consequential actions.
+seoDescription: Start recurring agent work from events, keep ownership in a durable record, and hand off between Operations, Delivery and Research with human approval.
 guid: 45e90542-1a95-4ad7-b61a-07c3f2337b1f
 uri: persistent-event-driven-agents
 created: 2026-10-31T00:00:00.000Z
@@ -21,9 +21,9 @@ isArchived: false
 
 Your coding agent fixes a bug when you ask. Meanwhile, a ready backlog item waits for someone to start it, and an interrupted investigation loses its owner. Recurring work depends on someone remembering to type another prompt.
 
-Use **persistent, event-driven agents to hand work between Operations, Delivery and Research**. Operations monitors production and passes investigated bugs to Delivery, which also takes ready backlog items. Delivery asks Research to investigate only when uncertainty blocks implementation, then uses the findings to prepare a tested pull request. After human review and approved deployment, Operations monitors the result and feeds new issues back into the loop.
+**Start recurring agent work from events, and save its owner and progress in a durable record.** An event such as a production error or a ready backlog item starts the work without a prompt. After a restart, the agent uses the saved record to check what happened and resume safely.
 
-Saved ownership and progress keep these hand-offs moving after a restart. People set the scope and approve consequential actions; they do not need to prompt every step.
+As the work grows, split it into a loop of three roles. Operations investigates production issues, Delivery prepares tested pull requests, and Research resolves blocking uncertainty. People set the scope and approve merge and deployment; Operations then monitors the result and feeds new issues back into the loop.
 
 <endIntro />
 
