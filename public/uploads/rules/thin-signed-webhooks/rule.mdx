@@ -43,7 +43,7 @@ Content-Length: 211
 }
 ```
 
-❌ **Figure: The unsigned notification exposes customer details and lets forged requests trigger order processing**
+**❌ Figure: Bad example - The unsigned notification exposes customer details and lets forged requests trigger order processing**
 
 ```http
 POST /hooks/northwind HTTP/1.1
@@ -61,11 +61,11 @@ webhook-signature: v1,3OmCqmj4FEULIsBi0QE8JVmjDSMcrvolxQDr1KQ9Wos=
 }
 ```
 
-✅ **Figure: The signed notification identifies the same order while an authorised API read controls access to customer details**
+**✅ Figure: Good example - The signed notification identifies the same order while an authorised API read controls access to customer details**
 
 The partner verifies the second request, then fetches `https://api.example.com/orders/123` using its own API credential. The API checks that the partner can read this order. Use a configured API base URL and validate the ID; never send credentials to a URL supplied in the notification.
 
-The good request uses Standard Webhooks' shared-secret signing scheme. Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
+The good request uses Standard Webhooks' shared-secret signing scheme. Its signature matches the exact UTF-8 body shown, with LF newlines and no final newline, using the UTF-8 bytes of the public test key `EXAMPLE_ONLY_TEST_SIGNING_KEY_2026`. This is **example data**; the fixed attempt timestamp has expired. Real deliveries need a fresh timestamp and a securely provisioned endpoint key.
 
 A signature protects integrity; it does not encrypt the payload. Use HTTPS and minimise identifiers and metadata too when they reveal sensitive information.
 
@@ -91,7 +91,7 @@ export function verifyDelivery(rawBody, headers, signingSecret) {
 }
 ```
 
-This helper is tested with Node.js 24.18.0 and `standardwebhooks` 1.1.1. The [Standard Webhooks JavaScript library](https://github.com/standard-webhooks/standard-webhooks/tree/main/libraries/javascript) checks signatures in constant time and rejects timestamps more than five minutes old or ahead. Catch verification errors at the HTTP boundary and return a failure response. Verification does not replace schema validation or duplicate handling.
+This helper is tested with Node.js 24.18.0 and `standardwebhooks` 1.1.1. The [Standard Webhooks JavaScript library](https://github.com/standard-webhooks/standard-webhooks/tree/main/libraries/javascript) checks signatures in constant time and rejects timestamps more than five minutes old or ahead. Catch verification errors at the HTTP boundary and return a failure response. Verification does not replace schema validation. Record each `webhook-id` and skip any you have already processed, because retries reuse the same ID and a captured request stays valid for five minutes.
 
 Keep the real endpoint secret in [secure configuration](/store-your-secrets-securely). This deliberately unusable placeholder is **example data**:
 
