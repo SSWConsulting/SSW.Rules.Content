@@ -49,7 +49,7 @@ flowchart TD
     Q4 -->|AWS| RUM["CloudWatch RUM"]
     Q4 -->|On-premises| Q5{"Can usage data<br>leave your network?"}
     Q5 -->|Yes| AI
-    Q5 -->|No| PHS
+    Q5 -->|No| PHS2["PostHog, self-hosted"]
 ```
 
 **Figure: Choosing a usage analytics tool**
