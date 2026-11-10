@@ -3,7 +3,7 @@ type: rule
 title: Do you block LLM calls when PII scrubbing fails?
 seoDescription: Keep personal data out of LLM requests with a fail-closed PII scrub gate that blocks errors and timeouts, records safe metrics, and tests the failure path.
 guid: 3eb6edd9-6a65-4757-8822-9c8d240e23e1
-uri: fail-closed-pii-scrub-gate-before-llm
+uri: block-llm-calls-when-pii-scrubbing-fails
 created: 2026-11-06T01:47:57.864Z
 authors:
   - title: Jernej Kavka
@@ -26,20 +26,20 @@ Make personally identifiable information (PII) scrubbing **fail closed**: an err
 
 ## Require approval before calling the model
 
-[De-identifying data](/de-identified-data) explains what to remove. This rule covers failure: **no approved scrub result means no model request**. It applies [OWASP's fail-securely principle](https://owasp.org/www-community/Fail_securely) before the LLM call.
+[De-identifying data](/de-identified-data) explains what to remove. This rule covers failure: **no approved scrub result means no model request**. It applies [OWASP's fail-securely principle](https://community.owasp.org/Fail_securely) before the LLM call.
 
 <imageEmbed
-  src="/uploads/rules/fail-closed-pii-scrub-gate-before-llm/fail-open-vs-fail-closed-pii-gate.png"
-  alt="Two flows for a synthetic Northwind ticket from Mira Vale. Fail open: the scrubber throws, the catch block continues and the LLM receives the name, email and phone number. Fail closed: the gate requires an approved result; an error, timeout or unconfirmed result blocks the request, makes zero model calls and records blocked / scrubber_error."
+  src="/uploads/rules/block-llm-calls-when-pii-scrubbing-fails/fail-open-vs-fail-closed-pii-gate.png"
+  alt="Two flows for a Northwind ticket from Mira Vale. Fail open: the scrubber throws, the catch block continues and the LLM receives the name, email and phone number. Fail closed: the gate requires an approved result; an error, timeout or unconfirmed result blocks the request, makes zero model calls and records blocked / scrubber_error."
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Fail open sends the original ticket after a scrubber error; fail closed sends only approved text or blocks the call"
+  figure="Fail open sends the original ticket after a scrubber error, while fail closed sends only approved text or blocks the call"
 />
 
-The diagram shows `scrubber_error` for a thrown error. Timeouts record `scrubber_timeout`; missing approval records `unconfirmed`. All three block the model call.
+The diagram shows `scrubber_error` for a thrown error. Timeouts record `scrubber_timeout`, and missing approval records `unconfirmed`. All three block the model call.
 
-Put the gate in a shared server-side model wrapper, after assembling the prompt, retrieved passages and conversation history. Send only the approved output. Retries and alternate model routes must use the same gate; adding the original ticket as context defeats it.
+Put the gate in a shared server-side model wrapper, after assembling the prompt, retrieved passages and conversation history. Send only the approved output. Retries and alternate model routes must use the same gate. Adding the original ticket as context defeats it.
 
 The scrubber adapter must check the entire input against your configured entity, language and confidence rules before approving it. Block unsupported input, partial processing, malformed responses and uncertain detections. HTTP success or an empty detection list alone does not prove that all checks ran.
 
@@ -50,10 +50,10 @@ The scrubber adapter must check the entire input against your configured entity,
 <boxEmbed
   style="info"
   body={<>
-    **Synthetic example:** Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
+    Northwind receives a ticket: “Mira Vale, `mira.vale@example.com`, +1 202-555-0142: my parcel arrived damaged.” Both examples use this ticket and injected scrubber and model functions.
   </>}
   figurePrefix="none"
-  figure="Synthetic Northwind ticket used by both code examples"
+  figure="The Northwind ticket used by both code examples"
 />
 
 ```typescript
@@ -71,13 +71,13 @@ async function summariseBad(text: string, scrub: Scrubber, model: Model) {
 <boxEmbed
   style="greybox"
   body={<>
-    **Northwind result (synthetic data):** The scrubber throws. The model receives the original name, email and phone number.
+    **Northwind result:** The scrubber throws. The model receives the original name, email and phone number.
   </>}
   figurePrefix="bad"
   figure="A scrubber exception leaves the original ticket intact and sends its contact details to the model"
 />
 
-The corrected wrapper sets a deadline and requires explicit approval. `Scrubber` defines the application contract; adapt the vendor response to it. The injected `record` function receives only fixed decision and reason codes.
+The corrected wrapper sets a deadline and requires explicit approval. `Scrubber` defines the application contract, so adapt the vendor response to it. The injected `record` function receives only fixed decision and reason codes.
 
 ```typescript
 type ScrubResult =
@@ -130,19 +130,19 @@ export async function summarise(
 <boxEmbed
   style="greybox"
   body={<>
-    **Northwind result (synthetic data):** The scrubber throws. The application records blocked / scrubber_error, returns a privacy-check error and makes zero model requests.
+    **Northwind result:** The scrubber throws. The application records blocked / scrubber_error, returns a privacy-check error and makes zero model requests.
   </>}
   figurePrefix="good"
   figure="An error, deadline or missing approval records a blocked decision and exits before the model call"
 />
 
-Choose a suitable timeout; two seconds is an example. The wrapper stops waiting even if the scrubber ignores cancellation, and a late result cannot trigger the model call. The scrubber itself must never call the model.
+Choose a suitable timeout. Two seconds is an example. The wrapper stops waiting even if the scrubber ignores cancellation, and a late result cannot trigger the model call. The scrubber itself must never call the model.
 
 Map `PrivacyGateBlocked` to a message such as “Summary unavailable; view the ticket in the support system.” A fallback must not send raw or partially scrubbed text to any model.
 
 ## Test zero outbound model calls
 
-Save the good wrapper as `gate.ts` and the test as `gate.test.ts`. Run `node --test gate.test.ts` with Node.js 24. The test includes the synthetic ticket in a scrubber exception and checks for a safe error, a safe metric and zero model calls.
+Save the good wrapper as `gate.ts` and the test as `gate.test.ts`. Run `node --test gate.test.ts` with Node.js 24. The test includes the example ticket in a scrubber exception and checks for a safe error, a safe metric and zero model calls.
 
 ```typescript
 import test from "node:test";
@@ -172,7 +172,7 @@ Before releasing the gate:
 
 * Confirm zero model calls for a timeout, a late success, an unconfirmed or malformed result, and partial processing
 * Confirm successful redaction sends only the expected scrubbed text, with no raw ticket reattached
-* Check logs, traces, exception reports and metrics for leaked data. Record only a server-generated correlation ID and fixed reason codes; exclude tickets, detected values and scrubber exception messages
+* Check logs, traces, exception reports and metrics for leaked data. Record only a server-generated correlation ID and fixed reason codes. Exclude tickets, detected values and scrubber exception messages
 * Disable prompt and body capture on this route, following [OWASP's logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html#data-to-exclude)
 * Alert on blocked-decision rates and investigate without weakening the gate
 
