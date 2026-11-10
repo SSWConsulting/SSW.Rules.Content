@@ -79,7 +79,7 @@ Apply security where each audience reads the data:
 * **SQL users of the Gold layer** - Use Warehouse SQL permissions, RLS, and column-level security (CLS) for people who query the Warehouse directly
 * **Bronze and Silver** - Restrict access with workspace roles and OneLake security roles
 
-Don't rely on SQL-based RLS or CLS to secure Power BI reports. With Direct Lake on SQL, it makes report queries fall back to DirectQuery, which is much slower. With Direct Lake on OneLake, SQL-based RLS isn't applied at all. See [Integrate Direct Lake security](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-security-integration) for the details.
+Don't rely on SQL-based security to secure Power BI reports. With Direct Lake on SQL, SQL RLS makes report queries fall back to DirectQuery, which is much slower, and SQL CLS can make visuals error when a user lacks permission. With Direct Lake on OneLake, SQL-based RLS isn't applied at all. See [Integrate Direct Lake security](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-security-integration) for the details.
 
 ## Name layers consistently
 
