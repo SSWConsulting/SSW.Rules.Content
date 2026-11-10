@@ -1,0 +1,82 @@
+---
+type: rule
+title: Do you use AI to generate useful dashboards with insights?
+seoDescription: Build AI dashboards with named queries, traceable figures and dated insights, so readers can check the evidence before acting on a recommendation.
+guid: 07c29b1f-9d02-4d39-ad94-a97379f12460
+uri: ai-dashboards-with-insights
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/use-chatgpt-to-generate-charts/rule.mdx
+  - rule: public/uploads/rules/ai-critique-reports-dashboards/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-dashboards.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI assistant builds an operations dashboard in an afternoon. It looks finished, but nobody can trace its 77% accuracy figure to a source or find how many answers were checked. The AI commentary already tells the product owner to roll back a release.
+
+**Build the dashboard on saved calculations and require evidence for its insights.** Let code refresh the figures and use AI to suggest what a person should investigate.
+
+<endIntro />
+
+The Northwind Traders dashboards below use example data.
+
+<imageEmbed
+  src="/uploads/rules/ai-dashboards-with-insights/northwind-ai-dashboard-bad-generic-and-untraceable.png"
+  alt="Northwind illustration: Accuracy 77% has no count, source or coverage date, while an AI insight recommends a rollback."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The rollback recommendation rests on an untraceable percentage with no sample size"
+/>
+
+<imageEmbed
+  src="/uploads/rules/ai-dashboards-with-insights/northwind-ai-dashboard-good-trusted-data-and-insights.png"
+  alt="Northwind illustration: support agreement is 47/61 with coverage 61/870, a named query and source date; AI insights have a separate generation time and cite metric IDs."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Saved queries supply the figures; dated AI insights point to evidence and the next check"
+/>
+
+## Build for one audience
+
+List the decisions the audience makes and when it makes them. A support lead reviewing quality each week needs to know which changes warrant investigation before the next rollout. Choose the questions and metrics that inform those decisions, and set their refresh schedule to match.
+
+Then [give AI your design system](/ai-with-design-system), including colours, type and spacing, so readers can recognise the page and use it consistently.
+
+## Let code own the numbers
+
+Give each recurring metric a stable name, such as `support_agreement_v1`. Keep its query, filters, denominator and tests in source control. Bind the tile to that saved calculation; a language model never types an actual figure into the daily page. [Named measures](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures) are one implementation of reusable calculations.
+
+Show the source, coverage date and a route to the metric definition beside the result. Refreshing the figures makes no language-model call, so an AI outage leaves the data refresh working. Use the same saved results in the insight panel; render referenced values from those results rather than copying AI-written numbers.
+
+## Use an agent for a one-off question
+
+An agent can investigate a question with read-only SQL on an approved local or sanitised database; see [safe database access for AI agents](/ai-database-access). Check its query and result before using the answer. When that answer becomes a daily tile, [build the report to be reused](/do-you-create-a-report-whenever-you-need-a-number-from-a-system) and move the reviewed query into the saved metric code.
+
+## Schedule insights with evidence
+
+Generate insights on a schedule that matches when people act on them. The insight job receives the saved metric results, their definition versions and a dated log of relevant prompt, model and data changes. Each insight needs a metric reference, a suggested next check and its own generation time. Keep the last successful insight visibly dated if generation fails.
+
+A release marker shows timing, not cause. Allow **No clear change yet**, and [check counts and uncertainty before colouring trends](/disagreement-inbox-for-ai-quality).
+
+Label AI-derived classifications, such as chat themes, and check a sample against a written rubric. Human agreement alone does not prove correctness; [review disagreements against source evidence](/disagreement-inbox-for-ai-quality).
+
+Track [cost per useful outcome](/monitor-ai-cost-and-usage) when that decision matters to this audience.
+
+## Check the dashboard before sharing
+
+Use an isolated environment with synthetic records to check the page before readers rely on it:
+
+* **Data and coverage** - Trace live metrics to approved inputs, [reconcile totals independently](/check-dashboard-totals-against-the-source), [expose missing and stale data](/show-missing-and-stale-data-on-dashboards), and [show sample size and coverage](/disagreement-inbox-for-ai-quality) beside quality rates. Derive health badges and build times from actual results.
+* **Controls** - Choose two date ranges with known different results. Check every affected tile, chart and list, then combine date and feature filters. State the period for panels outside a filter's scope. Exercise controls with a mouse and keyboard; remove unwired actions and explain unavailable capabilities.
+* **Live and demo modes** - Label the mode **Live** or **Demo** and keep their sources separate. Search generated code for seed arrays, placeholder strings and error handlers that return sample rows. Simulate a test-source failure: explain the gap without invented rows. Restore the source and verify recovery, then confirm live mode works with the demo source unavailable.
+* **Insight failure** - Stop the insight job and refresh the dashboard. Confirm tiles still run their saved queries and show current source dates, while the insight panel says **Insights unavailable** and retains its last successful generation time.
