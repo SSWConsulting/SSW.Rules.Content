@@ -1,0 +1,95 @@
+---
+type: rule
+title: Do you use a daily development digest when changes outpace discussion?
+seoDescription: Keep busy teams aligned with a daily development digest that groups changes by theme, flags exceptions and links to evidence before the Daily Scrum.
+guid: c8885ac1-86be-4525-8c1d-3930d2a28ae7
+uri: daily-development-digest
+created: 2026-11-03T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/bread-daily-scrums/rule.mdx
+  - rule: public/uploads/rules/methodology-daily-scrums/rule.mdx
+  - rule: public/uploads/rules/when-to-send-a-done-email-in-scrum/rule.mdx
+  - rule: public/uploads/rules/give-clear-status-updates/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/done-video-by-ai/rule.mdx
+  - rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-scrum.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+archivedreason: null
+isArchived: false
+---
+
+When development moves too fast for people to keep up day to day, they need a way to catch up on what actually changed. For example, when a team merges more pull requests (PRs) than it can discuss, a failed deployment or reverted feature gets lost among completed changes. Reading each person's update still leaves the team to reconstruct what changed across the product.
+
+Post a short daily development digest before the Daily Scrum: group changes by theme, put exceptions first, and link claims to evidence. A person checks the draft so the team can rejoin the conversation and plan its next steps.
+
+<endIntro />
+
+## Show outcomes and exceptions together
+
+Summarise the reporting window across the team, rather than repeating individual updates. Name the user benefit under themes such as Orders, Customers and Platform. Put failed deployments, reverts, blockers and decisions above those themes, with an owner and next action.
+
+These matched illustrations use **example data** from a fictional Northwind team. All people, PRs, builds and links are fictional. Both show the same six merged PRs; the second also includes the deployment and verification evidence needed to interpret them.
+
+<imageEmbed
+  src="/uploads/rules/daily-development-digest/northwind-digest-raw-list.png"
+  alt="Illustration using example data: six Northwind merges appear under All shipped, including bulk export and its revert. The list omits the failed staging deployment and asks readers to find what needs discussion."
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="A merge list calls everything shipped and hides the failed deployment and the effect of the revert"
+/>
+
+<imageEmbed
+  src="/uploads/rules/daily-development-digest/northwind-digest-checked.png"
+  alt="Illustration using example data: the same six Northwind merges are grouped by theme. Alex checks the digest; staging failure and bulk-export revert have owners and next actions. Orders changes are merged only, Customers has a verified staging capture, Platform deployment is unknown, and a separate proposal is not built."
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The same six merges become a decision aid when exceptions, deployment state and source links sit beside the outcomes"
+/>
+
+Keep the full PR inventory available behind a link. A theme can cover several PRs, so six merges need not mean six delivered features. Avoid per-person counts and leaderboards: they do not tell the team what is available or what needs attention.
+
+## Collect a bounded, traceable set of evidence
+
+Start manually; schedule an agent when gathering the sources becomes repetitive. Give the drafting job read-only access to approved PR, work-item and build sources. It does not need permission to merge, deploy or post without review.
+
+1. **Fix the scope** - Record the repository, target branch, start and end times, timezone and previous successful cutoff. Use adjacent windows, including weekends, so changes are neither missed nor counted twice.
+2. **Collect the changes** - Read the merged PRs and their descriptions, linked work items, reverts and unfinished work. Follow every page of results and deduplicate by PR identifier. Use repository metadata rather than a merge-commit count, which can miss [squash merges](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github#squashing-your-merge-commits).
+3. **Join the evidence** - Match each claimed outcome to its PRs, the deployed revision and environment, and any test or capture. Check deployment failures even when the build passes. [GitHub records deployment status separately](https://docs.github.com/en/rest/deployments/statuses#list-deployment-statuses); use your platform's equivalent.
+4. **State the limits** - Show unavailable sources and unknown states. If collection is incomplete, label the digest partial and omit totals that appear complete. After a failed run, collect from the previous successful cutoff.
+
+Keep **merged**, **deployed** and **verified** distinct. A merged PR record establishes merge state; a successful deployment record identifies an environment and revision; a test or capture supports only the behaviour it checks. None alone proves that the work meets the team's Definition of Done.
+
+## Label visuals and keep proposals separate
+
+Reuse [captures from the running application](/done-video-by-ai) when they help explain a change. Show the environment and revision so readers can tell which version they see. Use synthetic data, inspect the whole frame for sensitive information, and check that the intended audience can access the linked evidence.
+
+Use visible labels that survive cropping and video playback:
+
+* **Screenshot** - A capture from the running application, with its environment and revision. It shows the captured state, not every acceptance criterion.
+* **AI mockup - merged change** - A labelled illustration of a merged PR. Check it against the diff; it explains the change without proving it runs.
+* **Proposal - not built** - An idea for discussion. Put it in **Proposals (not built)** after the change summaries and exclude it from delivered-work totals.
+
+The Northwind pair above is an illustration of a digest layout. Its sample evidence links and capture references demonstrate what to include; they are not real verification records.
+
+Compare matching viewports for before-and-after captures. Remove or mark reverted features, and describe non-visual work in words rather than inventing a screen. An optional short video can summarise selected highlights, but keep labels and captions visible and check every scene before sharing. Omit it when it adds no useful explanation.
+
+## Check the draft before the team reads it
+
+A named, rotating checker verifies each summary against its sources, reconciles the counts, and checks visual labels and audience access. In the Northwind example, Alex confirms that PR #205 reverts #204 and that build #701 fails on staging; neither a merge total nor a green build can replace that check.
+
+Record the checker and check time on the digest, and [indicate AI assistance](/indicate-ai-helped) when used. Post one concise channel message linking the digest. If review is unavailable, hold the generated draft and share only a smaller update someone can verify. Escalate urgent incidents when they occur; do not wait for the next digest.
+
+## Use the digest to prepare, then discuss the plan
+
+This is a synthesis across many PRs, with deployment and verification state attached. [Clear status updates](/give-clear-status-updates) explain one update; [good PR descriptions](/write-a-good-pull-request) explain one change; [Done notifications](/when-to-send-a-done-email-in-scrum) close the loop on completed work. Keep those records and link to them from the digest. [Meeting summaries](/loop-someone-in) capture decisions from a meeting; the digest prepares the team before one.
+
+The digest supports the [Daily Scrum](/methodology-daily-scrums), whose purpose is to [inspect progress towards the Sprint Goal and adapt the plan](https://scrumguides.org/scrum-guide.html#daily-scrum). [BREAD Daily Scrums](/bread-daily-scrums) provides a meeting format and individual preparation; the digest adds a checked view across the product. Use it as input to the team's plan, with detailed problem-solving in follow-ups.
+
+Try a digest when the team repeatedly misses changes or spends the meeting reconstructing them, and someone can check it before readers need it. Keep it only if readers can identify exceptions and affected areas without opening every PR. Shorten or stop it when checking and reading cost more time than the discussion it saves.
