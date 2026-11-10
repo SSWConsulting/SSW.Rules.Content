@@ -26,19 +26,19 @@ Airplane mode is the quickest, most repeatable way to cut a real device off from
 
 <imageEmbed
   alt="SSW Rewards Activity page on Android in airplane mode, showing an empty feed behind an 'Oops... There seems to be a problem loading the activity feed' alert"
-  size="small"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figurePrefix="bad"
-  figure="Bad example - Offline, the Activity page shows a generic 'Oops...' error and nothing else"
+  figure="Offline, the Activity page shows a generic 'Oops...' error and nothing else"
   src="/uploads/rules/test-mobile-apps-in-airplane-mode/airplane-mode-bad-activity-feed-error.png"
 />
 
 <imageEmbed
   alt="SSW Rewards Activity page on Android in airplane mode, showing the activity feed loaded from cache with no error"
-  size="small"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figurePrefix="good"
-  figure="Good example - Offline, the Activity page shows the last feed it saw, even after the app is closed and reopened"
+  figure="Offline, the Activity page shows the last feed it saw, even after the app is closed and reopened"
   src="/uploads/rules/test-mobile-apps-in-airplane-mode/airplane-mode-good-activity-feed-cached.png"
 />
 
@@ -55,10 +55,10 @@ An app does not need to do everything offline, but it must never fall over. In a
 
 <imageEmbed
   alt="SSW Rewards Activity page on Android in airplane mode, showing cached activity behind an alert that says 'You're offline. The activity feed will load once you're back online.'"
-  size="small"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Good example - The app says the user is offline instead of showing a generic error"
+  size="medium"
+  showBorder={true}
+  figurePrefix="ok"
+  figure="The app says the user is offline instead of showing a generic error"
   src="/uploads/rules/test-mobile-apps-in-airplane-mode/airplane-mode-good-offline-message.png"
 />
 
@@ -78,7 +78,7 @@ Test on a real device, on both iOS and Android, and run through these scenarios:
 6. **Come back online** - Turn airplane mode off and check the app recovers and refreshes without being restarted
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
     **Tip:** Phones remember if you turned Wi-Fi back on while in airplane mode. Check the Wi-Fi icon is off too, or your "offline" test is quietly using the network.
   </>}
@@ -88,7 +88,7 @@ Test on a real device, on both iOS and Android, and run through these scenarios:
 
 Airplane mode is a clean "no network" test, but real users also see slow or flaky connections. Once the app survives airplane mode, try a Wi-Fi network with no internet access, or throttle the connection with Network Link Conditioner on iOS (see [Designing for Adverse Network and Temperature Conditions](https://developer.apple.com/videos/play/wwdc2019/422/)) or the [Android Emulator network settings](https://developer.android.com/studio/run/emulator-console#network-status).
 
-Simulators and emulators are useful for quick checks, but they don't behave exactly like a phone losing signal - see [Do you test on real devices as well as simulators?](/test-on-real-mobile-devices)
+Simulators and emulators are useful for quick checks, but they don't behave exactly like a phone losing signal - see [testing on real devices as well as simulators](/test-on-real-mobile-devices)
 
 ## Report offline bugs with exact steps
 
@@ -112,7 +112,7 @@ Offline bugs are often order-dependent, so a vague "the app crashes offline" is 
     **Expected:** The Network tab shows the same content as the first visit
   </>}
   figurePrefix="good"
-  figure="Good example - An offline bug report that anyone can reproduce in under a minute"
+  figure="An offline bug report that anyone can reproduce in under a minute"
 />
 
 ## Make it part of your Definition of Done
