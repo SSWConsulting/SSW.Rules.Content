@@ -45,12 +45,13 @@ In Fabric, both store data as Delta tables in OneLake - the same storage foundat
 | **Spark** | ✅ Read + write | ⚠️ Read only |
 | **ML/AI** | ✅ Native notebooks | ⚠️ Read into a notebook |
 | **SQL writes** | ❌ Read-only SQL endpoint | ✅ Yes |
-| **Fine-grained security (RLS/CLS/OLS)** | ⚠️ SQL endpoint only | ✅ Yes |
+| **Multi-table transactions** | ❌ No | ✅ Yes |
+| **Fine-grained security** | ✅ OneLake security (tables, rows, columns) | ✅ SQL permissions, RLS, CLS, and OLS |
 | **Best for** | Data engineering and data science | Reporting and analytics |
 
 **Choose a Lakehouse when** you are ingesting raw source data, storing files alongside tables, running Spark notebooks or ML, or doing complex ETL.
 
-**Choose a Warehouse when** you are serving Power BI, SQL is the team's primary tool, business users need direct SQL access, or you need fine-grained security.
+**Choose a Warehouse when** you are serving Power BI, SQL is the team's primary tool, business users need direct SQL access, or you need transactions across multiple tables.
 
 ## Use both - one per layer
 
@@ -70,12 +71,16 @@ Lakehouse and Warehouse are complementary, not competitors. Map each layer to th
   src="/uploads/rules/use-medallion-architecture/medallion-architecture-lakehouse-warehouse.png"
 />
 
-## Apply security at the Warehouse and semantic model
+## Secure report users in the semantic model
 
-Row-, column-, and object-level security (RLS, CLS, and OLS) are fully supported in the Warehouse and the semantic model, but only through the SQL analytics endpoint in a Lakehouse. RLS defined on a Lakehouse SQL endpoint also forces Direct Lake reports to fall back to DirectQuery, which hurts performance.
+Apply security where each audience reads the data:
 
-Keep Bronze and Silver locked down with workspace roles and OneLake access controls, and apply fine-grained security on the Gold Warehouse and semantic model. Test it with **View as role** in Power BI before releasing. See [Microsoft's Fabric security overview](https://learn.microsoft.com/en-us/fabric/security/security-overview) for the full permission model.
+* **Power BI users** - Secure them in the semantic model, with row-level security (RLS) for rows and object-level security (OLS) for tables and columns. Use a fixed-identity connection for Direct Lake models. Test it with **Test as role** before releasing
+* **SQL users of the Gold layer** - Use Warehouse SQL permissions, RLS, and column-level security (CLS) for people who query the Warehouse directly
+* **Bronze and Silver** - Restrict access with workspace roles and OneLake security roles
+
+Don't rely on SQL-based RLS or CLS to secure Power BI reports. With Direct Lake on SQL, it makes report queries fall back to DirectQuery, which is much slower. With Direct Lake on OneLake, SQL-based RLS isn't applied at all. See [Integrate Direct Lake security](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-security-integration) for the details.
 
 ## Name layers consistently
 
-Use a predictable naming convention so anyone can tell which layer they are looking at, e.g. `Northwind - Bronze`, `Northwind - Silver`, `Northwind - Gold`.
+Use a predictable naming convention so anyone can tell which layer they are looking at. Lakehouse names may only contain letters, numbers, and underscores, so name items like `Northwind_Bronze`, `Northwind_Silver`, and `Northwind_Gold`.
