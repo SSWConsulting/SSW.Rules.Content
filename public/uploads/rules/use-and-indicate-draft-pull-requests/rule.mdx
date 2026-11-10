@@ -12,6 +12,8 @@ authors:
     url: 'https://www.ssw.com.au/people/nick-curran'
   - title: Daniel Mackay
     url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 related:
   - rule: public/uploads/rules/over-the-shoulder/rule.mdx
   - rule: public/uploads/rules/adding-changes-to-pull-requests/rule.mdx
@@ -31,8 +33,7 @@ lastUpdatedByEmail: sammaher@ssw.com.au
 archivedreason: null
 ---
 
-The use of Draft Pull Requests is a handy practice to indicate work in progress promoting early collaboration and continuous feedback.
-This approach enhances code quality, reduces duplication, and helps to maintain a transparent and efficient development pipeline. Creating Draft Pull Requests will also trigger GitHub Workflows so developers get early feedback on the quality of their changes.
+Draft Pull Requests show work in progress so teammates can collaborate and give feedback early. They help improve code quality, reduce duplicate work, and make ongoing changes visible. Draft Pull Requests can also trigger GitHub Workflows, giving developers early feedback when the workflows are configured to run on drafts.
 
 <endIntro />
 
@@ -40,25 +41,39 @@ This approach enhances code quality, reduces duplication, and helps to maintain 
 
 * Clearly communicate that the change is still a work in progress and not yet ready for review.
 * Prevent unnecessary notifications to the team (for example, "Sam opened a pull request") when the work is still in progress.
-* In the age of AI, pull requests created by tools such as Claude or Copilot should start as drafts so a human can validate the changes before involving reviewers.
+* Pull requests created by AI coding agents should start as drafts so a human can validate the changes before involving reviewers.
 * Control which CI automations run by using draft pull requests, avoiding unnecessary builds, deployments, or long-running test suites until the work is ready.
 
 ## Clearly marking your Pull Requests
 
-Draft Pull Requests are less effective if they are not clearly marked as Draft, as is the case on GitHub. To make them clearer, use a naming convention like `🚧 WIP: &#123;&#123;PR Title&#125;&#125;` to clearly show that it is a Draft Pull Request.
+A draft status can be easy to overlook on GitHub. Add a title prefix like `🚧 WIP: {{PR Title}}` to make work in progress easier to spot.
 
 ### GitHub
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="This PR isn't a draft, sending unwanted notifications and risks being merged" src="/uploads/rules/use-and-indicate-draft-pull-requests/Screenshot-2026-08-03-at-4.53.54-pm.png" />
+<imageEmbed alt="GitHub pull request list showing Test Github Draft Pull Request as an open pull request with no draft indicator" size="large" showBorder={false} figurePrefix="bad" figure="This PR isn't a draft, so it sends unwanted notifications and risks being merged" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-pr-not-draft.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="The default experience lacks clear indication that this is Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/Screenshot-2026-08-03-at-4.58.09-pm.png" />
+<imageEmbed alt="GitHub pull request list showing the same pull request with a grey draft icon and a small Draft label" size="large" showBorder={false} figurePrefix="ok" figure="GitHub's small Draft label is easy to miss" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-pr-draft-default.png" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Add prefix with 🚧 emoji to clearly indicate it is a Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-good-example.png" />
+<imageEmbed alt="GitHub pull request list showing a draft pull request titled 🚧 WIP: Work in progress Pull Request" size="large" showBorder={false} figurePrefix="good" figure="A 🚧 WIP prefix makes the Draft Pull Request obvious" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-good-example.png" />
 
 If you want to go one step further, you can add the [WIP App](https://github.com/marketplace/wip) to your repo. The WIP App prevents the merging of Pull Requests with "WIP" in their title. When you are ready to go, you just remove the WIP prefix.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="WIP app catching Draft Pull Request" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-wip.png" />
+<imageEmbed alt="GitHub pull request list where the WIP App shows the tooltip In progress: Title contains a construction emoji" size="large" showBorder={false} figurePrefix="good" figure="The WIP App marks the PR as in progress because its title contains 🚧" src="/uploads/rules/use-and-indicate-draft-pull-requests/github-wip.png" />
 
 ### Azure DevOps
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Clear naming and indication of a draft pull request" src="/uploads/rules/use-and-indicate-draft-pull-requests/devops-good-example.png" />
+<imageEmbed alt="Azure DevOps pull requests page showing 🚧 WIP: Azure DevOps Draft Pull Request with a Draft badge" size="large" showBorder={false} figurePrefix="good" figure="Clear naming and indication of a draft pull request" src="/uploads/rules/use-and-indicate-draft-pull-requests/devops-good-example.png" />
+
+## Verify compatibility before marking ready
+
+Before handing the PR to reviewers, check it against current `main`:
+
+1. **Fetch `main`** - Inspect relevant changes and remove work that `main` already covers.
+2. **Update the branch** - Follow the repository's merge or rebase convention, and resolve conflicts. If others share the branch, agree before rewriting its history.
+3. **Check semantic compatibility** - Check APIs, contracts, overlapping changes, and migrations even when Git merges cleanly. Test migrations in disposable environments.
+4. **Test the combined revision** - Restore dependencies, rebuild, and run relevant tests. Confirm CI tests the updated revision or its test merge. Stale green runs and skipped draft suites are not enough.
+5. **Record evidence** - In a PR comment, list the tested `main` and PR commits, check-result links, manual checks, and limits. Keep the description about the change itself. Fetch again before handoff. If `main` has moved, update the branch and repeat the affected checks.
+
+Leave the PR in draft if verification is blocked, and state the blocker in the PR description.
+
+Readiness is a point-in-time check. Use [branch protection](/protect-your-main-branch) to enforce integration requirements as `main` moves during review.
