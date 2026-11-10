@@ -42,7 +42,7 @@ Northwind needs yesterday's order count and total, refreshed once each night. Ev
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Illustration · example data: the SPA needs a build, API and sign-in service to display a nightly snapshot; offline readers see no totals"
+  figure="The SPA needs a build, API and sign-in service to display a nightly snapshot; offline readers see no totals"
 />
 
 <imageEmbed
@@ -51,7 +51,7 @@ Northwind needs yesterday's order count and total, refreshed once each night. Ev
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Illustration · example data: one HTML file keeps the same nightly totals and their timestamp available offline"
+  figure="One HTML file keeps the same nightly totals and their timestamp available offline"
 />
 
 The export job still needs an owner, credentials, monitoring, and a schedule.
@@ -112,10 +112,10 @@ Schedule the export then the generator, using the same working directory and one
 
 ## Keep data and execution inside clear limits
 
-* **No secrets or hidden private data:** recipients can read HTML and JSON, including hidden fields. Export only approved aggregates; keep credentials in the job's secret store. Omit sign-in only when the export is safe for every recipient.
-* **Escape data as text:** the generator uses Python's `html.escape` for text fields. Do not splice untrusted strings into scripts or `innerHTML`. Review AI-generated HTML for network requests and executable content.
-* **Keep a restrictive CSP:** the example blocks scripts and authorizes only its exact inline stylesheet hash. If you add scripts, use hashes for approved inline content and regenerate hashes when it changes; avoid weakening the policy with `unsafe-inline`. See [CSP guidance](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) and [inline style hashes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src). A hosted response can add headers; a meta policy supports fewer features.
-* **Choose embedded data for offline use:** a sibling JSON file can separate layout from data when both are served over HTTPS, but it is a two-file deliverable. Browsers can [reject local-file fetches](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSRequestNotHttp), so do not promise double-click offline support for that variant.
+* **No secrets or hidden private data** - Recipients can read HTML and JSON, including hidden fields. Export only approved aggregates; keep credentials in the job's secret store. Omit sign-in only when the export is safe for every recipient.
+* **Escape data as text** - The generator uses Python's `html.escape` for text fields. Do not splice untrusted strings into scripts or `innerHTML`. Review AI-generated HTML for network requests and executable content.
+* **Keep a restrictive CSP** - The example blocks scripts and authorizes only its exact inline stylesheet hash. If you add scripts, use hashes for approved inline content and regenerate hashes when it changes; avoid weakening the policy with `unsafe-inline`. See [CSP guidance](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) and [inline style hashes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src). A hosted response can add headers; a meta policy supports fewer features.
+* **Choose embedded data for offline use** - A sibling JSON file can separate layout from data when both are served over HTTPS, but it is a two-file deliverable. Browsers can [reject local-file fetches](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSRequestNotHttp), so do not promise double-click offline support for that variant.
 
 For approved public data, [GitHub Pages serves static files with optional build processing](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). [Azure Static Web Apps can skip its app build](https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration#skip-building-front-end-app) for ready-to-serve files. Hosting may use managed servers or a CDN; the report needs no application server or external CDN assets.
 
