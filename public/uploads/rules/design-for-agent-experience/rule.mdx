@@ -8,6 +8,8 @@ created: 2026-11-01T21:52:32.000Z
 authors:
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
 related:
   - rule: public/uploads/rules/mcp-server/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
@@ -32,7 +34,7 @@ Designing for AX means making your product easy for an AI agent to discover and 
 * **Fewer screenshot-and-guess loops** - Expose a task as one structured call instead of a sequence of clicks
 * **Clearer permissions** - A named tool with a schema is easier to approve than "click anything on the page"
 
-The same fictional Northwind task - export orders - can stall behind a human-only step or complete through a tool with scoped access configured in advance.
+The same Northwind task - export orders - can stall behind a human-only step or complete through a tool with scoped access configured in advance.
 
 <imageEmbed
   src="/uploads/rules/design-for-agent-experience/northwind-human-gated-ui.png"
@@ -49,7 +51,7 @@ The same fictional Northwind task - export orders - can stall behind a human-onl
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="A documented MCP tool completes the export in one structured call; a CLI can expose the same operation"
+  figure="A documented MCP tool completes the export in one structured call. A CLI can expose the same operation"
 />
 
 ## How is AX different from UX?
@@ -75,9 +77,9 @@ Pick by where the agent runs. The three surfaces complement each other, so many 
 
 Let shell-based agents pass flags without interactive prompts and request structured output. Reject unknown flags and return meaningful exit codes.
 
-For single-result commands, document one JSON document on stdout, including failures; send diagnostics to stderr. Document streaming separately.
+For single-result commands, print exactly one JSON document to stdout, even on failure, and send diagnostics to stderr. Document streaming output separately.
 
-This fictional Northwind error uses exit status 2. Its response shape and exit values are an example contract:
+This Northwind error uses exit status 2. Its response shape and exit values are an example contract:
 
 ```json
 {
@@ -91,7 +93,7 @@ This fictional Northwind error uses exit status 2. Its response shape and exit v
 }
 ```
 
-**Figure: The stable code drives the caller's decision; the message and hint explain it**
+**Figure: The stable code drives the caller's decision, and the message and hint explain it**
 
 | Outcome | Exit status | `ok` | `data` | `error` |
 | --- | --- | --- | --- | --- |
@@ -101,15 +103,15 @@ This fictional Northwind error uses exit status 2. Its response shape and exit v
 
 Callers should:
 
-* **Branch on documented codes** - Use stable codes, not message text; never execute hints
+* **Branch on documented codes** - Use stable codes, not message text. Never execute hints
 * **Reject inconsistent output** - Stop on unknown codes, malformed JSON or a mismatched exit status
-* **Verify the contract** - Test success, empty results and failures with diagnostics enabled; keep secrets out of both streams
+* **Verify the contract** - Test success, empty results and failures with diagnostics enabled. Keep secrets out of both streams
 
 ### MCP server
 
 Use an MCP server to expose your system through a standard tool interface, locally or remotely. Tool names, descriptions and schemas help agents choose the right operation and supply valid inputs.
 
-See [Do you have an MCP server to let AI agents plug into your app?](/mcp-server) for how to build one.
+See [how to build an MCP server](/mcp-server) for the details.
 
 ### WebMCP
 
@@ -143,7 +145,7 @@ WebMCP lets a web page register JavaScript tools that an in-browser agent can ca
 
 ***
 
-### Learn more
+## Learn more
 
 * [SSW: Do you have an MCP server to let AI agents plug into your app?](/mcp-server)
 * [SSW: Do you give your AI agents context with MCP servers and skills?](/mcp-servers-for-context)
