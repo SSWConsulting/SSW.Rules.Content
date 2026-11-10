@@ -1,5 +1,5 @@
 ---
-seoDescription: Introducing a critical agent can refine ChatGPT's output by reviewing and revising its responses.
+seoDescription: Ask an AI model to critique its own drafts, and give content people rely on an independent review with evidence and source checks.
 type: rule
 title: Do you introduce a critical agent?
 categories:
@@ -8,6 +8,12 @@ uri: critical-agent
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/avoid-ai-hallucinations/rule.mdx
+  - rule: public/uploads/rules/use-ai-search-and-check-sources/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
 created: 2023-04-12T14:30:00.087Z
 guid: 7227bf15-464e-4731-b824-71241d07847b
 ---
@@ -41,14 +47,12 @@ Self-critique can improve clarity and usefulness, but it can also miss errors in
 
 When people will publish, reuse or rely on the content, go beyond self-critique and seek an independent challenge:
 
-1. **Start a fresh review.** Provide the draft, brief, acceptance criteria and sources without the drafting conversation. Use a different model family where available; otherwise, start a fresh chat with the same model. The same model may retain its blind spots; agreement between models is not proof.
-2. **Ask for evidence.** Request unsupported claims, missing facts and misleading examples. For each finding, ask for the affected passage, a source reference where available and a specific correction. Ask the reviewer to flag missing evidence rather than invent references.
-3. **Verify before revising.** Have a person open the cited sources, check that they support the claims and resolve disagreements against the evidence. Apply focused corrections without removing the reasons behind the advice.
-4. **Run deterministic checks.** Check word limits, required items, formatting and links with tools. These checks can confirm that a required statement appears; a person still needs to check its accuracy against the source.
+1. **Start a fresh review** - Provide the draft, brief, acceptance criteria and sources without the drafting conversation. Use a different model family where available, or otherwise a fresh chat with the same model. The same model can keep its blind spots, and agreement between models is not proof.
+2. **Ask for evidence** - Request unsupported claims, missing facts and misleading examples. For each finding, ask for the affected passage, a source reference where available and a specific correction. Ask the reviewer to flag missing evidence rather than invent references.
+3. **Verify before revising** - Have a person open the cited sources, check that they support the claims and resolve disagreements against the evidence. Apply focused corrections without removing the reasons behind the advice.
+4. **Run deterministic checks** - Check word limits, required items, formatting and links with tools. These checks can confirm that a required statement appears; a person still needs to check its accuracy against the source.
 
 A short routine message rarely needs this full process. Match the review effort to the content's reach and consequences.
-
-The following Northwind FAQ examples are synthetic:
 
 <boxEmbed
   style="greybox"
