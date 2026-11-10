@@ -14,7 +14,7 @@ guid: 93bfec41-6b37-4413-a660-931fffa88d44
 redirects:
 - do-you-protect-your-master-branch
 - protect-your-master-branch
-seoDescription: Ensure code safety and quality with branch protection rules in Git.
+seoDescription: Ensure code safety and quality with branch protection rules in Git, and require checks and approval for the current revision before merging.
 title: Do you protect your main branch? aka branch protection
 categories:
   - category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
@@ -37,7 +37,7 @@ This can include:
 * Automatically adding specific people to review the code
 
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps Branch Policies page with every policy turned off, including minimum reviewers, linked work items, comment resolution and merge types"
   size="large"
   showBorder={false}
   figurePrefix="bad"
@@ -46,7 +46,7 @@ This can include:
 />
 
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps Branch Policies page for main with minimum reviewers, linked work items, comment resolution, limited merge types and build validation turned on"
   size="large"
   showBorder={false}
   figurePrefix="good"
@@ -60,11 +60,11 @@ A green build or approval on an earlier revision does not prove the latest chang
 
 For example, in GitHub:
 
-1. **Require a fresh human review.** Require pull request reviews, enable **Dismiss stale pull request approvals when new commits are pushed**, and require conversation resolution. Ensure an authorised human approves the current changes after the last reviewable push.
-2. **Prevent bypasses.** Apply protections to administrators and exclude agent identities from bypass access. An agent's review does not replace the required human approval.
-3. **Test against the latest base.** Enable **Require branches to be up to date before merging** or **Require merge queue**. A queue tests the latest base with the PR and entries ahead of it. Required GitHub Actions workflows must also run on `merge_group` events.
-4. **Verify what ran.** Require status checks before merging. Check results for the revision GitHub evaluates: the PR head, test-merge commit or queue integration commit. These can have different checks. Pending, skipped or neutral results do not prove that the intended tests ran and passed.
+1. **Require a fresh human review** - Require pull request reviews, and enable **Dismiss stale pull request approvals when new commits are pushed** and **Require approval of the most recent reviewable push**. Also require conversation resolution. Together, these make sure an authorised human approves the current changes.
+2. **Prevent bypasses** - Apply protections to administrators and exclude agent identities from bypass access. An agent's review does not replace the required human approval.
+3. **Test against the latest base** - Enable **Require branches to be up to date before merging** or **Require merge queue**. A queue tests the latest base with the PR and entries ahead of it. Required GitHub Actions workflows must also run on `merge_group` events.
+4. **Verify what ran** - Require status checks before merging. Check results for the revision GitHub evaluates: the PR head, test-merge commit or queue integration commit. These can have different checks. Pending, skipped or neutral results do not prove that the intended tests ran and passed.
 
 See [GitHub's branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) and [merge queue configuration](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue).
 
-Where repository policy permits auto-merge, complete these checks before enabling it. Before pushing another change, disable auto-merge or remove the PR from the queue, then repeat checks and review. Treat **Queued; integration checks pending** as a waiting state until the platform confirms the merge. Follow stricter repository policies where they apply.
+Where repository policy permits auto-merge, complete these checks before enabling it. Before pushing another change, disable auto-merge or remove the PR from the queue, then repeat checks and review. Treat a queued PR whose integration checks are still pending as waiting, not merged, until the platform confirms the merge.
