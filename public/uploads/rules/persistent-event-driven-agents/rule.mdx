@@ -23,7 +23,7 @@ Your coding agent fixes a bug when you ask. Meanwhile, a ready backlog item wait
 
 **Start recurring agent work from events, and save its owner and progress in a durable record.** An event such as a production error or a ready backlog item starts the work without a prompt. After a restart, the agent uses the saved record to check what happened and resume safely.
 
-As the work grows, split it into a loop of three roles. Operations investigates production issues, Delivery prepares tested pull requests, and Research resolves blocking uncertainty. People set the scope and approve merge and deployment; Operations then monitors the result and feeds new issues back into the loop.
+As the work grows, split it into a loop of three roles. Operations investigates production issues, Delivery prepares tested pull requests, and Research resolves blocking uncertainty. People set the scope and approve merge and deployment. Operations then monitors the result and feeds new issues back into the loop.
 
 <endIntro />
 
@@ -58,15 +58,15 @@ Start with one agent. Split roles when the work needs different tools or permiss
 
 **Implementation is a Delivery step**, with a tested PR as its output. The PR links the PBI or bug, explains how the change meets its acceptance criteria, and records the tests run and their results. Research is optional: when the requirements and approach are clear, Delivery proceeds directly.
 
-For example, Operations investigates a Northwind production error after release 2.4 and hands Delivery the reproduction steps, relevant logs and affected release. If the fix depends on an unclear supplier API behaviour, Delivery asks Research that specific question. Research returns its evidence and recommended approach so Delivery can implement and test the fix. Northwind is a fictional example.
+For example, Operations investigates a Northwind production error after release 2.4 and hands Delivery the reproduction steps, relevant logs and affected release. If the fix depends on an unclear supplier API behaviour, Delivery asks Research that specific question. Research returns its evidence and recommended approach so Delivery can implement and test the fix.
 
-**Agents do not deploy.** A human reviews the PR and authorises merge and release through the team's release process. Operations then monitors production for the original error and any regression; findings become the next investigated bug for Delivery.
+**Agents do not deploy.** A human reviews the PR and authorises merge and release through the team's release process. Operations then monitors production for the original error and any regression. Findings become the next investigated bug for Delivery.
 
 Each hand-off includes the work key, acceptance criteria, evidence and next step. Save the new owner and pending hand-off together so a restart cannot lose the transfer. For a Research request, include the blocking question and what decision its answer must support. If the evidence is inconclusive, return the uncertainty to Delivery's human owner instead of guessing or repeating the investigation indefinitely.
 
 ## Persist ownership and progress
 
-Persistence means that work survives a process restart. Store the queue and checkpoints durably; one chat or process does not need to remain open forever. [Microsoft's workflow checkpoint documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints) explains storage options and resuming saved work. In-memory storage alone cannot survive a process restart.
+Persistence means that work survives a process restart. Store the queue and checkpoints durably. One chat or process does not need to remain open forever. [Microsoft's workflow checkpoint documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints) explains storage options and resuming saved work. In-memory storage alone cannot survive a process restart.
 
 Use a database table or durable workflow store to record each item's source, revision, owner, status, evidence, next step and output links. Claim work atomically and use an expiring lease so a crashed worker does not leave it stuck forever. Renew leases during long work and reject writes from workers whose lease has expired.
 
@@ -76,7 +76,7 @@ Before retrying a write, reconcile its outcome or use a destination-supported id
 
 ## Compare the same event with and without persistence
 
-Northwind PBI 314, "Show supplier lead times", becomes ready at revision 7. In both illustrations, Delivery opens PR 82, then crashes before saving its URL. These synthetic screens use **example data**.
+Northwind PBI 314, "Show supplier lead times", becomes ready at revision 7. In both illustrations, Delivery opens PR 82, then crashes before saving its URL.
 
 <imageEmbed
   src="/uploads/rules/persistent-event-driven-agents/session-only-duplicate-pr.png"
