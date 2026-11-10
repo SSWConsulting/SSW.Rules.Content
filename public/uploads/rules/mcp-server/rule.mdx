@@ -4,6 +4,8 @@ authors:
   url: https://www.ssw.com.au/people/calum-simpson
 - title: Hajir Lesani
   url: https://www.ssw.com.au/people/hajir-lesani
+- title: Jernej Kavka
+  url: https://www.ssw.com.au/people/jernej-kavka
 created: 2025-04-03 01:13:03.961000+00:00
 guid: ddaf9969-7cb9-408c-8f2a-18ce128decc4
 related:
@@ -12,7 +14,7 @@ seoDescription: Custom AI integrations duplicate effort and business logic. Expo
   your app through a thin MCP adapter backed by a tested shared core.
 title: Do you have an MCP server to let AI agents plug into your app?
 categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 type: rule
 uri: mcp-server
 ---
@@ -30,11 +32,11 @@ Think of MCP as a "USB port" for AI applications: a common protocol through whic
 * **Without MCP** - Separate client-specific connectors multiply the integrations you maintain.
 * **With MCP** - Compatible clients share one tool interface, while your application controls the operations it exposes.
 
-MCP standardizes the connection; your implementation still needs authentication, authorization and safe handling of tool calls. It does not automatically update deployed integrations or make them secure.
+MCP standardizes the connection. Your implementation still needs authentication, authorization and safe handling of tool calls. It does not automatically update deployed integrations or make them secure.
 
 ## Keep business logic behind a thin MCP adapter
 
-Implement and test an operation in a shared application service or existing API before exposing it as an MCP tool. Keep business calculations, input constraints and resource permission checks in that core. Add a CLI when people or CI also need the operation; a tested library is enough when nobody needs a terminal command.
+Implement and test an operation in a shared application service or existing API before exposing it as an MCP tool. Keep business calculations, input constraints and resource permission checks in that core. Add a CLI when people or CI also need the operation. A tested library is enough when nobody needs a terminal command.
 
 The MCP adapter only translates between the protocol and that core:
 
