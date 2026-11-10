@@ -29,15 +29,9 @@ You learn from a handful of experts whose tools, posts and talks shape your work
 
 ## Choose the simplest subscription that works
 
-Start with 1-5 people whose work you use, then list their relevant public repositories and feeds. Follow selected work, rather than every action on every account.
+Start with 1–5 people whose work you use, then list their relevant public repositories and feeds. Follow selected work, rather than every action on every account.
 
-A few SSW people to start with:
-
-* [Calum Simpson](https://www.ssw.com.au/people/calum-simpson), SSW VP of AI — follow his profile and [GitHub](https://github.com/calumjs) for his AI agent work and talks, including [AI: It's a Skill Issue](https://tv.ssw.com/ai-skills/).
-* [Matt Wicks (Wicksy)](https://www.ssw.com.au/people/matt-wicks), SSW Solution Architect — read [Wicksipedia](https://wicksipedia.com) for CI/CD, DevOps, cloud-native architecture and clean code.
-* [Adam Cogan](https://www.ssw.com.au/people/adam-cogan), SSW Chief Architect and Microsoft Regional Director — follow [his blog](https://www.adamcogan.com) for AI, agents and developer productivity.
-
-A custom bot is useful when you need one feed across several people's releases, blogs and videos, with consistent filtering and duplicate suppression. If you only need one repository's releases, [GitHub's custom watch settings](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) may be enough. An RSS reader can also track new posts without a custom bot. Keep those simpler options when they meet your needs.
+For one repository, [GitHub's custom watch settings](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) may be enough. Use an RSS reader for new posts. Build a custom bot when you need one feed across several people's releases, blogs and videos, with consistent filtering and duplicate suppression.
 
 For a bot, define what counts as a new item before choosing the automation tool:
 
@@ -46,6 +40,12 @@ For a bot, define what counts as a new item before choosing the automation tool:
 * **Talks:** new videos from selected public channels, using a supported feed or API
 
 Skip stars, forks and routine commits unless they serve a specific learning goal. Use official feeds and APIs, respect their access terms, and leave a source out if you cannot access it through a supported method. Implement the pattern however you like (e.g. a scheduled task in your AI assistant, a small workflow, or a script with persistent storage).
+
+A few SSW people to start with:
+
+* [Calum Simpson](https://www.ssw.com.au/people/calum-simpson), SSW VP of AI — follow his profile and [GitHub](https://github.com/calumjs) for his AI agent work and talks, including [AI: It's a Skill Issue](https://tv.ssw.com/ai-skills/).
+* [Matt Wicks (Wicksy)](https://www.ssw.com.au/people/matt-wicks), SSW Solution Architect — read [Wicksipedia](https://wicksipedia.com) for CI/CD, DevOps, cloud-native architecture and clean code.
+* [Adam Cogan](https://www.ssw.com.au/people/adam-cogan), SSW Chief Architect and Microsoft Regional Director — follow [his blog](https://www.adamcogan.com) for AI, agents and developer productivity.
 
 <boxEmbed
   style="warning"
@@ -62,33 +62,11 @@ The essential behaviour is the same whichever tool you choose:
 
 1. **Baseline without notifying.** On the first successful read of each source, save the IDs of the items it already contains. Repeat this baseline step when adding a source, so an old archive does not arrive as new work.
 2. **Check at a useful interval.** A daily check in your timezone is a reasonable starting point. Prefer supported event subscriptions when available; otherwise follow the provider's [polling, conditional-request and rate-limit guidance](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api).
-3. **Compare stable IDs.** Store source plus item ID, not just the latest title or date. GitHub's [release list](https://docs.github.com/en/rest/releases/releases#list-releases) exposes release IDs; RSS items can provide a [GUID](https://www.rssboard.org/rss-specification#ltguidgtSubelementOfLtitemgt), with a canonical post URL as a fallback. Retrieve enough pages to cover the gap since the last successful check, so two releases between checks are both found.
+3. **Compare stable IDs.** Save each source and item ID, using the canonical URL when no stable ID is available. Read every page since the last successful check so two releases between checks are both found.
 4. **Send a concise alert.** Include the tool or publication, version or title, a short source-backed description, and a direct link for each new item. Use the original title if you cannot verify a summary. If no new items exist, send nothing.
 5. **Record delivery.** Keep pending items until delivery succeeds, then mark them delivered. Use stable item keys to suppress duplicates on retries; check whether your destination supports idempotent delivery before assuming retries cannot repeat a message.
 
 A failed source request is not an empty feed. Preserve its saved state, back off as instructed, and report repeated failures to the bot's owner separately from learning alerts. Store any required credentials in the automation tool's secret store, with only the permissions needed.
-
-Two examples of the pattern:
-
-<imageEmbed
-  src="/uploads/rules/track-important-people-with-bots/person-tracker-good.png"
-  alt="Product-neutral Release watcher card: watching Gordon Beeming's GitHub and blog on a weekday cadence, silent after baseline, then one line each for MyTerm v0.67 and v0.68 with links"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Person tracker (illustration) — name the sources, set a cadence, stay quiet unless something is new, and send one linked line per item"
-/>
-
-The person-tracker card above is an illustration of the pattern (example weekday schedule, not a live bot transcript). The releases it names are real and public: [MyTerm v0.67](https://github.com/GordonBeeming/myterm/releases/tag/v0.67) and [MyTerm v0.68](https://github.com/GordonBeeming/myterm/releases/tag/v0.68) from [Gordon Beeming](https://www.ssw.com.au/people/gordon-beeming/).
-
-<imageEmbed
-  src="/uploads/rules/track-important-people-with-bots/news-digest-good.png"
-  alt="Product-neutral Northwind learning digest: scheduled daily card listing only confirmed synthetic Demo Editor and AI Lab items with a short why-it-matters for each"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="News digest (synthetic Northwind) — scheduled, confirmed sources only, dated items, and a short explanation of why each item matters; rumours stay out"
-/>
 
 ## Compare the same three days
 
@@ -113,6 +91,19 @@ Northwind's learning feed follows its fictional Demo Editor app. All releases an
 />
 
 Test this sequence before relying on the bot: first run sends nothing; an unchanged run sends nothing; two new items produce one alert containing both; rerunning sends nothing. Also test a failed fetch and a failed delivery so neither loses an item or resets the baseline.
+
+## See it with real releases
+
+<imageEmbed
+  src="/uploads/rules/track-important-people-with-bots/person-tracker-good.png"
+  alt="Product-neutral Release watcher card: watching Gordon Beeming's GitHub and blog on a weekday cadence, silent after baseline, then one line each for MyTerm v0.67 and v0.68 with links"
+  size="medium"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Person tracker (illustration) — name the sources, set a cadence, stay quiet unless something is new, and send one linked line per item"
+/>
+
+The releases shown are real: [MyTerm v0.67](https://github.com/GordonBeeming/myterm/releases/tag/v0.67) and [MyTerm v0.68](https://github.com/GordonBeeming/myterm/releases/tag/v0.68) from [Gordon Beeming](https://www.ssw.com.au/people/gordon-beeming/).
 
 ## Keep the feed useful
 
