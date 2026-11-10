@@ -58,9 +58,11 @@ An app does not need to do everything offline, but it must never fall over. In a
   size="small"
   showBorder={false}
   figurePrefix="good"
-  figure="Good example - When data can't load, the app says the user is offline and what will happen next"
+  figure="Good example - The app says the user is offline instead of showing a generic error"
   src="/uploads/rules/test-mobile-apps-in-airplane-mode/airplane-mode-good-offline-message.png"
 />
+
+This is better than "Oops...", but it can go further: also show when the feed was last updated, so the user knows how old the cached data on screen is.
 
 Decide which features work offline and which are online-only as part of the design, not after the first crash report.
 
@@ -70,7 +72,7 @@ Test on a real device, on both iOS and Android, and run through these scenarios:
 
 1. **Cold start offline** - Close the app completely, turn on airplane mode, then open it. Startup and sign-in code often assumes the network is there
 2. **Visit every page** - Open every tab and screen while offline
-3. **Visit every page again** - Leave each page and come back. Many offline crashes only happen on the second visit, after a failed request has left the page in a bad state
+3. **Visit every page again** - Leave each page and come back. Some offline crashes only happen on the second visit, after a failed request has left the page in a bad state
 4. **Lose the connection mid-session** - Start online, open a page, then turn on airplane mode and pull to refresh, page through a list, or open a detail page
 5. **Try every online-only action** - Sign in, submit a form, scan a code, buy something, upload a photo. Each one should explain why it can't run right now
 6. **Come back online** - Turn airplane mode off and check the app recovers and refreshes without being restarted
@@ -78,13 +80,13 @@ Test on a real device, on both iOS and Android, and run through these scenarios:
 <boxEmbed
   style="info"
   body={<>
-    **Tip:** Phones remember if you turned Wi-Fi or Bluetooth back on while in airplane mode. Check the Wi-Fi icon is off too, or your "offline" test is quietly using the network.
+    **Tip:** Phones remember if you turned Wi-Fi back on while in airplane mode. Check the Wi-Fi icon is off too, or your "offline" test is quietly using the network.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-Airplane mode is a clean "no network" test, but real users also see slow or flaky connections. Once the app survives airplane mode, try a Wi-Fi network with no internet access, or throttle the connection with [Network Link Conditioner](https://developer.apple.com/documentation/network/testing-your-app-under-various-network-conditions) on iOS or the [Android Emulator network settings](https://developer.android.com/studio/run/emulator-console#netspeed).
+Airplane mode is a clean "no network" test, but real users also see slow or flaky connections. Once the app survives airplane mode, try a Wi-Fi network with no internet access, or throttle the connection with Network Link Conditioner on iOS (see [Designing for Adverse Network and Temperature Conditions](https://developer.apple.com/videos/play/wwdc2019/422/)) or the [Android Emulator network settings](https://developer.android.com/studio/run/emulator-console#network-status).
 
 Simulators and emulators are useful for quick checks, but they don't behave exactly like a phone losing signal - see [Do you test on real devices as well as simulators?](/test-on-real-mobile-devices)
 
