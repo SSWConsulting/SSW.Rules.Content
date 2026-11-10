@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
 related:
   - rule: public/uploads/rules/know-the-three-parts-of-rd/rule.mdx
   - rule: public/uploads/rules/do-you-record-your-failures/rule.mdx
@@ -26,7 +28,7 @@ A pull request that says "I picked this LLM" shows a decision, not an experiment
 
 ## Make the outcome measurable before you start
 
-Decide how you will judge success **before** running the experiment. This is your benchmark, and it comes from your core activity. See [Do you define your core activities for R&D?](/do-you-define-your-core-activities).
+Decide how you will judge success **before** running the experiment. This is your benchmark, and it comes from your core activity. See [how to define your core activities for R&D](/do-you-define-your-core-activities).
 
 For each experiment, define:
 
@@ -67,31 +69,31 @@ Test several options against the same input and expected result, then record the
 You need to be able to **prove what happened**. For every experiment:
 
 * Record the scores or outcomes, including for the options you did not choose
-* Say what you learned, even when the experiment failed. See [Do you document your failures for R&D?](/do-you-record-your-failures)
-* Keep the results with the PBI, not only in a chat or on your machine. See [Do you record your research under the PBI?](/do-you-record-your-research-under-the-pbi)
+* Say what you learned, even when the experiment failed. See [documenting your failures for R&D](/do-you-record-your-failures)
+* Keep the results with the PBI, not only in a chat or on your machine. See [recording your research under the PBI](/do-you-record-your-research-under-the-pbi)
 
 ## Lead the report with the result and its boundaries
 
 Summarize the measured comparison above in four short statements so readers see the result and its boundaries together:
 
-* **Verdict** - State the finding and supporting measure; use **Inconclusive** when the evidence cannot distinguish the options
-* **Scope** - Identify the compared versions or configurations, data, sample size and environment; distinguish repeated runs from independent examples
+* **Verdict** - State the finding and the measure that supports it. Use **Inconclusive** when the evidence cannot distinguish the options
+* **Scope** - Identify the compared versions or configurations, data, sample size and environment. Distinguish repeated runs from independent examples
 * **Limits** - State exclusions and uncertainty, including when no valid uncertainty estimate is available
-* **Decision** - Name the next action, owner and review date or condition; mark unapproved recommendations as pending
+* **Decision** - Name the next action, owner and review date or condition. Mark unapproved recommendations as pending
 
 <boxEmbed
   style="greybox"
   body={<>
 
-    * **Verdict** - Batched export reduced median completion time from 10 seconds to 6 seconds compared with row-by-row export
-    * **Scope** - 20 runs per approach on the same 10,000-order dataset and test machine; one dataset, not 20 independent samples
-    * **Limits** - Concurrent exports and production workloads were not tested; no uncertainty estimate is available
-    * **Decision** - Northwind's performance lead will test concurrent exports before deciding whether to adopt batched export
+    * **Verdict** - Model A found 11 of the 12 expected tasks on average, Model B found 8 and Model C found 7
+    * **Scope** - Each model ran 3 times on the same call transcript with the same prompt. That is one transcript, not 3 independent samples
+    * **Limits** - Other call types and longer transcripts were not tested, and no uncertainty estimate is available
+    * **Decision** - The tech lead will test Model A on 5 more transcripts before adopting it
   </>}
   figurePrefix="good"
-  figure="A synthetic Northwind report opening (illustrative numbers, not measured evidence) gives the result and its boundaries together"
+  figure="A report opening that gives the result and its boundaries together"
 />
 
-Follow the opening with the hypothesis, success criteria, method, full results and reproducible evidence. Read only the opening before sharing it: a forwarded excerpt should still say what was tested, what remains uncertain and who acts next.
+Follow the opening with the hypothesis, success criteria, method, full results and reproducible evidence. Before sharing, read only the opening and check it still says what was tested, what remains uncertain and who acts next.
 
 Failed experiments still count as R&D. A clearly recorded "this did not work, and here is the data" is valuable evidence.
