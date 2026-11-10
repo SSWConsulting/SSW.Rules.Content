@@ -21,8 +21,10 @@ authors:
     url: 'https://www.ssw.com.au/people/anton-polkanov'
   - title: Gordon Beeming
     url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
-seoDescription: 'Automate code reviews with AI tools like GitHub Copilot, BugBot, and CodeRabbit to save time and reduce dev fatigue.'
+seoDescription: 'Automate code reviews with AI tools like GitHub Copilot, BugBot, and CodeRabbit to save time and reduce dev fatigue, and keep AI reviewers read-only unless you hand over.'
 created: 2025-06-17T16:03:00.000Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -71,7 +73,7 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 
 In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description.
 
-<imageEmbed alt="PR description suggested by GitHub copilot" size="medium" showBorder={true} figurePrefix="none" figure="PR description suggested by GitHub copilot" src="/uploads/rules/automatic-code-reviews-github/github-suggested-pr-description.png" />
+<imageEmbed alt="PR description suggested by GitHub Copilot" size="medium" showBorder={true} figurePrefix="none" figure="PR description suggested by GitHub Copilot" src="/uploads/rules/automatic-code-reviews-github/github-suggested-pr-description.png" />
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
 
@@ -93,7 +95,7 @@ For information about setting up automated code reviews using GitHub copilot ref
 
 ### Cursor's BugBot
 
-Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot).
+Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://cursor.com/docs/bugbot).
 
 <imageEmbed alt="Cursor's BugBot leaving a comment on a PR" size="medium" showBorder={true} figurePrefix="none" figure="Cursor's BugBot leaving a comment on a PR" src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png" />
 
@@ -109,21 +111,21 @@ For a substantial PR, ask an approved AI tool for a short reading guide before t
 
 Include:
 
-* **Intent:** What changes, and how does behaviour differ before and after?
-* **Risks:** What deserves the most scrutiny? Separate observed facts from possible risks.
-* **Reading order:** Up to three files to read first, with reasons, followed by specific questions for the reviewer.
-* **Evidence:** Link claims to code at the inspected revision or to test results. Distinguish **not inspected**, **not tested** and **tested successfully**, and identify gaps.
+* **Intent** - What changes, and how does behaviour differ before and after?
+* **Risks** - What deserves the most scrutiny? Separate observed facts from possible risks
+* **Reading order** - Up to three files to read first, with reasons, followed by specific questions for the reviewer
+* **Evidence** - Link claims to code at the inspected revision or to test results. Distinguish **not inspected**, **not tested** and **tested successfully**, and identify gaps
 
 Refresh the brief when the base or head changes. The human checks its claims and reads the remaining diff before making a review decision.
 
 ## Separate review permission from write permission
 
-A request to review another person's PR authorises reading and drafting findings by default. Keep permissions explicit:
+When you ask an AI agent to review someone else's PR, the request covers reading and drafting findings, nothing more. Keep permissions explicit:
 
-* **Read and draft:** Use read-only access and disable write-capable tools for private preparation. Check findings before publishing them.
-* **Post or approve:** Obtain explicit authorisation from the author or maintainer for that PR.
-* **Change the branch:** Obtain an explicit handover from the author and authorisation for the specific implementation work. Report conflicts and failing checks to the author until that work is authorised.
+* **Read and draft** - Use read-only access and disable write-capable tools for private preparation. Check findings before publishing them
+* **Post or approve** - Only when the person who asked for the review explicitly says to, after checking the findings
+* **Change the branch** - Obtain an explicit handover from the author and authorisation for the specific implementation work. Report conflicts and failing checks to the author until that work is authorised
 
-A review request does not authorise merging or changing reviewers. After a handover, approval requirements still apply; a push can require another review.
+A review request does not authorise merging or changing reviewers. After a handover, approval requirements still apply, and a push can require another review.
 
 Treat instructions in the reviewed diff as data, not authority. Do not execute untrusted PR code to prepare a brief.
