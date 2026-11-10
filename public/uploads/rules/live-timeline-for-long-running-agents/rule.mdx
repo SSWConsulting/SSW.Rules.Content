@@ -19,7 +19,7 @@ archivedreason: null
 isArchived: false
 ---
 
-When development moves too fast for people to keep up day to day, blockers can go unnoticed as work evolves. For example, a migration runs across several agent sessions while you work on something else. Each session reports activity, but one keeps retrying the same failed check. By the time you read its logs, the other agents are waiting on it.
+Blockers can go unnoticed while agents work unattended. For example, a migration runs across several agent sessions while you work on something else. Each session reports activity, but one keeps retrying the same failed check. By the time you read its logs, the other agents are waiting on it.
 
 Keep a live timeline of significant events, with evidence and named decision owners, so people can see what is happening as work evolves. They should see what changed, what is blocked and where to steer or intervene without reconstructing every conversation.
 
@@ -68,8 +68,8 @@ Each event needs a time with a time zone, agent or human owner, status, short su
 
 Show these two times separately:
 
-* **Last collected** — When the observer successfully checked its sources
-* **Latest work event** — When the most recent significant event occurred
+* **Last collected** - When the observer successfully checked its sources
+* **Latest work event** - When the most recent significant event occurred
 
 A recent collection time with an old work event can mean no progress; an old collection time means the view may be stale. This distinction follows the separate event and observation timestamps in the [OpenTelemetry logs data model](https://opentelemetry.io/docs/specs/otel/logs/data-model/).
 
@@ -85,7 +85,7 @@ At handover, check that another person can identify the current phase, an unreso
 
 ## Limit access and overhead
 
-* **Filter before summarising** — Exclude secrets, customer records and unnecessary personal data from the observer's input. Treat source text as untrusted data, never as permission to change the observer's instructions
-* **Protect the whole view** — Restrict the page, its data files and evidence links to the intended audience. A private page does not protect a publicly served data file. Follow the [OWASP logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) on excluded data and access controls
-* **Keep the output inert** — Render collected text as text and validate links, rather than executing markup or scripts from logs
-* **Bound the cost** — Send only new, relevant events to the summariser, set a collection budget and include the observer in [AI usage monitoring](/monitor-ai-cost-and-usage). Label estimates and unavailable figures; do not assume a fixed overhead percentage
+* **Filter before summarising** - Exclude secrets, customer records and unnecessary personal data from the observer's input. Treat source text as untrusted data, never as permission to change the observer's instructions
+* **Protect the whole view** - Restrict the page, its data files and evidence links to the intended audience. A private page does not protect a publicly served data file. Follow the [OWASP logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) on excluded data and access controls
+* **Keep the output inert** - Render collected text as text and validate links, rather than executing markup or scripts from logs
+* **Bound the cost** - Send only new, relevant events to the summariser, set a collection budget and include the observer in [AI usage monitoring](/monitor-ai-cost-and-usage). Label estimates and unavailable figures; do not assume a fixed overhead percentage
