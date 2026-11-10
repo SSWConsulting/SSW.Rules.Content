@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
 created: 2024-12-19T21:36:54.519Z
 guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 ---
@@ -20,11 +22,18 @@ A cloud-native app can leave you juggling APIs, databases, caches, and a growing
 
 <endIntro />
 
+## What Aspire gives you
+
+* **Orchestration** - AppHost starts your projects, containers and cloud resources together, and wires up service discovery between them
+* **Integrations** - NuGet packages for services such as Redis, PostgreSQL and Azure Service Bus configure connections, health checks and telemetry for you
+* **Dashboard** - Logs, metrics and distributed traces from every service in one place while you develop
+* **Templates** - Starter templates and the ServiceDefaults project give new solutions health checks, telemetry and resilience from day one
+
 ## Make AppHost the local configuration entry point
 
-* **Wire only the dependencies each service needs.** Northwind Web references the API; only the API receives the database connection and Orders service key. Configure the web HTTP client for service discovery too.
-* **Pass configuration explicitly.** AppHost settings are not automatically copied to child processes. Commit dependency wiring and non-sensitive defaults; keep service-owned settings with the service and configure production separately.
-* **Keep secrets out of source control.** Use an approved provider. Local User Secrets are unencrypted development storage; marking a parameter as secret does not encrypt its source.
+* **Wire only what each service needs** - Northwind Web references the API, and only the API receives the database connection and Orders service key. Configure the web HTTP client for service discovery too
+* **Pass configuration explicitly** - AppHost settings are not automatically copied to child processes. Commit dependency wiring and non-sensitive defaults. Keep service-owned settings with the service, and configure production separately
+* **Keep secrets out of source control** - Use an approved provider. Local User Secrets are unencrypted development storage, and marking a parameter as secret does not encrypt its source
 
 <imageEmbed
   src="/uploads/rules/aspire/northwind-apphost-wiring.png"
@@ -81,15 +90,13 @@ services.AddStackExchangeRedisCache(options =>
 });
 ```
 
-**Figure: Bad example - Redis setup and application configuration must be kept in sync manually**
+**❌ Figure: Bad example - Redis setup and application configuration must be kept in sync manually**
 
 Docker Compose remains a valid choice. Aspire removes this example's manual connection wiring; it does not remove the need to configure each environment.
 
 ### Simplified setup - with .NET Aspire
 
-Aspire handles Redis setup and connection string injection for you:
-
-In AppHost, configure the Redis resource and reference it from the API:
+Aspire handles Redis setup and connection string injection for you. In AppHost, configure the Redis resource and reference it from the API:
 
 ```csharp
 var builder = DistributedApplication.CreateBuilder(args);
@@ -108,7 +115,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddRedisDistributedCache("cache");
 ```
 
-**Figure: Good example - AppHost supplies the connection for the named Redis resource**
+**✅ Figure: Good example - AppHost supplies the connection for the named Redis resource**
 
 The API still uses `IDistributedCache`, while AppHost manages the local Redis container and supplies its connection string. See the [Redis distributed caching integration](https://aspire.dev/integrations/caching/redis-distributed/) for package and setup details.
 
@@ -116,7 +123,7 @@ The API still uses `IDistributedCache`, while AppHost manages the local Redis co
 
 ## Get started with Aspire
 
-[Follow the Aspire getting-started guide](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
+[Follow the Aspire getting-started guide](https://aspire.dev/get-started/what-is-aspire/).
 
 Try Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template).
 
