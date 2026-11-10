@@ -29,13 +29,13 @@ Whenever you keep an AI output, keep a linked provenance record: the evidence of
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Overview - text alone vs output + receipt: the run ID makes a saved description traceable"
+  figure="A run ID links the saved description to its provenance receipt, so you can trace it and find related outputs"
   src="/uploads/rules/record-ai-run-provenance/output-with-provenance-receipt.png"
 />
 
 ## Link the record to the output revision
 
-Give each run an ID and link it to the exact output revision. Store the record with the output or in durable storage it references. Populate it from application code, using the request, response and execution context; do not ask the model to report its own provenance.
+Give each run an ID and link it to the exact output revision. Store the record with the output or in durable storage it references. Populate it from application code, using the request, response and execution context. Do not ask the model to report its own provenance.
 
 Keep the record for as long as you keep the output. An [operational trace](/use-opentelemetry) can help investigate a run, but it may be sampled or expire before the saved result does.
 
@@ -45,14 +45,14 @@ Keep the record for as long as you keep the output. An [operational trace](/use-
 * **Prompt and code** - Retained prompt/template version (including system instructions and output schema), its variables and the application release
 * **Settings** - Parameters actually sent, such as temperature, output limit and seed (where supported)
 * **Inputs** - Retained snapshots or versioned records, plus a content hash
-* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes; retrieved document versions and result references (or none when unused)
+* **Tools and retrieval** - Tool versions, ordered calls, arguments and outcomes. Retrieved document versions and result references (or none when unused)
 * **Time and trigger** - Run ID, UTC start/end times and the authenticated user, service or job that started it
 
 Mark a model version as unknown when the provider does not return one, because an alias can change. Distinguish explicit settings from provider defaults. A hash verifies inputs but cannot restore them, and a live URL or current row ID cannot recover an earlier value. Use protected references for sensitive tool payloads. For runs with multiple calls, record each call and identify which produced the saved output.
 
 ## Keep the receipt with the result
 
-Northwind saves a generated description. Both examples use the same invented output; all model names, identifiers and values are **example data**.
+Northwind saves a generated description. Both examples use the same output.
 
 <boxEmbed
   style="greybox"
@@ -110,7 +110,7 @@ Northwind saves a generated description. Both examples use the same invented out
   figure="Revision 3 links to run-1042, prompt v7 and the source rows used to generate it"
 />
 
-The snapshot contains the rows supplied to the model, so this run has no tool calls or retrieval steps. The prompt version and snapshot resolve to retained content; the hash checks the snapshot's exact bytes. A maintainer can find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
+The snapshot contains the rows supplied to the model, so this run has no tool calls or retrieval steps. The prompt version and snapshot resolve to retained content, and the hash checks the snapshot's exact bytes. A maintainer can find other outputs from prompt v7 and inspect the original inputs before deciding what to regenerate.
 
 ## Record retries and fallbacks
 
@@ -120,8 +120,8 @@ Use approved fallback routes and keep enough detail to find affected outputs for
 
 ## Keep the evidence usable
 
-1. **Save the output and its record together.** Use one database transaction, or a sidecar file linked to the output revision by a hash. Preserve the previous revision's record when replacing an output.
-2. **Protect the content.** Restrict access to prompts, inputs and tool payloads. Keep secrets out of the record and set retention and deletion rules for the output and its evidence together. If inputs must be deleted earlier, record that limitation.
-3. **Test the trail.** Pick a saved output and find its run, prompt version and original inputs without consulting today's configuration. Then find other outputs from the same prompt or model version.
+1. **Save the output and its record together** - Use one database transaction. With files, write the record before you publish the output, and treat any output without a record as incomplete. The hash confirms the record matches that revision, but it doesn't make the two writes atomic. Preserve the previous revision's record when replacing an output.
+2. **Protect the content** - Restrict access to prompts, inputs and tool payloads. Keep secrets out of the record and set retention and deletion rules for the output and its evidence together. If inputs must be deleted earlier, record that limitation.
+3. **Test the trail** - Pick a saved output and find its run, prompt version and original inputs without consulting today's configuration. Then find other outputs from the same prompt or model version.
 
-Provenance helps reconstruct a run; it does not guarantee identical text or a correct answer. Use [evals](/run-evals-on-ai-features) to compare quality after a model or prompt change. For AI-assisted code, also keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR.
+Provenance helps reconstruct a run, but it does not guarantee identical text or a correct answer. Use [evals](/run-evals-on-ai-features) to compare quality after a model or prompt change. For AI-assisted code, also keep [the reasons for development decisions](/keep-the-why-from-ai-assisted-development) in the PR or ADR.
