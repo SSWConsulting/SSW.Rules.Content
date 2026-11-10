@@ -6,6 +6,8 @@ authors:
   url: https://www.ssw.com.au/people/andrew-harris
 - title: Matt Goldman
   url: https://www.ssw.com.au/people/matt-goldman
+- title: Jernej Kavka
+  url: https://www.ssw.com.au/people/jernej-kavka
 created: 2022-09-12 14:44:28.666000+00:00
 guid: 1b706f91-a99c-49a6-9ae8-72d2026abc11
 redirects:
@@ -13,9 +15,10 @@ redirects:
 - how-to-read-source-code
 related:
 - rule: public/uploads/rules/interfaces-abstract-classes/rule.mdx
-seoDescription: Learn how to read source code efficiently and effectively with a top-down
-  approach, understanding software structure, documentation, and coding conventions,
-  while eliminating noise and focusing on main logic.
+- rule: public/uploads/rules/lock-nuget-dependencies/rule.mdx
+seoDescription: Read source code top-down. Understand the structure and documentation,
+  set aside noise to follow the main logic, and match dependency source to the installed
+  version.
 title: Do you know how to read source code?
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
@@ -39,11 +42,11 @@ Before reading the code, build this foundation:
 Read from the big picture down to the details:
 
 1. **[Interface/abstract definition](/interfaces-abstract-classes)** - Identify the data structures and business entities described by interfaces or abstract definitions, and understand their relationships
-2. **Module adhesive layer** - Find how modules connect through middleware, promises, callbacks, proxies, delegation or dependency injection. These connections can spread a single flow across several places in the code
+2. **Glue code** - Find how modules connect through middleware, promises, callbacks, proxies, delegation or dependency injection. These connections can spread a single flow across several places in the code
 3. **Business process** - Trace the main business flow and how data moves through it before investigating details. Draw a flowchart when it helps explain the sequence
 4. **Detailed implementation** - With the structure and main flow established, focus on the relevant implementation:
    * **Code logic** - Distinguish business rules from control flow. Mixing the two can make code harder to follow
-   * **Error handling** - Error paths can occupy much of an implementation; the 20/80 split suggested by the Pareto principle is a rough heuristic, not a measured ratio for every codebase. Temporarily hide error paths in the editor, or comment them out in a disposable reading copy, to trace the main path. Return to them to understand failure behaviour, and keep them intact in code you run or commit
+   * **Error handling** - Error paths can occupy much of an implementation. The 20/80 split suggested by the Pareto principle is a rough heuristic, not a measured ratio for every codebase. Temporarily hide error paths in the editor, or comment them out in a disposable reading copy, to trace the main path. Return to them to understand failure behaviour, and keep them intact in code you run or commit
    * **Data processing** - Defer routine data manipulation while tracing the main flow, then inspect transformations that affect the behaviour you are investigating
    * **Important algorithms** - Identify core algorithms, such as indexing, unique identifier generation, recommendations or statistics. These may need closer study to understand the implementation
    * **Low-level interaction** - For code that interacts with the operating system or hardware, learn the relevant system concepts before investigating the details
@@ -60,10 +63,10 @@ Keep these habits in mind:
 
 The default branch may describe behaviour that is absent from the installed package. Match the source to the version you are investigating before drawing conclusions.
 
-1. **Define the question** - Record the behaviour you want to explain, the runtime and relevant settings.
-2. **Find the resolved version** - Check the restored dependency graph or lockfile, including transitive dependencies. A declared version range does not identify the exact version in use.
-3. **Match the source** - Read the documentation and release notes for that version, then follow the public API into source and tests at the matching release tag or commit. Matching symbols and [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) can help locate original .NET source. Record uncertainty if you cannot establish the match.
-4. **Test a minimal probe** - Use synthetic Northwind inputs, the resolved package version and relevant settings, without production connections or credentials. Compare expected and actual output. Check whether a supported option explains the result before proposing a patch; one passing input establishes only that case.
-5. **Keep the evidence** - Save the question, versions, source permalinks, runnable probe and conclusion with the investigation.
+1. **Define the question** - Record the behaviour you want to explain, the runtime and relevant settings
+2. **Find the resolved version** - Check the restored dependency graph or lockfile, including transitive dependencies. A declared version range does not identify the exact version in use
+3. **Match the source** - Read the documentation and release notes for that version, then follow the public API into source and tests at the matching release tag or commit. Matching symbols and [Source Link](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink) can help locate original .NET source. Record uncertainty if you cannot establish the match
+4. **Test a minimal probe** - Use synthetic inputs, such as Northwind sample data, with the resolved package version and relevant settings, and without production connections or credentials. Compare expected and actual output. Check whether a supported option explains the result before proposing a patch. One passing input establishes only that case
+5. **Keep the evidence** - Save the question, versions, source permalinks, runnable probe and conclusion with the investigation
 
-If an implementation gap remains, check applicable permissions before decompiling and investigate only that gap. Verify reconstructed code against the running package.
+If an implementation gap remains, check the licence terms before decompiling and investigate only that gap. Verify reconstructed code against the running package.
