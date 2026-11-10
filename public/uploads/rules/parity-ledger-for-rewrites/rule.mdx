@@ -42,7 +42,7 @@ In this synthetic Northwind example, a team replaces WebForms screens with React
 <boxEmbed
   style="greybox"
   body={<>
-    **Northwind rewrite — wiki scope (example data)**
+    **Northwind rewrite - wiki scope (example data)**
 
     | Feature | Status | Evidence |
     |---|---|---|
@@ -58,7 +58,7 @@ In this synthetic Northwind example, a team replaces WebForms screens with React
 <boxEmbed
   style="greybox"
   body={<>
-    **Northwind parity ledger — same slice (example data)**
+    **Northwind parity ledger - same slice (example data)**
 
     | ID | Behaviour | State and evidence |
     |---|---|---|
@@ -78,11 +78,11 @@ For example, ORD-02 also records **Owner:** Orders team; **Old code:** `Orders/E
 
 For each behaviour, track these milestones separately:
 
-1. **Captured** — [Characterisation tests](https://michaelfeathers.silvrback.com/characterization-testing) record what the old app actually does. Include boundary cases, permissions, defaults and side effects, not just the happy path.
-2. **Implemented** — The replacement endpoint, UI or job exists. Mark inapplicable parts N/A with a reason; a scheduled job may have no UI.
-3. **Verified** — A person other than the implementer compares old and new results, or reviews an automated comparison, and approves the compared versions. Record inputs, results, date and approval.
-4. **Cut over** — Users or traffic move to the new path after its slice and dependencies are verified or approved for retirement.
-5. **Old removed** — The agreed rollback period ends, remaining callers are migrated, and the redundant code is removed.
+1. **Captured** - [Characterisation tests](https://michaelfeathers.silvrback.com/characterization-testing) record what the old app actually does. Include boundary cases, permissions, defaults and side effects, not just the happy path.
+2. **Implemented** - The replacement endpoint, UI or job exists. Mark inapplicable parts N/A with a reason; a scheduled job may have no UI.
+3. **Verified** - A person other than the implementer compares old and new results, or reviews an automated comparison, and approves the compared versions. Record inputs, results, date and approval.
+4. **Cut over** - Users or traffic move to the new path after its slice and dependencies are verified or approved for retirement.
+5. **Old removed** - The agreed rollback period ends, remaining callers are migrated, and the redundant code is removed.
 
 Link each completed milestone to evidence. For ORD-02, compare yesterday's date and today's date against a fixed test clock in both versions. Test both rejection and acceptance; a test that rejects every date proves little.
 
