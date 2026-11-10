@@ -1,7 +1,7 @@
 ---
 title: Do you monitor AI cost and usage?
 uri: monitor-ai-cost-and-usage
-seoDescription: Monitor AI token consumption, API calls, and agent activity to keep variable AI usage costs visible and under control
+seoDescription: Monitor AI token consumption, API calls, and agent activity, and measure cost per accepted outcome, to keep variable AI usage costs visible and under control
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
   - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
@@ -10,6 +10,8 @@ authors:
     url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Josh Berman
     url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 guid: 84a2ebf1-9591-4d94-b7b8-ab99c64c0235
 created: 2026-03-05T22:45:56.927Z
 createdBy: Josh Berman
@@ -39,12 +41,12 @@ Use these indicators to identify expensive workflows and decide where to optimis
 
 Track total spend against a budget alongside **cost per accepted outcome**: all attributable costs divided by accepted outcomes, each counted once.
 
-* **Define acceptance first:** For example, count a published description or a resolved case after its follow-up window, rather than requests or generated drafts. Keep the acceptance definition and calculation versioned.
-* **Count every attempt's cost:** Include rejected attempts, retries and failed calls. Match costs to the same completed cohort of outcomes; mark immature outcomes or unclosed charges provisional and reconcile them later.
-* **State the cost basis:** Use consistent currency and allocation rules, keep unattributed spend visible, and state whether hosting and human review are included alongside model charges.
-* **Handle zero acceptances:** Show **No accepted outcomes** instead of zero unit cost or division by zero.
+* **Define acceptance first** - For example, count a published description or a resolved case after its follow-up window, rather than requests or generated drafts. Keep the acceptance definition and calculation versioned
+* **Count every attempt's cost** - Include rejected attempts, retries and failed calls. Match costs to the same completed cohort of outcomes. Mark immature outcomes or unclosed charges provisional, and reconcile them later
+* **State the cost basis** - Use consistent currency and allocation rules, keep unattributed spend visible, and state whether hosting and human review are included alongside model charges
+* **Handle zero acceptances** - Show **No accepted outcomes** instead of zero unit cost or division by zero
 
-For illustration, two synthetic Northwind completed cohorts:
+For example, two completed Northwind cohorts:
 
 | Measure | Cohort A | Cohort B |
 | --- | --- | --- |
@@ -69,24 +71,19 @@ When completion has a clear condition, let a script, native wait command or comp
   figure="Every status check is another model call"
 />
 
-<boxEmbed
-  style="greybox"
-  body={<>
-
 ```bash
-# The script waits; the model reads only the final result
-timeout 30m gh run watch "$RUN_ID" --interval 30 --exit-status
-echo "run=$RUN_ID exit=$?"
+# The script waits; the model reads only the final line
+status=0
+timeout 30m gh run watch "$RUN_ID" --interval 30 --exit-status > ci-watch.log 2>&1 || status=$?
+echo "run=$RUN_ID exit=$status log=ci-watch.log"
+exit "$status"
 ```
 
-  </>}
-  figurePrefix="good"
-  figure="A bounded script waits and returns the run ID and exit status"
-/>
+**✅ Figure: Good example - A bounded script waits, keeps the polling output in a log, and returns the run ID and exit status (124 means it timed out)**
 
-* **Bound the wait:** Identify the exact job and expected revision, set a deadline and respect rate limits.
-* **Return evidence:** Report success, failure or timeout with the job ID, exit status and evidence link. Use the agent environment's supported completion mechanism; writing a file alone does not wake an agent.
-* **Reconcile before retrying:** A local timeout does not cancel remote work. Check its status before starting another attempt.
+* **Bound the wait** - Identify the exact job and expected revision, set a deadline and respect rate limits
+* **Return evidence** - Report success, failure or timeout with the job ID, exit status and evidence link. Use the agent environment's supported completion mechanism, because writing a file alone does not wake an agent
+* **Reconcile before retrying** - A local timeout does not cancel remote work. Check its status before starting another attempt
 
 The wait makes no model calls, but setup, interpretation, compute and service requests can still cost money.
 
@@ -108,10 +105,10 @@ Choose monitoring tools that cover both interactive sessions and production usag
 
 * **Native CLI commands** - Check your tool's built-in usage and status commands.
 
-<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="Running /stats in Claude Code" src="/uploads/rules/monitor-ai-cost-and-usage/cursor-status-command.png" />
+<imageEmbed alt="Claude Code /stats output showing an activity heatmap, favourite model, total tokens, sessions and streaks" size="medium" showBorder={false} figurePrefix="none" figure="Running /stats in Claude Code" src="/uploads/rules/monitor-ai-cost-and-usage/cursor-status-command.png" />
 
 * **Provider dashboards** - Check usage and billing across sessions, including tools with a graphical interface such as Cursor and Windsurf.
 * **AI observability platforms** - Track production usage, costs and model performance across applications with tools such as LangSmith, Helicone and Langfuse.
 * **Custom developer tools** - Use smaller command line tools when you need more control over how usage and costs are displayed.
 
-<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Running goccc in the command line" src="/uploads/rules/monitor-ai-cost-and-usage/running-goccc.png" />
+<imageEmbed alt="goccc usage report in the terminal, breaking down input, output, cache tokens, requests and cost by Claude model, with the total cost at the bottom" size="medium" showBorder={false} figurePrefix="good" figure="Running goccc in the command line" src="/uploads/rules/monitor-ai-cost-and-usage/running-goccc.png" />
