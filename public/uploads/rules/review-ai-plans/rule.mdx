@@ -15,11 +15,13 @@ authors:
     url: 'https://www.ssw.com.au/people/thomas-sepanosian'
   - title: Matt Wicks
     url: 'https://www.ssw.com.au/people/matt-wicks'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 related:
   - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: b68085e1-499d-4849-828e-1541c0defd46
-seoDescription: Learn how to review AI-generated coding plans effectively before implementation - from terminal chat to visual tools like Plannotator and UltraPlan.
+seoDescription: Learn how to review AI-generated coding plans effectively before implementation - verify scope-changing assumptions before you estimate, and use tools from terminal chat to Plannotator and UltraPlan.
 created: 2026-03-16T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: GordonBeeming@ssw.com.au
@@ -54,11 +56,11 @@ Before estimating or approving a plan, check assumptions that would materially c
 
 No search matches means **unverified**, not absent: the capability may have another name or live in another service.
 
-In this synthetic Northwind example, an AI plan proposes adding a freight-surcharge row. The schema and calculation at the checked revision show no surcharge lookup, so the plan needs storage and calculation work as well as data entry.
+In this Northwind example, an AI plan proposes adding a freight-surcharge row. The schema and calculation at the checked revision show no surcharge lookup, so the plan needs storage and calculation work as well as data entry.
 
 <imageEmbed alt="Two flows for a Northwind freight-surcharge plan. Estimating the plan as written schedules only a data row, so storage and calculation work appears during the build. Checking the schema and calculation first refutes the premise, so the revised plan adds storage, calculation and data entry tasks and leaves the surcharge policy as an open decision for the Product Owner" size="large" showBorder={true} figurePrefix="none" figure="A refuted premise changes the tasks and estimate before approval, not halfway through the build" src="/uploads/rules/review-ai-plans/verify-premise-before-estimating.png" />
 
-Keep the evidence and remaining unknowns with the PBI. Use a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) when a technical unknown prevents a useful estimate; refer business-policy questions to the Product Owner.
+Keep the evidence and remaining unknowns with the PBI. Use a [time-boxed spike](/encourage-spikes-when-a-story-is-inestimable) when a technical unknown prevents a useful estimate. Refer business-policy questions to the Product Owner.
 
 ## The traditional approach
 
