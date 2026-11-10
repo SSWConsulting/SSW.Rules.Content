@@ -22,7 +22,7 @@ lastUpdatedByEmail: ulyssesmaclaren@ssw.com.au
 isArchived: false
 ---
 
-Six months ago this rule recommended Sora and DALL-E 3. Both have since been shut down. A hand-written list of "the best AI tools" goes stale fast, and every vendor's launch post claims their tool is number one.
+Until November 2026 this rule recommended Sora and DALL-E 3. Both had already been shut down. A hand-written list of "the best AI tools" goes stale fast, and every vendor's launch post claims their tool is number one.
 
 The fix is to check independent leaderboards, then test the top few on your own work. This rule shows you which leaderboards to trust, where they mislead, and the tools that are winning right now.
 
@@ -33,20 +33,21 @@ The fix is to check independent leaderboards, then test the top few on your own 
 A benchmark is a fixed set of tasks that every AI model is scored on. A leaderboard ranks the models by those scores. Both are useful, and both can fool you:
 
 * **Vendors pick their best numbers** - A launch post shows the 6 benchmarks the model won, not the 20 it lost
-* **Models memorise the test** - In February 2026 OpenAI stopped reporting SWE-bench Verified, a popular coding benchmark. An audit found models repeating fixes from memory, and 59.4% of the audited tasks rejected correct answers
+* **Models memorise the test** - In February 2026 OpenAI stopped reporting SWE-bench Verified, a popular coding benchmark, after finding models could repeat the fixes from memory
+* **The test itself can be broken** - In the same audit, 59.4% of the hard tasks OpenAI checked had tests that rejected correct answers
 * **Leaderboards get gamed** - The Leaderboard Illusion paper found Meta privately tested 27 model variants on Arena, then published only the best one
-* **Small gaps are noise** - Anthropic measured a 6 point swing on a coding benchmark from changing nothing but the hardware limits. Treat a gap under 3 points as a tie
+* **Small gaps are noise** - Anthropic measured a 6 point swing on a coding benchmark from changing nothing but the hardware limits. On a coding benchmark, treat a gap under 3 percentage points as a tie. On Arena, check whether the ± ranges overlap
 * **Leaderboards disagree** - In November 2026, Arena and Artificial Analysis each named a different winner for text-to-video
 
 ## Which leaderboards should you check?
 
-| Leaderboard | What it tells you | How it is scored | Watch out for |
-| --- | --- | --- | --- |
-| [Arena](https://arena.ai/leaderboard) (Recommended) | Which answer people prefer, for text, web dev, images, video and search | Blind votes between 2 anonymous models | People vote for what they like, not what is correct. New models show as "Preliminary" with few votes |
-| [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence vs speed vs price, plus image, video, speech and music | Runs the tests itself, and blind votes for media | One combined score hides which tasks a model is bad at |
-| [Terminal-Bench](https://www.tbench.ai/leaderboard) | Which coding agent and model pair finishes real terminal tasks | Percentage of tasks solved, with cost | Scores move with the hardware used |
-| [OpenRouter rankings](https://openrouter.ai/rankings) | What people are paying to use | Usage through OpenRouter | Popular is not the same as best. Cheap models rank high |
-| [Vals AI](https://www.vals.ai/benchmarks) | Legal, finance and healthcare tasks | Independent runs, some on private test sets | Only helps if the task matches yours |
+| Leaderboard | What it tells you | Watch out for |
+| --- | --- | --- |
+| [Arena](https://arena.ai/leaderboard) (Recommended) | Which answer people prefer in blind votes, for text, web dev, images, video and search | People vote for what they like, not what is correct. New models show as "Preliminary" with few votes |
+| [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence vs speed vs price from tests it runs itself, plus image, video, speech and music | One combined score hides which tasks a model is bad at |
+| [Terminal-Bench](https://www.tbench.ai/leaderboard) | Which coding agent and model pair solves the most real terminal tasks, with cost | Scores move with the hardware used |
+| [OpenRouter rankings](https://openrouter.ai/rankings) | What people actually use, by tokens processed through OpenRouter | Popular is not the same as best. Cheap and free models rank high |
+| [Vals AI](https://www.vals.ai/benchmarks) | Independent scores on legal, finance and healthcare tasks | Only helps if the task matches yours |
 
 ## How do you pick a tool using benchmarks?
 
@@ -112,10 +113,10 @@ This list was last checked against the leaderboards in November 2026.
 ### Presentation design
 
 * ⭐💲 **[Gamma](https://gamma.app)** - Turns an outline into a designed deck in minutes
-* ⭐ **[Napkin](https://www.napkin.ai/)** - Turns your text into diagrams and visuals
+* ⭐💲 **[Napkin](https://www.napkin.ai/)** - Turns your text into diagrams and visuals
 * 💲 **[Canva](https://www.canva.com/)** - AI slide and design generation inside a tool your marketing team already uses
 * 💲 **[Beautiful.ai](https://www.beautiful.ai)** - Lays out your slides for you as you add content
-* **[Pitch](https://pitch.com)** - A collaborative presentation workspace with AI slide design
+* 💲 **[Pitch](https://pitch.com)** - A collaborative presentation workspace with AI slide design
 
 ### Image and design creation
 
@@ -132,7 +133,7 @@ This list was last checked against the leaderboards in November 2026.
 * ⭐💲 **[Runway](https://runway.com)** - AI video generation and editing, like object removal and background replacement
 * 💲 **[Descript](https://www.descript.com/)** - Edit a video by editing its transcript
 * 💲 **[Lumen5](https://lumen5.com)** - Turns a blog post into a video summary
-* **[Synthesia](https://www.synthesia.io)** - Videos with AI avatars and voiceovers
+* 💲 **[Synthesia](https://www.synthesia.io)** - Videos with AI avatars and voiceovers
 
 ### Audio and music generation
 
@@ -145,7 +146,7 @@ This list was last checked against the leaderboards in November 2026.
 * ⭐💲 **[YakShaver](https://yakshaver.ai)** - Turns a screen recording into a task and sends it to the right team
 * ⭐💲 **[Otter.ai](https://otter.ai)** - Meeting transcription and summaries for Teams, Zoom, and Google Meet
 * 💲 **[Zapier](https://zapier.com)** - Automates workflows between thousands of apps
-* **[n8n](https://n8n.io/)** - Workflow automation you can host yourself
+* 💲 **[n8n](https://n8n.io/)** - Workflow automation that is free if you host it yourself
 
 ***
 
