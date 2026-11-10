@@ -124,7 +124,7 @@ Other providers behave differently. Npgsql maps `DateTimeOffset` to PostgreSQL `
 
 ## When not to bother
 
-* A value that is a calendar date only, such as a birthday or a due date, is not a point in time. Use `DateOnly`. For the user's local "today", see [Do you send the user's current date as DateOnly?](/send-the-users-current-date-as-dateonly)
+* A value that is a calendar date only, such as a birthday or a due date, is not a point in time. Use `DateOnly`. For the user's local "today", see [sending the user's current date as DateOnly](/send-the-users-current-date-as-dateonly)
 * Code that already uses a richer date and time library such as [Noda Time](https://nodatime.org) can keep it. Its `Instant` and `ZonedDateTime` types solve the same problem
 
 ## Learn more

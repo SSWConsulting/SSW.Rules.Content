@@ -33,7 +33,7 @@ When the value you need is a calendar date as the user sees it, send that date a
 
 * **Preserves the user's intent** - The date they see in the browser is the date that is stored, with no conversion back from UTC
 * **Keeps timezone ownership on the backend** - The client does not decide which region the mission belongs to
-* **Pairs with DateTimeOffset storage** - Once the backend knows the date and the team's region, it builds one unambiguous `DateTimeOffset` (see [Do you use DateTimeOffset and TimeProvider for the current time?](/use-datetimeoffset-and-timeprovider))
+* **Pairs with DateTimeOffset storage** - Once the backend knows the date and the team's region, it builds one unambiguous `DateTimeOffset` (see [storing points in time as DateTimeOffset with TimeProvider](/use-datetimeoffset-and-timeprovider))
 
 ## Capture the user's local date in the frontend
 
@@ -69,7 +69,7 @@ public class StartMissionForm(TimeProvider timeProvider, IMissionApi api)
 
 In Blazor Server or Interactive Server, this code runs on the server, so `GetLocalNow()` uses the server's timezone, not the user's. Get the date from the browser instead, for example through JavaScript interop, and send that as the `DateOnly`.
 
-Avoid sending UTC for a "today" value. A user whose local date has already rolled over can still be on the previous UTC date, so the mission day flips incorrectly.
+Avoid sending UTC for a "today" value. Near midnight, the user's local date and the UTC date can differ in either direction, so the mission lands on the wrong day.
 
 ```csharp
 DateOnly missionDate = DateOnly.FromDateTime(timeProvider.GetUtcNow().UtcDateTime);
@@ -120,13 +120,13 @@ In a few regions, daylight saving starts at midnight, so that midnight never hap
 <boxEmbed
   style="info"
   body={<>
-    **Note:** `DateOnly` is for calendar dates (birthdays, due dates, the user's "today"). Points in time still use `DateTimeOffset` from an injected `TimeProvider` - see [Do you use DateTimeOffset and TimeProvider for the current time?](/use-datetimeoffset-and-timeprovider).
+    **Note:** `DateOnly` is for calendar dates (birthdays, due dates, the user's "today"). Points in time still use `DateTimeOffset` from an injected `TimeProvider` - see [using DateTimeOffset and TimeProvider for the current time](/use-datetimeoffset-and-timeprovider).
   </>}
   figurePrefix="none"
   figure=""
 />
 
-## Rejected approaches at a glance
+## Compare the approaches
 
 | Approach | Keeps user's "today" | Uses business timezone | Notes |
 | --- | --- | --- | --- |
