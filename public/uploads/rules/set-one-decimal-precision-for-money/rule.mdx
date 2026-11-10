@@ -1,18 +1,95 @@
 ---
+type: rule
 title: Do you set one decimal precision for money?
+seoDescription: Use a single decimal precision for money columns, decimal(22,6), and apply it once in EF Core ConfigureConventions so every money value is stored consistently and calculations are not truncated.
+guid: c59b9df9-31e5-4e1e-bb3f-5254b0032058
 uri: set-one-decimal-precision-for-money
+created: 2026-11-10T20:45:00.000Z
 authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
   - title: Gordon Beeming
-    url: 'https://www.ssw.com.au/people/gordon-beeming'
-guid: 035ba5ab-1859-479d-a309-7f5a4209afd2
-created: 2026-11-10T20:46:31.014Z
-createdBy: Gordon Beeming
-createdByEmail: me@gordonbeeming.com
-lastUpdated: 2026-11-10T20:55:18.648Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: me@gordonbeeming.com
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
+  - rule: public/uploads/rules/use-code-migrations/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+archivedreason: null
+isArchived: false
 ---
+
+A hero's fee of 1,250.123456 is stored three different ways: one column uses `decimal(20,2)` and quietly becomes 1,250.12, another uses `decimal(22,6)` and keeps the full value, and a third is left at EF Core's default of `decimal(18,2)`. Totals stop matching, and nobody can tell which figure is right.
+
+Pick one precision for money and apply it once, on the DbContext, so every money column is created the same way. Use `decimal(22,6)`: it keeps 6 digits of scale for calculations, and in SQL Server it uses the same 13 bytes of storage as `decimal(20,2)`.
 
 <endIntro />
 
-Pick one precision for money and apply it once, on the DbContext, so every money column is created the same way.
+## Why mixed precision is a problem
+
+* **Values get truncated when they move** - Copying a fee from a `decimal(22,6)` column into a `decimal(20,2)` reward rounds or truncates the extra digits, so the two sides of the same payment no longer match
+* **The model doesn't document the choice** - If some properties call `HasPrecision` and others don't, you have to inspect every configuration to learn how money is stored
+* **EF Core's default is easy to miss** - An unconfigured `decimal` property becomes `decimal(18,2)`, which is a third shape sitting beside any explicit settings
+
+```csharp
+public class MissionConfiguration : IEntityTypeConfiguration<Mission>
+{
+    public void Configure(EntityTypeBuilder<Mission> builder)
+    {
+        builder.Property(m => m.Reward).HasPrecision(20, 2);
+    }
+}
+
+public class HeroConfiguration : IEntityTypeConfiguration<Hero>
+{
+    public void Configure(EntityTypeBuilder<Hero> builder)
+    {
+        builder.Property(h => h.Fee).HasPrecision(22, 6);
+        // DailyRate is left unconfigured, so EF Core stores it as decimal(18, 2)
+    }
+}
+```
+
+**❌ Figure: Bad example - Reward, Fee and DailyRate are all money, but each column uses a different precision**
+
+```csharp
+public class ApplicationDbContext : DbContext
+{
+    protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+    {
+        configurationBuilder.Properties<decimal>()
+            .HavePrecision(22, 6);
+        configurationBuilder.Properties<decimal?>()
+            .HavePrecision(22, 6);
+    }
+}
+```
+
+**✅ Figure: Good example - One convention sets decimal(22,6) for every decimal property, including nullable ones**
+
+Configure both `decimal` and `decimal?`. The convention is the default for the whole model, so a new `Mission.Reward` or `Hero.Fee` property gets `decimal(22,6)` without a per-property call. If a non-money decimal needs a different scale, override that property with `HasPrecision`. Changing the precision still needs a migration (see [Do you know to use code migrations?](/use-code-migrations)).
+
+## Why decimal(22,6)?
+
+SQL Server storage size for `decimal` depends on precision, not scale. `decimal(20,2)` and `decimal(22,6)` are both in the 20–28 precision band, so both use 13 bytes.
+
+| Type | Scale | Integer digits | Storage |
+| --- | --- | --- | --- |
+| `decimal(20,2)` | 2 | 18 | 13 bytes |
+| `decimal(22,6)` | 6 | 16 | 13 bytes |
+
+You give up 2 integer digits (still enough for values up to 9,999,999,999,999,999.999999) and gain 4 extra digits of scale, which matters when fees, rates and totals are calculated and then stored.
+
+This is how the value is stored, not how it is shown. Reports and emails can still round for readability (see [Do you avoid using too many decimal places?](/avoid-using-too-many-decimals)).
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** The convention method is `HavePrecision`. The per-property Fluent API is `HasPrecision`. They look similar, but they are different methods.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
