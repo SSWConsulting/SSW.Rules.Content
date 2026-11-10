@@ -91,7 +91,7 @@ test('checkout preview is available', async ({ request }) => {
   size="large"
   showBorder={true}
   figurePrefix="bad"
-  figure="Illustration: the failed assertion skips the reset, leaving the shared flag ON for the next tester"
+  figure="The failed assertion skips the reset, leaving the shared flag ON for the next tester"
 />
 
 ```typescript
@@ -119,7 +119,7 @@ const test = base.extend<{ checkoutPreview: APIRequestContext }>({
       try {
         await restore();
       } catch (cleanupError) {
-        throw new AggregateError([error, cleanupError], 'Test and cleanup both failed');
+        throw new AggregateError([error, cleanupError], 'Setup and cleanup both failed');
       }
       throw error;
     }
@@ -148,7 +148,7 @@ test('checkout preview is available', async ({ checkoutPreview }) => {
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Illustration: the assertion still fails, but teardown restores the original OFF value and verifies it before reuse"
+  figure="The assertion still fails, but teardown restores the original OFF value and verifies it before reuse"
 />
 
 Keep the saved file with the run's environment identity and reservation details so an interrupted run can be recovered. Configure the runner to retain recovery artifacts. [Playwright gives teardown its own time budget](https://playwright.dev/docs/test-timeouts#test-timeout); use bounded operations and allow enough time for restoration and verification.
