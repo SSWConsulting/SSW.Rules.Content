@@ -42,14 +42,15 @@ flowchart TD
     Q1 -->|Yes| GA["Google Analytics"]
     Q1 -->|No| Q2{"Do you need session replay,<br>feature flags or<br>experiments?"}
     Q2 -->|Yes| Q3{"Must the data stay<br>on your own servers?"}
-    Q3 -->|Yes| PHS["PostHog, self-hosted"]
+    Q3 -->|Yes| PHS["PostHog, self-hosted<br>(unsupported)"]
     Q3 -->|No| PH["PostHog Cloud"]
     Q2 -->|No| Q4{"Where does the app run?"}
     Q4 -->|Azure| AI["Application Insights"]
     Q4 -->|AWS| RUM["CloudWatch RUM"]
+    Q4 -->|Elsewhere| AI
     Q4 -->|On-premises| Q5{"Can usage data<br>leave your network?"}
     Q5 -->|Yes| AI
-    Q5 -->|No| PHS2["PostHog, self-hosted"]
+    Q5 -->|No| PHS2["PostHog, self-hosted<br>(unsupported)"]
 ```
 
 **Figure: Choosing a usage analytics tool**
@@ -64,11 +65,11 @@ flowchart TD
 
 | Tool | Best for | Session replay | Free tier | AI assistant |
 | --- | --- | --- | --- | --- |
-| Application Insights | Errors, performance and usage in one place | No | 5 GB a month | Azure Copilot |
-| PostHog | Product analytics, replay, flags and experiments | Yes | 1M events and 5K recordings a month | PostHog AI |
-| Google Analytics | Marketing and where visitors come from | No | Free | Analytics Intelligence |
-| Microsoft Clarity | Heatmaps and session replay | Yes | Free, no limits | Copilot in Clarity |
-| CloudWatch RUM | Web vitals, errors and journeys on AWS | Yes, opt-in | 1M events trial | None |
+| Application Insights | Errors, performance and usage in one place | No | [5 GB a month](https://azure.microsoft.com/en-us/pricing/details/monitor/) | Azure Copilot |
+| PostHog | Product analytics, replay, flags and experiments | Yes | [1M events and 5K recordings a month](https://posthog.com/pricing) | PostHog AI |
+| Google Analytics | Marketing and where visitors come from | No | [Free](https://marketingplatform.google.com/about/analytics/) | Analytics Intelligence |
+| Microsoft Clarity | Heatmaps and session replay | Yes | [Free, no limits](https://clarity.microsoft.com/pricing) | Copilot in Clarity |
+| CloudWatch RUM | Web vitals, errors and journeys on AWS | Yes, opt-in | [1M events trial](https://aws.amazon.com/cloudwatch/pricing/) | None |
 
 **Figure: Usage analytics tools compared**
 
@@ -121,20 +122,20 @@ Add a few lines of code at the hot points of your app to send custom events. See
 * ❌ Self-hosting is unsupported, and paid features are cloud only
 * ❌ Costs grow with event volume once you pass the free tier
 
-For a worked example, see the PostHog case study in [Do you use an analytics framework to help manage exceptions?](/do-you-use-an-analytics-framework-to-help-manage-exceptions).
+For a worked example, see the PostHog case study in [using an analytics framework to manage exceptions](/do-you-use-an-analytics-framework-to-help-manage-exceptions).
 
 ## Google Analytics
 
-Google Analytics shows how visitors find your site, which campaigns bring them and which pages they land on. Use it on public websites where marketing owns the questions. See [Do you collect and analyze website data with Google Analytics?](/use-google-analytics).
+Google Analytics shows how visitors find your site, which campaigns bring them and which pages they land on. Use it on public websites where marketing owns the questions. See [collecting and analysing website data with Google Analytics](/use-google-analytics).
 
 * ✅ Free, and marketing teams already know it
 * ✅ Connects to Google Ads and Search Console
-* ❌ Standard reports keep event data for 14 months at most
+* ❌ Explorations keep event data for 14 months at most on the standard tier
 * ❌ Explorations are sampled on large data sets
 
 ## Microsoft Clarity
 
-Microsoft Clarity records sessions and builds heatmaps of where people click and scroll. It is free with no traffic limits, so it suits public pages where you want to see what confuses people. See [Do you track website heatmaps?](/website-heatmaps).
+Microsoft Clarity records sessions and builds heatmaps of where people click and scroll. It is free with no traffic limits, so it suits public pages where you want to see what confuses people. See [tracking website heatmaps](/website-heatmaps).
 
 * ✅ Free forever, with no sampling
 * ✅ Copilot in Clarity summarises sessions and heatmaps for you
