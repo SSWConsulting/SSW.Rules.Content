@@ -1,0 +1,86 @@
+---
+type: rule
+title: Do you use Medallion Architecture with Lakehouses and Warehouses?
+seoDescription: Organise Microsoft Fabric data into Bronze, Silver, and Gold layers, using a Lakehouse for ingestion and transformation and a Warehouse for curated reporting data.
+guid: ba0ea021-b2d6-4265-a17e-495a75e97a3b
+uri: use-medallion-architecture
+created: 2026-11-10T05:44:25.000Z
+authors:
+  - title: Vlad Kireyev
+    url: https://www.ssw.com.au/people/vlad-kireyev
+related:
+  - rule: public/uploads/rules/use-the-right-data-storage/rule.mdx
+  - rule: public/uploads/rules/understanding-data-lakes/rule.mdx
+  - rule: public/uploads/rules/do-you-use-a-data-warehouse/rule.mdx
+categories:
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
+archivedreason: null
+isArchived: false
+---
+
+Teams starting with Microsoft Fabric often ask "Lakehouse or Warehouse?" and then put everything in one of them. Raw files, half-cleaned tables, and report-ready data end up mixed together, transformations are hard to trace, and nobody trusts the numbers in the dashboard.
+
+The better question is not which storage option is best, but which one is best for each stage of the data journey.
+
+<endIntro />
+
+## What is Medallion Architecture?
+
+Medallion Architecture organises data into progressive quality layers. Each layer has one job, and data becomes cleaner and more trustworthy as it moves through them:
+
+* 🥉 **Bronze** - Raw data, landed exactly as it arrived from the source
+* 🥈 **Silver** - Cleaned, standardised, joined, and enriched data
+* 🥇 **Gold** - Curated fact and dimension tables (star schema) ready for reporting
+
+This separation of concerns means a broken report can be traced back layer by layer, and raw data can always be reprocessed when business rules change.
+
+## Lakehouse vs Warehouse
+
+In Fabric, both store data as Delta tables in OneLake - the same storage foundation with a different purpose.
+
+| | Lakehouse | Warehouse |
+| --- | --- | --- |
+| **Engine** | Spark + T-SQL | T-SQL only |
+| **Files and raw data** | ✅ Yes | ❌ No |
+| **Spark** | ✅ Read + write | ⚠️ Read only |
+| **ML/AI** | ✅ Native notebooks | ⚠️ Read into a notebook |
+| **SQL writes** | ❌ Read-only SQL endpoint | ✅ Yes |
+| **Multi-table transactions** | ❌ No | ✅ Yes |
+| **Fine-grained security** | ✅ OneLake security (tables, rows, columns) | ✅ SQL permissions, RLS, CLS, and OLS |
+| **Best for** | Data engineering and data science | Reporting and analytics |
+
+**Choose a Lakehouse when** you are ingesting raw source data, storing files alongside tables, running Spark notebooks or ML, or doing complex ETL.
+
+**Choose a Warehouse when** you are serving Power BI, SQL is the team's primary tool, business users need direct SQL access, or you need transactions across multiple tables.
+
+## Use both - one per layer
+
+Lakehouse and Warehouse are complementary, not competitors. Map each layer to the item that suits it:
+
+* **Bronze Lakehouse** - Raw ingestion. Never transform data before it lands
+* **Silver Lakehouse** - Spark notebooks to cleanse, join, enrich, and validate
+* **Gold Warehouse** - Curated star schema of fact and dimension tables, built with T-SQL
+* **Semantic model** - Measures, KPIs, and relationships that Power BI reports connect to
+
+<imageEmbed
+  alt="Diagram showing data flowing from source systems into a Bronze Lakehouse, a Silver Lakehouse, a Gold Warehouse, a semantic model, and finally Power BI reports"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Lakehouses handle Bronze and Silver, the Warehouse serves the Gold layer"
+  src="/uploads/rules/use-medallion-architecture/medallion-architecture-lakehouse-warehouse.png"
+/>
+
+## Secure report users in the semantic model
+
+Apply security where each audience reads the data:
+
+* **Power BI users** - Secure them in the semantic model, with row-level security (RLS) for rows and object-level security (OLS) for tables and columns. Use a fixed-identity connection for Direct Lake models. Test it with **Test as role** before releasing
+* **SQL users of the Gold layer** - Use Warehouse SQL permissions, RLS, and column-level security (CLS) for people who query the Warehouse directly
+* **Bronze and Silver** - Restrict access with workspace roles and OneLake security roles
+
+Don't rely on SQL-based security to secure Power BI reports. With Direct Lake on SQL, SQL RLS makes report queries fall back to DirectQuery, which is much slower, and SQL CLS can make visuals error when a user lacks permission. With Direct Lake on OneLake, SQL-based RLS isn't applied at all. See [Integrate Direct Lake security](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-security-integration) for the details.
+
+## Name layers consistently
+
+Use a predictable naming convention so anyone can tell which layer they are looking at. Lakehouse names may only contain letters, numbers, and underscores, so name items like `Bronze_Lakehouse`, `Silver_Lakehouse`, and `Gold_Warehouse`.
