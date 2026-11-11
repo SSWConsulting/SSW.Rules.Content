@@ -1,0 +1,80 @@
+---
+type: rule
+title: Do you know the best way to embed a YouTube video?
+uri: embed-youtube-videos
+categories:
+  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
+authors:
+  - title: Farrukh Khan
+    url: 'https://www.ssw.com.au/people/farrukh-khan'
+  - title: Anthony Nguyen
+    url: 'https://www.ssw.com.au/people/anthony-nguyen'
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+redirects:
+  - do-you-know-the-right-way-to-embed-a-youtube-video
+  - a-better-method-for-embedding-youtube-videos-on-your-website
+guid: 9e18b84f-5af2-4a25-9d14-9135a3930171
+seoDescription: 'Don''t let embedded YouTube videos triple your page weight – lazy load the iframe or use a facade component so the player only loads when it''s needed.'
+created: 2017-09-11T01:29:37.000Z
+createdBy: Anthony Nguyen
+createdByEmail: anthonynguyen@ssw.com.au
+lastUpdated: 2026-08-04T19:40:40.054Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+Pasting YouTube's default embed code drops the full video player onto your page before anyone clicks play – around 1 MB of JavaScript per embed. A page with a few videos can triple its weight for content most visitors never watch. There are 2 lightweight ways to do it better.
+
+<endIntro />
+
+<imageEmbed alt="Side-by-side network comparison showing fewer requests and a smaller page size with a lightweight embed" size="large" showBorder={false} figurePrefix="none" figure="A side by side comparison – everyone wants less requests and a smaller page size" src="/uploads/rules/embed-youtube-videos/video-embed-load-time.png" />
+
+## The problem – the default embed
+
+```html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+```
+
+**❌ Figure: Bad example – The copy-pasted embed code loads the entire player on page load, for every video on the page**
+
+## Option 1 – Lazy load the iframe (simplest)
+
+```html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+  title="How to embed a YouTube video"
+  loading="lazy"
+  allowfullscreen
+></iframe>
+```
+
+**✅ Figure: Good example – loading="lazy" defers the player until the video is about to scroll into view. No JavaScript needed**
+
+All modern browsers support [lazy loading iframes](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Lazy_loading) natively. Bonus: the **youtube-nocookie.com** domain sets no tracking cookies until the user actually plays the video.
+
+## Option 2 – Use a facade component (best performance)
+
+Lazy loading still fetches the full player once the video scrolls into view. A *facade* renders only the thumbnail and a play button – a few KB – and loads the real player when the user clicks:
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/lite-youtube-embed"></script>
+
+<lite-youtube videoid="VIDEO_ID" playlabel="How to embed a YouTube video"></lite-youtube>
+```
+
+**✅ Figure: Good example – A facade keeps the page instant, and the player still starts on click**
+
+[lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) is the maintained implementation of this pattern, and wrappers exist for most frameworks (e.g. [react-lite-youtube-embed](https://github.com/ibrahimcesar/react-lite-youtube-embed)). Using facades for heavy third-party embeds is also what [Lighthouse recommends](https://developer.chrome.com/docs/lighthouse/performance/third-party-facades).
+
+**Tip:** Whichever option you choose, give the embed a descriptive `title` (or `playlabel`) so screen reader users know what the video is before it loads.

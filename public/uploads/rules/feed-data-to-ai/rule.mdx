@@ -1,0 +1,186 @@
+---
+type: rule
+title: Do you know the best way to feed your data to AI?
+uri: feed-data-to-ai
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+authors:
+  - title: Isaac Lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard/'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka/'
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/ai-agent-memory-systems/rule.mdx
+  - rule: public/uploads/rules/do-you-follow-best-practices-for-prompt-caching/rule.mdx
+  - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
+  - rule: public/uploads/rules/use-embeddings/rule.mdx
+  - rule: public/uploads/rules/let-prompts-learn-from-feedback/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+redirects:
+  - get-data-to-your-ai
+guid: ca33c8e4-dfdb-4903-bbe1-6c47bccdea91
+seoDescription: Choose long context, RAG, agentic search, precomputed briefs or knowledge graphs for your AI data, and use evals to decide when fine-tuning is worthwhile.
+created: 2026-07-30T00:00:00.000Z
+createdBy: Isaac Lombard
+createdByEmail: isaaclombard@ssw.com.au
+lastUpdated: 2026-08-11T05:37:10.024Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
+archivedreason: null
+isArchived: false
+---
+
+Your AI solution needs your support docs and business information. Feed it too little and it misses the answer. Feed it everything and you can pay more and wait longer.
+
+Choose how the model accesses that data: long context, retrieval or agentic search. Reuse preparation for repeated tasks, and add graphs or fine-tuning when they solve a measured problem.
+
+<endIntro />
+
+## Option A: Long context
+
+If all the material needed to answer a question fits inside the context window, put it straight into the prompt. This requires the least infrastructure and helps when the answer depends on comparing whole documents, such as "Which security requirements never made it into the release?"
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/feed-data-long-context.png"
+  alt="The security requirements, release notes and design spec go into the prompt together to identify missing requirements."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Long context supplies all three documents for comparison"
+/>
+
+Long inputs can increase cost and latency. Models can also miss information [in the middle](https://arxiv.org/abs/2307.03172) or struggle with [questions joining several pieces of evidence](https://arxiv.org/abs/2601.12499). Fitting the context window does not guarantee an accurate answer.
+
+### Prompt caching - making long context economical
+
+Put stable instructions and documents first, then the changing question. Requests with an identical prefix may reuse cached processing, reducing input cost and latency. Check your provider's minimum size, cache boundaries, lifetime and pricing, and measure actual cache hits. See [prompt caching](/do-you-follow-best-practices-for-prompt-caching).
+
+[CAG (cache-augmented generation)](https://arxiv.org/abs/2412.15605) preloads a bounded knowledge base and reuses its attention cache to answer without query-time retrieval. The knowledge base must fit; caching does not fix missing evidence or reasoning errors.
+
+## Option B: Retrieval-Augmented Generation (RAG)
+
+RAG retrieves relevant material and passes it to the model. Retrieval can use keywords, structured queries, graphs, vector similarity or a mix. It often suits large collections of support docs, PDFs, policies and transcripts.
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/feed-data-rag.png"
+  alt="Vector search selects chunks from an index and sends them with the question to the model."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Vector RAG supplies retrieved chunks rather than whole documents"
+/>
+
+SSW's [RulesGPT](https://rulesgpt.ssw.com.au) uses RAG. Cursor [chunks code and embeds it for semantic search](https://cursor.com/blog/secure-codebase-indexing).
+
+**Is RAG dead?** A fixed chunk-and-retrieve pipeline is no longer the automatic starting point, but retrieval remains useful. Claude Projects [enables RAG as project knowledge approaches the context limit](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects), then can return to context-based processing when it shrinks.
+
+### Keep optional query enrichment bounded
+
+Query expansion can improve retrieval, but an optional helper must not become a single point of failure. Preserve the user's original query, set a helper timeout and attempt budget, and validate the expanded queries before using them. On a helper timeout, connection error, empty result or malformed output, search with the original query and record the fallback reason. Reserve enough of the request deadline for that search.
+
+Keep authentication, authorisation, tenant filters and policy checks mandatory on every path. Caller cancellation or a policy denial must stop the request; neither triggers fallback. If retrieval itself fails, expose that failure. If optional re-ranking fails, retain the baseline candidates rather than returning nothing.
+
+Before release, inject each helper failure and confirm one bounded fallback with the same access filters. Test cancellation, denial and backend failure separately. Compare enriched retrieval with the original-query baseline on exact identifiers and ambiguous questions using [evals](/run-evals-on-ai-features).
+
+## Option C: Agentic search
+
+Give an agent tools such as `grep`, a search API or read-only SQL access. It searches, inspects the results and decides what to search next, refining its query when the first results reveal a gap. Unlike a fixed RAG pipeline, the agent manages its own context and can use several retrieval methods.
+
+Querying the live source avoids a separate retrieval index; APIs may still return cached or indexed results. For structured records, a correct SQL query computes joins and totals directly. See [database access for AI agents](/ai-database-access).
+
+Shell tools can run in a sandbox. Vercel's [just-bash](https://github.com/vercel-labs/just-bash) provides bash-like commands over a configurable filesystem, with networking off by default. Enforce file access, user permissions and execution limits outside the model; a simulated shell does not replace operating-system isolation.
+
+## Option D: Precompute once, reuse every run
+
+For repeated tasks, do the shared reading and reasoning before requests arrive. Save a summary, brief, checklist or worked examples, then supply it with each run's new input. [Sleep-time compute](https://arxiv.org/abs/2504.13171) explores this preparation before queries arrive.
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/feed-data-precompute.png"
+  alt="Research regulations once to create a brief, then reuse it with each customer's own documents; refresh it when regulations change."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Reuse the shared research while supplying separate customer evidence"
+/>
+
+For example, a team repeatedly assesses customers against the same regulations. Prepare a reviewed brief explaining each question, acceptable evidence and common mistakes. Keep source links and effective dates, refresh it when regulations change, and test that the summary preserves the evidence needed for answers.
+
+Precomputation saves repeated research; prompt caching saves repeated processing of an eligible prefix. Combine them by placing the shared brief before each customer's authorised documents. Keep customer evidence out of the shared brief. To improve it over time, see [how prompts can learn from feedback](/let-prompts-learn-from-feedback).
+
+## Option E: Knowledge graphs
+
+A knowledge graph stores entities and their relationships. Nodes can hold entity summaries and links to source documents. Graph retrieval is a form of RAG: traverse the relationships, optionally combine them with vector search, and pass the connected facts and sources to the model.
+
+Use a graph when a question follows several relationships across documents. In this **fictional Northwind example**, ask: "Which customers bought discontinued products from German suppliers?"
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/feed-data-knowledge-graph.png"
+  alt="Around the Horn in London links through an order and discontinued product to a supplier in Germany; the path and its sources go to the model."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The supplier's country matters, not the customer's address"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Retrieval finds a German supplier note, a discontinued-product notice and Alfreds Futterkiste's Berlin address, but misses the purchase records. The assistant answers "Alfreds Futterkiste" without evidence connecting that customer to the product.
+  </>}
+  figurePrefix="bad"
+  figure="Separate matching words do not establish a purchase relationship"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The graph retrieves **Around the Horn** → **Order NW-102** → **Product P-7** (discontinued) → **German supplier**, with a source for each link. The assistant answers "Around the Horn" and excludes Alfreds Futterkiste, which has no qualifying path. Missing links mean incomplete evidence, not permission to guess.
+  </>}
+  figurePrefix="good"
+  figure="A complete purchase path supports the answer and excludes the unrelated customer"
+/>
+
+[Microsoft GraphRAG](https://microsoft.github.io/graphrag/) also extracts entities and relationships, then builds community summaries for broader questions about a corpus. [KAG](https://arxiv.org/abs/2409.13731) combines graphs, vector retrieval and logical-form-guided reasoning.
+
+Budget for extraction, entity resolution (merging duplicate names), schema design and updates when sources change. A visible path still needs accurate sources. If the relationships already live in a SQL database, query it directly (Option C) rather than building a second store. See [knowledge graphs as agent memory](/ai-agent-memory-systems#knowledge-graphs-entities-and-relationships).
+
+## When should you fine-tune?
+
+[Fine-tuning](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/overview) adapts a pretrained model using task-specific examples. Consider it for stable, high-volume classification, extraction, routing or response formatting. A smaller specialised model may reduce inference cost and latency; include training, hosting and maintenance in the comparison.
+
+Keep changing facts in a current source. For example, a model trained on the old price of Northwind's Chai tea can still quote it after the catalogue changes. Retrieve the price; consider training the stable task of routing the question to that lookup.
+
+Before training:
+
+* **Build held-out evals** covering normal and edge cases; keep them separate from training data.
+* **Measure a prompted baseline** with [few-shot examples](/shot-prompts). If it meets your targets, stop there.
+* **Prepare representative demonstrations** with correct outputs and permission to train on them; remove sensitive data.
+* **Compare quality, latency and total cost**, switch only when the targets are met, and re-evaluate when the task or base model changes.
+
+See [running evals on your AI features](/run-evals-on-ai-features). Fine-tuning can work alongside retrieval; it does not supply a source-update mechanism.
+
+## Which should I use?
+
+These building blocks can be combined. For exact joins, totals or current structured records, start with a read-only source query (Option C). For document questions:
+
+1. **Does the required corpus fit with room for instructions and output?** If not, retrieve relevant evidence with Option B or C.
+2. **Does the answer need the whole corpus at once?** If so, try long context.
+3. **Do the same documents recur on every request?** If so, try long context with caching; otherwise, try RAG.
+
+Then add a precomputed brief for repeated research, a graph for relationship questions, a [feedback playbook](/let-prompts-learn-from-feedback) for recurring corrections, or fine-tuning for a stable task that justifies training.
+
+<imageEmbed
+  src="/uploads/rules/feed-data-to-ai/data-access-decision-tree.png"
+  alt="Decision tree selects long context, RAG or agentic search, then adds caching, precomputed briefs, graphs, feedback or evaluated fine-tuning."
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Choose a starting candidate, then add what the task needs"
+/>
+
+For example, [YakShaver](https://yakshaver.ai) turns a screen recording into a product backlog item. To choose its destination, a small authorised project list fits in context (**Q1**) and comparing all projects helps select the best match (**Q2**). That makes long context a starting candidate, with caching if the list repeats and qualifies.
+
+Test candidates on the same held-out questions. Measure answer correctness, source coverage, cost and latency, including missing-evidence and changed-source cases. Keep the simplest approach that meets your targets.

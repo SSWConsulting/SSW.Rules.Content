@@ -63,7 +63,6 @@ Domain Events should not depend on external dependencies or external systems, ad
   figure=""
 />
 
-
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
 
 ## Event payloads — keep them serializable
@@ -72,7 +71,7 @@ A domain event's scope is confined to the current bounded context, but the event
 
 This matters because domain events frequently need to:
 
-* Be persisted via the [Transactional Outbox Pattern](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos) so they can be processed reliably and asynchronously
+* Be persisted via the [Transactional Outbox pattern](/use-transactional-outbox-pattern) so they can be processed reliably and asynchronously
 * Be replayed for event sourcing or audit reconstruction
 * Be promoted to Integration Events when other modules or systems need to react
 
@@ -125,7 +124,7 @@ Integration Events are used for communication between different bounded contexts
 It is recommended that Integration Events should only be raised from the `Application` layer when the need for communication or coordination between different parts of the application arises. For example, after a specific use case (command / query) is handled successfully, the `Application` layer might raise an Integration Event to notify other microservices or external systems about the outcome of that use case.
 **❌ If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](/the-main-principles-of-clean-architecture/#principles))**  
 
-Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/latest/develop/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution?WT.mc_id=AZ-MVP-33518).
+Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/latest/develop/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). Publishing after the commit is a second write, so a crash between the two loses the event. Store the event in the same transaction and publish it afterwards - see [Do you use the Transactional Outbox pattern to publish events reliably?](/use-transactional-outbox-pattern)
 
 ## Naming Events
 

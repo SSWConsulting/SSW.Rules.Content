@@ -48,14 +48,16 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 [Dependabot](https://github.com/dependabot) automatically scans your repository and raises pull requests when dependencies become outdated or contain known security vulnerabilities.
 
-#### ✅ Pros
+**✅ Pros:**
+
 
 * Integrated directly into GitHub
 * Automatically opens PRs with version bumps
 * Keeps lockfiles fresh
 * Easy to configure and maintain
 
-#### ❌ Cons
+**❌ Cons:**
+
 
 * Can generate many PRs (noise for large repos)
 * Focuses on version bumps, not functionality
@@ -63,7 +65,7 @@ Modern applications use too many dependencies to track manually. Automated tools
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figurePrefix="bad"
   figure="Not resolving Dependabot PRs"
   src="/uploads/rules/maintain-dependencies-correctly/dependabot-prs.png"
@@ -74,7 +76,8 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 [Renovate](https://github.com/renovatebot/renovate) is a highly configurable dependency management bot that automates updates, groups PRs intelligently, and integrates with multiple ecosystems.
 
-#### ✅ Pros
+**✅ Pros:**
+
 
 * Extremely flexible and customizable
 * Can group related updates to reduce PR noise
@@ -82,7 +85,8 @@ Modern applications use too many dependencies to track manually. Automated tools
 * Actively maintained and open source
 * Strong policy controls (scheduling, automerge rules, etc.)
 
-#### ❌ Cons
+**❌ Cons:**
+
 
 * More complex configuration
 * Overkill for small repos
@@ -92,13 +96,15 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 `npm audit` checks your installed dependencies against the [public vulnerability database](https://github.com/advisories).
 
-#### ✅ Pros
+**✅ Pros:**
+
 
 * Already built into npm
 * Fast and simple to run locally or in CI
 * Good baseline for spotting known CVEs
 
-#### ❌ Cons
+**❌ Cons:**
+
 
 * High false-positive rate
 * Can cause alert fatigue on large dependency trees
@@ -109,7 +115,8 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 [SonarQube](https://www.sonarsource.com/products/sonarqube) is a static analysis platform that scans code for bugs, vulnerabilities, security hotspots, and maintainability issues. While not a dependency updater, it detects issues introduced by outdated or risky dependencies.
 
-#### ✅ Pros
+**✅ Pros:**
+
 
 * Deep static analysis across multiple languages
 * Identifies vulnerabilities caused by dependencies (e.g., unsafe API usage, insecure patterns)
@@ -117,7 +124,8 @@ Modern applications use too many dependencies to track manually. Automated tools
 * Provides quality gates to block unsafe releases
 * Great dashboards and reporting
 
-#### ❌ Cons
+**❌ Cons:**
+
 
 * Doesn’t update dependencies itself
 * Requires server setup (unless using SonarCloud)
@@ -132,7 +140,7 @@ Periodic audits ensure stable systems.
 
 ### Node.js (npm, Yarn, pnpm)
 
-**List outdated dependencies**:
+**List outdated dependencies:**
 
 ```bash
 npm outdated
@@ -140,7 +148,9 @@ yarn outdated
 pnpm outdated
 ```
 
-**Check for known vulnerabilities**:
+---
+
+**Check for known vulnerabilities:**
 
 ```bash
 npm audit
@@ -148,7 +158,9 @@ yarn audit
 pnpm audit
 ```
 
-**Identify unused packages**:
+---
+
+**Identify unused packages:**
 
 `npx depcheck` highlights packages no longer imported, missing dependencies and orphaned dev dependencies.
 
@@ -156,15 +168,19 @@ See more about dependency checking Node.js environments - [Do you keep your npm 
 
 ### .NET (NuGet)
 
-**List outdated NuGet packages**:
+**List outdated NuGet packages:**
 
 `dotnet list package --outdated` shows available updates for packages.
 
-**Check for vulnerable packages**:
+---
+
+**Check for vulnerable packages:**
 
 `dotnet list package --vulnerable` flags any known securities with libraries you're using.
 
-**Generate a full dependency tree**:
+---
+
+**Generate a full dependency tree:**
 
 `dotnet list package --include-transitive` is critical for spotting dangerous transitive dependencies.
 

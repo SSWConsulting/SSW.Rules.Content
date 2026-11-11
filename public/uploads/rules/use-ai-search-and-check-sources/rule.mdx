@@ -1,0 +1,82 @@
+---
+type: rule
+title: Do you use AI search for research and check its sources?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+seoDescription: Use AI search for research questions, use classic search to find a known page, and always open the cited sources before you rely on an AI answer.
+uri: use-ai-search-and-check-sources
+authors:
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+redirects:
+  - make-perplexity-your-default-search-engine
+created: 2024-08-15T20:53:13.541Z
+guid: 9fd16b38-a926-4905-a992-b6d7b1f0d742
+---
+
+AI search tools such as Perplexity, ChatGPT search, Google AI Mode and Copilot answer a question in a paragraph with citations, instead of giving you a list of links to read. That saves a lot of time on research, but the answer is only as good as its sources, and AI search tools still get those wrong surprisingly often.
+
+<endIntro />
+
+## Pick the right search for the job
+
+No AI search tool is clearly better than the others, and most browsers now have one built in, so the tool matters less than knowing when to use it.
+
+### Use AI search 
+
+When you need an answer that is spread across several pages:
+
+* Research questions, e.g. "What changed in .NET 10 for minimal APIs?"
+* Comparing options, e.g. "Azure Container Apps vs App Service for a small API"
+* Getting up to speed on an unfamiliar topic before you read the primary sources
+
+### Use classic search 
+
+When you already know what you are looking for:
+
+* Navigating to a known site or page
+* Finding an exact phrase, error message or file name
+* Local results, shopping and anything where you want to compare the raw results yourself
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** You don't have to switch your default search engine to get both. Most browsers let you add a search engine with a keyword (a "site search" shortcut), so you can type the keyword in the address bar to send just that query to the other engine.
+  </>}
+/>
+
+## Always check the sources
+
+AI search makes citation mistakes with full confidence. In a [2025 Tow Center study of eight AI search tools](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php), more than 60% of answers about where a news excerpt came from were wrong, and even the best tool was wrong 37% of the time. Some tools linked to pages that didn't exist.
+
+Before you rely on an AI search answer:
+
+1. **Open the cited pages** - Check that each source exists and actually says what the answer claims
+2. **Prefer primary sources** - Official docs, the original study or the vendor announcement beat a blog post that summarizes them
+3. **Check the date** - AI answers often mix current and outdated information, especially for fast-moving products
+4. **Cite the source, not the AI** - When you share the information, link the page you verified
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "According to Perplexity, the API supports 10,000 requests per minute."
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Repeating an AI search answer without opening its source"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "The API supports 10,000 requests per minute (see the [official rate limits page](https://www.example.com/docs/rate-limits))."
+  </>}
+  figurePrefix="good"
+  figure="Good example - Using AI search to find the answer, then checking and citing the primary source"
+/>
+
+See [Do you use AI responsibly?](/use-ai-responsibly) and [Do you avoid automation bias?](/avoid-automation-bias) for more on fact-checking AI output.

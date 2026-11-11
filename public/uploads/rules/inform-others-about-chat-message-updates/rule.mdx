@@ -1,56 +1,143 @@
 ---
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2024-05-29 18:15:42.034000+00:00
-guid: 1b2a81d8-2738-4274-9eab-0ae4e0d010f5
-related:
-- rule: public/uploads/rules/update-or-delete-mistakes/rule.mdx
-- rule: public/uploads/rules/email-send-a-v2/rule.mdx
-seoDescription: Ensure clear communication and collaboration in IM chats by notifying
-  others when updating messages. Promote transparency, avoid confusion, and keep everyone
-  informed for smoother workflows.
-title: Do you notify others after updating a chat message?
+type: rule
+title: Do you notify others when changing a chat message?
+uri: inform-others-about-chat-message-updates
 categories:
   - category: categories/communication/rules-to-better-im.mdx
-type: rule
-uri: inform-others-about-chat-message-updates
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/update-or-delete-mistakes/rule.mdx
+  - rule: public/uploads/rules/email-send-a-v2/rule.mdx
+  - rule: public/uploads/rules/meaningful-chat-reactions/rule.mdx
+  - rule: public/uploads/rules/separate-messages/rule.mdx
+guid: 1b2a81d8-2738-4274-9eab-0ae4e0d010f5
+seoDescription: 'Ensure clear communication and collaboration in IM chats by notifying others when updating messages. Promote transparency, avoid confusion, and keep everyone informed for smoother workflows.'
+created: 2024-05-29T18:15:42.034Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-14T01:38:02.711Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
-When updating an existing message in IM chats, others might see an indication of it, but won't get a notification, so it's important to inform them about your message changes.
+Editing a chat message is useful for fixing mistakes or clarifying information. However, changing a message after someone has read or reacted to it can cause confusion.
 
-This simple practice promotes transparency, avoids confusion, and ensures everyone has the most current information. By keeping everyone in the loop, you foster clearer communication and enhance collaboration within the team.
+Most chat applications, including Microsoft Teams, give a subtle indication, but do not send a new notification when you edit a message. This means someone may continue working with outdated information without realizing it has changed.
+
+When making a **meaningful change**, make sure others know about it. If someone has already reacted to your message, leave the original unchanged and send a new message instead.
 
 <endIntro />
 
+## When should you edit a message?
+
+* **Minor typo or formatting fix** - Edit the message without sending a notification if the meaning stays the same
+* **Message not yet read** - You can edit it without notifying others, provided nobody has already responded or reacted
+* **Meaningful change to a message already read** - Edit the message and send a follow-up explaining what changed
+* **Message already reacted to or answered** - Leave the original unchanged and send a v2 instead
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
-    **Note:** It's **not** necessary to notify others if:
-
-* You're simply fixing a typo or making a minor edit that won't alter the meaning of your message
-* The other person hasn't read the message yet
+    **Tip:** When in doubt, preserve the original message and send a new one. It is better to have a clear conversation history than to risk changing the meaning of someone else's response.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
+### Notify others when you make a meaningful change
+
+If you edit a message that changes its meaning, instructions, or important details, send a follow-up message explaining what changed.
+
+For example, imagine you send a message asking someone to review a PR, but later realize the PR is not ready.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message**
+    
+    **Dave:** The PR is ready for review. Please take a look.\
+    github.com/Northwind/pull/1234
+    
+    ***
+    
+    **Edited message**
+    
+    **Dave:** The PR is not ready for review yet. Please wait until the build passes.\
+    github.com/Northwind/pull/1234
+  </>}
   figurePrefix="bad"
-  figure="Silently update a message"
-  src="/uploads/rules/inform-others-about-chat-message-updates/update-im-message-bad.png"
+  figure="The message was silently edited, so someone who read the original may start reviewing a PR that is not ready"
 />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Edited message**
+    
+    **Dave:** The PR is not ready for review yet. Please wait until the build passes.\
+    github.com/Northwind/pull/1234
+    
+    ***
+    
+    **New message**
+    
+    **Dave:** Updated my message above. The PR is **not** ready for review yet. Please wait until the build passes.
+  </>}
   figurePrefix="good"
-  figure="Mention you updated a message"
-  src="/uploads/rules/inform-others-about-chat-message-updates/update-im-message-good.png"
+  figure="A follow-up message makes the change visible and explains why the original instructions no longer apply"
+/>
+
+### Never change the meaning of a message after someone has reacted
+
+A reaction, such as a 👍, is feedback on the message as it was originally written.
+
+If you change the meaning of that message afterward, the reaction may appear to support something the person never intended.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message**
+    
+    **Dave:** In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
+    👍 Adam's reaction
+    
+    ***
+    
+    **Edited message**
+    
+    **Dave:** Edited - In my summary video, is my work on TinaCMS worth mentioning?
+    
+    👍 Adam's reaction
+  </>}
+  figurePrefix="bad"
+  figure="Editing the ambiguous question can change Adam's 👍 intention (e.g. Adam may have agreed that the TinaCMS work should be omitted"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Original message (unchanged)**
+    
+    **Dave:** In my summary video, is my work on TinaCMS worth mentioning? Or should I omit it based on most interns not having that option?
+    
+    👍 Adam's reaction
+    
+    ***
+    
+    **New messages**
+    
+    **Dave:** v2 (separated messages as per [https://www.ssw.com.au/rules/separate-messages](https://www.ssw.com.au/rules/separate-messages))\
+    \
+    In my summary video, is my work on TinaCMS worth mentioning?
+    
+    **Dave:** OR\
+    Should I omit it based on most interns not having that option?
+  </>}
+  figurePrefix="good"
+  figure="The original question is preserved, while a new v2 allows Adam to react to the correct option"
 />

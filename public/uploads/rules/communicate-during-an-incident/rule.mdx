@@ -1,0 +1,251 @@
+---
+type: rule
+title: Do you know the 4 R's of incident communication?
+uri: communicate-during-an-incident
+authors:
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
+related:
+  - rule: public/uploads/rules/how-to-take-feedback-or-criticism/rule.mdx
+  - rule: public/uploads/rules/unplanned-outage-process/rule.mdx
+  - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
+  - rule: public/uploads/rules/call-first-before-emailing/rule.mdx
+  - rule: public/uploads/rules/escalate-key-updates/rule.mdx
+categories:
+  - category: categories/communication/rules-to-better-communication.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+  - category: categories/client-engagement/rules-to-better-software-consultants-working-in-a-team.mdx
+guid: 8d13b07c-04b9-4d85-b191-106ff1c86fd8
+seoDescription: The 4 R's of incident communication - Respond, Reinforce, Report, and Resolve. How to keep stakeholders informed and confident when something critical breaks.
+created: 2026-07-28T00:00:00.000Z
+isArchived: false
+archivedreason: null
+---
+
+Sooner or later something will go badly wrong. A server dies, the product breaks in production, or a release takes the site down.
+
+The technical fix is only half the job. The other half is communication, and that is usually the half that damages the relationship.
+
+This rule applies when **someone reaches out about a critical issue**. They may sound stressed or upset, which is fair. The severity is set by the impact on them, not by how hard the fix looks to you.
+
+<endIntro />
+
+Most incidents go pear-shaped for one reason. It is rarely that the fix took too long. It is that the person who raised it was left wondering whether anyone cared.
+
+<boxEmbed
+  style="info"
+  body={<>
+    This rule covers the **human** side of an incident: what you say and when. For the technical steps of an infrastructure outage, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## The 4 R's: Respond, Reinforce, Report, Resolve
+
+### 1. Respond - as soon as you see it
+
+If your team has an on-call roster or agreed response times, follow those. Otherwise, the clock starts **when you see it**. Once the message is in front of you, act on it straight away rather than reading it and coming back to it later.
+
+#### 📞 Call, don't chat
+
+Chat is the wrong tool for an incident. It is slow, it is easy to misread, and a long back and forth reads as a lack of urgency.
+
+Send one quick line so they know the message has landed, then call.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Seen it, calling you now."
+  </>}
+  figurePrefix="good"
+  figure="Takes 2 seconds, and it stops them chasing other people while your phone is ringing"
+/>
+
+Pick up the phone even if you are nowhere near your computer. You can often still help verbally.
+
+#### 🤝 If you can't help, still point the way
+
+If you truly can't help, say so straight away so nobody is left waiting on you. Then keep going. *"Sorry, I can't help"* on its own leaves the person exactly where they started, and it reads as though you have handed the problem back.
+
+Even when you are the wrong person, you can still move things forward:
+
+* **Name someone who might know** - A maybe is far more useful than nothing
+* **Split the chasing** - Offer to call one person while they try another
+* **Say what you can still do** - You might not be able to debug it, but you can check the monitoring from your phone
+* **Come back either way** - Report back once you have tried, even if you got nowhere
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I can't get to a computer for the next 2 hours, so I can't look at the database myself. Rick knows this system best, so it's worth trying him. I'm not sure he's around, so I'll call Kiki at the same time and let you know either way."
+  </>}
+  figurePrefix="good"
+  figure="Wrong person, but still helpful. It gives a name to try, takes on part of the chasing, and promises to come back"
+/>
+
+This costs you very little, and it is the difference between the stakeholder feeling passed over and feeling helped.
+
+#### 🙏 Use the 3 A's
+
+Follow [Communication - Do you know the 3 A's for receiving feedback/criticism?](/how-to-take-feedback-or-criticism):
+
+1. **Acknowledge** the issue - *"Yes, the site is down, I can see it too, that's a problem"*
+2. **Apologize** for the impact - *"Sorry, I know this is affecting the demo tomorrow"*
+3. **Act** by saying what you are doing next - *"I'm heading home now and will be online in 30 minutes"*
+
+Acknowledging is not just confirming the facts. Agree that it is a problem and that it is bad. The person needs to hear that you are on the same side of it, not that you have simply logged what they said.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Yep, I can see the errors."
+  </>}
+  figurePrefix="bad"
+  figure="Confirms the facts but says nothing about whether it matters, so it reads as detached"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Yes, the site is down, I can see it too. That's a problem, we need to get this sorted tonight."
+  </>}
+  figurePrefix="good"
+  figure="Agrees it is bad, so the person knows you are taking it as seriously as they are"
+/>
+
+#### ⏰ Be specific about your availability
+
+Never leave someone guessing when you will be back. A vague answer forces the stakeholder to either wait and hope, or chase you.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'll look when I'm home."
+  </>}
+  figurePrefix="bad"
+  figure="Vague. There is no timeframe and no fallback, so the stakeholder can't tell whether to wait or escalate"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'll be home in 30 minutes and will look into it."
+  </>}
+  figurePrefix="good"
+  figure="Specific. The stakeholder knows exactly when to expect the next update"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I won't be home for the next 2 hours. Are you able to get hold of Tom or Rick?"
+  </>}
+  figurePrefix="good"
+  figure="Pairs a clear timeframe with a name to try, so the gap in your availability doesn't stall the incident"
+/>
+
+### 2. Reinforce - don't go solo
+
+#### 👥 Bring in a second person early
+
+A second person is not a luxury during an incident. They halve the stress. They spot the thing you are staring straight past. Best of all, one of you can keep the stakeholder informed while the other investigates.
+
+That split protects the person doing the fixing. Troubleshooting needs concentration, and a constant stream of "any update?" calls and messages breaks it every few minutes. Losing your place in a set of debugging steps is frustrating, and it makes the fix take longer.
+
+A second person becomes a shield. They absorb the questions, keep everyone informed, and let you work uninterrupted. Just make sure the stakeholder knows who to contact so they aren't left guessing.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Rick is on the phone with me now and is taking over updates. He'll message you every 20 minutes so I can stay heads down on the fix. Call him if you need anything."
+  </>}
+  figurePrefix="good"
+  figure="Everyone knows who to talk to, so the person fixing it gets a clear run"
+/>
+
+Call someone from the team if you can. If nobody from the team is free, grab any co-worker who is.
+
+#### 🚨 Escalate early if progress has stalled
+
+It is always better to involve people too early than to sit blocked. Every quiet minute burns the stakeholder's confidence. Escalate as soon as you hit a dead end, and tell the stakeholder you are doing it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I've hit a wall. I need more OpenRouter credits and I don't have access to the account. I've called Chris and I'm trying Kiki now as a backup."
+  </>}
+  figurePrefix="good"
+  figure="The blocker, the person who can unblock it, and the fallback, all in one message"
+/>
+
+### 3. Report - while you work
+
+#### 🔄 Give regular status updates, even when there is no progress
+
+Silence is the single biggest cause of "they don't care about this". Short updates every **15-30 minutes** keep everyone calm during a major incident.
+
+If you need a longer block of time to investigate, say so upfront so nobody is left waiting.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I need 30 minutes to get home, then about an hour to dig into the logs. I'll update you at 8pm either way."
+  </>}
+  figurePrefix="good"
+  figure="Sets expectations for a quiet period, so silence doesn't get read as neglect"
+/>
+
+#### 🔓 Surface blockers loudly
+
+If you are waiting on another person, chase them actively. Call, message, use whatever works. If you still can't reach them, don't go quiet. Tell everyone that you tried, what is blocking you, and what happens next.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Sent a message to Kiki. If I don't hear back in 15 minutes I'll call him, then try Rob."
+  </>}
+  figurePrefix="good"
+  figure="Shows the chase is active and timeboxed, not a passive wait"
+/>
+
+#### 🔥 Never downplay the urgency
+
+A statement that pushes the problem into the future tells the stakeholder you have mentally clocked off.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "They can look at it on Monday."
+  </>}
+  figurePrefix="bad"
+  figure="Signals the incident isn't urgent to you, even when it is critical to them"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I'm rolling back to the last good release now. If that doesn't fix it, I'll call Rob tonight to help me restore the database."
+  </>}
+  figurePrefix="good"
+  figure="Explains what is happening right now and what the next option is"
+/>
+
+### 4. Resolve - and follow through
+
+#### 📌 Make the incident the highest priority on the next business day
+
+An incident over a weekend is not over when the service comes back up. On the next business day:
+
+1. Make it the team's **top priority**, above whatever was already planned
+2. Brief everyone who was not around during the incident, especially anyone who was off
+3. Start the investigation immediately, rather than letting it drift into "we'll look next sprint"
+
+---
+
+## Summary
+
+* **Respond** - Send "Seen it, calling you now", then call and use the 3 A's
+* **Reinforce** - Get a second person in early so one person fixes and one person talks
+* **Report** - An update every 15 to 30 minutes, even when there is nothing new to say
+* **Resolve** - Make it the top priority on the next business day

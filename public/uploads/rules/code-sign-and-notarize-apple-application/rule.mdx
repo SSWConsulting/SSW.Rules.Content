@@ -6,17 +6,19 @@ categories:
 authors:
   - title: Steven Qiang
     url: 'https://www.ssw.com.au/people/steven-qiang'
+  - title: Brook Jeynes
+    url: 'https://www.ssw.com.au/people/brook-jeynes'
 guid: eec10201-c69f-4f8d-8ea0-30f691b21fa4
 seoDescription: Do you know how to code-sign and notarize your application by Apple?
 created: 2026-02-08T22:39:08.600Z
 createdBy: Steven Qiang
 createdByEmail: StevenQiang@ssw.com.au
-lastUpdated: 2026-02-23T21:54:20.214Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-09-10T03:57:15.290Z
+lastUpdatedBy: Brook Jeynes
+lastUpdatedByEmail: BrookJeynes@ssw.com.au
 ---
 
-When you develop a macOS application and distribute it outside the Mac App Store, users will often see a security warning the first time they try to open it. This happens because Gatekeeper cannot identify the application’s developer, so the app is treated as untrusted. 
+When you develop a macOS application and distribute it outside the Mac App Store, users will often see a security warning the first time they try to open it. This happens because Gatekeeper cannot identify the application’s developer, so the app is treated as untrusted.
 
 While there are workarounds to bypass Gatekeeper, they require users to go through multiple manual and advanced steps, resulting in a poor user experience.
 
@@ -37,7 +39,7 @@ To code sign your application, you need to obtain a **Developer ID Application**
 
 Before you start, make sure you have:
 
-* Asked a SysAdmin to invite your SSW account to the SSW Apple Developer Team
+* An Apple Developer account
 * A Mac with **Keychain Access.app**
 * Access to the **Apple Developer Portal** using the **Account Holder’s** Apple ID (the primary Apple ID for your organization)
 
@@ -99,7 +101,7 @@ Notarization is the process where Apple reviews a signed macOS application befor
 
 ### Steps:
 
-1. Sign in to [Apple Account](appleid.apple.com) (Your own work Apple Account. e.g [YourName@ssw.com.au](mailto\:YourName@ssw.com.au))
+1. Sign in to [Apple Account](appleid.apple.com) (Your own work Apple Account. e.g [bob@northwind.com](mailto\:bob@northwind.com))
 2. In the Sign-In and Security section, select App-Specific Passwords.
 
    <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/appleid-appp-specific-pw.png" />
@@ -115,5 +117,5 @@ A new App-Specific Password will be generated. Save it in a safe place.
 🎉 **Congratulations!** Now you should have these information for notarizing your macOS application.
 
 * Apple\_Team\_ID: [Apple Developer Portal](developer.apple.com) | Account | Membership
-* Apple\_ID: [YourName@ssw.com.au](mailto\:YourName@ssw.com.au)
+* Apple\_ID: [bob@northwind.com](mailto\:bob@northwind.com)
 * Apple\_APP\_SPECIFIC\_PASSWORD: The password you have just created

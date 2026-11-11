@@ -1,73 +1,35 @@
 ---
-archivedreason: null
+type: rule
+title: Do you use AutoPostBack when a selection can be applied immediately?
+uri: do-your-controls-autopostback
+categories:
+  - category: categories/software-engineering/rules-to-better-asp-net.mdx
 authors: []
-created: 2015-02-16 02:53:41+00:00
+redirects: []
+guid: 33476bc6-1ef0-4173-b4bd-477f9c90675e
+seoDescription: Automating postbacks on controls with fixed values boosts user navigation speed and efficiency.
+created: 2015-02-16T02:53:41.000Z
 createdBy: Rebecca Liu
 createdByEmail: RebeccaLiu@ssw.com.au
-guid: 33476bc6-1ef0-4173-b4bd-477f9c90675e
-isArchived: false
-lastUpdated: 2015-02-19 02:01:31+00:00
+lastUpdated: 2015-02-19T02:01:31.000Z
 lastUpdatedBy: Rebecca Liu
 lastUpdatedByEmail: RebeccaLiu@ssw.com.au
-redirects: []
-seoDescription: Automating postbacks on controls with fixed values boosts user navigation
-  speed and efficiency.
-title: Do your controls autopostback?
-categories:
-  - category: categories/design/rules-to-better-interfaces-winforms-controls.mdx
-type: rule
-uri: do-your-controls-autopostback
+isArchived: false
+archivedreason: null
 ---
 
-When visitors are navigating through your site and they need to make a selection from a control with fixed values, it is best to have the control automatically post back. This makes navigating your site quicker as the user does not have to click other buttons to see the changes which they have made. It is also important to remember that controls which do not have set values, such as text boxes, should have a "Show" button available to click once the visitor is finished entering their data.
+When visitors are navigating through your site and they need to make a selection from a control with fixed values, it is best to have the control automatically post back. This makes navigating your site quicker as the user does not have to click other buttons to see the changes which they have made.
+
+It is also important to remember that controls which do not have set values, such as text boxes, should have a "Show" button available to click once the visitor is finished entering their data.
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure='Because the combos can be set to autopostback and should not have a "Show" button.'
-  src="/uploads/rules/do-your-controls-autopostback/comboswithshowbutton.gif"
-/>
+<imageEmbed alt="Combo boxes with a redundant Show button" size="large" showBorder={false} figurePrefix="bad" figure="Because the combos can be set to autopostback and should not have a &#x22;Show&#x22; button" src="/uploads/rules/do-your-controls-autopostback/comboswithshowbutton.gif" />
 
+<imageEmbed alt="Combo boxes that post back automatically on selection" size="large" showBorder={false} figurePrefix="good" figure="Because the combo boxes have fixed values and can autopostback" src="/uploads/rules/do-your-controls-autopostback/autopostbackcombos.gif" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Because the combo boxes have fixed values and can autopostback."
-  src="/uploads/rules/do-your-controls-autopostback/autopostbackcombos.gif"
-/>
+<imageEmbed alt="Text boxes with no Show button to apply the entered data" size="large" showBorder={false} figurePrefix="bad" figure="Because the text boxes do not have fixed data and thus should have a &#x22;Show&#x22; button" src="/uploads/rules/do-your-controls-autopostback/textboxeswithnoshowbutton.gif" />
 
+<imageEmbed alt="Text boxes with a Show button to apply the entered data" size="large" showBorder={false} figurePrefix="good" figure="Because there is a &#x22;Show&#x22; button as the text boxes do not contained fixed data" src="/uploads/rules/do-your-controls-autopostback/textboxeswithshowbutton.gif" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure='Because the text boxes do not have fixed data and thus should have a "Show" button.'
-  src="/uploads/rules/do-your-controls-autopostback/textboxeswithnoshowbutton.gif"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure='Because there is a "Show" button as the text boxes do not contained fixed data.'
-  src="/uploads/rules/do-your-controls-autopostback/textboxeswithshowbutton.gif"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure='Because the combos can be set to autopostback while the text boxes have the "Show" button available.'
-  src="/uploads/rules/do-your-controls-autopostback/autopostbackandshowbutton.gif"
-/>
+<imageEmbed alt="Combo boxes that autopostback combined with text boxes that have a Show button" size="large" showBorder={false} figurePrefix="good" figure="Because the combos can be set to autopostback while the text boxes have the &#x22;Show&#x22; button available" src="/uploads/rules/do-your-controls-autopostback/autopostbackandshowbutton.gif" />

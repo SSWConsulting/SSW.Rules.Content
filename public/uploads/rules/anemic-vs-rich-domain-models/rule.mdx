@@ -21,15 +21,15 @@ When using Domain-Centric architectures such as Clean Architecture, we need to d
 
 An Anemic Domain Model is characterized by:
 
-* **Property Bags:** Entities are simple data containers with public getters and setters
-* **No Behavior:** No logic or validation within the entities
+* **Property Bags** - Entities are simple data containers with public getters and setters
+* **No Behavior** - No logic or validation within the entities
 
-### Pros of Anemic Domain Model
+**✅ Pros of Anemic Domain Model:**
 
 * Good for simple or CRUD (Create, Read, Update and Delete) projects
 * Easier to understand for developers new to the project
 
-### Cons of Anemic Domain Model
+**❌ Cons of Anemic Domain Model:**
 
 * Doesn’t scale well with complexity - complex logic can be duplicated across many places in the client code
 * Difficult to maintain as the project grows - changes to logic need to be updated in multiple places
@@ -51,16 +51,16 @@ A Rich Domain Model, on the other hand, embeds business logic in the model (with
 
 A Rich Domain Model is characterized by:
 
-* **Data and Behavior:** Combines data and behavior (business logic and validation) in the same entity
-* **Encapsulation:** Entities are responsible for maintaining their own state and enforcing invariants
+* **Data and Behavior** - Combines data and behavior (business logic and validation) in the same entity
+* **Encapsulation** - Entities are responsible for maintaining their own state and enforcing invariants
 
-### Pros of Rich Domain Model
+**✅ Pros of Rich Domain Model:**
 
 * Scales well with complexity - encapsulation (fundamental OOP principle) of the Domain model makes the calling client code simpler
 * Easier to maintain - cohesion (fundamental OOP principle) of the Domain model means logic is closer to the data it applies to
 * Encourages better testability - Domain model is easy to test in isolation
 
-### Cons of Rich Domain Model
+**❌ Cons of Rich Domain Model:**
 
 * Steeper learning curve
 * May require more initial setup and design
@@ -99,10 +99,10 @@ One side-effect of pushing logic into our Domain layer is that we can now start 
 
 ### Tips for Transitioning to a Rich Domain Model
 
-* **Start Small:** Introduce DDD concepts gradually
-* **Focus on Key Areas:** Identify the most complex parts of your domain and refactor them first
-* **Emphasize Testability:** Take advantage of the isolated domain model to write comprehensive unit tests
-* **Iterate and Improve:** Continuously refine your domain model as the project evolves
+* **Start Small** - Introduce DDD concepts gradually
+* **Focus on Key Areas** - Identify the most complex parts of your domain and refactor them first
+* **Emphasize Testability** - Take advantage of the isolated domain model to write comprehensive unit tests
+* **Iterate and Improve** - Continuously refine your domain model as the project evolves
 
 By understanding the differences between anemic and rich domain models, you can make informed decisions about your software architecture and ensure that your project scales effectively with complexity.
 

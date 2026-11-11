@@ -1,33 +1,27 @@
 ---
-archivedreason: null
-authors: []
-created: 2015-02-16 04:18:39+00:00
+type: rule
+title: Do you avoid letting the screen go white?
+uri: do-you-avoid-letting-the-screen-go-white
+categories:
+  - category: categories/design/rules-to-better-forms.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+redirects: []
+guid: 6ccc7d7a-5d20-43f7-862a-d0538d844db2
+seoDescription: Prevent white screen reloads by using jQuery or Ajax controls to send requests without feedback.
+created: 2015-02-16T04:18:39.000Z
 createdBy: Rebecca Liu
 createdByEmail: RebeccaLiu@ssw.com.au
-guid: 6ccc7d7a-5d20-43f7-862a-d0538d844db2
-isArchived: false
-lastUpdated: 2015-02-19 01:39:48+00:00
-lastUpdatedBy: Rebecca Liu
-lastUpdatedByEmail: RebeccaLiu@ssw.com.au
-redirects: []
-seoDescription: Prevent white screen reloads by using jQuery or Ajax controls to send
-  requests without feedback.
-title: Do you avoid letting the screen go white?
-categories:
-  - category: categories/design/rules-to-better-websites-navigation.mdx
-type: rule
-uri: do-you-avoid-letting-the-screen-go-white
+lastUpdated: 2026-08-05T01:08:22.577Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: true
+archivedreason: 'The white-screen and AJAX advice is outdated, and preventing double-click submissions is too narrow to justify that rule.'
 ---
 
 Use jQuery or Ajax controls whenever possible to send requests without feedback on the process. This is to avoid a "white" blank page, while the page reloads. Similar ideas are like a save button that disables after the first click so it can't be hit multiple times.
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="An Ajax control which automatically disables the save button would make this message unnecessary."
-  src="/uploads/rules/do-you-avoid-letting-the-screen-go-white/Bad-AjaxControls.jpg"
-/>
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="bad" figure="An Ajax control which automatically disables the save button would make this message unnecessary." src="/uploads/rules/do-you-avoid-letting-the-screen-go-white/Bad-AjaxControls.jpg" />

@@ -1,0 +1,148 @@
+---
+type: rule
+title: Do you let AI answer engines crawl your site?
+uri: allow-ai-answer-engines
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-aeo-and-geo.mdx
+authors:
+  - title: Isaac Lombard
+    url: 'https://www.ssw.com.au/people/isaac-lombard'
+related:
+  - rule: public/uploads/rules/make-your-website-llm-friendly/rule.mdx
+  - rule: public/uploads/rules/use-robots-txt-effectively/rule.mdx
+  - rule: public/uploads/rules/sitemap-xml-best-practices/rule.mdx
+guid: c2d0fbfc-c6cc-462a-a59d-aff2d38f64ad
+seoDescription: AI crawlers do different jobs. Learn which ones to allow so your site can be cited in ChatGPT, Claude and Perplexity answers, and which ones only affect model training.
+created: 2026-08-12T07:54:54.000Z
+---
+
+Most sites treat AI crawlers as one group. They block all of them, or allow all of them, in a single `robots.txt` rule. Both choices cost you something, because the crawlers do different jobs.
+
+Some collect content to train models. Others fetch a page to answer a user's question and cite the source. Blocking the first group is a licensing decision. Blocking the second group removes you from AI answers entirely, which is rarely what anyone intended.
+
+<endIntro />
+
+## Know which crawler does what
+
+Two jobs, two very different consequences.
+
+**Retrieval crawlers** fetch pages to answer questions and build search indexes. Blocking one costs you citations and referral traffic. [OpenAI](https://developers.openai.com/api/docs/bots) and [Anthropic](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) both document what each of their crawlers does.
+
+| User agent | Operator | Blocking it means |
+| --- | --- | --- |
+| `OAI-SearchBot` | OpenAI | You do not appear in ChatGPT search answers |
+| `Claude-User` | Anthropic | Claude cannot retrieve your page to answer a user |
+| `Claude-SearchBot` | Anthropic | Your content is not indexed for Claude search |
+| `PerplexityBot` | Perplexity | You are not cited in Perplexity answers |
+| `Bingbot` | Microsoft | You lose Bing, and Copilot answers built on it |
+
+**Training crawlers** collect content to train models. Blocking one has no effect on whether you are cited today.
+
+| User agent | Operator | Blocking it means |
+| --- | --- | --- |
+| `GPTBot` | OpenAI | Your content is excluded from future model training |
+| `ClaudeBot` | Anthropic | Your content is excluded from future model training |
+| `Google-Extended` | Google | Your content is not used for Gemini training or grounding |
+| `CCBot` | Common Crawl | You are excluded from the dataset many models train on |
+| `Applebot-Extended` | Apple | Your content is excluded from Apple model training |
+
+## Do not block the crawlers you want traffic from
+
+This is the most common mistake, and it is usually accidental. A site adds a blanket AI block, then wonders why it never appears in ChatGPT.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```txt
+    User-agent: GPTBot
+    User-agent: OAI-SearchBot
+    User-agent: ClaudeBot
+    User-agent: Claude-User
+    User-agent: PerplexityBot
+    Disallow: /
+    ```
+
+    This blocks training **and** citation. The site can never be quoted as a source, and gets nothing in return.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - One blanket rule that also blocks every retrieval crawler"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```txt
+    # Retrieval: allowed, so we can be cited
+    User-agent: OAI-SearchBot
+    User-agent: Claude-User
+    User-agent: Claude-SearchBot
+    User-agent: PerplexityBot
+    Allow: /
+
+    # Training: not allowed
+    User-agent: GPTBot
+    User-agent: ClaudeBot
+    User-agent: CCBot
+    Disallow: /
+    ```
+
+    Citations are welcome, training is not. The two decisions are independent.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Retrieval allowed, training denied"
+/>
+
+If you want both, allow both. The point is to decide deliberately rather than block by reflex.
+
+## Google-Extended does not affect AI Overviews
+
+This myth costs people real traffic, so it is worth stating plainly.
+
+`Google-Extended` controls whether your content is used for Gemini training and grounding. It does not control whether you appear in AI Overviews or AI Mode. Those are features of Google Search, and they follow ordinary Googlebot crawl rules and snippet settings. See Google's [overview of Google crawlers](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers).
+
+<boxEmbed
+  style="warning"
+  body={<>
+    Blocking `Google-Extended` will not remove you from AI Overviews. To manage how you appear in Search, use `robots.txt`, `noindex` or `nosnippet` instead.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+Note the reverse trap too. A `nosnippet` or `max-snippet:0` directive does remove you from AI Overviews, because those answers reuse the same snippet text.
+
+## State your position with Content Signals
+
+`robots.txt` can say who may fetch a page. It cannot say what they may do with it afterwards. The [Content Signals Policy](https://contentsignals.org/) adds that missing half, with three independent signals.
+
+* `search` - may appear in search results
+* `ai-input` - may be used to ground an AI answer
+* `ai-train` - may be used to train a model
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```txt
+    User-agent: *
+    Content-Signal: search=yes, ai-input=yes, ai-train=no
+    Allow: /
+    ```
+
+    Be found, be cited, do not train on it.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A clear position on all three uses"
+/>
+
+Treat Content Signals as a declaration of intent rather than an enforcement mechanism. It states your position in a machine-readable way; it does not stop anyone.
+
+## Check what you are actually publishing
+
+Read your own `robots.txt` and confirm it matches the decision you think you made. Watch for these traps:
+
+* A blanket `Disallow: /` in a `User-agent: *` group applies to every crawler that has no group of its own
+* The most specific user-agent group wins, and it replaces the `*` group rather than adding to it
+* Within a group, the longest matching path wins, and `Allow` beats `Disallow` on an equal-length match
+* A staging `Disallow: /` copied to production blocks everything, including Googlebot
+
+The precedence rules are defined in [RFC 9309, the Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html).

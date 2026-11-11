@@ -2,14 +2,19 @@
 type: rule
 title: Do you use Structured Logging with correlation IDs?
 uri: use-structured-logging
-authors:
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani
 categories:
   - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+authors:
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani'
 guid: 4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a
-seoDescription: Learn how to implement structured logging with Serilog, correlation IDs for distributed tracing, and best practices for queryable logs in production.
+seoDescription: 'Learn how to implement structured logging with Serilog, correlation IDs for distributed tracing, and best practices for queryable logs in production.'
 created: 2026-02-05T00:00:00.000Z
+createdBy: Chloe Lin
+createdByEmail: chloelin@ssw.com.au
+lastUpdated: 2026-08-21T12:47:51.759Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
 Plain text logs are hard to search and analyze. When something goes wrong in production, you need to quickly find all logs related to a specific request, user, or order. Structured logging captures data as queryable fields, not just text strings.
@@ -167,6 +172,10 @@ _logger.LogInformation("Payment processed for card ending in {LastFour}", card[^
 
 ### Add context with scopes
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="The error is logged, but there is not enough context to identify what failed" src="/uploads/rules/use-structured-logging/bad-example.png" />
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="The log includes enough context to identify the failure and where it occurred" src="/uploads/rules/use-structured-logging/good-example.png" />
+
 ```csharp
 public async Task ProcessOrderAsync(Order order)
 {
@@ -215,10 +224,10 @@ ORDER BY Timestamp
 
 ## Summary
 
-| Do | Avoid |
-|-----|-------|
+| Do                                          | Avoid                                   |
+| ------------------------------------------- | --------------------------------------- |
 | Use message templates with named parameters | String interpolation ($"User \{userId\}") |
-| Include correlation IDs | Logs without request context |
-| Use appropriate log levels | Logging everything as Information |
-| Mask sensitive data | Logging passwords, tokens, PII |
-| Add structured context with scopes | Repeating context in every log call |
+| Include correlation IDs                     | Logs without request context            |
+| Use appropriate log levels                  | Logging everything as Information       |
+| Mask sensitive data                         | Logging passwords, tokens, PII          |
+| Add structured context with scopes          | Repeating context in every log call     |

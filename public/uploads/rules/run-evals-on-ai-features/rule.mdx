@@ -1,0 +1,95 @@
+---
+seoDescription: Run evals on your AI features - score real examples against clear criteria in CI so prompt and model changes don't silently break your app.
+type: rule
+title: Do you run evals on your AI features?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+uri: run-evals-on-ai-features
+authors:
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/test-prompts-then-iterate/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
+redirects:
+  - write-integration-tests-for-llm-prompts
+created: 2024-10-03T15:12:00.000Z
+guid: 3a9f5b3b-9f12-4b83-9f5e-850f9df31578
+---
+
+You tweak a system prompt to fix one complaint, or switch to a newer model because it's cheaper. The app still compiles, the unit tests still pass, and a week later users report that answers got worse. LLMs are non-deterministic, so a classic test that expects an exact string either fails randomly or checks too little to catch the regression.
+
+Evals fix this. An eval runs your AI feature against a set of real examples and scores each output against criteria you define, so you can see whether a change made things better or worse before you ship it.
+
+<endIntro />
+
+## What an eval is made of
+
+* **A dataset** - Inputs that represent real usage, each with the expected answer or the qualities a good answer must have. Start with 20-50 cases taken from real user requests and real failures, and include edge cases (typos, ambiguous questions, off-topic requests)
+* **Graders** - The checks that score each output (see below)
+* **A threshold** - The pass mark for the run, e.g. "at least 95% of cases pass" or "average relevance score of 4 out of 5 or higher". Thresholds, not exact matches, are what make LLM output testable
+
+## Pick the cheapest grader that works
+
+1. **Code-based checks** - Is the output valid JSON? Does it match the schema? Did the agent call the right tool with the right arguments? Does it contain the order number? These are fast, cheap and repeatable, so use them wherever you can
+2. **LLM-as-judge** - Another model scores the output against a rubric, for qualities like relevance, groundedness, completeness or tone. Use a different model from the one under test, and spot-check its scores against human judgement before you trust it
+3. **Human review** - The gold standard, but slow. Use it to build the dataset, calibrate the judge, and read a sample of real transcripts regularly
+
+## When to run evals
+
+* **On every prompt or model change** - Run the suite in your [CI pipeline](/have-a-continuous-build-server) and fail the build when the score drops below the threshold
+* **Before upgrading a model** - Run the same suite against the current and the new model and compare. This turns "the new model feels better" into numbers. See [Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+* **In production** - Score a sample of live traffic with the same graders, and alert when quality drifts. Turn every new failure into a dataset case, so the suite grows from real problems
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `Assert.AreEqual("Your order #1234 ships on Monday.", response.Text);`
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - An exact-match assertion fails whenever the model rewords a correct answer, so the team learns to ignore it"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    50 real support questions, each checked for the correct order number (code check) and scored for relevance and groundedness (LLM judge). The build fails if fewer than 95% pass.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A dataset of real cases with code checks, an LLM judge and a pass threshold catches regressions without flaky failures"
+/>
+
+## Tools
+
+You don't need a platform to start. A spreadsheet of cases and a test that loops over them is already an eval. When you outgrow that, use a tool built for it:
+
+* **.NET** - [Microsoft.Extensions.AI.Evaluation](https://learn.microsoft.com/en-us/dotnet/ai/evaluation/libraries?WT.mc_id=AI-MVP-33518) runs evals inside MSTest, xUnit or NUnit, with built-in quality, safety and agent evaluators, response caching and HTML reports
+* **Azure** - [Microsoft Foundry evaluations](https://learn.microsoft.com/en-us/azure/foundry/concepts/observability?WT.mc_id=AI-MVP-33518) cover pre-production evaluation, CI/CD quality gates and continuous evaluation of production traffic
+* **Any stack** - [promptfoo](https://www.promptfoo.dev/docs/intro/) (YAML-configured CLI, also does red teaming), [DeepEval](https://deepeval.com/docs/getting-started) (pytest-style), and hosted platforms such as [LangSmith](https://docs.langchain.com/langsmith/evaluation) and [Braintrust](https://www.braintrust.dev/docs)
+
+Here is a .NET eval that uses an LLM judge to score coherence, adapted from the [Microsoft quickstart](https://learn.microsoft.com/en-us/dotnet/ai/evaluation/evaluate-ai-response?WT.mc_id=AI-MVP-33518):
+
+```csharp
+IEvaluator coherenceEvaluator = new CoherenceEvaluator();
+EvaluationResult result = await coherenceEvaluator.EvaluateAsync(messages, response, chatConfiguration);
+
+NumericMetric coherence = result.Get<NumericMetric>(CoherenceEvaluator.CoherenceMetricName);
+Assert.IsFalse(coherence.Interpretation!.Failed);
+Assert.IsTrue(coherence.Interpretation.Rating is EvaluationRating.Good or EvaluationRating.Exceptional);
+```
+
+Running evals in the same test suite as the rest of your code is a good start, because the whole team sees them on every build.
+
+<imageEmbed
+  alt="Test explorer showing a passing OpenAI test folder inside the EagleEye integration test project"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="OK example - EagleEye runs its OpenAI tests alongside its other integration tests. Scoring them against a dataset with thresholds turns them into evals"
+  src="/uploads/rules/run-evals-on-ai-features/eagleeye-prompt-tests.png"
+/>

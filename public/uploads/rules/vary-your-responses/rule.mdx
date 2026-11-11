@@ -8,13 +8,14 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 9cc1584e-4edf-40d8-8457-e203fbe054e9
 isArchived: false
-lastUpdated: 2019-07-23 23:16:40+00:00
-lastUpdatedBy: Patrick Zhao
-lastUpdatedByEmail: PatrickZhao@ssw.com.au
+lastUpdated: 2026-09-09T00:00:00.000Z
+lastUpdatedBy: Luke Mao
+lastUpdatedByEmail: LukeMao@ssw.com.au
 redirects:
 - do-you-vary-your-responses
-seoDescription: People don’t answer in the same way every time. Neither should bots!
-  All you need is a few different answer messages and a rand() function.
+seoDescription: People do not answer the same way every time and neither should your
+  agent. Use message variations in Copilot Studio, and know which messages should
+  stay identical.
 title: Do you vary your bot responses?
 categories:
   - category: categories/software-engineering/rules-to-better-bots.mdx
@@ -22,7 +23,7 @@ type: rule
 uri: vary-your-responses
 ---
 
-People don’t answer in the same way every time. Neither should bots! All you need is a few different answer messages and a rand() function.
+People do not answer the same way every time. Neither should your agent.
 
 <endIntro />
 
@@ -34,3 +35,19 @@ People don’t answer in the same way every time. Neither should bots! All you n
   figure="Different welcome messages from SophieBot"
   src="/uploads/rules/vary-your-responses/sophiebotvariedresponse.png"
 />
+
+## How do you add variation?
+
+You no longer write this yourself. In Copilot Studio, a **Message** node accepts multiple [message variations](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-send-message) and the agent picks one at random each time the node runs. Question nodes take variations too, with a [Randomize variant selection](https://learn.microsoft.com/en-us/microsoft-copilot-studio/voice-random-message-selection) setting that switches between random and in order.
+
+A few strings and a `rand()` call was the old answer, and it still applies on a platform that has no built-in support.
+
+## Which messages should stay the same?
+
+Generative answers already vary, because the model writes them fresh every time. This rule is about the messages you author, and some of those should be identical on every run.
+
+* **Errors and failures** - people search the exact wording, and support scripts match on it
+* **Compliance and disclosure text** - anything legal, privacy, or AI disclosure related
+* **Confirmation of an action taken** - "I have cancelled order 1234" should read the same way every time
+
+Vary the greeting. Do not vary the receipt. For what to say when the agent has nothing to offer, see [Do you have generic answers?](/have-generic-answer)

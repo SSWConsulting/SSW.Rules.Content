@@ -1,14 +1,17 @@
 ---
 title: Do you monitor AI cost and usage?
 uri: monitor-ai-cost-and-usage
-seoDescription: Monitor AI token consumption, API calls, and agent activity to keep variable AI usage costs visible and under control
+seoDescription: Monitor AI token consumption, API calls, and agent activity, and measure cost per accepted outcome, to keep variable AI usage costs visible and under control
 categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 authors:
   - title: Gordon Beeming
     url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Josh Berman
     url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: Jernej Kavka
+    url: 'https://www.ssw.com.au/people/jernej-kavka'
 guid: 84a2ebf1-9591-4d94-b7b8-ab99c64c0235
 created: 2026-03-05T22:45:56.927Z
 createdBy: Josh Berman
@@ -18,7 +21,7 @@ lastUpdatedBy: Gordon Beeming
 lastUpdatedByEmail: GordonBeeming@ssw.com.au
 ---
 
-AI tools dramatically increase productivity, but they also introduce variable usage costs. Without visibility into token consumption, API calls, and agent activity, teams may unknowingly generate significant expenses
+AI tools can increase productivity, but they also introduce variable usage costs. Without visibility into token consumption, API calls, and agent activity, teams may unknowingly generate significant expenses.
 
 <endIntro />
 
@@ -32,34 +35,80 @@ Teams should track key indicators such as:
 * API request volume
 * High-cost workflows
 
-This information helps teams optimise usage and ensure that AI remains a productivity multiplier rather than a financial burden.
+Use these indicators to identify expensive workflows and decide where to optimise usage.
+
+## Compare total spend with cost per accepted outcome
+
+Track total spend against a budget alongside **cost per accepted outcome**: all attributable costs divided by accepted outcomes, each counted once.
+
+* **Define acceptance first** - For example, count a published description or a resolved case after its follow-up window, rather than requests or generated drafts. Keep the acceptance definition and calculation versioned
+* **Count every attempt's cost** - Include rejected attempts, retries and failed calls. Match costs to the same completed cohort of outcomes. Mark immature outcomes or unclosed charges provisional, and reconcile them later
+* **State the cost basis** - Use consistent currency and allocation rules, keep unattributed spend visible, and state whether hosting and human review are included alongside model charges
+* **Handle zero acceptances** - Show **No accepted outcomes** instead of zero unit cost or division by zero
+
+For example, two completed Northwind cohorts:
+
+| Measure | Cohort A | Cohort B |
+| --- | --- | --- |
+| Billed model spend | $443 | $868 |
+| Accepted descriptions | 304 | 720 |
+| Cost per accepted description | $1.46 | $1.21 |
+
+This illustrates lower unit cost, not permission to breach the budget or lower acceptance quality. Reconcile spend and outcome counts independently, and investigate work-mix changes before attributing improvement to a model.
+
+## Keep deterministic waiting outside model loops
+
+When completion has a clear condition, let a script, native wait command or completion event handle the wait. Use the model to choose the work and interpret the final result. Repeated **still running** responses do not need another model call.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1. Model call: "Has CI run 4182 finished?" - Still running
+    2. Model call: "Has CI run 4182 finished?" - Still running
+    3. Model call: "Has CI run 4182 finished?" - Still running
+  </>}
+  figurePrefix="bad"
+  figure="Every status check is another model call"
+/>
+
+```bash
+# The script waits; the model reads only the final line
+status=0
+timeout 30m gh run watch "$RUN_ID" --interval 30 --exit-status > ci-watch.log 2>&1 || status=$?
+echo "run=$RUN_ID exit=$status log=ci-watch.log"
+exit "$status"
+```
+
+**✅ Figure: Good example - A bounded script waits, keeps the polling output in a log, and returns the run ID and exit status (124 means it timed out)**
+
+* **Bound the wait** - Identify the exact job and expected revision, set a deadline and respect rate limits
+* **Return evidence** - Report success, failure or timeout with the job ID, exit status and evidence link. Use the agent environment's supported completion mechanism, because writing a file alone does not wake an agent
+* **Reconcile before retrying** - A local timeout does not cancel remote work. Check its status before starting another attempt
+
+The wait makes no model calls, but setup, interpretation, compute and service requests can still cost money.
 
 ## Providing visibility through status updates
 
-Instead of constantly wondering “Wait, which model am I using?” or  “How much money did I just blow in the last 20 minutes?”, you can have those figures right there at the bottom of the screen - this is called the status line.
-
-When using CLI AI tools, one of the easiest ways to keep track of your AI usage and costing is through the status line.
+A status line at the bottom of a CLI tool can show the current model, usage and cost while you work. Keeping these figures visible helps you spot expensive sessions without interrupting your workflow to open a dashboard.
 
 ### Customising the status line in Claude Code
 
-Claude Code currently is the leading tool for customisation of the status line, with most other CLI tools preferring a dashboard UI. Some easy ways to customise your status line with Claude Code:
+Customise Claude Code's status line with a tool such as:
 
 * [goccc](https://github.com/backstabslash/goccc) - A fast, zero dependency CLI cost calculator and status line provider for Claude Code
 
 <imageEmbed alt="goccc status line" size="large" showBorder={false} figurePrefix="good" figure="A simple, yet effective status line using goccc" src="/uploads/rules/monitor-ai-cost-and-usage/basic-cli-status-line-BETTER.png" />
 
-## &#x20;Tools for monitoring AI cost and usage
+## Tools for monitoring AI cost and usage
 
-There are many tools out there for monitoring AI cost and usage, highly dependent on which tools you are utilising. However, knowing where and how to track your AI bills can save you from some unexpected costs!
+Choose monitoring tools that cover both interactive sessions and production usage:
 
-Some of the different ways:
+* **Native CLI commands** - Check your tool's built-in usage and status commands.
 
-* Native CLI tools commands - Most CLI tools provide their own native way of checking cost and usage stats (i.e /stat for Claude Code and Gemini CLI or /status for OpenAI Codex CLI)
+<imageEmbed alt="Claude Code /stats output showing an activity heatmap, favourite model, total tokens, sessions and streaks" size="medium" showBorder={false} figurePrefix="none" figure="Running /stats in Claude Code" src="/uploads/rules/monitor-ai-cost-and-usage/cursor-status-command.png" />
 
-<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="Running /stats in Claude Code" src="/uploads/rules/monitor-ai-cost-and-usage/cursor-status-command.png" />
+* **Provider dashboards** - Check usage and billing across sessions, including tools with a graphical interface such as Cursor and Windsurf.
+* **AI observability platforms** - Track production usage, costs and model performance across applications with tools such as LangSmith, Helicone and Langfuse.
+* **Custom developer tools** - Use smaller command line tools when you need more control over how usage and costs are displayed.
 
-* Provider Dashboard - Most AI providers also offer dashboards that give a more comprehensive view of usage and billing. These dashboards are often the easiest way to observe usage for non-CLI tools (i.e Cursor, Windsurf)
-* AI Observability Platforms - For production AI systems, teams may use dedicated AI observability platforms to track usage, costs, and model performance across applications (i.e LangSmith, Helicone, Langfuse)
-* Custom Developer Tools - Smaller scale command line tools created by developers, for developers. Often gives the user more control and flexibility over the function of the tool.
-
-<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Running goccc in the command line" src="/uploads/rules/monitor-ai-cost-and-usage/running-goccc.png" />
+<imageEmbed alt="goccc usage report in the terminal, breaking down input, output, cache tokens, requests and cost by Claude model, with the total cost at the bottom" size="medium" showBorder={false} figurePrefix="good" figure="Running goccc in the command line" src="/uploads/rules/monitor-ai-cost-and-usage/running-goccc.png" />

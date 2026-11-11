@@ -1,39 +1,62 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2018-12-11 19:07:31+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 957cbd4f-928f-45fa-9d81-b759f21dd178
-isArchived: false
-lastUpdated: 2021-06-16 00:10:26.470000+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-redirects:
-- clarity-do-you-update-or-delete-message-mistakes
-related:
-- rule: public/uploads/rules/inform-others-about-chat-message-updates/rule.mdx
-seoDescription: Microsoft Teams messaging correction and deletion options for mistake-free
-  communication.
-title: Do you know you can update or delete chat messages with mistakes?
+type: rule
+title: 'Do you know you can update or delete chat messages with mistakes? '
+uri: update-or-delete-mistakes
 categories:
   - category: categories/communication/rules-to-better-im.mdx
-type: rule
-uri: update-or-delete-mistakes
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/inform-others-about-chat-message-updates/rule.mdx
+  - rule: public/uploads/rules/do-you-strike-through-completed-items/rule.mdx
+  - rule: public/uploads/rules/email-send-a-v2/rule.mdx
+redirects:
+  - clarity-do-you-update-or-delete-message-mistakes
+guid: 957cbd4f-928f-45fa-9d81-b759f21dd178
+seoDescription: 'Edit or delete chat messages with typos, and strike through wrong or outdated information so readers can see what changed.'
+created: 2018-12-11T19:07:31.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-06T04:24:02.745Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-If you noticed the message you typed in IM (e.g. Microsoft Teams) has a mistake, make sure you edit it (or delete it if sent in error) so the recipient doesn't see the mistake.
+Fix mistakes in chat messages you've sent. Edit or delete small slips, and strike through anything someone may have already read.
 
 <endIntro />
 
+## Typos and messages sent in error - Edit or delete
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure='"Edit" and "Delete" are options after you type a message'
-  src="/uploads/rules/update-or-delete-mistakes/Screen Shot 2018-12-11 at 1.52.42 PM.png"
-/>
+Edit a typo. If you sent a message to the wrong chat or by accident, delete it.
+
+<imageEmbed alt="Microsoft Teams message context menu showing the Edit, Delete, Mark as unread, and Immersive Reader options" size="small" showBorder={true} figurePrefix="none" figure="&#x22;Edit&#x22; and &#x22;Delete&#x22; are options after you send a message" src="/uploads/rules/update-or-delete-mistakes/teams-message-edit-delete-menu.png" />
+
+<imageEmbed alt="Microsoft Teams message marked Edited that reads: The client demo is on Thursday at 3pm - the client asked to move it" size="large" showBorder={true} figurePrefix="ok" figure="The sender corrected the time from &#x22;2pm&#x22; to &#x22;3pm&#x22;, but those who read it can miss the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-overwritten-correction.png" />
+
+## Wrong or outdated information - Strike it through
+
+If someone may have already read the wrong information, strike it through instead of overwriting or deleting it. Readers see what changed, and earlier replies still make sense. In Teams, use the formatting toolbar or [Markdown](https://support.microsoft.com/en-us/office/use-markdown-formatting-in-teams-4d10bd65-55e2-4b2d-a1f3-2bebdcd2c772).
+
+If the whole message no longer applies, like a question you've since answered, strike it through and add a note such as "Found it in the wiki".
+
+### Option A - Small changes: Correct it in the same message
+
+Strike through the wrong text and add the correction next to it.
+
+<imageEmbed alt="Microsoft Teams message marked Edited that reads: The client demo is on Thursday at 2pm (struck through) 3pm - the client asked to move it" size="large" showBorder={true} figurePrefix="good" figure="The sender struck through the old time and gave the reason for the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-strikethrough-correction.png" />
+
+Edits don't notify anyone. If the correction changes the meaning, [let people know you updated the message](/inform-others-about-chat-message-updates).
+
+### Option B - Big changes: Post a v2 message
+
+If most of the message changes, strike through the original and post the correction as a new message starting with "(v2 - reason)". The new message notifies everyone.
+
+<imageEmbed alt="Microsoft Teams chat with an edited message that reads: The client demo is on Thursday at 2pm in Meeting Room 1. Bring the release notes (struck through), followed by a new message that reads: (v2 - client moved demo online) The client demo is on Friday at 10am on Teams. Bring the release notes and the test plan" size="large" showBorder={true} figurePrefix="good" figure="The sender struck through the original and posted a v2 with the reason for the change" src="/uploads/rules/update-or-delete-mistakes/teams-message-strikethrough-v2.png" />

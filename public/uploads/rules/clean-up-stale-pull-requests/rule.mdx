@@ -1,0 +1,100 @@
+---
+type: rule
+title: Do you clean up stale pull requests?
+seoDescription: Open pull requests pile up when nobody owns the ones that go quiet. Check the count every sprint, chase then close silent contributor PRs, label the ones held for a release, and keep bot PRs in their own stream.
+guid: ffbc48ed-dde6-4b9a-ab01-4a87a18c23a9
+uri: clean-up-stale-pull-requests
+created: 2026-09-18T00:00:00.000Z
+authors:
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+related:
+  - rule: public/uploads/rules/merge-debt/rule.mdx
+  - rule: public/uploads/rules/standard-set-of-pull-request-workflows/rule.mdx
+  - rule: public/uploads/rules/do-you-save-failed-experiments-in-abandoned-pull-requests/rule.mdx
+  - rule: public/uploads/rules/close-pbis-with-context/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most pull request advice is written for the author: keep it small, get it reviewed, get it merged. On a repo with outside contributors, the maintainer owns the other half. A contributor opens a PR, a reviewer asks for changes, and the contributor never comes back. Nobody closes it, because closing feels rude.
+
+A year of that and the open PR count is in the dozens. Nobody can say why most of them are still open, reviewers stop looking at the list, and a new contributor assumes the project is unmaintained.
+
+<endIntro />
+
+## Look at the count every sprint
+
+The open PR count only trends one way unless someone owns it. Once a sprint, open the PR list sorted oldest first and go through everything older than a sprint. For each one you should be able to say, in one line, why it is still open:
+
+* Waiting on the contributor
+* Waiting on a review
+* Held for a release
+* Nobody knows
+
+"Nobody knows" is the stale one. The maintainer's job is to turn it into one of the other three, or close it.
+
+[Do you have a standard set of pull request workflows?](/standard-set-of-pull-request-workflows) covers the bot that labels PRs by age and reminds the author about [merge debt](/merge-debt). The labels tell you which PRs are old. This rule is what you do with them.
+
+## Chase once, then close
+
+A contributor PR with changes requested and no reply is the most common stale PR. Leaving it open does not help the contributor, and it hides the real number from everyone else.
+
+1. **Chase once, with a date.** Ask whether they still want to finish it, and say when you will close it if you do not hear back
+2. **Close after the agreed silence.** Say plainly that it is closed for inactivity, not rejected, and that they can reopen it when they are ready
+
+4 weeks after the chase is a sensible default. Agree the number as a team and put it in your contributing guide, so closing is a process and not a personal call.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Maintainer (6 months after requesting changes):** Closing as stale.
+  </>}
+  figurePrefix="bad"
+  figure="No chase, no date, and no way back. The contributor finds out their work was dropped when the notification arrives"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Maintainer:** Hi, are you still keen to finish this one? There are 2 review comments waiting on you. If I don't hear back by 16 Oct I'll close it to keep the queue tidy, and you can reopen it any time you want to pick it up again.
+
+    *4 weeks later, no reply*
+
+    **Maintainer:** Closing for inactivity. This isn't a rejection, the branch and the review are all still here. Reopen when you're ready and ping me for a review.
+  </>}
+  figurePrefix="good"
+  figure="One chase with a date, then a close that leaves the door open"
+/>
+
+Closing a PR loses nothing. The branch, the diff and the review thread stay exactly where they were, and reopening is one click. See [Do you save failed experiments in abandoned pull requests?](/do-you-save-failed-experiments-in-abandoned-pull-requests).
+
+If the PR has not been reviewed at all, the silence is yours, not the contributor's. Review it before you chase anyone.
+
+## Label what you are deliberately holding
+
+Sometimes a PR is good and the team is holding it for a later release, for example a breaking change that has to wait for the next minor version. That is a legitimate reason to stay open, but only if everyone can see it.
+
+Add a label that names the release, e.g. `For 4.1`. The label answers "why is this still open?" for the contributor, for the next maintainer to sweep the list, and for anyone filtering the queue. Without it, a parked PR looks identical to an abandoned one and gets closed in the next sweep.
+
+## Finish or close your own drafts
+
+Maintainers' own drafts go stale too, and they set the tone. A draft older than a sprint gets finished, handed over, or closed with a comment saying what was learned, per [Do you close PBIs and tasks with context?](/close-pbis-with-context). You cannot ask a contributor to tidy up their PR while yours sits at the bottom of the same list.
+
+## Keep dependency bot PRs in their own stream
+
+Dependabot and Renovate PRs are generated, superseded automatically, and merged in batches. Counting them alongside contributor PRs makes the number meaningless and buries the PRs that need a human. Filter them out of the sweep (e.g. `-author:app/dependabot`) and give them their own cadence, such as auto-merge for patch versions.
+
+## Example: a sweep of the oldest band
+
+An open source repo had 49 open PRs, 7 of them older than 3 months. The count had last been under 10 in April 2023, and it had never been at 0 outside the repo's first month. One sweep of the PRs between 4 and 6 months old:
+
+* 1 that nobody had reviewed: keep, and review it this sprint
+* 1 with review comments unanswered: chase with a date
+* 2 with changes requested and silence after a chase: close, with a note that they can be reopened
+* 1 that a maintainer was holding for the next minor release: keep, labelled `For 4.1`
+* 1 that was a maintainer's own stale draft: close
+
+3 closed, 3 kept, and every one still open has a one-line reason next to it.

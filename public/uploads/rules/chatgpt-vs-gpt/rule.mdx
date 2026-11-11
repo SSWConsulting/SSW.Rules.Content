@@ -1,6 +1,6 @@
 ---
 type: rule
-title: 'Do you know when to use ChatGPT, a Custom GPT, or the OpenAI API?'
+title: 'Do you know when to use AI chat, a coding agent, an always-on agent, or an API?'
 uri: chatgpt-vs-gpt
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -11,10 +11,12 @@ authors:
     url: 'https://www.ssw.com.au/people/piers-sinclair'
   - title: Adam Cogan
     url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Anton Polkanov
+    url: 'https://www.ssw.com.au/people/anton-polkanov'
 redirects:
   - chatgpt-vs-gpt-3
 guid: 7a20cbcb-0f9d-4beb-9563-2111b85b0c71
-seoDescription: Compare AI models ChatGPT and GPT to enhance your productivity and automation capabilities.
+seoDescription: Compare AI chat, coding agents like Codex and Claude Code, always-on agents like Dots and Grok Bot, and AI APIs to pick the right tool for each job.
 created: 2023-02-08T04:39:15.620Z
 createdBy: Ulysses Maclaren
 createdByEmail: ulyssesmaclaren@ssw.com.au
@@ -22,14 +24,26 @@ lastUpdated: 2026-06-29T22:49:06.986Z
 lastUpdatedBy: Ulysses Maclaren
 lastUpdatedByEmail: ulyssesmaclaren@ssw.com.au
 ---
+You paste 12 files into ChatGPT, ask for a refactor, then copy the answers back one by one. Or you spend a week wiring up the OpenAI API for a report you only need once.
 
-ChatGPT, custom GPTs, and the OpenAI API all use OpenAI models, but they are best suited to different scenarios.
+The same models sit behind very different tools. Each one suits a different kind of work, and picking the wrong one wastes more time than it saves.
 
 <endIntro />
 
-## ChatGPT
+## Which one should you use?
 
-Use ChatGPT when a person wants to interact with AI directly.
+| Tool | Examples | Who drives | Where it works | Best for |
+| --- | --- | --- | --- | --- |
+| AI chat | ChatGPT, Claude, Microsoft 365 Copilot | You, message by message | A chat window | Thinking, writing, and once-off questions |
+| Coding agent | Codex, Claude Code | You set the task, the agent edits and runs code | Your repo, in a terminal, IDE, or cloud sandbox | Changing code and files |
+| Always-on agent | Dots, Grok Bot | The agent works toward a goal in the background | Its own cloud computer | Ongoing work across apps and websites |
+| API | OpenAI API, Claude API | Your code | Your backend | Product features and automation |
+
+Start at the top and move down only when the tool above can't do the job.
+
+## AI chat
+
+Use AI chat when a person wants to work with AI directly and read every answer.
 
 Good examples:
 
@@ -37,36 +51,73 @@ Good examples:
 * Explaining a concept
 * Brainstorming ideas
 * Summarizing a document
-* Asking follow-up questions
 * Getting help with a once-off task
 
 ✅ Best for human-in-the-loop work.
 
-## Custom GPT
+Custom GPTs used to be the way to package a repeatable assistant inside ChatGPT. OpenAI stops creation of new custom GPTs on 25 September 2026 and retires them on 11 December 2026. Move them to ChatGPT plugins, or to a project with saved instructions.
 
-Use a custom GPT when you want a repeatable assistant inside ChatGPT with specific instructions, knowledge, tools, or actions.
+## Coding agents - Codex and Claude Code
+
+Use a coding agent when the work lives in files. The agent reads your repo, makes the change, runs the build and tests, and shows you a diff.
 
 Good examples:
 
-* An internal SSW Rules assistant
-* A sales proposal helper
-* A support triage assistant
-* A reusable assistant trained on uploaded reference files
-* A team-specific helper with a consistent tone and process
+* Refactoring across many files
+* Fixing a failing test
+* Adding a feature from a PBI
+* Updating documentation or content in a repo
 
-✅ Best for repeatable team workflows where people still interact through ChatGPT.
+<boxEmbed
+  style="greybox"
+  body={<>
+    Pasting 12 files into a chat window, asking for a refactor, and copying each answer back by hand.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Using AI chat for work that lives in a repo"
+/>
 
-## OpenAI API / GPT models
+<boxEmbed
+  style="greybox"
+  body={<>
+    Asking Claude Code or Codex to do the refactor in the repo, then reviewing the diff and the test results.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Using a coding agent where the code lives"
+/>
 
-Use the OpenAI API when you need automation, product integration, or system-to-system workflows.
+✅ Best for changes to code and files, with a person reviewing the result.
+
+See [Do you use AI CLI tools?](/ai-cli-tools) for how to choose between them.
+
+## Always-on agents - Dots and Grok Bot
+
+Use an always-on agent when the work runs over hours or days, and you want to hand it off rather than sit with it. These agents run on their own cloud computers, so they keep working after you close your laptop.
+
+* **[Dots](https://openai.com/index/introducing-dots/)** (OpenAI) - Agents that connect to your apps through ChatGPT plugins and learn your preferences over time. You message them in ChatGPT, Slack, or Teams. Available on ChatGPT Pro (outside the EEA, Switzerland, and the UK) and Business Premium, with an Enterprise beta.
+* **[Grok Bot](https://docs.x.ai/grok-bot/get-started)** (xAI) - Agents that use a computer like a person does, clicking and typing through websites and apps that have no API. You message them from the desktop or mobile app. Included with paid Cursor plans and SuperGrok subscriptions.
+
+Good examples:
+
+* Watching a dashboard and reporting when a number changes
+* Researching a topic and turning it into a draft document
+* Following up on a task across email, chat, and a web app
+
+Both products are new, so treat them like a new team member. Give each agent only the accounts and permissions it needs, and check its work before you rely on it.
+
+✅ Best for ongoing background work across apps.
+
+## API
+
+Use an API when AI needs to be part of a system rather than a conversation.
 
 Good examples:
 
 * Summarizing pages automatically
-* Turning a URL into a draft SSW Rule
-* Rewriting email content for different audiences
 * Building AI features into an app
 * Running AI as part of a backend workflow
 * Connecting AI to your own database, services, or business logic
 
 ✅ Best for production systems, automation, and programmatic integration.
+
+When an API feature grows into an agent that plans and calls tools, see [Do you build agentic AI?](/agentic-ai) To pick the model behind it, see [Do you pick the best Large Language Model for your project?](/choosing-large-language-models)

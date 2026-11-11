@@ -5,7 +5,7 @@ categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 seoDescription: When choosing an AI model for your application, it's crucial to
   try out different Large Language Models (LLMs) before committing. Learn how to
-  do this efficiently with platforms like GitHub Models.
+  do this efficiently with platforms like OpenRouter and Microsoft Foundry.
 uri: choosing-large-language-models
 authors:
   - title: Ulysses Maclaren
@@ -24,7 +24,8 @@ guid: e6891815-5e9b-4626-a1f7-42f13ce53aec
 created: 2025-01-30T18:21:37+11:00
 
 ---
-When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT, Gemini, Mistral, Grok, DeepSeek, etc.), and they are always changing and subject to varying levels of news and hype.
+
+When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (GPT, Claude, Gemini, Llama, Mistral, Grok, DeepSeek, Qwen, etc.), and they are always changing and subject to varying levels of news and hype.
 
 When choosing one for a project, it can be hard to know which to pick, and if you're making the right choice - being wrong could cost valuable performance and UX points.
 
@@ -32,91 +33,117 @@ Because different LLMs are good at different things, it's essential to test them
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/embed/sVELvhGdSfs?si=KdSIZiLbwaxPT3MP" description={"Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules (3 min)"} />
-
-
 ## Challenges in Implementing AI
 
-* **Decision fatigue** - There's  an overwhelming number of Language Models to choose from
-* **Different implementations** - Not all models use the same libraries
-* **Tweaking parameters** - To get the best result involves testing different parameters such as the temperature (creativity), token limit, and more
+* **Decision fatigue** - There's an overwhelming number of Language Models to choose from
+* **Different implementations** - Not all models use the same libraries or APIs
+* **Tweaking parameters** - To get the best result involves testing different parameters such as the temperature (creativity), token limit, reasoning effort, and more
 * **Cost accumulates rapidly** - Costs from API calls during testing can accumulate, particularly with large prompts or frequent calls
 
 Ultimately you need to test against different models to find one that fits your use case.
 
+## Shortlist with leaderboards, then test with your own prompts
+
+Public leaderboards are a good way to narrow the field before you spend time and money testing:
+
+* **[LMArena](https://lmarena.ai/)** - Ranks models by blind, head-to-head human votes
+* **[Artificial Analysis](https://artificialanalysis.ai/)** - Compares models on intelligence benchmarks, speed, and price
+
+Benchmarks only tell you how a model performs on someone else's tasks. Pick 2-3 candidates, then run them against real prompts from your application to see which one actually works best.
+
 ## AI Model Hubs - Experiment with different models
 
-These platforms simplify testing and deploying different AI models from a variety of service providers, helping developers make informed decisions. Some of these allow developers to test model responses interactively in a browser with configurable parameter settings.
+These platforms let you call many models from different providers through one API, so switching models is a configuration change rather than a rewrite. Most also let you test model responses interactively in a browser with configurable parameters.
 
-### [Azure AI Foundry](https://ai.azure.com/) (⭐ Recommended for Production)
+### [OpenRouter](https://openrouter.ai/) (⭐ Recommended for Development)
 
-* Provides access to a variety of foundation models from different providers
+* **One API for hundreds of models** - OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, Qwen, and more
+* **OpenAI-compatible** - Works with the OpenAI SDK, so switching models is as simple as changing the model name
+* **Pay as you go** - Model prices match the providers' list prices, and some models have free, rate-limited variants for experimenting
+* **Automatic fallbacks** - Routes to another provider when one is down or rate-limited
+* **Side-by-side chat** - Compare responses from multiple models in the browser before writing any code
+
+<boxEmbed
+  style="warning"
+  body={<>
+    OpenRouter sits between your app and the model provider. Before sending client data, check its [data policies](https://openrouter.ai/docs/guides/privacy/data-collection) and turn on zero data retention, or use a hub your client already has an agreement with.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### [Microsoft Foundry](https://ai.azure.com/) (⭐ Recommended for Production)
+
+Microsoft Foundry (formerly Azure AI Foundry) is the enterprise option for Azure-based solutions.
+
+* Provides access to a large catalog of models, including OpenAI, Anthropic, Meta, Mistral, and DeepSeek
 * Allows side-by-side evaluation of models within the Azure ecosystem
+* Covers enterprise needs like data residency, private networking, content safety, and Azure billing
 * Enables fine-tuning and optimization for specific business needs
 
-### [GitHub Models](https://github.com/marketplace/models) (⭐ Recommended for Development)
+### [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 
-* **Free offering, rate-limited for development purposes.**
-* Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library
-* Flexible Model Choices – Select larger models for power or compressed (e.g. distilled or quantized) models for efficiency
-* Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs
-* Available models include models from...
+* The AWS equivalent of Microsoft Foundry, offering models from Anthropic, Meta, Mistral, Amazon, and more through one API
+* Built-in model evaluation to compare models on your own data
+* Use [Amazon SageMaker AI](https://aws.amazon.com/sagemaker/) instead only when you need to train or host your own models
 
-  * OpenAI (GPTs)
-  * Microsoft (Phi)
-  * Meta (Llama)
-  * and more...
+### [Google Vertex AI Model Garden](https://cloud.google.com/model-garden)
 
-### [AWS SageMaker AI](https://aws.amazon.com/sagemaker/)
+* The Google Cloud equivalent, with Gemini models alongside open and third-party models
 
-* Supports training, deploying, and managing LLMs at scale
-* Offers built-in model evaluation and cost management features
-* Enables model fine-tuning and hosting for enterprise AI solutions
+### AI gateways
+
+If you want one API across providers but need more control than a hosted hub, use an AI gateway:
+
+* **[Vercel AI Gateway](https://vercel.com/ai-gateway)** - Hosted gateway with a single key for hundreds of models, and bring-your-own-key support
+* **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** - Adds caching, rate limiting, and analytics in front of your existing provider keys
+* **[LiteLLM](https://docs.litellm.ai/)** - Open-source proxy you host yourself, useful when requests must stay inside your own infrastructure
 
 ### Other tools to compare models
 
 #### [GroqCloud Playground](https://console.groq.com/playground)
 
 * Free, rate-limited API and browser tool
-* Provides a low-latency inference environment for running various LLMs
+* Provides a low-latency inference environment for running various open models
 
-#### **[OpenAI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
+#### [OpenAI Playground](https://platform.openai.com/playground)
 
-Free for use browser tool which lets you test out OpenAI model configurations and get associated code snippets. Has access to cutting edge features (real-time and assistants APIs).
+Browser tool which lets you test OpenAI model configurations and get associated code snippets. It has access to the latest OpenAI features first.
 
-#### **[LM Studio](https://lmstudio.ai/)**
+#### [LM Studio](https://lmstudio.ai/) and [Ollama](https://ollama.com/)
 
-Self-hosted offering. No additional costs for using the language model. High hardware costs, available models are limited by your hardware configuration. You the need to download models individually. For enterprise applications with high security needs.
+Run open models locally. There is no cost per request, but the models you can run are limited by your hardware, and you need to download each model individually. Good for enterprise applications with high security needs, or for working offline.
 
-## Using GitHub Models as a development tool
+## Using OpenRouter as a development tool
 
+Because OpenRouter is OpenAI-compatible, you can point the standard OpenAI SDK at it and compare models by changing a single string:
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="GitHub Models makes life easy"
-  src="https://github.com/user-attachments/assets/f8fdca43-fd0c-4a16-a37d-b1d322752712"
-/>
+```python
+import os
 
+from openai import OpenAI
 
-GitHub Models provides you with a free, rate-limited key you can use for practical tests in your application during development.
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.environ["OPENROUTER_API_KEY"],
+)
 
-GitHub Models supports a large amount of language models within the same ecosystem. The development cost of switching from one model to another is minimal, assuming you're using the Azure AI Inference API. Switching from one model to another is as simple as changing an API parameter. Your code implementation can stay the same.
+for model in ["openai/gpt-5-mini", "anthropic/claude-haiku-4.5", "google/gemini-3.8-flash"]:
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": "Summarize this support ticket: ..."}],
+    )
+    print(model, response.choices[0].message.content)
+```
 
-You have the option to choose between most major language models. You can experiment by submitting prompts to find the best fit for your scenario.
-
-For example, you may be building a chatbot and find that GPT 4o mini provides suitable responses and that you don't need to invest in the extra compute costs involved with running a larger model.
+For example, you may be building a chatbot and find that a small, cheap model provides suitable responses, so you don't need to pay for a larger model.
 
 ## Deploying to production
 
-Once you've identified the best model for your needs, GitHub Models simplifies deployment. You can:
+Once you've identified the best model for your needs:
 
-1. Generate a **production key** for your app
-2. Start incurring costs **only when you go live**
+1. **Choose where to host it** - Use the hub your client already has an agreement with (e.g. Microsoft Foundry or Amazon Bedrock) for enterprise requirements like data residency and billing, or keep using OpenRouter if it meets your security requirements
+2. **Keep your code provider-agnostic** - Use an OpenAI-compatible API or an abstraction like [Microsoft Agent Framework](/agentic-ai) so switching models later stays cheap
+3. **Re-test regularly** - New models are released every few months, and a newer, cheaper model might beat the one you picked
 
 This approach allows you to make an informed decision before committing financially, ensuring you're using the right AI model for your application.
-
-In effect, GitHub Models is the lite version of Azure's AI Foundry – it can even use the same API.

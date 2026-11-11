@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">CSR · Client-Side Rendering</title><desc id="desc">Content is assembled in the browser: HTML shell → JavaScript → Fetch data → Render. Visitors wait for JavaScript and data before seeing content</desc>
+<rect width="1200" height="400" rx="16" fill="#f5f5f5"/>
+<g font-family="Arial, sans-serif" fill="#222">
+<text x="48" y="66" font-size="34" font-weight="700">CSR · Client-Side Rendering</text>
+<text x="48" y="105" font-size="22" fill="#555">Content is assembled in the browser</text>
+<rect x="48" y="155" width="240" height="124" rx="8" fill="white" stroke="#ccc"/>
+<text x="168" y="201" text-anchor="middle" font-size="24" font-weight="700">HTML shell</text>
+<text x="168" y="241" text-anchor="middle" font-size="20" fill="#555">Initial response</text>
+<path d="M298 217h25m-9-9 9 9-9 9" fill="none" stroke="#c00" stroke-width="3"/>
+<rect x="336" y="155" width="240" height="124" rx="8" fill="white" stroke="#ccc"/>
+<text x="456" y="201" text-anchor="middle" font-size="24" font-weight="700">JavaScript</text>
+<text x="456" y="241" text-anchor="middle" font-size="20" fill="#555">Download + run</text>
+<path d="M586 217h25m-9-9 9 9-9 9" fill="none" stroke="#c00" stroke-width="3"/>
+<rect x="624" y="155" width="240" height="124" rx="8" fill="white" stroke="#ccc"/>
+<text x="744" y="201" text-anchor="middle" font-size="24" font-weight="700">Fetch data</text>
+<text x="744" y="241" text-anchor="middle" font-size="20" fill="#555">Wait for API</text>
+<path d="M874 217h25m-9-9 9 9-9 9" fill="none" stroke="#c00" stroke-width="3"/>
+<rect x="912" y="155" width="240" height="124" rx="8" fill="white" stroke="#ccc"/>
+<text x="1032" y="201" text-anchor="middle" font-size="24" font-weight="700">Render</text>
+<text x="1032" y="241" text-anchor="middle" font-size="20" fill="#555">Display content</text>
+<text x="48" y="344" font-size="23">Visitors wait for JavaScript and data before seeing content</text>
+</g></svg>

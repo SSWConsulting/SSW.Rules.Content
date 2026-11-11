@@ -1,0 +1,109 @@
+---
+type: rule
+title: Do you prevent duplicate writes when AI agents retry?
+seoDescription: Prevent duplicate AI agent writes after timeouts by reusing idempotency keys, returning clear outcomes and checking saved results before trying again.
+guid: 567e225b-64a8-4033-9809-d81dd7fc21ef
+uri: agent-safe-write-operations
+created: 2026-10-15T01:15:51.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/design-for-agent-experience/rule.mdx
+  - rule: public/uploads/rules/rest-api-design/rule.mdx
+  - rule: public/uploads/rules/do-you-return-detailed-error-messages/rule.mdx
+  - rule: public/uploads/rules/use-transactional-outbox-pattern/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+  - category: categories/software-engineering/rules-to-better-web-api.mdx
+archivedreason: null
+isArchived: false
+---
+
+A connection drops after the server saves an order. The AI agent sees a timeout and tries again. Northwind now has two orders ready to ship for one request.
+
+When you build write tools for agents, **treat a timeout as an unknown outcome and make the retry safe**. Accept an idempotency key, so a retry with the same key returns the original result within the documented window instead of writing again. Return an explicit outcome that tells the agent whether to continue, look up the record or stop. Without an idempotency key, the agent checks what happened before trying again; if it cannot establish the outcome, it stops and escalates.
+
+<endIntro />
+
+## Make the retry return the original result
+
+An **idempotency key** identifies one intended write across multiple attempts. The server recognises the key and prevents another business effect. This protection belongs in the tool, whether the agent calls it through a CLI, HTTP API or [MCP server](/mcp-server).
+
+These illustrations use synthetic Northwind **example data**. The first retry creates a duplicate; the second returns the order already saved.
+
+<imageEmbed
+  src="/uploads/rules/agent-safe-write-operations/agent-retries-timed-out-order-and-creates-duplicate.png"
+  alt="Northwind illustration: after create_order times out, a retry without an idempotency key creates order 11079 alongside identical order 11078; both are ready to ship"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Retrying an uncertain write without duplicate protection leaves two orders ready to ship"
+/>
+
+<imageEmbed
+  src="/uploads/rules/agent-safe-write-operations/agent-checks-unknown-outcome-before-retrying.png"
+  alt="Northwind illustration: create_order returns unknown, the agent retries the same payload with key reorder-7f3c, and the server returns saved order 11078; only one new order exists"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Retrying with the original request and key returns order 11078 instead of creating another"
+/>
+
+Build that behaviour into the server:
+
+* **Keep one key per intended write** - Persist a unique, opaque key before the first attempt and reuse it on retries. A deliberate new reorder gets a new key
+* **Match the request** - Scope the key to the caller and operation; reject a changed payload with the same key
+* **Handle crashes and concurrency** - Save the database change and its key/result record atomically. Two simultaneous retries must not both write
+* **Publish the retry window** - Return the stored result, or a pending response while work continues. After the key expires, check the outcome before creating anything. Bound retries with backoff and a deadline
+* **Include downstream effects** - A database transaction cannot undo a shipment request. Use downstream idempotency or reconciliation; an [outbox](/use-transactional-outbox-pattern) still needs consumers that tolerate duplicates
+
+[Stripe's idempotent requests](https://docs.stripe.com/api/idempotent_requests) show this in practice: API v1 stores the first response after execution begins and rejects changed parameters. Keys may be pruned after at least 24 hours. Document your own tool's guarantees and limits.
+
+## Return an outcome the agent can act on
+
+Return the saved ID and verified data, rather than echoing the request as proof of success. For deletion, return a receipt identifying the deleted record. Use explicit outcomes such as these application-defined states:
+
+| Outcome | What the agent does next |
+| --- | --- |
+| `saved` | Use the confirmed ID and data |
+| `saved-unverified` | The write succeeded but its follow-up read failed; look up the known ID, without creating again |
+| `unknown` | Retry with the same key within its supported window, or check the outcome |
+| `pending` | Poll the operation ID until completion |
+| `failed` | The write was rejected or rolled back without business side effects; fix the cause before retrying |
+
+An HTTP error alone does not prove failure. For bulk writes, return per-item outcomes so successful items are not repeated. Use structured results and [detailed error messages](/do-you-return-detailed-error-messages).
+
+## Keep approval tied to one write
+
+For destructive, sensitive or large bulk changes, enforce [trusted approval on the server](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html):
+
+* Show a person the exact targets, effects and recovery limits through an authenticated approval flow. An agent-supplied `--yes` flag is only an acknowledgement
+* Bind short-lived approval to the caller, operation, payload, record versions and one durable operation intent
+* Atomically consume approval before execution. Reject expired, mismatched or reused approval, even with a fresh idempotency key
+* Persist progress so recovery resumes that intent. An authorised retry of the completed request returns its receipt without executing or consuming approval again
+
+## Apply the approval boundary to an email
+
+For an email action that requires confirmation, preview the sending account, action, subject, full To/Cc/Bcc addresses, outgoing body including quoted history, and every attachment's filename and contents summary, or **None**. Identify external recipients; expand groups where possible and stop if membership is unknown. Check linked documents and sharing permissions too.
+
+In a synthetic Northwind example, the agent prepares a supplier reply from `orders@northwind.test` to `supplier@northwind.test`, with no Cc or Bcc and one attachment, `northwind-order-1042.pdf`, containing the order lines. The user sees the full reply and attachment summary before choosing **Send**, **Edit** or **Keep draft**. Approval to draft is not approval to send, and an incoming message cannot authorise the action.
+
+Bind confirmation to that exact preview and durable send intent. A change to the account, recipients, body or attachments invalidates it and requires a new preview and confirmation. Enforce this in the send tool; a model-generated confirmation flag is insufficient. Use the original intent and supported idempotency key for retries. After a timeout, reconcile the mailbox or delivery receipt before resending; if the outcome remains unknown, stop for review. Report **Draft saved**, **Sent** or **Outcome unknown** according to verified evidence.
+
+## Protect the write and its recovery
+
+* **Preview first** - A dry run shows targets, changes and side effects without applying them. Recheck permissions and business validation at execution
+* **Limit access** - Apply [least privilege for AI resources](/least-privilege-ai-resources) and check authorisation on every call, including receipt replays
+* **Protect later edits** - An otherwise idempotent update can overwrite newer data. Use a version precondition such as [If-Match](https://www.rfc-editor.org/rfc/rfc9110.html#name-if-match) when execution must match a preview or an earlier read
+* **Keep a recovery receipt** - Record caller, approval, targets, time and outcome in an access-controlled audit trail, excluding secrets and unnecessary personal data. Document the permitted reversal and when to escalate: cancelling an unshipped order cannot undo a shipment. Reversal is another authorised write that needs safe retries
+
+## Test the lost-response case
+
+Before exposing the tool, use a disposable fixture:
+
+1. Save an order, then drop the response. Retry the same request and key; confirm one order and one intended shipment effect
+2. Send concurrent retries and a changed payload; confirm one write and rejection of the changed payload
+3. Check that dry runs change no business data, stale versions are rejected and denied callers cannot replay receipts
+4. Reuse one approval with a fresh key and concurrent requests; confirm at most one execution and safe receipt replay for the original request
+5. Cancel the test order; confirm its final state and linked audit record

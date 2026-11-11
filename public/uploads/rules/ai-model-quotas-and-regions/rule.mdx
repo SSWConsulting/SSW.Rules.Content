@@ -1,0 +1,59 @@
+---
+type: rule
+title: Do you plan for AI model quotas and region availability?
+seoDescription: Check which AI models, deployment types and quota your Azure region and subscription offer before the design is final.
+guid: 2835e216-8e58-4e5d-9572-74c67dea62ef
+uri: ai-model-quotas-and-regions
+created: 2026-10-12T22:01:43.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/do-you-know-how-to-find-the-closest-azure-data-centre-for-your-next-project/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI model on Azure is not offered in every region, and every subscription has a limit on how much of it you can use. Teams often pick a model and a region in the design and only check on deployment day. Then the model is not there, or the first busy hour ends in 429 errors.
+
+That's why you should **check model availability and quota before the design is final**.
+
+<endIntro />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    InsufficientQuota: This operation require 120 new capacity in quota Tokens Per Minute (thousands) - gpt-4o, which is bigger than the current available capacity 30. The current quota usage is 270 and the quota limit is 300 for quota Tokens Per Minute (thousands) - gpt-4o.
+  </>}
+  figurePrefix="bad"
+  figure="The deployment fails because the app needs more quota than the subscription has left"
+/>
+
+<imageEmbed
+  src="/uploads/rules/ai-model-quotas-and-regions/foundry-quota.png"
+  alt="Foundry portal, Quota page for one subscription. The row for gpt-4o, Standard, Australia East reads 20K of 1.02M TPM"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The Quota page in the Foundry portal shows how much of each model you can use in each region"
+/>
+
+## Check these before the design is final
+
+1. **Model availability** - [Which models a region offers](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability) depends on the deployment type. New models arrive as Global first, and regional versions have "no guaranteed availability date"
+2. **Where prompts are processed** - [Global](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/deployment-types) can use any Azure region. Data Zone stays inside the US, the EU or Asia Pacific. Standard stays in the geography you pick
+3. **Price** - Global Standard has [the lowest price](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/deployment-types#start-with-global-standard). Pay more for Data Zone or a single region only when the data has to stay there
+4. **Quota** - [Quota](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/quota) is a limit per subscription, model and deployment type, in tokens per minute. Go over it and requests get a 429 error
+5. **Quota increases** - More quota is a request to Microsoft. It is handled in the order received, and it "might be denied" if you are not using the quota you already have. Ask early
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Check the subscription the app will run in. Quota belongs to the subscription, so the numbers in your own test subscription say nothing about production.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

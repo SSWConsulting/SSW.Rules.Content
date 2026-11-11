@@ -17,7 +17,7 @@ seoDescription: Maximize your online security and boost Google site ranking by u
   for users.
 title: Do you use URL Rewrite to redirect HTTP to HTTPS?
 categories:
-  - category: categories/software-engineering/rules-to-better-iis.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-iis.mdx
 type: rule
 uri: do-you-use-url-rewrite-to-redirect-http-to-https
 ---
@@ -36,14 +36,14 @@ First you must download the IIS URL Rewrite module from Web Platform Component I
 
 4. Add Conditions
 
-- Condition input: `{HTTPS}`
-- Pattern: `off`
+   - Condition input: `{HTTPS}`
+   - Pattern: `off`
 
 5. Add Action
 
-- Action type: `Redirect`
-- Action Properties: `https://{HTTP\_HOST}/{R:1}`
-- Redirect type: `Found (302)`
+   - Action type: `Redirect`
+   - Action Properties: `https://{HTTP\_HOST}/{R:1}`
+   - Redirect type: `Found (302)`
 
 6. Apply | Back to Rules
 

@@ -85,7 +85,7 @@ This can be used for:
   figurePrefix="bad"
   figure="Redundant configuration"
 />
-**✅ **Project1.csproj:**
+✅ **Project1.csproj:**
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -117,7 +117,7 @@ This can be used for:
     </PropertyGroup>
 </Project>
 ```**  
-**✅ Good example - Centralized configuration**  
+✅ **Good example - Centralized configuration**  
 
 ## What about Directory.Build.targets?
 
@@ -143,7 +143,7 @@ Rule of thumb: **defaults go in .props, overrides and custom targets go in .targ
 </Project>
 ```
 
-**✅ Good example - Directory.Build.targets reacting to per-project properties and defining a shared target**
+✅ **Good example - Directory.Build.targets reacting to per-project properties and defining a shared target**
 
 **Note:** MSBuild only auto-imports the **nearest** `Directory.Build.props`/`.targets` above each project. If you need multiple levels (e.g. one at the repo root plus one for the `tests` folder), the inner file must import the outer one explicitly:
 

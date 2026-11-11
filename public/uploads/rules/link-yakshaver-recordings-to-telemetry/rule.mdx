@@ -1,0 +1,99 @@
+---
+type: rule
+title: Do you link YakShaver bug reports to their telemetry with a recording ID?
+seoDescription: Give every YakShaver recording a correlation ID from start to end, so the bug report points to the exact logs and telemetry from that session.
+guid: edae721f-bfb4-482b-9f47-b73b3cc22abd
+uri: link-yakshaver-recordings-to-telemetry
+created: 2026-10-29T07:00:00.000Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/give-feedback-report-bugs-link/rule.mdx
+  - rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+  - rule: public/uploads/rules/use-opentelemetry/rule.mdx
+  - rule: public/uploads/rules/treat-bug-reports-as-hypotheses/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
+  - category: categories/software-engineering/rules-to-better-application-insights.mdx
+archivedreason: null
+isArchived: false
+---
+
+A user reports "the dashboard broke when I switched tabs". Your logs are full of correlation IDs: every request has an operation ID and every span has a trace ID. None of them say which bug report they belong to, so the developer still filters by user and guesses a time window. A screen recording helps, but it only shows what the user saw, not what the browser and server did.
+
+<endIntro />
+
+When people report bugs with a [YakShaver](https://yakshaver.ai) recording, give each recording one correlation ID: a **recording ID**. It's created when the recording starts and cleared when it ends, and everything your app logs in between carries it. The same ID goes on the work item YakShaver creates, so the bug report points straight at the exact logs from that session.
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-how-it-fits.png"
+  alt="Diagram: the app starts a YakShaver recording, and one recording ID connects it to browser telemetry, API requests, server spans and server logs"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="One recording ID connects the YakShaver recording to the telemetry"
+/>
+
+## Without a bug report, a correlation ID is just another GUID
+
+Correlation IDs are only useful when something points to them. The recording is what scopes them: it marks exactly when the session started and ended, and the recording ID ties every log in that window to one bug report.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Bug:** Dashboard tab doesn't load
+
+    It broke when I switched tabs on the dashboard, sometime around 12:30.
+
+    *(Logs: about 4,000 requests between 12:00 and 13:00, each with its own operation ID)*
+  </>}
+  figurePrefix="bad"
+  figure="A text-only report, so the developer has to guess which requests and logs belong to it"
+/>
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-pbi-card.png"
+  alt="A PBI created by YakShaver with a video link, description, steps to reproduce, expected behavior, tasks and acceptance criteria, plus a Recording context section whose Start, Timeline and End snapshots each include the recordingId"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="The YakShaver PBI has the video, the steps to reproduce and the recording ID"
+/>
+
+## Recording IDs don't replace trace IDs
+
+A trace ID links the spans of one request. A bug report covers many requests, so you need both:
+
+| ID | Scope | Answers |
+| --- | --- | --- |
+| Operation or trace ID | One request | "What happened inside this call?" |
+| YakShaver recording ID | Every request during the recording | "Which logs belong to this bug report?" |
+
+## Show the exact logs for the recording
+
+Copy the recording ID from the PBI and search your telemetry for it. You get only the logs from that session, from the moment the recording started to the moment it ended:
+
+```kusto
+union withsource=Table AppEvents, AppTraces, AppRequests, AppDependencies, AppPageViews
+| where TimeGenerated > ago(3d)
+| where tostring(Properties) has "3f2a9c1e-7b4d-4e8a-9c2f-5d1b6e0a8f34"
+| project TimeGenerated, Table, AppRoleName, Name, ResultCode, DurationMs, OperationId
+| order by TimeGenerated asc
+```
+
+**✅ Figure: Good example - One query returns everything the recording produced, in order**
+
+<imageEmbed
+  src="/uploads/rules/link-yakshaver-recordings-to-telemetry/yakshaver-recording-timeline.png"
+  alt="Application Insights results for one 24.5 second recording: 23 matching rows, from YakShaverRecordingStarted through a page view, browser and API requests and SQL dependencies, to YakShaverRecordingEnded"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="The recording ID returns exactly the logs between the start and end of the recording"
+/>
+
+## Learn more
+
+For how to add YakShaver to your app and attach the recording ID in the browser and on the server, read [Adding YakShaver recording and telemetry to a web app](https://gordonbeeming.com/blog/2026-10-29/adding-yakshaver-recording-to-an-app).

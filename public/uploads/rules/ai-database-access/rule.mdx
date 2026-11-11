@@ -14,7 +14,7 @@ related:
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
   - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
 categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
 ---
 
 When an AI agent is helping you debug a feature, the most valuable question is usually *"what does the data actually look like?"* — and the answer lives in your database. Without access to it, the agent has to guess at schema, hallucinate column names, or keep asking you to paste in query results.
@@ -72,9 +72,9 @@ A Model Context Protocol server exposes a curated set of DB tools (`query`, `lis
 
 Examples:
 
-* [Microsoft MSSQL MCP](https://github.com/microsoft/mssql-mcp)
-* [Postgres MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)
-* [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite)
+* [SQL MCP Server](https://learn.microsoft.com/en-us/azure/data-api-builder/mcp/overview) - Microsoft's official MCP server for SQL Server, Azure SQL and Fabric
+* [DBHub](https://github.com/bytebase/dbhub) - one server for Postgres, MySQL, SQL Server, Oracle, MariaDB and SQLite
+* [MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox) - Google's open source MCP server for Postgres, SQLite, SQL Server and many more
 
 See [Do you give your AI agents context with MCP servers and skills?](/mcp-servers-for-context).
 

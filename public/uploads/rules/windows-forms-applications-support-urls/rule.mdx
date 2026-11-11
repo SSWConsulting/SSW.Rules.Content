@@ -44,10 +44,10 @@ We believe that all applications should have this capability. You can add it to 
 
 1. Add the necessary registry keys for the application
 
-- HKEY_CLASSES_ROOT\\**AppName**\URL Protocol = ""
-- HKEY_CLASSES_ROOT\\**AppName**\Default Value = "URL:Outlook Folders"
-- HKEY_CLASSES_ROOT\\**AppName**\shell\Default Value = "open"
-- HKEY_CLASSES_ROOT\\**AppName**\shell\open\command\Default Value = "**Path\AssemblyName.exe** /select %1"
+   - HKEY_CLASSES_ROOT\\**AppName**\URL Protocol = ""
+   - HKEY_CLASSES_ROOT\\**AppName**\Default Value = "URL:Outlook Folders"
+   - HKEY_CLASSES_ROOT\\**AppName**\shell\Default Value = "open"
+   - HKEY_CLASSES_ROOT\\**AppName**\shell\open\command\Default Value = "**Path\AssemblyName.exe** /select %1"
 
 2. Add code into your main method to handle the extra parameters
 

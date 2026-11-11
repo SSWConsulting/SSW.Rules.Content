@@ -1,0 +1,95 @@
+---
+type: rule
+title: Do you configure your AI content filters and document the settings?
+seoDescription: Choose the content filter settings for your Azure AI app on purpose and keep them in Bicep, so every change is reviewed.
+guid: 03506936-2f80-4041-a922-9df5b8bb316d
+uri: ai-content-filters
+created: 2026-10-12T22:02:49.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/azure-resources-creating/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Azure OpenAI models come with a content filter that blocks harmful prompts and responses. It is on by default, so most teams never look at it. Then a real customer question gets blocked, someone changes a setting by hand in the portal, and nobody can say what the app filters any more.
+
+That's why you should **choose the filter settings for your app on purpose, and keep them in the repo**.
+
+<endIntro />
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The new Microsoft Foundry portal calls content filters "[guardrails](https://learn.microsoft.com/en-us/azure/foundry/guardrails/guardrails-overview)".
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Know what the default blocks
+
+| What it checks | Where | Default |
+| --- | --- | --- |
+| Hate, sexual, violence and self-harm content | Prompts and responses | Blocks medium and high severity |
+| Jailbreak attempts | Prompts | On |
+| Protected text and code | Responses | On |
+| Attacks hidden in documents | Prompts | Off |
+
+**Figure: The [default filter](https://learn.microsoft.com/en-us/azure/foundry/guardrails/default-safety-policies) for text models**
+
+## Fit the filter to your users
+
+* **Stricter or looser** - For each of the four content categories you choose where blocking starts: low, medium or high severity. Prompts and responses are set separately. Turning a filter off needs Microsoft's approval
+* **Apps that read documents** - Turn on the check for [attacks hidden in documents, emails and web pages](/manage-security-risks-when-adopting-ai-solutions)
+* **Blocked requests** - A blocked prompt comes back as an HTTP 400 error, and a blocked response has `finish_reason` set to `content_filter`. Show the user a clear message for both
+
+## Keep the settings where the team can review them
+
+Define the filter in Bicep and name it on the model deployment. A change to what the app blocks then goes through a pull request, like [any other Azure resource](/azure-resources-creating).
+
+```bicep
+resource chat 'Microsoft.CognitiveServices/accounts/deployments@2024-10-01' = {
+  parent: account
+  name: 'support-chat'
+  properties: {
+    model: chatModel
+    // no filter named here
+  }
+}
+```
+
+❌ **Figure: Bad example - The deployment names no filter. The settings live only in the portal, so nobody can review a change**
+
+```bicep
+resource filter 'Microsoft.CognitiveServices/accounts/raiPolicies@2024-10-01' = {
+  parent: account
+  name: 'northwind-support-chat'
+  properties: {
+    basePolicyName: 'Microsoft.Default'
+    contentFilters: [
+      // Stricter than the default (Medium): the chat is open to the public
+      { name: 'Hate', source: 'Prompt', severityThreshold: 'Low', blocking: true, enabled: true }
+      { name: 'Hate', source: 'Completion', severityThreshold: 'Low', blocking: true, enabled: true }
+      // The same two lines for Sexual, Violence and Selfharm
+    ]
+  }
+}
+
+resource chat 'Microsoft.CognitiveServices/accounts/deployments@2024-10-01' = {
+  parent: account
+  name: 'support-chat'
+  properties: {
+    model: chatModel
+    raiPolicyName: filter.name
+  }
+}
+```
+
+✅ **Figure: Good example - The filter is in Bicep with the reason beside it, and the deployment names it**

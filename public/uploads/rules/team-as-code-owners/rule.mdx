@@ -1,0 +1,91 @@
+---
+type: rule
+title: Do you make your repo's team the code owners?
+uri: team-as-code-owners
+guid: d8796a67-4a39-4c5f-adda-3adadcf9ed63
+seoDescription: Put your repo's GitHub team in CODEOWNERS so the right reviewers are requested automatically and only people with write access can approve.
+created: 2026-08-20T02:17:15.000Z
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+related:
+  - rule: public/uploads/rules/use-github-teams-for-collaborator-permissions/rule.mdx
+  - rule: public/uploads/rules/use-branch-protection/rule.mdx
+  - rule: public/uploads/rules/limit-admin-access/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+---
+
+Most repos already have a [GitHub team](/use-github-teams-for-collaborator-permissions) behind them — the developers who actually work on that codebase. If that team is not named in `CODEOWNERS`, the repo does not know it exists at review time. Pull requests go out with nobody attached, the right people find out by accident, and an approval can come from someone who has never worked on the code.
+
+<endIntro />
+
+## Name the team in CODEOWNERS
+
+A `CODEOWNERS` file maps path patterns to owners. When a pull request touches a matching path, GitHub requests a review from those owners automatically.
+
+```gitignore
+# .github/CODEOWNERS
+
+* @jane-dev @sam-dev
+```
+
+**❌ Bad example - Named individuals go stale, and duplicate the team membership you already maintain**
+
+```gitignore
+# .github/CODEOWNERS
+
+# The repo's developer team owns everything by default
+* @SSWConsulting/cleanarchitecture
+
+# A narrower owner for a sensitive area
+/.github/ @SSWConsulting/devops
+```
+
+**✅ Good example - The team owns the repo, so membership stays correct as people join and leave**
+
+## Benefits
+
+### Visibility
+
+The people who own the code are asked for the review, every time, without anyone remembering to add them. Choosing reviewers by hand means the busy or the nearby get picked, and the person who knows that area finds out after the merge.
+
+### Security
+
+GitHub only accepts a code owner who has write access to the repo. An owner without it is ignored — silently, which is its own trap, so check for it (see below). That makes the team the boundary: approval authority follows the team, and the team follows the repo.
+
+Turn on **Require review from Code Owners** in your branch protection, and an approval from outside the team no longer satisfies the requirement. Somebody with broad access across the whole organization cannot rubber stamp a change in a repo they have nothing to do with, because their approval does not count towards it.
+
+<boxEmbed
+  style="info"
+  body={<>
+    This restricts whose approval **counts**, not who can click the button. Someone with a bypass permission can still merge around branch protection, so keep the list of people who hold it short — see [Do you limit admin access?](/limit-admin-access) and [Do you know when to override branch protection?](/override-branch-protection).
+  </>}
+  figurePrefix="none"
+  figure="Code owners restrict whose approval counts"
+/>
+
+## Turn on the branch protection setting
+
+Without it, `CODEOWNERS` only suggests reviewers. It enforces nothing.
+
+1. Go to your repo | Settings | Rules or Branches
+2. Edit the rule for `main`
+3. Enable **Require a pull request before merging**
+4. Enable **Require review from Code Owners**
+5. Save changes
+
+## Check your CODEOWNERS actually works
+
+`CODEOWNERS` fails quietly. The two failures worth knowing:
+
+* **A line with no path pattern does nothing.** Every line needs a pattern first, then the owners. A bare `@org/team` on its own line is read as a *path* with no owners, so it matches nothing and requests nobody. Write `* @org/team` instead
+* **An owner without write access is dropped.** A person who left the team, or a team that was never given access to this repo, is ignored rather than reported
+
+Neither failure produces a warning in a pull request, so verify it directly:
+
+```bash
+gh api repos/OWNER/REPO/codeowners/errors
+```
+
+GitHub shows the same errors when you open the `CODEOWNERS` file in the browser. Check it after any change to the file, and after anyone leaves the team.

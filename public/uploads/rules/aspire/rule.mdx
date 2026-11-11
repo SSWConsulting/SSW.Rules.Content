@@ -1,163 +1,133 @@
 ---
-seoDescription: Learn how .NET Aspire simplifies cloud-native development with orchestration, integrations, and tooling.
+seoDescription: Stop chasing connection strings across services. Use .NET Aspire to simplify local orchestration, configuration, and onboarding.
 type: rule
 title: Do you use .NET Aspire to simplify cloud-native development?
 categories:
-  - category: categories/software-engineering/rules-to-better-azure.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
 uri: aspire
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
 created: 2024-12-19T21:36:54.519Z
 guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 ---
 
-Building cloud-native applications can be challenging due to their complexity and the need for scalability, resilience, and manageability.
+A cloud-native app can leave you juggling APIs, databases, caches, and a growing pile of connection strings. Getting a fresh clone running becomes a hunt for the right ports, secrets, and startup order.
 
-There are lots of ways to build cloud-native applications and the overwhelming number of choices can make it difficult to know where to start.
+.NET Aspire brings local orchestration and integrations together so you can focus on the app instead of wiring services by hand. Its AppHost project is the local orchestrator that wires resources.
 
 <endIntro />
 
+## What Aspire gives you
+
+* **Orchestration** - AppHost starts your projects, containers and cloud resources together, and wires up service discovery between them
+* **Integrations** - NuGet packages for services such as Redis, PostgreSQL and Azure Service Bus configure connections, health checks and telemetry for you
+* **Dashboard** - Logs, metrics and distributed traces from every service in one place while you develop
+* **Templates** - Starter templates and the ServiceDefaults project give new solutions health checks, telemetry and resilience from day one
+
+## Make AppHost the local configuration entry point
+
+* **Wire only what each service needs** - Northwind Web references the API, and only the API receives the database connection and Orders service key. Configure the web HTTP client for service discovery too
+* **Pass configuration explicitly** - AppHost settings are not automatically copied to child processes. Commit dependency wiring and non-sensitive defaults. Keep service-owned settings with the service, and configure production separately
+* **Keep secrets out of source control** - Use an approved provider. Local User Secrets are unencrypted development storage, and marking a parameter as secret does not encrypt its source
 
 <imageEmbed
-  alt="Image"
+  src="/uploads/rules/aspire/northwind-apphost-wiring.png"
+  alt="AppHost injects the API endpoint into Web, and the database connection string and Orders key only into the API. Web calls the API over HTTP and receives neither secret."
   size="large"
   showBorder={false}
-  figurePrefix="none"
-  figure="Too many lego pieces - Where do you start?"
-  src="/uploads/rules/aspire/too-complex-aspire.png"
+  figurePrefix="good"
+  figure="AppHost wires each service to its dependencies; Web receives the API endpoint, while only the API receives the database connection and Orders key"
 />
 
+See [Aspire external parameters](https://aspire.dev/fundamentals/external-parameters/) and [environment-variable injection](https://aspire.dev/fundamentals/environment-variables/) for configuration details.
 
-Also, the complexity of modern cloud-native applications can make them difficult to manage and maintain.
+### Check onboarding from a fresh clone
 
-.NET Aspire is a powerful set of tools, templates, and integrations designed to streamline cloud-native app development with .NET. It offers a consistent approach to orchestration, standardized integrations, and developer-friendly tooling to help you build robust, production-ready applications.
+1. Obtain authorised development values.
+2. Run a configuration check before starting resources. For scripted onboarding, report all missing input names without their values and exit non-zero if any are missing.
+3. Start AppHost and confirm web-to-API and API-to-dependency access without per-service edits. Having a value does not prove the credentials work.
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=59G9Cd-rV9w" description={"Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)"} />
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Aspire makes common time-consuming developer chores a breeze"
-  src="/uploads/rules/aspire/aspire-cool-stuff.png"
-/>
-
-
-.NET Aspire addresses common pain points in cloud-native development:
-
-## Orchestration
-
-.NET Aspire helps you manage interconnected services and resources in your application by:
-
-* Automatically setting up service discovery and environment variables
-* Providing tools to spin up local containers and configure dependencies
-* Simplifying complex setups with clear abstractions, reducing the need for low-level configuration
-
-## Integrations
-
-.NET Aspire integrations make it easy to connect to essential services:
-
-* NuGet packages like `AddRedis` or `AddAzureServiceBusClient` streamline configuration and health checks
-* Standardized interfaces reduce boilerplate code and ensure seamless connectivity
-
-## Tooling and Templates
-
-Leverage predefined templates and tooling to:
-
-* Generate projects with common configurations like health checks and telemetry
-* Save time with opinionated defaults for service discovery, logging, and monitoring
-* Kickstart new projects or integrate Aspire into existing .NET apps
+Document any extra configuration needed to launch a service outside AppHost.
 
 ---
 
-## Example - Adding Redis Cache to a .NET Core app
+## Example - Adding Redis Cache to a .NET app
 
-### The old way - with Docker Compose
+### Manual setup - with Docker Compose
 
-1. Manually set up a Redis container (e.g., using Docker Compose).
+Set up a Redis container (e.g., using Docker Compose).
 
-  ```yaml
-  version: '3.9'
+```yaml
+services:
+  redis:
+    image: redis:latest
+    container_name: redis-cache
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--requirepass", "examplepassword"] # Local example only
+    volumes:
+      - redis_data:/data # Persist data locally
 
-  services:
-    redis:
-      image: redis:latest
-      container_name: redis-cache
-      ports:
-        - "6379:6379"
-      environment:
-        REDIS_PASSWORD: examplepassword # Optional, for enabling authentication
-      command: ["redis-server", "--requirepass", "examplepassword"] # Optional, for setting up a password
-      volumes:
-        - redis_data:/data # Persist data locally
-
-  volumes:
-    redis_data:
-      driver: local
-  ```
-
-2. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments)
-
-  ```csharp
-  var redisConnection = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING") ?? "localhost:6379";
-  services.AddStackExchangeRedisCache(options =>
-  {
-      options.Configuration = redisConnection;
-      options.InstanceName = "SampleInstance";
-  });
+volumes:
+  redis_data:
+    driver: local
 ```
-**❌ Figure: Bad Example - Manually setting up Redis cache 🥱**  
 
-### The new way - with .NET Aspire
+Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments).
 
-Aspire handles Redis setup and connection string injection for you:
+```csharp
+var redisConnection = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING")
+    ?? throw new InvalidOperationException("REDIS_CONNECTION_STRING is required.");
+services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = redisConnection;
+    options.InstanceName = "Northwind";
+});
+```
 
-1. Configure your Aspire application and pass a reference to Redis Cache
+**❌ Figure: Bad example - Redis setup and application configuration must be kept in sync manually**
 
-  ```csharp
-  var builder = DistributedApplication.CreateBuilder(args);
-  var cache = builder.AddRedis("cache");
-  builder.AddProject<Projects.MyApp>("app")
-        .WithReference(cache)
-        .WaitFor(cache);
-  ```
+Docker Compose remains a valid choice. Aspire removes this example's manual connection wiring; it does not remove the need to configure each environment.
 
-2. Add the client integration for Redis
+### Simplified setup - with .NET Aspire
 
-  ```cs
-  public static class DependencyInjection
-  {
-      public static void AddInfrastructure(this IHostApplicationBuilder builder)
-      {
-          builder.AddRedisClient("my-redis-connection-string");
-      }
-  }
-  ```
-**✅ **Figure: Good Example - Simple Redis setup with .NET Aspire 🚀****  
+Aspire handles Redis setup and connection string injection for you. In AppHost, configure the Redis resource and reference it from the API:
 
-No need to write Docker Compose files.
-No need for yaml 🤮.
-Connection string is automatically injected.
+```csharp
+var builder = DistributedApplication.CreateBuilder(args);
+var cache = builder.AddRedis("cache");
+builder.AddProject<Projects.NorthwindApi>("api")
+      .WithReference(cache)
+      .WaitFor(cache);
+
+builder.Build().Run();
+```
+
+In the API project, install `Aspire.StackExchange.Redis.DistributedCaching` and register `IDistributedCache` using the same resource name:
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+builder.AddRedisDistributedCache("cache");
+```
+
+**✅ Figure: Good example - AppHost supplies the connection for the named Redis resource**
+
+The API still uses `IDistributedCache`, while AppHost manages the local Redis container and supplies its connection string. See the [Redis distributed caching integration](https://aspire.dev/integrations/caching/redis-distributed/) for package and setup details.
 
 ---
 
 ## Get started with Aspire
 
-[Check out Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
+[Follow the Aspire getting-started guide](https://aspire.dev/get-started/what-is-aspire/).
 
+Try Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template).
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    You can test out Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template) - Let us know what you think!
-  </>}
-  figurePrefix="none"
-  figure=""
+<youtubeEmbed
+  url="https://www.youtube.com/watch?v=59G9Cd-rV9w"
+  description="Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)"
 />

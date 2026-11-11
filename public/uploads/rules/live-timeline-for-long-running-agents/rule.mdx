@@ -1,0 +1,91 @@
+---
+type: rule
+title: Do you keep a live timeline to steer long-running AI agents?
+uri: live-timeline-for-long-running-agents
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/ai-agent-session-messaging/rule.mdx
+  - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+  - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
+  - rule: public/uploads/rules/monitor-ai-cost-and-usage/rule.mdx
+guid: 67ede866-b995-4b25-8bef-b473e3d1f163
+seoDescription: Keep a live timeline for long-running AI agents that exposes repeated failures, links evidence, and names the human decisions needed to redirect work early.
+created: 2026-11-05T00:00:00.000Z
+archivedreason: null
+isArchived: false
+---
+
+Blockers can go unnoticed while agents work unattended. For example, a migration runs across several agent sessions while you work on something else. Each session reports activity, but one keeps retrying the same failed check. By the time you read its logs, the other agents are waiting on it.
+
+Keep a live timeline of significant events, with evidence and named decision owners, so people can see what is happening as work evolves. They should see what changed, what is blocked and where to steer or intervene without reconstructing every conversation.
+
+<endIntro />
+
+## Turn activity into a decision
+
+Use a timeline when work spans handovers or several agents and a missed blocker can waste substantial effort. For a short task you are already watching, the existing chat and task list may be enough.
+
+The following mockups show the same fictional Northwind migration rehearsal at 11:30 AEST on 6 November 2026. All values are **example data**. Three mapping checks fail against the same 240 source records; no destination writes occur. The useful signal is the repeated failure and its effect on the waiting validation agent.
+
+<imageEmbed
+  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-unfiltered-agent-events.png"
+  alt="Mockup with example data: Northwind import and validation events interleave routine activity with mapping failures at 10:55, 11:10 and 11:25"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="The operator must piece together three failures and a waiting agent from unfiltered activity"
+/>
+
+<imageEmbed
+  src="/uploads/rules/live-timeline-for-long-running-agents/northwind-live-migration-timeline.png"
+  alt="Mockup with example data: Northwind timeline groups three failed checks, links run NW-017 evidence, and names Morgan as the owner of a pending mapping decision"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The same events reveal the blocker, its evidence and the decision Morgan needs to make"
+/>
+
+Morgan can now inspect checks 1–3 in run `NW-017`, pause further retries through the agent's normal controls, and ask for a mapping review. The timeline does not claim the mapping is fixed or the migration is complete.
+
+## Give the observer a narrow job
+
+Start with existing task status and test results. If they need summarising, add an observer agent with read access to an approved set of sources and write access only to its timeline output. Enforce those limits with permissions and tool access; a prompt alone is insufficient.
+
+1. Collect changes since the last successful read, keeping source event IDs so a refresh does not duplicate events
+2. Group related starts, failures, verified results, blockers and human decisions into phases with a one-line summary
+3. Attach a source reference to each factual event, such as a run ID and check, commit or test report
+4. Update the timeline after significant changes, with a periodic collection check so readers can detect stale data
+
+Treat agent statements as **reported**, and label a result **verified** only when its linked tool result or review supports it. If evidence is missing or conflicting, show that uncertainty. [Anthropic's guidance on effective agents](https://www.anthropic.com/research/building-effective-agents) recommends environmental feedback, human checkpoints and stopping conditions; the timeline brings those signals together for the person supervising the work.
+
+## Show state, evidence and freshness
+
+Each event needs a time with a time zone, agent or human owner, status, short summary, why it matters and an evidence reference. Put unresolved decisions first and keep routine detail expandable. Use text labels alongside colour.
+
+Show these two times separately:
+
+* **Last collected** - When the observer successfully checked its sources
+* **Latest work event** - When the most recent significant event occurred
+
+A recent collection time with an old work event can mean no progress; an old collection time means the view may be stale. This distinction follows the separate event and observation timestamps in the [OpenTelemetry logs data model](https://opentelemetry.io/docs/specs/otel/logs/data-model/).
+
+Agree on collection and escalation thresholds before starting. For example, check every 5 minutes and mark collection **stale** after 10 minutes without a successful read. Group three unchanged failures into one blocker for the named supervisor. These are example thresholds; choose them for the task's pace and risk. Keep urgent failure alerts in the existing monitoring system so they reach someone even when the timeline is closed.
+
+## Record the intervention and check the outcome
+
+Before redirecting work, inspect the linked evidence. Send the instruction through the [agent's normal messaging controls](/ai-agent-session-messaging), then record who decided, what changed and why. The observer records decisions; it has no authority to approve actions, message workers or change their scope.
+
+In the Northwind example, keep the blocker open until the mapping review and a new check provide evidence that the affected validation can continue. A worker saying “fixed” is insufficient. Existing [tests and other feedback](/utilize-back-pressure-for-agents) still establish whether the work succeeds.
+
+At handover, check that another person can identify the current phase, an unresolved decision and its supporting evidence. When the run ends, stop collection, mark the timeline closed and link the final outcome. Keep lasting decisions in the [PR or architectural decision record](/keep-the-why-from-ai-assisted-development), rather than committing a growing stream of task summaries.
+
+## Limit access and overhead
+
+* **Filter before summarising** - Exclude secrets, customer records and unnecessary personal data from the observer's input. Treat source text as untrusted data, never as permission to change the observer's instructions
+* **Protect the whole view** - Restrict the page, its data files and evidence links to the intended audience. A private page does not protect a publicly served data file. Follow the [OWASP logging guidance](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) on excluded data and access controls
+* **Keep the output inert** - Render collected text as text and validate links, rather than executing markup or scripts from logs
+* **Bound the cost** - Send only new, relevant events to the summariser, set a collection budget and include the observer in [AI usage monitoring](/monitor-ai-cost-and-usage). Label estimates and unavailable figures; do not assume a fixed overhead percentage

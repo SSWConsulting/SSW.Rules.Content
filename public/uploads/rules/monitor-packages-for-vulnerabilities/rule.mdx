@@ -1,32 +1,33 @@
 ---
-authors:
-- title: Chris Clement
-  url: https://www.ssw.com.au/people/chris-clement
-- title: William Liebenberg
-  url: https://www.ssw.com.au/people/william-liebenberg
-created: 2022-07-28 09:37:35+00:00
-createdBy: Chris Clement [SSW]
-createdByEmail: 35278147+christoment@users.noreply.github.com
-guid: b39cb829-e1b3-4e1d-b3c5-124c2e61720f
-isArchived: false
-lastUpdated: 2025-12-11 22:14:09+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-redirects:
-- monitor-packages-for-vulnerability
-related:
-- rule: public/uploads/rules/packages-up-to-date/rule.mdx
-- rule: public/uploads/rules/do-you-make-sure-you-get-brownie-points/rule.mdx
-- rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
-seoDescription: Monitor packages for vulnerabilities and ensure your applications
-  stay secure by using modern package managers or third-party tools to automate scanning
-  and alerting.
-title: Do you monitor your application for vulnerabilities?
+type: rule
+title: Do you monitor your application for dependency vulnerabilities?
+uri: monitor-packages-for-vulnerabilities
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
-  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
-type: rule
-uri: monitor-packages-for-vulnerabilities
+authors:
+  - title: Chris Clement
+    url: 'https://www.ssw.com.au/people/chris-clement'
+  - title: William Liebenberg
+    url: 'https://www.ssw.com.au/people/william-liebenberg'
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: Matt Wicks
+    url: 'https://www.ssw.com.au/people/matt-wicks'
+related:
+  - rule: public/uploads/rules/packages-up-to-date/rule.mdx
+  - rule: public/uploads/rules/do-you-make-sure-you-get-brownie-points/rule.mdx
+  - rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
+redirects:
+  - monitor-packages-for-vulnerability
+guid: b39cb829-e1b3-4e1d-b3c5-124c2e61720f
+seoDescription: Monitor packages for vulnerabilities and ensure your applications stay secure by using modern package managers or third-party tools to automate scanning and alerting.
+created: 2022-07-28T09:37:35.000Z
+createdBy: 'Chris Clement [SSW]'
+createdByEmail: 35278147+christoment@users.noreply.github.com
+lastUpdated: 2026-09-21T23:37:52.541Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+isArchived: false
 ---
 
 Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.
@@ -37,25 +38,30 @@ But this comes with an unexpected side effect: out-of-date packages that must be
 
 <endIntro />
 
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Who's better at fighting the vulnerabilities?" src="/uploads/rules/monitor-packages-for-vulnerabilities/dependabot-vs-renovate.png" />
+
 One of the big challenges for developers to address is when a project has been delivered to a client and gone into maintenance mode. With no developer actively working on the project, if a vulnerability is discovered in a library referenced in the project, no one will be aware of it, and it will cause pain.
 
 However, if you monitor the packages you have installed, and a vulnerability is reported, then as developers, we have a duty of care to inform our clients.
 
-### Level 0 - Manual tracking (not recommended)
+## What should you monitor?
 
-List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
+Monitor every dependency source used by your application, including:
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Tracking list of packages manually"
-  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png"
-/>
+* npm, NuGet, Maven, Gradle, pip and other package ecosystem
+* Transitive dependencies (dependencies of dependencies) 
+* Container base images
+* GitHub Actions and other CI/CD dependencies
 
+## Level 0 - Manual tracking (not recommended)
 
-### Level 1 - Using tools to scan for vulnerabilities
+A developer can manually list packages and search vulnerability databases such as the [GitHub Advisory Database.](https://github.com/advisories)
+
+This approach is slow, inconsistent, and usually stops once active development finishes.
+
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="bad" figure="Tracking list of packages manually" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png" />
+
+## Level 1 - Running local vulnerability scans
 
 Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries.
 
@@ -69,27 +75,11 @@ Regularly running this command can give a summarised report on known vulnerabili
 
 This is an improvement over manual tracking but still requires a developer to check out the latest code and then run the command.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="ok"
-  figure="This npm audit command informs that there is 1 package with a high severity vulnerability"
-  src="/uploads/rules/monitor-packages-for-vulnerabilities/npm-audit-report.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="ok" figure="This npm audit command informs that there is 1 package with a high severity vulnerability" src="/uploads/rules/monitor-packages-for-vulnerabilities/npm-audit-report.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="ok" figure="This dotnet command informs that there is 1 package with a high severity vulnerability" src="/uploads/rules/monitor-packages-for-vulnerabilities/dotnet-audit-report.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="ok"
-  figure="This dotnet command informs that there is 1 package with a high severity vulnerability"
-  src="/uploads/rules/monitor-packages-for-vulnerabilities/dotnet-audit-report.png"
-/>
-
-
-### Level 2 - Automate vulnerability scanning (recommended)
+## Level 2 - Automate vulnerability scanning (recommended)
 
 Using 3rd party tools can help you to automate vulnerability scanning.
 
@@ -97,26 +87,48 @@ These tools will alert you whenever there's a security vulnerability detected in
 
 Some of the available tools in the market:
 
-* [Dependabot](https://github.com/dependabot) - free for all repositories under GitHub, easy to set up in the repository settings **(recommended)**. Used in [SSW Rules](/)
+* [Dependabot](https://github.com/dependabot) - free for all repositories under GitHub, easy to set up in the repository settings **(recommended)**. Used in [SSW Rules](/) and [TinaCMS](https://tina.io/)
+* [Mend Renovate](https://www.mend.io/renovate/) - free, works beyond GitHub (Azure DevOps, GitLab) and across NuGet, npm, pip and Docker. More configurable than Dependabot, with grouped PRs and auto-merge
 * [GitHub Enterprise Advanced Security](https://github.com/enterprise) - $ includes Dependabot plus additional features [like code scanning](https://docs.github.com/en/code-security/getting-started/github-security-features#available-with-github-advanced-security). See [here](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for more details.
 * [Snyk](https://snyk.io/) - $
 * [Sonatype](https://www.sonatype.com/) - $
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Dependabot produces a vulnerability report periodically (and can raise a PR for you)"
-  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png"
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Dependabot produces a vulnerability report periodically (and can raise a PR for you)" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png" />
+
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="good" figure="Snyk produces a vulnerability detection alert email" src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png" />
+
+## Level 3 - Preventing vulnerable dependencies from being merged
+
+Monitoring existing dependencies is not half of the job, your pull requests should also be checked for newly introduced vulnerabilities. 
+
+For GitHub repositories, use the [Dependency Review Action](https://github.com/actions/dependency-review-action) as apart of your CI. This prevents a pull request from adding a dependency with a known high or critical vulnerability.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The Dependency Review Action only works on public repositories, or private repositories with [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) enabled. On a private repository without it, the action will fail the build.
+  </>}
+  figurePrefix="none"
+  figure=""
 />
 
+```yaml
+name: Dependency Review
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Snyk produces a vulnerability detection alert email"
-  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png"
-/>
+on: 
+  pull_request: 
+    
+permissions: 
+  contents: read 
+    
+jobs: 
+  dependency-review: 
+    runs-on: ubuntu-latest 
+        
+    steps: 
+      - uses: actions/checkout@v6 
+            
+      - uses: actions/dependency-review-action@v5 
+        with: 
+          fail-on-severity: high
+```

@@ -1,43 +1,39 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://www.ssw.com.au/people/eric-phan
-- title: Hajir Lesani
-  url: https://www.ssw.com.au/people/hajir-lesani
-created: 2009-02-28 09:42:39+00:00
-guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
-redirects:
-- management-is-your-client-clear-on-the-definition-of-a-bug
-related:
-- rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
-seoDescription: Clear definition of a bug - Software issue causing application crashes,
-  data inconsistencies, missing functionality, or page design/ layout issues that
-  can be reproduced and reported within a specified timeframe.
+type: rule
 title: Do you have a clear definition of a bug?
+uri: definition-of-a-bug
 categories:
   - category: categories/company-operations/rules-to-successful-projects.mdx
   - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
-type: rule
-uri: definition-of-a-bug
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Eric Phan
+    url: 'https://www.ssw.com.au/people/eric-phan'
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani'
+related:
+  - rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+redirects:
+  - management-is-your-client-clear-on-the-definition-of-a-bug
+guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
+seoDescription: 'Clear definition of a bug - Software issue causing application crashes, data inconsistencies, missing functionality, or page design/ layout issues that can be reproduced and reported within a specified timeframe.'
+created: 2009-02-28T09:42:39.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-10-15T21:16:49.993Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+archivedreason: null
 ---
 
 The answer to this question can make or break contracts. We think that it's such a fundamental issue it has to be captured clearly. This is how we strictly define a bug.
 
 <endIntro />
 
-<imageEmbed
-  alt="Bug vs Feature"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Bug vs Feature"
-  src="/uploads/rules/definition-of-a-bug/bug-feature.png"
-/>
+<imageEmbed alt="Bug vs Feature" size="medium" showBorder={true} figurePrefix="none" figure="Bug vs Feature" src="/uploads/rules/definition-of-a-bug/bug-feature.png" />
 
-A software issue can be classed as a bug where:
+A software issue can be classed as a bug when:
 
 1. The application **crashes to code** (excluding bugs resulting from third party products, e.g. "blue screen of death" or crashing in a third party data grid that we cannot control); **or**
 2. The application displays **data inconsistent with the specified business rules**; **or**
@@ -46,44 +42,29 @@ A software issue can be classed as a bug where:
 
 As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.
 
-## Examples of what **could** constitute a bug
+## Examples of what could constitute a bug
 
-1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure
-   **This is likely covered because it crashes to code**
+* The application crashes to code because it doesn't check that a connection is valid before running a stored procedure
+  **This is likely covered because it crashes to code**
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Yellow screen of death"
-  src="/uploads/rules/definition-of-a-bug/YellowScreenofDeath.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Yellow screen of death" src="/uploads/rules/definition-of-a-bug/YellowScreenofDeath.jpg" />
 
-1. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance
-   **This is likely covered because data is inconsistent with the specified business rules**
+* A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance
+  **This is likely covered because data is inconsistent with the specified business rules**
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="An incorrect sum is likely to be a bug"
-  src="/uploads/rules/definition-of-a-bug/IncorrectSum.jpg"
-/>
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="none" figure="An incorrect sum is likely to be a bug" src="/uploads/rules/definition-of-a-bug/IncorrectSum.jpg" />
 
-1. The application is missing the Monthly Sales report
-   **This is likely covered because the application is missing functionality specified in the specification**
-
-2. The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Safari)
-   **This is likely covered because it is substantially inconsistent with the agreed mockup**
+* The application is missing the Monthly Sales report
+  **This is likely covered because the application is missing functionality specified in the specification**
+* The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Safari)
+  **This is likely covered because it is substantially inconsistent with the agreed mockup**
 
 ## Examples of what is **not** a bug
 
-1. Any problem caused by software or an application not written by the organization supplying the software
-2. The customer requirement was not included in the user interface/mock-ups/specifications
-3. The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though the form is substantially the same as shown in the specification
-4. The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract
+* Any problem caused by software or an application not written by the organization supplying the software
+* The customer requirement was not included in the user interface/mock-ups/specifications
+* The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though the form is substantially the same as shown in the specification
+* The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract
 
 ## Using Work Items in Azure DevOps or GitHub
 
@@ -91,14 +72,7 @@ Using a Work Tracking tool allows you to create work items such as user stories,
 
 For everything else, use other work item types.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Work item types"
-  src="/uploads/rules/definition-of-a-bug/work-items-type-options.png"
-/>
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="Work item types" src="/uploads/rules/definition-of-a-bug/work-items-type-options.png" />
 
 ### Handling additional work for fixed-price contracts
 
@@ -114,14 +88,7 @@ Any tasks which are bugs found **during** the current Sprint should be fixed wit
 
 Any tasks which are bugs found **outside** of the current Sprint should be added to the Product Backlog.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Adding a bug to the Product Backlog in Azure DevOps"
-  src="/uploads/rules/definition-of-a-bug/adding-pbi-to-backlog.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Adding a bug to the Product Backlog in Azure DevOps" src="/uploads/rules/definition-of-a-bug/adding-pbi-to-backlog.png" />
 
 See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/3-steps-to-a-pbi)
 

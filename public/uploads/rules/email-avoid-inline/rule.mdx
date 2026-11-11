@@ -13,6 +13,8 @@ authors:
     url: 'https://www.ssw.com.au/people/tiago-araujo'
   - title: Penny Walker
     url: 'https://www.ssw.com.au/people/penny-walker'
+related:
+  - rule: public/uploads/rules/indent/rule.mdx
 redirects:
   - do-you-use-a-different-color-when-replying-an-email
   - when-you-reply-inline-do-you-use-a-different-color
@@ -21,14 +23,30 @@ seoDescription: 'Do you avoid using inline when replying to an email? Instead, c
 created: 2009-03-31T02:53:17.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-09-29T00:01:37.456Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 archivedreason: null
 ---
 
 Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [reply 'Done' and delete the original email](/dones-do-you-reply-done-and-delete-the-original-email).
 
-In the rare cases where you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
-
 <endIntro />
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/email-avoid-inline/replying-inline-sucks.png" />
+
+***
+
+<boxEmbed
+  body={<>
+    **Important:** Replying inline should be avoided. However, if you have a good reason to make an exception, make sure you **use indentation** (original text indented, your response on the left) and **write your answers in a different color**.
+    
+    You might want to mention what color your comments are in (to make it extra clear).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 <emailEmbed
   from=""
@@ -47,19 +65,25 @@ In the rare cases where you really need to reply inline for a special reason, it
     
     \-----Original Message-----
     
-    
     **From:** Adam Cogan   \
     **Sent:** Monday, 26 May 2025 8:00 AM   \
     **To:** Daniel Hyles   \
     **Subject:** Daniel - Morning Goals
     
-    1. TimePro Online pages
+    1\. TimePro Online pages
+    
     Done
-    2. Double check backups (get backup today on both drives, I configured the other drive last night)
+    
+    2\. Double check backups (get backup today on both drives, I configured the other drive last night)
+    
     Done
-    3. Make sure Exchange is backing itself up... Check Google on why not.
+    
+    3\. Make sure Exchange is backing itself up... Check Google on why not
+    
     Not done
-    4. Access reporter
+    
+    4\. Access reporter
+    
     Not done
   </>}
   figurePrefix="bad"
@@ -76,27 +100,26 @@ In the rare cases where you really need to reply inline for a special reason, it
   body={<>
     ## Hi Adam
     
-    &nbsp;&nbsp; &gt; 1. TimePro Online pages
+    &gt; 1. TimePro Online pages
     
-    Done
+    **Done**
     
-    &nbsp;&nbsp; &gt; 2. Double check backups (get backup today on both drives, I configured the other drive last night)
+    &gt; 2. Double check backups (get backup today on both drives, I configured the other drive last night)
     
-    Done
+    **Done**
     
-    &nbsp;&nbsp; &gt; 3. Make sure Exchange is backing itself up... Check Google on why not
+    &gt; 3. Make sure Exchange is backing itself up... Check Google on why not
     
-    Not Done
+    **Not Done**
     
-    &nbsp;&nbsp; &gt; 4. Access reporter 
+    &gt; 4. Access reporter
     
-    Not Done
+    **Not Done**
     
-    Regards,
+    Regards,\
     Daniel
     
     \-----Original Message-----
-    
     
     **From:** Adam Cogan   \
     **Sent:** Monday, 26 May 2025 8:00 AM   \
@@ -109,16 +132,7 @@ In the rare cases where you really need to reply inline for a special reason, it
     4. Access reporter
   </>}
   figurePrefix="good"
-  figure="Copying questions and answering without altering the history. Include indentation and different colors for a better readability"
-/>
-
-<boxEmbed
-  body={<>
-    **Warning:** Replying inline should be avoided, but if you have a good reason to make an exception, use indentation and different colors for your asnwer for a better readability.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
+  figure="Copying questions and answering without altering the history. Include indentation and bold or different colors for a better readability"
 />
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.

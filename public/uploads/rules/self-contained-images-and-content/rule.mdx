@@ -1,41 +1,41 @@
 ---
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Gilles Pothieu
-  url: https://www.ssw.com.au/people/gilles-pothieu
-- title: Hugo Pernet
-  url: https://www.ssw.com.au/people/hugo-pernet
-guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
-related:
-- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
-seoDescription: Best practices for keeping your content and images self-contained
-  in TinaCMS + Next.js, with three options and a recommended setup.
 tips: ''
-title: Do you keep your images and content self-contained in your TinaCMS +  Next.js
-  project?
+type: rule
+title: Do you keep your images and content self-contained in your TinaCMS +  Next.js project?
+uri: self-contained-images-and-content
 categories:
   - category: categories/websites-and-cms/rules-to-better-tinacms.mdx
-  - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
-type: rule
-uri: self-contained-images-and-content
-created: 2025-07-03T13:48:09+10:00
-
+  - category: categories/software-engineering/rules-to-better-nextjs.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Gilles Pothieu
+    url: 'https://www.ssw.com.au/people/gilles-pothieu'
+  - title: Hugo Pernet
+    url: 'https://www.ssw.com.au/people/hugo-pernet'
+related:
+  - rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
+seoDescription: 'Best practices for keeping your content and images self-contained in TinaCMS + Next.js, with three options and a recommended setup.'
+created: 2025-07-03T03:48:09.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-08-18T03:13:43.938Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
+
 When building a website using TinaCMS and Next.js, not all images need to live next to your content. Shared assets like logos, icons, or other global visuals are best stored in a central media folder (e.g. /public/uploads). This keeps things simple and avoids duplication.
 
 However, for documents that embed images—like blog posts or rules like this one—it’s important to keep the content (Markdown/MDX files) and related media together in the same folder. This self-contained structure improves maintainability, makes GitHub editing clearer, and supports portability.
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=JX90jbgAvRw" description={"Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=JX90jbgAvRw" description="Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)" />
 
 By default, Tina stores content in a `/content` folder and images in `/public`, which breaks self-containment and can cause confusion.
 
-Let's explore three solutions to fix that and store content and images together.
----
+## Let's explore three solutions to fix that and store content and images together.
 
 You have 3 options:
 
@@ -60,16 +60,7 @@ You have 3 options:
 * Each document gets a folder in `/content`
 * Images are stored alongside the MDX file
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Option 2 - Folder structure - rules example"
-  src="/uploads/rules/self-contained-images-and-content/option-2-structure.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Option 2 - Folder structure - rules example" src="/uploads/rules/self-contained-images-and-content/option-2-structure.png" />
 
 **✅ Pros**
 
@@ -107,9 +98,8 @@ export const config = {
   matcher: ['/rules/:path*'],
 };
 ```
+
 **Figure: Middleware to intercept media requests and call internal API**
-
-
 
 ```js
 import { NextApiRequest, NextApiResponse } from 'next';
@@ -144,6 +134,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 }
 ```
+
 **Figure: Internal API to serve images from content folder**
 
 You can find more details on [this repository](https://github.com/tinacms/demo-storing-images-and-content-together)
@@ -153,16 +144,7 @@ You can find more details on [this repository](https://github.com/tinacms/demo-s
 * Each document has a folder in `/public/uploads`
 * Images and MDX file live together
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Option 3 - Folder structure - rules example"
-  src="/uploads/rules/self-contained-images-and-content/option-3-structure.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Option 3 - Folder structure - rules example" src="/uploads/rules/self-contained-images-and-content/option-3-structure.png" />
 
 **✅ Pros**
 
@@ -193,6 +175,7 @@ const Rule: Collection = {
 
 export default Rule;
 ```
+
 **Figure: Path pointing to public/uploads folder**
 
 See more on [Tina.io - Storing Media With Content](https://tina.io/docs/guides/storing-media-with-content).

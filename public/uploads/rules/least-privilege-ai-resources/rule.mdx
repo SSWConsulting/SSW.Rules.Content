@@ -1,0 +1,91 @@
+---
+type: rule
+title: Do you give least-privilege access to your AI resources?
+seoDescription: Give every app and person only the role they need on your Azure AI resources, and turn API keys off so the roles count.
+guid: 720e5cef-cbce-472b-b531-75b4816b3063
+uri: least-privilege-ai-resources
+created: 2026-10-12T22:02:47.000Z
+authors:
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh
+related:
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/give-users-least-privileges/rule.mdx
+  - rule: public/uploads/rules/system-assigned-vs-user-assigned-managed-identities/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/appinsights-authentication/rule.mdx
+  - rule: public/uploads/rules/azure-private-networking/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most AI apps start with an API key, because it is the quickest way to get a first answer from a model. But a key gives full access to the resource and can't be limited to one user or one action. Nobody can tell from the logs who used it.
+
+That's why **every app and every person should get only the role they need on your AI resources, with API keys turned off**.
+
+<endIntro />
+
+## Give each identity the smallest role
+
+| Who | Microsoft Foundry resource | Azure OpenAI resource |
+| --- | --- | --- |
+| The app, and developers who call the model | `Foundry User` | `Cognitive Services OpenAI User` |
+| A client that only calls a published agent | `Foundry Agent Consumer` | - |
+| The few people who deploy models | `Foundry Account Owner` | `Cognitive Services OpenAI Contributor` |
+
+**Figure: The built-in roles to reach for first**
+
+* **Assign it on one resource** - Scope the role to the AI resource or project, not the resource group or subscription
+* **Watch inherited roles** - Owner and Contributor on the subscription are inherited and take priority over the narrow role
+* **Do the same for search** - An app that only queries Azure AI Search gets `Search Index Data Reader`
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Identity | Access | On |
+    | --- | --- | --- |
+    | northwind-api (the app) | API key in app settings | northwind-ai |
+    | Northwind Developers | Contributor | Northwind.Production |
+  </>}
+  figurePrefix="bad"
+  figure="The app holds a key with full access, and every developer can deploy models and change the whole resource group"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    | Identity | Access | On |
+    | --- | --- | --- |
+    | northwind-api (managed identity) | Foundry User | northwind-ai |
+    | Northwind Developers | Foundry User | northwind-ai, project northwind-chat |
+    | Bob Northwind (Tech Lead) | Foundry Account Owner | northwind-ai |
+    | API keys | Disabled | northwind-ai |
+  </>}
+  figurePrefix="good"
+  figure="Each identity can do its own job and nothing more"
+/>
+
+## Make the roles count by turning off keys
+
+Roles only apply when you sign in with Microsoft Entra ID. While keys are on, anyone holding a key skips them. Give the app a [managed identity](/use-managed-identity-in-azure), then turn key access off.
+
+```bicep
+// Foundry or Azure OpenAI resource (Microsoft.CognitiveServices/accounts)
+properties: {
+  disableLocalAuth: true
+}
+```
+
+✅ **Figure: Good example - Key access is off, so every call needs an identity with a role**
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Turning keys off is not instant. It usually takes a few minutes and can take several hours, so test with the old key before you rely on it.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

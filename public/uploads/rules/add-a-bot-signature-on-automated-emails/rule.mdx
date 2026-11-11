@@ -10,9 +10,9 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 156e9073-9fb9-4f37-baf5-be873468d42d
 isArchived: false
-lastUpdated: 2021-03-15 22:17:58.095000+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2026-09-09T00:00:00.000Z
+lastUpdatedBy: Luke Mao
+lastUpdatedByEmail: LukeMao@ssw.com.au
 redirects:
 - do-you-add-a-bot-signature-to-make-it-clear-when-an-email-is-automated
 seoDescription: Learn how adding a bot signature enhances transparency in automated
@@ -25,11 +25,17 @@ type: rule
 uri: add-a-bot-signature-on-automated-emails
 ---
 
-With the advent of Microsoft Flow and Logic Apps, automated emails are becoming more common. And in fact any reminder or notification email you find yourself sending regularly should probably be automated.
+Between Power Automate, Logic Apps, and AI agents that send mail on your behalf, automated email is everywhere. Any reminder or notification you find yourself sending regularly should probably be automated.
 
-However, the end user should be able to tell that this was sent by a bot, and not a real person, both for transparency, and also to potentially trigger them to automate some of their own workflow.
+The recipient should still be able to tell that a machine sent it, not a person. That is partly transparency, and partly because watching a bot handle something is what prompts people to automate their own work.
 
 <endIntro />
+
+## How do you signal it?
+
+* **A signature line** - name the automation that sent it, such as `--Powered by SSW.Shorts`
+* **A link to the rule or process it implements** - so the reader can see why they received it, and change it if it is wrong
+* **A 🤖 emoji** - a lightweight marker when a full signature is more than the message needs
 
 <emailEmbed
   from=""

@@ -1,0 +1,115 @@
+---
+type: rule
+title: Do you verify the target environment before risky operations?
+seoDescription: Make migrations, resets and bulk deletes verify the intended server, database and tenant, then refuse mismatches before changing data in the wrong environment.
+guid: 797bb9fe-7a65-4ddb-996a-33fb118e80aa
+uri: assert-the-target-environment-before-risky-operations
+created: 2026-10-31T00:00:00.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/do-you-know-how-to-use-connection-strings/rule.mdx
+  - rule: public/uploads/rules/naming-convention-for-use-on-database-server-test-and-production/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+archivedreason: null
+isArchived: false
+---
+
+A test reset can finish successfully while wiping the wrong database. A stale connection string, a copied shell session or the wrong tenant selection can turn an ordinary maintenance command into data loss.
+
+Before a migration, seed/reset script, bulk delete or test that clears data, **require explicit environment intent and verify the destination against an independently defined target**. Fail closed: missing, malformed or mismatched values stop the command before any changes.
+
+<endIntro />
+
+## Define what the command is allowed to touch
+
+Keep the expected environment, exact server endpoint, database and tenant ID (where applicable) in reviewed code or a separately controlled allow-list. Do not derive the expected destination from the connection string being checked. A reset tool intended only for test must not accept production just because someone supplies `TARGET_ENV=prod`.
+
+Parse connection strings with the provider's builder, rather than searching for `test` or `prod` in raw text. [Connection string storage and authentication](/do-you-know-how-to-use-connection-strings) and [database naming conventions](/naming-convention-for-use-on-database-server-test-and-production) help manage configuration; the guard enforces where this particular operation may run.
+
+These matched examples use fictional Northwind data and hosts. The reset is intended for `Northwind_Test` on `northwind-test.example.com`, but the loaded connection points to `Northwind_Prod` on `northwind-prod.example.com`.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The reset checks only `TARGET_ENV=test`, opens the loaded connection and clears the Orders table. It reports success after changing `Northwind_Prod`.
+  </>}
+  figurePrefix="bad"
+  figure="The test flag describes intent but does not constrain the database that gets cleared"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The same reset checks `TARGET_ENV=test` and compares the parsed server and database with its test-only allow-list. It returns `WRONG_TARGET` with exit code 20 before opening the production connection. No Orders change.
+  </>}
+  figurePrefix="good"
+  figure="The destination mismatch stops the reset before it can change production data"
+/>
+
+## Reject mismatched configuration before connecting
+
+This C# console preflight uses the `Microsoft.Data.SqlClient` NuGet package. It opens no connection and performs no reset. The endpoint includes the protocol and port so an alternate spelling is rejected rather than guessed equivalent.
+
+```csharp
+using Microsoft.Data.SqlClient;
+
+string? connectionString =
+    Environment.GetEnvironmentVariable("NORTHWIND_CONNECTION");
+
+bool MatchesTestTarget(string? value)
+{
+    if (string.IsNullOrWhiteSpace(value)) return false;
+
+    try
+    {
+        var target = new SqlConnectionStringBuilder(value);
+        return string.Equals(target.DataSource,
+                   "tcp:northwind-test.example.com,1433",
+                   StringComparison.OrdinalIgnoreCase)
+            && string.Equals(target.InitialCatalog, "Northwind_Test",
+                   StringComparison.Ordinal)
+            && target.FailoverPartner.Length == 0
+            && target.AttachDBFilename.Length == 0
+            && !target.UserInstance;
+    }
+    catch (Exception ex) when (ex is ArgumentException
+        or FormatException or OverflowException
+        or NotSupportedException or KeyNotFoundException)
+    {
+        return false;
+    }
+}
+
+if (Environment.GetEnvironmentVariable("TARGET_ENV") != "test"
+    || !MatchesTestTarget(connectionString))
+{
+    Console.Error.WriteLine(
+        "WRONG_TARGET: expected test / northwind-test.example.com / Northwind_Test.");
+    return 20;
+}
+
+Console.WriteLine("Target configuration accepted; no database operation performed.");
+// Next: check connected identity, then reset using this connectionString.
+return 0;
+```
+
+**Figure: The preflight rejects missing or incorrect targets and alternate database attachment or failover settings**
+
+Microsoft documents how [connection string builders parse keywords and synonyms](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-string-builders). This comparison is deliberately conservative: approve additional endpoint forms explicitly if your deployment needs them. If a command uses several connections, validate all of them before opening any. Execute with the validated values; reloading configuration afterwards can change the destination. Log the failed check, never credentials or a full connection string.
+
+## Verify the connected identity before writing
+
+The preflight checks configuration, not where DNS, aliases or routing actually lead. Connect with [encryption and server certificate validation enabled](https://learn.microsoft.com/en-us/sql/connect/ado-net/encryption-and-certificate-validation), then make a read-only identity check on the same connection before writes. In SQL Server, [`SELECT DB_NAME()` returns the current database name](https://learn.microsoft.com/en-us/sql/t-sql/functions/db-name-transact-sql). Also compare a deployment-controlled environment marker and, for a tenant-scoped command, the authenticated tenant ID with the approved values. A missing marker, mismatch or failed lookup must stop execution.
+
+Provision the environment marker separately from seed data, and reset it during database restores or clones so a copied production marker cannot authorise the wrong environment. Do not change databases or tenant context after verification; repeat the checks whenever the connection or context changes.
+
+Use a [database identity with only the permissions it needs](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/getting-started-with-database-engine-permissions). A test reset identity should have no production access. Target checks supplement permissions, reviewed migrations and a tested backup/restore plan; they do not make an unsafe operation safe.
+
+## Test that refusal happens before the operation
+
+Exercise the guard with fake connection strings and a spy that counts connection or write attempts. Missing intent, missing configuration, malformed strings, a wrong server and a wrong database must each return a non-zero exit code with **zero connection attempts**. Include a mismatched second source if the command uses several databases. Matching configuration should reach the identity check, not skip it.
+
+Separately test connected-identity and tenant mismatches: read-only verification may run, but **zero writes** must follow a failed check. Rehearse the whole operation on a disposable local database with a separate sandbox allow-list before using shared data. Keep the guards enabled in deployment.

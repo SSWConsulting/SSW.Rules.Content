@@ -1,0 +1,187 @@
+---
+type: rule
+title: Do you know how to safely make a GitHub repository public?
+uri: safely-make-github-repository-public
+guid: accc8579-0818-4bbf-8b5e-22809fc1388c
+seoDescription: Check Git history, secrets, sensitive content, vulnerabilities, CI/CD, repository protections and licensing before changing a GitHub repository from private to public.
+created: 2026-09-09T01:50:00.000Z
+authors:
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kaique-biancatti
+related:
+  - rule: public/uploads/rules/architectural-decision-records/rule.mdx
+  - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+  - rule: public/uploads/rules/developer-cybersecurity-tools/rule.mdx
+  - rule: public/uploads/rules/use-branch-protection/rule.mdx
+  - rule: public/uploads/rules/use-gated-deployments/rule.mdx
+  - rule: public/uploads/rules/team-as-code-owners/rule.mdx
+  - rule: public/uploads/rules/awesome-readme/rule.mdx
+  - rule: public/uploads/rules/find-your-license/rule.mdx
+  - rule: public/uploads/rules/security-email-account/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+---
+
+Changing a GitHub repository from private or internal to public can expose years of source code, Git history, screenshots, documentation and CI/CD information. Assume anything exposed can be copied immediately.
+
+Review the repository and resolve sensitive findings before changing its visibility.
+
+<endIntro />
+
+## 1. Can you publish everything in the repository?
+
+Confirm that your organization has the right to publish the repository’s contents.
+
+Check for client-owned code, confidential information, personal data, NDA-covered content, and third-party code or assets with redistribution restrictions.
+
+If the repository is intended to be open source, choose an appropriate license.
+
+See [Do you know the best license for your project?](/find-your-license)
+
+Making a repository public does not automatically make the code open source.
+
+## 2. Have you scanned the entire Git history?
+
+Checking the current `main` branch is not enough. A credential deleted years ago may still be available in Git history.
+
+Scan the entire history, including branches and tags, for API keys, personal access tokens, Azure SAS tokens, passwords, connection strings, private keys, `.env` files and webhook URLs containing secrets.
+
+Use an automated scanner that supports full Git history, but do not rely on automated scanning alone.
+
+See [Do you know the best way to prevent secrets leaking from your code repository?](/prevent-secrets-leaking-from-repo)
+
+If you find a secret:
+
+1. Revoke or rotate it first, and update affected applications
+2. Investigate whether the credential was used unexpectedly
+3. Remove it from current files and assess whether history cleanup is also needed
+4. Re-run the scan
+
+Rewriting history does not guarantee removal. Old commits may remain accessible through cached views, pull requests, clones and forks. Coordinate cleanup with the owners of other copies.
+
+GitHub Support only assists with sensitive-data removal when rotating credentials cannot mitigate the risk.
+
+See [GitHub - Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+
+## 3. Have you reviewed sensitive files and information?
+
+Secret scanners will not find everything that should remain private.
+
+Review screenshots, photos, architecture and network diagrams, office floor plans, documents, logs, test data and exported configuration, including historical versions.
+
+Look for customer information, credentials and internal details that should not be published. A screenshot containing an Azure SAS URL with delete permissions is just as sensitive as putting the token in source code.
+
+GitHub issues and comments can also retain sensitive information in revision history.
+
+See [Do you know how to completely remove confidential information from a GitHub Issue?](/remove-confidential-information-from-github)
+
+## 4. Have you checked for exploitable vulnerabilities?
+
+Run security checks appropriate for the project, including code, dependency, infrastructure and container scanning. Tools may include Dependabot and CodeQL.
+
+See [Do you use the right cybersecurity tools when writing code?](/developer-cybersecurity-tools)
+
+Manually review authentication, authorization, unsafe defaults, debug endpoints and anything that relies on the repository being private for security.
+
+Fix critical or high-severity vulnerabilities with a realistic attack path before publication. Record any accepted exceptions and who approved them.
+
+## 5. Can public contributions abuse your workflows?
+
+Anyone can submit a pull request to a public repository. Review workflows before allowing them to process untrusted contributions.
+
+* **Permissions** - Give `GITHUB_TOKEN` only the permissions each job needs
+* **Secrets** - Keep credentials away from untrusted pull request code
+* **Privileged triggers** - Do not check out and execute untrusted code in privileged `pull_request_target` or `workflow_run` workflows
+* **Third-party actions** - Review the actions you use and pin them to full commit SHAs
+* **Logs and artifacts** - Remove sensitive information from previous workflow runs
+
+See [GitHub - Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use)
+
+Require maintainer approval before an external contribution can provision paid preview environments. Limit resource sizes, concurrent environments and run duration, and automatically remove unused environments. Repeated pull requests must not be able to create an uncontrolled cloud bill.
+
+For workflows that deploy to real environments, configure GitHub environment protections.
+
+See [GitHub Environments - Do you use gated deployments?](/use-gated-deployments)
+
+Do not allow arbitrary public pull request code to execute on self-hosted runners. It could access credentials or internal services available to the runner. Use GitHub-hosted runners for untrusted contributions.
+
+## 6. Are repository protections configured?
+
+Protect important branches such as `main`. Require pull requests, approvals and status checks, and block force pushes and branch deletion.
+
+See [Do you use branch protection?](/use-branch-protection)
+
+Use `CODEOWNERS` to identify responsible reviewers. Configure required code owner reviews where their approval must be enforced.
+
+See [Do you make your repo's team the code owners?](/team-as-code-owners)
+
+Enable applicable security features, including secret scanning, push protection, Dependabot alerts and updates, and code scanning.
+
+<boxEmbed
+  style="info"
+  body={<>
+    GitHub disables all push rulesets when a repository changes from private or internal to public. Re-check the remaining rulesets and branch protections after changing visibility.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## 7. Have you checked the rest of GitHub and existing forks?
+
+Review issues, pull requests, discussions, wiki pages, releases, Actions history, logs and workflow artifacts. Remove sensitive material that was written or uploaded for internal readers.
+
+Actions history and logs become publicly visible when you publish the repository.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    When you make a repository public, GitHub detaches its private forks into standalone private repositories. Cleaning the original repository does not clean those copies. Identify existing forks and coordinate any sensitive-data cleanup with their owners before changing visibility.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## 8. Is the repository ready for public readers?
+
+Provide a useful `README.md` explaining the project and how to use it.
+
+See [Do you have an awesome README?](/awesome-readme)
+
+Add a `LICENSE` appropriate to the intended use. Depending on the project, also provide `CONTRIBUTING.md` and pull request and issue templates.
+
+Use `SECURITY.md` to document supported versions and a private vulnerability-reporting channel. Verify that the channel works.
+
+For a public website or service, also publish `security.txt` at `/.well-known/security.txt`. It helps researchers find your security contact and complements the repository policy.
+
+See [Do you have a security@ email account?](/security-email-account)
+
+## 9. Has another person reviewed and approved publication?
+
+Create an ADR recording why the repository will become public, who approved it, the checks completed, and any accepted risks or exceptions.
+
+See [Do you use Architectural Decision Records (ADRs)?](/architectural-decision-records)
+
+Get another developer or someone from your SysAdmin or Security team to review the repository and findings. Use a formal security review for higher-risk repositories.
+
+Keep confidential findings in an access-controlled record. Do not publish the sensitive details in the ADR.
+
+## 10. How do you change visibility and verify the result?
+
+After the review is complete and publication is approved, open **Settings | General | Danger Zone**. Choose **Change visibility**, select **Public**, and complete GitHub’s confirmation steps.
+
+See [GitHub - Setting repository visibility](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)
+
+Afterwards:
+
+1. Open the repository while signed out and check what visitors can see
+2. Re-check branch protections and rulesets
+3. Confirm secret scanning and push protection are enabled
+4. Verify workflow permissions and approval requirements for deployments and preview environments
+
+***
+
+### Learn more
+
+* [GitHub - Setting repository visibility](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) - Visibility changes and their consequences
+* [GitHub - Removing sensitive data](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) - History cleanup and its limits
+* [GitHub - Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) - Workflow permissions, untrusted code and runners

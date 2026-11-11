@@ -31,6 +31,10 @@ These records aren't limited to architectural choices but can encompass any cruc
 
 <endIntro />
 
+<youtubeEmbed url="https://youtu.be/9w5yApybZbY" description="Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)" />
+
+### What goes into an ADR?
+
 Typically, this is the data it will have:
 
 * Title
@@ -40,11 +44,7 @@ Typically, this is the data it will have:
 * Decision Drivers
 * Options and Pros/Cons
 
-
-<youtubeEmbed url="https://youtu.be/9w5yApybZbY" description={"Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)"} />
-
-
-## ⚠️ The dangers of not documenting important decisions
+### What are the dangers of not documenting important decisions?
 
 1. Lack of transparency and communication
 2. Loss of intellectual property
@@ -52,27 +52,27 @@ Typically, this is the data it will have:
 4. Risk of repeating mistakes
 5. Difficulty in auditing and governance
 
-## ✅ The advantages of using ADRs
+### What are the advantages of using ADRs?
 
 1. Providing documentation and historical context
 2. Collaboration and communication
-3. Informed Decision making
+3. Informed decision making
 4. Decision re-evaluation
 5. Avoiding blind acceptance or reversal
 
-The act of documenting an important decision, forces developers to think more objectively about their decision. If the decision is likely to cause contention it may be quicker to document it via an ADR and get feedback, than it would be to implement the change and let the reviewer try to infer your reasoning.
+The act of documenting an important decision forces developers to think more objectively about their decision. If the decision is likely to cause contention, it may be quicker to document it via an ADR and get feedback than it would be to implement the change and let the reviewer try to infer your reasoning.
 
-Additionally, documenting decision 'deciders' ensures that we have a 2nd pair of eyes across the decision, just like we do with the [checked by rule](/checked-by-xxx), [test please rule](/do-you-conduct-a-test-please-internally-and-then-with-the-client), and [pull-requests](/over-the-shoulder).
+Additionally, documenting decision 'deciders' ensures that we have a 2nd pair of eyes across the decision, just like we do with the [checked by rule](/checked-by-xxx), [test please rule](/do-you-conduct-a-test-please-internally-and-then-with-the-client), and [pull requests](/over-the-shoulder).
 
 ADRs can also help with knowledge sharing across teams, as other Solution Architects will have access to a succinct explanation of the problem and the decided solution.
 
 Another benefit is that future developers joining the project now have access to the historical context as to why certain decisions were made.
 
-## Where should ADRs be stored?
+### Where should ADRs be stored?
 
 They should be stored wherever the technical documentation for your project lives. Storing them in Git along with your code works well, but alternatively wherever your technical documentation lives (i.e. a wiki).
 
-## What decisions go in an ADR?
+### What decisions go in an ADR?
 
 * High impact decisions
 * Irreversible or costly to change
@@ -80,7 +80,7 @@ They should be stored wherever the technical documentation for your project live
 * Anything that needs to be discussed with others
 * Choosing between multiple options with different pros and cons
 
-## What can I use to create and manage ADRs?
+### What can you use to create and manage ADRs?
 
 An ADR can be in any format, but it should be easily readable and accessible. Some options are:
 
@@ -119,32 +119,32 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-## ADR examples
+### What do ADRs look like?
 
+<imageEmbed alt="Log4Brains knowledge base listing all ADRs for the SSW.CleanArchitecture template" size="large" showBorder={false} figurePrefix="none" figure="SSW.CleanArchitecture KB showing all ADRs" src="/uploads/rules/architectural-decision-records/ssw-clean-architecture-template-adr.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="SSW.CleanArchitecture KB showing all ADRs"
-  src="/uploads/rules/architectural-decision-records/ssw-clean-architecture-template-adr.png"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Example of a single ADR from SSW.CleanArchitecture"
-  src="/uploads/rules/architectural-decision-records/adr.png"
-/>
-
+<imageEmbed alt="A single ADR page showing the context, decision and consequences" size="large" showBorder={false} figurePrefix="none" figure="Example of a single ADR from SSW.CleanArchitecture" src="/uploads/rules/architectural-decision-records/adr.png" />
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
-## Related articles
+### Other uses for ADRs
 
-* [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
+ADRs aren't just for code. Any change that is hard to reverse, or that someone will question in 12 months, deserves a record of who decided it and why. That includes SysAdmin and DevOps changes that never touch the codebase.
+
+Some examples include:
+
+* **Changing a repository's visibility** - Migrating a repository from private to public (or public to private) affects licensing, secrets, and who can see the history. Record who approved it, what was checked before flipping the switch, and why
+* **Moving hosting or infrastructure** - Migrating from one cloud provider, region, or hosting model to another
+* **Changing access or permissions** - Granting a third party access to production, or changing who can approve deployments
+* **Retiring a service or environment** - Decommissioning a staging environment or an old integration
+
+For the smaller day-to-day decisions that only affect one Work Item, see [Do you document discoveries and decisions?](/document-discoveries).
+
+***
+
+### Learn more
+
+* [Dan Does Code - Demystifying Architectural Decision Records: Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them) - The long-form version of this rule
+* [Log4Brains on GitHub](https://github.com/thomvaill/log4brains) - The recommended tool for creating and viewing ADRs
+* [SSW.CleanArchitecture ADRs](https://sswconsulting.github.io/SSW.CleanArchitecture/) - Real ADRs from a real template
+* [Do you document discoveries and decisions?](/document-discoveries) - Where Work Item level decisions belong

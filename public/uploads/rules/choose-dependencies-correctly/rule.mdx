@@ -1,31 +1,29 @@
 ---
-authors:
-- title: Josh Berman
-  url: https://www.ssw.com.au/people/josh-berman
-created: 2025-12-11 04:11:49+00:00
-createdBy: Josh Berman [SSW]
-createdByEmail: 137844305+joshbermanssw@users.noreply.github.com
-guid: 873b8c90-7233-4e19-b044-a2096091c0af
-isArchived: false
-lastUpdated: 2025-12-12 18:31:21+00:00
-lastUpdatedBy: Baba Kamyljanov [SSW]
-lastUpdatedByEmail: babakamyljanov@ssw.com.au
-related:
-- rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
-- rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
-- rule: public/uploads/rules/packages-up-to-date/rule.mdx
-- rule: public/uploads/rules/do-you-know-the-correct-license-to-use-for-open-source-software/rule.mdx
-- rule: public/uploads/rules/package-audit-log/rule.mdx
-- rule: public/uploads/rules/document-discoveries/rule.mdx
-seoDescription: Learn how to choose safe, reliable, and well-maintained dependencies.
-  Reduce security risks, avoid abandoned libraries, and protect your application from
-  supply-chain attacks by following a proven checklist for evaluating third-party
-  packages.
+type: rule
 title: Do you choose the right dependencies?
+uri: choose-dependencies-correctly
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
-type: rule
-uri: choose-dependencies-correctly
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+related:
+  - rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
+  - rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
+  - rule: public/uploads/rules/packages-up-to-date/rule.mdx
+  - rule: public/uploads/rules/do-you-know-the-correct-license-to-use-for-open-source-software/rule.mdx
+  - rule: public/uploads/rules/package-audit-log/rule.mdx
+  - rule: public/uploads/rules/document-discoveries/rule.mdx
+  - rule: public/uploads/rules/architectural-decision-records/rule.mdx
+guid: 873b8c90-7233-4e19-b044-a2096091c0af
+seoDescription: 'Learn how to choose safe, reliable, and well-maintained dependencies. Reduce security risks, avoid abandoned libraries, and protect your application from supply-chain attacks by following a proven checklist for evaluating third-party packages.'
+created: 2025-12-11T04:11:49.000Z
+createdBy: 'Josh Berman [SSW]'
+createdByEmail: 137844305+joshbermanssw@users.noreply.github.com
+lastUpdated: 2026-09-23T22:53:44.067Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+isArchived: false
 ---
 
 Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment.
@@ -47,11 +45,9 @@ Developers rely on packages to:
 * **Leverage expertise** - certain workflows or features are complex (and hence costly to build), relying on specialists leads to safer outcomes
 * **Stay consistent** - shared packages help teams standardise patterns and reduce fragmented code
 
-## **Learning the risks** of using external packages
+## Learning the risks of using external packages
 
-
-<youtubeEmbed url="https://www.youtube.com/embed/lqZo4waMB3c?si=Ceoy1y1h9mNmU7PX" description={"Video: The NPM Worm of November 2025 (7 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/embed/lqZo4waMB3c?si=Ceoy1y1h9mNmU7PX" description="Video: The NPM Worm of November 2025 (7 min)" />
 
 While packages help teams move faster, they also introduce real and often underestimated risks. Every dependency added to your project is a new entry point for bugs, vulnerabilities or supply-chain attacks.
 
@@ -64,7 +60,7 @@ While packages help teams move faster, they also introduce real and often undere
 
 The biggest risk with bringing in external packages is that you usually don't review the code you're pulling in. Yet it is still allowed to execute with the same permissions and privileges as the rest of your application.
 
-## **Picking** the correct package
+## Picking the correct package
 
 Choosing the correct package is about more than just finding the one that works, it's about selecting dependencies you can trust, maintain and confidently ship to production. A good dependency should show clear signs of life, healthy governance, and predictable maintenance.
 
@@ -80,25 +76,9 @@ When checking maintenance activity, look for:
 * Recent releases
 * Responsiveness to issues and PRs
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="No recent activity"
-  src="/uploads/rules/choose-dependencies-correctly/activity-bad-npm.png"
-/>
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="bad" figure="Last commit was years ago!" src="/uploads/rules/choose-dependencies-correctly/activity-bad-npm.png" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="More recent activity"
-  src="/uploads/rules/choose-dependencies-correctly/activity-good-npm.png"
-/>
-
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="More recent activity on the package" src="/uploads/rules/choose-dependencies-correctly/date-fns-recent-commits.png" />
 
 ### 2. Is it maintained by somebody credible?
 
@@ -124,25 +104,9 @@ A well documented package is a strong indicator of maturity, professionalism and
 * Supported by community knowledge
 * Faster to resolve packages
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Decent amount of uses"
-  src="/uploads/rules/choose-dependencies-correctly/popularity-npm-bad.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Weekly downloads is much lower than substitute packages" src="/uploads/rules/choose-dependencies-correctly/popularity-npm-bad.png" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="A lot more popular, battle-tested 💪"
-  src="/uploads/rules/choose-dependencies-correctly/popularity-npm-good.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="A lot more popular, battle-tested 💪" src="/uploads/rules/choose-dependencies-correctly/popularity-npm-good.png" />
 
 ### 5. Is it frequently released?
 
@@ -152,25 +116,9 @@ Healthy packages ship predictable updates. Regular releases indicate active stew
 * Security patches are delivered quickly
 * Compatibility with new versions of core frameworks
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Released ages ago!"
-  src="/uploads/rules/choose-dependencies-correctly/last-published-npm-bad.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Released ages ago!" src="/uploads/rules/choose-dependencies-correctly/last-published-npm-bad.png" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="More recent release"
-  src="/uploads/rules/choose-dependencies-correctly/last-published-npm-good.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="More recent release" src="/uploads/rules/choose-dependencies-correctly/last-published-npm-good.png" />
 
 ### 6. Does it have good transparency?
 
@@ -214,7 +162,7 @@ Even today, the only reliable method is real-world experimentation.
 
 Unlike JavaScript, .NET doesn’t have ecosystem tools that report the “bundle size” impact of installing a NuGet package. You can inspect IL size or dependency graphs, but there is no direct BundlePhobia-style analyser.
 
-To reduce the final application size, .NET provides a built-in feature called the [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0&WT.mc_id=DT-MVP-33518) (ILLink). Trimming removes unused code from your published output and can significantly shrink deployments. However, trimming must be used carefully—apps that rely on reflection, dynamic activation, or certain serializers may require additional annotations to avoid breaking behaviour.
+To reduce the final application size, .NET provides a built-in feature called the [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0\&WT.mc_id=DT-MVP-33518) (ILLink). Trimming removes unused code from your published output and can significantly shrink deployments. However, trimming must be used carefully—apps that rely on reflection, dynamic activation, or certain serializers may require additional annotations to avoid breaking behaviour.
 
 Trimmer support has improved in .NET 8 and .NET 9, but the same rule still applies: understand your dependencies before enabling trimming in production builds.
 
@@ -222,17 +170,18 @@ Trimmer support has improved in .NET 8 and .NET 9, but the same rule still appli
 
 Licenses define what you can and cannot do with the code. Legal issues can emerge years after the code is shipped. Using restrictive or unclear licenses can put your organisation at risk, especially in commercial or closed-source products. The safest time to avoid licensing issues is before you install the dependency.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Licensing mentioned"
-  src="/uploads/rules/choose-dependencies-correctly/licensing-good.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="Licensing mentioned" src="/uploads/rules/choose-dependencies-correctly/licensing-good.png" />
 
+### 9. Does it have known vulnerabilities?
 
-## **Documenting** dependencies the right way
+Check for known vulnerabilities before you install a package, not after. Your tooling can often do this for you:
+
+* **.NET** - NuGet has built-in vulnerability auditing, so installing or restoring a vulnerable package will often raise build warnings (e.g. `NU1902`, `NU1903`)
+* **JavaScript** - run `npm audit` (or `pnpm audit` / `yarn npm audit`) after adding a package
+
+Don't ignore these warnings. If a package already has open advisories, pick a patched version or a different package. See [monitoring for dependency vulnerabilities](/monitor-packages-for-vulnerabilities) to keep checking after it's installed.
+
+## Documenting dependencies the right way
 
 ### Have a 2nd pair of eyes
 
@@ -242,18 +191,12 @@ Lastly before deciding to install the library, check with another developer that
 
 Always [keep track of the reasoning](/document-discoveries) when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project.
 
-Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
+Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="A markdown file should include your reasons to assist future developers"
-  src="/uploads/rules/choose-dependencies-correctly/md-decision-reasons.png"
-/>
+The best way to record the decision to add a new package is with an [Architectural Decision Record (ADR)](/architectural-decision-records). ADRs capture the context, the options you considered, and why you chose one over the others. A [package audit log](/package-audit-log) is also a great way to keep a running list of every package decision.
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A markdown file should include your reasons to assist future developers" src="/uploads/rules/choose-dependencies-correctly/md-decision-reasons.png" />
 
-## **Maintaining** dependencies the right way
+## Maintaining dependencies the right way
 
 Choosing a good package is only half the job, [maintaining them is an ongoing responsibility](/maintain-dependencies-correctly). Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift.

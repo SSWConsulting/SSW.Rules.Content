@@ -22,84 +22,138 @@ lastUpdatedByEmail: ulyssesmaclaren@ssw.com.au
 isArchived: false
 ---
 
-Every AI company wants you to use their tool, but not every tool is good. With so many options, it’s easy to get overwhelmed or, worse, end up paying for something that doesn’t deliver value. Some AI tools offer exceptional capabilities, but others frustratingly over-promise and under-deliver.
+Until November 2026 this rule recommended Sora and DALL-E 3. Both had already been shut down. A hand-written list of "the best AI tools" goes stale fast, and every vendor's launch post claims their tool is number one.
 
-We aim to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams.
-
-We also recommend using [Arena.ai](https://arena.ai/leaderboard) to confirm the best AI models in the market.
+The fix is to check independent leaderboards, then test the top few on your own work. This rule shows you which leaderboards to trust, where they mislead, and the tools that are winning right now.
 
 <endIntro />
 
+## Why can't you trust the hype, or a single score?
+
+A benchmark is a fixed set of tasks that every AI model is scored on. A leaderboard ranks the models by those scores. Both are useful, and both can fool you:
+
+* **Vendors pick their best numbers** - A launch post shows the 6 benchmarks the model won, not the 20 it lost
+* **Models memorise the test** - In February 2026 OpenAI stopped reporting SWE-bench Verified, a popular coding benchmark, after finding models could repeat the fixes from memory
+* **The test itself can be broken** - In the same audit, 59.4% of the hard tasks OpenAI checked had tests that rejected correct answers
+* **Leaderboards get gamed** - The Leaderboard Illusion paper found Meta privately tested 27 model variants on Arena, then published only the best one
+* **Small gaps are noise** - Anthropic measured a 6 point swing on a coding benchmark from changing nothing but the hardware limits. On a coding benchmark, treat a gap under 3 percentage points as a tie. On Arena, check whether the ± ranges overlap
+* **Leaderboards disagree** - In November 2026, Arena and Artificial Analysis each named a different winner for text-to-video
+
+## Which leaderboards should you check?
+
+| Leaderboard | What it tells you | Watch out for |
+| --- | --- | --- |
+| [Arena](https://arena.ai/leaderboard) (Recommended) | Which answer people prefer in blind votes, for text, web dev, images, video and search | People vote for what they like, not what is correct. New models show as "Preliminary" with few votes |
+| [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence vs speed vs price from tests it runs itself, plus image, video, speech and music | One combined score hides which tasks a model is bad at |
+| [Terminal-Bench](https://www.tbench.ai/leaderboard) | Which coding agent and model pair solves the most real terminal tasks, with cost | Scores move with the hardware used |
+| [OpenRouter rankings](https://openrouter.ai/rankings) | What people actually use, by tokens processed through OpenRouter | Popular is not the same as best. Cheap and free models rank high |
+| [Vals AI](https://www.vals.ai/benchmarks) | Independent scores on legal, finance and healthcare tasks | Only helps if the task matches yours |
+
+## How do you pick a tool using benchmarks?
+
+1. **Match the leaderboard to the task** - Writing an email is Arena's text board. Making a video is the text-to-video board. A general "smartest model" score tells you little about either
+2. **Check a second leaderboard** - If two independent leaderboards agree, trust it more. If they disagree, test both winners
+3. **Shortlist 2 or 3** - Ignore small gaps at the top
+4. **Run your own mini benchmark** - Put 5 to 10 real tasks from your week in a spreadsheet. Run each tool on all of them and note which output you would send to a client
+5. **Check price and privacy** - A tool that wins by 1% and costs 5 times more is rarely the right pick
+6. **Re-check every 3 months** - Put a reminder in your calendar. The winner changes
+
 <boxEmbed
-  style="tips"
+  style="greybox"
   body={<>
-    **Tip:** Always visit their websites to learn more.
+    "The launch post says the new model is state of the art on 6 benchmarks. Let's move the whole team onto it."
   </>}
-  figurePrefix="none"
-  figure=""
+  figurePrefix="bad"
+  figure="Picking a tool from the vendor's own chart"
 />
 
-## 🏆 What is Arena.ai?
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I took the top 3 from Arena's text board and checked them against Artificial Analysis. Then I ran our 10 real prompts through each: a client email, a proposal summary, a spec review. One won 7 out of 10, so we are trialling it for a Sprint."
+  </>}
+  figurePrefix="good"
+  figure="Shortlisting from 2 leaderboards, then testing on your own tasks"
+/>
 
-Arena.ai is a public, web-based platform that evaluates large language models through anonymous, crowd-sourced pairwise comparisons. Users enter prompts for two anonymous models to respond to, then vote on the model that gave the better response. The model identities are revealed only after the vote, similar to a blind taste test of Pepsi versus Coke.
+Building AI into an app? See [Do you pick the best Large Language Model for your project?](/choosing-large-language-models) for how to test models through one API.
+
+## What are the best AI tools right now?
+
+This list was last checked against the leaderboards in November 2026.
 
 <boxEmbed
   style="greybox"
   body={<>
     ⭐ = Recommended\
     💲 = Paid
-    
-    **Note:** Most of the paid ones have a free trial, though you usually don't get full functionality.
+
+    **Note:** Most of the paid ones have a free tier or trial, though you usually don't get full functionality.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-### Writing/Coding
+### Writing and research
 
-* ⭐💲 **[ChatGPT](https://chat.openai.com)** - Excellent for generating content, drafting emails, or brainstorming ideas
-* ⭐💲 **[Cursor](https://cursor.com/)** - An AI-powered code editor that understands your entire codebase, helping you write, refactor, and debug faster with context
-* 💲 **[Claude](https://www.claude.ai)** - Specializes in understanding long documents and generating well-structured responses
-* 💲 **[Google Gemini](https://gemini.google.com/)** - Google's Gen AI models that help with code generation with extremely long context window (2M tokens). Integrates with Google Cloud
-* 💲 **[GitHub Copilot](https://github.com/features/copilot)** - Assists developers by generating code snippets and suggesting implementations
-* 💲 **[Perplexity](https://www.perplexity.ai)** - Combines generative AI with real-time search to provide highly contextual responses with citations
-* 💲 **[Writesonic](https://www.writesonic.com)** - An enterprise tool - helps create SEO-friendly articles and product descriptions
-* 💲 **[HyperWrite](https://www.hyperwrite.ai)** - Assists with long-form content generation, offering context-aware suggestions
-* 💲 **[Notion AI](https://www.notion.com/help/guides/category/ai)** – Integrates AI into Notion for writing assistance, summaries, and organization
+* ⭐💲 **[ChatGPT](https://chatgpt.com)** - The all-rounder for drafting emails, brainstorming, and answering questions
+* ⭐💲 **[Claude](https://claude.ai)** - Strong at long documents, careful writing, and code
+* 💲 **[Google Gemini](https://gemini.google.com/)** - Best if you live in Gmail, Docs, and Google Cloud
+* 💲 **[Perplexity](https://www.perplexity.ai)** - Search answers with citations you can check
+* 💲 **[Notion AI](https://www.notion.com/product/ai)** - Writing help, summaries, and search inside your Notion workspace
+
+### Coding
+
+* ⭐💲 **[Claude Code](https://claude.com/product/claude-code)** - A coding agent that runs in your terminal. Top of Terminal-Bench in November 2026
+* ⭐💲 **[OpenAI Codex](https://openai.com/codex/)** - OpenAI's coding agent, close behind on Terminal-Bench
+* 💲 **[Cursor](https://cursor.com/)** - An AI code editor that understands your whole codebase
+* 💲 **[GitHub Copilot](https://github.com/features/copilot)** - AI help inside VS Code, Visual Studio, and GitHub, with a free tier
+* **[OpenCode](https://opencode.ai/)** - An open source coding agent that works with models from 200+ providers, so you are not locked to one vendor
 
 ### Presentation design
 
-* ⭐💲 **[Gamma.app](https://www.gamma.app)** - Revolutionizes presentation creation with interactive and dynamic slides
-* ⭐ **[Napkin](https://www.napkin.ai/)** - Turns your text into visuals, making it easy to share ideas in clear and engaging presentations
-* 💲 **[Beautiful.ai](https://www.beautiful.ai)** - Automatically designs stunning slides based on your content
-* **[Pitch](https://www.pitch.com)** - Collaborative presentation tool that leverages AI for enhanced slide design and data integration
+* ⭐💲 **[Gamma](https://gamma.app)** - Turns an outline into a designed deck in minutes
+* ⭐💲 **[Napkin](https://www.napkin.ai/)** - Turns your text into diagrams and visuals
+* 💲 **[Canva](https://www.canva.com/)** - AI slide and design generation inside a tool your marketing team already uses
+* 💲 **[Beautiful.ai](https://www.beautiful.ai)** - Lays out your slides for you as you add content
+* 💲 **[Pitch](https://pitch.com)** - A collaborative presentation workspace with AI slide design
 
 ### Image and design creation
 
-* ⭐ **[Google's ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx)** - Generates high quality, realistic renditions for free
-* ⭐💲 **[Midjourney](https://www.midjourney.com)** - Powerful tool for generating realistic and creative art based on prompts
-* 💲 **[DALL-E 3](https://openai.com/dall-e-3)** - Integrated into ChatGPT Plus and Microsoft Copilot, generates unique images based on text prompts
-* 💲 **[Adobe Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html)** - Adobe's generative AI tool for creating high-quality visuals
-* **[Leonardo AI](https://www.leonardo.ai)** - Powerful AI tool for generating high-quality art and design assets, focusing on game and creative projects
-* **[Stable Diffusion](https://stability.ai/stable-diffusion)** - Open-source model known for creating realistic and artistic images based on text prompts
+* ⭐💲 **[ChatGPT Images](https://chatgpt.com)** - Top of both the Arena and Artificial Analysis text-to-image leaderboards in November 2026. Replaces DALL-E 3
+* ⭐💲 **[Midjourney](https://www.midjourney.com)** - Still the pick for artistic, stylised images
+* **[Google Flow](https://flow.google.com/)** - Google's creative studio for images and video. Replaces ImageFX
+* 💲 **[Adobe Firefly](https://firefly.adobe.com/)** - Generative AI built into Photoshop and the Adobe apps
+* **[Leonardo AI](https://leonardo.ai)** - Art and design assets for games and creative projects
+* **[Stable Diffusion](https://stability.ai/stable-image)** - An open model you can run on your own hardware
 
 ### Video editing and creation
 
-* ⭐💲 **[Runway](https://www.runwayml.com)** - Offers advanced AI video editing features like object removal and background replacement
-* ⭐ **[Google's Veo](https://aitestkitchen.withgoogle.com/tools/video-fx)** - Google's most capable model for generating high-definition videos (1080p) from text prompts
-* 💲 **[Sora](https://openai.com/sora)** - Creates amazing results from simple text prompts
-* 💲 **[Lumen5](https://www.lumen5.com)** - Transforms text content into engaging video summaries
-* 💲 **[Descript](https://www.descript.com/)** -  Allows users to edit video by editing the script
-* **[Synthesia](https://www.synthesia.io)** - Allows users to create videos with AI-generated avatars and voiceovers
+* ⭐ **[Google Flow](https://flow.google.com/)** - Text-to-video with Google's Veo models. Replaces VideoFX
+* ⭐💲 **[Runway](https://runway.com)** - AI video generation and editing, like object removal and background replacement
+* 💲 **[Descript](https://www.descript.com/)** - Edit a video by editing its transcript
+* 💲 **[Lumen5](https://lumen5.com)** - Turns a blog post into a video summary
+* 💲 **[Synthesia](https://www.synthesia.io)** - Videos with AI avatars and voiceovers
 
 ### Audio and music generation
 
-* ⭐💲 **[ElevenLabs](https://elevenlabs.io/)** – Industry-leading AI voice generation with ultra-realistic text-to-speech
-* ⭐💲 **[Suno AI](https://www.suno.ai/)** - Creates realistic music, including vocals, based on text prompts
-* **[Google's MusicFX](https://aitestkitchen.withgoogle.com/tools/music-fx)** - Allows you to make music in seconds
+* ⭐💲 **[ElevenLabs](https://elevenlabs.io/)** - Realistic text-to-speech and voice cloning
+* ⭐💲 **[Suno](https://suno.com/)** - Full songs with vocals from a text prompt. Top of the Artificial Analysis music leaderboard in November 2026
+* **[Google Flow Music](https://www.flowmusic.app/)** - Make music in seconds, free to start. Replaces MusicFX
 
 ### Productivity and automation
 
-* ⭐️💲 **[YakShaver](https://yakshaver.ai)** - The YakShaver AI agent analyses recordings, generates tasks, and allocates it to the correct team instantly
-* ⭐💲 **[Otter.ai](https://otter.ai)** -  AI-powered transcription service that integrates with meeting platforms like Zoom, Google Meet and Teams. Generates real-time notes and summaries
-* 💲 **[Zapier](https://zapier.com)** - Zapier uses AI-powered features to automate workflows between different web applications.  Connects thousands of apps
+* ⭐💲 **[YakShaver](https://yakshaver.ai)** - Turns a screen recording into a task and sends it to the right team
+* ⭐💲 **[Otter.ai](https://otter.ai)** - Meeting transcription and summaries for Teams, Zoom, and Google Meet
+* 💲 **[Zapier](https://zapier.com)** - Automates workflows between thousands of apps
+* 💲 **[n8n](https://n8n.io/)** - Workflow automation that is free if you host it yourself
+
+***
+
+### Learn more
+
+* [SSW: Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+* [The Leaderboard Illusion](https://arxiv.org/abs/2504.20879) - The paper on how private testing and uneven data access skew Arena rankings
+* [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise) - Why a few points of difference on a coding benchmark can be hardware
+* [Minimum Viable Benchmark](https://blog.nilenso.com/blog/2025/11/28/minimum-viable-benchmark/) - How to start your own benchmark with a spreadsheet
+* [Epoch AI Benchmarking Hub](https://epoch.ai/benchmarks) - One place to browse nearly 100 benchmarks

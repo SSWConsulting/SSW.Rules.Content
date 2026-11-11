@@ -1,0 +1,145 @@
+---
+type: rule
+title: Do you know the client IP address can be spoofed?
+uri: client-ip-can-be-spoofed
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/use-rate-limiting/rule.mdx
+  - rule: public/uploads/rules/safe-against-the-owasp-top-10/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-web-api-rest.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+guid: 41e9027f-7d87-4ae7-9598-9e87987cc394
+seoDescription: The X-Forwarded-For header is set by the caller, so rate limits, geo rules, allow-lists, and audit logs keyed on client IP can be forged. Learn how to normalise the client IP at the edge and fail closed.
+created: 2026-08-06T00:00:00.000Z
+---
+
+Rate limits, geo-blocking, IP allow-lists, fraud signals, and audit logs all lean on the same value - "the IP address of the client". Behind a CDN or load balancer that value almost never comes from the network connection. It comes from a header, and headers are written by whoever sends the request.
+
+That makes the client IP untrusted input. Treating it as infrastructure metadata means every control built on top of it can be forged with a single `curl` flag.
+
+<endIntro />
+
+## The client IP is just a header
+
+Once traffic passes through a CDN, reverse proxy, or tunnel, the TCP connection your application sees originates from the proxy - not the user. To recover the real client IP, frameworks read forwarded headers instead: `UseForwardedHeaders()` in ASP.NET Core, `trust proxy` in Express, `real_ip_header` in NGINX.
+
+The catch is that `X-Forwarded-For` is an ordinary request header. Anyone can set it.
+
+```bash
+curl https://api.example.com/orders \
+  -H "X-Forwarded-For: 1.2.3.4"
+```
+
+**❌ Figure: Bad example - One header, and every IP-based control now believes the caller is 1.2.3.4**
+
+ASP.NET Core ships a safe default here - it only honours forwarded headers from loopback. But that default breaks the moment the app runs in a container or behind a tunnel, and the well-worn workaround is to clear the restrictions entirely:
+
+```csharp
+// Program.cs
+var options = new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+};
+
+options.KnownProxies.Clear();
+options.KnownNetworks.Clear();
+
+app.UseForwardedHeaders(options);
+```
+
+**❌ Figure: Bad example - Clearing the known proxies makes the app trust X-Forwarded-For from anyone**
+
+After this, `HttpContext.Connection.RemoteIpAddress` reports whatever the caller asked it to report.
+
+## What breaks when the IP is wrong
+
+Getting this wrong is not only a security problem - it is an availability problem too:
+
+* **Rate limiting - bypassed** - Rotate the header on every request and each request lands in a fresh bucket, so the limit never trips
+* **Rate limiting - collapsed** - Read the raw connection IP instead and every user behind the proxy shares one bucket, so a single busy client locks out everyone
+* **Geo rules** - Region blocking and data-residency routing follow a caller-chosen country
+* **IP allow-lists** - An allow-list guarding admin endpoints is only as strong as the header it checks
+* **Audit trails** - "Who did this?" becomes "what did they claim?", which is worse than no answer because it looks authoritative
+* **Fraud and risk signals** - Velocity checks and reputation lookups score an address the attacker picked
+
+## Normalise trust at the edge
+
+The fix is to decide what the client IP is exactly once, at the first hop you actually control, and to make every backend inherit that decision. Patching each application means N services, N frameworks, and N chances to get it wrong - and the newest service is always the one that was missed.
+
+Most CDNs already publish the true client IP in a header they set themselves and that callers cannot forge, because the edge overwrites it on the way through. Have the edge strip the spoofable header and rewrite it from that trusted signal:
+
+```js
+export default {
+  async fetch(request) {
+    const clientIp = request.headers.get("CF-Connecting-IP");
+
+    // Fail closed - a request that did not come through the edge is rejected
+    if (!clientIp) {
+      return new Response("Forbidden", { status: 403 });
+    }
+
+    const headers = new Headers(request.headers);
+    headers.delete("X-Forwarded-For"); // 1. drop whatever the caller sent
+    headers.set("X-Forwarded-For", clientIp); // 2. set it from the edge's own signal
+
+    return fetch(new Request(request, { headers }));
+  },
+};
+```
+
+**✅ Figure: Good example - The edge guarantees the client IP, so downstream apps need no code changes**
+
+The header name differs per provider - see your CDN's documentation for the current one, for example [Cloudflare's HTTP request headers](https://developers.cloudflare.com/fundamentals/reference/http-headers/). What matters is not the name but the guarantee: the value must be written by infrastructure you own, on a path callers cannot skip.
+
+### Strip before you set
+
+The order is load-bearing. `X-Forwarded-For` is a comma-separated list, and it may legitimately arrive as several repeated headers that get joined together. Appending to it - or setting it without deleting first - can leave the caller's entry sitting at the front of the list, and the leftmost entry is exactly the one most parsers report as the original client.
+
+Delete, then set. That way there is only ever one value, and the edge wrote it.
+
+### Fail closed
+
+If the trusted header is missing, the request did not come through the edge. Reject it.
+
+The tempting alternative - fall back to the connection IP, or to whatever `X-Forwarded-For` was already there - reintroduces the vulnerability at precisely the moment someone finds a way around the edge: a direct-to-origin request, a stale DNS record pointing at the origin, or an internal tunnel that was never meant to be reachable. A 403 turns that into a visible failure instead of a silent downgrade.
+
+## When enforcement has to live in the app
+
+Sometimes there is no edge worker to hook into. In that case, configure the forwarded-headers middleware explicitly - never leave the defaults, and never clear the restrictions:
+
+```csharp
+// Program.cs
+var options = new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto,
+    ForwardLimit = 1 // only the hop added by your own ingress
+};
+
+options.KnownNetworks.Add(new IPNetwork(IPAddress.Parse("10.0.0.0"), 8)); // your ingress range only
+
+app.UseForwardedHeaders(options);
+```
+
+**😐 Figure: OK example - Adding the trusted network (not clearing the defaults) keeps the built-in loopback restriction and works alongside it, but this configuration now has to be repeated and maintained in every service**
+
+<boxEmbed
+  style="warning"
+  body={<>
+    Doing this per-application is N places to get right and keep right. Prefer the edge chokepoint, and treat in-app configuration as the fallback for services that cannot sit behind one.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Test the path on purpose
+
+Local development usually does not traverse the CDN or reverse proxy, so none of this logic runs on a developer machine. The first real exercise of the code path is production - which is a terrible place to discover it is misconfigured.
+
+Make it a deliberate check after any change to edge routing, ingress, or hosting:
+
+* A request carrying a forged `X-Forwarded-For` through the edge is logged with the real client IP, not the forged one
+* A request that reaches the origin without going through the edge is rejected
+* Rate limits partition per user, not per proxy - watch for one shared bucket, which is the tell-tale sign the connection IP is being used
