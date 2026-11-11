@@ -1,0 +1,253 @@
+---
+type: rule
+title: Do you make your background jobs cancellable?
+uri: make-background-jobs-cancellable
+categories:
+  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+  - category: categories/software-engineering/rules-to-better-application-performance.mdx
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+related:
+  - rule: public/uploads/rules/use-async-await-for-all-io-bound-operations/rule.mdx
+  - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
+guid: e395d01e-832a-47bf-b53b-e9d2be1c77bd
+seoDescription: 'Accept a CancellationToken in every background job and hosted service, pass it all the way down to EF Core and HTTP calls, and check it between units of work, so a job stops cleanly when a user cancels it or the app shuts down.'
+created: 2026-11-02T21:10:19.359Z
+createdBy: Gordon Beeming
+createdByEmail: me@gordonbeeming.com
+lastUpdated: 2026-11-04T05:57:23.278Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: me@gordonbeeming.com
+isArchived: false
+archivedreason: null
+---
+
+Someone starts a job that recalculates the power level of every hero, realises they picked the wrong team, and deletes the job from the dashboard. The dashboard says it's gone. On the server, the job keeps going for another 40 minutes, writing results nobody wants and sending notifications to every hero on the wrong team. The next deployment has to wait for it too, or kills it halfway through a save.
+
+<endIntro />
+
+Cancellation in .NET is cooperative. Nothing can safely stop your code from the outside, so a job only stops early if it accepts a `CancellationToken`, passes it to everything it calls, and checks it at sensible points. Leave any of those out and the job runs to the end, no matter who asked it to stop.
+
+## Why make background jobs cancellable?
+
+* **No wasted work** - A cancelled job stops using CPU, memory, database connections and API quotas straight away
+* **No unwanted side effects** - Emails, notifications and writes stop when the user says stop, instead of finishing a job that should never have completed
+* **Graceful shutdown** - When the host shuts down for a deployment or a scale-in, the same token fires, so jobs stop at a safe point instead of being killed mid-save
+* **A familiar pattern** - It's the built-in .NET `CancellationToken`, so it works the same in hosted services, job frameworks, handlers, EF Core and `HttpClient`
+
+## Accept a CancellationToken in every job
+
+Job frameworks like Hangfire can pass a `CancellationToken` into the job method. The token is cancelled when the job is deleted from the dashboard or through the API, and when the server is shutting down. If the job method doesn't take one, there is nothing to cancel.
+
+```csharp
+public class RecalculateHeroPowerLevelsJob(ApplicationDbContext dbContext)
+{
+    public async Task Execute(Guid teamId)
+    {
+        var heroes = await dbContext.Heroes
+            .Where(h => h.TeamId == teamId)
+            .ToListAsync();
+
+        foreach (var hero in heroes)
+        {
+            hero.RecalculatePowerLevel();
+            await dbContext.SaveChangesAsync();
+        }
+    }
+}
+```
+
+**❌ Figure: Bad example - With no CancellationToken, deleting the job from the dashboard doesn't stop it. It runs until every hero is done**
+
+```csharp
+public class RecalculateHeroPowerLevelsJob(ApplicationDbContext dbContext)
+{
+    public async Task Execute(Guid teamId, CancellationToken ct)
+    {
+        var heroes = await dbContext.Heroes
+            .Where(h => h.TeamId == teamId)
+            .ToListAsync(ct);
+
+        foreach (var hero in heroes)
+        {
+            ct.ThrowIfCancellationRequested();
+
+            hero.RecalculatePowerLevel();
+            await dbContext.SaveChangesAsync(ct);
+        }
+    }
+}
+
+// Hangfire swaps CancellationToken.None for the job's real token when it runs the job
+backgroundJobs.Enqueue<RecalculateHeroPowerLevelsJob>(
+    job => job.Execute(teamId, CancellationToken.None));
+```
+
+**✅ Figure: Good example - The job takes a CancellationToken, passes it to EF Core and checks it before each hero, so it stops within one iteration of being cancelled**
+
+Use the built-in `CancellationToken`, not Hangfire's older `IJobCancellationToken`. Hangfire now treats `IJobCancellationToken` as obsolete. The built-in token doesn't hit job storage every time you check it, so it's safe to check in tight loops, and it is the same type every other .NET API accepts.
+
+When the token fires because the server is shutting down, Hangfire puts the job back in its queue and runs it again after the restart. Make long jobs safe to run again, for example by skipping heroes that were already recalculated.
+
+## Pass the token all the way down
+
+Accepting a token is only half the job. Every async call the job makes (MediatR handlers, EF Core queries, `SaveChangesAsync`, `HttpClient`, `Task.Delay`) needs the token too. A single call without it is a point where the job can't be stopped, and in a long job that call is usually the slow one.
+
+```csharp
+public async Task Execute(Guid missionId, CancellationToken ct)
+{
+    // Token accepted, but never used
+    var mission = await sender.Send(new GetMissionQuery(missionId));
+
+    var heroes = await dbContext.Heroes
+        .Where(h => h.MissionId == missionId)
+        .ToListAsync();
+
+    await notificationClient.NotifyHeroes(heroes);
+}
+```
+
+**❌ Figure: Bad example - The job accepts a token but doesn't pass it on, so a slow query or HTTP call still runs to the end after cancellation**
+
+```csharp
+public async Task Execute(Guid missionId, CancellationToken ct)
+{
+    var mission = await sender.Send(new GetMissionQuery(missionId), ct);
+
+    var heroes = await dbContext.Heroes
+        .Where(h => h.MissionId == missionId)
+        .ToListAsync(ct);
+
+    await notificationClient.NotifyHeroes(heroes, ct);
+}
+```
+
+**✅ Figure: Good example - The token flows into the handler, EF Core and the HTTP client, so any of them can stop as soon as the job is cancelled**
+
+Give your own methods a `CancellationToken` parameter too, and pass it on. Handlers in the mediator pattern already receive one in `Handle`, so use it rather than ignoring it.
+
+## Check the token at safe points
+
+Passing the token down makes I/O stop early. Work that loops over many items also needs an explicit check between units of work, such as between chunks or between heroes. Check at the boundary, not halfway through a unit, so a cancelled job doesn't start new work. Cancellation isn't a rollback, though: a chunk that is already running can still stop partway, so keep each chunk's writes in one SaveChanges or transaction, and make external side effects safe to run again.
+
+```csharp
+foreach (var chunk in heroIds.Chunk(500))
+{
+    ct.ThrowIfCancellationRequested();
+
+    await using var dbContext = await dbContextFactory.CreateDbContextAsync(ct);
+    await SyncHeroes(dbContext, chunk, ct);
+    await dbContext.SaveChangesAsync(ct);
+}
+```
+
+**✅ Figure: Good example - The check sits at the chunk boundary, so a cancelled job stops before starting the next chunk, and each chunk's changes are saved together by SaveChangesAsync**
+
+See [bulk processing in chunks](/bulk-process-in-chunks) and [scoping your DbContext to the unit of work](/scope-dbcontext-in-long-running-jobs) for how to size and scope those units of work.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Use `ThrowIfCancellationRequested()` when the job should simply stop. Check `IsCancellationRequested` instead when it needs to tidy up first, such as marking a mission sync as "Cancelled" so the user can see what happened.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Use the stopping token in hosted services
+
+A `BackgroundService` gets a `stoppingToken` in `ExecuteAsync`. It is cancelled when the host shuts down, and the host only waits a limited time for the service to stop. A loop that ignores it holds up every deployment and then gets killed anyway.
+
+```csharp
+public class MissionDeadlineMonitor(IServiceScopeFactory scopeFactory) : BackgroundService
+{
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        while (true)
+        {
+            using var scope = scopeFactory.CreateScope();
+            var sender = scope.ServiceProvider.GetRequiredService<ISender>();
+
+            await sender.Send(new FlagOverdueMissionsCommand());
+            await Task.Delay(TimeSpan.FromMinutes(1));
+        }
+    }
+}
+```
+
+**❌ Figure: Bad example - The loop never checks stoppingToken and the delay can't be interrupted, so shutdown waits until the host gives up and kills it**
+
+```csharp
+public class MissionDeadlineMonitor(IServiceScopeFactory scopeFactory) : BackgroundService
+{
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        using var timer = new PeriodicTimer(TimeSpan.FromMinutes(1));
+
+        while (await timer.WaitForNextTickAsync(stoppingToken))
+        {
+            using var scope = scopeFactory.CreateScope();
+            var sender = scope.ServiceProvider.GetRequiredService<ISender>();
+
+            await sender.Send(new FlagOverdueMissionsCommand(), stoppingToken);
+        }
+    }
+}
+```
+
+**✅ Figure: Good example - The timer and the command both use stoppingToken, so the service stops promptly when the host shuts down**
+
+## Don't treat cancellation as a failure
+
+When a job is cancelled, the token throws an `OperationCanceledException` (or a `TaskCanceledException`, which derives from it). A broad `catch (Exception)` that logs an error and carries on turns a deliberate cancel into a false alarm, or worse, lets the job keep going.
+
+```csharp
+foreach (var hero in heroes)
+{
+    try
+    {
+        await SyncHero(hero, ct);
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Failed to sync hero {HeroId}", hero.Id);
+    }
+}
+```
+
+**❌ Figure: Bad example - Cancellation is caught and logged as an error, so the loop moves on and the job finishes as if it had succeeded**
+
+```csharp
+foreach (var hero in heroes)
+{
+    try
+    {
+        await SyncHero(hero, ct);
+    }
+    catch (OperationCanceledException) when (ct.IsCancellationRequested)
+    {
+        logger.LogInformation("Hero sync cancelled before hero {HeroId}", hero.Id);
+        throw;
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Failed to sync hero {HeroId}", hero.Id);
+    }
+}
+```
+
+**✅ Figure: Good example - Cancellation is logged as information and rethrown, so the job stops and the framework knows it didn't complete, while real failures are still logged as errors**
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Test it. Call the job with a token from a `CancellationTokenSource` that you cancel during the run, and assert that it stops and that no work happens after the cancel. If the job is hard to test this way, it's probably hard to cancel in production too.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+Cancelling a job is only useful if users can do it. For long-running work a user starts, show progress and give them a way to cancel. See [showing a progress bar and letting users cancel](/long-process-do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel).

@@ -1,0 +1,101 @@
+---
+type: rule
+title: Do you let your prompts learn from feedback?
+seoDescription: Turn recurring AI failures into focused prompt updates, preserve useful instructions, and require evals and human approval before releasing each new version.
+guid: 9d84f04a-8e2a-4d57-9ee4-10ead30b9d0a
+uri: let-prompts-learn-from-feedback
+created: 2026-10-18T01:14:46.000Z
+authors:
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+related:
+  - rule: public/uploads/rules/feed-data-to-ai/rule.mdx
+  - rule: public/uploads/rules/run-evals-on-ai-features/rule.mdx
+  - rule: public/uploads/rules/test-prompts-then-iterate/rule.mdx
+  - rule: public/uploads/rules/run-retros-on-your-ai-agent/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+archivedreason: null
+isArchived: false
+---
+
+Reviewers correct the same mistake in your AI support replies every week. Each answer improves, but the next request starts with the same flawed instructions.
+
+For a recurring AI task, turn verified feedback into a small, versioned prompt change. Run evaluations (evals) on earlier cases and unseen examples, then require human approval before release. Here, "learning" means updating the instructions supplied to the model, not training its weights.
+
+<endIntro />
+
+## Turn a correction into a reusable instruction
+
+Start with one recurring failure and an approved prompt you can roll back to:
+
+1. **Capture** the input, output, prompt version and reviewer's correction in an access-controlled record. Retain only permitted data; use sanitised cases in shared eval sets.
+2. **Diagnose** the cause. Missing instructions can justify a prompt change; stale source data or a broken lookup needs a data or tool fix.
+3. **Propose** one entry with a trigger, an action and an exception. Link it to the failure and the authoritative source that supports the correction.
+4. **Evaluate** the candidate against the current version before a human approves it. Keep live runs on the approved version until that decision.
+
+A thumbs-down is a reason to investigate, not an instruction to add. Check feedback against trusted policy or task evidence. Customer messages and retrieved text must not become trusted instructions merely because an agent repeats them.
+
+## Fix the next support reply, not just this one
+
+**Example data:** Northwind's support assistant drafts a reply to ticket NW-104: "Will my order arrive by Friday, 13 November?" The order record has a scheduled dispatch date of 9 November but no delivery estimate. Prompt v1 says to answer briefly using the order record.
+
+It drafts "Your order will arrive by Friday." The reviewer corrects it: dispatch is not delivery, and the record does not support that promise. The following replies are illustrative, not measured model results.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Change:** The reviewer fixes this reply to say the delivery date is unconfirmed, but leaves prompt v1 unchanged.
+
+    **Next request:** The customer asks the same question in a new session. The assistant again drafts "Your order will arrive by Friday."
+
+    The correction lives only in the first reply, so the recurring task still lacks the distinction between dispatch and delivery.
+  </>}
+  figurePrefix="bad"
+  figure="Fixing one answer leaves the unsupported delivery promise possible on the next request"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Proposed entry for v2:** "For delivery questions, distinguish dispatch from arrival. Give an arrival estimate only when the authorised tracking record provides one, and describe it as an estimate. Otherwise say the delivery date is unconfirmed and offer a tracking check."
+
+    **Expected reply to the same request:** "Your order is scheduled to dispatch on 9 November. Its delivery date is unconfirmed; support can check tracking for you."
+
+    **Human gate:** Keep v2 as a candidate. A support owner checks the entry against the dispatch and tracking fields, reviews the eval results, then approves the version for release. Failed checks leave v2 unreleased; reviewers continue checking replies.
+  </>}
+  figurePrefix="good"
+  figure="A focused instruction addresses the repeated mistake and reaches production only after review"
+/>
+
+Replay NW-104 as a regression case, but do not count it as unseen evidence after using it to design the change. Keep separate cases for orders with an actual delivery estimate, missing dispatch dates and customer text asking the assistant to invent a promise.
+
+## Preserve useful detail as the playbook grows
+
+[Agentic Context Engineering (ACE), Zhang et al.](https://arxiv.org/html/2510.04618v3) treats context as an evolving playbook. Its Generator runs tasks, its Reflector extracts lessons, and its Curator proposes structured updates that are merged into existing entries. It adapts context rather than model weights, both offline and during agent execution.
+
+The paper describes two risks:
+
+* **Brevity bias** - Short, generic instructions lose useful task-specific detail
+* **Context collapse** - Repeated whole-context rewrites compress away accumulated knowledge
+
+Use the ACE-style principle without needing its full framework: update the affected entry and preserve the rest. Prune duplicate, obsolete or harmful entries after checking their effect; do not grow the prompt indefinitely or shorten it just for appearance.
+
+## Automate proposals when you can measure them
+
+The [GEPA paper, Agrawal et al.](https://arxiv.org/html/2507.19457v2) describes a prompt optimiser that reflects on execution traces and textual feedback, proposes changes and tests candidates. Pareto-based selection preserves candidates that perform well on different evaluation cases. Model weights remain fixed.
+
+[DSPy's GEPA implementation](https://dspy.ai/current/api/optimizers/GEPA/overview/) is an option when you have representative examples, a scoring metric, useful feedback and a budget for repeated runs. Its validation cases guide candidate selection, so reserve a separate test set for the release decision.
+
+For a small flow of reviewer corrections, start with a manually curated playbook. Both approaches can use execution feedback; neither replaces release checks or human approval.
+
+## Gate and maintain every released version
+
+* **Define the gate before optimising.** For Northwind, reject any candidate that invents a delivery date, loses correct dispatch information or follows customer instructions to bypass policy. Require the target failure to improve and other quality checks to meet their agreed thresholds. Use [evals](/run-evals-on-ai-features) on representative held-out cases; repeat runs where output variability matters.
+* **Version and review.** Store the prompt, source references, change reason and eval results together. Require human approval for every promotion, including automated proposals. Keep the previous version available; roll back if sampled live replies show a regression.
+* **Preserve scope.** Save reusable behaviour, not customer details, transient order facts or one customer's preferences in a shared prompt. Keep policy and permissions enforced by the application, outside the editable playbook.
+* **Review growth.** Recheck entries when policy, tools or the model change. Put detailed guidance in a [skill's supporting files](/ai-agents-with-skills) when it is needed only for some tasks.
+* **Consider caching after correctness.** Put stable instructions before changing entries and request data. An unchanged prefix may remain reusable, subject to the [provider's caching rules](https://platform.claude.com/docs/en/build-with-claude/prompt-caching). See [prompt caching](/do-you-follow-best-practices-for-prompt-caching); do not retain a harmful entry to save a cache hit.
+
+For a one-off conversation, start with [testing and iterating on prompts](/test-prompts-then-iterate). For coding-agent configuration, use [agent retrospectives](/run-retros-on-your-ai-agent). This loop applies to releasing improved instructions for a recurring application task, such as support replies. For choosing the data supplied to that task, see [feeding data to AI](/feed-data-to-ai).
