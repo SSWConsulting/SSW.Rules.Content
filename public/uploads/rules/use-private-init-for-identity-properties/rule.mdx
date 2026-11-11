@@ -1,0 +1,123 @@
+---
+type: rule
+title: Do you use private init for identity properties?
+seoDescription: Use private init for the properties that define what an entity is, such as its Id and the parent it belongs to, and private set for state, so identity can't be changed by accident after the entity is created.
+guid: c8ce9515-d0cc-4b58-ba45-eb14a788cfbd
+uri: use-private-init-for-identity-properties
+created: 2026-11-09T20:46:00.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/encapsulate-domain-models/rule.mdx
+  - rule: public/uploads/rules/strongly-typed-ids/rule.mdx
+  - rule: public/uploads/rules/anemic-vs-rich-domain-models/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-domain-driven-design.mdx
+archivedreason: null
+isArchived: false
+---
+
+Some properties on an entity define **what it is**: its `Id`, and often the parent it belongs to. Others describe **what state it is in**, like a name, a status or a power level. When every property uses `private set`, the two look identical, so nothing stops a method inside the entity from quietly reassigning its own `Id`.
+
+Use `private init` for identity properties and `private set` for state properties. The compiler then lets identity be set only while the object is being created, and the class declaration shows at a glance which properties define the entity.
+
+<endIntro />
+
+## Identity vs state
+
+* **Identity properties** - Set once when the entity is created and never changed. If one of them needs to change, you create a new entity instead. Examples: `Id`, the `TeamId` a mission belongs to, the `HeroId` on a hero's power assignment
+* **State properties** - Change as part of the entity's normal behaviour, ideally through methods that enforce your business rules. Examples: `Name`, `Status`, `PowerLevel`
+
+```csharp
+public class Mission : AggregateRoot
+{
+    public MissionId Id { get; private set; }
+    public TeamId TeamId { get; private set; }
+    public string Description { get; private set; } = null!;
+    public MissionStatus Status { get; private set; }
+
+    public void Reassign(TeamId newTeamId)
+    {
+        // Compiles, but now the mission's history, events and audit trail
+        // point at a team that never had this mission
+        TeamId = newTeamId;
+    }
+
+    public void Complete()
+    {
+        Status = MissionStatus.Complete;
+    }
+}
+```
+
+**❌ Figure: Bad example - Identity and state both use private set, so a method can quietly change which team a mission belongs to**
+
+```csharp
+public class Mission : AggregateRoot
+{
+    public MissionId Id { get; private init; }
+    public TeamId TeamId { get; private init; }
+    public string Description { get; private set; } = null!;
+    public MissionStatus Status { get; private set; }
+
+    private Mission() { }
+
+    public static Mission Create(TeamId teamId, string description)
+    {
+        return new Mission
+        {
+            Id = new MissionId(Guid.CreateVersion7()),
+            TeamId = teamId,
+            Description = description,
+            Status = MissionStatus.Planned
+        };
+    }
+
+    public void Complete()
+    {
+        Status = MissionStatus.Complete;
+    }
+}
+```
+
+**✅ Figure: Good example - Identity uses private init and can only be set in the factory, while state uses private set and changes through behaviour**
+
+With `private init`, writing `TeamId = newTeamId;` inside a normal method is a compile error. If a mission really has to move to another team, the domain should say so explicitly, for example by cancelling the original mission and creating a new one for the other team.
+
+## Why private init and not private set?
+
+* **Prevents accidental changes** - `private set` only protects identity from code outside the class. `private init` also protects it from the class itself
+* **Self-documenting** - Anyone reading the entity can see straight away which properties define it and which ones are state
+* **Matches how identity works in Domain-Driven Design** - An entity is the same entity for its whole life, so the values that identify it shouldn't change (see [Do you encapsulate domain models in Domain-Driven Design?](/encapsulate-domain-models))
+* **Still works with factories and EF Core** - Init accessors can be set in object initializers and constructors, which is exactly where a factory method creates the entity. EF Core can still populate these properties when it loads an entity from the database
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Combine `private init` with strongly typed IDs, so identity can't be mixed up with another entity's ID or changed after creation. See [Do you use Strongly Typed IDs to avoid Primitive Obsession](/strongly-typed-ids).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## When to use each
+
+Use `private init` for properties that:
+
+* Define the entity's identity, such as `Id` or the parent it belongs to
+* Are fundamental to what the entity is
+* Should never change during the entity's lifetime
+* Would mean creating a new entity if they did need to change
+
+Use `private set` for properties that:
+
+* Represent the entity's state
+* Change as part of normal behaviour
+* Need validation or business rules each time they change
+
+The trade-off is that a class mixes two accessor patterns, and the team needs to understand the difference between `init` and `set`. That small cost is worth it for a model where identity can't drift.
