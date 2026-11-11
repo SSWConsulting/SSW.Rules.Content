@@ -15,6 +15,10 @@
       "Bash(git commit *)",
       "Bash(git mv *)"
     ],
-    "deny": ["Bash(gh * -R*)", "Bash(gh * --repo*)"]
+    "deny": [
+      "Bash(gh * -R*)",
+      "Bash(gh * --repo*)",
+      "Bash(git fetch *--upl*)"
+    ]
   }
 }
