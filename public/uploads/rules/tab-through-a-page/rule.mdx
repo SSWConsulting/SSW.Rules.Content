@@ -1,0 +1,236 @@
+---
+type: rule
+title: Do you make sure users can tab through a page?
+seoDescription: Keyboard and screen reader users navigate with the Tab key. Put the mouse away, check the first Tab stop is a skip link, then automate the tab order check with Playwright and AI.
+guid: ffc49061-8150-4f02-94b7-24d2197e8f40
+uri: tab-through-a-page
+created: 2026-09-17T02:41:30.000Z
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - rule: public/uploads/rules/wcag-compliance/rule.mdx
+  - rule: public/uploads/rules/playwright-with-ai/rule.mdx
+  - rule: public/uploads/rules/automated-ui-testing/rule.mdx
+categories:
+  - category: categories/design/rules-to-better-accessibility.mdx
+archivedreason: null
+isArchived: false
+---
+
+Many people never touch a mouse. Screen reader users, people with motor impairments, and power users all move through a page with the Tab key. A page that looks fine with a mouse can be unusable for them: focus jumps around in a random order, the focus ring is invisible, a modal traps focus with no way out, or a custom dropdown cannot be reached at all.
+
+The fix is cheap to check and expensive to skip. Put the mouse away and press Tab.
+
+<endIntro />
+
+Keyboard access is the foundation of [WCAG's Operable principle](/wcag-compliance). If a page passes the keyboard test, it is usually most of the way to working with a screen reader too.
+
+## Test it manually
+
+Load the page, keep your hands on the keyboard, and press Tab from the top. Check each of the following:
+
+1. **The first stop is a skip link** - The first Tab lands on a "Skip to main content" link. It is hidden until focused, and pressing Enter moves focus to the `<main>` element (WCAG 2.4.1 Bypass Blocks)
+2. **Focus follows reading order** - Focus moves left to right, top to bottom, in the same order a sighted user reads the page (WCAG 2.4.3 Focus Order)
+3. **Everything is reachable and operable** - Every link, button, input, menu, and custom control receives focus, and Enter, Space, or the arrow keys operate it (WCAG 2.1.1 Keyboard)
+4. **Focus is always visible** - You can always see which element has focus. Do not remove the outline without providing a replacement (WCAG 2.4.7 Focus Visible)
+5. **No focus traps** - You can always Tab out of a component. A modal may hold focus on purpose, but Esc closes it and returns focus to the element that opened it (WCAG 2.1.2 No Keyboard Trap)
+6. **Shift+Tab goes backwards** - The reverse order is the same as the forward order
+
+If you hit a stop where you cannot tell what has focus, or you Tab 20 times and never reach the content, the page fails.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tab 1:** Cookie banner "Accept" button
+
+    **Tab 2:** Cookie banner "Manage preferences" button
+
+    **Tab 3 to 17:** Fifteen navigation links in the header
+
+    **Tab 18:** Search box
+
+    **Tab 19:** Logo link (a second one, hidden in the mobile menu)
+
+    **Tab 20:** The first heading in the page content
+  </>}
+  figurePrefix="bad"
+  figure="Twenty Tab presses before a keyboard user reaches the content, and one of the stops is invisible"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tab 1:** "Skip to main content" link appears at the top of the page
+
+    **Enter:** Focus moves to the main content
+
+    **Tab 2:** The first link inside the content
+  </>}
+  figurePrefix="good"
+  figure="One Tab press and one Enter press to reach the content. The navigation is still there for anyone who wants it"
+/>
+
+## Add a skip link
+
+A skip link is the most reliable way to meet WCAG 2.4.1 Bypass Blocks (landmarks and headings help too, but not every assistive technology exposes them). It is an ordinary anchor placed first in the DOM. It is positioned off screen until it receives focus, so sighted mouse users never see it.
+
+```html
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <nav>...</nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    ...
+  </main>
+</body>
+```
+
+```css
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+```
+
+The `tabindex="-1"` on `<main>` matters. Without it, some browsers scroll to the element but leave keyboard focus where it was, so the next Tab press goes back into the navigation. See [WebAIM's guide to skip navigation links](https://webaim.org/techniques/skipnav/) and the [MDN reference for :focus-visible](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible) for styling focus states.
+
+## Automate it with Playwright
+
+Manual testing catches the problem once. A Playwright test catches it every time someone adds a modal, a cookie banner, or a `tabindex="5"`.
+
+The test below is parameterised by `BASE_URL`, so the same file runs against any site:
+
+```bash
+BASE_URL=https://example.com npx playwright test tab-order
+BASE_URL=http://localhost:3000 npx playwright test tab-order
+```
+
+```typescript
+// tests/tab-order.spec.ts
+import { test, expect, type Page } from '@playwright/test';
+
+const url = process.env.BASE_URL ?? 'http://localhost:3000';
+const maxTabStops = 30;
+
+async function describeFocus(page: Page) {
+  return page.evaluate(() => {
+    const el = document.activeElement as HTMLElement | null;
+    if (!el || el === document.body) {
+      return null;
+    }
+    // Stamp each element the first time it gets focus, so two elements with the same
+    // text (e.g. two "Read more" links) are never mistaken for the same stop.
+    const key = (el.dataset.tabStopId ??= crypto.randomUUID());
+    const rect = el.getBoundingClientRect();
+    const style = getComputedStyle(el);
+    return {
+      key,
+      tag: el.tagName.toLowerCase(),
+      text: (el.innerText || el.getAttribute('aria-label') || '').trim().slice(0, 40),
+      tabIndex: el.tabIndex,
+      visible: rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.opacity !== '0',
+    };
+  });
+}
+
+test.describe(`keyboard navigation on ${url}`, () => {
+  test.setTimeout(60_000);
+
+  test.beforeEach(async ({ page }) => {
+    // Pages with analytics or open connections may never fire "load", and client-rendered
+    // pages have nothing to focus at DOMContentLoaded, so wait for a focusable element instead.
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.locator('a[href], button, input, select, textarea, [tabindex]').first().waitFor();
+  });
+
+  test('first Tab is a skip link that moves focus to main', async ({ page }) => {
+    await page.keyboard.press('Tab');
+
+    const skipLink = page.locator(':focus');
+    await expect(skipLink).toBeVisible();
+    await expect(skipLink).toHaveText(/skip to (main )?content/i);
+
+    await page.keyboard.press('Enter');
+
+    const focusIsInMain = await page.evaluate(() => {
+      const main = document.querySelector('main, [role="main"]');
+      return main !== null && (main === document.activeElement || main.contains(document.activeElement));
+    });
+    expect(focusIsInMain, 'Enter on the skip link should move focus into <main>').toBe(true);
+  });
+
+  test('every Tab stop is visible, in order, and never repeats', async ({ page }) => {
+    const stops: { key: string; label: string }[] = [];
+    let reachedEnd = false;
+
+    for (let i = 1; i <= maxTabStops; i++) {
+      await page.keyboard.press('Tab');
+      const focus = await describeFocus(page);
+
+      if (focus === null) {
+        // Focus left the document, so the page has fewer than maxTabStops elements.
+        reachedEnd = true;
+        break;
+      }
+
+      const label = `<${focus.tag}> "${focus.text}"`;
+      expect(focus.visible, `Tab ${i} landed on an invisible ${label}`).toBe(true);
+      // Catches elements that are focusable but parked off screen, such as links in a closed off-canvas menu.
+      await expect(page.locator(':focus'), `Tab ${i}: ${label} is off screen`).toBeInViewport();
+      expect(focus.tabIndex, `Tab ${i}: <${focus.tag}> uses a positive tabindex, which breaks reading order`).toBeLessThanOrEqual(0);
+
+      stops.push({ key: focus.key, label });
+    }
+
+    expect(stops.length, 'Nothing on the page received focus').toBeGreaterThan(0);
+
+    // A repeated stop means a focus trap, or a component that steals focus back.
+    const keys = stops.map((stop) => stop.key);
+    const repeated = stops.filter((stop, index) => keys.indexOf(stop.key) !== index);
+    expect(repeated.map((stop) => stop.label), 'Focus revisited these stops').toEqual([]);
+
+    // Shift+Tab must walk the same path backwards, all the way to the first stop.
+    // If Tab left the document, the first Shift+Tab lands on the last stop; otherwise on the one before it.
+    const start = reachedEnd ? stops.length - 1 : stops.length - 2;
+    for (let i = start; i >= 0; i--) {
+      await page.keyboard.press('Shift+Tab');
+      const previous = await describeFocus(page);
+      expect(previous?.key, `Shift+Tab should return to ${stops[i].label}`).toBe(stops[i].key);
+    }
+  });
+});
+```
+
+Run the test on every page template, not only the home page. A dashboard, a settings form, and a modal-heavy checkout each have their own tab order.
+
+Pair the test with [@axe-core/playwright](https://playwright.dev/docs/accessibility-testing) to catch missing labels and contrast problems, but do not rely on it alone. Axe reads the DOM in one snapshot, so it cannot tell you what happens when a person presses Tab.
+
+## Use AI to write and review the test
+
+An AI coding agent can write the Playwright test above for any page from the six checks in this rule. It can also walk the DOM and flag the usual causes of a bad tab order: `tabindex` values above 0, interactive `<div>` elements with no `role` or `tabindex`, and `outline: none` with no `:focus-visible` replacement.
+
+> Write a Playwright test for `/checkout` that presses Tab from page load and asserts the first stop is a "Skip to main content" link, every stop is visible, no stop repeats, and Shift+Tab reverses the order. Then list every element on the page with a positive tabindex or a click handler on a non-interactive element.
+
+Keyboard support also helps AI browser agents. An agent and a screen reader rely on the same thing: a semantic DOM that can be operated without a mouse. A page that a person can tab through is a page an agent can drive.
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** For more ways to drive Playwright from an agent, see [using Playwright with AI agents](/playwright-with-ai)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
