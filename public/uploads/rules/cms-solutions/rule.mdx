@@ -7,6 +7,8 @@ authors:
   url: https://www.ssw.com.au/people/anthony-nguyen
 - title: Hajir Lesani
   url: https://www.ssw.com.au/people/hajir-lesani
+- title: Hark Singh
+  url: https://www.ssw.com.au/people/hark-singh
 created: 2009-03-10 08:44:37+00:00
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
 redirects:
@@ -14,10 +16,13 @@ redirects:
 - do-you-know-the-best-cms-solutions-for-websites
 related:
 - rule: public/uploads/rules/git-based-cms-solutions/rule.mdx
-seoDescription: Kontent.ai vs Contentful - Which Headless CMS Reigns Supreme? Best-in-class
-  headless CMS Kontent.ai offers unparalleled flexibility and customization options for
-  seamless website integration, whereas Contentful provides a more limited but still
-  robust experience.
+- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+- rule: public/uploads/rules/use-contentful-with-markdown/rule.mdx
+- rule: public/uploads/rules/best-static-site-tech-stack/rule.mdx
+- rule: public/uploads/rules/when-to-use-sitefinity/rule.mdx
+seoDescription: TinaCMS vs Contentful - SSW's top 2 CMS picks after 20+ years of
+  consulting. Compare where your content lives, visual editing, AI, pricing and
+  version history, then see the other CMS options for websites.
 title: Do you know the best CMS solutions for websites?
 categories:
   - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
@@ -25,11 +30,49 @@ type: rule
 uri: cms-solutions
 ---
 
-You don’t want to build solutions from scratch, so take what business value you can from a CMS: don't reinvent the wheel.
+You don’t want to build solutions from scratch, so take what business value you can from a CMS: don't reinvent the wheel.
 
 A CMS allows business users to build and manage websites without having to write any code.
 
+In 20+ years, SSW engineers implemented many different CMSs for clients.
+In recent years, the 2 CMSs that SSW chooses most are [TinaCMS](https://tina.io) and [Contentful](https://www.contentful.com).
+
 <endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=8kdwUEj6Hls" description="Video: The Top 2 CMS Picks From 20+ Years of Consulting Experience | Hark Singh | SSW TV (9 min)" />
+
+## TinaCMS vs Contentful
+
+TinaCMS and Contentful are both headless CMSs, so they are not attached to a front end.
+You can use any front end with them: a web app (e.g. Angular or React), a static site (e.g. Astro), or a mobile app.
+
+SSW liked TinaCMS so much that it bought the company.
+
+| | [TinaCMS](https://tina.io) | [Contentful](https://www.contentful.com) |
+| --- | --- | --- |
+| **Where your content lives** | Markdown files in your GitHub repo, next to your website code. You own the content and the code | In Contentful's cloud. You get it through their API as JSON. An export CLI dumps the whole space into 1 big JSON file |
+| **Visual editing** | ✅ Out of the box. Go to `/admin` on your site to get the editor on the left and the preview on the right | ⚠️ Developers must set up content preview first. With the Live Preview SDK, your changes update as you type. Contentful Studio (a drag and drop page builder) is an add-on to the enterprise plan |
+| **Publishing** | Each save makes a commit to GitHub. Your site builds automatically and the change is live in minutes | Changes autosave as you go, then you publish them |
+| **Editorial workflow** | ✅ On the Tina Cloud Team plan, someone on your team reviews and approves each change before it goes live | ✅ Workflows |
+| **AI** | Any AI agent can work with the Markdown files directly. The TinaCMS CLI sets up the project and manages the CMS. The Tina Cloud CLI lets your agents work with Tina Cloud (e.g. create a project) | Official MCP server and CLI |
+| **Free plan** | Open source, so you can self-host it for $0. The Tina Cloud free plan has unlimited collections, 2 users and 100 GB bandwidth a month, with visual editing | 10 users, 2 roles and 50 GB bandwidth a month. The free Starter space caps you at 25 content types, 2 environments and 10,000 records |
+| **Cheapest paid plan** | $29 a month per project ($290 a year) | $300 a month (Lite plan). For more content types or records, a Lite space costs $850 a month on top, and you can buy only 1. After that, you must move to the enterprise plan |
+| **Version history** | Git history. Every save is a commit, so you see who changed each line. You can revert a change | Each publish saves a snapshot. Compare versions side by side, and restore 1 field or the whole entry. Only the master environment records history |
+
+**Source:** [tina.io/pricing](https://tina.io/pricing) and [contentful.com/pricing](https://www.contentful.com/pricing), checked 2 November 2026. Prices in USD.
+
+### Let AI work with your content
+
+With TinaCMS, your content is Markdown in the same repo as your website code.
+So you can ask your AI agent to build a custom component, update the schema, and edit the content in 1 change.
+
+### ✅ Example: SSW Rules runs on TinaCMS
+
+[SSW Rules](https://www.ssw.com.au/rules) has more than 3,000 rules, all edited with TinaCMS.
+
+* **Every save is a commit** - The commit history shows who made each change, line by line
+* **Every change gets a review** - SSW Rules uses the TinaCMS editorial workflow, so you see who reviewed and approved each change
+* **You can undo any change** - Revert it, and the old content comes back
 
 ## Top CMS vendors (including eCommerce and websites)
 
@@ -40,7 +83,7 @@ These CMS platforms work really nicely for simple scenarios. If they fit your bu
 * [Shopify](https://www.shopify.com/pricing)
 * [Joomla](https://www.joomla.org)
 * [Squarespace](https://www.squarespace.com/pricing)
-* [Wix](https://support.wix.com/en/wix-pricing-plans)
+* [Wix](https://www.wix.com/plans)
 * [Drupal](https://www.drupal.org)
 
 **Source:** [WordPress Market Share Statistics](https://kinsta.com/wordpress-market-share)
@@ -50,10 +93,10 @@ These CMS platforms work really nicely for simple scenarios. If they fit your bu
 When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
 * [DotNetNuke](https://www.dnnsoftware.com/answers/dnn-pricing) - (open source / pricing non-transparent)
-* [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) - ($$ approx $40k per year)
-* [SiteCore](https://www.sitecore.com/products) - ($$ approx $50k per year)
+* [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) - ($$ approx $40k per year) - see [when to use Sitefinity](/when-to-use-sitefinity)
+* [Sitecore](https://www.sitecore.com/platform) - ($$ approx $50k per year)
 * [Umbraco](https://umbraco.com/products/umbraco-cms) - (open source / pricing non-transparent)
-* [Kentico Xperience](https://xperience.io/pricing) - (formerly Kentico EMS / $$ approx $20k per year)
+* [Kentico Xperience](https://www.kentico.com/platform/how-to-buy) - (formerly Kentico EMS / $$ approx $20k per year)
 
 **Source:** [5 Top .NET CMS for Businesses in 2026](https://bitsorchestra.com/idea/top-net-based-cms-platforms-for-your-business)
 
@@ -62,7 +105,7 @@ When you have a complex business case, you need something more customizable. Tha
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Google trends of the above .NET CMSs. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper)"
+  figure="Google trends of the above .NET CMSs in October 2022. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper)"
   src="/uploads/rules/cms-solutions/cms-oct2022.png"
 />
 
@@ -72,8 +115,8 @@ When you have a complex business case, you need something more customizable. Tha
 
 * [WordPress VIP](https://wpvip.com/pricing) - (pricing non-transparent)
 * [Sanity.io](https://www.sanity.io/pricing) - (pricing non-transparent)
-* [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html?) - (pricing non-transparent)
-* [Contentful](https://www.contentful.com/pricing) - (pricing non-transparent)
+* [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html) - (pricing non-transparent)
+* [Contentful](https://www.contentful.com/pricing) - (see the comparison above)
 * [Arc XP](https://www.arcxp.com) - (pricing non-transparent)
 
 **Source:** [16 Best Headless CMS For Publishers in 2025](https://www.izooto.com/blog/best-headless-cms)
@@ -88,7 +131,7 @@ When you have a complex business case, you need something more customizable. Tha
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Google trends of the above Headless CMSs. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)"
+  figure="Google trends of the above Headless CMSs in October 2022. The leading is the open-source Strapi, which is inexpensive, but not as feature rich as Contentful (second) and Kontent (third)"
   src="/uploads/rules/cms-solutions/cmsheadless-oct2022.png"
 />
 
@@ -102,7 +145,7 @@ A Headless CMS deals strictly with the content. Created content is accessed via 
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](/best-static-site-tech-stack).
 
-**Source**: [UDig - Traditional CMS vs Headless CMS](https://www.udig.com/digging-in/traditional-cms-vs-headless-cms)
+**Source**: [UDig - Traditional CMS vs Headless CMS](https://www.udig.com/insights/article/traditional-cms-vs-headless-cms)
 
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
@@ -149,59 +192,18 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 * **Super fast** - Fast initial load time when using Static Site Generator (SSG)
 * **Scales very well** - When using Static Site Generator, and the frontend can be cached via CDN
 * **Ultimate flexibility with how to use content** - Can use a Single Page Application (SPA), Static Site Generator (SSG) or even native mobile apps. Not restricted by themes, templates or vendor, and you can have multiple frontends with 1 headless CMS backend
-* **Many options to build frontend** - NextJs, HUGO. Gatsby, React, Angular, etc. This makes it easier and cheaper to find developers
+* **Many options to build frontend** - Next.js, Astro, Hugo, React, Angular, etc. This makes it easier and cheaper to find developers
 * **Easy publishing** - The same content can be published to different platforms at the same time (website, web app, native mobile app)
 
 ### ❌ Headless CMS - Cons
 
 * **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement
 * **Greater overhead** - To maintain the code base, DevOps, etc
-* **Limited preview functionality** - Kontent.ai provides in-context editing via [Spotlight](https://webspotlight.kontent.ai), however most Headless CMSs do not. Netlify CMS can help in this case
+* **Preview can need extra setup** - Many headless CMSs need developers to set up a preview first (e.g. Contentful). TinaCMS has visual editing out of the box
 
 ## Hybrid CMS
 
-Some CMSs (e.g. [Optimizely](https://www.optimizely.com) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features.
-
-## Headless CMS Comparison: Kontent.ai vs Contentful
-
-Let's compare two popular CMSs.
-
-Terms:
-
-**Content Modelling** - The ability to model your website components, and see how they are used in your website
-**Collections** - Allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data
-
-**Website optimisation** - See Kontent.ai's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
-
-| **Name**                              | [Kontent.ai](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |                                                                                                  |        |              |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ | ------------ |
-| **In-Context Editing**                | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                               | ❌                                                                                                       |                                                                                                  |        |              |
-| **Hierarchy**                         | Projects                                                                                                                                                   | Environments                                                                                             | [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | Spaces | Environments |
-| **Personalized Experiences**          | ✅ via [Uniform](https://docs.uniform.app/docs/integrations/content/kontent)                                                                                                 | ✅ via [Uniform](https://docs.uniform.app/docs/integrations/content/contentful/uniform-in-contentful)                                            |                                                                                                  |        |              |
-| **SSO and MFA**                       | ✅                                                                                                                                                         | ✅                                                                                                       |                                                                                                  |        |              |
-| **GraphQL Support**                   | ✅ [Info](https://kontent.ai/blog/graphql-support-in-kontent-for-devs/) | ✅                                                                                                       |                                                                                                  |        |              |
-| **Localization**                      | ✅                                                                                                                                                         | ✅                                                                                                       |                                                                                                  |        |              |
-| **Content Modelling**                 | ✅                                                                                                                                                         | ✅                                                                                                       |                                                                                                  |        |              |
-| **Unlimited Content Types**           | ✅                                                                                                                                                         | ❌                                                                                                       |                                                                                                  |        |              |
-| **Content Collaboration**             | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                              | ❌                                                                                                       |                                                                                                  |        |              |
-| **Task Management**                   | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                         | ✅ [Info](https://www.contentful.com/help/tasks/)                                                        |                                                                                                  |        |              |
-| **Workflows**                         | ✅                                                                                                                                                         | ✅                                                                                                       |                                                                                                  |        |              |
-| **Website Optimisation**              | ✅                                                                                                                                                         | ❌                                                                                                       |                                                                                                  |        |              |
-| **Roadmap Transparency**              | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                        | Good: [Info](https://www.contentful.com/whats-new/)                                                      |                                                                                                  |        |              |
-| **Australian Compliance**             | ✅ stored in an Australian Azure Data Center                                                                                                               | ❌ stored in a United States AWS Data Center                                                             |                                                                                                  |        |              |
-| **Dev/Staging/Prod Data Migration**   | Prod only by default - Add migration script and pipeline                                                                                                   | Prod only by default - Add migration script and pipeline                                                 |                                                                                                  |        |              |
-| **Email Campaigns**                   | Use 3rd party best of breed tool e.g. MailChimp                                                                                                            | Use 3rd party best of breed tool e.g. MailChimp                                                          |                                                                                                  |        |              |
-| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                                                                                | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                              |                                                                                                  |        |              |
-| **Statistics**                        | External Analytics e.g. Google Analytics                                                                                                                   | External Analytics e.g. Google Analytics                                                                 |                                                                                                  |        |              |
-| **CDN**                               | Fastly                                                                                                                                                     | Cloudfront                                                                                               |                                                                                                  |        |              |
-| **Developer Friendly**                | ✅                                                                                                                                                         | ✅                                                                                                       |                                                                                                  |        |              |
-| **Pricing**                           | Usage-based with volume discounts - [Contact for pricing](https://kontent.ai/)                                                                                   | Three pricing tiers - [Contact for pricing](https://www.contentful.com/)                          |                                                                                                  |        |              |
-
----
-
-Assuming you want enterprise features, Kontent.ai is preferred as the Headless CMS of choice over Contentful.
-
-**Source:** [Kontent.ai vs. Contentful](https://kontent.ai/compare/contentful)
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com)) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features.
 
 ### Dead CMSs
 
