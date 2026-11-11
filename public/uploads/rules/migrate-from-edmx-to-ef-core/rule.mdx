@@ -381,9 +381,10 @@ dotnet ef migrations add InitialCreate --context MyDbContext
 # Apply migrations to the database
 dotnet ef database update --context MyDbContext
 
-# Starting from an existing database? Add the initial migration to capture the
-# current schema, then mark it as applied (insert its row into __EFMigrationsHistory)
-# instead of running it - the old `--ignore-changes` flag has been removed.
+# Starting from an existing database? EF Core has no equivalent of EF6's
+# `Add-Migration -IgnoreChanges`. Add the initial migration to capture the
+# current schema, then mark it as applied (insert its MigrationId and
+# ProductVersion into __EFMigrationsHistory) instead of running it.
 
 # Generate an idempotent SQL script (useful for deployments)
 dotnet ef migrations script --context MyDbContext --idempotent --output migrations.sql

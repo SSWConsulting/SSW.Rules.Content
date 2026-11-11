@@ -63,8 +63,8 @@ var builder = WebApplication.CreateBuilder(args);
 // ...
 var app = builder.Build();
 app.Lifetime.ApplicationStarted.Register(() => Console.WriteLine("Init"));
-app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("End"));
-app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Disposed"));
+app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("Stopping"));
+app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Stopped"));
 ```
 **✅ Figure: The above code migrated to ASP.NET Core.**  
 
