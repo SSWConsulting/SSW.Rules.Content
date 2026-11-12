@@ -1,36 +1,37 @@
 ---
-archivedreason: null
-lastUpdated: 2026-11-12T00:49:42.247Z
-lastUpdatedBy: 'Harkirat Singh [SSW]'
-lastUpdatedByEmail: harksingh@ssw.com.au
-authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Anthony Nguyen
-  url: https://www.ssw.com.au/people/anthony-nguyen
-- title: Hajir Lesani
-  url: https://www.ssw.com.au/people/hajir-lesani
-- title: Hark Singh
-  url: https://www.ssw.com.au/people/hark-singh
-created: 2009-03-10 08:44:37+00:00
-guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
-redirects:
-- do-you-know-the-best-cms-solutions-for-your-internet-intranet
-- do-you-know-the-best-cms-solutions-for-websites
-related:
-- rule: public/uploads/rules/git-based-cms-solutions/rule.mdx
-- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
-- rule: public/uploads/rules/use-contentful-with-markdown/rule.mdx
-- rule: public/uploads/rules/when-to-use-contentful/rule.mdx
-- rule: public/uploads/rules/best-static-site-tech-stack/rule.mdx
-- rule: public/uploads/rules/when-to-use-sitefinity/rule.mdx
-seoDescription: TinaCMS and Contentful are SSW's top 2 CMS picks after 20+ years.
-  Compare content storage, visual editing, AI, pricing and version history
+type: rule
 title: Do you know the best CMS solutions for websites?
+uri: cms-solutions
 categories:
   - category: categories/websites-and-cms/rules-to-better-websites-development.mdx
-type: rule
-uri: cms-solutions
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Anthony Nguyen
+    url: 'https://www.ssw.com.au/people/anthony-nguyen'
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
+related:
+  - rule: public/uploads/rules/git-based-cms-solutions/rule.mdx
+  - rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+  - rule: public/uploads/rules/use-contentful-with-markdown/rule.mdx
+  - rule: public/uploads/rules/when-to-use-contentful/rule.mdx
+  - rule: public/uploads/rules/best-static-site-tech-stack/rule.mdx
+  - rule: public/uploads/rules/when-to-use-sitefinity/rule.mdx
+redirects:
+  - do-you-know-the-best-cms-solutions-for-your-internet-intranet
+  - do-you-know-the-best-cms-solutions-for-websites
+guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
+seoDescription: 'TinaCMS and Contentful are SSW''s top 2 CMS picks after 20+ years. Compare content storage, visual editing, AI, pricing and version history'
+created: 2009-03-10T08:44:37.000Z
+createdBy: 'Harkirat Singh [SSW]'
+createdByEmail: sandhukirat23@gmail.com
+lastUpdated: 2026-11-12T01:11:12.594Z
+lastUpdatedBy: 'Harkirat Singh [SSW]'
+lastUpdatedByEmail: sandhukirat23@gmail.com
+archivedreason: null
 ---
 
 You don't want to build solutions from scratch, so take what business value you can from a CMS: don't reinvent the wheel.
@@ -48,13 +49,13 @@ SSW's top 2 picks are [TinaCMS](https://tina.io) (recommended) and [Contentful](
 Both are headless, so you can use any front end: a web app, a static site (e.g. Astro), or a mobile app.
 SSW liked TinaCMS so much that it bought the company.
 
-| | TinaCMS (recommended) | Contentful |
-| --- | --- | --- |
-| **Content** | Markdown files in your GitHub repo | Contentful's cloud, through an API |
-| **Visual editing** | ✅ Built in, on every plan | ⚠️ Developers set up a preview first. Contentful Studio is an enterprise add-on |
-| **AI** | ✅ Any AI agent can edit the Markdown | Official MCP server and CLI |
-| **Price** | Free (open source, or the TinaCloud free plan). Paid plans from $29 a month per project | Free plan with limits. Paid plans from $300 a month |
-| **Version history** | Git: every save is a commit | A snapshot each time you publish |
+|                     | TinaCMS (recommended)                                                                   | Contentful                                                                      |
+| ------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Content**         | Markdown files in your GitHub repo                                                      | Contentful's cloud, through an API                                              |
+| **Visual editing**  | ✅ Built in, on every plan                                                               | ⚠️ Developers set up a preview first. Contentful Studio is an enterprise add-on |
+| **AI**              | ✅ Any AI agent can edit the Markdown                                                    | Official MCP server and CLI                                                     |
+| **Price**           | Free (open source, or the TinaCloud free plan). Paid plans from $29 a month per project | Free plan with limits. Paid plans from $300 a month                             |
+| **Version history** | Git: every save is a commit                                                             | A snapshot each time you publish                                                |
 
 **Source:** [tina.io/pricing](https://tina.io/pricing) and [contentful.com/pricing](https://www.contentful.com/pricing), checked 12 November 2026. Prices in USD. The video covers each area in detail.
 
@@ -86,39 +87,25 @@ A **headless CMS** only manages the content. Your front end gets the content thr
 > Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Traditional CMS Architecture"
-  src="/uploads/rules/cms-solutions/cms-architecture-traditional.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Traditional CMS Architecture" src="/uploads/rules/cms-solutions/cms-architecture-traditional.jpg" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Headless CMS Architecture"
-  src="/uploads/rules/cms-solutions/cms-architecture-headless.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Headless CMS Architecture" src="/uploads/rules/cms-solutions/cms-architecture-headless.jpg" />
 
-| | Traditional CMS | Headless CMS |
-| --- | --- | --- |
+|            | Traditional CMS                                                                                           | Headless CMS                                                                                        |
+| ---------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | **✅ Pros** | Fast to set up. Less reliance on developers. Themes, templates, and built-in integrations (e.g. payments) | Fast, and scales on a CDN. Any front end, including mobile apps. 1 content source for many channels |
-| **❌ Cons** | Slower, and scales poorly. Limited by themes and the vendor. Needs developers with skills in that CMS | Needs front-end developers for more than content changes. More code and DevOps to maintain |
+| **❌ Cons** | Slower, and scales poorly. Limited by themes and the vendor. Needs developers with skills in that CMS     | Needs front-end developers for more than content changes. More code and DevOps to maintain          |
 
 **Source:** [UDig - Traditional CMS vs Headless CMS](https://www.udig.com/insights/article/traditional-cms-vs-headless-cms)
 
 ## Other CMS options
 
-| Type | Use it when | Options |
-| --- | --- | --- |
-| **Traditional - simple** | You need a simple site or shop | [WordPress](https://wordpress.com/pricing), [Shopify](https://www.shopify.com/pricing), [Squarespace](https://www.squarespace.com/pricing), [Wix](https://www.wix.com/plans), [Joomla](https://www.joomla.org), [Drupal](https://www.drupal.org) |
-| **Traditional - enterprise (.NET)** | You have a complex business case | [Kentico](https://www.kentico.com/platform/how-to-buy), [Umbraco](https://umbraco.com/products/umbraco-cms), [Orchard Core](https://orchardcore.net), [Sitecore](https://www.sitecore.com/platform), [DNN](https://www.dnnsoftware.com/answers/dnn-pricing), [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) (see [when to use Sitefinity](/when-to-use-sitefinity)) |
-| **Headless** | You want any front end, with content through an API | TinaCMS, Contentful, [WordPress VIP](https://wpvip.com/pricing), [Sanity](https://www.sanity.io/pricing), [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html), [Arc XP](https://www.arcxp.com), and for .NET: [Squidex](https://squidex.io/pricing#pricing=hosted), [SiteServer](https://github.com/siteserver/cms) |
-| **Hybrid** | You want headless plus a full editing UI, and you have a big budget (entry level is about $50,000) | [Optimizely](https://www.optimizely.com) |
-| **❌ Dead** | Never | Microsoft SharePoint for public sites, CommunityServer.org |
+| Type                                | Use it when                                                                                        | Options                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Traditional - simple**            | You need a simple site or shop                                                                     | [WordPress](https://wordpress.com/pricing), [Shopify](https://www.shopify.com/pricing), [Squarespace](https://www.squarespace.com/pricing), [Wix](https://www.wix.com/plans), [Joomla](https://www.joomla.org), [Drupal](https://www.drupal.org)                                                                                                                                      |
+| **Traditional - enterprise (.NET)** | You have a complex business case                                                                   | [Kentico](https://www.kentico.com/platform/how-to-buy), [Umbraco](https://umbraco.com/products/umbraco-cms), [Orchard Core](https://orchardcore.net), [Sitecore](https://www.sitecore.com/platform), [DNN](https://www.dnnsoftware.com/answers/dnn-pricing), [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) (see [when to use Sitefinity](/when-to-use-sitefinity)) |
+| **Headless**                        | You want any front end, with content through an API                                                | TinaCMS, Contentful, [WordPress VIP](https://wpvip.com/pricing), [Sanity](https://www.sanity.io/pricing), [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html), [Arc XP](https://www.arcxp.com), and for .NET: [Squidex](https://squidex.io/pricing#pricing=hosted), [SiteServer](https://github.com/siteserver/cms)                                                     |
+| **Hybrid**                          | You want headless plus a full editing UI, and you have a big budget (entry level is about $50,000) | [Optimizely](https://www.optimizely.com)                                                                                                                                                                                                                                                                                                                                              |
+| **❌ Dead**                          | Never                                                                                              | Microsoft SharePoint for public sites, CommunityServer.org                                                                                                                                                                                                                                                                                                                            |
 
 **Sources:** [WordPress Market Share Statistics](https://kinsta.com/wordpress-market-share), [5 Top .NET CMS for Businesses in 2026](https://bitsorchestra.com/idea/top-net-based-cms-platforms-for-your-business), and [16 Best Headless CMS For Publishers in 2025](https://www.izooto.com/blog/best-headless-cms)
