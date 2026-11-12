@@ -8,13 +8,13 @@ import matter from "gray-matter";
 
 const RULES = "https://www.ssw.com.au/rules";
 const CHECKS = {
-  title: { label: "Title format", rule: `${RULES}/rule` },
-  listFullStop: { label: "Full stop on list item", rule: `${RULES}/avoid-full-stops` },
-  captionFullStop: { label: "Full stop on caption", rule: `${RULES}/avoid-full-stops` },
-  urlEnding: { label: "URL ends with / or .", rule: `${RULES}/no-full-stop-or-slash-at-the-end-of-urls` },
-  longNumber: { label: "Long number without separators", rule: `${RULES}/make-numbers-more-readable` },
-  linkText: { label: "Non-descriptive link text", rule: `${RULES}/descriptive-links` },
-  language: { label: "Common language pitfall", rule: `${RULES}/avoid-common-mistakes#common-language-pitfalls` },
+  title: { label: "Title format", rule: "rule", ruleTitle: "Do you know all the cool stuff you can do on SSW Rules?" },
+  listFullStop: { label: "Full stop on list item", rule: "avoid-full-stops", ruleTitle: "Do you avoid full stops in lists, captions, and immediately after a URL?" },
+  captionFullStop: { label: "Full stop on caption", rule: "avoid-full-stops", ruleTitle: "Do you avoid full stops in lists, captions, and immediately after a URL?" },
+  urlEnding: { label: "URL ends with / or .", rule: "no-full-stop-or-slash-at-the-end-of-urls", ruleTitle: "Do you avoid including full stop or slash at the end of URLs?" },
+  longNumber: { label: "Long number without separators", rule: "make-numbers-more-readable", ruleTitle: "Do you use separators to improve numbers' readability?" },
+  linkText: { label: "Non-descriptive link text", rule: "descriptive-links", ruleTitle: "Do you make your links descriptive?" },
+  language: { label: "Common language pitfall", rule: "avoid-common-mistakes#common-language-pitfalls", ruleTitle: "Do you avoid common spelling and syntax mistakes?" },
 };
 
 const TITLE_RE = /^(?:.+ [-–—] )?Do you .+\?$/;
@@ -217,15 +217,13 @@ function checkFile(file) {
 
 function formatIssue(i) {
   const c = CHECKS[i.check];
-  return `- Line ${i.line}: **${c.label}** - ${i.msg} ([rule](${c.rule}))`;
+  return `- Line ${i.line}: **${c.label}** - ${i.msg} (as per [${c.ruleTitle}](${RULES}/${c.rule}))`;
 }
 
 function main() {
   const { base, files } = parseArgs(process.argv);
   const reportPath = process.env.CONTENT_REPORT_PATH;
   const sections = [];
-  const existing = [];
-  let newCount = 0;
 
   for (const file of files) {
     if (!fs.existsSync(file)) continue;
@@ -238,14 +236,18 @@ function main() {
     for (const i of mine) {
       console.log(`::warning file=${file},line=${i.line},title=${CHECKS[i.check].label}::${i.msg}`);
     }
-    if (mine.length) sections.push(`**\`${file}\`**\n\n${mine.map(formatIssue).join("\n")}`);
-    if (old.length) existing.push(`**\`${file}\`**\n\n${old.map(formatIssue).join("\n")}`);
-    newCount += mine.length;
     console.log(`${file}: ${mine.length} in changed lines, ${old.length} existing`);
+    if (!mine.length && !old.length) continue;
+
+    const section = [`**\`${file}\`**`, ""];
+    if (mine.length) section.push(`⚠️ ${mine.length} warning(s) in lines changed by this PR:`, "", ...mine.map(formatIssue), "");
+    else section.push("✅ No warnings in lines changed by this PR.", "");
+    if (old.length) section.push(`${old.length} existing warning(s), not introduced by this PR:`, "", ...old.map(formatIssue), "");
+    sections.push(section.join("\n"));
   }
 
   if (!reportPath) return;
-  if (!sections.length && !existing.length) {
+  if (!sections.length) {
     fs.rmSync(reportPath, { force: true });
     return;
   }
@@ -256,20 +258,9 @@ function main() {
     "",
     "_Warnings only - this check never blocks the PR._",
     "",
+    sections.join("\n"),
   ];
-  if (sections.length) lines.push(`${newCount} warning(s) in lines changed by this PR:`, "", sections.join("\n\n"), "");
-  else lines.push("✅ No warnings in lines changed by this PR.", "");
-  if (existing.length) {
-    lines.push(
-      "<details>",
-      "<summary>Existing warnings in these files (not introduced by this PR)</summary>",
-      "",
-      existing.join("\n\n"),
-      "",
-      "</details>",
-    );
-  }
-  fs.writeFileSync(reportPath, lines.join("\n") + "\n", "utf8");
+  fs.writeFileSync(reportPath, lines.join("\n"), "utf8");
 }
 
 try {
