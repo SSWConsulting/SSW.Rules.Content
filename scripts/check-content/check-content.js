@@ -180,7 +180,7 @@ function checkLine(raw) {
     issues.push(["longNumber", `"${n}" - add separators, e.g. ${Number(n).toLocaleString("en-US")}`]);
   }
 
-  const usedWords = prose.replace(/"[^"]*"|“[^”]*”|(?<!\*)\*(?!\*)[^*]+\*(?!\*)/g, " ");
+  const usedWords = prose.replace(/^\s*(?:[*+-]|\d+[.)])\s+/, " ").replace(/"[^"]*"|“[^”]*”|‘[^’]*’|(?<!\w)'[^'\n]+'(?!\w)|(?<!\*)\*(?!\*)[^*]+\*(?!\*)/g, " ");
   for (const [re, msg] of PITFALLS) {
     if (usedWords.match(re)) issues.push(["language", `Use ${msg}`]);
   }
