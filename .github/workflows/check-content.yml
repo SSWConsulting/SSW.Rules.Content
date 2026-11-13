@@ -1,0 +1,94 @@
+name: Check-Content
+
+# Warning-only content style checks. This workflow never fails a PR.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches: [ main ]
+    paths:
+      - "public/uploads/rules/**/rule.mdx"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: check-content-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-content:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
+
+    steps:
+      # Check out the branch tip, not the triggering commit, to include auto-fixes pushed by other workflows
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Get changed rules
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="origin/${{ github.base_ref }}"
+            changed="$(git diff --name-only --diff-filter=ACMR "$base"...HEAD -- 'public/uploads/rules/**/rule.mdx' | paste -sd "," -)"
+          else
+            base=""
+            changed="$(git ls-files 'public/uploads/rules/**/rule.mdx' | paste -sd "," -)"
+          fi
+          echo "base=$base" >> "$GITHUB_ENV"
+          echo "changed=$changed" >> "$GITHUB_ENV"
+
+      - name: Run content check
+        continue-on-error: true
+        if: ${{ env.changed != '' }}
+        env:
+          CONTENT_REPORT_PATH: ${{ runner.temp }}/content-check-report.md
+        run: |
+          npm install --prefix scripts/check-content --silent
+          base_arg=""
+          if [ -n "$base" ]; then base_arg="--base $base"; fi
+          node scripts/check-content/check-content.js $base_arg "$changed"
+          if [ -f "$CONTENT_REPORT_PATH" ]; then cat "$CONTENT_REPORT_PATH" >> "$GITHUB_STEP_SUMMARY"; fi
+
+      - name: Comment on PR
+        continue-on-error: true
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        uses: actions/github-script@v9
+        env:
+          CONTENT_REPORT_PATH: ${{ runner.temp }}/content-check-report.md
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- content-check -->';
+            const reportPath = process.env.CONTENT_REPORT_PATH;
+            const hasReport = fs.existsSync(reportPath);
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
+
+            if (!hasReport && !existing) return;
+
+            // Some TinaCMS PRs are opened by a bot: mention the assigned editor, or no one
+            const pr = context.payload.pull_request;
+            const isBot = pr.user.type === 'Bot';
+            const login = isBot ? pr.assignees?.[0]?.login : pr.user.login;
+            const title = '### ✍️ Content check';
+            const greeting = `${title}\n\n👋 Hi${login ? ` @${login}` : ''},`;
+
+            const body = hasReport
+              ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
+              : `${marker}\n${greeting}\n\n✅ No content warnings.\n\n_This check doesn't block the PR._\n`;
+
+            if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number, body });
