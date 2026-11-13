@@ -8,9 +8,9 @@ Each warning links to the SSW Rule it comes from. Warnings in lines changed by t
 
 Rules often show bad examples on purpose, so these are never checked:
 
-- Fenced code blocks and inline code
-- Greyboxes (`style="greybox"`), bad examples (`figurePrefix="bad"`) and `<emailEmbed>` bodies
-- Words in quotes or italics, e.g. `use "email" not *e-mail*` (a mention, not a use)
+* Fenced code blocks and inline code
+* Greyboxes (`style="greybox"`), bad examples (`figurePrefix="bad"`) and `<emailEmbed>` bodies
+* Words in quotes or italics, e.g. `use "email" not *e-mail*` (a mention, not a use)
 
 Captions (`figure="..."`) are always checked.
 
