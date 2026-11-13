@@ -150,10 +150,16 @@ function classify(lines, firstLine) {
 
 /* --------------------------------- checks --------------------------------- */
 
-function checkTitle(title) {
+export function checkTitle(title) {
   const t = String(title ?? "").replace(/[​-‍﻿]/g, "").trim();
-  if (TITLE_RE.test(t)) return [];
   const msgs = [];
+  // Titles use sentence case. Names make most words hard to check, but the word right after "Do you" is never a name
+  const capitalised = t.match(/(?:^| [-–—] )Do you ([A-Z][a-z]+(?:-[A-Za-z]+)?)\b/);
+  if (capitalised) {
+    const word = capitalised[1];
+    msgs.push(`Use sentence case - write "${word.toLowerCase()}" not "${word}" after "Do you"`);
+  }
+  if (TITLE_RE.test(t)) return msgs.map((m) => `${m}: "${t}"`);
   if (t.includes("?") && !t.endsWith("?")) {
     msgs.push(`Text after the "?" - put brackets or other info before the question mark, e.g. "Do you have a war room (summary)?"`);
   } else if (!t.endsWith("?")) {
@@ -161,7 +167,7 @@ function checkTitle(title) {
   }
   if (!/(^| [-–—] )Do you /.test(t)) {
     msgs.push(/(^| [-–—] )do you /i.test(t)
-      ? 'Write "Do you" with a capital D and lowercase "you"'
+      ? 'Write "Do you" with a capital D and lowercase "you", and use sentence case for the rest of the title'
       : 'Title should start with "Do you" (a prefix like "Category - Do you..." is OK)');
   }
   return msgs.map((m) => `${m}: "${t}"`);

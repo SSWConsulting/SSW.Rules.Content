@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { checkFile, renderReport } from "../check-content.js";
+import { checkFile, checkTitle, renderReport } from "../check-content.js";
 
 const fixture = path.join(path.dirname(fileURLToPath(import.meta.url)), "fixture.mdx");
 const issues = checkFile(fixture);
@@ -29,6 +29,17 @@ test("flags every planted problem", () => {
 test("skips code, greyboxes, emails, mentions, years and spaced phone numbers", () => {
   const leaked = issues.filter((i) => i.line >= noWarnLine && !(i.check === "captionFullStop"));
   assert.deepEqual(leaked, []);
+});
+
+test("checks rule titles", () => {
+  // Valid, including names later in the title
+  assert.deepEqual(checkTitle("Do you have a war room?"), []);
+  assert.deepEqual(checkTitle("Scrum - Do you use Azure Test Plans?"), []);
+  // A capitalised word right after "Do you"
+  assert.match(checkTitle("Do you Disable AD Users?")[0], /write "disable" not "Disable"/);
+  assert.match(checkTitle("Printers - Do you Code-Sign your apps?")[0], /write "code-sign" not "Code-Sign"/);
+  // Still checked when the title has other problems
+  assert.equal(checkTitle("Do you Configure the build").length, 2);
 });
 
 test("suggests spaces for phone numbers", () => {
