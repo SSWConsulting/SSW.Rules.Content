@@ -33,7 +33,7 @@ jobs:
           Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
 
           try {
-            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository,isDraft | ConvertFrom-Json
+            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository,isDraft,assignees | ConvertFrom-Json
           } catch {
             Write-Output "Failed to view PR (isCrossRepository check): $_"
             Write-Output "Skipping workflow."
@@ -64,71 +64,18 @@ jobs:
                    $login -eq 'copilot'
           }
 
+          # Some TinaCMS PRs are opened by a bot: mention the assigned editor, like the other checks.
+          # With no one to remind, skip.
           $targetUser = $prAuthor
-          $authorIsBot = Test-IsBot $prAuthor
+          $authorIsBot = ("${{ github.event.pull_request.user.type }}" -eq "Bot") -or (Test-IsBot $prAuthor)
 
           if ($authorIsBot) {
-            Write-Output "PR author is a bot, looking for first non-bot commit author/co-author via GraphQL commit.authors..."
-
-            try {
-              $owner, $name = $repoFull.Split('/')
-
-              $query = @'
-          query($owner:String!, $name:String!, $number:Int!) {
-            repository(owner:$owner, name:$name) {
-              pullRequest(number:$number) {
-                commits(first: 100) {
-                  nodes {
-                    commit {
-                      oid
-                      authors(first: 10) {
-                        nodes {
-                          user { login __typename }
-                          name
-                          email
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-          '@
-
-              $result = gh api graphql -f query="$query" -F owner="$owner" -F name="$name" -F number=$prNumber | ConvertFrom-Json
-
-              $foundNonBotUser = $false
-
-              foreach ($node in $result.data.repository.pullRequest.commits.nodes) {
-                foreach ($a in $node.commit.authors.nodes) {
-                  if ($a.user -and $a.user.login) {
-                    $login = $a.user.login
-                    $typeName = $a.user.__typename  # "User" / "Bot" etc.
-
-                    Write-Output "GraphQL author candidate: login=$login type=$typeName"
-
-                    $isBot = ($typeName -eq "Bot") -or (Test-IsBot $login)
-
-                    if (-not $isBot) {
-                      $targetUser = $login
-                      $foundNonBotUser = $true
-                      Write-Output "Found non-bot author via GraphQL: $targetUser"
-                      break
-                    }
-                  }
-                }
-                if ($foundNonBotUser) { break }
-              }
-
-              if (-not $foundNonBotUser) {
-                Write-Output "No non-bot user found via GraphQL. Skipping reminder."
-                $targetUser = ""
-              }
-            } catch {
-              Write-Output "Failed to fetch PR commit authors via GraphQL: $_"
-              Write-Output "Skipping reminder."
-              $targetUser = ""
+            $targetUser = ""
+            if ($thisPr.assignees -and $thisPr.assignees.Count -gt 0) {
+              $targetUser = $thisPr.assignees[0].login
+              Write-Output "PR author is a bot, reminding the first assignee: $targetUser"
+            } else {
+              Write-Output "PR author is a bot and nobody is assigned. Skipping reminder."
             }
           }
 
@@ -208,7 +155,7 @@ jobs:
 
           Once you've completed these steps, your PR will be ready for approval!
 
-          _This is an automated reminder to help reduce draft PRs without descriptions or reviewers._
+          _This check doesn't block the PR._
           "@
 
           $tempFile = [System.IO.Path]::GetTempFileName()
@@ -250,6 +197,8 @@ jobs:
               greeting,
               '',
               '✅ Ready for review. Make sure reviewers are assigned and know the PR is ready.',
+              '',
+              "_This check doesn't block the PR._",
               '',
             ].join('\n');
 
