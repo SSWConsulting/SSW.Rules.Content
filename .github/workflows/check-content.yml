@@ -23,11 +23,6 @@ jobs:
     if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
 
     steps:
-      # A newer push cancels this run (see concurrency), so the check runs 2 minutes after the latest push
-      - name: Wait for further pushes
-        if: ${{ github.event_name == 'pull_request' }}
-        run: sleep 120
-
       # Check out the branch tip, not the triggering commit, to include auto-fixes pushed by other workflows
       - uses: actions/checkout@v6
         with:
