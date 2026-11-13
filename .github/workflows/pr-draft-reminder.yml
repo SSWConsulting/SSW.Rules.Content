@@ -6,7 +6,7 @@ name: "PR - Draft PR Reminder"
 
 on:
   pull_request:
-    types: [opened, converted_to_draft]
+    types: [opened, converted_to_draft, ready_for_review]
     branches: [main]
 
 permissions:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   draft_reminder:
-    if: github.event.pull_request.draft == true
+    if: github.event.action != 'ready_for_review' && github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:
       - name: Wait before commenting
@@ -134,14 +134,22 @@ jobs:
 
           # Get all comments on the PR and check if reminder exists
           try {
-            $commentsJson = gh pr view $prNumber --repo $repoFull --json comments | ConvertFrom-Json
+            # One compact JSON object per line, so multiple pages parse cleanly
+            $comments = gh api "repos/$repoFull/issues/$prNumber/comments" --paginate --jq '.[]' | ForEach-Object { $_ | ConvertFrom-Json }
 
             $reminderExists = $false
-            foreach ($comment in $commentsJson.comments) {
-              $isBot = $comment.author.login -eq "github-actions" -or $comment.author.login -eq "github-actions[bot]"
-              if ($isBot -and $comment.body -match 'This PR is currently in.*Draft mode') {
-                $reminderExists = $true
-                Write-Output "Reminder comment already exists"
+            foreach ($comment in $comments) {
+              $isBot = $comment.user.login -eq "github-actions[bot]"
+              $isReminder = $comment.body -match '<!-- draft-reminder -->' -or $comment.body -match 'This PR is currently in.*Draft mode'
+              if ($isBot -and $isReminder) {
+                if ($comment.body -match 'This PR is currently in.*Draft mode') {
+                  $reminderExists = $true
+                  Write-Output "Reminder comment already exists"
+                } else {
+                  # Marked ready earlier and now back to draft: reuse the same comment
+                  echo "comment_id=$($comment.id)" >> $env:GITHUB_OUTPUT
+                  Write-Output "Reusing earlier reminder comment $($comment.id)"
+                }
                 break
               }
             }
@@ -186,6 +194,7 @@ jobs:
           Write-Output "Adding reminder comment to PR #$prNumber (greeting: $greeting)"
 
           $comment = @"
+          <!-- draft-reminder -->
           ### 👀 Ready for review check
 
           $greeting
@@ -204,7 +213,44 @@ jobs:
 
           $tempFile = [System.IO.Path]::GetTempFileName()
           Set-Content -Path $tempFile -Value $comment
-          gh pr comment $prNumber --repo $repoFull --body-file $tempFile
+          $commentId = "${{ steps.check_comment.outputs.comment_id }}"
+          if ($commentId) {
+            gh api -X PATCH "repos/$repoFull/issues/comments/$commentId" -F "body=@$tempFile" | Out-Null
+          } else {
+            gh pr comment $prNumber --repo $repoFull --body-file $tempFile
+          }
           Remove-Item $tempFile -Force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # When the PR is marked ready for review, turn the reminder into a ✅ like the other checks
+  ready_for_review:
+    if: github.event.action == 'ready_for_review' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update draft PR reminder
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c =>
+              c.user?.login === 'github-actions[bot]' &&
+              (c.body?.includes('<!-- draft-reminder -->') || /This PR is currently in.*Draft mode/.test(c.body ?? ''))
+            );
+            if (!existing) return;
+
+            // Keep the greeting the reminder used
+            const greeting = existing.body.match(/^👋 Hi.*,$/m)?.[0] ?? '👋 Hi,';
+            const body = [
+              '<!-- draft-reminder -->',
+              '### 👀 Ready for review check',
+              '',
+              greeting,
+              '',
+              '✅ Ready for review. Make sure reviewers are assigned and know the PR is ready.',
+              '',
+            ].join('\n');
+
+            await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
