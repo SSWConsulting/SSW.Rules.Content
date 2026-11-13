@@ -3,6 +3,7 @@ name: Check-Content
 # Warning-only content style checks. This workflow never fails a PR.
 on:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     branches: [ main ]
     paths:
       - "public/uploads/rules/**/rule.mdx"
@@ -19,11 +20,20 @@ concurrency:
 jobs:
   check-content:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
 
     steps:
+      # A newer push cancels this run (see concurrency), so the check runs 2 minutes after the latest push
+      - name: Wait for further pushes
+        if: ${{ github.event_name == 'pull_request' }}
+        run: sleep 120
+
+      # Check out the branch tip, not the triggering commit, to include auto-fixes pushed by other workflows
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
 
       - uses: actions/setup-node@v7
         with:
