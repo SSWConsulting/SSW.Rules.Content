@@ -88,12 +88,12 @@ jobs:
             const pr = context.payload.pull_request;
             const isBot = pr.user.type === 'Bot';
             const login = isBot ? pr.assignees?.[0]?.login : pr.user.login;
-            const title = '### ✍️ Content style check';
+            const title = '### ✍️ Content check';
             const greeting = `${title}\n\n👋 Hi${login ? ` @${login}` : ''},`;
 
             const body = hasReport
               ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
-              : `${marker}\n${greeting}\n\n✅ No content style warnings.`;
+              : `${marker}\n${greeting}\n\n✅ No content warnings.\n\n_This check doesn't block the PR._\n`;
 
             if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
             else await github.rest.issues.createComment({ owner, repo, issue_number, body });

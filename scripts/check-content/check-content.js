@@ -293,11 +293,11 @@ function buildReport(results, maxExisting) {
 
   return [
     "<!-- content-check -->",
-    "### ✍️ Content style check",
-    "",
-    "_This check doesn't block the PR._",
+    "### ✍️ Content check",
     "",
     sections.join("\n"),
+    "_This check doesn't block the PR._",
+    "",
   ].join("\n");
 }
 
@@ -309,7 +309,7 @@ export function renderReport(results) {
   }
   const report = buildReport(results, 0);
   const cut = report.lastIndexOf("\n", MAX_COMMENT_LENGTH - 200);
-  return `${report.slice(0, cut)}\n\n…report truncated - see the inline warnings on the "Files changed" tab for the rest.\n`;
+  return `${report.slice(0, cut)}\n\n…report truncated - see the inline warnings on the "Files changed" tab for the rest.\n\n_This check doesn't block the PR._\n`;
 }
 
 function main() {

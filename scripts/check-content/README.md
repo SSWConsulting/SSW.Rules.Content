@@ -1,4 +1,4 @@
-# Content style check
+# Content check
 
 Flags common style issues in rule PRs and posts them as a PR comment. It never blocks a PR.
 
