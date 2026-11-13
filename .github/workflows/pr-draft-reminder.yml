@@ -186,6 +186,8 @@ jobs:
           Write-Output "Adding reminder comment to PR #$prNumber (greeting: $greeting)"
 
           $comment = @"
+          ### 👀 Ready for review check
+
           $greeting
 
           This PR is currently in **Draft mode**. To help it get reviewed and merged:
