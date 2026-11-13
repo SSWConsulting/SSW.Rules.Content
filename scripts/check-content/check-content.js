@@ -1,20 +1,27 @@
 // Warning-only content style checks for SSW Rules. Never exits non-zero.
 // Usage: node check-content.js [--base <git-ref>] <file.mdx>[,<file.mdx>...]
+// See README.md for how to add a new check.
 
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import matter from "gray-matter";
 
-const RULES = "https://www.ssw.com.au/rules";
-const CHECKS = {
-  title: { label: "Title format", rule: "rule", ruleTitle: "Do you know all the cool stuff you can do on SSW Rules?" },
-  listFullStop: { label: "Full stop on list item", rule: "avoid-full-stops", ruleTitle: "Do you avoid full stops in lists, captions, and immediately after a URL?" },
-  captionFullStop: { label: "Full stop on caption", rule: "avoid-full-stops", ruleTitle: "Do you avoid full stops in lists, captions, and immediately after a URL?" },
-  urlEnding: { label: "URL ends with / or .", rule: "no-full-stop-or-slash-at-the-end-of-urls", ruleTitle: "Do you avoid including full stop or slash at the end of URLs?" },
-  longNumber: { label: "Long number without separators", rule: "make-numbers-more-readable", ruleTitle: "Do you use separators to improve numbers' readability?" },
-  linkText: { label: "Non-descriptive link text", rule: "descriptive-links", ruleTitle: "Do you make your links descriptive?" },
-  language: { label: "Common language pitfall", rule: "avoid-common-mistakes#common-language-pitfalls", ruleTitle: "Do you avoid common spelling and syntax mistakes?" },
+const RULES_URL = "https://www.ssw.com.au/rules";
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const MAX_COMMENT_LENGTH = 60000;
+
+// Each check links to the SSW Rule it enforces. `rule` is the rule's folder name (plus optional #anchor).
+export const CHECKS = {
+  title: { label: "Title format", rule: "rule" },
+  heading: { label: "Heading level", rule: "use-heading-tags-h1-h2-h3" },
+  listFullStop: { label: "Full stop on list item", rule: "avoid-full-stops" },
+  captionFullStop: { label: "Full stop on caption", rule: "avoid-full-stops" },
+  urlEnding: { label: "URL ends with / or .", rule: "no-full-stop-or-slash-at-the-end-of-urls" },
+  longNumber: { label: "Long number without separators", rule: "make-numbers-more-readable" },
+  linkText: { label: "Non-descriptive link text", rule: "descriptive-links" },
+  language: { label: "Common language pitfall", rule: "avoid-common-mistakes#common-language-pitfalls" },
 };
 
 const TITLE_RE = /^(?:.+ [-–—] )?Do you .+\?$/;
@@ -23,7 +30,9 @@ const GENERIC_LINK_TEXT = new Set([
   "click here", "click this", "here", "this", "link", "this link", "read this",
   "more", "read more", "click", "this page", "go here",
 ]);
-const PITFALLS = [
+
+// Word-level pitfalls: [pattern, suggestion]. Add new ones here.
+export const PITFALLS = [
   [/\be-mails?\b/gi, '"email" not "e-mail"'],
   [/\bEMails?\b/g, '"email" not "EMail"'],
   [/\bcan not\b/gi, '"cannot" not "can not"'],
@@ -65,13 +74,28 @@ function changedLines(base, file) {
   }
 }
 
+const ruleTitles = new Map();
+function ruleTitle(rule) {
+  const slug = rule.split("#")[0];
+  if (!ruleTitles.has(slug)) {
+    let title = slug;
+    try {
+      title = matter(fs.readFileSync(path.join(REPO_ROOT, "public/uploads/rules", slug, "rule.mdx"), "utf8")).data.title || slug;
+    } catch {
+      // rule file not available (e.g. sparse checkout) - fall back to the slug
+    }
+    ruleTitles.set(slug, title);
+  }
+  return ruleTitles.get(slug);
+}
+
 const stripInlineCode = (s) => s.replace(/`[^`]*`/g, (m) => " ".repeat(m.length));
 const stripUrls = (s) =>
   s.replace(/\]\([^)]*\)/g, "]()").replace(/https?:\/\/[^\s)\]>"'`]+/g, " ").replace(/&#?\w+;/g, " ");
 
 /**
  * Split the body into lines tagged with how they should be checked:
- * - "code": fenced code, skipped
+ * - "code": fenced code and HTML comments, skipped
  * - "example": greybox / bad example / email body, skipped (examples may break the rules on purpose)
  * - "attr": component attribute lines, skipped except captions
  * - "content": normal prose
@@ -133,7 +157,7 @@ function checkTitle(title) {
   if (t.includes("?") && !t.endsWith("?")) {
     msgs.push(`Text after the "?" - put brackets or other info before the question mark, e.g. "Do you have a war room (summary)?"`);
   } else if (!t.endsWith("?")) {
-    msgs.push('Title should end with a question mark');
+    msgs.push("Title should end with a question mark");
   }
   if (!/(^| [-–—] )Do you /.test(t)) {
     msgs.push(/(^| [-–—] )do you /i.test(t)
@@ -141,6 +165,31 @@ function checkTitle(title) {
       : 'Title should start with "Do you" (a prefix like "Category - Do you..." is OK)');
   }
   return msgs.map((m) => `${m}: "${t}"`);
+}
+
+// The rule title is the page's H1, so body headings start at H2 and never skip a level.
+function checkHeadings(out) {
+  const issues = [];
+  let prev = 1;
+  for (const { lineNo, text, kind } of out) {
+    if (kind !== "content") continue;
+    const m = text.match(/^(#{1,6})\s+\S/);
+    if (!m) continue;
+    const level = m[1].length;
+    if (level === 1) {
+      issues.push({ line: lineNo, check: "heading", msg: "H1 (#) is reserved for the rule title - use ## for top-level sections" });
+    } else if (level > prev + 1) {
+      issues.push({
+        line: lineNo,
+        check: "heading",
+        msg: prev === 1
+          ? `Sections should start at H2 (##), not H${level}`
+          : `Heading jumps from H${prev} to H${level} - use H${prev + 1} or add an H${prev + 1} above it`,
+      });
+    }
+    prev = level;
+  }
+  return issues;
 }
 
 function checkLine(raw) {
@@ -177,13 +226,17 @@ function checkLine(raw) {
     const after = prose.slice(m.index + n.length, m.index + n.length + 2);
     if (n.length === 4 && /^(19|20)\d\d$/.test(n)) continue;
     if (n.length === 4 && (/\d\s$/.test(before) || /^\s\d/.test(after))) continue;
-    const isPhone = n.length >= 8 && (n.startsWith("0") || before.endsWith("+"));
+    const intl = before.endsWith("+");
+    const isPhone = n.length >= 8 && (n.startsWith("0") || intl);
     issues.push(isPhone
-      ? ["longNumber", `"${before.endsWith("+") ? "+" : ""}${n}" - add spaces between the digit groups, e.g. ${before.endsWith("+") ? "+61 2 9953 3000" : "02 9953 3000"}`]
+      ? ["longNumber", `"${intl ? "+" : ""}${n}" - add spaces between the digit groups, e.g. ${intl ? "+61 2 9953 3000" : "02 9953 3000"}`]
       : ["longNumber", `"${n}" - add separators, e.g. ${Number(n).toLocaleString("en-US")}`]);
   }
 
-  const usedWords = prose.replace(/^\s*(?:[*+-]|\d+[.)])\s+/, " ").replace(/"[^"]*"|“[^”]*”|‘[^’]*’|(?<!\w)'[^'\n]+'(?!\w)|(?<!\*)\*(?!\*)[^*]+\*(?!\*)/g, " ");
+  // Quoted or italic words are mentions (e.g. 'use "email" not *e-mail*'), not uses
+  const usedWords = prose
+    .replace(/^\s*(?:[*+-]|\d+[.)])\s+/, " ")
+    .replace(/"[^"]*"|“[^”]*”|‘[^’]*’|(?<!\w)'[^'\n]+'(?!\w)|(?<!\*)\*(?!\*)[^*]+\*(?!\*)/g, " ");
   for (const [re, msg] of PITFALLS) {
     if (usedWords.match(re)) issues.push(["language", `Use ${msg}`]);
   }
@@ -191,7 +244,7 @@ function checkLine(raw) {
   return issues;
 }
 
-function checkFile(file) {
+export function checkFile(file) {
   const source = fs.readFileSync(file, "utf8");
   const parsed = matter(source);
   const issues = [];
@@ -205,6 +258,7 @@ function checkFile(file) {
   }
 
   const { out, captions } = classify(parsed.content.split("\n"), firstBodyLine);
+  issues.push(...checkHeadings(out));
   for (const { lineNo, text, kind } of out) {
     if (kind !== "content") continue;
     for (const [check, msg] of checkLine(text)) issues.push({ line: lineNo, check, msg });
@@ -220,13 +274,48 @@ function checkFile(file) {
 
 function formatIssue(i) {
   const c = CHECKS[i.check];
-  return `- Line ${i.line}: **${c.label}** - ${i.msg} (as per [${c.ruleTitle}](${RULES}/${c.rule}))`;
+  return `- Line ${i.line}: **${c.label}** - ${i.msg} (as per [${ruleTitle(c.rule)}](${RULES_URL}/${c.rule}))`;
+}
+
+function buildReport(results, maxExisting) {
+  const sections = results.map(({ file, mine, old }) => {
+    const section = [`**\`${file}\`**`, ""];
+    if (mine.length) section.push(`⚠️ ${mine.length} warning(s) in lines changed by this PR:`, "", ...mine.map(formatIssue), "");
+    else section.push("✅ No warnings in lines changed by this PR.", "");
+    if (old.length) {
+      const shown = old.slice(0, maxExisting);
+      section.push(`${old.length} existing warning(s), not introduced by this PR:`, "", ...shown.map(formatIssue));
+      if (old.length > shown.length) section.push(`- …and ${old.length - shown.length} more`);
+      section.push("");
+    }
+    return section.join("\n");
+  });
+
+  return [
+    "<!-- content-check -->",
+    "### ✍️ Content style check",
+    "",
+    "_This check doesn't block the PR._",
+    "",
+    sections.join("\n"),
+  ].join("\n");
+}
+
+// GitHub rejects comments over 65,536 characters, so shorten the existing-warning lists first
+export function renderReport(results) {
+  for (const maxExisting of [Infinity, 20, 5, 0]) {
+    const report = buildReport(results, maxExisting);
+    if (report.length <= MAX_COMMENT_LENGTH) return report;
+  }
+  const report = buildReport(results, 0);
+  const cut = report.lastIndexOf("\n", MAX_COMMENT_LENGTH - 200);
+  return `${report.slice(0, cut)}\n\n…report truncated - see the inline warnings on the "Files changed" tab for the rest.\n`;
 }
 
 function main() {
   const { base, files } = parseArgs(process.argv);
   const reportPath = process.env.CONTENT_REPORT_PATH;
-  const sections = [];
+  const results = [];
 
   for (const file of files) {
     if (!fs.existsSync(file)) continue;
@@ -240,34 +329,21 @@ function main() {
       console.log(`::warning file=${file},line=${i.line},title=${CHECKS[i.check].label}::${i.msg}`);
     }
     console.log(`${file}: ${mine.length} in changed lines, ${old.length} existing`);
-    if (!mine.length && !old.length) continue;
-
-    const section = [`**\`${file}\`**`, ""];
-    if (mine.length) section.push(`⚠️ ${mine.length} warning(s) in lines changed by this PR:`, "", ...mine.map(formatIssue), "");
-    else section.push("✅ No warnings in lines changed by this PR.", "");
-    if (old.length) section.push(`${old.length} existing warning(s), not introduced by this PR:`, "", ...old.map(formatIssue), "");
-    sections.push(section.join("\n"));
+    if (mine.length || old.length) results.push({ file, mine, old });
   }
 
   if (!reportPath) return;
-  if (!sections.length) {
+  if (!results.length) {
     fs.rmSync(reportPath, { force: true });
     return;
   }
-
-  const lines = [
-    "<!-- content-check -->",
-    "### ✍️ Content style check",
-    "",
-    "_This check doesn't block the PR._",
-    "",
-    sections.join("\n"),
-  ];
-  fs.writeFileSync(reportPath, lines.join("\n"), "utf8");
+  fs.writeFileSync(reportPath, renderReport(results), "utf8");
 }
 
-try {
-  main();
-} catch (err) {
-  console.log(`::warning::Content check crashed: ${err.message}`);
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  try {
+    main();
+  } catch (err) {
+    console.log(`::warning::Content check crashed: ${err.message}`);
+  }
 }

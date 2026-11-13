@@ -12,6 +12,10 @@ permissions:
   contents: read
   pull-requests: write
 
+concurrency:
+  group: check-content-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check-content:
     runs-on: ubuntu-latest
@@ -70,11 +74,12 @@ jobs:
 
             if (!hasReport && !existing) return;
 
-            // TinaCMS PRs are opened by a bot; mention the assigned editor instead
+            // Some TinaCMS PRs are opened by a bot: mention the assigned editor, or no one
             const pr = context.payload.pull_request;
-            const login = pr.user.type === 'Bot' && pr.assignees?.length ? pr.assignees[0].login : pr.user.login;
+            const isBot = pr.user.type === 'Bot';
+            const login = isBot ? pr.assignees?.[0]?.login : pr.user.login;
             const title = '### ✍️ Content style check';
-            const greeting = `${title}\n\n👋 Hi @${login},`;
+            const greeting = `${title}\n\n👋 Hi${login ? ` @${login}` : ''},`;
 
             const body = hasReport
               ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
