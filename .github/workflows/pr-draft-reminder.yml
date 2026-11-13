@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Wait before commenting
         shell: bash
-        run: sleep 600  # wait 10 mins
+        run: sleep 3600  # wait 1 hour
 
       - name: Determine target user and check for existing comment
         id: check_comment
