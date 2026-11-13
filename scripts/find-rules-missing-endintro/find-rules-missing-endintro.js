@@ -91,12 +91,13 @@ if (missing.length > 0) {
   const reportPath = process.env.ENDINTRO_REPORT_PATH;
   if (reportPath) {
     const lines = [
-      "## ❌ Missing `<endIntro />` tag\n",
-      `Found **${missing.length}** rule(s) without an \`<endIntro />\` tag.\n`,
-      "Every rule must include `<endIntro />` after the introduction paragraph to separate it from the main content.\n",
-      "| # | File |",
-      "|---|------|",
-      ...missing.map((f, i) => `| ${i + 1} | \`${f}\` |`),
+      "<!-- endintro-check -->",
+      "### ✂️ EndIntro check",
+      "",
+      "Every rule must include `<endIntro />` after the introduction paragraph to separate it from the main content.",
+      "",
+      ...missing.flatMap((f) => [`**\`${f}\`**`, "", "- Missing `<endIntro />` tag", ""]),
+      "_This check blocks the PR until the issues are fixed._",
       "",
     ];
     fs.writeFileSync(reportPath, lines.join("\n"), "utf8");

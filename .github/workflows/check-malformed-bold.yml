@@ -65,41 +65,39 @@ jobs:
           fi
 
       - name: Comment on PR
-        if: ${{ env.changed != '' && steps.bold_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
+          CHECK_OUTCOME: ${{ steps.bold_check.outcome }}
           BOLD_REPORT_PATH: ${{ runner.temp }}/malformed-bold-report.md
         with:
           script: |
             const fs = require('fs');
 
             const marker = '<!-- malformed-bold-check -->';
+            const title = '### 🅱️ Bold check';
             const reportPath = process.env.BOLD_REPORT_PATH;
+            const hasReport = fs.existsSync(reportPath);
 
-            let body = fs.readFileSync(reportPath, 'utf8');
-            if (!body.includes(marker)) body = `${marker}\n` + body;
-
-            const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
 
-            // Update existing bot comment to avoid spam
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner, repo, issue_number: prNumber, per_page: 100
-            });
+            // Nothing to report and no earlier comment to clear (or the check crashed before writing a report)
+            if (!hasReport && (!existing || process.env.CHECK_OUTCOME !== 'success')) return;
 
-            const existing = comments.find(c =>
-              c.user && c.user.type === 'Bot' && typeof c.body === 'string' && c.body.includes(marker)
-            );
+            // Some TinaCMS PRs are opened by a bot: mention the assigned editor, or no one
+            const pr = context.payload.pull_request;
+            const login = pr.user.type === 'Bot' ? pr.assignees?.[0]?.login : pr.user.login;
+            const greeting = `${title}\n\n👋 Hi${login ? ` @${login}` : ''},`;
 
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner, repo, comment_id: existing.id, body
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number: prNumber, body
-              });
-            }
+            let body = hasReport
+              ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
+              : `${marker}\n${greeting}\n\n✅ No malformed bold formatting.\n`;
+
+            if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number, body });
 
       - name: Fail job if malformed bold was found
         if: ${{ env.changed != '' && steps.bold_check.outcome == 'failure' }}
