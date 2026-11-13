@@ -177,7 +177,10 @@ function checkLine(raw) {
     const after = prose.slice(m.index + n.length, m.index + n.length + 2);
     if (n.length === 4 && /^(19|20)\d\d$/.test(n)) continue;
     if (n.length === 4 && (/\d\s$/.test(before) || /^\s\d/.test(after))) continue;
-    issues.push(["longNumber", `"${n}" - add separators, e.g. ${Number(n).toLocaleString("en-US")}`]);
+    const isPhone = n.length >= 8 && (n.startsWith("0") || before.endsWith("+"));
+    issues.push(isPhone
+      ? ["longNumber", `"${before.endsWith("+") ? "+" : ""}${n}" - add spaces between the digit groups, e.g. ${before.endsWith("+") ? "+61 2 9953 3000" : "02 9953 3000"}`]
+      : ["longNumber", `"${n}" - add separators, e.g. ${Number(n).toLocaleString("en-US")}`]);
   }
 
   const usedWords = prose.replace(/^\s*(?:[*+-]|\d+[.)])\s+/, " ").replace(/"[^"]*"|“[^”]*”|‘[^’]*’|(?<!\w)'[^'\n]+'(?!\w)|(?<!\*)\*(?!\*)[^*]+\*(?!\*)/g, " ");
@@ -256,7 +259,7 @@ function main() {
     "<!-- content-check -->",
     "### ✍️ Content style check",
     "",
-    "_Warnings only - this check never blocks the PR._",
+    "_This check doesn't block the PR._",
     "",
     sections.join("\n"),
   ];
