@@ -1,28 +1,31 @@
 ---
 type: rule
 title: Do you know how to use single codebase for multiple domains with TinaCMS and Next.js?
+uri: single-codebase-for-multiple-domains-with-tinacm-nextjs
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
-seoDescription: Optimize your Next.js and TinaCMS project with a single codebase
-  to efficiently manage multiple domains, locations, and content.
-uri: single-codebase-for-multiple-domains-with-tinacm-nextjs
 authors:
   - title: Gilles Pothieu
-    url: https://www.ssw.com.au/people/gilles-pothieu
-created: 2024-08-28T17:37:00.000Z
+    url: 'https://www.ssw.com.au/people/gilles-pothieu'
 guid: 2bba887b-9dd7-4f07-978c-a793611e2f85
+seoDescription: 'Optimize your Next.js and TinaCMS project with a single codebase to efficiently manage multiple domains, locations, and content.'
+created: 2024-08-28T17:37:00.000Z
+createdBy: Tiago Araujo
+lastUpdated: 2026-11-13T22:43:53.705Z
+lastUpdatedBy: Tiago Araujo
 ---
+
 Using multiple domains using TinaCMS and Next.js requires few steps. This setup is particularly useful for managing content across different locations or websites, all from a centralized codebase. We will cover how to structure your project, configure middleware for domain-specific content, and manage environment variables for different locations.
 
 <endIntro />
 
-## Project Structure
+## Project structure
 
 We will detail a project structure using a simple example of a cooking application. We are using the [App Router](https://nextjs.org/docs/app) introduced with version 13.4 of Next.js.
 
 To support multiple domains, the project structure is organized as follows:
 
-### 1. **Content Directory**
+### 1. Content directory
 
 The content for each location is organized under the `content` directory, which contains various subdirectories for recipies, posts, and pages. Each location, such as Australia or France, has its own subdirectory under `pages` and `recipes` which contains the content relevant to that location.
 
@@ -37,7 +40,7 @@ The content for each location is organized under the `content` directory, which 
 │       └── France
 ```
 
-### 2. **Application Directory**
+### 2. Application directory
 
 The src/app/\[location] directory contains the shared codebase for all locations. This includes components like the posts, recipes, and other custom pages. The `layout.tsx` and `page.tsx` files handle the layout and page rendering for each location.
 
@@ -54,11 +57,11 @@ The src/app/\[location] directory contains the shared codebase for all locations
 |   |   |   ├── recipes
 ```
 
-## Middleware Configuration
+## Middleware configuration
 
 To handle domain-specific routing, we use a middleware file `middleware.ts` located in the src directory. This middleware rewrites URLs based on the hostname, routing requests to the appropriate location's content.
 
-### Middleware Implementation
+## Middleware implementation
 
 ```js
 import { NextResponse } from 'next/server';
@@ -142,12 +145,12 @@ export const config = {
 };
 ```
 
-## Environment Variables and Vercel Configuration (or other host)
+## Environment variables and Vercel configuration (or other host)
 
 You need to configure the following environment variables for the middleware to function correctly:
 
-1. **NEXT_PUBLIC_LOCATION_LIST**: A JSON string representing the list of locations and their corresponding domains.
-2. **DEFAULT_LOCALHOST_LOCATION**: The default location to use when running the application locally.
+1. **NEXT\_PUBLIC\_LOCATION\_LIST**: A JSON string representing the list of locations and their corresponding domains.
+2. **DEFAULT\_LOCALHOST\_LOCATION**: The default location to use when running the application locally.
 
 Example of `.env` file:
 
