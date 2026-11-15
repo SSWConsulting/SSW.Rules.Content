@@ -13,18 +13,18 @@ related:
 - rule: public/uploads/rules/sql-server-memory-pressure/rule.mdx
 seoDescription: Identify and troubleshoot SQL Server performance issues by monitoring
   CPU, memory, and I/O pressures using Task Manager and Perfmon.
-title: Identifying the cause of SQL Server performance problems
+title: Do you know how to identify the cause of SQL Server performance problems?
 categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
 type: rule
 uri: identify-sql-performance-sql-server
 ---
 
-## Identifying CPU Pressure
-
 When looking at SQL Server, you often get performance issues, but how can you figure out what might be the cause?
 
 <endIntro />
+
+## Identifying CPU Pressure
 
 To figure out whether the SQL Server itself is experiencing CPU pressure, fire up Task manager and take a look at the CPU usage. If the CPU is high and SQL Server is not the primary consumer, evaluate whether you can separate the CPU consuming workload from your SQL Server by moving one onto another server.
 
