@@ -34,34 +34,43 @@ jobs:
         with:
           node-version: 24
 
+      # The paths go in a file: all 3,900+ rules (manual runs) are too long for one argument or env variable
       - name: Get changed rules
+        continue-on-error: true
         shell: bash
         run: |
+          set -eo pipefail
+          list="$RUNNER_TEMP/changed-rules.txt"
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            base="origin/${{ github.base_ref }}"
-            changed="$(git diff --name-only --diff-filter=ACMR "$base"...HEAD -- 'public/uploads/rules/**/rule.mdx' | paste -sd "," -)"
+            # Fetch the real base branch - on fork PRs, origin is the fork, whose main may be missing or old
+            git fetch --no-tags --quiet "https://github.com/${{ github.repository }}" "${{ github.base_ref }}"
+            base="$(git rev-parse FETCH_HEAD)"
+            git diff --name-only --diff-filter=ACMR "$base"...HEAD -- 'public/uploads/rules/**/rule.mdx' > "$list"
           else
             base=""
-            changed="$(git ls-files 'public/uploads/rules/**/rule.mdx' | paste -sd "," -)"
+            git ls-files 'public/uploads/rules/**/rule.mdx' > "$list"
           fi
           echo "base=$base" >> "$GITHUB_ENV"
-          echo "changed=$changed" >> "$GITHUB_ENV"
+          if [ -s "$list" ]; then echo "has_changes=true" >> "$GITHUB_ENV"; fi
 
       - name: Run content check
+        id: check
         continue-on-error: true
-        if: ${{ env.changed != '' }}
+        if: ${{ env.has_changes == 'true' }}
         env:
           CONTENT_REPORT_PATH: ${{ runner.temp }}/content-check-report.md
+          CONTENT_SUMMARY_PATH: ${{ runner.temp }}/content-check-summary.md
         run: |
           npm install --prefix scripts/check-content --silent
           base_arg=""
           if [ -n "$base" ]; then base_arg="--base $base"; fi
-          node scripts/check-content/check-content.js $base_arg "$changed"
-          if [ -f "$CONTENT_REPORT_PATH" ]; then cat "$CONTENT_REPORT_PATH" >> "$GITHUB_STEP_SUMMARY"; fi
+          node scripts/check-content/check-content.js $base_arg --files-from "$RUNNER_TEMP/changed-rules.txt"
+          if [ -f "$CONTENT_SUMMARY_PATH" ]; then cat "$CONTENT_SUMMARY_PATH" >> "$GITHUB_STEP_SUMMARY"; fi
 
+      # Only after a successful run, so a crash never changes the comment to a false "✅"
       - name: Comment on PR
         continue-on-error: true
-        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        if: ${{ steps.check.outcome == 'success' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
           CONTENT_REPORT_PATH: ${{ runner.temp }}/content-check-report.md

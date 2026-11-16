@@ -11,6 +11,7 @@ import matter from "gray-matter";
 const RULES_URL = "https://www.ssw.com.au/rules";
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const MAX_COMMENT_LENGTH = 60000;
+const MAX_SUMMARY_LENGTH = 900000;
 
 // Each check links to the SSW Rule it enforces. `rule` is the rule's folder name (plus optional #anchor).
 export const CHECKS = {
@@ -53,25 +54,41 @@ function parseArgs(argv) {
   const files = [];
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--base") base = args[++i];
-    else files.push(...args[i].split(",").map((s) => s.trim()).filter(Boolean));
+    // A list of paths, one per line - all 3,900+ rules are too long for one command-line argument
+    else if (args[i] === "--files-from") files.push(...fs.readFileSync(args[++i], "utf8").split(/\r?\n/));
+    else files.push(...args[i].split(","));
   }
-  return { base, files: [...new Set(files)].filter((f) => f.endsWith("rule.mdx")) };
+  const clean = files.map((s) => s.trim()).filter((f) => f.endsWith("rule.mdx"));
+  return { base, files: [...new Set(clean)] };
 }
 
-function changedLines(base, file) {
+// Lines added or changed by this branch, per file. One diff of the whole branch with rename detection,
+// so a renamed rule only counts its edited lines, not the whole file. Returns null when there's no base.
+function changedLines(base) {
   if (!base) return null;
+  let diff, top;
   try {
-    const diff = execFileSync("git", ["diff", "-U0", "--no-color", `${base}...HEAD`, "--", file], { encoding: "utf8" });
-    const lines = new Set();
-    for (const m of diff.matchAll(/^@@ -\S+ \+(\d+)(?:,(\d+))? @@/gm)) {
-      const start = Number(m[1]);
-      const count = m[2] === undefined ? 1 : Number(m[2]);
-      for (let i = 0; i < count; i++) lines.add(start + i);
-    }
-    return lines;
+    top = fs.realpathSync(execFileSync("git", ["rev-parse", "--show-toplevel"], { encoding: "utf8" }).trim());
+    diff = execFileSync("git", ["diff", "-U0", "-M", "--no-color", `${base}...HEAD`], { encoding: "utf8", maxBuffer: 256 * 1024 * 1024 });
   } catch {
     return null;
   }
+  // Keyed by absolute path, so it matches however the files were passed in
+  const byFile = new Map();
+  let current = null;
+  for (const line of diff.split("\n")) {
+    if (line.startsWith("+++ ")) {
+      current = line.startsWith("+++ b/") ? path.join(top, line.slice(6)) : null;
+      if (current && !byFile.has(current)) byFile.set(current, new Set());
+      continue;
+    }
+    const m = current && line.match(/^@@ -\S+ \+(\d+)(?:,(\d+))? @@/);
+    if (!m) continue;
+    const start = Number(m[1]);
+    const count = m[2] === undefined ? 1 : Number(m[2]);
+    for (let i = 0; i < count; i++) byFile.get(current).add(start + i);
+  }
+  return byFile;
 }
 
 const ruleTitles = new Map();
@@ -315,18 +332,22 @@ export function renderReport(results) {
   }
   const report = buildReport(results, 0);
   const cut = report.lastIndexOf("\n", MAX_COMMENT_LENGTH - 200);
-  return `${report.slice(0, cut)}\n\n…report truncated - see the inline warnings on the "Files changed" tab for the rest.\n\n_This check doesn't block the PR._\n`;
+  const { GITHUB_SERVER_URL: server, GITHUB_REPOSITORY: repo, GITHUB_RUN_ID: runId } = process.env;
+  const where = server && repo && runId ? `the [job summary](${server}/${repo}/actions/runs/${runId})` : "the job summary";
+  return `${report.slice(0, cut)}\n\n…report truncated - see ${where} for the full list.\n\n_This check doesn't block the PR._\n`;
 }
 
 function main() {
   const { base, files } = parseArgs(process.argv);
   const reportPath = process.env.CONTENT_REPORT_PATH;
+  const summaryPath = process.env.CONTENT_SUMMARY_PATH;
+  const changedByFile = changedLines(base);
   const results = [];
 
   for (const file of files) {
     if (!fs.existsSync(file)) continue;
     const issues = checkFile(file);
-    const changed = changedLines(base, file);
+    const changed = changedByFile && (changedByFile.get(fs.realpathSync(file)) ?? new Set());
     const isNew = (i) => !changed || changed.has(i.line);
     const mine = issues.filter(isNew);
     const old = issues.filter((i) => !isNew(i));
@@ -336,6 +357,12 @@ function main() {
     }
     console.log(`${file}: ${mine.length} in changed lines, ${old.length} existing`);
     if (mine.length || old.length) results.push({ file, mine, old });
+  }
+
+  // The job summary allows 1 MB, so it lists every warning unless a manual run over all rules is bigger than that
+  if (summaryPath && results.length) {
+    const full = buildReport(results, Infinity);
+    fs.writeFileSync(summaryPath, full.length <= MAX_SUMMARY_LENGTH ? full : `${full.slice(0, full.lastIndexOf("\n", MAX_SUMMARY_LENGTH - 200))}\n\n…report truncated - run the check locally for the full list.\n`, "utf8");
   }
 
   if (!reportPath) return;
@@ -351,5 +378,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
     main();
   } catch (err) {
     console.log(`::warning::Content check crashed: ${err.message}`);
+    // Fail the step (it has continue-on-error) so the PR comment isn't changed to a false "✅"
+    process.exitCode = 1;
   }
 }

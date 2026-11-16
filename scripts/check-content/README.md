@@ -43,5 +43,6 @@ Add `--base origin/main` to split warnings into "changed by this branch" and "ex
 Before adding a check, run it across all rules to see how noisy it is:
 
 ```bash
-node check-content.js $(ls ../../public/uploads/rules/*/rule.mdx | paste -sd, -) | grep -c "::warning"
+ls ../../public/uploads/rules/*/rule.mdx > /tmp/rules.txt
+node check-content.js --files-from /tmp/rules.txt | grep -c "::warning"
 ```
