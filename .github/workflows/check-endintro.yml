@@ -95,7 +95,7 @@ jobs:
 
             let body = hasReport
               ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
-              : `${marker}\n${greeting}\n\n✅ No missing `<endIntro />` tags.\n`;
+              : `${marker}\n${greeting}\n\n✅ No missing \`<endIntro />\` tags.\n`;
 
             if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
             else await github.rest.issues.createComment({ owner, repo, issue_number, body });
