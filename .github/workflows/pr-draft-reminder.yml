@@ -17,14 +17,14 @@ jobs:
   draft_reminder:
     if: github.event.action != 'ready_for_review' && github.event.pull_request.draft == true
     runs-on: ubuntu-latest
-    # Each run waits 1 hour, so keep at most one waiting run per PR
+    # Each run waits before commenting, so keep at most one waiting run per PR
     concurrency:
       group: draft-reminder-${{ github.event.pull_request.number }}
       cancel-in-progress: true
     steps:
       - name: Wait before commenting
         shell: bash
-        run: sleep 3600  # wait 1 hour
+        run: sleep 600  # wait 10 mins
 
       - name: Determine target user and check for existing comment
         id: check_comment
