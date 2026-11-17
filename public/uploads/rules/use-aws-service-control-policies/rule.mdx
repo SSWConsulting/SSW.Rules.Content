@@ -1,0 +1,143 @@
+---
+type: rule
+title: Do you use service control policies as guardrails in AWS?
+seoDescription: Use AWS Organizations service control policies (SCPs) to restrict regions, block IAM users and access keys, stop accounts leaving the organization and protect audit logging, and test each change in non-production first.
+guid: 51984e27-14aa-4f5c-b5d0-41102aa3c3a9
+uri: use-aws-service-control-policies
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+  - rule: public/uploads/rules/keep-aws-management-account-empty/rule.mdx
+  - rule: public/uploads/rules/send-aws-audit-logs-to-security-account/rule.mdx
+  - rule: public/uploads/rules/keep-bedrock-inference-in-region/rule.mdx
+  - rule: public/uploads/rules/use-azure-policies/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+IAM policies decide what each person or role can do, but an account administrator can rewrite them. If an IAM policy is the only thing keeping your data in Australia or keeping CloudTrail on, any admin in that account can remove it.
+
+<endIntro />
+
+[Service control policies (SCPs)](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) sit above IAM. You attach them in AWS Organizations to the root, an OU or an account, and they cap what every user and role there can do, including account administrators and the root user. An SCP never grants anything. A request succeeds only when both the SCPs and an IAM policy allow it. In Azure, the closest match is a deny effect in [Azure Policy](/use-azure-policies).
+
+## Start with four guardrails
+
+Leave the default `FullAWSAccess` policy attached and add deny statements on top:
+
+* Restrict regions. This is the main data residency control for most teams
+* Deny `organizations:LeaveOrganization` and `account:CloseAccount`. An account that leaves the organization leaves every other guardrail behind. Organizations created in the console after 10 July 2026 get this SCP at the root automatically. Older ones, and ones created with the CLI, an SDK or CloudFormation, do not, so check yours
+* Deny `iam:CreateUser` and `iam:CreateAccessKey`, so nobody can mint long-lived credentials. People [sign in with SSO](/use-sso-for-aws) and workloads use roles
+* Deny changes to CloudTrail, GuardDuty and Config for everyone except your deployment role. See [Do you send AWS audit logs to a dedicated security account?](/send-aws-audit-logs-to-security-account)
+
+## Exempt global services from the region restriction
+
+IAM, Organizations, Route 53, CloudFront, billing and Support are global services. IAM, for example, has a single endpoint in us-east-1, so a plain "deny everything outside Sydney" blocks every IAM call. Use a `NotAction` list of the global services you use.
+
+This policy restricts Northwind to Sydney and Melbourne, protects CloudTrail and stops accounts leaving or closing themselves.
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyOutsideAllowedRegions",
+      "Effect": "Deny",
+      "NotAction": [
+        "iam:*",
+        "sts:*",
+        "organizations:*",
+        "support:*",
+        "budgets:*"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringNotEquals": {
+          "aws:RequestedRegion": ["ap-southeast-2", "ap-southeast-4"]
+        }
+      }
+    },
+    {
+      "Sid": "ProtectCloudTrail",
+      "Effect": "Deny",
+      "Action": [
+        "cloudtrail:StopLogging",
+        "cloudtrail:DeleteTrail",
+        "cloudtrail:UpdateTrail",
+        "cloudtrail:PutEventSelectors"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "ArnNotLike": {
+          "aws:PrincipalArn": "arn:aws:iam::*:role/northwind-deploy"
+        }
+      }
+    },
+    {
+      "Sid": "DenyLeaveOrCloseAccount",
+      "Effect": "Deny",
+      "Action": [
+        "organizations:LeaveOrganization",
+        "account:CloseAccount"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** The `NotAction` list above is cut down to 5 entries. Do not deploy it as it is. The [AWS region restriction example](https://github.com/aws-samples/service-control-policy-examples/blob/main/Region-controls/Deny-access-to-AWS-based-on-the-requested-AWS-region.json) exempts more than 40 services and actions. Start from that list and remove the services your accounts do not use.
+  </>}
+  figurePrefix="none"
+  figure="Figure: The region statement in this rule is abbreviated - copy the full exemption list from AWS"
+/>
+
+For Amazon Bedrock cross-region inference, see [Do you keep Amazon Bedrock inference in your region?](/keep-bedrock-inference-in-region)
+
+## Test changes before production
+
+A wrong SCP either blocks production or lets through what you meant to stop. AWS recommends you never attach an SCP to the organization root until you have tested it on a smaller OU.
+
+1. Keep SCPs in source control and deploy them with infrastructure as code
+2. Attach each change to the NonProd OU first. Run the workload, then try a denied action and confirm it fails
+3. Promote the change to the Prod OU or the root
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A Northwind admin edits the region SCP in the console and deletes the `iam:*` line by mistake. The policy is on the organization root, so IAM calls fail in every account, production included.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - An untested edit at the root breaks every account at once"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The same edit arrives as a pull request. The pipeline attaches it to the NonProd OU, where a test deployment fails on `iam:GetRole`. The author restores the line before the change reaches Prod.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The mistake is caught in NonProd, where it only breaks a test deployment"
+/>
+
+## Know the limits
+
+* SCPs have no effect on the management account. This is one reason to [keep the management account empty](/keep-aws-management-account-empty)
+* Service-linked roles are exempt
+* An SCP can be 10,240 characters at most, and you can attach 10 to each root, OU or account ([quotas](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html)). White space counts when you deploy through the CLI or an SDK, so minify large policies
+* SCPs restrict only principals in your own accounts. If a bucket policy lets in a principal from outside the organization, an SCP does not stop it. [Resource control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html) cover that case
+
+## More information
+
+* [SCP evaluation](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_evaluation.html)
+* [Service control policy examples](https://github.com/aws-samples/service-control-policy-examples)

@@ -1,0 +1,72 @@
+---
+type: rule
+title: Do you send AWS audit logs to a dedicated security account?
+seoDescription: Send an organization-wide CloudTrail trail to an Object Lock S3 bucket in a dedicated Log/Security account, and run GuardDuty, Security Hub CSPM, Config and IAM Access Analyzer from there.
+guid: 03a82d0c-2a32-4cdf-927b-d13a56d784d9
+uri: send-aws-audit-logs-to-security-account
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+  - rule: public/uploads/rules/keep-aws-management-account-empty/rule.mdx
+  - rule: public/uploads/rules/alert-on-aws-root-sign-ins-and-logging-gaps/rule.mdx
+  - rule: public/uploads/rules/send-aws-logs-to-microsoft-sentinel/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+After a security incident, the first question is "what happened?". The audit log only answers it if the log is complete and nobody could have changed it. If the logs sit in the workload account, an attacker with admin access there can stop the trail and delete the evidence. A SOC 2 or ISO 27001 auditor asks the same thing: how do you know these logs were not altered?
+
+<endIntro />
+
+Put the audit trail in an account that workload administrators cannot touch. Then lock the log files so that account cannot delete them early either.
+
+## Set up one organization trail
+
+An [organization trail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/creating-trail-organization.html) records API activity in every account and picks up new accounts automatically. Register the Log/Security account as the [CloudTrail delegated administrator](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-delegated-administrator.html) and create the trail from there, so nobody has to sign in to the management account.
+
+* Make it a multi-Region trail. Attackers like the Regions you never look at
+* Deliver to an S3 bucket in the Log/Security account, in the Region your data must stay in
+* Turn on [log file validation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html). `aws cloudtrail validate-logs` then shows whether a log file was modified or deleted after delivery
+* Encrypt with a customer managed KMS key, so the key policy decides who can read the logs
+
+Management events already include Amazon Bedrock `InvokeModel` and `Converse` calls. Agent and knowledge base calls such as `InvokeAgent` and `Retrieve` are [data events](https://docs.aws.amazon.com/bedrock/latest/userguide/logging-using-cloudtrail.html). CloudTrail records those only if you add an event selector, and it charges extra.
+
+## Lock the bucket
+
+Turn on [S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html) in compliance mode with a default retention period. Until the period ends, no user can delete or overwrite a log file or shorten its retention. That includes the root user of the Log/Security account. Take the period from your retention policy. PCI DSS, for example, asks for 12 months of audit history.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    You cannot undo compliance mode. Try the retention period in governance mode first. If you lock 10 years by mistake, you pay for 10 years of storage.
+  </>}
+  figurePrefix="none"
+  figure="Warning - Test the retention period in governance mode before you switch to compliance mode"
+/>
+
+Only two accounts can change the trail: the Log/Security account and the management account. Block the first with an SCP that denies `cloudtrail:StopLogging`, `cloudtrail:DeleteTrail`, `cloudtrail:UpdateTrail` and `cloudtrail:PutEventSelectors`. See [Do you use service control policies as guardrails in AWS?](/use-aws-service-control-policies) SCPs do not apply to the management account, which is why [Do you keep your AWS management account empty?](/keep-aws-management-account-empty)
+
+## Run your security tools from the same account
+
+Make the Log/Security account the delegated administrator for these services, so findings from every account land next to the logs.
+
+* **[GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_organizations.html)** - threat detection, such as credentials used from an unusual location. Turn it on automatically for new accounts
+* **[Security Hub CSPM](https://docs.aws.amazon.com/securityhub/latest/userguide/designate-orgs-admin-account.html)** - checks each account against standards such as CIS and [AWS Foundational Security Best Practices](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html). AWS called it Security Hub until 2025, and older articles use the old name. GuardDuty and Security Hub CSPM are regional, so set the delegated administrator in each Region you use
+* **[AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html)** - records how each resource was configured over time, which auditors accept as evidence that a control was in place on a given date. An aggregator only collects from accounts where Config is recording, so deploy the recorder everywhere with infrastructure as code
+* **[IAM Access Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)** - reports resources shared outside your organization, and roles and permissions nobody uses
+
+## Decide whether to log content
+
+[Bedrock model invocation logging](https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html) is off by default. It stores full prompts and responses, which helps an investigation but also keeps any personal or confidential data users send. Decide either way, and record the reason in your risk register.
+
+## Plan for your SIEM
+
+Put every log source in the central bucket from the start, each under its own prefix. The [Microsoft Sentinel AWS S3 connector](https://learn.microsoft.com/en-us/azure/sentinel/connect-aws) reads from a bucket, so you can connect it later without moving anything. See [Do you send AWS logs to Microsoft Sentinel?](/send-aws-logs-to-microsoft-sentinel)

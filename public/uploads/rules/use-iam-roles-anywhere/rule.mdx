@@ -1,0 +1,115 @@
+---
+type: rule
+title: Do you use IAM Roles Anywhere instead of access keys for on-premises servers?
+seoDescription: Give on-premises servers short-lived AWS credentials with IAM Roles Anywhere and X.509 certificates from your own certificate authority, instead of storing long-lived IAM access keys on the server.
+guid: 04695935-dc86-43ec-b95a-1163d28ca5f2
+uri: use-iam-roles-anywhere
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-entra-id-to-access-aws/rule.mdx
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/expiring-app-secrets-certificates/rule.mdx
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+Workloads that run in AWS get credentials from an IAM role. A server in your own data center has no role, so the usual workaround is an IAM user whose access key is copied onto the server. That key never expires, works from any network and is rarely rotated. Anyone who can read the file can use it.
+
+<endIntro />
+
+[IAM Roles Anywhere](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html) lets a server outside AWS trade an X.509 certificate from your own certificate authority (CA) for temporary AWS credentials. The only long-lived secret left is the certificate's private key, which you can hold in a TPM or mark non-exportable. It is the same idea as [Managed Identities in Azure](/use-managed-identity-in-azure) and [OIDC in your pipelines](/use-oidc-instead-of-long-lived-secrets-in-pipelines), for servers you host yourself.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's integration service signs in as an IAM user. Its access key is saved in `C:\Users\svc-app\.aws\credentials` on 6 servers and was created 3 years ago.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Anyone who copies the file has permanent access from anywhere"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Each server has its own certificate from Northwind's CA, with the private key held in the TPM. The server gets 1-hour credentials for a role that can invoke 2 Bedrock models and nothing else.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The key cannot be copied off the server and the credentials expire after an hour"
+/>
+
+## How it works
+
+1. **Trust anchor** - register your CA. It can be AWS Private CA or your own PKI, such as Active Directory Certificate Services
+2. **Role** - the IAM role trusts the `rolesanywhere.amazonaws.com` service, with conditions that say which certificates can use it
+3. **Profile** - lists the roles a certificate can assume and sets the session length. Sessions last 1 hour by default (15 minutes to 12 hours)
+4. **Credential helper** - configure AWS's `aws_signing_helper` as a `credential_process` and the AWS CLI and SDKs call it for credentials. See [Get temporary security credentials from IAM Roles Anywhere](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/credential-helper.html)
+
+On Windows, `--cert-selector` tells the helper to use a certificate and key from the certificate store:
+
+```ini
+[profile bedrock-prod]
+credential_process = aws_signing_helper credential-process --cert-selector Key=x509Subject,Value=CN=app01.northwind.com --trust-anchor-arn arn:aws:rolesanywhere:ap-southeast-2:111122223333:trust-anchor/TA_ID --profile-arn arn:aws:rolesanywhere:ap-southeast-2:111122223333:profile/PROFILE_ID --role-arn arn:aws:iam::111122223333:role/bedrock-invoke
+region = ap-southeast-2
+```
+
+On Linux, replace `--cert-selector` with `--certificate` and `--private-key`. The private key can be a file, a TPM handle or a PKCS#11 URI.
+
+## Restrict the role to the right certificates
+
+By default, any certificate your CA has issued can authenticate, including every user and laptop certificate if the trust anchor is your corporate CA. Add conditions to the role's trust policy so only the intended servers can assume it:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": { "Service": "rolesanywhere.amazonaws.com" },
+      "Action": ["sts:AssumeRole", "sts:TagSession", "sts:SetSourceIdentity"],
+      "Condition": {
+        "StringEquals": {
+          "aws:PrincipalTag/x509Subject/CN": "app01.northwind.com"
+        },
+        "ArnEquals": {
+          "aws:SourceArn": "arn:aws:rolesanywhere:ap-southeast-2:111122223333:trust-anchor/TA_ID"
+        }
+      }
+    }
+  ]
+}
+```
+
+You can also match on `x509Subject/OU` or `x509SAN/DNS`. See [The IAM Roles Anywhere trust model](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/trust-model.html). Give the role only what the server needs, for example `bedrock:InvokeModel` on the approved model ARNs.
+
+## Protect the private key
+
+A `.pem` key file is only a little better than an access key. Use one of these instead:
+
+* **Windows certificate store** - enroll the certificate with a non-exportable key. The helper reads the current user's store, not Local Machine, so the certificate must belong to the account that runs your application
+* **TPM** - the helper supports TPM-backed keys on Linux and Windows
+* **PKCS#11** - for a hardware security module or smart card
+
+If you must use a key file, treat it like any other secret. See [Do you store your secrets securely?](/store-your-secrets-securely)
+
+## Plan for renewal and revocation
+
+* Certificates expire. Use auto-enrollment if your CA supports it, and track expiry dates. See [Do you keep track of expiring app registration secrets and certificates?](/expiring-app-secrets-certificates)
+* Revoking a certificate in your CA does nothing in AWS by default, and Roles Anywhere does not support OCSP. Either turn on revocation checking on the trust anchor (the CRL distribution point must be reachable from the internet) or import your CRL each time the CA publishes one
+
+## Keep production and test apart
+
+Use a separate trust anchor and role in each account, and issue production and test certificates from different templates or subjects, so a test certificate cannot open a production role. See [Do you use separate AWS accounts as security boundaries?](/use-separate-aws-accounts) Prove the whole flow, including renewal, in NonProd first.
+
+## What if you mostly use Azure?
+
+If your identity team already runs everything in Microsoft Entra ID, let Entra ID control AWS access instead. The server swaps an Entra token, from a managed identity or Azure Arc, for AWS credentials. See [Do you use Microsoft Entra ID to give your workloads access to AWS?](/use-entra-id-to-access-aws)

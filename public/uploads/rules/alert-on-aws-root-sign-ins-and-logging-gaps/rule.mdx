@@ -1,0 +1,87 @@
+---
+type: rule
+title: Do you alert on AWS root sign-ins and logging gaps?
+seoDescription: Send an alert to your incident response channel for every AWS root sign-in, every attempt to stop or change CloudTrail, high-severity GuardDuty findings, and any period when audit logs stop arriving.
+guid: 8104c129-54a1-4902-bd79-ec8175565941
+uri: alert-on-aws-root-sign-ins-and-logging-gaps
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/lock-down-aws-root-user/rule.mdx
+  - rule: public/uploads/rules/send-aws-audit-logs-to-security-account/rule.mdx
+  - rule: public/uploads/rules/send-aws-logs-to-microsoft-sentinel/rule.mdx
+  - rule: public/uploads/rules/monitor-failed-login-attempts/rule.mdx
+  - rule: public/uploads/rules/set-up-azure-alert-emails-on-teams-channel/rule.mdx
+  - rule: public/uploads/rules/alert-for-azure-security-center/rule.mdx
+  - rule: public/uploads/rules/regularly-review-your-security-posture/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+An audit log tells you what happened, but only when someone reads it. If nobody is told when the root user signs in or when logging stops, you find out weeks later at the next audit, or halfway through an incident.
+
+<endIntro />
+
+Send the events below to the channel your incident response team already watches, such as a Teams channel. See [Do you set up Azure alert emails to go to a Teams channel?](/set-up-azure-alert-emails-on-teams-channel)
+
+## Alert on these events
+
+| Event | Why it matters |
+| --- | --- |
+| A root user sign-in, in any account, successful or not | Root is break-glass access, so every use must be expected. See [Do you lock down the AWS root user?](/lock-down-aws-root-user) |
+| `StopLogging`, `DeleteTrail`, `UpdateTrail` or `PutEventSelectors` in CloudTrail | Attackers turn logging off, or narrow it, before they do anything else |
+| `PutBucketPolicy` or `DeleteBucketPolicy` on the audit log bucket, and `PutKeyPolicy`, `DisableKey` or `ScheduleKeyDeletion` on its KMS key | Each can stop log delivery or lock you out of the logs |
+| High-severity GuardDuty findings | Likely compromise. See [Processing GuardDuty findings with EventBridge](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_eventbridge.html) |
+| No new audit logs for a set time, for example 1 hour | Logging broke, or someone disabled it in a way you did not catch |
+
+Also alert on repeated failed sign-ins. See [Do you monitor failed login attempts?](/monitor-failed-login-attempts)
+
+## Alert on root sign-ins with EventBridge
+
+CloudTrail sends [console sign-in events](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws-console-sign-in-events.html) to Amazon EventBridge. Create a rule on the default event bus with this pattern, and send the matches to an SNS topic:
+
+```json
+{
+  "source": ["aws.signin"],
+  "detail": {
+    "userIdentity": {
+      "type": ["Root"]
+    }
+  }
+}
+```
+
+The pattern leaves out `detail-type` on purpose. AWS spells it two ways, "Sign In" and "Signin", and a rule with the wrong one matches nothing and raises no error.
+
+Two things catch people out:
+
+* **The Region.** CloudTrail records a root sign-in in us-east-1, us-east-2 or us-west-2, wherever your workloads run. A rule in ap-southeast-2 alone never fires. Deploy the rule in all three Regions, and exempt the deploying role if a Region SCP blocks them
+* **The account.** An EventBridge rule sees only its own account's events. Deploy the rule to every account with infrastructure as code, or [forward the events to one event bus](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cross-account.html) in the Log/Security account. GuardDuty is easier: rules in the delegated administrator account also fire for member account findings
+
+For the CloudTrail, S3 and KMS calls in the table, write a second rule that matches `"detail-type": ["AWS API Call via CloudTrail"]` and the event names. See [AWS service events delivered via AWS CloudTrail](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-service-event-cloudtrail.html).
+
+To get from SNS into Teams or Slack, use [Amazon Q Developer in chat applications](https://docs.aws.amazon.com/chatbot/latest/adminguide/what-is.html), formerly AWS Chatbot.
+
+## Detect when logs stop arriving
+
+An alert on `StopLogging` misses quiet failures. A broken bucket policy or a disabled KMS key stops delivery without anyone calling `StopLogging`.
+
+Run a scheduled check, for example a Lambda function every 15 minutes, that calls [`GetTrailStatus`](https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_GetTrailStatus.html) and alerts when:
+
+* `IsLogging` is false
+* `LatestDeliveryError` has a value
+* `LatestDeliveryTime` is older than your limit
+
+CloudTrail delivers a log file every few minutes, so an hour of silence in an organization trail is not normal. Call the API in the trail's home Region, and pass the full trail ARN if the function runs outside the management account.
+
+## Test the alerts
+
+Sign in as root in a non-production account on purpose and confirm the message arrives. Repeat after any change to the rules or SCPs. See [Do you regularly review your security posture?](/regularly-review-your-security-posture)
+
+If you later connect AWS to a SIEM such as Microsoft Sentinel, rebuild these alerts there and keep the EventBridge rules until each SIEM alert has fired. See [Do you send AWS logs to Microsoft Sentinel?](/send-aws-logs-to-microsoft-sentinel)
