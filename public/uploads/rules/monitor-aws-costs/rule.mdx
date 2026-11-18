@@ -62,7 +62,7 @@ Neither tool is real time. AWS refreshes budget data up to three times a day.
 These lines grow with usage:
 
 * **AI model usage:** Bedrock charges per token. Many third-party models are sold through AWS Marketplace and appear in Cost Explorer under the model provider, so filtering on the Bedrock service misses them. See [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts)
-* **GuardDuty:** it [charges per million CloudTrail management events](https://aws.amazon.com/guardduty/pricing/) it analyzes,
+* **GuardDuty:** it [charges per million CloudTrail management events](https://aws.amazon.com/guardduty/pricing/) it analyzes, and every Bedrock call is one
 * **Duplicate CloudTrail trails:** AWS delivers one copy of management events to S3 for free and [charges for every additional copy](https://aws.amazon.com/cloudtrail/pricing/)
 * **SIEM ingestion:** if you [send AWS logs to Microsoft Sentinel](/send-aws-logs-to-microsoft-sentinel), you pay per GB ingested. Send the logs you will query, not everything
 

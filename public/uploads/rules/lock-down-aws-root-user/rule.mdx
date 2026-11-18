@@ -32,13 +32,13 @@ You cannot remove the management account's root user, so make it hard to misuse 
 
 AWS forces MFA on every root user but accepts any type. Choose a FIDO2 hardware security key such as a YubiKey, because a key will not answer a fake sign-in page the way a six-digit code will. See [Enable a passkey or security key for the root user](https://docs.aws.amazon.com/IAM/latest/UserGuide/enable-fido-mfa-for-root.html).
 
-Register at least two keys. A root user can have up to 8 MFA devices, and any one is enough to sign in. Give the keys to different custodians, or keep one in the office safe. With more than one MFA device registered, AWS turns off the self-service "lost my MFA device" recovery, so the spare key is your recovery plan.
+Register at least two keys. A root user can have up to 8 MFA devices, and any one is enough to sign in. Give the keys to different custodians, or keep one in the office safe. The spare key means a lost key never becomes an account recovery.
 
 Also:
 
 * Use a group mailbox for the root email, for example `aws-root@northwind.com`. Password resets and security notices go there, and a personal mailbox dies with the person's employment
 * Keep a long, unique password in your enterprise password manager, not anywhere that needs this AWS account to reach it
-* Keep the account's phone number current and company-owned. If every MFA device is lost, AWS verifies you with the email and phone number together
+* Keep the account's phone number current and company-owned. If every MFA device is lost, AWS [verifies you with the root email and the phone number together](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html). Anyone who controls both can get past MFA, however many keys you register
 * Set the [alternate contacts](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-update-contact-alternate.html) for billing, operations and security to distribution lists, so AWS reaches a team and not one person
 * Never create root access keys. Delete any that exist
 

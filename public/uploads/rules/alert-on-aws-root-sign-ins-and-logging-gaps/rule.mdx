@@ -61,7 +61,7 @@ The pattern leaves out `detail-type` on purpose. AWS spells it two ways, "Sign I
 
 Two things catch people out:
 
-* **The Region.** CloudTrail records a root sign-in in us-east-1, us-east-2 or us-west-2, wherever your workloads run. A rule in ap-southeast-2 alone never fires. Deploy the rule in all three Regions, and exempt the deploying role if a Region SCP blocks them
+* **The Region.** CloudTrail records a root sign-in in us-east-1, us-east-2 or us-west-2, wherever your workloads run. A rule in ap-southeast-2 alone never fires. Deploy the rule in all three Regions. If a Region SCP blocks them, exempt the deploying role, as the example in [Do you use service control policies as guardrails in AWS?](/use-aws-service-control-policies) does
 * **The account.** An EventBridge rule sees only its own account's events. Deploy the rule to every account with infrastructure as code, or [forward the events to one event bus](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cross-account.html) in the Log/Security account. GuardDuty is easier: rules in the delegated administrator account also fire for member account findings
 
 For the CloudTrail, S3 and KMS calls in the table, write a second rule that matches `"detail-type": ["AWS API Call via CloudTrail"]` and the event names. See [AWS service events delivered via AWS CloudTrail](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-service-event-cloudtrail.html).

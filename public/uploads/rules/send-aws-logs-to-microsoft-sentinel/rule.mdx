@@ -36,7 +36,7 @@ Use the **Amazon Web Services S3** connector, not the legacy CloudTrail one, whi
 2. The bucket puts a notification on an SQS queue for each new file
 3. Sentinel assumes an IAM role, reads the queue and fetches the files
 
-Sentinel gets that role through an OIDC identity provider that trusts Microsoft Entra ID, so there is no access key to store or rotate See [Do you use OIDC instead of long-lived secrets in your pipelines?](/use-oidc-instead-of-long-lived-secrets-in-pipelines)
+Sentinel gets that role through an OIDC identity provider that trusts Microsoft Entra ID, so there is no access key to store or rotate. See [Do you use OIDC instead of long-lived secrets in your pipelines?](/use-oidc-instead-of-long-lived-secrets-in-pipelines)
 
 ## Connect the central log bucket
 

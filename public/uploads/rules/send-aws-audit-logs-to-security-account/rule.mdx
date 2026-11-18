@@ -49,7 +49,7 @@ Turn on [S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/o
     You cannot undo compliance mode. Try the retention period in governance mode first. If you lock 10 years by mistake, you pay for 10 years of storage.
   </>}
   figurePrefix="none"
-  figure="Warning - Test the retention period in governance mode before you switch to compliance mode"
+  figure="Test the retention period in governance mode before you switch to compliance mode"
 />
 
 Only two accounts can change the trail: the Log/Security account and the management account. Block the first with an SCP that denies `cloudtrail:StopLogging`, `cloudtrail:DeleteTrail`, `cloudtrail:UpdateTrail` and `cloudtrail:PutEventSelectors`. See [Do you use service control policies as guardrails in AWS?](/use-aws-service-control-policies) SCPs do not apply to the management account, which is why [Do you keep your AWS management account empty?](/keep-aws-management-account-empty)
