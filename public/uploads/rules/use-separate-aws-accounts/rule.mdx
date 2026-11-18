@@ -1,0 +1,96 @@
+---
+type: rule
+title: Do you use separate AWS accounts as security boundaries?
+seoDescription: Use AWS Organizations to split management, security, production and non-production into separate AWS accounts, so a mistake or compromise in one cannot reach the others.
+guid: 7437a911-3859-4405-8875-e51a3d872b27
+uri: use-separate-aws-accounts
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/keep-aws-management-account-empty/rule.mdx
+  - rule: public/uploads/rules/send-aws-audit-logs-to-security-account/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/do-you-have-separate-development-testing-and-production-environments/rule.mdx
+  - rule: public/uploads/rules/azure-landing-zone-design/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most teams start on AWS with one account that holds production, test servers, audit logs and the billing owner. Then a test server is compromised, or a cleanup script hits the wrong environment, and nothing stands between the mistake and production.
+
+<endIntro />
+
+An AWS account is a hard isolation boundary. Roles, policies and resources in one account cannot touch another unless you grant cross-account access. If you come from Azure, an account is closest to a subscription, and [AWS Organizations](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html) groups them, bills them together and applies policy from the top.
+
+AWS does not charge for accounts or for Organizations. You pay only for what runs inside them.
+
+## Start with four accounts
+
+This is the smallest layout worth having, even if all you do is call Amazon Bedrock:
+
+```text
+Organization root
+├── Management               Organizations and billing. No workloads
+├── OU: Security
+│   └── Log/Security         Audit logs, security tooling, delegated admin
+└── OU: Workloads
+    ├── OU: Prod
+    │   └── Prod             Production
+    └── OU: NonProd
+        └── NonProd          Development, testing, experiments
+```
+
+**Figure: Four accounts, with production and non-production in separate OUs**
+
+* **Management** pays the bill and owns the organization. See [Do you keep your AWS management account empty?](/keep-aws-management-account-empty)
+* **Log/Security** holds the audit logs and runs security services for every other account. See [Do you send AWS audit logs to a dedicated security account?](/send-aws-audit-logs-to-security-account) AWS's reference architecture splits this into Log Archive and Security Tooling. Do the same when the people who read findings should not be able to touch the log bucket
+* **Prod and NonProd** sit in different organizational units (OUs) so each gets its own [service control policies](/use-aws-service-control-policies)
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind has one AWS account. It holds the production app, the test servers and the CloudTrail bucket, and every developer is an administrator.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Whoever compromises a test server can reach production and delete the audit logs"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind has Management, Log/Security, Prod and NonProd accounts. Developers are administrators in NonProd and read-only in Prod. The CloudTrail bucket lives in Log/Security, where no workload admin has access.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A compromised test server stays in NonProd, and the logs that record it are out of reach"
+/>
+
+## Keep NonProd even when it looks empty
+
+A managed service with no servers makes a second account feel like overhead. It still pays for itself:
+
+* **Quotas are per account and per Region.** Amazon Bedrock throttles on tokens per minute for each model, so a load test in Prod eats the quota your customers use. A new account can start with lower quotas than the published defaults, so request increases for Prod and NonProd separately
+* **Guardrails get tested safely.** Attach a changed SCP to the NonProd OU first, so a bad policy breaks a test run instead of production. Enable new models and services there too, without widening what Prod can use
+
+## Add accounts as you grow
+
+Give each new workload its own account, for example the public website or shared DNS. Splitting a workload out of a shared account later is a migration. Larger environments add OUs such as Infrastructure, Sandbox and Suspended. See [Recommended OUs and accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/recommended-ous-and-accounts.html).
+
+<boxEmbed
+  style="info"
+  body={<>
+    [AWS Control Tower](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html) sets up a landing zone on top of Organizations, with logging and security accounts and baseline controls. For a handful of accounts, plain Organizations plus infrastructure as code is less to learn and keeps every setting in your repository.
+  </>}
+  figurePrefix="none"
+  figure="Control Tower is optional for a small organization"
+/>
+
+## More information
+
+* [SEC01-BP01 Separate workloads using accounts](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_multi_accounts.html) - AWS Well-Architected Framework
+* [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) - AWS whitepaper

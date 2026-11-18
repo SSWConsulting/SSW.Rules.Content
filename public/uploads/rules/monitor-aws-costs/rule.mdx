@@ -1,0 +1,87 @@
+---
+type: rule
+title: Do you monitor your costs in AWS?
+seoDescription: Set AWS Budgets and Cost Anomaly Detection on every account, know which services scale with usage, and bring AWS costs into Microsoft FinOps hubs with a FOCUS export if you also run Azure.
+guid: 216a92d9-086c-4c5e-b88c-89d29cee53fb
+uri: monitor-aws-costs
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/azure-budgets/rule.mdx
+  - rule: public/uploads/rules/finops-owner/rule.mdx
+  - rule: public/uploads/rules/do-you-have-an-azure-spend-master/rule.mdx
+  - rule: public/uploads/rules/spike-in-azure-resource-costs/rule.mdx
+  - rule: public/uploads/rules/ai-service-alerts/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+AWS charges for what you use and invoices after the month ends. A test loop that calls an AI model all weekend, or a forgotten GPU instance, can run up thousands of dollars before the invoice shows it. It gets worse in a company that mostly runs on Azure, where the AWS bill goes to finance and no engineer ever opens it.
+
+<endIntro />
+
+Treat AWS like Azure: [Do you monitor your costs in Azure?](/azure-budgets) Someone must own the number, so see [Do you have a FinOps owner for every project?](/finops-owner)
+
+## Set budgets and anomaly alerts
+
+Do all of this in the management account, because it pays the bill and sees every member account:
+
+* **Budgets:** create [AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) for the whole organization, then one per linked account. Alert on actual spend at 50%, 80% and 100%, and add a forecast alert
+* **Anomaly detection:** a budget only fires on a line you drew in advance. [Cost Anomaly Detection](https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html) catches unusual spend that is still under budget. Create the AWS managed monitors for services and linked accounts, and they pick up new ones by themselves
+* **Alert routing:** send alerts to a team channel, not one person's inbox. Both tools can publish to an SNS topic, which you can [route to a chat channel](https://docs.aws.amazon.com/cost-management/latest/userguide/cad-alert-chime.html)
+* **Tags:** tag resources with at least project and environment, then activate those keys as [cost allocation tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html). Until a tag is activated, it does not appear in [Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html)
+
+Neither tool is real time. AWS refreshes budget data up to three times a day.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Nobody at Northwind checks the AWS bill. A test loop calls a Bedrock model from Friday night, and the team hears about it when finance queries the invoice three weeks later.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - With no budget or anomaly alert, the invoice is the first warning"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Cost Anomaly Detection posts to Northwind's #aws-alerts channel on Saturday. The developer on call stops the loop that afternoon.
+  </>}
+  figurePrefix="good"
+  figure="Good example - An anomaly alert in a team channel gets the loop stopped in a day, not a month"
+/>
+
+## Know which costs grow with usage
+
+These lines grow with usage:
+
+* **AI model usage:** Bedrock charges per token. Many third-party models are sold through AWS Marketplace and appear in Cost Explorer under the model provider, so filtering on the Bedrock service misses them. See [Do you set alerts on AI usage, failures and throttling?](/ai-service-alerts)
+* **GuardDuty:** it [charges per million CloudTrail management events](https://aws.amazon.com/guardduty/pricing/) it analyzes, and every Bedrock call is one
+* **Duplicate CloudTrail trails:** AWS delivers one copy of management events to S3 for free and [charges for every additional copy](https://aws.amazon.com/cloudtrail/pricing/)
+* **SIEM ingestion:** if you [send AWS logs to Microsoft Sentinel](/send-aws-logs-to-microsoft-sentinel), you pay per GB ingested. Send the logs you will query, not everything
+
+## Report AWS and Azure costs in one place
+
+Microsoft retired the Azure Cost Management connector for AWS on 31 March 2025. The replacement is to export AWS costs in [FOCUS](https://learn.microsoft.com/en-us/cloud-computing/finops/focus/what-is-focus), the open billing format both clouds can produce, and load them into a [FinOps hub](https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/hubs/finops-hubs-overview):
+
+1. In the AWS management account, [create a standard data export](https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create-standard.html) of the **FOCUS 1.0 with AWS columns** table, in Parquet format. AWS refreshes it about once a day
+2. [Deploy a FinOps hub](https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/hubs/deploy) in Azure
+3. Schedule a job that copies the Parquet files into the hub's `ingestion` container under `Costs/yyyy/mm/aws/[account-id]`. The hub does not pull from AWS, so you build and run this job
+4. Report on both clouds with the toolkit's Power BI reports or Data Explorer dashboard
+
+Step 3 is where this goes wrong. Each run must replace the whole month's folder, and a Data Explorer hub ingests nothing until you upload a `manifest.json` after the data files. Follow [Ingest from other data sources](https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/hubs/deploy#ingest-from-other-data-sources) exactly.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Microsoft's documentation says support for non-Azure data "hasn't been explicitly tested in the latest release". Reconcile the hub's AWS total against the AWS invoice for a closed month before anyone makes decisions from it.
+  </>}
+  figurePrefix="none"
+  figure="FinOps hubs are not explicitly tested with non-Azure data, so reconcile the AWS total yourself"
+/>

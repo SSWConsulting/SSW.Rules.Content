@@ -1,0 +1,119 @@
+---
+type: rule
+title: Do you use Microsoft Entra ID to give your workloads access to AWS?
+seoDescription: If your organization runs on Azure and only uses some AWS, federate AWS IAM with Microsoft Entra ID so workloads swap an Entra token for short-lived AWS credentials, and control who gets access with app role assignments in Entra ID.
+guid: 6bbf278d-bd8a-43fb-9703-daac5720e64b
+uri: use-entra-id-to-access-aws
+created: 2026-11-17T05:28:15.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-iam-roles-anywhere/rule.mdx
+  - rule: public/uploads/rules/use-sso-for-aws/rule.mdx
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/send-aws-logs-to-microsoft-sentinel/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+archivedreason: null
+isArchived: false
+---
+
+Plenty of organizations run almost everything on Azure and use AWS for one thing, such as Amazon Bedrock. The identity team audits Entra ID every quarter, but AWS IAM is a second system that one or two people understand. A server that needs AWS access ends up with an IAM access key that nobody on the Azure side can see.
+
+<endIntro />
+
+You can keep Entra ID in charge. AWS IAM can trust your Entra tenant as an OpenID Connect (OIDC) identity provider. A workload swaps an Entra access token with AWS STS for temporary credentials, and an app role assignment in Entra ID decides who may. See [How to access AWS resources from Microsoft Entra ID tenants using AWS STS](https://aws.amazon.com/blogs/security/how-to-access-aws-resources-from-microsoft-entra-id-tenants-using-aws-security-token-service/).
+
+## How it fits together
+
+1. In Entra ID, register an app that stands for one AWS role, for example "AWS Bedrock Prod". Give it an Application ID URI such as `api://northwind-aws-bedrock-prod` and an app role
+2. On its enterprise application, set **Assignment required** to **Yes**
+3. Assign the app role directly to each workload identity that needs AWS access
+4. In AWS, create an IAM OIDC identity provider for `https://sts.windows.net/<tenant-id>/`, with the Application ID URI as its audience
+5. Create the IAM role and trust the provider for that audience only
+
+The workload asks Entra ID for a token for `api://northwind-aws-bedrock-prod`, then calls `AssumeRoleWithWebIdentity`:
+
+```bash
+aws sts assume-role-with-web-identity \
+  --role-arn arn:aws:iam::111122223333:role/bedrock-invoke \
+  --role-session-name "$(hostname)" \
+  --web-identity-token "$ENTRA_TOKEN"
+```
+
+The AWS SDKs cannot get an Entra token, so wrap both steps in a script and point a `credential_process` profile at it.
+
+## Let Entra ID decide who gets in
+
+This trust policy checks the audience and nothing else:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "arn:aws:iam::111122223333:oidc-provider/sts.windows.net/<tenant-id>/"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "sts.windows.net/<tenant-id>/:aud": "api://northwind-aws-bedrock-prod"
+        }
+      }
+    }
+  ]
+}
+```
+
+AWS only checks that the token came from your tenant for this app. Entra ID decides who gets it: assign the app role to grant access, remove the assignment to revoke it. Nobody touches AWS IAM.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** This only works with **Assignment required** set to **Yes**. Without it, Entra ID gives an app-only token for your app to any app in the tenant that asks, with no `roles` claim. AWS cannot check the `roles` claim, so every service principal in your tenant could assume the role. See [Controlling tokens without the roles claim](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow#controlling-tokens-without-the-roles-claim).
+  </>}
+  figurePrefix="none"
+  figure="Assignment required is what makes Entra ID the gatekeeper"
+/>
+
+Also:
+
+* **Assign roles to the identity itself.** Entra ID does not evaluate group assignments for app-only tokens
+* **Use one Entra app per AWS role.** The audience is the only thing the trust policy checks, so Prod and NonProd need different apps
+* **Leave the app on v1.0 access tokens**, which is the default. In v2.0 tokens AWS maps its `aud` key to the `azp` claim, so the audience check behaves differently
+* **For extra safety in Prod, also check `sub`** with the object ID of each allowed identity. This catches a mistaken assignment in Entra ID, but every new server then needs an AWS change too
+
+## Get the token without a stored secret
+
+Use a managed identity so no secret is stored on the machine:
+
+* **Azure VMs, App Service and Functions** have one. See [Do you use Managed Identities in your Azure projects?](/use-managed-identity-in-azure)
+* **On-premises servers** can get one by enabling [Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/servers/managed-identity-authentication).
+* **Servers you cannot Arc-enable** need a certificate credential, which is still a secret on the server. Compare [IAM Roles Anywhere](/use-iam-roles-anywhere)
+
+## Protect the Entra side
+
+All AWS access now depends on Entra ID:
+
+* **App owners, Application Administrators and Cloud Application Administrators** can assign the app role, which grants AWS access. Put them behind Privileged Identity Management
+* **Alert on "Add app role assignment to service principal"** in the Entra audit log for these apps. If you [send AWS logs to Microsoft Sentinel](/send-aws-logs-to-microsoft-sentinel), you can match it to the first `AssumeRoleWithWebIdentity` call in CloudTrail
+* **Do not count on Conditional Access.** [Conditional Access for workload identities](https://learn.microsoft.com/en-us/entra/identity/conditional-access/workload-identity) does not cover managed identities
+
+Removing an assignment stops new tokens, but tokens and AWS sessions already issued stay valid until they expire. Keep the role's maximum session duration at 1 hour.
+
+## Entra ID federation or IAM Roles Anywhere?
+
+| | Entra ID federation | [IAM Roles Anywhere](/use-iam-roles-anywhere) |
+| --- | --- | --- |
+| Best when | You mostly use Azure and already manage identities in Entra ID | You mostly use AWS, or the servers cannot get an Entra identity |
+| Secret on the server | None with a managed identity | A certificate private key |
+| AWS tooling | None, you write a small token script | `aws_signing_helper` |
+
+This is for workloads, not people. People sign in through IAM Identity Center: [Do you sign in to AWS with SSO instead of IAM users?](/use-sso-for-aws)

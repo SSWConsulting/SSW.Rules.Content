@@ -1,0 +1,94 @@
+---
+type: rule
+title: Do you send AWS logs to Microsoft Sentinel?
+seoDescription: Connect AWS CloudTrail and GuardDuty to Microsoft Sentinel with the AWS S3 connector and an OIDC role, filter what you ingest to control cost, and rebuild your AWS alerts as Sentinel analytics rules and playbooks.
+guid: a7189382-a450-4328-be23-d246704ba136
+uri: send-aws-logs-to-microsoft-sentinel
+created: 2026-11-13T07:10:13.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/send-aws-audit-logs-to-security-account/rule.mdx
+  - rule: public/uploads/rules/alert-on-aws-root-sign-ins-and-logging-gaps/rule.mdx
+  - rule: public/uploads/rules/monitor-aws-costs/rule.mdx
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/sysadmin-cybersecurity-tools/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+If your security team works in Microsoft Sentinel, AWS activity that never reaches it is a blind spot. Watching it means a second console, query language and set of alerts, so in practice nobody looks until something has gone wrong.
+
+<endIntro />
+
+Send the AWS audit logs to Sentinel, and query them next to Microsoft Entra ID, Microsoft 365 and Azure alerts.
+
+## Use the AWS S3 connector
+
+Use the **Amazon Web Services S3** connector, not the legacy CloudTrail one, which polls the API and falls behind on busy accounts. See [Connect Microsoft Sentinel to Amazon Web Services](https://learn.microsoft.com/en-us/azure/sentinel/connect-aws).
+
+1. AWS writes log files to an S3 bucket
+2. The bucket puts a notification on an SQS queue for each new file
+3. Sentinel assumes an IAM role, reads the queue and fetches the files
+
+Sentinel gets that role through an OIDC identity provider that trusts Microsoft Entra ID, so there is no access key to store or rotate. See [Do you use OIDC instead of long-lived secrets in your pipelines?](/use-oidc-instead-of-long-lived-secrets-in-pipelines)
+
+## Connect the central log bucket
+
+If you [send AWS audit logs to a dedicated security account](/send-aws-audit-logs-to-security-account), connect Sentinel once, in that account, and get every account's logs.
+
+Microsoft's PowerShell script creates the OIDC provider, role, SQS queue and bucket notifications from the AWS CLI signed in to the Log/Security account. If you use infrastructure as code, follow the [manual setup](https://learn.microsoft.com/en-us/azure/sentinel/connect-aws-configure-environment) and build the same resources in your templates. Watch for these traps:
+
+* The role name must start with `OIDC_`, and the trust policy needs an `sts:RoleSessionName` condition of `MicrosoftSentinel_` followed by your workspace ID
+* If the account already has the Entra ID OIDC provider for Microsoft Defender for Cloud, add Sentinel as a second audience. Do not create a second provider
+* The manual steps attach managed policies such as `AmazonS3ReadOnlyAccess`, which can read every bucket in the account. Write your own policy for the log bucket and its queues. Microsoft lists the [required permissions](https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/AWS-S3/AwsRequiredPolicies.md)
+* If a customer managed KMS key encrypts the logs, allow the role `kms:Decrypt` in the key policy
+
+Each log type needs its own SQS queue, and a queue can serve only one path in the bucket. CloudTrail and GuardDuty can share a bucket if each has its own prefix and queue.
+
+For GuardDuty, [export the findings to S3](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_exportfindings.html) from the delegated administrator account, which includes member account findings. Set it up in each Region. It needs a KMS key, and the destination folder must exist first. Updates to existing findings export every 6 hours by default, so change that to 15 minutes.
+
+## Choose what you ingest
+
+Sentinel bills by the GB, and CloudTrail is usually the largest AWS source.
+
+| Log | Send to Sentinel? |
+| --- | --- |
+| CloudTrail management events | ✅ Yes - sign-ins, IAM changes, and calls to services such as Amazon Bedrock |
+| GuardDuty findings | ✅ Yes - small volume, and each one is worth reading |
+| CloudTrail data events, such as S3 object reads | ⚠️ Only for the buckets where you need them |
+| VPC Flow Logs | ⚠️ Only if a detection uses them - the volume is large |
+
+See [Reduce costs for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs). SQS and S3 requests also appear on the AWS bill. See [Do you monitor your costs in AWS?](/monitor-aws-costs)
+
+## Rebuild your alerts in Sentinel
+
+The Amazon Web Services solution in the Content Hub includes analytics rule templates, such as changes to CloudTrail logging and console sign-ins without MFA. Turn on the fitting ones before you write your own.
+
+Then move the alerts from [Do you alert on AWS root sign-ins and logging gaps?](/alert-on-aws-root-sign-ins-and-logging-gaps) into [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/threat-detection), and use [playbooks](https://learn.microsoft.com/en-us/azure/sentinel/automation/automate-responses-with-playbooks) to post incidents to your incident response channel.
+
+This query finds root console sign-ins, including failed ones:
+
+```kusto
+AWSCloudTrail
+| where EventName == "ConsoleLogin"
+| where UserIdentityType == "Root"
+| project TimeGenerated, RecipientAccountId, SourceIpAddress, UserAgent, ResponseElements
+```
+
+And this one fires when CloudTrail logs stop arriving:
+
+```kusto
+AWSCloudTrail
+| summarize LastEvent = max(TimeGenerated)
+| where isnull(LastEvent) or LastEvent < ago(2h)
+```
+
+The `isnull` check matters. If the query period has no events, `max()` returns null, and the rule would go quiet exactly when the gap is longest. Set the 2 hours to suit your ingestion delay. The query also catches a broken connector. See [Monitor the health of your data connectors](https://learn.microsoft.com/en-us/azure/sentinel/monitor-data-connector-health).
+
+Keep the EventBridge alerts until each Sentinel alert has fired. A planned root sign-in to a non-production account tests the first query.

@@ -1,0 +1,105 @@
+---
+type: rule
+title: Do you sign in to AWS with SSO instead of IAM users?
+seoDescription: Use AWS IAM Identity Center with your existing identity provider, such as Microsoft Entra ID, so people sign in to AWS with their work accounts and get short-lived credentials instead of IAM users and access keys.
+guid: 056e0955-8c73-4727-8a9c-dcb1ab6f256e
+uri: use-sso-for-aws
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/keep-aws-management-account-empty/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/conditional-access-policies/rule.mdx
+  - rule: public/uploads/rules/give-users-least-privileges/rule.mdx
+  - rule: public/uploads/rules/use-entra-id-to-access-aws/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+An IAM user is a separate username and password in one AWS account, usually with an access key that sits in a developer's home folder for years. Your identity provider knows nothing about it, so your MFA and Conditional Access policies do not apply. When someone leaves, somebody has to remember to delete their IAM user in every account.
+
+<endIntro />
+
+Use [IAM Identity Center](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) and connect it to the identity provider you already have. People sign in with their work account, pick an AWS account in the access portal and get temporary credentials for it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Every Northwind developer has an IAM user in each account. The access key in `~/.aws/credentials` is 2 years old, and 3 of the users belong to people who have left.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Long-lived keys, and nothing removes access when someone leaves"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind developers sign in with Entra ID. The AWS-Developers group has the Developer permission set in NonProd and ReadOnly in Prod. Credentials expire after 1 hour.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Access follows group membership in Entra ID and the credentials are short-lived"
+/>
+
+## Connect your identity provider
+
+For Microsoft Entra ID, follow [Configure SAML and SCIM with Microsoft Entra ID and IAM Identity Center](https://docs.aws.amazon.com/singlesignon/latest/userguide/idp-microsoft-entra.html). You set up 2 connections:
+
+* **SAML** handles sign-in. MFA and [Conditional Access](/conditional-access-policies) apply to AWS, and the sign-in logs stay in Entra ID
+* **SCIM** copies users and groups into Identity Center. When you disable someone in Entra ID, they can no longer sign in to AWS
+
+Watch for these:
+
+* Entra ID does not provision nested groups. Only direct members of the assigned groups sync
+* The SCIM access token expires after 1 year and provisioning stops when it does. AWS sends reminders from 90 days before. Calendar the rotation
+* Disabling a user blocks new sign-ins at once, but credentials they already hold work until the session ends, up to 12 hours
+
+## Assign groups to permission sets
+
+Give Entra ID groups a [permission set](https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html) in specific accounts. Do not assign individual users.
+
+| Permission set | Entra ID group | Accounts |
+| --- | --- | --- |
+| Admin | AWS-Admins | Prod, NonProd |
+| Developer | AWS-Developers | NonProd |
+| ReadOnly | AWS-Developers | Prod |
+| SecurityAudit | AWS-Security | Log/Security |
+
+* Keep AWS-Admins small, and follow [least privilege](/give-users-least-privileges) for the Developer permission set
+* A session lasts 1 hour by default and you can raise it to 12 hours per permission set. Leave Admin at 1 hour
+* Give nobody a standing assignment to the management account. See [Do you keep your AWS management account empty?](/keep-aws-management-account-empty)
+
+## Use SSO for the CLI too
+
+The AWS CLI v2 and the SDKs sign in through the same portal. Run `aws configure sso` once per profile, then `aws sso login` whenever the session expires.
+
+```bash
+aws configure sso
+aws sso login --profile prod-readonly
+aws s3 ls --profile prod-readonly
+```
+
+See [Configuring IAM Identity Center authentication with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html).
+
+## Decide these before you enable it
+
+### Pick the region carefully
+
+Identity Center lives in the region where you enable it, and you cannot move it. [Switching regions](https://docs.aws.amazon.com/singlesignon/latest/userguide/switching-regions.html) means deleting the instance, recreating permission sets and assignments, and getting a new portal URL.
+
+* Choose a region in your own geography, preferably one enabled by default, such as Sydney. Melbourne is opt-in, so you must enable it in every member account first
+* You can [replicate to additional regions](https://docs.aws.amazon.com/singlesignon/latest/userguide/multi-region-iam-identity-center.html) for outage resilience. It needs a multi-Region customer managed KMS key and does not work with Active Directory as the identity source
+
+### Delegate administration
+
+The instance always lives in the management account. Register the Log/Security account as its [delegated administrator](https://docs.aws.amazon.com/singlesignon/latest/userguide/delegated-admin.html), so nobody signs in to the management account to manage users and assignments. A delegated administrator cannot change permission sets provisioned in the management account.
+
+### Close the back door
+
+* Block new IAM users with an SCP that denies `iam:CreateUser` and `iam:CreateAccessKey`. See [Do you use service control policies as guardrails in AWS?](/use-aws-service-control-policies)
+* Test Conditional Access. Sign in from a blocked location or an unmanaged device and check you cannot reach the portal

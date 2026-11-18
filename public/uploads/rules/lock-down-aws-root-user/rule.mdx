@@ -1,0 +1,101 @@
+---
+type: rule
+title: Do you lock down the AWS root user?
+seoDescription: Protect the AWS management account root user with two FIDO2 hardware security keys and a group mailbox, and remove root credentials from every member account with centralized root access.
+guid: 47f0b257-f95e-4f3d-aac5-917bcfc8b094
+uri: lock-down-aws-root-user
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/keep-aws-management-account-empty/rule.mdx
+  - rule: public/uploads/rules/alert-on-aws-root-sign-ins-and-logging-gaps/rule.mdx
+  - rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
+  - rule: public/uploads/rules/use-passkeys/rule.mdx
+  - rule: public/uploads/rules/managing-microsoft-entra-id/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+Every AWS account has a root user. It can do anything in the account, including close it, and no IAM policy can restrict it. Too often it was created with one person's email address, a password they remember and an authenticator app on their phone. When that person leaves or loses the phone, you are locked out. If an attacker phishes them, the attacker owns the account.
+
+<endIntro />
+
+## Lock down the management account root user
+
+You cannot remove the management account's root user, so make it hard to misuse and hard to lose.
+
+AWS forces MFA on every root user but accepts any type. Choose a FIDO2 hardware security key such as a YubiKey, because a key will not answer a fake sign-in page the way a six-digit code will. See [Enable a passkey or security key for the root user](https://docs.aws.amazon.com/IAM/latest/UserGuide/enable-fido-mfa-for-root.html).
+
+Register at least two keys. A root user can have up to 8 MFA devices, and any one is enough to sign in. Give the keys to different custodians, or keep one in the office safe. The spare key means a lost key never becomes an account recovery.
+
+Also:
+
+* Use a group mailbox for the root email, for example `aws-root@northwind.com`. Password resets and security notices go there, and a personal mailbox dies with the person's employment
+* Keep a long, unique password in your enterprise password manager, not anywhere that needs this AWS account to reach it
+* Keep the account's phone number current and company-owned. If every MFA device is lost, AWS [verifies you with the root email and the phone number together](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html). Anyone who controls both can get past MFA, however many keys you register
+* Set the [alternate contacts](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-update-contact-alternate.html) for billing, operations and security to distribution lists, so AWS reaches a team and not one person
+* Never create root access keys. Delete any that exist
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+* **Root email:** `bob@northwind.com`
+* **Password:** Bob knows it
+* **MFA:** Authenticator app on Bob's phone
+
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The whole organization depends on Bob, his phone and a code that can be phished"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+* **Root email:** `aws-root@northwind.com`, a group mailbox the infrastructure leads can read
+* **Password:** in the enterprise password manager
+* **MFA:** 2 FIDO2 security keys. The IT Manager holds one and the other is in the office safe
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - A phishing page gets nothing, and losing one person or one key locks nobody out"
+/>
+
+## Avoid weaker MFA on the root user
+
+| Option | Phishing-resistant | Use for root? |
+| --- | --- | --- |
+| FIDO2 hardware security key | Yes | ✅ Yes |
+| Passkey in a shared team vault | Yes | ⚠️ Only if security agrees. Anyone with vault access holds the factor |
+| Synced passkey in a personal account (iCloud, Google) | Yes | ❌ No. It follows one person's personal account, not the company |
+| Hardware TOTP token | No | ⚠️ Better than a phone, but the code can still be phished |
+| Authenticator app (TOTP) | No | ❌ No. One phone, and a code that can be phished |
+
+## Remove root credentials from member accounts
+
+Member accounts do not need root credentials. In the management account, turn on [centralized root access](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-enable-root-access.html), then delete the root password, access keys, signing certificates and MFA devices from each member account. Nobody can then sign in as root or recover the password, and new accounts start with no root credentials.
+
+An administrator with the `sts:AssumeRoot` permission can still start a short-lived session scoped to one task: deleting an S3 or SQS queue policy that locks everyone out, or deleting or re-enabling the account's root credentials. Register Log/Security as the delegated administrator for IAM so these sessions do not start from the management account.
+
+A few jobs still need a real root sign-in, such as enabling MFA delete on an S3 bucket. Use **Allow password recovery** on that one account, reset the password through the root mailbox, do the job, and delete the credentials again. Member accounts therefore need a group mailbox too.
+
+<boxEmbed
+  style="info"
+  body={<>
+    A root sign-in should be rare enough to page someone. See [Do you alert on AWS root sign-ins and logging gaps?](/alert-on-aws-root-sign-ins-and-logging-gaps)
+  </>}
+  figurePrefix="none"
+  figure="Alert on every root sign-in"
+/>
+
+## More information
+
+* [Root user best practices for your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/root-user-best-practices.html)
+* [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html) - AWS Well-Architected Framework

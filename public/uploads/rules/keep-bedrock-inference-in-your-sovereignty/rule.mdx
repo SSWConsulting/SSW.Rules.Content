@@ -1,0 +1,112 @@
+---
+type: rule
+title: Do you keep Amazon Bedrock inference in your sovereignty?
+seoDescription: Meet data residency requirements on Amazon Bedrock by using in-region models or geographic inference profiles, blocking global inference profiles with an SCP, and checking each profile's destination regions.
+guid: 158d1d6d-e9a2-4549-a5cf-69b481c1518c
+uri: keep-bedrock-inference-in-your-sovereignty
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+  - rule: public/uploads/rules/ai-model-quotas-and-regions/rule.mdx
+  - rule: public/uploads/rules/least-privilege-ai-resources/rule.mdx
+  - rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+Teams with data residency obligations often pick Amazon Bedrock because AWS has regions in their country. Then a developer copies a model ID from a sample, the ID starts with `global.`, and prompts from a Sydney workload get processed in Ohio or Frankfurt. The call still goes to the Sydney endpoint and CloudTrail still logs it in Sydney, so nobody notices.
+
+<endIntro />
+
+Where a Bedrock request is processed depends on the model ID you pass, not the endpoint you call. See also [Do you pick the best Large Language Model for your project?](/choosing-large-language-models)
+
+## Read the prefix on the model ID
+
+| Model ID | Where the request can run | Meets a residency requirement? |
+| --- | --- | --- |
+| No prefix, such as `anthropic.claude-...` | The region you call (in-region) | ✅ Yes |
+| Geographic prefix: `au.`, `eu.`, `us.`, `jp.` | The regions listed in that [geographic profile](https://docs.aws.amazon.com/bedrock/latest/userguide/geographic-cross-region-inference.html) | ✅ Yes, if every listed region is acceptable |
+| `global.` | Any commercial region that the [global profile](https://docs.aws.amazon.com/bedrock/latest/userguide/global-cross-region-inference.html) supports | ❌ No |
+
+Recent Claude models have no in-region ID in Australia, so the choice there is between `au.` and `global.`. AWS prices global profiles about 10% lower, so expect someone to suggest switching.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's claims app calls Bedrock in Sydney with `modelId: "global.anthropic.claude-sonnet-5-5"`.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The call is made in Sydney, but AWS can process it in any commercial region"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's claims app calls Bedrock in Sydney with `modelId: "au.anthropic.claude-sonnet-5-5"`, and an SCP denies global profiles across the organization.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Requests run in Sydney or Melbourne, and a global model ID fails instead of going offshore"
+/>
+
+## Enforce it with an SCP
+
+Code review will miss some model IDs, so put the rule in a [service control policy](/use-aws-service-control-policies).
+
+**Geographic profiles need every destination region allowed.** An `au.` profile called from Sydney routes between Sydney (`ap-southeast-2`) and Melbourne (`ap-southeast-4`). If your region SCP allows only Sydney, the request is denied. Allow both regions, or add an exception on the `bedrock:InferenceProfileArn` condition key for the profiles you approve.
+
+**Global profiles are evaluated with the region set to `unspecified`.** A region SCP that denies everything outside your allow list already blocks them. That protection disappears the day someone adds `unspecified` to make a global model work, so add the explicit deny that AWS documents:
+
+```json
+{
+  "Sid": "DenyBedrockGlobalInference",
+  "Effect": "Deny",
+  "Action": "bedrock:*",
+  "Resource": "*",
+  "Condition": {
+    "StringEquals": {
+      "aws:RequestedRegion": "unspecified"
+    },
+    "ArnLike": {
+      "bedrock:InferenceProfileArn": "arn:aws:bedrock:*:*:inference-profile/global.*"
+    }
+  }
+}
+```
+
+## Check where each profile really routes
+
+Do not rely on the prefix alone, because the destination list can differ by source region. The `au.` profile for Claude Sonnet 4.5 stays in Sydney and Melbourne when called from Sydney, but it can also run in New Zealand when called from there.
+
+Print the destinations for each profile you plan to use. The region in each model ARN is a place your request can run:
+
+```bash
+aws bedrock get-inference-profile \
+  --region ap-southeast-2 \
+  --inference-profile-identifier au.anthropic.claude-sonnet-5-5 \
+  --query "models[].modelArn"
+```
+
+Run it from every source region you call Bedrock from, and keep the output as evidence. To see where requests actually ran, query CloudTrail: `additionalEventData.inferenceRegion` records the processing region.
+
+## Expect new models to reach your geography late
+
+New models often launch with `us.` and `global.` profiles only, and get an `au.` profile months later, if at all. Check the *Regional availability* table on the [model card](https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html) before you promise a model to a client, and see [Do you plan for AI model quotas and region availability?](/ai-model-quotas-and-regions)
+
+If the model is not available in your geography, use one that is, or get it from a provider that hosts it in your country. Offshore processing needs the data owner's sign-off, recorded in your risk register.
+
+## Close the other gaps
+
+Prompts can still end up elsewhere:
+
+* **Abuse detection:** for some models, AWS keeps prompts and responses for up to 30 days, in the region that processed the request. The [abuse detection](https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html) page lists them.
+* **Invocation logging:** [model invocation logging](https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html) is off by default. When on, the logs hold full prompts and responses, so check what replicates them
+* **`bedrock-mantle` endpoint:** some models are served from this second endpoint, with its own IAM actions and VPC endpoint, and no invocation logs. Test your SCPs and IAM policies on both endpoints
+* **Least privilege:** allow `bedrock:InvokeModel` and `bedrock:InvokeModelWithResponseStream` only on approved model and profile ARNs. See [Do you give least-privilege access to your AI resources?](/least-privilege-ai-resources)

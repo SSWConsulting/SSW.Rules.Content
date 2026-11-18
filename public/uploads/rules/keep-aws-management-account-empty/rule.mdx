@@ -1,0 +1,82 @@
+---
+type: rule
+title: Do you keep your AWS management account empty?
+seoDescription: Run no workloads and assign no SSO access in the AWS Organizations management account, and delegate security services to a member account, because service control policies do not apply to the management account.
+guid: f52fdb18-8224-452e-932a-ea4256fed68b
+uri: keep-aws-management-account-empty
+created: 2026-11-13T06:54:18.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+  - rule: public/uploads/rules/lock-down-aws-root-user/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/use-sso-for-aws/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+The management account owns your AWS organization. Whoever controls it can create and close accounts, rewrite every guardrail and pull any account out of the organization. Many teams still treat it as an ordinary account: the first workload was deployed there, everyone signs in daily, and it has the same SSO access as everything else.
+
+<endIntro />
+
+It is also the one account your guardrails cannot protect. [Service control policies (SCPs)](/use-aws-service-control-policies) only affect member accounts. A Region restriction or a "nobody may stop CloudTrail" policy does nothing to users and roles in the management account, and AWS Control Tower's preventive controls skip it too.
+
+So keep it empty, and make signing in a rare event.
+
+## What belongs in the management account
+
+* AWS Organizations itself: the OUs, the member accounts and the policies
+* Consolidated billing and the payment method
+* The root user, protected with hardware MFA. See [Do you lock down the AWS root user?](/lock-down-aws-root-user)
+* If you use infrastructure as code, one narrowly scoped deploy role that only your protected pipeline can assume. Tell your security team it exists, because it is the only way in apart from root
+
+IAM Identity Center's organization instance also lives here and cannot be moved. You can still administer it from another account.
+
+## What does not belong there
+
+No applications, servers, models or data. With nothing else in the account, the bill is also easier to read.
+
+Do not give people SSO access for normal work. If someone needs in, such as a finance person who needs the payer's billing console, follow the [Identity Center guidance](https://docs.aws.amazon.com/singlesignon/latest/userguide/delegated-admin.html#delegated-admin-best-practices). Create a permission set used only for the management account and assign it to named users, not groups. Anyone who can edit a group in your identity provider could otherwise add themselves to your most powerful account.
+
+If you sign in for something routine, delegate that task instead.
+
+## Delegate administration to the Log/Security account
+
+Register your Log/Security account as the [delegated administrator](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html) for:
+
+* [IAM Identity Center](https://docs.aws.amazon.com/singlesignon/latest/userguide/delegated-admin.html). It manages users, permission sets and assignments for member accounts, but cannot change a permission set provisioned in the management account
+* [CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-delegated-administrator.html). The management account still owns any organization trail, but you manage it from Log/Security
+* [GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_organizations.html) and [Security Hub CSPM](https://docs.aws.amazon.com/securityhub/latest/userguide/designate-orgs-admin-account.html). Both are Regional, so set the same administrator in every Region you use
+* AWS Config and IAM Access Analyzer
+* [IAM root access management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-enable-root-access.html), so privileged root tasks on member accounts start from Log/Security
+* [Organizations policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_delegate_policies.html), so an SCP change does not need a management account sign-in
+
+SCPs still apply to the delegated administrator, which is the point of moving the work there. Registering a delegated administrator and enabling trusted access for a service cannot be delegated. Run both from the management account through the pipeline role.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's management account runs the production app. Every developer has the Admin permission set on it, and it is the GuardDuty administrator.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The account with the most power has the most people in it and no SCPs"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's management account holds Organizations and billing. Nobody has a standing SSO assignment to it. The security team runs GuardDuty, Security Hub CSPM, CloudTrail and Identity Center from the Log/Security account, and SCP changes go through a pull request.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Months go by without anyone signing in to the management account"
+/>
+
+## More information
+
+* [Best practices for the management account](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices_mgmt-acct.html) - AWS Organizations
