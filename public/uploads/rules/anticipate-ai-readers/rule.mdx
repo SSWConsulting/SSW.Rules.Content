@@ -1,0 +1,135 @@
+---
+type: rule
+title: Do you anticipate your writing will be read by an AI agent?
+seoDescription: Write emails and documents that AI assistants can summarize correctly. Use visible labels, stable identifiers, structured attachments, and an optional note for AI readers.
+guid: b37cebc7-b5b3-458f-91f5-fe9f131ac275
+uri: anticipate-ai-readers
+created: 2026-11-11T00:00:00.000Z
+authors:
+  - title: Ian Hoffman
+    url: https://www.ssw.com.au/people/ian-hoffman
+related:
+  - rule: public/uploads/rules/do-not-bury-your-headline/rule.mdx
+  - rule: public/uploads/rules/number-tasks-questions/rule.mdx
+  - rule: public/uploads/rules/add-days-to-dates/rule.mdx
+  - rule: public/uploads/rules/ai-prompt-xml/rule.mdx
+  - rule: public/uploads/rules/design-for-agent-experience/rule.mdx
+  - rule: public/uploads/rules/ai-optimization-geo-aeo/rule.mdx
+  - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+  - category: categories/communication/rules-to-better-email.mdx
+archivedreason: null
+isArchived: false
+---
+
+Copilot in Outlook and Gemini in Gmail can summarize an email before a person opens it, and the recipient may read only that summary. If the AI drops your deadline or mixes up who owns a task, the recipient acts on the wrong version of your message.
+
+Write for both readers. Labels, full dates, and IDs help an AI parse the email and help a busy person scan it.
+
+<endIntro />
+
+## How do AI assistants read your email?
+
+A recipient can ask an assistant to "summarize this thread" or "what do I need to do?" before they open the original. The assistant only works with the text you give it. Vague references ("the thing we discussed"), screenshots of tables, and dates such as "next Friday" are easy for a person to resolve from context. An AI summary can get them wrong.
+
+Microsoft warns that [Copilot summaries can overlook important details or misinterpret the context of a thread](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640). The sender cannot change the summarizer, so make the email itself clear.
+
+## Use visible labels as keys
+
+Put each important fact on its own line, with a short label in front. An AI can lift a labelled line directly into a summary, and a person can find it in seconds.
+
+* **Action:** what you need, and from whom
+* **Due:** a full date with the day name, for example Friday 20 Nov 2026
+* **Decision:** what was agreed
+* **Blocked by:** what stops progress
+
+Use stable identifiers instead of descriptions. A PBI number, a PR URL, or a file name lets an agent find the exact item. "The bug from last week" does not.
+
+<emailEmbed
+  from=""
+  to="Bob"
+  cc=""
+  bcc=""
+  subject="Website launch"
+  shouldDisplayBody={true}
+  body={<>
+    Hi Bob,
+
+    Following up on what we discussed, can you sort out the thing with the DNS before next Friday? Sarah is also waiting on the screenshots, see the table below (image attached).
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The AI must guess what 'the thing', 'next Friday' and the image contain"
+/>
+
+<emailEmbed
+  from=""
+  to="Bob"
+  cc="Sarah"
+  bcc=""
+  subject="Website launch - 2 actions for Bob by Friday 20 Nov 2026"
+  shouldDisplayBody={true}
+  body={<>
+    Hi Bob,
+
+    **Summary:** The launch is on track. 2 actions for you block the go-live.
+
+    **Action 1:** Change the DNS A record for northwind.com to the new App Service (PBI #1234)
+
+    **Action 2:** Send the 3 store screenshots to Sarah
+
+    **Due:** Friday 20 Nov 2026
+
+    **Decision:** We launch with English only. Other languages come in v2.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Each fact has a label, an owner, a full date, and an ID"
+/>
+
+## Send data as text
+
+An assistant reads text reliably. It reads images of text less reliably, and some tools skip them. Copilot in Outlook can [summarize attached Word, PowerPoint, and PDF files](https://office365itpros.com/2025/06/23/summarize-attachment-outlook/), but each attachment is a separate step, and encrypted files are not summarized.
+
+* Paste a table as a table, not a screenshot
+* Attach data as `.csv` or `.xlsx`, not as an image of a spreadsheet
+* Attach an `.ics` file for a meeting, so a calendar or an agent can add it without retyping
+* Put the actions and dates in the email body, even when the detail is in an attachment
+
+## Add a note for AI readers
+
+For a long proposal, a report, or a handover, add a short Markdown file such as `ai-readme.md`. It tells an agent what the document is for, which parts matter most, and how to present the summary. This is the same idea as [llms.txt](https://llmstxt.org/), which gives AI tools a Markdown map of a website.
+
+```markdown
+# Note for AI assistants
+
+This is a fixed-price proposal for the Northwind website rebuild.
+
+## Summarize it as
+* A 3-line overview: scope, price, start date
+* A table of the 4 phases with cost and duration
+* A checklist of the 3 decisions Northwind must make
+
+## Most important sections
+* Section 4 - Price and payment terms
+* Section 6 - Assumptions and exclusions
+
+## Ignore
+* Appendix B - Team bios
+```
+
+Keep the note visible to people too. A short line at the bottom of an email works well: "Note for AI assistants: summarize the actions as a checklist with the owner and due date." Assistants such as Claude and ChatGPT can show this as a checklist, a table, or a calendar suggestion, if the tool supports it.
+
+<boxEmbed
+  body={<>
+    Never hide instructions in white or zero-size text. Researchers showed that [hidden text in an email can make Gemini add a fake security warning to its summary](https://www.tomshardware.com/tech-industry/cyber-security/investigation-reveals-google-gemini-for-workspace-flaw-that-could-have-been-exploited-to-enlist-the-ai-in-phishing-schemes-summarize-this-email-tool-would-faithfully-obey-malicious-instructions-hidden-inside-an-email). That is a prompt injection attack.
+
+    A note for AI readers must be visible, must describe only how to present your content, and must never ask the agent to act. Do not tell it to click links, reply, forward, or pay.
+  </>}
+  figurePrefix="none"
+  figure="Write AI notes that a person can read and agree with"
+  style="warning"
+/>
+
+## Check the AI version before you send
+
+For an important email, paste your draft into an AI assistant and ask "What are the actions, owners and due dates in this email?" If the answer is wrong or incomplete, fix the email, not the answer. See [Do you avoid automation bias?](/avoid-automation-bias) for why the recipient still must check the original.
