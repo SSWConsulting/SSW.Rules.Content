@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what to watch out for when using AI to write content?
+title: "Do you review AI-assisted writing before sending?"
 uri: check-your-ai-writing
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai.mdx
@@ -13,8 +13,10 @@ authors:
     url: 'https://www.ssw.com.au/people/ulysses-maclaren'
 related:
   - rule: public/uploads/rules/avoid-automation-bias/rule.mdx
+  - rule: public/uploads/rules/humanise-ai-generated-content/rule.mdx
+  - rule: public/uploads/rules/assess-ai-authorship-fairly/rule.mdx
 guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
-seoDescription: 'Learn how to edit AI-generated content to avoid sounding robotic, overly dramatic, or fake. Spot and fix common issues before hitting send.'
+seoDescription: "Review AI-assisted writing for accuracy, clarity, meaning, and audience fit. Use editing suggestions carefully and assess authorship separately."
 created: 2025-12-10T22:35:15.000Z
 createdBy: 'Clara Fang [SSW]'
 createdByEmail: clarafang@ssw.com.au
@@ -24,77 +26,70 @@ lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 ---
 
-AI tools like ChatGPT, Claude, and Copilot are great for drafting emails, reports, LinkedIn posts, and documentation quickly. They're **not** always great at *sounding human*.
+A fluent draft can repeat itself, overstate a result, or promise something you did not intend. Review AI-assisted writing before sending it, just as you would review any draft.
 
-Left unchecked, AI-generated text comes across as overly formal, overly dramatic, or just a bit fake.
+Check its accuracy, meaning, and usefulness to the reader. Familiar phrasing or punctuation does not establish who wrote it.
 
 <endIntro />
 
 <youtubeEmbed url="https://www.youtube.com/shorts/34BmRpsDTh0" description="Video: What to check before sending AI-written content (3 min)" />
 
-## Watch out for common AI tells
+## What should you check before sending?
 
-Before hitting send, check the draft for these patterns:
+Read the whole draft, then investigate specific problems:
 
-* **Overly formal tone** - "plays a vital role", "holds significant importance", "a profound heritage". Use the words you'd say in conversation
-* **Adjectives instead of facts** - "continues to captivate", "boasts a...", "seamlessly connecting...". If something is great, show *why* it's great
-* **Emojis** - 🚀 💡 🔥 at the start of every line looks unpolished in emails, reports, and documents for clients or stakeholders
-* **Em dashes (—)** - AI overuses them. People usually reach for a comma, a hyphen, or parentheses
-* **Dramatic contrasts** - "It's not just X, it's Y" or "The question isn't A, it's B" when there is no real contrast
-* **Fake or vague analysis** - Sentences that *sound* deep but say nothing. Ask yourself: *Is this actually true? Do I have evidence?* If not, cut it
+* **Unsupported claims** - Open the source and check that it supports the statement, including its date, scope, and uncertainty
+* **Praise without information** - Replace vague claims of importance with a supported explanation, or remove them
+* **Unnecessary repetition** - Cut material that repeats a point without helping the reader
+* **Tone and presentation** - Choose language and formatting that fit the audience and channel; formal writing can be appropriate
+* **Empty contrasts** - Keep a contrast when it explains a real distinction, rather than adding emphasis to a claim nobody disputed
+* **Unclear reasoning** - Ask what follows from the evidence, and whether a metaphor or transition helps readers follow the argument
+
+Three-part lists, em dashes, long sentences, and polished structure can all work well. Change them when they cause a problem in context. A house style can prefer different punctuation without treating it as evidence of authorship. See [the types of dashes](/dashes/) and [how to assess suspected AI authorship fairly](/assess-ai-authorship-fairly/).
+
+The following example is illustrative, not a measured product result:
 
 <boxEmbed
   style="greybox"
   body={<>
-    🚀 This update marks a pivotal step forward in redefining the user experience — it's not just a release, it's a transformation that seamlessly connects teams and underscores our commitment to value-driven outcomes.
+    This update marks a pivotal transformation that delivers exceptional value to every team.
   </>}
   figurePrefix="bad"
-  figure="Bad example - Emoji, em dash, dramatic contrast, and fluff with no facts"
+  figure="Praise gives the reader no way to assess the change"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    This update cuts page load time from 4 seconds to 1.5 seconds and adds offline mode, so people no longer lose drafts when their connection drops.
+    This update adds offline drafts. You can continue writing while disconnected and sync when your connection returns.
   </>}
   figurePrefix="good"
-  figure="Good example - Plain words and concrete facts"
+  figure="Explain what the feature does; use this wording only if it works as described"
 />
 
-## Tell the AI how to write before it starts
+## How can you guide the draft?
 
-Fixing the tone after the fact is slower than getting it right the first time. Give the AI your output format up front instead of accepting its default voice.
-
-* **Claude** - Use [Skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude) to package your writing style as a reusable instruction, then apply it in every chat
-* **Claude Code** - Use [output styles](https://code.claude.com/docs/en/output-styles) or project instructions (`CLAUDE.md`) so agents write PR descriptions, docs, and commit messages the way your team does
-* **ChatGPT and Copilot** - Put the same guidance in custom instructions so you don't repeat it in every prompt
+Give the AI your notes, audience, purpose, and a relevant writing sample. Specify whether you want an outline, suggested edits, or a full draft. Save reusable style preferences where your tool supports them.
 
 <boxEmbed
   style="greybox"
   body={<>
-    Write in plain English. Use short sentences and active voice. Don't use em dashes, emojis, or "it's not just X, it's Y" contrasts. Use facts and numbers instead of adjectives. Match the tone of the writing sample below.
+    Review this draft for unsupported claims, repetition, missing reasoning, and unclear wording. Quote each passage, explain the problem for the reader, and suggest the smallest useful edit. Separate errors from optional preferences. Preserve facts, sources, uncertainty, commitments, and voice. Ask for missing information rather than inventing it. Do not infer authorship from style. Leave effective passages unchanged.
   </>}
   figurePrefix="good"
-  figure="Good example - A reusable style instruction that prevents the most common AI tells"
+  figure="A review prompt that asks for justified changes"
 />
 
-## Run a humanizer pass
+## Should you use a humanizer?
 
-The [humanizer skill](https://github.com/blader/humanizer) is an open-source [Agent Skill](https://agentskills.io/) for Claude Code, Codex, and other agents. It is based on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide and rewrites the patterns above (and many more) without changing what the text says.
+An editing skill such as [humanizer](https://github.com/blader/humanizer) can suggest changes. It is optional, and its instructions are not an authorship test or a guarantee that the rewrite preserves meaning.
 
-Once installed, run `/humanizer` on a draft before you send it. This is especially useful when an agent writes on your behalf, such as a PR description or release notes.
+Compare each suggestion with the original. Check whether a qualification disappeared, a possibility became a promise, or an opinion changed. Read the final version yourself. For a fuller workflow, see [editing AI-assisted writing without changing its meaning](/humanise-ai-generated-content/).
 
-<boxEmbed
-  style="info"
-  body={<>
-    A humanizer fixes the *style*, not the *facts*. You still need to read the result and check every claim.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+***
 
-## Final tips
+### Learn more
 
-* **Keep the good stuff** - AI often produces solid drafts and saves time
-* **Don't blindly copy and paste** - Review tone, phrasing, and accuracy first
-* **Ask yourself: *"Would I say it this way?"*** - If not, rewrite it
+* [Do you avoid automation bias?](/avoid-automation-bias/)
+* [Do you know how to avoid AI hallucinations?](/avoid-ai-hallucinations/)
+* [RAID: detector robustness across models, domains, and attacks](https://aclanthology.org/2024.acl-long.674/)
