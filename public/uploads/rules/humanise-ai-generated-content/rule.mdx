@@ -2,118 +2,91 @@
 authors:
 - title: Ulysses Maclaren
   url: https://www.ssw.com.au/people/ulysses-maclaren/
+- title: Ian Hoffman
+  url: https://www.ssw.com.au/people/ian-hoffman
 created: 2024-06-04 00:04:05.234000+00:00
 guid: 6a85e236-0988-4c02-9003-4d924f9092f0
 related:
 - rule: public/uploads/rules/train-ai-to-write-in-your-style/rule.mdx
-seoDescription: Enhance the human-like quality of your AI-generated content with techniques
-  such as using personas, incorporating personal experiences, varying sentence lengths,
-  and more to make GPT's content engaging, relatable, and valuable to readers.
+seoDescription: "Improve AI-assisted drafts with source checks, contextual editing, and comparison to the original. Preserve uncertainty, commitments, and the author's voice."
 tips: ''
-title: Do you make ChatGPT produce human-sounding content?
+title: "Do you improve AI-assisted writing without changing its meaning?"
 categories:
   - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 type: rule
 uri: humanise-ai-generated-content
+lastUpdated: 2026-11-22T22:39:55.000Z
+lastUpdatedBy: Ian Hoffman
+lastUpdatedByEmail: ianhoffman@ssw.com.au
 ---
 
-Creating content that sounds human is essential for engaging readers and meeting quality standards. AI-generated content can sometimes feel robotic, lacking the natural flow and personal touch that human writing possesses.
+A rewrite can sound smoother while changing what you meant. It might turn a cautious estimate into a promise, remove an exception, or invent a personal detail to make the text feel authentic.
 
-We can use specific techniques to make ChatGPT's content more human-like, improving its readability and relatability.
+Use AI to improve a draft for its reader. Keep control of the facts, argument, and voice throughout the edit.
 
 <endIntro />
 
-## 1. Use personas
+## What should you give the AI?
 
-Assign ChatGPT a specific role, such as a friendly advisor or an expert in a particular field, to guide the tone and style.
+Supply your audience, purpose, notes, sources, and any terminology that must stay precise. State what you want: an outline, a critique, possible cuts, or a rewrite.
 
-**Prompt example:** _"As a seasoned travel blogger, describe the best destinations for solo travelers."_
+A role can guide tone, but it does not provide expertise or lived experience. Supply your own relevant anecdotes. If a draft needs a statistic, quotation, or example you do not have, ask for a source or omit it. Never invent experience, credentials, or evidence to make writing seem more human.
 
-## 2. Incorporate personal experiences
+For voice preferences, provide [examples of your own writing](/train-ai-to-write-in-your-style/). Share only material you are authorized to use with the tool.
 
-Share personal anecdotes or opinions to add authenticity.
+## What is worth changing?
 
-**Prompt example:** _"Include this story about my favorite childhood memory related to the topic: &#123;&#123; ADD STORY &#125;&#125;"_
+Ask for a diagnosis before a rewrite. A useful suggestion quotes the passage and explains how a change helps the reader.
 
-## 3. Fact insertion
+Look for unsupported claims, repeated information, missing steps in the argument, and wording the audience may misunderstand. If a metaphor distracts or obscures the intended relationship, simplify it. Combining images is not automatically a mistake; judge what readers can understand in context.
 
-Add relevant and recent facts to make the content more informative and credible… Things that the AI’s cut off date mean it couldn’t know.
+Keep precise technical words and intentional rhetorical devices. A three-part list may describe exactly three requirements. A longer sentence may need its qualifications. Use [punctuation](/dashes/) and sentence rhythm to support the meaning, rather than following word blacklists or fixed patterns.
 
-**Prompt example:** _"Include these statistics on the current market trends for this industry: &#123;&#123; ADD FACTS &#125;&#125;"_
+Perplexity measures predictability relative to a particular model. It is not a universal measure of human authorship or good writing. Changing sentence lengths or replacing familiar words does not prove where a draft came from.
 
-## 4. Perplexity
+## How do you preserve meaning?
 
-Avoid common AI phrases and terms that make the text sound unnatural. Perplexity measures the complexity and unpredictability of text. To make AI-generated content sound more human, avoid overused and predictable phrases. This enhances the natural flow and makes the content more engaging.
+Ask for small edits with the original and suggestion shown together. Before accepting a change, compare:
 
-**Prompt example:** _"Don’t always use the most natural words. Use the following words fewer than three times on this page: unique, ensure, utmost, meticulous, meticulously, navigate, navigation, digital era, art of, secrets of, ever-evolving, unlock, bespoke, realm of, utilize, synthesize, conceptualize, paradigm, leverage, pivot, robust, synergy, optimize, utilize, orchestrate, cultivate.”_
+* **Claims and evidence** - Facts, numbers, dates, sources, and attribution
+* **Strength and scope** - Uncertainty, exceptions, conditions, and who or what the claim covers
+* **Reasoning and commitments** - Causal relationships, counterarguments, promises, and the author's position
+* **Voice** - Appropriate terminology, emphasis, humor, and distinctive phrasing
 
-## 5. Burstiness
-
-Vary sentence and paragraph lengths to create a dynamic flow.
-
-**Prompt example:** **"Mix short and long sentences to enhance readability."**
-
-## 6. Unfluffing
-
-Ensure every sentence provides value and is actionable, removing unnecessary filler content.
-
-**Prompt example:** _"Eliminate vague statements and focus on specific, useful information."_
-
-## 7. Adding flavor
-
-Make the content more engaging and conversational by adding humor, anecdotes, and a conversational tone.
-
-**Prompt example:** "Engagement is the highest priority. Be conversation, empathetic, and occasionally humerous. Use idioms, metaphors, anecdotes, and natural dialogue."
-
-## 8. Targeting specific audiences
-
-Tailor the content to the preferences and needs of your target audience.
-
-**Prompt example:** _"Adjust the tone and vocabulary to match the reading level and interests of a young adult audience."_
-
-## 9. Training on your writing style
-
-Provide samples of your own writing to train ChatGPT to mimic your unique voice.
-
-See [Do you know how to train an AI to write in your style?](https://www.ssw.com.au/rules/train-ai-to-write-in-your-style) for a deep dive into how to do this effectively.
-
-## 10. Avoid em dashes (—)
-
-Too many em dashes make text feel mechanical and AI-generated. Instead, use commas, colons, or full stops for a more natural flow.
-
-**Prompt example:** _"Write this without using em dashes. Replace them with commas, colons, or periods where appropriate."_
-
----
-
-## Prompt template
-
+These examples are hypothetical:
 
 <boxEmbed
   style="greybox"
   body={<>
-    "As a &#123;&#123; ROLE &#125;&#125;, write an article about &#123;&#123; TOPIC &#125;&#125;.
+    Original: We aim to deliver the migration on Friday, subject to client approval.
 
-Include this recent statistic: &#123;&#123; RECENT STATISTIC, OR URL TO RECENT DATA &#125;&#125;.
-
-Mention this personal anecdote: &#123;&#123; ADD RELEVENT PERSONAL STORY &#125;&#125;.
-
-Don’t always use the most natural words. Use the following words fewer than three times on this page: unique, ensure, utmost, meticulous, meticulously, navigate, navigation, digital era, art of, secrets of, ever-evolving, unlock, bespoke, realm of, utilize, synthesize, conceptualize, paradigm, leverage, pivot, robust, synergy, optimize, utilize, orchestrate, cultivate.
-
-Mix short and long sentences to enhance readability.
-
-Avoid using em dashes.
-
-Eliminate vague statements and focus on specific, useful information.
-
-Engagement is the highest priority. Be conversation, empathetic, and occasionally humerous. Use idioms, metaphors, anecdotes, and natural dialogue.
-
-Adjust the tone and vocabulary to match the reading level and interests of &#123;&#123; INTENDED AUDIENCE E.G. DEVELOPERS&#125;&#125;.
-
-Analyze the attached articles for tone, structure, and vocabulary, then use this style to write new content."
+    Rewrite: We will deliver the migration on Friday.
   </>}
-  figurePrefix="none"
-  figure=""
+  figurePrefix="bad"
+  figure="The rewrite creates a promise and removes a condition"
 />
-**✅ Figure: Good example - Incorporating current and relevant facts to add credibility**  
 
-By applying these techniques, you can significantly improve the human-like quality of AI-generated content, making it more engaging, relatable, and valuable to your readers.
+<boxEmbed
+  style="greybox"
+  body={<>
+    We aim to deliver the migration on Friday if the client approves it.
+  </>}
+  figurePrefix="good"
+  figure="The edit retains both the intention and the condition"
+/>
+
+A mechanical check that names and numbers match cannot establish that meaning is unchanged. Read the result and [verify its claims](/avoid-ai-hallucinations/), including after later revisions.
+
+## When is the edit finished?
+
+Accept changes that improve accuracy, clarity, or usefulness. Restore qualifications and voice that were lost. An effective passage may need no changes.
+
+Keep the original so you can compare versions. Do not add fake anecdotes, deliberate mistakes, or awkward synonyms to lower a detector score. Judge the result by what it communicates, and follow the [disclosure requirements that apply](/indicate-ai-helped/).
+
+***
+
+### Learn more
+
+* [Reviewing AI-assisted writing before sending](/check-your-ai-writing/)
+* [Assessing suspected AI authorship fairly](/assess-ai-authorship-fairly/)
+* [Humanizer: an example editing skill](https://github.com/blader/humanizer)
