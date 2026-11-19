@@ -262,6 +262,29 @@ function main() {
     console.log('\n');
     console.log('\n');
   });
+  writeReport(allErrors);
   process.exit(1);
+}
+
+// Writes the PR comment body when FRONTMATTER_REPORT_PATH is set (used by CI)
+function writeReport(errors) {
+  const reportPath = process.env.FRONTMATTER_REPORT_PATH;
+  if (!reportPath) return;
+  const lines = [
+    '<!-- frontmatter-check -->',
+    '### 🏷️ Frontmatter check',
+    '',
+    'The frontmatter (the YAML between the `---` lines at the top of the file) has some issues.',
+    '',
+    ...errors.flatMap(({ filePath, fileErrors }) => [
+      `**\`${filePath.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '')}\`**`,
+      '',
+      ...fileErrors.map((issue) => `- ${issue.replace(/\n\s*/g, ' ')}`),
+      '',
+    ]),
+    '_This check blocks the PR until the issues are fixed._',
+    '',
+  ];
+  fs.writeFileSync(reportPath, lines.join('\n'), 'utf8');
 }
 main();
