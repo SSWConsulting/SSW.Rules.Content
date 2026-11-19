@@ -57,21 +57,12 @@ When agents write the code, the bottleneck moves from typing to coordinating and
 
 An agent panel on the side of an IDE does not fix this. The layout still serves 1 person who edits 1 file.
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    5 terminal tabs, each with an agent. All the tab titles say "claude". 1 agent waited 20 minutes for a "yes" that you did not see.
-  </>}
-  figurePrefix="bad"
-  figure="Bad example - Agents in plain terminal tabs, with no status"
-/>
-
 <imageEmbed
   alt="Orca running five Claude Code and Codex agents in parallel across two projects, with an inline diff, a dev server terminal and a file explorer"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Good example - Orca runs several agents across projects, each in its own worktree, with diff review and a file explorer in 1 window"
+  figure="Orca runs several agents across projects, each in its own worktree, with diff review and a file explorer in 1 window"
   src="/uploads/rules/agentic-development-environment/orca-ade-parallel-agents.png"
 />
 
@@ -103,7 +94,9 @@ Both kinds run the same CLI agents. The difference is where you review the work.
   figure=""
 />
 
-<youtubeEmbed url="https://www.youtube.com/embed/XoitaexiCi0" description={"Video: Herdr: the Tmux for AI Agents | Hal Shin (13 min)"} />
+<youtubeEmbed url="https://www.youtube.com/embed/bBsNFZ1-HUs" description={"Video: I LOVE the herdr desktop app | typecraft (13 min)"} />
+
+<youtubeEmbed url="https://www.youtube.com/embed/9_FzA-J9S2E" description={"Video: you need to use Herdr RIGHT NOW!! | NetworkChuck (21 min)"} />
 
 ## Which ADE should you use?
 
@@ -131,6 +124,8 @@ Start from how you work:
 
 Most of these tools can give each task its own worktree.
 
+<youtubeEmbed url="https://www.youtube.com/embed/hDn8-fK3XaU" description={"Video: It's finally here. - T3 Code launch | Theo (13 min)"} />
+
 <boxEmbed
   style="info"
   body={<>
@@ -147,7 +142,7 @@ Most of these tools can give each task its own worktree.
     Then Claude hits its usage limit, and the work stops until it resets.
   </>}
   figurePrefix="bad"
-  figure="Bad example - 1 vendor's app ties you to 1 provider"
+  figure="1 vendor's app ties you to 1 provider"
 />
 
 <boxEmbed
@@ -157,7 +152,7 @@ Most of these tools can give each task its own worktree.
     When 1 provider hits its limit, the other takes the next task.
   </>}
   figurePrefix="good"
-  figure="Good example - A multi-provider ADE lets you pick the agent for each task"
+  figure="A multi-provider ADE lets you pick the agent for each task"
 />
 
 <boxEmbed
