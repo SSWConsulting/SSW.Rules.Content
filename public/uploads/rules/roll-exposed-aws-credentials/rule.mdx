@@ -37,7 +37,7 @@ What you do depends on the kind of credential.
 | IAM user access key (starts with `AKIA`) | Deactivate it with the command below. Do not delete it yet. You need the key ID for the next step |
 | Role session (starts with `ASIA`) | In the IAM console, open the role and choose **Revoke active sessions**. This does not work for roles that IAM Identity Center created, so use the next row for those |
 | Person who signs in with SSO | Follow [Revoke user access](https://docs.aws.amazon.com/singlesignon/latest/userguide/revoke-user-permissions.html): block their user ID with a deny SCP, remove them from every Entra ID group that grants AWS access, then disable them. Disabling alone lets a live portal session keep assuming roles |
-| Workload that uses [Entra ID federation](/use-entra-id-to-access-aws) | Remove its app role assignment in Entra ID. Entra ID caches managed identity tokens for about 24 hours, so also add a deny for that identity's `sub` to the AWS role's trust policy. Then revoke the role's sessions. Other workloads on the role sign in again on their next call |
+| Workload that uses [Entra ID federation](/use-entra-id-to-access-aws) | Remove its app role assignment in Entra ID. Entra ID caches managed identity tokens for about 24 hours, so also add a deny for that identity's `sub` to the AWS role's trust policy. Then revoke the role's sessions. Other workloads on the role fail until their cached credentials expire, up to the role's maximum session duration, or until you restart them |
 | [IAM Roles Anywhere](/use-iam-roles-anywhere) certificate | Revoke it in your CA, check that Roles Anywhere has the new revocation list, then revoke the role's sessions |
 | SCIM token | Delete it in IAM Identity Center, create a new one and update Entra ID provisioning |
 | Management account root user | Change the password, remove any MFA device you do not recognise and delete any root access keys. See [Do you lock down the AWS root user?](/lock-down-aws-root-user) |
@@ -75,6 +75,7 @@ aws cloudtrail lookup-events \
 Event history has limits that matter here:
 
 * It searches one account and one Region, for the last 90 days
+* It shows management events only. It cannot tell you whether data was read, such as S3 objects. For that, you need a trail that records data events
 * CloudTrail records IAM calls in us-east-1, whatever Region you work in. Search there first, then your own Regions. A [Region restriction SCP](/use-aws-service-control-policies) can block the search for everyone except the deployment role
 * The key ID only finds calls signed with that key. When the key assumes a role, the `AssumeRole` event holds a new temporary key ID that starts with `ASIA`. Search for that ID too
 

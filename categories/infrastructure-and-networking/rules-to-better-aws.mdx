@@ -3,7 +3,7 @@ type: category
 title: Rules to Better AWS
 uri: rules-to-better-aws
 guid: ff9e98a1-9d45-4bc2-abd3-26a9abbdb142
-seoDescription: How to set up and secure Amazon Web Services (AWS). Rules for account structure, root user protection, audit logging, guardrails, identity, alerting and cost control.
+seoDescription: How to set up and secure Amazon Web Services (AWS). Rules for account structure, root user protection, Infrastructure as Code, audit logging, guardrails, identity, alerting, exposed credentials, cost control and how AWS maps to Azure.
 index:
   - rule: public/uploads/rules/lock-down-aws-root-user/rule.mdx
   - rule: public/uploads/rules/use-sso-for-aws/rule.mdx
@@ -26,4 +26,4 @@ _template: category
 
 An AWS organization is easy to start and hard to restructure. The account layout, root user protection and audit log destination are decided in the first week, usually by whoever needed a sandbox that day.
 
-These rules cover that first week and what follows, including identity, Bedrock data residency and cost. Many assume a company that runs Microsoft Entra ID and Azure and is adding AWS alongside.
+These rules cover that first week and what follows, including Infrastructure as Code, identity, exposed credentials, Bedrock data residency and cost. Many assume a company that runs Microsoft Entra ID and Azure and is adding AWS alongside, and one rule maps each Azure service to its AWS equivalent.
