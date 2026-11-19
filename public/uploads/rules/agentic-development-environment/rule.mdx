@@ -23,9 +23,9 @@ archivedreason: null
 isArchived: false
 ---
 
-Claude Code fixes a bug in 1 terminal. Codex builds a feature in another. A 3rd agent writes tests in a different repository. One waits for your answer, one has a pull request with failing CI, and you click through every window to find out which is which.
+Claude Code fixes a bug in one terminal. Codex builds a feature in another. One is waiting on your answer, the other has a PR with failing CI, and you're clicking through windows to work out which agent needs your attention.
 
-Your tools assume a human who writes code 1 file at a time. That is no longer the job.
+The tools you are using were designed for a human writing code one file at a time. That is no longer the job.
 
 <endIntro />
 
@@ -33,11 +33,11 @@ Your tools assume a human who writes code 1 file at a time. That is no longer th
 
 ## What is an ADE?
 
-An **Agentic Development Environment (ADE)** is a workspace built around agents that write the code. You direct, review and ship their work. Other names are "agent development environment" and "agent IDE".
+An **Agentic Development Environment (ADE)** is a workspace built around agents writing code. You direct, review and ship their work. Other names are "agent development environment" and "agent IDE".
 
-An **Integrated Development Environment (IDE)** such as [JetBrains Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) puts a person who types at the centre. Its best features are autocomplete, refactoring and a debugger. AI came later, as a chat panel on the side.
+An **Integrated Development Environment (IDE)** such as [JetBrains Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) is built around a person typing. Its best features are autocomplete, refactoring shortcuts, a debugger and a big editor in the middle of the screen. AI features were added later, usually as a chat panel on the side.
 
-An ADE flips that layout. Agent sessions are the centre of the screen, and the editor is where you review what the agents wrote.
+An ADE flips that layout. Agent sessions are the centre of the screen, and the editor becomes a place to review what the agents wrote.
 
 | | IDE | ADE |
 | --- | --- | --- |
@@ -57,6 +57,14 @@ When agents write the code, the bottleneck moves from typing to coordinating and
 
 An agent panel on the side of an IDE does not fix this. The layout still serves 1 person who edits 1 file.
 
+## What should an ADE do?
+
+* **Show agent status at a glance** - Working, waiting for input, or done. It alerts you when an agent needs you
+* **Isolate each task** - Each task gets its own [git worktree](/git-worktrees) and branch, so agents do not change the same files
+* **Run agents from any provider** - [Claude Code](https://claude.com/product/claude-code), [Codex](https://developers.openai.com/codex/cli), [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and other [AI CLI tools](/ai-cli-tools) side by side. No model is best at everything
+* **Track pull requests** - Finished work becomes a pull request, and the ADE shows its CI checks and review status
+* **Help you review** - A diff viewer lets you comment on a line and send the comment back to the agent. You are still responsible for every line you merge
+
 <imageEmbed
   alt="Orca running five Claude Code and Codex agents in parallel across two projects, with an inline diff, a dev server terminal and a file explorer"
   size="large"
@@ -66,14 +74,6 @@ An agent panel on the side of an IDE does not fix this. The layout still serves 
   src="/uploads/rules/agentic-development-environment/orca-ade-parallel-agents.png"
 />
 
-## What should an ADE do?
-
-* **Show agent status at a glance** - Working, waiting for input, or done. It alerts you when an agent needs you
-* **Isolate each task** - Each task gets its own [git worktree](/git-worktrees) and branch, so agents do not change the same files
-* **Run agents from any provider** - [Claude Code](https://claude.com/product/claude-code), [Codex](https://developers.openai.com/codex/cli), [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and other [AI CLI tools](/ai-cli-tools) side by side. No model is best at everything
-* **Track pull requests** - Finished work becomes a pull request, and the ADE shows its CI checks and review status
-* **Help you review** - A diff viewer lets you comment on a line and send the comment back to the agent. You are still responsible for every line you merge
-
 ## Desktop ADE or terminal ADE?
 
 Both kinds run the same CLI agents. The difference is where you review the work.
@@ -82,7 +82,8 @@ Both kinds run the same CLI agents. The difference is where you review the work.
 | --- | --- | --- |
 | **What it is** | A GUI app with sessions, diffs, pull requests and a browser in 1 window | A terminal multiplexer that knows the state of each agent |
 | **Review** | Built-in diff viewer and PR panel | Your own tools (`git diff`, your IDE, GitHub) |
-| **Best for** | Most developers, and anyone who reviews a lot of code | Keyboard-first developers, and agents on a remote server over SSH |
+| **Best for** | Most developers, and anyone who reviews a lot of code | Keyboard-first developers |
+| **Remote machines** | Most connect to a server over SSH | Built for it: the agents keep running on the server |
 | **Examples** | Orca, Paradev, T3 Code, Herdr app | Herdr, cmux |
 
 <boxEmbed
@@ -94,17 +95,13 @@ Both kinds run the same CLI agents. The difference is where you review the work.
   figure=""
 />
 
-<youtubeEmbed url="https://www.youtube.com/embed/bBsNFZ1-HUs" description={"Video: I LOVE the herdr desktop app | typecraft (13 min)"} />
-
-<youtubeEmbed url="https://www.youtube.com/embed/9_FzA-J9S2E" description={"Video: you need to use Herdr RIGHT NOW!! | NetworkChuck (21 min)"} />
-
 ## Which ADE should you use?
 
 Start from how you work:
 
 * **You want 1 window for agents, diffs and pull requests** - [Orca](https://orca.dev/) (⭐ Recommended)
 * **You live in the terminal, or run agents on a server** - [Herdr](https://herdr.dev/) (⭐ Recommended)
-* **You use only Claude, or only Codex** - The vendor's own app is enough: [Claude Code desktop](https://code.claude.com/docs/en/desktop) or the [Codex app](https://learn.chatgpt.com/docs/app). You cannot mix providers
+* **You use only Claude, or only Codex** - The vendor's own app is enough: [Claude Code desktop](https://code.claude.com/docs/en/desktop) or the [Codex app](https://learn.chatgpt.com/docs/app). However, you can't mix providers in Codex or Claude
 * **Your team works in VS Code with GitHub Copilot** - The [VS Code Agents window](https://code.visualstudio.com/docs/agents/run/agents-window)
 
 ### Compare the options
@@ -113,9 +110,9 @@ Start from how you work:
 | --- | --- | --- | --- | --- | --- |
 | [Orca](https://orca.dev/) ⭐ | Desktop | macOS, Windows, Linux | Free, open source (MIT) | 30+ CLI agents | SSH, iOS and Android apps |
 | [Herdr](https://herdr.dev/) ⭐ | Terminal and desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 20+ CLI agents | SSH, iOS and Android apps |
-| [Paradev](https://github.com/ParadevAI/Paradev) (was Superset) | Desktop | macOS (Linux experimental) | Free, open source (MIT). Paid Pro plan | 20+ CLI agents | Remote hosts. iOS app needs Pro |
-| [T3 Code](https://t3.codes/) | Desktop and web | macOS, Windows, Linux | Free, open source (MIT) | Claude Code, Codex, Cursor and more | Web, iOS and Android |
-| [Paseo](https://paseo.sh/) | Desktop and web | macOS, Windows, Linux | Free, open source (Apache 2.0) | 40+ CLI agents | Web, iOS and Android |
+| [Paradev](https://paradev.com/) (was Superset) | Desktop | macOS (Linux experimental) | Free, open source (MIT). Paid Pro plan | 20+ CLI agents | Remote hosts. iOS app needs Pro |
+| [T3 Code](https://t3.codes/) | Desktop and web (early, v0.x) | macOS, Windows, Linux | Free, open source (MIT) | Claude Code, Codex, Cursor and more | Web, iOS and Android |
+| [Paseo](https://paseo.sh/) | Desktop and web (early, v0.x) | macOS, Windows, Linux | Free, open source (Apache 2.0) | 40+ CLI agents | Web, iOS and Android |
 | [Emdash Classic](https://github.com/generalaction/emdash) | Desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 9+ CLI agents | SSH |
 | [cmux](https://cmux.com/) | Terminal app | macOS only | Free, open source (GPL 3.0) | Any CLI agent | SSH, iOS beta (Pro plan) |
 | [Claude Code desktop](https://code.claude.com/docs/en/desktop) | Desktop | macOS, Windows (Linux beta) | Paid Claude plan | Claude only | Cloud sessions, mobile |
@@ -124,12 +121,10 @@ Start from how you work:
 
 Most of these tools can give each task its own worktree.
 
-<youtubeEmbed url="https://www.youtube.com/embed/hDn8-fK3XaU" description={"Video: It's finally here. - T3 Code launch | Theo (13 min)"} />
-
 <boxEmbed
   style="info"
   body={<>
-    **Note:** ADEs change every week. Check the tool's site before you choose. As at November 2026, Meta owns Conductor (a parallel-agent app) and winds it down. T3 Code and Paseo are still in version 0.x.
+    **Note:** Just like everything else in the AI world - these tools move fast. Check each provider's site before you settle on one!
   </>}
   figurePrefix="none"
   figure=""
@@ -138,21 +133,21 @@ Most of these tools can give each task its own worktree.
 <boxEmbed
   style="greybox"
   body={<>
-    "I use Claude Code desktop for everything."<br />
-    Then Claude hits its usage limit, and the work stops until it resets.
+    "I run Claude Code in 4 tabs of the macOS Terminal app."<br />
+    Every tab title says "claude", so I click through each tab to find the agent that waits for me.
   </>}
   figurePrefix="bad"
-  figure="1 vendor's app ties you to 1 provider"
+  figure="Claude Code in a plain terminal app, with no agent status"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    "I run Claude Code and Codex side by side in Orca."<br />
-    When 1 provider hits its limit, the other takes the next task.
+    "I run my Claude Code sessions in Orca."<br />
+    The sidebar shows which agent works, which waits for me and which is done.
   </>}
   figurePrefix="good"
-  figure="A multi-provider ADE lets you pick the agent for each task"
+  figure="An ADE shows the state of every agent in 1 place"
 />
 
 <boxEmbed
