@@ -1,0 +1,98 @@
+---
+type: rule
+title: Do you monitor traffic and cull unused AWS resources?
+seoDescription: Use traffic metrics and last-used data to find AWS resources, IAM roles and access keys that nothing uses any more, then stop and delete them on a monthly schedule.
+guid: 20a6dfd6-0081-4e90-89e0-5825e95dce5b
+uri: cull-unused-aws-resources
+created: 2026-11-19T02:56:35.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Ivan Gaiduk
+    url: https://www.ssw.com.au/people/ivan-gaiduk
+related:
+  - rule: public/uploads/rules/monitor-aws-costs/rule.mdx
+  - rule: public/uploads/rules/do-you-shutdown-vms-when-you-no-longer-need-them/rule.mdx
+  - rule: public/uploads/rules/reduce-azure-costs/rule.mdx
+  - rule: public/uploads/rules/finops-owner/rule.mdx
+  - rule: public/uploads/rules/use-iac-for-aws-from-day-one/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+AWS never deletes anything for you. The load balancer from last year's proof of concept, the NAT gateway in a VPC nobody uses and the IAM role for a contractor who left are all still there. Each one costs money or gives an attacker a way in. Nobody removes them, because nobody is sure that nothing depends on them.
+
+<endIntro />
+
+Two things fix this. Infrastructure as Code removes most of the leftovers for you, and traffic data tells you which of the remaining resources are safe to delete.
+
+## Let Infrastructure as Code do the deleting
+
+When you [build everything with Infrastructure as Code](/use-iac-for-aws-from-day-one), tools like Terraform track every resource they create. Cleaning up is then part of the tool, not a job someone has to remember:
+
+* Remove a resource from the code and the next `terraform apply` deletes it
+* Run `terraform destroy`, or delete the CloudFormation stack, and a whole proof of concept is gone in one step
+* Anything in the account that is not in the code is a stray. You know it was created by hand, so you know to question it
+
+Code cannot tell you whether a resource you still declare is still used. For that, and for everything created by hand, you need the traffic and last-used data that AWS already collects.
+
+## Let AWS find the idle resources
+
+Opt the whole organization in to these two services from the management account. Then register a member account as the delegated administrator for each, so the monthly review [never needs a management account sign-in](/keep-aws-management-account-empty):
+
+* **[Compute Optimizer](https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-idle-recommendations.html)** flags idle EC2 instances, EBS volumes, NAT gateways, Aurora databases and RDS databases that run MySQL or PostgreSQL, among others. It works from traffic. An EC2 instance is idle when its peak CPU stays under 5% and its network traffic stays under 5 MB a day for 14 days. An EBS volume is unattached when it has not been attached to an instance for 32 days
+* **[Cost Optimization Hub](https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html)** puts those recommendations for every account and Region in one list, with the estimated saving for each. It keeps them in us-east-1, so if you [restrict Regions with an SCP](/use-aws-service-control-policies), add `cost-optimization-hub:*` to the exemption list
+
+Trusted Advisor has similar cost checks, but only on Business Support+ or a higher support plan.
+
+## Check the traffic yourself for the rest
+
+Some resources are not covered, and some are worth a second look before you delete them. CloudWatch has the numbers.
+
+| Resource | It is unused when |
+| --- | --- |
+| Application Load Balancer | `RequestCount` is zero for 30 days |
+| RDS database | `DatabaseConnections` is zero for 30 days |
+| Elastic IP address | It is not attached to anything. AWS [charges for every public IPv4 address](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html), attached or not |
+| Anything with no owner tag | Nobody claims it after you ask |
+
+Resources hide in Regions you never open. [Resource Explorer](https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html) searches every Region once you turn on cross-Region search, and every account once you set up multi-account search. A [Region restriction SCP](/use-aws-service-control-policies) keeps the list of places to look short.
+
+## Cull unused access too
+
+An unused role or key costs nothing, so it never shows up in a cost report. It is still a credential someone can steal.
+
+* IAM records [when each role and user last used each service](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_last-accessed.html), going back at least 400 days
+* The [credential report](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html) lists every IAM user with the age and last use of each access key
+* An IAM Access Analyzer [unused access analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-create-unused.html) reports unused roles, keys and permissions across the organization. AWS charges for it per role and user analyzed, so add it to [your AWS cost monitoring](/monitor-aws-costs)
+
+Delete a role that nothing has used for 90 days, unless it exists for emergencies. Tag break-glass and deployment roles so the review skips them. If a role is used but most of its permissions are not, cut the permissions.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind finds a load balancer called `test-lb-2` on the bill. Nobody knows who created it, so nobody dares delete it. It stays on the bill for 2 years.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - With no owner and no usage data, the safe choice is to leave it running"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `test-lb-2` has an owner tag and zero requests for 30 days. The owner confirms the proof of concept is over, and a pull request removes it.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The traffic shows it is unused, and the tag shows who can confirm it"
+/>
+
+## Make deleting routine
+
+1. Tag every resource with an owner and a project, so there is someone to ask
+2. Review the idle list and the unused access findings once a month. Give the job to your [FinOps owner](/finops-owner)
+3. Stop before you delete. Take a snapshot of the volume or database, stop it and wait a week. If nobody complains, delete it. Do not wait longer, because RDS [starts a stopped database again after 7 days](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_StopInstance.html)
+4. Delete through code. If the resource is in your Infrastructure as Code, remove it there, or the next deployment creates it again
+
+Dev and test resources need the same care in any cloud. See [Do you shut down dev and test resources when you no longer need them?](/do-you-shutdown-vms-when-you-no-longer-need-them)

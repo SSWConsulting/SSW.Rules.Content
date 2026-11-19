@@ -1,0 +1,100 @@
+---
+type: rule
+title: Do you use Infrastructure as Code for AWS from day 1?
+seoDescription: Build your AWS organization with Infrastructure as Code from the first day, so accounts, guardrails and logging are reviewed in pull requests, identical between environments and never changed by hand in the console.
+guid: d1972667-1dfa-4c40-990b-20f54e54d139
+uri: use-iac-for-aws-from-day-one
+created: 2026-11-19T02:56:35.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Ivan Gaiduk
+    url: https://www.ssw.com.au/people/ivan-gaiduk
+related:
+  - rule: public/uploads/rules/azure-resources-creating/rule.mdx
+  - rule: public/uploads/rules/use-oidc-instead-of-long-lived-secrets-in-pipelines/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+  - rule: public/uploads/rules/cull-unused-aws-resources/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+The first AWS account is usually built by clicking through the console, with a promise to "script it later". Six months on, nobody can say why a Prod security group is open to the internet, NonProd has settings nobody chose, and the person who clicked has moved to another project.
+
+<endIntro />
+
+Write the infrastructure as code before you create it. On day 1 the baseline is small: a few accounts, some guardrails and a trail. Every week you wait, more of it exists only in the console. You can import it later, for example with CloudFormation's [IaC generator](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html), but then you are describing what someone clicked, not what you meant to build.
+
+The same advice applies in Azure. See [Do you know how to create Azure resources?](/azure-resources-creating)
+
+## Keep the manual steps to a short list
+
+Some things have to exist before a pipeline can run:
+
+1. Create the management account and [lock down its root user](/lock-down-aws-root-user)
+2. Turn on AWS Organizations
+3. Turn on IAM Identity Center and [connect it to Entra ID](/use-sso-for-aws)
+4. In the management account, create the role your pipeline deploys with, for example `northwind-deploy`, trusted through [OIDC and not a stored key](/use-oidc-instead-of-long-lived-secrets-in-pipelines)
+
+Write these steps in a runbook. Everything after them is code: the OUs and accounts, the `northwind-deploy` role in each account, [service control policies](/use-aws-service-control-policies), SSO permission sets, the organization trail and the alerts.
+
+## Pick one tool
+
+| Tool | Choose it when |
+| --- | --- |
+| Terraform or OpenTofu | You also run Azure and want one language and one pipeline for both clouds. Bicep only deploys to Azure |
+| CloudFormation | You want the AWS-native option with no state file to host. [StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html) can deploy a baseline to every account in an OU, including accounts you add later |
+| [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | Your developers want to write C# or TypeScript. It generates CloudFormation |
+
+With Terraform, you host the state file yourself. Put it in an S3 bucket with versioning on, in an account that workload admins cannot reach, such as Log/Security, and use the built-in lock file. That account does not exist on day 1. Start with local state, then move it with `terraform init -migrate-state` once your code has created the account. The older DynamoDB lock table is [deprecated](https://developer.hashicorp.com/terraform/language/backend/s3).
+
+```hcl
+terraform {
+  backend "s3" {
+    bucket       = "northwind-terraform-state"
+    key          = "org/baseline.tfstate"
+    region       = "ap-southeast-2"
+    use_lockfile = true
+  }
+}
+```
+
+## Keep people out of the console
+
+Code only stays true if it is the only way to change things.
+
+* Give developers read-only access in Prod, and keep the Prod admin group small and for emergencies. See [Do you sign in to AWS with SSO instead of IAM users?](/use-sso-for-aws)
+* Let only the pipeline assume `northwind-deploy`, and only from a protected branch after a pull request is approved
+* Exempt only that role in your SCPs. For what the SCPs protect, such as the audit trail, even an account administrator cannot make a change in the console
+* Apply every change to NonProd first, from the same code as Prod. The differences between the two are then parameters you can read, not accidents
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's audit log bucket was set up in the console in March. In October an auditor asks why it keeps logs for 3 months when the policy says 12. Nobody knows whether that was a decision or a slip.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The console keeps no record of what you intended"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The bucket is 40 lines of Terraform. `git blame` shows who set the retention, when, and which pull request approved it.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The history of every setting is in source control"
+/>
+
+## Detect drift
+
+During an incident, someone will fix something in the console. That is fine, as long as it does not stay that way.
+
+* With CloudFormation, run [drift detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html) on a schedule
+* With Terraform, run `terraform plan` on a schedule and alert when it shows changes
+* Copy any manual fix back into code in the same week, or revert it
+
+Code also makes cleaning up safe, because deleting a stack removes everything in it. See [Do you monitor traffic and cull unused AWS resources?](/cull-unused-aws-resources)

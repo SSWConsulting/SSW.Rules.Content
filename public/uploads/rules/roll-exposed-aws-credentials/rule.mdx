@@ -1,0 +1,94 @@
+---
+type: rule
+title: Do you know how to roll AWS credentials if they are exposed?
+seoDescription: When an AWS access key or other credential is exposed, deactivate it, revoke the sessions already issued from it, check CloudTrail for what it did, and replace it with a role that has no stored secret.
+guid: 1f91b090-0c20-41e4-93d4-fec39f9fe459
+uri: roll-exposed-aws-credentials
+created: 2026-11-19T02:56:35.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Ivan Gaiduk
+    url: https://www.ssw.com.au/people/ivan-gaiduk
+related:
+  - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+  - rule: public/uploads/rules/alert-on-aws-root-sign-ins-and-logging-gaps/rule.mdx
+  - rule: public/uploads/rules/use-entra-id-to-access-aws/rule.mdx
+  - rule: public/uploads/rules/use-iam-roles-anywhere/rule.mdx
+  - rule: public/uploads/rules/use-sso-for-aws/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+An access key gets pushed to a public repository, pasted into a support ticket or left on a stolen laptop. The usual reactions make things worse. Someone rewrites the Git history and tells nobody, so the key still works. Or someone deletes the key and stops there, while the attacker's sessions keep running and the user they created stays behind.
+
+<endIntro />
+
+Treat a credential that left your control as used. Removing it from the repository does not change that. Work through the three steps below in order.
+
+## 1. Cut it off
+
+What you do depends on the kind of credential.
+
+| Credential | How to cut it off |
+| --- | --- |
+| IAM user access key (starts with `AKIA`) | Deactivate it with the command below. Do not delete it yet. You need the key ID for the next step |
+| Role session (starts with `ASIA`) | In the IAM console, open the role and choose **Revoke active sessions**. This does not work for roles that IAM Identity Center created, so use the next row for those |
+| Person who signs in with SSO | Follow [Revoke user access](https://docs.aws.amazon.com/singlesignon/latest/userguide/revoke-user-permissions.html): block their user ID with a deny SCP, remove them from every Entra ID group that grants AWS access, then disable them. Disabling alone lets a live portal session keep assuming roles |
+| Workload that uses [Entra ID federation](/use-entra-id-to-access-aws) | Remove its app role assignment in Entra ID. Entra ID caches managed identity tokens for about 24 hours, so also add a deny for that identity's `sub` to the AWS role's trust policy. Then revoke the role's sessions. Other workloads on the role sign in again on their next call |
+| [IAM Roles Anywhere](/use-iam-roles-anywhere) certificate | Revoke it in your CA, check that Roles Anywhere has the new revocation list, then revoke the role's sessions |
+| SCIM token | Delete it in IAM Identity Center, create a new one and update Entra ID provisioning |
+| Management account root user | Change the password, remove any MFA device you do not recognise and delete any root access keys. See [Do you lock down the AWS root user?](/lock-down-aws-root-user) |
+
+```bash
+aws iam update-access-key \
+  --user-name svc-mail \
+  --access-key-id AKIAIOSFODNN7EXAMPLE \
+  --status Inactive
+```
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Deactivating a key does not end the role sessions that someone already started with it. AWS says [temporary credentials are valid until they expire](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_disable-perms.html). Revoke the sessions on every role the key could assume, and attach a deny policy on `aws:TokenIssueTime` to the IAM user as well. [Revoking](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_revoke-sessions.html) only blocks sessions issued before that moment, so close the way in first.
+  </>}
+  figurePrefix="none"
+  figure="Deactivating the key is only half of cutting it off"
+/>
+
+When AWS finds one of your keys in public, it attaches the `AWSCompromisedKeyQuarantineV3` policy to the user and opens a support case. Leave the policy in place and follow the steps in the case.
+
+## 2. Find out what it did
+
+Search your [organization trail](/send-aws-audit-logs-to-security-account) or [Microsoft Sentinel](/send-aws-logs-to-microsoft-sentinel) for the key ID. Both cover every account and Region.
+
+If you have neither, use CloudTrail event history:
+
+```bash
+aws cloudtrail lookup-events \
+  --region us-east-1 \
+  --lookup-attributes AttributeKey=AccessKeyId,AttributeValue=AKIAIOSFODNN7EXAMPLE
+```
+
+Event history has limits that matter here:
+
+* It searches one account and one Region, for the last 90 days
+* CloudTrail records IAM calls in us-east-1, whatever Region you work in. Search there first, then your own Regions. A [Region restriction SCP](/use-aws-service-control-policies) can block the search for everyone except the deployment role
+* The key ID only finds calls signed with that key. When the key assumes a role, the `AssumeRole` event holds a new temporary key ID that starts with `ASIA`. Search for that ID too
+
+Look first for anything that lets the attacker back in after you roll the key: `CreateUser`, `CreateAccessKey`, `CreateLoginProfile`, `CreateRole`, `AttachUserPolicy` and `UpdateAssumeRolePolicy`. Then look for spend, such as `RunInstances` or Bedrock calls in Regions you do not use. Delete what the attacker created.
+
+## 3. Replace it with something that cannot leak
+
+Issue the new key through your deployment pipeline. If you followed [Do you use service control policies as guardrails in AWS?](/use-aws-service-control-policies), only the deployment role can create one. Then delete the old key.
+
+Better, do not issue a new key at all. Move the workload to a role with [Entra ID federation](/use-entra-id-to-access-aws), [IAM Roles Anywhere](/use-iam-roles-anywhere) or [OIDC in your pipeline](/use-oidc-instead-of-long-lived-secrets-in-pipelines), so there is no key to expose next time.
+
+## Practise before you need it
+
+* Write these steps into a runbook with the names of your own roles and accounts
+* Rehearse in NonProd. Deactivate a real key and time how long the workload takes to recover
+* Build the deny SCP for the Revoke user access procedure ahead of time. You cannot write and test it during an incident
+* Scan your repositories, so you hear about an exposed key from your own tools. See [Do you know the best way to prevent secrets leaking from your code repository?](/prevent-secrets-leaking-from-repo)
