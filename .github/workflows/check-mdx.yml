@@ -93,10 +93,11 @@ jobs:
           echo "did_commit=true" >> $GITHUB_OUTPUT
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
-      - name: Comment on PR (same-repo PR only, only when issues found)
-        if: ${{ env.changed != '' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+      - name: Comment on PR (same-repo PR only)
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v9
         env:
+          CHECK_OUTCOME: ${{ steps.mdx_check.outcome }}
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
           DID_COMMIT: ${{ steps.autofix.outputs.did_commit }}
           COMMIT_SHA: ${{ steps.autofix.outputs.sha }}
@@ -105,39 +106,36 @@ jobs:
             const fs = require('fs');
 
             const marker = '<!-- mdx-check -->';
+            const title = '### 🛠️ MDX check';
             const reportPath = process.env.MDX_REPORT_PATH;
+            const hasReport = fs.existsSync(reportPath);
 
-            // Report must exist here (guarded by workflow `if`)
-            let body = fs.readFileSync(reportPath, 'utf8');
-
-            if (!body.includes(marker)) body = `${marker}\n` + body;
-
-            // Append commit info if we pushed fixes (non-dev friendly)
-            if (process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
-              body += `\n\nA commit was pushed to this PR with the fixes: \`${process.env.COMMIT_SHA}\``;
-            }
-
-            const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
 
-            // Update existing bot comment with marker to avoid spam
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner, repo, issue_number: prNumber, per_page: 100
-            });
+            // Nothing to report and no earlier comment to clear (or the check crashed before writing a report)
+            if (!hasReport && (!existing || process.env.CHECK_OUTCOME !== 'success')) return;
 
-            const existing = comments.find(c =>
-              c.user && c.user.type === 'Bot' && typeof c.body === 'string' && c.body.includes(marker)
-            );
+            // Some TinaCMS PRs are opened by a bot: mention the assigned editor, or no one
+            const pr = context.payload.pull_request;
+            const login = pr.user.type === 'Bot' ? pr.assignees?.[0]?.login : pr.user.login;
+            const greeting = `${title}\n\n👋 Hi${login ? ` @${login}` : ''},`;
 
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner, repo, comment_id: existing.id, body
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number: prNumber, body
-              });
+            let body = hasReport
+              ? fs.readFileSync(reportPath, 'utf8').replace(title, greeting)
+              : `${marker}\n${greeting}\n\n✅ No MDX issues.\n`;
+
+            // Mention the auto-fix commit just above the footer
+            if (hasReport && process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
+              const note = `A commit was pushed to this PR with the fixes: ${process.env.COMMIT_SHA}`;
+              const footer = body.lastIndexOf('\n_This check');
+              body = footer === -1 ? `${body}\n${note}\n` : `${body.slice(0, footer)}\n${note}\n${body.slice(footer)}`;
             }
+
+            if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number, body });
 
       - name: Fail job if MDX check failed
         if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' }}

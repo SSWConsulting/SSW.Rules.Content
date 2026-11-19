@@ -196,15 +196,18 @@ for (const file of files) {
   if (findings.length === 0) continue;
   total += findings.length;
   const rel = path.relative(repoRoot, file);
+  report.push(`**\`${rel}\`**`, "");
   for (const f of findings) {
     console.log(`${rel}:${f.line}:${f.col}  ${JSON.stringify(f.text)}`);
-    report.push(`- \`${rel}:${f.line}\` — \`${f.text}\``);
+    report.push(`- Line ${f.line}: \`${f.text}\``);
   }
+  report.push("");
 }
 
 if (process.env.BOLD_REPORT_PATH && report.length) {
   const md = [
-    "## :warning: Malformed bold formatting",
+    "<!-- malformed-bold-check -->",
+    "### 🅱️ Bold check",
     "",
     "Bold markdown must not contain whitespace immediately inside the `**` markers.",
     "",
@@ -214,9 +217,10 @@ if (process.env.BOLD_REPORT_PATH && report.length) {
     "| `**Note: **` | `**Note:**` |",
     "| `This is ** important **` | `This is **important**` |",
     "",
-    "Please fix the following:",
+    `⚠️ ${total} issue(s) need a manual fix:`,
     "",
     ...report,
+    "_This check blocks the PR until the issues are fixed._",
     "",
   ].join("\n");
   fs.writeFileSync(process.env.BOLD_REPORT_PATH, md);

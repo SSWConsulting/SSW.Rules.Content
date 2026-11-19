@@ -695,38 +695,33 @@ async function main() {
     } else {
       const lines = [reportMarker, "### 🛠️ MDX check", ""];
 
-      const fixedList = Array.from(fixedFiles.entries())
-        .map(([file, reasons]) => ({
-          file,
-          reasonText: Array.from(reasons).join("; "),
-        }))
-        .sort((a, b) => a.file.localeCompare(b.file));
+      // Group by file, like the other checks' comments
+      const byFile = new Map();
+      const entry = (file) => {
+        if (!byFile.has(file)) byFile.set(file, { fixes: [], manual: [] });
+        return byFile.get(file);
+      };
+      for (const [file, reasons] of fixedFiles) entry(file).fixes.push(...reasons);
+      for (const e of manualIssues) entry(e.file).manual.push(e);
 
-      const manualList = manualIssues.sort((a, b) => a.file.localeCompare(b.file));
-
-      if (fixedList.length > 0 && manualList.length === 0) {
-        // Scenario 2: issues found and resolved automatically
-        lines.push("Auto-fix was applied to resolve MDX issues in these files:", "");
-        for (const f of fixedList) {
-          lines.push(`- \`${f.file}\` — ${f.reasonText}`);
-        }
-      } else if (fixedList.length > 0 && manualList.length > 0) {
-        // Scenario 3: partial fix
-        lines.push("Auto-fix was applied where possible:", "");
-        for (const f of fixedList) {
-          lines.push(`- \`${f.file}\` — ${f.reasonText}`);
-        }
-        lines.push("", "⚠️ Some MDX issues still need manual fixes:", "");
-        for (const e of manualList) {
-          lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
-        }
-      } else {
-        // Scenario 4: manual fixes needed
-        lines.push("⚠️ MDX issues need manual fixes:", "");
-        for (const e of manualList) {
-          lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
+      for (const file of [...byFile.keys()].sort((a, b) => a.localeCompare(b))) {
+        const { fixes, manual } = byFile.get(file);
+        lines.push(`**\`${file}\`**`, "");
+        if (fixes.length) lines.push(`🔧 Auto-fixed: ${fixes.map((r) => r.replace(/^fixed /, "")).join("; ")}`, "");
+        if (manual.length) {
+          lines.push(`⚠️ ${manual.length} issue(s) need a manual fix:`, "");
+          for (const e of manual.sort((a, b) => a.line - b.line)) {
+            lines.push(`- Line ${e.line}, col ${e.col}: ${e.msg}`);
+          }
+          lines.push("");
         }
       }
+
+      lines.push(
+        manualIssues.length
+          ? "_This check blocks the PR until the issues are fixed._"
+          : "_This check doesn't block the PR._"
+      );
 
       await fs.writeFile(reportPath, lines.join("\n") + "\n", "utf8");
     }
