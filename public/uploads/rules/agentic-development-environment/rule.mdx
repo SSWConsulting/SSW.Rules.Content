@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use an Agentic Development Environment (ADE)?
-seoDescription: IDEs were built for humans typing code. An Agentic Development Environment (ADE) is built for agents writing it, with parallel sessions, multiple agent providers, pull request tracking and diff review in one place.
+seoDescription: IDEs were built for humans typing code. An Agentic Development Environment (ADE) is built for agents writing it. Compare desktop and terminal ADEs such as Orca, Herdr, Paradev and T3 Code, and pick the right one.
 guid: d3563d74-16bf-4beb-a900-06fbffd31935
 uri: agentic-development-environment
 created: 2026-10-25T23:13:35.000Z
@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/daniel-mackay
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman
+  - title: Harkirat Singh
+    url: https://github.com/0xharkirat
 related:
   - rule: public/uploads/rules/best-ai-powered-ide/rule.mdx
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
@@ -21,78 +23,141 @@ archivedreason: null
 isArchived: false
 ---
 
-You have Claude Code fixing a bug in one terminal, Codex building a feature in another, and a third agent writing tests in a different repository. Each one has its own IDE window open so you can read what it changed. One is waiting for your answer, one has opened a pull request with failing CI, and you have no idea which is which until you click through every window.
+Claude Code fixes a bug in 1 terminal. Codex builds a feature in another. A 3rd agent writes tests in a different repository. One waits for your answer, one has a pull request with failing CI, and you click through every window to find out which is which.
 
-The tools you are using were designed for a human writing code one file at a time. That is no longer the job.
+Your tools assume a human who writes code 1 file at a time. That is no longer the job.
 
 <endIntro />
 
+<youtubeEmbed url="https://www.youtube.com/embed/73DrNNvEKH0" description={"Video: The Best Way to Run Claude Code in 2026 | Rob Shocks (10 min)"} />
+
 ## What is an ADE?
 
-An **Agentic Development Environment (ADE)** is a workspace built around agents writing the code, with the human directing, reviewing and shipping the work. You may also see it called an "agent development environment" or an "agent IDE".
+An **Agentic Development Environment (ADE)** is a workspace built around agents that write the code. You direct, review and ship their work. Other names are "agent development environment" and "agent IDE".
 
-An **Integrated Development Environment (IDE)** such as [JetBrains Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) is built around a person typing. Its best features are autocomplete, refactoring shortcuts, a debugger and a big editor in the middle of the screen. AI features were added later, usually as a chat panel on the side.
+An **Integrated Development Environment (IDE)** such as [JetBrains Rider](https://www.jetbrains.com/rider/), [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) puts a person who types at the centre. Its best features are autocomplete, refactoring and a debugger. AI came later, as a chat panel on the side.
 
-An ADE flips that layout. Agent sessions are the centre of the screen, and the editor becomes a place to review what the agents wrote.
+An ADE flips that layout. Agent sessions are the centre of the screen, and the editor is where you review what the agents wrote.
 
 | | IDE | ADE |
 | --- | --- | --- |
 | **Who writes the code** | You, with AI suggestions | Agents, directed by you |
-| **Unit of work** | A file | A task, running in its own session and branch |
-| **Concurrency** | One thing at a time | Many agents across many projects |
+| **Unit of work** | A file | A task, in its own session and branch |
+| **Concurrency** | 1 thing at a time | Many agents across many projects |
 | **Main screen** | Code editor | Agent sessions, diffs and pull request status |
 
 ## Why IDEs are obsolete
 
-When agents write the code, the bottleneck moves from typing to coordinating and reviewing. An IDE doesn't help with either:
+When agents write the code, the bottleneck moves from typing to coordinating and reviewing. An IDE does not help with either:
 
-* **It assumes one task at a time** - Running several agents means several IDE windows, several terminals and constant context switching
-* **It has no idea what the agents are doing** - You can't see which session is working, which is blocked on a question, and which has finished
-* **Pull requests live somewhere else** - You leave the IDE to open a pull request, then check the browser again and again for CI and review status
-* **Its best features target the wrong person** - Autocomplete and refactoring shortcuts are useless when you are not the one typing
+* **1 task at a time** - Several agents mean several IDE windows, several terminals and constant context switching
+* **No agent status** - You cannot see which session works, which waits for you and which is done
+* **Pull requests live somewhere else** - You check the browser again and again for CI and review status
+* **The wrong user** - Autocomplete and refactoring shortcuts do not help when you are not the one who types
 
-Bolting an agent panel onto an IDE doesn't fix this, because the whole layout is still built around a single human editing a single file.
+An agent panel on the side of an IDE does not fix this. The layout still serves 1 person who edits 1 file.
 
-## What should an ADE do?
+<boxEmbed
+  style="greybox"
+  body={<>
+    5 terminal tabs, each with an agent. All the tab titles say "claude". 1 agent waited 20 minutes for a "yes" that you did not see.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Agents in plain terminal tabs, with no status"
+/>
 
 <imageEmbed
   alt="Orca running five Claude Code and Codex agents in parallel across two projects, with an inline diff, a dev server terminal and a file explorer"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Orca running several agents across multiple projects, each in its own worktree, with diff review and a file explorer in the same window"
+  figure="Good example - Orca runs several agents across projects, each in its own worktree, with diff review and a file explorer in 1 window"
   src="/uploads/rules/agentic-development-environment/orca-ade-parallel-agents.png"
 />
 
-### Manage multiple agent sessions across projects
+## What should an ADE do?
 
-You should be able to run many agent sessions at once, across many repositories, and see at a glance which ones are working, waiting for input or done. A good ADE gives each task its own [git worktree](/git-worktrees) automatically, so agents never trip over each other's changes.
+* **Show agent status at a glance** - Working, waiting for input, or done. It alerts you when an agent needs you
+* **Isolate each task** - Each task gets its own [git worktree](/git-worktrees) and branch, so agents do not change the same files
+* **Run agents from any provider** - [Claude Code](https://claude.com/product/claude-code), [Codex](https://developers.openai.com/codex/cli), [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and other [AI CLI tools](/ai-cli-tools) side by side. No model is best at everything
+* **Track pull requests** - Finished work becomes a pull request, and the ADE shows its CI checks and review status
+* **Help you review** - A diff viewer lets you comment on a line and send the comment back to the agent. You are still responsible for every line you merge
 
-### Work with agents from any provider
+## Desktop ADE or terminal ADE?
 
-No single model is best at everything. An ADE lets you run [Claude Code](https://claude.com/product/claude-code), [Codex](https://developers.openai.com/codex/cli), [GitHub Copilot CLI](https://github.com/features/copilot/cli/) and other [AI CLI tools](/ai-cli-tools) side by side, so you can pick the right agent for each task or give the same task to two agents and compare the results.
+Both kinds run the same CLI agents. The difference is where you review the work.
 
-### Create and monitor pull requests
-
-Finished work becomes a pull request without leaving the tool. The ADE then shows CI checks and review status for every open pull request, so you know which ones need attention.
-
-### Review the code
-
-You are still responsible for every line you merge. An ADE includes a file explorer and a diff viewer so you can read what each agent changed, comment on specific lines and send that feedback straight back to the agent.
-
-## Which ADE should you use?
-
-ADEs are a new category and are changing quickly. Some options:
-
-* [Orca](https://www.onorca.dev/) (⭐ Recommended) - Free, open source and cross-platform (macOS, Windows and Linux). Supports Claude Code, Codex, Gemini, Cursor, GitHub Copilot, OpenCode and more, with built-in diff review, GitHub integration and an embedded browser
-* [Superset](https://superset.sh/) - Runs any CLI agent in parallel worktrees, with monitoring and diff review
-* [VS Code Agents](https://code.visualstudio.com/docs/agents/run/agents-window) - A separate window from the VS Code editor, built around agent sessions rather than files. Runs Copilot, Claude and Codex sessions in parallel across projects, with optional worktree isolation, inline diffs and pull request creation (currently in preview in VS Code Insiders)
+| | Desktop ADE | Terminal ADE |
+| --- | --- | --- |
+| **What it is** | A GUI app with sessions, diffs, pull requests and a browser in 1 window | A terminal multiplexer that knows the state of each agent |
+| **Review** | Built-in diff viewer and PR panel | Your own tools (`git diff`, your IDE, GitHub) |
+| **Best for** | Most developers, and anyone who reviews a lot of code | Keyboard-first developers, and agents on a remote server over SSH |
+| **Examples** | Orca, Paradev, T3 Code, Herdr app | Herdr, cmux, tmux |
 
 <boxEmbed
-  style="tips"
+  style="info"
   body={<>
-    **Tip:** Most ADEs are free or have a free tier. Try a couple with your usual agents and pick the one that fits how you work.
+    **Tip:** A terminal ADE keeps your agents running when you close the window or the laptop sleeps. Run it on a server, and your agents keep working while you travel.
   </>}
   figurePrefix="none"
   figure=""
 />
+
+<youtubeEmbed url="https://www.youtube.com/embed/XoitaexiCi0" description={"Video: Herdr: the Tmux for AI Agents | Hal Shin (13 min)"} />
+
+## Which ADE should you use?
+
+Start from how you work:
+
+* **You want 1 window for agents, diffs and pull requests** - [Orca](https://orca.dev/) (⭐ Recommended)
+* **You live in the terminal, or run agents on a server** - [Herdr](https://herdr.dev/) (⭐ Recommended)
+* **You use only Claude, or only Codex** - The vendor's own app is enough: [Claude Code desktop](https://code.claude.com/docs/en/desktop) or the [Codex app](https://learn.chatgpt.com/docs/app). You cannot mix providers
+* **Your team works in VS Code with GitHub Copilot** - The [VS Code Agents window](https://code.visualstudio.com/docs/agents/run/agents-window)
+
+### Compare the options
+
+| Tool | Type | OS | Price | Agents | Remote and mobile |
+| --- | --- | --- | --- | --- | --- |
+| [Orca](https://orca.dev/) ⭐ | Desktop | macOS, Windows, Linux | Free, open source (MIT) | 30+ CLI agents | SSH, iOS and Android apps |
+| [Herdr](https://herdr.dev/) ⭐ | Terminal and desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | About 25 CLI agents | SSH, iOS and Android apps |
+| [Paradev](https://github.com/ParadevAI/Paradev) (was Superset) | Desktop | macOS (Linux experimental) | Free, open source (MIT). Paid Pro plan | 20+ CLI agents | Remote hosts. iOS app needs Pro |
+| [T3 Code](https://t3.codes/) | Desktop and web | macOS, Windows, Linux | Free, open source (MIT) | Claude Code, Codex, Cursor and more | Web, iOS and Android |
+| [Paseo](https://paseo.sh/) | Desktop and web | macOS, Windows, Linux | Free, open source (Apache 2.0) | 10+ CLI agents | Web, iOS and Android |
+| [Emdash](https://emdash.com/) | Desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 9+ CLI agents | SSH |
+| [cmux](https://cmux.com/) | Terminal app | macOS only | Free, open source (GPL 3.0) | Any CLI agent | SSH |
+| [Claude Code desktop](https://code.claude.com/docs/en/desktop) | Desktop | macOS, Windows (Linux beta) | Paid Claude plan | Claude only | Cloud sessions, mobile |
+| [Codex app](https://learn.chatgpt.com/docs/app) | Desktop (in ChatGPT) | macOS, Windows (Linux preview) | ChatGPT plan | Codex only | Remote, mobile |
+| [VS Code Agents](https://code.visualstudio.com/docs/agents/run/agents-window) | Desktop (in VS Code) | macOS, Windows, Linux | Needs GitHub Copilot | Copilot, Claude, Codex | SSH, tunnels, cloud sessions |
+
+All these tools give each task its own worktree.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** ADEs change every week. Check the tool's site before you choose. As at November 2026, Conductor joins Meta, and T3 Code and Paseo are still in version 0.x.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I use Claude Code desktop for everything."<br />
+    Then Claude hits its usage limit, and the work stops until it resets.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - 1 vendor's app ties you to 1 provider"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I run Claude Code and Codex side by side in Orca."<br />
+    When 1 provider hits its limit, the other takes the next task.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A multi-provider ADE lets you pick the agent for each task"
+/>
+
+**Tip:** Most ADEs are free. Try 2 of them with your usual agents for a week, then keep the one that fits how you work.
