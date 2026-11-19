@@ -72,7 +72,7 @@ This trust policy checks the audience and nothing else:
 }
 ```
 
-AWS only checks that the token came from your tenant for this app. Entra ID decides who gets it: assign the app role to grant access, remove the assignment to revoke it. Nobody touches AWS IAM.
+AWS only checks that the token came from your tenant for this app. Entra ID decides who gets it: assign the app role to grant access, remove the assignment to take it away. Day to day, nobody touches AWS IAM.
 
 <boxEmbed
   style="warning"
@@ -106,7 +106,7 @@ All AWS access now depends on Entra ID:
 * **Alert on "Add app role assignment to service principal"** in the Entra audit log for these apps. If you [send AWS logs to Microsoft Sentinel](/send-aws-logs-to-microsoft-sentinel), you can match it to the first `AssumeRoleWithWebIdentity` call in CloudTrail
 * **Do not count on Conditional Access.** [Conditional Access for workload identities](https://learn.microsoft.com/en-us/entra/identity/conditional-access/workload-identity) does not cover managed identities
 
-Removing an assignment stops new tokens, but tokens and AWS sessions already issued stay valid until they expire. Keep the role's maximum session duration at 1 hour.
+Removing an assignment does not cut access at once. Entra ID [caches managed identity tokens for about 24 hours](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/managed-identity-best-practice-recommendations), and AWS sessions already issued stay valid until they expire. Keep the role's maximum session duration at 1 hour, and in an emergency follow [Do you know how to roll AWS credentials if they are exposed?](/roll-exposed-aws-credentials)
 
 ## Entra ID federation or IAM Roles Anywhere?
 

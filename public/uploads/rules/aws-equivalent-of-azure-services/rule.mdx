@@ -1,0 +1,99 @@
+---
+type: rule
+title: Do you know the AWS equivalent of each Azure service?
+seoDescription: A short map from Azure services and concepts to their AWS equivalents for teams that know Azure, including the places where the names match but the behaviour does not, such as resource groups, roles and subnets.
+guid: beaa25f1-783b-4eb0-b07f-8b52af4deaf1
+uri: aws-equivalent-of-azure-services
+created: 2026-11-19T02:56:35.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Ivan Gaiduk
+    url: https://www.ssw.com.au/people/ivan-gaiduk
+related:
+  - rule: public/uploads/rules/choose-azure-services/rule.mdx
+  - rule: public/uploads/rules/the-9-important-parts-of-azure/rule.mdx
+  - rule: public/uploads/rules/use-separate-aws-accounts/rule.mdx
+  - rule: public/uploads/rules/use-aws-service-control-policies/rule.mdx
+  - rule: public/uploads/rules/use-sso-for-aws/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+A team that knows Azure opens the AWS console and finds hundreds of services with names like Route 53, Fargate and Athena. Searching for the Azure name finds nothing. Worse, a few names do exist in both clouds and mean different things, so people assume they know how something works and get caught.
+
+<endIntro />
+
+Microsoft keeps the full list in [Azure for AWS professionals](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/), and it reads just as well in the other direction. Bookmark it. The tables below cover what an Azure team reaches for first, and where the match is misleading.
+
+## Organization, identity and governance
+
+This is where the two clouds differ most, and where a wrong assumption costs the most.
+
+| Azure | AWS | Watch out |
+| --- | --- | --- |
+| Entra tenant | Organization and its management account | The management account is a real account that can hold resources. [Keep it empty](/keep-aws-management-account-empty) |
+| Management group | Organizational unit (OU) | |
+| Subscription | Account | An account is a harder wall. Each one has its own IAM and its own root user. See [Do you use separate AWS accounts as security boundaries?](/use-separate-aws-accounts) |
+| Resource group | Nothing | AWS Resource Groups are saved searches over tags. Deleting one deletes no resources |
+| Azure Policy deny | [Service control policy](/use-aws-service-control-policies) | SCPs only block. AWS Config does the compliance reporting |
+| Entra ID sign-in | IAM Identity Center | [Usually fed from Entra ID](/use-sso-for-aws), so people keep one login |
+| Managed identity | IAM role | |
+| Azure RBAC role | IAM policy | In AWS a role is an identity you assume, not a set of permissions. The permissions are in the policy attached to it |
+| Activity log | CloudTrail | |
+| Defender for Cloud | Security Hub CSPM and GuardDuty | |
+| Key Vault | KMS for keys, Secrets Manager for secrets, Certificate Manager for certificates | |
+| Cost Management | Cost Explorer and AWS Budgets | |
+| Bicep | CloudFormation or CDK | |
+
+## Building blocks
+
+| Azure | AWS |
+| --- | --- |
+| Virtual Machines | EC2 |
+| App Service | Elastic Beanstalk, or ECS Express Mode for containers |
+| Functions | Lambda |
+| Container Apps | ECS on Fargate |
+| AKS | EKS |
+| Blob Storage | S3 |
+| Azure SQL Database | RDS or Aurora |
+| Cosmos DB | DynamoDB |
+| Service Bus | SQS and SNS |
+| Event Grid | EventBridge |
+| API Management | API Gateway |
+| Front Door | CloudFront |
+| Azure DNS and Traffic Manager | Route 53 |
+| Azure Monitor and Application Insights | CloudWatch and X-Ray |
+| ExpressRoute | Direct Connect |
+| Private Link | PrivateLink |
+| Microsoft Foundry | Amazon Bedrock |
+
+Treat each row as a place to start reading. Two services in the same row rarely have the same limits, pricing or features, so choose by what the workload needs. See [Do you know how to choose Azure services?](/choose-azure-services)
+
+## The differences that catch Azure teams
+
+**There is no resource group.** In Azure you delete a resource group and everything in it is gone. AWS has no container like that below the account. Use tags to say what belongs together, and deploy each application as one stack, because deleting a CloudFormation stack deletes its resources.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A Northwind developer puts a test app in an AWS resource group and deletes the group when the test ends. The instances keep running and keep billing.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - An AWS resource group is a view, so deleting it removes nothing"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The test app is one CloudFormation stack tagged `project=poc-search`. Deleting the stack deletes every resource in it.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The stack is the unit you create and delete"
+/>
+
+**The console shows one Region at a time.** Most AWS resources belong to a Region, and the console lists only the Region you have selected. A server in another Region is easy to forget. See [Do you monitor traffic and cull unused AWS resources?](/cull-unused-aws-resources)
+
+**A subnet lives in one Availability Zone.** An Azure subnet spans every zone in its region. In AWS you create one subnet per zone to get the same resilience.
