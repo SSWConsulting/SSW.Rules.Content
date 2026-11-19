@@ -41,44 +41,61 @@ Teams that value a straight-forward interface and a low monthly cost often choos
 
 * Calendar UI - drag-and-drop posts across connected profiles
 * AI tools - suggest hashtags and draft captions in-line
-* Automate-able - REST API access for custom workflows. Useful for connecting code/low-code tools like n8n. See [Do you automate tasks with low-code tools and AI?](https://www.ssw.com.au/rules/low-code-and-ai)
+* Automate-able - REST API access for custom workflows. Useful for connecting code/low-code tools like n8n. See [Do you automate tasks with low-code tools and AI?](/low-code-and-ai)
 * Budget-friendly – suitable for freelancers small teams, or anybody that needs a simple tool
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Ocoya’s calendar view" src="/uploads/rules/post-using-social-media-management-tools/ocoya-calendar.jpg" />
+<imageEmbed alt="Ocoya calendar view with scheduled posts across connected profiles" size="large" showBorder={false} figurePrefix="good" figure="Ocoya’s calendar view" src="/uploads/rules/post-using-social-media-management-tools/ocoya-calendar.jpg" />
 
 ### When Ocoya is **not** ideal
 
 * If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
-* Analytics - Ocoya does not currently show analytics for social media platforms.
-  Workarounds include pulling analytics directly from the social media sites, or building custom reports in a tool like Data Looker Studio.
 
 ## Buffer
 
 <youtubeEmbed url="https://youtu.be/XTZwgMB_x8w" description="Video: Buffer for Social Media" />
 
-Buffer is a great tool for managing multiple social media accounts across a range of sites such as Facebook, Instagram, LinkedIn, and Twitter.
+Buffer is a great tool for managing multiple social media accounts across a range of sites such as Facebook, Instagram, LinkedIn, X (Twitter), Threads, Bluesky, TikTok, YouTube Shorts and Pinterest.
 
 It allows you to choose which accounts to post to, can post to multiple social media accounts at once, and even lets you write and schedule your posts to be released over the course of a day or even over the next few weeks, so you don't need to be at your computer while maintaining an online presence. It also offers URL shortening and provides analytics so you can track the success of your posts across multiple sites.
 
-You can either visit the [Buffer website](https://buffer.com/) or install the Buffer extension for your browser that sits next to the address bar of your browser.
+### Buffer API, MCP and team features
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="To use the Buffer app from your browser, simply click the symbol" src="/uploads/rules/post-using-social-media-management-tools/buffer-browser-extension.jpg" />
+* **An API on every plan** - The [Buffer API](https://developers.buffer.com/) is included on the Free, Essentials and Team plans. You can create, read and delete posts and ideas from code or low-code tools
+* **An official MCP server** - AI assistants like Claude, ChatGPT, Cursor and Perplexity can connect to Buffer and create, edit and schedule posts. They sign in with OAuth, so nobody has to paste an API key
+* **Per-channel pricing** - You pay for each channel you connect. The Team plan adds unlimited team members for double the Essentials price
+* **Approval workflows** - On the Team plan, you choose who can draft and who can approve posts, and which channels each person can use
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="You can select as many Social Media accounts as required and post to each platform at once using Buffer. You can also use the &#x22;Customize for each network&#x22; button to modify the content for each platform before you post it" src="/uploads/rules/post-using-social-media-management-tools/post-example.png" />
+### How a marketing team uses Buffer
 
-The content of your posts should be consistent across accounts. When making a post that exceeds the character limit of a site such as Twitter, you should write a separate, shorter version of the post to send to that site only. You can also use the "Customize for each network" button on Buffer to modify the content to better suit the platform for each post. This means that you could write the content for a Tweet and then modify it to remove things like #Hashtags to post it to LinkedIn where they don't make sense.
+Buffer is the publishing step in the social media process. The team decides what to say, and Buffer publishes it on every channel at the planned time:
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Only Tweeting using Twitter alone and not using a scheduler to post across the different media platforms at once. This is time-consuming!" src="/uploads/rules/post-using-social-media-management-tools/tweet-example.jpg" />
+1. **Capture** - Save post ideas in Buffer Ideas as they come up, e.g. from a release, a blog post or a meeting
+2. **Draft** - A team member or an AI assistant connected via MCP writes the post and a version for each channel
+3. **Approve** - A reviewer checks the copy, links and images, then approves the post
+4. **Schedule** - Buffer adds the post to each channel's queue and publishes it at the planned time
+5. **Measure** - Pull post metrics from Buffer into a report, and use the results to choose the next ideas
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Posting using Buffer to modify your content between platforms - much faster than posting individually to each platform every time" src="/uploads/rules/post-using-social-media-management-tools/Buffer2.jpg" />
+Each person uses their own login for their step. See "Give each person their own login" below.
+
+You can either visit the [Buffer website](https://buffer.com/) or install the [Buffer extension for Chrome](https://buffer.com/extensions) that sits next to the address bar of your browser.
+
+<imageEmbed alt="Buffer browser extension icon next to the browser address bar" size="large" showBorder={false} figurePrefix="none" figure="To use the Buffer app from your browser, simply click the symbol" src="/uploads/rules/post-using-social-media-management-tools/buffer-browser-extension.jpg" />
+
+<imageEmbed alt="Buffer composer with several social media accounts selected for one post" size="large" showBorder={false} figurePrefix="none" figure="You can select as many Social Media accounts as required and post to each platform at once using Buffer. You can also use the &#x22;Customize for each network&#x22; button to modify the content for each platform before you post it" src="/uploads/rules/post-using-social-media-management-tools/post-example.png" />
+
+The content of your posts should be consistent across accounts. When making a post that exceeds the character limit of a site such as X, you should write a separate, shorter version of the post to send to that site only. You can also use the "Customize for each network" button on Buffer to modify the content to better suit the platform for each post. This means that you could write the content for an X post and then modify it to remove things like #Hashtags to post it to LinkedIn where they don't make sense.
+
+<imageEmbed alt="A post written directly in X without a scheduling tool" size="large" showBorder={false} figurePrefix="bad" figure="Only posting directly on X and not using a scheduler to post across the different media platforms at once. This is time-consuming!" src="/uploads/rules/post-using-social-media-management-tools/tweet-example.jpg" />
+
+<imageEmbed alt="Buffer composer showing a post customized for each social network" size="large" showBorder={false} figurePrefix="good" figure="Posting using Buffer to modify your content between platforms - much faster than posting individually to each platform every time" src="/uploads/rules/post-using-social-media-management-tools/Buffer2.jpg" />
 
 ### #Hashtags
 
-Hashtags are used across social sites such as Twitter, Instagram and LinkedIn to identify a keyword or topic of interest and facilitate a search for similar posts on the topic.
+Hashtags are used across social sites such as X, Instagram and LinkedIn to identify a keyword or topic of interest and facilitate a search for similar posts on the topic.
 
 Establish a short #hashtag that can be easily associated with your brand, company, or campaign and ensure this #hashtag is used consistently across social networks, along with any other keywords relevant to the content of your post.
 
-For more on SSW #Hashtags, check out [Do you know how to use hashtags?](/do-you-know-to-use-hash-tags)
+For more on SSW #Hashtags, check out [Do you use and encourage others to use hashtags?](/use-hashtags)
 
 ### Custom URL shortening
 
@@ -86,15 +103,66 @@ Buffer uses bit.ly for shortening URLs. You can create custom URLs at no cost by
 
 For more on bit.ly and URL shortening, check out [Rules to Better bit.ly](/rules-to-better-bit-ly).
 
-**Tip:** Buffer does not tag people on Facebook or Linkedin. You will need to manually go to the Facebook/Linkedin post and edit it to tag the people you want.
+**Tip:** Buffer does not tag people on Facebook or LinkedIn. You will need to manually go to the Facebook/LinkedIn post and edit it to tag the people you want.
+
+### Avoid editing the same post many times
+
+When you send one post to many channels, Buffer saves a separate draft for each channel. If you then find a typo or change the link, you must open and fix every draft one by one. With 5 channels, one small change becomes 5 edits, and it is easy to miss one.
+
+<imageEmbed alt="Buffer Drafts tab showing the same 'Good morning! This is a test' post saved as separate drafts for TinaCMS, tinacms_ and other channels" size="large" showBorder={false} figurePrefix="bad" figure="Bad example - The same post saved as a separate draft for every channel. Every change must be made in each draft" src="/uploads/rules/post-using-social-media-management-tools/buffer-duplicate-drafts.png" />
+
+To reduce the rework:
+
+* Get the copy, link and image approved **before** you select the channels
+* Use "Customize for each network" in the same composer, so all versions are written in one place
+* For bulk changes, use the Buffer API (below) to update all the drafts at once
+
+### Give each person their own login
+
+Do not share one generic login like `info@ssw.com.au`. When everybody signs in with the same account, Buffer shows every post as "You created this", so you cannot tell who created, edited, approved or deleted a post. When a post goes out with a mistake, nobody knows who to ask.
+
+<imageEmbed alt="Buffer account menu showing a shared info@ email address on the Essentials plan with 19 channels" size="medium" showBorder={false} figurePrefix="bad" figure="Bad example - A shared info@ login on the Essentials plan. Every action looks like it came from the same person" src="/uploads/rules/post-using-social-media-management-tools/buffer-shared-login-essentials-plan.png" />
+
+The Essentials plan allows only 1 user account, so a team on Essentials has to share a login. Upgrade to the **Team** plan, then invite each person with **Invite Team**. The Team plan adds:
+
+* Unlimited team members
+* Approval workflows - choose who can draft and who can approve posts
+* Access levels - choose which channels each person can use
+
+The Team plan costs double the Essentials plan for each channel, at every channel count. Billed yearly, Essentials is $60 USD per channel per year and Team is $120 USD per channel per year. See [Buffer pricing](https://buffer.com/pricing) for current prices.
+
+### Use the Buffer API and MCP for collaborative editing
+
+The Buffer API and MCP server let a team work on posts the way developers work on code in GitHub. Each change is made by a named person, not by a shared account:
+
+* **Every change has an author** - An API key acts "on behalf of your account only", and each MCP connection signs in as one person. When each person uses their own key or connection, Buffer knows who made each change
+* **Many people, one post** - A copywriter drafts, a reviewer fixes the link, and a manager approves
+* **AI does the repetitive work** - An AI assistant connected via MCP drafts, edits and schedules posts on request, using the Buffer login of the person who asked
+* **Bulk changes** - One MCP request can update the drafts on every channel, so you avoid the "many edits" problem above
+
+<boxEmbed style="greybox" body={<>
+**Penny:** "Change the TinaCMS post link to the new blog URL in all channels"
+
+**AI (via Buffer MCP):** "Updated 4 drafts on TinaCMS LinkedIn, X, Facebook and Bluesky"
+</>} figurePrefix="good" figure="Good example - One request updates every draft, and the change is made with Penny's Buffer login" />
+
+To start:
+
+1. To use AI, connect your assistant to the Buffer MCP server (`https://mcp.buffer.com/mcp`) and sign in with your own Buffer login
+2. To use code or low-code tools like n8n, go to Settings | API and create your own API key
+3. Read the [Buffer API documentation](https://developers.buffer.com/) for the available operations and rate limits
+
+**Warning:** Never share one API key across the team. Every change made with a shared key looks like it came from the same person.
+
+See [Do you automate tasks with low-code tools and AI?](/low-code-and-ai)
 
 ## SocialPilot
 
 A SaaS product, [SocialPilot](https://www.socialpilot.co/) is another really cost-effective option with many features, even under their most basic plan. They offer functionalities like a social media calendar, a social inbox, social media analytics, client and team management.
 
-They allow you to connect to social media platforms such as TikTok, Instagram, Facebook, LinkedIn, Twitter and Google My Business. SocialPilot also integrates with platforms like Zapier, Canva, Snip.ly and Bit.ly.
+They allow you to connect to social media platforms such as TikTok, Instagram, Facebook, LinkedIn, X (Twitter) and Google Business Profile. SocialPilot also integrates with platforms like Zapier, Canva, Snip.ly and Bit.ly.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="SocialPilot analytics reporting can help you understand better if your content is working towards achieving your goals" src="/uploads/rules/post-using-social-media-management-tools/linkedin-analytics-social-pilot.png" />
+<imageEmbed alt="SocialPilot LinkedIn analytics report with engagement charts" size="large" showBorder={false} figurePrefix="none" figure="SocialPilot analytics reporting can help you understand better if your content is working towards achieving your goals" src="/uploads/rules/post-using-social-media-management-tools/linkedin-analytics-social-pilot.png" />
 
 ## HootSuite
 
@@ -102,12 +170,12 @@ Available since 2008, [Hootsuite](https://www.hootsuite.com/) is a really comple
 
 However, all of that comes at a price, and Hootsuite is one of the most expensive options.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Hootsuite also has OwlyWriter - an AI powered social media writer & content ideas tool" src="/uploads/rules/post-using-social-media-management-tools/Automation-Hero_1__1_.png" />
+<imageEmbed alt="Hootsuite OwlyWriter AI writing social media post ideas" size="large" showBorder={false} figurePrefix="none" figure="Hootsuite also has OwlyWriter - an AI powered social media writer & content ideas tool" src="/uploads/rules/post-using-social-media-management-tools/Automation-Hero_1__1_.png" />
 
 ## Sprout Social
 
-Out in the market since 2010, [Sprout Social](https://sproutsocial.com/) is an all-in-one social media management platform, with product tools from Publishing and Scheduling to Employee Advocacy. Sprout Social allows you to connect to many networks Facebook, Twitter, Instagram, LinkedIn, YouTube, Pinterest, Tripadvisor and even Glassdoor.
+Out in the market since 2010, [Sprout Social](https://sproutsocial.com/) is an all-in-one social media management platform, with product tools from Publishing and Scheduling to Employee Advocacy. Sprout Social allows you to connect to many networks, including Facebook, X, Instagram, LinkedIn, YouTube, Pinterest, Threads, TikTok and Bluesky.
 
-Besides three options of plans, they have three additional and optional premium solutions: Listening (below), Premium Analytics and Employee Advocacy.
+Sprout Social has several plans, priced per seat. It also sells optional add-ons, including Social Insights (Listening, below, and Premium Analytics) and Employee Advocacy.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Sprout Social has a Listening feature that allows you to build a deeper understanding of your audience, discover trends and apply insights from your social media in your business strategy" src="/uploads/rules/post-using-social-media-management-tools/PI_Listening_Competitive_Analysis_Performance_1000w.png" />
+<imageEmbed alt="Sprout Social Listening competitive analysis performance dashboard" size="large" showBorder={false} figurePrefix="none" figure="Sprout Social has a Listening feature that allows you to build a deeper understanding of your audience, discover trends and apply insights from your social media in your business strategy" src="/uploads/rules/post-using-social-media-management-tools/PI_Listening_Competitive_Analysis_Performance_1000w.png" />
