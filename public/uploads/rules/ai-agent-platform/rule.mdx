@@ -26,24 +26,35 @@ type: rule
 uri: ai-agent-platform
 ---
 
-Your team spends months coding a chatbot from scratch: hosting it, making it search your documents, and checking who's allowed to see what. Microsoft's no-code and low-code tools give you all of that out of the box.
+Your team spends months coding a chatbot from scratch: hosting it, making it search your documents, and checking who's allowed to see what. On Microsoft 365, start with Copilot Studio instead. Searching your documents, signing people in, taking actions, and publishing to Teams all come built in.
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=VN3xpj1_K6A" description={"Video: SophieBot - Your Company Knowledge, All in One Chat by Levi Jackson (2 min)"} />
 
 <endIntro />
 
-## What are your options?
+## Why Copilot Studio?
 
-Pick the simplest tool that does the job, and only write code when something forces you to.
+It's low-code, so you don't write the hard parts:
+
+* **Knowledge** - [Search your documents](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) in SharePoint, websites, and files
+* **Actions** - Look up live data or book a room, not just answer questions
+* **Channels** - [Publish to Teams, Microsoft 365 Copilot, or a website](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels)
+* **Testing** - Try changes before they go live
+
+[SSW's SophieBot is a real example](https://www.ssw.com.au/products/sophiebot). The first version was hand-coded in C#. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM, and looks up live data like who is in the office.
+
+## When should you pick something else?
+
+Go simpler when answering questions inside Copilot is enough. Only write code when something forces you to.
 
 | Tier | Tool | What it is |
 | --- | --- | --- |
 | Ready-made | Copilot in SharePoint, Word, Excel, and PowerPoint, and ready-made agents in Copilot | Already there with a Microsoft 365 Copilot licence. Try it before you build anything |
 | No-code | Agent Builder | Describe an agent in plain English inside Copilot. Not available in Teams chats |
-| Low-code | Copilot Studio | Agents with knowledge, actions, and workflows, for Teams, websites, and more |
+| Low-code | Copilot Studio (recommended) | Agents with knowledge, actions, and workflows, for Teams, websites, and more |
 | Pro-code | Work IQ Dev Tools (or Agents Toolkit) | Add skills or tools to Microsoft Copilot from code |
 | Pro-code | Microsoft 365 Agents SDK | Bot Framework's successor. Connects an app you built to a Copilot Studio or Foundry agent |
 | Pro-code | Microsoft Foundry | Build on Azure with your own models, hosting, and networking |
-
-## How do you choose?
 
 ```mermaid
 flowchart TD
@@ -56,16 +67,6 @@ flowchart TD
     Q2 -->|Yes| AB["Agent Builder<br>No code"]
     Q2 -->|No| CS["Copilot Studio<br>Low code"]
 ```
-
-## When do you need Copilot Studio?
-
-When the agent needs more than answers in Copilot: taking actions like looking up live data or booking a room, Teams chats or a website, or a way to test changes before they go live.
-
-You still don't write the hard parts: [searching your documents](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio), signing people in, and publishing to [Teams or a website](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels) come built in.
-
-[SSW's SophieBot is a real example](https://www.ssw.com.au/products/sophiebot). The first version was hand-coded in C#. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM, and looks up live data like who is in the office.
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=VN3xpj1_K6A" description={"Video: SophieBot - Your Company Knowledge, All in One Chat by Levi Jackson (2 min)"} />
 
 ## What if you are not a Microsoft shop?
 
