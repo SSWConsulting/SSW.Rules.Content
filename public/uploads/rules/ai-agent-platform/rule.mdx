@@ -28,11 +28,11 @@ uri: ai-agent-platform
 
 Your team spends months coding a chatbot from scratch: hosting it, making it search your documents, and checking who's allowed to see what. Microsoft's no-code and low-code tools give you all of that out of the box.
 
-**Pick the simplest tool that does the job, and only write code when something forces you to.**
-
 <endIntro />
 
 ## What are your options?
+
+Pick the simplest tool that does the job, and only write code when something forces you to.
 
 | Tier | Tool | What it is |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ flowchart TD
     Q0 -->|No| Q1{"Does anything force<br>you to write code?"}
     Q1 -->|"Add skills or tools to<br>Microsoft Copilot itself"| TK["Work IQ Dev Tools<br>Pro code"]
     Q1 -->|"Your own model, hosting,<br>or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
-    Q1 -->|"No - most teams"| Q2{"Is answering questions<br>in Copilot enough?"}
+    Q1 -->|No| Q2{"Is answering questions<br>in Copilot enough?"}
     Q2 -->|Yes| AB["Agent Builder<br>No code"]
     Q2 -->|No| CS["Copilot Studio<br>Low code"]
 ```
@@ -63,9 +63,9 @@ When the agent needs more than answers in Copilot: taking actions like looking u
 
 You still don't write the hard parts: [searching your documents](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio), signing people in, and publishing to [Teams or a website](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels) come built in.
 
-SSW's SophieBot is a real example. The first version was hand-coded in C#. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM, and looks up live data like who is in the office.
+[SSW's SophieBot is a real example](https://www.ssw.com.au/products/sophiebot). The first version was hand-coded in C#. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM, and looks up live data like who is in the office.
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=VN3xpj1_K6A" description={"Video: SophieBot: Your Company Knowledge, All in One Chat | Levi Jackson (2 min)"} />
+<youtubeEmbed url="https://www.youtube.com/watch?v=VN3xpj1_K6A" description={"Video: SophieBot - Your Company Knowledge, All in One Chat by Levi Jackson (2 min)"} />
 
 ## What if you are not a Microsoft shop?
 
