@@ -1,0 +1,70 @@
+---
+type: rule
+title: Do you review content changes in the visual editor?
+seoDescription: Review content changes in the CMS visual editor, not a raw MDX diff or GitHub's markdown preview, so you see the page as it will look and can fix it in the same place.
+guid: 2dfa66ae-6c14-4a29-96e2-8723f0e0d128
+uri: review-content-in-the-visual-editor
+created: 2026-11-19T12:30:46.864Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/git-based-cms-solutions/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/branch-naming/rule.mdx
+  - rule: public/uploads/rules/share-as-blog-post-and-rule/rule.mdx
+categories:
+  - category: categories/websites-and-cms/rules-to-better-tinacms.mdx
+createdBy: Gordon Beeming
+lastUpdated: 2026-11-19T12:31:22.360Z
+lastUpdatedBy: Gordon Beeming
+archivedreason: null
+isArchived: false
+---
+
+When someone reviews a content change, they need to see the page as it will look on the site. A raw MDX diff only shows which lines changed, and GitHub's markdown preview leaves out MDX components. Review content changes in your CMS visual editor instead, where you see the real page and can fix it in the same place.
+
+<endIntro />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ### Reviewing the raw MDX diff
+
+    The diff shows which lines changed, but not how the page will look. The reviewer has to picture the layout and the components in their head.
+
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-git-diff.png)
+  </>}
+  figurePrefix="bad"
+  figure="A raw diff shows the text and tags that changed, not the page"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ### Reviewing the GitHub markdown preview
+
+    GitHub's preview styles the headings, links and paragraphs, so it reads better than the diff. Custom MDX components like images and callouts are missing, and you can't fix anything from the preview.
+
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-github-preview.png)
+  </>}
+  figurePrefix="ok"
+  figure="Better, but not perfect. GitHub's preview styles the text, but MDX components don't show"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ### Reviewing in the CMS visual editor
+
+    Send the reviewer the visual editor link for the branch, plus the pull request. They see the page exactly as it will look, and can fix a sentence in the same place. Each save commits to the branch.
+
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-tina-visual-editor.png)
+  </>}
+  figurePrefix="good"
+  figure="The TinaCMS visual editor shows the real page, and you can edit it in the same place"
+/>
+
+## Learn more
+
+Read [Writing and Reviewing Content in TinaCMS](https://gordonbeeming.com/blog/2026-11-19/writing-and-reviewing-content-in-tinacms) for a walkthrough of this workflow.
