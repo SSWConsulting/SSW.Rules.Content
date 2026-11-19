@@ -1,15 +1,103 @@
 ---
+type: rule
 title: Do you review content changes in the visual editor?
-uri: review-content-in-the-visual-editor
+seoDescription: Review content changes in the CMS visual editor, not a raw MDX diff or GitHub's markdown preview, so you see the page as it will look and can fix it in the same place.
 guid: 2dfa66ae-6c14-4a29-96e2-8723f0e0d128
+uri: review-content-in-the-visual-editor
 created: 2026-11-19T12:30:46.864Z
+authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
+related:
+  - rule: public/uploads/rules/git-based-cms-solutions/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/branch-naming/rule.mdx
+  - rule: public/uploads/rules/share-as-blog-post-and-rule/rule.mdx
+categories:
+  - category: categories/websites-and-cms/rules-to-better-tinacms.mdx
 createdBy: Gordon Beeming
 lastUpdated: 2026-11-19T12:31:22.360Z
 lastUpdatedBy: Gordon Beeming
+archivedreason: null
+isArchived: false
 ---
 
-Intro
+A raw MDX diff shows what changed, not how the page will look. MDX components do not appear in the diff, and neither do the site's typography or spacing. Asking a reviewer to clone the repo and run the site locally is a lot of work for a content change they just need to read. Sending screenshots of a local render back and forth has the same problem. That is more work when the reviewer is not at a dev machine.
 
 <endIntro />
 
-Body
+## How to review a content change on a branch
+
+In your [Git-based CMS](/git-based-cms-solutions), start from `main` and create or edit the content. Save it to a new branch with the editorial workflow. In [TinaCMS](https://tina.io), the [editorial workflow](https://tina.io/docs/drafts/editorial-workflow) creates a branch with a `tina/` prefix, and a draft pull request. After that prefix, follow your team's [branch naming convention](/branch-naming).
+
+Then send the reviewer two links:
+
+* The visual editor link for that branch. Test the link first, and name the branch in the message. The link may not select the branch on its own
+* The pull request, so they can see the commits and approve or merge
+
+Tina leaves a placeholder pull request description. Update it with the context the reviewer needs. See [Do you know how to write a great Pull Request (PR)?](/write-a-good-pull-request).
+
+The reviewer reads the rendered page and makes small fixes in the editor. Each save commits to the branch, so there is no extra local render and no round of screenshots. When the review is done, merge the pull request. That is the publish step.
+
+This works from a phone or an iPad. The visual editor is a link, so the reviewer does not need to clone the repo or run the site.
+
+## Examples of reviewing a content change
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `$ git diff content/posts/welcome-alex.mdx`
+
+    ```diff
+    --- a/content/posts/welcome-alex.mdx
+    +++ b/content/posts/welcome-alex.mdx
+    @@ -8,3 +8,8 @@
+     ---
+
+    -Welcome **Alex** to the team. They start on Monday.
+    +Welcome **Alex** to the Design team. They start on Monday.
+    +
+    +<Callout type="info">
+    +  Alex will sit with the Design team and work on the public website.
+    +</Callout>
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="A raw git diff of the MDX shows the tags that changed, not how the page will look"
+/>
+
+<imageEmbed
+  src="/uploads/rules/review-content-in-the-visual-editor/github-markdown-preview-of-mdx.png"
+  alt="GitHub file preview of an MDX post, with headings and bold text styled, and a Callout component shown as raw tag text that has not rendered"
+  size="large"
+  showBorder={true}
+  figurePrefix="ok"
+  figure="GitHub's markdown preview styles the text, but custom MDX components do not render"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Please review this post in the visual editor.
+
+    * Visual editor, branch `tina/welcome-alex`: https://cms.northwind.com/admin
+    * Draft pull request: https://github.com/northwind/website/pull/312
+
+    I have tested the visual editor link. You can make small fixes in the editor.
+  </>}
+  figurePrefix="good"
+  figure="The review message includes a tested visual editor link, the branch name and the draft pull request"
+/>
+
+<imageEmbed
+  src="/uploads/rules/review-content-in-the-visual-editor/tina-visual-editor-on-a-branch.png"
+  alt="TinaCMS visual editor with the tina/welcome-alex branch selected, the post fields in the sidebar and the rendered page preview beside them, including a styled info callout"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="The TinaCMS visual editor shows the page as it will look, and you can edit it in the same place"
+/>
+
+## Learn more
+
+For a walkthrough of this workflow and an example of reviewing from an iPad, read [Writing and Reviewing Content in TinaCMS](https://gordonbeeming.com/blog/2026-11-19/writing-and-reviewing-content-in-tinacms).
