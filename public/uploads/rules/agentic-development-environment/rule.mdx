@@ -92,12 +92,12 @@ Both kinds run the same CLI agents. The difference is where you review the work.
 | **What it is** | A GUI app with sessions, diffs, pull requests and a browser in 1 window | A terminal multiplexer that knows the state of each agent |
 | **Review** | Built-in diff viewer and PR panel | Your own tools (`git diff`, your IDE, GitHub) |
 | **Best for** | Most developers, and anyone who reviews a lot of code | Keyboard-first developers, and agents on a remote server over SSH |
-| **Examples** | Orca, Paradev, T3 Code, Herdr app | Herdr, cmux, tmux |
+| **Examples** | Orca, Paradev, T3 Code, Herdr app | Herdr, cmux |
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
-    **Tip:** A terminal ADE keeps your agents running when you close the window or the laptop sleeps. Run it on a server, and your agents keep working while you travel.
+    **Tip:** Run a terminal ADE on a server. Your agents keep working when you close the window, your laptop sleeps or you travel.
   </>}
   figurePrefix="none"
   figure=""
@@ -119,22 +119,22 @@ Start from how you work:
 | Tool | Type | OS | Price | Agents | Remote and mobile |
 | --- | --- | --- | --- | --- | --- |
 | [Orca](https://orca.dev/) ⭐ | Desktop | macOS, Windows, Linux | Free, open source (MIT) | 30+ CLI agents | SSH, iOS and Android apps |
-| [Herdr](https://herdr.dev/) ⭐ | Terminal and desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | About 25 CLI agents | SSH, iOS and Android apps |
+| [Herdr](https://herdr.dev/) ⭐ | Terminal and desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 20+ CLI agents | SSH, iOS and Android apps |
 | [Paradev](https://github.com/ParadevAI/Paradev) (was Superset) | Desktop | macOS (Linux experimental) | Free, open source (MIT). Paid Pro plan | 20+ CLI agents | Remote hosts. iOS app needs Pro |
 | [T3 Code](https://t3.codes/) | Desktop and web | macOS, Windows, Linux | Free, open source (MIT) | Claude Code, Codex, Cursor and more | Web, iOS and Android |
-| [Paseo](https://paseo.sh/) | Desktop and web | macOS, Windows, Linux | Free, open source (Apache 2.0) | 10+ CLI agents | Web, iOS and Android |
-| [Emdash](https://emdash.com/) | Desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 9+ CLI agents | SSH |
-| [cmux](https://cmux.com/) | Terminal app | macOS only | Free, open source (GPL 3.0) | Any CLI agent | SSH |
+| [Paseo](https://paseo.sh/) | Desktop and web | macOS, Windows, Linux | Free, open source (Apache 2.0) | 40+ CLI agents | Web, iOS and Android |
+| [Emdash Classic](https://github.com/generalaction/emdash) | Desktop | macOS, Windows, Linux | Free, open source (Apache 2.0) | 9+ CLI agents | SSH |
+| [cmux](https://cmux.com/) | Terminal app | macOS only | Free, open source (GPL 3.0) | Any CLI agent | SSH, iOS beta (Pro plan) |
 | [Claude Code desktop](https://code.claude.com/docs/en/desktop) | Desktop | macOS, Windows (Linux beta) | Paid Claude plan | Claude only | Cloud sessions, mobile |
 | [Codex app](https://learn.chatgpt.com/docs/app) | Desktop (in ChatGPT) | macOS, Windows (Linux preview) | ChatGPT plan | Codex only | Remote, mobile |
-| [VS Code Agents](https://code.visualstudio.com/docs/agents/run/agents-window) | Desktop (in VS Code) | macOS, Windows, Linux | Needs GitHub Copilot | Copilot, Claude, Codex | SSH, tunnels, cloud sessions |
+| [VS Code Agents](https://code.visualstudio.com/docs/agents/run/agents-window) | Desktop (in VS Code) | macOS, Windows, Linux | GitHub Copilot, or Claude or Codex sign-in (experimental) | Copilot, Claude, Codex | SSH, tunnels, cloud sessions |
 
-All these tools give each task its own worktree.
+Most of these tools can give each task its own worktree.
 
 <boxEmbed
   style="info"
   body={<>
-    **Note:** ADEs change every week. Check the tool's site before you choose. As at November 2026, Conductor joins Meta, and T3 Code and Paseo are still in version 0.x.
+    **Note:** ADEs change every week. Check the tool's site before you choose. As at November 2026, Meta owns Conductor (a parallel-agent app) and winds it down. T3 Code and Paseo are still in version 0.x.
   </>}
   figurePrefix="none"
   figure=""
@@ -160,4 +160,11 @@ All these tools give each task its own worktree.
   figure="Good example - A multi-provider ADE lets you pick the agent for each task"
 />
 
-**Tip:** Most ADEs are free. Try 2 of them with your usual agents for a week, then keep the one that fits how you work.
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Most ADEs are free. Try 2 of them with your usual agents for a week. Keep the one that fits how you work.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
