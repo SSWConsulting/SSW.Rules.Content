@@ -24,9 +24,9 @@ type: rule
 uri: ai-agent-platform
 ---
 
-You need an agent that answers staff questions from the HR policies in SharePoint. You open a studio, wire up knowledge sources, and ship it a fortnight later.
+You need an agent that answers staff questions from the HR policies in SharePoint. You build one in Copilot Studio, point it at the HR site, and ship it a fortnight later.
 
-That site already had an agent. Every SharePoint site does, scoped to exactly that content, on day one.
+That site already had an agent. With a Copilot licence, every SharePoint site comes with Copilot in SharePoint, scoped to that site's content, on day one.
 
 Microsoft offers four tiers, and most teams start further down than they need to.
 
@@ -38,7 +38,7 @@ Four tiers, from an agent that already exists to one you host yourself.
 
 | Tier | Tool | Publishes to |
 | --- | --- | --- |
-| Ready-made | Every site's built-in agent, the Agent Store, and the Word, Excel, and PowerPoint agents | Wherever that app already is |
+| Ready-made | Copilot in each SharePoint site, Copilot in Word, Excel, and PowerPoint, and ready-made agents under Plugins | Wherever that app already is |
 | No-code | Agent Builder | Microsoft 365 Copilot, Teams |
 | Low-code | Copilot Studio (Recommended) | Teams, web, WhatsApp, Slack, SMS, and more |
 | Pro-code | Agents Toolkit | Microsoft 365 Copilot, Teams |
@@ -53,11 +53,10 @@ flowchart TD
     Q0 -->|Yes| RM["Ready-made<br>Build nothing"]
     Q0 -->|No| Q1{"Is it just for you or<br>a small team?"}
     Q1 -->|Yes| AB["Agent Builder<br>No code"]
-    Q1 -->|No| CS["Copilot Studio<br>Low code, Recommended"]
-    CS --> Q2{"Does anything force<br>you past it?"}
-    Q2 -->|No| Ship(["Ship it"])
-    Q2 -->|"Source control and CI/CD"| TK["Agents Toolkit<br>Pro code"]
-    Q2 -->|"Lives inside a product you built"| SDK["Agents SDK<br>Pro code"]
+    Q1 -->|No| Q2{"Does anything force<br>you to write code?"}
+    Q2 -->|"No - most teams"| CS["Copilot Studio<br>Low code, Recommended"]
+    Q2 -->|"Developers want it as code"| TK["Agents Toolkit<br>Pro code"]
+    Q2 -->|"It lives inside an app you built"| SDK["Agents SDK<br>Pro code"]
     Q2 -->|"Your own model or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
 ```
 
@@ -65,25 +64,29 @@ Most teams should stop at Copilot Studio. The common failure is not picking a we
 
 <boxEmbed style="info" figurePrefix="none" figure="" body={<>
 
-**Note:** A [SharePoint agent](https://learn.microsoft.com/en-us/sharepoint/get-started-sharepoint-agents) is not a separate platform. It is a no-code agent authored inside SharePoint and scoped to that site, on the same orchestrator Agent Builder uses. Author it there when the content is one site and you want the site owner to keep it. Agent Builder covers the same SharePoint content plus OneDrive, Teams chats, and email.
+**Note:** A SharePoint agent is not a separate platform. Every site already has [Copilot in SharePoint](https://learn.microsoft.com/en-us/sharepoint/upgrade-sharepoint-agents) for that site's content, and when you need your own agent, you build it in Agent Builder.
 
 </>} />
 
 ## Why is Copilot Studio the default?
 
-Because it is a finished product rather than a toolkit. [Knowledge](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) from SharePoint, Dataverse, documents, and Microsoft Search connectors without code. Generative answers on by default. Per-user security trimming, so each person only sees content their Entra ID account can already open. File uploads, a [long list of channels](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels), and real dev, test, and production environments.
+Because it is a finished product rather than a toolkit. [Knowledge](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) from SharePoint, Dataverse, documents, and Microsoft Copilot connectors without code. Generative answers on by default. Per-user security trimming on SharePoint, Dataverse, and connector content, so each person only sees what their Entra ID account can already open. File uploads, a [long list of channels](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels), and real dev, test, and production environments.
 
 Reach and governance decide this, not features. Choose it when the agent serves a department, the organisation, or customers, or when it has to survive an audit.
 
-## Why is the Agents SDK not a peer?
+SSW's own SophieBot is an example. The first version was custom C# on Bot Framework and LUIS. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM.
 
-It is the successor to Bot Framework, which Microsoft retired in December 2025, and it inherits that job: move messages between a user and whatever logic you wrote. [Microsoft is blunt](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview) that it is not an AI model, not an orchestration engine, and not a no-code builder.
+<youtubeEmbed url="https://www.youtube.com/watch?v=VN3xpj1_K6A" description={"Video: SophieBot: Your Company Knowledge, All in One Chat | Levi Jackson (2 min)"} />
+
+## When do you need pro-code?
+
+The Microsoft 365 Agents SDK is the successor to the Bot Framework SDK, whose support ended on 31 December 2025, and it inherits that job: move messages between a user and whatever logic you wrote. [Microsoft is blunt](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview) that it is not an AI model, not an orchestration engine, and not a no-code builder.
 
 Picking it instead of Copilot Studio means building generative answers, grounding, and security trimming yourself. It ships a [Copilot Studio client](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs) for .NET, JavaScript, and Python, so put Copilot Studio or Foundry behind it rather than in place of them.
 
 <boxEmbed style="warning" figurePrefix="none" figure="" body={<>
 
-**Warning:** Foundry is closer to Copilot Studio than the names suggest, using the same Microsoft 365 retrieval stack and the same permission trimming. Two catches: its [SharePoint tool](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/sharepoint) stops working once the agent is published to Teams, and every end user needs a Microsoft 365 Copilot licence.
+**Warning:** Foundry's [SharePoint tool](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/sharepoint) uses the same retrieval stack as Microsoft Copilot, so each user still only sees what they can already open. Two catches: it doesn't work once the agent is published to Teams, and each end user needs a Copilot licence or pay-as-you-go billing. The tool is still in preview.
 
 </>} />
 
@@ -101,7 +104,7 @@ Grounding and per-user permission trimming only work where your content and your
 
 <boxEmbed style="info" figurePrefix="none" figure="" body={<>
 
-**Note:** Choose for where your data lives, not for the authoring experience. OpenAI shipped a visual Agent Builder in October 2025 and [deprecated it eight months later](https://developers.openai.com/api/docs/deprecations), with shutdown set for 30 November 2026. Drag-and-drop canvases come and go. The grounding layer is what you are really committing to.
+**Note:** Choose for where your data lives, not for the authoring experience. OpenAI shipped a visual Agent Builder in October 2025 and [deprecated it eight months later](https://developers.openai.com/api/docs/deprecations), with shutdown set for 30 November 2026 and OpenAI's Agents SDK as the way out. Drag-and-drop canvases come and go. The grounding layer is what you are really committing to.
 
 </>} />
 
@@ -110,5 +113,5 @@ Grounding and per-user permission trimming only work where your content and your
 ### Learn more
 
 * [Choose between Agent Builder and Copilot Studio](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/copilot-studio-experience) - Microsoft's decision tree, by audience and scope
-* [Choose the right tool to build a declarative agent](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/declarative-agent-tool-comparison) - pros and cons of all four declarative tools
+* [Choose development tools for your Copilot plugin](https://learn.microsoft.com/en-us/plugins/choose-plugin-development-tools) - Microsoft's comparison of the low-code and pro-code tools
 * [SSW: Do you know your Dataverse AI options?](/dataverse-ai-options) - Copilot Studio agents and MCP against Dataverse
