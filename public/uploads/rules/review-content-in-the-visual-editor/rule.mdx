@@ -22,14 +22,18 @@ archivedreason: null
 isArchived: false
 ---
 
-When you review a content change, you need to see the page as it will look on the site. A raw MDX diff only shows which lines changed, and GitHub's markdown preview cannot render MDX components. Review the change in your CMS visual editor, where you see the real page and can fix it in the same place.
+When someone reviews a content change, they need to see the page as it will look on the site. A raw MDX diff only shows which lines changed, and GitHub's markdown preview can't render MDX components. Review content changes in your CMS visual editor instead, where you see the real page and can fix it in the same place.
 
 <endIntro />
+
+## ❌ Bad practices
 
 <boxEmbed
   style="greybox"
   body={<>
-    `$ git diff content/posts/welcome-alex.mdx`
+    ### ❌ Reviewing the raw MDX diff
+
+    The diff shows which lines and tags changed. It doesn't show how the page will look, so the reviewer has to imagine the layout and the components.
 
     ```diff
     --- a/content/posts/welcome-alex.mdx
@@ -46,25 +50,35 @@ When you review a content change, you need to see the page as it will look on th
     ```
   </>}
   figurePrefix="bad"
-  figure="A raw git diff of the MDX shows the tags that changed, not how the page will look"
+  figure="A raw git diff shows the tags that changed, not the page"
 />
 
-<imageEmbed
-  src="/uploads/rules/review-content-in-the-visual-editor/github-markdown-preview-of-mdx.png"
-  alt="GitHub file preview of an MDX rule, with headings and body text styled, and the example box components shown as raw tag text that has not rendered"
-  size="large"
-  showBorder={true}
+<boxEmbed
+  style="greybox"
+  body={<>
+    ### 🙂 Reviewing the GitHub markdown preview
+
+    GitHub's preview styles headings, bold text and code blocks, so it reads better than the diff. Custom MDX components still show as raw tag text, and you can't fix anything from the preview.
+
+    ![](/uploads/rules/review-content-in-the-visual-editor/github-markdown-preview-of-mdx.png)
+  </>}
   figurePrefix="ok"
-  figure="GitHub's markdown preview styles the text, but custom MDX components do not render"
+  figure="GitHub's markdown preview styles the text, but custom MDX components don't render"
 />
 
-<imageEmbed
-  src="/uploads/rules/review-content-in-the-visual-editor/tina-visual-editor-on-a-branch.png"
-  alt="TinaCMS visual editor with a tina branch selected, the rule fields in the sidebar and the rendered rule page beside them, including the styled example boxes and their captions"
-  size="large"
-  showBorder={true}
+## ✅ Good practices
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ### ✅ Reviewing in the CMS visual editor
+
+    Send the reviewer the visual editor link for the branch, plus the pull request. They see the page exactly as it will look, and can fix a sentence in the same place. Each save commits to the branch.
+
+    ![](/uploads/rules/review-content-in-the-visual-editor/tina-visual-editor-on-a-branch.png)
+  </>}
   figurePrefix="good"
-  figure="The TinaCMS visual editor shows the page as it will look, and you can edit it in the same place"
+  figure="The TinaCMS visual editor shows the real page, and you can edit it in the same place"
 />
 
 ## Learn more
