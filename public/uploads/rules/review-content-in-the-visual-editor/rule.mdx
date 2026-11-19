@@ -22,7 +22,7 @@ archivedreason: null
 isArchived: false
 ---
 
-When someone reviews a content change, they need to see the page as it will look on the site. A raw MDX diff only shows which lines changed, and GitHub's markdown preview can't render MDX components. Review content changes in your CMS visual editor instead, where you see the real page and can fix it in the same place.
+When someone reviews a content change, they need to see the page as it will look on the site. A raw MDX diff only shows which lines changed, and GitHub's markdown preview leaves out MDX components. Review content changes in your CMS visual editor instead, where you see the real page and can fix it in the same place.
 
 <endIntro />
 
@@ -33,24 +33,12 @@ When someone reviews a content change, they need to see the page as it will look
   body={<>
     ### ❌ Reviewing the raw MDX diff
 
-    The diff shows which lines and tags changed. It doesn't show how the page will look, so the reviewer has to imagine the layout and the components.
+    The diff shows which lines changed, but not how the page will look. The reviewer has to picture the layout and the components in their head.
 
-    ```diff
-    --- a/content/posts/welcome-alex.mdx
-    +++ b/content/posts/welcome-alex.mdx
-    @@ -8,3 +8,8 @@
-     ---
-
-    -Welcome **Alex** to the team. They start on Monday.
-    +Welcome **Alex** to the Design team. They start on Monday.
-    +
-    +<Callout type="info">
-    +  Alex will sit with the Design team and work on the public website.
-    +</Callout>
-    ```
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-git-diff.png)
   </>}
   figurePrefix="bad"
-  figure="A raw git diff shows the tags that changed, not the page"
+  figure="A raw diff shows the text and tags that changed, not the page"
 />
 
 <boxEmbed
@@ -58,12 +46,12 @@ When someone reviews a content change, they need to see the page as it will look
   body={<>
     ### 🙂 Reviewing the GitHub markdown preview
 
-    GitHub's preview styles headings, bold text and code blocks, so it reads better than the diff. Custom MDX components still show as raw tag text, and you can't fix anything from the preview.
+    GitHub's preview styles the headings, links and paragraphs, so it reads better than the diff. Custom MDX components like images and callouts are missing, and you can't fix anything from the preview.
 
-    ![](/uploads/rules/review-content-in-the-visual-editor/github-markdown-preview-of-mdx.png)
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-github-preview.png)
   </>}
   figurePrefix="ok"
-  figure="GitHub's markdown preview styles the text, but custom MDX components don't render"
+  figure="Better, but not perfect. GitHub's preview styles the text, but MDX components don't show"
 />
 
 ## ✅ Good practices
@@ -75,7 +63,7 @@ When someone reviews a content change, they need to see the page as it will look
 
     Send the reviewer the visual editor link for the branch, plus the pull request. They see the page exactly as it will look, and can fix a sentence in the same place. Each save commits to the branch.
 
-    ![](/uploads/rules/review-content-in-the-visual-editor/tina-visual-editor-on-a-branch.png)
+    ![](/uploads/rules/review-content-in-the-visual-editor/blog-change-tina-visual-editor.png)
   </>}
   figurePrefix="good"
   figure="The TinaCMS visual editor shows the real page, and you can edit it in the same place"
