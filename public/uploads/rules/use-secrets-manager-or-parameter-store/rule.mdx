@@ -1,0 +1,100 @@
+---
+type: rule
+title: Do you keep secrets in Secrets Manager or Parameter Store?
+seoDescription: Keep AWS secrets such as database passwords and API keys in Secrets Manager, keep plain configuration in Parameter Store, and keep secret values out of Lambda environment variables, code and Infrastructure as Code.
+guid: c98d0370-9fab-4353-961d-a94d3db329d1
+uri: use-secrets-manager-or-parameter-store
+created: 2026-11-19T04:04:05.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+related:
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/config-over-keyvault/rule.mdx
+  - rule: public/uploads/rules/roll-exposed-aws-credentials/rule.mdx
+  - rule: public/uploads/rules/give-each-lambda-its-own-role/rule.mdx
+  - rule: public/uploads/rules/use-iac-for-aws-from-day-one/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+A database password ends up in a Lambda environment variable, a Terraform variables file or an ECS task definition. Everyone who can open the function's configuration can read it. It is in Git history for good, and changing it means a redeploy, so nobody ever changes it.
+
+<endIntro />
+
+AWS has two places to keep these values. They look alike, and teams often pick one for everything. That either leaves a password with no rotation or pays secret prices for a feature flag.
+
+If you know Azure, Secrets Manager is the closest match to Key Vault secrets. Azure makes the same split between secrets and configuration. See [Do you use Configuration over Key Vault?](/config-over-keyvault)
+
+## Choose by what the value is
+
+| | Secrets Manager | Parameter Store |
+| --- | --- | --- |
+| Use it for | Database credentials, API keys, OAuth tokens, private keys | Endpoint URLs, resource IDs, tuning values |
+| Rotation | Automatic. AWS runs it for supported services such as RDS, and a Lambda function does it for most others | None |
+| Encryption | Always | Only the `SecureString` type |
+| Largest value | 64 KB | 4 KB, or 8 KB on the advanced tier |
+| Cost | Per secret each month, plus API calls | Standard tier is free for up to 10,000 parameters in each account and Region |
+
+AWS's own advice is short: [credentials go in Secrets Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html), configuration goes in Parameter Store. Feature flags have a third home, AWS AppConfig, which is the match for Azure App Configuration.
+
+A `SecureString` parameter is acceptable for a low-risk value that never needs to rotate, when cost matters more than the extra features. It is not the place for a production database password.
+
+## Keep the value out of everything else
+
+**Lambda.** Do not put secrets in environment variables. Use the [AWS Parameters and Secrets Lambda Extension](https://docs.aws.amazon.com/lambda/latest/dg/with-secrets-manager.html). It reads from both stores and caches each value for 5 minutes by default, so you do not pay for an API call on every invocation.
+
+**ECS.** Reference the secret in the task definition's `secrets` block, and ECS [injects it when the container starts](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html). A running task keeps the old value, so start new tasks after a rotation.
+
+**Infrastructure as Code.** Do not write the value in code or variables. Terraform state [can hold secret values](https://developer.hashicorp.com/terraform/language/state/sensitive-data) too, so let AWS generate the secret where it can. For RDS, turn on [managed master user passwords](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html). RDS creates the master password, stores it in Secrets Manager and rotates it every 7 days by default. Nobody has to choose it or type it.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's `process-orders` function has `DB_PASSWORD=Sup3rS3cret!` in its environment variables. The same value is in the repository and has not changed in 2 years.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Anyone who can view the function or the repository has the production password"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `process-orders` reads `prod/orders/db` from Secrets Manager through the Lambda extension. The password rotates every 30 days.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The password is in one place, and it changes without a redeploy"
+/>
+
+## Control who can read each secret
+
+Name secrets by environment and application, such as `prod/orders/db`. Then give each workload read access to its own secret and nothing else:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "secretsmanager:GetSecretValue",
+      "Resource": "arn:aws:secretsmanager:ap-southeast-2:111122223333:secret:prod/orders/db-??????"
+    }
+  ]
+}
+```
+
+AWS adds 6 random characters to the end of every secret ARN. The [`??????` wildcard](https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_iam-policies.html) matches them without matching other secrets that start with the same name.
+
+* Attach this policy to the role of one workload. For ECS, that is the task execution role. See [Do you give each Lambda its own least-privilege role?](/give-each-lambda-its-own-role)
+* To share a secret with another account, you need a resource policy on the secret and [a KMS key that you create](https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html). The default key does not work across accounts
+* CloudTrail records each call that reads a secret, so you can see who read it and when
+
+## Better still, have no secret
+
+A secret you do not have cannot leak. Before you store an AWS access key, check whether the workload can use a role. See [Do you use Microsoft Entra ID to give your workloads access to AWS?](/use-entra-id-to-access-aws)
+
+If an AWS credential gets out, see [Do you know how to roll AWS credentials if they are exposed?](/roll-exposed-aws-credentials) For any other secret, change it in the system that issued it, then update the stored value.

@@ -1,0 +1,93 @@
+---
+type: rule
+title: Do you give each Lambda its own least-privilege role?
+seoDescription: Give every AWS Lambda function its own execution role with only the actions and resources its code uses, so one compromised function cannot reach what the others can.
+guid: bc74eea2-7814-4e55-a181-f61938906363
+uri: give-each-lambda-its-own-role
+created: 2026-11-19T04:04:05.000Z
+authors:
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
+related:
+  - rule: public/uploads/rules/give-users-least-privileges/rule.mdx
+  - rule: public/uploads/rules/least-privilege-ai-resources/rule.mdx
+  - rule: public/uploads/rules/use-secrets-manager-or-parameter-store/rule.mdx
+  - rule: public/uploads/rules/cull-unused-aws-resources/rule.mdx
+  - rule: public/uploads/rules/use-iac-for-aws-from-day-one/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-aws.mdx
+archivedreason: null
+isArchived: false
+---
+
+A team creates one role called `lambda-shared-role` for its first function. Each new function reuses it, and each one adds the permissions it needs. A year later the function that resizes thumbnails can also read the orders table and send email. One vulnerable package in any function now gives an attacker everything that all of them can do.
+
+<endIntro />
+
+A Lambda function runs with the permissions of its execution role. AWS says it plainly: [sharing an IAM role within more than one Lambda function will likely violate least-privileged access](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/identity-and-access-management.html).
+
+## Create one role per function
+
+Create the role in the same stack or module as the function and name it after the function. The role then changes in the same pull request as the code, and is deleted when the function is.
+
+IAM does not charge for roles. An account can hold [1,000 by default](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html), and you can ask for up to 10,000.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Northwind's 14 functions all use `lambda-shared-role`, which has `AmazonS3FullAccess` and `AmazonDynamoDBFullAccess` attached.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Every function can read and delete every bucket and table in the account"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `resize-thumbnail` has its own role. It can write its logs, read from `northwind-uploads` and write to `northwind-thumbnails`.
+  </>}
+  figurePrefix="good"
+  figure="Good example - A compromised function can only touch the two buckets it works with"
+/>
+
+## Start with logging and add only what the code calls
+
+Every function needs to write logs. The [`AWSLambdaBasicExecutionRole`](https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html) managed policy allows that and nothing else. Start there, then add the specific actions on the specific resources:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:GetItem", "dynamodb:Query"],
+      "Resource": "arn:aws:dynamodb:ap-southeast-2:111122223333:table/orders"
+    }
+  ]
+}
+```
+
+Stay away from managed policies that end in `FullAccess`, and from `"Action": "*"` or `"Resource": "*"` in your own.
+
+You rarely have to write the policy by hand:
+
+* **AWS SAM** has [policy templates](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-policy-templates.html) such as `DynamoDBReadPolicy` that are scoped to one table
+* **AWS CDK** writes the statement for you when you call a [grant method](https://docs.aws.amazon.com/cdk/v2/guide/permissions.html), for example `table.grants.readData(fn)`
+* **IAM Access Analyzer** can [generate a policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-generation.html) from up to 90 days of the function's CloudTrail activity. Treat it as a starting list. It does not see data events, such as reading an S3 object or a DynamoDB item, so add those actions yourself
+
+## Limit who can invoke the function too
+
+The execution role says what the function can do. The function's [resource-based policy](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) says who can call it.
+
+When you let a service such as S3 invoke the function, add `aws:SourceAccount` and `aws:SourceArn` conditions, so only your bucket in your account can trigger it. Security Hub CSPM flags any function whose policy [allows public access](https://docs.aws.amazon.com/securityhub/latest/userguide/lambda-controls.html).
+
+## Keep it tight
+
+* Review permissions in the pull request. With [Infrastructure as Code](/use-iac-for-aws-from-day-one), a new permission is a line in a diff that a reviewer can question
+* Remove what is no longer used. IAM shows when a role last used each service. See [Do you monitor traffic and cull unused AWS resources?](/cull-unused-aws-resources)
+* Give each role read access to its own secret only. See [Do you keep secrets in Secrets Manager or Parameter Store?](/use-secrets-manager-or-parameter-store)
+* If your pipeline creates the roles, set a [permissions boundary](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html) on them. It caps what any function role can be given, whatever the policy says
+
+The same principle applies to people and to AI resources. See [Do you give users least privileges?](/give-users-least-privileges) and [Do you give least-privilege access to your AI resources?](/least-privilege-ai-resources)
