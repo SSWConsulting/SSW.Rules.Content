@@ -39,7 +39,7 @@ Four tiers, from an agent that already exists to one you host yourself.
 | Tier | Tool | Publishes to |
 | --- | --- | --- |
 | Ready-made | Copilot in SharePoint where available, Copilot in Word, Excel, and PowerPoint, and ready-made agents under Plugins | Wherever that app already is |
-| No-code | Agent Builder | Microsoft 365 Copilot, Teams |
+| No-code | Agent Builder | Microsoft 365 Copilot (not Teams chats) |
 | Low-code | Copilot Studio (Recommended) | Teams, web, WhatsApp, Slack, SMS, and more |
 | Pro-code | Work IQ Dev Tools, or Agents Toolkit for lower-level control | Microsoft 365 Copilot, Teams |
 | Pro-code | Microsoft 365 Agents SDK | Any surface you code |
@@ -51,13 +51,13 @@ Work down the tree and stop at the first thing that fits.
 flowchart TD
     Start(["You need an agent"]) --> Q0{"Does an agent that already<br>exists answer it?"}
     Q0 -->|Yes| RM["Ready-made<br>Build nothing"]
-    Q0 -->|No| Q1{"Does it need actions, workflows,<br>an external channel,<br>or dev, test, and production?"}
-    Q1 -->|No| AB["Agent Builder<br>No code"]
-    Q1 -->|Yes| Q2{"Does anything force<br>you to write code?"}
-    Q2 -->|"No - most teams"| CS["Copilot Studio<br>Low code, Recommended"]
-    Q2 -->|"Developers want it as code"| TK["Work IQ Dev Tools<br>Pro code"]
-    Q2 -->|"It lives inside an app you built"| SDK["Agents SDK<br>Pro code"]
-    Q2 -->|"Your own model or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
+    Q0 -->|No| Q1{"Does anything force<br>you to write code?"}
+    Q1 -->|"Add skills or tools to<br>Microsoft Copilot itself"| TK["Work IQ Dev Tools<br>Pro code"]
+    Q1 -->|"It lives inside an app you built"| SDK["Agents SDK<br>+ Copilot Studio or Foundry"]
+    Q1 -->|"Your own model, hosting,<br>or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
+    Q1 -->|"No - most teams"| Q2{"Is answering questions<br>in Copilot enough?"}
+    Q2 -->|Yes| AB["Agent Builder<br>No code"]
+    Q2 -->|No| CS["Copilot Studio<br>Low code, Recommended"]
 ```
 
 Most teams that need more than Agent Builder should stop at Copilot Studio. The common failure is not picking a weak tool, it is reaching for a powerful one before anyone has proven the agent gets used.
@@ -74,7 +74,7 @@ Because it is a finished product rather than a toolkit. [Knowledge](https://lear
 
 For signed-in users, SharePoint and Dataverse answers are trimmed to what each person's Entra ID account can already open. Two exceptions: [files uploaded straight into the agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-unstructured-data) can answer anyone who can use it, and a Copilot connector set to ["Visible to everyone"](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/manage-access-permissions) shares its content with the whole organisation.
 
-Capabilities decide this, not audience size. Choose it when the agent needs actions, workflows, a channel outside Microsoft 365, or real dev, test, and production environments.
+Capabilities decide this, not audience size. Choose it when the agent needs actions, workflows, Teams chats or a website, or real dev, test, and production environments.
 
 SSW's own SophieBot is an example. The first version was custom C# on Bot Framework and LUIS. SSW rebuilt it in Copilot Studio, and it now answers staff questions in Teams from the SSW website, SSW Rules, SharePoint, and CRM, and calls Azure Functions for live data like who is in the office.
 
