@@ -51,7 +51,6 @@ flowchart TD
     Q0 -->|Yes| RM["Ready-made<br>Build nothing"]
     Q0 -->|No| Q1{"Does anything force<br>you to write code?"}
     Q1 -->|"Add skills or tools to<br>Microsoft Copilot itself"| TK["Work IQ Dev Tools<br>Pro code"]
-    Q1 -->|"It lives inside an app you built"| SDK["Agents SDK<br>+ Copilot Studio or Foundry"]
     Q1 -->|"Your own model, hosting,<br>or Azure networking"| FD["Microsoft Foundry<br>Pro code"]
     Q1 -->|"No - most teams"| Q2{"Is answering questions<br>in Copilot enough?"}
     Q2 -->|Yes| AB["Agent Builder<br>No code"]
