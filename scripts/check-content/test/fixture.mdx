@@ -1,0 +1,74 @@
+---
+type: rule
+title: Scrum - do you have a war room? (summary)
+uri: fixture
+---
+
+A war room helps the team stay focused.
+
+<endIntro />
+
+## Should warn
+
+#### Skipped heading level
+
+# Second H1
+
+## Should warn - content
+
+* Keep the board visible to the whole team.
+1. Review the board every morning.
+* Old docs: https://www.ssw.com.au/rules/ and https://www.ssw.com.au/rules/task-board.
+* The room fits 12000 people and costs $250000 a year
+* Call 0299533000 or +61299533000
+* For more tips [here](/task-board) or click this button
+* Send an e-mail or an EMail to the team
+* You can not book the web site room without a user name
+* Pin it to the task bar, Ok? Or okay? AKA the board, a.k.a. the wall
+
+**Figure: The war room in action.**
+
+<imageEmbed
+  alt="War room"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="A tidy war room."
+  src="/uploads/rules/do-you-have-a-war-room-summary/war-room-good-example.jpg"
+/>
+
+## Should NOT warn
+
+### A correctly nested heading
+
+* Built in 2024, call +61 2 9953 3000, costs $2,721.65
+* Use `https://www.ssw.com.au/rules/` in inline code
+* The rule says use "email" not *e-mail*, and 'web site' is wrong
+* It's fine to link to [the task board](/task-board)
+* Clean item with no full stop
+
+```bash
+curl https://www.ssw.com.au/rules/ # 12000 requests. click here
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    # Not a real heading
+    * Bad example with a full stop.
+    * Send an e-mail, [click here](https://www.ssw.com.au/rules/) for 99999 tips
+  </>}
+  figurePrefix="bad"
+  figure="Too much punctuation"
+/>
+
+<emailEmbed
+  from=""
+  to="SSWAll"
+  subject="Example"
+  body={<>
+    Send an e-mail to 0299533000. Click here.
+  </>}
+  figurePrefix="good"
+  figure="Example email"
+/>
