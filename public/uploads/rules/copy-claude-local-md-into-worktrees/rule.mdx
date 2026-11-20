@@ -45,7 +45,7 @@ You get one file and one source of truth. Edit it in the main checkout and every
 Worktrees created by other tools usually live outside the main checkout, so there is no parent folder to inherit from. Only a `CLAUDE.local.md` inside the worktree itself loads:
 
 * **Git** - `git worktree add ../my-app-feature` creates a sibling folder with no `CLAUDE.local.md`. You have to copy it in by hand, every time
-* **[Agentic development environments (ADEs)](/agentic-development-environment)** - Tools such as [Orca](https://www.onorca.dev/) read a `.worktreeinclude` file at the repository root. It uses `.gitignore` syntax, and the tool copies the files it lists into each new worktree
+* **[Agentic development environments (ADEs)](/agentic-development-environment)** - Tools such as [Orca](https://orca.dev/) read a `.worktreeinclude` file at the repository root. It uses `.gitignore` syntax, and the tool copies the files it lists into each new worktree
 
 To check any tool, create a worktree with it, start Claude Code in the new folder and run `/memory`. If `CLAUDE.local.md` isn't listed, the session can't see your personal instructions.
 
