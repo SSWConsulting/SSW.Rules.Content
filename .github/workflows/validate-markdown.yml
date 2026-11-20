@@ -40,57 +40,91 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
+
       - name: Auto-fix Markdown files
+        id: autofix
+        if: ${{ env.MARKDOWN_FILES != '' }}
         run: |
           markdownlint --fix $MARKDOWN_FILES --config .markdownlint/config.json || true
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Auto-fix Markdown files" || true # Commit only if there are changes
-          git push || true # Push only if there was a commit
+          if git commit -m "Auto-fix Markdown files"; then # Commit only if there are changes
+            git push && echo "fixed=true" >> "$GITHUB_OUTPUT" || true
+          fi
           echo "Auto-fix applied"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      # TODO: Make this work on forked branches  
+
+      # TODO: Make this work on forked branches
       - name: Lint Markdown files
-        if: github.event.pull_request.head.repo.fork == false
+        id: lint
+        if: ${{ env.MARKDOWN_FILES != '' && github.event.pull_request.head.repo.fork == false }}
+        continue-on-error: true
         run: |
-          markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > lint-results.txt 2>&1 || true
-          if [[ -s lint-results.txt ]]; then
+          results="$RUNNER_TEMP/lint-results.txt"
+          markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > "$results" 2>&1 || true
+          if [[ -s "$results" ]]; then
             echo "Linting errors found"
-            cat lint-results.txt
-            echo "LINT_RESULT=$(cat lint-results.txt)" >> $GITHUB_ENV
+            cat "$results"
             exit 1
           fi
 
-      - name: Comment on PR with linting errors
-        if: failure() && github.event.pull_request.head.repo.fork == false
-        run: |
-          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
-          PR_NUMBER="${{ github.event.pull_request.number }}"
-          REPO_FULL_NAME="${{ github.repository }}"
-          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nWe found some markdown suggestions for your Pull Request:\n\n"
-          PR_COMMENT+="| File | Error | Rule |\n"
-          PR_COMMENT+="| ---- | ----- | ---- |\n"
-          while IFS= read -r line; do
-            FILE_PATH=$(echo "$line" | awk -F: '{print $1}')
-            LINE_NUM=$(echo "$line" | awk -F: '{print $2}')
-            ERROR_DESC=$(echo "$line" | cut -d' ' -f 4- | sed 's/\[.*\]//') # Remove the markdown link from the description
-            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
-            FILE_NAME=$(basename "$FILE_PATH")
-            FILE_ANCHOR=$(echo "$FILE_NAME" | sed 's/\./-/g')
-            PR_COMMENT+="| [$FILE_PATH](https://github.com/$REPO_FULL_NAME/pull/$PR_NUMBER/files#$FILE_ANCHOR) | Line $LINE_NUM: $ERROR_DESC | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID) |\n"
-          done < lint-results.txt
-          PR_COMMENT+="\nPlease review and update your Markdown files accordingly.\n"
-          echo -e "$PR_COMMENT" > pr_comment.md
+      # Updates one comment in place, and changes it to ✅ once fixed
+      - name: Comment on PR
+        if: ${{ github.event_name == 'pull_request' && (steps.lint.outcome == 'success' || steps.lint.outcome == 'failure') }}
+        uses: actions/github-script@v9
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload PR Comment
-        if: failure() && github.event.pull_request.head.repo.fork == false
-        uses: mshick/add-pr-comment@v3
+          CHECK_OUTCOME: ${{ steps.lint.outcome }}
+          AUTO_FIXED: ${{ steps.autofix.outputs.fixed }}
+          LINT_RESULTS_PATH: ${{ runner.temp }}/lint-results.txt
         with:
-          message-path: pr_comment.md
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          allow-repeats: true
+          script: |
+            const fs = require('fs');
+
+            const marker = '<!-- markdown-check -->';
+            const title = '### 📝 Markdown check';
+            const rulesUrl = 'https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md';
+            const results = fs.existsSync(process.env.LINT_RESULTS_PATH) ? fs.readFileSync(process.env.LINT_RESULTS_PATH, 'utf8').trim() : '';
+
+            // Group "file:line[:col] MD009/no-trailing-spaces Description [details]" lines by file
+            const byFile = new Map();
+            for (const line of results.split('\n').filter(Boolean)) {
+              const m = line.match(/^(.+?):(\d+)(?::\d+)?\s+(MD\d+)\/\S+\s+(.*)$/);
+              const [file, text] = m
+                ? [m[1], `- Line ${m[2]}: ${m[4].replace(/\s*\[Context:.*\]$/, '')} ([${m[3]}](${rulesUrl}#${m[3].toLowerCase()}))`]
+                : ['Other', `- ${line}`];
+              if (!byFile.has(file)) byFile.set(file, []);
+              byFile.get(file).push(text);
+            }
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
+
+            const hasIssues = process.env.CHECK_OUTCOME === 'failure' && byFile.size > 0;
+            const autoFixed = process.env.AUTO_FIXED === 'true';
+            if (!hasIssues && !existing && !autoFixed) return;
+
+            // Some TinaCMS PRs are opened by a bot: mention the assigned editor, or no one
+            const pr = context.payload.pull_request;
+            const login = pr.user.type === 'Bot' ? pr.assignees?.[0]?.login : pr.user.login;
+            const parts = [marker, title, '', `👋 Hi${login ? ` @${login}` : ''},`, ''];
+
+            if (autoFixed) parts.push('🔧 Some Markdown issues were auto-fixed and committed to this branch. Pull the latest changes before you push again.', '');
+            if (hasIssues) {
+              parts.push('⚠️ These issues need a manual fix:', '');
+              for (const [file, lines] of byFile) parts.push(`**\`${file}\`**`, '', ...lines, '');
+              parts.push('_This check blocks the PR until the issues are fixed._', '');
+            } else {
+              parts.push('✅ No Markdown issues.', '');
+            }
+
+            const body = parts.join('\n');
+            if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number, body });
+
+      - name: Fail job if Markdown check failed
+        if: ${{ steps.lint.outcome == 'failure' }}
+        run: exit 1
