@@ -35,10 +35,51 @@ jobs:
         with:
           script: |
             const fs = require('fs');
+            const run = context.payload.workflow_run;
 
-            const prNumber = parseInt(fs.readFileSync('/tmp/category-sync-artifact/pr-number.txt', 'utf8').trim());
-            const files = fs.readFileSync('/tmp/category-sync-artifact/files.txt', 'utf8').trim().split('\n').filter(Boolean);
-            const fileList = files.map(f => `- \`${f}\``).join('\n');
+            // The fork PR made this artifact, and a fork PR can change the workflow that writes it.
+            // So trust nothing in it: the PR number must point to the PR that ran the check,
+            // and only category file paths go into the comment.
+            const rawNumber = fs.readFileSync('/tmp/category-sync-artifact/pr-number.txt', 'utf8').trim();
+            if (!/^[1-9][0-9]{0,6}$/.test(rawNumber)) {
+              core.setFailed(`The artifact PR number is not valid: ${JSON.stringify(rawNumber.slice(0, 20))}`);
+              return;
+            }
+            const prNumber = Number(rawNumber);
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+            // 2 PRs can share a head repo and SHA, so also match the branch and the base.
+            if (!pr.head.repo || pr.head.repo.full_name !== run.head_repository?.full_name ||
+                pr.head.ref !== run.head_branch || pr.base.ref !== 'main') {
+              core.setFailed(`PR #${prNumber} is not the PR that ran the check (head ${run.head_sha}). No comment posted.`);
+              return;
+            }
+            if (pr.head.sha !== run.head_sha) {
+              // A newer push has its own check run, and that run comments if the sync is still needed.
+              core.warning(`PR #${prNumber} has a newer commit than ${run.head_sha}. No comment posted for the old commit.`);
+              return;
+            }
+
+            const MAX_FILES = 50;
+            const lines = fs.readFileSync('/tmp/category-sync-artifact/files.txt', 'utf8')
+              .split('\n')
+              .map(f => f.trim())
+              .filter(Boolean);
+            const valid = lines.filter(f => /^categories\/[A-Za-z0-9._\/-]+\.mdx?$/.test(f) && !f.includes('..') && !f.includes('//'));
+            if (valid.length < lines.length) {
+              core.warning(`Ignored ${lines.length - valid.length} artifact line(s) that are not category file paths.`);
+            }
+            if (valid.length === 0) {
+              core.setFailed('The artifact lists no valid category files. No comment posted.');
+              return;
+            }
+            const files = valid.slice(0, MAX_FILES);
+            const more = valid.length - files.length;
+            const fileList = files.map(f => `- \`${f}\``).join('\n') + (more > 0 ? `\n- ...and ${more} more` : '');
 
             try {
               await github.rest.issues.createComment({
@@ -50,5 +91,5 @@ jobs:
             } catch (err) {
               core.error(`Failed to post PR comment: ${err.message}`);
               core.error(`Category index out of sync. The following file(s) need updating:\n${fileList}`);
-              core.setFailed('Category index sync required — see log above for which files to update.');
+              core.setFailed('Category index sync required - see log above for which files to update.');
             }
