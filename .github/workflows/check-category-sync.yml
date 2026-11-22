@@ -39,7 +39,8 @@ jobs:
         run: |
           cd scripts/category-sync-validator
           npm install --silent
-          node category-sync-validator.js '${{ env.changed }}'
+          # Read the list from the environment, so a file name cannot break out of the shell quotes.
+          node category-sync-validator.js "$changed"
 
       # Step 5: Commit and push any auto-fixed category index changes
       - name: Commit and push auto-fixed category index changes
@@ -82,6 +83,6 @@ jobs:
         if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
         run: |
           if [ -f /tmp/category-sync-artifact/files.txt ]; then
-            echo "Category sync required. See the PR comment posted by the companion workflow."
+            echo "Category sync required. See the PR comment, or the 'Comment on Fork PR - Category Sync' run log if no comment appears."
             exit 1
           fi
