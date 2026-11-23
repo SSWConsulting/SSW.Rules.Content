@@ -22,7 +22,11 @@ type: rule
 uri: avoid-bold-in-headings
 ---
 
-You should avoid any extra style tags in your heading text, because it is unnecessary and generates inconsistency.
+Headings are already bold, so bold tags like `<b>` or `<strong>` inside them add nothing. Worse, when some headings have them and others don't, the headings on a page stop looking the same. The same goes for `**` in Markdown headings.
+
+Keep headings as plain text, and do any styling in CSS.
+
+<endIntro />
 
 <boxEmbed
   style="greybox"
@@ -53,5 +57,3 @@ h1 {
   font-weight: bold;
 }
 ```
-
-<endIntro />
