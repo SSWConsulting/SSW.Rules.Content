@@ -1,14 +1,16 @@
 ---
 type: rule
 title: Do you stop pwn requests from running with your GitHub secrets?
-seoDescription: Stop pwn requests in GitHub Actions. Refuse pull requests from forks, check the commenter's permission and build the approved commit before a comment command runs with your secrets.
+seoDescription: Stop pwn requests in GitHub Actions. Refuse fork PRs, check the commenter's permission and build the approved commit before a comment command uses secrets.
 guid: b79c9fbb-daf1-4afe-98de-e8e29b009fa4
 uri: stop-pwn-requests-github-secrets
 created: 2026-11-23T04:46:32.802Z
 authors:
   - title: Harley Jackson
     url: https://github.com/harley-j
-related: []
+related:
+  - mask-secrets-in-github-actions
+  - deploy-to-azure-from-github-actions-with-oidc
 categories:
   - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
 archivedreason: null
@@ -42,7 +44,7 @@ jobs:
     if: github.event.issue.pull_request && startsWith(github.event.comment.body, '/deploy')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: refs/pull/${{ github.event.issue.number }}/merge
       - run: npm ci && npm run build
@@ -81,11 +83,11 @@ jobs:
           PR: ${{ github.event.issue.number }}
           ACTOR: ${{ github.event.comment.user.login }}
         run: |
+          read -r head_repo head_sha < <(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR" --jq '"\(.head.repo.full_name) \(.head.sha)"')
+          [[ "$head_repo" == "$GITHUB_REPOSITORY" ]] || { echo "Refusing a PR from a fork"; exit 1; }
           role=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$ACTOR/permission" --jq .permission)
           [[ "$role" == "admin" || "$role" == "write" ]] || { echo "Commenter needs write access"; exit 1; }
-          head_repo=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR" --jq .head.repo.full_name)
-          [[ "$head_repo" == "$GITHUB_REPOSITORY" ]] || { echo "Refusing a PR from a fork"; exit 1; }
-          echo "head_sha=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR" --jq .head.sha)" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$head_sha" >> "$GITHUB_OUTPUT"
 
   build:
     needs: gate
@@ -93,12 +95,12 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.gate.outputs.head_sha }}
           persist-credentials: false
       - run: npm ci && npm run build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: site
           path: dist
@@ -109,7 +111,7 @@ jobs:
     permissions: {}
     environment: preview
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: site
       - uses: your-org/deploy-action@v1
@@ -121,6 +123,8 @@ jobs:
 **✅ Figure: Good example - The gate refuses forks and outsiders, the build has no secrets, and only the deploy job sees the token**
 
 Treat the artifact as data. The deploy job uploads it, but never runs a script that came out of it.
+
+Pin third-party actions like `your-org/deploy-action` to a full commit SHA. A tag can be moved to new code, and that code would run next to your token.
 
 ## What if you need to run code from a fork?
 
