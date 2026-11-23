@@ -1,0 +1,59 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+created: 2014-12-22 12:40:23+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: f51bec68-b02b-4fe3-b3f4-c95088b02007
+isArchived: false
+lastUpdated: 2021-09-23 21:40:48.083000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+  - do-you-know-not-to-use-bold-tags-inside-headings
+seoDescription: Avoid using bold tags inside headings to maintain consistency and
+  improve readability.
+title: Do you avoid using bold tags inside headings?
+categories:
+  - category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+type: rule
+uri: avoid-bold-in-headings
+---
+
+Bold tags like `<b>` or `<strong>` inside a heading mix styling into your content. When some headings have them and others don't, the headings on a page stop looking the same. The same goes for `**` in Markdown headings.
+
+Keep headings as plain text, and style them in CSS.
+
+<endIntro />
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```html
+    &lt;h1&gt;&lt;b&gt;My Bold Heading With Style Tags&lt;/b&gt;&lt;/h1&gt;
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Bold tags being used within header tags"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```html
+    &lt;h1&gt;My Bold Heading Without Style Tags&lt;/h1&gt;
+    ```
+  </>}
+  figurePrefix="good"
+  figure="No style tags in the heading - all styling is done through CSS"
+/>
+
+If you need bold headings, make them bold in your CSS:
+
+```css
+h1 {
+  font-weight: bold;
+}
+```
