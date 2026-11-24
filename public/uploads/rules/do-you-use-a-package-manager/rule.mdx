@@ -5,6 +5,8 @@ authors:
   url: https://www.ssw.com.au/people/stanley-sidik
 - title: Daniel Mackay
   url: https://github.com/danielmackay
+- title: Chloe Lin
+  url: https://www.ssw.com.au/people/chloe-lin
 created: 2016-06-17 06:29:19+00:00
 createdBy: Stanley Sidik
 createdByEmail: StanleySidik@ssw.com.au
@@ -14,8 +16,8 @@ lastUpdated: 2018-09-10 00:22:40+00:00
 lastUpdatedBy: Shane Ye
 lastUpdatedByEmail: ShaneYe@ssw.com.au
 redirects: []
-seoDescription: Use a package manager like Chocolatey, Winget, or Homebrew to streamline
-  software installation and management on Windows, macOS, and Linux.
+seoDescription: Use a package manager like winget on Windows or Homebrew on macOS to
+  install, update, and remove software consistently and securely.
 title: Do you use a package manager?
 categories:
   - category: categories/infrastructure-and-networking/rules-to-better-pcs.mdx
@@ -27,84 +29,55 @@ A package manager is a collection of software tools that automate the process of
 
 <endIntro />
 
-## Option 1: Chocolatey (Recommended)
+## Windows: winget (Recommended)
 
-Chocolatey is a great package manager. It is an easy-to-use way to manage software on Windows.
+[winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) is Microsoft's own package manager. It ships with Windows 11 and current versions of Windows 10 as part of App Installer, so there is nothing extra to install and it runs inside the operating system's trust model.
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="installing Git with Chocolatey"
-  src="/uploads/rules/do-you-use-a-package-manager/chocolatey.png"
-/>
-
-
-To get started, open PowerShell and [follow the instructions on the Chocolatey website](https://chocolatey.org/install#individual).
-
-
-<boxEmbed
-  style="info"
-  body={<>
-    
-It is better to run Chocolatey in PowerShell - it may work in Command Prompt, but you're likely to have permission issues.
-
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Chocolatey installation page"
-  src="/uploads/rules/do-you-use-a-package-manager/choco-install.jpg"
-/>
-
-
-## Option 2: Winget
-
-[Winget](https://learn.microsoft.com/en-us/windows/package-manager/?WT.mc_id=WDIT-MVP-33518) is Microsoft's own package manager that developers can use to discover, install, upgrade, remove and configure a curated set of applications.
-
-Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab?WT.mc_id=WDIT-MVP-33518)
-
-Once installed you can search for a tool with:
+Search for a tool with:
 
 ```bash
-winget search &#123;&#123; APP NAME &#125;&#125;
+winget search powertoys
 ```
 
-And then install the tool with:
+And then install it with:
 
 ```bash
-winget install &#123;&#123; APP NAME &#125;&#125;
+winget install Microsoft.PowerToys
 ```
 
-For example:
-
-
 <imageEmbed
-  alt="Image"
+  alt="Terminal showing PowerToys being installed with winget"
   size="large"
   showBorder={false}
-  figurePrefix="none"
-  figure="Installing powertoys via winget"
+  figurePrefix="good"
+  figure="Installing PowerToys with winget"
   src="https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518"
 />
 
+winget also suits managed environments. Administrators can use Group Policy and Intune to control whether winget is enabled and which sources users can install from.
 
-For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/?WT.mc_id=WDIT-MVP-33518).
+For more information, see [Use WinGet to install and manage applications](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
 
-## Option 3: Homebrew
+### Chocolatey (Not recommended)
+
+Chocolatey was the best Windows option before winget existed, but installing it now means working against Windows security. The official install opens an elevated PowerShell session, bypasses the execution policy, and runs a script downloaded from the internet:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Installing Chocolatey bypasses the execution policy and runs a remote script"
+/>
+
+Once installed, nothing in Windows itself limits what users install through it, so administrators lose the control that Group Policy and Intune give them over winget.
+
+## macOS: Homebrew
 
 [Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: [https://brew.sh/](https://brew.sh/)
-
 
 <imageEmbed
   alt="Image"
