@@ -81,7 +81,7 @@ public static class TodoEndpoints
         group.MapGet("/{id:int}", GetTodo);
     }
 
-    private static async Task<Results<Ok<TodoResponse>, NotFound>> GetTodo(
+    public static async Task<Results<Ok<TodoResponse>, NotFound>> GetTodo(
         int id,
         AppDbContext db,
         CancellationToken ct)
@@ -116,6 +116,7 @@ public class GetTodoEndpoint(AppDbContext db) : Endpoint<GetTodoRequest, TodoRes
     public override void Configure()
     {
         Get("/api/todos/{Id}");
+        // Endpoints are secure by default - call AllowAnonymous() for public endpoints
     }
 
     public override async Task HandleAsync(GetTodoRequest req, CancellationToken ct)
@@ -142,7 +143,7 @@ The class-per-endpoint shape pushes teams towards [unique DTOs per endpoint](/un
 * **Minimal APIs** - The default. They are first-party, have no extra dependency, and are where Microsoft adds new features first
 * **FastEndpoints** - When you want the REPR structure enforced across a larger team, or you would otherwise rebuild its features yourself. The trade-off is a third-party dependency and its own conventions to learn
 
-Either way, keep each endpoint thin. It should bind the request, call the business logic (e.g. a [mediator handler](/use-the-mediator-pattern-with-cqrs)), and map the result.
+Either way, keep each endpoint thin. It should bind the request, call the business logic (e.g. a [mediator handler](/use-the-mediator-pattern-with-cqrs)), and map the [result](/do-you-use-the-result-pattern) to an HTTP response.
 
 ## When are controllers still the right choice?
 
