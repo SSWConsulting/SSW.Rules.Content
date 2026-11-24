@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you stop pwn requests from running with your GitHub secrets?
-seoDescription: Stop pwn requests in GitHub Actions. Refuse fork PRs, check the commenter's permission and build the approved commit before a comment command uses secrets.
+seoDescription: Stop pwn requests in GitHub Actions. Refuse fork PRs, check the commenter's permission and pin the commit to build before a comment command uses secrets.
 guid: b79c9fbb-daf1-4afe-98de-e8e29b009fa4
 uri: stop-pwn-requests-github-secrets
 created: 2026-11-23T04:46:32.802Z
@@ -19,7 +19,7 @@ isArchived: false
 
 A stranger forks your repo, adds one line to a build script that posts your environment to their server, and opens a pull request. A maintainer types `/deploy` to get a preview. Your workflow checks out the PR, runs the build next to your deploy token, and the token is gone. This is a "pwn request", and it works because a workflow triggered by `issue_comment` runs in your repo with your secrets, even when the comment is on a PR from a fork.
 
-The fix is a gate that runs before any job with secrets. It refuses PRs from forks, checks that the commenter can write to the repo, and hands the build the exact commit that was approved.
+The fix is a gate that runs before any job with secrets. It refuses PRs from forks, checks that the commenter can write to the repo, and pins the commit it checked, so every later job builds that same commit.
 
 <endIntro />
 
@@ -63,7 +63,7 @@ Put these checks in a gate job that every other job `needs`. If any check fails,
 
 1. **Refuse PRs from forks** - Read the PR and compare its head repo with your repo. A different repo, or a deleted fork, stops the run
 2. **Check the commenter's permission** - Ask the API for the commenter's role and require `write` or above. On a public repo, anyone can comment
-3. **Build the head SHA** - Pass the PR's head commit SHA from the gate to the build, not the moving `refs/pull/N/merge`
+3. **Pin the head SHA** - Read the PR's head commit SHA once in the gate and pass it to the build, not the moving `refs/pull/N/merge`. A push after the gate runs can't change what gets built. Someone with write access can still push between the comment and the gate, so if that matters, make the command include the SHA (e.g. `/deploy 1a2b3c4`) and refuse a mismatch
 4. **Grant the least privilege** - Set `permissions:` on each job, and give each job only the secrets it uses
 5. **Keep the build away from secrets** - Build in a job with no secrets and a read-only token, then deploy the output from a separate job
 
