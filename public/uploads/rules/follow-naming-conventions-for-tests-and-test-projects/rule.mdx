@@ -79,6 +79,15 @@ Remember that descriptive names are useful – but the choice of name is not the
 * Remember that the F12 shortcut will navigate from the body of your test straight to the method you’re calling
 * The point of a naming convention is to make code more readable, not less - so use your judgement and call in others to verify your readability
 
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Fluent Assertions v8 and later need a paid licence for commercial use. See [Do you know the most popular unit and integration testing frameworks for .NET](/testing-tools) for the details and free alternatives.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 <imageEmbed
   alt="Test Explorer listing tests whose names don't describe what they test"
   size="large"
@@ -87,18 +96,6 @@ Remember that descriptive names are useful – but the choice of name is not the
   figure="From the Test Explorer view you cannot tell what a test is meant to test just from its name"
   src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/bad-naming.png"
 />
-
-<boxEmbed
-  style="warning"
-  body={<>
-    **Warning:** Fluent Assertions v8 and later need a paid licence for commercial use. They stay free for open-source and non-commercial projects. See the [licensing statement on fluentassertions.com](https://fluentassertions.com/).
-
-    v7 stays free under Apache 2.0 and still gets bug fixes, so keep the package below v8 (e.g. `[7.0.0,8.0.0)`) if you can't pay. Free alternatives are [Shouldly](https://github.com/shouldly/shouldly) and [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions), a community fork of Fluent Assertions licensed under Apache 2.0.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
 
 ## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult] (Recommended)
 
