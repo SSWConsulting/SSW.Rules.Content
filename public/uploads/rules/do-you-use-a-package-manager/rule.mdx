@@ -4,7 +4,7 @@ authors:
 - title: Stanley Sidik
   url: https://www.ssw.com.au/people/stanley-sidik
 - title: Daniel Mackay
-  url: https://github.com/danielmackay
+  url: https://www.ssw.com.au/people/daniel-mackay
 created: 2016-06-17 06:29:19+00:00
 createdBy: Stanley Sidik
 createdByEmail: StanleySidik@ssw.com.au
@@ -29,27 +29,29 @@ A package manager is a collection of software tools that automate the process of
 
 ## Windows: winget (Recommended)
 
-[winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) is Microsoft's own package manager. It ships with Windows 11 and current versions of Windows 10 as part of App Installer, so there is nothing extra to install and it runs inside the operating system's trust model.
+[winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) is Microsoft's own package manager. It ships with Windows 11 and current client versions of Windows 10 as part of App Installer, so there is nothing extra to install and it runs inside the operating system's trust model.
+
+On editions without App Installer, such as Windows Server or Windows 10 LTSC, install it from the [App Installer page in the Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) or follow [Install WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/#install-winget).
 
 Search for a tool with:
 
 ```bash
-winget search powertoys
+winget search azurecli
 ```
 
 And then install it with:
 
 ```bash
-winget install Microsoft.PowerToys
+winget install Microsoft.AzureCLI
 ```
 
 <imageEmbed
-  alt="Terminal showing PowerToys being installed with winget"
+  alt="Terminal showing winget searching for and installing the Azure CLI"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Installing PowerToys with winget"
-  src="https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518"
+  figure="Searching for and installing the Azure CLI with winget"
+  src="/uploads/rules/do-you-use-a-package-manager/winget-install-azure-cli.png"
 />
 
 winget also suits managed environments. Administrators can use Group Policy and Intune to control whether winget is enabled and which sources users can install from.
@@ -71,14 +73,14 @@ Chocolatey was the best Windows option before winget existed, but installing it 
   figure="Installing Chocolatey bypasses the execution policy and runs a remote script"
 />
 
-Once installed, nothing in Windows itself limits what users install through it, so administrators lose the control that Group Policy and Intune give them over winget.
+Windows also has no built-in policy for Chocolatey's sources or packages, so administrators lose the per-source control that Group Policy and Intune give them over winget.
 
 ## macOS: Homebrew
 
 [Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: [https://brew.sh/](https://brew.sh/)
 
 <imageEmbed
-  alt="Image"
+  alt="Terminal showing Homebrew installed on macOS"
   size="large"
   showBorder={false}
   figurePrefix="none"
