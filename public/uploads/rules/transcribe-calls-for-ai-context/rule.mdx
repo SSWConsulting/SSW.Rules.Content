@@ -1,0 +1,137 @@
+---
+type: rule
+title: Do you transcribe your calls and give the transcripts to your AI agent?
+uri: transcribe-calls-for-ai-context
+categories:
+  - category: categories/communication/rules-to-better-meetings.mdx
+  - category: categories/artificial-intelligence/rules-to-better-agentic-engineering.mdx
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Penny Walker
+    url: https://www.ssw.com.au/people/penny-walker
+related:
+  - rule: public/uploads/rules/consent-to-record/rule.mdx
+  - rule: public/uploads/rules/record-teams-meetings/rule.mdx
+  - rule: public/uploads/rules/use-ai-for-meeting-notes/rule.mdx
+  - rule: public/uploads/rules/keep-the-why-from-ai-assisted-development/rule.mdx
+  - rule: public/uploads/rules/store-sensitive-information-securely/rule.mdx
+guid: af723550-eaa2-44fd-a41e-fea63caafc6a
+seoDescription: Run an AI note-taker on every call, keep the full transcript on your machine and point your AI agent at it. Compares the free tiers of Yogurt, Granola, Otter, Fathom, tl;dv, Fireflies, Spinach, Plaud and Microsoft Teams.
+created: 2026-11-24T22:46:51.000Z
+archivedreason: null
+---
+
+On the first call with a new client, they explain how their systems fit together, who owns what, and what has gone wrong before. It is far more than anyone can write down. A week later half of it is gone, and the AI agent helping with the project never heard any of it.
+
+Run an AI note-taker on every call, keep the full transcript, and point your AI agent at it. Everything the client has said becomes context your agent can use.
+
+<endIntro />
+
+## Keep the transcript, not just the summary
+
+A summary is someone else's guess at what mattered. The detail you need 3 weeks later, like a field name, a deadline or a throwaway "we tried that in 2022", is usually the detail the summary dropped.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Summary:** The client described their current architecture and integration points. Action: the team to review.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - A summary loses the detail, so nobody can answer 'which system sends the orders?' later"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The client is still explaining their system on the call. A developer gives the transcript so far to their AI agent and asks for an architecture diagram, then shares it with the team in the back channel. Everyone is on the same page before the call ends.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The full transcript gives the agent enough to draw the client's system while the call is still running"
+/>
+
+## Ask for consent every time
+
+Tell everyone on the call that you are transcribing it and why, and wait for a yes. See [Do you ask for consent to record a Teams meeting?](/consent-to-record)
+
+* **Bot-less note-takers give no warning** - Tools that listen to your laptop's audio don't join the call, so nobody sees a "recording started" banner. Telling people is your job
+* **Already recorded** - If someone has started the Teams recording or transcription, everyone already knows the call is being captured. Mention your note-taker anyway
+* **In person** - Ask before you start a recorder or open your laptop
+* **If anyone says no** - Turn it off and [take notes by hand](/take-effective-notes)
+
+## Run your own note-taker even when the meeting is recorded
+
+A Teams recording does not mean you can get the transcript:
+
+* **Only organizers can download it** - By default, [only the meeting organizer and co-organizers can download the transcript](https://support.microsoft.com/en-us/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b). On a call the client organized, that is the client
+* **It comes as `.docx` or `.vtt`** - Both need converting before an agent can read them easily
+* **You have to wait** - You can't hand it to your agent while the call is still running
+
+## Choose a note-taker
+
+The approach matters more than the tool. Pick one that hands you the full transcript as text, on the free tier, without sending a bot into the client's meeting.
+
+Free tiers as of November 2026. They change often, so check the linked page before you commit.
+
+| Tool | Free tier | How it captures | Full transcript out (free tier) | Watch out for |
+| --- | --- | --- | --- | --- |
+| [Yogurt](https://yogurt.so) ✅ | Unlimited. Open source, no account | Laptop audio, no bot. Runs fully on your machine | Copy, save as Markdown, local MCP server | Needs 8 GB RAM. No Intel Macs, no mobile app. Accuracy depends on your laptop and is weaker outside English |
+| [Granola](https://www.granola.ai/pricing) | No meeting cap stated. 30 days of history | Laptop audio, no bot | Copy from the app. [Transcripts over MCP need a paid plan](https://docs.granola.ai/help-center/sharing/integrations/mcp) | Trains on your anonymized data unless you opt out |
+| [Otter](https://otter.ai/pricing) | 300 minutes a month, 30 minutes per conversation, last 25 conversations | Cloud | `.txt` export, MCP server | [Trains on de-identified data](https://otter.ai/privacy-security). The 30 minute cap cuts most client calls short |
+| [Fathom](https://fathom.ai/pricing) | Unlimited recordings and transcripts | Bot. Bot-free capture is in beta | MCP needs a paid plan | A bot joins the client's meeting |
+| [tl;dv](https://intercom.help/tldv/en/articles/8919450-what-are-the-limits-of-the-free-plan) | Unlimited transcripts. Recordings kept 3 months. AI notes on the first 10 meetings only | Cloud | Not documented | 3 hour cap per meeting |
+| [Fireflies](https://fireflies.ai/blog/fireflies-pricing-which-plan-is-right-for-you/) | Unlimited transcription. 400 minutes of storage per team | Cloud | ❌ No export on the free plan | You can read the transcript but not take it with you |
+| [Spinach](https://www.spinach.ai/pricing) | No cap stated. 7 day retention | Cloud. Also records in-person meetings | Not documented | Transcripts disappear after a week |
+| [Plaud](https://www.plaud.ai/pages/plaud-ai-plan-pricing) | 300 minutes a month. You must buy the device | Hardware recorder | Copy, export, MCP (preview) | Best for in-person conversations, not a company-wide default |
+| [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/meeting-transcription-captions) | Included. Transcripts are stored in OneDrive or SharePoint | Built in | `.docx` or `.vtt`, organizers only | No use on calls a client organizes. AI recap needs a [Copilot license](https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription) |
+
+### Recommended - Yogurt
+
+[Yogurt](https://yogurt.so) has the best free tier for this job:
+
+* **No limits** - No minute caps, no history window, no paid tier to be pushed towards
+* **The full transcript, 3 ways** - Copy it, save it as Markdown, or let your agent read it through the local MCP server
+* **Nothing leaves your laptop** - Transcription and summaries run on local models, so client conversations are never sent to a vendor or used for training
+* **No bot** - Nothing joins the client's meeting
+
+It has trade-offs. It is a young open-source project with no vendor behind it and no security certification. Its MCP server is off by default, and while it is on, any app running under your account can read your transcripts. Turn it on only when you need it.
+
+If your laptop can't run it, use Granola and opt out of model training. For in-person conversations, use a Plaud recorder or the note-taker on your laptop.
+
+## Keep transcripts on your machine
+
+Calls contain things that should not spread: pricing, people's names, opinions about a vendor, sometimes a password read out loud. Keep transcripts in a local folder per client, outside any repository:
+
+```text
+~/notes/
+  northwind/
+    2026-11-19-spec-review-kickoff.md
+    2026-11-21-integration-walkthrough.md
+  contoso/
+    2026-11-20-sprint-review.md
+```
+
+* **One file per call** - Name it with the date and the topic
+* **Don't commit raw transcripts** - Anything in a repository is shared with everyone who can clone it. If a transcript belongs with the code, like a [Sprint Review](/keep-the-why-from-ai-assisted-development), review it and remove anything confidential first
+* **Follow the client's rules** - If the client restricts where their data can go, that covers transcripts too. See [Do you store sensitive information securely?](/store-sensitive-information-securely)
+
+## Point your AI agent at the folder
+
+Transcripts only help if your agent reads them. Tell it where they are in your [personal instructions file](/claude-local-md), not the shared [AGENTS.md](/write-agents-md), because the folder exists only on your machine:
+
+```markdown
+## Client context
+- Call transcripts for this project: ~/notes/northwind/
+- Search them before asking me what the client said or wants
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Prompt:** Draft the integration options for the order sync.
+
+    The agent searches the transcripts, finds that the client ruled out nightly batch jobs in the kickoff call, and proposes only event-based options.
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent already knows what the client said, so nobody has to repeat it"
+/>
