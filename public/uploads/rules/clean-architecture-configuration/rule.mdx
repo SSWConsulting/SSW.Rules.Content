@@ -23,6 +23,8 @@ isArchived: false
 
 Configuration ends up spread across a Clean Architecture solution in two ways. Infrastructure reads `appsettings.json` or connects to Azure Key Vault itself, so every host that uses it (the API, a worker, an integration test) gets the same hard-coded sources whether it wants them or not. Or `Program.cs` binds every options class in the solution, so the host has to know the section name and settings type for every SMTP client, blob store and payment gateway it never calls directly.
 
+Add configuration sources in the host, and define and bind options in the layer that uses them.
+
 <endIntro />
 
 Configuration has two parts, and they belong in different layers:
@@ -72,7 +74,7 @@ public static class DependencyInjection
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
-// appsettings.json, environment variables and user secrets are added by CreateBuilder
+// appsettings.json, environment variables and (in Development) user secrets are added by CreateBuilder
 if (builder.Environment.IsProduction())
 {
     builder.Configuration.AddAzureKeyVault(
@@ -81,7 +83,7 @@ if (builder.Environment.IsProduction())
 }
 
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.AddInfrastructure();
 ```
 
 **✅ Figure: Good example - The host adds the sources it needs for its environment, and every layer reads from the same IConfiguration**
@@ -97,7 +99,7 @@ builder.Services.Configure<BlobStorageOptions>(builder.Configuration.GetSection(
 builder.Services.Configure<HeroPowerOptions>(builder.Configuration.GetSection("HeroPower"));
 
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.AddInfrastructure();
 ```
 
 **❌ Figure: Bad example - The host binds settings for Application and Infrastructure, so it has to know every section name and options type in the solution**
@@ -116,29 +118,35 @@ public class SmtpOptions
 }
 
 // Infrastructure/DependencyInjection.cs
-public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+public static void AddInfrastructure(this IHostApplicationBuilder builder)
 {
-    services.AddOptions<SmtpOptions>()
+    // Reads configuration but never adds a source. The host decides where
+    // ConnectionStrings:AppDb comes from (user secrets, Key Vault, Aspire)
+    var connectionString = builder.Configuration.GetConnectionString("AppDb")
+        ?? throw new InvalidOperationException("Connection string 'AppDb' is not configured");
+
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(connectionString));
+
+    builder.Services.AddOptions<SmtpOptions>()
         .BindConfiguration(SmtpOptions.SectionName)
         .ValidateDataAnnotations()
         .ValidateOnStart();
 
-    services.AddScoped<IEmailSender, SmtpEmailSender>();
-
-    return services;
+    builder.Services.AddScoped<IEmailSender, SmtpEmailSender>();
 }
 ```
 
-**✅ Figure: Good example - Infrastructure owns SmtpOptions, its section name and its validation, and binds it to whatever sources the host added**
+**✅ Figure: Good example - Infrastructure owns SmtpOptions, its section name and its validation, and reads the connection string it needs for EF Core, all from whatever sources the host added**
 
-`BindConfiguration` resolves `IConfiguration` from the container, so the layer doesn't need `IConfiguration` passed into `AddInfrastructure()`. `ValidateOnStart` makes a missing or invalid value fail at startup instead of on the first email.
+Reading configuration in an inner layer is fine. Adding sources isn't. Some values, like the connection string EF Core needs, are required while services are being registered, so `AddInfrastructure()` takes the `IHostApplicationBuilder` and reads them from `builder.Configuration`. Options that are only used later don't need that: `BindConfiguration` resolves `IConfiguration` from the container. `ValidateOnStart` makes a missing or invalid value fail at startup instead of on the first email.
 
 The same applies to the Application layer. If a handler needs settings, such as a maximum power level for heroes, define `HeroPowerOptions` in Application and bind it in `AddApplication()`. The Domain layer stays free of configuration. Pass values into domain methods instead.
 
 <boxEmbed
   style="info"
   body={<>
-    **Note:** Binding in Application or Infrastructure needs the `Microsoft.Extensions.Options.ConfigurationExtensions` package in that project. That's a dependency on a framework abstraction, not on the host, so the dependency rule still holds.
+    **Note:** Binding in Application or Infrastructure needs the `Microsoft.Extensions.Options.ConfigurationExtensions` package (and `Microsoft.Extensions.Options.DataAnnotations` for `ValidateDataAnnotations()`) in that project. That's a dependency on a framework abstraction, not on the host, so the dependency rule still holds.
   </>}
   figurePrefix="none"
   figure=""
