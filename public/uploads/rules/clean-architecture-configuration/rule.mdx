@@ -1,0 +1,159 @@
+---
+type: rule
+title: Do you put configuration in the right Clean Architecture layer?
+seoDescription: In Clean Architecture, add configuration sources in the host, and define and bind options in the layer that uses them.
+guid: 1b614ef5-4295-4924-bf0e-dad668303e25
+uri: clean-architecture-configuration
+created: 2026-11-24T10:13:43.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/clean-architecture/rule.mdx
+  - rule: public/uploads/rules/keep-business-logic-out-of-the-presentation-layer/rule.mdx
+  - rule: public/uploads/rules/share-your-developer-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+archivedreason: null
+isArchived: false
+---
+
+Configuration ends up spread across a Clean Architecture solution in two ways. Infrastructure reads `appsettings.json` or connects to Azure Key Vault itself, so every host that uses it (the API, a worker, an integration test) gets the same hard-coded sources whether it wants them or not. Or `Program.cs` binds every options class in the solution, so the host has to know the section name and settings type for every SMTP client, blob store and payment gateway it never calls directly.
+
+Add configuration sources in the host, and define and bind options in the layer that uses them.
+
+<endIntro />
+
+Configuration has two parts, and they belong in different layers:
+
+* **Configuration sources** - Where values come from: `appsettings.json`, environment variables, user secrets, Azure Key Vault, Azure App Configuration, Aspire. These belong in the **host** (Presentation)
+* **Configuration models and binding** - The strongly typed options class, its section name, validation, and the call that binds them. These belong in the **layer that uses the configuration**, usually Application or Infrastructure
+
+## Which layer should add configuration sources?
+
+Work through each layer and only one fits:
+
+* **Domain** ❌ - The Domain layer is free from all external dependencies. A configuration source, whether a JSON file, environment variables or Key Vault, is an external dependency
+* **Application** ❌ - The Application layer is free from presentation concerns. The host is part of Presentation, and it's the host that decides which configuration sources are available, so Application can't pick them
+* **Infrastructure** ⚠️ - It looks like a candidate because it already talks to external systems. But the sources depend on how and where the app runs, and that's decided by the host, not by Infrastructure. The same Infrastructure project runs under an API, a worker and integration tests, and each needs different sources
+* **Presentation (host)** ✅ - The host composes the app and knows its environment, so it's the only layer that can choose the sources
+
+## Why split it this way?
+
+* **The host decides the environment** - Only the host knows whether it runs locally with user secrets, in Azure with Key Vault, or in a test with in-memory values. Hard-coding sources in an inner layer takes that choice away
+* **Each layer owns its settings** - The code that needs `SmtpOptions` defines it, names its section, and validates it. Rename a property and the change stays in one project
+* **The host stays thin** - `Program.cs` calls `AddInfrastructure()` and doesn't need to know what Infrastructure is configured with
+* **Easy to test** - A test host can swap in different sources, for example in-memory values, without touching the layer that binds them
+
+## Add configuration sources in the host
+
+Adding a source is a decision about the runtime environment, so it goes where the app is composed.
+
+```csharp
+public static class DependencyInjection
+{
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+    {
+        var configuration = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json")
+            .AddAzureKeyVault(new Uri("https://northwind-kv.vault.azure.net/"), new DefaultAzureCredential())
+            .Build();
+
+        services.Configure<SmtpOptions>(configuration.GetSection("Smtp"));
+
+        return services;
+    }
+}
+```
+
+**❌ Figure: Bad example - Infrastructure builds its own configuration, so every host gets the same JSON file and Key Vault, including integration tests and local runs**
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+// appsettings.json, environment variables and (in Development) user secrets are added by CreateBuilder
+if (builder.Environment.IsProduction())
+{
+    builder.Configuration.AddAzureKeyVault(
+        new Uri(builder.Configuration["KeyVault:Uri"] ?? throw new InvalidOperationException("KeyVault:Uri is not configured")),
+        new DefaultAzureCredential());
+}
+
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
+```
+
+**✅ Figure: Good example - The host adds the sources it needs for its environment, and every layer reads from the same IConfiguration**
+
+## Define and bind options where they're used
+
+The options class and its section name live in the layer that consumes them. That layer also registers the binding, in its own `DependencyInjection` extension method.
+
+```csharp
+// WebApi/Program.cs
+builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
+builder.Services.Configure<BlobStorageOptions>(builder.Configuration.GetSection("BlobStorage"));
+builder.Services.Configure<HeroPowerOptions>(builder.Configuration.GetSection("HeroPower"));
+
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
+```
+
+**❌ Figure: Bad example - The host binds settings for Application and Infrastructure, so it has to know every section name and options type in the solution**
+
+```csharp
+// Infrastructure/Email/SmtpOptions.cs
+public class SmtpOptions
+{
+    public const string SectionName = "Smtp";
+
+    [Required]
+    public required string Host { get; init; }
+
+    [Range(1, 65535)]
+    public int Port { get; init; } = 587;
+}
+
+// Infrastructure/DependencyInjection.cs
+public static IServiceCollection AddInfrastructure(
+    this IServiceCollection services,
+    IConfiguration configuration)
+{
+    // Reads the configuration the host built, but never adds a source. The host
+    // decides where ConnectionStrings:AppDb comes from (user secrets, Key Vault, Aspire)
+    var connectionString = configuration.GetConnectionString("AppDb")
+        ?? throw new InvalidOperationException("Connection string 'AppDb' is not configured");
+
+    services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(connectionString));
+
+    services.AddOptions<SmtpOptions>()
+        .BindConfiguration(SmtpOptions.SectionName)
+        .ValidateDataAnnotations()
+        .ValidateOnStart();
+
+    services.AddScoped<IEmailSender, SmtpEmailSender>();
+
+    return services;
+}
+```
+
+**✅ Figure: Good example - Infrastructure owns SmtpOptions, its section name and its validation, and reads the connection string it needs for EF Core, all from whatever sources the host added**
+
+Reading configuration in an inner layer is fine. Adding sources isn't. Some values, like the connection string EF Core needs, are required while services are being registered, so the host passes its `IConfiguration` into `AddInfrastructure()`. The extension method reads from it instead of building configuration itself. Options that are only used later don't need that: `BindConfiguration` resolves `IConfiguration` from the container. `ValidateOnStart` makes a missing or invalid value fail at startup instead of on the first email.
+
+The same applies to the Application layer. If a handler needs settings, such as a maximum power level for heroes, define `HeroPowerOptions` in Application and bind it in `AddApplication()`. The Domain layer stays free of configuration. Pass values into domain methods instead.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Binding in Application or Infrastructure needs the `Microsoft.Extensions.Options.ConfigurationExtensions` package (and `Microsoft.Extensions.Options.DataAnnotations` for `ValidateDataAnnotations()`) in that project. That's a dependency on a framework abstraction, not on the host, so the dependency rule still holds.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+See the [options pattern in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options) and [configuration providers in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers) for the details of binding and source ordering.
