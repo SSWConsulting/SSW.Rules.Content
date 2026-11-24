@@ -55,7 +55,7 @@ There are two good ways to create them in C#: hand-written `readonly record stru
 
 ## Option 1 - Use a readonly record struct
 
-With **C# 9** (and later) we can use the `record` (for one line declarations) or even the `record struct` (for better performance - see below) type to declare strongly typed IDs very succinctly. With `record`s we no longer need to implement or override equality operators - they are automagically generated for us by the compiler.
+C# 9 added `record` (for one line declarations), and C# 10 added `record struct` (for better performance - see below), so we can declare strongly typed IDs very succinctly. With `record`s we no longer need to implement or override equality operators - they are automagically generated for us by the compiler.
 
 For example:
 
@@ -83,7 +83,7 @@ public class Customer : BaseEntity
 
 Voilà! Now we have strongly typed IDs on our `Person` and `Customer` entities and no way for anyone to get the values confused or misuse them.
 
-`record`s are immutable by default, but `record struct`s are not. Adding the `readonly` modifier regains the immutability, and the compiler warns at build time when any code mutates (or tries to mutate) the ID value.
+`record`s are immutable by default, but `record struct`s are not. Adding the `readonly` modifier regains the immutability, and any code that tries to change the ID value fails to compile.
 
 The weakness of a plain `record struct` is that anyone can still create an invalid ID. `new PersonId()`, `default(PersonId)` and `new PersonId(Guid.Empty)` all compile, and every serializer (JSON, EF, Dapper, ASP.NET model binding) needs its own converter.
 
@@ -147,7 +147,7 @@ var id = CustomerId.From(Guid.CreateVersion7());
 
 On top of what a `readonly record struct` gives you, Vogen adds:
 
-* **No invalid instances** - The analyzers turn `new CustomerId()` (`VOG010`) and `default(CustomerId)` (`VOG009`) into build errors. The only way to get an ID is through `From` or `TryFrom`
+* **No invalid instances** - The analyzers turn `new CustomerId()` (`VOG010`) and `default(CustomerId)` (`VOG009`) into build errors, so your code can only create an ID through `From` or `TryFrom`. An ID can still arrive uninitialized (e.g. a JSON body missing the property), but it throws as soon as its value is read
 * **Validation in one place** - Add a `Validate` method, and `From` throws (or `TryFrom` returns `false`) for bad input
 * **Generated converters** - System.Text.Json and `TypeConverter` support are on by default, so IDs serialize as plain values in APIs and route parameters. EF Core, Dapper, Newtonsoft.Json and others are opt-in
 * **No runtime cost** - The generated type is a plain struct, so it performs the same as a hand-written `readonly record struct` (see the benchmarks below)
@@ -199,23 +199,23 @@ Dan unfortunately missed out a benchmark for `record struct`. We wrote our own b
 
 ```text
 BenchmarkDotNet v0.16.0-preview.2, macOS 27.2.1, Apple M4 Pro
-.NET 11.0.0, Vogen 8.0.4
+.NET 11.0.0, Vogen 8.0.7
 
 | Method                 | Mean      | Error     | StdDev    | Gen0    | Allocated |
 |----------------------- |----------:|----------:|----------:|--------:|----------:|
-| StructId               |  4.904 us | 0.0100 us | 0.0093 us |       - |         - |
-| VogenId                |  4.908 us | 0.0070 us | 0.0062 us |       - |         - |
-| ReadonlyRecordStructId |  4.937 us | 0.0406 us | 0.0360 us |       - |         - |
-| ClassId                | 28.215 us | 0.0439 us | 0.0411 us | 38.2385 |  320000 B |
-| SealedRecordId         | 28.645 us | 0.4656 us | 0.4127 us | 38.2385 |  320000 B |
-| RecordId               | 29.061 us | 0.2023 us | 0.1892 us | 38.2385 |  320000 B |
+| ReadonlyRecordStructId |  4.909 us | 0.0291 us | 0.0272 us |       - |         - |
+| StructId               |  4.934 us | 0.0322 us | 0.0302 us |       - |         - |
+| VogenId                |  4.936 us | 0.0193 us | 0.0181 us |       - |         - |
+| RecordId               | 27.847 us | 0.0469 us | 0.0366 us | 38.2385 |  320000 B |
+| SealedRecordId         | 28.737 us | 0.3960 us | 0.3510 us | 38.2385 |  320000 B |
+| ClassId                | 29.495 us | 0.4366 us | 0.3870 us | 38.2385 |  320000 B |
 ```
 
 **Figure: Struct-based IDs (readonly record struct, Vogen and struct) are about 5x faster than class-based IDs and allocate nothing**
 
 The struct-based options are effectively tied. `readonly record struct` and Vogen give us the performance of `struct` without needing to manually implement the equality checks.
 
-Check out William Liebenberg's [StronglyTypedIdsBenchmarks](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub to run the benchmarks yourself.
+Check out the [StronglyTypedIdsBenchmarks](https://github.com/danielmackay/StronglyTypedIdsBenchmarks) repo on GitHub to run the benchmarks yourself.
 
 ## Summary
 
