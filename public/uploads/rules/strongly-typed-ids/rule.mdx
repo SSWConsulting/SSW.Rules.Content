@@ -3,22 +3,23 @@ archivedreason: null
 authors:
 - title: William Liebenberg
   url: https://www.ssw.com.au/people/william-liebenberg
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
 created: 2023-08-10 12:15:00+00:00
 guid: 7955fe7c-fdef-41e1-a4e6-6ccf8ae1c0eb
 redirects:
 - do-you-use-strongly-typed-ids
 related:
 - rule: public/uploads/rules/when-to-use-value-objects/rule.mdx
-seoDescription: Developers can avoid Primitive Obsession by using Strongly Typed IDs,
-  which provide a clear representation of domain entity identifiers.
-title: Do you use Strongly Typed IDs to avoid Primitive Obsession
+seoDescription: Avoid Primitive Obsession with strongly typed IDs. Use Vogen or a readonly record struct, and configure EF Core to convert them.
+title: Do you use Strongly Typed IDs to avoid Primitive Obsession?
 categories:
   - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
 type: rule
 uri: strongly-typed-ids
 ---
 
-Developers often fall into the trap of using primitive types (`int`, `string`, `Guid`) for entity identifiers when using Entity Framework (EF) because it is straight forward to simply add a `string` or `int` or `Guid` as the `ID` field for an entity. The misuse of the primitive types lead to **Primitive Obsession**.
+Developers often fall into the trap of using primitive types (`int`, `string`, `Guid`) for entity identifiers when using Entity Framework (EF) because it is straightforward to simply add a `string` or `int` or `Guid` as the `ID` field for an entity. The misuse of the primitive types leads to **Primitive Obsession**.
 
 Primitive Obsession refers to a code smell or anti-pattern where primitive data types (such as integers, strings, booleans, etc.) are excessively used to represent domain concepts, instead of creating dedicated classes to encapsulate those concepts.
 
@@ -50,7 +51,11 @@ Primitive Obsession can be witnessed on almost any domain concept, not just IDs 
 
 Using **Strongly Typed IDs** we can avoid the anti-pattern and clearly represent our domain entity specific identifiers.
 
-Now with **C# 9** (and later) we can use the `record` (for one line declarations) or even the `record struct` (for better performance - see below) type to declare strongly typed IDs very succinctly. With `record`s we no longer need to implement or override equality operators - they are automagically generated for us by the compiler.
+There are two good ways to create them in C#: hand-written `readonly record struct` types, or [Vogen](https://github.com/SteveDunn/Vogen), a source generator that writes the boilerplate for you.
+
+## Option 1 - Use a readonly record struct
+
+C# 9 added `record` (for one line declarations), and C# 10 added `record struct` (for better performance - see below), so we can declare strongly typed IDs very succinctly. With `record`s we no longer need to implement or override equality operators - they are automagically generated for us by the compiler.
 
 For example:
 
@@ -76,11 +81,15 @@ public class Customer : BaseEntity
 }
 ```
 
-Viola! Now we have strongly typed IDs on our `Person` and `Customer` entities and no way for anyone to get the values confused or misuse them.
+Voilà! Now we have strongly typed IDs on our `Person` and `Customer` entities and no way for anyone to get the values confused or misuse them.
 
-## How do we configure EF to work with Strongly Typed IDs
+`record`s are immutable by default, but `record struct`s are not. Adding the `readonly` modifier regains the immutability, and any code that tries to change the ID value fails to compile.
 
-To enable the correct serialization of Strongly Type IDs we need to add some configuration code to our EF Entities so that EF knows how to convert between the Primitive type and the Strongly Typed ID values.
+The weakness of a plain `record struct` is that anyone can still create an invalid ID. `new PersonId()`, `default(PersonId)` and `new PersonId(Guid.Empty)` all compile, and every serializer (JSON, EF, Dapper, ASP.NET model binding) needs its own converter.
+
+### Configure EF to work with record struct IDs
+
+To enable the correct serialization of Strongly Typed IDs we need to add some configuration code to our EF Entities so that EF knows how to convert between the Primitive type and the Strongly Typed ID values.
 
 Here is one way to specify the configuration:
 
@@ -114,7 +123,7 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
         var converter = new ValueConverter<PersonId, Guid>(
             id => id.Value,
-            guidValue => new PersonId(guid));
+            guidValue => new PersonId(guidValue));
 
         builder.HasKey(e => e.Id);
 
@@ -125,7 +134,56 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
 }
 ```
 
-Check out the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture/tree/main?tab=readme-ov-file#ssw-clean-architecture-template) for a few examples of Strongly Typed IDs in action.
+## Option 2 - Use Vogen (recommended)
+
+[Vogen](https://github.com/SteveDunn/Vogen) (Value Object Generator) is a source generator and set of Roslyn analyzers. You declare a `partial` type with an attribute, and Vogen generates the constructor, equality, `ToString`, and the converters at compile time.
+
+```cs
+[ValueObject<Guid>]
+public readonly partial struct CustomerId;
+
+var id = CustomerId.From(Guid.CreateVersion7());
+```
+
+On top of what a `readonly record struct` gives you, Vogen adds:
+
+* **No invalid instances** - The analyzers turn `new CustomerId()` (`VOG010`) and `default(CustomerId)` (`VOG009`) into build errors, so your code can only create an ID through `From` or `TryFrom`. An ID can still arrive uninitialized (e.g. a JSON body missing the property), but it throws as soon as its value is read
+* **Validation in one place** - Add a `Validate` method, and `From` throws (or `TryFrom` returns `false`) for bad input
+* **Generated converters** - System.Text.Json and `TypeConverter` support are on by default, so IDs serialize as plain values in APIs and route parameters. EF Core, Dapper, Newtonsoft.Json and others are opt-in
+* **No runtime cost** - The generated type is a plain struct, so it performs the same as a hand-written `readonly record struct` (see the benchmarks below)
+
+```cs
+[ValueObject<Guid>]
+public readonly partial struct CustomerId
+{
+    private static Validation Validate(Guid input) =>
+        input == Guid.Empty ? Validation.Invalid("CustomerId cannot be empty") : Validation.Ok;
+}
+```
+
+### Configure EF to work with Vogen IDs
+
+Instead of writing a `ValueConverter` per ID, declare a marker class that lists your IDs, then register all of them as EF Core conventions in one line:
+
+```cs
+[EfCoreConverter<CustomerId>]
+[EfCoreConverter<PersonId>]
+internal sealed partial class VogenEfCoreConverters;
+
+public class ApplicationDbContext : DbContext
+{
+    protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+    {
+        base.ConfigureConventions(configurationBuilder);
+
+        configurationBuilder.RegisterAllInVogenEfCoreConverters();
+    }
+}
+```
+
+This keeps the EF converters in the Infrastructure layer, so the Domain project only references Vogen and not EF Core.
+
+Check out the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture/tree/main?tab=readme-ov-file#ssw-clean-architecture-template), which uses Vogen for all of its strongly typed IDs.
 
 ## Performance considerations
 
@@ -137,22 +195,40 @@ Dan suggests to use `struct` or `class` instead because generating 10,000 strong
 
 However, `class` and `struct` are more verbose and require that we implement the `Equals` and `GetHashCode` overrides manually!
 
-Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
+Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmarks similar to Dan's, and added Vogen. Each benchmark creates 10,000 IDs and passes them to a method:
 
-![Benchmark results of various StronglyTyped ID constructs](/uploads/rules/strongly-typed-ids/stronglytypedid.png)
+```text
+BenchmarkDotNet v0.16.0-preview.2, macOS 27.2.1, Apple M4 Pro
+.NET 11.0.0, Vogen 8.0.7
 
-Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
+| Method                 | Mean      | Error     | StdDev    | Gen0    | Allocated |
+|----------------------- |----------:|----------:|----------:|--------:|----------:|
+| ReadonlyRecordStructId |  4.909 us | 0.0291 us | 0.0272 us |       - |         - |
+| StructId               |  4.934 us | 0.0322 us | 0.0302 us |       - |         - |
+| VogenId                |  4.936 us | 0.0193 us | 0.0181 us |       - |         - |
+| RecordId               | 27.847 us | 0.0469 us | 0.0366 us | 38.2385 |  320000 B |
+| SealedRecordId         | 28.737 us | 0.3960 us | 0.3510 us | 38.2385 |  320000 B |
+| ClassId                | 29.495 us | 0.4366 us | 0.3870 us | 38.2385 |  320000 B |
+```
+
+**Figure: Struct-based IDs (readonly record struct, Vogen and struct) are about 5x faster than class-based IDs and allocate nothing**
+
+The struct-based options are effectively tied. `readonly record struct` and Vogen give us the performance of `struct` without needing to manually implement the equality checks.
+
+Check out the [StronglyTypedIdsBenchmarks](https://github.com/danielmackay/StronglyTypedIdsBenchmarks) repo on GitHub to run the benchmarks yourself.
 
 ## Summary
 
-To add strongly typed IDs to our Entity Framework Entities we can utilize the `record struct` and add some simple entity configuration code to convert between primitive and strong type values.
+Never use `class` or `record` for strongly typed IDs - they allocate on every ID and are ~5x slower.
 
-It is worth noting that `record`'s are immutable by default, but `record struct`'s are not :(
-
-We can regain the immutability by adding the `readonly` modifier to our strongly typed ID declaration. With the `readonly` keyword the compiler will give us the same warnings at build time when any unwanted mutation to the ID value is made (or attempted to be made).
-
-So the ultimate programming construct for Strongly Typed IDs is `readonly record struct`.
+* ✅ **Vogen** - The best choice for most projects. Same performance as a `readonly record struct`, plus validation, analyzers that block invalid IDs, and generated EF Core and JSON converters
+* ✅ **`readonly record struct`** - A good choice when you can't take a dependency on a source generator
 
 ```cs
+// Vogen
+[ValueObject<Guid>]
+public readonly partial struct UserId;
+
+// No dependencies
 public readonly record struct UserId(Guid Value);
 ```
