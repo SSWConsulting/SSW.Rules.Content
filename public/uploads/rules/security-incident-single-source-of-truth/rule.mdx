@@ -1,0 +1,115 @@
+---
+type: rule
+title: Do you keep security incident evidence in one place, not in email?
+seoDescription: During a security incident, keep one incident page as the source of truth for evidence and status. Email is only a snapshot that links to it.
+guid: 4cc78619-ecb5-47b2-bd64-5faa99debc0e
+uri: security-incident-single-source-of-truth
+created: 2026-11-25T01:32:57.000Z
+authors:
+  - title: Harley Jackson
+    url: https://github.com/harley-j
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+related:
+  - rule: public/uploads/rules/open-policy-personal-data-breaches/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A suspicious login fires an alert at 2am. By lunch there are four email threads, two Teams chats and a forwarded screenshot. Someone asks "which IPs did we block?" and gets three different answers. The evidence exists, but it's scattered across inboxes, and anyone who wasn't CC'd never sees it.
+
+Keep one incident page as the source of truth. Every log extract, screenshot, finding and decision goes there. Email becomes a snapshot that says what changed and links to the page.
+
+<endIntro />
+
+## Why shouldn't email be your source of truth?
+
+Email is a copy, not a record. Once it's sent you can't correct it, and every reply forks the story.
+
+* **Stale the moment it's sent** - The 10am update still says "no data accessed" after the 2pm finding proves otherwise
+* **Evidence lives in attachments** - The only copy of the log export sits in the inbox of someone who's now on leave
+* **Late joiners miss evidence** - The security lead brought in on day 2 only sees the threads they were forwarded
+* **No clean timeline** - Your post-incident review starts with an afternoon of stitching replies together
+
+## What goes on the incident page?
+
+Create the page the moment you declare the incident. Use Confluence, SharePoint or whatever your team already lives in. Keep it to four parts:
+
+* **Status** - Current severity, incident owner and the time of the next update, at the top
+* **Timeline** - A timestamped entry for every finding, action and decision
+* **Evidence** - Log extracts, screenshots and file hashes, each noting who collected it and when
+* **Actions** - What's contained, what's outstanding and who owns each item
+
+<boxEmbed
+  body={<>
+    **Lock the page down.** It will hold IP addresses, account names and possibly customer data. Never paste secrets or credentials - record that they were rotated, and when.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## What should the email say?
+
+What changed since the last update, when the next one is due, and the link. Nothing else.
+
+<emailEmbed
+  from=""
+  to="Incident Response Team"
+  cc="Bob Northwind"
+  bcc=""
+  subject="RE: RE: FW: Suspicious login"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi all,
+
+    See attached logs from Sarah's export. The blocked IPs are in Tom's email from this morning, and the latest from the vendor is in the Teams chat.
+  </>}
+  figurePrefix="bad"
+  figure="The email points at three other places, so nobody has the full picture"
+/>
+
+<emailEmbed
+  from=""
+  to="Incident Response Team"
+  cc="Bob Northwind"
+  bcc=""
+  subject="[INC-042] Update 3 - Contained"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi all,
+
+    Full timeline and evidence: &#123;&#123; INCIDENT PAGE URL &#125;&#125;
+
+    **Status:** Contained
+
+    Since the last update:
+
+    1. Blocked 3 IP addresses at the WAF
+    2. Rotated the affected API key
+
+    **Next update:** 4pm today
+  </>}
+  figurePrefix="good"
+  figure="The email is a snapshot - the incident page is the record"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** Put the incident page link in the first line of every update and pin it in the incident chat channel. If someone asks a question in email, answer it on the page and reply with the link.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you know the best cybersecurity tools for developers?](/developer-cybersecurity-tools) - Tools that catch issues before they become incidents
+* [NIST SP 800-61 Rev. 3 - Incident Response Recommendations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) - The standard guide to running an incident response
+* [Atlassian - Incident communication](https://www.atlassian.com/incident-management/incident-communication) - How to structure status updates during an incident
+* [Atlassian - Incident postmortems](https://www.atlassian.com/incident-management/postmortem) - Why a clean timeline makes the post-incident review faster
