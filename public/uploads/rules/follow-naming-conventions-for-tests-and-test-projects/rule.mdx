@@ -54,7 +54,7 @@ Test projects can be located either:
 
 
 <imageEmbed
-  alt="Image"
+  alt="Solution Explorer with unit and integration test projects in a separate tests folder"
   size="large"
   showBorder={false}
   figurePrefix="none"
@@ -74,20 +74,28 @@ It’s usually a bad idea to name tests after the class or method under test –
 Remember that descriptive names are useful – but the choice of name is not the developer’s only opportunity to create readable tests.
 
 * Write tests that are easy to read by following [the 3 A's (Arrange, Act, and Assert)](/how-to-structure-a-unit-test)
-* Use a good assertion library to make test failures informative (e.g. [FluentAssertions](https://fluentassertions.com) or [Shouldly](https://github.com/shouldly/shouldly))
+* Use a good assertion library to make test failures informative (e.g. [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions) or [Shouldly](https://github.com/shouldly/shouldly))
 * Use comments and refer to bug reports to document the “why” when you have a test for a specific edge-case
 * Remember that the F12 shortcut will navigate from the body of your test straight to the method you’re calling
 * The point of a naming convention is to make code more readable, not less - so use your judgement and call in others to verify your readability
 
+<boxEmbed
+  style="warning"
+  body={<>
+    **Warning:** Fluent Assertions v8 and later need a paid licence for commercial use. See [Do you know the most popular unit and integration testing frameworks for .NET](/testing-tools) for the details and free alternatives.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 <imageEmbed
-  alt="Image"
+  alt="Test Explorer listing tests whose names don't describe what they test"
   size="large"
   showBorder={false}
   figurePrefix="bad"
   figure="From the Test Explorer view you cannot tell what a test is meant to test just from its name"
   src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/bad-naming.png"
 />
-
 
 ## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult] (Recommended)
 

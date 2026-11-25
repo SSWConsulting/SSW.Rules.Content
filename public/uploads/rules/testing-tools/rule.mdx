@@ -37,9 +37,18 @@ There are three main frameworks for unit testing. The good news is that they are
 
 xUnit.net is currently the most popular framework - and is even used by the .NET Core team.
 
-However, one should note that XUnit is still using the old Assert standard, and should be augmented by a better assertion library, like [FluentAssertions](https://fluentassertions.com/) or [Shouldly](https://github.com/shouldly/shouldly).
+However, one should note that XUnit is still using the old Assert standard, and should be augmented by a better assertion library, like [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions) or [Shouldly](https://github.com/shouldly/shouldly).
 
 xUnit.net is the default choice for .NET Core web applications and APIs at SSW.
+
+<boxEmbed
+  style="warning"
+  body={<>
+    **Already on Fluent Assertions?** v8 and later need a [paid licence for commercial use](https://fluentassertions.com/). Either stay below v8 (`[7.0.0,8.0.0)`), which stays free under Apache 2.0, or switch to AwesomeAssertions, which has the same API, so switching is usually just the package and the `using` lines.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ### NUnit
 
