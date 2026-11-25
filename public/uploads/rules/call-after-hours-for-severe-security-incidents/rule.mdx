@@ -1,0 +1,98 @@
+---
+type: rule
+title: Do you call for severe security incidents, even outside business hours?
+seoDescription: For a severe security incident, just call, whatever the time. It's okay if they don't pick up - what matters is that you tried instead of waiting.
+guid: 7e129b1a-ccee-4159-a065-90892185e0a1
+uri: call-after-hours-for-severe-security-incidents
+created: 2026-11-25T05:31:12.000Z
+authors:
+  - title: Harley Jackson
+    url: https://github.com/harley-j
+related:
+  - rule: public/uploads/rules/communicate-during-an-incident/rule.mdx
+  - rule: public/uploads/rules/call-first-before-emailing/rule.mdx
+  - rule: public/uploads/rules/use-quiet-hours-in-teams/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+At 9pm you spot an admin account signing in from another country. You hover over the Call button on the security lead's Teams profile, decide it's probably not worth disturbing them, and send a chat message instead. Their notifications are muted for the night. They read it at 8am, and the attacker has had 11 hours.
+
+For a severe security incident, just call, whatever the time. It's okay if they don't pick up. What isn't okay is getting stuck deciding whether to try.
+
+<endIntro />
+
+## Why should you call rather than wait?
+
+A call costs them a few seconds of sleep. Not calling can cost you the whole night.
+
+* **Messages are easy to miss** - Quiet Hours in Teams mutes chat notifications until morning, so a message can sit unseen for hours. A call is much harder to miss
+* **Every hour counts** - An attacker with a live session can create accounts, pull data and cover their tracks while you wait
+* **Trying is the job** - You don't need permission to call. You need a severe issue and a way to reach them, and a Teams call is enough
+
+## What if they don't pick up?
+
+That's fine. You've still done the right thing.
+
+* **Follow up in the chat** - Straight after the missed call, send a message saying what's happening and what you've already done, so they can act the moment they see it
+* **Try the backup** - If there's a second contact, call them next
+* **Keep going** - Contain what you can, like disabling the account, and record it as you go. A missed call is not a reason to stop
+
+## What counts as severe enough to call?
+
+If waiting until 8am makes it worse, call. For example:
+
+* **Active compromise** - An account takeover or an attacker inside a system right now
+* **Data exposure** - Customer or personal data being taken or publicly reachable
+* **Live leaked secret** - A production key or password that's leaked and still works
+* **Destructive activity** - Ransomware, mass deletion, or production down because of an attack
+
+A phishing email nobody clicked, a vulnerability scan finding or a dependency alert can wait. Raise them during business hours.
+
+## How do you agree on it before an incident?
+
+Ask your security lead now, so nobody has to wonder at 9pm. When we asked ours, the answer was simple: "If it's important, just call."
+
+Then write it down where everyone can find it:
+
+* **Who to call** - The on-call person if you have a roster, otherwise a named primary and a backup
+* **How to reach them** - A Teams call is fine. Write down a mobile number too, in case Teams is down
+
+<boxEmbed
+  body={<>
+    9:14pm: "I don't want to bother them, I'll send a chat message and see if they reply." No reply. You check again at 10pm, then go to bed.
+  </>}
+  figurePrefix="bad"
+  figure="Not wanting to disturb anyone leaves the incident waiting until morning"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    9:14pm, Teams call. No answer. Straight after, in the chat: "Called about a live incident. The admin account is signing in from overseas right now. I've disabled it. Call me back when you see this." Then you call the backup and keep working.
+  </>}
+  figurePrefix="good"
+  figure="They didn't pick up, but they know, and you didn't wait to find out"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** If the incident might involve Teams itself, for example an attacker inside your Microsoft 365 tenant, call their mobile instead.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you know the 4 R's of incident communication?](/communicate-during-an-incident) - What to say to whoever raised the incident
+* [SSW: Do you keep security incident evidence in one place, not in email?](/security-incident-single-source-of-truth) - Where the evidence goes once you've made the call
+* [SSW: Do you know when to call first before emailing?](/call-first-before-emailing) - The everyday version of this rule
+* [Atlassian - On-call](https://www.atlassian.com/incident-management/on-call) - How to set up an on-call roster
+* [Atlassian - Escalation policies](https://www.atlassian.com/incident-management/on-call/escalation-policies) - What to do when the first person doesn't answer
