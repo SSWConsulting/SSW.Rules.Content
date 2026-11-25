@@ -1,0 +1,126 @@
+---
+type: rule
+title: Do you have an Incident Response Plan?
+seoDescription: An Incident Response Plan is the step-by-step runsheet for a security breach - who's in charge, the first-hour steps, and who you must notify and by when.
+guid: 575ab671-c383-4ca7-b6ec-a08ae673a789
+uri: incident-response-plan
+created: 2026-11-25T23:50:23.000Z
+authors:
+  - title: Harley Jackson
+    url: https://github.com/harley-j
+related:
+  - rule: public/uploads/rules/security-incident-single-source-of-truth/rule.mdx
+  - rule: public/uploads/rules/communicate-during-an-incident/rule.mdx
+  - rule: public/uploads/rules/record-incidents-and-perform-root-cause-analysis-with-clear-actions/rule.mdx
+  - rule: public/uploads/rules/unplanned-outage-process/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+It's 7am on a Saturday and there's a ransom note on the file server. The first hour goes on arguments. Who's allowed to pull the network cable? Do we call the insurer or the IT provider first? The only list of phone numbers is a spreadsheet on the drive that's just been encrypted.
+
+An Incident Response Plan is the runsheet you write before that morning. It says who's in charge, what to do in the first hour, and who you have to tell by when. Under pressure, people follow steps instead of inventing them.
+
+<endIntro />
+
+## What goes in an Incident Response Plan?
+
+Keep it short enough to read in a crisis. 2-4 pages beats 40. The [ASD's incident response planning guidance](https://www.cyber.gov.au/business-government/detecting-responding-to-threats/cyber-security-incident-response/cyber-security-incident-response-planning-practitioner-guidance) has a free template to start from.
+
+* **Roles and a backup for each** - Incident Lead, technical lead, comms, legal, and the exec who can approve spend or shut systems down
+* **Contacts stored offline** - Mobile numbers for the team, your cyber insurer's hotline, your IR provider and ASD's ACSC (1300 CYBER1)
+* **Severity levels** - What makes something Sev 1 vs Sev 3, and who gets woken up for each
+* **A first-hour runsheet** - The exact steps to contain and preserve evidence (below)
+* **Notification deadlines** - Which regulators, insurers and clients you must tell, and how fast
+* **Recovery and review** - How you restore from known-good backups and run the post-incident review
+
+## What does the first-hour runsheet look like?
+
+A checklist, not prose. Anyone on the roster should be able to pick it up and start.
+
+```text
+SEV 1 - Suspected breach
+
+[ ] 0-15 min   Declare the incident. Name the Incident Lead. Open the incident page
+[ ] 15-60 min  Contain - isolate affected machines, disable compromised accounts, rotate exposed keys
+[ ] 15-60 min  Preserve evidence - snapshot VMs, export logs. Do NOT wipe or rebuild yet
+[ ] 1 hour     Call the cyber insurer hotline before engaging any outside vendor
+[ ] Same day   Report to ASD's ACSC via cyber.gov.au/report
+[ ] Same day   Start the Notifiable Data Breach assessment (30-day clock)
+[ ] Ongoing    Updates every {{ UPDATE_INTERVAL }} - see the comms plan
+```
+
+Run the incident from one page, not from email. See [Do you keep security incident evidence in one place, not in email?](/security-incident-single-source-of-truth)
+
+<boxEmbed
+  body={<>
+    **Check your cyber policy before you need it.** Many insurers only cover vendors from their own panel. Engaging your usual IT provider first can cost you the claim.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## Who do you have to tell, and by when?
+
+For Australian businesses, put these in the plan with the deadlines spelt out:
+
+| Obligation | Applies to | Deadline | Report to |
+|---|---|---|---|
+| [Notifiable Data Breaches scheme](https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches) | Organisations covered by the Privacy Act | Assess a suspected breach within 30 days. Notify as soon as practicable once it's eligible | OAIC and affected individuals |
+| [Ransomware payment reporting](https://www.cyber.gov.au/ransomware-payment-and-cyber-extortion-payment-reporting) | Businesses with more than $3M turnover, plus some critical infrastructure | 72 hours after the payment | ASD |
+| Cyber incident report | Everyone (recommended) | As soon as you can | ASD's ACSC |
+| Cyber insurance | Policy holders | Per policy - often hours | Insurer hotline |
+| Client contracts | Per contract | Per contract | The client |
+
+<boxEmbed
+  body={<>
+    Working with European data? GDPR gives you 72 hours to notify the supervisory authority. Add a row for every jurisdiction you operate in.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## When should you test the plan?
+
+Every 6 months, and whenever key people change. A plan nobody has rehearsed fails on the first step.
+
+<boxEmbed
+  body={<>
+    **Plan in a drawer** - The plan is a 40-page PDF on SharePoint. During the incident, SharePoint sits behind the admin account that's just been locked out, and 2 of the 5 contacts have left the company.
+  </>}
+  figurePrefix="bad"
+  figure="An untested plan fails at the moment you need it"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Rehearsed runsheet** - A 3-page plan with a printed copy in the office. The team runs a 1-hour tabletop exercise every 6 months. The last one found a full restore takes 9 hours, so the plan now says so and the business knows what to expect.
+  </>}
+  figurePrefix="good"
+  figure="A tabletop exercise finds the gaps before an attacker does"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** For a tabletop exercise, pick a realistic scenario (e.g. "a developer's GitHub token is leaked on a public repo"), set a timer, and walk the runsheet out loud. Every "I don't know" becomes an action item.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you keep security incident evidence in one place, not in email?](/security-incident-single-source-of-truth) - Running the incident from one page
+* [SSW: Do you know the 4 R's of incident communication?](/communicate-during-an-incident) - What to say to stakeholders, and when
+* [SSW: Do you record incidents and perform root cause analysis with clear actions?](/record-incidents-and-perform-root-cause-analysis-with-clear-actions) - The post-incident review
+* [NIST SP 800-61 Rev. 3 - Incident Response Recommendations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) - The international standard, now aligned to CSF 2.0
+* [OAIC - Data breach preparation and response](https://www.oaic.gov.au/privacy/notifiable-data-breaches/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-3-responding-to-data-breaches-four-key-steps) - The 4 steps the regulator expects you to follow
