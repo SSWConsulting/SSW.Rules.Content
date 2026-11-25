@@ -199,14 +199,14 @@ Dan unfortunately missed out a benchmark for `record struct`. We wrote our own b
 
 | Method | Mean | Error | StdDev | Gen0 | Allocated |
 | --- | --: | --: | --: | --: | --: |
-| `ReadonlyRecordStructId` | 4.909 μs | 0.0291 μs | 0.0272 μs | - | - |
-| `StructId` | 4.934 μs | 0.0322 μs | 0.0302 μs | - | - |
-| `VogenId` | 4.936 μs | 0.0193 μs | 0.0181 μs | - | - |
+| `ReadonlyRecordStructId` | 4.909 μs | 0.0291 μs | 0.0272 μs | 0 | 0 B |
+| `StructId` | 4.934 μs | 0.0322 μs | 0.0302 μs | 0 | 0 B |
+| `VogenId` | 4.936 μs | 0.0193 μs | 0.0181 μs | 0 | 0 B |
 | `RecordId` | 27.847 μs | 0.0469 μs | 0.0366 μs | 38.2385 | 320,000 B |
 | `SealedRecordId` | 28.737 μs | 0.3960 μs | 0.3510 μs | 38.2385 | 320,000 B |
 | `ClassId` | 29.495 μs | 0.4366 μs | 0.3870 μs | 38.2385 | 320,000 B |
 
-**Figure: Struct-based IDs (readonly record struct, Vogen and struct) are about 5x faster than class-based IDs and allocate nothing**
+**Figure: Struct-based IDs (readonly record struct, Vogen and struct) are about 6x faster than class-based IDs and allocate nothing**
 
 The struct-based options are effectively tied. `readonly record struct` and Vogen give us the performance of `struct` without needing to manually implement the equality checks.
 
@@ -214,7 +214,7 @@ Check out the [StronglyTypedIdsBenchmarks](https://github.com/danielmackay/Stron
 
 ## Summary
 
-Never use `class` or `record` for strongly typed IDs - they allocate on every ID and are ~5x slower.
+Never use `class` or `record` for strongly typed IDs - they allocate on every ID and are ~6x slower.
 
 * ✅ **Vogen** - The best choice for most projects. Same performance as a `readonly record struct`, plus validation, analyzers that block invalid IDs, and generated EF Core and JSON converters
 * ✅ **`readonly record struct`** - A good choice when you can't take a dependency on a source generator
