@@ -10,8 +10,12 @@ authors:
 created: 2023-12-01 02:55:57+00:00
 guid: 300ef178-e0b9-43bb-bb92-3076253005b1
 redirects: []
-seoDescription: Discover how Minimal APIs simplify building fast HTTP endpoints in
-  ASP.NET Core with minimal setup and boilerplate-free code.
+related:
+- rule: public/uploads/rules/vertical-slice-architecture/rule.mdx
+- rule: public/uploads/rules/unique-dtos-per-endpoint/rule.mdx
+- rule: public/uploads/rules/do-you-use-the-result-pattern/rule.mdx
+seoDescription: Build ASP.NET Core APIs with Minimal APIs or FastEndpoints instead
+  of controllers for less boilerplate, better performance, and feature-focused code.
 title: Do you use Minimal APIs over Controllers?
 categories:
   - category: categories/software-engineering/rules-to-better-net-projects.mdx
@@ -19,11 +23,9 @@ type: rule
 uri: minimal-apis
 ---
 
-Traditional controllers require a lot of boilerplate code to set up and configure. Most of the time your endpoints will be simple and just point to a mediator handler.
+Controllers come with a lot of ceremony: a base class, routing attributes, action methods, and a class that groups unrelated endpoints together just because they share a URL prefix. Most of the time an endpoint just binds a request, calls a handler, and returns a result. The controller adds nothing to that.
 
-Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET Core. You can build fully functioning REST endpoints with minimal code and configuration. Skip traditional scaffolding and avoid unnecessary controllers by fluently declaring API routes and actions.
-
-Check out the Microsoft Docs for more information on [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?WT.mc_id=DT-MVP-33518).
+Minimal APIs let you declare routes and handlers directly, with far less code. Microsoft now recommends them as the starting point for new ASP.NET Core APIs. If you want more structure, [FastEndpoints](https://fast-endpoints.com) builds on Minimal APIs and gives every endpoint its own class.
 
 <endIntro />
 
@@ -39,17 +41,117 @@ public class HelloWorldController : ControllerBase
     }
 }
 ```
-**❌ Figure: Bad Example - 9 lines of code for a simple endpoint**  
+
+**❌ Figure: Bad example - 9 lines of code for a simple endpoint**
 
 ```csharp
 app.MapGet("/", () => "Hello World!");
 ```
-**✅ Figure: Good Example - 1 line of code for a simple endpoint**  
 
-Minimal APIs are great for
+**✅ Figure: Good example - 1 line of code for a simple endpoint**
 
-* Learning
-* Quick prototypes
-* Vertical Slice Architecture
-* A similar developer experience to NodeJS
-* Performance
+## Why Minimal APIs?
+
+* **Less code** - No base classes, attributes or action methods to write
+* **Performance** - Lower overhead per request than MVC controllers
+* **Native AOT** - Minimal APIs support Native AOT publishing; controllers don't
+* **Feature-focused** - Each endpoint can live next to the rest of its feature, which suits [Vertical Slice Architecture](/vertical-slice-architecture)
+* **Easier testing** - Handlers are plain methods that you can call directly
+* **Familiar** - A developer experience similar to Node.js frameworks like Express
+
+Read [Choose between controller-based APIs and Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/apis?WT.mc_id=DT-MVP-33518) on Microsoft Learn for the full comparison.
+
+## Keep endpoints organized as the API grows
+
+The usual objection to Minimal APIs is that `Program.cs` turns into one huge file. That only happens if you put every endpoint there. Instead:
+
+* **Use route groups** - `MapGroup` shares a prefix, tags, authorization and filters across related endpoints
+* **Return `TypedResults`** - The return type documents every possible response, so OpenAPI metadata is generated for you and unit tests can check the result type
+* **Map each feature in its own file** - An extension method per feature keeps `Program.cs` to a few lines of wiring
+
+```csharp
+public static class TodoEndpoints
+{
+    public static void MapTodoEndpoints(this IEndpointRouteBuilder app)
+    {
+        var group = app.MapGroup("/api/todos")
+            .WithTags("Todos")
+            .RequireAuthorization();
+
+        group.MapGet("/{id:int}", GetTodo);
+    }
+
+    public static async Task<Results<Ok<TodoResponse>, NotFound>> GetTodo(
+        int id,
+        AppDbContext db,
+        CancellationToken ct)
+    {
+        var todo = await db.Todos.FindAsync([id], ct);
+
+        return todo is null
+            ? TypedResults.NotFound()
+            : TypedResults.Ok(new TodoResponse(todo.Id, todo.Title));
+    }
+}
+```
+
+**✅ Figure: Good example - A route group, typed results, and a feature file that `Program.cs` wires up with `app.MapTodoEndpoints()`**
+
+From .NET 10, Minimal APIs also validate requests for you. Call `builder.Services.AddValidation()` and data annotations on your request types are checked before the handler runs, with a `400 Bad Request` returned when they fail. See the [Minimal APIs quick reference](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?WT.mc_id=DT-MVP-33518) for details.
+
+## Consider FastEndpoints for more structure
+
+FastEndpoints is an open source (MIT) library that sits on top of Minimal APIs. Each endpoint is a class with a request DTO, a handler and a response DTO, following the REPR (Request-Endpoint-Response) pattern. Endpoints are discovered automatically, so there is no mapping code to maintain.
+
+```csharp
+public sealed class GetTodoRequest
+{
+    public int Id { get; set; }
+}
+
+public sealed record TodoResponse(int Id, string Title);
+
+public class GetTodoEndpoint(AppDbContext db) : Endpoint<GetTodoRequest, TodoResponse>
+{
+    public override void Configure()
+    {
+        Get("/api/todos/{Id}");
+        // Endpoints are secure by default - call AllowAnonymous() for public endpoints
+    }
+
+    public override async Task HandleAsync(GetTodoRequest req, CancellationToken ct)
+    {
+        var todo = await db.Todos.FindAsync([req.Id], ct);
+
+        if (todo is null)
+        {
+            await Send.NotFoundAsync(ct);
+            return;
+        }
+
+        await Send.OkAsync(new TodoResponse(todo.Id, todo.Title), ct);
+    }
+}
+```
+
+**✅ Figure: Good example - A FastEndpoints endpoint with its own request and response DTOs**
+
+The class-per-endpoint shape pushes teams towards [unique DTOs per endpoint](/unique-dtos-per-endpoint) and one folder per feature. FastEndpoints also includes FluentValidation, pre and post processors, an in-process event bus, and strongly typed integration testing helpers.
+
+### Which one should you choose?
+
+* **Minimal APIs** - The default. They are first-party, have no extra dependency, and are where Microsoft adds new features first
+* **FastEndpoints** - When you want the REPR structure enforced across a larger team, or you would otherwise rebuild its features yourself. The trade-off is a third-party dependency and its own conventions to learn
+
+Either way, keep each endpoint thin. It should bind the request, call the business logic (e.g. a [mediator handler](/use-the-mediator-pattern-with-cqrs)), and map the [result](/do-you-use-the-result-pattern) to an HTTP response.
+
+## When are controllers still the right choice?
+
+Controllers still provide a few features that Minimal APIs don't have out of the box:
+
+* OData
+* Custom model binders (`IModelBinderProvider`, `IModelBinder`)
+* Custom model validators (`IModelValidator`)
+* Application parts and the application model
+
+If an existing app relies on these, keep its controllers. You can add Minimal API endpoints to the same app and move existing endpoints across gradually.
