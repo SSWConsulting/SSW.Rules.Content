@@ -68,11 +68,11 @@ The Specification pattern is a design pattern used to define business rules in a
 
 ## Use Cases for the Specification Pattern
 
-1. **Reusable Queries**: Specifications can be used to define reusable query criteria for data access layers, making it easier to build complex queries.
-2. **Validation Rules**: Specifications can be used to define validation rules for input data, ensuring that it meets the required criteria.
-3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go.
-4. **Loading Complete Aggregates**: A specification can declare every `Include` an aggregate needs, so every caller loads it fully and its invariants can be enforced.
-5. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data. Instead of encapsulating queries in repositories, you can encapsulate them in specifications.
+1. **Reusable Queries**: Specifications can be used to define reusable query criteria for data access layers, making it easier to build complex queries
+2. **Validation Rules**: Specifications can be used to define validation rules for input data, ensuring that it meets the required criteria
+3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go
+4. **Loading Complete Aggregates**: A specification can declare every `Include` an aggregate needs, so every caller loads it fully and its invariants can be enforced
+5. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data. Instead of encapsulating queries in repositories, you can encapsulate them in specifications
 
 ## Ways to encapsulate query logic
 
@@ -96,7 +96,7 @@ public class OrderRepository(ApplicationDbContext dbContext) : IOrderRepository
 
 * ✅ Encapsulates data access logic behind an interface
 * ❌ Overkill for simple queries
-* ❌ The repository grows a new method for every variation of a query (`GetById`, `GetByIdWithItems`, `GetIncompleteById`...)
+* ❌ Every new query (`GetById`, `GetByIdWithItems`, `GetIncompleteById`...) changes the interface, its implementation and every mock of it
 
 ### Option 2 - Extension methods
 
@@ -115,7 +115,7 @@ public static class OrderQueryExtensions
 **Figure: An extension method encapsulating the order query**
 
 * ✅ Lightweight - no extra classes or packages
-* ❌ `Include` comes from EF Core, so the code that defines the query must reference EF Core. That usually means it can't live in the Domain layer, and it makes it easier to execute queries in the wrong layer
+* ❌ `Include` comes from EF Core, so the code that defines the query must reference EF Core. That usually means it can't live in the Domain layer
 * ❌ No consistent shape: each extension method chooses its own name, parameters and return type, so there is no standard for the team to follow
 
 ### Option 3 - Specifications (recommended)
@@ -129,12 +129,13 @@ Put the query in a static factory method on a specification class for the aggreg
 * ✅ Can be unit tested independently, e.g. by evaluating the specification against an in-memory list
 * ✅ Works alongside repositories, keeping them from growing a custom method for every query
 * ❌ Adds a third-party dependency (Ardalis.Specification) to the Domain layer
+* ❌ The spec class still grows one factory method per query, but each new query is one method in one file
 
 | | Specific repositories | Extension methods | Specifications |
 | --- | --- | --- | --- |
 | Removes duplicated queries | ✅ | ✅ | ✅ |
-| Can be defined in the Domain layer | ✅ (interface only) | ❌ | ✅ |
-| Scales to many query variations | ❌ | ✅ | ✅ |
+| Query logic lives in the Domain layer | ❌ (only the interface) | ❌ | ✅ |
+| A new query is one change in one place | ❌ | ✅ | ✅ |
 | Standard, consistent shape | ✅ | ❌ | ✅ |
 | No third-party dependency | ✅ | ✅ | ❌ |
 
@@ -142,17 +143,17 @@ Put the query in a static factory method on a specification class for the aggreg
 
 ## When to use Specifications
 
-Specifications earn their place when a query is complex or reused. Don't create one for every query.
+Specifications earn their place when a query is reused or loads an aggregate. Don't create one for every query.
 
-Use a specification when:
+Use a specification when either is true:
 
-* The same complex query is used in multiple places
-* You need to ensure an aggregate is fully loaded
+* The same query is used in more than one place
+* The query loads an aggregate that the caller will change, so every `Include` it needs must be there
 
-Query inline when:
+Query inline when both are true:
 
-* The query is simple (e.g. filtering on 1 or 2 fields)
 * The query is only used in one place
+* It is a simple read, e.g. a projection into a DTO for a single endpoint
 
 ## Using the Specification Pattern
 
@@ -176,6 +177,8 @@ public sealed class TeamSpec : Specification<Team>
     }
 }
 ```
+
+The base class is `Specification<T>`, not `SingleResultSpecification<T>`, because one class holds both single-result and list queries, and a list query needs ordering and paging on a type that doesn't claim to return one row. The single-result marker only matters to the Ardalis repository's `SingleOrDefaultAsync`, so `SingleOrDefaultAsync(TeamSpec.ById(teamId))` won't compile. Apply the spec with `WithSpecification(...)` and end the query yourself, e.g. with `FirstOrDefaultAsync`.
 
 ### 2. Use the specification
 
