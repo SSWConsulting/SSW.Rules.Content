@@ -1,0 +1,90 @@
+---
+type: rule
+title: Do you call for severe security incidents, even outside business hours?
+seoDescription: For a severe security incident, call your security lead whatever the time. Agree on what counts as severe and who to call before anything goes wrong.
+guid: 7e129b1a-ccee-4159-a065-90892185e0a1
+uri: call-after-hours-for-severe-security-incidents
+created: 2026-11-25T05:31:12.000Z
+authors:
+  - title: Harley Jackson
+    url: https://github.com/harley-j
+related:
+  - rule: public/uploads/rules/communicate-during-an-incident/rule.mdx
+  - rule: public/uploads/rules/call-first-before-emailing/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+At 9pm you spot an admin account signing in from another country. You don't want to wake the security lead, so you send a Teams message and an email. Their phone is on Do Not Disturb. They read it at 8am, and the attacker has had 11 hours.
+
+For a severe security incident, pick up the phone, whatever the time. Agree on what counts as severe and who to call before anything goes wrong, so nobody has to decide at 9pm whether it's "worth" waking someone.
+
+<endIntro />
+
+## Why should you call instead of sending a message?
+
+After hours, messages wait. Calls get through.
+
+* **Notifications are muted** - Quiet Hours in Teams and Do Not Disturb on phones hold chat and email until morning
+* **Every hour counts** - An attacker with a live session can create accounts, pull data and cover their tracks while your message sits unread
+* **You know it landed** - A call tells you someone has picked it up. A message tells you nothing until they reply
+
+## What counts as severe enough to call?
+
+If waiting until 9am makes it worse, call. For example:
+
+* **Active compromise** - An account takeover or an attacker inside a system right now
+* **Data exposure** - Customer or personal data being taken or publicly reachable
+* **Live leaked secret** - A production key or password that's leaked and still works
+* **Destructive activity** - Ransomware, mass deletion, or production down because of an attack
+
+A phishing email nobody clicked, a vulnerability scan finding or a dependency alert can wait. Raise them during business hours.
+
+## How do you agree on it before an incident?
+
+Ask your security lead now, not at 9pm. When we asked ours, the answer was simple: "If it's important, just call."
+
+Then write it down where everyone can find it:
+
+* **Who to call** - The on-call person if you have a roster, otherwise a named primary and a backup
+* **Which number** - Their mobile, not their desk phone or Teams
+* **What if they don't answer** - Call twice, leave a voicemail, then call the backup after 10 minutes
+
+<boxEmbed
+  body={<>
+    9:14pm, Teams message: "Hey, when you get a chance can you look at some weird sign-ins on the admin account?"
+  </>}
+  figurePrefix="bad"
+  figure="A vague message after hours sits unread until morning"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    9:14pm, phone call. No answer. Call again straight away, then voicemail: "It's Harley. The admin account is signing in from overseas right now. I've disabled it. Call me back on 0400 000 000."
+  </>}
+  figurePrefix="good"
+  figure="Call twice and leave a voicemail that states what's happening and what you've done"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** Calling twice within a few minutes matters. Most phones let a repeat caller ring through Do Not Disturb, so the second call is often the one that wakes them up.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you know the 4 R's of incident communication?](/communicate-during-an-incident) - What to say to whoever raised the incident
+* [SSW: Do you keep security incident evidence in one place, not in email?](/security-incident-single-source-of-truth) - Where the evidence goes once you've made the call
+* [SSW: Do you know when to call first before emailing?](/call-first-before-emailing) - The everyday version of this rule
+* [Atlassian - On-call](https://www.atlassian.com/incident-management/on-call) - How to set up an on-call roster
+* [Atlassian - Escalation policies](https://www.atlassian.com/incident-management/on-call/escalation-policies) - What to do when the first person doesn't answer
