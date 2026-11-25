@@ -11,6 +11,7 @@ authors:
 related:
   - rule: public/uploads/rules/communicate-during-an-incident/rule.mdx
   - rule: public/uploads/rules/call-first-before-emailing/rule.mdx
+  - rule: public/uploads/rules/use-quiet-hours-in-teams/rule.mdx
 categories:
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 archivedreason: null
@@ -25,15 +26,15 @@ For a severe security incident, pick up the phone, whatever the time. Agree on w
 
 ## Why should you call instead of sending a message?
 
-After hours, messages wait. Calls get through.
+After hours, messages wait. A call, and especially a second call, is far more likely to get through.
 
-* **Notifications are muted** - Quiet Hours in Teams and Do Not Disturb on phones hold chat and email until morning
+* **Notifications are muted** - Quiet Hours in Teams and Do Not Disturb on phones silence chat and email notifications until morning
 * **Every hour counts** - An attacker with a live session can create accounts, pull data and cover their tracks while your message sits unread
 * **You know it landed** - A call tells you someone has picked it up. A message tells you nothing until they reply
 
 ## What counts as severe enough to call?
 
-If waiting until 9am makes it worse, call. For example:
+If waiting until 8am makes it worse, call. For example:
 
 * **Active compromise** - An account takeover or an attacker inside a system right now
 * **Data exposure** - Customer or personal data being taken or publicly reachable
@@ -50,7 +51,8 @@ Then write it down where everyone can find it:
 
 * **Who to call** - The on-call person if you have a roster, otherwise a named primary and a backup
 * **Which number** - Their mobile, not their desk phone or Teams
-* **What if they don't answer** - Call twice, leave a voicemail, then call the backup after 10 minutes
+* **What if they don't answer** - Call twice within 3 minutes, leave a voicemail, then call the backup after 10 minutes
+* **Let the call through** - Ask them to add the on-call or team number to their phone's Do Not Disturb allowed list, so it rings even when the phone is silenced
 
 <boxEmbed
   body={<>
@@ -72,7 +74,7 @@ Then write it down where everyone can find it:
 
 <boxEmbed
   body={<>
-    **Tip:** Calling twice within a few minutes matters. Most phones let a repeat caller ring through Do Not Disturb, so the second call is often the one that wakes them up.
+    **Tip:** Calling twice within 3 minutes matters. iPhones can let a second call from the same number ring through Do Not Disturb, and Android phones can be set to do the same, so the second call is often the one that wakes them up.
   </>}
   figurePrefix="none"
   figure=""
