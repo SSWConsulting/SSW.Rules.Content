@@ -1,0 +1,234 @@
+---
+type: rule
+title: Do you know the best way to mock external APIs in your tests?
+seoDescription: Compare WireMock.Net, Kiota request adapter mocks, mocked interfaces and fake HTTP handlers for testing code that calls external APIs, and learn which to use.
+guid: 224bdc6c-c38b-400f-8063-add1c1b40c53
+uri: best-way-to-mock-external-apis
+created: 2026-11-25T03:50:35.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/use-testcontainers/rule.mdx
+  - rule: public/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/rule.mdx
+  - rule: public/uploads/rules/generate-api-clients/rule.mdx
+  - rule: public/uploads/rules/testing-pyramid/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+archivedreason: null
+isArchived: false
+---
+
+Most applications call external APIs: payment gateways, CRMs, Microsoft Graph, a partner's REST service. Calling the real thing from automated tests is slow, flaky, costs money, needs credentials, and makes it almost impossible to test what happens when the API returns a 500, times out, or rate limits you.
+
+So you mock it. But there are several ways to do that, and they give you very different levels of confidence.
+
+<endIntro />
+
+## What can go wrong when calling an external API?
+
+A good test strategy for an external API catches more than "did my code call the method". Bugs usually hide in:
+
+* **Serialization** - property names, casing, enums, dates and nulls in the JSON
+* **Request shape** - the URL, query string, HTTP method, headers and auth token
+* **Error handling** - 4xx and 5xx responses, malformed bodies, timeouts
+* **Resilience** - retries, circuit breakers and fallbacks (e.g. Polly or `Microsoft.Extensions.Http.Resilience`)
+* **Configuration** - base URLs, `HttpClient` registration and delegating handlers
+
+Each option below covers a different slice of that list.
+
+## Option 1 - Mock your own interface (regular mocks)
+
+Wrap the external API behind an interface you own (e.g. `IWeatherService`), then substitute it in tests with a mocking library such as [NSubstitute](https://nsubstitute.github.io/).
+
+```csharp
+var weather = Substitute.For<IWeatherService>();
+weather.GetForecastAsync("Sydney", Arg.Any<CancellationToken>())
+    .Returns(new Forecast("Sydney", 24));
+
+var handler = new GetTripAdviceHandler(weather);
+var advice = await handler.Handle(new GetTripAdviceQuery("Sydney"), CancellationToken.None);
+
+Assert.Equal("Pack sunscreen", advice.Recommendation);
+```
+
+**Figure: Mocking an interface you own isolates business logic from the API**
+
+✅ Pros
+
+* Fastest option, with no HTTP involved
+* Simple and familiar to most developers
+* Good for unit testing business logic that depends on the API's *result*
+
+❌ Cons
+
+* Tests none of the HTTP layer: serialization, URLs, headers, auth, resilience and DI registration go untested
+* The real implementation of `IWeatherService` still needs its own tests
+* Easy to mock behaviour the real API never exhibits
+
+## Option 2 - Mock the Kiota request adapter
+
+If you [generate your API client](/generate-api-clients) with Kiota, every request goes through an `IRequestAdapter`. The [Kiota testing documentation](https://learn.microsoft.com/en-us/openapi/kiota/testing) recommends mocking that adapter so the generated client returns your objects without making a request.
+
+```csharp
+var adapter = Substitute.For<IRequestAdapter>();
+var client = new WeatherApiClient(adapter);
+
+adapter.SendAsync(
+        Arg.Is<RequestInformation>(r => r.PathParameters.Values.Contains("Sydney")),
+        Arg.Any<ParsableFactory<Forecast>>(),
+        Arg.Any<Dictionary<string, ParsableFactory<IParsable>>>(),
+        Arg.Any<CancellationToken>())
+    .Returns(new Forecast { City = "Sydney", Temperature = 24 });
+
+var forecast = await client.Forecast["Sydney"].GetAsync();
+```
+
+**Figure: Mocking `IRequestAdapter` lets you test code that consumes a Kiota client directly**
+
+✅ Pros
+
+* Officially documented by Microsoft
+* No server, ports or Docker required
+* Lets you inspect the outgoing `RequestInformation` (path parameters, query, body)
+
+❌ Cons
+
+* Skips the real `HttpClientRequestAdapter`, so serialization, Kiota middleware, auth providers and resilience handlers never run
+* Couples your tests to Kiota internals: you must stub the exact overload (`SendAsync`, `SendCollectionAsync`, `SendPrimitiveAsync`...) the generated method calls
+* Verbose setup, and it only works for Kiota clients
+
+## Option 3 - Fake the `HttpMessageHandler`
+
+Replace the primary `HttpMessageHandler` of your `HttpClient` with a fake, e.g. [RichardSzalay.MockHttp](https://github.com/richardszalay/mockhttp). Your real typed client runs, but the request never leaves the process.
+
+```csharp
+var mockHttp = new MockHttpMessageHandler();
+mockHttp.When(HttpMethod.Get, "https://api.weather.example/forecast/Sydney")
+    .Respond("application/json", """{ "city": "Sydney", "temperature": 24 }""");
+
+var http = mockHttp.ToHttpClient();
+http.BaseAddress = new Uri("https://api.weather.example/");
+
+var client = new WeatherClient(http);
+```
+
+**Figure: A fake handler exercises your real client and serialization without a server**
+
+✅ Pros
+
+* Exercises your real client code, including serialization and URL building
+* Fast and in-process
+* Lightweight with no ports or containers
+
+❌ Cons
+
+* Bypasses the network stack, so timeouts, connection failures and some resilience behaviour are hard to simulate realistically
+* Constructing the client directly (as above) skips DI, so auth and resilience delegating handlers don't run. Testing them means wiring the fake through `IHttpClientFactory`, which takes extra plumbing
+* Register the fake with `ConfigurePrimaryHttpMessageHandler`. Adding it with `AddHttpMessageHandler` makes it a delegating handler that short-circuits every handler after it, so retry tests pass without exercising anything
+
+## Option 4 - Run a fake HTTP server with WireMock.Net ⭐ (Recommended)
+
+[WireMock.Net](https://wiremock.org/dotnet/) starts a real HTTP server inside your test process. You point your application's base URL at it, define stubs for the endpoints you call, and your application runs exactly as it does in production, all the way down to the socket.
+
+```csharp
+public class WeatherApiTests : IAsyncLifetime
+{
+    private WireMockServer _weatherApi = null!;
+    private WebApplicationFactory<Program> _factory = null!;
+
+    public ValueTask InitializeAsync()
+    {
+        // Let WireMock pick a free port so tests can run in parallel
+        _weatherApi = WireMockServer.Start();
+
+        _factory = new WebApplicationFactory<Program>()
+            .WithWebHostBuilder(b =>
+            {
+                b.UseSetting("WeatherApi:BaseUrl", _weatherApi.Urls[0]);
+
+                // Production backoff (seconds per retry) would make every fault test crawl
+                b.ConfigureServices(services => services.ConfigureAll<HttpStandardResilienceOptions>(
+                    o => o.Retry.Delay = TimeSpan.Zero));
+            });
+
+        return ValueTask.CompletedTask;
+    }
+
+    [Fact]
+    public async Task GetTripAdvice_WhenWeatherApiIsDown_ReturnsFallback()
+    {
+        _weatherApi
+            .Given(Request.Create().WithPath("/forecast/Sydney").UsingGet())
+            .RespondWith(Response.Create().WithStatusCode(HttpStatusCode.ServiceUnavailable));
+
+        var response = await _factory.CreateClient().GetAsync("/trip-advice/Sydney");
+
+        response.EnsureSuccessStatusCode();
+        // More than one call proves the resilience pipeline retried before falling back
+        var calls = _weatherApi.FindLogEntries(
+            Request.Create().WithPath("/forecast/Sydney").UsingGet());
+        Assert.True(calls.Count > 1);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        await _factory.DisposeAsync();
+        _weatherApi.Stop();
+    }
+}
+```
+
+**Figure: WireMock.Net tests the whole pipeline: DI, typed client, auth, resilience and serialization**
+
+✅ Pros
+
+* Highest confidence - the real `HttpClient`, handlers, serialization and resilience pipeline all run
+* Works with any client: Kiota, Refit, NSwag or hand-written `HttpClient` code
+* Easy fault injection: status codes, delays (`WithDelay`), malformed bodies and dropped connections
+* Request verification via the request log, so you can assert on what was actually sent
+* Stubs can be loaded from JSON files, recorded from a real API, or run as a standalone server or Docker container for local development and end-to-end tests
+
+❌ Cons
+
+* Slower than in-memory mocks. Stubbed calls take milliseconds, but fault tests inherit your real retry delays unless you shorten them in the test host (as above)
+* More setup: a server per test (or one shared through a class fixture, calling `_weatherApi.Reset()` between tests) plus base URL configuration
+* Stubs can drift from the real API over time, just like any other mock
+
+<boxEmbed
+  style="tips"
+  body={<>
+    **Tip:** Using Kiota? Point the real `HttpClientRequestAdapter` at the WireMock URL instead of mocking `IRequestAdapter`. You keep the generated client and test it end to end.
+  </>}
+  figurePrefix="none"
+  figure="Combine Kiota with WireMock.Net for the most realistic tests"
+/>
+
+## Other options worth knowing
+
+* **[Microsoft Dev Proxy](https://learn.microsoft.com/en-us/microsoft-cloud/dev/dev-proxy/overview)** - a local proxy that simulates errors, throttling and latency from real APIs. Better suited to exploring resilience during development (or chaos-style runs in CI) than to fine-grained, per-test stubbing
+* **[Prism](https://stoplight.io/open-source/prism)** - spins up a mock server from an OpenAPI document. Useful for frontend teams working ahead of the backend (see [when to mockup your API](/mockup-your-apis))
+* **[Pact](https://docs.pact.io/)** - consumer-driven contract testing. It doesn't replace mocking; it complements it by verifying your stubs still match what the provider actually returns
+
+## Comparison
+
+| | Mocked interface | Kiota adapter mock | Fake `HttpMessageHandler` | WireMock.Net |
+| --- | --- | --- | --- | --- |
+| Speed | ⚡ Fastest | ⚡ Fastest | ⚡ Fast | 🟢 Fast |
+| Tests serialization | ❌ | ❌ | ✅ | ✅ |
+| Tests headers and auth | ❌ | ⚠️ Headers only, no auth | ⚠️ Only when wired through `IHttpClientFactory` | ✅ |
+| Tests resilience (retries, timeouts) | ❌ | ❌ | ⚠️ Partial | ✅ |
+| Tests DI and `HttpClient` configuration | ❌ | ❌ | ⚠️ Partial | ✅ |
+| Works with any client | ✅ | ❌ Kiota only | ✅ | ✅ |
+| Setup effort | Low | Medium | Medium | Medium |
+
+**Figure: How each option compares for testing code that calls an external API**
+
+## Recommendation
+
+* **Integration tests: use WireMock.Net.** It is the only option that proves your application talks to the API correctly, including the failure paths that cause production incidents
+* **Unit tests: mock your own interface.** Keep business logic behind an abstraction and substitute it with NSubstitute for fast, focused tests
+* **Use a Kiota adapter mock or fake handler only when you need a fast test of the client wrapper itself** and can't run an HTTP server
+* **Add contract tests (e.g. Pact) for critical APIs** so your WireMock stubs don't silently drift from reality
+
+This mirrors how you treat databases: mock at the unit level, but [use real infrastructure with Testcontainers](/use-testcontainers) for integration tests.
