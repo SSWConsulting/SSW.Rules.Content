@@ -1,0 +1,128 @@
+---
+type: rule
+title: Do you run AI Security Scans?
+seoDescription: Run an AI security scan like Claude Code's /security-review before every push, so AI-written vulnerabilities are caught before they get merged.
+guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
+uri: ai-security-scans
+created: 2026-11-25T23:50:23.000Z
+authors:
+  - title: Harley Jackson
+    url: https://github.com/harley-j
+related:
+  - rule: public/uploads/rules/developer-cybersecurity-tools/rule.mdx
+  - rule: public/uploads/rules/defend-against-package-supply-chain-attacks/rule.mdx
+  - rule: public/uploads/rules/penetration-testing/rule.mdx
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+An AI Agent builds a new invoices endpoint in 20 minutes. The tests pass and the PR gets approved. Nobody notices it reads `customerId` from the request body, so any logged-in user can download anyone else's invoices.
+
+Run an AI security scan as part of your daily workflow, before you push. It reads your diff the way an attacker would, and flags the hole while the fix is still a 2-line change, not a post-merge incident.
+
+<endIntro />
+
+## Why do you need a security scan when AI writes the code?
+
+AI writes code that works, not code that's safe. [Veracode's 2025 GenAI Code Security Report](https://www.veracode.com/press-release/ai-generated-code-poses-major-security-risks-in-nearly-half-of-all-development-tasks-veracode-research-reveals/) tested 100+ LLMs on 80 coding tasks. 45% of the results had a security flaw, and newer or bigger models did no better.
+
+The flaws are the classics:
+
+* **Broken access control** - An endpoint trusts an ID from the client instead of checking who owns the record
+* **Injection** - SQL built with string concatenation, or user input dropped into `dangerouslySetInnerHTML`
+* **Hard-coded secrets** - An API key pasted in "just to test it", then committed
+* **Risky dependencies** - A package version the AI suggested that has a known CVE, which the [OWASP Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) tells you to audit
+
+Human review still matters, but a reviewer skimming a 900-line AI diff at 4pm misses the one missing ownership check. A scan reads every line.
+
+## When should you run it?
+
+Before every push. Make it part of the same loop as lint and tests, not a once-a-release event.
+
+<boxEmbed
+  body={<>
+    **Scan once before release** - You run a security tool the week before go-live. It finds 37 issues across 3 Sprints of work, and nobody remembers why half that code was written that way.
+  </>}
+  figurePrefix="bad"
+  figure="A late scan turns cheap fixes into archaeology"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **Scan before every push** - You run `/security-review` before `git push`. It flags 1 issue in the 40 lines you just wrote, and you fix it while the context is still in your head.
+  </>}
+  figurePrefix="good"
+  figure="A scan on every push catches the issue while the fix is still small"
+  style="greybox"
+/>
+
+## How do you run an AI security scan?
+
+### Claude Code (Recommended)
+
+On your feature branch, before you push:
+
+```bash
+# Reviews all pending changes on the current branch
+/security-review
+```
+
+Claude checks your changes for injection, auth and authorisation flaws, data exposure and insecure defaults. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
+
+To add your own project rules (e.g. "every API route must check the tenant"), copy `security-review.md` from [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) into your repo's `.claude/commands/` folder and edit it.
+
+### GitHub Copilot
+
+Copilot can run the same kind of local review from Copilot CLI or your IDE before the code reaches GitHub. See GitHub's [Secure code from commit to production](https://docs.github.com/en/code-security/tutorials/secure-code-from-commit-to-production) tutorial.
+
+<boxEmbed
+  body={<>
+    **Tip:** Back up the local scan with a PR check, so a skipped scan still gets caught. The [claude-code-security-review GitHub Action](https://github.com/anthropics/claude-code-security-review) runs the same analysis on every PR and comments inline. Pin it to a commit SHA, not `@main`.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+<boxEmbed
+  body={<>
+    **Only run the PR Action on trusted PRs.** Its README warns it is not hardened against prompt injection. A PR from a fork can hide instructions in a comment that tell the reviewer to approve it.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## Which tool catches what?
+
+No single tool covers everything. Layer them.
+
+| Tool | When it runs | What it's best at |
+|---|---|---|
+| Claude Code `/security-review` (Recommended) | Locally, before push | Logic flaws in your diff - access control, injection, data exposure - with fixes in the same session |
+| Copilot CLI security review | Locally, before push | The same local check for teams on Copilot |
+| claude-code-security-review Action | On every PR | Safety net when someone skips the local scan |
+| GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR | Known vulnerability patterns, with a suggested fix |
+| GitHub secret scanning push protection | At `git push` | Blocks the push when it detects a secret |
+
+<boxEmbed
+  body={<>
+    An AI scan complements human review and [Penetration Testing](/penetration-testing). It doesn't replace them. Anthropic says the same about its own tool.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+***
+
+### Learn more
+
+* [SSW: Do you use the right cybersecurity tools when writing code?](/developer-cybersecurity-tools) - The non-AI scanners to run alongside this
+* [SSW: Do you defend against package supply chain attacks?](/defend-against-package-supply-chain-attacks) - Lockfiles, release-age windows and install scripts
+* [Anthropic - Automate security reviews with Claude Code](https://claude.com/blog/automate-security-reviews-with-claude-code) - Why the command exists and what it looks for
+* [OWASP - Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) - Threats specific to AI Agents that run commands and push code
+* [Veracode - 2026 GenAI Code Security Report](https://www.veracode.com/wp-content/uploads/2026-GenAI-Report-Infographic.pdf) - The latest numbers: 44% of AI coding tasks still produced a risky vulnerability
