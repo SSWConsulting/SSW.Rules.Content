@@ -24,38 +24,41 @@ When developing software, ensuring that your code is maintainable, flexible, and
 
 ## What Problem are we Solving here?
 
-Let's take the example below of adding/removing items to/from a customer's order.  When looking up the customer we need to include the current OrderItems and ensure the order is not complete.  This logic is duplicated in both the AddItem and RemoveItem methods, which violates the DRY principle.
+Let's take the example below of adding items to, or removing items from, an order. When looking up the order we need to include the current OrderItems and ensure the order is not complete. This logic is duplicated in both the AddItem and RemoveItem methods, which violates the DRY principle.
 
-Even worse, if the logic changes, we need to update it in multiple places, increasing the risk of bugs and inconsistencies.  Below we correctly check the orders status when adding items, but not when removing them which is a bug.
+Even worse, if the logic changes, we need to update it in multiple places, increasing the risk of bugs and inconsistencies. Below we correctly check the order's status when adding items, but not when removing them, which is a bug.
 
 ```csharp
 public class OrderService(ApplicationDbContext dbContext)
 {
-    public async Task AddItem(Guid orderId, OrderItem item)
+    public async Task AddItem(Guid orderId, OrderItem item, CancellationToken ct)
     {
-        var order = dbContext.Orders
+        var order = await dbContext.Orders
             .Include(o => o.OrderItems)
-            .FirstOrDefault(o => o.Id == orderId && o.Status != OrderStatus.Complete);
+            .FirstOrDefaultAsync(o => o.Id == orderId && o.Status != OrderStatus.Complete, ct)
+            ?? throw new KeyNotFoundException($"Incomplete order {orderId} not found");
 
         order.AddItem(item);
 
-        await dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync(ct);
     }
 
-    public void RemoveItem(int age)
+    public async Task RemoveItem(Guid orderId, OrderItem item, CancellationToken ct)
     {
         // Duplicated logic and bug introduced by not checking OrderStatus
-        var order = dbContext.Orders
+        var order = await dbContext.Orders
             .Include(o => o.OrderItems)
-            .FirstOrDefault(o => o.Id == orderId);
+            .FirstOrDefaultAsync(o => o.Id == orderId, ct)
+            ?? throw new KeyNotFoundException($"Order {orderId} not found");
 
         order.RemoveItem(item);
 
-        await dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync(ct);
     }
 }
 ```
-**❌ Figure: Bad example - Duplicated query logic to fetch the customer**  
+
+**❌ Figure: Bad example - Duplicated query logic to fetch the order**
 
 ## What is the Specification Pattern?
 
@@ -66,15 +69,96 @@ The Specification pattern is a design pattern used to define business rules in a
 1. **Reusable Queries**: Specifications can be used to define reusable query criteria for data access layers, making it easier to build complex queries.
 2. **Validation Rules**: Specifications can be used to define validation rules for input data, ensuring that it meets the required criteria.
 3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go.
-4. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data.  Instead of encapsulating queries in repositories, you can encapsulate them in specifications.
+4. **Loading Complete Aggregates**: A specification can declare every `Include` an aggregate needs, so every caller loads it fully and its invariants can be enforced.
+5. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data. Instead of encapsulating queries in repositories, you can encapsulate them in specifications.
+
+## Ways to encapsulate query logic
+
+Specifications are not the only way to remove duplicated query logic. Here is how they compare with the two most common alternatives.
+
+### Option 1 - Specific repositories
+
+Put each query behind a method on a repository built for one aggregate (e.g. `IOrderRepository`, not a generic `IRepository<T>`).
+
+```csharp
+public class OrderRepository(ApplicationDbContext dbContext) : IOrderRepository
+{
+    public Task<Order?> GetIncompleteOrderById(Guid orderId, CancellationToken ct) =>
+        dbContext.Orders
+            .Include(o => o.OrderItems)
+            .FirstOrDefaultAsync(o => o.Id == orderId && o.Status != OrderStatus.Complete, ct);
+}
+```
+
+**Figure: A specific repository method encapsulating the order query**
+
+* ✅ Encapsulates data access logic behind an interface
+* ❌ Overkill for simple queries
+* ❌ The repository grows a new method for every variation of a query (`GetById`, `GetByIdWithItems`, `GetIncompleteById`...)
+
+### Option 2 - Extension methods
+
+Put the query in an extension method on `IQueryable<T>`.
+
+```csharp
+public static class OrderQueryExtensions
+{
+    public static IQueryable<Order> IncompleteOrderById(this IQueryable<Order> query, Guid orderId) =>
+        query
+            .Include(o => o.OrderItems)
+            .Where(o => o.Id == orderId && o.Status != OrderStatus.Complete);
+}
+```
+
+**Figure: An extension method encapsulating the order query**
+
+* ✅ Lightweight - no extra classes or packages
+* ❌ `Include` comes from EF Core, so the code that defines the query must reference EF Core. That usually means it can't live in the Domain layer, and it makes it easier to execute queries in the wrong layer
+* ❌ No consistent shape: each extension method chooses its own name, parameters and return type, so there is no standard for the team to follow
+
+### Option 3 - Specifications (recommended)
+
+Put the query in its own specification class, as shown in [Using the Specification Pattern](#using-the-specification-pattern) below.
+
+* ✅ Encapsulates data access logic, following the Single Responsibility Principle
+* ✅ Can encapsulate complex queries, including `Include`, split queries, `AsNoTracking`, ordering and paging
+* ✅ Can live in the Domain layer without referencing EF Core
+* ✅ Gives the team one standard pattern for data access
+* ✅ Can be unit tested independently, e.g. by evaluating the specification against an in-memory list
+* ✅ Works alongside repositories, keeping them from growing a custom method for every query
+* ❌ Adds a third-party dependency (Ardalis.Specification) to the Domain layer
+
+| | Specific repositories | Extension methods | Specifications |
+| --- | --- | --- | --- |
+| Removes duplicated queries | ✅ | ✅ | ✅ |
+| Can be defined in the Domain layer | ✅ (interface only) | ❌ | ✅ |
+| Scales to many query variations | ❌ | ✅ | ✅ |
+| Standard, consistent shape | ✅ | ❌ | ✅ |
+| No third-party dependency | ✅ | ✅ | ❌ |
+
+**Figure: Comparison of approaches to encapsulating data access**
+
+## When to use Specifications
+
+Specifications earn their place when a query is complex or reused. Don't create one for every query.
+
+Use a specification when:
+
+* The same complex query is used in multiple places
+* You need to ensure an aggregate is fully loaded
+
+Query inline when:
+
+* The query is simple (e.g. filtering on 1 or 2 fields)
+* The query is only used in one place
 
 ## Using the Specification Pattern
 
-Steve Smith (aka ["Ardalis"])([https://github.com/ardalis](https://github.com/ardalis)) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
+Steve Smith (aka ["Ardalis"](https://github.com/ardalis)) has created an excellent library called [Ardalis.Specification](https://github.com/ardalis/Specification) that integrates well with EF Core.
 
-To use the Specification pattern, follow these steps:
+To use the Specification pattern:
 
-1. **Define the Specification**:
+### 1. Define the specification
 
 ```csharp
 public sealed class TeamByIdSpec : SingleResultSpecification<Team>
@@ -82,19 +166,19 @@ public sealed class TeamByIdSpec : SingleResultSpecification<Team>
     public TeamByIdSpec(TeamId teamId)
     {
         Query.Where(t => t.Id == teamId)
-        .Include(t => t.Missions)
-        .Include(t => t.Heroes);
+            .Include(t => t.Missions)
+            .Include(t => t.Heroes);
     }
 }
 ```
 
-2. **Use Specification**:
+### 2. Use the specification
 
 ```csharp
-    var teamId = new TeamId(request.TeamId);
-    var team = dbContext.Teams
-        .WithSpecification(new TeamByIdSpec(teamId))
-        .FirstOrDefault();
+var teamId = new TeamId(request.TeamId);
+var team = await dbContext.Teams
+    .WithSpecification(new TeamByIdSpec(teamId))
+    .FirstOrDefaultAsync(ct);
 ```
 
 For an end-to-end example of the specification pattern see the [SSW.CleanArchitecture Template](https://github.com/SSWConsulting/SSW.CleanArchitecture).
@@ -104,39 +188,42 @@ For an end-to-end example of the specification pattern see the [SSW.CleanArchite
 Re-visiting the example above, we can apply the Specification pattern as follows:
 
 ```csharp
-public sealed class OrderByIdSpec : SingleResultSpecification<Order>
+public sealed class IncompleteOrderByIdSpec : SingleResultSpecification<Order>
 {
-   public IncompleteOrderByIdSpec(Guid orderId)
-   {
+    public IncompleteOrderByIdSpec(Guid orderId)
+    {
         Query
             .Include(o => o.OrderItems)
             .Where(o => o.Id == orderId && o.Status != OrderStatus.Complete);
-   }
+    }
 }
 
 public class OrderService(ApplicationDbContext dbContext)
 {
-    public async Task AddItem(Guid orderId, OrderItem item)
+    public async Task AddItem(Guid orderId, OrderItem item, CancellationToken ct)
     {
-        var order = dbContext.Orders
-            .WithSpecification(new OrderByIdSpec(orderIdorderId))
-            .FirstOrDefaultAsync();
+        var order = await dbContext.Orders
+            .WithSpecification(new IncompleteOrderByIdSpec(orderId))
+            .FirstOrDefaultAsync(ct)
+            ?? throw new KeyNotFoundException($"Incomplete order {orderId} not found");
 
         order.AddItem(item);
 
-        await dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync(ct);
     }
 
-    public void RemoveItem(int age)
+    public async Task RemoveItem(Guid orderId, OrderItem item, CancellationToken ct)
     {
-        var order = dbContext.Orders
-            .WithSpecification(new IncompleteOrderByIdSpec(orderIdorderId))
-            .FirstOrDefaultAsync();
+        var order = await dbContext.Orders
+            .WithSpecification(new IncompleteOrderByIdSpec(orderId))
+            .FirstOrDefaultAsync(ct)
+            ?? throw new KeyNotFoundException($"Incomplete order {orderId} not found");
 
         order.RemoveItem(item);
 
-        await dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync(ct);
     }
 }
 ```
+
 **✅ Figure: Good example - Specification used to keep Order query logic DRY**
