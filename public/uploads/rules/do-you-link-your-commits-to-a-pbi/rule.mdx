@@ -11,6 +11,10 @@ authors:
   url: https://www.ssw.com.au/people/jernej-kavka
 - title: Patricia Barros
   url: https://www.ssw.com.au/people/patricia-barros
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
 created: 2019-03-13 01:00:34+00:00
 createdBy: Andreas Lengkeek
 createdByEmail: AndreasLengkeek@ssw.com.au
@@ -20,64 +24,141 @@ lastUpdated: 2019-04-02 03:33:33+00:00
 lastUpdatedBy: Andreas Lengkeek
 lastUpdatedByEmail: AndreasLengkeek@ssw.com.au
 redirects: []
-seoDescription: Do you link your commits to a Product Backlog Item (PBI) in Azure
-  DevOps for better clarity on what work is done?
+related:
+- rule: public/uploads/rules/branch-naming/rule.mdx
+- rule: public/uploads/rules/use-emojis-in-your-commits/rule.mdx
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+- rule: public/uploads/rules/avoid-auto-closing-issues/rule.mdx
+- rule: public/uploads/rules/3-steps-to-a-pbi/rule.mdx
+seoDescription: Link every branch, commit, and pull request to its PBI in GitHub or
+  Azure DevOps so anyone can trace code back to the reason it was written.
 title: Do you link commits, branches, and PRs to a PBI?
 categories:
   - category: categories/company-operations/rules-to-better-research-and-development.mdx
+  - category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
+  - category: categories/project-delivery/rules-to-better-github.mdx
+  - category: categories/project-delivery/rules-to-better-scrum-using-azure-devops.mdx
 type: rule
 uri: do-you-link-your-commits-to-a-pbi
 ---
 
-To improve visibility into what work has been done, link your PBIs and tasks to the related commits, branches, and pull requests. **Every commit, branch, and PR should be associated with a PBI.**
+When someone runs `git blame` on a strange line of code months later, they ask "why is this here?". If the branch, commits, and pull request point back to a PBI, the answer is one click away: the requirement, the discussion, the acceptance criteria, and the Done video. If they don't, the context is lost.
+
+**Every branch, commit, and PR should be traceable to a PBI.**
 
 <endIntro />
 
+## What to link
+
+Git is distributed. A branch can be created in the GitHub UI, on the command line, by an IDE, or by an AI agent, so you can't rely on a tool to make the link for you. Put the PBI number where it travels with the code:
+
+1. **Branch name** - Follow a [branch naming convention](/branch-naming) that includes the PBI number
+2. **Commit messages** - Reference the PBI in every commit
+3. **Pull request** - Reference the PBI in the [PR description](/write-a-good-pull-request)
+
+The first 2 are the most important, because they work no matter where the branch was created. Opening a draft PR straight away and linking it to the PBI also gives visibility, but it's a weaker substitute for a good branch name and good commit messages.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+* Branch: `fix-login`
+* Commit: `Fixed the bug`
+* PR: "Login fix"
+  </>}
+  figurePrefix="bad"
+  figure="Nothing points back to the PBI, so nobody knows why the change was made"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+* Branch: `bugfix/1234-login-fails-for-sso-users`
+* Commit: `🐛 BUG - Fix SSO login redirect loop (#1234)`
+* PR: "🐛 BUG - Fix SSO login redirect loop" with "Relates to #1234" in the description
+  </>}
+  figurePrefix="good"
+  figure="The branch, commit, and PR all carry the PBI number"
+/>
+
+## Using GitHub
+
+### Create the branch from the issue
+
+The easiest way to link a branch to an issue is to create it from the issue itself. In the issue sidebar, under **Development**, click **Create a branch**. GitHub suggests a name starting with the issue number (e.g. `1234-login-fails-for-sso-users`). Edit it to add a category prefix (e.g. `bugfix/1234-login-fails-for-sso-users`) so it follows your [naming convention](/branch-naming). The branch appears in the issue's **Development** section so anyone looking at the issue can see the work in progress.
+
+From the command line, the [GitHub CLI](https://cli.github.com/manual/gh_issue_develop) does the same thing:
+
+```bash
+gh issue develop 1234 --name bugfix/1234-login-fails-for-sso-users --checkout
+```
+
+See [Creating a branch to work on an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-a-branch-for-an-issue) for details.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Only branches created from the issue (or with `gh issue develop`) appear in the **Development** section. A branch created anywhere else isn't linked, which is why the branch name and commit messages still matter.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Reference the issue in commits and PRs
+
+When a commit message or PR description contains `#1234`, GitHub [autolinks it](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls) and adds a reference to the issue's timeline. The issue then shows every commit and PR that touched it.
+
+Avoid closing keywords such as `Closes #1234` or `Fixes #1234`. They close the issue as soon as the PR is merged (or the commit reaches the default branch), before the work is tested, deployed, and [closed with context](/close-pbis-with-context). Use a neutral phrase like `Relates to #1234` instead. If your team links PRs from the **Development** sidebar, also turn off **Auto-close issues with merged linked pull requests** in the repository settings, as described in [Do you avoid linking issues to PRs in GitHub?](/avoid-auto-closing-issues).
+
+### Enforce it
+
+On plans that support them, [ruleset metadata restrictions](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#metadata-restrictions) can require branch names and commit messages to match a pattern, such as one containing a PBI number.
+
+## Using Azure DevOps
+
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps work item with an empty Development section"
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure="No linked commits, branches or pull requests"
+  figure="No linked commits, branches, or pull requests"
   src="/uploads/rules/do-you-link-your-commits-to-a-pbi/no-linked-commit.png"
 />
 
-
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps work item showing a linked Git branch in its Development section"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Git branch linked to PBI in Azure DevOps"
+  figure="Git branch linked to the PBI"
   src="/uploads/rules/do-you-link-your-commits-to-a-pbi/link-branch-to-pbi.png"
 />
-
-
-## Using Azure DevOps
 
 If you create branches through Azure DevOps, you can link them to a work item during the creation process.
 
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps Create a branch dialog with a work item selected"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Using Azure DevOps to link PBI during creation"
+  figure="Linking the PBI when creating the branch"
   src="/uploads/rules/do-you-link-your-commits-to-a-pbi/link-pbi-during-creation.png"
 />
 
+In Azure Repos, a commit message containing `#1234` links the commit to work item 1234. If your code is in GitHub and your backlog is in Azure Boards, use `AB#1234` instead, as described in [Link GitHub commits and pull requests to work items](https://learn.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?WT.mc_id=DOP-MVP-33518).
 
-Learn more on this article: [Linking Work Items to Git Branches, Commits, and Pull Requests](https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests?WT.mc_id=DOP-MVP-33518).
+Learn more in [Linking Work Items to Git Branches, Commits, and Pull Requests](https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests?WT.mc_id=DOP-MVP-33518).
 
-## Automating rule enforcement
+### Enforce it
 
-You can [setup Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?WT.mc_id=DOP-MVP-33518) on your main branches to enforce this behaviour.
+You can [set up Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?WT.mc_id=DOP-MVP-33518) on your main branches to require linked work items on every pull request.
 
 <imageEmbed
-  alt="Image"
+  alt="Azure DevOps branch policy settings with Check for linked work items enabled"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Branch Policy on the master branch to enforce linked work items on pull requests"
+  figure="Branch Policy on the main branch requiring linked work items on pull requests"
   src="/uploads/rules/do-you-link-your-commits-to-a-pbi/add-branch-policy-for-linked-items.png"
 />

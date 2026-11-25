@@ -20,6 +20,8 @@ related:
   - rule: public/uploads/rules/have-a-definition-of-ready/rule.mdx
   - rule: public/uploads/rules/acceptance-criteria/rule.mdx
   - rule: public/uploads/rules/react-to-reviewed-pbis/rule.mdx
+  - rule: public/uploads/rules/do-you-link-your-commits-to-a-pbi/rule.mdx
+  - rule: public/uploads/rules/branch-naming/rule.mdx
   - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
   - rule: public/uploads/rules/done-video/rule.mdx
   - rule: public/uploads/rules/definition-of-done/rule.mdx
@@ -39,7 +41,7 @@ lastUpdatedByEmail: JoshBerman@ssw.com.au
 archivedreason: null
 ---
 
-A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work. It refers to an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project. 
+A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work. It refers to an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project.
 
 Before a PBI is worked on it should be added to the current Sprint Backlog during [Sprint Planning](/what-happens-at-a-sprint-planning-meeting). If your PBI doesn't exist, or is in an email then you need to [turn it into a PBI](/turn-emails-into-pbis) to be prioritized in Sprint Planning.
 
@@ -58,9 +60,9 @@ Before a PBI is worked on it should be added to the current Sprint Backlog durin
   style="greybox"
   body={<>
     ### Use YakShaver and make it even easier
-    
+
     You can save time by not writing PBIs manually.
-    
+
     With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning the right people and assigning it to the correct team.
   </>}
   figurePrefix="none"
@@ -84,9 +86,9 @@ You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already
 This step depends on the complexity and nature of the task, especially if the PBI involves intricate coding or extensive testing to meet the defined [Acceptance Criteria](/acceptance-criteria).
 
 1. Move PBI to "In Progress"
-2. Create a branch
-3. Code, code, code... ([make sure to Red-Green-Refactor](/reply-done-plus-added-a-unit-test))
-4. Make a Pull Request with [lots of context](/write-a-good-pull-request)
+2. Create a branch [linked to the PBI](/do-you-link-your-commits-to-a-pbi), with the PBI number in the [branch name](/branch-naming) (e.g. use **Create a branch** in the PBI's **Development** section)
+3. Code, code, code... ([make sure to Red-Green-Refactor](/reply-done-plus-added-a-unit-test)), referencing the PBI number in your commit messages
+4. Make a Pull Request with [lots of context](/write-a-good-pull-request) that references the PBI
 5. Get an ["over the shoulder"](/over-the-shoulder) review
 6. Record a [Done Video](/record-a-quick-and-dirty-done-video) so you get your ducks in a row for the explanation to the Product Owner
 7. Show the Product Owner so they give you earlier feedback
