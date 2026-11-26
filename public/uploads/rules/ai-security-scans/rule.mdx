@@ -55,6 +55,15 @@ Before you ask a teammate to review your PR. Once the feature is done, scan the 
 
 Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
 
+```mermaid
+flowchart LR
+  A["Sprint 1 code"] --> M["Merged unscanned"]
+  B["Sprint 2 code"] --> M
+  C["Sprint 3 code"] --> M
+  M --> S["Security scan before go-live"]
+  S --> X["37 issues, no context left"]
+```
+
 <boxEmbed
   body={<>
     **Scan once before release** - You run a security tool the week before go-live. It finds 37 issues across 3 Sprints of work, and nobody remembers why half that code was written that way.
@@ -63,6 +72,16 @@ Not on every push. A work-in-progress push is a half-finished diff, so you get h
   figure="A late scan turns cheap fixes into archaeology"
   style="greybox"
 />
+
+```mermaid
+flowchart LR
+  A["Finish the feature"] --> B["Run /security-review"]
+  B --> C{"Issues found?"}
+  C -->|Yes| D["Fix while the context is fresh"]
+  D --> B
+  C -->|No| E["Open the PR for review"]
+  E --> F["Merged"]
+```
 
 <boxEmbed
   body={<>
