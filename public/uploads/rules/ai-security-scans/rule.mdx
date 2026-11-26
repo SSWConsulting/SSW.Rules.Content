@@ -115,6 +115,8 @@ When your feature is done, run this in Claude Code on your feature branch:
 
 Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
+We also encourage using Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
+
 ### OpenAI Codex
 
 Install the Codex Security plugin, then ask Codex to review your branch before you ask for review:
