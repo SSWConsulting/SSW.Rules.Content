@@ -19,6 +19,7 @@ redirects:
 related:
 - rule: public/uploads/rules/awesome-documentation/rule.mdx
 - rule: public/uploads/rules/azure-resources-diagram/rule.mdx
+- rule: public/uploads/rules/use-c4-model/rule.mdx
 seoDescription: Create architecture diagrams to provide a clear overview of your project's
   structure, components, and data flow for better understanding and decision-making.
 title: Do you have an architecture diagram?
@@ -255,41 +256,6 @@ Maintain standards to keep your diagrams consistent:
 />
 
 
-### Alternatives to draw.io
-
-#### Eraser
-
-Another popular tool is [Eraser](https://app.eraser.io/) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
-
-#### Miro (by Adobe)
-
-[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose.
-
-**Note:** The paid version of [Miro gives you Azure Architecture Diagram templates](https://miro.com/templates/azure-architecture-diagram/).
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="An Azure Architecture Diagram created in Miro"
-  src="/uploads/rules/architecture-diagram/miro-arch-diagram.jpg"
-/>
-
-
-#### Mermaid
-
-If you really want to geek out and use markdown, you can try [Mermaid](https://mermaid.live) to build simple diagrams.
-
-#### Lucidchart
-
-[Lucidchart](https://www.lucid.app/) is a popular cloud-based diagramming tool with a large library of templates and shape libraries for AWS, Azure, and GCP architecture icons. It's a strong choice if your team is already in the Lucid ecosystem (e.g. using Lucidspark for whiteboarding).
-
-#### Excalidraw
-
-[Excalidraw](https://excalidraw.com/) is a free, open-source tool with a distinctive hand-drawn aesthetic. It's great for quick sketches and live collaboration when you want a diagram to feel approachable rather than formal, and the [excalidraw-libraries](https://libraries.excalidraw.com/) include cloud architecture icon packs.
-
 ## Tip 9: Exporting diagrams
 
 To export your diagram, go to **File | Export as | PNG**.
@@ -309,3 +275,69 @@ Standardizing where your organization stores architecture diagrams ensures a con
 ## Tip 11: Use Azure Architecture Center
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/?WT.mc_id=AZ-MVP-33518) is the best tool to help you figure out the pieces you need for an architecure diagram. Learn more on [Do you use Azure Architecture Center?](/azure-architecture-center)
+
+## Tip 12: Use the C4 model to provide different levels of zoom
+
+A single diagram that tries to show everything ends up serving no one. The [C4 model](https://c4model.com) works like an online map: a System Context diagram for everyone, a Container diagram for the people building and running the system, and a Component diagram for containers complex enough to need one.
+
+What each diagram shows depends on its level. For example, the System Context diagram shows your whole system as one box, so the components from Tip 1 first appear at the Container level. The layout and styling tips apply at every level: draw each level in draw.io, keep the same data flow direction and styling, and put each level on its own page in the same `.drawio` file.
+
+Learn more on [Do you use the C4 model to show different levels of zoom?](/use-c4-model)
+
+## Tip 13: Get AI to do the heavy lifting
+
+Many of the tips above use draw.io. Under the hood, a `.drawio` file is plain XML, and because it is text, AI coding agents like Claude Code, GitHub Copilot, and Codex can read and write it directly.
+
+That means you rarely need to start from a blank canvas. An agent working in your repository can read your solution, project files, and infrastructure as code, then produce a great starting point for a diagram with just one prompt.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Analyze this repository and create a C4 architecture diagram in `docs/architecture.drawio`. Add a page for the System Context level and a page for the Container level. Show data flowing from top to bottom, show auth traffic as dotted lines, and group related components in boxes. Use the official Azure icons from draw.io.
+  </>}
+  figurePrefix="good"
+  figure="Good example - One prompt that names the levels of zoom, the conventions from this rule, and where to save the file"
+/>
+
+Treat the output as a first draft, not a finished diagram:
+
+* **Check it against reality** - Agents can miss components that aren't in the code (e.g. a third-party service configured in the portal) or invent ones that don't exist
+* **Fix the layout** - Generated diagrams often have overlapping shapes or crossing arrows. Tidy them in draw.io, or ask the agent to fix specific problems
+* **Keep it up to date** - When a change affects the architecture, ask the agent to update the diagram in the same pull request
+
+**Tip:** Keep the editable `.drawio` file in the repo and export images from it (see Tip 9). A `.drawio.png` file stores the diagram inside the image, so agents can't edit it as easily as plain XML.
+
+## Alternatives to draw.io
+
+### Eraser
+
+Another popular tool is [Eraser](https://app.eraser.io/) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
+
+### Miro (by Adobe)
+
+[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose.
+
+**Note:** The paid version of [Miro gives you Azure Architecture Diagram templates](https://miro.com/templates/azure-architecture-diagram/).
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="An Azure Architecture Diagram created in Miro"
+  src="/uploads/rules/architecture-diagram/miro-arch-diagram.jpg"
+/>
+
+
+### Mermaid
+
+If you really want to geek out and use markdown, you can try [Mermaid](https://mermaid.live) to build simple diagrams.
+
+### Lucidchart
+
+[Lucidchart](https://www.lucid.app/) is a popular cloud-based diagramming tool with a large library of templates and shape libraries for AWS, Azure, and GCP architecture icons. It's a strong choice if your team is already in the Lucid ecosystem (e.g. using Lucidspark for whiteboarding).
+
+### Excalidraw
+
+[Excalidraw](https://excalidraw.com/) is a free, open-source tool with a distinctive hand-drawn aesthetic. It's great for quick sketches and live collaboration when you want a diagram to feel approachable rather than formal, and the [excalidraw-libraries](https://libraries.excalidraw.com/) include cloud architecture icon packs.

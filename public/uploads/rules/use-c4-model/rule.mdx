@@ -1,0 +1,150 @@
+---
+type: rule
+title: Do you use the C4 model to show different levels of zoom?
+seoDescription: Use the C4 model to draw architecture diagrams at different levels of zoom, so every audience gets the right amount of detail and diagrams stay readable.
+guid: e348672a-e10b-49b2-a382-ce5d0a3f26e2
+uri: use-c4-model
+created: 2026-11-25T23:52:09.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+related:
+  - rule: public/uploads/rules/architecture-diagram/rule.mdx
+  - rule: public/uploads/rules/use-mermaid-diagrams/rule.mdx
+  - rule: public/uploads/rules/generate-dependency-graphs/rule.mdx
+  - rule: public/uploads/rules/architectural-decision-records/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+archivedreason: null
+isArchived: false
+---
+
+A single architecture diagram that tries to show everything ends up serving no one. A stakeholder gets lost in queues and databases, and a developer can't find the detail they need among the external systems and user types. Worse, every team invents its own boxes and arrows, so each new diagram needs a legend and an explanation.
+
+<endIntro />
+
+The [C4 model](https://c4model.com) solves this the way an online map does. You start zoomed out to see the whole country, then zoom in to see a city, then a street. Each level adds detail to the one above it, and each element on one level expands into the diagram below it.
+
+<boxEmbed
+  style="info"
+  body={<>
+    Read more in [Software Diagrams - C4 Models with Structurizr](https://www.dandoescode.com/blog/c4-models-with-structurizr) by Daniel Mackay.
+  </>}
+  figurePrefix="none"
+  figure="A deeper walkthrough of the C4 levels, modelling versus diagramming, and Structurizr"
+/>
+
+## The 4 levels of zoom
+
+Each level answers a different question for a different audience:
+
+| Level | Shows | Answers | Audience |
+| --- | --- | --- | --- |
+| 1. System Context | Your system as one box, plus the people and external systems it interacts with | What is this system and who uses it? | Everyone, including non-technical stakeholders |
+| 2. Container | The applications and data stores inside your system and how they communicate | What are the building blocks, and how do they communicate? | Developers, architects, and operations |
+| 3. Component | The major building blocks inside one container and their responsibilities | How does this container work inside? | Developers working on that container |
+| 4. Code | Classes and interfaces inside one component | How is this component implemented? | Rarely needed |
+
+### Level 1 - System Context
+
+The big picture. It shows the people (in specific roles, e.g. Customer or Warehouse Staff) who use the system, and the external systems it depends on (e.g. a payment gateway or an email service). There is very little detail here, which is the point: anyone can understand it.
+
+### Level 2 - Container
+
+Usually the most useful level. A container is anything that runs code or stores data, e.g. a single page application, an API, a serverless function, a database, blob storage, or a message bus. This is the level most people mean when they ask for "the architecture diagram".
+
+**Note:** A C4 container is not a Docker container. A Docker container might host a C4 container, but the terms mean different things.
+
+### Level 3 - Component
+
+The major building blocks inside a single container, e.g. controllers, services, or a data access layer. This is a conceptual view, not a 1:1 map of every class, so keep it focused on the parts that matter.
+
+### Level 4 - Code
+
+A 1:1 map of the classes in a component. It's rarely worth drawing by hand, because the code already tells the same story and the diagram goes stale on the next refactor. If you need it, generate it from the code. See [Do you generate dependency graphs?](/generate-dependency-graphs)
+
+## Why levels of zoom matter
+
+* **Each audience gets the right amount of detail** - Show the client the System Context diagram, and give a new developer the Container diagram
+* **Diagrams stay readable** - Each level stays small enough to understand at a glance
+* **Diagrams change less often** - Higher levels rarely change, so they don't go stale when a class or service is renamed
+* **Navigation is consistent** - People always know where to look for more detail: zoom in one level
+* **Everyone speaks the same language** - "Container" and "Component" mean the same thing on every project, so diagrams need less explanation
+
+## Draw only the levels you need
+
+Most projects only need the first 2 levels. Add a Component diagram for containers that are complex enough to need one, and skip the Code level.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    One diagram showing the users, the SPA, the API, every controller and service in the API, the database tables, and the external email service.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Mixing every level of zoom into one diagram makes it unreadable for every audience"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+
+* **System Context** - Customers and warehouse staff use the e-commerce system, which sends emails through an external email system
+* **Container** - A store SPA and a stock SPA call an ASP.NET Core API, which reads and writes a SQL Server database
+* **Component** - Inside the API: endpoints, application handlers, the domain layer, and the EF Core data access layer
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - Separate diagrams for each level, each with one clear purpose"
+/>
+
+C4 also has supplementary diagrams for specific needs:
+
+* **System Landscape** - Every system in the organization and how they relate
+* **Deployment** - How containers map to infrastructure, e.g. resource groups, load balancers, and CDNs
+* **Dynamic** - How elements collaborate for one feature or use case, similar to a sequence diagram
+
+## Model once, draw many diagrams
+
+C4 separates **modelling** (describing the people, systems, containers, components, and their relationships) from **diagramming** (drawing pictures of that model). When you keep a single model, every diagram is a view of it, so renaming a container updates every diagram that shows it.
+
+The C4 model is notation-independent, so you can use any tool:
+
+* **draw.io** - Includes a C4 shape library. Put each level on its own page in the same `.drawio` file. See [Do you have an architecture diagram?](/architecture-diagram) for draw.io tips
+* **[Structurizr](https://structurizr.com)** - Built by the creator of C4. You write the model once in a text DSL, and Structurizr generates every view from it. It can also hold documentation and [Architectural Decision Records](/architectural-decision-records) alongside the model
+* **Mermaid and PlantUML** - Both support C4 syntax, which works well when you already use them for other diagrams. See [Do you use Mermaid diagrams?](/use-mermaid-diagrams)
+
+```text
+workspace {
+    model {
+        customer = person "Customer"
+        emailSystem = softwareSystem "Email System" "Sends order emails" "External"
+
+        ecommerce = softwareSystem "E-commerce System" {
+            storeSpa = container "Store SPA" "Lets customers buy products" "React"
+            api = container "API" "Handles orders and stock" "ASP.NET Core"
+            database = container "Database" "Stores products and orders" "SQL Server"
+        }
+
+        customer -> storeSpa "Places orders using"
+        storeSpa -> api "Calls" "HTTPS"
+        api -> database "Reads and writes" "EF Core"
+        api -> emailSystem "Sends emails using" "SMTP"
+    }
+
+    views {
+        systemContext ecommerce "Context" {
+            include *
+            autoLayout
+        }
+
+        container ecommerce "Container" {
+            include *
+            autoLayout
+        }
+    }
+}
+```
+
+**Figure: Good example - A Structurizr DSL model with 2 views generated from it. The Context and Container diagrams can never disagree**
+
+Because these are text files, they live in the repo next to the code and get reviewed in the same pull request as the change they describe.
