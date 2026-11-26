@@ -56,22 +56,22 @@ Before you ask a teammate to review your PR. Once the feature is done, scan the 
 Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
 
 ```mermaid
-gitGraph TB:
-  commit id: "Start"
-  branch sprint-1
-  commit id: "Invoices API"
-  checkout main
-  merge sprint-1 id: "Unscanned 1"
-  branch sprint-2
-  commit id: "CSV export"
-  checkout main
-  merge sprint-2 id: "Unscanned 2"
-  branch sprint-3
-  commit id: "Search"
-  checkout main
-  merge sprint-3 id: "Unscanned 3"
-  commit id: "Release" tag: "37 issues" type: REVERSE
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#cc4141, #333333"
+---
+xychart-beta
+  title "Unscanned security issues sitting in main"
+  x-axis ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Release"]
+  y-axis "Issues waiting to ship" 0 --> 40
+  bar [6, 12, 19, 25, 31, 37]
+  line [0, 1, 0, 0, 1, 0]
 ```
+
+* **Red bars: scan once before release** - Every merge piles more unscanned code into main, and you only find the 37 issues just before you ship
+* **Black line: scan before review** - Issues get fixed on the branch before anyone merges them, so main stays close to zero
 
 <boxEmbed
   body={<>
@@ -81,18 +81,6 @@ gitGraph TB:
   figure="A late scan turns cheap fixes into archaeology"
   style="greybox"
 />
-
-```mermaid
-gitGraph TB:
-  commit id: "Start"
-  branch feature
-  commit id: "Invoices API"
-  commit id: "WIP push"
-  commit id: "Done" tag: "Scan: 1 issue" type: REVERSE
-  commit id: "Fix" tag: "Scan: clean"
-  checkout main
-  merge feature id: "Reviewed" type: HIGHLIGHT
-```
 
 <boxEmbed
   body={<>
