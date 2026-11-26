@@ -18,7 +18,7 @@ guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
 seoDescription: 'Run an AI security scan like Claude Code''s /security-review before you send your PR for review, so AI-written vulnerabilities are caught before they get merged.'
 created: 2026-11-25T23:50:23.000Z
 createdBy: Harley Jackson
-lastUpdated: 2026-11-26T00:42:59.513Z
+lastUpdated: 2026-11-26T00:45:41.772Z
 lastUpdatedBy: Harley Jackson
 isArchived: false
 archivedreason: null
@@ -85,7 +85,7 @@ At the Claude Code prompt, on your feature branch, before you ask for review:
 
 Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
-We recommend Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
+We also encourage using Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
 
 ### GitHub Copilot
 
@@ -113,13 +113,13 @@ Copilot CLI has its own `/security-review` command that scans your local changes
 
 No single tool covers everything. Layer them.
 
-| Tool                                                                                                                                        | When it runs         | What it's best at                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Tool                                                                                                                                        | When it runs           | What it's best at                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Claude Code `/security-review` (Recommended)                                                                                                | Locally, before review | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
 | Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before review | The same local check for teams on Copilot                                                                                   |
-| claude-code-security-review Action                                                                                                          | On every PR          | Safety net when someone skips the local scan                                                                                |
-| GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR          | Known vulnerability patterns, with a suggested fix                                                                          |
-| GitHub secret scanning push protection                                                                                                      | At `git push`        | Blocks the push when it detects a secret                                                                                    |
+| claude-code-security-review Action                                                                                                          | On every PR            | Safety net when someone skips the local scan                                                                                |
+| GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR            | Known vulnerability patterns, with a suggested fix                                                                          |
+| GitHub secret scanning push protection                                                                                                      | At `git push`          | Blocks the push when it detects a secret                                                                                    |
 
 <boxEmbed
   body={<>
