@@ -23,7 +23,7 @@ A single architecture diagram that tries to show everything ends up serving no o
 
 <endIntro />
 
-The [C4 model](https://c4model.com/) solves this the way an online map does. You start zoomed out to see the whole country, then zoom in to see a city, then a street. Each level adds detail to the one above it, and each element on one level expands into the diagram below it.
+The [C4 model](https://c4model.com) solves this the way an online map does. You start zoomed out to see the whole country, then zoom in to see a city, then a street. Each level adds detail to the one above it, and each element on one level expands into the diagram below it.
 
 <boxEmbed
   style="info"
@@ -41,7 +41,7 @@ Each level answers a different question for a different audience:
 | Level | Shows | Answers | Audience |
 | --- | --- | --- | --- |
 | 1. System Context | Your system as one box, plus the people and external systems it interacts with | What is this system and who uses it? | Everyone, including non-technical stakeholders |
-| 2. Container | The applications and data stores inside your system and how they communicate | How is the system built and deployed? | Developers, architects, and operations |
+| 2. Container | The applications and data stores inside your system and how they communicate | What are the building blocks, and how do they communicate? | Developers, architects, and operations |
 | 3. Component | The major building blocks inside one container and their responsibilities | How does this container work inside? | Developers working on that container |
 | 4. Code | Classes and interfaces inside one component | How is this component implemented? | Rarely needed |
 
@@ -110,35 +110,37 @@ C4 separates **modelling** (describing the people, systems, containers, componen
 The C4 model is notation-independent, so you can use any tool:
 
 * **draw.io** - Includes a C4 shape library. Put each level on its own page in the same `.drawio` file. See [Do you have an architecture diagram?](/architecture-diagram) for draw.io tips
-* **[Structurizr](https://structurizr.com/)** - Built by the creator of C4. You write the model once in a text DSL, and Structurizr generates every view from it. It can also hold documentation and [Architectural Decision Records](/architectural-decision-records) alongside the model
+* **[Structurizr](https://structurizr.com)** - Built by the creator of C4. You write the model once in a text DSL, and Structurizr generates every view from it. It can also hold documentation and [Architectural Decision Records](/architectural-decision-records) alongside the model
 * **Mermaid and PlantUML** - Both support C4 syntax, which works well when you already use them for other diagrams. See [Do you use Mermaid diagrams?](/use-mermaid-diagrams)
 
 ```text
-model {
-    customer = person "Customer"
-    emailSystem = softwareSystem "Email System" "Sends order emails" "External"
+workspace {
+    model {
+        customer = person "Customer"
+        emailSystem = softwareSystem "Email System" "Sends order emails" "External"
 
-    ecommerce = softwareSystem "E-commerce System" {
-        storeSpa = container "Store SPA" "Lets customers buy products" "React"
-        api = container "API" "Handles orders and stock" "ASP.NET Core"
-        database = container "Database" "Stores products and orders" "SQL Server"
+        ecommerce = softwareSystem "E-commerce System" {
+            storeSpa = container "Store SPA" "Lets customers buy products" "React"
+            api = container "API" "Handles orders and stock" "ASP.NET Core"
+            database = container "Database" "Stores products and orders" "SQL Server"
+        }
+
+        customer -> storeSpa "Places orders using"
+        storeSpa -> api "Calls" "HTTPS"
+        api -> database "Reads and writes" "EF Core"
+        api -> emailSystem "Sends emails using" "SMTP"
     }
 
-    customer -> storeSpa "Places orders using"
-    storeSpa -> api "Calls" "HTTPS"
-    api -> database "Reads and writes" "EF Core"
-    api -> emailSystem "Sends emails using" "SMTP"
-}
+    views {
+        systemContext ecommerce "Context" {
+            include *
+            autoLayout
+        }
 
-views {
-    systemContext ecommerce "Context" {
-        include *
-        autoLayout
-    }
-
-    container ecommerce "Container" {
-        include *
-        autoLayout
+        container ecommerce "Container" {
+            include *
+            autoLayout
+        }
     }
 }
 ```
