@@ -11,6 +11,8 @@ authors:
   url: https://www.ssw.com.au/people/adam-cogan
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
 created: 2023-09-06 16:24:00+00:00
 guid: 8e378b56-3161-4433-81c0-40119075d137
 related:
@@ -44,7 +46,6 @@ When creating a PR template, think of how you can help developers create great P
   src="/uploads/rules/use-pull-request-templates-to-communicate-expectations/no-pr-template.jpg"
 />
 
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -53,7 +54,6 @@ When creating a PR template, think of how you can help developers create great P
   figure="The PR template contains handy links to guidance for creating great PRs ⭐"
   src="/uploads/rules/use-pull-request-templates-to-communicate-expectations/pr-template-with-comments-to-guidance.jpg"
 />
-
 
 <imageEmbed
   alt="Image"
@@ -64,6 +64,101 @@ When creating a PR template, think of how you can help developers create great P
   src="/uploads/rules/use-pull-request-templates-to-communicate-expectations/pr-template-asking-for-context.jpg"
 />
 
+## What makes a good PR template
+
+AI agents write most PR descriptions now. Agents such as GitHub Copilot and Claude Code will generally read `.github/pull_request_template.md` and follow its instructions, so the template is how you make every agent's PR come with a summary of the work and proof that it works. Humans read the result when they review it.
+
+A good template:
+
+* **Gives instructions in HTML comments** - The agent follows them, and they disappear from the published PR
+* **Asks for a summary** - What changed and why, so a reviewer can scan it before reading the diff
+* **Demands evidence** - Screenshots, test runs or console output, plus what was *not* verified
+* **Makes risk explicit** - How easy the change is to roll back, what could break, and any security risk
+
+### Example: SSW's PR template
+
+SSW's [SSW.GitHub.Template](https://github.com/SSWConsulting/SSW.GitHub.Template) repository contains the template SSW uses as a starting point for new repositories. Copy it into `.github/pull_request_template.md` and adapt it to your project.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The copy below is a snapshot. Always take the latest version from [SSWConsulting/SSW.GitHub.Template/.github/pull_request_template.md](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/pull_request_template.md).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+```markdown
+## Summary
+
+<!--
+INSTRUCTIONS: replace this comment with your answer.
+Start with the main changes in short bullets, most important first.
+Group related work into a single bullet and leave out routine implementation details.
+
+Example:
+- Added CSV export for filtered orders, using the filters already selected on the page.
+- Restricted exports to users who already have permission to view orders.
+
+Next, show the smallest view that makes the change clear. Skip preambles and keep prose brief. Pick one or two of::
+- Pseudocode for logic or an algorithm
+- A call tree for runtime control flow
+- A component tree for UI structure (include state and module boundaries that matter)
+- A shallow file tree for file responsibilities or a broad refactor
+- A Mermaid diagram for component interaction or data flow
+- A `diff` block of any of the above when the surrounding shape already exists and the point is what changed
+Put each visual next to the short sentence it supports. Keep only the calls, files, props and states a reviewer needs.
+Skip preambles and keep prose brief.
+-->
+
+## Why
+
+<!--
+INSTRUCTIONS: replace this comment with your answer.
+Why are we making this change? Lead with the outcome a reviewer needs to know.
+Then link the PBI or issue, or give the email subject or conversation, as a reference.
+-->
+
+## Evidence
+
+<!--
+INSTRUCTIONS: replace this comment with your answer.
+Show concrete proof that the change works.
+- UI changes: side-by-side screenshots or a short clip
+- Other changes: link the relevant check, test run or console output, and name the test that failed before and passes now
+Either way, say what you verified and what you didn't.
+
+Before/After is optional. Use it only when there is a meaningful before state (a bug fix, a changed screen or output):
+
+**Before:** <screenshot / clip / output / failing test run>
+
+**After:** <screenshot / clip / output / passing test run>
+-->
+
+## Merge Danger
+
+**Door:**
+
+**Blast Radius:**
+
+**Security:**
+
+<!--
+INSTRUCTIONS: replace this comment and fill in Door, Blast Radius and Security.
+- Door: "two-way" if the change is cheap to roll back, or "one-way" if it is destructive or hard to reverse (data migrations, deletions, published contracts). Add a sentence if it isn't obvious.
+- Blast Radius: in a short sentence or two, what could break, who would notice, and how would we undo it? Think broken consumers, layout shift, mobile responsiveness, data loss.
+- Security: could this change introduce a security risk? Think authentication and authorization, input validation and injection, secrets or credentials, personal or sensitive data, new dependencies, and permission or infrastructure changes. Name any risk and how it's mitigated, or say why there's none.
+  Then list any security reviews done, and what they found. For example: Claude Code's /security-review, a static analysis or dependency scan, or a review by a security-focused colleague (e.g. Solution Architects). If none was done, say so.
+-->
+
+<!--
+Check out the relevant rules
+- https://www.ssw.com.au/rules/use-pull-request-templates-to-communicate-expectations/
+- https://www.ssw.com.au/rules/rules-to-better-pull-requests
+- https://www.ssw.com.au/rules/write-a-good-pull-request
+- https://www.ssw.com.au/rules/over-the-shoulder-prs
+-->
+```
 
 ## Give bug-fix PRs their own structure
 
@@ -118,5 +213,3 @@ Put these headings in a `bugfix.md` template so they are there every time. See t
   figurePrefix="none"
   figure=""
 />
-
-For a great Pull Request template, take a look at [@SSWConsulting/SSW.GitHub.Template](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/pull_request_template.md).
