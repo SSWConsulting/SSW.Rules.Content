@@ -89,6 +89,7 @@ Names also decide how fast you can respond to a leak. To rotate a key, you have 
 * Use a public prefix only for values that are safe for anyone to read
 * Use the same name for a value in every store and every environment
 * Rename a value when its role changes, and delete the old name in the same change
+* Store each name once, as a secret or as a variable, never both. The workflow reads only one copy, so the other is dead and rotating it changes nothing
 
 ```yaml
 env:
@@ -120,24 +121,15 @@ For secrets, the scope follows the infrastructure behind them. Give staging and 
 
 If both environments share one resource and one key, store the key once at repository level. That tells the next person the truth: the infrastructure is shared, and anything that can deploy staging can reach production. Copying the key into each environment hides that, and leaves two copies to rotate. To separate the environments, split the resource or give each environment its own key limited to its own part. Moving the secret to another scope doesn't separate anything.
 
-```yaml
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - uses: azure/login@v3
-        with:
-          client-id: ${{ vars.AZURE_CLIENT_ID }}
-          tenant-id: ${{ vars.AZURE_TENANT_ID }}
-          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-```
+| Setting | Scope | Why |
+| --- | --- | --- |
+| Tenant ID | Shared | Every environment signs in to the same tenant |
+| Resource group name | Environment | Each environment deploys to its own resource group |
+| Client ID of the deployment identity | Environment | Each environment signs in with its own identity |
+| Database connection string | Environment | Each environment has its own database |
+| Search admin key, when both environments use one search service | Shared | The search service is shared, and the scope says so |
 
-**✅ Figure: Good example - The IDs are readable variables. The client ID comes from the production environment, the tenant and subscription are shared**
-
-## Never store a name twice
-
-If the same name exists as a secret and as a variable, the workflow reads only one of them. The other is dead, and the next person to rotate it changes nothing. When you move a setting from one kind to the other, delete the old copy in the same change.
+**✅ Figure: Good example - The scope of each setting matches the infrastructure behind it**
 
 ## Learn more
 
