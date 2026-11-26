@@ -56,21 +56,21 @@ Before you ask a teammate to review your PR. Once the feature is done, scan the 
 Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
 
 ```mermaid
-gitGraph
-  commit id: "Sprint 1 start"
-  branch feature-a
-  commit id: "Add invoices API"
+gitGraph TB:
+  commit id: "Start"
+  branch sprint-1
+  commit id: "Invoices API"
   checkout main
-  merge feature-a id: "Merged unscanned (Sprint 1)"
-  branch feature-b
-  commit id: "Add CSV export"
+  merge sprint-1 id: "Unscanned 1"
+  branch sprint-2
+  commit id: "CSV export"
   checkout main
-  merge feature-b id: "Merged unscanned (Sprint 2)"
-  branch feature-c
-  commit id: "Add search"
+  merge sprint-2 id: "Unscanned 2"
+  branch sprint-3
+  commit id: "Search"
   checkout main
-  merge feature-c id: "Merged unscanned (Sprint 3)"
-  commit id: "Release prep" tag: "Scan: 37 issues" type: REVERSE
+  merge sprint-3 id: "Unscanned 3"
+  commit id: "Release" tag: "37 issues" type: REVERSE
 ```
 
 <boxEmbed
@@ -83,15 +83,15 @@ gitGraph
 />
 
 ```mermaid
-gitGraph
+gitGraph TB:
   commit id: "Start"
   branch feature
-  commit id: "Add invoices API"
+  commit id: "Invoices API"
   commit id: "WIP push"
-  commit id: "Feature done" tag: "Scan: 1 issue" type: REVERSE
-  commit id: "Fix ownership check" tag: "Scan: clean"
+  commit id: "Done" tag: "Scan: 1 issue" type: REVERSE
+  commit id: "Fix" tag: "Scan: clean"
   checkout main
-  merge feature id: "Teammate review and merge" type: HIGHLIGHT
+  merge feature id: "Reviewed" type: HIGHLIGHT
 ```
 
 <boxEmbed
