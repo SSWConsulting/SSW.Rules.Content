@@ -77,7 +77,7 @@ Not on every push. A work-in-progress push is a half-finished diff, so you get h
 
 ### Claude Code (Recommended)
 
-At the Claude Code prompt, on your feature branch, before you ask for review:
+When your feature is done, run this in Claude Code on your feature branch:
 
 ```text
 /security-review
@@ -86,6 +86,16 @@ At the Claude Code prompt, on your feature branch, before you ask for review:
 Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
 We also encourage using Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
+
+### OpenAI Codex
+
+Install the Codex Security plugin, then ask Codex to review your branch before you ask for review:
+
+```text
+Use $codex-security:security-diff-scan to review the changes from origin/main to HEAD for security regressions.
+```
+
+It reviews each changed file plus the code that directly supports it, without turning into a full repository audit. You can also run it from **Security** -> **Scans** in the Codex desktop app. See [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes).
 
 ### GitHub Copilot
 
@@ -116,6 +126,7 @@ No single tool covers everything. Layer them.
 | Tool                                                                                                                                        | When it runs           | What it's best at                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Claude Code `/security-review` (Recommended)                                                                                                | Locally, before review | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
+| Codex Security `security-diff-scan` | Locally, before review | The same local check for teams on Codex |
 | Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before review | The same local check for teams on Copilot                                                                                   |
 | claude-code-security-review Action                                                                                                          | On every PR            | Safety net when someone skips the local scan                                                                                |
 | GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR            | Known vulnerability patterns, with a suggested fix                                                                          |
