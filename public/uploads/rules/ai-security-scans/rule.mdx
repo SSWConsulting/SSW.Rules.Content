@@ -17,10 +17,10 @@ related:
   - rule: public/uploads/rules/penetration-testing/rule.mdx
   - rule: public/uploads/rules/stop-pwn-requests-github-secrets/rule.mdx
 guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
-seoDescription: 'Run an AI security scan like Claude Code''s /security-review before you send your PR for review, so AI-written vulnerabilities are caught before they get merged.'
+seoDescription: 'Run Claude Code''s /security-review on every commit, and Cloudflare''s security-audit skill every Sprint to audit the whole app.'
 created: 2026-11-25T23:50:23.000Z
 createdBy: Harley Jackson
-lastUpdated: 2026-11-26T04:31:51.338Z
+lastUpdated: 2026-11-26T06:19:26.228Z
 lastUpdatedBy: Harley Jackson
 isArchived: false
 archivedreason: null
@@ -30,7 +30,9 @@ AI has changed how fast developers ship. Your AI agent can build a feature in an
 
 With agents generating so many features, it's not always feasible to read every line yourself. This doesn't mean you have to stop caring about security though. AI is particularly good at re-running something over and over again. This makes it perfect at catching security vulnerabilities when it knows what to look for.
 
-Make running AI security scans part of your daily workflow. These scans should be run before you send your PR to a teammate for review so you can catch the issue while the fix is still a 2-line change, not a post-merge incident.
+Make running AI security scans part of your daily workflow. Scan your diff on every commit, so you catch the issue while the fix is still a 2-line change, not a post-merge incident. Then audit the whole app every Sprint.
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=8-NrvPP5e80" description="Figure: Claude code skills video - showing AI finding 21 bugs (6 min)" />
 
 <endIntro />
 
@@ -40,20 +42,23 @@ AI writes code that works, not necessarily code that's safe. This doesn't mean t
 
 [Veracode's October 2026 GenAI Code Security update](https://veracode.com/press-release/veracode-finds-first-meaningful-gain-in-ai-code-security-since-2025-as-average-pass-rate-hits-62) found 38% of AI coding tasks still produced vulnerable code. That's better than 45% in 2025, but even the best models, Claude Opus 5.5 and GPT-6-Sol, failed 1 in 4 security tasks.
 
-<imageEmbed alt="Chart of security and syntax pass rates of LLMs by release date" size="large" showBorder={false} figurePrefix="none" figure="Security and Syntax Pass Rates vs LLM Release Date (Veracode security article)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
+<imageEmbed alt="Chart of security and syntax pass rates of LLMs by release date" size="large" showBorder={false} figurePrefix="none" figure="Security pass rate is flat (Veracode 2025 AI Security Study)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
 
-Some common flaws when vibe-coding:
+Some security risks when using AI:
 
-* **Broken access control**: An endpoint trusts an ID from the client instead of checking who owns the record
-* **Injection**: SQL built with string concatenation, or user input dropped into `dangerouslySetInnerHTML`
-* **Hard-coded secrets**: An API key pasted in "just to test it", then committed
-* **Risky dependencies**: A package version the AI suggested that has a known CVE, which the [OWASP Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) tells you to audit
+* **Wrong assumptions**: The AI guesses how the rest of your app works, like assuming a request is already authenticated, or that an ID always belongs to the current user
+* **Side effects nobody considered**: The feature works on its own, but the AI doesn't think about what else it touches, like a new export that also includes another customer's data
 
 A human review still matters, but a reviewer reading a 1k+ line PR will easily skim over certain security issues. This is another reason why pulling down the changes and testing locally is still an important step for catching issues.
 
 ## When should you run an AI security scan?
 
 You should be running security scans throughout the whole development process. Scans are cheap, fixing incidents is not.
+
+Use 2 kinds of scan. They complement each other because they look at different things:
+
+* **Diff scan, on every commit** - Claude Code's `/security-review` checks only what you've changed, so it's fast enough to run every time
+* **Whole-app audit, every Sprint** - Cloudflare's security-audit skill maps the entire app and its trust boundaries, so it finds the flaws no single diff shows, like 2 safe-looking changes that are unsafe together
 
 ```mermaid
 ---
@@ -63,13 +68,13 @@ config:
       plotColorPalette: "#cc4141"
 ---
 xychart-beta
-  title "Bad: 1 scan, just before release"
+  title "Bad (Contrived Data): 1 scan, just before release"
   x-axis ["Wk 1", "Wk 2", "Wk 3", "Wk 4", "Wk 5", "Wk 6 SCAN"]
   y-axis "Unscanned issues in main" 0 --> 40
   bar [6, 12, 19, 25, 31, 37]
 ```
 
-**Figure: Bad example - No scans for 5 weeks, so issues pile up in main. The only scan finds all 37 at once, right before you ship**
+**❌ Figure: Bad example - No scans for 5 weeks, so issues pile up in main. The only scan finds all 37 at once, right before you ship**
 
 ```mermaid
 ---
@@ -79,34 +84,34 @@ config:
       plotColorPalette: "#333333"
 ---
 xychart-beta
-  title "Good: a scan before every PR review"
-  x-axis ["Wk 1 SCAN", "Wk 2 SCAN", "Wk 3 SCAN", "Wk 4 SCAN", "Wk 5 SCAN", "Wk 6 SCAN"]
+  title "Good (Contrived Data): a diff scan every commit, a full audit every Sprint"
+  x-axis ["Wk 1 SCAN", "Wk 2 SCAN+AUDIT", "Wk 3 SCAN", "Wk 4 SCAN+AUDIT", "Wk 5 SCAN", "Wk 6 SCAN+AUDIT"]
   y-axis "Unscanned issues in main" 0 --> 40
   bar [1, 0, 1, 0, 1, 0]
 ```
 
-**Figure: Good example - Every PR is scanned before review, so issues get fixed on the branch and main stays close to zero**
+**✅ Figure: Good example - Every commit is scanned, so issues get fixed on the branch. The Sprint audit catches what the diff scans missed, so main stays close to zero**
 
-## How do you run an AI security scan?
+## How do you scan every commit?
 
 ### Claude Code (Recommended)
 
-Claude comes pre-built with security scanning tools. When your feature is done, run the following command in Claude Code on your feature branch:
+Claude comes pre-built with security scanning tools. Before each commit, run the following command in Claude Code on your feature branch:
 
 ```text
 /security-review
 ```
 
-Claude will review all pending changes on the branch, looking for common attacks vectors such as SQL injections, XSS, authentication and authorisation flaws, insecure data handling, and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
+Claude will review all pending changes on the branch, looking for common attack vectors such as SQL injections, XSS, authentication and authorisation flaws, insecure data handling, and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
 We also encourage using Anthropic's AI security reviewer. You can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
 
 ### OpenAI Codex
 
-Unlike Claude, Codex requires a plugin to conduct security scans. Install the Codex Security plugin using the command below, then ask Codex to review your branch before you ask for review.
+Unlike Claude, Codex requires a plugin to conduct security scans. Install the Codex Security plugin, then ask Codex to review your changes before each commit:
 
 ```text
-Use $codex-security:security-diff-scan to review the changes from origin/main to HEAD for security regressions.
+Use $codex-security:security-diff-scan to review the changes from origin/main to HEAD, plus my uncommitted changes, for security regressions.
 ```
 
 It'll review each changed file plus the code paths that flow in and out from the change, without turning into a full repository audit. You can also run it from **Security** -> **Scans** in the Codex desktop app. See [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes).
@@ -133,18 +138,48 @@ Copilot CLI has its own `/security-review` command that scans your local changes
   style="warning"
 />
 
+## How do you audit the whole app?
+
+A diff scan can't see how your changes fit with the rest of the app. Once a Sprint, or every week on a busy repo, run Cloudflare's open-source [security-audit skill](https://github.com/cloudflare/security-audit-skill) over the whole codebase.
+
+Install it:
+
+```bash
+npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit
+```
+
+Then ask your AI agent:
+
+```text
+security audit this codebase
+```
+
+It maps the architecture and trust boundaries, sends isolated sub-agents to hunt for bugs, then has fresh agents try to disprove every finding. Each finding comes back as `confirmed`, `needs_validation` or `rejected`. Add the confirmed ones to your backlog as PBIs, and check the `needs_validation` ones by hand.
+
+Runs build on each other. In Cloudflare's test runs, a single run found roughly half of what repeated runs found, which is why it belongs on a regular schedule, not a one-off.
+
+<boxEmbed
+  body={<>
+    **Run it in a sandbox.** To prove a finding, the skill wants to build and run your code. It needs an OS-level sandbox with no network access, a clean environment, resource limits, and writes limited to a scratch folder. Without one, it marks the finding `needs_validation` instead of running anything.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
 ## Which tool catches what?
 
 No single tool covers everything. That's why it's so important to layer them.
 
-| Tool                                                                                                                                        | When it runs           | What it's best at                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Claude Code `/security-review` (Recommended)                                                                                                | Locally, before review | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
-| Codex Security `security-diff-scan`                                                                                                         | Locally, before review | The same local check for teams on Codex                                                                                     |
-| Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before review | The same local check for teams on Copilot                                                                                   |
-| claude-code-security-review Action                                                                                                          | On every PR            | Safety net when someone skips the local scan                                                                                |
-| GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR            | Known vulnerability patterns, with a suggested fix                                                                          |
-| GitHub secret scanning push protection                                                                                                      | At `git push`          | Blocks the push when it detects a secret                                                                                    |
+| Tool                                                                                                                                        | When it runs  | What it's best at                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Claude Code `/security-review` (Recommended)                                                                                                | Every commit  | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
+| Codex Security `security-diff-scan`                                                                                                         | Every commit  | The same diff check for teams on Codex                                                                                      |
+| Copilot CLI `/security-review` (preview)                                                                                                    | Every commit  | The same diff check for teams on Copilot                                                                                    |
+| Cloudflare security-audit skill (Recommended)                                                                                               | Every Sprint  | Whole-app flaws across trust boundaries that no single diff shows                                                           |
+| claude-code-security-review Action                                                                                                          | On every PR   | Safety net when someone skips the local scan                                                                                |
+| GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR   | Known vulnerability patterns, with a suggested fix                                                                          |
+| GitHub secret scanning push protection                                                                                                      | At `git push` | Blocks the push when it detects a secret (free on Public Repos)                                                             |
 
 <boxEmbed
   body={<>
@@ -162,5 +197,6 @@ No single tool covers everything. That's why it's so important to layer them.
 * [SSW: Do you use the right cybersecurity tools when writing code?](/developer-cybersecurity-tools) - The non-AI scanners to run alongside this
 * [SSW: Do you defend against package supply chain attacks?](/defend-against-package-supply-chain-attacks) - Lockfiles, release-age windows and install scripts
 * [Anthropic - Automate security reviews with Claude Code](https://claude.com/blog/automate-security-reviews-with-claude-code) - Why the command exists and what it looks for
+* [Cloudflare - Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness) - How the security-audit skill grew into Cloudflare's own vulnerability discovery system
 * [OWASP - Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) - Threats specific to AI Agents that run commands and push code
 * [Veracode - October 2026 GenAI Code Security update](https://veracode.com/press-release/veracode-finds-first-meaningful-gain-in-ai-code-security-since-2025-as-average-pass-rate-hits-62) - The latest numbers, including the per-model leaderboard
