@@ -6,7 +6,7 @@ categories:
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 authors:
   - title: Harley Jackson
-    url: 'https://harley-blog-rust.vercel.app/'
+    url: 'https://github.com/harley-j'
   - title: Luke Cook
     url: 'https://www.ssw.com.au/people/luke-cook'
 related:
@@ -18,7 +18,7 @@ guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
 seoDescription: 'Run an AI security scan like Claude Code''s /security-review before you send your PR for review, so AI-written vulnerabilities are caught before they get merged.'
 created: 2026-11-25T23:50:23.000Z
 createdBy: Harley Jackson
-lastUpdated: 2026-11-26T00:47:19.422Z
+lastUpdated: 2026-11-26T01:17:12.489Z
 lastUpdatedBy: Harley Jackson
 isArchived: false
 archivedreason: null
@@ -124,7 +124,7 @@ No single tool covers everything. Layer them.
 | Tool                                                                                                                                        | When it runs           | What it's best at                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Claude Code `/security-review` (Recommended)                                                                                                | Locally, before review | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
-| Codex Security `security-diff-scan` | Locally, before review | The same local check for teams on Codex |
+| Codex Security `security-diff-scan`                                                                                                         | Locally, before review | The same local check for teams on Codex                                                                                     |
 | Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before review | The same local check for teams on Copilot                                                                                   |
 | claude-code-security-review Action                                                                                                          | On every PR            | Safety net when someone skips the local scan                                                                                |
 | GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR            | Known vulnerability patterns, with a suggested fix                                                                          |
