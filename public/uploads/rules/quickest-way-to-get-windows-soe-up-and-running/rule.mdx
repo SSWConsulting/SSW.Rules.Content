@@ -77,7 +77,7 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
   figure="Example package manager script - using winget to install required software"
 />
 
-**Tip:** Run `winget export` on a machine that is already set up, then `winget import` on the new one. See [the import command](https://learn.microsoft.com/en-us/windows/package-manager/winget/import?WT.mc_id=WDIT-MVP-33518).
+**Tip:** On a machine that's already set up, run `winget export -o apps.json`. Copy `apps.json` to the new machine and run `winget import -i apps.json`. See [winget import](https://learn.microsoft.com/en-us/windows/package-manager/winget/import?WT.mc_id=WDIT-MVP-33518).
 
 <imageEmbed
   alt="Image"
