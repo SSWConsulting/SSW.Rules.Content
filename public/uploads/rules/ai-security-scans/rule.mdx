@@ -58,40 +58,38 @@ A human review still matters, but a reviewer reading a 1k+ line PR will easily s
 You should be running security scans throughout the whole development process. Scans are cheap, fixing incidents is not.
 
 ```mermaid
----
-config:
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#cc4141, #333333"
----
-xychart-beta
-  title "Unscanned security issues sitting in main"
-  x-axis ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Release"]
-  y-axis "Issues waiting to ship" 0 --> 40
-  bar [6, 12, 19, 25, 31, 37]
-  line [0, 1, 0, 0, 1, 0]
+sequenceDiagram
+    participant Dev as Developer
+    participant Review as Teammate
+    participant Main as main
+    participant Scan as Security scan
+    loop Each feature
+        Dev->>Review: Request PR review
+        Review-->>Dev: Review and approve
+        Dev->>Main: Merge PR
+    end
+    Dev->>Scan: Scan once before release
+    Scan-->>Dev: Find accumulated issues
 ```
 
-* **Red bars: scan once before release** - Every merge piles more unscanned code into main, and you only find the 37 issues just before you ship
-* **Black line: scan before review** - Issues get fixed on the branch before anyone merges them, so main stays close to zero
+**Figure: Scanning only once after multiple PRs have merged**
 
-<boxEmbed
-  body={<>
-    **Scan once before release** - You run a security tool the week before go-live. It finds 37 issues across 3 Sprints of work, and nobody remembers why half that code was written that way.
-  </>}
-  figurePrefix="bad"
-  figure="A late scan turns cheap fixes into archaeology"
-  style="greybox"
-/>
+```mermaid
+sequenceDiagram
+    participant Dev as Developer
+    participant Scan as Security scan
+    participant Review as Teammate
+    participant Main as main
+    loop Each completed feature
+        Dev->>Scan: Scan branch before PR
+        Scan-->>Dev: Fix findings
+        Dev->>Review: Request PR review
+        Review-->>Dev: Review checked code
+        Dev->>Main: Merge PR
+    end
+```
 
-<boxEmbed
-  body={<>
-    **Scan before review** - You finish the feature and run `/security-review` before you open the PR. It flags 1 issue in the 200 lines you wrote today, and you fix it while the context is still in your head.
-  </>}
-  figurePrefix="good"
-  figure="Scanning before review means your teammate reviews code that has already been checked"
-  style="greybox"
-/>
+**Figure: Scanning each feature before asking for a PR review**
 
 ## How do you run an AI security scan?
 
@@ -103,7 +101,7 @@ Claude comes pre-built with security scanning tools. When your feature is done, 
 /security-review
 ```
 
-Claude will review all pending changes on the branch, looking for common attack vectors such as SQL injections, XSS, authentication and authorisation flaws, insecure data handling, and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
+Claude will review all pending changes on the branch, looking for common attacks vectors such as SQL injections, XSS, authentication and authorisation flaws, insecure data handling, and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
 We also encourage using Anthropic's AI security reviewer. You can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
 
