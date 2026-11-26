@@ -106,7 +106,9 @@ Ask: **does staging need a different value from production?**
 
 One value, one place. A shared value copied into each environment is two copies that drift apart without anyone noticing.
 
-For secrets, lean towards environment level. In GitHub Actions, an environment secret is only given to jobs that name that environment, and the environment's protection rules, such as required reviewers, apply before the job can read it. A production key stored at repository level can be read by any workflow in the repository, including ones that only deploy to staging.
+For secrets, the scope follows the infrastructure behind them. Give staging and production their own resources, each with its own key. Then a staging deployment, a pull request preview or a leaked staging key can't touch production. Store each key at environment level, so only jobs that name that environment can read it.
+
+If both environments share one resource and one key, where you store the key doesn't matter. Staging holds a key that works on production either way. Fix that by splitting the resource, or by giving each environment its own key limited to its own part, not by moving the secret to another scope.
 
 ```yaml
 jobs:
