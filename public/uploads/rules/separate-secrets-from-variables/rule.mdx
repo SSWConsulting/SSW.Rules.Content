@@ -23,9 +23,19 @@ archivedreason: null
 isArchived: false
 ---
 
-A deployment pipeline holds dozens of settings, and most teams sort them by habit. Store a key as a variable and it is printed in every build log. Store a resource group name as a secret and nobody can read it back to check what was deployed. Store the same name as both, and someone rotates the copy the pipeline never reads.
+A deployment pipeline holds dozens of settings, and most teams sort them by habit. One wrong choice can hand a production key to anyone who reads a build log. The opposite mistake hides plain IDs, so in the middle of an incident nobody can tell which account the pipeline signs in with.
 
 <endIntro />
+
+## Why it matters
+
+Each mistake has a real cost:
+
+* **A key stored as a variable is published** - Variables are not masked, so the value shows up in build logs. On a public repository, anyone can read those logs and use the key to read your data, delete it, or run up your bill
+* **A key built into browser code is published to every visitor** - Rotating it doesn't help, because the next build publishes the new key too
+* **A key stored twice gets rotated in the wrong place** - The pipeline reads one copy, someone rotates the other, and the leaked key keeps working while everyone believes it is fixed
+* **A key shared by staging and production makes a staging leak a production leak** - Whoever gets the staging key can also change production
+* **An ID stored as a secret can't be read back** - Nobody can check which tenant, subscription or app a pipeline uses, which is exactly what you need to know during an incident
 
 Every setting needs two decisions:
 
