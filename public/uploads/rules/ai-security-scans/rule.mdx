@@ -20,7 +20,7 @@ guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
 seoDescription: 'Run Claude Code''s /security-review on every commit, and Cloudflare''s security-audit skill every Sprint to audit the whole app.'
 created: 2026-11-25T23:50:23.000Z
 createdBy: Harley Jackson
-lastUpdated: 2026-11-26T06:15:41.403Z
+lastUpdated: 2026-11-26T06:19:26.228Z
 lastUpdatedBy: Harley Jackson
 isArchived: false
 archivedreason: null
@@ -42,9 +42,9 @@ AI writes code that works, not necessarily code that's safe. This doesn't mean t
 
 [Veracode's October 2026 GenAI Code Security update](https://veracode.com/press-release/veracode-finds-first-meaningful-gain-in-ai-code-security-since-2025-as-average-pass-rate-hits-62) found 38% of AI coding tasks still produced vulnerable code. That's better than 45% in 2025, but even the best models, Claude Opus 5.5 and GPT-6-Sol, failed 1 in 4 security tasks.
 
-<imageEmbed alt="Chart of security and syntax pass rates of LLMs by release date" size="large" showBorder={false} figurePrefix="none" figure="Security and Syntax Pass Rates vs LLM Release Date (Veracode security article)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
+<imageEmbed alt="Chart of security and syntax pass rates of LLMs by release date" size="large" showBorder={false} figurePrefix="none" figure="Security pass rate is flat (Veracode 2025 AI Security Study)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
 
-Some security risks when vibe coding:
+Some security risks when using AI:
 
 * **Wrong assumptions**: The AI guesses how the rest of your app works, like assuming a request is already authenticated, or that an ID always belongs to the current user
 * **Side effects nobody considered**: The feature works on its own, but the AI doesn't think about what else it touches, like a new export that also includes another customer's data
