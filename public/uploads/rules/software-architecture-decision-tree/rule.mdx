@@ -22,12 +22,12 @@ authors:
     url: https://www.ssw.com.au/people/luke-parker
   - title: Matt Parker
     url: https://www.ssw.com.au/people/matt-parker
-  - title: Caleb Williams
-    url: https://www.ssw.com.au/people/caleb-williams
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
 created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
-When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture will allow your software application will scale too meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
+When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture allows your application to scale to meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
 
 <endIntro />
 
@@ -47,7 +47,7 @@ You can find our CA template on [GitHub](https://github.com/SSWConsulting/SSW.Cl
 
 Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
 
-This modular approach to software development can introduce inexperienced teams to the idea of shipping features as functional units with no shared knowledge of the domain entities, infrastructure layer, or application layer within another subsystem, further preparing them for future development environments that may use Modular Monolith or Microservices Architecture.
+This approach introduces teams to shipping features as self-contained units that don't reach into another feature's entities, infrastructure, or application logic. That habit is exactly what a Modular Monolith or Microservices Architecture demands later.
 
 See more on [Rules to Better Vertical Slice Architecture](/rules-to-better-vertical-slice-architecture)
 
@@ -65,8 +65,22 @@ Microservices architecture involves splitting the application into small, indepe
 
 See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
-## Architecture decision tree
+## Architectures not in the decision tree
 
+Other well-known architectures are deliberately left out of the decision tree:
+
+* **No architecture** - Only appropriate for a proof of concept (see below). Anything that goes to production needs structure, or it becomes hard to change quickly.
+* **N-Tier (layered) Architecture** - Dependencies flow down towards the database, so business logic ends up coupled to data access and infrastructure. Clean Architecture keeps the layers but inverts those dependencies.
+* **Service-Oriented Architecture (SOA)** - Relies on heavyweight shared contracts and a central service bus. Microservices keep the idea of services built around business capabilities without the central bottleneck, and have largely replaced SOA.
+* **Onion Architecture and Ports and Adapters (Hexagonal)** - These aren't rejected; they share Clean Architecture's core idea of keeping business logic at the centre with dependencies pointing inwards. Clean Architecture represents this family in the tree. See [Do you know the layers of the onion architecture?](/do-you-know-the-layers-of-the-onion-architecture)
+
+## Proofs of concept don't need an architecture
+
+If you are building a proof of concept (PoC), skip the decision tree. A PoC answers _"Can we do this?"_, and is built quickly, tested, and thrown away. Time spent on layers, modules, and abstractions slows down the only thing a PoC needs to do: prove or disprove an idea.
+
+The risk is that PoCs rarely stay disposable. If a stakeholder sees a working PoC and wants it in production, don't build on top of it. Treat the next step as an MVP, choose an architecture using the decision tree, and rebuild with that structure. See [Do you understand the difference between a POC and MVP?](/poc-vs-mvp)
+
+## Architecture decision tree
 
 <imageEmbed
   alt="Decision tree that routes questions about requirements, domains, teams, deployments, scalability, DevOps maturity and team experience to Vertical Slice, Clean, Modular Monolith or Microservices Architecture"
@@ -77,10 +91,19 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
   src="/uploads/rules/software-architecture-decision-tree/architecture-decision-tree.svg"
 />
 
-
 It's important to keep in mind that these architectures are not mutually exclusive.
 
 Within a Modular Monolith Architecture, each module could be implemented using Clean Architecture or Vertical Slice Architecture. Similarly, a Microservices Architecture could use Clean Architecture or Vertical Slice Architecture within each service.
+
+### Why Vertical Slice Architecture grows into a Modular Monolith more easily
+
+Systems that succeed tend to grow, and a single application often needs to become a Modular Monolith later. Vertical Slice Architecture makes that move easier than Clean Architecture does.
+
+In Vertical Slice Architecture, code is already grouped by feature. Each slice holds its own endpoint, logic, and data access, so turning a group of related slices into a module is mostly a matter of moving folders and tidying the few places where slices share code.
+
+In Clean Architecture, code is grouped by technical layer. The code for one business area is spread across the Domain, Application, Infrastructure, and Presentation projects, so extracting a module means cutting through every layer and untangling the shared services and entities between them.
+
+This doesn't make Clean Architecture a poor choice. Once the module boundaries exist, each module can still use Clean Architecture internally. It means that if you expect the system to split into modules, starting with vertical slices gives you a shorter path there.
 
 Also, from a pragmatic point of view a combination of Modular Monolith and Microservices might provide the best of both worlds. The majority of the system could be implemented as a Modular Monolith, with a few key services implemented as Microservices to provide scalability and flexibility where needed.
 
@@ -89,27 +112,26 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 * **Are your requirements certain?**\
   If requirements are likely to change, Clean Architecture or Vertical Slice Architecture can offer more flexibility.
 * **Do you have multiple domains?**\
-  For applications with multiple domains, Modular Monoliths or Microservices can provide better separation and modularity.
-* **Do you have many teams?**
+  A domain is a distinct area of the business with its own language, rules, and data, such as Sales, Billing, or Inventory. In Domain-Driven Design (DDD) terms, each one is a bounded context. A good test is whether the same word means different things in different areas: a "Customer" in Sales is a lead with a pipeline stage, while a "Customer" in Billing is an account with invoices and payment terms. Entities such as Users or Orders are not domains on their own. For applications with multiple domains, Modular Monoliths or Microservices can provide better separation and modularity, with each domain becoming a module or service. [Event Storming](/event-storming) is a practical way to discover your domains, and [Modular Monolith Architecture](/modular-monolith-architecture) shows how they map to modules.
+* **Do you have many teams?**\
   If you have many teams, Microservices or Modular Monolith can help in reducing inter-team dependencies and allow parallel development.
-* **Do you need independent deployments?**
+* **Do you need independent deployments?**\
   If independent deployments are necessary, Microservices is the best choice due to its isolated nature.
-* **Do you need independent scalability?**
+* **Do you need independent scalability?**\
   Microservices allow each service to be scaled independently based on its specific needs, which can be more efficient and cost-effective.
-* **Do you have DevOps maturity?**
-  Microservices require a mature DevOps culture to manage deployments, monitoring, and scaling effectively. Without this, the overhead can be overwhelming.
-* **Is the team experienced?**
+* **Do you have DevOps maturity?**\
+  Microservices require a mature DevOps culture to manage deployments, monitoring, and scaling effectively. They also need more people to run: every service has its own pipeline, infrastructure, monitoring, and on-call responsibility, and the contracts between services need ongoing coordination. A small team running many services spends more time operating the system than improving it. Without the people and the DevOps maturity, the overhead can be overwhelming.
+* **Is the team experienced?**\
   The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
 
 ## Examples
 
 Here are some practical scenarios to illustrate the decision-making process:
 
-
 <boxEmbed
   style="greybox"
   body={<>
-    
+
 ### Scenario 1: Startup with uncertain requirements
 
 You are building an MVP with a small team and expect the requirements to evolve rapidly.
@@ -120,12 +142,10 @@ You are building an MVP with a small team and expect the requirements to evolve 
   figure=""
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    
+
 ### Scenario 2: Medium-sized business with limited DevOps maturity
 
 You have a mid-sized team, and your organization is still developing its DevOps practices.
@@ -136,12 +156,10 @@ You have a mid-sized team, and your organization is still developing its DevOps 
   figure=""
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    
+
 ### Scenario 3: Large enterprise with multiple domains and teams
 
 You are developing a large-scale application with multiple business domains and have several teams working in parallel.
@@ -151,7 +169,6 @@ You are developing a large-scale application with multiple business domains and 
   figurePrefix="none"
   figure=""
 />
-
 
 By carefully considering these factors and understanding the strengths and limitations of each architectural style, you can choose the best architecture for your system, ensuring a balance between flexibility, scalability, and maintainability.
 
