@@ -58,38 +58,36 @@ A human review still matters, but a reviewer reading a 1k+ line PR will easily s
 You should be running security scans throughout the whole development process. Scans are cheap, fixing incidents is not.
 
 ```mermaid
-sequenceDiagram
-    participant Dev as Developer
-    participant Review as Teammate
-    participant Main as main
-    participant Scan as Security scan
-    loop Each feature
-        Dev->>Review: Request PR review
-        Review-->>Dev: Review and approve
-        Dev->>Main: Merge PR
-    end
-    Dev->>Scan: Scan once before release
-    Scan-->>Dev: Find accumulated issues
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#cc4141"
+---
+xychart-beta
+  title "Bad: 1 scan, just before release"
+  x-axis ["Wk 1", "Wk 2", "Wk 3", "Wk 4", "Wk 5", "Wk 6 SCAN"]
+  y-axis "Unscanned issues in main" 0 --> 40
+  bar [6, 12, 19, 25, 31, 37]
 ```
 
-**Figure: Scanning only once after multiple PRs have merged**
+**Figure: Bad example - No scans for 5 weeks, so issues pile up in main. The only scan finds all 37 at once, right before you ship**
 
 ```mermaid
-sequenceDiagram
-    participant Dev as Developer
-    participant Scan as Security scan
-    participant Review as Teammate
-    participant Main as main
-    loop Each completed feature
-        Dev->>Scan: Scan branch before PR
-        Scan-->>Dev: Fix findings
-        Dev->>Review: Request PR review
-        Review-->>Dev: Review checked code
-        Dev->>Main: Merge PR
-    end
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#333333"
+---
+xychart-beta
+  title "Good: a scan before every PR review"
+  x-axis ["Wk 1 SCAN", "Wk 2 SCAN", "Wk 3 SCAN", "Wk 4 SCAN", "Wk 5 SCAN", "Wk 6 SCAN"]
+  y-axis "Unscanned issues in main" 0 --> 40
+  bar [1, 0, 1, 0, 1, 0]
 ```
 
-**Figure: Scanning each feature before asking for a PR review**
+**Figure: Good example - Every PR is scanned before review, so issues get fixed on the branch and main stays close to zero**
 
 ## How do you run an AI security scan?
 
