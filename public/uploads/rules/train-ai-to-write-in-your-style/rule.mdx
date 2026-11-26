@@ -2,77 +2,64 @@
 authors:
 - title: Ulysses Maclaren
   url: https://www.ssw.com.au/people/ulysses-maclaren/
+- title: Ian Hoffman
+  url: https://www.ssw.com.au/people/ian-hoffman
 created: 2024-06-04 00:14:55.700000+00:00
 guid: b3342116-841f-4cc6-9439-1bd900f2e797
 related:
 - rule: public/uploads/rules/humanise-ai-generated-content/rule.mdx
-seoDescription: Learn how to train AI, like ChatGPT, to write in your unique style
-  by providing writing samples, detailed analysis prompts, and content creation prompts
-  to ensure AI-generated content mirrors your authentic voice and tone.
-title: Do you know how to train an AI to write in your style?
+- rule: public/uploads/rules/use-different-tones/rule.mdx
+- rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+seoDescription: "Use writing samples and reusable style notes to guide AI drafts. Understand prompting versus training and review the result for accuracy and voice."
+title: Do you give AI examples of your writing style?
 categories:
   - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 type: rule
 uri: train-ai-to-write-in-your-style
 ---
 
-Creating content that mirrors your unique writing style enhances authenticity and engagement. By training AI like ChatGPT to write in your specific style, you can ensure that the generated content aligns with your voice and tone.
+An AI draft may use a tone you would never use with your readers. Examples of your own writing can give it a more useful starting point than a request to "sound human."
+
+Use those examples to describe your preferences, then review the result. A style match is approximate. It does not guarantee authenticity or accuracy.
 
 <endIntro />
 
-## 1. Provide writing samples
+## How do examples guide a draft?
 
-Share several pieces of your writing with the AI. Then ask the AI to analyze the provided samples for key elements.
+Giving examples in a prompt supplies context for the response. It is different from fine-tuning a model or changing its underlying weights. [Few-shot learning research](https://arxiv.org/abs/2005.14165) describes using textual demonstrations without gradient updates.
 
-**Prompt example:** _"Analyze the following article(s) for tone, sentence structure, humor, readability level, vocabulary, and emotional conveyance."_
+Start with writing that fits the task. An informal message to a colleague is a poor model for a detailed report if the audiences need different things. Use samples you are authorized to share, and remove confidential information unless its use is approved.
 
-## 2. Generate a summary
+## What should you ask the AI to notice?
 
-Request a summary of the identified elements to ensure accuracy.
-
-**Prompt example:** _"Provide a 200-word summary of the writing style based on the analysis."_
-
-## 3. Content creation prompt
-
-Use a specific prompt to generate new content in your style.
-
-**Prompt example:** _"Based on the writing style analyzed from the provided article, create content titled 'The Benefits of Remote Work' at 1000 words. Ensure that the new content strictly adheres to the author's writing style in terms of tone, structure, and approach as identified in the analysis."_
-
----
-
-## Prompt templates
-
+Ask for observations about tone, vocabulary, sentence structure, punctuation, and how you explain an argument. Request examples from the samples so you can check the analysis. A model may mistake one document's quirks for your general preferences.
 
 <boxEmbed
   style="greybox"
   body={<>
-    "Analyze the following article(s) for tone, sentence structure, humor, readability level, vocabulary, and emotional conveyance.
-
-Provide a 200-word summary of the writing style based on the analysis.
-
-&#123;&#123; INSERT ARTICLE EXAMPLE(S) &#125;&#125;"
+    Describe the writing choices in these samples. Quote examples of tone, vocabulary, sentence structure, and how the writer explains or qualifies a claim. Separate repeated choices from features seen only once. Suggest short style notes for this audience; do not infer personality or invent preferences.
   </>}
   figurePrefix="good"
-  figure="Detailed analysis prompt to understand writing style"
+  figure="Check the style observations against your actual writing"
 />
 
+Keep the notes you agree with. Preserve deliberate habits, including longer explanations, three-part lists, or dashes when they serve the reader. You do not need to remove a useful device because a model also uses it.
 
+## How do you use the style notes?
+
+Give the AI the approved notes together with the new task's audience, purpose, facts, and sources. Choose the length the task needs instead of asking it to fill an arbitrary word count.
 
 <boxEmbed
   style="greybox"
   body={<>
-    "Based on the writing style analyzed, create content titled &#123;&#123; TITLE &#125;&#125; at &#123;&#123; WORD COUNT &#125;&#125;.
-
-Ensure that the new content strictly adheres to the author's writing style in terms of tone, structure, and approach as identified in the analysis."
-
+    Draft from the supplied notes and sources for this audience. Use the approved style notes as guidance. Preserve the facts, uncertainty, terminology, and position I have supplied. Do not invent quotations, achievements, or personal experience. Flag missing information. Include enough detail to answer the reader's questions without repeating points.
   </>}
   figurePrefix="good"
-  figure="Content creation prompt ensuring adherence to the identified style"
+  figure="Voice guidance supplements the brief; it does not replace evidence"
 />
 
+Compare the draft with your intentions and sources. A familiar voice can still contain unsupported claims or commitments you did not make. Use the [meaning-preserving editing workflow](/humanise-ai-generated-content) before accepting the result.
 
-Follow these steps to effectively train AI to produce content that reflects your unique writing style, making the output more personal and engaging.
+## How can you reuse the notes?
 
-## Save your style for reuse
-
-If you create content often, you don't want to redo this analysis every time. Save the style analysis as reusable instructions, such as a ChatGPT project or a Claude skill, so every new draft starts in your voice.
+Save the approved notes as reusable instructions in your chosen tool. Revisit them when the audience or writing task changes. A stored style guide remains fallible, and style similarity does not establish who wrote a passage or what assistance must be disclosed.
