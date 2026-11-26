@@ -38,7 +38,7 @@ AI writes code that works, not necessarily code that's safe - this doesn't mean 
 
 [Veracode's October 2026 GenAI Code Security update](https://veracode.com/press-release/veracode-finds-first-meaningful-gain-in-ai-code-security-since-2025-as-average-pass-rate-hits-62) found 38% of AI coding tasks still produced vulnerable code. That's better than 45% in 2025, but even the best models, Claude Opus 5.5 and GPT-6-Sol, failed 1 in 4 security tasks.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Security and Syntax Pass Rates vs LLM Release Date (Veracode security article)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
+<imageEmbed alt="Chart of security and syntax pass rates of LLMs by release date" size="large" showBorder={false} figurePrefix="none" figure="Security and Syntax Pass Rates vs LLM Release Date (Veracode security article)" src="/uploads/rules/ai-security-scans/GenAI-Coding-Report-Graph.avif" />
 
 Some common flaws when vibe-coding:
 
@@ -85,8 +85,6 @@ When your feature is done, run this in Claude Code on your feature branch:
 
 Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
-We also encourage using Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
-
 ### OpenAI Codex
 
 Install the Codex Security plugin, then ask Codex to review your branch before you ask for review:
@@ -112,7 +110,7 @@ Copilot CLI has its own `/security-review` command that scans your local changes
 
 <boxEmbed
   body={<>
-    **Only run the PR Action on trusted PRs.** Its README warns it is not hardened against prompt injection. A PR from a fork can hide instructions in a comment that tell the reviewer to approve it.
+    **Only run the PR Action on trusted PRs.** Its README warns it is not hardened against prompt injection. A PR from a fork can hide instructions in a comment that tell the reviewer to approve it. Require approval before workflows run for outside contributors. See [Do you stop pwn requests from running with your GitHub secrets?](/stop-pwn-requests-github-secrets)
   </>}
   figurePrefix="none"
   figure=""
