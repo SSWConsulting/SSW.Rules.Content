@@ -1,0 +1,128 @@
+---
+type: rule
+title: Do you separate secrets from variables, and shared values from environment-specific ones?
+seoDescription: Decide for every pipeline and app setting whether it is a secret or a variable, and whether it is shared or environment-specific, so keys don't leak and IDs stay readable.
+guid: 1f9f6ee7-4c4d-44f2-b217-4f8ed4720311
+uri: separate-secrets-from-variables
+created: 2026-11-26T03:46:46.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/deploy-to-azure-from-github-actions-with-oidc/rule.mdx
+  - rule: public/uploads/rules/appinsights-authentication/rule.mdx
+  - rule: public/uploads/rules/mask-secrets-in-github-actions/rule.mdx
+  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-cloud-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A deployment pipeline holds dozens of settings, and most teams sort them by habit. Store a key as a variable and it is printed in every build log. Store a resource group name as a secret and nobody can read it back to check what was deployed. Store the same name as both, and someone rotates the copy the pipeline never reads.
+
+<endIntro />
+
+Every setting needs two decisions:
+
+1. **Is it a secret or a variable?**
+2. **Is it shared, or does each environment need its own value?**
+
+## Secret or variable: one test
+
+Ask: **what can someone do with this value?**
+
+* **Secret** - Holding it lets them do something: sign in, read data, write data, spend your money, or send data in your name
+* **Variable** - Holding it lets them do nothing. It names or locates something, and access still needs a credential
+
+There are only two categories. If a value can do anything at all on its own, it is a secret.
+
+Variables are not second-class. You can read a variable back, compare staging with production, and see it in the logs when a deployment goes wrong. Secrets are write-only and masked, which is right for keys and painful for IDs.
+
+## Azure examples
+
+| Variable | Secret |
+| --- | --- |
+| Tenant ID | App registration client secret or certificate |
+| Subscription ID | Storage account access key or connection string |
+| Resource group name | SAS token |
+| Region | SQL connection string with a password |
+| Resource names (App Service, Key Vault, storage account, registry) | Cosmos DB key |
+| App registration client ID (when signing in with OIDC) | Service Bus or Event Hubs connection string |
+| Managed identity client ID | Redis access key |
+| Service principal object ID | Azure OpenAI or AI Foundry API key |
+| Key Vault URI | Function key |
+| App Service host name | Container registry admin password |
+| Container registry login server | App Service publish profile |
+| Storage account endpoint URL | Application Insights connection string |
+
+The client ID only belongs on the left when there is no client secret. With OIDC, Azure accepts a sign-in only from the repository and environment named in the federated credential, so the ID alone gets an outsider nothing. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Info:** Microsoft says the Application Insights instrumentation key is not a security token, and it cannot read your data. It can still write it. Anyone holding the connection string can send fake telemetry into your resource and add to your ingestion bill, so treat it as a secret. To stop misuse properly, turn off local authentication so only Microsoft Entra identities can send data. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Names don't decide
+
+A name or prefix is not the test. In Next.js, any setting that starts with `NEXT_PUBLIC_` is built into the JavaScript sent to every visitor. Store such a value as a GitHub secret and it is still public once the site is built.
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**❌ Figure: Bad example - The key is stored as a secret, but the prefix builds it into the public JavaScript bundle**
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_INDEX_NAME: ${{ vars.SEARCH_INDEX_NAME }}
+  SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**✅ Figure: Good example - Only the harmless index name reaches the browser. The key stays on the server**
+
+A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it is one that can do nothing.
+
+## Shared or environment-specific: one test
+
+Ask: **does staging need a different value from production?**
+
+* **Different** - Store it at environment level, once per environment
+* **Same** - Store it once at repository or organization level, and let every environment read it
+
+One value, one place. A shared value copied into each environment is two copies that drift apart without anyone noticing.
+
+For secrets, lean towards environment level. In GitHub Actions, an environment secret is only given to jobs that name that environment, and the environment's protection rules, such as required reviewers, apply before the job can read it. A production key stored at repository level can be read by any workflow in the repository, including ones that only deploy to staging.
+
+```yaml
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+```
+
+**✅ Figure: Good example - The IDs are readable variables. The client ID comes from the production environment, the tenant and subscription are shared**
+
+## Never store a name twice
+
+If the same name exists as a secret and as a variable, the workflow reads only one of them. The other is dead, and the next person to rotate it changes nothing. When you move a setting from one kind to the other, delete the old copy in the same change.
+
+## Learn more
+
+* [Store information in variables (GitHub Docs)](https://docs.github.com/en/actions/learn-github-actions/variables)
+* [Using secrets in GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
+* [Connection strings in Application Insights (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/azure-monitor/app/connection-strings)
