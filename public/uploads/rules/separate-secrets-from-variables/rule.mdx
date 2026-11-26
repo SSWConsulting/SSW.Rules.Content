@@ -118,7 +118,7 @@ One value, one place. A shared value copied into each environment is two copies 
 
 For secrets, the scope follows the infrastructure behind them. Give staging and production their own resources, each with its own key. Then a staging deployment, a pull request preview or a leaked staging key can't touch production. Store each key at environment level, so only jobs that name that environment can read it.
 
-If both environments share one resource and one key, where you store the key doesn't matter. Staging holds a key that works on production either way. Fix that by splitting the resource, or by giving each environment its own key limited to its own part, not by moving the secret to another scope.
+If both environments share one resource and one key, store the key once at repository level. That tells the next person the truth: the infrastructure is shared, and anything that can deploy staging can reach production. Copying the key into each environment hides that, and leaves two copies to rotate. To separate the environments, split the resource or give each environment its own key limited to its own part. Moving the secret to another scope doesn't separate anything.
 
 ```yaml
 jobs:
