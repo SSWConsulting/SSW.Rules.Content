@@ -56,12 +56,21 @@ Before you ask a teammate to review your PR. Once the feature is done, scan the 
 Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
 
 ```mermaid
-flowchart LR
-  A["Sprint 1 code"] --> M["Merged unscanned"]
-  B["Sprint 2 code"] --> M
-  C["Sprint 3 code"] --> M
-  M --> S["Security scan before go-live"]
-  S --> X["37 issues, no context left"]
+gitGraph
+  commit id: "Sprint 1 start"
+  branch feature-a
+  commit id: "Add invoices API"
+  checkout main
+  merge feature-a id: "Merged unscanned (Sprint 1)"
+  branch feature-b
+  commit id: "Add CSV export"
+  checkout main
+  merge feature-b id: "Merged unscanned (Sprint 2)"
+  branch feature-c
+  commit id: "Add search"
+  checkout main
+  merge feature-c id: "Merged unscanned (Sprint 3)"
+  commit id: "Release prep" tag: "Scan: 37 issues" type: REVERSE
 ```
 
 <boxEmbed
@@ -74,13 +83,15 @@ flowchart LR
 />
 
 ```mermaid
-flowchart LR
-  A["Finish the feature"] --> B["Run /security-review"]
-  B --> C{"Issues found?"}
-  C -->|Yes| D["Fix while the context is fresh"]
-  D --> B
-  C -->|No| E["Open the PR for review"]
-  E --> F["Merged"]
+gitGraph
+  commit id: "Start"
+  branch feature
+  commit id: "Add invoices API"
+  commit id: "WIP push"
+  commit id: "Feature done" tag: "Scan: 1 issue" type: REVERSE
+  commit id: "Fix ownership check" tag: "Scan: clean"
+  checkout main
+  merge feature id: "Teammate review and merge" type: HIGHLIGHT
 ```
 
 <boxEmbed
