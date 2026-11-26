@@ -61,10 +61,10 @@ Variables are not second-class. You can read a variable back, compare staging wi
 | Subscription ID | Storage account access key or connection string |
 | Resource group name | SQL connection string with a password |
 | Resource names (App Service, Key Vault, storage account) | Azure OpenAI or AI Foundry API key |
-| App registration client ID (when signing in with OIDC) | SAS token |
+| App registration client ID | SAS token |
 | Key Vault URI | Application Insights connection string |
 
-The client ID only belongs on the left when there is no client secret. With OIDC, Azure accepts a sign-in only from the repository and environment named in the federated credential, so the ID alone gets an outsider nothing. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
+The client ID is a variable even when the app also has a client secret. The secret is what lets someone sign in, and the ID only says which app to sign in as. Better still, sign in with OIDC, so there is no client secret to store at all. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
 
 <boxEmbed
   style="info"
