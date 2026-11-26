@@ -15,7 +15,7 @@ related:
   - rule: public/uploads/rules/penetration-testing/rule.mdx
   - rule: public/uploads/rules/stop-pwn-requests-github-secrets/rule.mdx
 guid: 8ffa9ea6-c138-4094-8033-02716d46bc12
-seoDescription: 'Run an AI security scan like Claude Code''s /security-review before every push, so AI-written vulnerabilities are caught before they get merged.'
+seoDescription: 'Run an AI security scan like Claude Code''s /security-review before you send your PR for review, so AI-written vulnerabilities are caught before they get merged.'
 created: 2026-11-25T23:50:23.000Z
 createdBy: Harley Jackson
 lastUpdated: 2026-11-26T00:42:59.513Z
@@ -28,7 +28,7 @@ AI has changed how fast developers ship. Your AI agent can build a feature in an
 
 At that speed, security is the first thing to slip out. One of those changes reads `customerId` from the request body, so any logged-in user can download anyone else's invoices. The tests pass, the PR gets approved, and nobody notices.
 
-You can't read it all yourself, so use AI to check it. Run an AI security scan as part of your daily workflow, before you push, and catch the hole while the fix is still a 2-line change, not a post-merge incident.
+You can't read it all yourself, so use AI to check it. Run an AI security scan as part of your daily workflow, before you send your PR to a teammate for review, and catch the hole while the fix is still a 2-line change, not a post-merge incident.
 
 <endIntro />
 
@@ -51,7 +51,9 @@ Human review still matters, but a reviewer reading a 1k+ line PR will easily ski
 
 ## When should you run an AI security scan?
 
-Before every push. Make it part of the same loop as lint and tests, not a once-a-release event.
+Before you ask a teammate to review your PR. Once the feature is done, scan the whole branch, fix what it finds, then open the PR or mark it ready.
+
+Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
 
 <boxEmbed
   body={<>
@@ -64,10 +66,10 @@ Before every push. Make it part of the same loop as lint and tests, not a once-a
 
 <boxEmbed
   body={<>
-    **Scan before every push** - You run `/security-review` before `git push`. It flags 1 issue in the 40 lines you just wrote, and you fix it while the context is still in your head.
+    **Scan before review** - You finish the feature and run `/security-review` before you open the PR. It flags 1 issue in the 200 lines you wrote today, and you fix it while the context is still in your head. Your teammate's review can focus on the design, not hunting for injection bugs.
   </>}
   figurePrefix="good"
-  figure="A scan on every push catches the issue while the fix is still small"
+  figure="Scanning before review means your teammate reviews code that has already been checked"
   style="greybox"
 />
 
@@ -75,7 +77,7 @@ Before every push. Make it part of the same loop as lint and tests, not a once-a
 
 ### Claude Code (Recommended)
 
-At the Claude Code prompt, on your feature branch, before you push:
+At the Claude Code prompt, on your feature branch, before you ask for review:
 
 ```text
 /security-review
@@ -113,8 +115,8 @@ No single tool covers everything. Layer them.
 
 | Tool                                                                                                                                        | When it runs         | What it's best at                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Claude Code `/security-review` (Recommended)                                                                                                | Locally, before push | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
-| Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before push | The same local check for teams on Copilot                                                                                   |
+| Claude Code `/security-review` (Recommended)                                                                                                | Locally, before review | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
+| Copilot CLI `/security-review` (preview)                                                                                                    | Locally, before review | The same local check for teams on Copilot                                                                                   |
 | claude-code-security-review Action                                                                                                          | On every PR          | Safety net when someone skips the local scan                                                                                |
 | GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR          | Known vulnerability patterns, with a suggested fix                                                                          |
 | GitHub secret scanning push protection                                                                                                      | At `git push`        | Blocks the push when it detects a secret                                                                                    |
