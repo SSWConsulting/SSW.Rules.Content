@@ -24,9 +24,11 @@ isArchived: false
 archivedreason: null
 ---
 
-An AI Agent builds a new invoices endpoint in 20 minutes. The tests pass and the PR gets approved. Nobody notices it reads `customerId` from the request body, so any logged-in user can download anyone else's invoices.
+AI has changed how fast developers ship. An AI Agent builds a feature in an afternoon, and in one day a swarm of agents can generate more code than a single developer could review in their lifetime.
 
-Run an AI security scan as part of your daily workflow, before you push. It reads your diff the way an attacker would, and flags the hole while the fix is still a 2-line change, not a post-merge incident.
+At that speed, security is the first thing to slip. One of those changes reads `customerId` from the request body, so any logged-in user can download anyone else's invoices. The tests pass, the PR gets approved, and nobody notices.
+
+You can't read it all yourself, so use AI to check it. Run an AI security scan as part of your daily workflow, before you push, and catch the hole while the fix is still a 2-line change, not a post-merge incident.
 
 <endIntro />
 
@@ -71,20 +73,19 @@ Before every push. Make it part of the same loop as lint and tests, not a once-a
 
 ### Claude Code (Recommended)
 
-On your feature branch, before you push:
+At the Claude Code prompt, on your feature branch, before you push:
 
-```bash
-# Reviews all pending changes on the current branch
+```text
 /security-review
 ```
 
-Claude checks your changes for injection, auth and authorisation flaws, data exposure and insecure defaults. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
+Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
 We recommend Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) 
 
 ### GitHub Copilot
 
-Copilot can run the same kind of local review from Copilot CLI or your IDE before the code reaches GitHub. See GitHub's [Secure code from commit to production](https://docs.github.com/en/code-security/tutorials/secure-code-from-commit-to-production) tutorial.
+Copilot CLI has its own `/security-review` command that scans your local changes before you commit. It's an experimental feature in public preview, so turn on experimental mode first. See the [GitHub changelog](https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli/).
 
 <boxEmbed
   body={<>
@@ -110,8 +111,8 @@ No single tool covers everything. Layer them.
 
 | Tool                                                                                                                                        | When it runs         | What it's best at                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
-| Claude Code `/security-review` (Recommended)                                                                                                | Locally, before push | Logic flaws in your diff - access control, injection, data exposure - with fixes in the same session |
-| Copilot CLI security review                                                                                                                 | Locally, before push | The same local check for teams on Copilot                                                            |
+| Claude Code `/security-review` (Recommended)                                                                                                | Locally, before push | Injection, XSS, auth flaws, insecure data handling and vulnerable dependencies in your diff, with fixes in the same session |
+| Copilot CLI `/security-review` (preview) | Locally, before push | The same local check for teams on Copilot                                                            |
 | claude-code-security-review Action                                                                                                          | On every PR          | Safety net when someone skips the local scan                                                         |
 | GitHub code scanning + [Copilot Autofix](https://docs.github.com/en/code-security/concepts/code-scanning/copilot-autofix-for-code-scanning) | On every PR          | Known vulnerability patterns, with a suggested fix                                                   |
 | GitHub secret scanning push protection                                                                                                      | At `git push`        | Blocks the push when it detects a secret                                                             |
@@ -133,4 +134,4 @@ No single tool covers everything. Layer them.
 * [SSW: Do you defend against package supply chain attacks?](/defend-against-package-supply-chain-attacks) - Lockfiles, release-age windows and install scripts
 * [Anthropic - Automate security reviews with Claude Code](https://claude.com/blog/automate-security-reviews-with-claude-code) - Why the command exists and what it looks for
 * [OWASP - Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) - Threats specific to AI Agents that run commands and push code
-* [Veracode - 2026 GenAI Code Security Report](https://www.veracode.com/wp-content/uploads/2026-GenAI-Report-Infographic.pdf) - The latest numbers: 44% of AI coding tasks still produced a risky vulnerability
+* [Veracode - 2026 GenAI Code Security Report](https://www.veracode.com/resources/analyst-reports/2026-genai-code-security-report/) - The follow-up to the 2025 study, with the latest numbers
