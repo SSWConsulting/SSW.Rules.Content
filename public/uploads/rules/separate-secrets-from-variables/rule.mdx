@@ -49,16 +49,10 @@ Variables are not second-class. You can read a variable back, compare staging wi
 | --- | --- |
 | Tenant ID | App registration client secret or certificate |
 | Subscription ID | Storage account access key or connection string |
-| Resource group name | SAS token |
-| Region | SQL connection string with a password |
-| Resource names (App Service, Key Vault, storage account, registry) | Cosmos DB key |
-| App registration client ID (when signing in with OIDC) | Service Bus or Event Hubs connection string |
-| Managed identity client ID | Redis access key |
-| Service principal object ID | Azure OpenAI or AI Foundry API key |
-| Key Vault URI | Function key |
-| App Service host name | Container registry admin password |
-| Container registry login server | App Service publish profile |
-| Storage account endpoint URL | Application Insights connection string |
+| Resource group name | SQL connection string with a password |
+| Resource names (App Service, Key Vault, storage account) | Azure OpenAI or AI Foundry API key |
+| App registration client ID (when signing in with OIDC) | SAS token |
+| Key Vault URI | Application Insights connection string |
 
 The client ID only belongs on the left when there is no client secret. With OIDC, Azure accepts a sign-in only from the repository and environment named in the federated credential, so the ID alone gets an outsider nothing. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
 
@@ -71,16 +65,27 @@ The client ID only belongs on the left when there is no client secret. With OIDC
   figure=""
 />
 
-## Names don't decide
+## Name every setting for what it is
 
-A name or prefix is not the test. In Next.js, any setting that starts with `NEXT_PUBLIC_` is built into the JavaScript sent to every visitor. Store such a value as a GitHub secret and it is still public once the site is built.
+People decide how to handle a value by reading its name. Almost nobody traces where a value goes before they copy it, log it or rotate it. So the name has to answer two questions on its own: is it safe to show, and what can it do?
+
+A name that contradicts itself answers neither. `NEXT_PUBLIC_SEARCH_ADMIN_KEY` says "public" and "admin key" at once. The next developer can't tell which half is true, so they guess. If they guess public, they paste it into browser code or a log. If they guess secret, they hide a harmless value that nobody can check later.
+
+Some names also change what happens to the value. In Next.js, any setting that starts with `NEXT_PUBLIC_` is built into the JavaScript sent to every visitor, even when it is stored as a GitHub secret. Vite (`VITE_`), Create React App (`REACT_APP_`) and Expo (`EXPO_PUBLIC_`) work the same way. A wrong prefix doesn't just mislead people, it publishes the value.
+
+Names also decide how fast you can respond to a leak. To rotate a key, you have to find every copy of it: the GitHub secret, the Key Vault entry, the App Service setting. That search only works when every copy has the same honest name. The copy stored under another name is the one nobody rotates.
+
+* Say the access level in the name, such as `SEARCH_ADMIN_KEY` and `SEARCH_QUERY_KEY`, not `SEARCH_KEY`
+* Use a public prefix only for values that are safe for anyone to read
+* Use the same name for a value in every store and every environment
+* Rename a value when its role changes, and delete the old name in the same change
 
 ```yaml
 env:
   NEXT_PUBLIC_SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
 ```
 
-**❌ Figure: Bad example - The key is stored as a secret, but the prefix builds it into the public JavaScript bundle**
+**❌ Figure: Bad example - The name says both public and admin, and the prefix wins: the key is built into the public JavaScript bundle**
 
 ```yaml
 env:
@@ -88,7 +93,7 @@ env:
   SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
 ```
 
-**✅ Figure: Good example - Only the harmless index name reaches the browser. The key stays on the server**
+**✅ Figure: Good example - Each name tells the truth. Only the harmless index name reaches the browser, and the key stays on the server**
 
 A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it is one that can do nothing.
 
