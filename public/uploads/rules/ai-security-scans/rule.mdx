@@ -28,15 +28,17 @@ archivedreason: null
 
 AI has changed how fast developers ship. Your AI agent can build a feature in an afternoon, and in one week a bunch of agents can generate more code than a single developer could review in their lifetime.
 
-At that speed, security is the first thing to slip out. One of those changes reads `customerId` from the request body, so any logged-in user can download anyone else's invoices. The tests pass, the PR gets approved, and nobody notices.
+At that speed, security is the first thing to be left out. All it takes is one missed user validation check and now any logged-in user can download someone else's invoices. The tests passed, the PR was approved, and nobody noticed.
 
-You can't read it all yourself, so use AI to check it. Run an AI security scan as part of your daily workflow, before you send your PR to a teammate for review, and catch the hole while the fix is still a 2-line change, not a post-merge incident.
+With agents generating so many features, it's not always feasible to read every line yourself. This doesn't mean you have to stop caring about security though. AI is particularly good at re-running something over and over again. This makes it perfect at catching security vulnerabilities when it knows what to look for.
+
+Make running AI security scans part of your daily workflow. These scans should be run before you send your PR to a teammate for review so you can catch the issue while the fix is still a 2-line change, not a post-merge incident.
 
 <endIntro />
 
 ## Why do you need a security scan when AI writes the code?
 
-AI writes code that works, not necessarily code that's safe - this doesn't mean that AI is the enemy but you should treat every PR as guilty until proven innocent.
+AI writes code that works, not necessarily code that's safe. This doesn't mean that AI is the enemy but you should treat every PR as guilty until proven innocent.
 
 [Veracode's October 2026 GenAI Code Security update](https://veracode.com/press-release/veracode-finds-first-meaningful-gain-in-ai-code-security-since-2025-as-average-pass-rate-hits-62) found 38% of AI coding tasks still produced vulnerable code. That's better than 45% in 2025, but even the best models, Claude Opus 5.5 and GPT-6-Sol, failed 1 in 4 security tasks.
 
@@ -44,18 +46,16 @@ AI writes code that works, not necessarily code that's safe - this doesn't mean 
 
 Some common flaws when vibe-coding:
 
-* **Broken access control** - An endpoint trusts an ID from the client instead of checking who owns the record
-* **Injection** - SQL built with string concatenation, or user input dropped into `dangerouslySetInnerHTML`
-* **Hard-coded secrets** - An API key pasted in "just to test it", then committed
-* **Risky dependencies** - A package version the AI suggested that has a known CVE, which the [OWASP Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) tells you to audit
+* **Broken access control**: An endpoint trusts an ID from the client instead of checking who owns the record
+* **Injection**: SQL built with string concatenation, or user input dropped into `dangerouslySetInnerHTML`
+* **Hard-coded secrets**: An API key pasted in "just to test it", then committed
+* **Risky dependencies**: A package version the AI suggested that has a known CVE, which the [OWASP Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) tells you to audit
 
-Human review still matters, but a reviewer reading a 1k+ line PR will easily skim over certain security issues.
+A human review still matters, but a reviewer reading a 1k+ line PR will easily skim over certain security issues. This is another reason why pulling down the changes and testing locally is still an important step for catching issues.
 
 ## When should you run an AI security scan?
 
-Before you ask a teammate to review your PR. Once the feature is done, scan the whole branch, fix what it finds, then open the PR or mark it ready.
-
-Not on every push. A work-in-progress push is a half-finished diff, so you get half-finished findings, and each scan costs minutes and tokens. And not once a release either.
+You should be running security scans throughout the whole development process. Scans are cheap, fixing incidents is not.
 
 ```mermaid
 ---
@@ -97,29 +97,29 @@ xychart-beta
 
 ### Claude Code (Recommended)
 
-When your feature is done, run this in Claude Code on your feature branch:
+Claude comes pre-built with security scanning tools. When your feature is done, run the following command in Claude Code on your feature branch:
 
 ```text
 /security-review
 ```
 
-Claude reviews all pending changes on the branch for SQL injection, XSS, authentication and authorisation flaws, insecure data handling and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
+Claude will review all pending changes on the branch, looking for common attack vectors such as SQL injections, XSS, authentication and authorisation flaws, insecure data handling, and vulnerable dependencies. When it finds something, ask it to fix it in the same session. See [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code).
 
-We also encourage using Anthropic's AI security reviewer, you can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
+We also encourage using Anthropic's AI security reviewer. You can add this to your GitHub repository workflow [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review)
 
 ### OpenAI Codex
 
-Install the Codex Security plugin, then ask Codex to review your branch before you ask for review:
+Unlike Claude, Codex requires a plugin to conduct security scans. Install the Codex Security plugin using the command below, then ask Codex to review your branch before you ask for review.
 
 ```text
 Use $codex-security:security-diff-scan to review the changes from origin/main to HEAD for security regressions.
 ```
 
-It reviews each changed file plus the code that directly supports it, without turning into a full repository audit. You can also run it from **Security** -> **Scans** in the Codex desktop app. See [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes).
+It'll review each changed file plus the code paths that flow in and out from the change, without turning into a full repository audit. You can also run it from **Security** -> **Scans** in the Codex desktop app. See [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes).
 
 ### GitHub Copilot
 
-Copilot CLI has its own `/security-review` command that scans your local changes before you commit. It's an experimental feature in public preview, so turn on experimental mode first. See the [GitHub changelog](https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli/).
+Copilot CLI has its own `/security-review` command that scans your local changes before you commit. It's currently an experimental feature in public preview, so make sure to turn on experimental mode first. See the [GitHub changelog](https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli/).
 
 <boxEmbed
   body={<>
@@ -141,7 +141,7 @@ Copilot CLI has its own `/security-review` command that scans your local changes
 
 ## Which tool catches what?
 
-No single tool covers everything. Layer them.
+No single tool covers everything. That's why it's so important to layer them.
 
 | Tool                                                                                                                                        | When it runs           | What it's best at                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
