@@ -46,10 +46,10 @@ AI writes code that works, not necessarily code that's safe. This doesn't mean t
 
 Some common flaws when vibe-coding:
 
-* **Broken access control**: An endpoint trusts an ID from the client instead of checking who owns the record
-* **Injection**: SQL built with string concatenation, or user input dropped into `dangerouslySetInnerHTML`
-* **Hard-coded secrets**: An API key pasted in "just to test it", then committed
-* **Risky dependencies**: A package version the AI suggested that has a known CVE, which the [OWASP Secure Coding with AI Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html) tells you to audit
+* **Wrong assumptions**: The AI guesses how the rest of your app works, like assuming a request is already authenticated, or that an ID always belongs to the current user
+* **Side effects nobody considered**: The feature works on its own, but the AI doesn't think about what else it touches, like a new export that also includes another customer's data
+* **Happy path only**: It builds for the input you expect, not for what an attacker would send instead
+* **Loosening security to make it work**: When something fails, it widens a permission, skips a check or opens up CORS until the error goes away
 
 A human review still matters, but a reviewer reading a 1k+ line PR will easily skim over certain security issues. This is another reason why pulling down the changes and testing locally is still an important step for catching issues.
 
