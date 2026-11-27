@@ -23,13 +23,11 @@ archivedreason: null
 isArchived: false
 ---
 
-A deployment pipeline holds dozens of settings, and most teams sort them by habit. One wrong choice can hand a production key to anyone who reads a build log. The opposite mistake hides plain IDs, so in the middle of an incident nobody can tell which account the pipeline signs in with.
+A production key stored as a variable can show up in build logs. An ID stored as a secret makes it harder to check which account the pipeline uses during an incident.
 
 <endIntro />
 
-## Why it matters
-
-Each mistake has a real cost:
+## Common mistakes with pipeline settings
 
 * **A key stored as a variable is published** - Variables are not masked, so the value shows up in build logs. On a public repository, anyone can read those logs and use the key to read your data, delete it, or run up your bill
 * **A key built into browser code is published to every visitor** - Rotating it doesn't help, because the next build publishes the new key too
@@ -48,7 +46,7 @@ A secret is any value that lets whoever holds it do something: sign in, read dat
 
 A quick check: **if this value leaked, would you want to replace it?** A leaked client secret means an urgent rotation. A leaked tenant ID means nothing, because there is nothing to change. If the answer is yes, it is a secret, even when the service doesn't let you rotate it.
 
-Variables are not second-class. You can read a variable back, compare staging with production, and see it in the logs when a deployment goes wrong. Secrets are write-only and masked, which is right for keys and painful for IDs.
+During a failed deployment, you can read variables back, compare them across environments, or check them in the logs. Secrets are write-only, and the pipeline masks them in logs.
 
 ## Azure examples
 
@@ -76,7 +74,7 @@ The client ID is a variable even when the app also has a client secret. The secr
 
 ## Name every setting for what it is
 
-People decide how to handle a value by reading its name. Almost nobody traces where a value goes before they copy it, log it or rotate it. So the name has to answer two questions on its own: is it safe to show, and what can it do?
+Use names that show whether a value is safe to share and what access it grants.
 
 A name that contradicts itself answers neither. `NEXT_PUBLIC_SEARCH_ADMIN_KEY` says "public" and "admin key" at once. The next developer can't tell which half is true, so they guess. If they guess public, they paste it into browser code or a log. If they guess secret, they hide a harmless value that nobody can check later.
 
