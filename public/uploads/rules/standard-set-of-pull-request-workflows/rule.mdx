@@ -50,7 +50,7 @@ You can find the workflow at [SSWConsulting/SSW.GitHub.Template/.github/workflow
 
 Pull requests that sit open for days turn into [merge debt](/merge-debt): they drift from the main branch, pick up conflicts, and get harder to review. A scheduled reminder nudges the author to finish the pull request or close it.
 
-This workflow uses the [actions/stale](https://github.com/actions/stale) action. Once a week it:
+This workflow uses the [actions/stale](https://github.com/actions/stale) action. Once a day it:
 
 * Finds open pull requests that were created more than 3 days ago. Recent commits or comments don't reset the clock
 * Adds the `Stale` label and posts a comment linking to the merge debt rule
@@ -67,8 +67,8 @@ name: "PR - Manage Stale PRs"
 
 on:
   schedule:
-    # https://crontab.guru/#0_20_*_*_0 - At 20:00 on Sunday (UTC)
-    - cron: '0 20 * * 0'
+    # https://crontab.guru/#0_20_*_*_* - At 20:00 every day (UTC)
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 permissions:
