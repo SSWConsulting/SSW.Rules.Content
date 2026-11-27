@@ -59,19 +59,19 @@ Variables are not second-class. You can read a variable back, compare staging wi
 | Resource group name | SQL connection string with a password |
 | Resource names (App Service, Key Vault, storage account) | Azure OpenAI or AI Foundry API key |
 | App registration client ID | SAS token |
-| Key Vault URI | Application Insights connection string |
+| Application Insights connection string | Function key |
 
 The client ID is a variable even when the app also has a client secret. The secret is what lets someone sign in, and the ID only says which app to sign in as. Better still, sign in with OIDC, so there is no client secret to store at all. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
 
 <boxEmbed
   style="info"
   body={<>
-    **Info:** The Application Insights connection string is a grey area. Microsoft says its instrumentation key is not a security token, and it can't read your data. It can still write: anyone holding it can send fake telemetry into your resource and run up your ingestion bill. Treat it as a secret.
+    **Info:** The Application Insights connection string is the one exception to the definition above. Microsoft says its instrumentation key is not a security token, it can't read your data, and browser telemetry has to ship it to every visitor anyway. Treat it as a variable.
 
-    Browser telemetry needs the connection string in the page. If you ship it to the browser, take precautions: send browser telemetry to a separate resource, set a daily cap on that resource, and turn off local authentication on the server's resource so only Microsoft Entra identities can send to it. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
+    It can still be used for spoofing: anyone who copies it can send fake telemetry into your resource and run up your ingestion bill. Protect the resource instead of the string: send browser telemetry to a separate resource, set a daily cap on that resource, and turn off local authentication on the server's resource so only Microsoft Entra identities can send to it. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
   </>}
   figurePrefix="none"
-  figure="The App Insights connection string can write telemetry, so treat it as a secret"
+  figure="The App Insights connection string is a variable, but someone can use it to spoof telemetry"
 />
 
 ## Name every setting for what it is
@@ -105,7 +105,7 @@ env:
 
 **✅ Figure: Good example - Each name tells the truth. Only the harmless index name reaches the browser, and the key stays on the server**
 
-A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it is one that can do nothing. The Application Insights connection string for browser telemetry is the exception: ship it only with the precautions above.
+A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it can do no real harm.
 
 ## Shared or environment-specific: one test
 
