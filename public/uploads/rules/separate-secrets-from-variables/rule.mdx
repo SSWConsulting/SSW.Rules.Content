@@ -1,0 +1,121 @@
+---
+type: rule
+title: Do you know which settings are secrets and where to store them?
+seoDescription: Decide for every pipeline and app setting whether it is a secret or a variable, and whether it is shared or environment-specific, so keys don't leak and IDs stay readable.
+guid: 1f9f6ee7-4c4d-44f2-b217-4f8ed4720311
+uri: separate-secrets-from-variables
+created: 2026-11-26T03:46:46.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: public/uploads/rules/deploy-to-azure-from-github-actions-with-oidc/rule.mdx
+  - rule: public/uploads/rules/mask-secrets-in-github-actions/rule.mdx
+  - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+  - category: categories/project-delivery/rules-to-better-github.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-azure.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-cloud-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A production key stored as a variable can show up in build logs. An ID stored as a secret makes it harder to check which account the pipeline uses during an incident.
+
+<endIntro />
+
+## Common mistakes with pipeline settings
+
+* **A key stored as a variable is published** - Variables are not masked, so the value shows up in build logs. On a public repository, anyone can read those logs and use the key to read your data, delete it, or run up your bill
+* **A key built into browser code is published to every visitor** - Rotating it doesn't help, because the next build publishes the new key too
+* **A key stored twice gets rotated in the wrong place** - The pipeline reads one copy, someone rotates the other, and the leaked key keeps working while everyone believes it is fixed
+* **A key shared by staging and production makes a staging leak a production leak** - Whoever gets the staging key can also change production
+* **An ID stored as a secret can't be read back** - Nobody can check which tenant, subscription or app a pipeline uses, which is exactly what you need to know during an incident
+
+Every setting needs two decisions:
+
+1. **Is it a secret or a variable?**
+2. **Is it shared, or does each environment need its own value?**
+
+## What is a secret?
+
+A secret is any value that lets whoever holds it do something: sign in, read data, write data, spend your money, or send data in your name. Everything else is a variable. It names or locates something, and access still needs a credential.
+
+A quick check: **if this value leaked, would you want to replace it?** A leaked client secret means an urgent rotation. A leaked tenant ID means nothing, because there is nothing to change. If the answer is yes, it is a secret, even when the service doesn't let you rotate it.
+
+During a failed deployment, you can read variables back, compare them across environments, or check them in the logs. Secrets are write-only, and the pipeline masks them in logs.
+
+## Azure examples
+
+| Variable | Secret |
+| --- | --- |
+| Tenant ID | App registration client secret or certificate |
+| Subscription ID | Storage account access key or connection string |
+| Resource group name | SQL connection string with a password |
+| Resource names (App Service, Key Vault, storage account) | Azure OpenAI or AI Foundry API key |
+| App registration client ID | SAS token |
+
+The client ID is a variable even when the app also has a client secret. The secret is what lets someone sign in, and the ID only says which app to sign in as. Better still, sign in with OIDC, so there is no client secret to store at all. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
+
+## Name every setting for what it is
+
+Use names that show whether a value is safe to share and what access it grants.
+
+A name that contradicts itself answers neither. `NEXT_PUBLIC_SEARCH_ADMIN_KEY` says "public" and "admin key" at once. The next developer can't tell which half is true, so they guess. If they guess public, they paste it into browser code or a log. If they guess secret, they hide a harmless value that nobody can check later.
+
+Some names also change what happens to the value. In Next.js, a setting that starts with `NEXT_PUBLIC_` is built into any browser JavaScript that reads it, even when it is stored as a GitHub secret. Some tools go further and copy every public-prefixed value into their own bundles. Vite (`VITE_`), Create React App (`REACT_APP_`) and Expo (`EXPO_PUBLIC_`) work the same way. A wrong prefix doesn't just mislead people, it publishes the value.
+
+Names also decide how fast you can respond to a leak. To rotate a key, you have to find every copy of it: the GitHub secret, the Key Vault entry, the App Service setting. That search only works when every copy has the same honest name. The copy stored under another name is the one nobody rotates.
+
+* Say the access level in the name, such as `SEARCH_ADMIN_KEY` and `SEARCH_QUERY_KEY`, not `SEARCH_KEY`
+* Use a public prefix only for values that are safe for anyone to read
+* Use the same name for a value in every store and every environment
+* Rename a value when its role changes, and delete the old name in the same change
+* Store each name once, as a secret or as a variable, never both. The workflow reads only one copy, so the other is dead and rotating it changes nothing
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**❌ Figure: Bad example - The name says both public and admin, and the prefix wins: the key is built into the public JavaScript bundle**
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_INDEX_NAME: ${{ vars.NEXT_PUBLIC_SEARCH_INDEX_NAME }}
+  SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**✅ Figure: Good example - Each name tells the truth. Only the harmless index name reaches the browser, and the key stays on the server**
+
+A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it can do no real harm.
+
+## Shared or environment-specific: one test
+
+Ask: **does staging need a different value from production?**
+
+* **Different** - Store it at environment level, once per environment
+* **Same** - Store it once at repository or organization level, and let every environment read it
+
+One value, one place. A shared value copied into each environment is two copies that drift apart without anyone noticing.
+
+For secrets, the scope follows the infrastructure behind them. Give staging and production their own resources, each with its own key. Then a staging deployment, a pull request preview or a leaked staging key can't touch production. Store each key at environment level, so only jobs that name that environment can read it.
+
+If both environments share one resource and one key, store the key once at repository level. That tells the next person the truth: the infrastructure is shared, and anything that can deploy staging can reach production. Copying the key into each environment hides that, and leaves two copies to rotate. To separate the environments, split the resource or give each environment its own key limited to its own part. Moving the secret to another scope doesn't separate anything.
+
+| Setting | Scope | Why |
+| --- | --- | --- |
+| Tenant ID | Shared | Every environment signs in to the same tenant |
+| Resource group name | Environment | Each environment deploys to its own resource group |
+| Client ID of the deployment identity | Environment | Each environment signs in with its own identity |
+| Database connection string | Environment | Each environment has its own database |
+| Search admin key, when both environments use one search service | Shared | The search service is shared, and the scope says so |
+
+**✅ Figure: Good example - The scope of each setting matches the infrastructure behind it, including a search service that is still shared and should be split**
+
+## Learn more
+
+* [Store information in variables (GitHub Docs)](https://docs.github.com/en/actions/learn-github-actions/variables)
+* [Using secrets in GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
