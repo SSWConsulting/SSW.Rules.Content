@@ -74,4 +74,46 @@ The workflow will also ping the author of the pull request after around 36 hours
 />
 
 
-You can find the workflow at [SSWConsulting/SSW.GitHub.Template/.github/workflows/pr-manage-stale.yml](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/workflows/pr-manage-stale.yml)
+Add this workflow as `.github/workflows/pr-manage-stale.yml`:
+
+```yaml
+# Contributors: @wicksipedia @william-liebenberg @GordonBeeming
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
+
+name: "PR - Manage Stale PRs"
+
+on:
+  schedule:
+    # https://crontab.guru/#0_20_*_*_0 - At 20:00 on Sunday (UTC)
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: write
+
+jobs:
+  review-reminder:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-issue-stale: -1 # don't mark issues as stale
+          days-before-pr-stale: 3
+          days-before-close: -1 # don't close issues/PRs
+          exempt-draft-pr: true
+          ignore-updates: true
+          stale-pr-message: |
+            Hi there!
+
+            This PR has been here a while.
+
+            [Did you know you should avoid merge debt?] (https://www.ssw.com.au/rules/merge-debt/)
+
+            Please review and merge or close.
+
+            Thanks!
+```
