@@ -34,7 +34,7 @@ On the day the tender is released, the Bid Manager drafts a timeline that works 
 
 * **When** - the day each stage starts, counted from release and from close
 * **Owner** - the one person accountable for the stage
-* **Who is pulled in** - the people outside the Bid Team, and for how long, so they can block out the time
+* **Who is pulled in** - the people outside the core bid roles (Bid Manager and Bid Writer), and for how long, so they can block out the time
 * **AI skill** - the stages where an AI skill does the first draft, so everyone knows which output to check rather than write
 
 ## Example timeline
@@ -45,34 +45,36 @@ This example is for a tender with 15 business days between release and close. Sc
 | --- | --- | --- | --- | --- |
 | Day 1 | Read the tender and write the [one-page summary](/tender-one-page-summary) | Bid Manager | - | 🤖 Drafts the summary |
 | Day 1 | Fill in the Go/No-Go assessment and draft any clarification questions | Bid Manager | - | 🤖 Drafts the Go/No-Go and questions |
-| Day 2 | [Gate 1 - Go/No-Go](/tender-gates) meeting. Decide the pricing model, hosting, and the named developers | Bid Owner | Bid Owner, Sales (1 hour) | - |
-| Day 3 | Set the target - Win Strategy and Win Themes | Sales | Tender consultant (half a day) | - |
-| Day 3-4 | Record the [Tender Plan video](/tender-plan-video) | Pre-sales Solution Architect | Bid Owner watches (10 min) | - |
-| Day 4-11 | Write the response and build the proof of concept (POC) | Bid Writer, Pre-sales Solution Architect | Developers (as approved at Gate 1) | 🤖 Drafts the first version of each section |
+| Day 1-2 | Draft the [Win Strategy](/do-you-define-win-strategies-and-win-themes) and target price for Gate 1 | Sales | - | - |
+| Day 2 | [Gate 1 - Go/No-Go](/tender-gates) meeting. Decide the pricing model, hosting, and the named developers | Bid Manager | Bid Owner, Sales, named developers (1 hour) | - |
+| Day 3 | Set the target - refine the Win Strategy and Win Themes | Sales | Tender consultant (half a day) | - |
+| Day 3 | Record the [Tender Plan video](/tender-plan-video) | Pre-sales Solution Architect | Bid Owner watches (10 min) | - |
+| Day 4-11 | Write the response, and build the proof of concept (POC) with the Pre-sales Solution Architect | Bid Writer | Developers (as approved at Gate 1) | 🤖 Drafts the first version of each section |
 | Close - 3 days | Review the draft against the target | Bid Manager | Tender consultant (half a day) | - |
-| Close - 2 days | Record the [Tender Summary video](/tender-summary-video) and hold [Gate 2 - Submit](/tender-gates) | Bid Manager | Bid Owner (30 min) | - |
+| Close - 2 days | Record the [Tender Summary video](/tender-summary-video) and hold [Gate 2 - Submit](/tender-gates), approved on condition that the final QA check passes | Bid Manager | Bid Owner (30 min) | - |
 | Close - 1 day | [Final QA check](/tender-final-qa-check) and lodge | Bid Manager | - | 🤖 Runs the QA checklist |
-| After close | [Retro](/what-happens-at-retro-meetings) | Bid Manager | Bid Team (30 min) | - |
+| After close | [Retro](/what-happens-at-retro-meetings) | Bid Manager | Sales, Pre-sales Solution Architect, tender consultant (30 min) | - |
 
-**Figure: Each row has a day, one owner, and the time you need from people outside the Bid Team**
+**Figure: Each row has a day, one owner, and the time you need from everyone else**
 
 ## Decide the commercials at Gate 1, not in the last days
 
-Pricing model, price, and hosting change the whole response. Decide them at the Gate 1 meeting with the developers who will deliver the work.
+Pricing model, price, and hosting change the whole response. Sales brings a draft Win Strategy and target price to Gate 1, and the meeting decides them with the developers who will deliver the work.
 
 If the tender requires a fixed price, the Bid Owner must approve the price in writing before Gate 1 closes. A verbal "yes" given at the last minute is not enough.
 
-<boxEmbed
-  style="greybox"
+<emailEmbed
+  from="Bid Manager"
+  to="Bid Owner"
+  subject="Northwind website - Gate 1 - Fixed price approval"
+  shouldDisplayBody={true}
   body={<>
-    **Subject:** Northwind website - Gate 1 - Fixed price approval
-
     Hi Bid Owner,
 
     As discussed at the Gate 1 meeting, please reply "Approved" to confirm a fixed price of $X (inc GST) for this tender.
   </>}
   figurePrefix="good"
-  figure="Good example - The fixed price approval is in writing, at Gate 1"
+  figure="The fixed price approval is in writing, at Gate 1"
 />
 
 ## Send clarification questions only after sign-off
