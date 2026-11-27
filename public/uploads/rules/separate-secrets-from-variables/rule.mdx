@@ -66,10 +66,12 @@ The client ID is a variable even when the app also has a client secret. The secr
 <boxEmbed
   style="info"
   body={<>
-    **Info:** Microsoft says the Application Insights instrumentation key is not a security token, and it cannot read your data. It can still write it. Anyone holding the connection string can send fake telemetry into your resource and add to your ingestion bill, so treat it as a secret. To stop misuse properly, turn off local authentication so only Microsoft Entra identities can send data. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
+    **Info:** The Application Insights connection string is a grey area. Microsoft says its instrumentation key is not a security token, and it can't read your data. It can still write: anyone holding it can send fake telemetry into your resource and run up your ingestion bill. Treat it as a secret.
+
+    Browser telemetry needs the connection string in the page. If you ship it to the browser, take precautions: send browser telemetry to a separate resource, set a daily cap on that resource, and turn off local authentication on the server's resource so only Microsoft Entra identities can send to it. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
   </>}
   figurePrefix="none"
-  figure=""
+  figure="The App Insights connection string can write telemetry, so treat it as a secret"
 />
 
 ## Name every setting for what it is
