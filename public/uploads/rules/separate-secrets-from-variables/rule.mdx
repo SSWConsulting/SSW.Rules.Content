@@ -42,14 +42,11 @@ Every setting needs two decisions:
 1. **Is it a secret or a variable?**
 2. **Is it shared, or does each environment need its own value?**
 
-## Secret or variable: one test
+## What is a secret?
 
-Ask: **what can someone do with this value?**
+A secret is any value that lets whoever holds it do something: sign in, read data, write data, spend your money, or send data in your name. Everything else is a variable. It names or locates something, and access still needs a credential.
 
-* **Secret** - Holding it lets them do something: sign in, read data, write data, spend your money, or send data in your name
-* **Variable** - Holding it lets them do nothing. It names or locates something, and access still needs a credential
-
-There are only two categories. If a value can do anything at all on its own, it is a secret.
+A quick check: **if this value leaked, would you want to replace it?** A leaked client secret means an urgent rotation. A leaked tenant ID means nothing, because there is nothing to change. If the answer is yes, it is a secret, even when the service doesn't let you rotate it.
 
 Variables are not second-class. You can read a variable back, compare staging with production, and see it in the logs when a deployment goes wrong. Secrets are write-only and masked, which is right for keys and painful for IDs.
 
