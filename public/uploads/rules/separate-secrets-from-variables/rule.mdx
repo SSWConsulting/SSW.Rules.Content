@@ -11,7 +11,6 @@ authors:
 related:
   - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
   - rule: public/uploads/rules/deploy-to-azure-from-github-actions-with-oidc/rule.mdx
-  - rule: public/uploads/rules/appinsights-authentication/rule.mdx
   - rule: public/uploads/rules/mask-secrets-in-github-actions/rule.mdx
   - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
 categories:
@@ -57,20 +56,8 @@ During a failed deployment, you can read variables back, compare them across env
 | Resource group name | SQL connection string with a password |
 | Resource names (App Service, Key Vault, storage account) | Azure OpenAI or AI Foundry API key |
 | App registration client ID | SAS token |
-| Application Insights connection string | Function key |
 
 The client ID is a variable even when the app also has a client secret. The secret is what lets someone sign in, and the ID only says which app to sign in as. Better still, sign in with OIDC, so there is no client secret to store at all. See [Do you deploy to Azure from GitHub Actions with OIDC instead of secrets?](/deploy-to-azure-from-github-actions-with-oidc)
-
-<boxEmbed
-  style="info"
-  body={<>
-    **Info:** The Application Insights connection string is the one exception to the definition above. Microsoft says its instrumentation key is not a security token, it can't read your data, and browser telemetry has to ship it to every visitor anyway. Treat it as a variable.
-
-    It can still be used for spoofing: anyone who copies it can send fake telemetry into your resource and run up your ingestion bill. Protect the resource instead of the string: send browser telemetry to a separate resource, set a daily cap on that resource, and turn off local authentication on the server's resource so only Microsoft Entra identities can send to it. See [Do you secure your AppInsights Telemetry?](/appinsights-authentication)
-  </>}
-  figurePrefix="none"
-  figure="The App Insights connection string is a variable, but someone can use it to spoof telemetry"
-/>
 
 ## Name every setting for what it is
 
@@ -132,4 +119,3 @@ If both environments share one resource and one key, store the key once at repos
 
 * [Store information in variables (GitHub Docs)](https://docs.github.com/en/actions/learn-github-actions/variables)
 * [Using secrets in GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
-* [Connection strings in Application Insights (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/azure-monitor/app/connection-strings)
