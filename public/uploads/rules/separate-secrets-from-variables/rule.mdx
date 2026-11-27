@@ -80,7 +80,7 @@ People decide how to handle a value by reading its name. Almost nobody traces wh
 
 A name that contradicts itself answers neither. `NEXT_PUBLIC_SEARCH_ADMIN_KEY` says "public" and "admin key" at once. The next developer can't tell which half is true, so they guess. If they guess public, they paste it into browser code or a log. If they guess secret, they hide a harmless value that nobody can check later.
 
-Some names also change what happens to the value. In Next.js, any setting that starts with `NEXT_PUBLIC_` is built into the JavaScript sent to every visitor, even when it is stored as a GitHub secret. Vite (`VITE_`), Create React App (`REACT_APP_`) and Expo (`EXPO_PUBLIC_`) work the same way. A wrong prefix doesn't just mislead people, it publishes the value.
+Some names also change what happens to the value. In Next.js, a setting that starts with `NEXT_PUBLIC_` is built into any browser JavaScript that reads it, even when it is stored as a GitHub secret. Some tools go further and copy every public-prefixed value into their own bundles. Vite (`VITE_`), Create React App (`REACT_APP_`) and Expo (`EXPO_PUBLIC_`) work the same way. A wrong prefix doesn't just mislead people, it publishes the value.
 
 Names also decide how fast you can respond to a leak. To rotate a key, you have to find every copy of it: the GitHub secret, the Key Vault entry, the App Service setting. That search only works when every copy has the same honest name. The copy stored under another name is the one nobody rotates.
 
@@ -99,13 +99,13 @@ env:
 
 ```yaml
 env:
-  NEXT_PUBLIC_SEARCH_INDEX_NAME: ${{ vars.SEARCH_INDEX_NAME }}
+  NEXT_PUBLIC_SEARCH_INDEX_NAME: ${{ vars.NEXT_PUBLIC_SEARCH_INDEX_NAME }}
   SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
 ```
 
 **✅ Figure: Good example - Each name tells the truth. Only the harmless index name reaches the browser, and the key stays on the server**
 
-A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it is one that can do nothing.
+A secret must never reach client code, whatever it is called. If the browser truly needs a value, it is public, so make sure it is one that can do nothing. The Application Insights connection string for browser telemetry is the exception: ship it only with the precautions above.
 
 ## Shared or environment-specific: one test
 
