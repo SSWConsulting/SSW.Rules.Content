@@ -1,0 +1,57 @@
+---
+type: rule
+title: Do you name each setting for what it is?
+seoDescription: Name every pipeline and app setting so the name alone says whether it is safe to show and what it can do, and use one name per value in every store.
+guid: 3bfdfea8-3229-440b-a60f-83d045b121ad
+uri: name-settings-for-what-they-are
+created: 2026-11-27T01:07:24.000Z
+authors:
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/separate-secrets-from-variables/rule.mdx
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+  - category: categories/project-delivery/rules-to-better-github.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-cloud-security.mdx
+archivedreason: null
+isArchived: false
+---
+
+A developer finds `NEXT_PUBLIC_SEARCH_ADMIN_KEY` in a workflow. The name says "public" and "admin key" at once, so they have to guess which half is true. Guess wrong, and a key ends up in browser code, or a harmless value gets locked away where nobody can check it.
+
+<endIntro />
+
+## Why names matter
+
+People decide how to handle a value by reading its name. Almost nobody traces where a value goes before they copy it, log it or rotate it. So the name has to answer two questions on its own: is it safe to show, and what can it do? To decide what counts as a secret, see [Do you know which settings are secrets and where to store them?](/separate-secrets-from-variables)
+
+A name that contradicts itself answers neither. If the next developer guesses public, they paste the value into browser code or a log. If they guess secret, they hide a harmless value that nobody can check later.
+
+Some names also change what happens to the value. In Next.js, a setting that starts with `NEXT_PUBLIC_` is built into any browser JavaScript that reads it, even when it is stored as a GitHub secret. Vite (`VITE_`), Create React App (`REACT_APP_`) and Expo (`EXPO_PUBLIC_`) work the same way, and some tools copy every public-prefixed value into their own bundles. A wrong prefix doesn't just mislead people, it publishes the value.
+
+Names also decide how fast you can respond to a leak. To rotate a key, you have to find every copy of it: the GitHub secret, the Key Vault entry, the App Service setting. That search only works when every copy has the same honest name. The copy stored under another name is the one nobody rotates.
+
+## How to name settings
+
+* Say the access level in the name, such as `SEARCH_ADMIN_KEY` and `SEARCH_QUERY_KEY`, not `SEARCH_KEY`
+* Use a public prefix only for values that are safe for anyone to read
+* Use the same name for a value in every store and every environment
+* Rename a value when its role changes, and delete the old name in the same change
+* Store each name once, as a secret or as a variable, never both. The workflow reads only one copy, so the other is dead and rotating it changes nothing
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**❌ Figure: Bad example - The name says both public and admin, and the prefix wins: the key is built into the public JavaScript bundle**
+
+```yaml
+env:
+  NEXT_PUBLIC_SEARCH_INDEX_NAME: ${{ vars.NEXT_PUBLIC_SEARCH_INDEX_NAME }}
+  SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+```
+
+**✅ Figure: Good example - Each name tells the truth. Only the harmless index name reaches the browser, and the key stays on the server**
