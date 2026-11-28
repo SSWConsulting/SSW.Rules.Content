@@ -23,7 +23,7 @@ You should understand the specific risks and have concrete defences in place.
 
 <endIntro />
 
-### Prompt Injection - The #1 LLM Risk
+## Prompt Injection - The #1 LLM Risk
 
 Prompt injection is the most critical risk in AI applications ([OWASP LLM01:2025](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)). It works by embedding malicious instructions into content that an LLM processes.
 
@@ -63,7 +63,7 @@ Similarly, a GitHub Copilot RCE vulnerability ([CVE-2025-53773](https://embracet
 
 ✅ **Figure: Good example - The email is inside document tags, so Prompt Shields can check it for hidden instructions**
 
-### AI-Powered Supply Chain Attacks
+## AI-Powered Supply Chain Attacks
 
 AI code-generation tools hallucinate package names - and attackers exploit this. The attack is called **slopsquatting**: an LLM suggests a plausible-sounding but nonexistent package, an attacker registers that name on npm/PyPI with a malicious payload, and the next developer who follows the AI's suggestion installs malware.
 
@@ -78,7 +78,7 @@ Malicious package uploads to open-source repositories jumped **156% year-over-ye
 * Use lockfiles, pin dependency versions, and maintain SBOMs
 * Use tools like [Socket.dev](https://socket.dev/) or [Snyk](https://snyk.io/) to detect suspicious packages
 
-### MCP and Tool-Use Risks - When LLMs Are the Glue
+## MCP and Tool-Use Risks - When LLMs Are the Glue
 
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) and similar tool-use frameworks let LLMs connect to external APIs, databases, and services. This is powerful, but it means the LLM becomes an intermediary that trusts tool descriptions and executes actions with real credentials. If any part of that chain is compromised, the blast radius is enormous.
 
@@ -99,7 +99,7 @@ Over 1,800 MCP servers were found publicly accessible without authentication. An
 * Never grant MCP servers blanket access to credentials or sensitive data
 * Monitor MCP tool invocations for unexpected parameter values
 
-### AI-Generated Malware
+## AI-Generated Malware
 
 AI has dramatically lowered the barrier to writing sophisticated malware. In January 2026, Check Point Research identified [VoidLink](https://research.checkpoint.com/2026/voidlink-early-ai-generated-malware-framework/) - the first documented advanced malware framework authored almost entirely by AI. A single threat actor used an AI coding assistant to produce **88,000 lines of code in under a week**, including custom loaders, rootkits, and modular plugins targeting cloud environments (AWS, GCP, Azure).
 
@@ -114,7 +114,7 @@ This means traditional antivirus is increasingly ineffective. You need behaviora
 * Implement application allowlisting
 * Use AI-powered security tools that can detect AI-generated threats
 
-### Shadow AI and Data Leakage
+## Shadow AI and Data Leakage
 
 Shadow AI - employees using unauthorized AI tools - is now the #1 data exfiltration channel, responsible for **32% of all unauthorized corporate data movement**. 71% of office workers admit to using AI tools without IT approval, and 77% of employees paste data into AI tools, with 82% of that activity coming from personal (unmanaged) accounts.
 
@@ -128,7 +128,7 @@ The consequences are real. Samsung had to ban all employee use of generative AI 
 * Block unauthorized AI service domains at the network level
 * Ensure enterprise AI tools are opted out of model training
 
-### Agentic AI and OpenClaw - Autonomous Agents Are High-Risk
+## Agentic AI and OpenClaw - Autonomous Agents Are High-Risk
 
 AI agents that autonomously use tools, access file systems, call APIs, and send messages represent the highest-risk category. When an agent gets compromised via prompt injection, every action it takes passes security checks because it's using legitimate credentials.
 
@@ -144,7 +144,7 @@ OWASP released a dedicated [Top 10 for Agentic Applications](https://genai.owasp
 * Monitor agent activity for anomalous behaviour
 * Never give a single agent broad cross-system access
 
-### Summary
+## Summary
 
 The [OWASP Top 10 for LLM Applications (2025)](https://genai.owasp.org/llm-top-10/) provides a comprehensive framework for understanding LLM-specific risks:
 
